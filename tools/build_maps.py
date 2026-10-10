@@ -453,7 +453,7 @@ def blackout_1():
     m.item("box", 16.5, 0.0, 37.0, "mystery")
     m.item("ammo", 10.0, 0.0, 31.0)
     # The alley's stash.
-    m.item("weapon", -19.0, 0.0, 21.0, "battle_rifle")
+    m.item("weapon", -19.0, 0.0, 21.0, "hunting_rifle")
     m.item("throwable", -19.0, 0.0, 23.5, "molotov")
     m.item("box", -15.0, 0.0, 23.8)
     m.sleeper(-12.0, 21.0, 90)
@@ -468,7 +468,7 @@ def blackout_1():
     m.objective("fence", "use", 17.3, 1.0, 66.0, "Cut the fence lock", seconds=3.0, holdout=35.0,
                 opens=["fence"], message="The lock is screaming. Here they come — hold on!")
     m.item("ammo", 14.0, 0.0, 61.0)
-    m.item("throwable", 14.5, 0.0, 61.0, "pipe")
+    m.item("throwable", 14.5, 0.0, 61.0, "pipe_bomb")
     scatter_cars(m, rng, 22, 74, 30, 88, 2, ("cars_sedan", "cars_delivery"))
     m.lamp(29.4, 80, -90)
     m.sleeper(23.0, 84.0, 180)
@@ -527,7 +527,7 @@ def blackout_2():
     m.prop("urban_pallet", -1.0, 66.0)
     m.sleeper(-17.0, 56.0, 90)
     m.sleeper(17.5, 70.0, 270)
-    m.item("weapon", 9.5, 0.0, 43.0, "drum_shotgun")
+    m.item("weapon", 9.5, 0.0, 43.0, "pump_shotgun")
     m.item("medkit", -9.5, 0.0, 66.0)
     m.item("throwable", 0.0, 0.0, 74.0, "frag")
     m.item("box", 18.0, 0.0, 47.0, "explosive")
@@ -588,7 +588,7 @@ def blackout_3():
     m.sleeper(24.0, 33.0, 0)
     m.sleeper(-26.0, 52.0, 90)
 
-    m.item("weapon", -22.0, 0.0, 38.5, "carbine")
+    m.item("weapon", -22.0, 0.0, 38.5, "grenade_launcher")
     m.item("box", 22.0, 0.0, 34.0, "medical")
     m.item("box", 0.0, 0.0, 50.0)
     m.item("ammo", 2.5, 0.0, 95.0)
@@ -642,7 +642,7 @@ def lot():
 
     for x, z, kind, iid in ((-27.0, -27.0, "box", None), (27.0, 27.0, "box", None), (27.0, -27.0, "ammo", None),
                             (-27.0, 27.0, "ammo", None), (0.0, -27.0, "weapon", "drum_shotgun"),
-                            (0.0, 27.0, "weapon", "battle_rifle"), (-27.0, 8.0, "throwable", "pipe"),
+                            (0.0, 27.0, "weapon", "machine_gun"), (-27.0, 8.0, "throwable", "pipe_bomb"),
                             (27.0, -8.0, "throwable", "molotov"), (-10.0, 25.0, "medkit", None)):
         m.item(kind, x, 0.0, z, iid)
 
@@ -690,8 +690,8 @@ def chapel():
     m.light(0.0, 1.2, -12.0, 8.0, 1.5, [1.0, 0.6, 0.3])
 
     for x, z, kind, iid in ((-25.0, -25.0, "box", None), (25.0, 25.0, "box", None), (25.0, -25.0, "box", "explosive"),
-                            (-25.0, 25.0, "ammo", None), (25.0, 0.0, "ammo", None), (-25.0, 0.0, "weapon", "carbine"),
-                            (0.0, 25.0, "throwable", "molotov"), (0.0, -25.0, "throwable", "pipe")):
+                            (-25.0, 25.0, "ammo", None), (25.0, 0.0, "ammo", None), (-25.0, 0.0, "weapon", "sawed_off"),
+                            (0.0, 25.0, "throwable", "molotov"), (0.0, -25.0, "throwable", "pipe_bomb")):
         m.item(kind, x, 0.0, z, iid)
     m.sleeper(-22.0, -4.0, 90)
     m.sleeper(22.0, 4.0, 270)
