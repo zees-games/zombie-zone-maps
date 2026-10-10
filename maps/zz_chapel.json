@@ -1,0 +1,1230 @@
+{
+ "format": 1,
+ "kind": "zombiezone_map",
+ "id": "zz_chapel",
+ "name": "Chapel Yard",
+ "author": "zombie-zone-maps",
+ "blurb": "A graveyard in fog and a chapel with two doors. Six minutes.",
+ "mode": "survival",
+ "environment": {
+  "sky_top": [
+   0.02,
+   0.025,
+   0.05
+  ],
+  "sky_horizon": [
+   0.07,
+   0.07,
+   0.1
+  ],
+  "ground": [
+   0.03,
+   0.03,
+   0.03
+  ],
+  "sun_pitch": -40.0,
+  "sun_yaw": 140.0,
+  "sun_energy": 0.12,
+  "sun_colour": [
+   0.6,
+   0.7,
+   1.0
+  ],
+  "ambient": [
+   0.32,
+   0.36,
+   0.4
+  ],
+  "ambient_energy": 0.25,
+  "fog": 0.05
+ },
+ "kill_y": -20.0,
+ "survive_seconds": 360.0,
+ "boxes": [
+  {
+   "at": [
+    0.0,
+    -0.1,
+    0.0
+   ],
+   "size": [
+    56.0,
+    0.2,
+    56.0
+   ],
+   "mat": "grass",
+   "nav": false
+  },
+  {
+   "at": [
+    0.0,
+    -0.1,
+    -8.25
+   ],
+   "size": [
+    2.0,
+    0.2,
+    0.5
+   ],
+   "mat": "wood_floor",
+   "nav": false
+  },
+  {
+   "at": [
+    0.0,
+    -0.1,
+    8.25
+   ],
+   "size": [
+    2.0,
+    0.2,
+    0.5
+   ],
+   "mat": "wood_floor",
+   "nav": false
+  },
+  {
+   "at": [
+    0.0,
+    -0.1,
+    0.0
+   ],
+   "size": [
+    12.0,
+    0.2,
+    16.0
+   ],
+   "mat": "wood_floor",
+   "nav": false
+  },
+  {
+   "at": [
+    0.0,
+    6.1,
+    0.0
+   ],
+   "size": [
+    12.6,
+    0.2,
+    16.6
+   ],
+   "mat": "ceiling",
+   "nav": false
+  },
+  {
+   "at": [
+    0.0,
+    1.5,
+    -28.15
+   ],
+   "size": [
+    56.6,
+    3.0,
+    0.3
+   ],
+   "mat": "stone",
+   "tint": [
+    0.6,
+    0.62,
+    0.6
+   ]
+  },
+  {
+   "at": [
+    0.0,
+    1.5,
+    28.15
+   ],
+   "size": [
+    56.6,
+    3.0,
+    0.3
+   ],
+   "mat": "stone",
+   "tint": [
+    0.6,
+    0.62,
+    0.6
+   ]
+  },
+  {
+   "at": [
+    -28.15,
+    1.5,
+    0.0
+   ],
+   "size": [
+    0.3,
+    3.0,
+    56.6
+   ],
+   "mat": "stone",
+   "tint": [
+    0.6,
+    0.62,
+    0.6
+   ]
+  },
+  {
+   "at": [
+    28.15,
+    1.5,
+    0.0
+   ],
+   "size": [
+    0.3,
+    3.0,
+    56.6
+   ],
+   "mat": "stone",
+   "tint": [
+    0.6,
+    0.62,
+    0.6
+   ]
+  },
+  {
+   "at": [
+    0.0,
+    4.2,
+    -8.25
+   ],
+   "size": [
+    2.02,
+    3.6,
+    0.52
+   ],
+   "mat": "brick"
+  },
+  {
+   "at": [
+    0.0,
+    4.2,
+    8.25
+   ],
+   "size": [
+    2.02,
+    3.6,
+    0.52
+   ],
+   "mat": "brick"
+  },
+  {
+   "at": [
+    -3.6,
+    0.45,
+    -5.0
+   ],
+   "size": [
+    3.4,
+    0.9,
+    0.6
+   ],
+   "mat": "wood",
+   "tint": [
+    0.45,
+    0.3,
+    0.2
+   ]
+  },
+  {
+   "at": [
+    3.6,
+    0.45,
+    -5.0
+   ],
+   "size": [
+    3.4,
+    0.9,
+    0.6
+   ],
+   "mat": "wood",
+   "tint": [
+    0.45,
+    0.3,
+    0.2
+   ]
+  },
+  {
+   "at": [
+    -3.6,
+    0.45,
+    -3.0
+   ],
+   "size": [
+    3.4,
+    0.9,
+    0.6
+   ],
+   "mat": "wood",
+   "tint": [
+    0.45,
+    0.3,
+    0.2
+   ]
+  },
+  {
+   "at": [
+    3.6,
+    0.45,
+    -3.0
+   ],
+   "size": [
+    3.4,
+    0.9,
+    0.6
+   ],
+   "mat": "wood",
+   "tint": [
+    0.45,
+    0.3,
+    0.2
+   ]
+  },
+  {
+   "at": [
+    -3.6,
+    0.45,
+    -1.0
+   ],
+   "size": [
+    3.4,
+    0.9,
+    0.6
+   ],
+   "mat": "wood",
+   "tint": [
+    0.45,
+    0.3,
+    0.2
+   ]
+  },
+  {
+   "at": [
+    3.6,
+    0.45,
+    -1.0
+   ],
+   "size": [
+    3.4,
+    0.9,
+    0.6
+   ],
+   "mat": "wood",
+   "tint": [
+    0.45,
+    0.3,
+    0.2
+   ]
+  },
+  {
+   "at": [
+    -3.6,
+    0.45,
+    3.0
+   ],
+   "size": [
+    3.4,
+    0.9,
+    0.6
+   ],
+   "mat": "wood",
+   "tint": [
+    0.45,
+    0.3,
+    0.2
+   ]
+  },
+  {
+   "at": [
+    3.6,
+    0.45,
+    3.0
+   ],
+   "size": [
+    3.4,
+    0.9,
+    0.6
+   ],
+   "mat": "wood",
+   "tint": [
+    0.45,
+    0.3,
+    0.2
+   ]
+  },
+  {
+   "at": [
+    -3.6,
+    0.45,
+    5.0
+   ],
+   "size": [
+    3.4,
+    0.9,
+    0.6
+   ],
+   "mat": "wood",
+   "tint": [
+    0.45,
+    0.3,
+    0.2
+   ]
+  },
+  {
+   "at": [
+    3.6,
+    0.45,
+    5.0
+   ],
+   "size": [
+    3.4,
+    0.9,
+    0.6
+   ],
+   "mat": "wood",
+   "tint": [
+    0.45,
+    0.3,
+    0.2
+   ]
+  }
+ ],
+ "props": [
+  {
+   "id": "furniture_table",
+   "at": [
+    0.0,
+    0.0,
+    1.2
+   ]
+  },
+  {
+   "id": "graveyard_gravestone-bevel",
+   "at": [
+    -24.176,
+    0.0,
+    -22.0
+   ],
+   "yaw": 4.033
+  },
+  {
+   "id": "graveyard_gravestone-wide",
+   "at": [
+    -23.884,
+    0.0,
+    -17.0
+   ],
+   "yaw": -8.79
+  },
+  {
+   "id": "graveyard_gravestone-wide",
+   "at": [
+    -19.881,
+    0.0,
+    -22.0
+   ],
+   "yaw": -8.016
+  },
+  {
+   "id": "graveyard_gravestone-wide",
+   "at": [
+    -19.654,
+    0.0,
+    17.0
+   ],
+   "yaw": -5.015
+  },
+  {
+   "id": "graveyard_gravestone-bevel",
+   "at": [
+    -20.285,
+    0.0,
+    22.0
+   ],
+   "yaw": -7.559
+  },
+  {
+   "id": "graveyard_gravestone-wide",
+   "at": [
+    -15.778,
+    0.0,
+    -22.0
+   ],
+   "yaw": 9.826
+  },
+  {
+   "id": "graveyard_gravestone-broken",
+   "at": [
+    -16.16,
+    0.0,
+    -17.0
+   ],
+   "yaw": -4.175
+  },
+  {
+   "id": "graveyard_gravestone-wide",
+   "at": [
+    -12.342,
+    0.0,
+    -22.0
+   ],
+   "yaw": 4.611
+  },
+  {
+   "id": "graveyard_gravestone-broken",
+   "at": [
+    -12.078,
+    0.0,
+    22.0
+   ],
+   "yaw": -2.543
+  },
+  {
+   "id": "graveyard_gravestone-cross",
+   "at": [
+    -7.912,
+    0.0,
+    -22.0
+   ],
+   "yaw": -3.69
+  },
+  {
+   "id": "graveyard_gravestone-wide",
+   "at": [
+    -7.704,
+    0.0,
+    17.0
+   ],
+   "yaw": 6.258
+  },
+  {
+   "id": "graveyard_gravestone-wide",
+   "at": [
+    -8.174,
+    0.0,
+    22.0
+   ],
+   "yaw": 9.906
+  },
+  {
+   "id": "graveyard_gravestone-wide",
+   "at": [
+    -3.995,
+    0.0,
+    -22.0
+   ],
+   "yaw": -7.753
+  },
+  {
+   "id": "graveyard_gravestone-round",
+   "at": [
+    -3.889,
+    0.0,
+    -17.0
+   ],
+   "yaw": -2.193
+  },
+  {
+   "id": "graveyard_gravestone-broken",
+   "at": [
+    -3.655,
+    0.0,
+    17.0
+   ],
+   "yaw": 1.099
+  },
+  {
+   "id": "graveyard_gravestone-broken",
+   "at": [
+    -3.993,
+    0.0,
+    22.0
+   ],
+   "yaw": 2.771
+  },
+  {
+   "id": "graveyard_gravestone-wide",
+   "at": [
+    -0.094,
+    0.0,
+    -22.0
+   ],
+   "yaw": 6.128
+  },
+  {
+   "id": "graveyard_gravestone-bevel",
+   "at": [
+    0.249,
+    0.0,
+    -17.0
+   ],
+   "yaw": -9.576
+  },
+  {
+   "id": "graveyard_gravestone-broken",
+   "at": [
+    -0.343,
+    0.0,
+    17.0
+   ],
+   "yaw": -0.28
+  },
+  {
+   "id": "graveyard_gravestone-wide",
+   "at": [
+    -0.086,
+    0.0,
+    22.0
+   ],
+   "yaw": 3.879
+  },
+  {
+   "id": "graveyard_gravestone-decorative",
+   "at": [
+    4.136,
+    0.0,
+    -22.0
+   ],
+   "yaw": -4.761
+  },
+  {
+   "id": "graveyard_gravestone-bevel",
+   "at": [
+    3.6,
+    0.0,
+    -17.0
+   ],
+   "yaw": 6.389
+  },
+  {
+   "id": "graveyard_gravestone-cross",
+   "at": [
+    3.665,
+    0.0,
+    17.0
+   ],
+   "yaw": 7.778
+  },
+  {
+   "id": "graveyard_gravestone-broken",
+   "at": [
+    4.003,
+    0.0,
+    22.0
+   ],
+   "yaw": 2.825
+  },
+  {
+   "id": "graveyard_gravestone-decorative",
+   "at": [
+    8.047,
+    0.0,
+    -22.0
+   ],
+   "yaw": -6.204
+  },
+  {
+   "id": "graveyard_gravestone-cross",
+   "at": [
+    7.705,
+    0.0,
+    -17.0
+   ],
+   "yaw": -2.253
+  },
+  {
+   "id": "graveyard_gravestone-wide",
+   "at": [
+    7.797,
+    0.0,
+    22.0
+   ],
+   "yaw": -8.828
+  },
+  {
+   "id": "graveyard_gravestone-broken",
+   "at": [
+    11.744,
+    0.0,
+    -22.0
+   ],
+   "yaw": -9.141
+  },
+  {
+   "id": "graveyard_gravestone-round",
+   "at": [
+    12.359,
+    0.0,
+    -17.0
+   ],
+   "yaw": 5.682
+  },
+  {
+   "id": "graveyard_gravestone-bevel",
+   "at": [
+    11.886,
+    0.0,
+    22.0
+   ],
+   "yaw": 0.67
+  },
+  {
+   "id": "graveyard_gravestone-decorative",
+   "at": [
+    15.681,
+    0.0,
+    -22.0
+   ],
+   "yaw": 4.025
+  },
+  {
+   "id": "graveyard_gravestone-bevel",
+   "at": [
+    15.717,
+    0.0,
+    22.0
+   ],
+   "yaw": -1.873
+  },
+  {
+   "id": "graveyard_gravestone-round",
+   "at": [
+    20.392,
+    0.0,
+    -22.0
+   ],
+   "yaw": 7.621
+  },
+  {
+   "id": "graveyard_gravestone-cross",
+   "at": [
+    20.26,
+    0.0,
+    -17.0
+   ],
+   "yaw": 5.181
+  },
+  {
+   "id": "graveyard_gravestone-broken",
+   "at": [
+    20.387,
+    0.0,
+    22.0
+   ],
+   "yaw": -5.084
+  },
+  {
+   "id": "graveyard_gravestone-decorative",
+   "at": [
+    23.824,
+    0.0,
+    -22.0
+   ],
+   "yaw": 8.148
+  },
+  {
+   "id": "graveyard_gravestone-bevel",
+   "at": [
+    24.011,
+    0.0,
+    -17.0
+   ],
+   "yaw": -4.877
+  },
+  {
+   "id": "graveyard_gravestone-round",
+   "at": [
+    24.288,
+    0.0,
+    17.0
+   ],
+   "yaw": -6.573
+  },
+  {
+   "id": "graveyard_gravestone-broken",
+   "at": [
+    23.992,
+    0.0,
+    22.0
+   ],
+   "yaw": -7.1
+  },
+  {
+   "id": "graveyard_crypt-small",
+   "at": [
+    -18.0,
+    0.0,
+    0.0
+   ],
+   "yaw": 90.0
+  },
+  {
+   "id": "graveyard_crypt-small",
+   "at": [
+    18.0,
+    0.0,
+    0.0
+   ],
+   "yaw": -90.0
+  },
+  {
+   "id": "graveyard_pine-crooked",
+   "at": [
+    -12.0,
+    0.0,
+    -12.0
+   ],
+   "yaw": 230.811
+  },
+  {
+   "id": "graveyard_pine-crooked",
+   "at": [
+    12.0,
+    0.0,
+    12.0
+   ],
+   "yaw": 247.136
+  },
+  {
+   "id": "graveyard_pine",
+   "at": [
+    -22.0,
+    0.0,
+    10.0
+   ],
+   "yaw": 351.863
+  },
+  {
+   "id": "graveyard_pine-crooked",
+   "at": [
+    22.0,
+    0.0,
+    -10.0
+   ],
+   "yaw": 93.417
+  },
+  {
+   "id": "graveyard_pine-crooked",
+   "at": [
+    14.0,
+    0.0,
+    -24.0
+   ],
+   "yaw": 101.922
+  },
+  {
+   "id": "graveyard_pine",
+   "at": [
+    -14.0,
+    0.0,
+    24.0
+   ],
+   "yaw": 293.72
+  },
+  {
+   "id": "graveyard_lightpost-single",
+   "at": [
+    -10.0,
+    0.0,
+    -10.0
+   ]
+  },
+  {
+   "id": "graveyard_lightpost-single",
+   "at": [
+    10.0,
+    0.0,
+    10.0
+   ]
+  },
+  {
+   "id": "graveyard_lightpost-single",
+   "at": [
+    10.0,
+    0.0,
+    -10.0
+   ]
+  },
+  {
+   "id": "graveyard_lightpost-single",
+   "at": [
+    -10.0,
+    0.0,
+    10.0
+   ]
+  },
+  {
+   "id": "graveyard_fire-basket",
+   "at": [
+    0.0,
+    0.0,
+    -12.0
+   ]
+  }
+ ],
+ "lights": [
+  {
+   "at": [
+    0.0,
+    5.7,
+    0.0
+   ],
+   "range": 16.4,
+   "energy": 1.2,
+   "colour": [
+    1.0,
+    0.8,
+    0.55
+   ]
+  },
+  {
+   "at": [
+    -10.0,
+    3.0,
+    -10.0
+   ],
+   "range": 12.0,
+   "energy": 1.0,
+   "colour": [
+    1.0,
+    0.78,
+    0.45
+   ]
+  },
+  {
+   "at": [
+    10.0,
+    3.0,
+    10.0
+   ],
+   "range": 12.0,
+   "energy": 1.0,
+   "colour": [
+    1.0,
+    0.78,
+    0.45
+   ]
+  },
+  {
+   "at": [
+    10.0,
+    3.0,
+    -10.0
+   ],
+   "range": 12.0,
+   "energy": 1.0,
+   "colour": [
+    1.0,
+    0.78,
+    0.45
+   ]
+  },
+  {
+   "at": [
+    -10.0,
+    3.0,
+    10.0
+   ],
+   "range": 12.0,
+   "energy": 1.0,
+   "colour": [
+    1.0,
+    0.78,
+    0.45
+   ]
+  },
+  {
+   "at": [
+    0.0,
+    1.2,
+    -12.0
+   ],
+   "range": 8.0,
+   "energy": 1.5,
+   "colour": [
+    1.0,
+    0.6,
+    0.3
+   ]
+  }
+ ],
+ "spawns": {
+  "survivors": [
+   {
+    "at": [
+     -1.5,
+     0.1,
+     -1.5
+    ],
+    "yaw": 0.0
+   },
+   {
+    "at": [
+     1.5,
+     0.1,
+     -1.5
+    ],
+    "yaw": 0.0
+   },
+   {
+    "at": [
+     -1.5,
+     0.1,
+     1.5
+    ],
+    "yaw": 0.0
+   },
+   {
+    "at": [
+     1.5,
+     0.1,
+     1.5
+    ],
+    "yaw": 0.0
+   }
+  ]
+ },
+ "areas": {
+  "start": [
+   {
+    "min": [
+     -6.0,
+     -0.5,
+     -8.0
+    ],
+    "max": [
+     6.0,
+     3.0,
+     8.0
+    ]
+   }
+  ],
+  "end": []
+ },
+ "route": [
+  [
+   0.0,
+   0.0,
+   0.0
+  ]
+ ],
+ "nav": {
+  "spacing": 1.0,
+  "clearance": 0.35,
+  "floors": [
+   [
+    -27.95,
+    -27.95,
+    27.95,
+    27.95,
+    0.0
+   ],
+   [
+    -0.95,
+    -8.45,
+    0.95,
+    -8.05,
+    0.0
+   ],
+   [
+    -0.95,
+    8.05,
+    0.95,
+    8.45,
+    0.0
+   ],
+   [
+    -5.95,
+    -7.95,
+    5.95,
+    7.95,
+    0.0
+   ],
+   [
+    -0.95,
+    -9.1,
+    0.95,
+    -7.4,
+    0.0
+   ],
+   [
+    -0.95,
+    7.4,
+    0.95,
+    9.1,
+    0.0
+   ]
+  ],
+  "links": []
+ },
+ "items": [
+  {
+   "kind": "weapon",
+   "at": [
+    -0.5,
+    0.82,
+    1.2
+   ],
+   "id": "smg"
+  },
+  {
+   "kind": "weapon",
+   "at": [
+    0.0,
+    0.82,
+    1.2
+   ],
+   "id": "shotgun"
+  },
+  {
+   "kind": "ammo",
+   "at": [
+    0.5,
+    0.82,
+    1.2
+   ]
+  },
+  {
+   "kind": "pills",
+   "at": [
+    -5.3,
+    0.0,
+    7.3
+   ]
+  },
+  {
+   "kind": "medkit",
+   "at": [
+    5.3,
+    0.0,
+    -7.3
+   ]
+  },
+  {
+   "kind": "box",
+   "at": [
+    -25.0,
+    0.0,
+    -25.0
+   ]
+  },
+  {
+   "kind": "box",
+   "at": [
+    25.0,
+    0.0,
+    25.0
+   ]
+  },
+  {
+   "kind": "box",
+   "at": [
+    25.0,
+    0.0,
+    -25.0
+   ],
+   "id": "explosive"
+  },
+  {
+   "kind": "ammo",
+   "at": [
+    -25.0,
+    0.0,
+    25.0
+   ]
+  },
+  {
+   "kind": "ammo",
+   "at": [
+    25.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "kind": "weapon",
+   "at": [
+    -25.0,
+    0.0,
+    0.0
+   ],
+   "id": "carbine"
+  },
+  {
+   "kind": "throwable",
+   "at": [
+    0.0,
+    0.0,
+    25.0
+   ],
+   "id": "molotov"
+  },
+  {
+   "kind": "throwable",
+   "at": [
+    0.0,
+    0.0,
+    -25.0
+   ],
+   "id": "pipe"
+  }
+ ],
+ "objectives": [],
+ "sleepers": [
+  [
+   -22.0,
+   0.0,
+   -4.0,
+   90.0
+  ],
+  [
+   22.0,
+   0.0,
+   4.0,
+   270.0
+  ]
+ ],
+ "zombie_spawns": [
+  [
+   -27.0,
+   0.0,
+   -27.0
+  ],
+  [
+   27.0,
+   0.0,
+   -27.0
+  ],
+  [
+   -27.0,
+   0.0,
+   27.0
+  ],
+  [
+   27.0,
+   0.0,
+   27.0
+  ],
+  [
+   0.0,
+   0.0,
+   -27.0
+  ],
+  [
+   0.0,
+   0.0,
+   27.0
+  ],
+  [
+   -27.0,
+   0.0,
+   0.0
+  ],
+  [
+   27.0,
+   0.0,
+   0.0
+  ]
+ ]
+}

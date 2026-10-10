@@ -1,0 +1,1370 @@
+{
+ "comment": "Prop sizes copied from game-zombie-zone/props/catalogue.json by build_maps.py --sync-sizes.",
+ "props": {
+  "cars_ambulance": [
+   2.4,
+   2.88,
+   5.2
+  ],
+  "cars_box": [
+   1.144,
+   1.144,
+   1.144
+  ],
+  "cars_cone": [
+   0.762,
+   0.952,
+   0.762
+  ],
+  "cars_debris-bumper": [
+   2.08,
+   0.64,
+   0.72
+  ],
+  "cars_debris-door": [
+   0.301,
+   1.44,
+   1.28
+  ],
+  "cars_debris-tire": [
+   0.56,
+   0.96,
+   0.96
+  ],
+  "cars_delivery": [
+   2.4,
+   2.64,
+   5.2
+  ],
+  "cars_firetruck": [
+   2.4,
+   2.72,
+   5.44
+  ],
+  "cars_garbage-truck": [
+   2.56,
+   2.56,
+   5.52
+  ],
+  "cars_hatchback-sports": [
+   2.08,
+   1.76,
+   4.56
+  ],
+  "cars_police": [
+   2.4,
+   2.08,
+   4.96
+  ],
+  "cars_sedan": [
+   2.4,
+   2.08,
+   4.08
+  ],
+  "cars_suv": [
+   2.4,
+   2.08,
+   4.32
+  ],
+  "cars_suv-luxury": [
+   2.4,
+   2.08,
+   4.56
+  ],
+  "cars_taxi": [
+   2.4,
+   2.4,
+   4.4
+  ],
+  "cars_truck": [
+   2.4,
+   2.08,
+   4.72
+  ],
+  "cars_truck-flat": [
+   2.4,
+   2.08,
+   4.392
+  ],
+  "cars_van": [
+   2.4,
+   2.16,
+   4.4
+  ],
+  "furniture_bathroom_cabinet": [
+   0.529,
+   0.897,
+   0.299
+  ],
+  "furniture_bathroom_cabinet_drawer": [
+   0.989,
+   1.085,
+   0.736
+  ],
+  "furniture_bathroom_mirror": [
+   0.693,
+   1.0,
+   0.332
+  ],
+  "furniture_bathroom_sink": [
+   0.782,
+   1.288,
+   0.667
+  ],
+  "furniture_bathroom_sink_square": [
+   0.989,
+   1.334,
+   0.69
+  ],
+  "furniture_bathtub": [
+   2.737,
+   0.966,
+   1.288
+  ],
+  "furniture_bear": [
+   0.896,
+   1.035,
+   0.569
+  ],
+  "furniture_bed_bunk": [
+   1.313,
+   1.955,
+   2.519
+  ],
+  "furniture_bed_double": [
+   2.199,
+   0.862,
+   2.587
+  ],
+  "furniture_bed_single": [
+   1.313,
+   0.862,
+   2.587
+  ],
+  "furniture_bench": [
+   0.92,
+   1.081,
+   0.46
+  ],
+  "furniture_bench_cushion": [
+   0.92,
+   1.058,
+   0.46
+  ],
+  "furniture_bench_cushion_low": [
+   0.966,
+   0.46,
+   0.506
+  ],
+  "furniture_bookcase_closed": [
+   0.92,
+   1.955,
+   0.575
+  ],
+  "furniture_bookcase_closed_doors": [
+   0.92,
+   1.955,
+   0.575
+  ],
+  "furniture_bookcase_closed_wide": [
+   1.84,
+   1.817,
+   0.575
+  ],
+  "furniture_bookcase_open": [
+   0.92,
+   2.024,
+   0.575
+  ],
+  "furniture_bookcase_open_low": [
+   0.92,
+   0.92,
+   0.575
+  ],
+  "furniture_books": [
+   0.346,
+   0.239,
+   0.217
+  ],
+  "furniture_cabinet_bed": [
+   0.612,
+   0.536,
+   0.495
+  ],
+  "furniture_cabinet_bed_drawer": [
+   0.612,
+   0.605,
+   0.5
+  ],
+  "furniture_cabinet_bed_drawer_table": [
+   0.612,
+   0.605,
+   0.5
+  ],
+  "furniture_cabinet_television": [
+   1.84,
+   0.713,
+   0.575
+  ],
+  "furniture_cabinet_television_doors": [
+   1.84,
+   0.713,
+   0.598
+  ],
+  "furniture_cardboard_box_closed": [
+   0.489,
+   0.646,
+   0.489
+  ],
+  "furniture_cardboard_box_open": [
+   0.855,
+   0.646,
+   0.489
+  ],
+  "furniture_ceiling_fan": [
+   1.046,
+   0.308,
+   1.208
+  ],
+  "furniture_chair": [
+   0.46,
+   1.081,
+   0.46
+  ],
+  "furniture_chair_cushion": [
+   0.46,
+   1.058,
+   0.46
+  ],
+  "furniture_chair_desk": [
+   0.77,
+   1.397,
+   0.723
+  ],
+  "furniture_chair_modern_cushion": [
+   0.46,
+   1.058,
+   0.46
+  ],
+  "furniture_chair_modern_frame_cushion": [
+   0.46,
+   1.058,
+   0.46
+  ],
+  "furniture_chair_rounded": [
+   0.46,
+   1.046,
+   0.46
+  ],
+  "furniture_coat_rack": [
+   1.03,
+   0.644,
+   0.309
+  ],
+  "furniture_coat_rack_standing": [
+   0.627,
+   1.771,
+   0.627
+  ],
+  "furniture_computer_keyboard": [
+   0.649,
+   0.063,
+   0.272
+  ],
+  "furniture_computer_mouse": [
+   0.114,
+   0.054,
+   0.196
+  ],
+  "furniture_computer_screen": [
+   0.903,
+   0.677,
+   0.239
+  ],
+  "furniture_desk": [
+   1.689,
+   0.884,
+   0.902
+  ],
+  "furniture_desk_corner": [
+   2.241,
+   0.884,
+   2.241
+  ],
+  "furniture_dryer": [
+   0.897,
+   1.081,
+   0.874
+  ],
+  "furniture_hood_large": [
+   0.989,
+   0.85,
+   0.655
+  ],
+  "furniture_hood_modern": [
+   0.989,
+   0.919,
+   0.655
+  ],
+  "furniture_kitchen_bar": [
+   0.989,
+   0.966,
+   0.483
+  ],
+  "furniture_kitchen_bar_end": [
+   0.234,
+   0.966,
+   0.483
+  ],
+  "furniture_kitchen_blender": [
+   0.312,
+   0.523,
+   0.251
+  ],
+  "furniture_kitchen_cabinet": [
+   0.989,
+   1.035,
+   1.035
+  ],
+  "furniture_kitchen_cabinet_corner_inner": [
+   1.058,
+   1.035,
+   1.058
+  ],
+  "furniture_kitchen_cabinet_corner_round": [
+   1.035,
+   1.035,
+   1.035
+  ],
+  "furniture_kitchen_cabinet_drawer": [
+   0.989,
+   1.035,
+   1.035
+  ],
+  "furniture_kitchen_cabinet_upper": [
+   0.989,
+   0.897,
+   0.506
+  ],
+  "furniture_kitchen_cabinet_upper_corner": [
+   0.495,
+   0.897,
+   0.483
+  ],
+  "furniture_kitchen_cabinet_upper_double": [
+   0.989,
+   0.897,
+   0.506
+  ],
+  "furniture_kitchen_cabinet_upper_low": [
+   0.989,
+   0.449,
+   0.506
+  ],
+  "furniture_kitchen_coffee_machine": [
+   0.436,
+   0.408,
+   0.552
+  ],
+  "furniture_kitchen_fridge": [
+   0.989,
+   2.116,
+   0.671
+  ],
+  "furniture_kitchen_fridge_built_in": [
+   0.989,
+   1.998,
+   1.035
+  ],
+  "furniture_kitchen_fridge_large": [
+   1.196,
+   2.116,
+   0.933
+  ],
+  "furniture_kitchen_fridge_small": [
+   0.989,
+   1.381,
+   0.671
+  ],
+  "furniture_kitchen_microwave": [
+   0.667,
+   0.414,
+   0.529
+  ],
+  "furniture_kitchen_sink": [
+   0.989,
+   1.127,
+   1.035
+  ],
+  "furniture_kitchen_stove": [
+   0.989,
+   1.035,
+   1.035
+  ],
+  "furniture_kitchen_stove_electric": [
+   0.989,
+   1.035,
+   1.035
+  ],
+  "furniture_lamp_round_floor": [
+   0.35,
+   1.978,
+   0.404
+  ],
+  "furniture_lamp_round_table": [
+   0.35,
+   0.723,
+   0.404
+  ],
+  "furniture_lamp_square_ceiling": [
+   0.276,
+   0.529,
+   0.276
+  ],
+  "furniture_lamp_square_floor": [
+   0.276,
+   1.978,
+   0.276
+  ],
+  "furniture_lamp_square_table": [
+   0.276,
+   0.667,
+   0.276
+  ],
+  "furniture_lamp_wall": [
+   0.521,
+   0.213,
+   0.346
+  ],
+  "furniture_laptop": [
+   0.607,
+   0.372,
+   0.552
+  ],
+  "furniture_lounge_chair": [
+   1.127,
+   1.058,
+   0.943
+  ],
+  "furniture_lounge_chair_relax": [
+   1.127,
+   1.449,
+   1.552
+  ],
+  "furniture_lounge_design_chair": [
+   1.678,
+   0.92,
+   0.943
+  ],
+  "furniture_lounge_design_sofa": [
+   2.576,
+   0.92,
+   0.943
+  ],
+  "furniture_lounge_design_sofa_corner": [
+   3.105,
+   0.92,
+   3.105
+  ],
+  "furniture_lounge_sofa": [
+   2.254,
+   1.058,
+   0.943
+  ],
+  "furniture_lounge_sofa_corner": [
+   2.254,
+   1.058,
+   2.254
+  ],
+  "furniture_lounge_sofa_long": [
+   2.254,
+   1.058,
+   1.886
+  ],
+  "furniture_lounge_sofa_ottoman": [
+   1.012,
+   0.529,
+   1.035
+  ],
+  "furniture_pillow": [
+   0.529,
+   0.511,
+   0.204
+  ],
+  "furniture_pillow_blue": [
+   0.529,
+   0.296,
+   0.146
+  ],
+  "furniture_pillow_blue_long": [
+   1.188,
+   0.511,
+   0.204
+  ],
+  "furniture_pillow_long": [
+   0.889,
+   0.511,
+   0.204
+  ],
+  "furniture_plant_small1": [
+   0.218,
+   0.322,
+   0.218
+  ],
+  "furniture_plant_small2": [
+   0.218,
+   0.322,
+   0.218
+  ],
+  "furniture_plant_small3": [
+   0.225,
+   0.333,
+   0.195
+  ],
+  "furniture_potted_plant": [
+   0.488,
+   1.504,
+   0.555
+  ],
+  "furniture_radio": [
+   0.725,
+   0.525,
+   0.224
+  ],
+  "furniture_rug_doormat": [
+   0.987,
+   0.023,
+   0.545
+  ],
+  "furniture_rug_rectangle": [
+   3.611,
+   0.023,
+   2.116
+  ],
+  "furniture_rug_round": [
+   2.116,
+   0.023,
+   2.116
+  ],
+  "furniture_rug_rounded": [
+   3.611,
+   0.023,
+   2.116
+  ],
+  "furniture_rug_square": [
+   2.08,
+   0.023,
+   2.116
+  ],
+  "furniture_shower": [
+   1.292,
+   2.516,
+   1.338
+  ],
+  "furniture_shower_round": [
+   1.292,
+   2.516,
+   1.292
+  ],
+  "furniture_side_table": [
+   1.229,
+   0.884,
+   0.506
+  ],
+  "furniture_side_table_drawers": [
+   1.229,
+   0.884,
+   0.511
+  ],
+  "furniture_speaker": [
+   0.34,
+   1.464,
+   0.34
+  ],
+  "furniture_speaker_small": [
+   0.34,
+   0.685,
+   0.306
+  ],
+  "furniture_stool_bar": [
+   0.611,
+   1.0,
+   0.529
+  ],
+  "furniture_stool_bar_square": [
+   0.353,
+   0.931,
+   0.34
+  ],
+  "furniture_table": [
+   1.935,
+   0.751,
+   1.029
+  ],
+  "furniture_table_cloth": [
+   1.935,
+   0.751,
+   1.029
+  ],
+  "furniture_table_coffee": [
+   1.52,
+   0.529,
+   0.92
+  ],
+  "furniture_table_coffee_glass": [
+   1.52,
+   0.529,
+   0.92
+  ],
+  "furniture_table_coffee_glass_square": [
+   0.92,
+   0.529,
+   0.92
+  ],
+  "furniture_table_coffee_square": [
+   0.92,
+   0.529,
+   0.92
+  ],
+  "furniture_table_cross": [
+   1.96,
+   0.799,
+   1.029
+  ],
+  "furniture_table_cross_cloth": [
+   1.96,
+   0.799,
+   1.029
+  ],
+  "furniture_table_glass": [
+   1.935,
+   0.752,
+   1.029
+  ],
+  "furniture_table_round": [
+   1.593,
+   0.843,
+   1.84
+  ],
+  "furniture_television_antenna": [
+   0.608,
+   0.236,
+   0.184
+  ],
+  "furniture_television_modern": [
+   1.575,
+   1.046,
+   0.295
+  ],
+  "furniture_television_vintage": [
+   0.943,
+   0.621,
+   0.621
+  ],
+  "furniture_toaster": [
+   0.432,
+   0.299,
+   0.23
+  ],
+  "furniture_toilet": [
+   0.719,
+   1.037,
+   1.098
+  ],
+  "furniture_toilet_square": [
+   0.698,
+   1.037,
+   0.891
+  ],
+  "furniture_trashcan": [
+   0.478,
+   0.984,
+   0.538
+  ],
+  "furniture_washer": [
+   0.897,
+   1.081,
+   0.897
+  ],
+  "furniture_washer_dryer_stacked": [
+   0.897,
+   2.162,
+   0.897
+  ],
+  "graveyard_bench-damaged": [
+   1.635,
+   0.933,
+   0.819
+  ],
+  "graveyard_coffin": [
+   1.033,
+   0.585,
+   1.508
+  ],
+  "graveyard_coffin-old": [
+   1.033,
+   0.36,
+   1.508
+  ],
+  "graveyard_cross-wood": [
+   0.774,
+   1.881,
+   0.774
+  ],
+  "graveyard_crypt-small": [
+   2.43,
+   1.8,
+   2.52
+  ],
+  "graveyard_debris": [
+   0.965,
+   0.288,
+   0.985
+  ],
+  "graveyard_debris-wood": [
+   0.825,
+   0.18,
+   0.908
+  ],
+  "graveyard_fire-basket": [
+   0.75,
+   0.302,
+   0.75
+  ],
+  "graveyard_grave": [
+   1.303,
+   0.205,
+   2.234
+  ],
+  "graveyard_gravestone-bevel": [
+   0.81,
+   0.953,
+   0.45
+  ],
+  "graveyard_gravestone-broken": [
+   0.916,
+   0.614,
+   0.705
+  ],
+  "graveyard_gravestone-cross": [
+   0.81,
+   1.647,
+   0.594
+  ],
+  "graveyard_gravestone-decorative": [
+   0.918,
+   1.07,
+   0.45
+  ],
+  "graveyard_gravestone-round": [
+   0.81,
+   1.035,
+   0.45
+  ],
+  "graveyard_gravestone-wide": [
+   1.53,
+   1.027,
+   0.54
+  ],
+  "graveyard_hay-bale": [
+   1.092,
+   0.637,
+   0.723
+  ],
+  "graveyard_iron-fence": [
+   1.8,
+   1.582,
+   0.198
+  ],
+  "graveyard_iron-fence-bar": [
+   0.215,
+   1.204,
+   0.186
+  ],
+  "graveyard_iron-fence-damaged": [
+   1.8,
+   1.585,
+   0.585
+  ],
+  "graveyard_lantern-candle": [
+   0.432,
+   0.698,
+   0.432
+  ],
+  "graveyard_lightpost-double": [
+   0.376,
+   2.28,
+   1.308
+  ],
+  "graveyard_lightpost-single": [
+   0.376,
+   2.28,
+   0.837
+  ],
+  "graveyard_pine": [
+   2.12,
+   4.144,
+   2.402
+  ],
+  "graveyard_pine-crooked": [
+   2.12,
+   3.795,
+   2.402
+  ],
+  "graveyard_pine-fall": [
+   2.12,
+   4.144,
+   2.402
+  ],
+  "graveyard_pumpkin": [
+   0.679,
+   0.578,
+   0.679
+  ],
+  "graveyard_pumpkin-carved": [
+   0.679,
+   0.578,
+   0.679
+  ],
+  "graveyard_rocks": [
+   1.937,
+   0.679,
+   1.736
+  ],
+  "graveyard_rocks-tall": [
+   1.86,
+   1.058,
+   1.836
+  ],
+  "graveyard_stone-wall": [
+   1.8,
+   1.305,
+   0.36
+  ],
+  "graveyard_stone-wall-damaged": [
+   1.8,
+   1.305,
+   0.36
+  ],
+  "nature_cactus_tall": [
+   0.991,
+   1.875,
+   0.848
+  ],
+  "nature_campfire_logs": [
+   0.73,
+   0.156,
+   0.73
+  ],
+  "nature_crop_melon": [
+   1.044,
+   0.87,
+   0.904
+  ],
+  "nature_crop_pumpkin": [
+   1.103,
+   0.835,
+   1.13
+  ],
+  "nature_fence_planks": [
+   2.5,
+   0.863,
+   0.24
+  ],
+  "nature_fence_simple": [
+   2.5,
+   0.863,
+   0.175
+  ],
+  "nature_flower_purple_a": [
+   0.398,
+   0.606,
+   0.453
+  ],
+  "nature_flower_red_a": [
+   0.398,
+   0.731,
+   0.453
+  ],
+  "nature_flower_yellow_a": [
+   0.398,
+   0.481,
+   0.453
+  ],
+  "nature_grass_large": [
+   1.022,
+   0.635,
+   1.02
+  ],
+  "nature_hanging_moss": [
+   0.4,
+   1.196,
+   0.087
+  ],
+  "nature_lily_large": [
+   0.68,
+   0.245,
+   0.785
+  ],
+  "nature_log": [
+   0.585,
+   0.433,
+   1.775
+  ],
+  "nature_log_large": [
+   2.5,
+   1.042,
+   1.373
+  ],
+  "nature_log_stack": [
+   1.062,
+   0.866,
+   1.775
+  ],
+  "nature_mushroom_red_tall": [
+   0.309,
+   0.626,
+   0.357
+  ],
+  "nature_plant_bush": [
+   0.99,
+   0.611,
+   0.99
+  ],
+  "nature_plant_bush_detailed": [
+   1.506,
+   0.901,
+   1.506
+  ],
+  "nature_plant_bush_large": [
+   0.936,
+   0.607,
+   0.839
+  ],
+  "nature_plant_bush_small": [
+   0.957,
+   0.518,
+   0.841
+  ],
+  "nature_pot_large": [
+   1.409,
+   0.5,
+   1.22
+  ],
+  "nature_pot_small": [
+   0.809,
+   0.67,
+   0.7
+  ],
+  "nature_rock_large_a": [
+   1.962,
+   0.649,
+   2.539
+  ],
+  "nature_rock_small_a": [
+   0.902,
+   0.478,
+   0.902
+  ],
+  "nature_rock_tall_a": [
+   2.458,
+   2.49,
+   1.708
+  ],
+  "nature_sign": [
+   0.75,
+   1.022,
+   0.175
+  ],
+  "nature_stone_large_a": [
+   1.962,
+   0.649,
+   2.539
+  ],
+  "nature_stone_small_a": [
+   0.902,
+   0.478,
+   0.902
+  ],
+  "nature_stump_old": [
+   0.891,
+   0.666,
+   0.928
+  ],
+  "nature_stump_round": [
+   0.803,
+   0.516,
+   0.928
+  ],
+  "nature_tree_cone": [
+   2.383,
+   6.436,
+   2.383
+  ],
+  "nature_tree_default": [
+   3.398,
+   7.685,
+   2.942
+  ],
+  "nature_tree_default_fall": [
+   3.398,
+   7.685,
+   2.942
+  ],
+  "nature_tree_detailed": [
+   3.812,
+   5.996,
+   3.427
+  ],
+  "nature_tree_fat": [
+   3.398,
+   5.177,
+   2.942
+  ],
+  "nature_tree_oak": [
+   2.882,
+   5.518,
+   3.328
+  ],
+  "nature_tree_oak_fall": [
+   2.882,
+   5.518,
+   3.328
+  ],
+  "nature_tree_pine_round_a": [
+   2.777,
+   6.149,
+   3.206
+  ],
+  "nature_tree_pine_tall_a": [
+   1.738,
+   6.883,
+   1.764
+  ],
+  "nature_tree_plateau": [
+   2.753,
+   5.622,
+   2.947
+  ],
+  "nature_tree_simple": [
+   1.596,
+   6.837,
+   1.843
+  ],
+  "nature_tree_small": [
+   1.596,
+   4.995,
+   1.843
+  ],
+  "nature_tree_tall": [
+   1.798,
+   7.595,
+   2.076
+  ],
+  "roads_construction-barrier": [
+   1.016,
+   0.975,
+   1.688
+  ],
+  "roads_construction-cone": [
+   0.563,
+   0.703,
+   0.563
+  ],
+  "roads_construction-fence": [
+   0.563,
+   1.341,
+   2.813
+  ],
+  "roads_construction-light": [
+   0.563,
+   1.753,
+   0.563
+  ],
+  "roads_dumpster": [
+   2.063,
+   1.571,
+   2.775
+  ],
+  "roads_electricity-pole": [
+   4.343,
+   3.937,
+   1.607
+  ],
+  "roads_light-curved": [
+   0.375,
+   5.062,
+   1.688
+  ],
+  "roads_light-square": [
+   0.375,
+   4.5,
+   1.781
+  ],
+  "roads_road-sign-stop": [
+   0.581,
+   3.706,
+   1.037
+  ],
+  "roads_road-sign-warning": [
+   0.58,
+   3.739,
+   1.104
+  ],
+  "roads_sign-highway": [
+   0.993,
+   5.305,
+   7.5
+  ],
+  "roads_traffic-light": [
+   0.882,
+   3.862,
+   0.675
+  ],
+  "survival_barrel": [
+   0.686,
+   0.998,
+   0.686
+  ],
+  "survival_barrel-open": [
+   0.686,
+   0.998,
+   0.686
+  ],
+  "survival_bedroll": [
+   0.9,
+   0.362,
+   1.762
+  ],
+  "survival_box": [
+   0.725,
+   0.725,
+   0.725
+  ],
+  "survival_box-large": [
+   0.725,
+   0.725,
+   1.45
+  ],
+  "survival_box-large-open": [
+   0.725,
+   0.888,
+   1.45
+  ],
+  "survival_box-open": [
+   0.725,
+   0.888,
+   0.725
+  ],
+  "survival_bucket": [
+   0.418,
+   0.557,
+   0.418
+  ],
+  "survival_campfire-pit": [
+   0.806,
+   0.316,
+   0.781
+  ],
+  "survival_chest": [
+   0.755,
+   0.746,
+   0.789
+  ],
+  "survival_fence": [
+   1.45,
+   1.501,
+   0.124
+  ],
+  "survival_fence-doorway": [
+   1.45,
+   1.501,
+   0.14
+  ],
+  "survival_fence-fortified": [
+   1.45,
+   1.501,
+   0.154
+  ],
+  "survival_metal-panel": [
+   1.45,
+   1.45,
+   0.145
+  ],
+  "survival_metal-panel-screws": [
+   1.45,
+   1.45,
+   0.181
+  ],
+  "survival_resource-planks": [
+   1.082,
+   0.271,
+   1.815
+  ],
+  "survival_resource-wood": [
+   0.595,
+   0.181,
+   0.253
+  ],
+  "survival_rock-a": [
+   1.61,
+   1.139,
+   1.803
+  ],
+  "survival_rock-b": [
+   2.42,
+   1.214,
+   2.102
+  ],
+  "survival_rock-c": [
+   2.273,
+   1.479,
+   1.641
+  ],
+  "survival_signpost": [
+   0.621,
+   1.334,
+   0.125
+  ],
+  "survival_structure-metal-wall": [
+   1.553,
+   1.45,
+   0.258
+  ],
+  "survival_tent": [
+   1.626,
+   1.425,
+   1.627
+  ],
+  "survival_tent-canvas": [
+   1.626,
+   1.425,
+   1.627
+  ],
+  "survival_tree-log": [
+   0.724,
+   0.804,
+   2.9
+  ],
+  "survival_workbench": [
+   0.944,
+   0.831,
+   0.857
+  ],
+  "urban_detail-barrier-strong-damaged": [
+   1.826,
+   0.913,
+   0.685
+  ],
+  "urban_detail-barrier-strong-type-a": [
+   1.826,
+   0.913,
+   0.685
+  ],
+  "urban_detail-barrier-type-a": [
+   1.191,
+   1.1,
+   0.368
+  ],
+  "urban_detail-barrier-type-b": [
+   1.559,
+   0.825,
+   0.368
+  ],
+  "urban_detail-beam": [
+   0.688,
+   0.688,
+   2.75
+  ],
+  "urban_detail-bench": [
+   1.661,
+   1.125,
+   0.886
+  ],
+  "urban_detail-block": [
+   1.375,
+   1.375,
+   1.375
+  ],
+  "urban_detail-bricks-type-a": [
+   1.569,
+   0.55,
+   1.469
+  ],
+  "urban_detail-cables-type-a": [
+   2.75,
+   0.393,
+   0.0
+  ],
+  "urban_detail-dumpster-closed": [
+   1.65,
+   1.498,
+   1.248
+  ],
+  "urban_detail-dumpster-open": [
+   1.65,
+   1.511,
+   1.333
+  ],
+  "urban_detail-light-double": [
+   0.237,
+   2.64,
+   1.216
+  ],
+  "urban_detail-light-single": [
+   0.237,
+   2.64,
+   0.727
+  ],
+  "urban_detail-light-traffic": [
+   0.43,
+   2.86,
+   1.606
+  ],
+  "urban_pallet": [
+   2.75,
+   0.413,
+   2.75
+  ],
+  "urban_pallet-small": [
+   1.375,
+   0.413,
+   1.581
+  ],
+  "urban_scaffolding-structure": [
+   2.75,
+   2.75,
+   2.75
+  ],
+  "urban_tree-park-large": [
+   2.86,
+   4.015,
+   2.86
+  ],
+  "urban_tree-park-pine-large": [
+   2.86,
+   4.015,
+   2.86
+  ],
+  "urban_tree-shrub": [
+   2.145,
+   0.825,
+   2.145
+  ],
+  "urban_truck-green": [
+   2.283,
+   2.766,
+   4.519
+  ],
+  "urban_truck-grey": [
+   2.283,
+   2.766,
+   4.519
+  ],
+  "urban_truck-grey-cargo": [
+   2.283,
+   2.03,
+   3.213
+  ]
+ }
+}

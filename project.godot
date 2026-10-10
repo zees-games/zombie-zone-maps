@@ -1,0 +1,12 @@
+; zombie-zone-maps is data, not a game: the maps game-zombie-zone reads. It is a Godot project
+; only so dot-ci's release can import it and attach the -pack.zip the site publishes as
+; gamemann/zombie-zone-maps, the pack a server owner names in their map config,
+; mounted on servers and never sent to a player.
+
+config_version=5
+
+[application]
+
+config/name="zombie-zone-maps"
+config/description="Maps for game-zombie-zone, as JSON documents."
+config/features=PackedStringArray("4.7")
