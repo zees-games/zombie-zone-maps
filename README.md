@@ -1,6 +1,6 @@
 # zombie-zone-maps
 
-The maps for [**game-zombie-zone**](https://github.com/gamemann/game-zombie-zone): a three-map campaign, *Blackout*, from a corner shop through a container depot to the end of a pier, and two survival maps to hold for as long as the clock says. Five maps to start with, plus the practice street built into the game.
+The maps for [**game-zombie-zone**](https://github.com/zees-games/game-zombie-zone): a three-map campaign, *Blackout*, from a corner shop through a container depot to the end of a pier, and two survival maps to hold for as long as the clock says. Five maps to start with, plus the practice street built into the game.
 
 Every map is a **JSON document**, not a scene. A server reads the documents in its map directory and sends the one it is playing to every client when the map changes, so players need no map files at all and a new map is one file dropped into a directory. [`maps/README.md`](maps/README.md) is the format.
 
