@@ -1414,7 +1414,9 @@ def stadium():
             m.door(55, -31, 55.5, -25, floor="grass")
             tunnel_ew("dugout_e", -28.0, 63.5, 74.5, False, "the first-base dugout", 1.0, 1200, "door")
         bench_x = (x0 + 0.8) if side < 0 else (x1 - 0.8)
-        for z in (-30.5, -28.0, -25.5):
+        # Not at -28: a bench there stood across the tunnel's door, which the graph did not
+        # know about, and every zombie through it stuck behind the bench for the rest of the wave.
+        for z in (-30.5, -25.5):
             m.prop("urban_detail-bench", bench_x, z, 90.0 * side)
         m.cache((x0 + x1) / 2, -26.0, table=False)
         m.post((x0 + x1) / 2 + 3.0 * side, -28.0)
