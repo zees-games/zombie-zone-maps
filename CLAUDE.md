@@ -29,4 +29,6 @@ game-zombie-zone's `examples/headless_maps.tscn` builds each map the way a serve
 
 **This repository is a pack of its own, mounted on the server alone.** A server owner names it in their deployment's map config (dot-server-deploy's `cfg/content.yml`), and the game adds that mount's `maps/` to its catalogue. It is never in a client's content sync: a client is sent the one document being played. `.github/workflows/release.yml` runs `build_maps.py --check` and then dot-ci's release with `pack: true`.
 
+`project.godot` exists only so dot-ci's release can import this repository and attach the `-pack.zip`; it carries the editor's own header and no comments, because the editor rewrites the file on its first save and a checkout would show it modified.
+
 **Not yet on GitHub** (2026-10-10): the remote is set, the repository is the owner's to create, and nothing is pushed or published.
