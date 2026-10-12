@@ -91,10 +91,14 @@ By catalogue id, from game-zombie-zone's `props/catalogue.json` (Kenney's cars, 
 
 ```json
 {"id": "fence", "kind": "use", "at": [17.3, 1, 66], "label": "Cut the fence lock", "seconds": 3,
- "holdout": 35, "opens": ["fence"], "message": "The lock is screaming. Here they come!"}
+ "holdout": 35, "opens": ["fence"], "message": "The lock is screaming. Here they come!", "prop": "padlock"}
 ```
 
 `use` is held (E) for `seconds`, then held out for `holdout` seconds while the horde comes (a panic, unless `"panic": false`), then every gate in `opens` is removed. `reach` is done by standing within `radius`. Objectives are played in order; the HUD shows the current one.
+
+`prop` is what the objective is, drawn: `padlock` (a chain and padlock hung on the face of the gate it opens, nearest the objective, and gone with the gate), `lever` or `radio` (standing at `at`, turned by `yaw` degrees). Unsaid draws nothing; an unknown one is ignored.
+
+A box may say how it is drawn with `look`: `chain_link` draws a see-through fence (posts, rails, mesh) instead of a solid box; its collision is still the box. An unknown look is drawn as the box.
 
 A gate is any box with `"gate": "id"`. A shut gate is a wall to survivors, zombies and the zombies' ground alike; game-zombie-zone's `headless_maps` checks the end area cannot be reached while it is shut.
 

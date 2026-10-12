@@ -177,12 +177,15 @@ class Map:
             self.boxes.append(box)
         return reg
 
-    def gate(self, gid, x0, z0, x1, z1, height=3.0, mat="metal", tint=None):
-        """A gate across open ground (a fence, a shutter) that an objective opens."""
+    def gate(self, gid, x0, z0, x1, z1, height=3.0, mat="metal", tint=None, look=None):
+        """A gate across open ground (a fence, a shutter) that an objective opens. `look`
+        "chain_link" draws it as a see-through fence (the collision is still the box)."""
         box = {"at": [r((x0 + x1) / 2), height / 2, r((z0 + z1) / 2)], "size": [r(x1 - x0), height, r(z1 - z0)],
                "mat": mat, "gate": gid}
         if tint:
             box["tint"] = tint
+        if look:
+            box["look"] = look
         self.boxes.append(box)
 
     def block(self, x, z, sx, sz, h, mat="metal", tint=None, yaw=0.0, y=0.0):
@@ -295,11 +298,17 @@ class Map:
             off = (i - (n - 1) / 2) * 0.5
             self.item(kind, x + off, 0.82, z, iid)
 
-    def objective(self, oid, kind, x, y, z, label, seconds=2.0, holdout=0.0, opens=(), message="", radius=2.0):
+    def objective(self, oid, kind, x, y, z, label, seconds=2.0, holdout=0.0, opens=(), message="", radius=2.0,
+                  prop=None, yaw=0.0):
+        """`prop` is what it is, drawn: "padlock" (hung on the gate it opens), "lever", "radio"."""
         o = {"id": oid, "kind": kind, "at": [r(x), r(y), r(z)], "label": label, "seconds": seconds,
              "holdout": holdout, "opens": list(opens), "message": message}
         if kind == "reach":
             o["radius"] = radius
+        if prop:
+            o["prop"] = prop
+            if yaw:
+                o["yaw"] = r(yaw)
         self.objectives.append(o)
 
     def sleeper(self, x, z, yaw=0.0):
@@ -569,7 +578,7 @@ def blackout_1():
     m.room(8.5, 30, 18, 40, floor="tile_check", wall="paint", tint=[0.8, 0.85, 0.9], light=COLD)
     # The square, split by a locked fence at x 18.
     m.region(-8, 60, 30, 72.5, floor="sidewalk", height=9.0, tint=[0.7, 0.72, 0.78])
-    m.gate("fence", 18.0, 60.0, 18.4, 72.5, 3.2, "metal", [0.55, 0.58, 0.6])
+    m.gate("fence", 18.0, 60.0, 18.4, 72.5, 3.2, "metal", [0.55, 0.58, 0.6], look="chain_link")
     # North out of the square to the flats.
     m.region(22, 72.5, 30, 90, floor="asphalt", height=8.0, tint=[0.78, 0.74, 0.7])
     safe_room(m, 22, 90.5, 30, 98, (25, 90, 27, 90.5), start=False)
@@ -605,7 +614,7 @@ def blackout_1():
     m.light(4.0, 4.5, 66.0, 18.0, 1.2, SODIUM)
     m.light(25.0, 4.5, 66.0, 16.0, 1.2, SODIUM)
     m.objective("fence", "use", 17.3, 1.0, 66.0, "Cut the fence lock", seconds=3.0, holdout=35.0,
-                opens=["fence"], message="The lock is screaming. Here they come — hold on!")
+                opens=["fence"], message="The lock is screaming. Here they come — hold on!", prop="padlock")
     m.item("ammo", 14.0, 0.0, 61.0)
     m.item("throwable", 14.5, 0.0, 61.0, "pipe_bomb")
     scatter_cars(m, rng, 22, 74, 30, 88, 2, ("cars_sedan", "cars_delivery"))
@@ -671,7 +680,7 @@ def blackout_2():
     m.item("throwable", 0.0, 0.0, 74.0, "frag")
     m.item("box", 18.0, 0.0, 47.0, "explosive")
     m.objective("shutter", "use", 6.0, 1.0, 79.2, "Raise the loading shutter", seconds=2.5, holdout=45.0,
-                opens=["shutter"], message="The motor is grinding. Everything heard that.")
+                opens=["shutter"], message="The motor is grinding. Everything heard that.", prop="lever")
 
     # The loading dock: trucks backed up to it.
     m.prop("cars_truck", -8.0, 90.0, 0)
@@ -735,7 +744,7 @@ def blackout_3():
     m.item("throwable", 2.5, 0.0, 92.0, "molotov")
     m.item("medkit", -2.5, 0.0, 92.0)
     m.objective("radio", "use", 0.0, 1.0, 98.5, "Radio the boat", seconds=3.0, holdout=90.0,
-                opens=["boat"], message="They heard you. Ninety seconds — hold the pier!")
+                opens=["boat"], message="They heard you. Ninety seconds — hold the pier!", prop="radio", yaw=180)
 
     m.path((0, -6), (0, 0), (0, 30), (0, 54), (0, 80), (0, 98), (0, 105))
     m.hint(-28.0, 32.0)
