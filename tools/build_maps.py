@@ -680,7 +680,7 @@ def blackout_2():
     m.item("throwable", 0.0, 0.0, 74.0, "frag")
     m.item("box", 18.0, 0.0, 47.0, "explosive")
     m.objective("shutter", "use", 6.0, 1.0, 79.2, "Raise the loading shutter", seconds=2.5, holdout=45.0,
-                opens=["shutter"], message="The motor is grinding. Everything heard that.", prop="lever")
+                opens=["shutter"], message="The motor is grinding. Everything heard that.", prop="lever", yaw=180)
 
     # The loading dock: trucks backed up to it.
     m.prop("cars_truck", -8.0, 90.0, 0)
