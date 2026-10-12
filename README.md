@@ -1,6 +1,6 @@
 # zombie-zone-maps
 
-The maps for [**game-zombie-zone**](https://github.com/zees-games/game-zombie-zone): a three-map campaign, *Blackout*, from a corner shop through a container depot to the end of a pier, and two survival maps to hold for as long as the clock says. Five maps to start with, plus the practice street built into the game.
+The maps for [**game-zombie-zone**](https://github.com/zees-games/game-zombie-zone): a three-map exodus, *Blackout*, from a corner shop through a container depot to the end of a pier, and six survival maps, four of them big ones built for a dozen survivors or more: a high school, a shopping mall, a ballpark and a relief camp in the woods. Nine maps, plus the practice street built into the game.
 
 Every map is a **JSON document**, not a scene. A server reads the documents in its map directory and sends the one it is playing to every client when the map changes, so players need no map files at all and a new map is one file dropped into a directory. [`maps/README.md`](maps/README.md) is the format.
 
@@ -12,13 +12,19 @@ Every map is a **JSON document**, not a scene. A server reads the documents in i
 
 | Map | Mode | What it is |
 | --- | --- | --- |
-| `zz_blackout_1` (Corner Shop) | campaign | A high street at night, an alley with a stash, a laundromat, and a square cut in half by a locked fence: cut the lock and hold on while everything that heard it comes |
-| `zz_blackout_2` (The Depot) | campaign | A container yard, a warehouse of racks, and a loading shutter that only opens from inside, slowly and loudly |
-| `zz_blackout_3` (The Pier) | campaign, finale | A seafront camp at dusk and a pier out over the water: radio the boat from the end and hold the pier for ninety seconds |
-| `zz_lot` (Parking Lot) | survival, 5 minutes | A walled car park with a kiosk in the middle, rows of cars and four lamp posts |
-| `zz_chapel` (Chapel Yard) | survival, 6 minutes | A graveyard in fog, crypts to put your back to, and a chapel with a door at each end |
+| `zz_blackout_1` (Corner Shop) | exodus | A high street at night, an alley with a stash, a laundromat, and a square cut in half by a locked fence: cut the lock and hold on while everything that heard it comes |
+| `zz_blackout_2` (The Depot) | exodus | A container yard, a warehouse of racks, and a loading shutter that only opens from inside, slowly and loudly |
+| `zz_blackout_3` (The Pier) | exodus, finale | A seafront camp at dusk and a pier out over the water: radio the boat from the end and hold the pier for ninety seconds |
+| `zz_high_school` (Westbrook High) | survival, 12 | A school at night: a hallway end to end, eight classrooms, a library, a gym and a cafeteria, every door and window boarded (21 barricades), the car park and buses south and the football field north |
+| `zz_mall` (Riverside Galleria) | survival, 14 | A shopping mall: a concourse with sixteen shops (a grocery, a pharmacy, furniture, electronics, books, toys, clothes, a diner), a food court with fountains, and eight ways in from the car park all round |
+| `zz_stadium` (Harbor Park) | survival, 16 | A ballpark under six floodlight masts: the diamond, the stands, the dugouts, and a concourse the horde floods from the car park; the team holds the field while the six tunnels and two dugout tunnels hold |
+| `zz_relief_camp` (Relief Camp) | survival, 10 | An evacuation camp in a clearing: rows of tents, a field hospital, trucks, a water tank and a watchtower behind a plywood wall with four gates and four patched holes, the woods right up to it |
+| `zz_lot` (Parking Lot) | survival | A walled car park with a kiosk in the middle, rows of cars and four lamp posts |
+| `zz_chapel` (Chapel Yard) | survival | A graveyard in fog, crypts to put your back to, and a chapel with a barricaded door at each end |
 
-A campaign map names the next one (`next`), so a won map leads to the next and the last one hands over to the map vote. A lost map is played again, a few times, before the server moves on.
+The number after "survival" is the team the map is built for; stand-ins fill to it. How a survival map is held is the server's choice (`zz_survival`): ten escalating waves by default, or days and nights, or a clock; every survival map can be held any of the three ways, and the big ones carry a daylight for the days.
+
+An exodus map names the next one (`next`), so a won map leads to the next and the last one hands over to the map vote. A lost map is played again, a few times, before the server moves on.
 
 ## How they are made
 
@@ -32,8 +38,8 @@ python3 tools/build_maps.py --sync-sizes   # copy prop sizes from ../game-zombie
 
 The JSON is still what the game reads and is committed; CI runs `--check`, so a hand edit to a built document is caught instead of being lost on the next build. Hand-written documents the builder does not produce are fine too: anything in `maps/` with a `.json` extension is loaded.
 
-Every map is then checked by game-zombie-zone's `examples/headless_maps.tscn`: it fits on the wire, every prop is one the game knows, every spawn has a floor and room for a person, no prop is sunk into a wall or floating, every item can be picked up, the zombies' ground reaches every objective, sleeper and the end room from the start, and a shut gate really does cut the way.
+Every map is then checked by game-zombie-zone's `examples/headless_maps.tscn`: it fits on the wire, every prop is one the game knows, every spawn has a floor and room for a person, no prop is sunk into a wall or floating, every item can be picked up, the zombies' ground reaches every objective, sleeper and the end room from the start, a shut gate really does cut the way, a survival map has a spawn for each of its team and its posts and caches on the ground, and every barricade is on the zombies' ground on both of its faces. `examples/headless_survival.tscn` then plays each big survival map for a wave with a full team of stand-ins.
 
 ## License
 
-MIT. See [LICENSE](LICENSE). The cars, street furniture, crates and gravestones the maps name are Kenney's (CC0) and live in game-zombie-zone.
+MIT. See [LICENSE](LICENSE). The cars, street furniture, crates, gravestones, furniture, trees and shop fittings the maps name are Kenney's (CC0: Car Kit, Retro Urban Kit, City Kit (Roads), Survival Kit, Graveyard Kit, Furniture Kit, Nature Kit and Mini Market) and live in game-zombie-zone.

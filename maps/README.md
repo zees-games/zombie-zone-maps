@@ -16,7 +16,8 @@ Every length is metres, every angle degrees, every time seconds. A position is `
 	"name": "My Map",
 	"author": "you",
 	"blurb": "One line, shown when the map starts.",
-	"mode": "campaign",
+	"mode": "exodus",
+	"survivors": 12,
 	"next": "zz_my_map_2",
 	"survive_seconds": 0,
 	"kill_y": -20.0,
@@ -31,15 +32,20 @@ Every length is metres, every angle degrees, every time seconds. A position is `
 	"items": [],
 	"objectives": [],
 	"sleepers": [],
-	"zombie_spawns": []
+	"zombie_spawns": [],
+	"posts": [],
+	"caches": [],
+	"barricades": [],
+	"day_environment": {}
 }
 ```
 
 | Field | What it is |
 | --- | --- |
 | `id` | Lower-case letters, digits and underscores. Unique on a server; a second file with the same id is refused. |
-| `mode` | `campaign`: get from the start area to the end area, everybody standing. `survival`: hold out for `survive_seconds` (or the server's `zz_survive_seconds` when 0). |
-| `next` | A campaign map's next map, by id. Empty hands over to the server's rotation and the map vote. |
+| `mode` | `exodus`: get from the start shelter to the end one, everybody standing (`campaign`, its old name, is still read). `survival`: hold out, the way the server's `zz_survival` says: ten waves by default, or days and nights, or a clock of `survive_seconds` (the server's `zz_survive_seconds` when 0). |
+| `survivors` | The team the map is built for. Stand-ins fill to it when it is more than the server's own number; leave it out on a map four can play. |
+| `next` | An exodus map's next map, by id. Empty hands over to the server's rotation and the map vote. |
 | `kill_y` | Below this, a survivor is dead and a zombie is gone. |
 | `environment` | Sky, sun, ambient light and fog. Anything left out is the default daylight; the maps here are night, dusk and fog. |
 
@@ -50,6 +56,8 @@ Every length is metres, every angle degrees, every time seconds. A position is `
 ```
 
 `at` is the centre. `mat` is one of the game's surfaces (`asphalt`, `sidewalk`, `concrete`, `brick`, `plaster`, `paint`, `tile`, `tile_check`, `wood_floor`, `wood`, `metal`, `stone`, `grass`, `sand`, `water`, `ceiling` and more; see `zz_materials.gd`). Optional: `yaw`, `tint`, `"solid": false` (seen, not hit: water), `"visible": false` (hit, not seen), `"gate": "id"` (removed when an objective opens it) and `"nav"`.
+
+`"barricade": "id"` makes the box part of a barricade (see below).
 
 `nav` says whether the zombies treat the box as something in the way. A floor, a ceiling or a roof is not; unsaid, anything whose top is at a nav floor's height is taken for a floor and anything else is in the way. Something overhead (a lintel over a door) is never in the way, because the zombies' ground is tested at their feet.
 
@@ -89,3 +97,12 @@ By catalogue id, from game-zombie-zone's `props/catalogue.json` (Kenney's cars, 
 `use` is held (E) for `seconds`, then held out for `holdout` seconds while the horde comes (a panic, unless `"panic": false`), then every gate in `opens` is removed. `reach` is done by standing within `radius`. Objectives are played in order; the HUD shows the current one.
 
 A gate is any box with `"gate": "id"`. A shut gate is a wall to survivors, zombies and the zombies' ground alike; game-zombie-zone's `headless_maps` checks the end area cannot be reached while it is shut.
+
+## Holding it: posts, caches, barricades, daylight
+
+A survival map is held by a team, so it says where:
+
+- `posts` (`[x, y, z]`, up to 64): where a team holds. Stand-ins share them out, fight from them, and mend the barricades near them.
+- `caches` (`[x, y, z]`, up to 32): where supplies appear in every breather: ammunition, a medkit or pills, a gun that gets better as the waves go on, and from the third wave a throwable. `y` 0.82 puts them on a Kenney table.
+- `barricades` (`[{"id", "label", "health"}]`): the doors and windows the horde breaks down and the team mends. Every box with `"barricade": "id"` is part of that barricade. **Give a barricade's boxes `"nav": false`**: the zombies must path straight into it to tear at it, and a barricade cut out of their ground is a window nothing ever comes to (`headless_maps` checks both of its faces are on the ground). `label` is how the team is told it fell ("They are through the west doors!"); `health` is its strength (the server's `zz_barricade_health` when left out). Planks to chest height let the team shoot over them; to the lintel, they do not.
+- `day_environment`: the same fields as `environment`, for the days when the server holds survival by nights; `environment` is then the night.
