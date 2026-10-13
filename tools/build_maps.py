@@ -1615,6 +1615,146 @@ def relief_camp():
 PLANS = (blackout_1, blackout_2, blackout_3, lot, chapel, high_school, mall, stadium, relief_camp)
 
 
+# --- Toys -----------------------------------------------------------------------------------
+#
+# dot-props' toys (game-zombie-zone builds them from the document's `toys`, both ends, in this
+# order). **Loose ones only**: barrels, tyres, balls, a bowling set. A survivor and a zombie walk
+# through a loose toy and a survivor's walk or shot sends it on; a fixed one (a see-saw, a
+# trampoline) would stand on the zombies' ground, which the nav floors do not know about, and
+# be a wall a stand-in walks into. A hint names an anchor (the first survivor spawn, a route
+# point, a post) and an offset; `settle_toys` moves it to the nearest spot within 10 m that is
+# floored flat, clear of every box and prop by half a metre, and 1.5 m from every spawn and
+# item. A hint that settles nowhere stops the build rather than leaving a toy out.
+
+TOY_SIZE = {
+    "beach_ball": (0.5, 1.0), "football": (0.15, 0.3), "bowling_ball": (0.15, 0.3), "bowling_pin": (0.1, 0.4),
+    "barrel": (0.35, 0.9), "tyre": (0.45, 0.3), "_rack": (0.8, 0.4),
+}
+TOY_NOT_FLOOR = ("water", "lava", "slime", "foliage", "thin_ice")
+
+
+def toy(tid, anchor="spawn", dx=0.0, dz=0.0, yaw=0.0, exact=False):
+    if tid not in TOY_SIZE:
+        raise SystemExit("toy %s is not a loose toy this builder places" % tid)
+    return {"toy": tid, "anchor": anchor, "dx": dx, "dz": dz, "yaw": yaw, "exact": exact}
+
+
+def toy_pins(anchor, dx, dz):
+    """A rack of six bowling pins, settled as one: a triangle with its point toward -z."""
+    return [{"toy": "_rack", "anchor": anchor, "dx": dx, "dz": dz, "yaw": 0.0, "exact": False}]
+
+
+def _toy_anchor(doc, anchor):
+    if anchor == "spawn":
+        a = doc["spawns"]["survivors"][0]["at"]
+    elif anchor[0] == "route":
+        a = doc["route"][anchor[1]]
+    elif anchor[0] == "post":
+        a = doc["posts"][anchor[1]]
+    else:
+        raise SystemExit("toy anchor %s" % str(anchor))
+    return a[0], a[1], a[2]
+
+
+def _toy_floor(boxes, x, z, near_y):
+    """The top of the highest solid box under (x, z) no more than a metre over near_y, or None."""
+    best = None
+    for b, lo, hi in boxes:
+        if lo[0] <= x <= hi[0] and lo[2] <= z <= hi[2] and hi[1] <= near_y + 1.0 and (best is None or hi[1] > best[0]):
+            best = (hi[1], b.get("mat"))
+    return best
+
+
+def settle_toys(doc, hints):
+    solid = []
+    for b in doc["boxes"]:
+        lo = [b["at"][i] - b["size"][i] / 2.0 for i in range(3)]
+        hi = [b["at"][i] + b["size"][i] / 2.0 for i in range(3)]
+        solid.append((b, lo, hi))
+    keep_off = [sp["at"] for sp in doc["spawns"].get("survivors", [])] + [it["at"] for it in doc.get("items", []) if "at" in it]
+    placed, out = [], []
+    for h in hints:
+        ax, ay, az = _toy_anchor(doc, h["anchor"])
+        radius, height = TOY_SIZE[h["toy"]]
+        found = None
+        rings = 1 if h["exact"] else 21
+        for ring in range(rings):
+            rr = ring * 0.5
+            steps = max(1, int(round(2 * math.pi * rr / 0.5))) if rr > 0 else 1
+            for k in range(steps):
+                a = 2 * math.pi * k / steps
+                x, z = r(ax + h["dx"] + rr * math.cos(a)), r(az + h["dz"] + rr * math.sin(a))
+                under = [_toy_floor(solid, px, pz, ay) for px, pz in ((x, z), (x - radius, z - radius), (x + radius, z - radius), (x - radius, z + radius), (x + radius, z + radius))]
+                if any(u is None or u[1] in TOY_NOT_FLOOR for u in under):
+                    continue
+                top = under[0][0]
+                if any(abs(u[0] - top) > 0.06 for u in under) or abs(top - ay) > 1.5:
+                    continue
+                m = radius + 0.5
+                clear = True
+                for b, lo, hi in solid:
+                    if hi[1] - lo[1] < 0.05:
+                        continue
+                    if lo[0] < x + m and hi[0] > x - m and lo[2] < z + m and hi[2] > z - m and lo[1] < top + height + 0.3 and hi[1] > top + 0.06:
+                        clear = False
+                        break
+                if clear:
+                    for p in doc.get("props", []):
+                        sx, sy, sz = size_of(p["id"])
+                        reach = max(sx, sz) / 2.0 + m
+                        if abs(p["at"][0] - x) < reach and abs(p["at"][2] - z) < reach and p["at"][1] - top < 2.0 and top - p["at"][1] < sy:
+                            clear = False
+                            break
+                if clear and not h["exact"]:
+                    for o in placed:
+                        if math.hypot(o["at"][0] - x, o["at"][2] - z) < radius + TOY_SIZE[o["toy"]][0] + 0.5:
+                            clear = False
+                            break
+                if clear and any(math.hypot(q[0] - x, q[2] - z) < 1.5 and abs(q[1] - top) < 2.0 for q in keep_off):
+                    clear = False
+                if clear:
+                    found = (x, top, z)
+                    break
+            if found:
+                break
+        if found is None:
+            raise SystemExit("%s: nowhere for %s near %s%+.1f,%+.1f" % (doc["id"], h["toy"], str(h["anchor"]), h["dx"], h["dz"]))
+        if h["toy"] == "_rack":
+            for row in range(3):
+                for i in range(row + 1):
+                    pin = {"toy": "bowling_pin", "at": [r(found[0] + (i - row * 0.5) * 0.45), r(found[1]), r(found[2] - 0.4 + row * 0.4)]}
+                    out.append(pin)
+            placed.append({"toy": "_rack", "at": [found[0], found[1], found[2]]})
+            continue
+        t = {"toy": h["toy"], "at": [found[0], r(found[1]), found[2]]}
+        if h["yaw"]:
+            t["yaw"] = h["yaw"]
+        out.append(t)
+        placed.append(t)
+    return out
+
+
+# Each map's toys, by theme: barrels and tyres in the streets, balls where people played.
+TOYS = {
+    "zz_blackout_1": [toy("barrel", ("route", 2), 3, 0), toy("barrel", ("route", 2), 3.8, 0.6), toy("tyre", ("route", 4), -3, 1, yaw=30),
+                      toy("football", ("route", 5), 2, -2), toy("barrel", ("route", 6), -3, 0)],
+    "zz_blackout_2": [toy("barrel", ("route", 1), 3, 0), toy("tyre", ("route", 3), -3, 1, yaw=60), toy("tyre", ("route", 3), -3.8, 2.2),
+                      toy("beach_ball", ("route", 5), 2, 2), toy("barrel", ("route", 6), 3, -1)],
+    "zz_blackout_3": [toy("barrel", ("route", 1), -3, 0), toy("barrel", ("route", 2), 3, 0), toy("tyre", ("route", 4), 2, 2),
+                      toy("football", ("route", 5), -2, 1)],
+    "zz_lot": [toy("barrel", "spawn", 6, 6), toy("barrel", "spawn", 6.8, 6.6), toy("tyre", "spawn", -6, 6, yaw=40), toy("football", "spawn", 4, -6)],
+    "zz_chapel": [toy("barrel", ("post", 0), 3, -2), toy("tyre", ("post", 1), 2, 2), toy("football", "spawn", 4, 4)],
+    "zz_high_school": [toy("football", "spawn", 4, 2), toy("beach_ball", "spawn", -4, 3), toy("bowling_ball", ("post", 3), 0, 0),
+                       toy("barrel", ("post", 6), 2, 1), toy("tyre", ("post", 9), -2, 1), toy("football", ("post", 12), 2, -2)],
+    "zz_mall": [toy("bowling_ball", "spawn", 4, 0), *toy_pins("spawn", 4, -8), toy("beach_ball", ("post", 4), 3, 0),
+                toy("beach_ball", ("post", 8), -3, 0), toy("football", ("post", 11), 2, 2), toy("barrel", ("post", 2), 2, -2)],
+    "zz_relief_camp": [toy("barrel", "spawn", 5, 4), toy("barrel", "spawn", 5.8, 4.6), toy("tyre", ("post", 2), 3, 0, yaw=20),
+                       toy("tyre", ("post", 5), -3, 0), toy("football", "spawn", -4, -4)],
+    "zz_stadium": [toy("football", "spawn", 6, 4), toy("football", "spawn", -8, 6), toy("beach_ball", "spawn", 10, -4),
+                   toy("barrel", ("post", 3), 2, 2), toy("tyre", ("post", 10), -2, 2)],
+}
+
+
 def sync_sizes():
     with open(GAME_CATALOGUE) as f:
         catalogue = json.load(f)
@@ -1642,6 +1782,8 @@ def main(argv):
 
     for plan in PLANS:
         doc = plan().build()
+        if TOYS.get(doc["id"]):
+            doc["toys"] = settle_toys(doc, TOYS[doc["id"]])
         path = os.path.join(MAPS, doc["id"] + ".json")
         text = render(doc)
 

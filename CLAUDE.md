@@ -31,6 +31,10 @@ game-zombie-zone's `examples/headless_maps.tscn` builds each map the way a serve
 
 **It found the builder's first bug on its first run**: the door floor was stretched along the door's long side instead of across the gap, so the laundromat, the warehouse and both maps' end rooms were islands the horde could never enter. The start rooms joined by luck (their floors were within the dedupe distance of the street's). Both gates and the far rooms were "reachable" only once the stretch was across the gap.
 
+## Toys
+
+Every map's `toys` are dot-props' **loose** toys (barrels, tyres, balls, a bowling rack), from the builder's `TOYS` table: a hint names an anchor (the first survivor spawn, a route point, a post) and an offset, and `settle_toys` moves it to the nearest spot within 10 m floored flat, half a metre clear of every box and prop, 1.5 m from every spawn and item; a hint that settles nowhere stops the build. Never a fixed toy: the nav floors do not know about it, so it would be a wall a stand-in walks into. game-zombie-zone's `headless_maps` checks each is built, inside nothing, and still two seconds on.
+
 ## Weapons the maps name from the second pack
 
 `molotov` and `pipe_bomb` are named as throwables. They are zed-dot-weapons' (the second pack); a server without it draws a random throwable in their place (`ZzLoot.place_from_map`).
