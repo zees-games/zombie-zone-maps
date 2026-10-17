@@ -1,0 +1,20 @@
+{
+  "id": "ze_nuke_beta",
+  "name": "Nuke (beta)",
+  "source": "ze_nuke_beta.bsp",
+  "author": "Mikyuu",
+  "page": "https://gamebanana.com/mods/130898",
+  "licence": "licence not stated on the page (default CC BY-NC-ND 4.0 assumed)",
+  "blurb": "Run for it: an escape map converted from Mikyuu's ze_nuke_beta. Open each door, hold on while it opens, and get to the end.",
+  "mode": "exodus",
+  "survivors": 8,
+  "survivor_class": "info_player_counterterrorist",
+  "zombie_classes": ["info_player_terrorist"],
+  "gate_classes": ["func_door", "func_door_rotating"],
+  "solid_classes": ["func_breakable", "func_brush"],
+  "holdout": 25,
+  "gate_label": "Open the door",
+  "item_map": {
+    "weapon_hegrenade": ["throwable", null], "weapon_flashbang": ["throwable", null], "weapon_smokegrenade": ["throwable", null]
+  }
+}

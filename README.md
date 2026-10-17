@@ -40,6 +40,10 @@ The JSON is still what the game reads and is committed; CI runs `--check`, so a 
 
 Every map is then checked by game-zombie-zone's `examples/headless_maps.tscn`: it fits on the wire, every prop is one the game knows, every spawn has a floor and room for a person, no prop is sunk into a wall or floating, every item can be picked up, the zombies' ground reaches every objective, sleeper and the end room from the start, a shut gate really does cut the way, a survival map has a spawn for each of its team and its posts and caches on the ground, and every barricade is on the zombies' ground on both of its faces. `examples/headless_survival.tscn` then plays each big survival map for a wave with a full team of stand-ins.
 
+### Converted Source maps
+
+`tools/import_bsp.py` turns a community Source 1 `.bsp` into a map document (`python3 -I tools/import_bsp.py tools/bsp/<id>.json <file.bsp>`); `tools/bsp_read.py` is its reader (a copy of game-g2gfast's). The spec in `tools/bsp/` names the author, page, licence, mode and entity classes. The `.bsp` is not committed: download it again from the page in the spec. Author textures are never used (materials map to the game's own surfaces) and the author is credited in `author` and `attribution`, with a removal-on-request line. The generated Raven Street document is not shipped yet (its suite checks fail, see the nightly queue). Brush geometry only: maps whose rooms are models, displacements or entity logic (elevators, buttons) do not convert yet.
+
 ## License
 
 MIT. See [LICENSE](LICENSE). The cars, street furniture, crates, gravestones, furniture, trees and shop fittings the maps name are Kenney's (CC0: Car Kit, Retro Urban Kit, City Kit (Roads), Survival Kit, Graveyard Kit, Furniture Kit, Nature Kit and Mini Market) and live in game-zombie-zone.

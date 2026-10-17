@@ -1,0 +1,21 @@
+{
+  "id": "ze_runforyourlife_1_v4",
+  "name": "Run For Your Life",
+  "source": "ze_runforyourlife_1_v4.bsp",
+  "author": "flabes2",
+  "page": "https://gamebanana.com/mods/130964",
+  "licence": "licence not stated on the page (default CC BY-NC-ND 4.0 assumed)",
+  "blurb": "Run for it: an escape map converted from flabes2's ze_runforyourlife_1_v4. Open each way on and hold on while it opens.",
+  "mode": "exodus",
+  "survivors": 8,
+  "survivor_class": "info_player_counterterrorist",
+  "zombie_classes": ["info_player_terrorist"],
+  "gate_classes": ["func_door"],
+  "solid_classes": ["func_brush"],
+  "holdout": 30,
+  "gate_label": "Open the way on",
+  "item_map": {
+    "weapon_hegrenade": ["throwable", null], "weapon_p90": ["weapon", "smg"], "weapon_mp5navy": ["weapon", "smg"], "weapon_tmp": ["weapon", "smg"],
+    "weapon_sg550": ["weapon", "rifle"], "weapon_awp": ["weapon", "rifle"]
+  }
+}
