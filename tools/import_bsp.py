@@ -254,7 +254,7 @@ def surfaces_at(boxes, grid, ix, iz):
     return sorted(set(out))
 
 
-def build_nav(boxes, starts):
+def build_nav(boxes, starts, blocked=None, wide=False):
     solid = [b for b in boxes if b.get("solid", True) and b.get("nav", True) is not False and not b.get("_sky")]
     grid = cell_index(solid)
     surf = {}
@@ -266,6 +266,21 @@ def build_nav(boxes, starts):
     parent = {}
     dist = {}
     dq = deque()
+    blocked = blocked or {}
+
+    def is_open(ix, iz, h):
+        return not any(abs(by - h) <= 0.5 for by in blocked.get((ix, iz), ()))
+
+    def is_wide(ix, iz, h):
+        """The game's graph is a metre apart: a way narrower than two cells has no point in it, and
+        a prop in the middle of a doorway takes the rest. Only a 2x2 block of open cells counts."""
+        for ox in (-1, 0):
+            for oz in (-1, 0):
+                if all(any(abs(h2 - h) <= STEP and is_open(ix + ox + i, iz + oz + j, h2) for h2 in surf.get((ix + ox + i, iz + oz + j), ()))
+                       for i in (0, 1) for j in (0, 1)):
+                    return True
+        return False
+
     for st in starts:
         ix, iz = int(math.floor(st[0] / CELL)), int(math.floor(st[2] / CELL))
         cands = [h for h in surf.get((ix, iz), []) if h <= st[1] + 0.6]
@@ -280,12 +295,14 @@ def build_nav(boxes, starts):
         for dx, dz in ((1, 0), (-1, 0), (0, 1), (0, -1)):
             for h2 in surf.get((ix + dx, iz + dz), ()):
                 dh = h2 - h
-                if (-DROP <= dh < -STEP or STEP < dh <= JUMP) and (ix + dx, iz + dz, h2) not in seen:
+                if (-DROP <= dh < -STEP or STEP < dh <= JUMP) and (ix + dx, iz + dz, h2) not in seen and (
+                        not wide or (is_open(ix + dx, iz + dz, h2) and is_wide(ix + dx, iz + dz, h2))):
                     # a drop or a jump up: the body crosses it, the zombies by a link
                     key = (ix // 3, iz // 3, round(h, 1), round(h2, 1))
                     if key not in links:
                         links[key] = [r3((ix + 0.5) * CELL), r3(h), r3((iz + 0.5) * CELL), r3((ix + dx + 0.5) * CELL), r3(h2), r3((iz + dz + 0.5) * CELL)]
-                if (abs(dh) <= STEP or -DROP <= dh <= JUMP) and (ix + dx, iz + dz, h2) not in seen:
+                if (abs(dh) <= STEP or -DROP <= dh <= JUMP) and (ix + dx, iz + dz, h2) not in seen and (
+                        not wide or (is_open(ix + dx, iz + dz, h2) and is_wide(ix + dx, iz + dz, h2))):
                     seen.add((ix + dx, iz + dz, h2))
                     parent[(ix + dx, iz + dz, h2)] = (ix, iz, h)
                     dist[(ix + dx, iz + dz, h2)] = dist[(ix, iz, h)] + 1
@@ -393,6 +410,25 @@ def main(argv):
             if gb:
                 gate_cands.append((e, gb))
 
+    # A sky lid (a slab over the whole map, there to keep a player from climbing out) is a floor to the
+    # bake: every random route the choke finder walks starts and ends up on it, so the street's
+    # traffic is a handful of routes and no place is a choke. Nobody reaches it from the ground.
+    if spec.get("drop_lids"):
+        lids = [b for b in boxes if b["size"][0] * b["size"][2] > 1500.0 and b["at"][1] - b["size"][1] / 2 > 3.0]
+        boxes[:] = [b for b in boxes if b not in lids]
+        print("  dropped %d sky lid(s)" % len(lids))
+
+    # Roadblocks across an open street. The choke finder wants narrow places many routes share,
+    # and a street nine metres wide has none: the doors are barricaded (off the bake), so the
+    # horde's whole way to a house would be open ground. A wrecked-vehicle line with a gap a
+    # little over two bodies wide gives it somewhere to be funnelled, and the gap is the choke.
+    for x, gap0, gap1 in spec.get("roadblocks", []):
+        z0, z1 = spec["street_z"]
+        for a, b_ in ((z0, gap0), (gap1, z1)):
+            if b_ - a > 0.1:
+                boxes.append({"at": [r3(x), 1.1, r3((a + b_) / 2)], "size": [0.8, 2.2, r3(b_ - a)],
+                              "mat": "metal", "tint": [0.42, 0.4, 0.38]})
+
     barricades, bar_boxes, bar_geo = [], [], []
     bc = spec.get("barricade_class")
     for e in ents:
@@ -423,31 +459,142 @@ def main(argv):
     def src_to_game(e):
         return gpt(parse_vec(e["origin"]), y0)
 
-    floors, surf, seen, parent, dist = build_nav(boxes, [src_to_game(e) for e in surv])
+    starts = [src_to_game(e) for e in surv]
+    floors, surf, seen, parent, dist = build_nav(boxes, starts)
 
-    # A window the horde climbs through: the sill is too thin to hold a nav point, so the way
-    # in is one link from the ground outside to the ground inside, across the boards.
-    def ground(x, z):
-        ix, iz = int(math.floor(x / CELL)), int(math.floor(z / CELL))
-        hs = [h for h in surf.get((ix, iz), []) if (ix, iz, h) in seen]
-        low = [h for h in hs if h <= 0.35]
-        return max(low) if low else (min(hs) if hs else None)
+    # Distant scenery (the original's backdrop pieces, its boundary walls twenty metres tall) is a
+    # tall box nobody on the ground can stand beside: with no ground within 0.6 m of its footprint
+    # it only gives the navigation bake tops to wander on, and the choke finder's random routes
+    # start and end up there (twelve of a hundred and ninety-two found a way) instead of in the street.
+    if spec.get("drop_decor"):
+        def beside_ground(b, g=0.6):
+            x0, x1 = b["at"][0] - b["size"][0] / 2 - g, b["at"][0] + b["size"][0] / 2 + g
+            z0, z1 = b["at"][2] - b["size"][2] / 2 - g, b["at"][2] + b["size"][2] / 2 + g
+            return any(x0 < f[2] and x1 > f[0] and z0 < f[3] and z1 > f[1] for f in floors)
+        far = [b for b in boxes if b["at"][1] + b["size"][1] / 2 > 3.0 and not beside_ground(b)]
+        boxes[:] = [b for b in boxes if b not in far]
+        print("  dropped %d boxes of distant scenery" % len(far))
 
-    for bid, cx, cz, thin in bar_geo:
-        d = (1.2, 0.0) if thin == 0 else (0.0, 1.2)
-        pa, pb = (cx + d[0], cz + d[1]), (cx - d[0], cz - d[1])
-        ha, hb = ground(*pa), ground(*pb)
-        if ha is not None and hb is not None:
-            build_nav.links.append([r3(pa[0]), r3(ha), r3(pa[1]), r3(pb[0]), r3(hb), r3(pb[1])])
-
+    # Props are cut out of the game's ground, and a metre-spaced graph has no point in a way
+    # narrower than two cells: both left whole rooms (posts, caches, a window's far side) off the
+    # horde's ground though the cell flood reached them. So the ground is flooded again with the
+    # props as obstacles and 2x2 openings only; a prop that shuts a way the first flood had is
+    # dropped (a sofa in a doorway), and what is still cut off is not ground.
     def settle(p, lift=0.0):
         h = floor_at(surf, seen, p[0], p[2], p[1])
         return None if h is None else [r3(p[0]), r3(h + lift), r3(p[2])]
 
+    sizes = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "prop_sizes.json")))["props"]
+    cand = []
+    for e in ents:
+        if e.get("classname") in ("prop_physics", "prop_dynamic", "func_physbox"):
+            cid = spec.get("prop_models", {}).get(e.get("model"))
+            p = settle(src_to_game(e)) if cid else None
+            if p:
+                cand.append({"id": cid, "at": p, "yaw": r3(parse_vec(e.get("angles", "0 0 0"))[1] % 360)})
+
+    def blocks_of(plist):
+        out = {}
+        for pr in plist:
+            sx, sy, sz = sizes[pr["id"]]
+            if sy <= 0.5:
+                continue
+            rad = max(sx, sz) / 2 + 0.3
+            for ix in range(int(math.floor((pr["at"][0] - rad) / CELL)), int(math.floor((pr["at"][0] + rad) / CELL)) + 1):
+                for iz in range(int(math.floor((pr["at"][2] - rad) / CELL)), int(math.floor((pr["at"][2] + rad) / CELL)) + 1):
+                    out.setdefault((ix, iz), []).append(pr["at"][1])
+        return out
+
+    def ground_cells(plist):
+        r = build_nav(boxes, starts, blocks_of(plist), True)
+        return r, {(a, b) for a, b, _ in r[2]}
+
+    keep = list(cand)
+    res, have = ground_cells(keep)
+    base = {(a, b) for a, b, _ in build_nav(boxes, starts, None, True)[2]}
+    for pr in list(cand):
+        if sizes[pr["id"]][1] <= 0.5 or have >= base:
+            continue
+        trial = [q for q in keep if q is not pr]
+        r2, h2 = ground_cells(trial)
+        if len(h2) > len(have):
+            keep, res, have = trial, r2, h2
+    floors, surf, seen2, parent, dist = build_nav(boxes, starts, blocks_of(keep), True)
+    lost = {(a, b) for a, b, _ in seen} - have
+    seen = seen2
+    print("  ground: %d cells walked without props, %d with; %d of %d props kept" % (len({(a, b) for a, b, _ in seen}) + len(lost), len({(a, b) for a, b, _ in seen}), len(keep), len(cand)))
+
+    # The game's own graph, worked out here (nav_emulate): a doorway a metre wide has no point in
+    # it, so the cell flood above reaches rooms the horde cannot. A window's two sides are joined
+    # by a link from the nearest point on each; whole rooms the doors alone do not join to the
+    # street are joined by a link across the doorway, where the cells say a body walks (every link
+    # is across a gap the flood crossed). What is still cut off is not somewhere a post goes.
+    import nav_emulate
+    G = nav_emulate.Graph(boxes + bar_boxes, keep, sizes, floors)
+    links = list(build_nav.links)
+    dead = set()
+    for bid, cx, cz, thin in bar_geo:
+        d = (1.2, 0.0) if thin == 0 else (0.0, 1.2)
+        ia, ib = G.nearest(cx + d[0], 0.0, cz + d[1], 2.0), G.nearest(cx - d[0], 0.0, cz - d[1], 2.0)
+        if ia < 0 or ib < 0 or G.nearest(cx + d[0], 0.0, cz + d[1], 2.5) < 0 or G.nearest(cx - d[0], 0.0, cz - d[1], 2.5) < 0:
+            dead.add(bid)
+            continue
+        links.append([r3(G.pts[ia][0]), r3(G.pts[ia][1]), r3(G.pts[ia][2]), r3(G.pts[ib][0]), r3(G.pts[ib][1]), r3(G.pts[ib][2])])
+        G.union(ia, ib)
+
+    def walkable(a, b_):
+        n = max(2, int(math.dist(a, b_) / 0.25))
+        for k in range(n + 1):
+            t = k / n
+            x, y, z = a[0] + (b_[0] - a[0]) * t, a[1] + (b_[1] - a[1]) * t, a[2] + (b_[2] - a[2]) * t
+            ix, iz = int(math.floor(x / CELL)), int(math.floor(z / CELL))
+            if not any((ix, iz, h) in seen and abs(h - y) <= 0.45 for h in surf.get((ix, iz), ())):
+                return False
+        return True
+
+    pairs = []
+    for i, pa_ in enumerate(G.pts):
+        hx, hz = int(math.floor(pa_[0] / 1.5)), int(math.floor(pa_[2] / 1.5))
+        for dx in range(-2, 3):
+            for dz in range(-2, 3):
+                for j in G.near.get((hx + dx, hz + dz), ()):
+                    if j > i and G.find(i) != G.find(j):
+                        dd = math.dist(pa_, G.pts[j])
+                        if dd <= 3.2 and abs(pa_[1] - G.pts[j][1]) <= 0.5:
+                            pairs.append((dd, i, j))
+    pairs.sort()
+    bridged = 0
+    for dd, i, j in pairs:
+        if G.find(i) != G.find(j) and walkable(G.pts[i], G.pts[j]):
+            G.union(i, j)
+            bridged += 1
+            links.append([r3(G.pts[i][0]), r3(G.pts[i][1]), r3(G.pts[i][2]), r3(G.pts[j][0]), r3(G.pts[j][1]), r3(G.pts[j][2])])
+    build_nav.links = links[:600]
+    start_pt = G.nearest(starts[0][0], starts[0][1], starts[0][2], 3.0)
+    main = G.find(start_pt)
+    for bid, cx, cz, thin in bar_geo:
+        d = (1.2, 0.0) if thin == 0 else (0.0, 1.2)
+        for sgn in (1, -1):
+            k = G.nearest(cx + sgn * d[0], 0.0, cz + sgn * d[1], 2.5)
+            if k < 0 or G.find(k) != main:
+                dead.add(bid)
+    barricades = [b for b in barricades if b["id"] not in dead]
+    for b in bar_boxes:
+        if b["barricade"] in dead:
+            del b["barricade"]
+            del b["nav"]
+
+    def on_main(x, y, z):
+        k = G.nearest(x, y, z, 1.0)
+        return k >= 0 and G.find(k) == main
+
+    print("  game graph: %d points, %d bridged, %d of %d points on the main ground; %d barricades kept" % (
+        len(G.pts), bridged, sum(1 for i in range(len(G.pts)) if G.find(i) == main), len(G.pts), len(barricades)))
+
     spawns = []
     for e in surv:
         p = settle(src_to_game(e), 0.1)
-        if p:
+        if p and p[2] <= spec.get("spawn_z_max", 1e9):
             spawns.append({"at": p, "yaw": r3(bsp_read.yaw_to_godot(parse_vec(e.get("angles", "0 0 0"))[1]))})
     zsp = []
     for cls in spec["zombie_classes"]:
@@ -483,15 +630,10 @@ def main(argv):
     items = items[:60]
 
     props, cache_src = [], []
-    for e in ents:
-        if e.get("classname") in ("prop_physics", "prop_dynamic", "func_physbox"):
-            cid = spec.get("prop_models", {}).get(e.get("model"))
-            p = settle(src_to_game(e)) if cid else None
-            if not p:
-                continue
-            props.append({"id": cid, "at": p, "yaw": r3(parse_vec(e.get("angles", "0 0 0"))[1] % 360)})
-            if cid == "survival_box":
-                cache_src.append(p)
+    for pr in keep:
+        props.append(pr)
+        if pr["id"] == "survival_box":
+            cache_src.append(pr["at"])
 
     objectives, route, end_area, gate_boxes = [], [], [], []
     if spec["mode"] == "exodus" and dist:
@@ -540,15 +682,39 @@ def main(argv):
                                "message": "It is opening. Hold on until it does!"})
         objectives = objectives[:16]
 
+    deep = {}
+    for ix, iz, h in seen:
+        if all(any((ix + dx, iz + dz, h2) in seen and abs(h2 - h) <= STEP for h2 in surf.get((ix + dx, iz + dz), ()))
+               for dx in range(-2, 3) for dz in range(-2, 3)):
+            if on_main((ix + 0.5) * CELL, h, (iz + 0.5) * CELL):
+                deep.setdefault((ix, iz), h)
+
     posts, pts = [], [s["at"] for s in spawns]
+    # Posts: the spawns, spread. A spec that names a `post_region` ([x0, z0, x1, z1]) puts them
+    # inside it instead, on ground well clear of a wall: a team that holds a house is held behind
+    # its doors and windows, which is what makes the narrow places the horde must come through
+    # (chokes); posts all on an open street have none.
+    if spec.get("post_region") and spec["mode"] == "survival":
+        x0, z0, x1, z1 = spec["post_region"]
+        pts = [[r3((ix + 0.5) * CELL), r3(h), r3((iz + 0.5) * CELL)] for (ix, iz), h in sorted(deep.items())
+               if x0 <= (ix + 0.5) * CELL <= x1 and z0 <= (iz + 0.5) * CELL <= z1 and h <= 0.35 and on_main((ix + 0.5) * CELL, h, (iz + 0.5) * CELL)]
     if pts and spec["mode"] == "survival":
-        posts.append(pts[0])
+        posts.append(pts[0] if not spec.get("post_region") else min(pts, key=lambda q: (q[0] - spec["post_region"][0]) ** 2 + q[2] ** 2))
         while len(posts) < spec.get("posts", 6) and len(posts) < len(pts):
             posts.append(max(pts, key=lambda q: min((q[0] - p[0]) ** 2 + (q[2] - p[2]) ** 2 for p in posts)))
     caches = []
+    # A cache goes on open ground the horde certainly has: the nearest cell to the crate whose
+    # whole 5x5 neighbourhood is ground (a crate's own cell is cut out, and the edge of a room
+    # holds a point the game's graph, a metre apart, may not).
     for p in cache_src:
-        if len(caches) < 8 and all((p[0] - c[0]) ** 2 + (p[2] - c[2]) ** 2 > 36 for c in caches):
-            caches.append(p)
+        near = [(((ix + 0.5) * CELL - p[0]) ** 2 + ((iz + 0.5) * CELL - p[2]) ** 2, ix, iz, h) for (ix, iz), h in deep.items()
+                if abs(h - p[1]) < 1.0 and abs((ix + 0.5) * CELL - p[0]) < 4 and abs((iz + 0.5) * CELL - p[2]) < 4]
+        if not near:
+            continue
+        _, ix, iz, h = min(near)
+        q = [r3((ix + 0.5) * CELL), r3(h), r3((iz + 0.5) * CELL)]
+        if on_main(q[0], q[1], q[2]) and h <= 0.35 and len(caches) < 8 and all((q[0] - c[0]) ** 2 + (q[2] - c[2]) ** 2 > 36 for c in caches):
+            caches.append(q)
 
     lights = []
     for e in ents:
@@ -566,7 +732,7 @@ def main(argv):
     doc = {
         "format": 1, "kind": "zombiezone_map", "id": spec["id"], "name": spec["name"],
         "author": "%s (original map, %s, %s); converted. Removed on request." % (spec["author"], spec["page"], spec["licence"]),
-        "attribution": "Geometry converted from %s by %s, %s (%s). Credit: %s. The original file is not redistributed and its textures and models are not used (the game draws its own surfaces and Kenney CC0 props). This conversion is removed on the author's request." % (
+        "attribution": "Geometry converted from %s by %s, %s (%s), used non-commercially with credit under the licence. Credit: %s. The original file is not redistributed and its textures and models are not used (the game draws its own surfaces and Kenney CC0 props). This conversion is removed on the author's request." % (
             spec["source"], spec["author"], spec["page"], spec["licence"], spec["author"]),
         "blurb": spec["blurb"], "mode": spec["mode"], "survivors": spec.get("survivors", 0), "next": "",
         "survive_seconds": spec.get("survive_seconds", 0), "kill_y": r3(min(lo[1], hi[1]) - 12.0),
@@ -582,6 +748,12 @@ def main(argv):
         sp = [s["at"] for s in spawns]
         doc["areas"]["start"] = [{"min": [r3(min(p[0] for p in sp) - 2), r3(min(p[1] for p in sp) - 0.5), r3(min(p[2] for p in sp) - 2)],
                                   "max": [r3(max(p[0] for p in sp) + 2), r3(max(p[1] for p in sp) + 3), r3(max(p[2] for p in sp) + 2)]}]
+    # Toys: loose dot-props, from the spec's hints ([toy, anchor, dx, dz]); build_maps settles each
+    # onto clear floor, the same way the hand-built maps' are.
+    if spec.get("toys"):
+        import build_maps
+        hints = [build_maps.toy(t[0], "spawn" if t[1] == "spawn" else tuple(t[1]), t[2], t[3], *t[4:]) for t in spec["toys"]]
+        doc["toys"] = build_maps.settle_toys(doc, hints)
     os.makedirs(out_dir, exist_ok=True)
     path = os.path.join(out_dir, spec["id"] + ".json")
     with open(path, "w") as f:

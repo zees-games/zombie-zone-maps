@@ -31,6 +31,10 @@ game-zombie-zone's `examples/headless_maps.tscn` builds each map the way a serve
 
 **It found the builder's first bug on its first run**: the door floor was stretched along the door's long side instead of across the gap, so the laundromat, the warehouse and both maps' end rooms were islands the horde could never enter. The start rooms joined by luck (their floors were within the dedupe distance of the street's). Both gates and the far rooms were "reachable" only once the stretch was across the gap.
 
+## Converted Source maps (`tools/import_bsp.py`)
+
+**The importer must agree with the game's graph, not with its own cell flood.** `tools/nav_emulate.py` is dot-npc's `DotNpcNavBuilder` in Python (a point a metre apart, dropped within 0.35 m of an obstacle): a doorway a metre wide has no point in it, so a room the cell flood reached was an island to the horde (Raven Street's posts and caches failed `headless_maps` that way). Keep it in step with the builder. Posts go inside the houses (`post_region` in the spec) because posts on an open street leave the choke finder nothing to find. `drop_lids`/`drop_decor` remove the sky lid and distant scenery, whose walkable tops took the annotator's random routes off the ground; `roadblocks` pinch an open street so it has chokes (`headless_nav` fails a map with none on the horde's routes); `spawn_z_max` drops spawns pressed against a wall. Textures are never the author's; props map to Kenney ids by name (`prop_models`).
+
 ## Toys
 
 Every map's `toys` are dot-props' **loose** toys (barrels, tyres, balls, a bowling rack), from the builder's `TOYS` table: a hint names an anchor (the first survivor spawn, a route point, a post) and an offset, and `settle_toys` moves it to the nearest spot within 10 m floored flat, half a metre clear of every box and prop, 1.5 m from every spawn and item; a hint that settles nowhere stops the build. Never a fixed toy: the nav floors do not know about it, so it would be a wall a stand-in walks into. game-zombie-zone's `headless_maps` checks each is built, inside nothing, and still two seconds on.

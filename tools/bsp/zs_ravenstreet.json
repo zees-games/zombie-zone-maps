@@ -10,7 +10,10 @@
   "survivors": 8,
   "survive_seconds": 600,
   "survivor_class": "info_player_human",
-  "zombie_classes": ["info_player_zombie", "info_player_zombie_boss"],
+  "zombie_classes": [
+    "info_player_zombie",
+    "info_player_zombie_boss"
+  ],
   "item_class": "weapon_zs_hammer",
   "barricade_class": "func_breakable",
   "barricade_health": 1800,
@@ -31,5 +34,107 @@
     "models/props_junk/pushcart01a.mdl": "market_shopping-cart",
     "models/props_c17/furniturestove001a.mdl": "furniture_kitchen_stove",
     "models/props_c17/furniturefridge001a.mdl": "furniture_kitchen_fridge"
-  }
+  },
+  "toys": [
+    [
+      "barrel",
+      [
+        "post",
+        0
+      ],
+      3,
+      -2
+    ],
+    [
+      "tyre",
+      [
+        "post",
+        1
+      ],
+      2,
+      2
+    ],
+    [
+      "barrel",
+      [
+        "post",
+        2
+      ],
+      -3,
+      2
+    ],
+    [
+      "football",
+      "spawn",
+      4,
+      4
+    ],
+    [
+      "tyre",
+      [
+        "post",
+        3
+      ],
+      3,
+      0
+    ],
+    [
+      "barrel",
+      [
+        "post",
+        4
+      ],
+      2,
+      -3
+    ],
+    [
+      "beach_ball",
+      [
+        "post",
+        5
+      ],
+      -3,
+      1
+    ]
+  ],
+  "post_region": [
+    -18.0,
+    -18.0,
+    18.0,
+    -8.0
+  ],
+  "street_z": [
+    -5.95,
+    3.45
+  ],
+  "roadblocks": [
+    [
+      -25.0,
+      -3.5,
+      -0.5
+    ],
+    [
+      -19.0,
+      -1.5,
+      1.5
+    ],
+    [
+      8.0,
+      -4.5,
+      -1.5
+    ],
+    [
+      14.0,
+      -0.5,
+      2.5
+    ],
+    [
+      20.0,
+      -3.5,
+      -0.5
+    ]
+  ],
+  "drop_lids": true,
+  "drop_decor": true,
+  "spawn_z_max": 1.9
 }
