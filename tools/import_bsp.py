@@ -59,6 +59,7 @@ CELL = 0.5            # nav analysis grid
 DROP = 3.0            # a body drops this far
 JUMP = 0.9            # and jumps up this far
 STEP = 0.42           # a body climbs this between neighbouring cells
+THIN_WALLS = False    # set from the spec: see _thin_wall_over
 HEAD = 1.7            # headroom a floor needs
 SLAB = 0.4
 
@@ -168,13 +169,26 @@ def cell_index(boxes):
     return grid
 
 
+def _thin_wall_over(b, ix, iz):
+    """A wall thinner than a cell that stands over part of it. The flood samples a cell's centre,
+    so a one-unit-thick wall (Run For Your Life's dividers are 2 cm) fell between the samples:
+    the flood walked through it and the route, items and spawns were put on the far side of a
+    wall the body cannot pass. The cell is the wall's when the wall overlaps it at all. A spec opts
+    in (`thin_walls`): Nuke's route was authored against the old flood, and its panes of glass and
+    clip slivers would seal it until its authoring is redone."""
+    if not THIN_WALLS or b.get("yaw") or b["size"][1] <= HEAD or min(b["size"][0], b["size"][2]) >= CELL:
+        return False
+    return (abs(b["at"][0] - (ix + 0.5) * CELL) < (b["size"][0] + CELL) / 2
+            and abs(b["at"][2] - (iz + 0.5) * CELL) < (b["size"][2] + CELL) / 2)
+
+
 def surfaces_at(boxes, grid, ix, iz):
     """Walkable heights in a cell: box tops with headroom."""
     cx, cz = (ix + 0.5) * CELL, (iz + 0.5) * CELL
     spans = []
     for bi in grid.get((ix, iz), ()):
         b = boxes[bi]
-        if inside_box(b, cx, cz):
+        if inside_box(b, cx, cz) or _thin_wall_over(b, ix, iz):
             spans.append((b["at"][1] - b["size"][1] / 2, b["at"][1] + b["size"][1] / 2))
     out = []
     for lo, hi in spans:
@@ -346,6 +360,8 @@ def main(argv):
         print(__doc__)
         return 2
     spec = json.load(open(argv[1]))
+    global THIN_WALLS
+    THIN_WALLS = bool(spec.get("thin_walls"))
     out_dir = argv[3] if len(argv) > 3 else os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "maps")
     bs = load_source(argv[2])
     ents = bs.entities
