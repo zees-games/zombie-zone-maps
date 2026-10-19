@@ -4,18 +4,205 @@
   "source": "ze_runforyourlife_1_v4.bsp",
   "author": "flabes2",
   "page": "https://gamebanana.com/mods/130964",
-  "licence": "licence not stated on the page (default CC BY-NC-ND 4.0 assumed)",
+  "licence": "CC BY-NC-ND 4.0",
   "blurb": "Run for it: an escape map converted from flabes2's ze_runforyourlife_1_v4. Open each way on and hold on while it opens.",
   "mode": "exodus",
   "survivors": 8,
   "survivor_class": "info_player_counterterrorist",
-  "zombie_classes": ["info_player_terrorist"],
-  "gate_classes": ["func_door"],
-  "solid_classes": ["func_brush"],
+  "zombie_classes": [
+    "info_player_terrorist"
+  ],
+  "gate_classes": [
+    "func_door"
+  ],
+  "solid_classes": [
+    "func_brush"
+  ],
   "holdout": 30,
   "gate_label": "Open the way on",
   "item_map": {
-    "weapon_hegrenade": ["throwable", null], "weapon_p90": ["weapon", "smg"], "weapon_mp5navy": ["weapon", "smg"], "weapon_tmp": ["weapon", "smg"],
-    "weapon_sg550": ["weapon", "rifle"], "weapon_awp": ["weapon", "rifle"]
-  }
+    "weapon_hegrenade": [
+      "throwable",
+      null
+    ],
+    "weapon_p90": [
+      "weapon",
+      "smg"
+    ],
+    "weapon_mp5navy": [
+      "weapon",
+      "smg"
+    ],
+    "weapon_tmp": [
+      "weapon",
+      "smg"
+    ],
+    "weapon_sg550": [
+      "weapon",
+      "rifle"
+    ],
+    "weapon_awp": [
+      "weapon",
+      "rifle"
+    ]
+  },
+  "gate_names": {
+    "door2": {
+      "label": "Hold on for the final door",
+      "holdout": 45
+    }
+  },
+  "drop_buried": true,
+  "survivor_start": {
+    "at": [
+      -86.0,
+      22.31,
+      -7.0
+    ],
+    "cols": 8,
+    "rows": 3,
+    "gap": 1.4,
+    "yaw": -90.0
+  },
+  "zombie_start": [
+    [
+      -40.0,
+      22.31,
+      -40.0
+    ],
+    [
+      -30.0,
+      22.31,
+      -35.0
+    ],
+    [
+      -60.0,
+      22.31,
+      -45.0
+    ]
+  ],
+  "cut": [
+    [
+      -200,
+      -5,
+      -200,
+      200,
+      20,
+      200
+    ]
+  ],
+  "add_boxes": [
+    {
+      "at": [
+        -51.2,
+        22.06,
+        -85.9
+      ],
+      "size": [
+        3.4,
+        0.5,
+        39.0
+      ],
+      "mat": "metal"
+    }
+  ],
+  "end_src": [
+    -2677,
+    6089,
+    1181
+  ],
+  "kill_y": 12.0,
+  "items_y": 22.3,
+  "items": [
+    [
+      "weapon",
+      "smg",
+      -80,
+      -4
+    ],
+    [
+      "weapon",
+      "rifle",
+      -75,
+      -6
+    ],
+    [
+      "ammo",
+      null,
+      -72,
+      -4
+    ],
+    [
+      "medkit",
+      null,
+      -70,
+      -8
+    ],
+    [
+      "weapon",
+      "smg",
+      -60,
+      -20
+    ],
+    [
+      "ammo",
+      null,
+      -45,
+      -25
+    ],
+    [
+      "pills",
+      null,
+      -30,
+      -40
+    ],
+    [
+      "throwable",
+      null,
+      -70,
+      -45
+    ],
+    [
+      "medkit",
+      null,
+      -45,
+      -55
+    ],
+    [
+      "weapon",
+      "rifle",
+      -60,
+      -60
+    ],
+    [
+      "ammo",
+      null,
+      -51,
+      -70
+    ],
+    [
+      "throwable",
+      null,
+      -51,
+      -95
+    ],
+    [
+      "medkit",
+      null,
+      -51,
+      -100
+    ],
+    [
+      "ammo",
+      null,
+      -45,
+      -110
+    ],
+    [
+      "pills",
+      null,
+      -55,
+      -112
+    ]
+  ]
 }

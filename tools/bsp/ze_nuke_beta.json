@@ -4,17 +4,306 @@
   "source": "ze_nuke_beta.bsp",
   "author": "Mikyuu",
   "page": "https://gamebanana.com/mods/130898",
-  "licence": "licence not stated on the page (default CC BY-NC-ND 4.0 assumed)",
+  "licence": "CC BY-NC-ND 4.0",
   "blurb": "Run for it: an escape map converted from Mikyuu's ze_nuke_beta. Open each door, hold on while it opens, and get to the end.",
   "mode": "exodus",
   "survivors": 8,
   "survivor_class": "info_player_counterterrorist",
-  "zombie_classes": ["info_player_terrorist"],
-  "gate_classes": ["func_door", "func_door_rotating"],
-  "solid_classes": ["func_breakable", "func_brush"],
+  "zombie_classes": [
+    "info_player_terrorist"
+  ],
+  "gate_classes": [
+    "func_door",
+    "func_door_rotating"
+  ],
+  "solid_classes": [
+    "func_breakable",
+    "func_brush"
+  ],
   "holdout": 25,
   "gate_label": "Open the door",
   "item_map": {
-    "weapon_hegrenade": ["throwable", null], "weapon_flashbang": ["throwable", null], "weapon_smokegrenade": ["throwable", null]
-  }
+    "weapon_hegrenade": [
+      "throwable",
+      null
+    ],
+    "weapon_flashbang": [
+      "throwable",
+      null
+    ],
+    "weapon_smokegrenade": [
+      "throwable",
+      null
+    ]
+  },
+  "drop_buried": true,
+  "cut": [
+    [
+      -25.75,
+      0.0,
+      -2.7,
+      -19.75,
+      3.0,
+      2.7
+    ],
+    [
+      -35.4,
+      0.15,
+      -0.2,
+      -29.55,
+      2.95,
+      0.2,
+      "concrete"
+    ],
+    [
+      -54.4,
+      4.3,
+      20.9,
+      -54.1,
+      4.6,
+      21.1
+    ],
+    [
+      -53.7,
+      3.4,
+      20.8,
+      -52.3,
+      5.5,
+      21.2
+    ],
+    [
+      -51.8,
+      4.4,
+      16.2,
+      -51.6,
+      4.5,
+      16.4
+    ]
+  ],
+  "add_boxes": [
+    {
+      "at": [
+        -22.62,
+        0.133,
+        0.0
+      ],
+      "size": [
+        5.5,
+        0.267,
+        5.0
+      ],
+      "mat": "concrete"
+    },
+    {
+      "at": [
+        -52.15,
+        4.443,
+        16.288
+      ],
+      "size": [
+        5.5,
+        1.819,
+        0.267
+      ],
+      "mat": "concrete"
+    },
+    {
+      "at": [
+        -30.0,
+        0.384,
+        0.0
+      ],
+      "size": [
+        1.0,
+        0.769,
+        2.0
+      ],
+      "mat": "concrete"
+    },
+    {
+      "at": [
+        -31.0,
+        0.594,
+        0.0
+      ],
+      "size": [
+        1.0,
+        1.187,
+        2.0
+      ],
+      "mat": "concrete"
+    },
+    {
+      "at": [
+        -32.0,
+        0.803,
+        0.0
+      ],
+      "size": [
+        1.0,
+        1.606,
+        2.0
+      ],
+      "mat": "concrete"
+    },
+    {
+      "at": [
+        -33.0,
+        1.012,
+        0.0
+      ],
+      "size": [
+        1.0,
+        2.024,
+        2.0
+      ],
+      "mat": "concrete"
+    },
+    {
+      "at": [
+        -34.0,
+        1.221,
+        0.0
+      ],
+      "size": [
+        1.0,
+        2.443,
+        2.0
+      ],
+      "mat": "concrete"
+    },
+    {
+      "at": [
+        -35.0,
+        1.431,
+        0.0
+      ],
+      "size": [
+        1.0,
+        2.861,
+        2.0
+      ],
+      "mat": "concrete"
+    },
+    {
+      "at": [
+        -36.0,
+        1.64,
+        0.0
+      ],
+      "size": [
+        1.0,
+        3.28,
+        2.0
+      ],
+      "mat": "concrete"
+    }
+  ],
+  "extra_links": [
+    [
+      -33.95,
+      2.44,
+      -0.45,
+      -35.95,
+      3.39,
+      -0.45
+    ],
+    [
+      -33.95,
+      2.44,
+      0.55,
+      -35.95,
+      3.39,
+      0.55
+    ],
+    [
+      -35.95,
+      3.39,
+      -0.45,
+      -37.45,
+      3.18,
+      -0.45
+    ],
+    [
+      -35.95,
+      3.39,
+      0.55,
+      -37.45,
+      3.18,
+      0.55
+    ],
+    [
+      -54.45,
+      3.39,
+      34.55,
+      -54.95,
+      3.58,
+      38.05
+    ],
+    [
+      -54.45,
+      3.39,
+      34.55,
+      -53.95,
+      3.58,
+      38.05
+    ],
+    [
+      -51.45,
+      3.39,
+      34.55,
+      -51.45,
+      3.39,
+      38.05
+    ],
+    [
+      -50.45,
+      3.39,
+      34.55,
+      -50.45,
+      3.39,
+      38.05
+    ]
+  ],
+  "route_bridge": true,
+  "extra_gates": [
+    {
+      "label": "Open the blast door",
+      "holdout": 25,
+      "boxes": [
+        {
+          "at": [
+            -51.97,
+            4.63,
+            26.0
+          ],
+          "size": [
+            6.4,
+            2.7,
+            0.8
+          ],
+          "mat": "metal"
+        }
+      ]
+    },
+    {
+      "label": "Hold on for the final door",
+      "holdout": 45,
+      "boxes": [
+        {
+          "at": [
+            -12.19,
+            8.73,
+            46.0
+          ],
+          "size": [
+            3.75,
+            2.6,
+            0.8
+          ],
+          "mat": "metal"
+        }
+      ]
+    }
+  ]
 }

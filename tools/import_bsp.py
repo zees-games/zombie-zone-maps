@@ -406,9 +406,40 @@ def main(argv):
         if cls in spec.get("solid_classes", []):
             boxes.extend(model_boxes(bs, int(m[1:]), og, y0))
         elif cls in spec.get("gate_classes", []):
+            only = spec.get("gate_names")
             gb = model_boxes(bs, int(m[1:]), og, y0)
-            if gb:
+            if gb and (only is None or e.get("targetname") in only):
+                e = dict(e)
+                e.update(only.get(e.get("targetname"), {}) if only else {})
                 gate_cands.append((e, gb))
+
+    # Authoring the source could not carry: a moving platform or a puzzle step is a thing the game
+    # has no mover for, so a spec adds the boxes that stand in for it (`add_boxes`, game coordinates),
+    # cuts the ones that must go (`cut`: regions [x0,y0,z0,x1,y1,z1] whose box centres are removed),
+    # and names a gate made of added boxes (`extra_gates`) that opens like a door.
+    for c in spec.get("cut", []):
+        x0, y0_, z0, x1, y1, z1 = c[:6]
+        boxes[:] = [b for b in boxes if not (x0 <= b["at"][0] <= x1 and y0_ <= b["at"][1] <= y1 and z0 <= b["at"][2] <= z1
+                                             and (len(c) < 7 or b["mat"] == c[6]))]
+    for ab in spec.get("add_boxes", []):
+        boxes.append(dict(ab))
+    if spec.get("drop_buried"):
+        # A box wholly inside another solid one adds nothing to collision, but the graph reads its
+        # top as an obstacle at a height no floor has: two overlapping terraces left a whole step
+        # with no points on it.
+        def extent(b):
+            return [b["at"][k] - b["size"][k] / 2 for k in range(3)] + [b["at"][k] + b["size"][k] / 2 for k in range(3)]
+        ext = [(b, extent(b)) for b in boxes if not b.get("yaw") and b.get("visible", True)]
+        buried = set()
+        for b, e in ext:
+            for c, f in ext:
+                if c is not b and id(c) not in buried and all(f[k] <= e[k] + 0.02 for k in range(3)) and all(f[k + 3] >= e[k + 3] - 0.02 for k in range(3)):
+                    buried.add(id(b))
+                    break
+        boxes[:] = [b for b in boxes if id(b) not in buried]
+        print("  dropped %d buried box(es)" % len(buried))
+    for g in spec.get("extra_gates", []):
+        gate_cands.append((dict(g), [dict(b) for b in g["boxes"]]))
 
     # A sky lid (a slab over the whole map, there to keep a player from climbing out) is a floor to the
     # bake: every random route the choke finder walks starts and ends up on it, so the street's
@@ -459,7 +490,16 @@ def main(argv):
     def src_to_game(e):
         return gpt(parse_vec(e["origin"]), y0)
 
-    starts = [src_to_game(e) for e in surv]
+    # A map whose first stage cannot be built from brushes (a lift, a vanishing floor) starts its
+    # survivors at a later stage instead: `survivor_start` is a block of spawns at a game position.
+    ss = spec.get("survivor_start")
+    start_spawns = []
+    if ss:
+        for r in range(ss.get("rows", 4)):
+            for c in range(ss.get("cols", 6)):
+                start_spawns.append({"at": [r3(ss["at"][0] + c * ss.get("gap", 1.4)), r3(ss["at"][1] + 0.1), r3(ss["at"][2] + r * ss.get("gap", 1.4))],
+                                     "yaw": ss.get("yaw", 0.0)})
+    starts = [s_["at"] for s_ in start_spawns] if ss else [src_to_game(e) for e in surv]
     floors, surf, seen, parent, dist = build_nav(boxes, starts)
 
     # Distant scenery (the original's backdrop pieces, its boundary walls twenty metres tall) is a
@@ -591,13 +631,13 @@ def main(argv):
     print("  game graph: %d points, %d bridged, %d of %d points on the main ground; %d barricades kept" % (
         len(G.pts), bridged, sum(1 for i in range(len(G.pts)) if G.find(i) == main), len(G.pts), len(barricades)))
 
-    spawns = []
-    for e in surv:
+    spawns = list(start_spawns)
+    for e in ([] if ss else surv):
         p = settle(src_to_game(e), 0.1)
         if p and p[2] <= spec.get("spawn_z_max", 1e9):
             spawns.append({"at": p, "yaw": r3(bsp_read.yaw_to_godot(parse_vec(e.get("angles", "0 0 0"))[1]))})
-    zsp = []
-    for cls in spec["zombie_classes"]:
+    zsp = [list(p) for p in spec.get("zombie_start", [])]
+    for cls in ([] if spec.get("zombie_start") else spec["zombie_classes"]):
         for e in ents:
             if e.get("classname") == cls:
                 p = settle(src_to_game(e))
@@ -627,6 +667,13 @@ def main(argv):
                 if wid:
                     it["id"] = wid
                 items.append(it)
+    for kind, wid, x, z in spec.get("items", []):
+        p = settle_any([x, spec.get("items_y", 22.3), z])
+        if p:
+            it = {"kind": kind, "at": p}
+            if wid:
+                it["id"] = wid
+            items.append(it)
     items = items[:60]
 
     props, cache_src = [], []
@@ -639,13 +686,31 @@ def main(argv):
     if spec["mode"] == "exodus" and dist:
         if spec.get("end_src"):
             tx, ty, tz = gpt(spec["end_src"], y0)
-            end = min(dist, key=lambda st: (st[0] * CELL + CELL / 2 - tx) ** 2 + (st[2] * CELL + CELL / 2 - tz) ** 2 + 4 * (st[2 + 0] - ty) ** 2)
+            end = min(dist, key=lambda st: (st[0] * CELL + CELL / 2 - tx) ** 2 + (st[1] * CELL + CELL / 2 - tz) ** 2 + 4 * (st[2] - ty) ** 2)
         else:
             end = max(dist, key=lambda st: dist[st])
         path = [end]
         while path[-1] in parent:
             path.append(parent[path[-1]])
         path.reverse()
+        if spec.get("route_bridge"):
+            # A slope the flood climbs can be cut into floors that the graph builder does not join
+            # (steps over 0.5 m, 1.5 m ties). Where the walked route crosses between two components,
+            # link the points nearest each side; the flood proved a body gets across.
+            bl = 0
+            prev = None
+            for st in path[::2]:
+                q = (( st[0] + 0.5) * CELL, st[2], (st[1] + 0.5) * CELL)
+                k = G.nearest(q[0], q[1], q[2], 2.0)
+                if k < 0:
+                    continue
+                if prev is not None and G.find(prev) != G.find(k):
+                    a_, b_ = G.pts[prev], G.pts[k]
+                    G.union(prev, k)
+                    build_nav.links.append([r3(a_[0]), r3(a_[1]), r3(a_[2]), r3(b_[0]), r3(b_[1]), r3(b_[2])])
+                    bl += 1
+                prev = k
+            print("  route_bridge: %d links along the route" % bl)
 
         def wp(st):
             return [r3((st[0] + 0.5) * CELL), r3(st[2]), r3((st[1] + 0.5) * CELL)]
@@ -677,8 +742,8 @@ def main(argv):
                 b["gate"] = gid
                 gate_boxes.append(b)
             x, h, z = wp(path[max(0, k - 3)])
-            objectives.append({"id": "obj_%d" % (n + 1), "kind": "use", "at": [x, r3(h + 1.0), z], "label": spec.get("gate_label", "Open the way on"),
-                               "seconds": 2, "holdout": spec.get("holdout", 20), "opens": [gid], "prop": "lever",
+            objectives.append({"id": "obj_%d" % (n + 1), "kind": "use", "at": [x, r3(h + 1.0), z], "label": e.get("label", spec.get("gate_label", "Open the way on")),
+                               "seconds": 2, "holdout": e.get("holdout", spec.get("holdout", 20)), "opens": [gid], "prop": "lever",
                                "message": "It is opening. Hold on until it does!"})
         objectives = objectives[:16]
 
@@ -735,12 +800,12 @@ def main(argv):
         "attribution": "Geometry converted from %s by %s, %s (%s), used non-commercially with credit under the licence. Credit: %s. The original file is not redistributed and its textures and models are not used (the game draws its own surfaces and Kenney CC0 props). This conversion is removed on the author's request." % (
             spec["source"], spec["author"], spec["page"], spec["licence"], spec["author"]),
         "blurb": spec["blurb"], "mode": spec["mode"], "survivors": spec.get("survivors", 0), "next": "",
-        "survive_seconds": spec.get("survive_seconds", 0), "kill_y": r3(min(lo[1], hi[1]) - 12.0),
+        "survive_seconds": spec.get("survive_seconds", 0), "kill_y": spec.get("kill_y", r3(min(lo[1], hi[1]) - 12.0)),
         "environment": env,
         "boxes": [{k: v for k, v in b.items() if k != "_sky"} for b in boxes + bar_boxes + gate_boxes], "props": props, "lights": lights,
         "spawns": {"survivors": spawns},
         "areas": {"start": [], "end": end_area}, "route": route or ([spawns[0]["at"]] if spawns else []),
-        "nav": {"spacing": 1.0, "clearance": 0.35, "floors": floors, "links": build_nav.links[:600]},
+        "nav": {"spacing": 1.0, "clearance": 0.35, "floors": floors, "links": build_nav.links[:600] + [list(l) for l in spec.get("extra_links", [])]},
         "items": items, "objectives": objectives, "sleepers": [], "zombie_spawns": zsp, "posts": posts, "caches": caches,
         "barricades": barricades,
     }
