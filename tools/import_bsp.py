@@ -2,11 +2,19 @@
 """Convert a Source 1 .bsp into a zombie-zone map document (maps/<id>.json).
 
     python3 -I tools/import_bsp.py tools/bsp/zs_ravenstreet.json path/to/zs_ravenstreet_v1.bsp [out_dir]
+    python3 -I tools/import_bsp.py tools/bsp/zs_ravenstreet.json zs_ravenstreet.json [out_dir]
+
+The second form reads the family's intermediate document (dot-map's `tools/bsp/bsp.py
+convert`) instead of the map; the first builds that document in memory. Either way this file
+is the game's adapter: reading the format and cutting brushes into boxes are dot-map's
+(`tools/bsp/`, found beside this repository or at `$DOTBSP_PATH`), so a reader fix reaches
+every game that converts maps.
 
 The game's maps are boxes, not meshes, so this reads the *brushes* (the solid volume the
-engine collides with, `bsp_read.Bsp.model_brushes`) and writes each as a box:
+engine collides with) and writes each as a box, by dot-map's `boxes.decompose`:
 
-  * an axis-aligned brush, or a prism whose walls are a rotated rectangle, is one box (with `yaw`);
+  * an axis-aligned brush, a brush turned about the vertical, or an upright prism that fills
+    most of a turned rectangle is one box (with `yaw`);
   * anything else (a ramp, a roof, a wedge) is sliced into 0.4 m slabs along its slope, each slab
     a box spanning what the brush covers at the slab's middle. An approximation, kept small;
   * a brush with a sky, clip or all-nodraw side is an invisible wall; glass is `glass`;
@@ -30,8 +38,21 @@ import re
 import sys
 from collections import deque
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import bsp_read  # noqa: E402
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, HERE)
+
+
+def _dotbsp_path():
+    """dot-map's tools/bsp: $DOTBSP_PATH, else the sibling checkout dot-bootstrap makes."""
+    for p in (os.environ.get("DOTBSP_PATH", ""), os.path.join(HERE, "..", "..", "dot-map", "tools", "bsp")):
+        if p and os.path.isfile(os.path.join(p, "dotbsp", "reader.py")):
+            return os.path.abspath(p)
+    sys.exit("import_bsp: dot-map's tools/bsp was not found; clone dot-map beside this "
+             "repository (dot-bootstrap does) or set DOTBSP_PATH to its tools/bsp")
+
+
+sys.path.insert(1, _dotbsp_path())
+from dotbsp import boxes as dboxes, intermediate, reader  # noqa: E402
 
 S = 0.01905           # metres per Source unit
 CELL = 0.5            # nav analysis grid
@@ -83,22 +104,13 @@ def gpt(p, y0):
     return (p[0] * S, p[2] * S - y0, -p[1] * S)
 
 
-def read_brush(bs, i, off=(0.0, 0.0, 0.0)):
-    first, n, contents = bs.brushes[i]
-    planes, sides = [], []
-    for s in bs.brushsides[first:first + n]:
-        if s[3]:
-            continue
-        pl = bs.planes[s[0]]
-        planes.append((pl[0], pl[1], pl[2], pl[3] + pl[0] * off[0] + pl[1] * off[1] + pl[2] * off[2]))
-        ti = bs.texinfo[s[1]] if s[1] >= 0 else None
-        flags, name = 0, "?"
-        if ti is not None and 0 <= int(ti[17]) < len(bs.texdata):
-            flags = int(ti[16])
-            name = bs.texnames[bs.texdata[int(ti[17])][3]].lower()
-        sides.append((pl, flags, name))
-    pts = [(p[0] + off[0], p[1] + off[1], p[2] + off[2]) for p in bs.brush_hull(i)]
-    return Brush(planes, pts, contents, sides)
+def read_brush(doc, rec):
+    """One brush record of the intermediate. Its planes and hull are already where the map
+    put its entity (the document moves a brush entity's brushes by the entity's origin)."""
+    mats = doc["materials"]
+    planes = [tuple(sd["plane"]) for sd in rec["sides"]]
+    sides = [(tuple(sd["plane"]), sd["flags"], mats[sd["material"]]["name"].lower()) for sd in rec["sides"]]
+    return Brush(planes, [tuple(p) for p in rec["hull"]], rec["contents"], sides)
 
 
 def classify(br):
@@ -107,7 +119,7 @@ def classify(br):
     real = [(pl, f, n) for pl, f, n in br.sides if not n.startswith("tools/")]
     if not real:
         return ("sky" if any("skybox" in n for n in names) else "invisible"), "concrete"
-    if br.contents & (bsp_read.CONTENTS_PLAYERCLIP | 0x20000):
+    if br.contents & (reader.CONTENTS_PLAYERCLIP | 0x20000):
         return "invisible", "concrete"
     top = [n for pl, f, n in real if pl[2] > 0.5]
     name = (top or [n for _, _, n in real])[0]
@@ -116,94 +128,12 @@ def classify(br):
     return "solid", material_for(name)
 
 
-def box_from_prism(br):
-    """A box (with yaw) when every plane is vertical or horizontal and the walls are a rectangle."""
-    angles = []
-    for a, b, c, d in br.planes:
-        if abs(c) > 0.9995:
-            continue
-        if abs(c) > 1e-3:
-            return None
-        angles.append(math.degrees(math.atan2(b, a)) % 90.0)
-    if not angles:
-        return None
-    phi = angles[0]
-    for ang in angles:
-        if min(abs(ang - phi), 90 - abs(ang - phi)) > 0.3:
-            return None
-    pts = br.pts
-    if len(pts) < 8:
-        return None
-    ca, sa = math.cos(math.radians(phi)), math.sin(math.radians(phi))
-    us = [p[0] * ca + p[1] * sa for p in pts]
-    vs = [-p[0] * sa + p[1] * ca for p in pts]
-    u0, u1, v0, v1 = min(us), max(us), min(vs), max(vs)
-    z0, z1 = min(p[2] for p in pts), max(p[2] for p in pts)
-    for u, v in zip(us, vs):
-        if min(abs(u - u0), abs(u - u1)) > 0.5 or min(abs(v - v0), abs(v - v1)) > 0.5:
-            return None
-    uc, vc = (u0 + u1) / 2, (v0 + v1) / 2
-    cx, cy = uc * ca - vc * sa, uc * sa + vc * ca
-    return {"centre": (cx, cy, (z0 + z1) / 2), "size_src": (u1 - u0, v1 - v0, z1 - z0), "phi": phi}
-
-
-def slice_brush(br):
-    """Slabs of a ramp/roof/wedge: [(centre src, (sx, sy, sz) src)]."""
-    pts = br.pts
-    xs = [p[0] for p in pts]
-    ys = [p[1] for p in pts]
-    x0, x1, y0_, y1 = min(xs), max(xs), min(ys), max(ys)
-    gx = gy = 0.0
-    for a, b, c, d in br.planes:
-        if 1e-3 < abs(c) < 0.9995:
-            gx += abs(a)
-            gy += abs(b)
-    if gx == 0 and gy == 0:
-        gx, gy = x1 - x0, y1 - y0_
-    axis = 0 if gx >= gy else 1
-    lo, hi = (x0, x1) if axis == 0 else (y0_, y1)
-    n = max(1, min(40, int(math.ceil((hi - lo) * S / SLAB))))
-    w = (hi - lo) / n
-    out = []
-    for k in range(n):
-        a_c = lo + (k + 0.5) * w
-        cons = []
-        for a, b, c, d in br.planes:
-            if axis == 0:
-                cons.append((b, c, d - a * a_c))
-            else:
-                cons.append((a, c, d - b * a_c))
-        verts = []
-        for i in range(len(cons)):
-            for j in range(i + 1, len(cons)):
-                p1, q1, r1 = cons[i]
-                p2, q2, r2 = cons[j]
-                det = p1 * q2 - p2 * q1
-                if abs(det) < 1e-9:
-                    continue
-                bb = (r1 * q2 - r2 * q1) / det
-                zz = (p1 * r2 - p2 * r1) / det
-                if all(p * bb + q * zz <= r + 0.1 for p, q, r in cons):
-                    verts.append((bb, zz))
-        if len(verts) < 3:
-            continue
-        b0, b1 = min(v[0] for v in verts), max(v[0] for v in verts)
-        z0, z1 = min(v[1] for v in verts), max(v[1] for v in verts)
-        if (z1 - z0) * S < 0.04 or (b1 - b0) * S < 0.04:
-            continue
-        if axis == 0:
-            out.append(((a_c, (b0 + b1) / 2, (z0 + z1) / 2), (w, b1 - b0, z1 - z0)))
-        else:
-            out.append((((b0 + b1) / 2, a_c, (z0 + z1) / 2), (b1 - b0, w, z1 - z0)))
-    return out
-
-
 def boxes_from_brush(br, y0):
-    pr = box_from_prism(br)
-    if pr:
-        sx, sy, sz = pr["size_src"]
-        return [{"at": gpt(pr["centre"], y0), "size": (sx * S, sz * S, sy * S), "yaw": pr["phi"] % 90.0}]
-    return [{"at": gpt(c, y0), "size": (s[0] * S, s[2] * S, s[1] * S), "yaw": 0.0} for c, s in slice_brush(br)]
+    out = []
+    for b in dboxes.decompose(br.planes, br.pts, slab=SLAB / S, min_size=0.04 / S, max_slabs=40):
+        sx, sy, sz = dboxes.size(b)
+        out.append({"at": gpt(dboxes.centre(b), y0), "size": (sx * S, sz * S, sy * S), "yaw": b["phi"] % 90.0})
+    return out
 
 
 def parse_vec(s):
@@ -358,10 +288,42 @@ def floor_at(surf, seen, x, z, y):
     return max(hs) if hs else None
 
 
-def model_boxes(bs, model, off, y0):
+class Source:
+    """The intermediate document, indexed the way this importer asks for it."""
+
+    def __init__(self, doc):
+        probs = intermediate.check(doc)
+        if probs:
+            sys.exit("import_bsp: not a usable intermediate document: " + "; ".join(probs[:5]))
+        self.doc = doc
+        self.entities = [e["keys"] for e in doc["entities"]]
+        self.models = {m["index"]: m for m in doc["models"]}
+        self.brushes = {b["id"]: b for b in doc["brushes"]}
+
+    def model_bounds(self, model):
+        """The model's own bounds, origin-relative as the format stores them."""
+        m = self.models[model]
+        o = m["origin"]
+        return ([m["mins"][k] - o[k] for k in range(3)], [m["maxs"][k] - o[k] for k in range(3)])
+
+    def model_brushes(self, model):
+        m = self.models.get(model)
+        return [self.brushes[i] for i in m["brushes"]] if m else []
+
+
+def load_source(path):
+    if path.lower().endswith(".json"):
+        with open(path) as f:
+            return Source(json.load(f))
+    return Source(intermediate.build(reader.Bsp(path).load(), name=os.path.splitext(os.path.basename(path))[0]))
+
+
+def model_boxes(bs, model, y0):
     out = []
-    for i in sorted(bs.model_brushes(model)):
-        br = read_brush(bs, i, off)
+    for rec in bs.model_brushes(model):
+        if not rec["hull"]:
+            continue
+        br = read_brush(bs.doc, rec)
         if not br.pts or not (br.contents & (1 | 0x2 | 0x10000)):
             continue
         kind, mat = classify(br)
@@ -385,14 +347,13 @@ def main(argv):
         return 2
     spec = json.load(open(argv[1]))
     out_dir = argv[3] if len(argv) > 3 else os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "maps")
-    bs = bsp_read.Bsp(argv[2])
-    bs.load()
+    bs = load_source(argv[2])
     ents = bs.entities
     surv = [e for e in ents if e.get("classname") == spec["survivor_class"]]
     y0 = 0.0
 
     boxes, skipped = [], 0
-    for b in model_boxes(bs, 0, (0, 0, 0), y0):
+    for b in model_boxes(bs, 0, y0):
         boxes.append(b)
 
     # brush entities: solid ones are part of the world; gates are held back for the route
@@ -401,13 +362,12 @@ def main(argv):
         m = str(e.get("model", ""))
         if not m.startswith("*"):
             continue
-        og = parse_vec(e.get("origin", "0 0 0"))
         cls = e.get("classname")
         if cls in spec.get("solid_classes", []):
-            boxes.extend(model_boxes(bs, int(m[1:]), og, y0))
+            boxes.extend(model_boxes(bs, int(m[1:]), y0))
         elif cls in spec.get("gate_classes", []):
             only = spec.get("gate_names")
-            gb = model_boxes(bs, int(m[1:]), og, y0)
+            gb = model_boxes(bs, int(m[1:]), y0)
             if gb and (only is None or e.get("targetname") in only):
                 e = dict(e)
                 e.update(only.get(e.get("targetname"), {}) if only else {})
@@ -635,7 +595,7 @@ def main(argv):
     for e in ([] if ss else surv):
         p = settle(src_to_game(e), 0.1)
         if p and p[2] <= spec.get("spawn_z_max", 1e9):
-            spawns.append({"at": p, "yaw": r3(bsp_read.yaw_to_godot(parse_vec(e.get("angles", "0 0 0"))[1]))})
+            spawns.append({"at": p, "yaw": r3(reader.yaw_to_godot(parse_vec(e.get("angles", "0 0 0"))[1]))})
     zsp = [list(p) for p in spec.get("zombie_start", [])]
     for cls in ([] if spec.get("zombie_start") else spec["zombie_classes"]):
         for e in ents:
