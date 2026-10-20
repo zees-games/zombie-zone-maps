@@ -755,6 +755,20 @@ def main(argv):
         if len(h2) - len(have) > len(blocks_of([pr])) + 6:
             keep, res, have = trial, r2, h2
     floors, surf, seen2, parent, dist = build_nav(boxes, starts, blocks_of(keep), True)
+    # `nav_min_depth` metres: the flood's rectangles on a ragged diagonal (a stepped walkway) come out
+    # one cell deep, 0.4 m, and the game's graph puts its first point half a spacing into a floor,
+    # so a strip that thin holds no point and the walkway has no ground at all. A thin strip is
+    # grown about its middle to this depth; it overlaps its neighbour rows (they are the same
+    # walkway) and anything it spills onto a wall is dropped by the graph's clearance.
+    if spec.get("nav_min_depth"):
+        nd, n_grown = float(spec["nav_min_depth"]), 0
+        for f in floors:
+            for lo, hi in ((0, 2), (1, 3)):
+                if f[hi] - f[lo] < nd:
+                    mid = (f[lo] + f[hi]) / 2
+                    f[lo], f[hi] = r3(mid - nd / 2), r3(mid + nd / 2)
+                    n_grown += 1
+        print("  nav_min_depth: %d floor sides grown to %.2f m" % (n_grown, nd))
     lost = {(a, b) for a, b, _ in seen} - have
     seen = seen2
     print("  ground: %d cells walked without props, %d with; %d of %d props kept" % (len({(a, b) for a, b, _ in seen}) + len(lost), len({(a, b) for a, b, _ in seen}), len(keep), len(cand)))

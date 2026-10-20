@@ -125,5 +125,66 @@
     ]
   ],
   "min_floor": 1.2,
-  "unyaw": true
+  "nav_min_depth": 1.0,
+  "unyaw": true,
+  "gate_names": {},
+  "extra_gates": [
+    {
+      "label": "Open the first blast door",
+      "holdout": 25,
+      "boxes": [
+        {
+          "at": [
+            37.2,
+            1.65,
+            -221.75
+          ],
+          "size": [
+            5.4,
+            2.7,
+            0.8
+          ],
+          "mat": "metal"
+        }
+      ]
+    },
+    {
+      "label": "Open the second blast door",
+      "holdout": 30,
+      "boxes": [
+        {
+          "at": [
+            24.25,
+            1.65,
+            -208.18
+          ],
+          "size": [
+            0.8,
+            2.7,
+            5.2
+          ],
+          "mat": "metal"
+        }
+      ]
+    },
+    {
+      "label": "Hold on for the last blast door",
+      "holdout": 35,
+      "boxes": [
+        {
+          "at": [
+            1.83,
+            1.65,
+            -195.2
+          ],
+          "size": [
+            5.0,
+            2.7,
+            0.8
+          ],
+          "mat": "metal"
+        }
+      ]
+    }
+  ]
 }
