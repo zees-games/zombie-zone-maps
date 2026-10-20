@@ -581,6 +581,10 @@ def main(argv):
         if p:
             cand.append({"id": cid, "at": p, "yaw": r3(a[1] % 360)})
 
+    if spec.get("prop_min_y") is not None:
+        # Props that settled into a pit the players never reach (a lower level the flood leaves out).
+        cand = [c for c in cand if c["at"][1] >= spec["prop_min_y"]]
+
     def blocks_of(plist):
         out = {}
         for pr in plist:
