@@ -60,6 +60,7 @@ DROP = 3.0            # a body drops this far
 JUMP = 0.9            # and jumps up this far
 STEP = 0.42           # a body climbs this between neighbouring cells
 THIN_WALLS = False    # set from the spec: see _thin_wall_over
+MIN_FLOOR_Y = None    # spec min_floor_y: a sump the horde drops into and cannot climb out of is no floor
 HEAD = 1.7            # headroom a floor needs
 SLAB = 0.4
 
@@ -205,7 +206,10 @@ def build_nav(boxes, starts, blocked=None, wide=False):
     for ix, iz in list(grid.keys()):
         s = surfaces_at(solid, grid, ix, iz)
         if s:
-            surf[(ix, iz)] = s
+            if MIN_FLOOR_Y is not None:
+                s = [h for h in s if h >= MIN_FLOOR_Y]
+            if s:
+                surf[(ix, iz)] = s
     seen = set()
     parent = {}
     dist = {}
@@ -370,7 +374,8 @@ def main(argv):
     spec = json.load(open(argv[1]))
     global THIN_WALLS
     THIN_WALLS = bool(spec.get("thin_walls"))
-    global STEP, JUMP
+    global STEP, JUMP, MIN_FLOOR_Y
+    MIN_FLOOR_Y = spec.get("min_floor_y")
     if spec.get("flood_step"):
         # The game's graph joins points only when they differ by half a spacing at most, so a body the
         # flood lets jump up 0.9 m reaches a ledge the horde never will: a flood that walks only what
@@ -413,6 +418,23 @@ def main(argv):
                                              and (len(c) < 7 or b["mat"] == c[6]))]
     for ab in spec.get("add_boxes", []):
         boxes.append(dict(ab))
+    # `stairs`: a flight that stands in for a slope too steep for the graph (a slide, a ladder shaft).
+    # [x0, y0, z0, x1, y1, z1, width]: steps from the top (x0, y0, z0) to the foot (x1, y1, z1) along
+    # the longer horizontal axis, each rising at most 0.4 m over a run of 1 m or more (under the flood's 0.42 step) (the graph's points are a metre apart), as wide as
+    # `width` across, standing on `base` (the lowest y) so there is no gap under a step.
+    for st in spec.get("stairs", []):
+        x0, y0_, z0, x1, y1_, z1, w = st[:7]
+        base = st[7] if len(st) > 7 else min(y0_, y1_) - 1.0
+        along_x = abs(x1 - x0) >= abs(z1 - z0)
+        length = abs(x1 - x0) if along_x else abs(z1 - z0)
+        n = max(1, int(math.ceil(abs(y1_ - y0_) / 0.4)))
+        run = length / (n + 1)
+        for k in range(n + 1):
+            top = y0_ + (y1_ - y0_) * k / n
+            t = (k + 0.5) / (n + 1)
+            cx, cz = x0 + (x1 - x0) * t, z0 + (z1 - z0) * t
+            sz = [r3(run), r3(top - base), r3(w)] if along_x else [r3(w), r3(top - base), r3(run)]
+            boxes.append({"at": [r3(cx), r3((top + base) / 2), r3(cz)], "size": sz, "mat": st[8] if len(st) > 8 else "metal"})
     if spec.get("drop_buried"):
         # A box wholly inside another solid one adds nothing to collision, but the graph reads its
         # top as an obstacle at a height no floor has: two overlapping terraces left a whole step
@@ -610,6 +632,8 @@ def main(argv):
             links.append([r3(G.pts[i][0]), r3(G.pts[i][1]), r3(G.pts[i][2]), r3(G.pts[j][0]), r3(G.pts[j][1]), r3(G.pts[j][2])])
     build_nav.links = links[:600]
     start_pt = G.nearest(starts[0][0], starts[0][1], starts[0][2], 3.0)
+    if start_pt < 0:
+        sys.exit(f"no ground within 3 m of the survivor start {starts[0]}: the start floats or the map's floor is not brushes (displacements, models)")
     main = G.find(start_pt)
     for bid, cx, cz, thin in bar_geo:
         d = (1.2, 0.0) if thin == 0 else (0.0, 1.2)

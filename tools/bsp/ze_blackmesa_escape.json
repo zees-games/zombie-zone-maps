@@ -1,0 +1,131 @@
+{
+  "id": "ze_blackmesa_escape",
+  "name": "Black Mesa Escape",
+  "source": "ze_blackmesa_escape_final.bsp",
+  "author": "Bill Smauz",
+  "page": "https://gamebanana.com/mods/130645",
+  "licence": "CC BY-NC-ND 4.0",
+  "blurb": "Fight out of a research facility's loading hall, across the bridge and up through the service stairs and corridors, the hold-out gates shutting the horde behind you.",
+  "mode": "exodus",
+  "survivors": 8,
+  "survivor_class": "info_player_counterterrorist",
+  "zombie_classes": [
+    "info_player_terrorist"
+  ],
+  "gate_classes": [
+    "func_door",
+    "func_door_rotating",
+    "func_movelinear"
+  ],
+  "solid_classes": [
+    "func_breakable",
+    "func_brush",
+    "func_tracktrain"
+  ],
+  "holdout": 25,
+  "gate_label": "Open the door",
+  "item_map": {
+    "weapon_hegrenade": [
+      "throwable",
+      null
+    ],
+    "weapon_flashbang": [
+      "throwable",
+      null
+    ],
+    "weapon_smokegrenade": [
+      "throwable",
+      null
+    ]
+  },
+  "drop_buried": true,
+  "route_bridge": true,
+  "add_boxes": [
+    {
+      "at": [
+        -33.0,
+        0.9,
+        170.5
+      ],
+      "size": [
+        9.4,
+        0.64,
+        10.6
+      ],
+      "mat": "metal"
+    }
+  ],
+  "stairs": [
+    [
+      -39.0,
+      1.22,
+      146,
+      -68.5,
+      -9.75,
+      146,
+      8
+    ],
+    [
+      -109.5,
+      1.22,
+      113.4,
+      -109.5,
+      -9.75,
+      142.9,
+      5
+    ]
+  ],
+  "kill_y": -30,
+  "cut": [
+    [
+      -140,
+      -11,
+      136,
+      -39.3,
+      2,
+      151.3
+    ],
+    [
+      -39.2,
+      -11,
+      136,
+      -38.8,
+      2,
+      141.3
+    ],
+    [
+      -37,
+      2,
+      144,
+      -32,
+      3,
+      150
+    ],
+    [
+      -34,
+      2,
+      160,
+      -33,
+      3,
+      163
+    ],
+    [
+      -113,
+      1.4,
+      95,
+      -105,
+      2.3,
+      108,
+      "concrete"
+    ],
+    [
+      -99,
+      1.4,
+      49,
+      -90,
+      3.5,
+      59,
+      "concrete"
+    ]
+  ]
+}
