@@ -460,6 +460,31 @@ def main(argv):
         x0, y0_, z0, x1, y1, z1 = c[:6]
         boxes[:] = [b for b in boxes if not (x0 <= b["at"][0] <= x1 and y0_ <= b["at"][1] <= y1 and z0 <= b["at"][2] <= z1
                                              and (len(c) < 7 or b["mat"] == c[6]))]
+    # `crop` [x0, z0, x1, z1]: a map converted only in part (an escape map whose later stages need a
+    # lift or a vanishing floor) keeps the boxes that touch this rectangle, game coordinates. What is
+    # beyond is a wall of sky and scenery nobody reaches, and it is most of a big map's box count.
+    if spec.get("crop"):
+        cx0, cz0, cx1, cz1 = spec["crop"]
+        n0 = len(boxes)
+        boxes[:] = [b for b in boxes if b["at"][0] + b["size"][0] / 2 >= cx0 and b["at"][0] - b["size"][0] / 2 <= cx1
+                    and b["at"][2] + b["size"][2] / 2 >= cz0 and b["at"][2] - b["size"][2] / 2 <= cz1]
+        print("  cropped %d of %d boxes outside the stage" % (n0 - len(boxes), n0))
+    # `clip_y` [lo, hi]: a wall or shaft that runs far past the stage (a trench wall a hundred metres
+    # tall) is shortened to this band, and one wholly outside is dropped. It is the same wall to a
+    # body, and a frame looking down is no longer blocked by it.
+    if spec.get("clip_y"):
+        lo_c, hi_c = spec["clip_y"]
+        kept = []
+        for b in boxes:
+            b0, b1 = b["at"][1] - b["size"][1] / 2, b["at"][1] + b["size"][1] / 2
+            if b1 <= lo_c or b0 >= hi_c:
+                continue
+            if b0 < lo_c or b1 > hi_c:
+                n0, n1 = max(b0, lo_c), min(b1, hi_c)
+                b["at"][1], b["size"][1] = r3((n0 + n1) / 2), r3(n1 - n0)
+            kept.append(b)
+        print("  clip_y: %d boxes kept of %d" % (len(kept), len(boxes)))
+        boxes[:] = kept
     # `drop_small` [volume, longest side]: detail too small to matter to a body or the graph (shelf
     # slats, trim, rail posts) is dropped so a big map fits the document's box limit. A box that
     # long is a floor strip or a stair slab, never dropped whatever its volume.
@@ -586,6 +611,28 @@ def main(argv):
         far = [b for b in boxes if b["at"][1] + b["size"][1] / 2 > 3.0 and not beside_ground(b)]
         boxes[:] = [b for b in boxes if b not in far]
         print("  dropped %d boxes of distant scenery" % len(far))
+
+    # `drop_ceilings` [min area, y]: a roof or ceiling slab (thin, wide, no walkable top: a body
+    # can never stand on it) at least `y` metres above the ground under it is a lid over the stage.
+    # It hides the route from the overview and from every frame that looks down, and the horde
+    # never needed it: the walls are tall. Dropped after the flood, so a slab that is a floor to
+    # somebody (a walkway, a gantry) is kept because its top is ground.
+    if spec.get("drop_ceilings"):
+        amin, ymin = spec["drop_ceilings"]
+
+        def walkable_top(b):
+            top = b["at"][1] + b["size"][1] / 2
+            for fx in (-0.4, 0.0, 0.4):
+                for fz in (-0.4, 0.0, 0.4):
+                    ix = int(math.floor((b["at"][0] + fx * b["size"][0]) / CELL))
+                    iz = int(math.floor((b["at"][2] + fz * b["size"][2]) / CELL))
+                    if any(abs(h - top) <= 0.3 and (ix, iz, h) in seen for h in surf.get((ix, iz), ())):
+                        return True
+            return False
+        lids = [b for b in boxes if b["size"][1] <= 1.2 and b["size"][0] * b["size"][2] >= amin and b["at"][1] - b["size"][1] / 2 >= ymin
+                and not b.get("yaw") and not walkable_top(b)]
+        boxes[:] = [b for b in boxes if b not in lids]
+        print("  dropped %d ceiling slab(s)" % len(lids))
 
     # Props are cut out of the game's ground, and a metre-spaced graph has no point in a way
     # narrower than two cells: both left whole rooms (posts, caches, a window's far side) off the
