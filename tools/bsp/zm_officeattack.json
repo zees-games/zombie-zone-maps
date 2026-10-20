@@ -1,0 +1,155 @@
+{
+  "id": "zm_officeattack",
+  "name": "Office Attack",
+  "source": "zm_officeattack_b5a.bsp",
+  "author": "kizzbizz",
+  "page": "https://gamebanana.com/mods/132500",
+  "licence": "CC BY-NC-ND 4.0",
+  "blurb": "An office floor at night: desks, sofas and filing cabinets to hold behind. Hold it.",
+  "mode": "survival",
+  "survivors": 8,
+  "survive_seconds": 600,
+  "survivor_class": "info_player_counterterrorist",
+  "zombie_classes": [
+    "info_player_terrorist"
+  ],
+  "solid_classes": [
+    "func_brush"
+  ],
+  "posts": 6,
+  "prop_models": {
+    "models/props/cs_office/sofa.mdl": "furniture_lounge_sofa",
+    "models/props/cs_office/sofa_chair.mdl": "furniture_lounge_chair",
+    "models/props/cs_office/file_cabinet1.mdl": "furniture_side_table_drawers",
+    "models/props/cs_office/file_cabinet3.mdl": "furniture_side_table_drawers",
+    "models/props/cs_office/chair_office.mdl": "furniture_chair_desk",
+    "models/props/cs_office/computer_monitor.mdl": "furniture_computer_screen",
+    "models/props/cs_office/computer_keyboard.mdl": "furniture_computer_keyboard",
+    "models/props/cs_office/computer_mouse.mdl": "furniture_computer_mouse",
+    "models/props/cs_office/plant01.mdl": "furniture_potted_plant",
+    "models/props/cs_office/bookshelf1.mdl": "furniture_bookcase_closed",
+    "models/props/cs_havana/bookcase_large.mdl": "furniture_bookcase_closed",
+    "models/props/cs_office/vending_machine.mdl": "market_freezers-standing",
+    "models/props/de_inferno/flower_barrel.mdl": "nature_pot_large",
+    "models/props/de_tides/patio_chair2.mdl": "furniture_chair",
+    "models/props/cs_office/trash_can.mdl": "furniture_trashcan",
+    "models/props/cs_office/cardboard_box01.mdl": "furniture_cardboard_box_closed",
+    "models/props/cs_office/cardboard_box02.mdl": "furniture_cardboard_box_closed",
+    "models/props/cs_office/file_box.mdl": "furniture_cardboard_box_open",
+    "models/props/cs_assault/box_stack1.mdl": "survival_box-large",
+    "models/props_lab/lockers.mdl": "furniture_bookcase_closed_doors"
+  },
+  "toys": [
+    [
+      "barrel",
+      [
+        "post",
+        0
+      ],
+      3,
+      -2
+    ],
+    [
+      "tyre",
+      [
+        "post",
+        1
+      ],
+      2,
+      2
+    ],
+    [
+      "barrel",
+      [
+        "post",
+        2
+      ],
+      -3,
+      2
+    ],
+    [
+      "football",
+      "spawn",
+      4,
+      4
+    ],
+    [
+      "tyre",
+      [
+        "post",
+        3
+      ],
+      3,
+      0
+    ],
+    [
+      "beach_ball",
+      [
+        "post",
+        4
+      ],
+      -3,
+      1
+    ]
+  ],
+  "cut": [
+    [
+      40,
+      -50,
+      -50,
+      90,
+      50,
+      50
+    ]
+  ],
+  "post_region": [
+    -8,
+    26,
+    19,
+    39
+  ],
+  "caches_near_posts": true,
+  "auto_lights": {
+    "spacing": 6.0,
+    "height": 2.3,
+    "range": 7.0,
+    "energy": 0.9
+  },
+  "drop_decor": false,
+  "link_dy": 1.0,
+  "drop_ramps": 0.9,
+  "flood_step": 0.3,
+  "items_y": 0.3,
+  "items": [
+    [
+      "weapon",
+      "smg",
+      -6,
+      29
+    ],
+    [
+      "weapon",
+      "shotgun",
+      -6,
+      36
+    ],
+    [
+      "ammo",
+      null,
+      18,
+      29
+    ],
+    [
+      "medkit",
+      null,
+      18,
+      36
+    ],
+    [
+      "pills",
+      null,
+      1,
+      29
+    ]
+  ]
+}

@@ -133,7 +133,7 @@ def boxes_from_brush(br, y0):
     out = []
     for b in dboxes.decompose(br.planes, br.pts, slab=SLAB / S, min_size=0.04 / S, max_slabs=40):
         sx, sy, sz = dboxes.size(b)
-        out.append({"at": gpt(dboxes.centre(b), y0), "size": (sx * S, sz * S, sy * S), "yaw": b["phi"] % 90.0})
+        out.append({"at": gpt(dboxes.centre(b), y0), "size": (sx * S, sz * S, sy * S), "yaw": b["phi"] % 90.0, "kind": b.get("kind")})
     return out
 
 
@@ -341,10 +341,18 @@ def model_boxes(bs, model, y0):
         if not br.pts or not (br.contents & (1 | 0x2 | 0x10000)):
             continue
         kind, mat = classify(br)
-        for bx in boxes_from_brush(br, y0):
+        made = boxes_from_brush(br, y0)
+        # A brush cut into slabs along its slope is a ramp or a stair; how much it rises is how
+        # a spec decides whether the horde's graph (a step of half a spacing at most) can use it.
+        rise = 0.0
+        if made and all(bx["kind"] == "slab" for bx in made):
+            rise = max(bx["at"][1] + bx["size"][1] / 2 for bx in made) - min(bx["at"][1] - bx["size"][1] / 2 for bx in made)
+        for bx in made:
             b = {"at": [r3(v) for v in bx["at"]], "size": [r3(max(v, 0.02)) for v in bx["size"]], "mat": mat}
             if bx["yaw"]:
                 b["yaw"] = r3(bx["yaw"])
+            if rise:
+                b["_rise"] = r3(rise)
             if kind in ("invisible", "sky"):
                 b["visible"] = False
             if kind == "sky":
@@ -362,6 +370,12 @@ def main(argv):
     spec = json.load(open(argv[1]))
     global THIN_WALLS
     THIN_WALLS = bool(spec.get("thin_walls"))
+    global STEP, JUMP
+    if spec.get("flood_step"):
+        # The game's graph joins points only when they differ by half a spacing at most, so a body the
+        # flood lets jump up 0.9 m reaches a ledge the horde never will: a flood that walks only what
+        # the graph can keeps ground nobody can reach out of the map.
+        STEP = JUMP = float(spec["flood_step"])
     out_dir = argv[3] if len(argv) > 3 else os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "maps")
     bs = load_source(argv[2])
     ents = bs.entities
@@ -414,6 +428,14 @@ def main(argv):
                     break
         boxes[:] = [b for b in boxes if id(b) not in buried]
         print("  dropped %d buried box(es)" % len(buried))
+    if spec.get("drop_ramps"):
+        # The horde's graph joins two points only when they differ by half a spacing at most, so a
+        # stair steeper than one in two has no way up for a zombie, and an upper floor it cannot
+        # climb to would be a place the team holds for ever. The steep slopes go; what is left of
+        # the map is level ground.
+        gone = [b for b in boxes if b.get("_rise", 0) >= spec["drop_ramps"]]
+        boxes[:] = [b for b in boxes if b not in gone]
+        print("  dropped %d ramp slab(s) rising %.1f m or more" % (len(gone), spec["drop_ramps"]))
     for g in spec.get("extra_gates", []):
         gate_cands.append((dict(g), [dict(b) for b in g["boxes"]]))
 
@@ -503,8 +525,9 @@ def main(argv):
     sizes = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "prop_sizes.json")))["props"]
     cand = []
     for e in ents:
-        if e.get("classname") in ("prop_physics", "prop_dynamic", "func_physbox"):
-            cid = spec.get("prop_models", {}).get(e.get("model"))
+        if e.get("classname") in ("prop_physics", "prop_dynamic", "func_physbox", "prop_physics_override", "prop_dynamic_override", "prop_physics_multiplayer"):
+            pm = spec.get("prop_models", {})
+            cid = pm.get(e.get("model")) or {k.lower(): v for k, v in pm.items()}.get(str(e.get("model", "")).lower())
             p = settle(src_to_game(e)) if cid else None
             if p:
                 cand.append({"id": cid, "at": p, "yaw": r3(parse_vec(e.get("angles", "0 0 0"))[1] % 360)})
@@ -576,7 +599,7 @@ def main(argv):
                 for j in G.near.get((hx + dx, hz + dz), ()):
                     if j > i and G.find(i) != G.find(j):
                         dd = math.dist(pa_, G.pts[j])
-                        if dd <= 3.2 and abs(pa_[1] - G.pts[j][1]) <= 0.5:
+                        if dd <= 3.2 and abs(pa_[1] - G.pts[j][1]) <= spec.get("link_dy", 0.5):
                             pairs.append((dd, i, j))
     pairs.sort()
     bridged = 0
@@ -604,6 +627,23 @@ def main(argv):
         k = G.nearest(x, y, z, 1.0)
         return k >= 0 and G.find(k) == main
 
+    if os.environ.get("ZZ_DEBUG_POINTS"):
+        # What the horde's graph reaches, for a plot: [x, y, z, 1 if on the main ground].
+        with open(os.environ["ZZ_DEBUG_POINTS"], "w") as dbg:
+            json.dump([[*q, int(G.find(i) == main)] for i, q in enumerate(G.pts)], dbg)
+    if os.environ.get("ZZ_DEBUG_CHAIN"):
+        lo_, hi_ = [float(t) for t in os.environ["ZZ_DEBUG_CHAIN"].split(",")]
+        tgt = [st for st in seen if lo_ <= st[2] <= hi_]
+        if tgt:
+            st = tgt[len(tgt) // 2]
+            chain = [st]
+            while chain[-1] in parent:
+                chain.append(parent[chain[-1]])
+            prev = None
+            for c in reversed(chain):
+                if prev is None or abs(c[2] - prev[2]) > 0.05:
+                    print("   chain", round((c[0] + 0.5) * CELL, 1), round(c[2], 2), round((c[1] + 0.5) * CELL, 1))
+                prev = c
     print("  game graph: %d points, %d bridged, %d of %d points on the main ground; %d barricades kept" % (
         len(G.pts), bridged, sum(1 for i in range(len(G.pts)) if G.find(i) == main), len(G.pts), len(barricades)))
 
@@ -619,6 +659,16 @@ def main(argv):
                 p = settle(src_to_game(e))
                 if p:
                     zsp.append(p)
+
+    # A start the horde cannot path out of is a zombie idling for the whole wave (an octagon room
+    # whose stepped edge the graph cannot climb): zkeep the starts within a metre of the main ground.
+    if zsp and G.pts:
+        zkeep = [p for p in zsp if any(G.find(i) == main and (q[0] - p[0]) ** 2 + (q[2] - p[2]) ** 2 <= 1.0 and abs(q[1] - p[1]) <= 0.6
+                                      for i, q in enumerate(G.pts))]
+        if len(zkeep) >= 4:
+            if len(zkeep) != len(zsp):
+                print("  zombie starts: %d of %d on the main ground" % (len(zkeep), len(zsp)))
+            zsp = zkeep
 
     def settle_any(p):
         ix, iz = int(math.floor(p[0] / CELL)), int(math.floor(p[2] / CELL))
@@ -757,9 +807,37 @@ def main(argv):
         if on_main(q[0], q[1], q[2]) and h <= 0.35 and len(caches) < 8 and all((q[0] - c[0]) ** 2 + (q[2] - c[2]) ** 2 > 36 for c in caches):
             caches.append(q)
 
+    if spec.get("caches_near_posts") and not caches:
+        # A map with no supply crates of its own: a cache a few metres from each post, on ground
+        # whose whole neighbourhood is open and the horde's, never in the start room's middle.
+        for pst in posts:
+            near = sorted((((ix + 0.5) * CELL - pst[0]) ** 2 + ((iz + 0.5) * CELL - pst[2]) ** 2, ix, iz, h) for (ix, iz), h in deep.items()
+                          if abs(h - pst[1]) < 0.5 and 9 <= ((ix + 0.5) * CELL - pst[0]) ** 2 + ((iz + 0.5) * CELL - pst[2]) ** 2 <= 100)
+            for _, ix, iz, h in near:
+                q = [r3((ix + 0.5) * CELL), r3(h), r3((iz + 0.5) * CELL)]
+                if on_main(q[0], q[1], q[2]) and all((q[0] - c[0]) ** 2 + (q[2] - c[2]) ** 2 > 49 for c in caches):
+                    caches.append(q)
+                    break
+        caches = caches[:8]
+
     lights = []
+    al = spec.get("auto_lights")
+    if al:
+        # The map had no lamps of its own (it was lit by baked light, which is the author's): a lamp
+        # every `spacing` metres over the horde's ground, `height` above the floor, taken in a
+        # fixed order so the same map always gets the same lamps.
+        sp_ = al.get("spacing", 6.0)
+        taken = {}
+        for (ix, iz), h in sorted(deep.items()):
+            cx, cz = (ix + 0.5) * CELL, (iz + 0.5) * CELL
+            key = (int(math.floor(cx / sp_)), int(math.floor(cz / sp_)), round(h))
+            if key in taken or not on_main(cx, h, cz):
+                continue
+            taken[key] = [r3(cx), r3(h + al.get("height", 2.3)), r3(cz)]
+        for at in list(taken.values())[:al.get("max", 100)]:
+            lights.append({"at": at, "range": al.get("range", 7.0), "energy": al.get("energy", 0.9), "colour": al.get("colour", [1.0, 0.93, 0.8])})
     for e in ents:
-        if e.get("classname") in ("light", "light_spot") and len(lights) < 120:
+        if e.get("classname") in ("light", "light_spot") and len(lights) < 120 and not al:
             col = parse_vec(e.get("_light", "255 255 255 200"))
             br = col[3] if len(col) > 3 else 200
             o = gpt(parse_vec(e["origin"]), y0)
@@ -769,6 +847,7 @@ def main(argv):
     env = {"sky_top": [0.02, 0.03, 0.07], "sky_horizon": [0.08, 0.1, 0.15], "ground": [0.03, 0.03, 0.04], "sun_pitch": -45.0,
            "sun_yaw": 12.0, "sun_energy": 0.22, "sun_colour": [0.45, 0.65, 0.95], "ambient": [0.36, 0.4, 0.52], "ambient_energy": 0.3, "fog": 0.02}
 
+    env.update(spec.get("environment", {}))
     lo, hi = gpt(bs.model_bounds(0)[0], y0), gpt(bs.model_bounds(0)[1], y0)
     doc = {
         "format": 1, "kind": "zombiezone_map", "id": spec["id"], "name": spec["name"],
@@ -778,11 +857,11 @@ def main(argv):
         "blurb": spec["blurb"], "mode": spec["mode"], "survivors": spec.get("survivors", 0), "next": "",
         "survive_seconds": spec.get("survive_seconds", 0), "kill_y": spec.get("kill_y", r3(min(lo[1], hi[1]) - 12.0)),
         "environment": env,
-        "boxes": [{k: v for k, v in b.items() if k != "_sky"} for b in boxes + bar_boxes + gate_boxes], "props": props, "lights": lights,
+        "boxes": [{k: v for k, v in b.items() if not k.startswith("_")} for b in boxes + bar_boxes + gate_boxes], "props": props, "lights": lights,
         "spawns": {"survivors": spawns},
         "areas": {"start": [], "end": end_area}, "route": route or ([spawns[0]["at"]] if spawns else []),
         "nav": {"spacing": 1.0, "clearance": 0.35, "floors": floors, "links": build_nav.links[:600] + [list(l) for l in spec.get("extra_links", [])]},
-        "items": items, "objectives": objectives, "sleepers": [], "zombie_spawns": zsp, "posts": posts, "caches": caches,
+        "items": items, "objectives": objectives, "sleepers": [list(z) for z in spec.get("sleepers", [])], "zombie_spawns": zsp, "posts": posts, "caches": caches,
         "barricades": barricades,
     }
     if spawns:
