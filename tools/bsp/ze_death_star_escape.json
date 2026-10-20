@@ -1,0 +1,129 @@
+{
+  "id": "ze_death_star_escape",
+  "name": "Death Star Escape",
+  "source": "ze_death_star_escape_v4_3.bsp",
+  "author": "FreeZe1337, Hannibal, Keamon, Belafarinrod and Fuu",
+  "page": "https://gamebanana.com/mods/130692",
+  "licence": "CC BY-NC-ND 4.0",
+  "blurb": "Fight through the first corridors of a battle station, shutting the horde out behind three blast doors you must hold on while they open.",
+  "mode": "exodus",
+  "survivors": 8,
+  "survivor_class": "info_player_counterterrorist",
+  "zombie_classes": [
+    "info_player_terrorist"
+  ],
+  "gate_classes": [
+    "func_door",
+    "func_door_rotating",
+    "func_movelinear"
+  ],
+  "solid_classes": [
+    "func_breakable",
+    "func_brush",
+    "func_tracktrain"
+  ],
+  "holdout": 25,
+  "gate_label": "Open the door",
+  "item_map": {
+    "weapon_hegrenade": [
+      "throwable",
+      null
+    ],
+    "weapon_flashbang": [
+      "throwable",
+      null
+    ],
+    "weapon_smokegrenade": [
+      "throwable",
+      null
+    ]
+  },
+  "drop_buried": true,
+  "route_bridge": true,
+  "crop": [
+    -45,
+    -300,
+    70,
+    -125
+  ],
+  "drop_small": [
+    0.5,
+    3
+  ],
+  "survivor_start": {
+    "at": [
+      35.2,
+      0.4,
+      -250.6
+    ],
+    "rows": 3,
+    "cols": 4,
+    "gap": 1.4,
+    "yaw": 180
+  },
+  "drop_lids": true,
+  "drop_ceilings": [
+    12,
+    3.0
+  ],
+  "clip_y": [
+    -14,
+    12
+  ],
+  "min_thick": 0.6,
+  "toys": [
+    [
+      "barrel",
+      [
+        "route",
+        4
+      ],
+      2,
+      0
+    ],
+    [
+      "tyre",
+      [
+        "route",
+        12
+      ],
+      2,
+      0
+    ],
+    [
+      "barrel",
+      [
+        "route",
+        24
+      ],
+      2,
+      0
+    ],
+    [
+      "football",
+      "spawn",
+      4,
+      0
+    ],
+    [
+      "beach_ball",
+      [
+        "route",
+        36
+      ],
+      2,
+      0
+    ],
+    [
+      "tyre",
+      [
+        "route",
+        40
+      ],
+      2,
+      0
+    ]
+  ],
+  "min_floor": 1.2,
+  "unyaw": true
+}

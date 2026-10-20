@@ -485,6 +485,63 @@ def main(argv):
             kept.append(b)
         print("  clip_y: %d boxes kept of %d" % (len(kept), len(boxes)))
         boxes[:] = kept
+    # `min_thick` metres: a wall thinner than the body's radius (a diagonal wall the box cutter steps
+    # as a chain of 0.38 m slabs, a panel 8 cm deep) leaves slivers the navigation join cannot
+    # sew across and a cell flood samples past. Standing walls (taller than half a metre) are
+    # thickened about their centre to this; a floor or a ledge is left, its thickness is height.
+    if spec.get("min_thick"):
+        mt, n_fat = float(spec["min_thick"]), 0
+        for b in boxes:
+            if b["size"][1] <= 0.5 or b.get("yaw"):
+                continue
+            for ax in (0, 2):
+                if b["size"][ax] < mt:
+                    b["size"][ax] = r3(mt)
+                    n_fat += 1
+        print("  min_thick: %d wall sides thickened to %.2f m" % (n_fat, mt))
+    # `unyaw`: the game's graph cuts a turned box out as its axis-aligned bounds, so a 7 m wall
+    # at 45 degrees closes a 5 m square of corridor to the horde (the battle station's diagonal
+    # walls shut the route off). A standing turned box is replaced by a row of upright pieces as
+    # long as the wall is thick, each following the line, so the bounds hug it. Floors stay.
+    if spec.get("unyaw"):
+        mt_ = float(spec.get("min_thick", 0.6))
+        out, n_pc, n_src = [], 0, 0
+        for b in boxes:
+            if not b.get("yaw") or b["size"][1] <= 0.5:
+                out.append(b)
+                continue
+            n_src += 1
+            th = max(min(b["size"][0], b["size"][2]), mt_)
+            along = 0 if b["size"][0] >= b["size"][2] else 2
+            L = b["size"][along]
+            n = max(1, int(math.ceil(L / th)))
+            a = math.radians(b["yaw"])
+            # Godot's rotation about Y: local x is (cos, -sin), local z is (sin, cos).
+            ux, uz = (math.cos(a), -math.sin(a)) if along == 0 else (math.sin(a), math.cos(a))
+            pl = L / n
+            for k in range(n):
+                off = -L / 2 + (k + 0.5) * pl
+                t = {kk: vv for kk, vv in b.items() if kk != "yaw"}
+                t["at"] = [r3(b["at"][0] + ux * off), b["at"][1], r3(b["at"][2] + uz * off)]
+                t["size"] = [r3(abs(ux) * pl + abs(uz) * th), b["size"][1], r3(abs(uz) * pl + abs(ux) * th)]
+                out.append(t)
+                n_pc += 1
+        print("  unyaw: %d turned walls became %d upright pieces" % (n_src, n_pc))
+        boxes[:] = out
+    # `min_floor`: the same for a floor. A diagonal floor is stepped as a row of strips 0.39 m deep,
+    # each narrower than the graph's metre spacing, so a strip holds no point of its own and the
+    # row is a chain of islands. Widening a strip to this (it overlaps its neighbours, so the
+    # ground only gains a ragged edge under the diagonal wall) gives the graph points to join.
+    if spec.get("min_floor"):
+        mf, n_fl = float(spec["min_floor"]), 0
+        for b in boxes:
+            if b["size"][1] > 0.5 or b.get("yaw") or not b.get("visible", True):
+                continue
+            ax = 0 if b["size"][0] < b["size"][2] else 2
+            if b["size"][ax] < mf and b["size"][2 - ax] >= 2 * mf:
+                b["size"][ax] = r3(mf)
+                n_fl += 1
+        print("  min_floor: %d floor strips widened to %.2f m" % (n_fl, mf))
     # `drop_small` [volume, longest side]: detail too small to matter to a body or the graph (shelf
     # slats, trim, rail posts) is dropped so a big map fits the document's box limit. A box that
     # long is a floor strip or a stair slab, never dropped whatever its volume.
@@ -1000,6 +1057,29 @@ def main(argv):
 
     env.update(spec.get("environment", {}))
     lo, hi = gpt(bs.model_bounds(0)[0], y0), gpt(bs.model_bounds(0)[1], y0)
+    # `split_over` metres: a box wider than this (a harbour's ground slab, 430 m across) is cut into
+    # equal tiles. The lightmap unwrap packs a box's faces into one chart, and a chart that size
+    # leaves no texel density the sheet can hold, so the bake fails; tiles each get their own chart.
+    # Same solid to a body and to the graph, which only see the union.
+    if spec.get("split_over"):
+        lim, tiled = float(spec["split_over"]), []
+        for b in boxes + bar_boxes + gate_boxes:
+            nx = int(math.ceil(b["size"][0] / lim)) if not b.get("yaw") else 1
+            nz = int(math.ceil(b["size"][2] / lim)) if not b.get("yaw") else 1
+            if nx * nz == 1:
+                tiled.append(b)
+                continue
+            for i in range(nx):
+                for k in range(nz):
+                    t = dict(b)
+                    t["size"] = [r3(b["size"][0] / nx), b["size"][1], r3(b["size"][2] / nz)]
+                    t["at"] = [r3(b["at"][0] - b["size"][0] / 2 + (i + 0.5) * b["size"][0] / nx), b["at"][1],
+                               r3(b["at"][2] - b["size"][2] / 2 + (k + 0.5) * b["size"][2] / nz)]
+                    tiled.append(t)
+        print("  split_over: %d boxes became %d" % (len(boxes + bar_boxes + gate_boxes), len(tiled)))
+        all_boxes = tiled
+    else:
+        all_boxes = boxes + bar_boxes + gate_boxes
     doc = {
         "format": 1, "kind": "zombiezone_map", "id": spec["id"], "name": spec["name"],
         "author": "%s (original map, %s, %s); converted. Removed on request." % (spec["author"], spec["page"], spec["licence"]),
@@ -1008,7 +1088,7 @@ def main(argv):
         "blurb": spec["blurb"], "mode": spec["mode"], "survivors": spec.get("survivors", 0), "next": "",
         "survive_seconds": spec.get("survive_seconds", 0), "kill_y": spec.get("kill_y", r3(min(lo[1], hi[1]) - 12.0)),
         "environment": env,
-        "boxes": [{k: v for k, v in b.items() if not k.startswith("_")} for b in boxes + bar_boxes + gate_boxes], "props": props, "lights": lights,
+        "boxes": [{k: v for k, v in b.items() if not k.startswith("_")} for b in all_boxes], "props": props, "lights": lights,
         "spawns": {"survivors": spawns},
         "areas": {"start": [], "end": end_area}, "route": route or ([spawns[0]["at"]] if spawns else []),
         "nav": {"spacing": 1.0, "clearance": 0.35, "floors": floors, "links": build_nav.links[:600] + [list(l) for l in spec.get("extra_links", [])]},
