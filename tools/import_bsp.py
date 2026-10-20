@@ -400,7 +400,7 @@ def main(argv):
     bs = load_source(argv[2])
     ents = bs.entities
     surv = [e for e in ents if e.get("classname") == spec["survivor_class"]]
-    y0 = 0.0
+    y0 = float(spec.get("y0", 0.0))    # spec y0: metres the source floor sits above the game's y = 0 (the nav is flat at 0)
 
     boxes, skipped = [], 0
     for b in model_boxes(bs, 0, y0):
