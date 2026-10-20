@@ -1,0 +1,181 @@
+{
+  "id": "zm_abandoned_mall",
+  "name": "Abandoned Mall",
+  "source": "zs_abandoned_mall_v6b.bsp",
+  "author": "WaterPyro",
+  "page": "https://steamcommunity.com/sharedfiles/filedetails/?id=184522164",
+  "licence": "none stated (Steam Workshop)",
+  "blurb": "Hold the mall against the horde.",
+  "mode": "survival",
+  "survivors": 8,
+  "survive_seconds": 600,
+  "survivor_class": "info_player_human",
+  "zombie_classes": [
+    "info_player_zombie"
+  ],
+  "solid_classes": [
+    "func_brush"
+  ],
+  "posts": 6,
+  "flood_step": 0.3,
+  "drop_ramps": 0.9,
+  "thin_walls": true,
+  "caches_near_posts": true,
+  "auto_lights": {
+    "spacing": 6.0,
+    "height": 2.3,
+    "range": 7.0,
+    "energy": 0.9
+  },
+  "prop_models": {
+    "models/props_wasteland/kitchen_fridge001a.mdl": "market_freezers-standing",
+    "models/props_foliage/tree_deciduous_03b.mdl": "nature_tree_default",
+    "models/props/cs_militia/boxes_frontroom.mdl": "survival_box",
+    "models/props_trainstation/traincar_seats001.mdl": "cars_sedan",
+    "models/props_c17/furnituretable002a.mdl": "furniture_table",
+    "models/props_c17/tv_monitor01.mdl": "furniture_television_modern",
+    "models/props_lab/monitor02.mdl": "furniture_television_modern",
+    "models/props_c17/computer01_keyboard.mdl": "furniture_television_modern",
+    "models/props_c17/bench01a.mdl": "furniture_bench",
+    "models/props_c17/furniturefridge001a.mdl": "market_freezers-standing",
+    "models/props_c17/furnituretoilet001a.mdl": "furniture_toilet",
+    "models/props_junk/wood_crate001a.mdl": "survival_box",
+    "models/props_c17/furniturechair001a.mdl": "furniture_chair",
+    "models/props_c17/shelfunit01a.mdl": "furniture_bookcase_closed",
+    "models/props_c17/furnituresink001a.mdl": "furniture_bathroom_sink",
+    "models/props_c17/chair_office01a.mdl": "furniture_chair",
+    "models/props_c17/furniturearmchair001a.mdl": "furniture_chair",
+    "models/props_combine/breendesk.mdl": "furniture_table",
+    "models/props_combine/breenchair.mdl": "furniture_chair",
+    "models/props_lab/powerbox02a.mdl": "survival_box",
+    "models/props/de_nuke/crate_extrasmall.mdl": "survival_box",
+    "models/props/cs_office/vending_machine.mdl": "market_freezers-standing",
+    "models/props/cs_office/sofa.mdl": "furniture_lounge_sofa",
+    "models/props/cs_havana/bookcase_large.mdl": "furniture_bookcase_closed",
+    "models/props_c17/furniturecouch001a.mdl": "furniture_lounge_sofa",
+    "models/props/cs_office/sofa_chair.mdl": "furniture_lounge_sofa",
+    "models/props/cs_office/tv_plasma.mdl": "furniture_television_modern",
+    "models/props/de_inferno/furniture_couch01a.mdl": "furniture_lounge_sofa",
+    "models/props_c17/furnituretable001a.mdl": "furniture_table",
+    "models/props/cs_office/table_coffee.mdl": "furniture_table",
+    "models/props/cs_office/computer.mdl": "furniture_television_modern",
+    "models/props/cs_assault/moneypallet.mdl": "urban_pallet",
+    "models/props_wasteland/kitchen_counter001a.mdl": "furniture_table",
+    "models/props_wasteland/kitchen_counter001d.mdl": "furniture_table",
+    "models/props_interiors/sinkkitchen01a.mdl": "furniture_bathroom_sink",
+    "models/props/cs_office/computer_monitor.mdl": "furniture_television_modern",
+    "models/props/cs_office/chair_office.mdl": "furniture_chair",
+    "models/props/cs_assault/washer_box2.mdl": "survival_box",
+    "models/props_wasteland/kitchen_shelf002a.mdl": "furniture_bookcase_closed",
+    "models/props/de_nuke/crate_large.mdl": "survival_box",
+    "models/props/de_tides/restaurant_table.mdl": "furniture_table",
+    "models/props_c17/chair02a.mdl": "furniture_chair",
+    "models/props/cs_office/bookshelf1.mdl": "furniture_bookcase_closed",
+    "models/props/cs_office/plant01.mdl": "nature_tree_default",
+    "models/props/de_tides/vending_hat.mdl": "market_freezers-standing",
+    "models/props/cs_havana/bookcase_small.mdl": "furniture_bookcase_closed",
+    "models/props_c17/furnitureshelf001a.mdl": "furniture_bookcase_closed",
+    "models/props_junk/wood_pallet001a.mdl": "urban_pallet",
+    "models/props_c17/woodbarrel001.mdl": "survival_barrel",
+    "models/props_c17/furniturecouch002a.mdl": "furniture_lounge_sofa",
+    "models/props_junk/wood_crate002a.mdl": "survival_box",
+    "models/props_wasteland/cafeteria_table001a.mdl": "furniture_table",
+    "models/props_interiors/furniture_chair01a.mdl": "furniture_chair",
+    "models/props_junk/wood_crate001a_damaged.mdl": "survival_box",
+    "models/props_junk/plasticcrate01a.mdl": "survival_box",
+    "models/props_interiors/furniture_cabinetdrawer01a.mdl": "furniture_bookcase_closed_doors",
+    "models/props_interiors/furniture_couch01a.mdl": "furniture_lounge_sofa",
+    "models/props_interiors/furniture_couch02a.mdl": "furniture_lounge_sofa",
+    "models/props/de_prodigy/wood_pallet_01.mdl": "urban_pallet",
+    "models/props_c17/concrete_barrier001a.mdl": "urban_detail-block",
+    "models/props/cs_assault/barrelwarning.mdl": "survival_barrel",
+    "models/props_interiors/furniture_shelf01a.mdl": "furniture_bookcase_closed",
+    "models/props/cs_militia/furniture_shelf01a.mdl": "furniture_bookcase_closed",
+    "models/props/de_inferno/furniture_couch02a.mdl": "furniture_lounge_sofa",
+    "models/props/cs_militia/barstool01.mdl": "furniture_chair",
+    "models/props_wasteland/controlroom_desk001b.mdl": "furniture_table",
+    "models/props_c17/lockers001a.mdl": "furniture_bookcase_closed_doors",
+    "models/props/de_nuke/file_cabinet1_group.mdl": "furniture_bookcase_closed_doors",
+    "models/props/cs_office/file_cabinet2.mdl": "furniture_bookcase_closed_doors",
+    "models/props_c17/furnitureshelf002a.mdl": "furniture_bookcase_closed",
+    "models/props/cs_assault/washer_box.mdl": "survival_box",
+    "models/props_industrial/warehouse_shelf001.mdl": "furniture_bookcase_closed",
+    "models/props_industrial/warehouse_shelf002.mdl": "furniture_bookcase_closed",
+    "models/props/cs_office/table_meeting.mdl": "furniture_table",
+    "models/props_wasteland/controlroom_filecabinet002a.mdl": "furniture_bookcase_closed_doors",
+    "models/props_c17/chair_stool01a.mdl": "furniture_chair",
+    "models/props/cs_office/file_cabinet1_group.mdl": "furniture_bookcase_closed_doors",
+    "models/props_wasteland/kitchen_counter001c.mdl": "furniture_table",
+    "models/props/cs_office/computer_caseb.mdl": "furniture_television_modern",
+    "models/props_wasteland/controlroom_chair001a.mdl": "furniture_chair",
+    "models/props_junk/cinderblock01a.mdl": "urban_detail-block",
+    "models/props_vehicles/car001b_hatchback.mdl": "cars_sedan",
+    "models/props/de_nuke/truck_nuke.mdl": "cars_truck",
+    "models/xboxwhite/xbox.mdl": "survival_box",
+    "models/xboxblack/xbox.mdl": "survival_box",
+    "models/props/cs_militia/wood_bench.mdl": "furniture_bench",
+    "models/props/de_inferno/cinderblock.mdl": "urban_detail-block"
+  },
+  "toys": [
+    [
+      "barrel",
+      [
+        "post",
+        0
+      ],
+      3,
+      -2
+    ],
+    [
+      "tyre",
+      [
+        "post",
+        1
+      ],
+      2,
+      2
+    ],
+    [
+      "football",
+      [
+        "post",
+        2
+      ],
+      -2,
+      2
+    ]
+  ],
+  "drop_small": [
+    0.15,
+    1.5
+  ],
+  "items": [
+    [
+      "ammo",
+      null,
+      44.25,
+      -31.75
+    ],
+    [
+      "medkit",
+      null,
+      30.75,
+      -53.25
+    ],
+    [
+      "pills",
+      null,
+      18.25,
+      -78.25
+    ]
+  ],
+  "items_y": 0.4,
+  "greedy_floors": true,
+  "thin_lintels": true,
+  "post_region": [
+    10,
+    -80,
+    45,
+    -10
+  ]
+}

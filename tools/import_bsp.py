@@ -75,6 +75,8 @@ DROP = 3.0            # a body drops this far
 JUMP = 0.9            # and jumps up this far
 STEP = 0.42           # a body climbs this between neighbouring cells
 THIN_WALLS = False    # set from the spec: see _thin_wall_over
+THIN_LINTELS = False   # set from the spec (`thin_lintels`): see _thin_wall_over
+GREEDY_FLOORS = False  # set from the spec (`greedy_floors`): see build_nav
 MIN_FLOOR_Y = None    # spec min_floor_y: a sump the horde drops into and cannot climb out of is no floor
 HEAD = 1.7            # headroom a floor needs
 SLAB = 0.4
@@ -192,7 +194,11 @@ def _thin_wall_over(b, ix, iz):
     wall the body cannot pass. The cell is the wall's when the wall overlaps it at all. A spec opts
     in (`thin_walls`): Nuke's route was authored against the old flood, and its panes of glass and
     clip slivers would seal it until its authoring is redone."""
-    if not THIN_WALLS or b.get("yaw") or b["size"][1] <= HEAD or min(b["size"][0], b["size"][2]) >= CELL:
+    if not THIN_WALLS or b.get("yaw") or min(b["size"][0], b["size"][2]) >= CELL:
+        return False
+    # A thin beam over a doorway (a lintel 7 cm thick, 1.5 m up) is as much in a body's way as a
+    # wall; a thin plate on the floor is not. `thin_lintels` opts in, to leave converted maps as were.
+    if b["size"][1] <= HEAD and not (THIN_LINTELS and b["at"][1] - b["size"][1] / 2 > 0.8):
         return False
     return (abs(b["at"][0] - (ix + 0.5) * CELL) < (b["size"][0] + CELL) / 2
             and abs(b["at"][2] - (iz + 0.5) * CELL) < (b["size"][2] + CELL) / 2)
@@ -286,6 +292,27 @@ def build_nav(boxes, starts, blocked=None, wide=False):
     for ix, iz, h in seen:
         byh.setdefault(snap[h], set()).add((ix, iz))
     floors = []
+    if GREEDY_FLOORS:
+        # A rectangle cover that takes the longest run from the first free cell and grows it down
+        # while the whole run stays free, rather than merging only rows with identical runs: an
+        # irregular plan fell into hundreds of slivers, over the document's 800 floors.
+        for h, cells in sorted(byh.items()):
+            free = set(cells)
+            for iz, ix in sorted((c[1], c[0]) for c in cells):
+                if (ix, iz) not in free:
+                    continue
+                xe = ix
+                while (xe + 1, iz) in free:
+                    xe += 1
+                ze = iz
+                while all((x, ze + 1) in free for x in range(ix, xe + 1)):
+                    ze += 1
+                for z in range(iz, ze + 1):
+                    for x in range(ix, xe + 1):
+                        free.discard((x, z))
+                floors.append([r3(ix * CELL + 0.05), r3(iz * CELL + 0.05), r3((xe + 1) * CELL - 0.05), r3((ze + 1) * CELL - 0.05), r3(h)])
+        build_nav.links = list(links.values())
+        return floors, surf, seen, parent, dist
     for h, cells in sorted(byh.items()):
         rows = {}
         for ix, iz in cells:
@@ -387,8 +414,10 @@ def main(argv):
         print(__doc__)
         return 2
     spec = json.load(open(argv[1]))
-    global THIN_WALLS
+    global THIN_WALLS, GREEDY_FLOORS, THIN_LINTELS
+    THIN_LINTELS = bool(spec.get("thin_lintels"))
     THIN_WALLS = bool(spec.get("thin_walls"))
+    GREEDY_FLOORS = bool(spec.get("greedy_floors"))
     global STEP, JUMP, MIN_FLOOR_Y
     MIN_FLOOR_Y = spec.get("min_floor_y")
     if spec.get("flood_step"):
@@ -431,6 +460,14 @@ def main(argv):
         x0, y0_, z0, x1, y1, z1 = c[:6]
         boxes[:] = [b for b in boxes if not (x0 <= b["at"][0] <= x1 and y0_ <= b["at"][1] <= y1 and z0 <= b["at"][2] <= z1
                                              and (len(c) < 7 or b["mat"] == c[6]))]
+    # `drop_small` [volume, longest side]: detail too small to matter to a body or the graph (shelf
+    # slats, trim, rail posts) is dropped so a big map fits the document's box limit. A box that
+    # long is a floor strip or a stair slab, never dropped whatever its volume.
+    if spec.get("drop_small"):
+        vmax, smax = spec["drop_small"]
+        small = [b for b in boxes if b["size"][0] * b["size"][1] * b["size"][2] < vmax and max(b["size"]) < smax]
+        boxes[:] = [b for b in boxes if b not in small]
+        print("  dropped %d small boxes" % len(small))
     for ab in spec.get("add_boxes", []):
         boxes.append(dict(ab))
     # `stairs`: a flight that stands in for a slope too steep for the graph (a slide, a ladder shaft).
