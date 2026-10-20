@@ -1,0 +1,108 @@
+{
+  "id": "zm_mansion_css",
+  "name": "Mansion",
+  "source": "Zm_mansion_css_beta.bsp",
+  "author": "Melodie",
+  "page": "https://gamebanana.com/mods/131181",
+  "licence": "CC BY-NC-ND 4.0",
+  "blurb": "A mansion, ported to the zombie mod.",
+  "mode": "survival",
+  "survivors": 8,
+  "survive_seconds": 600,
+  "survivor_class": "info_player_terrorist",
+  "zombie_classes": [
+    "info_player_counterterrorist"
+  ],
+  "solid_classes": [
+    "func_brush"
+  ],
+  "posts": 6,
+  "flood_step": 0.3,
+  "drop_ramps": 0.9,
+  "thin_walls": true,
+  "caches_near_posts": true,
+  "auto_lights": {
+    "spacing": 6.0,
+    "height": 2.3,
+    "range": 7.0,
+    "energy": 0.9
+  },
+  "prop_models": {
+    "models/props/cs_office/plant01.mdl": "nature_tree_default",
+    "models/props/cs_office/table_coffee.mdl": "furniture_table",
+    "models/props/cs_office/sofa.mdl": "furniture_lounge_sofa",
+    "models/props/cs_office/sofa_chair.mdl": "furniture_lounge_sofa",
+    "models/props/cs_office/bookshelf3.mdl": "furniture_bookcase_closed",
+    "models/props/de_nuke/file_cabinet1_group.mdl": "furniture_bookcase_closed_doors",
+    "models/props/cs_office/vending_machine.mdl": "market_freezers-standing",
+    "models/props/cs_havana/bookcase_large.mdl": "furniture_bookcase_closed",
+    "models/props_c17/fence03a.mdl": "survival_fence",
+    "models/props_c17/fence02b.mdl": "survival_fence",
+    "models/props/cs_office/bookshelf1.mdl": "furniture_bookcase_closed",
+    "models/props_c17/oildrum001_explosive.mdl": "survival_barrel",
+    "models/props_junk/rock001a.mdl": "nature_rock_large_a",
+    "models/props/cs_office/file_box.mdl": "survival_box"
+  },
+  "toys": [
+    [
+      "barrel",
+      [
+        "post",
+        0
+      ],
+      3,
+      -2
+    ],
+    [
+      "tyre",
+      [
+        "post",
+        1
+      ],
+      2,
+      2
+    ],
+    [
+      "football",
+      [
+        "post",
+        2
+      ],
+      -2,
+      2
+    ]
+  ],
+  "items": [
+    [
+      "weapon",
+      "smg",
+      -8.76,
+      6.89
+    ],
+    [
+      "weapon",
+      "shotgun",
+      -3.0,
+      -2.42
+    ],
+    [
+      "ammo",
+      null,
+      -0.25,
+      11.22
+    ],
+    [
+      "medkit",
+      null,
+      -11.9,
+      -2.47
+    ],
+    [
+      "pills",
+      null,
+      0.41,
+      7.1
+    ]
+  ],
+  "items_y": -4.77
+}

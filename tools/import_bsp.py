@@ -54,6 +54,21 @@ def _dotbsp_path():
 sys.path.insert(1, _dotbsp_path())
 from dotbsp import boxes as dboxes, intermediate, reader  # noqa: E402
 
+
+# A map compiled with an empty game lump (no static props) crashes dot-map's reader; the fix
+# belongs there, and until it is made this adapter reads such a map as having no props.
+_game_lumps = reader.Bsp.game_lumps
+
+
+def _safe_game_lumps(self):
+    try:
+        return _game_lumps(self)
+    except Exception:
+        return {}
+
+
+reader.Bsp.game_lumps = _safe_game_lumps
+
 S = 0.01905           # metres per Source unit
 CELL = 0.5            # nav analysis grid
 DROP = 3.0            # a body drops this far
@@ -554,6 +569,18 @@ def main(argv):
             if p:
                 cand.append({"id": cid, "at": p, "yaw": r3(parse_vec(e.get("angles", "0 0 0"))[1] % 360)})
 
+    # Static props are compiled out of the entity lump (dot-map's intermediate keeps them apart),
+    # and in most maps they are the furniture and the wrecks.
+    pm_lower = {k.lower(): v for k, v in spec.get("prop_models", {}).items()}
+    for sp in getattr(bs, "doc", {}).get("static_props", []) if isinstance(getattr(bs, "doc", None), dict) else []:
+        cid = pm_lower.get(str(sp.get("model", "")).lower().replace("//", "/"))
+        if not cid:
+            continue
+        o, a = sp["origin"], sp.get("angles", [0, 0, 0])
+        p = settle(src_to_game({"origin": "%f %f %f" % (o[0], o[1], o[2])}))
+        if p:
+            cand.append({"id": cid, "at": p, "yaw": r3(a[1] % 360)})
+
     def blocks_of(plist):
         out = {}
         for pr in plist:
@@ -578,7 +605,9 @@ def main(argv):
             continue
         trial = [q for q in keep if q is not pr]
         r2, h2 = ground_cells(trial)
-        if len(h2) > len(have):
+        # A prop's own footprint is cells the flood loses by definition; only what it cut off
+        # beyond that (a room behind it) is a reason to drop it, or every prop on open ground goes.
+        if len(h2) - len(have) > len(blocks_of([pr])) + 6:
             keep, res, have = trial, r2, h2
     floors, surf, seen2, parent, dist = build_nav(boxes, starts, blocks_of(keep), True)
     lost = {(a, b) for a, b, _ in seen} - have
@@ -674,6 +703,13 @@ def main(argv):
     spawns = list(start_spawns)
     for e in ([] if ss else surv):
         p = settle(src_to_game(e), 0.1)
+        sr = spec.get("spawn_region")
+        if p and sr and not (sr[0] <= p[0] <= sr[2] and sr[1] <= p[2] <= sr[3]):
+            continue
+        # A spawn a prop stands on is a survivor inside a van (headless_maps names them).
+        if p and any(sizes[q["id"]][1] > 0.5 and abs(q["at"][0] - p[0]) < max(sizes[q["id"]][0], sizes[q["id"]][2]) / 2 + 0.6
+                     and abs(q["at"][2] - p[2]) < max(sizes[q["id"]][0], sizes[q["id"]][2]) / 2 + 0.6 for q in keep):
+            continue
         if p and p[2] <= spec.get("spawn_z_max", 1e9):
             spawns.append({"at": p, "yaw": r3(reader.yaw_to_godot(parse_vec(e.get("angles", "0 0 0"))[1]))})
     zsp = [list(p) for p in spec.get("zombie_start", [])]
@@ -828,6 +864,9 @@ def main(argv):
             continue
         _, ix, iz, h = min(near)
         q = [r3((ix + 0.5) * CELL), r3(h), r3((iz + 0.5) * CELL)]
+        cr = spec.get("cache_region") or spec.get("post_region")
+        if cr and not (cr[0] <= q[0] <= cr[2] and cr[1] <= q[2] <= cr[3]):
+            continue  # a crate outside the players' region is a long walk the horde never makes
         if on_main(q[0], q[1], q[2]) and h <= 0.35 and len(caches) < 8 and all((q[0] - c[0]) ** 2 + (q[2] - c[2]) ** 2 > 36 for c in caches):
             caches.append(q)
 

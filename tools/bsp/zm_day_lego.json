@@ -1,0 +1,112 @@
+{
+  "id": "zm_day_lego",
+  "name": "Day Lego",
+  "source": "zm_day_lego_v2_fix.bsp",
+  "author": "Ayrton09_argentina",
+  "page": "https://gamebanana.com/mods/131650",
+  "licence": "CC BY-NC-ND 4.0",
+  "blurb": "A toy-brick town by day.",
+  "mode": "survival",
+  "survivors": 8,
+  "survive_seconds": 600,
+  "survivor_class": "info_player_counterterrorist",
+  "zombie_classes": [
+    "info_player_terrorist"
+  ],
+  "solid_classes": [
+    "func_brush"
+  ],
+  "posts": 6,
+  "flood_step": 0.3,
+  "drop_ramps": 0.9,
+  "thin_walls": true,
+  "caches_near_posts": true,
+  "auto_lights": {
+    "spacing": 6.0,
+    "height": 2.3,
+    "range": 7.0,
+    "energy": 0.9
+  },
+  "prop_models": {
+    "models/props_c17/fence01a.mdl": "survival_fence",
+    "models/props/de_nuke/crate_extrasmall.mdl": "survival_box",
+    "models/props/de_nuke/crate_small.mdl": "survival_box",
+    "models/props/cs_militia/bunkbed2.mdl": "furniture_bed_single",
+    "models/props/cs_militia/bunkbed.mdl": "furniture_bed_single",
+    "models/props/de_dust/du_crate_64x64.mdl": "survival_box",
+    "models/props/cs_militia/crate_stackmill.mdl": "survival_box",
+    "models/props/de_nuke/truck_nuke.mdl": "cars_truck",
+    "models/props/cs_militia/boxes_frontroom.mdl": "survival_box",
+    "models/props_vehicles/apc_tire001.mdl": "cars_truck",
+    "models/props/cs_office/sofa_chair.mdl": "furniture_lounge_sofa",
+    "models/props/cs_havana/bookcase_large.mdl": "furniture_bookcase_closed",
+    "models/props/cs_office/vending_machine.mdl": "market_freezers-standing",
+    "models/props/cs_office/sofa.mdl": "furniture_lounge_sofa",
+    "./models/props/cs_office/sofa.mdl": "furniture_lounge_sofa",
+    "models/props_c17/oildrum001_explosive.mdl": "survival_barrel",
+    "models/props/de_inferno/crates_fruit1.mdl": "survival_box",
+    "models/props/de_inferno/crates_fruit2.mdl": "survival_box"
+  },
+  "toys": [
+    [
+      "barrel",
+      [
+        "post",
+        0
+      ],
+      3,
+      -2
+    ],
+    [
+      "tyre",
+      [
+        "post",
+        1
+      ],
+      2,
+      2
+    ],
+    [
+      "football",
+      [
+        "post",
+        2
+      ],
+      -2,
+      2
+    ]
+  ],
+  "items": [
+    [
+      "weapon",
+      "smg",
+      6.5,
+      -1.68
+    ],
+    [
+      "weapon",
+      "shotgun",
+      -18.81,
+      -0.82
+    ],
+    [
+      "ammo",
+      null,
+      27.58,
+      -10.51
+    ],
+    [
+      "medkit",
+      null,
+      12.81,
+      -10.54
+    ],
+    [
+      "pills",
+      null,
+      21.43,
+      -5.08
+    ]
+  ],
+  "items_y": 1.32
+}

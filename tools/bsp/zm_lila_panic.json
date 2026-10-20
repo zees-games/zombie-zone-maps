@@ -1,0 +1,110 @@
+{
+  "id": "zm_lila_panic",
+  "name": "Lila Panic",
+  "source": "zm_lila_panic.bsp",
+  "author": "tonyscha",
+  "page": "https://gamebanana.com/mods/132209",
+  "licence": "CC BY-NC-ND 4.0",
+  "blurb": "Sofas and vending machines to hold behind; the horde comes from the far end.",
+  "mode": "survival",
+  "survivors": 8,
+  "survive_seconds": 600,
+  "survivor_class": "info_player_counterterrorist",
+  "zombie_classes": [
+    "info_player_terrorist"
+  ],
+  "solid_classes": [
+    "func_brush"
+  ],
+  "posts": 6,
+  "flood_step": 0.3,
+  "drop_ramps": 0.9,
+  "thin_walls": true,
+  "prop_models": {
+    "models/props/de_nuke/truck_nuke.mdl": "cars_truck",
+    "models/props/de_tides/truck.mdl": "cars_truck",
+    "models/props_vehicles/car004a.mdl": "cars_sedan",
+    "models/props/de_piranesi/pi_apc.mdl": "cars_truck",
+    "models/props_c17/fence01a.mdl": "survival_fence",
+    "models/props_c17/fence04a.mdl": "survival_fence",
+    "models/props_wasteland/cargo_container01c.mdl": "survival_box-large",
+    "models/props_wasteland/coolingtank02.mdl": "survival_barrel",
+    "models/props_wasteland/horizontalcoolingtank04.mdl": "survival_barrel",
+    "models/props/cs_office/vending_machine.mdl": "market_freezers-standing",
+    "models/props/cs_office/sofa.mdl": "furniture_lounge_sofa",
+    "models/props/cs_office/table_meeting.mdl": "furniture_table",
+    "models/props/cs_office/bookshelf1.mdl": "furniture_bookcase_closed",
+    "models/props/cs_havana/bookcase_large.mdl": "furniture_bookcase_closed",
+    "models/props/cs_office/sofa_chair.mdl": "furniture_lounge_sofa",
+    "models/props_c17/oildrum001.mdl": "survival_barrel"
+  },
+  "toys": [
+    [
+      "barrel",
+      [
+        "post",
+        0
+      ],
+      3,
+      -2
+    ],
+    [
+      "tyre",
+      [
+        "post",
+        1
+      ],
+      2,
+      2
+    ],
+    [
+      "football",
+      [
+        "post",
+        2
+      ],
+      -2,
+      2
+    ]
+  ],
+  "items": [
+    [
+      "weapon",
+      "smg",
+      21.01,
+      8.82
+    ],
+    [
+      "weapon",
+      "shotgun",
+      14.35,
+      -2.16
+    ],
+    [
+      "ammo",
+      null,
+      22.23,
+      -0.28
+    ],
+    [
+      "medkit",
+      null,
+      14.35,
+      9.47
+    ],
+    [
+      "pills",
+      null,
+      17.85,
+      3.66
+    ]
+  ],
+  "items_y": 0.1,
+  "auto_lights": {
+    "spacing": 6.0,
+    "height": 2.3,
+    "range": 7.0,
+    "energy": 0.9
+  },
+  "caches_near_posts": true
+}

@@ -1,0 +1,99 @@
+{
+  "id": "zm_16chambres",
+  "name": "16 Chambers",
+  "source": "zm_16chambres.bsp",
+  "author": "tiibo30100",
+  "page": "https://gamebanana.com/mods/131197",
+  "licence": "CC BY-NC-ND 4.0",
+  "blurb": "Sixteen rooms of varied play.",
+  "mode": "survival",
+  "survivors": 8,
+  "survive_seconds": 600,
+  "survivor_class": "info_player_counterterrorist",
+  "zombie_classes": [
+    "info_player_terrorist"
+  ],
+  "solid_classes": [
+    "func_brush"
+  ],
+  "posts": 6,
+  "flood_step": 0.3,
+  "drop_ramps": 0.9,
+  "thin_walls": true,
+  "caches_near_posts": true,
+  "auto_lights": {
+    "spacing": 6.0,
+    "height": 2.3,
+    "range": 7.0,
+    "energy": 0.9
+  },
+  "prop_models": {
+    "models/props/cs_office/vending_machine.mdl": "market_freezers-standing",
+    "models/props/cs_office/file_cabinet1_group.mdl": "furniture_bookcase_closed_doors",
+    "models/props/cs_havana/bookcase_large.mdl": "furniture_bookcase_closed",
+    "models/props/cs_havana/bookcase_small.mdl": "furniture_bookcase_closed",
+    "models/props/cs_office/bookshelf1.mdl": "furniture_bookcase_closed"
+  },
+  "toys": [
+    [
+      "barrel",
+      [
+        "post",
+        0
+      ],
+      3,
+      -2
+    ],
+    [
+      "tyre",
+      [
+        "post",
+        1
+      ],
+      2,
+      2
+    ],
+    [
+      "football",
+      [
+        "post",
+        2
+      ],
+      -2,
+      2
+    ]
+  ],
+  "items": [
+    [
+      "weapon",
+      "smg",
+      -3.38,
+      -14.96
+    ],
+    [
+      "weapon",
+      "shotgun",
+      4.6,
+      -28.37
+    ],
+    [
+      "ammo",
+      null,
+      11.25,
+      -15.52
+    ],
+    [
+      "medkit",
+      null,
+      -7.6,
+      -30.15
+    ],
+    [
+      "pills",
+      null,
+      5.66,
+      -10.36
+    ]
+  ],
+  "items_y": 0.1
+}
