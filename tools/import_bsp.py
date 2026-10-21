@@ -435,6 +435,7 @@ def main(argv):
     y0 = float(spec.get("y0", 0.0))    # spec y0: metres the source floor sits above the game's y = 0 (the nav is flat at 0)
 
     boxes, skipped = [], 0
+    tread_ids = set()
     for b in model_boxes(bs, 0, y0):
         boxes.append(b)
 
@@ -551,6 +552,37 @@ def main(argv):
     if spec.get("drop_small"):
         vmax, smax = spec["drop_small"]
         small = [b for b in boxes if b["size"][0] * b["size"][1] * b["size"][2] < vmax and max(b["size"]) < smax]
+        if spec.get("keep_treads"):
+            # A stair of 0.25 m risers is boxes 1.3 x 0.2 x 0.4: each under `vmax` and shorter than `smax`,
+            # so the whole flight went with the shelf slats and the lab's upper and lower floors were
+            # never joined (the flood walked round by drops, which a body cannot climb back). A small box
+            # is a tread when it is a hand wide and a box of another top 0.1 to 0.45 m
+            # away stands against it: that is a riser, and no slat or rail post has one.
+            by_cell = {}
+            for c in boxes:
+                for ix in range(int((c["at"][0] - c["size"][0] / 2 - 0.1) // 2), int((c["at"][0] + c["size"][0] / 2 + 0.1) // 2) + 1):
+                    for iz in range(int((c["at"][2] - c["size"][2] / 2 - 0.1) // 2), int((c["at"][2] + c["size"][2] / 2 + 0.1) // 2) + 1):
+                        by_cell.setdefault((ix, iz), []).append(c)
+
+            def riser_beside(b):
+                if b.get("yaw") or b["size"][1] < 0.03 or min(b["size"][0], b["size"][2]) < 0.2 or b["size"][0] * b["size"][2] < 0.25:
+                    return False
+                top = b["at"][1] + b["size"][1] / 2
+                for c in by_cell.get((int(b["at"][0] // 2), int(b["at"][2] // 2)), []):
+                    if c is b or c.get("yaw"):
+                        continue
+                    if abs(c["at"][0] - b["at"][0]) > (c["size"][0] + b["size"][0]) / 2 + 0.06 or abs(c["at"][2] - b["at"][2]) > (c["size"][2] + b["size"][2]) / 2 + 0.06:
+                        continue
+                    if 0.1 <= abs(c["at"][1] + c["size"][1] / 2 - top) <= 0.45:
+                        return True
+                return False
+
+            treads = [b for b in small if riser_beside(b)]
+            small = [b for b in small if b not in treads]
+            # A tread is ground, not an obstacle: the graph grows every box by the clearance, and a
+            # flight of 0.25 m risers is within that of every point on it, so no point stood on a stair.
+            tread_ids.update(id(b) for b in treads)
+            print("  keep_treads: %d small boxes kept as stair treads" % len(treads))
         boxes[:] = [b for b in boxes if b not in small]
         print("  dropped %d small boxes" % len(small))
     for ab in spec.get("add_boxes", []):
@@ -786,6 +818,26 @@ def main(argv):
     # street are joined by a link across the doorway, where the cells say a body walks (every link
     # is across a gap the flood crossed). What is still cut off is not somewhere a post goes.
     import nav_emulate
+    for b in boxes:
+        if id(b) in tread_ids:
+            b["nav"] = False     # after the flood, which walks the treads: see keep_treads
+    if spec.get("clip_underlay"):
+        # An invisible clip slab a little under a floor (the author's ground clip, 15 cm below the lab's
+        # concrete) is no wall: the floor stands on it. But the game's graph grows every box by the
+        # clearance on all sides and only forgives a box whose top is within 0.12 m of a floor, so a
+        # slab 0.15 m down took every point off the lab's whole ground level (1300 m2 with no point,
+        # and the horde never entered). Such a slab stays solid for bodies and is left out of the graph.
+        under = 0
+        for b in boxes:
+            if b.get("visible", True) is not False or not b.get("solid", True) or "nav" in b or b.get("gate"):
+                continue
+            nb = nav_emulate._bounds(b)
+            if nav_emulate._is_floor(nb, floors):
+                continue
+            if any(nb[0] < f[2] and nb[3] > f[0] and nb[2] < f[3] and nb[5] > f[1] and f[4] - 0.4 <= nb[4] <= f[4] - 0.02 for f in floors):
+                b["nav"] = False
+                under += 1
+        print("  clip_underlay: %d invisible slab(s) under a floor left out of the graph" % under)
     G = nav_emulate.Graph(boxes + bar_boxes, keep, sizes, floors)
     links = list(build_nav.links)
     dead = set()
