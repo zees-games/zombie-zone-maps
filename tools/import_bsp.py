@@ -369,6 +369,10 @@ class Source:
         o = m["origin"]
         return ([m["mins"][k] - o[k] for k in range(3)], [m["maxs"][k] - o[k] for k in range(3)])
 
+    def terrain_tris(self):
+        """The displacement triangles (the intermediate must be built with `bsp.py convert --displacements`)."""
+        return [t for d in self.doc.get("displacements", []) for t in d["tris"]]
+
     def model_brushes(self, model):
         m = self.models.get(model)
         return [self.brushes[i] for i in m["brushes"]] if m else []
@@ -438,6 +442,22 @@ def main(argv):
     tread_ids = set()
     for b in model_boxes(bs, 0, y0):
         boxes.append(b)
+
+    # `terrain`: ground that is displacements (sculpted heightmaps, not brushes) has no box at all, so
+    # the map would have no floor; dot-map's shared `terrain_cells` samples it into a stepped field of
+    # ground boxes. Optional {"cell": 80, "quant": 5} (source units) coarsens the field for the box limit.
+    if spec.get("terrain"):
+        topts = spec["terrain"] if isinstance(spec["terrain"], dict) else {}
+        if not bs.terrain_tris():
+            sys.exit("import_bsp: spec asks for terrain but the intermediate has no displacements; rebuild it with `bsp.py convert --displacements`")
+        n = 0
+        for c in dboxes.terrain_cells(bs.terrain_tris(), cell=float(topts.get("cell", 80.0)), quant=float(topts.get("quant", 5.0))):
+            sx, sy, sz = dboxes.size(c)
+            boxes.append({"at": [r3(v) for v in gpt(dboxes.centre(c), y0)],
+                          "size": [r3(max(v, 0.02)) for v in (sx * S, sz * S, sy * S)],
+                          "mat": spec.get("terrain_mat", "dirt")})
+            n += 1
+        print("terrain: %d ground boxes from the displacements" % n)
 
     # brush entities: solid ones are part of the world; gates are held back for the route
     gate_cands = []
