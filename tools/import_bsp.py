@@ -52,7 +52,7 @@ def _dotbsp_path():
 
 
 sys.path.insert(1, _dotbsp_path())
-from dotbsp import boxes as dboxes, intermediate, reader  # noqa: E402
+from dotbsp import boxes as dboxes, docboxes, intermediate, reader, texturemap  # noqa: E402
 
 
 # A map compiled with an empty game lump (no static props) crashes dot-map's reader; the fix
@@ -81,32 +81,35 @@ MIN_FLOOR_Y = None    # spec min_floor_y: a sump the horde drops into and cannot
 HEAD = 1.7            # headroom a floor needs
 SLAB = 0.4
 
-MATERIALS = [
+# The surface of a brush comes from dot-map's shared list (tools/bsp/dotbsp/source_textures.tsv), the one every
+# conversion reads; a new texture goes there, never into this file. `bsp.py unmapped <bsp>` lists what it misses.
+TEXTURE_MAP = texturemap.load()
+
+# The list's ids say what a surface IS; the game draws these (ZzMaterials). Anything not here is already a game id
+# (metal, concrete, ceiling, carpet, glass, grass, parquet, wood_floor, water) and passes through.
+GAME_MATERIAL = {
+    "wood_planks": "wood", "door_wood": "wood", "plaster_painted": "paint", "wallpaper": "paint",
+    "plaster_worn": "plaster", "stone_wall": "stone", "roof_tiles": "roof", "tile_floor": "tile",
+    "brick_red": "brick", "mud": "dirt", "snow": "concrete", "flat": "concrete",
+}
+
+# Where this game had a more specific surface than the list's id, and keeps it: a road and a pavement are not
+# concrete here, and a glass window in a metal or tile folder is still glass (they are drawn with their own markings and colour). Tried on the name before the list.
+OVERRIDES = [
     (r"glass", "glass"),
-    (r"stair", "wood"),
-    (r"woodfloor|parquet", "wood_floor"),
-    (r"wood", "wood"),
-    (r"ceiling", "ceiling"),
-    (r"carpet", "carpet"),
-    (r"brick", "brick"),
-    (r"plaster", "plaster"),
-    (r"tile", "tile"),
-    (r"metal|rail|vent", "metal"),
-    (r"concretefloor", "concrete"),
-    (r"concrete", "concrete"),
     (r"asphalt|road", "asphalt"),
     (r"sidewalk|pavement", "sidewalk"),
-    (r"grass|nature", "grass"),
-    (r"dirt|sand|ground", "dirt"),
-    (r"stone|rock|cobble", "stone"),
 ]
 
 
 def material_for(name):
-    for pat, mat in MATERIALS:
+    for pat, mat in OVERRIDES:
         if re.search(pat, name):
             return mat
-    return "concrete"
+    hit = TEXTURE_MAP.lookup(docboxes.classify_material(name))
+    if hit is None:
+        return "concrete"
+    return GAME_MATERIAL.get(hit[0], hit[0])
 
 
 def r3(v):
