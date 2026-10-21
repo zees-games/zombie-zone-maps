@@ -345,6 +345,88 @@ def build_nav(boxes, starts, blocked=None, wide=False):
     return floors, surf, seen, parent, dist
 
 
+def link_obstacles(boxes, floors):
+    """The solid boxes a link's line must not run through (floors a body stands on are not)."""
+    import nav_emulate
+    obs = []
+    for b in boxes:
+        if not b.get("solid", True) or b.get("gate") or b.get("nav", True) is False:
+            continue
+        nb = nav_emulate._bounds(b)
+        if nav_emulate._is_floor(nb, floors):
+            continue
+        obs.append(nb)
+    return obs
+
+
+def link_blocked(obs, a, c, grow=0.0, min_h=0.55):
+    """True when the line a-c passes through a solid that reaches 0.55 m above its lower end
+    (a wall, a window sill) and neither end stands on that solid."""
+    lo = min(a[1], c[1])
+    n = max(2, int(math.dist(a, c) / 0.1))
+    for nb in obs:
+        if nb[4] <= lo + min_h or nb[1] >= lo + 1.5:
+            continue
+        if any(nb[0] - 0.05 <= e[0] <= nb[3] + 0.05 and nb[2] - 0.05 <= e[2] <= nb[5] + 0.05 for e in (a, c)):
+            continue
+        if max(a[0], c[0]) < nb[0] - grow or min(a[0], c[0]) > nb[3] + grow or max(a[2], c[2]) < nb[2] - grow or min(a[2], c[2]) > nb[5] + grow:
+            continue
+        for k in range(n + 1):
+            t = k / n
+            x, y, z = a[0] + (c[0] - a[0]) * t, a[1] + (c[1] - a[1]) * t, a[2] + (c[2] - a[2]) * t
+            if nb[0] - grow <= x <= nb[3] + grow and nb[2] - grow <= z <= nb[5] + grow and nb[4] > y + 0.15:
+                return True
+    return False
+
+
+def filter_wall_links(links, boxes, props, sizes, floors, strict=False):
+    """Drop the links that run through a wall or over a sill, where the ground stays joined without them.
+
+    The cell flood samples a cell's centre, so a window sill or a wall thinner than a cell is
+    invisible to it and it proposes a 'drop or jump' link straight through (atix's window, nuke's
+    sill doorway: the stand-ins walked into the sill and stood there, 50% of their goal time). A
+    link is cut when its line passes through a solid box that reaches 0.55 m above the lower end
+    and neither end stands on that box. Cut only when the graph's own points at the two ends are
+    already joined by the other links and edges: a link that is the document's only connection
+    stays (dropping all of them disconnected the ground on four maps)."""
+    import nav_emulate
+    obs = link_obstacles(boxes, floors)
+
+    def blocked(l):
+        # strict: a body 0.25 m in radius, and a counter 0.4 m high (a window's) is a wall to a mover
+        # that cannot jump. Not the default: it cut links the stand-ins on atix and nuke needed
+        return link_blocked(obs, l[:3], l[3:], grow=0.25, min_h=0.4) if strict else link_blocked(obs, l[:3], l[3:])
+
+    bad = [l for l in links if blocked(l)]
+    if not bad:
+        return links
+    G = nav_emulate.Graph(boxes, props, sizes, floors)
+
+    def ends(l):
+        return G.nearest(l[0], l[1], l[2], 2.0), G.nearest(l[3], l[4], l[5], 2.0)
+
+    badset = {id(l) for l in bad}
+    for l in links:
+        if id(l) not in badset:
+            i, j = ends(l)
+            if i >= 0 and j >= 0:
+                G.union(i, j)
+    kept, cut = [], 0
+    for l in links:
+        if id(l) not in badset:
+            kept.append(l)
+            continue
+        i, j = ends(l)
+        if i >= 0 and j >= 0 and G.find(i) == G.find(j):
+            cut += 1
+            continue
+        if i >= 0 and j >= 0:
+            G.union(i, j)
+        kept.append(l)
+    print("  wall links: %d of %d cut (%d run through a wall but are the only join)" % (cut, len(links), len(bad) - cut))
+    return kept
+
+
 def floor_at(surf, seen, x, z, y):
     ix, iz = int(math.floor(x / CELL)), int(math.floor(z / CELL))
     hs = [h for h in surf.get((ix, iz), []) if (ix, iz, h) in seen and h <= y + 0.8]
@@ -960,11 +1042,56 @@ def main(argv):
                             pairs.append((dd, i, j))
     pairs.sort()
     bridged = 0
+    wall_obs = None if spec.get("keep_wall_links") else link_obstacles(boxes + bar_boxes, floors)
     for dd, i, j in pairs:
+        if wall_obs is not None and link_blocked(wall_obs, G.pts[i], G.pts[j]):
+            continue    # the cells only walk it because a wall thinner than a cell is invisible to them
         if G.find(i) != G.find(j) and walkable(G.pts[i], G.pts[j]):
             G.union(i, j)
             bridged += 1
             links.append([r3(G.pts[i][0]), r3(G.pts[i][1]), r3(G.pts[i][2]), r3(G.pts[j][0]), r3(G.pts[j][1]), r3(G.pts[j][2])])
+    if wall_obs is not None:
+        # A doorway narrower than two points leaves the room behind it an island, and the first
+        # pass above no longer takes the window sill instead. Join each small island to the
+        # ground by the shortest line a body of 0.25 m radius walks clear of every wall (the door).
+        sizes_ = {}
+        for i in range(len(G.pts)):
+            r = G.find(i)
+            sizes_[r] = sizes_.get(r, 0) + 1
+        reach = []
+        for i, pa_ in enumerate(G.pts):
+            if sizes_[G.find(i)] >= 150:
+                continue
+            for j, pb_ in enumerate(G.pts):
+                if sizes_[G.find(j)] < 150 or abs(pa_[0] - pb_[0]) > 5 or abs(pa_[2] - pb_[2]) > 5:
+                    continue
+                dd = math.dist(pa_, pb_)
+                if dd <= 5.0 and abs(pa_[1] - pb_[1]) <= spec.get("link_dy", 0.5):
+                    reach.append((dd, i, j))
+        reach.sort()
+        doors = 0
+        for dd, i, j in reach:
+            if G.find(i) != G.find(j) and not link_blocked(wall_obs, G.pts[i], G.pts[j], grow=0.25, min_h=0.4 if spec.get("strict_wall_links") else 0.55):
+                G.union(i, j)
+                doors += 1
+                links.append([r3(G.pts[i][0]), r3(G.pts[i][1]), r3(G.pts[i][2]), r3(G.pts[j][0]), r3(G.pts[j][1]), r3(G.pts[j][2])])
+        print("  doorway links: %d small islands joined through a gap" % doors)
+        # What no clear line joins and is a real part of the map (40 points or more: a yard, a
+        # floor of a building) keeps the old link through the wall or over the sill, because
+        # leaving it an island cut the horde off half of Jurassic Park. Pockets under that are
+        # left alone: a spawn behind a window is a short vault for a survivor, not a way in.
+        sizes_ = {}
+        for i in range(len(G.pts)):
+            sizes_[G.find(i)] = sizes_.get(G.find(i), 0) + 1
+        kept_walls = 0
+        for dd, i, j in pairs:
+            if G.find(i) != G.find(j) and sizes_[G.find(i)] >= 40 and sizes_[G.find(j)] >= 40 and walkable(G.pts[i], G.pts[j]):
+                tot = sizes_[G.find(i)] + sizes_[G.find(j)]
+                G.union(i, j)
+                sizes_[G.find(i)] = tot
+                kept_walls += 1
+                links.append([r3(G.pts[i][0]), r3(G.pts[i][1]), r3(G.pts[i][2]), r3(G.pts[j][0]), r3(G.pts[j][1]), r3(G.pts[j][2])])
+        print("  wall links kept: %d (the only join of a part of the map with 40 points or more)" % kept_walls)
     build_nav.links = links[:600]
     start_pt = G.nearest(starts[0][0], starts[0][1], starts[0][2], 3.0)
     if start_pt < 0:
@@ -1018,6 +1145,26 @@ def main(argv):
             continue
         if p and p[2] <= spec.get("spawn_z_max", 1e9):
             spawns.append({"at": p, "yaw": r3(reader.yaw_to_godot(parse_vec(e.get("angles", "0 0 0"))[1]))})
+    # A survivor start on an island of the horde's graph (a room whose doorway is narrower than two
+    # points) is a stand-in that has no path out and walks into the nearest wall: atix's second
+    # spawn stood behind a window sill. It moves to the nearest point of the main ground within 8 m
+    # (the team needs its places, so it is not dropped), 1.4 m clear of the other starts.
+    if G.pts and not ss:
+        mainpts = [q for i, q in enumerate(G.pts) if G.find(i) == main]
+        moved = 0
+        for sp in spawns:
+            at = sp["at"]
+            if any(abs(q[1] - at[1]) <= 0.6 and (q[0] - at[0]) ** 2 + (q[2] - at[2]) ** 2 <= 2.25 for q in mainpts):
+                continue
+            for q in sorted(mainpts, key=lambda q: (q[0] - at[0]) ** 2 + (q[2] - at[2]) ** 2 + (q[1] - at[1]) ** 2):
+                if (q[0] - at[0]) ** 2 + (q[2] - at[2]) ** 2 > 64:
+                    break
+                if abs(q[1] - at[1]) <= 0.6 and all((q[0] - o["at"][0]) ** 2 + (q[2] - o["at"][2]) ** 2 >= 1.96 for o in spawns):
+                    sp["at"] = [r3(q[0]), r3(q[1] + 0.1), r3(q[2])]
+                    moved += 1
+                    break
+        if moved:
+            print("  survivor spawns: %d off the horde's ground moved onto it" % moved)
     zsp = [list(p) for p in spec.get("zombie_start", [])]
     for cls in ([] if spec.get("zombie_start") else spec["zombie_classes"]):
         for e in ents:
@@ -1225,6 +1372,8 @@ def main(argv):
     # equal tiles. The lightmap unwrap packs a box's faces into one chart, and a chart that size
     # leaves no texel density the sheet can hold, so the bake fails; tiles each get their own chart.
     # Same solid to a body and to the graph, which only see the union.
+    if not spec.get("keep_wall_links"):
+        build_nav.links = filter_wall_links(build_nav.links, boxes + bar_boxes, keep, sizes, floors, bool(spec.get("strict_wall_links")))
     if spec.get("split_over"):
         lim, tiled = float(spec["split_over"]), []
         for b in boxes + bar_boxes + gate_boxes:
