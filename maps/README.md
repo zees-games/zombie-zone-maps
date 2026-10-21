@@ -25,6 +25,7 @@ Every length is metres, every angle degrees, every time seconds. A position is `
 	"boxes": [],
 	"props": [],
 	"lights": [],
+	"water": [],
 	"spawns": {"survivors": []},
 	"areas": {"start": [], "end": []},
 	"route": [],

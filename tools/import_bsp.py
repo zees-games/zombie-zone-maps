@@ -414,6 +414,74 @@ def model_boxes(bs, model, y0):
     return out
 
 
+def water_volumes(bs, y0, floors, spec):
+    """The map's water as game volumes `{at, size}` (centre and size, the top face is the surface).
+
+    A water brush is CONTENTS_WATER (0x20) in any model: the world's, or a func_brush's (Jurassic
+    Park's lakes). It was dropped before this, because the solid test above never passes it; the
+    swim and the wading are the game's, so the importer only has to say where.
+
+    Three filters, all about what a survivor or a zombie can meet. Shallower than `water_min_depth`
+    (0.4 m, spec key) is a puddle: ankle deep, no wading in it. A pool no floor of the zombies'
+    ground lies in (the nuke map's decorative planes, a sump under the level) is a picture, not
+    a place; the spec's `water: "all"` keeps it, `water: false` drops every one. And two brushes
+    of one pool that meet edge to edge at one level are one volume, because the swim mode asks
+    which box the waist is in, and a seam between two is a place the player stops swimming.
+    """
+    mode = spec.get("water", True)
+    if mode is False:
+        return []
+    min_depth = float(spec.get("water_min_depth", 0.4))
+    found = []
+    for rec in bs.doc["brushes"]:
+        if not (rec["contents"] & reader.CONTENTS_WATER) or not rec["hull"]:
+            continue
+        pts = [gpt(p, y0) for p in rec["hull"]]
+        xs, ys, zs = [p[0] for p in pts], [p[1] for p in pts], [p[2] for p in pts]
+        box = [min(xs), min(ys), min(zs), max(xs), max(ys), max(zs)]
+        if box[4] - box[1] < min_depth or (box[3] - box[0]) * (box[5] - box[2]) < 1.0:
+            continue
+        found.append(box)
+
+    def meets(a, b):
+        if abs(a[4] - b[4]) > 0.05:
+            return False
+        x_same = abs(a[0] - b[0]) < 0.05 and abs(a[3] - b[3]) < 0.05
+        z_same = abs(a[2] - b[2]) < 0.05 and abs(a[5] - b[5]) < 0.05
+        x_touch = a[0] <= b[3] + 0.05 and b[0] <= a[3] + 0.05
+        z_touch = a[2] <= b[5] + 0.05 and b[2] <= a[5] + 0.05
+        return (x_same and z_touch) or (z_same and x_touch)
+
+    merged = True
+    while merged:
+        merged = False
+        for i in range(len(found)):
+            for k in range(i + 1, len(found)):
+                if meets(found[i], found[k]):
+                    a, b = found[i], found[k]
+                    found[i] = [min(a[0], b[0]), min(a[1], b[1]), min(a[2], b[2]), max(a[3], b[3]), a[4], max(a[5], b[5])]
+                    del found[k]
+                    merged = True
+                    break
+            if merged:
+                break
+
+    def reachable(v):
+        # A floor rectangle [x0, z0, x1, z1, h] in the volume's footprint, from its bed up to a
+        # storey above its surface: somewhere to wade, a shore, or a deck over the sea a player can
+        # fall from. A pool no floor stands over is a picture.
+        return any(f[0] < v[3] + 2.0 and f[2] > v[0] - 2.0 and f[1] < v[5] + 2.0 and f[3] > v[2] - 2.0
+                   and v[1] - 0.1 <= f[4] <= v[4] + 12.0 for f in floors)
+
+    out = []
+    for v in sorted(found, key=lambda v: (v[4], v[0], v[2])):
+        if mode != "all" and not reachable(v):
+            continue
+        out.append({"at": [r3((v[0] + v[3]) / 2), r3((v[1] + v[4]) / 2), r3((v[2] + v[5]) / 2)],
+                    "size": [r3(v[3] - v[0]), r3(v[4] - v[1]), r3(v[5] - v[2])]})
+    return out
+
+
 # --- the document ---------------------------------------------------------------------------
 
 def main(argv):
@@ -1195,6 +1263,10 @@ def main(argv):
         sp = [s["at"] for s in spawns]
         doc["areas"]["start"] = [{"min": [r3(min(p[0] for p in sp) - 2), r3(min(p[1] for p in sp) - 0.5), r3(min(p[2] for p in sp) - 2)],
                                   "max": [r3(max(p[0] for p in sp) + 2), r3(max(p[1] for p in sp) + 3), r3(max(p[2] for p in sp) + 2)]}]
+    water = water_volumes(bs, y0, floors, spec)
+    if water:
+        doc["water"] = water
+        print("  water: %d volume(s)" % len(water))
     # Toys: loose dot-props, from the spec's hints ([toy, anchor, dx, dz]); build_maps settles each
     # onto clear floor, the same way the hand-built maps' are.
     if spec.get("toys"):
