@@ -726,6 +726,10 @@ def main(argv):
         # Props that settled into a pit the players never reach (a lower level the flood leaves out).
         cand = [c for c in cand if c["at"][1] >= spec["prop_min_y"]]
 
+    if spec.get("drop_props"):
+        # [x, z] of single props to leave out: one that settled inside a wall or on nothing (headless_maps names them).
+        cand = [c for c in cand if not any(abs(c["at"][0] - x) < 0.3 and abs(c["at"][2] - z) < 0.3 for x, z in spec["drop_props"])]
+
     def blocks_of(plist):
         out = {}
         for pr in plist:
@@ -1037,6 +1041,9 @@ def main(argv):
                           if abs(h - pst[1]) < 0.5 and 9 <= ((ix + 0.5) * CELL - pst[0]) ** 2 + ((iz + 0.5) * CELL - pst[2]) ** 2 <= 100)
             for _, ix, iz, h in near:
                 q = [r3((ix + 0.5) * CELL), r3(h), r3((iz + 0.5) * CELL)]
+                cr = spec.get("cache_region")
+                if cr and not (cr[0] <= q[0] <= cr[2] and cr[1] <= q[2] <= cr[3]):
+                    continue  # a spec that names a cache region keeps these in it too
                 if on_main(q[0], q[1], q[2]) and all((q[0] - c[0]) ** 2 + (q[2] - c[2]) ** 2 > 49 for c in caches):
                     caches.append(q)
                     break
