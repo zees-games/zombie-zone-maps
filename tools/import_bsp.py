@@ -399,7 +399,7 @@ def link_blocked(obs, a, c, grow=0.0, min_h=0.55):
     return False
 
 
-def filter_wall_links(links, boxes, props, sizes, floors, strict=False):
+def filter_wall_links(links, boxes, props, sizes, floors, strict=False, fixed=()):
     """Drop the links that run through a wall or over a sill, where the ground stays joined without them.
 
     The cell flood samples a cell's centre, so a window sill or a wall thinner than a cell is
@@ -408,7 +408,7 @@ def filter_wall_links(links, boxes, props, sizes, floors, strict=False):
     link is cut when its line passes through a solid box that reaches 0.55 m above the lower end
     and neither end stands on that box. Cut only when the graph's own points at the two ends are
     already joined by the other links and edges: a link that is the document's only connection
-    stays (dropping all of them disconnected the ground on four maps)."""
+    stays (dropping all of them disconnected the ground on four maps). `fixed` are the spec's own links, which count as joins but are never cut."""
     import nav_emulate
     obs = link_obstacles(boxes, floors)
 
@@ -426,7 +426,7 @@ def filter_wall_links(links, boxes, props, sizes, floors, strict=False):
         return G.nearest(l[0], l[1], l[2], 2.0), G.nearest(l[3], l[4], l[5], 2.0)
 
     badset = {id(l) for l in bad}
-    for l in links:
+    for l in list(fixed) + links:
         if id(l) not in badset:
             i, j = ends(l)
             if i >= 0 and j >= 0:
@@ -591,6 +591,51 @@ def water_volumes(bs, y0, floors, spec):
 
 # --- the document ---------------------------------------------------------------------------
 
+def widen_doorways(boxes, width, min_gap=0.5, min_h=1.5):
+    """Trims the facing ends of two upright wall boxes across a gap of min_gap..width so the gap is
+    `width`; returns how many gaps were opened. A wall piece is a standing box (min_h or taller, not
+    turned, not a gate) at most 0.6 m thick; both pieces must reach the floor of the gap together."""
+    def wall(b):
+        return b["size"][1] >= min_h and not b.get("yaw") and not b.get("gate") and b.get("solid", True)
+
+    walls = [b for b in boxes if wall(b)]
+    opened = 0
+    for axis, thin in ((2, 0), (0, 2)):
+        pieces = [b for b in walls if b["size"][thin] <= 0.6]
+        for a in pieces:
+            for c in pieces:
+                if a is c or a["at"][axis] >= c["at"][axis]:
+                    continue
+                if abs(a["at"][thin] - c["at"][thin]) > 0.15 or abs(a["size"][thin] - c["size"][thin]) > 0.1:
+                    continue
+                if abs((a["at"][1] - a["size"][1] / 2) - (c["at"][1] - c["size"][1] / 2)) > 0.5:
+                    continue
+                gap = (c["at"][axis] - c["size"][axis] / 2) - (a["at"][axis] + a["size"][axis] / 2)
+                if not min_gap <= gap < width - 0.01:
+                    continue
+                # A frame, bar or barrier across the gap at body height is not a doorway; a ramp's steps are.
+                lo, hi = max(a["at"][1] - a["size"][1] / 2, c["at"][1] - c["size"][1] / 2), min(a["at"][1] + a["size"][1] / 2, c["at"][1] + c["size"][1] / 2)
+                g0, g1 = a["at"][axis] + a["size"][axis] / 2, c["at"][axis] - c["size"][axis] / 2
+
+                def across(o):
+                    ob, ot = o["at"][1] - o["size"][1] / 2, o["at"][1] + o["size"][1] / 2
+                    return (abs(o["at"][thin] - a["at"][thin]) < 0.4 and o["at"][axis] + o["size"][axis] / 2 > g0 + 0.05
+                            and o["at"][axis] - o["size"][axis] / 2 < g1 - 0.05 and ob < lo + 1.8 and ot > lo + 0.3
+                            and (ob >= lo + 0.3 or ot > lo + 1.8) and ob < hi - 0.3)
+
+                if any(o is not a and o is not c and across(o) for o in boxes):
+                    continue
+                cut = (width - gap) / 2
+                if a["size"][axis] - cut < 0.1 or c["size"][axis] - cut < 0.1:
+                    continue
+                a["size"][axis] = r3(a["size"][axis] - cut)
+                a["at"][axis] = r3(a["at"][axis] - cut / 2)
+                c["size"][axis] = r3(c["size"][axis] - cut)
+                c["at"][axis] = r3(c["at"][axis] + cut / 2)
+                opened += 1
+    return opened
+
+
 def main(argv):
     if len(argv) < 3:
         print(__doc__)
@@ -684,6 +729,13 @@ def main(argv):
             kept.append(b)
         print("  clip_y: %d boxes kept of %d" % (len(kept), len(boxes)))
         boxes[:] = kept
+    # `widen_doorways` metres: a doorway narrower than two of the graph's points (a metre apart, 0.35 m
+    # kept clear of a wall) has no point in it, so the rooms either side were joined by a link running
+    # through the wall. The two wall pieces flanking such a gap are trimmed back to this width, so the
+    # rooms join by geometry. Opt-in: it moves collision.
+    if spec.get("widen_doorways"):
+        n_wd = widen_doorways(boxes, float(spec["widen_doorways"]))
+        print("  widen_doorways: %d doorways opened to %.2f m" % (n_wd, float(spec["widen_doorways"])))
     # `min_thick` metres: a wall thinner than the body's radius (a diagonal wall the box cutter steps
     # as a chain of 0.38 m slabs, a panel 8 cm deep) leaves slivers the navigation join cannot
     # sew across and a cell flood samples past. Standing walls (taller than half a metre) are
@@ -1431,7 +1483,7 @@ def main(argv):
     # leaves no texel density the sheet can hold, so the bake fails; tiles each get their own chart.
     # Same solid to a body and to the graph, which only see the union.
     if not spec.get("keep_wall_links"):
-        build_nav.links = filter_wall_links(build_nav.links, boxes + bar_boxes, keep, sizes, floors, bool(spec.get("strict_wall_links")))
+        build_nav.links = filter_wall_links(build_nav.links, boxes + bar_boxes, keep, sizes, floors, bool(spec.get("strict_wall_links")), spec.get("extra_links", []))
     if spec.get("split_over"):
         lim, tiled = float(spec["split_over"]), []
         for b in boxes + bar_boxes + gate_boxes:
