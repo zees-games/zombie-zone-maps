@@ -43,7 +43,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 
 import import_bsp  # noqa: E402  (puts dot-map's tools/bsp on the path, and owns the material table)
-from dotbsp import mesh, movers, reader, units  # noqa: E402
+from dotbsp import environment, importer, licence, mesh, movers, reader, standins, units  # noqa: E402
 
 # Metres of world one batch covers: the game's own (ZzMap.CHUNK), because the compatibility renderer
 # lights a mesh with at most eight lamps and a chunk is about a room, which is about a lamp.
@@ -138,8 +138,10 @@ def build(spec, bsp_path):
     extra = {"zz": {"materials": dict(sorted(mats.items())), "keep_boxes": keep},
              "movers": records, "volumes": movers.volumes(bsp, units.VISUAL, y0),
              "destinations": movers.destinations(bsp, units.VISUAL, y0),
-             "links": movers.links(bsp), "entities": movers.generic(bsp)}
-    return m, before, extra
+             "links": movers.links(bsp), "entities": movers.generic(bsp),
+             "environment": environment.environment(bsp, units.VISUAL, y0),
+             "sounds": environment.sounds(bsp, units.VISUAL, y0)}
+    return m, before, extra, bsp, y0
 
 
 def _kinds(records):
@@ -171,10 +173,22 @@ def main(argv):
     root = argv[3] if len(argv) > 3 else os.path.join(HERE, "..", "world")
     out_dir = os.path.join(root, import_bsp.world_pack(map_id))
     os.makedirs(out_dir, exist_ok=True)
-    m, before, extra = build(spec, argv[2])
+    m, before, extra, bsp, y0 = build(spec, argv[2])
     credit = {k: spec[k] for k in ("author", "page", "licence") if k in spec}
     credit["note"] = "Geometry converted from the original map with credit; its textures and models are not used. Removed on the author's request."
     doc = mesh.write(m, os.path.join(out_dir, map_id), credit=credit, name=map_id, extra=extra)
+    # The licence pass: every texture a free one, the models and sounds stand-ins (dot-map's tables), props placed.
+    licence.annotate(doc, out_dir, models=importer.placed_models(bsp))
+    doc["props"] = standins.placements(bsp, y0=y0)
+    problems = licence.check(doc)
+    with open(os.path.join(out_dir, map_id + ".json"), "w") as f:
+        json.dump(doc, f, indent=1, sort_keys=True)
+        f.write("\n")
+    with open(os.path.join(out_dir, "CREDITS.md"), "w") as f:
+        f.write(licence.credits_markdown(doc))
+    if problems:
+        print("LICENCE CHECK FAILED: " + "; ".join(problems))
+        return 4
     c = doc["counts"]
     print("%s: %d of %d surfaces drawn, %d triangles, %d hulls, bin %d bytes (%d gzip'd) -> %s" % (
         map_id, c["surfaces"], before, c["triangles"], c["hulls"], doc["bin"]["bytes"], doc["bin"]["stored_bytes"], out_dir))
