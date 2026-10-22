@@ -48,6 +48,7 @@ Every length is metres, every angle degrees, every time seconds. A position is `
 | `survivors` | The team the map is built for. Stand-ins fill to it when it is more than the server's own number; leave it out on a map four can play. |
 | `next` | An exodus map's next map, by id. Empty hands over to the server's rotation and the map vote. |
 | `kill_y` | Below this, a survivor is dead and a zombie is gone. |
+| `world` | Optional, `zz_world_<id>`: the converted map's own drawn geometry, a pack of its own (`world/zz_world_<id>/`, written by `tools/build_worlds.py`) that a client fetches when its server is on this map. Drawn only: the boxes still collide and the horde's ground is still cut from them; without the pack the boxes are drawn. |
 | `environment` | Sky, sun, ambient light and fog. Anything left out is the default daylight; the maps here are night, dusk and fog. |
 
 ## What is solid: boxes

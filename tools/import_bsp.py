@@ -112,6 +112,26 @@ def material_for(name):
     return GAME_MATERIAL.get(hit[0], hit[0])
 
 
+def world_pack(map_id):
+    """The pack a converted map's drawn world is published as (tools/build_worlds.py)."""
+    return "zz_world_" + map_id
+
+
+def name_world(doc, repo_root):
+    """`doc` with `"world"` after its id when `world/<pack>/<id>.json` has been built, else as it is.
+    The game draws that mesh in place of the boxes (which still collide); without it, the boxes."""
+    pack = world_pack(doc["id"])
+    if not os.path.isfile(os.path.join(repo_root, "world", pack, doc["id"] + ".json")):
+        return doc
+    out = {}
+    for k, v in doc.items():
+        if k != "world":
+            out[k] = v
+        if k == "id":
+            out["world"] = pack
+    return out
+
+
 def r3(v):
     return round(v, 3)
 
@@ -1460,6 +1480,7 @@ def main(argv):
         import build_maps
         hints = [build_maps.toy(t[0], "spawn" if t[1] == "spawn" else tuple(t[1]), t[2], t[3], *t[4:]) for t in spec["toys"]]
         doc["toys"] = build_maps.settle_toys(doc, hints)
+    doc = name_world(doc, os.path.join(HERE, ".."))
     os.makedirs(out_dir, exist_ok=True)
     path = os.path.join(out_dir, spec["id"] + ".json")
     with open(path, "w") as f:

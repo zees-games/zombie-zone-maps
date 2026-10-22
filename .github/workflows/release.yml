@@ -30,3 +30,21 @@ jobs:
             # Data, with no scripts and no addons: there is no requires.json to compare
             # against a server's addons.
             server-compat: false
+            # The drawn worlds are the client's, one pack per map (the job below); the server
+            # never draws, so its pack leaves them out.
+            pack-exclude-dirs: world
+
+    # Each converted map's drawn world (tools/build_worlds.py) as a pack of its own,
+    # zz_world_<id>-<version>-pack.zip, published as <owner>/zz_world_<id>@<version>: a client
+    # fetches the one for the map the server it joined is on, by the key the server sends
+    # (game-zombie-zone's ZzModule._world_key: the maps pack's owner and version). After the
+    # release job, which creates the release.
+    worlds:
+        needs: release
+        uses: modcommunity/dot-ci/.github/workflows/release-maps.yml@v1.2.6
+        permissions:
+            contents: write
+        with:
+            game: zees-games/game-zombie-zone
+            maps-dir: world
+            link-at: world
