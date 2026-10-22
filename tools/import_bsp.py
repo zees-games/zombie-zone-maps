@@ -479,15 +479,20 @@ def model_boxes(bs, model, y0):
         made = boxes_from_brush(br, y0)
         # A brush cut into slabs along its slope is a ramp or a stair; how much it rises is how
         # a spec decides whether the horde's graph (a step of half a spacing at most) can use it.
-        rise = 0.0
+        rise, walkable = 0.0, False
         if made and all(bx["kind"] == "slab" for bx in made):
             rise = max(bx["at"][1] + bx["size"][1] / 2 for bx in made) - min(bx["at"][1] - bx["size"][1] / 2 for bx in made)
+            # Only a side a body could walk up (no steeper than 60 degrees) makes a ramp. A tunnel's
+            # curved wall, an arch and a leaning wall are slab-cut too and rise just as far.
+            walkable = any(0.5 <= pl[2] < 0.985 for pl in br.planes)
         for bx in made:
             b = {"at": [r3(v) for v in bx["at"]], "size": [r3(max(v, 0.02)) for v in bx["size"]], "mat": mat}
             if bx["yaw"]:
                 b["yaw"] = r3(bx["yaw"])
             if rise:
                 b["_rise"] = r3(rise)
+                b["_walkable"] = walkable
+                b["_brush"] = (model, rec.get("id", id(rec)))
             if kind in ("invisible", "sky"):
                 b["visible"] = False
             if kind == "sky":
@@ -794,9 +799,42 @@ def main(argv):
         # stair steeper than one in two has no way up for a zombie, and an upper floor it cannot
         # climb to would be a place the team holds for ever. The steep slopes go; what is left of
         # the map is level ground.
-        gone = [b for b in boxes if b.get("_rise", 0) >= spec["drop_ramps"]]
-        boxes[:] = [b for b in boxes if b not in gone]
-        print("  dropped %d ramp slab(s) rising %.1f m or more" % (len(gone), spec["drop_ramps"]))
+        # [b]Only the ramps a survivor walks onto.[/b] Dropping every slab-cut brush that rose 0.9 m
+        # took 4-Way Tunnel's tunnel walls, arches and the outsides of its roofs (2845 boxes, two
+        # thirds of the map) and left floating chunks in a void. A survivor flood (the body's own
+        # step and jump, over every box) finds the ramps somebody can stand on; the rest stay.
+        keep_step, STEP, JUMP = (STEP, JUMP), 0.42, 0.9
+        ss0 = spec.get("survivor_start")
+        reach = build_nav(boxes, [ss0["at"]] if ss0 else [gpt(parse_vec(e["origin"]), y0) for e in surv])[2]
+        STEP, JUMP = keep_step
+        stood = {}
+        for ix, iz, h in reach:
+            stood.setdefault((ix, iz), set()).add(h)
+        # `drop_every_ramp` keeps the old rule (every slab-cut brush that rises that far, walked or
+        # not, walls and arches too) for a map whose document is too big for the wire with them:
+        # the mall's arches are 349 boxes and 1% of its drawn area, and took it past WIRE_LIMIT.
+        every = spec.get("drop_every_ramp", False)
+        walked = set()
+        for b in boxes:
+            if b.get("_rise", 0) < spec["drop_ramps"] or b["_brush"] in walked:
+                continue
+            if every:
+                walked.add(b["_brush"])
+                continue
+            if not b["_walkable"]:
+                continue
+            top = b["at"][1] + b["size"][1] / 2
+            x0, x1 = b["at"][0] - b["size"][0] / 2, b["at"][0] + b["size"][0] / 2
+            z0, z1 = b["at"][2] - b["size"][2] / 2, b["at"][2] + b["size"][2] / 2
+            r = math.hypot(b["size"][0], b["size"][2]) / 2 if b.get("yaw") else 0.0
+            if any(abs(h - top) <= 0.05 and inside_box(b, (ix + 0.5) * CELL, (iz + 0.5) * CELL)
+                   for ix in range(int(math.floor((x0 - r) / CELL)), int(math.floor((x1 + r) / CELL)) + 1)
+                   for iz in range(int(math.floor((z0 - r) / CELL)), int(math.floor((z1 + r) / CELL)) + 1)
+                   for h in stood.get((ix, iz), ())):
+                walked.add(b["_brush"])
+        gone = [b for b in boxes if b.get("_brush") in walked]
+        boxes[:] = [b for b in boxes if b.get("_brush") not in walked]
+        print("  dropped %d slab(s) of %d ramp(s) rising %.1f m or more%s" % (len(gone), len(walked), spec["drop_ramps"], "" if every else " that a survivor walks onto"))
     for g in spec.get("extra_gates", []):
         gate_cands.append((dict(g), [dict(b) for b in g["boxes"]]))
 

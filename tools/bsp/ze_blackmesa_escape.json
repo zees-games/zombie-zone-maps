@@ -2,6 +2,8 @@
   "id": "ze_blackmesa_escape",
   "name": "Black Mesa Escape",
   "source": "ze_blackmesa_escape_final.bsp",
+  "min_coverage": 0.65,
+  "min_coverage_why": "a quarter of the drawn area is displacement terrain, which is a stepped field, not boxes",
   "author": "Bill Smauz",
   "page": "https://gamebanana.com/mods/130645",
   "licence": "CC BY-NC-ND 4.0",

@@ -2,6 +2,8 @@
   "id": "ze_boat_escape",
   "name": "Boat Escape",
   "source": "ze_boat_escape_7_b1.bsp",
+  "min_coverage": 0.4,
+  "min_coverage_why": "half the drawn area is the sea, which is water, not boxes",
   "author": "Kaju, with JJ45 (original author of the map it is built on)",
   "page": "https://gamebanana.com/mods/130653",
   "licence": "CC BY-NC-ND 4.0",

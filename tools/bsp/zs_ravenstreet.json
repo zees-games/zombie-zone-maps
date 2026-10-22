@@ -2,6 +2,8 @@
   "id": "zs_ravenstreet",
   "name": "Raven Street",
   "source": "zs_ravenstreet_v1.bsp",
+  "min_coverage": 0.65,
+  "min_coverage_why": "converted before the shared tool; its outskirts are dropped as distant scenery (drop_decor)",
   "author": "Didixo",
   "page": "https://gamebanana.com/mods/61387",
   "licence": "CC BY-NC-ND 4.0",

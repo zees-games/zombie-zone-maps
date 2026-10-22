@@ -2,6 +2,8 @@
   "id": "ze_jurassicpark",
   "name": "Jurassic Park",
   "source": "ze_jurassicpark_v2.bsp",
+  "min_coverage": 0.7,
+  "min_coverage_why": "40% of the drawn area is displacement terrain, which is a stepped field, not boxes",
   "author": "Butterknife",
   "page": "https://gamebanana.com/mods/130821",
   "licence": "CC BY-NC-ND 4.0",
