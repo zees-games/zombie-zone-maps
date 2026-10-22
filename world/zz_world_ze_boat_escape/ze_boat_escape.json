@@ -1,17 +1,17 @@
 {
  "bin": {
-  "bytes": 641096,
+  "bytes": 779236,
   "compression": "gzip",
   "file": "ze_boat_escape.bin",
-  "sha256": "bb6f1595209e11040b213e0bac307220770c08a1aa390fc28709030a79250e9a",
-  "stored_bytes": 130905
+  "sha256": "643e02f9cf95ace467783998f015e62291f7173a5403f5ab9124b86bd7638b1e",
+  "stored_bytes": 165291
  },
  "counts": {
-  "hulls": 0,
-  "models": 21,
-  "surfaces": 980,
-  "triangles": 10414,
-  "vertices": 16129
+  "hulls": 12,
+  "models": 41,
+  "surfaces": 1001,
+  "triangles": 12675,
+  "vertices": 19526
  },
  "credit": {
   "author": "Kaju, with JJ45 (original author of the map it is built on)",
@@ -19,8 +19,6308 @@
   "note": "Geometry converted from the original map with credit; its textures and models are not used. Removed on the author's request.",
   "page": "https://gamebanana.com/mods/130653"
  },
+ "destinations": {
+  "gora": {
+   "at": [
+    -139.619,
+    10.0775,
+    245.8403
+   ],
+   "yaw": -22.5
+  }
+ },
+ "entities": [
+  {
+   "classname": "path_track",
+   "entity": 1,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "72",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "speed": "300",
+    "target": "2_path2",
+    "targetname": "2_path1"
+   },
+   "model": null,
+   "origin": [
+    -103.4796,
+    3.6576,
+    268.4526
+   ],
+   "target": "2_path2",
+   "targetname": "2_path1",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 2,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "73",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "speed": "10",
+    "target": "2_path1",
+    "targetname": "2_path0"
+   },
+   "model": null,
+   "origin": [
+    -106.4704,
+    3.6576,
+    268.4717
+   ],
+   "target": "2_path1",
+   "targetname": "2_path0",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 3,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "74",
+    "orientationtype": "1",
+    "target": "2_path4",
+    "targetname": "2_path3"
+   },
+   "model": null,
+   "origin": [
+    111.9569,
+    3.6576,
+    268.605
+   ],
+   "target": "2_path4",
+   "targetname": "2_path3",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 4,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "75",
+    "orientationtype": "1",
+    "target": "2_path5",
+    "targetname": "2_path4"
+   },
+   "model": null,
+   "origin": [
+    110.9472,
+    3.6576,
+    188.976
+   ],
+   "target": "2_path5",
+   "targetname": "2_path4",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 5,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "76",
+    "orientationtype": "1",
+    "target": "2_path6",
+    "targetname": "2_path5"
+   },
+   "model": null,
+   "origin": [
+    110.9472,
+    3.6576,
+    123.1392
+   ],
+   "target": "2_path6",
+   "targetname": "2_path5",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 6,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "77",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "speed": "10",
+    "target": "2_path8",
+    "targetname": "2_path7"
+   },
+   "model": null,
+   "origin": [
+    56.0832,
+    3.6576,
+    123.1392
+   ],
+   "target": "2_path8",
+   "targetname": "2_path7",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 7,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "78",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "targetname": "2_path8"
+   },
+   "model": null,
+   "origin": [
+    51.2064,
+    3.6576,
+    123.1392
+   ],
+   "target": "",
+   "targetname": "2_path8",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 8,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "80",
+    "orientationtype": "1",
+    "speed": "0",
+    "target": "2_path3",
+    "targetname": "2_path2"
+   },
+   "model": null,
+   "origin": [
+    32.9184,
+    3.6576,
+    267.6144
+   ],
+   "target": "2_path3",
+   "targetname": "2_path2",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 9,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "81",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "speed": "10",
+    "target": "path1",
+    "targetname": "path0"
+   },
+   "model": null,
+   "origin": [
+    -107.8611,
+    3.6576,
+    260.1659
+   ],
+   "target": "path1",
+   "targetname": "path0",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 10,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "82",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "targetname": "path8"
+   },
+   "model": null,
+   "origin": [
+    51.2064,
+    3.6576,
+    131.6736
+   ],
+   "target": "",
+   "targetname": "path8",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 11,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "83",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "speed": "10",
+    "target": "path8",
+    "targetname": "path7"
+   },
+   "model": null,
+   "origin": [
+    56.0832,
+    3.6576,
+    131.6736
+   ],
+   "target": "path8",
+   "targetname": "path7",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 12,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "84",
+    "orientationtype": "1",
+    "target": "path5",
+    "targetname": "path4"
+   },
+   "model": null,
+   "origin": [
+    103.632,
+    3.6576,
+    181.6608
+   ],
+   "target": "path5",
+   "targetname": "path4",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 13,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "85",
+    "orientationtype": "1",
+    "target": "path6",
+    "targetname": "path5"
+   },
+   "model": null,
+   "origin": [
+    103.632,
+    3.6576,
+    130.4544
+   ],
+   "target": "path6",
+   "targetname": "path5",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 14,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "87",
+    "orientationtype": "1",
+    "target": "path4",
+    "targetname": "path3"
+   },
+   "model": null,
+   "origin": [
+    25.6032,
+    3.6576,
+    181.6608
+   ],
+   "target": "path4",
+   "targetname": "path3",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 15,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "88",
+    "orientationtype": "1",
+    "speed": "0",
+    "target": "path3",
+    "targetname": "path2"
+   },
+   "model": null,
+   "origin": [
+    25.6032,
+    3.6576,
+    259.08
+   ],
+   "target": "path3",
+   "targetname": "path2",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 16,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "89",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "speed": "290",
+    "target": "path2",
+    "targetname": "path1"
+   },
+   "model": null,
+   "origin": [
+    -104.0892,
+    3.6576,
+    260.1277
+   ],
+   "target": "path2",
+   "targetname": "path1",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_fade",
+   "entity": 54,
+   "keys": {
+    "duration": "2",
+    "hammerid": "973",
+    "holdtime": "0.5",
+    "renderamt": "255",
+    "rendercolor": "255 255 255",
+    "spawnflags": "1",
+    "targetname": "nuke_fade"
+   },
+   "model": null,
+   "origin": [
+    1.0287,
+    7.3152,
+    -73.5902
+   ],
+   "target": "",
+   "targetname": "nuke_fade",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_auto",
+   "entity": 57,
+   "keys": {
+    "hammerid": "980",
+    "spawnflags": "1"
+   },
+   "model": null,
+   "origin": [
+    0.0572,
+    7.3152,
+    -69.0753
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 64,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "79",
+    "orientationtype": "1",
+    "target": "2_path7",
+    "targetname": "2_path6"
+   },
+   "model": null,
+   "origin": [
+    87.7824,
+    3.6576,
+    121.92
+   ],
+   "target": "2_path7",
+   "targetname": "2_path6",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 141,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "16405",
+    "orientationtype": "1",
+    "radius": "0",
+    "spawnflags": "0",
+    "speed": "0",
+    "targetname": "path_track_elevator_1_2"
+   },
+   "model": null,
+   "origin": [
+    -17.4879,
+    13.5446,
+    124.6442
+   ],
+   "target": "",
+   "targetname": "path_track_elevator_1_2",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 142,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "16461",
+    "orientationtype": "1",
+    "radius": "0",
+    "spawnflags": "0",
+    "speed": "0",
+    "target": "path_track_elevator_1_2",
+    "targetname": "path_track_elevator_1_1"
+   },
+   "model": null,
+   "origin": [
+    -148.7805,
+    13.4426,
+    124.7204
+   ],
+   "target": "path_track_elevator_1_2",
+   "targetname": "path_track_elevator_1_1",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 151,
+   "keys": {
+    "attach1": "deska33",
+    "hammerid": "33135"
+   },
+   "model": null,
+   "origin": [
+    19.5644,
+    9.6393,
+    129.2352
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 152,
+   "keys": {
+    "attach1": "deska33",
+    "hammerid": "33137"
+   },
+   "model": null,
+   "origin": [
+    19.5644,
+    9.6393,
+    131.3117
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 153,
+   "keys": {
+    "attach1": "deska32",
+    "attach2": "deska33",
+    "hammerid": "33148"
+   },
+   "model": null,
+   "origin": [
+    20.2502,
+    9.6393,
+    129.2352
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 154,
+   "keys": {
+    "attach1": "deska32",
+    "attach2": "deska33",
+    "hammerid": "33153"
+   },
+   "model": null,
+   "origin": [
+    20.2502,
+    9.6393,
+    131.3117
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 155,
+   "keys": {
+    "attach1": "deska31",
+    "attach2": "deska32",
+    "hammerid": "33155"
+   },
+   "model": null,
+   "origin": [
+    20.936,
+    9.6393,
+    131.3117
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 156,
+   "keys": {
+    "attach1": "deska31",
+    "attach2": "deska32",
+    "hammerid": "33157"
+   },
+   "model": null,
+   "origin": [
+    20.936,
+    9.6393,
+    129.2352
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 157,
+   "keys": {
+    "attach1": "deska30",
+    "attach2": "deska31",
+    "hammerid": "33165"
+   },
+   "model": null,
+   "origin": [
+    21.6218,
+    9.6393,
+    129.2352
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 158,
+   "keys": {
+    "attach1": "deska30",
+    "attach2": "deska31",
+    "hammerid": "33167"
+   },
+   "model": null,
+   "origin": [
+    21.6218,
+    9.6393,
+    131.3117
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 159,
+   "keys": {
+    "attach1": "deska29",
+    "attach2": "deska30",
+    "hammerid": "33172"
+   },
+   "model": null,
+   "origin": [
+    22.3076,
+    9.6393,
+    131.3307
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 160,
+   "keys": {
+    "attach1": "deska29",
+    "attach2": "deska30",
+    "hammerid": "33174"
+   },
+   "model": null,
+   "origin": [
+    22.3076,
+    9.6393,
+    129.2352
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 161,
+   "keys": {
+    "attach1": "deska28",
+    "attach2": "deska29",
+    "hammerid": "33185"
+   },
+   "model": null,
+   "origin": [
+    22.9933,
+    9.6393,
+    131.3117
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 162,
+   "keys": {
+    "attach1": "deska28",
+    "attach2": "deska29",
+    "hammerid": "33193"
+   },
+   "model": null,
+   "origin": [
+    22.9933,
+    9.6393,
+    129.2352
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 163,
+   "keys": {
+    "attach1": "deska27",
+    "attach2": "deska28",
+    "hammerid": "33195"
+   },
+   "model": null,
+   "origin": [
+    23.6791,
+    9.6393,
+    129.2352
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 164,
+   "keys": {
+    "attach1": "deska26",
+    "attach2": "deska27",
+    "hammerid": "33197"
+   },
+   "model": null,
+   "origin": [
+    24.365,
+    9.6393,
+    129.2352
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 165,
+   "keys": {
+    "attach1": "deska27",
+    "attach2": "deska28",
+    "hammerid": "33199"
+   },
+   "model": null,
+   "origin": [
+    23.6791,
+    9.6393,
+    131.3117
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 166,
+   "keys": {
+    "attach1": "deska26",
+    "attach2": "deska27",
+    "hammerid": "33204"
+   },
+   "model": null,
+   "origin": [
+    24.365,
+    9.6393,
+    131.3117
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 167,
+   "keys": {
+    "attach1": "deska25",
+    "attach2": "deska26",
+    "hammerid": "33212"
+   },
+   "model": null,
+   "origin": [
+    25.0508,
+    9.6393,
+    131.3117
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 168,
+   "keys": {
+    "attach1": "deska25",
+    "attach2": "deska26",
+    "hammerid": "33217"
+   },
+   "model": null,
+   "origin": [
+    25.0508,
+    9.6393,
+    129.2352
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 169,
+   "keys": {
+    "attach1": "deska24",
+    "attach2": "deska25",
+    "hammerid": "33222"
+   },
+   "model": null,
+   "origin": [
+    25.7366,
+    9.6393,
+    131.3117
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 170,
+   "keys": {
+    "attach1": "deska24",
+    "attach2": "deska25",
+    "hammerid": "33224"
+   },
+   "model": null,
+   "origin": [
+    25.7366,
+    9.6393,
+    129.2352
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 171,
+   "keys": {
+    "attach1": "deska23",
+    "attach2": "deska24",
+    "hammerid": "33238"
+   },
+   "model": null,
+   "origin": [
+    26.4224,
+    9.6393,
+    129.2352
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 172,
+   "keys": {
+    "attach1": "deska23",
+    "attach2": "deska24",
+    "hammerid": "33240"
+   },
+   "model": null,
+   "origin": [
+    26.4224,
+    9.6393,
+    131.3117
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 173,
+   "keys": {
+    "attach1": "deska22",
+    "attach2": "deska23",
+    "hammerid": "33248"
+   },
+   "model": null,
+   "origin": [
+    27.1082,
+    9.6393,
+    131.3117
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 174,
+   "keys": {
+    "attach1": "deska22",
+    "attach2": "deska23",
+    "hammerid": "33250"
+   },
+   "model": null,
+   "origin": [
+    27.1082,
+    9.6393,
+    129.2352
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 175,
+   "keys": {
+    "attach1": "deska21",
+    "attach2": "deska22",
+    "hammerid": "33255"
+   },
+   "model": null,
+   "origin": [
+    27.794,
+    9.6393,
+    129.2352
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 176,
+   "keys": {
+    "attach1": "deska21",
+    "attach2": "deska22",
+    "hammerid": "33257"
+   },
+   "model": null,
+   "origin": [
+    27.794,
+    9.6393,
+    131.3117
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 177,
+   "keys": {
+    "attach1": "deska20",
+    "attach2": "deska21",
+    "hammerid": "33265"
+   },
+   "model": null,
+   "origin": [
+    28.4798,
+    9.6393,
+    131.3117
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 178,
+   "keys": {
+    "attach1": "deska18",
+    "attach2": "deska19",
+    "hammerid": "33267"
+   },
+   "model": null,
+   "origin": [
+    29.8514,
+    9.6393,
+    131.3117
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 179,
+   "keys": {
+    "attach1": "deska19",
+    "attach2": "deska20",
+    "hammerid": "33269"
+   },
+   "model": null,
+   "origin": [
+    29.1656,
+    9.6393,
+    131.3117
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 180,
+   "keys": {
+    "attach1": "deska17",
+    "attach2": "deska18",
+    "hammerid": "33292"
+   },
+   "model": null,
+   "origin": [
+    30.5372,
+    9.6393,
+    129.2352
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 181,
+   "keys": {
+    "attach1": "deska18",
+    "attach2": "deska19",
+    "hammerid": "33294"
+   },
+   "model": null,
+   "origin": [
+    29.8514,
+    9.6393,
+    129.2352
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 182,
+   "keys": {
+    "attach1": "deska19",
+    "attach2": "deska20",
+    "hammerid": "33296"
+   },
+   "model": null,
+   "origin": [
+    29.1656,
+    9.6393,
+    129.2352
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 183,
+   "keys": {
+    "attach1": "deska20",
+    "attach2": "deska21",
+    "hammerid": "33298"
+   },
+   "model": null,
+   "origin": [
+    28.4798,
+    9.6393,
+    129.2352
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 184,
+   "keys": {
+    "attach1": "deska16",
+    "attach2": "deska17",
+    "hammerid": "33303"
+   },
+   "model": null,
+   "origin": [
+    31.223,
+    9.6393,
+    129.2352
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 185,
+   "keys": {
+    "attach1": "deska15",
+    "attach2": "deska16",
+    "hammerid": "33308",
+    "targetname": "urwanie_3"
+   },
+   "model": null,
+   "origin": [
+    31.9088,
+    9.6393,
+    129.2352
+   ],
+   "target": "",
+   "targetname": "urwanie_3",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 186,
+   "keys": {
+    "attach1": "deska16",
+    "attach2": "deska17",
+    "hammerid": "33313"
+   },
+   "model": null,
+   "origin": [
+    31.223,
+    9.6393,
+    131.3117
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 187,
+   "keys": {
+    "attach1": "deska17",
+    "attach2": "deska18",
+    "hammerid": "33315"
+   },
+   "model": null,
+   "origin": [
+    30.5372,
+    9.6393,
+    131.3117
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 188,
+   "keys": {
+    "attach1": "deska15",
+    "attach2": "deska16",
+    "hammerid": "33317",
+    "targetname": "urwanie_1"
+   },
+   "model": null,
+   "origin": [
+    31.9088,
+    9.6393,
+    131.3117
+   ],
+   "target": "",
+   "targetname": "urwanie_1",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 189,
+   "keys": {
+    "attach1": "deska14",
+    "attach2": "deska15",
+    "hammerid": "33319"
+   },
+   "model": null,
+   "origin": [
+    32.5945,
+    9.6393,
+    131.3117
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 190,
+   "keys": {
+    "attach1": "deska14",
+    "attach2": "deska15",
+    "hammerid": "33330"
+   },
+   "model": null,
+   "origin": [
+    32.5945,
+    9.6393,
+    129.2352
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 191,
+   "keys": {
+    "attach1": "deska13",
+    "attach2": "deska14",
+    "hammerid": "33332"
+   },
+   "model": null,
+   "origin": [
+    33.2803,
+    9.6393,
+    129.2352
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 192,
+   "keys": {
+    "attach1": "deska12",
+    "attach2": "deska13",
+    "hammerid": "33337"
+   },
+   "model": null,
+   "origin": [
+    33.9661,
+    9.6393,
+    129.2352
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 193,
+   "keys": {
+    "attach1": "deska13",
+    "attach2": "deska14",
+    "hammerid": "33348"
+   },
+   "model": null,
+   "origin": [
+    33.2803,
+    9.6393,
+    131.3117
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 194,
+   "keys": {
+    "attach1": "deska12",
+    "attach2": "deska13",
+    "hammerid": "33350",
+    "spawnflags": "0"
+   },
+   "model": null,
+   "origin": [
+    33.9661,
+    9.6393,
+    131.3117
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 195,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "86",
+    "orientationtype": "1",
+    "target": "path7",
+    "targetname": "path6"
+   },
+   "model": null,
+   "origin": [
+    85.344,
+    3.6576,
+    131.6736
+   ],
+   "target": "path7",
+   "targetname": "path6",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_texturetoggle",
+   "entity": 207,
+   "keys": {
+    "hammerid": "44993",
+    "target": "button07",
+    "targetname": "button07textoggle"
+   },
+   "model": null,
+   "origin": [
+    -114.5667,
+    1.2759,
+    269.7671
+   ],
+   "target": "button07",
+   "targetname": "button07textoggle",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_texturetoggle",
+   "entity": 208,
+   "keys": {
+    "hammerid": "44995",
+    "target": "button04",
+    "targetname": "button04textoggle"
+   },
+   "model": null,
+   "origin": [
+    -114.5667,
+    1.5807,
+    269.7671
+   ],
+   "target": "button04",
+   "targetname": "button04textoggle",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_texturetoggle",
+   "entity": 209,
+   "keys": {
+    "hammerid": "44997",
+    "target": "button01",
+    "targetname": "button01textoggle"
+   },
+   "model": null,
+   "origin": [
+    -114.5667,
+    1.8855,
+    269.7671
+   ],
+   "target": "button01",
+   "targetname": "button01textoggle",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_texturetoggle",
+   "entity": 210,
+   "keys": {
+    "hammerid": "44999",
+    "target": "button02",
+    "targetname": "button02textoggle"
+   },
+   "model": null,
+   "origin": [
+    -114.5667,
+    1.8855,
+    269.4623
+   ],
+   "target": "button02",
+   "targetname": "button02textoggle",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_texturetoggle",
+   "entity": 211,
+   "keys": {
+    "hammerid": "45001",
+    "target": "button03",
+    "targetname": "button03textoggle"
+   },
+   "model": null,
+   "origin": [
+    -114.5667,
+    1.8855,
+    269.1575
+   ],
+   "target": "button03",
+   "targetname": "button03textoggle",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_texturetoggle",
+   "entity": 212,
+   "keys": {
+    "hammerid": "45003",
+    "target": "button06",
+    "targetname": "button06textoggle"
+   },
+   "model": null,
+   "origin": [
+    -114.5667,
+    1.5807,
+    269.1575
+   ],
+   "target": "button06",
+   "targetname": "button06textoggle",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_texturetoggle",
+   "entity": 213,
+   "keys": {
+    "hammerid": "45005",
+    "target": "button05",
+    "targetname": "button05textoggle"
+   },
+   "model": null,
+   "origin": [
+    -114.5667,
+    1.5807,
+    269.4623
+   ],
+   "target": "button05",
+   "targetname": "button05textoggle",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_texturetoggle",
+   "entity": 214,
+   "keys": {
+    "hammerid": "45007",
+    "target": "button08",
+    "targetname": "button08textoggle"
+   },
+   "model": null,
+   "origin": [
+    -114.5667,
+    1.2759,
+    269.4623
+   ],
+   "target": "button08",
+   "targetname": "button08textoggle",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_texturetoggle",
+   "entity": 215,
+   "keys": {
+    "hammerid": "45009",
+    "target": "button09",
+    "targetname": "button09textoggle"
+   },
+   "model": null,
+   "origin": [
+    -114.5667,
+    1.2759,
+    269.1575
+   ],
+   "target": "button09",
+   "targetname": "button09textoggle",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_screenoverlay",
+   "entity": 218,
+   "keys": {
+    "OverlayName1": "effects/button_overlay",
+    "OverlayTime1": "1.0",
+    "OverlayTime10": "1.0",
+    "OverlayTime2": "1.0",
+    "OverlayTime3": "1.0",
+    "OverlayTime4": "1.0",
+    "OverlayTime5": "1.0",
+    "OverlayTime6": "1.0",
+    "OverlayTime7": "1.0",
+    "OverlayTime8": "1.0",
+    "OverlayTime9": "1.0",
+    "hammerid": "45017",
+    "targetname": "screenoverlay"
+   },
+   "model": null,
+   "origin": [
+    -114.4905,
+    0.5139,
+    269.6909
+   ],
+   "target": "",
+   "targetname": "screenoverlay",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_branch",
+   "entity": 222,
+   "keys": {
+    "hammerid": "45027",
+    "targetname": "logic_branch01"
+   },
+   "model": null,
+   "origin": [
+    -114.5667,
+    1.6188,
+    268.6241
+   ],
+   "target": "",
+   "targetname": "logic_branch01",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_branch",
+   "entity": 223,
+   "keys": {
+    "hammerid": "45029",
+    "targetname": "logic_branch02"
+   },
+   "model": null,
+   "origin": [
+    -114.5667,
+    1.314,
+    268.6241
+   ],
+   "target": "",
+   "targetname": "logic_branch02",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_branch",
+   "entity": 224,
+   "keys": {
+    "hammerid": "45031",
+    "targetname": "logic_branch03"
+   },
+   "model": null,
+   "origin": [
+    -114.5667,
+    1.0092,
+    268.6241
+   ],
+   "target": "",
+   "targetname": "logic_branch03",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_relay",
+   "entity": 225,
+   "keys": {
+    "hammerid": "45033",
+    "spawnflags": "0",
+    "targetname": "wrong"
+   },
+   "model": null,
+   "origin": [
+    -114.5477,
+    0.7044,
+    268.6241
+   ],
+   "target": "",
+   "targetname": "wrong",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_thruster",
+   "entity": 251,
+   "keys": {
+    "angles": "0 0 0",
+    "attach1": "schoolbusssssssssssssssheli1",
+    "force": "800",
+    "hammerid": "48382",
+    "spawnflags": "30",
+    "targetname": "schoolbusssssssssssssssheli_thruster_forward"
+   },
+   "model": null,
+   "origin": [
+    -129.003,
+    10.8204,
+    234.2674
+   ],
+   "target": "",
+   "targetname": "schoolbusssssssssssssssheli_thruster_forward",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_compare",
+   "entity": 255,
+   "keys": {
+    "hammerid": "48393",
+    "targetname": "schoolbusssssssssssssssplane1_compareY"
+   },
+   "model": null,
+   "origin": [
+    -134.1274,
+    10.0203,
+    231.8404
+   ],
+   "target": "",
+   "targetname": "schoolbusssssssssssssssplane1_compareY",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_compare",
+   "entity": 256,
+   "keys": {
+    "hammerid": "48395",
+    "targetname": "schoolbusssssssssssssssplane1_compareX"
+   },
+   "model": null,
+   "origin": [
+    -133.4203,
+    10.1537,
+    232.4519
+   ],
+   "target": "",
+   "targetname": "schoolbusssssssssssssssplane1_compareX",
+   "treatment": "data"
+  },
+  {
+   "classname": "game_ui",
+   "entity": 257,
+   "keys": {
+    "FieldOfView": "-1.0",
+    "XAxis": "schoolbusssssssssssssssplane1_compareX,SetValueCompare,,0,-1",
+    "YAxis": "schoolbusssssssssssssssplane1_compareY,SetValueCompare,,0,-1",
+    "hammerid": "48397",
+    "spawnflags": "480",
+    "targetname": "schoolbusssssssssssssssplane1_ui"
+   },
+   "model": null,
+   "origin": [
+    -134.3347,
+    10.1537,
+    232.4519
+   ],
+   "target": "",
+   "targetname": "schoolbusssssssssssssssplane1_ui",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_keepupright",
+   "entity": 258,
+   "keys": {
+    "angles": "0 0 0",
+    "angularlimit": "400",
+    "attach1": "schoolbusssssssssssssssheli1",
+    "hammerid": "48399",
+    "spawnflags": "1"
+   },
+   "model": null,
+   "origin": [
+    -133.1368,
+    9.9632,
+    234.2807
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_thruster",
+   "entity": 260,
+   "keys": {
+    "angles": "0 270 0",
+    "attach1": "schoolbusssssssssssssssheli1",
+    "force": "200",
+    "hammerid": "48413",
+    "spawnflags": "30",
+    "targetname": "schoolbusssssssssssssssheli_thruster_right"
+   },
+   "model": null,
+   "origin": [
+    -129.3078,
+    10.8204,
+    234.877
+   ],
+   "target": "",
+   "targetname": "schoolbusssssssssssssssheli_thruster_right",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_thruster",
+   "entity": 261,
+   "keys": {
+    "angles": "0 90 0",
+    "attach1": "schoolbusssssssssssssssheli1",
+    "force": "200",
+    "hammerid": "48415",
+    "spawnflags": "30",
+    "targetname": "schoolbusssssssssssssssheli_thruster_left"
+   },
+   "model": null,
+   "origin": [
+    -129.3078,
+    10.8204,
+    233.6578
+   ],
+   "target": "",
+   "targetname": "schoolbusssssssssssssssheli_thruster_left",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_thruster",
+   "entity": 263,
+   "keys": {
+    "angles": "0 180 0",
+    "attach1": "schoolbusssssssssssssssheli1",
+    "force": "700",
+    "hammerid": "48420",
+    "spawnflags": "30",
+    "targetname": "schoolbusssssssssssssssheli_thruster_backward"
+   },
+   "model": null,
+   "origin": [
+    -137.0611,
+    10.3632,
+    234.2864
+   ],
+   "target": "",
+   "targetname": "schoolbusssssssssssssssheli_thruster_backward",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 283,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "61794",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "speed": "350",
+    "target": "path2_1",
+    "targetname": "path2_0"
+   },
+   "model": null,
+   "origin": [
+    14.8971,
+    4.0386,
+    104.8893
+   ],
+   "target": "path2_1",
+   "targetname": "path2_0",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 284,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "61797",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "path2_2",
+    "targetname": "path2_1"
+   },
+   "model": null,
+   "origin": [
+    34.1566,
+    4.0386,
+    104.9464
+   ],
+   "target": "path2_2",
+   "targetname": "path2_1",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 285,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "61800",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "path2_3",
+    "targetname": "path2_2"
+   },
+   "model": null,
+   "origin": [
+    48.2727,
+    4.0386,
+    85.2488
+   ],
+   "target": "path2_3",
+   "targetname": "path2_2",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 286,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "61803",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "path2_4",
+    "targetname": "path2_3"
+   },
+   "model": null,
+   "origin": [
+    47.5488,
+    4.0386,
+    65.3987
+   ],
+   "target": "path2_4",
+   "targetname": "path2_3",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 287,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "61806",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "path2_5",
+    "targetname": "path2_4"
+   },
+   "model": null,
+   "origin": [
+    34.5376,
+    4.0386,
+    -6.6675
+   ],
+   "target": "path2_5",
+   "targetname": "path2_4",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 288,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "61809",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "targetname": "path2_5"
+   },
+   "model": null,
+   "origin": [
+    24.1935,
+    4.0386,
+    -67.3037
+   ],
+   "target": "",
+   "targetname": "path2_5",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 293,
+   "keys": {
+    "angles": "0 270 0",
+    "hammerid": "65343",
+    "orientationtype": "1",
+    "radius": "0",
+    "spawnflags": "2",
+    "speed": "0",
+    "target": "heli path 2",
+    "targetname": "heli start"
+   },
+   "model": null,
+   "origin": [
+    5.5939,
+    11.9384,
+    105.6088
+   ],
+   "target": "heli path 2",
+   "targetname": "heli start",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 294,
+   "keys": {
+    "angles": "0 270 0",
+    "hammerid": "65346",
+    "orientationtype": "0",
+    "spawnflags": "2",
+    "speed": "400",
+    "target": "heli path 3",
+    "targetname": "heli path 2"
+   },
+   "model": null,
+   "origin": [
+    5.6388,
+    14.6397,
+    105.6088
+   ],
+   "target": "heli path 3",
+   "targetname": "heli path 2",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 295,
+   "keys": {
+    "angles": "0 270 0",
+    "hammerid": "65349",
+    "orientationtype": "0",
+    "spawnflags": "2",
+    "speed": "0",
+    "target": "heli path 4",
+    "targetname": "heli path 3"
+   },
+   "model": null,
+   "origin": [
+    5.3215,
+    14.9543,
+    72.4096
+   ],
+   "target": "heli path 4",
+   "targetname": "heli path 3",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 296,
+   "keys": {
+    "angles": "0 270 0",
+    "hammerid": "65352",
+    "orientationtype": "0",
+    "spawnflags": "2",
+    "speed": "250",
+    "target": "heli path 5",
+    "targetname": "heli path 4"
+   },
+   "model": null,
+   "origin": [
+    5.4454,
+    14.9543,
+    -64.2326
+   ],
+   "target": "heli path 5",
+   "targetname": "heli path 4",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 297,
+   "keys": {
+    "angles": "0 270 0",
+    "hammerid": "65355",
+    "orientationtype": "0",
+    "spawnflags": "10",
+    "speed": "80",
+    "targetname": "heli path 5"
+   },
+   "model": null,
+   "origin": [
+    5.4864,
+    13.2779,
+    -64.1985
+   ],
+   "target": "",
+   "targetname": "heli path 5",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 337,
+   "keys": {
+    "attach1": "deska31",
+    "attach2": "deska32",
+    "hammerid": "72346"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    272.8112
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 338,
+   "keys": {
+    "attach1": "deska31",
+    "attach2": "deska32",
+    "hammerid": "72351"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    272.8151
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 339,
+   "keys": {
+    "attach1": "deska30",
+    "attach2": "deska31",
+    "hammerid": "72356"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    272.1293
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 340,
+   "keys": {
+    "attach1": "deska30",
+    "attach2": "deska31",
+    "hammerid": "72358"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    272.1293
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 341,
+   "keys": {
+    "attach1": "deska29",
+    "attach2": "deska30",
+    "hammerid": "72390"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    271.4435
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 342,
+   "keys": {
+    "attach1": "deska28",
+    "attach2": "deska29",
+    "hammerid": "72395"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    270.7577
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 343,
+   "keys": {
+    "attach1": "deska29",
+    "attach2": "deska30",
+    "hammerid": "72397"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    271.4435
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 344,
+   "keys": {
+    "attach1": "deska28",
+    "attach2": "deska29",
+    "hammerid": "72399"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    270.7577
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 345,
+   "keys": {
+    "attach1": "deska27",
+    "attach2": "deska28",
+    "hammerid": "72404"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    270.0719
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 346,
+   "keys": {
+    "attach1": "deska27",
+    "attach2": "deska28",
+    "hammerid": "72406"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    270.0719
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 347,
+   "keys": {
+    "attach1": "deska26",
+    "attach2": "deska27",
+    "hammerid": "72411"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    269.3861
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 348,
+   "keys": {
+    "attach1": "deska26",
+    "attach2": "deska27",
+    "hammerid": "72413"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    269.3861
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 349,
+   "keys": {
+    "attach1": "deska25",
+    "attach2": "deska26",
+    "hammerid": "72415"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    268.7003
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 350,
+   "keys": {
+    "attach1": "deska25",
+    "attach2": "deska26",
+    "hammerid": "72417"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    268.7003
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 351,
+   "keys": {
+    "attach1": "deska24",
+    "attach2": "deska25",
+    "hammerid": "72425"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    268.0145
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 352,
+   "keys": {
+    "attach1": "deska23",
+    "attach2": "deska24",
+    "hammerid": "72427"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    267.3287
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 353,
+   "keys": {
+    "attach1": "deska22",
+    "attach2": "deska23",
+    "hammerid": "72432"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    266.6429
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 354,
+   "keys": {
+    "attach1": "deska22",
+    "attach2": "deska23",
+    "hammerid": "72437"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    266.6429
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 355,
+   "keys": {
+    "attach1": "deska23",
+    "attach2": "deska24",
+    "hammerid": "72439"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    267.3287
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 356,
+   "keys": {
+    "attach1": "deska24",
+    "attach2": "deska25",
+    "hammerid": "72441"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    268.0145
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 357,
+   "keys": {
+    "attach1": "deska21",
+    "attach2": "deska22",
+    "hammerid": "72443"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    265.9571
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 358,
+   "keys": {
+    "attach1": "deska21",
+    "attach2": "deska22",
+    "hammerid": "72451"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    265.9571
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 359,
+   "keys": {
+    "attach1": "deska20",
+    "attach2": "deska21",
+    "hammerid": "72456"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    265.2713
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 360,
+   "keys": {
+    "attach1": "deska20",
+    "attach2": "deska21",
+    "hammerid": "72461"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    265.2713
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 361,
+   "keys": {
+    "attach1": "deska19",
+    "attach2": "deska20",
+    "hammerid": "72466"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    264.5855
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 362,
+   "keys": {
+    "attach1": "deska19",
+    "attach2": "deska20",
+    "hammerid": "72471"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    264.5855
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 363,
+   "keys": {
+    "attach1": "deska18",
+    "attach2": "deska19",
+    "hammerid": "72482"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    263.8997
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 364,
+   "keys": {
+    "attach1": "deska18",
+    "attach2": "deska19",
+    "hammerid": "72484"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    263.8997
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 365,
+   "keys": {
+    "attach1": "deska17",
+    "attach2": "deska18",
+    "hammerid": "72486"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    263.2139
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 366,
+   "keys": {
+    "attach1": "deska17",
+    "attach2": "deska18",
+    "hammerid": "72491"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    263.2139
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 367,
+   "keys": {
+    "attach1": "deska16",
+    "attach2": "deska17",
+    "hammerid": "72496"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    262.5281
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 368,
+   "keys": {
+    "attach1": "deska16",
+    "attach2": "deska17",
+    "hammerid": "72501"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    262.5281
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 369,
+   "keys": {
+    "attach1": "deska15",
+    "attach2": "deska16",
+    "hammerid": "72506",
+    "targetname": "urwanie_1"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    261.8423
+   ],
+   "target": "",
+   "targetname": "urwanie_1",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 370,
+   "keys": {
+    "attach1": "deska15",
+    "attach2": "deska16",
+    "hammerid": "72508",
+    "targetname": "urwanie_3"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    261.8423
+   ],
+   "target": "",
+   "targetname": "urwanie_3",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 371,
+   "keys": {
+    "attach1": "deska14",
+    "attach2": "deska15",
+    "hammerid": "72519"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    261.1565
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 372,
+   "keys": {
+    "attach1": "deska14",
+    "attach2": "deska15",
+    "hammerid": "72524"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    261.1565
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 373,
+   "keys": {
+    "attach1": "deska13",
+    "attach2": "deska14",
+    "hammerid": "72529"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    260.4707
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 374,
+   "keys": {
+    "attach1": "deska13",
+    "attach2": "deska14",
+    "hammerid": "72531"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    260.4707
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 375,
+   "keys": {
+    "attach1": "deska12",
+    "attach2": "deska13",
+    "hammerid": "72533"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    259.7849
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 376,
+   "keys": {
+    "attach1": "deska12",
+    "attach2": "deska13",
+    "hammerid": "72535"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    259.7849
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 377,
+   "keys": {
+    "attach1": "deska11",
+    "attach2": "deska12",
+    "hammerid": "72555"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    259.0991
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 378,
+   "keys": {
+    "attach1": "deska11",
+    "attach2": "deska12",
+    "hammerid": "72560"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    259.0991
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 379,
+   "keys": {
+    "attach1": "deska10",
+    "attach2": "deska11",
+    "hammerid": "72562"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    258.4133
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 380,
+   "keys": {
+    "attach1": "deska10",
+    "attach2": "deska11",
+    "hammerid": "72564"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    258.4133
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 381,
+   "keys": {
+    "attach1": "deska9",
+    "attach2": "deska10",
+    "hammerid": "72566"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    257.7275
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 382,
+   "keys": {
+    "attach1": "deska9",
+    "attach2": "deska10",
+    "hammerid": "72574"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    257.7275
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 383,
+   "keys": {
+    "attach1": "deska8",
+    "attach2": "deska9",
+    "hammerid": "72576"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    257.0417
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 384,
+   "keys": {
+    "attach1": "deska8",
+    "attach2": "deska9",
+    "hammerid": "72584"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    257.0417
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 385,
+   "keys": {
+    "attach1": "deska7",
+    "attach2": "deska8",
+    "hammerid": "72589"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    256.3559
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 386,
+   "keys": {
+    "attach1": "deska7",
+    "attach2": "deska8",
+    "hammerid": "72591"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    256.3559
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 387,
+   "keys": {
+    "attach1": "deska6",
+    "attach2": "deska7",
+    "hammerid": "72599"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    255.6701
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 388,
+   "keys": {
+    "attach1": "deska6",
+    "attach2": "deska7",
+    "hammerid": "72601"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    255.6701
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 389,
+   "keys": {
+    "attach1": "deska5",
+    "attach2": "deska6",
+    "hammerid": "72609"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    254.9843
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 390,
+   "keys": {
+    "attach1": "deska5",
+    "attach2": "deska6",
+    "hammerid": "72614"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    254.9843
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 391,
+   "keys": {
+    "attach1": "deska4",
+    "attach2": "deska5",
+    "hammerid": "72616"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    254.2985
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 392,
+   "keys": {
+    "attach1": "deska4",
+    "attach2": "deska5",
+    "hammerid": "72624"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    254.2985
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 393,
+   "keys": {
+    "attach1": "deska3",
+    "attach2": "deska4",
+    "hammerid": "72626"
+   },
+   "model": null,
+   "origin": [
+    16.7449,
+    9.7346,
+    253.6127
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 394,
+   "keys": {
+    "attach1": "deska3",
+    "attach2": "deska4",
+    "hammerid": "72631"
+   },
+   "model": null,
+   "origin": [
+    18.8214,
+    9.7346,
+    253.6127
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  }
+ ],
  "format": "dot-bsp-mesh",
- "hulls": [],
+ "hulls": [
+  {
+   "brush": 397,
+   "entity": 140,
+   "kind": "solid",
+   "model": 13,
+   "plane_count": 6,
+   "plane_offset": 777028,
+   "point_count": 8,
+   "point_offset": 776932
+  },
+  {
+   "brush": 398,
+   "entity": 140,
+   "kind": "solid",
+   "model": 13,
+   "plane_count": 6,
+   "plane_offset": 777220,
+   "point_count": 8,
+   "point_offset": 777124
+  },
+  {
+   "brush": 399,
+   "entity": 140,
+   "kind": "solid",
+   "model": 13,
+   "plane_count": 6,
+   "plane_offset": 777412,
+   "point_count": 8,
+   "point_offset": 777316
+  },
+  {
+   "brush": 400,
+   "entity": 140,
+   "kind": "solid",
+   "model": 13,
+   "plane_count": 6,
+   "plane_offset": 777604,
+   "point_count": 8,
+   "point_offset": 777508
+  },
+  {
+   "brush": 401,
+   "entity": 140,
+   "kind": "solid",
+   "model": 13,
+   "plane_count": 6,
+   "plane_offset": 777796,
+   "point_count": 8,
+   "point_offset": 777700
+  },
+  {
+   "brush": 402,
+   "entity": 140,
+   "kind": "solid",
+   "model": 13,
+   "plane_count": 6,
+   "plane_offset": 777988,
+   "point_count": 8,
+   "point_offset": 777892
+  },
+  {
+   "brush": 403,
+   "entity": 140,
+   "kind": "solid",
+   "model": 13,
+   "plane_count": 6,
+   "plane_offset": 778180,
+   "point_count": 8,
+   "point_offset": 778084
+  },
+  {
+   "brush": 404,
+   "entity": 140,
+   "kind": "solid",
+   "model": 13,
+   "plane_count": 6,
+   "plane_offset": 778372,
+   "point_count": 8,
+   "point_offset": 778276
+  },
+  {
+   "brush": 405,
+   "entity": 140,
+   "kind": "solid",
+   "model": 13,
+   "plane_count": 6,
+   "plane_offset": 778564,
+   "point_count": 8,
+   "point_offset": 778468
+  },
+  {
+   "brush": 406,
+   "entity": 140,
+   "kind": "solid",
+   "model": 13,
+   "plane_count": 6,
+   "plane_offset": 778756,
+   "point_count": 8,
+   "point_offset": 778660
+  },
+  {
+   "brush": 407,
+   "entity": 140,
+   "kind": "solid",
+   "model": 13,
+   "plane_count": 6,
+   "plane_offset": 778948,
+   "point_count": 8,
+   "point_offset": 778852
+  },
+  {
+   "brush": 408,
+   "entity": 140,
+   "kind": "solid",
+   "model": 13,
+   "plane_count": 6,
+   "plane_offset": 779140,
+   "point_count": 8,
+   "point_offset": 779044
+  }
+ ],
+ "links": [
+  {
+   "delay": 0.0,
+   "from": 1,
+   "from_class": "path_track",
+   "from_name": "2_path1",
+   "input": "Command",
+   "output": "OnPass",
+   "param": "say **** 2 LODZ STARTUJE ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 1,
+   "from_class": "path_track",
+   "from_name": "2_path1",
+   "input": "Command",
+   "output": "OnPass",
+   "param": "say **** BOAT 2 LEAVING ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 6,
+   "from_class": "path_track",
+   "from_name": "2_path7",
+   "input": "Command",
+   "output": "OnPass",
+   "param": "say **** LODZIE DOTARLY ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 6,
+   "from_class": "path_track",
+   "from_name": "2_path7",
+   "input": "Command",
+   "output": "OnPass",
+   "param": "say **** BOATS ARRIVED ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 16,
+   "from_class": "path_track",
+   "from_name": "path1",
+   "input": "Command",
+   "output": "OnPass",
+   "param": "say **** 1 LODZ STARTUJE ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 16,
+   "from_class": "path_track",
+   "from_name": "path1",
+   "input": "Command",
+   "output": "OnPass",
+   "param": "say **** 1 BOAT LEAVING ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 5.0,
+   "from": 56,
+   "from_class": "trigger_multiple",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnTrigger",
+   "param": "say **** NADCHODZI NUKE ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 12.0,
+   "from": 56,
+   "from_class": "trigger_multiple",
+   "from_name": "",
+   "input": "Enable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "nuke_hurt",
+   "times": -1,
+   "to": [
+    146
+   ]
+  },
+  {
+   "delay": 14.0,
+   "from": 56,
+   "from_class": "trigger_multiple",
+   "from_name": "",
+   "input": "Disable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "nuke_hurt",
+   "times": -1,
+   "to": [
+    146
+   ]
+  },
+  {
+   "delay": 12.0,
+   "from": 56,
+   "from_class": "trigger_multiple",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "nuke_sound",
+   "times": -1,
+   "to": [
+    53
+   ]
+  },
+  {
+   "delay": 12.0,
+   "from": 56,
+   "from_class": "trigger_multiple",
+   "from_name": "",
+   "input": "Fade",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "nuke_fade",
+   "times": -1,
+   "to": [
+    54
+   ]
+  },
+  {
+   "delay": 5.0,
+   "from": 56,
+   "from_class": "trigger_multiple",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnTrigger",
+   "param": "say **** NUKE IS COMING ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 57,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "Stop",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "huey",
+   "times": -1,
+   "to": []
+  },
+  {
+   "delay": 0.0,
+   "from": 62,
+   "from_class": "func_buyzone",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnUser1",
+   "param": "mp_flashlight 0",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 64,
+   "from_class": "path_track",
+   "from_name": "2_path6",
+   "input": "Break",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "rock_wall",
+   "times": -1,
+   "to": []
+  },
+  {
+   "delay": 35.0,
+   "from": 139,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "StartForward",
+   "output": "OnStartTouch",
+   "param": "",
+   "special": false,
+   "target": "func_tanktrain_elevator_1",
+   "times": -1,
+   "to": [
+    140
+   ]
+  },
+  {
+   "delay": 10.0,
+   "from": 139,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnStartTouch",
+   "param": "say **** WINDA STARTUJE ZA 20 SEC ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 20.0,
+   "from": 139,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnStartTouch",
+   "param": "say **** WINDA STARTUJE ZA 10 SEC ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 139,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnStartTouch",
+   "param": "say **** WINDA STARTUJE ZA 30 SEC ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 139,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnStartTouch",
+   "param": "say **** ELEVATOR LIVING IN 30 SEC ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 10.0,
+   "from": 139,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnStartTouch",
+   "param": "say **** ELEVATOR LIVING IN 20 SEC ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 20.0,
+   "from": 139,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnStartTouch",
+   "param": "say **** ELEVATOR LIVING IN 10 SEC ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 141,
+   "from_class": "path_track",
+   "from_name": "path_track_elevator_1_2",
+   "input": "Stop",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "func_tanktrain_elevator_1",
+   "times": -1,
+   "to": [
+    140
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 141,
+   "from_class": "path_track",
+   "from_name": "path_track_elevator_1_2",
+   "input": "Command",
+   "output": "OnPass",
+   "param": "say **** AWARIA WINDY ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 141,
+   "from_class": "path_track",
+   "from_name": "path_track_elevator_1_2",
+   "input": "Command",
+   "output": "OnPass",
+   "param": "say **** ELEVATOR CRASHED ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 142,
+   "from_class": "path_track",
+   "from_name": "path_track_elevator_1_1",
+   "input": "Stop",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "func_tanktrain_elevator_1",
+   "times": -1,
+   "to": [
+    140
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 148,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnStartTouch",
+   "param": "say **** WLACZ HELI I BRON SIE PRZED ZOMBIE ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 148,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnStartTouch",
+   "param": "say **** ENABLE HELI AND DEFEND YOURSELF ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 195,
+   "from_class": "path_track",
+   "from_name": "path6",
+   "input": "Break",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "rock_wall",
+   "times": -1,
+   "to": []
+  },
+  {
+   "delay": 0.0,
+   "from": 196,
+   "from_class": "func_breakable",
+   "from_name": "zombie1",
+   "input": "",
+   "output": "OnTakeDamage",
+   "param": "",
+   "special": false,
+   "target": "",
+   "times": -1,
+   "to": []
+  },
+  {
+   "delay": 0.0,
+   "from": 197,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Break",
+   "output": "OnStartTouch",
+   "param": "",
+   "special": false,
+   "target": "zombie1",
+   "times": -1,
+   "to": [
+    196
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 198,
+   "from_class": "func_breakable",
+   "from_name": "zombie2",
+   "input": "",
+   "output": "OnTakeDamage",
+   "param": "",
+   "special": false,
+   "target": "",
+   "times": -1,
+   "to": []
+  },
+  {
+   "delay": 0.0,
+   "from": 199,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Break",
+   "output": "OnStartTouch",
+   "param": "",
+   "special": false,
+   "target": "zombie2",
+   "times": -1,
+   "to": [
+    198
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 204,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnStartTouch",
+   "param": "say **** JAZDA ****",
+   "special": false,
+   "target": "command",
+   "times": 1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 204,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnStartTouch",
+   "param": "say **** GOGOGOGOGO ****",
+   "special": false,
+   "target": "command",
+   "times": 1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 120.0,
+   "from": 205,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "StartForward",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "helicopter",
+   "times": -1,
+   "to": [
+    289
+   ]
+  },
+  {
+   "delay": 10.0,
+   "from": 205,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say **** LODZ ODPLYNIE ZA 2 MIN ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 120.0,
+   "from": 205,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say **** WSIADAC DO LODZI ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 60.0,
+   "from": 205,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say **** HELI ODLECI ZA 1 MIN ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 130.0,
+   "from": 205,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "StartForward",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "boat2",
+   "times": -1,
+   "to": [
+    282
+   ]
+  },
+  {
+   "delay": 107.0,
+   "from": 205,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Open",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "heli door",
+   "times": -1,
+   "to": [
+    292
+   ]
+  },
+  {
+   "delay": 117.0,
+   "from": 205,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Close",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "heli door",
+   "times": -1,
+   "to": [
+    292
+   ]
+  },
+  {
+   "delay": 107.0,
+   "from": 205,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say **** WSIADAC DO HELI ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 70.0,
+   "from": 205,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say **** LODZ ODPLYNIE ZA 1 MIN ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 115.0,
+   "from": 205,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say **** HELI ODLATUJE ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 205,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say **** HELI ODLECI ZA 2 MIN ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 125.0,
+   "from": 205,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say **** LODZ ODPLYWA ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 205,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say **** HELI LEAVING IN 2MIN ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 10.0,
+   "from": 205,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say **** FINAL BOAT LIVING IN 2 MIN ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 60.0,
+   "from": 205,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say **** HELI LEAVIG IN 1 MIN ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 70.0,
+   "from": 205,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say **** FINAL BOAT LIVING 1 MIN ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 107.0,
+   "from": 205,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say **** HELI OPENED ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 115.0,
+   "from": 205,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say **** HELI IS LEAVING ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 120.0,
+   "from": 205,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say **** GO TO FINAL BOAT ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 125.0,
+   "from": 205,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say **** FINAL BOAT IS LEAVING ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 220,
+   "from_class": "trigger_multiple",
+   "from_name": "",
+   "input": "StartOverlays",
+   "output": "OnStartTouch",
+   "param": "",
+   "special": false,
+   "target": "screenoverlay",
+   "times": -1,
+   "to": [
+    218
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 220,
+   "from_class": "trigger_multiple",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnStartTouch",
+   "param": "crosshair 0",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 220,
+   "from_class": "trigger_multiple",
+   "from_name": "",
+   "input": "Disable",
+   "output": "OnStartTouch",
+   "param": "",
+   "special": false,
+   "target": "buttons_blokada",
+   "times": -1,
+   "to": [
+    226
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 220,
+   "from_class": "trigger_multiple",
+   "from_name": "",
+   "input": "StopOverlays",
+   "output": "OnEndTouch",
+   "param": "",
+   "special": false,
+   "target": "screenoverlay",
+   "times": -1,
+   "to": [
+    218
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 220,
+   "from_class": "trigger_multiple",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnEndTouch",
+   "param": "crosshair 1",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 220,
+   "from_class": "trigger_multiple",
+   "from_name": "",
+   "input": "Enable",
+   "output": "OnEndTouch",
+   "param": "",
+   "special": false,
+   "target": "buttons_blokada",
+   "times": -1,
+   "to": [
+    226
+   ]
+  },
+  {
+   "delay": 1.5,
+   "from": 221,
+   "from_class": "func_door",
+   "from_name": "door",
+   "input": "Close",
+   "output": "OnOpen",
+   "param": "",
+   "special": false,
+   "target": "door",
+   "times": -1,
+   "to": [
+    221
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 222,
+   "from_class": "logic_branch",
+   "from_name": "logic_branch01",
+   "input": "Trigger",
+   "output": "OnFalse",
+   "param": "",
+   "special": false,
+   "target": "wrong",
+   "times": -1,
+   "to": [
+    225
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 222,
+   "from_class": "logic_branch",
+   "from_name": "logic_branch01",
+   "input": "SetValue",
+   "output": "OnTrue",
+   "param": "1",
+   "special": false,
+   "target": "logic_branch02",
+   "times": -1,
+   "to": [
+    223
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 223,
+   "from_class": "logic_branch",
+   "from_name": "logic_branch02",
+   "input": "SetValue",
+   "output": "OnTrue",
+   "param": "1",
+   "special": false,
+   "target": "logic_branch03",
+   "times": -1,
+   "to": [
+    224
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 223,
+   "from_class": "logic_branch",
+   "from_name": "logic_branch02",
+   "input": "Trigger",
+   "output": "OnFalse",
+   "param": "",
+   "special": false,
+   "target": "wrong",
+   "times": -1,
+   "to": [
+    225
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 224,
+   "from_class": "logic_branch",
+   "from_name": "logic_branch03",
+   "input": "Unlock",
+   "output": "OnTrue",
+   "param": "",
+   "special": false,
+   "target": "door",
+   "times": -1,
+   "to": [
+    221
+   ]
+  },
+  {
+   "delay": 1.0,
+   "from": 224,
+   "from_class": "logic_branch",
+   "from_name": "logic_branch03",
+   "input": "Open",
+   "output": "OnTrue",
+   "param": "",
+   "special": false,
+   "target": "door",
+   "times": -1,
+   "to": [
+    221
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 224,
+   "from_class": "logic_branch",
+   "from_name": "logic_branch03",
+   "input": "PlaySound",
+   "output": "OnTrue",
+   "param": "",
+   "special": false,
+   "target": "correct",
+   "times": -1,
+   "to": [
+    216
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 224,
+   "from_class": "logic_branch",
+   "from_name": "logic_branch03",
+   "input": "Trigger",
+   "output": "OnFalse",
+   "param": "",
+   "special": false,
+   "target": "wrong",
+   "times": -1,
+   "to": [
+    225
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 225,
+   "from_class": "logic_relay",
+   "from_name": "wrong",
+   "input": "SetValue",
+   "output": "OnTrigger",
+   "param": "0",
+   "special": false,
+   "target": "logic_branch01",
+   "times": -1,
+   "to": [
+    222
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 225,
+   "from_class": "logic_relay",
+   "from_name": "wrong",
+   "input": "SetValue",
+   "output": "OnTrigger",
+   "param": "0",
+   "special": false,
+   "target": "logic_branch02",
+   "times": -1,
+   "to": [
+    223
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 225,
+   "from_class": "logic_relay",
+   "from_name": "wrong",
+   "input": "SetValue",
+   "output": "OnTrigger",
+   "param": "0",
+   "special": false,
+   "target": "logic_branch03",
+   "times": -1,
+   "to": [
+    224
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 227,
+   "from_class": "func_button",
+   "from_name": "button02",
+   "input": "IncrementTextureIndex",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "button02textoggle",
+   "times": -1,
+   "to": [
+    210
+   ]
+  },
+  {
+   "delay": 0.4,
+   "from": 227,
+   "from_class": "func_button",
+   "from_name": "button02",
+   "input": "IncrementTextureIndex",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "button02textoggle",
+   "times": -1,
+   "to": [
+    210
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 227,
+   "from_class": "func_button",
+   "from_name": "button02",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "buttonsound",
+   "times": -1,
+   "to": [
+    217
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 228,
+   "from_class": "func_button",
+   "from_name": "button01",
+   "input": "IncrementTextureIndex",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "button01textoggle",
+   "times": -1,
+   "to": [
+    209
+   ]
+  },
+  {
+   "delay": 0.4,
+   "from": 228,
+   "from_class": "func_button",
+   "from_name": "button01",
+   "input": "IncrementTextureIndex",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "button01textoggle",
+   "times": -1,
+   "to": [
+    209
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 228,
+   "from_class": "func_button",
+   "from_name": "button01",
+   "input": "SetValue",
+   "output": "OnPressed",
+   "param": "1",
+   "special": false,
+   "target": "logic_branch01",
+   "times": -1,
+   "to": [
+    222
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 228,
+   "from_class": "func_button",
+   "from_name": "button01",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "buttonsound",
+   "times": -1,
+   "to": [
+    217
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 229,
+   "from_class": "func_button",
+   "from_name": "button04",
+   "input": "IncrementTextureIndex",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "button04textoggle",
+   "times": -1,
+   "to": [
+    208
+   ]
+  },
+  {
+   "delay": 0.4,
+   "from": 229,
+   "from_class": "func_button",
+   "from_name": "button04",
+   "input": "IncrementTextureIndex",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "button04textoggle",
+   "times": -1,
+   "to": [
+    208
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 229,
+   "from_class": "func_button",
+   "from_name": "button04",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "buttonsound",
+   "times": -1,
+   "to": [
+    217
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 230,
+   "from_class": "func_button",
+   "from_name": "button07",
+   "input": "IncrementTextureIndex",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "button07textoggle",
+   "times": -1,
+   "to": [
+    207
+   ]
+  },
+  {
+   "delay": 0.4,
+   "from": 230,
+   "from_class": "func_button",
+   "from_name": "button07",
+   "input": "IncrementTextureIndex",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "button07textoggle",
+   "times": -1,
+   "to": [
+    207
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 230,
+   "from_class": "func_button",
+   "from_name": "button07",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "buttonsound",
+   "times": -1,
+   "to": [
+    217
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 231,
+   "from_class": "func_button",
+   "from_name": "button05",
+   "input": "IncrementTextureIndex",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "button05textoggle",
+   "times": -1,
+   "to": [
+    213
+   ]
+  },
+  {
+   "delay": 0.4,
+   "from": 231,
+   "from_class": "func_button",
+   "from_name": "button05",
+   "input": "IncrementTextureIndex",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "button05textoggle",
+   "times": -1,
+   "to": [
+    213
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 231,
+   "from_class": "func_button",
+   "from_name": "button05",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "buttonsound",
+   "times": -1,
+   "to": [
+    217
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 232,
+   "from_class": "func_button",
+   "from_name": "button03",
+   "input": "IncrementTextureIndex",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "button03textoggle",
+   "times": -1,
+   "to": [
+    211
+   ]
+  },
+  {
+   "delay": 0.4,
+   "from": 232,
+   "from_class": "func_button",
+   "from_name": "button03",
+   "input": "IncrementTextureIndex",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "button03textoggle",
+   "times": -1,
+   "to": [
+    211
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 232,
+   "from_class": "func_button",
+   "from_name": "button03",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "buttonsound",
+   "times": -1,
+   "to": [
+    217
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 233,
+   "from_class": "func_button",
+   "from_name": "button06",
+   "input": "IncrementTextureIndex",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "button06textoggle",
+   "times": -1,
+   "to": [
+    212
+   ]
+  },
+  {
+   "delay": 0.4,
+   "from": 233,
+   "from_class": "func_button",
+   "from_name": "button06",
+   "input": "IncrementTextureIndex",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "button06textoggle",
+   "times": -1,
+   "to": [
+    212
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 233,
+   "from_class": "func_button",
+   "from_name": "button06",
+   "input": "Test",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "logic_branch03",
+   "times": -1,
+   "to": [
+    224
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 233,
+   "from_class": "func_button",
+   "from_name": "button06",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "buttonsound",
+   "times": -1,
+   "to": [
+    217
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 234,
+   "from_class": "func_button",
+   "from_name": "button09",
+   "input": "IncrementTextureIndex",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "button09textoggle",
+   "times": -1,
+   "to": [
+    215
+   ]
+  },
+  {
+   "delay": 0.4,
+   "from": 234,
+   "from_class": "func_button",
+   "from_name": "button09",
+   "input": "IncrementTextureIndex",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "button09textoggle",
+   "times": -1,
+   "to": [
+    215
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 234,
+   "from_class": "func_button",
+   "from_name": "button09",
+   "input": "Test",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "logic_branch01",
+   "times": -1,
+   "to": [
+    222
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 234,
+   "from_class": "func_button",
+   "from_name": "button09",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "buttonsound",
+   "times": -1,
+   "to": [
+    217
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 235,
+   "from_class": "func_button",
+   "from_name": "button08",
+   "input": "IncrementTextureIndex",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "button08textoggle",
+   "times": -1,
+   "to": [
+    214
+   ]
+  },
+  {
+   "delay": 0.4,
+   "from": 235,
+   "from_class": "func_button",
+   "from_name": "button08",
+   "input": "IncrementTextureIndex",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "button08textoggle",
+   "times": -1,
+   "to": [
+    214
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 235,
+   "from_class": "func_button",
+   "from_name": "button08",
+   "input": "Test",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "logic_branch02",
+   "times": -1,
+   "to": [
+    223
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 235,
+   "from_class": "func_button",
+   "from_name": "button08",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "buttonsound",
+   "times": -1,
+   "to": [
+    217
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 237,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Break",
+   "output": "OnStartTouch",
+   "param": "",
+   "special": false,
+   "target": "sam",
+   "times": -1,
+   "to": [
+    236
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 237,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Break",
+   "output": "OnStartTouch",
+   "param": "",
+   "special": false,
+   "target": "sam2",
+   "times": -1,
+   "to": [
+    149
+   ]
+  },
+  {
+   "delay": 4.0,
+   "from": 247,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnStartTouch",
+   "param": "say ****  SAMOCHOD STARTUJE ****",
+   "special": false,
+   "target": "Command",
+   "times": 1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 4.0,
+   "from": 247,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnStartTouch",
+   "param": "say ****  SECRET CAR IS STARTING ****",
+   "special": false,
+   "target": "Command",
+   "times": 1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 253,
+   "from_class": "func_button",
+   "from_name": "schoolbusssssssssssssssnappula1",
+   "input": "LightOn",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "schoolbusssssssssssssssvalo1",
+   "times": -1,
+   "to": [
+    249
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 253,
+   "from_class": "func_button",
+   "from_name": "schoolbusssssssssssssssnappula1",
+   "input": "LightOn",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "schoolbusssssssssssssssvalo2",
+   "times": -1,
+   "to": [
+    250
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 253,
+   "from_class": "func_button",
+   "from_name": "schoolbusssssssssssssssnappula1",
+   "input": "Start",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "schoolbusssssssssssssssrengas1",
+   "times": -1,
+   "to": [
+    248
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 253,
+   "from_class": "func_button",
+   "from_name": "schoolbusssssssssssssssnappula1",
+   "input": "Start",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "schoolbusssssssssssssssrengas2",
+   "times": -1,
+   "to": [
+    262
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 253,
+   "from_class": "func_button",
+   "from_name": "schoolbusssssssssssssssnappula1",
+   "input": "Start",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "schoolbusssssssssssssssrengas3",
+   "times": -1,
+   "to": [
+    254
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 253,
+   "from_class": "func_button",
+   "from_name": "schoolbusssssssssssssssnappula1",
+   "input": "Start",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "schoolbusssssssssssssssrengas4",
+   "times": -1,
+   "to": [
+    264
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 253,
+   "from_class": "func_button",
+   "from_name": "schoolbusssssssssssssssnappula1",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "schoolbusssssssssssssssaani",
+   "times": -1,
+   "to": [
+    252
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 255,
+   "from_class": "logic_compare",
+   "from_name": "schoolbusssssssssssssssplane1_compareY",
+   "input": "Deactivate",
+   "output": "OnEqualTo",
+   "param": "",
+   "special": false,
+   "target": "schoolbusssssssssssssssheli_thruster_backward",
+   "times": -1,
+   "to": [
+    263
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 255,
+   "from_class": "logic_compare",
+   "from_name": "schoolbusssssssssssssssplane1_compareY",
+   "input": "Deactivate",
+   "output": "OnEqualTo",
+   "param": "",
+   "special": false,
+   "target": "schoolbusssssssssssssssheli_thruster_forward",
+   "times": -1,
+   "to": [
+    251
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 255,
+   "from_class": "logic_compare",
+   "from_name": "schoolbusssssssssssssssplane1_compareY",
+   "input": "Activate",
+   "output": "OnGreaterThan",
+   "param": "",
+   "special": false,
+   "target": "schoolbusssssssssssssssheli_thruster_forward",
+   "times": -1,
+   "to": [
+    251
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 255,
+   "from_class": "logic_compare",
+   "from_name": "schoolbusssssssssssssssplane1_compareY",
+   "input": "Deactivate",
+   "output": "OnGreaterThan",
+   "param": "",
+   "special": false,
+   "target": "schoolbusssssssssssssssheli_thruster_backward",
+   "times": -1,
+   "to": [
+    263
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 255,
+   "from_class": "logic_compare",
+   "from_name": "schoolbusssssssssssssssplane1_compareY",
+   "input": "Activate",
+   "output": "OnLessThan",
+   "param": "",
+   "special": false,
+   "target": "schoolbusssssssssssssssheli_thruster_backward",
+   "times": -1,
+   "to": [
+    263
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 255,
+   "from_class": "logic_compare",
+   "from_name": "schoolbusssssssssssssssplane1_compareY",
+   "input": "Deactivate",
+   "output": "OnLessThan",
+   "param": "",
+   "special": false,
+   "target": "schoolbusssssssssssssssheli_thruster_forward",
+   "times": -1,
+   "to": [
+    251
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 256,
+   "from_class": "logic_compare",
+   "from_name": "schoolbusssssssssssssssplane1_compareX",
+   "input": "Deactivate",
+   "output": "OnEqualTo",
+   "param": "",
+   "special": false,
+   "target": "schoolbusssssssssssssssheli_thruster_left",
+   "times": -1,
+   "to": [
+    261
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 256,
+   "from_class": "logic_compare",
+   "from_name": "schoolbusssssssssssssssplane1_compareX",
+   "input": "Deactivate",
+   "output": "OnEqualTo",
+   "param": "",
+   "special": false,
+   "target": "schoolbusssssssssssssssheli_thruster_right",
+   "times": -1,
+   "to": [
+    260
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 256,
+   "from_class": "logic_compare",
+   "from_name": "schoolbusssssssssssssssplane1_compareX",
+   "input": "Activate",
+   "output": "OnGreaterThan",
+   "param": "",
+   "special": false,
+   "target": "schoolbusssssssssssssssheli_thruster_right",
+   "times": -1,
+   "to": [
+    260
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 256,
+   "from_class": "logic_compare",
+   "from_name": "schoolbusssssssssssssssplane1_compareX",
+   "input": "Deactivate",
+   "output": "OnGreaterThan",
+   "param": "",
+   "special": false,
+   "target": "schoolbusssssssssssssssheli_thruster_left",
+   "times": -1,
+   "to": [
+    261
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 256,
+   "from_class": "logic_compare",
+   "from_name": "schoolbusssssssssssssssplane1_compareX",
+   "input": "Activate",
+   "output": "OnLessThan",
+   "param": "",
+   "special": false,
+   "target": "schoolbusssssssssssssssheli_thruster_left",
+   "times": -1,
+   "to": [
+    261
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 256,
+   "from_class": "logic_compare",
+   "from_name": "schoolbusssssssssssssssplane1_compareX",
+   "input": "Deactivate",
+   "output": "OnLessThan",
+   "param": "",
+   "special": false,
+   "target": "schoolbusssssssssssssssheli_thruster_right",
+   "times": -1,
+   "to": [
+    260
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 266,
+   "from_class": "func_button",
+   "from_name": "schoolbusssssssssssssssplane1_controls",
+   "input": "Activate",
+   "output": "OnIn",
+   "param": "",
+   "special": false,
+   "target": "schoolbusssssssssssssssplane1_ui",
+   "times": -1,
+   "to": [
+    257
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 283,
+   "from_class": "path_track",
+   "from_name": "path2_0",
+   "input": "Stop",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "boat2",
+   "times": -1,
+   "to": [
+    282
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 289,
+   "from_class": "func_tracktrain",
+   "from_name": "helicopter",
+   "input": "StopSound",
+   "output": "OnStart",
+   "param": "",
+   "special": false,
+   "target": "sound 2",
+   "times": -1,
+   "to": []
+  },
+  {
+   "delay": 0.0,
+   "from": 296,
+   "from_class": "path_track",
+   "from_name": "heli path 4",
+   "input": "Command",
+   "output": "OnPass",
+   "param": "say **** MAPA BY KAJU ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 5.0,
+   "from": 296,
+   "from_class": "path_track",
+   "from_name": "heli path 4",
+   "input": "Command",
+   "output": "OnPass",
+   "param": "say **** www.timonipumba.pl ****",
+   "special": false,
+   "target": "command",
+   "times": -1,
+   "to": [
+    55,
+    219
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 297,
+   "from_class": "path_track",
+   "from_name": "heli path 5",
+   "input": "Open",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "land thingy",
+   "times": -1,
+   "to": []
+  },
+  {
+   "delay": 0.0,
+   "from": 297,
+   "from_class": "path_track",
+   "from_name": "heli path 5",
+   "input": "Open",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "heli door",
+   "times": -1,
+   "to": [
+    292
+   ]
+  }
+ ],
+ "movers": [
+  {
+   "axis": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "classname": "func_rotating",
+   "degrees_per_second": 500.0,
+   "entity": 48,
+   "kind": "spin",
+   "maxs": [
+    11.2395,
+    3.3147,
+    259.1562
+   ],
+   "mins": [
+    10.9347,
+    2.5527,
+    258.3942
+   ],
+   "model": 1,
+   "opened_by": [],
+   "origin": [
+    12.3825,
+    2.9337,
+    258.7752
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 517,
+   "start_on": true,
+   "targetname": "",
+   "travel_time": 0.0
+  },
+  {
+   "axis": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "classname": "func_rotating",
+   "degrees_per_second": 500.0,
+   "entity": 49,
+   "kind": "spin",
+   "maxs": [
+    11.2395,
+    3.3147,
+    260.985
+   ],
+   "mins": [
+    10.9347,
+    2.5527,
+    260.223
+   ],
+   "model": 2,
+   "opened_by": [],
+   "origin": [
+    12.3825,
+    2.9337,
+    260.604
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 517,
+   "start_on": true,
+   "targetname": "",
+   "travel_time": 0.0
+  },
+  {
+   "axis": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "classname": "func_rotating",
+   "degrees_per_second": 500.0,
+   "entity": 50,
+   "kind": "spin",
+   "maxs": [
+    -3.3909,
+    3.3147,
+    259.1562
+   ],
+   "mins": [
+    -3.6957,
+    2.5527,
+    258.3942
+   ],
+   "model": 3,
+   "opened_by": [],
+   "origin": [
+    -2.2479,
+    2.9337,
+    258.7752
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 517,
+   "start_on": true,
+   "targetname": "",
+   "travel_time": 0.0
+  },
+  {
+   "axis": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "classname": "func_rotating",
+   "degrees_per_second": 500.0,
+   "entity": 51,
+   "kind": "spin",
+   "maxs": [
+    -3.3909,
+    3.3147,
+    260.985
+   ],
+   "mins": [
+    -3.6957,
+    2.5527,
+    260.223
+   ],
+   "model": 4,
+   "opened_by": [],
+   "origin": [
+    -2.2479,
+    2.9337,
+    260.604
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 517,
+   "start_on": true,
+   "targetname": "",
+   "travel_time": 0.0
+  },
+  {
+   "classname": "func_tanktrain",
+   "entity": 140,
+   "height": 0.0762,
+   "kind": "path",
+   "maxs": [
+    -146.3421,
+    17.9642,
+    126.4732
+   ],
+   "mins": [
+    -151.2189,
+    9.2774,
+    122.9677
+   ],
+   "model": 13,
+   "opened_by": [
+    {
+     "classname": "trigger_once",
+     "delay": 35.0,
+     "entity": 139,
+     "input": "StartForward",
+     "output": "OnStartTouch",
+     "targetname": ""
+    },
+    {
+     "classname": "path_track",
+     "delay": 0.0,
+     "entity": 141,
+     "input": "Stop",
+     "output": "OnPass",
+     "targetname": "path_track_elevator_1_2"
+    },
+    {
+     "classname": "path_track",
+     "delay": 0.0,
+     "entity": 142,
+     "input": "Stop",
+     "output": "OnPass",
+     "targetname": "path_track_elevator_1_1"
+    }
+   ],
+   "origin": [
+    -148.7805,
+    13.6208,
+    124.7204
+   ],
+   "outputs": [],
+   "path": [
+    {
+     "at": [
+      -148.7805,
+      13.4426,
+      124.7204
+     ],
+     "name": "path_track_elevator_1_1"
+    },
+    {
+     "at": [
+      -17.4879,
+      13.5446,
+      124.6442
+     ],
+     "name": "path_track_elevator_1_2"
+    }
+   ],
+   "solid": true,
+   "spawnflags": 659,
+   "speed": 9.525,
+   "start_speed": 9.525,
+   "targetname": "func_tanktrain_elevator_1",
+   "travel_time": 0.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 227,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -114.7001,
+    0.9711,
+    269.748
+   ],
+   "mins": [
+    -114.7191,
+    0.9139,
+    269.6909
+   ],
+   "model": 31,
+   "opened_by": [],
+   "origin": [
+    -114.7096,
+    0.9426,
+    269.7194
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "IncrementTextureIndex",
+     "output": "OnPressed",
+     "param": "",
+     "target": "button02textoggle",
+     "times": -1
+    },
+    {
+     "delay": 0.4,
+     "input": "IncrementTextureIndex",
+     "output": "OnPressed",
+     "param": "",
+     "target": "button02textoggle",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnPressed",
+     "param": "",
+     "target": "buttonsound",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1057,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "button02",
+   "toggle": true,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 1.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 228,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -114.7001,
+    0.9711,
+    269.8052
+   ],
+   "mins": [
+    -114.7191,
+    0.9139,
+    269.748
+   ],
+   "model": 32,
+   "opened_by": [],
+   "origin": [
+    -114.7096,
+    0.9426,
+    269.7766
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "IncrementTextureIndex",
+     "output": "OnPressed",
+     "param": "",
+     "target": "button01textoggle",
+     "times": -1
+    },
+    {
+     "delay": 0.4,
+     "input": "IncrementTextureIndex",
+     "output": "OnPressed",
+     "param": "",
+     "target": "button01textoggle",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "SetValue",
+     "output": "OnPressed",
+     "param": "1",
+     "target": "logic_branch01",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnPressed",
+     "param": "",
+     "target": "buttonsound",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1057,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "button01",
+   "toggle": true,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 1.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 229,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -114.7001,
+    0.9139,
+    269.8052
+   ],
+   "mins": [
+    -114.7191,
+    0.8568,
+    269.748
+   ],
+   "model": 33,
+   "opened_by": [],
+   "origin": [
+    -114.7096,
+    0.8854,
+    269.7766
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "IncrementTextureIndex",
+     "output": "OnPressed",
+     "param": "",
+     "target": "button04textoggle",
+     "times": -1
+    },
+    {
+     "delay": 0.4,
+     "input": "IncrementTextureIndex",
+     "output": "OnPressed",
+     "param": "",
+     "target": "button04textoggle",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnPressed",
+     "param": "",
+     "target": "buttonsound",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1057,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "button04",
+   "toggle": true,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 1.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 230,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -114.7001,
+    0.8568,
+    269.8052
+   ],
+   "mins": [
+    -114.7191,
+    0.7996,
+    269.748
+   ],
+   "model": 34,
+   "opened_by": [],
+   "origin": [
+    -114.7096,
+    0.8283,
+    269.7766
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "IncrementTextureIndex",
+     "output": "OnPressed",
+     "param": "",
+     "target": "button07textoggle",
+     "times": -1
+    },
+    {
+     "delay": 0.4,
+     "input": "IncrementTextureIndex",
+     "output": "OnPressed",
+     "param": "",
+     "target": "button07textoggle",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnPressed",
+     "param": "",
+     "target": "buttonsound",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1057,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "button07",
+   "toggle": true,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 1.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 231,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -114.7001,
+    0.9139,
+    269.748
+   ],
+   "mins": [
+    -114.7191,
+    0.8568,
+    269.6909
+   ],
+   "model": 35,
+   "opened_by": [],
+   "origin": [
+    -114.7096,
+    0.8854,
+    269.7194
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "IncrementTextureIndex",
+     "output": "OnPressed",
+     "param": "",
+     "target": "button05textoggle",
+     "times": -1
+    },
+    {
+     "delay": 0.4,
+     "input": "IncrementTextureIndex",
+     "output": "OnPressed",
+     "param": "",
+     "target": "button05textoggle",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnPressed",
+     "param": "",
+     "target": "buttonsound",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1057,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "button05",
+   "toggle": true,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 1.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 232,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -114.7001,
+    0.9711,
+    269.6909
+   ],
+   "mins": [
+    -114.7191,
+    0.9139,
+    269.6337
+   ],
+   "model": 36,
+   "opened_by": [],
+   "origin": [
+    -114.7096,
+    0.9426,
+    269.6623
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "IncrementTextureIndex",
+     "output": "OnPressed",
+     "param": "",
+     "target": "button03textoggle",
+     "times": -1
+    },
+    {
+     "delay": 0.4,
+     "input": "IncrementTextureIndex",
+     "output": "OnPressed",
+     "param": "",
+     "target": "button03textoggle",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnPressed",
+     "param": "",
+     "target": "buttonsound",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1057,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "button03",
+   "toggle": true,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 1.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 233,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -114.7001,
+    0.9139,
+    269.6909
+   ],
+   "mins": [
+    -114.7191,
+    0.8568,
+    269.6337
+   ],
+   "model": 37,
+   "opened_by": [],
+   "origin": [
+    -114.7096,
+    0.8854,
+    269.6623
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "IncrementTextureIndex",
+     "output": "OnPressed",
+     "param": "",
+     "target": "button06textoggle",
+     "times": -1
+    },
+    {
+     "delay": 0.4,
+     "input": "IncrementTextureIndex",
+     "output": "OnPressed",
+     "param": "",
+     "target": "button06textoggle",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "Test",
+     "output": "OnPressed",
+     "param": "",
+     "target": "logic_branch03",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnPressed",
+     "param": "",
+     "target": "buttonsound",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1057,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "button06",
+   "toggle": true,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 1.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 234,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -114.7001,
+    0.8568,
+    269.6909
+   ],
+   "mins": [
+    -114.7191,
+    0.7996,
+    269.6337
+   ],
+   "model": 38,
+   "opened_by": [],
+   "origin": [
+    -114.7096,
+    0.8283,
+    269.6623
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "IncrementTextureIndex",
+     "output": "OnPressed",
+     "param": "",
+     "target": "button09textoggle",
+     "times": -1
+    },
+    {
+     "delay": 0.4,
+     "input": "IncrementTextureIndex",
+     "output": "OnPressed",
+     "param": "",
+     "target": "button09textoggle",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "Test",
+     "output": "OnPressed",
+     "param": "",
+     "target": "logic_branch01",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnPressed",
+     "param": "",
+     "target": "buttonsound",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1057,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "button09",
+   "toggle": true,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 1.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 235,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -114.7001,
+    0.8568,
+    269.748
+   ],
+   "mins": [
+    -114.7191,
+    0.7996,
+    269.6909
+   ],
+   "model": 39,
+   "opened_by": [],
+   "origin": [
+    -114.7096,
+    0.8283,
+    269.7194
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "IncrementTextureIndex",
+     "output": "OnPressed",
+     "param": "",
+     "target": "button08textoggle",
+     "times": -1
+    },
+    {
+     "delay": 0.4,
+     "input": "IncrementTextureIndex",
+     "output": "OnPressed",
+     "param": "",
+     "target": "button08textoggle",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "Test",
+     "output": "OnPressed",
+     "param": "",
+     "target": "logic_branch02",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnPressed",
+     "param": "",
+     "target": "buttonsound",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1057,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "button08",
+   "toggle": true,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 1.0
+  },
+  {
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "classname": "func_rotating",
+   "degrees_per_second": 300.0,
+   "entity": 248,
+   "kind": "spin",
+   "maxs": [
+    -130.0698,
+    10.6871,
+    235.639
+   ],
+   "mins": [
+    -130.9843,
+    9.7725,
+    235.3913
+   ],
+   "model": 45,
+   "opened_by": [
+    {
+     "classname": "func_button",
+     "delay": 0.0,
+     "entity": 253,
+     "input": "Start",
+     "output": "OnPressed",
+     "targetname": "schoolbusssssssssssssssnappula1"
+    }
+   ],
+   "origin": [
+    -130.527,
+    10.2297,
+    235.5152
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8,
+   "start_on": false,
+   "targetname": "schoolbusssssssssssssssrengas1",
+   "travel_time": 0.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 253,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -129.4221,
+    11.4491,
+    234.2293
+   ],
+   "mins": [
+    -129.5173,
+    11.3348,
+    233.9435
+   ],
+   "model": 46,
+   "opened_by": [],
+   "origin": [
+    -129.4792,
+    11.3919,
+    234.0864
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "LightOn",
+     "output": "OnPressed",
+     "param": "",
+     "target": "schoolbusssssssssssssssvalo1",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "LightOn",
+     "output": "OnPressed",
+     "param": "",
+     "target": "schoolbusssssssssssssssvalo2",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "Start",
+     "output": "OnPressed",
+     "param": "",
+     "target": "schoolbusssssssssssssssrengas1",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "Start",
+     "output": "OnPressed",
+     "param": "",
+     "target": "schoolbusssssssssssssssrengas2",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "Start",
+     "output": "OnPressed",
+     "param": "",
+     "target": "schoolbusssssssssssssssrengas3",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "Start",
+     "output": "OnPressed",
+     "param": "",
+     "target": "schoolbusssssssssssssssrengas4",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnPressed",
+     "param": "",
+     "target": "schoolbusssssssssssssssaani",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1025,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "schoolbusssssssssssssssnappula1",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "classname": "func_rotating",
+   "degrees_per_second": 100.0,
+   "entity": 254,
+   "kind": "spin",
+   "maxs": [
+    -130.0698,
+    10.6871,
+    233.2577
+   ],
+   "mins": [
+    -130.9842,
+    9.7725,
+    233.0101
+   ],
+   "model": 47,
+   "opened_by": [
+    {
+     "classname": "func_button",
+     "delay": 0.0,
+     "entity": 253,
+     "input": "Start",
+     "output": "OnPressed",
+     "targetname": "schoolbusssssssssssssssnappula1"
+    }
+   ],
+   "origin": [
+    -130.527,
+    10.2297,
+    233.1339
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8,
+   "start_on": false,
+   "targetname": "schoolbusssssssssssssssrengas3",
+   "travel_time": 0.0
+  },
+  {
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "classname": "func_rotating",
+   "degrees_per_second": 100.0,
+   "entity": 262,
+   "kind": "spin",
+   "maxs": [
+    -135.059,
+    10.6872,
+    235.639
+   ],
+   "mins": [
+    -135.9734,
+    9.7726,
+    235.3913
+   ],
+   "model": 49,
+   "opened_by": [
+    {
+     "classname": "func_button",
+     "delay": 0.0,
+     "entity": 253,
+     "input": "Start",
+     "output": "OnPressed",
+     "targetname": "schoolbusssssssssssssssnappula1"
+    }
+   ],
+   "origin": [
+    -135.5162,
+    10.23,
+    235.5152
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8,
+   "start_on": false,
+   "targetname": "schoolbusssssssssssssssrengas2",
+   "travel_time": 0.0
+  },
+  {
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "classname": "func_rotating",
+   "degrees_per_second": 100.0,
+   "entity": 264,
+   "kind": "spin",
+   "maxs": [
+    -135.059,
+    10.6872,
+    233.2577
+   ],
+   "mins": [
+    -135.9734,
+    9.7726,
+    233.0101
+   ],
+   "model": 50,
+   "opened_by": [
+    {
+     "classname": "func_button",
+     "delay": 0.0,
+     "entity": 253,
+     "input": "Start",
+     "output": "OnPressed",
+     "targetname": "schoolbusssssssssssssssnappula1"
+    }
+   ],
+   "origin": [
+    -135.5162,
+    10.23,
+    233.1339
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8,
+   "start_on": false,
+   "targetname": "schoolbusssssssssssssssrengas4",
+   "travel_time": 0.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "func_rotating",
+   "degrees_per_second": 700.0,
+   "entity": 290,
+   "kind": "spin",
+   "maxs": [
+    10.2618,
+    14.4608,
+    108.3922
+   ],
+   "mins": [
+    0.8975,
+    13.6558,
+    99.8418
+   ],
+   "model": 55,
+   "opened_by": [],
+   "origin": [
+    5.5796,
+    14.0583,
+    104.117
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 545,
+   "start_on": true,
+   "targetname": "heli blade",
+   "travel_time": 0.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "func_rotating",
+   "degrees_per_second": 700.0,
+   "entity": 291,
+   "kind": "spin",
+   "maxs": [
+    10.3061,
+    14.7469,
+    113.0236
+   ],
+   "mins": [
+    0.9417,
+    13.9419,
+    104.4732
+   ],
+   "model": 56,
+   "opened_by": [],
+   "origin": [
+    5.6238,
+    14.3445,
+    108.7484
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 545,
+   "start_on": true,
+   "targetname": "heli blade",
+   "travel_time": 0.0
+  }
+ ],
  "name": "ze_boat_escape",
  "notes": [],
  "skipped": {
@@ -24818,6 +31118,94 @@
    "vertex_count": 4
   },
   {
+   "classname": "func_rotating",
+   "colour": [
+    0.6279,
+    0.6373,
+    0.6543
+   ],
+   "entity": 48,
+   "generic": "metal",
+   "index_count": 258,
+   "index_offset": 470944,
+   "material": "metal/metalceiling005a",
+   "model": 1,
+   "normal_offset": 467904,
+   "position_offset": 466080,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 469728,
+   "vertex_count": 152
+  },
+  {
+   "classname": "func_rotating",
+   "colour": [
+    0.6279,
+    0.6373,
+    0.6543
+   ],
+   "entity": 49,
+   "generic": "metal",
+   "index_count": 258,
+   "index_offset": 476840,
+   "material": "metal/metalceiling005a",
+   "model": 2,
+   "normal_offset": 473800,
+   "position_offset": 471976,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 475624,
+   "vertex_count": 152
+  },
+  {
+   "classname": "func_rotating",
+   "colour": [
+    0.6279,
+    0.6373,
+    0.6543
+   ],
+   "entity": 50,
+   "generic": "metal",
+   "index_count": 258,
+   "index_offset": 482736,
+   "material": "metal/metalceiling005a",
+   "model": 3,
+   "normal_offset": 479696,
+   "position_offset": 477872,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 481520,
+   "vertex_count": 152
+  },
+  {
+   "classname": "func_rotating",
+   "colour": [
+    0.6279,
+    0.6373,
+    0.6543
+   ],
+   "entity": 51,
+   "generic": "metal",
+   "index_count": 258,
+   "index_offset": 488632,
+   "material": "metal/metalceiling005a",
+   "model": 4,
+   "normal_offset": 485592,
+   "position_offset": 483768,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 487416,
+   "vertex_count": 152
+  },
+  {
    "classname": "func_tracktrain",
    "colour": [
     0.2042,
@@ -24827,17 +31215,17 @@
    "entity": 63,
    "generic": "metal",
    "index_count": 834,
-   "index_offset": 476096,
+   "index_offset": 499680,
    "material": "cs_havana/metalwall085a",
    "model": 8,
-   "normal_offset": 469836,
-   "position_offset": 466080,
+   "normal_offset": 493420,
+   "position_offset": 489664,
    "targetname": "boat",
    "texels": [
     512,
     512
    ],
-   "uv_offset": 473592,
+   "uv_offset": 497176,
    "vertex_count": 313
   },
   {
@@ -24850,17 +31238,17 @@
    "entity": 63,
    "generic": "metal",
    "index_count": 828,
-   "index_offset": 493352,
+   "index_offset": 516936,
    "material": "de_prodigy/metal02",
    "model": 8,
-   "normal_offset": 484652,
-   "position_offset": 479432,
+   "normal_offset": 508236,
+   "position_offset": 503016,
    "targetname": "boat",
    "texels": [
     512,
     512
    ],
-   "uv_offset": 489872,
+   "uv_offset": 513456,
    "vertex_count": 435
   },
   {
@@ -24873,17 +31261,17 @@
    "entity": 80,
    "generic": "metal",
    "index_count": 858,
-   "index_offset": 507192,
+   "index_offset": 530776,
    "material": "cs_havana/metalwall085a",
    "model": 10,
-   "normal_offset": 500612,
-   "position_offset": 496664,
+   "normal_offset": 524196,
+   "position_offset": 520248,
    "targetname": "2_boat",
    "texels": [
     512,
     512
    ],
-   "uv_offset": 504560,
+   "uv_offset": 528144,
    "vertex_count": 329
   },
   {
@@ -24896,17 +31284,17 @@
    "entity": 80,
    "generic": "metal",
    "index_count": 918,
-   "index_offset": 525152,
+   "index_offset": 548736,
    "material": "de_prodigy/metal02",
    "model": 10,
-   "normal_offset": 516072,
-   "position_offset": 510624,
+   "normal_offset": 539656,
+   "position_offset": 534208,
    "targetname": "2_boat",
    "texels": [
     512,
     512
    ],
-   "uv_offset": 521520,
+   "uv_offset": 545104,
    "vertex_count": 454
   },
   {
@@ -24919,17 +31307,17 @@
    "entity": 140,
    "generic": "metal",
    "index_count": 516,
-   "index_offset": 537592,
+   "index_offset": 561176,
    "material": "cs_havana/metal02",
    "model": 13,
-   "normal_offset": 532112,
-   "position_offset": 528824,
+   "normal_offset": 555696,
+   "position_offset": 552408,
    "targetname": "func_tanktrain_elevator_1",
    "texels": [
     512,
     512
    ],
-   "uv_offset": 535400,
+   "uv_offset": 558984,
    "vertex_count": 274
   },
   {
@@ -24942,16 +31330,16 @@
    "entity": 143,
    "generic": "metal",
    "index_count": 36,
-   "index_offset": 540424,
+   "index_offset": 564008,
    "material": "metal/metalgrate016a",
    "model": 14,
-   "normal_offset": 539944,
-   "position_offset": 539656,
+   "normal_offset": 563528,
+   "position_offset": 563240,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 540232,
+   "uv_offset": 563816,
    "vertex_count": 24
   },
   {
@@ -24964,16 +31352,16 @@
    "entity": 144,
    "generic": "metal",
    "index_count": 60,
-   "index_offset": 541592,
+   "index_offset": 565176,
    "material": "metal/metalgrate016a",
    "model": 15,
-   "normal_offset": 540952,
-   "position_offset": 540568,
+   "normal_offset": 564536,
+   "position_offset": 564152,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 541336,
+   "uv_offset": 564920,
    "vertex_count": 32
   },
   {
@@ -24986,17 +31374,17 @@
    "entity": 149,
    "generic": "metal",
    "index_count": 36,
-   "index_offset": 542600,
+   "index_offset": 566184,
    "material": "metal/metalgrate016a",
    "model": 19,
-   "normal_offset": 542120,
-   "position_offset": 541832,
+   "normal_offset": 565704,
+   "position_offset": 565416,
    "targetname": "sam2",
    "texels": [
     512,
     512
    ],
-   "uv_offset": 542408,
+   "uv_offset": 565992,
    "vertex_count": 24
   },
   {
@@ -25009,16 +31397,16 @@
    "entity": 150,
    "generic": "metal",
    "index_count": 36,
-   "index_offset": 543512,
+   "index_offset": 567096,
    "material": "metal/metalgrate016a",
    "model": 20,
-   "normal_offset": 543032,
-   "position_offset": 542744,
+   "normal_offset": 566616,
+   "position_offset": 566328,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 543320,
+   "uv_offset": 566904,
    "vertex_count": 24
   },
   {
@@ -25031,17 +31419,17 @@
    "entity": 196,
    "generic": "stone_wall",
    "index_count": 60,
-   "index_offset": 544680,
+   "index_offset": 568264,
    "material": "de_dust/rockwall01",
    "model": 21,
-   "normal_offset": 544040,
-   "position_offset": 543656,
+   "normal_offset": 567624,
+   "position_offset": 567240,
    "targetname": "zombie1",
    "texels": [
     512,
     512
    ],
-   "uv_offset": 544424,
+   "uv_offset": 568008,
    "vertex_count": 32
   },
   {
@@ -25054,18 +31442,225 @@
    "entity": 198,
    "generic": "stone_wall",
    "index_count": 60,
-   "index_offset": 545944,
+   "index_offset": 569528,
    "material": "de_dust/rockwall01",
    "model": 23,
-   "normal_offset": 545304,
-   "position_offset": 544920,
+   "normal_offset": 568888,
+   "position_offset": 568504,
    "targetname": "zombie2",
    "texels": [
     512,
     512
    ],
-   "uv_offset": 545688,
+   "uv_offset": 569272,
    "vertex_count": 32
+  },
+  {
+   "classname": "func_button",
+   "entity": 227,
+   "generic": "flat",
+   "index_count": 36,
+   "index_offset": 570536,
+   "material": "cs_italy/black",
+   "model": 31,
+   "normal_offset": 570056,
+   "position_offset": 569768,
+   "targetname": "button02",
+   "texels": [
+    32,
+    32
+   ],
+   "tint": [
+    0.1,
+    0.1,
+    0.1
+   ],
+   "uv_offset": 570344,
+   "vertex_count": 24
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.8031,
+    0.2238,
+    0.2571
+   ],
+   "entity": 228,
+   "generic": "flat",
+   "index_count": 36,
+   "index_offset": 571448,
+   "material": "sprites/combineball_glow_red_1",
+   "model": 32,
+   "normal_offset": 570968,
+   "position_offset": 570680,
+   "targetname": "button01",
+   "texels": [
+    64,
+    64
+   ],
+   "uv_offset": 571256,
+   "vertex_count": 24
+  },
+  {
+   "classname": "func_button",
+   "entity": 229,
+   "generic": "flat",
+   "index_count": 36,
+   "index_offset": 572360,
+   "material": "cs_italy/black",
+   "model": 33,
+   "normal_offset": 571880,
+   "position_offset": 571592,
+   "targetname": "button04",
+   "texels": [
+    32,
+    32
+   ],
+   "tint": [
+    0.1,
+    0.1,
+    0.1
+   ],
+   "uv_offset": 572168,
+   "vertex_count": 24
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.8031,
+    0.2238,
+    0.2571
+   ],
+   "entity": 230,
+   "generic": "flat",
+   "index_count": 36,
+   "index_offset": 573272,
+   "material": "sprites/combineball_glow_red_1",
+   "model": 34,
+   "normal_offset": 572792,
+   "position_offset": 572504,
+   "targetname": "button07",
+   "texels": [
+    64,
+    64
+   ],
+   "uv_offset": 573080,
+   "vertex_count": 24
+  },
+  {
+   "classname": "func_button",
+   "entity": 231,
+   "generic": "flat",
+   "index_count": 36,
+   "index_offset": 574184,
+   "material": "cs_italy/black",
+   "model": 35,
+   "normal_offset": 573704,
+   "position_offset": 573416,
+   "targetname": "button05",
+   "texels": [
+    32,
+    32
+   ],
+   "tint": [
+    0.1,
+    0.1,
+    0.1
+   ],
+   "uv_offset": 573992,
+   "vertex_count": 24
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.8031,
+    0.2238,
+    0.2571
+   ],
+   "entity": 232,
+   "generic": "flat",
+   "index_count": 36,
+   "index_offset": 575096,
+   "material": "sprites/combineball_glow_red_1",
+   "model": 36,
+   "normal_offset": 574616,
+   "position_offset": 574328,
+   "targetname": "button03",
+   "texels": [
+    64,
+    64
+   ],
+   "uv_offset": 574904,
+   "vertex_count": 24
+  },
+  {
+   "classname": "func_button",
+   "entity": 233,
+   "generic": "flat",
+   "index_count": 36,
+   "index_offset": 576008,
+   "material": "cs_italy/black",
+   "model": 37,
+   "normal_offset": 575528,
+   "position_offset": 575240,
+   "targetname": "button06",
+   "texels": [
+    32,
+    32
+   ],
+   "tint": [
+    0.1,
+    0.1,
+    0.1
+   ],
+   "uv_offset": 575816,
+   "vertex_count": 24
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.8031,
+    0.2238,
+    0.2571
+   ],
+   "entity": 234,
+   "generic": "flat",
+   "index_count": 36,
+   "index_offset": 576920,
+   "material": "sprites/combineball_glow_red_1",
+   "model": 38,
+   "normal_offset": 576440,
+   "position_offset": 576152,
+   "targetname": "button09",
+   "texels": [
+    64,
+    64
+   ],
+   "uv_offset": 576728,
+   "vertex_count": 24
+  },
+  {
+   "classname": "func_button",
+   "entity": 235,
+   "generic": "flat",
+   "index_count": 36,
+   "index_offset": 577832,
+   "material": "cs_italy/black",
+   "model": 39,
+   "normal_offset": 577352,
+   "position_offset": 577064,
+   "targetname": "button08",
+   "texels": [
+    32,
+    32
+   ],
+   "tint": [
+    0.1,
+    0.1,
+    0.1
+   ],
+   "uv_offset": 577640,
+   "vertex_count": 24
   },
   {
    "classname": "func_breakable",
@@ -25077,18 +31672,156 @@
    "entity": 236,
    "generic": "metal",
    "index_count": 36,
-   "index_offset": 546952,
+   "index_offset": 578744,
    "material": "metal/metalgrate016a",
    "model": 40,
-   "normal_offset": 546472,
-   "position_offset": 546184,
+   "normal_offset": 578264,
+   "position_offset": 577976,
    "targetname": "sam",
    "texels": [
     512,
     512
    ],
-   "uv_offset": 546760,
+   "uv_offset": 578552,
    "vertex_count": 24
+  },
+  {
+   "classname": "func_rotating",
+   "colour": [
+    0.1225,
+    0.1104,
+    0.1023
+   ],
+   "entity": 248,
+   "generic": "metal",
+   "index_count": 300,
+   "index_offset": 583880,
+   "material": "de_train/train_metalceiling_02",
+   "model": 45,
+   "normal_offset": 580760,
+   "position_offset": 578888,
+   "targetname": "schoolbusssssssssssssssrengas1",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 582632,
+   "vertex_count": 156
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.2414,
+    0.1318,
+    0.1489
+   ],
+   "entity": 253,
+   "generic": "metal",
+   "index_count": 30,
+   "index_offset": 585720,
+   "material": "props/doorbutton002a",
+   "model": 46,
+   "normal_offset": 585320,
+   "position_offset": 585080,
+   "targetname": "schoolbusssssssssssssssnappula1",
+   "texels": [
+    32,
+    64
+   ],
+   "uv_offset": 585560,
+   "vertex_count": 20
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.4063,
+    0.371,
+    0.25
+   ],
+   "entity": 253,
+   "generic": "metal",
+   "index_count": 6,
+   "index_offset": 585968,
+   "material": "props/elevatorbutton003b",
+   "model": 46,
+   "normal_offset": 585888,
+   "position_offset": 585840,
+   "targetname": "schoolbusssssssssssssssnappula1",
+   "texels": [
+    256,
+    64
+   ],
+   "uv_offset": 585936,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_rotating",
+   "colour": [
+    0.1225,
+    0.1104,
+    0.1023
+   ],
+   "entity": 254,
+   "generic": "metal",
+   "index_count": 300,
+   "index_offset": 590984,
+   "material": "de_train/train_metalceiling_02",
+   "model": 47,
+   "normal_offset": 587864,
+   "position_offset": 585992,
+   "targetname": "schoolbusssssssssssssssrengas3",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 589736,
+   "vertex_count": 156
+  },
+  {
+   "classname": "func_rotating",
+   "colour": [
+    0.1225,
+    0.1104,
+    0.1023
+   ],
+   "entity": 262,
+   "generic": "metal",
+   "index_count": 300,
+   "index_offset": 597176,
+   "material": "de_train/train_metalceiling_02",
+   "model": 49,
+   "normal_offset": 594056,
+   "position_offset": 592184,
+   "targetname": "schoolbusssssssssssssssrengas2",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 595928,
+   "vertex_count": 156
+  },
+  {
+   "classname": "func_rotating",
+   "colour": [
+    0.1225,
+    0.1104,
+    0.1023
+   ],
+   "entity": 264,
+   "generic": "metal",
+   "index_count": 300,
+   "index_offset": 603368,
+   "material": "de_train/train_metalceiling_02",
+   "model": 50,
+   "normal_offset": 600248,
+   "position_offset": 598376,
+   "targetname": "schoolbusssssssssssssssrengas4",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 602120,
+   "vertex_count": 156
   },
   {
    "classname": "func_tracktrain",
@@ -25100,17 +31833,17 @@
    "entity": 282,
    "generic": "metal",
    "index_count": 690,
-   "index_offset": 557944,
+   "index_offset": 615416,
    "material": "cs_havana/metalwall085a",
    "model": 53,
-   "normal_offset": 551164,
-   "position_offset": 547096,
+   "normal_offset": 608636,
+   "position_offset": 604568,
    "targetname": "boat2",
    "texels": [
     512,
     512
    ],
-   "uv_offset": 555232,
+   "uv_offset": 612704,
    "vertex_count": 339
   },
   {
@@ -25123,17 +31856,17 @@
    "entity": 282,
    "generic": "glass",
    "index_count": 6,
-   "index_offset": 560832,
+   "index_offset": 618304,
    "material": "glass/unbreakable",
    "model": 53,
-   "normal_offset": 560752,
-   "position_offset": 560704,
+   "normal_offset": 618224,
+   "position_offset": 618176,
    "targetname": "boat2",
    "texels": [
     256,
     256
    ],
-   "uv_offset": 560800,
+   "uv_offset": 618272,
    "vertex_count": 4
   },
   {
@@ -25146,11 +31879,11 @@
    "entity": 289,
    "generic": "plaster_painted",
    "index_count": 636,
-   "index_offset": 571064,
+   "index_offset": 628536,
    "material": "cs_assault/assault_metalcrate001b_red",
    "model": 54,
-   "normal_offset": 564684,
-   "position_offset": 560856,
+   "normal_offset": 622156,
+   "position_offset": 618328,
    "targetname": "helicopter",
    "texels": [
     512,
@@ -25161,7 +31894,7 @@
     0.85,
     0.88
    ],
-   "uv_offset": 568512,
+   "uv_offset": 625984,
    "vertex_count": 319
   },
   {
@@ -25174,17 +31907,17 @@
    "entity": 289,
    "generic": "metal",
    "index_count": 3018,
-   "index_offset": 616616,
+   "index_offset": 674088,
    "material": "cs_havana/metalwall085a",
    "model": 54,
-   "normal_offset": 589736,
-   "position_offset": 573608,
+   "normal_offset": 647208,
+   "position_offset": 631080,
    "targetname": "helicopter",
    "texels": [
     512,
     512
    ],
-   "uv_offset": 605864,
+   "uv_offset": 663336,
    "vertex_count": 1344
   },
   {
@@ -25197,17 +31930,17 @@
    "entity": 289,
    "generic": "metal",
    "index_count": 36,
-   "index_offset": 629264,
+   "index_offset": 686736,
    "material": "de_nuke/nuke_metalfloor_01",
    "model": 54,
-   "normal_offset": 628904,
-   "position_offset": 628688,
+   "normal_offset": 686376,
+   "position_offset": 686160,
    "targetname": "helicopter",
    "texels": [
     512,
     512
    ],
-   "uv_offset": 629120,
+   "uv_offset": 686592,
    "vertex_count": 18
   },
   {
@@ -25220,17 +31953,17 @@
    "entity": 289,
    "generic": "glass",
    "index_count": 342,
-   "index_offset": 634112,
+   "index_offset": 691584,
    "material": "glass/unbreakable",
    "model": 54,
-   "normal_offset": 631172,
-   "position_offset": 629408,
+   "normal_offset": 688644,
+   "position_offset": 686880,
    "targetname": "helicopter",
    "texels": [
     256,
     256
    ],
-   "uv_offset": 632936,
+   "uv_offset": 690408,
    "vertex_count": 147
   },
   {
@@ -25243,18 +31976,64 @@
    "entity": 289,
    "generic": "metal",
    "index_count": 36,
-   "index_offset": 636088,
+   "index_offset": 693560,
    "material": "metal/citadel_tilewall005a",
    "model": 54,
-   "normal_offset": 635708,
-   "position_offset": 635480,
+   "normal_offset": 693180,
+   "position_offset": 692952,
    "targetname": "helicopter",
    "texels": [
     512,
     512
    ],
-   "uv_offset": 635936,
+   "uv_offset": 693408,
    "vertex_count": 19
+  },
+  {
+   "classname": "func_rotating",
+   "colour": [
+    0.4756,
+    0.4155,
+    0.3002
+   ],
+   "entity": 290,
+   "generic": "metal",
+   "index_count": 1980,
+   "index_offset": 723624,
+   "material": "metal/metaldoor032b",
+   "model": 55,
+   "normal_offset": 704924,
+   "position_offset": 693704,
+   "targetname": "heli blade",
+   "texels": [
+    512,
+    256
+   ],
+   "uv_offset": 716144,
+   "vertex_count": 935
+  },
+  {
+   "classname": "func_rotating",
+   "colour": [
+    0.4756,
+    0.4155,
+    0.3002
+   ],
+   "entity": 291,
+   "generic": "metal",
+   "index_count": 2211,
+   "index_offset": 763224,
+   "material": "metal/metaldoor032b",
+   "model": 56,
+   "normal_offset": 743424,
+   "position_offset": 731544,
+   "targetname": "heli blade",
+   "texels": [
+    512,
+    256
+   ],
+   "uv_offset": 755304,
+   "vertex_count": 990
   },
   {
    "classname": "func_breakable",
@@ -25266,16 +32045,16 @@
    "entity": 404,
    "generic": "stone_wall",
    "index_count": 24,
-   "index_offset": 636744,
+   "index_offset": 772580,
    "material": "de_tides/tides_floor_wood",
    "model": 73,
-   "normal_offset": 636424,
-   "position_offset": 636232,
+   "normal_offset": 772260,
+   "position_offset": 772068,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 636616,
+   "uv_offset": 772452,
    "vertex_count": 16
   },
   {
@@ -25288,16 +32067,16 @@
    "entity": 405,
    "generic": "stone_wall",
    "index_count": 24,
-   "index_offset": 637352,
+   "index_offset": 773188,
    "material": "de_tides/tides_floor_wood",
    "model": 74,
-   "normal_offset": 637032,
-   "position_offset": 636840,
+   "normal_offset": 772868,
+   "position_offset": 772676,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 637224,
+   "uv_offset": 773060,
    "vertex_count": 16
   },
   {
@@ -25310,16 +32089,16 @@
    "entity": 406,
    "generic": "stone_wall",
    "index_count": 24,
-   "index_offset": 637960,
+   "index_offset": 773796,
    "material": "de_tides/tides_floor_wood",
    "model": 75,
-   "normal_offset": 637640,
-   "position_offset": 637448,
+   "normal_offset": 773476,
+   "position_offset": 773284,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 637832,
+   "uv_offset": 773668,
    "vertex_count": 16
   },
   {
@@ -25332,16 +32111,16 @@
    "entity": 407,
    "generic": "stone_wall",
    "index_count": 24,
-   "index_offset": 638568,
+   "index_offset": 774404,
    "material": "de_tides/tides_floor_wood",
    "model": 76,
-   "normal_offset": 638248,
-   "position_offset": 638056,
+   "normal_offset": 774084,
+   "position_offset": 773892,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 638440,
+   "uv_offset": 774276,
    "vertex_count": 16
   },
   {
@@ -25354,16 +32133,16 @@
    "entity": 408,
    "generic": "stone_wall",
    "index_count": 24,
-   "index_offset": 639176,
+   "index_offset": 775012,
    "material": "de_tides/tides_floor_wood",
    "model": 77,
-   "normal_offset": 638856,
-   "position_offset": 638664,
+   "normal_offset": 774692,
+   "position_offset": 774500,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 639048,
+   "uv_offset": 774884,
    "vertex_count": 16
   },
   {
@@ -25376,16 +32155,16 @@
    "entity": 409,
    "generic": "stone_wall",
    "index_count": 24,
-   "index_offset": 639784,
+   "index_offset": 775620,
    "material": "de_tides/tides_floor_wood",
    "model": 78,
-   "normal_offset": 639464,
-   "position_offset": 639272,
+   "normal_offset": 775300,
+   "position_offset": 775108,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 639656,
+   "uv_offset": 775492,
    "vertex_count": 16
   },
   {
@@ -25398,16 +32177,16 @@
    "entity": 410,
    "generic": "stone_wall",
    "index_count": 24,
-   "index_offset": 640392,
+   "index_offset": 776228,
    "material": "de_tides/tides_floor_wood",
    "model": 79,
-   "normal_offset": 640072,
-   "position_offset": 639880,
+   "normal_offset": 775908,
+   "position_offset": 775716,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 640264,
+   "uv_offset": 776100,
    "vertex_count": 16
   },
   {
@@ -25420,16 +32199,16 @@
    "entity": 411,
    "generic": "stone_wall",
    "index_count": 24,
-   "index_offset": 641000,
+   "index_offset": 776836,
    "material": "de_tides/tides_floor_wood",
    "model": 80,
-   "normal_offset": 640680,
-   "position_offset": 640488,
+   "normal_offset": 776516,
+   "position_offset": 776324,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 640872,
+   "uv_offset": 776708,
    "vertex_count": 16
   }
  ],
@@ -25442,6 +32221,1987 @@
   "y0": 0.0
  },
  "version": 1,
+ "volumes": [
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      156.0576
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      273.27225
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      113.51895
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      175.5267
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      0.0
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      3.6576
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 20000.0,
+   "disabled": false,
+   "entity": 52,
+   "kind": "hurt",
+   "model": 5,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": ""
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      7.5057
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      19.3167
+     ],
+     [
+      0.046335,
+      0.0,
+      0.998926,
+      -50.38595
+     ],
+     [
+      -0.021173,
+      -0.128769,
+      -0.991449,
+      73.85159
+     ],
+     [
+      0.021686,
+      -0.999251,
+      -0.032036,
+      -4.63461
+     ],
+     [
+      -0.021795,
+      0.999761,
+      0.001915,
+      18.6667
+     ]
+    ]
+   ],
+   "classname": "trigger_multiple",
+   "disabled": false,
+   "entity": 56,
+   "filter": "",
+   "kind": "multiple",
+   "model": 6,
+   "outputs": [
+    {
+     "delay": 5.0,
+     "input": "Command",
+     "output": "OnTrigger",
+     "param": "say **** NADCHODZI NUKE ****",
+     "target": "command",
+     "times": -1
+    },
+    {
+     "delay": 12.0,
+     "input": "Enable",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "nuke_hurt",
+     "times": -1
+    },
+    {
+     "delay": 14.0,
+     "input": "Disable",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "nuke_hurt",
+     "times": -1
+    },
+    {
+     "delay": 12.0,
+     "input": "PlaySound",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "nuke_sound",
+     "times": -1
+    },
+    {
+     "delay": 12.0,
+     "input": "Fade",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "nuke_fade",
+     "times": -1
+    },
+    {
+     "delay": 5.0,
+     "input": "Command",
+     "output": "OnTrigger",
+     "param": "say **** NUKE IS COMING ****",
+     "target": "command",
+     "times": -1
+    }
+   ],
+   "spawnflags": 1,
+   "targetname": "",
+   "wait": 100.0
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -38.1
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      118.20525
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      139.827
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -113.7666
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      0.1143
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      3.5433
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 10.0,
+   "disabled": false,
+   "entity": 78,
+   "kind": "hurt",
+   "model": 9,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": ""
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      156.34335
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      0.01905
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      127.1778
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -113.51895
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      0.0
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      3.6576
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 50.0,
+   "disabled": false,
+   "entity": 138,
+   "kind": "hurt",
+   "model": 11,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": ""
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      151.2189
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -146.3421
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      126.47295
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -122.96775
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -9.27735
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      10.34415
+     ]
+    ]
+   ],
+   "classname": "trigger_once",
+   "disabled": false,
+   "entity": 139,
+   "filter": "",
+   "kind": "once",
+   "model": 12,
+   "outputs": [
+    {
+     "delay": 35.0,
+     "input": "StartForward",
+     "output": "OnStartTouch",
+     "param": "",
+     "target": "func_tanktrain_elevator_1",
+     "times": -1
+    },
+    {
+     "delay": 10.0,
+     "input": "Command",
+     "output": "OnStartTouch",
+     "param": "say **** WINDA STARTUJE ZA 20 SEC ****",
+     "target": "command",
+     "times": -1
+    },
+    {
+     "delay": 20.0,
+     "input": "Command",
+     "output": "OnStartTouch",
+     "param": "say **** WINDA STARTUJE ZA 10 SEC ****",
+     "target": "command",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "Command",
+     "output": "OnStartTouch",
+     "param": "say **** WINDA STARTUJE ZA 30 SEC ****",
+     "target": "command",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "Command",
+     "output": "OnStartTouch",
+     "param": "say **** ELEVATOR LIVING IN 30 SEC ****",
+     "target": "command",
+     "times": -1
+    },
+    {
+     "delay": 10.0,
+     "input": "Command",
+     "output": "OnStartTouch",
+     "param": "say **** ELEVATOR LIVING IN 20 SEC ****",
+     "target": "command",
+     "times": -1
+    },
+    {
+     "delay": 20.0,
+     "input": "Command",
+     "output": "OnStartTouch",
+     "param": "say **** ELEVATOR LIVING IN 10 SEC ****",
+     "target": "command",
+     "times": -1
+    }
+   ],
+   "spawnflags": 1,
+   "targetname": "",
+   "wait": -1.0
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      114.7191
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      123.5202
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      275.2725
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -139.96035
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      0.1143
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      3.5433
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 5.0,
+   "disabled": false,
+   "entity": 145,
+   "kind": "hurt",
+   "model": 16,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": ""
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      156.15284
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      273.04366
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      277.0251
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -31.68015
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      5.1816
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      19.5072
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 2000000.0,
+   "disabled": true,
+   "entity": 146,
+   "kind": "hurt",
+   "model": 17,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "nuke_hurt"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      0.5334
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      19.5072
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      136.53135
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -113.36655
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -9.7536
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      13.16355
+     ]
+    ]
+   ],
+   "classname": "trigger_once",
+   "disabled": false,
+   "entity": 148,
+   "filter": "",
+   "kind": "once",
+   "model": 18,
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "Command",
+     "output": "OnStartTouch",
+     "param": "say **** WLACZ HELI I BRON SIE PRZED ZOMBIE ****",
+     "target": "command",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "Command",
+     "output": "OnStartTouch",
+     "param": "say **** ENABLE HELI AND DEFEND YOURSELF ****",
+     "target": "command",
+     "times": -1
+    }
+   ],
+   "spawnflags": 1,
+   "targetname": "",
+   "wait": -1.0
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      19.5834
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -15.25905
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      136.8933
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -133.3881
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -9.7536
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      10.8204
+     ]
+    ]
+   ],
+   "classname": "trigger_once",
+   "disabled": false,
+   "entity": 197,
+   "filter": "",
+   "kind": "once",
+   "model": 22,
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "Break",
+     "output": "OnStartTouch",
+     "param": "",
+     "target": "zombie1",
+     "times": -1
+    }
+   ],
+   "spawnflags": 1,
+   "targetname": "",
+   "wait": -1.0
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      140.87494
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -135.99814
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      136.98874
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -133.48354
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -9.7536
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      10.8204
+     ]
+    ]
+   ],
+   "classname": "trigger_once",
+   "disabled": false,
+   "entity": 199,
+   "filter": "",
+   "kind": "once",
+   "model": 24,
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "Break",
+     "output": "OnStartTouch",
+     "param": "",
+     "target": "zombie2",
+     "times": -1
+    }
+   ],
+   "spawnflags": 1,
+   "targetname": "",
+   "wait": -1.0
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      154.24804
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -129.29254
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      275.6535
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -251.02185
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -9.7536
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      13.16355
+     ]
+    ]
+   ],
+   "classname": "trigger_once",
+   "disabled": false,
+   "entity": 204,
+   "filter": "",
+   "kind": "once",
+   "model": 26,
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "Command",
+     "output": "OnStartTouch",
+     "param": "say **** JAZDA ****",
+     "target": "command",
+     "times": 1
+    },
+    {
+     "delay": 0.0,
+     "input": "Command",
+     "output": "OnStartTouch",
+     "param": "say **** GOGOGOGOGO ****",
+     "target": "command",
+     "times": 1
+    }
+   ],
+   "spawnflags": 1,
+   "targetname": "",
+   "wait": -1.0
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      114.7191
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -113.8047
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      270.30045
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -269.19555
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      0.24803
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      0.36157
+     ]
+    ]
+   ],
+   "classname": "trigger_multiple",
+   "disabled": false,
+   "entity": 220,
+   "filter": "",
+   "kind": "multiple",
+   "model": 28,
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "StartOverlays",
+     "output": "OnStartTouch",
+     "param": "",
+     "target": "screenoverlay",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "Command",
+     "output": "OnStartTouch",
+     "param": "crosshair 0",
+     "target": "command",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "Disable",
+     "output": "OnStartTouch",
+     "param": "",
+     "target": "buttons_blokada",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "StopOverlays",
+     "output": "OnEndTouch",
+     "param": "",
+     "target": "screenoverlay",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "Command",
+     "output": "OnEndTouch",
+     "param": "crosshair 1",
+     "target": "command",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "Enable",
+     "output": "OnEndTouch",
+     "param": "",
+     "target": "buttons_blokada",
+     "times": -1
+    }
+   ],
+   "spawnflags": 1,
+   "targetname": "",
+   "wait": 1.0
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      29.31795
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -17.3355
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      195.91021
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -172.05961
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -9.7536
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      10.8204
+     ]
+    ]
+   ],
+   "classname": "trigger_once",
+   "disabled": false,
+   "entity": 237,
+   "filter": "",
+   "kind": "once",
+   "model": 41,
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "Break",
+     "output": "OnStartTouch",
+     "param": "",
+     "target": "sam",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "Break",
+     "output": "OnStartTouch",
+     "param": "",
+     "target": "sam2",
+     "times": -1
+    }
+   ],
+   "spawnflags": 1,
+   "targetname": "",
+   "wait": -1.0
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      126.6825
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -125.1585
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      262.26135
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -260.9088
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      0.0
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      2.4384
+     ]
+    ]
+   ],
+   "classname": "trigger_teleport",
+   "disabled": false,
+   "entity": 238,
+   "filter": "",
+   "kind": "teleport",
+   "model": 42,
+   "outputs": [],
+   "spawnflags": 1,
+   "target": "gora",
+   "targetname": ""
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      134.24173
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -132.75583
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      236.80103
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -235.69613
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -10.7061
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      12.55395
+     ]
+    ]
+   ],
+   "classname": "trigger_once",
+   "disabled": false,
+   "entity": 247,
+   "filter": "",
+   "kind": "once",
+   "model": 44,
+   "outputs": [
+    {
+     "delay": 4.0,
+     "input": "Command",
+     "output": "OnStartTouch",
+     "param": "say ****  SAMOCHOD STARTUJE ****",
+     "target": "Command",
+     "times": 1
+    },
+    {
+     "delay": 4.0,
+     "input": "Command",
+     "output": "OnStartTouch",
+     "param": "say ****  SECRET CAR IS STARTING ****",
+     "target": "Command",
+     "times": 1
+    }
+   ],
+   "spawnflags": 1,
+   "targetname": "",
+   "wait": -1.0
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      136.62298
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -129.34588
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      235.25798
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -233.23868
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -11.5443
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      12.6873
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": -200.0,
+   "disabled": false,
+   "entity": 265,
+   "kind": "hurt",
+   "model": 51,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "medkit"
+  },
+  {
+   "brush": 13,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      156.0576
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      273.1008
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      113.13795
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      181.10835
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      0.0
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      3.6576
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "water",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 26,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -39.52875
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      117.6909
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      140.07465
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -113.59515
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      3.6576
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      3.6576
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "water",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 27,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      156.1338
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -0.2667
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      139.99845
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -113.13795
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      3.6576
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      3.6576
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "water",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 124,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      114.7191
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      118.54815
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      276.606
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -139.9794
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      3.6576
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      3.6576
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "water",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 165,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      126.73965
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -126.7206
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      264.54735
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -263.652
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -4.4958
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      9.7536
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 166,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -43.8912
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      43.91025
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      127.82092
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -126.92557
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -4.8006
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      9.7536
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 167,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -97.3836
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      97.40265
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      141.24261
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -140.34726
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -3.7338
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      9.7536
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 170,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -19.5072
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      19.52625
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      200.20408
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -199.30873
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -3.7338
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      9.7536
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 172,
+   "brushes": [
+    [
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -3.72576
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      9.74556
+     ],
+     [
+      -0.008519,
+      -0.0,
+      0.999964,
+      253.98453
+     ],
+     [
+      0.008519,
+      0.0,
+      -0.999964,
+      -253.96548
+     ],
+     [
+      -0.99995,
+      0.0,
+      -0.010009,
+      42.19459
+     ],
+     [
+      0.99995,
+      0.0,
+      0.010009,
+      -41.29921
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 174,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -20.28882
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -3.7338
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      9.7536
+     ],
+     [
+      0.008519,
+      0.0,
+      0.999964,
+      273.26371
+     ],
+     [
+      0.99995,
+      -0.0,
+      -0.010009,
+      18.44965
+     ],
+     [
+      -0.00852,
+      0.0,
+      -0.999964,
+      -273.2447
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 175,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      100.14585
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -100.1268
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      264.4902
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -263.97585
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -3.60045
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      4.85775
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 176,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -58.5216
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      58.54065
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      127.57785
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -127.0635
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -3.60045
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      4.85775
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 177,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -34.00425
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      34.0233
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      136.45515
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -135.5598
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -2.80035
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      9.7536
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 179,
+   "brushes": [
+    [
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -3.73799
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      9.75777
+     ],
+     [
+      0.008727,
+      -0.0,
+      -0.999962,
+      -112.84599
+     ],
+     [
+      -0.008727,
+      0.0,
+      0.999962,
+      112.86505
+     ],
+     [
+      0.999959,
+      0.0,
+      0.009033,
+      15.23133
+     ],
+     [
+      -0.99996,
+      0.0,
+      -0.008972,
+      -14.3291
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 184,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      15.24
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -15.22095
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      152.84844
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -151.95309
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -3.5433
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      9.7536
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 186,
+   "brushes": [
+    [
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -0.0381
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      9.7155
+     ],
+     [
+      0.008727,
+      -0.0,
+      -0.999962,
+      -127.3259
+     ],
+     [
+      -0.008727,
+      0.0,
+      0.999962,
+      127.34495
+     ],
+     [
+      0.999959,
+      0.0,
+      0.009033,
+      -16.37638
+     ],
+     [
+      -0.99996,
+      0.0,
+      -0.008972,
+      17.27949
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 187,
+   "brushes": [
+    [
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -0.01905
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      9.69645
+     ],
+     [
+      0.008726,
+      -0.0,
+      -0.999962,
+      -128.47759
+     ],
+     [
+      -0.008726,
+      0.0,
+      0.999962,
+      128.49664
+     ],
+     [
+      0.999952,
+      0.0,
+      0.009765,
+      -148.25517
+     ],
+     [
+      -0.999952,
+      0.0,
+      -0.009765,
+      149.15056
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 218,
+   "brushes": [
+    [
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -7.8486
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      11.12648
+     ],
+     [
+      0.989458,
+      0.0,
+      0.144819,
+      3.52916
+     ],
+     [
+      -0.98951,
+      0.0,
+      -0.144465,
+      -3.52712
+     ],
+     [
+      -0.007526,
+      0.0,
+      0.999972,
+      -63.19158
+     ],
+     [
+      0.015062,
+      -0.0,
+      -0.999887,
+      63.35886
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 219,
+   "brushes": [
+    [
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -7.85388
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      11.13175
+     ],
+     [
+      -0.989422,
+      0.0,
+      -0.145066,
+      11.25269
+     ],
+     [
+      0.989509,
+      0.0,
+      0.144468,
+      -11.18998
+     ],
+     [
+      0.007526,
+      -0.0,
+      -0.999972,
+      63.28218
+     ],
+     [
+      -0.015051,
+      0.0,
+      0.999887,
+      -63.1849
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  }
+ ],
  "zz": {
   "keep_boxes": [],
   "materials": {
@@ -25451,6 +34211,7 @@
    "cs_havana/metal01": "metal",
    "cs_havana/metal02": "metal",
    "cs_havana/metalwall085a": "metal",
+   "cs_italy/black": "concrete",
    "cs_italy/pwood1": "wood_floor",
    "de_cbble/grounddirt": "dirt",
    "de_chateau/woodm": "wood",
@@ -25459,15 +34220,21 @@
    "de_prodigy/metal01": "metal",
    "de_prodigy/metal02": "metal",
    "de_tides/tides_floor_wood": "stone",
+   "de_train/train_metalceiling_02": "metal",
    "decals/ropeladderfootprints": "concrete",
    "glass/unbreakable": "glass",
    "metal/citadel_tilewall005a": "metal",
+   "metal/metalceiling005a": "metal",
+   "metal/metaldoor032b": "metal",
    "metal/metalgrate016a": "metal",
    "metal/metalladder001a": "metal",
    "metal/metalpipe008a": "metal",
    "metal/metalwall001a": "metal",
    "nature/grassfloor003a": "grass",
    "nature/sandfloor010a": "dirt",
+   "props/doorbutton002a": "metal",
+   "props/elevatorbutton003b": "metal",
+   "sprites/combineball_glow_red_1": "concrete",
    "vgui/screens/transparent": "concrete",
    "wood/milflr003": "wood_floor"
   }

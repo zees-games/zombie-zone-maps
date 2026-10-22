@@ -1,17 +1,17 @@
 {
  "bin": {
-  "bytes": 4217656,
+  "bytes": 4238024,
   "compression": "gzip",
   "file": "zm_abandoned_mall.bin",
-  "sha256": "1f05234a94c2f250d0126295f37c0152f2d79c96cd2b39b6b2345a40197cb69e",
-  "stored_bytes": 748702
+  "sha256": "150b09ed7bdfb33c73e5c39c29c9350b95437f3f2b5959b9359a15b1353431de",
+  "stored_bytes": 751545
  },
  "counts": {
-  "hulls": 0,
-  "models": 4,
-  "surfaces": 1841,
-  "triangles": 70242,
-  "vertices": 105461
+  "hulls": 19,
+  "models": 14,
+  "surfaces": 1861,
+  "triangles": 70462,
+  "vertices": 105901
  },
  "credit": {
   "author": "WaterPyro",
@@ -19,8 +19,841 @@
   "note": "Geometry converted from the original map with credit; its textures and models are not used. Removed on the author's request.",
   "page": "https://steamcommunity.com/sharedfiles/filedetails/?id=184522164"
  },
+ "destinations": {},
+ "entities": [
+  {
+   "classname": "zombiegasses",
+   "entity": 669,
+   "keys": {
+    "hammerid": "2793"
+   },
+   "model": null,
+   "origin": [
+    29.8704,
+    0.4763,
+    -27.7749
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "zombiegasses",
+   "entity": 670,
+   "keys": {
+    "hammerid": "2794"
+   },
+   "model": null,
+   "origin": [
+    21.9456,
+    0.5334,
+    -28.956
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_worldhint",
+   "entity": 684,
+   "keys": {
+    "hammerid": "2810",
+    "hint": "Hit small props into humans.",
+    "range": "250",
+    "viewer": "3"
+   },
+   "model": null,
+   "origin": [
+    20.6693,
+    0.5524,
+    -29.6608
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "zombiegasses",
+   "entity": 1405,
+   "keys": {
+    "hammerid": "3623",
+    "radius": "250"
+   },
+   "model": null,
+   "origin": [
+    -22.1361,
+    2.085,
+    -1.7336
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "zombiegasses",
+   "entity": 1432,
+   "keys": {
+    "hammerid": "3661",
+    "radius": "250"
+   },
+   "model": null,
+   "origin": [
+    -4.7435,
+    1.3526,
+    -101.0031
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "zombiegasses",
+   "entity": 1445,
+   "keys": {
+    "hammerid": "3675"
+   },
+   "model": null,
+   "origin": [
+    37.6428,
+    0.5143,
+    -52.578
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  }
+ ],
  "format": "dot-bsp-mesh",
- "hulls": [],
+ "hulls": [
+  {
+   "brush": 6714,
+   "entity": 500,
+   "kind": "solid",
+   "model": 33,
+   "plane_count": 6,
+   "plane_offset": 4234472,
+   "point_count": 8,
+   "point_offset": 4234376
+  },
+  {
+   "brush": 6715,
+   "entity": 500,
+   "kind": "solid",
+   "model": 33,
+   "plane_count": 6,
+   "plane_offset": 4234664,
+   "point_count": 8,
+   "point_offset": 4234568
+  },
+  {
+   "brush": 6716,
+   "entity": 501,
+   "kind": "solid",
+   "model": 34,
+   "plane_count": 6,
+   "plane_offset": 4234856,
+   "point_count": 8,
+   "point_offset": 4234760
+  },
+  {
+   "brush": 6717,
+   "entity": 501,
+   "kind": "solid",
+   "model": 34,
+   "plane_count": 6,
+   "plane_offset": 4235048,
+   "point_count": 8,
+   "point_offset": 4234952
+  },
+  {
+   "brush": 6782,
+   "entity": 1044,
+   "kind": "solid",
+   "model": 99,
+   "plane_count": 6,
+   "plane_offset": 4235240,
+   "point_count": 8,
+   "point_offset": 4235144
+  },
+  {
+   "brush": 6783,
+   "entity": 1340,
+   "kind": "solid",
+   "model": 100,
+   "plane_count": 6,
+   "plane_offset": 4235432,
+   "point_count": 8,
+   "point_offset": 4235336
+  },
+  {
+   "brush": 6784,
+   "entity": 1340,
+   "kind": "solid",
+   "model": 100,
+   "plane_count": 6,
+   "plane_offset": 4235624,
+   "point_count": 8,
+   "point_offset": 4235528
+  },
+  {
+   "brush": 6930,
+   "entity": 1808,
+   "kind": "solid",
+   "model": 168,
+   "plane_count": 6,
+   "plane_offset": 4235816,
+   "point_count": 8,
+   "point_offset": 4235720
+  },
+  {
+   "brush": 6931,
+   "entity": 1808,
+   "kind": "solid",
+   "model": 168,
+   "plane_count": 6,
+   "plane_offset": 4236008,
+   "point_count": 8,
+   "point_offset": 4235912
+  },
+  {
+   "brush": 6932,
+   "entity": 1809,
+   "kind": "solid",
+   "model": 169,
+   "plane_count": 6,
+   "plane_offset": 4236200,
+   "point_count": 8,
+   "point_offset": 4236104
+  },
+  {
+   "brush": 6933,
+   "entity": 1809,
+   "kind": "solid",
+   "model": 169,
+   "plane_count": 6,
+   "plane_offset": 4236392,
+   "point_count": 8,
+   "point_offset": 4236296
+  },
+  {
+   "brush": 6936,
+   "entity": 1856,
+   "kind": "solid",
+   "model": 172,
+   "plane_count": 6,
+   "plane_offset": 4236584,
+   "point_count": 8,
+   "point_offset": 4236488
+  },
+  {
+   "brush": 6937,
+   "entity": 1856,
+   "kind": "solid",
+   "model": 172,
+   "plane_count": 6,
+   "plane_offset": 4236776,
+   "point_count": 8,
+   "point_offset": 4236680
+  },
+  {
+   "brush": 6938,
+   "entity": 1857,
+   "kind": "solid",
+   "model": 173,
+   "plane_count": 6,
+   "plane_offset": 4236968,
+   "point_count": 8,
+   "point_offset": 4236872
+  },
+  {
+   "brush": 6939,
+   "entity": 1857,
+   "kind": "solid",
+   "model": 173,
+   "plane_count": 6,
+   "plane_offset": 4237160,
+   "point_count": 8,
+   "point_offset": 4237064
+  },
+  {
+   "brush": 6940,
+   "entity": 1858,
+   "kind": "solid",
+   "model": 174,
+   "plane_count": 6,
+   "plane_offset": 4237352,
+   "point_count": 8,
+   "point_offset": 4237256
+  },
+  {
+   "brush": 6941,
+   "entity": 1858,
+   "kind": "solid",
+   "model": 174,
+   "plane_count": 6,
+   "plane_offset": 4237544,
+   "point_count": 8,
+   "point_offset": 4237448
+  },
+  {
+   "brush": 6942,
+   "entity": 1859,
+   "kind": "solid",
+   "model": 175,
+   "plane_count": 6,
+   "plane_offset": 4237736,
+   "point_count": 8,
+   "point_offset": 4237640
+  },
+  {
+   "brush": 6943,
+   "entity": 1859,
+   "kind": "solid",
+   "model": 175,
+   "plane_count": 6,
+   "plane_offset": 4237928,
+   "point_count": 8,
+   "point_offset": 4237832
+  }
+ ],
+ "links": [
+  {
+   "delay": 2.0,
+   "from": 1521,
+   "from_class": "func_breakable",
+   "from_name": "t1",
+   "input": "EnableMotion",
+   "output": "OnBreak",
+   "param": "",
+   "special": false,
+   "target": "tv",
+   "times": -1,
+   "to": [
+    1863
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 1521,
+   "from_class": "func_breakable",
+   "from_name": "t1",
+   "input": "SparkOnce",
+   "output": "OnBreak",
+   "param": "",
+   "special": false,
+   "target": "s1",
+   "times": -1,
+   "to": [
+    1525,
+    1526
+   ]
+  },
+  {
+   "delay": 2.0,
+   "from": 1522,
+   "from_class": "func_breakable",
+   "from_name": "t1",
+   "input": "EnableMotion",
+   "output": "OnBreak",
+   "param": "",
+   "special": false,
+   "target": "tv",
+   "times": -1,
+   "to": [
+    1863
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 1522,
+   "from_class": "func_breakable",
+   "from_name": "t1",
+   "input": "SparkOnce",
+   "output": "OnBreak",
+   "param": "",
+   "special": false,
+   "target": "s1",
+   "times": -1,
+   "to": [
+    1525,
+    1526
+   ]
+  },
+  {
+   "delay": 2.0,
+   "from": 1523,
+   "from_class": "func_breakable",
+   "from_name": "t1",
+   "input": "EnableMotion",
+   "output": "OnBreak",
+   "param": "",
+   "special": false,
+   "target": "tv",
+   "times": -1,
+   "to": [
+    1863
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 1523,
+   "from_class": "func_breakable",
+   "from_name": "t1",
+   "input": "SparkOnce",
+   "output": "OnBreak",
+   "param": "",
+   "special": false,
+   "target": "s1",
+   "times": -1,
+   "to": [
+    1525,
+    1526
+   ]
+  },
+  {
+   "delay": 2.0,
+   "from": 1524,
+   "from_class": "func_breakable",
+   "from_name": "t1",
+   "input": "EnableMotion",
+   "output": "OnBreak",
+   "param": "",
+   "special": false,
+   "target": "tv",
+   "times": -1,
+   "to": [
+    1863
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 1524,
+   "from_class": "func_breakable",
+   "from_name": "t1",
+   "input": "SparkOnce",
+   "output": "OnBreak",
+   "param": "",
+   "special": false,
+   "target": "s1",
+   "times": -1,
+   "to": [
+    1525,
+    1526
+   ]
+  }
+ ],
+ "movers": [
+  {
+   "classname": "func_door",
+   "direction": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "distance": 1.1811,
+   "entity": 500,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -26.397,
+    1.524,
+    -44.8033
+   ],
+   "mins": [
+    -27.2859,
+    0.3048,
+    -44.9009
+   ],
+   "model": 33,
+   "opened_by": [],
+   "origin": [
+    -26.8415,
+    0.9144,
+    -44.8521
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 256,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.62,
+   "use": true,
+   "wait": 4.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "distance": 1.1811,
+   "entity": 501,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -25.3302,
+    1.524,
+    -44.8033
+   ],
+   "mins": [
+    -26.2191,
+    0.3048,
+    -44.9009
+   ],
+   "model": 34,
+   "opened_by": [],
+   "origin": [
+    -25.7747,
+    0.9144,
+    -44.8521
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 256,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.62,
+   "use": true,
+   "wait": 4.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "distance": 2.3622,
+   "entity": 1044,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    17.3926,
+    2.7051,
+    -87.4395
+   ],
+   "mins": [
+    15.0686,
+    0.3048,
+    -87.5157
+   ],
+   "model": 99,
+   "opened_by": [],
+   "origin": [
+    16.2306,
+    1.505,
+    -87.4776
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 1024,
+   "speed": 0.8573,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": true,
+   "travel_time": 2.7554,
+   "use": false,
+   "wait": 4.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "distance": 1.1811,
+   "entity": 1340,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    13.3922,
+    1.524,
+    -24.7206
+   ],
+   "mins": [
+    13.3731,
+    0.3048,
+    -25.6095
+   ],
+   "model": 100,
+   "opened_by": [],
+   "origin": [
+    13.3826,
+    0.9144,
+    -25.1651
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 256,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.62,
+   "use": true,
+   "wait": 4.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "distance": 1.1811,
+   "entity": 1808,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -30.8229,
+    1.524,
+    -24.1745
+   ],
+   "mins": [
+    -31.5849,
+    0.3048,
+    -24.2126
+   ],
+   "model": 168,
+   "opened_by": [],
+   "origin": [
+    -31.2039,
+    0.9144,
+    -24.1935
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 256,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.62,
+   "use": true,
+   "wait": 4.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "distance": 1.1811,
+   "entity": 1809,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -29.9085,
+    1.524,
+    -24.1745
+   ],
+   "mins": [
+    -30.6705,
+    0.3048,
+    -24.2126
+   ],
+   "model": 169,
+   "opened_by": [],
+   "origin": [
+    -30.2895,
+    0.9144,
+    -24.1935
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 256,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.62,
+   "use": true,
+   "wait": 1.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "distance": 1.1811,
+   "entity": 1856,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    42.3672,
+    1.524,
+    -74.3522
+   ],
+   "mins": [
+    42.3177,
+    0.3048,
+    -75.1142
+   ],
+   "model": 172,
+   "opened_by": [],
+   "origin": [
+    42.3424,
+    0.9144,
+    -74.7332
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 256,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.62,
+   "use": true,
+   "wait": 1.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "distance": 1.1811,
+   "entity": 1857,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    42.3672,
+    1.524,
+    -73.4378
+   ],
+   "mins": [
+    42.3177,
+    0.3048,
+    -74.1998
+   ],
+   "model": 173,
+   "opened_by": [],
+   "origin": [
+    42.3424,
+    0.9144,
+    -73.8188
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 256,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.62,
+   "use": true,
+   "wait": 4.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "distance": 1.1811,
+   "entity": 1858,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    46.9628,
+    1.524,
+    -8.0355
+   ],
+   "mins": [
+    46.2008,
+    0.3048,
+    -8.0852
+   ],
+   "model": 174,
+   "opened_by": [],
+   "origin": [
+    46.5818,
+    0.9144,
+    -8.0604
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 256,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.62,
+   "use": true,
+   "wait": 4.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "distance": 1.1811,
+   "entity": 1859,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    46.0484,
+    1.524,
+    -8.0355
+   ],
+   "mins": [
+    45.2864,
+    0.3048,
+    -8.0852
+   ],
+   "model": 175,
+   "opened_by": [],
+   "origin": [
+    45.6674,
+    0.9144,
+    -8.0604
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 256,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.62,
+   "use": true,
+   "wait": 1.0
+  }
+ ],
  "name": "zm_abandoned_mall",
  "notes": [],
  "skipped": {
@@ -47726,6 +48559,446 @@
    ],
    "uv_offset": 4217600,
    "vertex_count": 4
+  },
+  {
+   "classname": "func_door",
+   "colour": [
+    0.6199,
+    0.5764,
+    0.4949
+   ],
+   "entity": 500,
+   "generic": "plaster_painted",
+   "index_count": 6,
+   "index_offset": 4217784,
+   "material": "fda/wall/wall_02",
+   "model": 33,
+   "normal_offset": 4217704,
+   "position_offset": 4217656,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 4217752,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_door",
+   "colour": [
+    0.3834,
+    0.4005,
+    0.4049
+   ],
+   "entity": 500,
+   "generic": "metal",
+   "index_count": 66,
+   "index_offset": 4219216,
+   "material": "props/metalstainless01",
+   "model": 33,
+   "normal_offset": 4218336,
+   "position_offset": 4217808,
+   "texels": [
+    128,
+    128
+   ],
+   "uv_offset": 4218864,
+   "vertex_count": 44
+  },
+  {
+   "classname": "func_door",
+   "colour": [
+    0.6199,
+    0.5764,
+    0.4949
+   ],
+   "entity": 501,
+   "generic": "plaster_painted",
+   "index_count": 6,
+   "index_offset": 4219608,
+   "material": "fda/wall/wall_02",
+   "model": 34,
+   "normal_offset": 4219528,
+   "position_offset": 4219480,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 4219576,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_door",
+   "colour": [
+    0.3834,
+    0.4005,
+    0.4049
+   ],
+   "entity": 501,
+   "generic": "metal",
+   "index_count": 66,
+   "index_offset": 4221040,
+   "material": "props/metalstainless01",
+   "model": 34,
+   "normal_offset": 4220160,
+   "position_offset": 4219632,
+   "texels": [
+    128,
+    128
+   ],
+   "uv_offset": 4220688,
+   "vertex_count": 44
+  },
+  {
+   "classname": "func_door",
+   "colour": [
+    0.5097,
+    0.5216,
+    0.5276
+   ],
+   "entity": 1044,
+   "generic": "metal",
+   "index_count": 6,
+   "index_offset": 4221432,
+   "material": "metal/metaldoor046a",
+   "model": 99,
+   "normal_offset": 4221352,
+   "position_offset": 4221304,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 4221400,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_door",
+   "colour": [
+    0.5097,
+    0.5216,
+    0.5276
+   ],
+   "entity": 1044,
+   "generic": "metal",
+   "index_count": 6,
+   "index_offset": 4221584,
+   "material": "metal/metaldoor046a",
+   "model": 99,
+   "normal_offset": 4221504,
+   "position_offset": 4221456,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 4221552,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_door",
+   "colour": [
+    0.6199,
+    0.5764,
+    0.4949
+   ],
+   "entity": 1340,
+   "generic": "plaster_painted",
+   "index_count": 6,
+   "index_offset": 4221736,
+   "material": "fda/wall/wall_02",
+   "model": 100,
+   "normal_offset": 4221656,
+   "position_offset": 4221608,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 4221704,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_door",
+   "colour": [
+    0.3834,
+    0.4005,
+    0.4049
+   ],
+   "entity": 1340,
+   "generic": "metal",
+   "index_count": 66,
+   "index_offset": 4223168,
+   "material": "props/metalstainless01",
+   "model": 100,
+   "normal_offset": 4222288,
+   "position_offset": 4221760,
+   "texels": [
+    128,
+    128
+   ],
+   "uv_offset": 4222816,
+   "vertex_count": 44
+  },
+  {
+   "classname": "func_door",
+   "colour": [
+    0.6199,
+    0.5764,
+    0.4949
+   ],
+   "entity": 1808,
+   "generic": "plaster_painted",
+   "index_count": 6,
+   "index_offset": 4223560,
+   "material": "fda/wall/wall_02",
+   "model": 168,
+   "normal_offset": 4223480,
+   "position_offset": 4223432,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 4223528,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_door",
+   "colour": [
+    0.3834,
+    0.4005,
+    0.4049
+   ],
+   "entity": 1808,
+   "generic": "metal",
+   "index_count": 66,
+   "index_offset": 4224992,
+   "material": "props/metalstainless01",
+   "model": 168,
+   "normal_offset": 4224112,
+   "position_offset": 4223584,
+   "texels": [
+    128,
+    128
+   ],
+   "uv_offset": 4224640,
+   "vertex_count": 44
+  },
+  {
+   "classname": "func_door",
+   "colour": [
+    0.6199,
+    0.5764,
+    0.4949
+   ],
+   "entity": 1809,
+   "generic": "plaster_painted",
+   "index_count": 6,
+   "index_offset": 4225384,
+   "material": "fda/wall/wall_02",
+   "model": 169,
+   "normal_offset": 4225304,
+   "position_offset": 4225256,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 4225352,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_door",
+   "colour": [
+    0.3834,
+    0.4005,
+    0.4049
+   ],
+   "entity": 1809,
+   "generic": "metal",
+   "index_count": 66,
+   "index_offset": 4226816,
+   "material": "props/metalstainless01",
+   "model": 169,
+   "normal_offset": 4225936,
+   "position_offset": 4225408,
+   "texels": [
+    128,
+    128
+   ],
+   "uv_offset": 4226464,
+   "vertex_count": 44
+  },
+  {
+   "classname": "func_door",
+   "colour": [
+    0.6199,
+    0.5764,
+    0.4949
+   ],
+   "entity": 1856,
+   "generic": "plaster_painted",
+   "index_count": 6,
+   "index_offset": 4227208,
+   "material": "fda/wall/wall_02",
+   "model": 172,
+   "normal_offset": 4227128,
+   "position_offset": 4227080,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 4227176,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_door",
+   "colour": [
+    0.3834,
+    0.4005,
+    0.4049
+   ],
+   "entity": 1856,
+   "generic": "metal",
+   "index_count": 66,
+   "index_offset": 4228640,
+   "material": "props/metalstainless01",
+   "model": 172,
+   "normal_offset": 4227760,
+   "position_offset": 4227232,
+   "texels": [
+    128,
+    128
+   ],
+   "uv_offset": 4228288,
+   "vertex_count": 44
+  },
+  {
+   "classname": "func_door",
+   "colour": [
+    0.6199,
+    0.5764,
+    0.4949
+   ],
+   "entity": 1857,
+   "generic": "plaster_painted",
+   "index_count": 6,
+   "index_offset": 4229032,
+   "material": "fda/wall/wall_02",
+   "model": 173,
+   "normal_offset": 4228952,
+   "position_offset": 4228904,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 4229000,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_door",
+   "colour": [
+    0.3834,
+    0.4005,
+    0.4049
+   ],
+   "entity": 1857,
+   "generic": "metal",
+   "index_count": 66,
+   "index_offset": 4230464,
+   "material": "props/metalstainless01",
+   "model": 173,
+   "normal_offset": 4229584,
+   "position_offset": 4229056,
+   "texels": [
+    128,
+    128
+   ],
+   "uv_offset": 4230112,
+   "vertex_count": 44
+  },
+  {
+   "classname": "func_door",
+   "colour": [
+    0.6199,
+    0.5764,
+    0.4949
+   ],
+   "entity": 1858,
+   "generic": "plaster_painted",
+   "index_count": 6,
+   "index_offset": 4230856,
+   "material": "fda/wall/wall_02",
+   "model": 174,
+   "normal_offset": 4230776,
+   "position_offset": 4230728,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 4230824,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_door",
+   "colour": [
+    0.3834,
+    0.4005,
+    0.4049
+   ],
+   "entity": 1858,
+   "generic": "metal",
+   "index_count": 66,
+   "index_offset": 4232288,
+   "material": "props/metalstainless01",
+   "model": 174,
+   "normal_offset": 4231408,
+   "position_offset": 4230880,
+   "texels": [
+    128,
+    128
+   ],
+   "uv_offset": 4231936,
+   "vertex_count": 44
+  },
+  {
+   "classname": "func_door",
+   "colour": [
+    0.6199,
+    0.5764,
+    0.4949
+   ],
+   "entity": 1859,
+   "generic": "plaster_painted",
+   "index_count": 6,
+   "index_offset": 4232680,
+   "material": "fda/wall/wall_02",
+   "model": 175,
+   "normal_offset": 4232600,
+   "position_offset": 4232552,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 4232648,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_door",
+   "colour": [
+    0.3834,
+    0.4005,
+    0.4049
+   ],
+   "entity": 1859,
+   "generic": "metal",
+   "index_count": 66,
+   "index_offset": 4234112,
+   "material": "props/metalstainless01",
+   "model": 175,
+   "normal_offset": 4233232,
+   "position_offset": 4232704,
+   "texels": [
+    128,
+    128
+   ],
+   "uv_offset": 4233760,
+   "vertex_count": 44
   }
  ],
  "units": {
@@ -47737,6 +49010,68 @@
   "y0": 0.0
  },
  "version": 1,
+ "volumes": [
+  {
+   "brush": 6653,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -47.5869
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      48.4251
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      -33.35655
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      33.81375
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -0.29741
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      2.67866
+     ],
+     [
+      0.954756,
+      0.297391,
+      0.0,
+      46.34179
+     ],
+     [
+      -0.951952,
+      -0.306246,
+      0.0,
+      -46.06469
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  }
+ ],
  "zz": {
   "keep_boxes": [],
   "materials": {

@@ -1,17 +1,17 @@
 {
  "bin": {
-  "bytes": 2484724,
+  "bytes": 2531820,
   "compression": "gzip",
   "file": "ze_jurassicpark.bin",
-  "sha256": "dbbeb245d3af1f12297f8c85e7af14b243e2d2da660f1d4cfe48addbf26318fc",
-  "stored_bytes": 641002
+  "sha256": "c7508e5756d39df55d45ecad2f57cb550298635b308f56ba0c2d5b9b01530262",
+  "stored_bytes": 651143
  },
  "counts": {
   "hulls": 0,
-  "models": 64,
-  "surfaces": 828,
-  "triangles": 51535,
-  "vertices": 58322
+  "models": 66,
+  "surfaces": 830,
+  "triangles": 52337,
+  "vertices": 59493
  },
  "credit": {
   "author": "Butterknife",
@@ -19,8 +19,2045 @@
   "note": "Geometry converted from the original map with credit; its textures and models are not used. Removed on the author's request.",
   "page": "https://gamebanana.com/mods/130821"
  },
+ "destinations": {},
+ "entities": [
+  {
+   "classname": "env_firesource",
+   "entity": 7,
+   "keys": {
+    "firedamage": "32",
+    "fireradius": "290",
+    "spawnflags": "1"
+   },
+   "model": null,
+   "origin": [
+    90.7733,
+    -9.125,
+    -35.8902
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 137,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "radius": "0",
+    "spawnflags": "0",
+    "speed": "0",
+    "target": "truckpath_2",
+    "targetname": "truckpath_1"
+   },
+   "model": null,
+   "origin": [
+    2.267,
+    -14.9733,
+    62.4653
+   ],
+   "target": "truckpath_2",
+   "targetname": "truckpath_1",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 138,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "truckpath_3",
+    "targetname": "truckpath_2"
+   },
+   "model": null,
+   "origin": [
+    2.267,
+    -14.9733,
+    -31.6992
+   ],
+   "target": "truckpath_3",
+   "targetname": "truckpath_2",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 139,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "truckpath_4",
+    "targetname": "truckpath_3"
+   },
+   "model": null,
+   "origin": [
+    2.0955,
+    -14.9733,
+    -34.0804
+   ],
+   "target": "truckpath_4",
+   "targetname": "truckpath_3",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 140,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "truckpath_5",
+    "targetname": "truckpath_4"
+   },
+   "model": null,
+   "origin": [
+    1.4287,
+    -14.9733,
+    -35.4139
+   ],
+   "target": "truckpath_5",
+   "targetname": "truckpath_4",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 141,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "truckpath_6",
+    "targetname": "truckpath_5"
+   },
+   "model": null,
+   "origin": [
+    0.1143,
+    -14.9733,
+    -36.6522
+   ],
+   "target": "truckpath_6",
+   "targetname": "truckpath_5",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 142,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "truckpath_7",
+    "targetname": "truckpath_6"
+   },
+   "model": null,
+   "origin": [
+    -1.5431,
+    -14.9733,
+    -37.4714
+   ],
+   "target": "truckpath_7",
+   "targetname": "truckpath_6",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 143,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "truckpath_8",
+    "targetname": "truckpath_7"
+   },
+   "model": null,
+   "origin": [
+    -93.2307,
+    -14.9733,
+    -37.4714
+   ],
+   "target": "truckpath_8",
+   "targetname": "truckpath_7",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 144,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "truckpath_9",
+    "targetname": "truckpath_8"
+   },
+   "model": null,
+   "origin": [
+    -95.2881,
+    -14.9733,
+    -37.0713
+   ],
+   "target": "truckpath_9",
+   "targetname": "truckpath_8",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 145,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "truckpath_10",
+    "targetname": "truckpath_9"
+   },
+   "model": null,
+   "origin": [
+    -96.7359,
+    -14.9733,
+    -36.0236
+   ],
+   "target": "truckpath_10",
+   "targetname": "truckpath_9",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 146,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "truckpath_11",
+    "targetname": "truckpath_10"
+   },
+   "model": null,
+   "origin": [
+    -97.7265,
+    -14.9733,
+    -34.6138
+   ],
+   "target": "truckpath_11",
+   "targetname": "truckpath_10",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 147,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "truckpath_12",
+    "targetname": "truckpath_11"
+   },
+   "model": null,
+   "origin": [
+    -98.1456,
+    -14.9733,
+    -31.623
+   ],
+   "target": "truckpath_12",
+   "targetname": "truckpath_11",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 148,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "targetname": "truckpath_12"
+   },
+   "model": null,
+   "origin": [
+    -98.142,
+    -14.9733,
+    46.8249
+   ],
+   "target": "",
+   "targetname": "truckpath_12",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 240,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "huey_path2",
+    "targetname": "huey_path1"
+   },
+   "model": null,
+   "origin": [
+    -175.7934,
+    -32.4993,
+    155.5242
+   ],
+   "target": "huey_path2",
+   "targetname": "huey_path1",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 241,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "huey_path3",
+    "targetname": "huey_path2"
+   },
+   "model": null,
+   "origin": [
+    -175.9839,
+    -20.955,
+    174.3647
+   ],
+   "target": "huey_path3",
+   "targetname": "huey_path2",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 242,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "huey_path4",
+    "targetname": "huey_path3"
+   },
+   "model": null,
+   "origin": [
+    -116.6241,
+    -20.1549,
+    180.0606
+   ],
+   "target": "huey_path4",
+   "targetname": "huey_path3",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 243,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "huey_path5",
+    "targetname": "huey_path4"
+   },
+   "model": null,
+   "origin": [
+    -111.633,
+    -21.9647,
+    177.5841
+   ],
+   "target": "huey_path5",
+   "targetname": "huey_path4",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 244,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "huey_path6",
+    "targetname": "huey_path5"
+   },
+   "model": null,
+   "origin": [
+    -107.9373,
+    -22.4028,
+    176.5554
+   ],
+   "target": "huey_path6",
+   "targetname": "huey_path5",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 245,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "huey_path7",
+    "targetname": "huey_path6"
+   },
+   "model": null,
+   "origin": [
+    -105.4227,
+    -22.7647,
+    175.9458
+   ],
+   "target": "huey_path7",
+   "targetname": "huey_path6",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 246,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "huey_path8",
+    "targetname": "huey_path7"
+   },
+   "model": null,
+   "origin": [
+    -102.5462,
+    -23.2981,
+    175.5839
+   ],
+   "target": "huey_path8",
+   "targetname": "huey_path7",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 247,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "huey_path9",
+    "targetname": "huey_path8"
+   },
+   "model": null,
+   "origin": [
+    -101.2317,
+    -23.4315,
+    175.5839
+   ],
+   "target": "huey_path9",
+   "targetname": "huey_path8",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 248,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "huey_path10",
+    "targetname": "huey_path9"
+   },
+   "model": null,
+   "origin": [
+    -100.0887,
+    -23.5839,
+    175.5839
+   ],
+   "target": "huey_path10",
+   "targetname": "huey_path9",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 249,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "huey_path11",
+    "targetname": "huey_path10"
+   },
+   "model": null,
+   "origin": [
+    -99.1934,
+    -23.6791,
+    175.5839
+   ],
+   "target": "huey_path11",
+   "targetname": "huey_path10",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 250,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "huey_path12",
+    "targetname": "huey_path11"
+   },
+   "model": null,
+   "origin": [
+    -98.6981,
+    -23.7553,
+    175.5839
+   ],
+   "target": "huey_path12",
+   "targetname": "huey_path11",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 251,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "huey_path13",
+    "targetname": "huey_path12"
+   },
+   "model": null,
+   "origin": [
+    -98.1837,
+    -23.7744,
+    175.5839
+   ],
+   "target": "huey_path13",
+   "targetname": "huey_path12",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 252,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "huey_path14",
+    "targetname": "huey_path13"
+   },
+   "model": null,
+   "origin": [
+    -97.6884,
+    -23.7934,
+    175.5839
+   ],
+   "target": "huey_path14",
+   "targetname": "huey_path13",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 253,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "huey_path15",
+    "targetname": "huey_path14"
+   },
+   "model": null,
+   "origin": [
+    -97.1169,
+    -23.8125,
+    175.5839
+   ],
+   "target": "huey_path15",
+   "targetname": "huey_path14",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 254,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "huey_path16",
+    "targetname": "huey_path15"
+   },
+   "model": null,
+   "origin": [
+    -93.8022,
+    -23.5458,
+    175.9267
+   ],
+   "target": "huey_path16",
+   "targetname": "huey_path15",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 255,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "huey_path17",
+    "targetname": "huey_path16"
+   },
+   "model": null,
+   "origin": [
+    -87.7824,
+    -22.5743,
+    179.07
+   ],
+   "target": "huey_path17",
+   "targetname": "huey_path16",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 256,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "huey_path18",
+    "targetname": "huey_path17"
+   },
+   "model": null,
+   "origin": [
+    -82.7151,
+    -22.5743,
+    182.4038
+   ],
+   "target": "huey_path18",
+   "targetname": "huey_path17",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 284,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "targetname": "huey_path18"
+   },
+   "model": null,
+   "origin": [
+    -22.3076,
+    -23.5839,
+    231.8004
+   ],
+   "target": "",
+   "targetname": "huey_path18",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 354,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "trex_2",
+    "targetname": "trex_1"
+   },
+   "model": null,
+   "origin": [
+    -63.6651,
+    -16.1248,
+    48.368
+   ],
+   "target": "trex_2",
+   "targetname": "trex_1",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 355,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "trex_3",
+    "targetname": "trex_2"
+   },
+   "model": null,
+   "origin": [
+    -67.7037,
+    -16.002,
+    44.2341
+   ],
+   "target": "trex_3",
+   "targetname": "trex_2",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 356,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "trex_4",
+    "targetname": "trex_3"
+   },
+   "model": null,
+   "origin": [
+    -69.5706,
+    -16.1735,
+    38.081
+   ],
+   "target": "trex_4",
+   "targetname": "trex_3",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 357,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "trex_5",
+    "targetname": "trex_4"
+   },
+   "model": null,
+   "origin": [
+    -85.6298,
+    -17.0307,
+    -20.2692
+   ],
+   "target": "trex_5",
+   "targetname": "trex_4",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 358,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "trex_6",
+    "targetname": "trex_5"
+   },
+   "model": null,
+   "origin": [
+    -48.5585,
+    -16.383,
+    13.5065
+   ],
+   "target": "trex_6",
+   "targetname": "trex_5",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 359,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "stego_2",
+    "targetname": "stego_1"
+   },
+   "model": null,
+   "origin": [
+    85.8203,
+    -15.1257,
+    88.4871
+   ],
+   "target": "stego_2",
+   "targetname": "stego_1",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 360,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "stego_3",
+    "targetname": "stego_2"
+   },
+   "model": null,
+   "origin": [
+    85.8393,
+    -15.1257,
+    87.5961
+   ],
+   "target": "stego_3",
+   "targetname": "stego_2",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 361,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "stego_4",
+    "targetname": "stego_3"
+   },
+   "model": null,
+   "origin": [
+    84.8297,
+    -15.1257,
+    87.5961
+   ],
+   "target": "stego_4",
+   "targetname": "stego_3",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 362,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "stego_1",
+    "targetname": "stego_4"
+   },
+   "model": null,
+   "origin": [
+    84.8297,
+    -15.1257,
+    88.5105
+   ],
+   "target": "stego_1",
+   "targetname": "stego_4",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_hinge",
+   "entity": 364,
+   "keys": {
+    "SystemLoadScale": "1",
+    "attach1": "2_boat",
+    "attach2": "tire_4_1",
+    "forcelimit": "0",
+    "hingeaxis": "279.43 -3221.7 -771.42",
+    "hingefriction": "0",
+    "maxSoundThreshold": "80",
+    "minSoundThreshold": "6",
+    "spawnflags": "8",
+    "torquelimit": "0"
+   },
+   "model": null,
+   "origin": [
+    5.3231,
+    -14.6955,
+    61.5277
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_hinge",
+   "entity": 366,
+   "keys": {
+    "SystemLoadScale": "1",
+    "attach1": "2_boat",
+    "attach2": "tire_1_1",
+    "forcelimit": "0",
+    "hingeaxis": "279.65 -3337.2 -771.12",
+    "hingefriction": "0",
+    "maxSoundThreshold": "80",
+    "minSoundThreshold": "6",
+    "reversalsoundthresholdLarge": "0",
+    "reversalsoundthresholdMedium": "0",
+    "reversalsoundthresholdSmall": "0",
+    "spawnflags": "8",
+    "teleportfollowdistance": "0",
+    "torquelimit": "0"
+   },
+   "model": null,
+   "origin": [
+    5.3273,
+    -14.6898,
+    63.4327
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_hinge",
+   "entity": 368,
+   "keys": {
+    "SystemLoadScale": "1",
+    "attach1": "2_boat",
+    "attach2": "tire_2_1",
+    "forcelimit": "0",
+    "hingeaxis": "25.72 -3342.74 -771.42",
+    "hingefriction": "0",
+    "maxSoundThreshold": "80",
+    "minSoundThreshold": "6",
+    "spawnflags": "8",
+    "torquelimit": "0"
+   },
+   "model": null,
+   "origin": [
+    0.4899,
+    -14.6955,
+    63.5268
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_hinge",
+   "entity": 370,
+   "keys": {
+    "SystemLoadScale": "1",
+    "attach1": "2_boat",
+    "attach2": "tire_3_1",
+    "forcelimit": "0",
+    "hingeaxis": "-50.84 -3342.74 -771.42",
+    "hingefriction": "0",
+    "maxSoundThreshold": "80",
+    "minSoundThreshold": "6",
+    "spawnflags": "8",
+    "torquelimit": "0"
+   },
+   "model": null,
+   "origin": [
+    -0.9685,
+    -14.6955,
+    63.5268
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_hinge",
+   "entity": 372,
+   "keys": {
+    "SystemLoadScale": "1",
+    "attach1": "2_boat",
+    "attach2": "tire_6_1",
+    "forcelimit": "0",
+    "hingeaxis": "-51.72 -3225.84 -771.22",
+    "hingefriction": "0",
+    "maxSoundThreshold": "80",
+    "minSoundThreshold": "6",
+    "spawnflags": "8",
+    "torquelimit": "0"
+   },
+   "model": null,
+   "origin": [
+    -0.9853,
+    -14.6917,
+    61.6047
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_hinge",
+   "entity": 374,
+   "keys": {
+    "SystemLoadScale": "1",
+    "attach1": "2_boat",
+    "attach2": "tire_5_1",
+    "forcelimit": "0",
+    "hingeaxis": "24.72 -3225.84 -771.22",
+    "hingefriction": "0",
+    "maxSoundThreshold": "80",
+    "minSoundThreshold": "6",
+    "spawnflags": "8",
+    "torquelimit": "0"
+   },
+   "model": null,
+   "origin": [
+    0.4709,
+    -14.6917,
+    61.6047
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 376,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "trex_7",
+    "targetname": "trex_6"
+   },
+   "model": null,
+   "origin": [
+    -37.7,
+    -15.5829,
+    38.7477
+   ],
+   "target": "trex_7",
+   "targetname": "trex_6",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 377,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "trex_1",
+    "targetname": "trex_7"
+   },
+   "model": null,
+   "origin": [
+    -40.9956,
+    -15.983,
+    46.6344
+   ],
+   "target": "trex_1",
+   "targetname": "trex_7",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_blood",
+   "entity": 391,
+   "keys": {
+    "amount": "300",
+    "spawnflags": "1",
+    "spraydir": "0 0 0",
+    "targetname": "blood"
+   },
+   "model": null,
+   "origin": [
+    85.5536,
+    -14.1161,
+    88.1253
+   ],
+   "target": "",
+   "targetname": "blood",
+   "treatment": "data"
+  }
+ ],
  "format": "dot-bsp-mesh",
  "hulls": [],
+ "links": [
+  {
+   "delay": 0.0,
+   "from": 64,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "ambient_crickets",
+   "times": 1,
+   "to": [
+    63
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 64,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "ambient_frog",
+   "times": 1,
+   "to": [
+    84
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 64,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "ambient_generator_loop",
+   "times": 1,
+   "to": [
+    132
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 64,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Open",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "electric_door",
+   "times": 1,
+   "to": [
+    161
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 64,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Enable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "colorcorrection",
+   "times": 1,
+   "to": [
+    299
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 64,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "StartForward",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "stegosaur",
+   "times": 1,
+   "to": [
+    327
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 64,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "raptorsound",
+   "times": 1,
+   "to": [
+    382
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 74,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Open",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "swing_door_1",
+   "times": 1,
+   "to": [
+    76
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 74,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Open",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "swing_door_2",
+   "times": 1,
+   "to": [
+    77
+   ]
+  },
+  {
+   "delay": 6.0,
+   "from": 75,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Open",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "swing_door_1",
+   "times": 1,
+   "to": [
+    76
+   ]
+  },
+  {
+   "delay": 6.0,
+   "from": 75,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Open",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "swing_door_2",
+   "times": 1,
+   "to": [
+    77
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 75,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Close",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "swing_door_1",
+   "times": 1,
+   "to": [
+    76
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 75,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Close",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "swing_door_2",
+   "times": 1,
+   "to": [
+    77
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 93,
+   "from_class": "func_breakable",
+   "from_name": "",
+   "input": "Kill",
+   "output": "OnBreak",
+   "param": "",
+   "special": false,
+   "target": "grass_1",
+   "times": -1,
+   "to": [
+    98
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 95,
+   "from_class": "func_breakable",
+   "from_name": "",
+   "input": "Kill",
+   "output": "OnBreak",
+   "param": "",
+   "special": false,
+   "target": "grass_2",
+   "times": -1,
+   "to": [
+    108
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 118,
+   "from_class": "func_breakable",
+   "from_name": "",
+   "input": "Kill",
+   "output": "OnBreak",
+   "param": "",
+   "special": false,
+   "target": "intox",
+   "times": -1,
+   "to": [
+    314
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 131,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Toggle",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "electric_hurt",
+   "times": 1,
+   "to": [
+    115,
+    116,
+    117,
+    120,
+    121,
+    158
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 131,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "ToggleSound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "ambient_generator_loop",
+   "times": 1,
+   "to": [
+    132
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 131,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "ToggleSound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "ambient_generator_off",
+   "times": 1,
+   "to": [
+    133
+   ]
+  },
+  {
+   "delay": 2.0,
+   "from": 131,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Toggle",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "generator_light_1",
+   "times": 1,
+   "to": [
+    128
+   ]
+  },
+  {
+   "delay": 2.0,
+   "from": 131,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Toggle",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "generator_light_2",
+   "times": 1,
+   "to": [
+    129
+   ]
+  },
+  {
+   "delay": 2.0,
+   "from": 131,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Toggle",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "generator_light_3",
+   "times": 1,
+   "to": [
+    130
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 131,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "ToggleSpark",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "electric_spark",
+   "times": 1,
+   "to": [
+    159
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 131,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Toggle",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "electric_hurt_2",
+   "times": 1,
+   "to": [
+    162
+   ]
+  },
+  {
+   "delay": 1.0,
+   "from": 131,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say ** Generator override enabled **",
+   "special": false,
+   "target": "notification",
+   "times": 1,
+   "to": [
+    258
+   ]
+  },
+  {
+   "delay": 2.0,
+   "from": 131,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say ** Power has been lost to Jurassic Park **",
+   "special": false,
+   "target": "notification",
+   "times": 1,
+   "to": [
+    258
+   ]
+  },
+  {
+   "delay": 30.0,
+   "from": 131,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Open",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "electric_door",
+   "times": 1,
+   "to": [
+    161
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 137,
+   "from_class": "path_track",
+   "from_name": "truckpath_1",
+   "input": "Stop",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "2_boat",
+   "times": -1,
+   "to": [
+    363
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 148,
+   "from_class": "path_track",
+   "from_name": "truckpath_12",
+   "input": "Stop",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "2_boat",
+   "times": -1,
+   "to": [
+    363
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 148,
+   "from_class": "path_track",
+   "from_name": "truckpath_12",
+   "input": "PlaySound",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "ambient_crash",
+   "times": 1,
+   "to": [
+    160
+   ]
+  },
+  {
+   "delay": 11.0,
+   "from": 149,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "StartForward",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "2_boat",
+   "times": 1,
+   "to": [
+    363
+   ]
+  },
+  {
+   "delay": 3.0,
+   "from": 149,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "ambient_trex",
+   "times": 1,
+   "to": [
+    157
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 149,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "StartForward",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "tyrannosaur",
+   "times": 1,
+   "to": [
+    326
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 164,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Toggle",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "electric_door",
+   "times": -1,
+   "to": [
+    161
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 240,
+   "from_class": "path_track",
+   "from_name": "huey_path1",
+   "input": "Stop",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "huey",
+   "times": 1,
+   "to": [
+    233
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 245,
+   "from_class": "path_track",
+   "from_name": "huey_path6",
+   "input": "SetSpeed",
+   "output": "OnPass",
+   "param": "150",
+   "special": false,
+   "target": "huey",
+   "times": -1,
+   "to": [
+    233
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 246,
+   "from_class": "path_track",
+   "from_name": "huey_path7",
+   "input": "SetSpeed",
+   "output": "OnPass",
+   "param": "100",
+   "special": false,
+   "target": "huey",
+   "times": -1,
+   "to": [
+    233
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 249,
+   "from_class": "path_track",
+   "from_name": "huey_path10",
+   "input": "SetSpeed",
+   "output": "OnPass",
+   "param": "100",
+   "special": false,
+   "target": "huey",
+   "times": -1,
+   "to": [
+    233
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 250,
+   "from_class": "path_track",
+   "from_name": "huey_path11",
+   "input": "SetSpeed",
+   "output": "OnPass",
+   "param": "100",
+   "special": false,
+   "target": "huey",
+   "times": -1,
+   "to": [
+    233
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 251,
+   "from_class": "path_track",
+   "from_name": "huey_path12",
+   "input": "SetSpeed",
+   "output": "OnPass",
+   "param": "100",
+   "special": false,
+   "target": "huey",
+   "times": -1,
+   "to": [
+    233
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 252,
+   "from_class": "path_track",
+   "from_name": "huey_path13",
+   "input": "SetSpeed",
+   "output": "OnPass",
+   "param": "100",
+   "special": false,
+   "target": "huey",
+   "times": -1,
+   "to": [
+    233
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 253,
+   "from_class": "path_track",
+   "from_name": "huey_path14",
+   "input": "Stop",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "huey",
+   "times": 1,
+   "to": [
+    233
+   ]
+  },
+  {
+   "delay": 10.0,
+   "from": 253,
+   "from_class": "path_track",
+   "from_name": "huey_path14",
+   "input": "StartForward",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "huey",
+   "times": 1,
+   "to": [
+    233
+   ]
+  },
+  {
+   "delay": 60.0,
+   "from": 257,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "StartForward",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "huey",
+   "times": 1,
+   "to": [
+    233
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 257,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say ** Call the mainland - Tell them to send the damn helicopters! **",
+   "special": false,
+   "target": "notification",
+   "times": 0,
+   "to": [
+    258
+   ]
+  },
+  {
+   "delay": 70.0,
+   "from": 257,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say ** Biosyn Huey inbound - ETA 15 seconds **",
+   "special": false,
+   "target": "notification",
+   "times": 1,
+   "to": [
+    258
+   ]
+  },
+  {
+   "delay": 100.0,
+   "from": 257,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say ** Nerve gas released **",
+   "special": false,
+   "target": "notification",
+   "times": 1,
+   "to": [
+    258
+   ]
+  },
+  {
+   "delay": 110.0,
+   "from": 257,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Enable",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "nerve_gas",
+   "times": 1,
+   "to": [
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    296,
+    297,
+    298,
+    312,
+    317,
+    318
+   ]
+  },
+  {
+   "delay": 80.0,
+   "from": 257,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "ambient_theme",
+   "times": 1,
+   "to": [
+    273
+   ]
+  },
+  {
+   "delay": 83.0,
+   "from": 257,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "StopSound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "ambient_crickets",
+   "times": 1,
+   "to": [
+    63
+   ]
+  },
+  {
+   "delay": 2.0,
+   "from": 257,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say ** SECURE THE LZ **",
+   "special": false,
+   "target": "notification",
+   "times": 1,
+   "to": [
+    258
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 284,
+   "from_class": "path_track",
+   "from_name": "huey_path18",
+   "input": "Stop",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "huey",
+   "times": 1,
+   "to": [
+    233
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 315,
+   "from_class": "func_breakable",
+   "from_name": "",
+   "input": "Kill",
+   "output": "OnBreak",
+   "param": "",
+   "special": false,
+   "target": "rusty_ladder",
+   "times": -1,
+   "to": [
+    316
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 359,
+   "from_class": "path_track",
+   "from_name": "stego_1",
+   "input": "EmitBlood",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "blood",
+   "times": -1,
+   "to": [
+    391
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 359,
+   "from_class": "path_track",
+   "from_name": "stego_1",
+   "input": "PlaySound",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "bloodsound",
+   "times": -1,
+   "to": [
+    385
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 360,
+   "from_class": "path_track",
+   "from_name": "stego_2",
+   "input": "EmitBlood",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "blood",
+   "times": -1,
+   "to": [
+    391
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 360,
+   "from_class": "path_track",
+   "from_name": "stego_2",
+   "input": "PlaySound",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "bloodsound",
+   "times": -1,
+   "to": [
+    385
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 361,
+   "from_class": "path_track",
+   "from_name": "stego_3",
+   "input": "EmitBlood",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "blood",
+   "times": -1,
+   "to": [
+    391
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 361,
+   "from_class": "path_track",
+   "from_name": "stego_3",
+   "input": "PlaySound",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "bloodsound",
+   "times": -1,
+   "to": [
+    385
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 362,
+   "from_class": "path_track",
+   "from_name": "stego_4",
+   "input": "EmitBlood",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "blood",
+   "times": -1,
+   "to": [
+    391
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 362,
+   "from_class": "path_track",
+   "from_name": "stego_4",
+   "input": "PlaySound",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "bloodsound",
+   "times": -1,
+   "to": [
+    385
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 384,
+   "from_class": "trigger_multiple",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "rexsound",
+   "times": -1,
+   "to": [
+    383
+   ]
+  }
+ ],
+ "movers": [
+  {
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "classname": "func_rotating",
+   "degrees_per_second": 1000.0,
+   "entity": 235,
+   "kind": "spin",
+   "maxs": [
+    -185.166,
+    -26.7092,
+    150.9507
+   ],
+   "mins": [
+    -185.6613,
+    -30.9371,
+    150.5697
+   ],
+   "model": 68,
+   "opened_by": [],
+   "origin": [
+    -185.414,
+    -28.8221,
+    150.7602
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 537,
+   "start_on": true,
+   "targetname": "huey_blade",
+   "travel_time": 0.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "func_rotating",
+   "degrees_per_second": 1000.0,
+   "entity": 237,
+   "kind": "spin",
+   "maxs": [
+    -170.9928,
+    -28.1183,
+    159.7899
+   ],
+   "mins": [
+    -173.8124,
+    -29.49,
+    142.7208
+   ],
+   "model": 70,
+   "opened_by": [],
+   "origin": [
+    -172.4029,
+    -28.8042,
+    151.2555
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 529,
+   "start_on": true,
+   "targetname": "huey_blade",
+   "travel_time": 0.0
+  }
+ ],
  "name": "ze_jurassicpark",
  "notes": [],
  "skipped": {
@@ -20356,6 +22393,29 @@
    "vertex_count": 348
   },
   {
+   "classname": "func_rotating",
+   "colour": [
+    0.1628,
+    0.1873,
+    0.2163
+   ],
+   "entity": 235,
+   "generic": "metal",
+   "index_count": 468,
+   "index_offset": 2182044,
+   "material": "metal/metalcombine002",
+   "model": 68,
+   "normal_offset": 2177604,
+   "position_offset": 2174940,
+   "targetname": "huey_blade",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 2180268,
+   "vertex_count": 222
+  },
+  {
    "classname": "func_wall_toggle",
    "colour": [
     0.1628,
@@ -20365,16 +22425,16 @@
    "entity": 236,
    "generic": "metal",
    "index_count": 1011,
-   "index_offset": 2191676,
+   "index_offset": 2200652,
    "material": "metal/metalcombine002",
    "model": 69,
-   "normal_offset": 2181216,
-   "position_offset": 2174940,
+   "normal_offset": 2190192,
+   "position_offset": 2183916,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 2187492,
+   "uv_offset": 2196468,
    "vertex_count": 523
   },
   {
@@ -20387,16 +22447,16 @@
    "entity": 236,
    "generic": "metal",
    "index_count": 27,
-   "index_offset": 2196072,
+   "index_offset": 2205048,
    "material": "metal/metaldoor044a",
    "model": 69,
-   "normal_offset": 2195852,
-   "position_offset": 2195720,
+   "normal_offset": 2204828,
+   "position_offset": 2204696,
    "texels": [
     256,
     512
    ],
-   "uv_offset": 2195984,
+   "uv_offset": 2204960,
    "vertex_count": 11
   },
   {
@@ -20409,16 +22469,16 @@
    "entity": 236,
    "generic": "metal",
    "index_count": 105,
-   "index_offset": 2197108,
+   "index_offset": 2206084,
    "material": "metal/metalhull010b",
    "model": 69,
-   "normal_offset": 2196528,
-   "position_offset": 2196180,
+   "normal_offset": 2205504,
+   "position_offset": 2205156,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 2196876,
+   "uv_offset": 2205852,
    "vertex_count": 29
   },
   {
@@ -20431,17 +22491,40 @@
    "entity": 236,
    "generic": "metal",
    "index_count": 1650,
-   "index_offset": 2220536,
+   "index_offset": 2229512,
    "material": "metal/metalwall074a",
    "model": 69,
-   "normal_offset": 2206156,
-   "position_offset": 2197528,
+   "normal_offset": 2215132,
+   "position_offset": 2206504,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 2214784,
+   "uv_offset": 2223760,
    "vertex_count": 719
+  },
+  {
+   "classname": "func_rotating",
+   "colour": [
+    0.1628,
+    0.1873,
+    0.2163
+   ],
+   "entity": 237,
+   "generic": "metal",
+   "index_count": 1938,
+   "index_offset": 2266480,
+   "material": "metal/metalcombine002",
+   "model": 70,
+   "normal_offset": 2247500,
+   "position_offset": 2236112,
+   "targetname": "huey_blade",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 2258888,
+   "vertex_count": 949
   },
   {
    "classname": "func_breakable",
@@ -20453,16 +22536,16 @@
    "entity": 238,
    "generic": "glass",
    "index_count": 81,
-   "index_offset": 2227936,
+   "index_offset": 2275032,
    "material": "glass/glasswindowbreak070a",
    "model": 71,
-   "normal_offset": 2227436,
-   "position_offset": 2227136,
+   "normal_offset": 2274532,
+   "position_offset": 2274232,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 2227736,
+   "uv_offset": 2274832,
    "vertex_count": 25
   },
   {
@@ -20475,16 +22558,16 @@
    "entity": 238,
    "generic": "glass",
    "index_count": 60,
-   "index_offset": 2228740,
+   "index_offset": 2275836,
    "material": "glass/glasswindowbreak070a",
    "model": 71,
-   "normal_offset": 2228440,
-   "position_offset": 2228260,
+   "normal_offset": 2275536,
+   "position_offset": 2275356,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 2228620,
+   "uv_offset": 2275716,
    "vertex_count": 15
   },
   {
@@ -20497,16 +22580,16 @@
    "entity": 238,
    "generic": "glass",
    "index_count": 33,
-   "index_offset": 2229300,
+   "index_offset": 2276396,
    "material": "glass/glasswindowbreak070a",
    "model": 71,
-   "normal_offset": 2229100,
-   "position_offset": 2228980,
+   "normal_offset": 2276196,
+   "position_offset": 2276076,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 2229220,
+   "uv_offset": 2276316,
    "vertex_count": 10
   },
   {
@@ -20519,16 +22602,16 @@
    "entity": 239,
    "generic": "glass",
    "index_count": 111,
-   "index_offset": 2230552,
+   "index_offset": 2277648,
    "material": "glass/glasswindowbreak070a",
    "model": 72,
-   "normal_offset": 2229852,
-   "position_offset": 2229432,
+   "normal_offset": 2276948,
+   "position_offset": 2276528,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 2230272,
+   "uv_offset": 2277368,
    "vertex_count": 35
   },
   {
@@ -20541,16 +22624,16 @@
    "entity": 239,
    "generic": "glass",
    "index_count": 15,
-   "index_offset": 2231252,
+   "index_offset": 2278348,
    "material": "glass/glasswindowbreak070a",
    "model": 72,
-   "normal_offset": 2231092,
-   "position_offset": 2230996,
+   "normal_offset": 2278188,
+   "position_offset": 2278092,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 2231188,
+   "uv_offset": 2278284,
    "vertex_count": 8
   },
   {
@@ -20563,16 +22646,16 @@
    "entity": 239,
    "generic": "glass",
    "index_count": 6,
-   "index_offset": 2231440,
+   "index_offset": 2278536,
    "material": "glass/glasswindowbreak070a",
    "model": 72,
-   "normal_offset": 2231360,
-   "position_offset": 2231312,
+   "normal_offset": 2278456,
+   "position_offset": 2278408,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 2231408,
+   "uv_offset": 2278504,
    "vertex_count": 4
   },
   {
@@ -20585,16 +22668,16 @@
    "entity": 285,
    "generic": "plaster_painted",
    "index_count": 240,
-   "index_offset": 2234792,
+   "index_offset": 2281888,
    "material": "park/solidred",
    "model": 88,
-   "normal_offset": 2232712,
-   "position_offset": 2231464,
+   "normal_offset": 2279808,
+   "position_offset": 2278560,
    "texels": [
     64,
     64
    ],
-   "uv_offset": 2233960,
+   "uv_offset": 2281056,
    "vertex_count": 104
   },
   {
@@ -20607,16 +22690,16 @@
    "entity": 286,
    "generic": "plaster_painted",
    "index_count": 108,
-   "index_offset": 2237544,
+   "index_offset": 2284640,
    "material": "park/solidred",
    "model": 89,
-   "normal_offset": 2236424,
-   "position_offset": 2235752,
+   "normal_offset": 2283520,
+   "position_offset": 2282848,
    "texels": [
     64,
     64
    ],
-   "uv_offset": 2237096,
+   "uv_offset": 2284192,
    "vertex_count": 56
   },
   {
@@ -20629,16 +22712,16 @@
    "entity": 287,
    "generic": "plaster_painted",
    "index_count": 84,
-   "index_offset": 2239512,
+   "index_offset": 2286608,
    "material": "park/solidred",
    "model": 90,
-   "normal_offset": 2238552,
-   "position_offset": 2237976,
+   "normal_offset": 2285648,
+   "position_offset": 2285072,
    "texels": [
     64,
     64
    ],
-   "uv_offset": 2239128,
+   "uv_offset": 2286224,
    "vertex_count": 48
   },
   {
@@ -20651,16 +22734,16 @@
    "entity": 288,
    "generic": "plaster_painted",
    "index_count": 84,
-   "index_offset": 2241384,
+   "index_offset": 2288480,
    "material": "park/solidred",
    "model": 91,
-   "normal_offset": 2240424,
-   "position_offset": 2239848,
+   "normal_offset": 2287520,
+   "position_offset": 2286944,
    "texels": [
     64,
     64
    ],
-   "uv_offset": 2241000,
+   "uv_offset": 2288096,
    "vertex_count": 48
   },
   {
@@ -20673,16 +22756,16 @@
    "entity": 289,
    "generic": "plaster_painted",
    "index_count": 156,
-   "index_offset": 2244280,
+   "index_offset": 2291376,
    "material": "park/solidred",
    "model": 92,
-   "normal_offset": 2242680,
-   "position_offset": 2241720,
+   "normal_offset": 2289776,
+   "position_offset": 2288816,
    "texels": [
     64,
     64
    ],
-   "uv_offset": 2243640,
+   "uv_offset": 2290736,
    "vertex_count": 80
   },
   {
@@ -20695,16 +22778,16 @@
    "entity": 290,
    "generic": "plaster_painted",
    "index_count": 192,
-   "index_offset": 2248232,
+   "index_offset": 2295328,
    "material": "park/solidred",
    "model": 93,
-   "normal_offset": 2246152,
-   "position_offset": 2244904,
+   "normal_offset": 2293248,
+   "position_offset": 2292000,
    "texels": [
     64,
     64
    ],
-   "uv_offset": 2247400,
+   "uv_offset": 2294496,
    "vertex_count": 104
   },
   {
@@ -20717,16 +22800,16 @@
    "entity": 291,
    "generic": "plaster_painted",
    "index_count": 222,
-   "index_offset": 2251848,
+   "index_offset": 2298944,
    "material": "park/solidred",
    "model": 94,
-   "normal_offset": 2250068,
-   "position_offset": 2249000,
+   "normal_offset": 2297164,
+   "position_offset": 2296096,
    "texels": [
     64,
     64
    ],
-   "uv_offset": 2251136,
+   "uv_offset": 2298232,
    "vertex_count": 89
   },
   {
@@ -20739,16 +22822,16 @@
    "entity": 292,
    "generic": "plaster_painted",
    "index_count": 144,
-   "index_offset": 2255168,
+   "index_offset": 2302264,
    "material": "park/solidred",
    "model": 95,
-   "normal_offset": 2253648,
-   "position_offset": 2252736,
+   "normal_offset": 2300744,
+   "position_offset": 2299832,
    "texels": [
     64,
     64
    ],
-   "uv_offset": 2254560,
+   "uv_offset": 2301656,
    "vertex_count": 76
   },
   {
@@ -20761,16 +22844,16 @@
    "entity": 293,
    "generic": "plaster_painted",
    "index_count": 132,
-   "index_offset": 2258048,
+   "index_offset": 2305144,
    "material": "park/solidred",
    "model": 96,
-   "normal_offset": 2256608,
-   "position_offset": 2255744,
+   "normal_offset": 2303704,
+   "position_offset": 2302840,
    "texels": [
     64,
     64
    ],
-   "uv_offset": 2257472,
+   "uv_offset": 2304568,
    "vertex_count": 72
   },
   {
@@ -20783,16 +22866,16 @@
    "entity": 294,
    "generic": "plaster_painted",
    "index_count": 120,
-   "index_offset": 2260624,
+   "index_offset": 2307720,
    "material": "park/solidred",
    "model": 97,
-   "normal_offset": 2259344,
-   "position_offset": 2258576,
+   "normal_offset": 2306440,
+   "position_offset": 2305672,
    "texels": [
     64,
     64
    ],
-   "uv_offset": 2260112,
+   "uv_offset": 2307208,
    "vertex_count": 64
   },
   {
@@ -20805,16 +22888,16 @@
    "entity": 295,
    "generic": "plaster_painted",
    "index_count": 156,
-   "index_offset": 2263664,
+   "index_offset": 2310760,
    "material": "park/solidred",
    "model": 98,
-   "normal_offset": 2262064,
-   "position_offset": 2261104,
+   "normal_offset": 2309160,
+   "position_offset": 2308200,
    "texels": [
     64,
     64
    ],
-   "uv_offset": 2263024,
+   "uv_offset": 2310120,
    "vertex_count": 80
   },
   {
@@ -20827,16 +22910,16 @@
    "entity": 313,
    "generic": "wood_planks",
    "index_count": 78,
-   "index_offset": 2265376,
+   "index_offset": 2312472,
    "material": "wood/woodshelf001a",
    "model": 107,
-   "normal_offset": 2264696,
-   "position_offset": 2264288,
+   "normal_offset": 2311792,
+   "position_offset": 2311384,
    "texels": [
     128,
     256
    ],
-   "uv_offset": 2265104,
+   "uv_offset": 2312200,
    "vertex_count": 34
   },
   {
@@ -20849,17 +22932,17 @@
    "entity": 314,
    "generic": "plaster_painted",
    "index_count": 600,
-   "index_offset": 2277464,
+   "index_offset": 2324560,
    "material": "park/solidred",
    "model": 108,
-   "normal_offset": 2270104,
-   "position_offset": 2265688,
+   "normal_offset": 2317200,
+   "position_offset": 2312784,
    "targetname": "intox",
    "texels": [
     64,
     64
    ],
-   "uv_offset": 2274520,
+   "uv_offset": 2321616,
    "vertex_count": 368
   },
   {
@@ -20872,16 +22955,16 @@
    "entity": 315,
    "generic": "stone_wall",
    "index_count": 2496,
-   "index_offset": 2312376,
+   "index_offset": 2359472,
    "material": "de_dust/pi_rust",
    "model": 109,
-   "normal_offset": 2292056,
-   "position_offset": 2279864,
+   "normal_offset": 2339152,
+   "position_offset": 2326960,
    "texels": [
     128,
     128
    ],
-   "uv_offset": 2304248,
+   "uv_offset": 2351344,
    "vertex_count": 1016
   },
   {
@@ -20894,16 +22977,16 @@
    "entity": 320,
    "generic": "stone_wall",
    "index_count": 36,
-   "index_offset": 2323128,
+   "index_offset": 2370224,
    "material": "de_dust/rockwall01",
    "model": 114,
-   "normal_offset": 2322648,
-   "position_offset": 2322360,
+   "normal_offset": 2369744,
+   "position_offset": 2369456,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 2322936,
+   "uv_offset": 2370032,
    "vertex_count": 24
   },
   {
@@ -20916,16 +22999,16 @@
    "entity": 353,
    "generic": "wood_planks",
    "index_count": 72,
-   "index_offset": 2324424,
+   "index_offset": 2371520,
    "material": "wood/woodshelf001a",
    "model": 119,
-   "normal_offset": 2323704,
-   "position_offset": 2323272,
+   "normal_offset": 2370800,
+   "position_offset": 2370368,
    "texels": [
     128,
     256
    ],
-   "uv_offset": 2324136,
+   "uv_offset": 2371232,
    "vertex_count": 36
   },
   {
@@ -20938,17 +23021,17 @@
    "entity": 363,
    "generic": "metal",
    "index_count": 861,
-   "index_offset": 2337640,
+   "index_offset": 2384736,
    "material": "cs_havana/metalfence007a",
    "model": 120,
-   "normal_offset": 2329560,
-   "position_offset": 2324712,
+   "normal_offset": 2376656,
+   "position_offset": 2371808,
    "targetname": "2_boat",
    "texels": [
     512,
     512
    ],
-   "uv_offset": 2334408,
+   "uv_offset": 2381504,
    "vertex_count": 404
   },
   {
@@ -20956,11 +23039,11 @@
    "entity": 363,
    "generic": "flat",
    "index_count": 348,
-   "index_offset": 2345116,
+   "index_offset": 2392212,
    "material": "cs_italy/black",
    "model": 120,
-   "normal_offset": 2342596,
-   "position_offset": 2341084,
+   "normal_offset": 2389692,
+   "position_offset": 2388180,
    "targetname": "2_boat",
    "texels": [
     32,
@@ -20971,7 +23054,7 @@
     0.1,
     0.1
    ],
-   "uv_offset": 2344108,
+   "uv_offset": 2391204,
    "vertex_count": 126
   },
   {
@@ -20984,17 +23067,17 @@
    "entity": 363,
    "generic": "metal",
    "index_count": 684,
-   "index_offset": 2355084,
+   "index_offset": 2402180,
    "material": "de_train/train_metalceiling_01",
    "model": 120,
-   "normal_offset": 2349724,
-   "position_offset": 2346508,
+   "normal_offset": 2396820,
+   "position_offset": 2393604,
    "targetname": "2_boat",
    "texels": [
     512,
     512
    ],
-   "uv_offset": 2352940,
+   "uv_offset": 2400036,
    "vertex_count": 268
   },
   {
@@ -21007,17 +23090,17 @@
    "entity": 363,
    "generic": "flat",
    "index_count": 372,
-   "index_offset": 2362524,
+   "index_offset": 2409620,
    "material": "effects/stairsatp",
    "model": 120,
-   "normal_offset": 2359584,
-   "position_offset": 2357820,
+   "normal_offset": 2406680,
+   "position_offset": 2404916,
    "targetname": "2_boat",
    "texels": [
     256,
     256
    ],
-   "uv_offset": 2361348,
+   "uv_offset": 2408444,
    "vertex_count": 147
   },
   {
@@ -21030,17 +23113,17 @@
    "entity": 363,
    "generic": "glass",
    "index_count": 9,
-   "index_offset": 2364172,
+   "index_offset": 2411268,
    "material": "glass/glasswindow041c",
    "model": 120,
-   "normal_offset": 2364072,
-   "position_offset": 2364012,
+   "normal_offset": 2411168,
+   "position_offset": 2411108,
    "targetname": "2_boat",
    "texels": [
     256,
     128
    ],
-   "uv_offset": 2364132,
+   "uv_offset": 2411228,
    "vertex_count": 5
   },
   {
@@ -21053,17 +23136,17 @@
    "entity": 363,
    "generic": "metal",
    "index_count": 18,
-   "index_offset": 2364528,
+   "index_offset": 2411624,
    "material": "metal/metalrail003a",
    "model": 120,
-   "normal_offset": 2364328,
-   "position_offset": 2364208,
+   "normal_offset": 2411424,
+   "position_offset": 2411304,
    "targetname": "2_boat",
    "texels": [
     512,
     128
    ],
-   "uv_offset": 2364448,
+   "uv_offset": 2411544,
    "vertex_count": 10
   },
   {
@@ -21076,17 +23159,17 @@
    "entity": 363,
    "generic": "metal",
    "index_count": 834,
-   "index_offset": 2375736,
+   "index_offset": 2422832,
    "material": "metal/metalvent002a",
    "model": 120,
-   "normal_offset": 2368776,
-   "position_offset": 2364600,
+   "normal_offset": 2415872,
+   "position_offset": 2411696,
    "targetname": "2_boat",
    "texels": [
     256,
     256
    ],
-   "uv_offset": 2372952,
+   "uv_offset": 2420048,
    "vertex_count": 348
   },
   {
@@ -21099,17 +23182,17 @@
    "entity": 363,
    "generic": "metal",
    "index_count": 726,
-   "index_offset": 2389696,
+   "index_offset": 2436792,
    "material": "metal/metalwall021b",
    "model": 120,
-   "normal_offset": 2383056,
-   "position_offset": 2379072,
+   "normal_offset": 2430152,
+   "position_offset": 2426168,
    "targetname": "2_boat",
    "texels": [
     512,
     512
    ],
-   "uv_offset": 2387040,
+   "uv_offset": 2434136,
    "vertex_count": 332
   },
   {
@@ -21122,17 +23205,17 @@
    "entity": 363,
    "generic": "metal",
    "index_count": 1629,
-   "index_offset": 2415384,
+   "index_offset": 2462480,
    "material": "models/buggy/ammo_box",
    "model": 120,
-   "normal_offset": 2401144,
-   "position_offset": 2392600,
+   "normal_offset": 2448240,
+   "position_offset": 2439696,
    "targetname": "2_boat",
    "texels": [
     256,
     256
    ],
-   "uv_offset": 2409688,
+   "uv_offset": 2456784,
    "vertex_count": 712
   },
   {
@@ -21145,17 +23228,17 @@
    "entity": 363,
    "generic": "metal",
    "index_count": 45,
-   "index_offset": 2422764,
+   "index_offset": 2469860,
    "material": "models/buggy/ammo_box",
    "model": 120,
-   "normal_offset": 2422224,
-   "position_offset": 2421900,
+   "normal_offset": 2469320,
+   "position_offset": 2468996,
    "targetname": "2_boat",
    "texels": [
     256,
     256
    ],
-   "uv_offset": 2422548,
+   "uv_offset": 2469644,
    "vertex_count": 27
   },
   {
@@ -21168,17 +23251,17 @@
    "entity": 363,
    "generic": "metal",
    "index_count": 2568,
-   "index_offset": 2455616,
+   "index_offset": 2502712,
    "material": "models/buggy/ammo_box",
    "model": 120,
-   "normal_offset": 2435196,
-   "position_offset": 2422944,
+   "normal_offset": 2482292,
+   "position_offset": 2470040,
    "targetname": "2_boat",
    "texels": [
     256,
     256
    ],
-   "uv_offset": 2447448,
+   "uv_offset": 2494544,
    "vertex_count": 1021
   },
   {
@@ -21191,17 +23274,17 @@
    "entity": 363,
    "generic": "metal",
    "index_count": 870,
-   "index_offset": 2477696,
+   "index_offset": 2524792,
    "material": "models/buggy/ammo_box",
    "model": 120,
-   "normal_offset": 2470316,
-   "position_offset": 2465888,
+   "normal_offset": 2517412,
+   "position_offset": 2512984,
    "targetname": "2_boat",
    "texels": [
     256,
     256
    ],
-   "uv_offset": 2474744,
+   "uv_offset": 2521840,
    "vertex_count": 369
   },
   {
@@ -21214,17 +23297,17 @@
    "entity": 363,
    "generic": "metal",
    "index_count": 6,
-   "index_offset": 2481304,
+   "index_offset": 2528400,
    "material": "models/buggy/ammo_box",
    "model": 120,
-   "normal_offset": 2481224,
-   "position_offset": 2481176,
+   "normal_offset": 2528320,
+   "position_offset": 2528272,
    "targetname": "2_boat",
    "texels": [
     256,
     256
    ],
-   "uv_offset": 2481272,
+   "uv_offset": 2528368,
    "vertex_count": 4
   },
   {
@@ -21237,17 +23320,17 @@
    "entity": 363,
    "generic": null,
    "index_count": 105,
-   "index_offset": 2482608,
+   "index_offset": 2529704,
    "material": "models/props/cs_militia/soap_rope",
    "model": 120,
-   "normal_offset": 2481808,
-   "position_offset": 2481328,
+   "normal_offset": 2528904,
+   "position_offset": 2528424,
    "targetname": "2_boat",
    "texels": [
     256,
     256
    ],
-   "uv_offset": 2482288,
+   "uv_offset": 2529384,
    "vertex_count": 40
   },
   {
@@ -21260,17 +23343,17 @@
    "entity": 363,
    "generic": null,
    "index_count": 24,
-   "index_offset": 2483412,
+   "index_offset": 2530508,
    "material": "models/props/de_train/light_inset",
    "model": 120,
-   "normal_offset": 2483172,
-   "position_offset": 2483028,
+   "normal_offset": 2530268,
+   "position_offset": 2530124,
    "targetname": "2_boat",
    "texels": [
     128,
     128
    ],
-   "uv_offset": 2483316,
+   "uv_offset": 2530412,
    "vertex_count": 12
   },
   {
@@ -21283,17 +23366,17 @@
    "entity": 363,
    "generic": "glass",
    "index_count": 12,
-   "index_offset": 2483764,
+   "index_offset": 2530860,
    "material": "shadertest/gooinglass",
    "model": 120,
-   "normal_offset": 2483604,
-   "position_offset": 2483508,
+   "normal_offset": 2530700,
+   "position_offset": 2530604,
    "targetname": "2_boat",
    "texels": [
     512,
     512
    ],
-   "uv_offset": 2483700,
+   "uv_offset": 2530796,
    "vertex_count": 8
   },
   {
@@ -21306,16 +23389,16 @@
    "entity": 378,
    "generic": "wood_planks",
    "index_count": 36,
-   "index_offset": 2484580,
+   "index_offset": 2531676,
    "material": "wood/woodshelf001a",
    "model": 121,
-   "normal_offset": 2484100,
-   "position_offset": 2483812,
+   "normal_offset": 2531196,
+   "position_offset": 2530908,
    "texels": [
     128,
     256
    ],
-   "uv_offset": 2484388,
+   "uv_offset": 2531484,
    "vertex_count": 24
   }
  ],
@@ -21328,6 +23411,2857 @@
   "y0": 0.0
  },
  "version": 1,
+ "volumes": [
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -80.2005
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      101.17455
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      -93.2688
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      101.4603
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      15.10665
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -12.5349
+     ]
+    ]
+   ],
+   "classname": "trigger_once",
+   "disabled": false,
+   "entity": 64,
+   "filter": "",
+   "kind": "once",
+   "model": 10,
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "ambient_crickets",
+     "times": 1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "ambient_frog",
+     "times": 1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "ambient_generator_loop",
+     "times": 1
+    },
+    {
+     "delay": 0.0,
+     "input": "Open",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "electric_door",
+     "times": 1
+    },
+    {
+     "delay": 0.0,
+     "input": "Enable",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "colorcorrection",
+     "times": 1
+    },
+    {
+     "delay": 0.0,
+     "input": "StartForward",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "stegosaur",
+     "times": 1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "raptorsound",
+     "times": 1
+    }
+   ],
+   "spawnflags": 1,
+   "targetname": "",
+   "wait": -1.0
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -79.2099
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      102.39375
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      30.30855
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      12.3444
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      34.8996
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -30.099
+     ]
+    ]
+   ],
+   "classname": "func_water_analog",
+   "disabled": false,
+   "entity": 66,
+   "kind": "water",
+   "model": 11,
+   "outputs": [],
+   "spawnflags": 0,
+   "targetname": ""
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -79.45755
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      102.20325
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      -48.5775
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      50.00625
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      15.14475
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -12.192
+     ]
+    ]
+   ],
+   "classname": "trigger_once",
+   "disabled": false,
+   "entity": 74,
+   "filter": "",
+   "kind": "once",
+   "model": 18,
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "Open",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "swing_door_1",
+     "times": 1
+    },
+    {
+     "delay": 0.0,
+     "input": "Open",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "swing_door_2",
+     "times": 1
+    }
+   ],
+   "spawnflags": 1,
+   "targetname": "",
+   "wait": -1.0
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -79.4766
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      102.2223
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      -26.4795
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      27.90825
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      15.14475
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -12.192
+     ]
+    ]
+   ],
+   "classname": "trigger_once",
+   "disabled": false,
+   "entity": 75,
+   "filter": "",
+   "kind": "once",
+   "model": 19,
+   "outputs": [
+    {
+     "delay": 6.0,
+     "input": "Open",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "swing_door_1",
+     "times": 1
+    },
+    {
+     "delay": 6.0,
+     "input": "Open",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "swing_door_2",
+     "times": 1
+    },
+    {
+     "delay": 0.0,
+     "input": "Close",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "swing_door_1",
+     "times": 1
+    },
+    {
+     "delay": 0.0,
+     "input": "Close",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "swing_door_2",
+     "times": 1
+    }
+   ],
+   "spawnflags": 1,
+   "targetname": "",
+   "wait": -1.0
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -47.41545
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      101.6127
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      104.3178
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -89.9541
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      34.8996
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -34.8234
+     ]
+    ]
+   ],
+   "classname": "func_water_analog",
+   "disabled": false,
+   "entity": 78,
+   "kind": "water",
+   "model": 22,
+   "outputs": [],
+   "spawnflags": 0,
+   "targetname": ""
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      10.2108
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -9.81075
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      58.5216
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      29.2608
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      15.24
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -10.34415
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 2000.0,
+   "disabled": false,
+   "entity": 115,
+   "kind": "hurt",
+   "model": 41,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "electric_hurt"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      88.2015
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -87.7824
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      58.674
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      10.5537
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      15.24
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -10.3251
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 2000.0,
+   "disabled": false,
+   "entity": 116,
+   "kind": "hurt",
+   "model": 42,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "electric_hurt"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      88.1634
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -9.8298
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      -29.2608
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      29.66085
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      15.24
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -10.34415
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 2000.0,
+   "disabled": false,
+   "entity": 117,
+   "kind": "hurt",
+   "model": 43,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "electric_hurt"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -79.248
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      85.1916
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      -35.29965
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      35.71875
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      15.24
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -10.34415
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 2000.0,
+   "disabled": false,
+   "entity": 120,
+   "kind": "hurt",
+   "model": 46,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "electric_hurt"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -96.29775
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      102.24135
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      -35.29965
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      35.71875
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      15.24
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -10.34415
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 2000.0,
+   "disabled": false,
+   "entity": 121,
+   "kind": "hurt",
+   "model": 47,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "electric_hurt"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      7.6962
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      12.51585
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      77.89545
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -77.01915
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      15.1257
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -6.1341
+     ]
+    ]
+   ],
+   "classname": "trigger_once",
+   "disabled": false,
+   "entity": 149,
+   "filter": "",
+   "kind": "once",
+   "model": 51,
+   "outputs": [
+    {
+     "delay": 11.0,
+     "input": "StartForward",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "2_boat",
+     "times": 1
+    },
+    {
+     "delay": 3.0,
+     "input": "PlaySound",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "ambient_trex",
+     "times": 1
+    },
+    {
+     "delay": 0.0,
+     "input": "StartForward",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "tyrannosaur",
+     "times": 1
+    }
+   ],
+   "spawnflags": 1,
+   "targetname": "",
+   "wait": -1.0
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      88.2015
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -87.7824
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      -10.5537
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      29.2608
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      14.19225
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -10.34415
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 2000.0,
+   "disabled": false,
+   "entity": 158,
+   "kind": "hurt",
+   "model": 52,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "electric_hurt"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      104.64165
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -92.06865
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      58.5978
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -58.293
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      14.5923
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -10.34415
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 2100.0,
+   "disabled": false,
+   "entity": 162,
+   "kind": "hurt",
+   "model": 54,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "electric_hurt_2"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      108.1659
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -101.8032
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      136.44943
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -136.03034
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      23.6982
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -18.80235
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 2000.0,
+   "disabled": false,
+   "entity": 215,
+   "kind": "hurt",
+   "model": 58,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "electric_hurt_3"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      94.6404
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -88.2777
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      136.44943
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -136.03034
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      23.6982
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -18.80235
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 2000.0,
+   "disabled": false,
+   "entity": 216,
+   "kind": "hurt",
+   "model": 59,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "electric_hurt_3"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      194.4624
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -0.59055
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      233.49585
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -170.74515
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      40.86225
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -37.7952
+     ]
+    ]
+   ],
+   "classname": "func_water_analog",
+   "disabled": false,
+   "entity": 229,
+   "kind": "water",
+   "model": 63,
+   "outputs": [],
+   "spawnflags": 0,
+   "targetname": ""
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -71.8947
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      110.871
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      30.30855
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      12.32535
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      34.88066
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -15.8877
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 600.0,
+   "disabled": true,
+   "entity": 262,
+   "kind": "hurt",
+   "model": 74,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "nerve_gas"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -47.1297
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      110.73765
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      107.11815
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -90.2589
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      34.88066
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -15.8877
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 600.0,
+   "disabled": true,
+   "entity": 263,
+   "kind": "hurt",
+   "model": 75,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "nerve_gas"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      9.525
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      71.64705
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      106.8705
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -90.0684
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      15.24
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      0.6096
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 600.0,
+   "disabled": true,
+   "entity": 264,
+   "kind": "hurt",
+   "model": 76,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "nerve_gas"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      9.525
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      13.5636
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      89.93505
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -58.7883
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      15.24
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      0.6096
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 600.0,
+   "disabled": true,
+   "entity": 265,
+   "kind": "hurt",
+   "model": 77,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "nerve_gas"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      107.11815
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      13.4874
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      58.42635
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      43.2816
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      15.24
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      2.95275
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 600.0,
+   "disabled": true,
+   "entity": 266,
+   "kind": "hurt",
+   "model": 78,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "nerve_gas"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      127.88265
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -107.1753
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      9.4107
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -2.00025
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      18.3642
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -12.97305
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 600.0,
+   "disabled": true,
+   "entity": 267,
+   "kind": "hurt",
+   "model": 79,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "nerve_gas"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      107.1372
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -105.74655
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      9.6393
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -1.92405
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      18.3642
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -15.2781
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 600.0,
+   "disabled": true,
+   "entity": 268,
+   "kind": "hurt",
+   "model": 80,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "nerve_gas"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      194.31
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -0.9144
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      233.34345
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -170.8404
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      40.63365
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -32.78505
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 600.0,
+   "disabled": true,
+   "entity": 269,
+   "kind": "hurt",
+   "model": 81,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "nerve_gas"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      107.95635
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -89.4588
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      153.2001
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -142.17015
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      39.0525
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -23.8887
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 600.0,
+   "disabled": true,
+   "entity": 270,
+   "kind": "hurt",
+   "model": 82,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "nerve_gas"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      112.49025
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -84.7344
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      173.03115
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -104.94645
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      23.83155
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      2.22885
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 600.0,
+   "disabled": true,
+   "entity": 271,
+   "kind": "hurt",
+   "model": 83,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "nerve_gas"
+  },
+  {
+   "brushes": [
+    [
+     [
+      0.0,
+      0.0,
+      1.0,
+      104.3559
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -58.84545
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      2.1717
+     ],
+     [
+      0.998213,
+      0.0,
+      -0.059751,
+      -91.67407
+     ],
+     [
+      0.0,
+      -0.984471,
+      -0.175548,
+      4.67312
+     ],
+     [
+      -0.997111,
+      0.0,
+      -0.075962,
+      102.64252
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 600.0,
+   "disabled": true,
+   "entity": 272,
+   "kind": "hurt",
+   "model": 84,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "nerve_gas"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -242.9637
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      270.43192
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      -244.60962
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      290.86302
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.80975
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      2.00025
+     ]
+    ]
+   ],
+   "classname": "func_water_analog",
+   "disabled": false,
+   "entity": 277,
+   "kind": "water",
+   "model": 85,
+   "outputs": [],
+   "spawnflags": 0,
+   "targetname": ""
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -270.43193
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      282.55532
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      -244.60964
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      269.9385
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.80975
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      2.00025
+     ]
+    ]
+   ],
+   "classname": "func_water_analog",
+   "disabled": false,
+   "entity": 279,
+   "kind": "water",
+   "model": 86,
+   "outputs": [],
+   "spawnflags": 0,
+   "targetname": ""
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -282.55531
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      309.2958
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      -244.60962
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      290.78872
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.80975
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      2.00025
+     ]
+    ]
+   ],
+   "classname": "func_water_analog",
+   "disabled": false,
+   "entity": 281,
+   "kind": "water",
+   "model": 87,
+   "outputs": [],
+   "spawnflags": 0,
+   "targetname": ""
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -34.04235
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      37.54755
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      99.38385
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -93.0783
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      17.96415
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -15.48765
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 600.0,
+   "disabled": true,
+   "entity": 296,
+   "kind": "hurt",
+   "model": 99,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "nerve_gas"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -11.75385
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      15.25905
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      101.7651
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -95.45955
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      17.96415
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -15.48765
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 600.0,
+   "disabled": true,
+   "entity": 297,
+   "kind": "hurt",
+   "model": 100,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "nerve_gas"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -24.44115
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      27.94635
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      104.14635
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -97.8408
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      17.96415
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -15.48765
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 600.0,
+   "disabled": true,
+   "entity": 298,
+   "kind": "hurt",
+   "model": 101,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "nerve_gas"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -71.72325
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      111.2139
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      107.4039
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      110.1471
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      15.24
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      0.6096
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 600.0,
+   "disabled": true,
+   "entity": 312,
+   "kind": "hurt",
+   "model": 106,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "nerve_gas"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      105.8037
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -91.87815
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      191.0334
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -170.8404
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      32.6898
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -23.8887
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 600.0,
+   "disabled": true,
+   "entity": 317,
+   "kind": "hurt",
+   "model": 111,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "nerve_gas"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      87.7443
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -10.2108
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      55.4736
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      29.24175
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      17.3355
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -15.29715
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 600.0,
+   "disabled": true,
+   "entity": 318,
+   "kind": "hurt",
+   "model": 112,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "nerve_gas"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      61.05525
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -60.6552
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      49.05642
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -47.66577
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      16.47825
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -13.65885
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 10000.0,
+   "disabled": false,
+   "entity": 325,
+   "kind": "hurt",
+   "model": 115,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": ""
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -80.90516
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      82.61966
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      89.44394
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -87.57704
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      15.24
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -10.68705
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 10000.0,
+   "disabled": false,
+   "entity": 328,
+   "kind": "hurt",
+   "model": 118,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": ""
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      60.6552
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -60.25515
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      49.05642
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -47.66577
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      16.47825
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -13.65885
+     ]
+    ]
+   ],
+   "classname": "trigger_multiple",
+   "disabled": false,
+   "entity": 384,
+   "filter": "",
+   "kind": "multiple",
+   "model": 122,
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "rexsound",
+     "times": -1
+    }
+   ],
+   "spawnflags": 1,
+   "targetname": "",
+   "wait": 1.0
+  },
+  {
+   "brush": 138,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      103.0986
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -103.07955
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      190.17615
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -170.74515
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      37.7952
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -36.576
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 139,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      93.55455
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -93.5355
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      190.17615
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -170.74515
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      37.7952
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -36.576
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 140,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      103.0986
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -93.5355
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      190.1952
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -190.17615
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      37.7952
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -36.576
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 339,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -90.6399
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      91.19235
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      30.30855
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -30.27045
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      30.0609
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -22.098
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 340,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -97.4217
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      97.59315
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      89.9922
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -89.9541
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      33.3756
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -15.24
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 363,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -37.5285
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      37.62375
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      93.66885
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -93.5736
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      17.46885
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -15.29715
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 364,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -27.94635
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      28.0416
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      102.62235
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -102.5271
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      17.46885
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -15.29715
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 365,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -14.1351
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      14.23035
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      101.8032
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -101.70795
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      17.46885
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -15.29715
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 787,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      107.2896
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -107.19435
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      153.3906
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -153.29535
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      28.86075
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -23.6982
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 788,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      107.23245
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -107.1372
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      142.24635
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -142.1511
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      35.052
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -23.6982
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 789,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      90.31605
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -90.2208
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      142.24635
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -142.1511
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      34.99199
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -23.6982
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 804,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -47.41545
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      47.45355
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      100.64115
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -100.10775
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      34.08045
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -26.8605
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 805,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -89.5731
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      89.8017
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      -12.3063
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      12.3444
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      30.0609
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -15.24
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 939,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -47.41545
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      47.45355
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      26.8605
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -15.24
+     ],
+     [
+      0.0,
+      -0.086559,
+      0.996247,
+      102.58844
+     ],
+     [
+      0.0,
+      -0.091419,
+      -0.995813,
+      -97.233
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 940,
+   "brushes": [
+    [
+     [
+      0.0,
+      0.0,
+      1.0,
+      30.30855
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -30.27045
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      22.098
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -15.24
+     ],
+     [
+      -0.986835,
+      -0.161731,
+      -0.0,
+      -85.87267
+     ],
+     [
+      0.984563,
+      -0.175033,
+      -0.0,
+      93.65246
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  }
+ ],
  "zz": {
   "keep_boxes": [],
   "materials": {

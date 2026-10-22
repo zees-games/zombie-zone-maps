@@ -1,17 +1,17 @@
 {
  "bin": {
-  "bytes": 1297844,
+  "bytes": 1332628,
   "compression": "gzip",
   "file": "ze_blackmesa_escape.bin",
-  "sha256": "3ecead93ca9e1f52d14811c1b7edfdb84fd811df469955496c77c3de93fca313",
-  "stored_bytes": 260886
+  "sha256": "a1817173ab8249bcb84d31edd67518af4cb96d29d2a09574e23144db1617825b",
+  "stored_bytes": 266625
  },
  "counts": {
   "hulls": 0,
-  "models": 37,
-  "surfaces": 873,
-  "triangles": 27207,
-  "vertices": 30355
+  "models": 63,
+  "surfaces": 918,
+  "triangles": 27727,
+  "vertices": 31247
  },
  "credit": {
   "author": "Bill Smauz",
@@ -19,8 +19,3759 @@
   "note": "Geometry converted from the original map with credit; its textures and models are not used. Removed on the author's request.",
   "page": "https://gamebanana.com/mods/130645"
  },
+ "destinations": {
+  "aa_secret_teleport2_destination": {
+   "at": [
+    -35.4808,
+    3.6766,
+    187.1592
+   ],
+   "yaw": -90.0
+  },
+  "aa_secret_teleport_destination": {
+   "at": [
+    -60.6552,
+    0.0191,
+    79.8576
+   ],
+   "yaw": -90.0
+  },
+  "teleport1_destination": {
+   "at": [
+    -139.6175,
+    1.2383,
+    89.154
+   ],
+   "yaw": -90.0
+  }
+ },
+ "entities": [
+  {
+   "classname": "path_track",
+   "entity": 2,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "radius": "0",
+    "spawnflags": "0",
+    "speed": "20",
+    "target": "spawn_path2",
+    "targetname": "spawn_path1"
+   },
+   "model": null,
+   "origin": [
+    -25.2984,
+    0.8001,
+    248.7168
+   ],
+   "target": "spawn_path2",
+   "targetname": "spawn_path1",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 3,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "radius": "0",
+    "spawnflags": "0",
+    "speed": "50",
+    "target": "spawn_path3",
+    "targetname": "spawn_path2"
+   },
+   "model": null,
+   "origin": [
+    -25.2984,
+    0.8001,
+    248.412
+   ],
+   "target": "spawn_path3",
+   "targetname": "spawn_path2",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 7,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "radius": "0",
+    "spawnflags": "0",
+    "speed": "100",
+    "target": "spawn_path5",
+    "targetname": "spawn_path4"
+   },
+   "model": null,
+   "origin": [
+    -25.2984,
+    0.8001,
+    142.7988
+   ],
+   "target": "spawn_path5",
+   "targetname": "spawn_path4",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_auto",
+   "entity": 10,
+   "keys": {
+    "spawnflags": "1"
+   },
+   "model": null,
+   "origin": [
+    -33.9852,
+    3.9624,
+    245.364
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 12,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "radius": "0",
+    "spawnflags": "0",
+    "speed": "400",
+    "target": "spawn_path4",
+    "targetname": "spawn_path3"
+   },
+   "model": null,
+   "origin": [
+    -25.2984,
+    0.8001,
+    240.6396
+   ],
+   "target": "spawn_path4",
+   "targetname": "spawn_path3",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 38,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "radius": "0",
+    "spawnflags": "0",
+    "speed": "25",
+    "target": "bridge1_path2",
+    "targetname": "bridge1_path1"
+   },
+   "model": null,
+   "origin": [
+    -32.9184,
+    0.3925,
+    175.5839
+   ],
+   "target": "bridge1_path2",
+   "targetname": "bridge1_path1",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 39,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "radius": "0",
+    "speed": "0",
+    "targetname": "bridge1_path2"
+   },
+   "model": null,
+   "origin": [
+    -32.9184,
+    0.3925,
+    165.8112
+   ],
+   "target": "",
+   "targetname": "bridge1_path2",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 58,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "radius": "0",
+    "spawnflags": "0",
+    "speed": "100",
+    "target": "spawn_path6",
+    "targetname": "spawn_path5"
+   },
+   "model": null,
+   "origin": [
+    -25.2984,
+    0.8001,
+    139.1412
+   ],
+   "target": "spawn_path6",
+   "targetname": "spawn_path5",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 59,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "radius": "0",
+    "spawnflags": "0",
+    "speed": "100",
+    "target": "spawn_path7",
+    "targetname": "spawn_path6"
+   },
+   "model": null,
+   "origin": [
+    -27.7368,
+    0.8001,
+    136.8552
+   ],
+   "target": "spawn_path7",
+   "targetname": "spawn_path6",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 60,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "radius": "0",
+    "spawnflags": "0",
+    "speed": "400",
+    "target": "spawn_path8",
+    "targetname": "spawn_path7"
+   },
+   "model": null,
+   "origin": [
+    -29.2608,
+    0.8001,
+    136.8552
+   ],
+   "target": "spawn_path8",
+   "targetname": "spawn_path7",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 68,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "radius": "0",
+    "spawnflags": "0",
+    "speed": "400",
+    "targetname": "spawn_path8"
+   },
+   "model": null,
+   "origin": [
+    -112.1664,
+    0.8001,
+    136.8552
+   ],
+   "target": "",
+   "targetname": "spawn_path8",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_relay",
+   "entity": 76,
+   "keys": {
+    "StartDisabled": "0",
+    "spawnflags": "0",
+    "targetname": "x_reset0"
+   },
+   "model": null,
+   "origin": [
+    -37.6428,
+    2.8956,
+    285.9024
+   ],
+   "target": "",
+   "targetname": "x_reset0",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_relay",
+   "entity": 77,
+   "keys": {
+    "StartDisabled": "0",
+    "targetname": "x_reset1"
+   },
+   "model": null,
+   "origin": [
+    -37.6428,
+    2.8956,
+    285.5976
+   ],
+   "target": "",
+   "targetname": "x_reset1",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_relay",
+   "entity": 78,
+   "keys": {
+    "StartDisabled": "0",
+    "spawnflags": "0",
+    "targetname": "x_reset2"
+   },
+   "model": null,
+   "origin": [
+    -37.6428,
+    2.8956,
+    285.2928
+   ],
+   "target": "",
+   "targetname": "x_reset2",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_relay",
+   "entity": 79,
+   "keys": {
+    "StartDisabled": "0",
+    "spawnflags": "0",
+    "targetname": "x_reset3"
+   },
+   "model": null,
+   "origin": [
+    -37.6428,
+    2.8956,
+    284.988
+   ],
+   "target": "",
+   "targetname": "x_reset3",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_relay",
+   "entity": 80,
+   "keys": {
+    "StartDisabled": "0",
+    "spawnflags": "0",
+    "targetname": "x_reset4"
+   },
+   "model": null,
+   "origin": [
+    -37.6428,
+    2.8956,
+    284.6832
+   ],
+   "target": "",
+   "targetname": "x_reset4",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_relay",
+   "entity": 81,
+   "keys": {
+    "StartDisabled": "0",
+    "spawnflags": "0",
+    "targetname": "x_level1"
+   },
+   "model": null,
+   "origin": [
+    -37.6428,
+    3.2004,
+    285.5976
+   ],
+   "target": "",
+   "targetname": "x_level1",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_relay",
+   "entity": 82,
+   "keys": {
+    "StartDisabled": "0",
+    "spawnflags": "0",
+    "targetname": "x_level2"
+   },
+   "model": null,
+   "origin": [
+    -37.6428,
+    3.2004,
+    285.2928
+   ],
+   "target": "",
+   "targetname": "x_level2",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_relay",
+   "entity": 83,
+   "keys": {
+    "StartDisabled": "0",
+    "spawnflags": "0",
+    "targetname": "x_level3"
+   },
+   "model": null,
+   "origin": [
+    -37.6428,
+    3.2004,
+    284.988
+   ],
+   "target": "",
+   "targetname": "x_level3",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_relay",
+   "entity": 84,
+   "keys": {
+    "StartDisabled": "0",
+    "spawnflags": "0",
+    "targetname": "x_level4"
+   },
+   "model": null,
+   "origin": [
+    -37.6428,
+    3.2004,
+    284.6832
+   ],
+   "target": "",
+   "targetname": "x_level4",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_fade",
+   "entity": 347,
+   "keys": {
+    "duration": "1",
+    "holdtime": "10",
+    "renderamt": "255",
+    "rendercolor": "255 255 255",
+    "spawnflags": "0",
+    "targetname": "rocket_fade1"
+   },
+   "model": null,
+   "origin": [
+    -111.1758,
+    27.0129,
+    25.2222
+   ],
+   "target": "",
+   "targetname": "rocket_fade1",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 353,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "radius": "0",
+    "speed": "100",
+    "target": "heli_path2",
+    "targetname": "heli_path1"
+   },
+   "model": null,
+   "origin": [
+    -57.2262,
+    37.7571,
+    43.8722
+   ],
+   "target": "heli_path2",
+   "targetname": "heli_path1",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 354,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "radius": "0",
+    "spawnflags": "0",
+    "speed": "30",
+    "target": "heli_path3",
+    "targetname": "heli_path2"
+   },
+   "model": null,
+   "origin": [
+    -56.0832,
+    37.7571,
+    43.8722
+   ],
+   "target": "heli_path3",
+   "targetname": "heli_path2",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 355,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "radius": "0",
+    "spawnflags": "0",
+    "speed": "175",
+    "target": "heli_path4",
+    "targetname": "heli_path3"
+   },
+   "model": null,
+   "origin": [
+    -47.0916,
+    45.1104,
+    43.8722
+   ],
+   "target": "heli_path4",
+   "targetname": "heli_path3",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 356,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "radius": "0",
+    "spawnflags": "0",
+    "speed": "50",
+    "target": "heli_path5",
+    "targetname": "heli_path4"
+   },
+   "model": null,
+   "origin": [
+    -35.5282,
+    45.1104,
+    43.8722
+   ],
+   "target": "heli_path5",
+   "targetname": "heli_path4",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 357,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "radius": "0",
+    "speed": "50",
+    "targetname": "heli_path5"
+   },
+   "model": null,
+   "origin": [
+    -12.4968,
+    45.1104,
+    43.8722
+   ],
+   "target": "",
+   "targetname": "heli_path5",
+   "treatment": "data"
+  },
+  {
+   "classname": "filter_activator_team",
+   "entity": 377,
+   "keys": {
+    "Negated": "Allow entities that match criteria",
+    "filterteam": "3",
+    "targetname": "activatorteam"
+   },
+   "model": null,
+   "origin": [
+    -33.9852,
+    3.9624,
+    245.6688
+   ],
+   "target": "",
+   "targetname": "activatorteam",
+   "treatment": "data"
+  }
+ ],
  "format": "dot-bsp-mesh",
  "hulls": [],
+ "links": [
+  {
+   "delay": 0.0,
+   "from": 2,
+   "from_class": "path_track",
+   "from_name": "spawn_path1",
+   "input": "Stop",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "spawn_tram1",
+   "times": 1,
+   "to": [
+    1
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 10,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "ambient1",
+   "times": -1,
+   "to": [
+    8
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 10,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnMapSpawn",
+   "param": "say Map By: Bill Smauz",
+   "special": false,
+   "target": "server_map",
+   "times": -1,
+   "to": [
+    13
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 10,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "alarm1",
+   "times": -1,
+   "to": [
+    111,
+    120
+   ]
+  },
+  {
+   "delay": 1.0,
+   "from": 10,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnMapSpawn",
+   "param": "say Map For: www.zombiemurder.com",
+   "special": false,
+   "target": "server_map",
+   "times": -1,
+   "to": [
+    13
+   ]
+  },
+  {
+   "delay": 10.0,
+   "from": 11,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "StartForward",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "spawn_tram1",
+   "times": 1,
+   "to": [
+    1
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 11,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say *** Tram Starts in 10 Seconds ***",
+   "special": false,
+   "target": "server_map",
+   "times": 1,
+   "to": [
+    13
+   ]
+  },
+  {
+   "delay": 5.0,
+   "from": 11,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say *** Tram Starts in 5 Seconds ***",
+   "special": false,
+   "target": "server_map",
+   "times": 1,
+   "to": [
+    13
+   ]
+  },
+  {
+   "delay": 10.0,
+   "from": 11,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "tram_safety",
+   "times": 1,
+   "to": [
+    300
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 38,
+   "from_class": "path_track",
+   "from_name": "bridge1_path1",
+   "input": "Stop",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "bridge1",
+   "times": -1,
+   "to": [
+    37
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 40,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "StartForward",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "bridge1",
+   "times": 1,
+   "to": [
+    37
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 40,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say *** Bridge Activated ***",
+   "special": false,
+   "target": "server_map",
+   "times": 1,
+   "to": [
+    13
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 63,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Open",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "door_x",
+   "times": -1,
+   "to": [
+    61
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 69,
+   "from_class": "func_button",
+   "from_name": "reset",
+   "input": "Trigger",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "x_reset0",
+   "times": -1,
+   "to": [
+    76
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 70,
+   "from_class": "func_button",
+   "from_name": "5",
+   "input": "Trigger",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "x_reset0",
+   "times": -1,
+   "to": [
+    76
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 71,
+   "from_class": "func_button",
+   "from_name": "6",
+   "input": "Trigger",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "x_reset0",
+   "times": -1,
+   "to": [
+    76
+   ]
+  },
+  {
+   "delay": 0.1,
+   "from": 72,
+   "from_class": "func_button",
+   "from_name": "3",
+   "input": "Trigger",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "x_reset3",
+   "times": -1,
+   "to": [
+    79
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 72,
+   "from_class": "func_button",
+   "from_name": "3",
+   "input": "Trigger",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "x_level1",
+   "times": -1,
+   "to": [
+    81
+   ]
+  },
+  {
+   "delay": 0.1,
+   "from": 73,
+   "from_class": "func_button",
+   "from_name": "4",
+   "input": "Trigger",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "x_reset4",
+   "times": -1,
+   "to": [
+    80
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 73,
+   "from_class": "func_button",
+   "from_name": "4",
+   "input": "Trigger",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "x_level2",
+   "times": -1,
+   "to": [
+    82
+   ]
+  },
+  {
+   "delay": 0.1,
+   "from": 74,
+   "from_class": "func_button",
+   "from_name": "1",
+   "input": "Trigger",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "x_reset1",
+   "times": -1,
+   "to": [
+    77
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 74,
+   "from_class": "func_button",
+   "from_name": "1",
+   "input": "Trigger",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "x_level3",
+   "times": -1,
+   "to": [
+    83
+   ]
+  },
+  {
+   "delay": 0.1,
+   "from": 75,
+   "from_class": "func_button",
+   "from_name": "2",
+   "input": "Trigger",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "x_reset2",
+   "times": -1,
+   "to": [
+    78
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 75,
+   "from_class": "func_button",
+   "from_name": "2",
+   "input": "Trigger",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "x_level4",
+   "times": -1,
+   "to": [
+    84
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 76,
+   "from_class": "logic_relay",
+   "from_name": "x_reset0",
+   "input": "Enable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset1",
+   "times": -1,
+   "to": [
+    77
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 76,
+   "from_class": "logic_relay",
+   "from_name": "x_reset0",
+   "input": "Enable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset2",
+   "times": -1,
+   "to": [
+    78
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 76,
+   "from_class": "logic_relay",
+   "from_name": "x_reset0",
+   "input": "Disable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset3",
+   "times": -1,
+   "to": [
+    79
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 76,
+   "from_class": "logic_relay",
+   "from_name": "x_reset0",
+   "input": "Enable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset4",
+   "times": -1,
+   "to": [
+    80
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 76,
+   "from_class": "logic_relay",
+   "from_name": "x_reset0",
+   "input": "Disable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset4",
+   "times": -1,
+   "to": [
+    80
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 77,
+   "from_class": "logic_relay",
+   "from_name": "x_reset1",
+   "input": "Disable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_level4",
+   "times": -1,
+   "to": [
+    84
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 77,
+   "from_class": "logic_relay",
+   "from_name": "x_reset1",
+   "input": "Enable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset4",
+   "times": -1,
+   "to": [
+    80
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 77,
+   "from_class": "logic_relay",
+   "from_name": "x_reset1",
+   "input": "Disable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset3",
+   "times": -1,
+   "to": [
+    79
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 77,
+   "from_class": "logic_relay",
+   "from_name": "x_reset1",
+   "input": "Enable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset2",
+   "times": -1,
+   "to": [
+    78
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 77,
+   "from_class": "logic_relay",
+   "from_name": "x_reset1",
+   "input": "Enable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset1",
+   "times": -1,
+   "to": [
+    77
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 78,
+   "from_class": "logic_relay",
+   "from_name": "x_reset2",
+   "input": "Disable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_level4",
+   "times": -1,
+   "to": [
+    84
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 78,
+   "from_class": "logic_relay",
+   "from_name": "x_reset2",
+   "input": "Enable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset1",
+   "times": -1,
+   "to": [
+    77
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 78,
+   "from_class": "logic_relay",
+   "from_name": "x_reset2",
+   "input": "Enable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset2",
+   "times": -1,
+   "to": [
+    78
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 78,
+   "from_class": "logic_relay",
+   "from_name": "x_reset2",
+   "input": "Disable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset3",
+   "times": -1,
+   "to": [
+    79
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 78,
+   "from_class": "logic_relay",
+   "from_name": "x_reset2",
+   "input": "Enable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset4",
+   "times": -1,
+   "to": [
+    80
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 79,
+   "from_class": "logic_relay",
+   "from_name": "x_reset3",
+   "input": "Disable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_level4",
+   "times": -1,
+   "to": [
+    84
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 79,
+   "from_class": "logic_relay",
+   "from_name": "x_reset3",
+   "input": "Enable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset1",
+   "times": -1,
+   "to": [
+    77
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 79,
+   "from_class": "logic_relay",
+   "from_name": "x_reset3",
+   "input": "Enable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset2",
+   "times": -1,
+   "to": [
+    78
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 79,
+   "from_class": "logic_relay",
+   "from_name": "x_reset3",
+   "input": "Disable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset3",
+   "times": -1,
+   "to": [
+    79
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 79,
+   "from_class": "logic_relay",
+   "from_name": "x_reset3",
+   "input": "Enable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset4",
+   "times": -1,
+   "to": [
+    80
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 80,
+   "from_class": "logic_relay",
+   "from_name": "x_reset4",
+   "input": "Disable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_level4",
+   "times": -1,
+   "to": [
+    84
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 80,
+   "from_class": "logic_relay",
+   "from_name": "x_reset4",
+   "input": "Enable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset1",
+   "times": -1,
+   "to": [
+    77
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 80,
+   "from_class": "logic_relay",
+   "from_name": "x_reset4",
+   "input": "Enable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset2",
+   "times": -1,
+   "to": [
+    78
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 80,
+   "from_class": "logic_relay",
+   "from_name": "x_reset4",
+   "input": "Disable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset3",
+   "times": -1,
+   "to": [
+    79
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 80,
+   "from_class": "logic_relay",
+   "from_name": "x_reset4",
+   "input": "Enable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset4",
+   "times": -1,
+   "to": [
+    80
+   ]
+  },
+  {
+   "delay": 0.2,
+   "from": 81,
+   "from_class": "logic_relay",
+   "from_name": "x_level1",
+   "input": "Enable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset3",
+   "times": -1,
+   "to": [
+    79
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 81,
+   "from_class": "logic_relay",
+   "from_name": "x_level1",
+   "input": "Disable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset4",
+   "times": -1,
+   "to": [
+    80
+   ]
+  },
+  {
+   "delay": 0.2,
+   "from": 82,
+   "from_class": "logic_relay",
+   "from_name": "x_level2",
+   "input": "Enable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset4",
+   "times": -1,
+   "to": [
+    80
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 82,
+   "from_class": "logic_relay",
+   "from_name": "x_level2",
+   "input": "Disable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset1",
+   "times": -1,
+   "to": [
+    77
+   ]
+  },
+  {
+   "delay": 0.2,
+   "from": 83,
+   "from_class": "logic_relay",
+   "from_name": "x_level3",
+   "input": "Enable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset1",
+   "times": -1,
+   "to": [
+    77
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 83,
+   "from_class": "logic_relay",
+   "from_name": "x_level3",
+   "input": "Enable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_level4",
+   "times": -1,
+   "to": [
+    84
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 83,
+   "from_class": "logic_relay",
+   "from_name": "x_level3",
+   "input": "Disable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset2",
+   "times": -1,
+   "to": [
+    78
+   ]
+  },
+  {
+   "delay": 0.6,
+   "from": 84,
+   "from_class": "logic_relay",
+   "from_name": "x_level4",
+   "input": "Trigger",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "x_reset0",
+   "times": -1,
+   "to": [
+    76
+   ]
+  },
+  {
+   "delay": 5.0,
+   "from": 84,
+   "from_class": "logic_relay",
+   "from_name": "x_level4",
+   "input": "Toggle",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "door_x",
+   "times": -1,
+   "to": [
+    61
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 84,
+   "from_class": "logic_relay",
+   "from_name": "x_level4",
+   "input": "PlaySound",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "bling",
+   "times": -1,
+   "to": [
+    85
+   ]
+  },
+  {
+   "delay": 5.0,
+   "from": 103,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Open",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "airlock_door1",
+   "times": 1,
+   "to": [
+    104
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 103,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say *** Airlock Opens in 5 Seconds ***",
+   "special": false,
+   "target": "server_map",
+   "times": 1,
+   "to": [
+    13
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 123,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Open",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "lockers_door2",
+   "times": -1,
+   "to": [
+    121
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 124,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Open",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "lockers_door2",
+   "times": -1,
+   "to": [
+    121
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 140,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Open",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "door_x2",
+   "times": -1,
+   "to": [
+    128
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 141,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Open",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "door_x2",
+   "times": -1,
+   "to": [
+    128
+   ]
+  },
+  {
+   "delay": 20.0,
+   "from": 150,
+   "from_class": "func_button",
+   "from_name": "blackmesa_door1",
+   "input": "Open",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "sectorg_door1",
+   "times": 1,
+   "to": [
+    149
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 150,
+   "from_class": "func_button",
+   "from_name": "blackmesa_door1",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say *** Rocket Lab's Door Opens in 20 Seconds ***",
+   "special": false,
+   "target": "server_map",
+   "times": 1,
+   "to": [
+    13
+   ]
+  },
+  {
+   "delay": 10.0,
+   "from": 150,
+   "from_class": "func_button",
+   "from_name": "blackmesa_door1",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say *** Rocket Lab's Door Opens in 10 Seconds ***",
+   "special": false,
+   "target": "server_map",
+   "times": 1,
+   "to": [
+    13
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 150,
+   "from_class": "func_button",
+   "from_name": "blackmesa_door1",
+   "input": "Lock",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "blackmesa_door1",
+   "times": 1,
+   "to": [
+    150
+   ]
+  },
+  {
+   "delay": 20.0,
+   "from": 150,
+   "from_class": "func_button",
+   "from_name": "blackmesa_door1",
+   "input": "Unlock",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "blackmesa_door1",
+   "times": 1,
+   "to": [
+    150
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 165,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say *** Airlock Closing in 5 Seconds ***",
+   "special": false,
+   "target": "server_map",
+   "times": 1,
+   "to": [
+    13
+   ]
+  },
+  {
+   "delay": 5.0,
+   "from": 165,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Open",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "airlock_door2",
+   "times": 1,
+   "to": [
+    164
+   ]
+  },
+  {
+   "delay": 5.0,
+   "from": 165,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Break",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "crate1",
+   "times": 1,
+   "to": [
+    166
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 167,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say *** Lift is leaving in 10 Seconds ***",
+   "special": false,
+   "target": "server_map",
+   "times": 1,
+   "to": [
+    13
+   ]
+  },
+  {
+   "delay": 10.0,
+   "from": 167,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Open",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "elevator1",
+   "times": 1,
+   "to": [
+    151
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 175,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Break",
+   "output": "OnStartTouch",
+   "param": "",
+   "special": false,
+   "target": "stairs_metalgrid",
+   "times": 1,
+   "to": [
+    174
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 175,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnStartTouch",
+   "param": "",
+   "special": false,
+   "target": "stairs_sound",
+   "times": 1,
+   "to": [
+    176
+   ]
+  },
+  {
+   "delay": 5.0,
+   "from": 264,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Open",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "aa_secret_elev",
+   "times": -1,
+   "to": [
+    263
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 271,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "aa_secret_room_gman",
+   "times": 1,
+   "to": [
+    286
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 303,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "aa_secret_room_combine",
+   "times": 1,
+   "to": [
+    298
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 304,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "aa_secret_room_zombie",
+   "times": 1,
+   "to": [
+    299
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 305,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "ToggleSound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "aa_secret_room_music",
+   "times": 1,
+   "to": [
+    302
+   ]
+  },
+  {
+   "delay": 3.0,
+   "from": 351,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say *** ERROR Rocket cannot leave platform ***",
+   "special": false,
+   "target": "server_rocket",
+   "times": 1,
+   "to": [
+    348
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 351,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say *** WARNING Rocket detonation in 2 Minutes ***",
+   "special": false,
+   "target": "server_rocket",
+   "times": 1,
+   "to": [
+    348
+   ]
+  },
+  {
+   "delay": 5.0,
+   "from": 351,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say *** ATTENTION Silo Doors Open in 1 Minute ***",
+   "special": false,
+   "target": "server_rocket",
+   "times": 1,
+   "to": [
+    348
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 351,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "rocket_alarm1",
+   "times": 1,
+   "to": [
+    345
+   ]
+  },
+  {
+   "delay": 15.0,
+   "from": 351,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "rocket_sound1",
+   "times": 1,
+   "to": [
+    349
+   ]
+  },
+  {
+   "delay": 17.0,
+   "from": 351,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "rocket_sound2",
+   "times": 1,
+   "to": [
+    350
+   ]
+  },
+  {
+   "delay": 120.0,
+   "from": 351,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Fade",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "rocket_fade1",
+   "times": 1,
+   "to": [
+    347
+   ]
+  },
+  {
+   "delay": 120.0,
+   "from": 351,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "rocket_sound_explode",
+   "times": 1,
+   "to": [
+    171
+   ]
+  },
+  {
+   "delay": 60.0,
+   "from": 351,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Open",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "silo_door1",
+   "times": 1,
+   "to": [
+    337
+   ]
+  },
+  {
+   "delay": 60.0,
+   "from": 351,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say *** Helicopter Departing in 30 Seconds ***",
+   "special": false,
+   "target": "server_rocket",
+   "times": 1,
+   "to": [
+    348
+   ]
+  },
+  {
+   "delay": 90.0,
+   "from": 351,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "StartForward",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "helicopter1",
+   "times": 1,
+   "to": [
+    338
+   ]
+  },
+  {
+   "delay": 90.0,
+   "from": 351,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say *** Helicopter is Departing ***",
+   "special": false,
+   "target": "server_rocket",
+   "times": 1,
+   "to": [
+    348
+   ]
+  },
+  {
+   "delay": 91.0,
+   "from": 351,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say *** Warning Rocket detonation in 30 Seconds ***",
+   "special": false,
+   "target": "server_rocket",
+   "times": 1,
+   "to": [
+    348
+   ]
+  },
+  {
+   "delay": 110.0,
+   "from": 351,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "StopSound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "rocket_alarm1",
+   "times": 1,
+   "to": [
+    345
+   ]
+  },
+  {
+   "delay": 124.0,
+   "from": 351,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Enable",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "aa_explode",
+   "times": 1,
+   "to": [
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    265,
+    279,
+    306,
+    309,
+    313,
+    320,
+    329,
+    331,
+    332,
+    335,
+    340,
+    341,
+    342,
+    343,
+    352,
+    365,
+    378,
+    379,
+    380
+   ]
+  },
+  {
+   "delay": 80.0,
+   "from": 351,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say *** Helicopter Departing in 10 Seconds ***",
+   "special": false,
+   "target": "server_rocket",
+   "times": 1,
+   "to": [
+    348
+   ]
+  },
+  {
+   "delay": 85.0,
+   "from": 351,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say *** Helicopter Departing in 5 Seconds ***",
+   "special": false,
+   "target": "server_rocket",
+   "times": 1,
+   "to": [
+    348
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 353,
+   "from_class": "path_track",
+   "from_name": "heli_path1",
+   "input": "Stop",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "helicopter1",
+   "times": 1,
+   "to": [
+    338
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 377,
+   "from_class": "filter_activator_team",
+   "from_name": "activatorteam",
+   "input": "PlaySound",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "ambient1",
+   "times": -1,
+   "to": [
+    8
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 377,
+   "from_class": "filter_activator_team",
+   "from_name": "activatorteam",
+   "input": "Command",
+   "output": "OnMapSpawn",
+   "param": "say Map By: Bill Smauz",
+   "special": false,
+   "target": "server_map",
+   "times": -1,
+   "to": [
+    13
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 377,
+   "from_class": "filter_activator_team",
+   "from_name": "activatorteam",
+   "input": "PlaySound",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "alarm1",
+   "times": -1,
+   "to": [
+    111,
+    120
+   ]
+  },
+  {
+   "delay": 1.0,
+   "from": 377,
+   "from_class": "filter_activator_team",
+   "from_name": "activatorteam",
+   "input": "Command",
+   "output": "OnMapSpawn",
+   "param": "say Map For: www.zombiemurder.com",
+   "special": false,
+   "target": "server_map",
+   "times": -1,
+   "to": [
+    13
+   ]
+  },
+  {
+   "delay": 15.0,
+   "from": 381,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Open",
+   "output": "OnStartTouch",
+   "param": "",
+   "special": false,
+   "target": "cafeteria_1",
+   "times": -1,
+   "to": [
+    373
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 381,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnStartTouch",
+   "param": "say *** Cafeteria Doors Open in 15 Seconds ***",
+   "special": false,
+   "target": "server_map",
+   "times": -1,
+   "to": [
+    13
+   ]
+  },
+  {
+   "delay": 5.0,
+   "from": 385,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Close",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "lockers_door4",
+   "times": 1,
+   "to": [
+    382
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 385,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnPressed",
+   "param": "say *** Security Door Closes in 5 Seconds ***",
+   "special": false,
+   "target": "server_map",
+   "times": 1,
+   "to": [
+    13
+   ]
+  }
+ ],
+ "movers": [
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 11,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -22.2504,
+    2.1336,
+    246.2975
+   ],
+   "mins": [
+    -22.4028,
+    1.8288,
+    246.2784
+   ],
+   "model": 4,
+   "opened_by": [],
+   "origin": [
+    -22.3266,
+    1.9812,
+    246.2879
+   ],
+   "outputs": [
+    {
+     "delay": 10.0,
+     "input": "StartForward",
+     "output": "OnPressed",
+     "param": "",
+     "target": "spawn_tram1",
+     "times": 1
+    },
+    {
+     "delay": 0.0,
+     "input": "Command",
+     "output": "OnPressed",
+     "param": "say *** Tram Starts in 10 Seconds ***",
+     "target": "server_map",
+     "times": 1
+    },
+    {
+     "delay": 5.0,
+     "input": "Command",
+     "output": "OnPressed",
+     "param": "say *** Tram Starts in 5 Seconds ***",
+     "target": "server_map",
+     "times": 1
+    },
+    {
+     "delay": 10.0,
+     "input": "PlaySound",
+     "output": "OnPressed",
+     "param": "",
+     "target": "tram_safety",
+     "times": 1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1025,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 63,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -39.5097,
+    2.286,
+    286.5882
+   ],
+   "mins": [
+    -39.8145,
+    1.9812,
+    286.3596
+   ],
+   "model": 10,
+   "opened_by": [],
+   "origin": [
+    -39.6621,
+    2.1336,
+    286.4739
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "Open",
+     "output": "OnPressed",
+     "param": "",
+     "target": "door_x",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1025,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 69,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -37.7571,
+    2.1526,
+    285.1404
+   ],
+   "mins": [
+    -37.7952,
+    1.9812,
+    284.988
+   ],
+   "model": 12,
+   "opened_by": [],
+   "origin": [
+    -37.7762,
+    2.0669,
+    285.0642
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "Trigger",
+     "output": "OnPressed",
+     "param": "",
+     "target": "x_reset0",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1024,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "reset",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 70,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -37.7571,
+    2.1526,
+    285.5976
+   ],
+   "mins": [
+    -37.7952,
+    1.9812,
+    285.4452
+   ],
+   "model": 13,
+   "opened_by": [],
+   "origin": [
+    -37.7762,
+    2.0669,
+    285.5214
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "Trigger",
+     "output": "OnPressed",
+     "param": "",
+     "target": "x_reset0",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1024,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "5",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 71,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -37.7571,
+    2.1526,
+    285.369
+   ],
+   "mins": [
+    -37.7952,
+    1.9812,
+    285.2166
+   ],
+   "model": 14,
+   "opened_by": [],
+   "origin": [
+    -37.7762,
+    2.0669,
+    285.2928
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "Trigger",
+     "output": "OnPressed",
+     "param": "",
+     "target": "x_reset0",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1024,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "6",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 72,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -37.7571,
+    2.4194,
+    285.5976
+   ],
+   "mins": [
+    -37.7952,
+    2.2479,
+    285.4452
+   ],
+   "model": 15,
+   "opened_by": [],
+   "origin": [
+    -37.7762,
+    2.3336,
+    285.5214
+   ],
+   "outputs": [
+    {
+     "delay": 0.1,
+     "input": "Trigger",
+     "output": "OnPressed",
+     "param": "",
+     "target": "x_reset3",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "Trigger",
+     "output": "OnPressed",
+     "param": "",
+     "target": "x_level1",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1024,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "3",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 73,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -37.7571,
+    2.4194,
+    285.369
+   ],
+   "mins": [
+    -37.7952,
+    2.2479,
+    285.2166
+   ],
+   "model": 16,
+   "opened_by": [],
+   "origin": [
+    -37.7762,
+    2.3336,
+    285.2928
+   ],
+   "outputs": [
+    {
+     "delay": 0.1,
+     "input": "Trigger",
+     "output": "OnPressed",
+     "param": "",
+     "target": "x_reset4",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "Trigger",
+     "output": "OnPressed",
+     "param": "",
+     "target": "x_level2",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1024,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "4",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 74,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -37.7571,
+    2.6861,
+    285.5976
+   ],
+   "mins": [
+    -37.7952,
+    2.5146,
+    285.4452
+   ],
+   "model": 17,
+   "opened_by": [],
+   "origin": [
+    -37.7762,
+    2.6003,
+    285.5214
+   ],
+   "outputs": [
+    {
+     "delay": 0.1,
+     "input": "Trigger",
+     "output": "OnPressed",
+     "param": "",
+     "target": "x_reset1",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "Trigger",
+     "output": "OnPressed",
+     "param": "",
+     "target": "x_level3",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1024,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "1",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 75,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -37.7571,
+    2.6861,
+    285.369
+   ],
+   "mins": [
+    -37.7952,
+    2.5146,
+    285.2166
+   ],
+   "model": 18,
+   "opened_by": [],
+   "origin": [
+    -37.7762,
+    2.6003,
+    285.2928
+   ],
+   "outputs": [
+    {
+     "delay": 0.1,
+     "input": "Trigger",
+     "output": "OnPressed",
+     "param": "",
+     "target": "x_reset2",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "Trigger",
+     "output": "OnPressed",
+     "param": "",
+     "target": "x_level4",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1024,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "2",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 103,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -106.4514,
+    2.286,
+    113.6142
+   ],
+   "mins": [
+    -106.7562,
+    1.9812,
+    113.3856
+   ],
+   "model": 19,
+   "opened_by": [],
+   "origin": [
+    -106.6038,
+    2.1336,
+    113.4999
+   ],
+   "outputs": [
+    {
+     "delay": 5.0,
+     "input": "Open",
+     "output": "OnPressed",
+     "param": "",
+     "target": "airlock_door1",
+     "times": 1
+    },
+    {
+     "delay": 0.0,
+     "input": "Command",
+     "output": "OnPressed",
+     "param": "say *** Airlock Opens in 5 Seconds ***",
+     "target": "server_map",
+     "times": 1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1025,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 123,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -130.8354,
+    2.286,
+    90.7161
+   ],
+   "mins": [
+    -131.064,
+    1.9812,
+    90.4113
+   ],
+   "model": 22,
+   "opened_by": [],
+   "origin": [
+    -130.9497,
+    2.1336,
+    90.5637
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "Open",
+     "output": "OnPressed",
+     "param": "",
+     "target": "lockers_door2",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1025,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 124,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -131.6736,
+    2.286,
+    90.7161
+   ],
+   "mins": [
+    -131.9022,
+    1.9812,
+    90.4113
+   ],
+   "model": 23,
+   "opened_by": [],
+   "origin": [
+    -131.7879,
+    2.1336,
+    90.5637
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "Open",
+     "output": "OnPressed",
+     "param": "",
+     "target": "lockers_door2",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1025,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 133,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -50.0634,
+    2.286,
+    286.1691
+   ],
+   "mins": [
+    -50.292,
+    1.9812,
+    285.8643
+   ],
+   "model": 29,
+   "opened_by": [],
+   "origin": [
+    -50.1777,
+    2.1336,
+    286.0167
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 5121,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 134,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -50.5968,
+    2.286,
+    286.1691
+   ],
+   "mins": [
+    -50.8254,
+    1.9812,
+    285.8643
+   ],
+   "model": 30,
+   "opened_by": [],
+   "origin": [
+    -50.7111,
+    2.1336,
+    286.0167
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 5121,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 140,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -73.0758,
+    2.286,
+    286.1691
+   ],
+   "mins": [
+    -73.3044,
+    1.9812,
+    285.8643
+   ],
+   "model": 31,
+   "opened_by": [],
+   "origin": [
+    -73.1901,
+    2.1336,
+    286.0167
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "Open",
+     "output": "OnPressed",
+     "param": "",
+     "target": "door_x2",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1025,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 141,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -74.1045,
+    2.286,
+    286.5882
+   ],
+   "mins": [
+    -74.4093,
+    1.9812,
+    286.3596
+   ],
+   "model": 32,
+   "opened_by": [],
+   "origin": [
+    -74.2569,
+    2.1336,
+    286.4739
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "Open",
+     "output": "OnPressed",
+     "param": "",
+     "target": "door_x2",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1025,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 150,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -91.4972,
+    2.286,
+    48.9966
+   ],
+   "mins": [
+    -91.802,
+    1.9812,
+    48.768
+   ],
+   "model": 35,
+   "opened_by": [
+    {
+     "classname": "func_button",
+     "delay": 0.0,
+     "entity": 150,
+     "input": "Lock",
+     "output": "OnPressed",
+     "targetname": "blackmesa_door1"
+    },
+    {
+     "classname": "func_button",
+     "delay": 20.0,
+     "entity": 150,
+     "input": "Unlock",
+     "output": "OnPressed",
+     "targetname": "blackmesa_door1"
+    }
+   ],
+   "origin": [
+    -91.6496,
+    2.1336,
+    48.8823
+   ],
+   "outputs": [
+    {
+     "delay": 20.0,
+     "input": "Open",
+     "output": "OnPressed",
+     "param": "",
+     "target": "sectorg_door1",
+     "times": 1
+    },
+    {
+     "delay": 0.0,
+     "input": "Command",
+     "output": "OnPressed",
+     "param": "say *** Rocket Lab's Door Opens in 20 Seconds ***",
+     "target": "server_map",
+     "times": 1
+    },
+    {
+     "delay": 10.0,
+     "input": "Command",
+     "output": "OnPressed",
+     "param": "say *** Rocket Lab's Door Opens in 10 Seconds ***",
+     "target": "server_map",
+     "times": 1
+    },
+    {
+     "delay": 0.0,
+     "input": "Lock",
+     "output": "OnPressed",
+     "param": "",
+     "target": "blackmesa_door1",
+     "times": 1
+    },
+    {
+     "delay": 20.0,
+     "input": "Unlock",
+     "output": "OnPressed",
+     "param": "",
+     "target": "blackmesa_door1",
+     "times": 1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1025,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "blackmesa_door1",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 165,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -108.9279,
+    2.2098,
+    87.7062
+   ],
+   "mins": [
+    -109.3851,
+    2.1336,
+    87.5538
+   ],
+   "model": 42,
+   "opened_by": [],
+   "origin": [
+    -109.1565,
+    2.1717,
+    87.63
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "Command",
+     "output": "OnPressed",
+     "param": "say *** Airlock Closing in 5 Seconds ***",
+     "target": "server_map",
+     "times": 1
+    },
+    {
+     "delay": 5.0,
+     "input": "Open",
+     "output": "OnPressed",
+     "param": "",
+     "target": "airlock_door2",
+     "times": 1
+    },
+    {
+     "delay": 5.0,
+     "input": "Break",
+     "output": "OnPressed",
+     "param": "",
+     "target": "crate1",
+     "times": 1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1025,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 167,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -84.4296,
+    2.1336,
+    40.5575
+   ],
+   "mins": [
+    -84.582,
+    1.8288,
+    40.5384
+   ],
+   "model": 44,
+   "opened_by": [],
+   "origin": [
+    -84.5058,
+    1.9812,
+    40.5479
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "Command",
+     "output": "OnPressed",
+     "param": "say *** Lift is leaving in 10 Seconds ***",
+     "target": "server_map",
+     "times": 1
+    },
+    {
+     "delay": 10.0,
+     "input": "Open",
+     "output": "OnPressed",
+     "param": "",
+     "target": "elevator1",
+     "times": 1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1025,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 271,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -56.5404,
+    -0.9144,
+    91.2876
+   ],
+   "mins": [
+    -56.8452,
+    -1.2192,
+    91.2686
+   ],
+   "model": 82,
+   "opened_by": [],
+   "origin": [
+    -56.6928,
+    -1.0668,
+    91.2781
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnPressed",
+     "param": "",
+     "target": "aa_secret_room_gman",
+     "times": 1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1025,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 303,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -62.1602,
+    -0.9144,
+    84.4296
+   ],
+   "mins": [
+    -62.1792,
+    -1.2192,
+    84.1248
+   ],
+   "model": 90,
+   "opened_by": [],
+   "origin": [
+    -62.1697,
+    -1.0668,
+    84.2772
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnPressed",
+     "param": "",
+     "target": "aa_secret_room_combine",
+     "times": 1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1025,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 304,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -49.0728,
+    -0.9144,
+    84.4296
+   ],
+   "mins": [
+    -49.0919,
+    -1.2192,
+    84.1248
+   ],
+   "model": 91,
+   "opened_by": [],
+   "origin": [
+    -49.0823,
+    -1.0668,
+    84.2772
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnPressed",
+     "param": "",
+     "target": "aa_secret_room_zombie",
+     "times": 1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1025,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 305,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -55.4736,
+    -0.9144,
+    84.6582
+   ],
+   "mins": [
+    -55.7784,
+    -1.2192,
+    84.6392
+   ],
+   "model": 92,
+   "opened_by": [],
+   "origin": [
+    -55.626,
+    -1.0668,
+    84.6487
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "ToggleSound",
+     "output": "OnPressed",
+     "param": "",
+     "target": "aa_secret_room_music",
+     "times": 1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1025,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "func_rotating",
+   "degrees_per_second": 1000.0,
+   "entity": 310,
+   "kind": "spin",
+   "maxs": [
+    -49.0347,
+    40.5575,
+    52.0637
+   ],
+   "mins": [
+    -65.4177,
+    39.6431,
+    35.6806
+   ],
+   "model": 97,
+   "opened_by": [],
+   "origin": [
+    -57.2262,
+    40.1003,
+    43.8722
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 529,
+   "start_on": true,
+   "targetname": "helicopter_rotor1",
+   "travel_time": 0.0
+  },
+  {
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "classname": "func_rotating",
+   "degrees_per_second": 1000.0,
+   "entity": 311,
+   "kind": "spin",
+   "maxs": [
+    -70.0278,
+    40.2526,
+    44.958
+   ],
+   "mins": [
+    -74.295,
+    39.643,
+    44.3484
+   ],
+   "model": 98,
+   "opened_by": [],
+   "origin": [
+    -72.1614,
+    39.9479,
+    44.6532
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 537,
+   "start_on": true,
+   "targetname": "helicopter_rotor2",
+   "travel_time": 0.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 351,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -110.7948,
+    26.9748,
+    26.3652
+   ],
+   "mins": [
+    -110.9472,
+    26.7081,
+    26.1557
+   ],
+   "model": 120,
+   "opened_by": [],
+   "origin": [
+    -110.871,
+    26.8415,
+    26.2604
+   ],
+   "outputs": [
+    {
+     "delay": 3.0,
+     "input": "Command",
+     "output": "OnPressed",
+     "param": "say *** ERROR Rocket cannot leave platform ***",
+     "target": "server_rocket",
+     "times": 1
+    },
+    {
+     "delay": 0.0,
+     "input": "Command",
+     "output": "OnPressed",
+     "param": "say *** WARNING Rocket detonation in 2 Minutes ***",
+     "target": "server_rocket",
+     "times": 1
+    },
+    {
+     "delay": 5.0,
+     "input": "Command",
+     "output": "OnPressed",
+     "param": "say *** ATTENTION Silo Doors Open in 1 Minute ***",
+     "target": "server_rocket",
+     "times": 1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnPressed",
+     "param": "",
+     "target": "rocket_alarm1",
+     "times": 1
+    },
+    {
+     "delay": 15.0,
+     "input": "PlaySound",
+     "output": "OnPressed",
+     "param": "",
+     "target": "rocket_sound1",
+     "times": 1
+    },
+    {
+     "delay": 17.0,
+     "input": "PlaySound",
+     "output": "OnPressed",
+     "param": "",
+     "target": "rocket_sound2",
+     "times": 1
+    },
+    {
+     "delay": 120.0,
+     "input": "Fade",
+     "output": "OnPressed",
+     "param": "",
+     "target": "rocket_fade1",
+     "times": 1
+    },
+    {
+     "delay": 120.0,
+     "input": "PlaySound",
+     "output": "OnPressed",
+     "param": "",
+     "target": "rocket_sound_explode",
+     "times": 1
+    },
+    {
+     "delay": 60.0,
+     "input": "Open",
+     "output": "OnPressed",
+     "param": "",
+     "target": "silo_door1",
+     "times": 1
+    },
+    {
+     "delay": 60.0,
+     "input": "Command",
+     "output": "OnPressed",
+     "param": "say *** Helicopter Departing in 30 Seconds ***",
+     "target": "server_rocket",
+     "times": 1
+    },
+    {
+     "delay": 90.0,
+     "input": "StartForward",
+     "output": "OnPressed",
+     "param": "",
+     "target": "helicopter1",
+     "times": 1
+    },
+    {
+     "delay": 90.0,
+     "input": "Command",
+     "output": "OnPressed",
+     "param": "say *** Helicopter is Departing ***",
+     "target": "server_rocket",
+     "times": 1
+    },
+    {
+     "delay": 91.0,
+     "input": "Command",
+     "output": "OnPressed",
+     "param": "say *** Warning Rocket detonation in 30 Seconds ***",
+     "target": "server_rocket",
+     "times": 1
+    },
+    {
+     "delay": 110.0,
+     "input": "StopSound",
+     "output": "OnPressed",
+     "param": "",
+     "target": "rocket_alarm1",
+     "times": 1
+    },
+    {
+     "delay": 124.0,
+     "input": "Enable",
+     "output": "OnPressed",
+     "param": "",
+     "target": "aa_explode",
+     "times": 1
+    },
+    {
+     "delay": 80.0,
+     "input": "Command",
+     "output": "OnPressed",
+     "param": "say *** Helicopter Departing in 10 Seconds ***",
+     "target": "server_rocket",
+     "times": 1
+    },
+    {
+     "delay": 85.0,
+     "input": "Command",
+     "output": "OnPressed",
+     "param": "say *** Helicopter Departing in 5 Seconds ***",
+     "target": "server_rocket",
+     "times": 1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1025,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  }
+ ],
  "name": "ze_blackmesa_escape",
  "notes": [],
  "skipped": {
@@ -21700,6 +25451,28 @@
    "vertex_count": 80
   },
   {
+   "classname": "func_button",
+   "colour": [
+    0.2414,
+    0.1318,
+    0.1489
+   ],
+   "entity": 11,
+   "generic": "metal",
+   "index_count": 36,
+   "index_offset": 1242220,
+   "material": "props/doorbutton002a",
+   "model": 4,
+   "normal_offset": 1241740,
+   "position_offset": 1241452,
+   "texels": [
+    32,
+    64
+   ],
+   "uv_offset": 1242028,
+   "vertex_count": 24
+  },
+  {
    "classname": "func_tracktrain",
    "colour": [
     0.2363,
@@ -21709,17 +25482,17 @@
    "entity": 37,
    "generic": "metal",
    "index_count": 60,
-   "index_offset": 1242732,
+   "index_offset": 1243644,
    "material": "metal/citadel_metalwall077a",
    "model": 5,
-   "normal_offset": 1241932,
-   "position_offset": 1241452,
+   "normal_offset": 1242844,
+   "position_offset": 1242364,
    "targetname": "bridge1",
    "texels": [
     512,
     512
    ],
-   "uv_offset": 1242412,
+   "uv_offset": 1243324,
    "vertex_count": 40
   },
   {
@@ -21732,17 +25505,17 @@
    "entity": 37,
    "generic": "metal",
    "index_count": 48,
-   "index_offset": 1243868,
+   "index_offset": 1244780,
    "material": "metal/metalwall005b",
    "model": 5,
-   "normal_offset": 1243308,
-   "position_offset": 1242972,
+   "normal_offset": 1244220,
+   "position_offset": 1243884,
    "targetname": "bridge1",
    "texels": [
     512,
     512
    ],
-   "uv_offset": 1243644,
+   "uv_offset": 1244556,
    "vertex_count": 28
   },
   {
@@ -21755,16 +25528,16 @@
    "entity": 48,
    "generic": "wood_planks",
    "index_count": 36,
-   "index_offset": 1244828,
+   "index_offset": 1245740,
    "material": "cs_italy/picrate1",
    "model": 7,
-   "normal_offset": 1244348,
-   "position_offset": 1244060,
+   "normal_offset": 1245260,
+   "position_offset": 1244972,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 1244636,
+   "uv_offset": 1245548,
    "vertex_count": 24
   },
   {
@@ -21777,16 +25550,16 @@
    "entity": 57,
    "generic": "metal",
    "index_count": 24,
-   "index_offset": 1245420,
+   "index_offset": 1246332,
    "material": "de_piranesi/pi_grnmetalt",
    "model": 8,
-   "normal_offset": 1245140,
-   "position_offset": 1244972,
+   "normal_offset": 1246052,
+   "position_offset": 1245884,
    "texels": [
     128,
     32
    ],
-   "uv_offset": 1245308,
+   "uv_offset": 1246220,
    "vertex_count": 14
   },
   {
@@ -21799,17 +25572,588 @@
    "entity": 57,
    "generic": "metal",
    "index_count": 18,
-   "index_offset": 1245836,
+   "index_offset": 1246748,
    "material": "metal/prodcaution",
    "model": 8,
-   "normal_offset": 1245636,
-   "position_offset": 1245516,
+   "normal_offset": 1246548,
+   "position_offset": 1246428,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 1245756,
+   "uv_offset": 1246668,
    "vertex_count": 10
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.3012,
+    0.2955,
+    0.257
+   ],
+   "entity": 63,
+   "generic": "metal",
+   "index_count": 24,
+   "index_offset": 1247396,
+   "material": "halflife/lab1_cmpm3000",
+   "model": 10,
+   "normal_offset": 1247036,
+   "position_offset": 1246820,
+   "texels": [
+    64,
+    64
+   ],
+   "uv_offset": 1247252,
+   "vertex_count": 18
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.3455,
+    0.3695,
+    0.3896
+   ],
+   "entity": 69,
+   "generic": "flat",
+   "index_count": 6,
+   "index_offset": 1247620,
+   "material": "decals/infnum0",
+   "model": 12,
+   "normal_offset": 1247540,
+   "position_offset": 1247492,
+   "targetname": "reset",
+   "texels": [
+    64,
+    64
+   ],
+   "uv_offset": 1247588,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.3533,
+    0.3506,
+    0.3382
+   ],
+   "entity": 69,
+   "generic": "metal",
+   "index_count": 24,
+   "index_offset": 1248156,
+   "material": "metal/metalwall005b",
+   "model": 12,
+   "normal_offset": 1247836,
+   "position_offset": 1247644,
+   "targetname": "reset",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 1248028,
+   "vertex_count": 16
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.2414,
+    0.1318,
+    0.1489
+   ],
+   "entity": 69,
+   "generic": "metal",
+   "index_count": 6,
+   "index_offset": 1248380,
+   "material": "props/doorbutton002a",
+   "model": 12,
+   "normal_offset": 1248300,
+   "position_offset": 1248252,
+   "targetname": "reset",
+   "texels": [
+    32,
+    64
+   ],
+   "uv_offset": 1248348,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.3206,
+    0.3473,
+    0.3748
+   ],
+   "entity": 70,
+   "generic": "flat",
+   "index_count": 6,
+   "index_offset": 1248532,
+   "material": "decals/infnum5",
+   "model": 13,
+   "normal_offset": 1248452,
+   "position_offset": 1248404,
+   "targetname": "5",
+   "texels": [
+    64,
+    64
+   ],
+   "uv_offset": 1248500,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.3533,
+    0.3506,
+    0.3382
+   ],
+   "entity": 70,
+   "generic": "metal",
+   "index_count": 24,
+   "index_offset": 1249068,
+   "material": "metal/metalwall005b",
+   "model": 13,
+   "normal_offset": 1248748,
+   "position_offset": 1248556,
+   "targetname": "5",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 1248940,
+   "vertex_count": 16
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.2414,
+    0.1318,
+    0.1489
+   ],
+   "entity": 70,
+   "generic": "metal",
+   "index_count": 6,
+   "index_offset": 1249292,
+   "material": "props/doorbutton002a",
+   "model": 13,
+   "normal_offset": 1249212,
+   "position_offset": 1249164,
+   "targetname": "5",
+   "texels": [
+    32,
+    64
+   ],
+   "uv_offset": 1249260,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.34,
+    0.3644,
+    0.3858
+   ],
+   "entity": 71,
+   "generic": "flat",
+   "index_count": 6,
+   "index_offset": 1249444,
+   "material": "decals/infnum6",
+   "model": 14,
+   "normal_offset": 1249364,
+   "position_offset": 1249316,
+   "targetname": "6",
+   "texels": [
+    64,
+    64
+   ],
+   "uv_offset": 1249412,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.3533,
+    0.3506,
+    0.3382
+   ],
+   "entity": 71,
+   "generic": "metal",
+   "index_count": 24,
+   "index_offset": 1249980,
+   "material": "metal/metalwall005b",
+   "model": 14,
+   "normal_offset": 1249660,
+   "position_offset": 1249468,
+   "targetname": "6",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 1249852,
+   "vertex_count": 16
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.2414,
+    0.1318,
+    0.1489
+   ],
+   "entity": 71,
+   "generic": "metal",
+   "index_count": 6,
+   "index_offset": 1250204,
+   "material": "props/doorbutton002a",
+   "model": 14,
+   "normal_offset": 1250124,
+   "position_offset": 1250076,
+   "targetname": "6",
+   "texels": [
+    32,
+    64
+   ],
+   "uv_offset": 1250172,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.3385,
+    0.3643,
+    0.3916
+   ],
+   "entity": 72,
+   "generic": "flat",
+   "index_count": 6,
+   "index_offset": 1250356,
+   "material": "decals/infnum3",
+   "model": 15,
+   "normal_offset": 1250276,
+   "position_offset": 1250228,
+   "targetname": "3",
+   "texels": [
+    64,
+    64
+   ],
+   "uv_offset": 1250324,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.3533,
+    0.3506,
+    0.3382
+   ],
+   "entity": 72,
+   "generic": "metal",
+   "index_count": 24,
+   "index_offset": 1250892,
+   "material": "metal/metalwall005b",
+   "model": 15,
+   "normal_offset": 1250572,
+   "position_offset": 1250380,
+   "targetname": "3",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 1250764,
+   "vertex_count": 16
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.2414,
+    0.1318,
+    0.1489
+   ],
+   "entity": 72,
+   "generic": "metal",
+   "index_count": 6,
+   "index_offset": 1251116,
+   "material": "props/doorbutton002a",
+   "model": 15,
+   "normal_offset": 1251036,
+   "position_offset": 1250988,
+   "targetname": "3",
+   "texels": [
+    32,
+    64
+   ],
+   "uv_offset": 1251084,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.317,
+    0.3443,
+    0.3725
+   ],
+   "entity": 73,
+   "generic": "flat",
+   "index_count": 6,
+   "index_offset": 1251268,
+   "material": "decals/infnum4",
+   "model": 16,
+   "normal_offset": 1251188,
+   "position_offset": 1251140,
+   "targetname": "4",
+   "texels": [
+    64,
+    64
+   ],
+   "uv_offset": 1251236,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.3533,
+    0.3506,
+    0.3382
+   ],
+   "entity": 73,
+   "generic": "metal",
+   "index_count": 24,
+   "index_offset": 1251804,
+   "material": "metal/metalwall005b",
+   "model": 16,
+   "normal_offset": 1251484,
+   "position_offset": 1251292,
+   "targetname": "4",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 1251676,
+   "vertex_count": 16
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.2414,
+    0.1318,
+    0.1489
+   ],
+   "entity": 73,
+   "generic": "metal",
+   "index_count": 6,
+   "index_offset": 1252028,
+   "material": "props/doorbutton002a",
+   "model": 16,
+   "normal_offset": 1251948,
+   "position_offset": 1251900,
+   "targetname": "4",
+   "texels": [
+    32,
+    64
+   ],
+   "uv_offset": 1251996,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.3048,
+    0.336,
+    0.3727
+   ],
+   "entity": 74,
+   "generic": "flat",
+   "index_count": 6,
+   "index_offset": 1252180,
+   "material": "decals/infnum1",
+   "model": 17,
+   "normal_offset": 1252100,
+   "position_offset": 1252052,
+   "targetname": "1",
+   "texels": [
+    64,
+    64
+   ],
+   "uv_offset": 1252148,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.3533,
+    0.3506,
+    0.3382
+   ],
+   "entity": 74,
+   "generic": "metal",
+   "index_count": 24,
+   "index_offset": 1252716,
+   "material": "metal/metalwall005b",
+   "model": 17,
+   "normal_offset": 1252396,
+   "position_offset": 1252204,
+   "targetname": "1",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 1252588,
+   "vertex_count": 16
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.2414,
+    0.1318,
+    0.1489
+   ],
+   "entity": 74,
+   "generic": "metal",
+   "index_count": 6,
+   "index_offset": 1252940,
+   "material": "props/doorbutton002a",
+   "model": 17,
+   "normal_offset": 1252860,
+   "position_offset": 1252812,
+   "targetname": "1",
+   "texels": [
+    32,
+    64
+   ],
+   "uv_offset": 1252908,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.3199,
+    0.3466,
+    0.3731
+   ],
+   "entity": 75,
+   "generic": "flat",
+   "index_count": 6,
+   "index_offset": 1253092,
+   "material": "decals/infnum2",
+   "model": 18,
+   "normal_offset": 1253012,
+   "position_offset": 1252964,
+   "targetname": "2",
+   "texels": [
+    64,
+    64
+   ],
+   "uv_offset": 1253060,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.3533,
+    0.3506,
+    0.3382
+   ],
+   "entity": 75,
+   "generic": "metal",
+   "index_count": 24,
+   "index_offset": 1253628,
+   "material": "metal/metalwall005b",
+   "model": 18,
+   "normal_offset": 1253308,
+   "position_offset": 1253116,
+   "targetname": "2",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 1253500,
+   "vertex_count": 16
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.2414,
+    0.1318,
+    0.1489
+   ],
+   "entity": 75,
+   "generic": "metal",
+   "index_count": 6,
+   "index_offset": 1253852,
+   "material": "props/doorbutton002a",
+   "model": 18,
+   "normal_offset": 1253772,
+   "position_offset": 1253724,
+   "targetname": "2",
+   "texels": [
+    32,
+    64
+   ],
+   "uv_offset": 1253820,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.3012,
+    0.2955,
+    0.257
+   ],
+   "entity": 103,
+   "generic": "metal",
+   "index_count": 24,
+   "index_offset": 1254452,
+   "material": "halflife/lab1_cmpm3000",
+   "model": 19,
+   "normal_offset": 1254092,
+   "position_offset": 1253876,
+   "texels": [
+    64,
+    64
+   ],
+   "uv_offset": 1254308,
+   "vertex_count": 18
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.3012,
+    0.2955,
+    0.257
+   ],
+   "entity": 123,
+   "generic": "metal",
+   "index_count": 24,
+   "index_offset": 1255124,
+   "material": "halflife/lab1_cmpm3000",
+   "model": 22,
+   "normal_offset": 1254764,
+   "position_offset": 1254548,
+   "texels": [
+    64,
+    64
+   ],
+   "uv_offset": 1254980,
+   "vertex_count": 18
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.3012,
+    0.2955,
+    0.257
+   ],
+   "entity": 124,
+   "generic": "metal",
+   "index_count": 24,
+   "index_offset": 1255796,
+   "material": "halflife/lab1_cmpm3000",
+   "model": 23,
+   "normal_offset": 1255436,
+   "position_offset": 1255220,
+   "texels": [
+    64,
+    64
+   ],
+   "uv_offset": 1255652,
+   "vertex_count": 18
   },
   {
    "classname": "func_breakable",
@@ -21821,16 +26165,16 @@
    "entity": 130,
    "generic": "wood_planks",
    "index_count": 36,
-   "index_offset": 1246676,
+   "index_offset": 1256660,
    "material": "cs_italy/picrate1",
    "model": 26,
-   "normal_offset": 1246196,
-   "position_offset": 1245908,
+   "normal_offset": 1256180,
+   "position_offset": 1255892,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 1246484,
+   "uv_offset": 1256468,
    "vertex_count": 24
   },
   {
@@ -21843,17 +26187,105 @@
    "entity": 131,
    "generic": "wood_planks",
    "index_count": 36,
-   "index_offset": 1247588,
+   "index_offset": 1257572,
    "material": "cs_italy/picrate1",
    "model": 27,
-   "normal_offset": 1247108,
-   "position_offset": 1246820,
+   "normal_offset": 1257092,
+   "position_offset": 1256804,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 1247396,
+   "uv_offset": 1257380,
    "vertex_count": 24
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.3012,
+    0.2955,
+    0.257
+   ],
+   "entity": 133,
+   "generic": "metal",
+   "index_count": 24,
+   "index_offset": 1258292,
+   "material": "halflife/lab1_cmpm3000",
+   "model": 29,
+   "normal_offset": 1257932,
+   "position_offset": 1257716,
+   "texels": [
+    64,
+    64
+   ],
+   "uv_offset": 1258148,
+   "vertex_count": 18
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.3012,
+    0.2955,
+    0.257
+   ],
+   "entity": 134,
+   "generic": "metal",
+   "index_count": 24,
+   "index_offset": 1258964,
+   "material": "halflife/lab1_cmpm3000",
+   "model": 30,
+   "normal_offset": 1258604,
+   "position_offset": 1258388,
+   "texels": [
+    64,
+    64
+   ],
+   "uv_offset": 1258820,
+   "vertex_count": 18
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.3012,
+    0.2955,
+    0.257
+   ],
+   "entity": 140,
+   "generic": "metal",
+   "index_count": 24,
+   "index_offset": 1259636,
+   "material": "halflife/lab1_cmpm3000",
+   "model": 31,
+   "normal_offset": 1259276,
+   "position_offset": 1259060,
+   "texels": [
+    64,
+    64
+   ],
+   "uv_offset": 1259492,
+   "vertex_count": 18
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.3012,
+    0.2955,
+    0.257
+   ],
+   "entity": 141,
+   "generic": "metal",
+   "index_count": 24,
+   "index_offset": 1260308,
+   "material": "halflife/lab1_cmpm3000",
+   "model": 32,
+   "normal_offset": 1259948,
+   "position_offset": 1259732,
+   "texels": [
+    64,
+    64
+   ],
+   "uv_offset": 1260164,
+   "vertex_count": 18
   },
   {
    "classname": "func_breakable",
@@ -21865,17 +26297,40 @@
    "entity": 144,
    "generic": "wood_planks",
    "index_count": 36,
-   "index_offset": 1248500,
+   "index_offset": 1261172,
    "material": "cs_italy/picrate1",
    "model": 33,
-   "normal_offset": 1248020,
-   "position_offset": 1247732,
+   "normal_offset": 1260692,
+   "position_offset": 1260404,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 1248308,
+   "uv_offset": 1260980,
    "vertex_count": 24
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.3012,
+    0.2955,
+    0.257
+   ],
+   "entity": 150,
+   "generic": "metal",
+   "index_count": 24,
+   "index_offset": 1261892,
+   "material": "halflife/lab1_cmpm3000",
+   "model": 35,
+   "normal_offset": 1261532,
+   "position_offset": 1261316,
+   "targetname": "blackmesa_door1",
+   "texels": [
+    64,
+    64
+   ],
+   "uv_offset": 1261748,
+   "vertex_count": 18
   },
   {
    "classname": "func_breakable",
@@ -21887,16 +26342,16 @@
    "entity": 158,
    "generic": "metal",
    "index_count": 36,
-   "index_offset": 1249412,
+   "index_offset": 1262756,
    "material": "de_nuke/nukslidea",
    "model": 37,
-   "normal_offset": 1248932,
-   "position_offset": 1248644,
+   "normal_offset": 1262276,
+   "position_offset": 1261988,
    "texels": [
     512,
     128
    ],
-   "uv_offset": 1249220,
+   "uv_offset": 1262564,
    "vertex_count": 24
   },
   {
@@ -21909,16 +26364,16 @@
    "entity": 159,
    "generic": "metal",
    "index_count": 36,
-   "index_offset": 1250324,
+   "index_offset": 1263668,
    "material": "metal/metalhull010b",
    "model": 38,
-   "normal_offset": 1249844,
-   "position_offset": 1249556,
+   "normal_offset": 1263188,
+   "position_offset": 1262900,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 1250132,
+   "uv_offset": 1263476,
    "vertex_count": 24
   },
   {
@@ -21931,16 +26386,16 @@
    "entity": 160,
    "generic": "metal",
    "index_count": 36,
-   "index_offset": 1251236,
+   "index_offset": 1264580,
    "material": "metal/metalhull010b",
    "model": 39,
-   "normal_offset": 1250756,
-   "position_offset": 1250468,
+   "normal_offset": 1264100,
+   "position_offset": 1263812,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 1251044,
+   "uv_offset": 1264388,
    "vertex_count": 24
   },
   {
@@ -21953,17 +26408,61 @@
    "entity": 163,
    "generic": "metal",
    "index_count": 36,
-   "index_offset": 1252148,
+   "index_offset": 1265492,
    "material": "metal/metalgrate013b",
    "model": 40,
-   "normal_offset": 1251668,
-   "position_offset": 1251380,
+   "normal_offset": 1265012,
+   "position_offset": 1264724,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 1251956,
+   "uv_offset": 1265300,
    "vertex_count": 24
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.1842,
+    0.1977,
+    0.2
+   ],
+   "entity": 165,
+   "generic": "metal",
+   "index_count": 12,
+   "index_offset": 1265892,
+   "material": "halflife/lab1_comp3e",
+   "model": 42,
+   "normal_offset": 1265732,
+   "position_offset": 1265636,
+   "texels": [
+    64,
+    32
+   ],
+   "uv_offset": 1265828,
+   "vertex_count": 8
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.2363,
+    0.2501,
+    0.2563
+   ],
+   "entity": 165,
+   "generic": "metal",
+   "index_count": 24,
+   "index_offset": 1266452,
+   "material": "metal/citadel_metalwall077a",
+   "model": 42,
+   "normal_offset": 1266132,
+   "position_offset": 1265940,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 1266324,
+   "vertex_count": 16
   },
   {
    "classname": "func_breakable",
@@ -21975,17 +26474,39 @@
    "entity": 166,
    "generic": "wood_planks",
    "index_count": 36,
-   "index_offset": 1253060,
+   "index_offset": 1267316,
    "material": "de_cbble/cratesm01b",
    "model": 43,
-   "normal_offset": 1252580,
-   "position_offset": 1252292,
+   "normal_offset": 1266836,
+   "position_offset": 1266548,
    "targetname": "crate1",
    "texels": [
     256,
     256
    ],
-   "uv_offset": 1252868,
+   "uv_offset": 1267124,
+   "vertex_count": 24
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.2414,
+    0.1318,
+    0.1489
+   ],
+   "entity": 167,
+   "generic": "metal",
+   "index_count": 36,
+   "index_offset": 1268228,
+   "material": "props/doorbutton002a",
+   "model": 44,
+   "normal_offset": 1267748,
+   "position_offset": 1267460,
+   "texels": [
+    32,
+    64
+   ],
+   "uv_offset": 1268036,
    "vertex_count": 24
   },
   {
@@ -21998,16 +26519,16 @@
    "entity": 172,
    "generic": "metal",
    "index_count": 288,
-   "index_offset": 1259348,
+   "index_offset": 1274516,
    "material": "de_nuke/nuke_metalfloor_01",
    "model": 45,
-   "normal_offset": 1255508,
-   "position_offset": 1253204,
+   "normal_offset": 1270676,
+   "position_offset": 1268372,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 1257812,
+   "uv_offset": 1272980,
    "vertex_count": 192
   },
   {
@@ -22020,17 +26541,17 @@
    "entity": 174,
    "generic": "metal",
    "index_count": 36,
-   "index_offset": 1261268,
+   "index_offset": 1276436,
    "material": "metal/metalgrate013b",
    "model": 47,
-   "normal_offset": 1260788,
-   "position_offset": 1260500,
+   "normal_offset": 1275956,
+   "position_offset": 1275668,
    "targetname": "stairs_metalgrid",
    "texels": [
     256,
     256
    ],
-   "uv_offset": 1261076,
+   "uv_offset": 1276244,
    "vertex_count": 24
   },
   {
@@ -22043,16 +26564,16 @@
    "entity": 184,
    "generic": "metal",
    "index_count": 36,
-   "index_offset": 1262180,
+   "index_offset": 1277348,
    "material": "metal/metalvent001a",
    "model": 49,
-   "normal_offset": 1261700,
-   "position_offset": 1261412,
+   "normal_offset": 1276868,
+   "position_offset": 1276580,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 1261988,
+   "uv_offset": 1277156,
    "vertex_count": 24
   },
   {
@@ -22065,16 +26586,16 @@
    "entity": 185,
    "generic": "metal",
    "index_count": 36,
-   "index_offset": 1263092,
+   "index_offset": 1278260,
    "material": "metal/metalvent001a",
    "model": 50,
-   "normal_offset": 1262612,
-   "position_offset": 1262324,
+   "normal_offset": 1277780,
+   "position_offset": 1277492,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 1262900,
+   "uv_offset": 1278068,
    "vertex_count": 24
   },
   {
@@ -22087,17 +26608,61 @@
    "entity": 186,
    "generic": "metal",
    "index_count": 36,
-   "index_offset": 1264004,
+   "index_offset": 1279172,
    "material": "metal/metalvent001a",
    "model": 51,
-   "normal_offset": 1263524,
-   "position_offset": 1263236,
+   "normal_offset": 1278692,
+   "position_offset": 1278404,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 1263812,
+   "uv_offset": 1278980,
    "vertex_count": 24
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.2363,
+    0.2501,
+    0.2563
+   ],
+   "entity": 271,
+   "generic": "metal",
+   "index_count": 24,
+   "index_offset": 1279828,
+   "material": "metal/citadel_metalwall077a",
+   "model": 82,
+   "normal_offset": 1279508,
+   "position_offset": 1279316,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 1279700,
+   "vertex_count": 16
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.2414,
+    0.1318,
+    0.1489
+   ],
+   "entity": 271,
+   "generic": "metal",
+   "index_count": 12,
+   "index_offset": 1280180,
+   "material": "props/doorbutton002a",
+   "model": 82,
+   "normal_offset": 1280020,
+   "position_offset": 1279924,
+   "texels": [
+    32,
+    64
+   ],
+   "uv_offset": 1280116,
+   "vertex_count": 8
   },
   {
    "classname": "func_breakable",
@@ -22109,16 +26674,16 @@
    "entity": 294,
    "generic": "wood_planks",
    "index_count": 36,
-   "index_offset": 1264916,
+   "index_offset": 1280996,
    "material": "cs_italy/picrate1",
    "model": 86,
-   "normal_offset": 1264436,
-   "position_offset": 1264148,
+   "normal_offset": 1280516,
+   "position_offset": 1280228,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 1264724,
+   "uv_offset": 1280804,
    "vertex_count": 24
   },
   {
@@ -22131,16 +26696,16 @@
    "entity": 295,
    "generic": "wood_planks",
    "index_count": 30,
-   "index_offset": 1265700,
+   "index_offset": 1281780,
    "material": "cs_italy/picrate1",
    "model": 87,
-   "normal_offset": 1265300,
-   "position_offset": 1265060,
+   "normal_offset": 1281380,
+   "position_offset": 1281140,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 1265540,
+   "uv_offset": 1281620,
    "vertex_count": 20
   },
   {
@@ -22153,16 +26718,16 @@
    "entity": 296,
    "generic": "wood_planks",
    "index_count": 30,
-   "index_offset": 1266460,
+   "index_offset": 1282540,
    "material": "cs_italy/picrate1",
    "model": 88,
-   "normal_offset": 1266060,
-   "position_offset": 1265820,
+   "normal_offset": 1282140,
+   "position_offset": 1281900,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 1266300,
+   "uv_offset": 1282380,
    "vertex_count": 20
   },
   {
@@ -22175,17 +26740,149 @@
    "entity": 301,
    "generic": "metal",
    "index_count": 36,
-   "index_offset": 1267348,
+   "index_offset": 1283428,
    "material": "dev/dev_lowermetaldoor02a",
    "model": 89,
-   "normal_offset": 1266868,
-   "position_offset": 1266580,
+   "normal_offset": 1282948,
+   "position_offset": 1282660,
    "texels": [
     256,
     512
    ],
-   "uv_offset": 1267156,
+   "uv_offset": 1283236,
    "vertex_count": 24
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.2363,
+    0.2501,
+    0.2563
+   ],
+   "entity": 303,
+   "generic": "metal",
+   "index_count": 24,
+   "index_offset": 1284084,
+   "material": "metal/citadel_metalwall077a",
+   "model": 90,
+   "normal_offset": 1283764,
+   "position_offset": 1283572,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 1283956,
+   "vertex_count": 16
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.2414,
+    0.1318,
+    0.1489
+   ],
+   "entity": 303,
+   "generic": "metal",
+   "index_count": 12,
+   "index_offset": 1284436,
+   "material": "props/doorbutton002a",
+   "model": 90,
+   "normal_offset": 1284276,
+   "position_offset": 1284180,
+   "texels": [
+    32,
+    64
+   ],
+   "uv_offset": 1284372,
+   "vertex_count": 8
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.2363,
+    0.2501,
+    0.2563
+   ],
+   "entity": 304,
+   "generic": "metal",
+   "index_count": 24,
+   "index_offset": 1284996,
+   "material": "metal/citadel_metalwall077a",
+   "model": 91,
+   "normal_offset": 1284676,
+   "position_offset": 1284484,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 1284868,
+   "vertex_count": 16
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.2414,
+    0.1318,
+    0.1489
+   ],
+   "entity": 304,
+   "generic": "metal",
+   "index_count": 12,
+   "index_offset": 1285348,
+   "material": "props/doorbutton002a",
+   "model": 91,
+   "normal_offset": 1285188,
+   "position_offset": 1285092,
+   "texels": [
+    32,
+    64
+   ],
+   "uv_offset": 1285284,
+   "vertex_count": 8
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.2363,
+    0.2501,
+    0.2563
+   ],
+   "entity": 305,
+   "generic": "metal",
+   "index_count": 24,
+   "index_offset": 1285908,
+   "material": "metal/citadel_metalwall077a",
+   "model": 92,
+   "normal_offset": 1285588,
+   "position_offset": 1285396,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 1285780,
+   "vertex_count": 16
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.2414,
+    0.1318,
+    0.1489
+   ],
+   "entity": 305,
+   "generic": "metal",
+   "index_count": 12,
+   "index_offset": 1286260,
+   "material": "props/doorbutton002a",
+   "model": 92,
+   "normal_offset": 1286100,
+   "position_offset": 1286004,
+   "texels": [
+    32,
+    64
+   ],
+   "uv_offset": 1286196,
+   "vertex_count": 8
   },
   {
    "classname": "func_breakable",
@@ -22197,17 +26894,17 @@
    "entity": 308,
    "generic": "metal",
    "index_count": 12,
-   "index_offset": 1267748,
+   "index_offset": 1286564,
    "material": "dev/dev_lowermetaldoor02a",
    "model": 95,
-   "normal_offset": 1267588,
-   "position_offset": 1267492,
+   "normal_offset": 1286404,
+   "position_offset": 1286308,
    "targetname": "lockers_door3",
    "texels": [
     256,
     512
    ],
-   "uv_offset": 1267684,
+   "uv_offset": 1286500,
    "vertex_count": 8
   },
   {
@@ -22220,18 +26917,64 @@
    "entity": 308,
    "generic": "metal",
    "index_count": 24,
-   "index_offset": 1268308,
+   "index_offset": 1287124,
    "material": "metal/citadel_metalwall077a",
    "model": 95,
-   "normal_offset": 1267988,
-   "position_offset": 1267796,
+   "normal_offset": 1286804,
+   "position_offset": 1286612,
    "targetname": "lockers_door3",
    "texels": [
     512,
     512
    ],
-   "uv_offset": 1268180,
+   "uv_offset": 1286996,
    "vertex_count": 16
+  },
+  {
+   "classname": "func_rotating",
+   "colour": [
+    0.6977,
+    0.7002,
+    0.6889
+   ],
+   "entity": 310,
+   "generic": "metal",
+   "index_count": 564,
+   "index_offset": 1294964,
+   "material": "metal/metalhull010b",
+   "model": 97,
+   "normal_offset": 1290124,
+   "position_offset": 1287220,
+   "targetname": "helicopter_rotor1",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 1293028,
+   "vertex_count": 242
+  },
+  {
+   "classname": "func_rotating",
+   "colour": [
+    0.6977,
+    0.7002,
+    0.6889
+   ],
+   "entity": 311,
+   "generic": "metal",
+   "index_count": 240,
+   "index_offset": 1301316,
+   "material": "metal/metalhull010b",
+   "model": 98,
+   "normal_offset": 1298756,
+   "position_offset": 1297220,
+   "targetname": "helicopter_rotor2",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 1300292,
+   "vertex_count": 128
   },
   {
    "classname": "func_breakable",
@@ -22243,16 +26986,16 @@
    "entity": 312,
    "generic": "glass",
    "index_count": 36,
-   "index_offset": 1269172,
+   "index_offset": 1303044,
    "material": "glass/unbreakable",
    "model": 99,
-   "normal_offset": 1268692,
-   "position_offset": 1268404,
+   "normal_offset": 1302564,
+   "position_offset": 1302276,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 1268980,
+   "uv_offset": 1302852,
    "vertex_count": 24
   },
   {
@@ -22265,16 +27008,16 @@
    "entity": 314,
    "generic": "metal",
    "index_count": 36,
-   "index_offset": 1270084,
+   "index_offset": 1303956,
    "material": "de_nuke/nuke_metalfloor_01",
    "model": 101,
-   "normal_offset": 1269604,
-   "position_offset": 1269316,
+   "normal_offset": 1303476,
+   "position_offset": 1303188,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 1269892,
+   "uv_offset": 1303764,
    "vertex_count": 24
   },
   {
@@ -22287,16 +27030,16 @@
    "entity": 316,
    "generic": "wood_planks",
    "index_count": 36,
-   "index_offset": 1270996,
+   "index_offset": 1304868,
    "material": "cs_italy/picrate1",
    "model": 102,
-   "normal_offset": 1270516,
-   "position_offset": 1270228,
+   "normal_offset": 1304388,
+   "position_offset": 1304100,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 1270804,
+   "uv_offset": 1304676,
    "vertex_count": 24
   },
   {
@@ -22309,16 +27052,16 @@
    "entity": 321,
    "generic": "metal",
    "index_count": 36,
-   "index_offset": 1271908,
+   "index_offset": 1305780,
    "material": "metal/metalvent001a",
    "model": 104,
-   "normal_offset": 1271428,
-   "position_offset": 1271140,
+   "normal_offset": 1305300,
+   "position_offset": 1305012,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 1271716,
+   "uv_offset": 1305588,
    "vertex_count": 24
   },
   {
@@ -22331,16 +27074,16 @@
    "entity": 330,
    "generic": "metal",
    "index_count": 36,
-   "index_offset": 1272820,
+   "index_offset": 1306692,
    "material": "metal/metalvent001a",
    "model": 106,
-   "normal_offset": 1272340,
-   "position_offset": 1272052,
+   "normal_offset": 1306212,
+   "position_offset": 1305924,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 1272628,
+   "uv_offset": 1306500,
    "vertex_count": 24
   },
   {
@@ -22353,16 +27096,16 @@
    "entity": 333,
    "generic": "metal",
    "index_count": 36,
-   "index_offset": 1273732,
+   "index_offset": 1307604,
    "material": "metal/metalvent001a",
    "model": 109,
-   "normal_offset": 1273252,
-   "position_offset": 1272964,
+   "normal_offset": 1307124,
+   "position_offset": 1306836,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 1273540,
+   "uv_offset": 1307412,
    "vertex_count": 24
   },
   {
@@ -22375,16 +27118,16 @@
    "entity": 334,
    "generic": "wood_planks",
    "index_count": 36,
-   "index_offset": 1274644,
+   "index_offset": 1308516,
    "material": "cs_italy/picrate1",
    "model": 110,
-   "normal_offset": 1274164,
-   "position_offset": 1273876,
+   "normal_offset": 1308036,
+   "position_offset": 1307748,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 1274452,
+   "uv_offset": 1308324,
    "vertex_count": 24
   },
   {
@@ -22397,16 +27140,16 @@
    "entity": 336,
    "generic": "wood_planks",
    "index_count": 36,
-   "index_offset": 1275556,
+   "index_offset": 1309428,
    "material": "cs_italy/picrate1",
    "model": 112,
-   "normal_offset": 1275076,
-   "position_offset": 1274788,
+   "normal_offset": 1308948,
+   "position_offset": 1308660,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 1275364,
+   "uv_offset": 1309236,
    "vertex_count": 24
   },
   {
@@ -22419,17 +27162,17 @@
    "entity": 338,
    "generic": "metal",
    "index_count": 480,
-   "index_offset": 1282292,
+   "index_offset": 1316164,
    "material": "cs_havana/metalwall085a",
    "model": 114,
-   "normal_offset": 1278172,
-   "position_offset": 1275700,
+   "normal_offset": 1312044,
+   "position_offset": 1309572,
    "targetname": "helicopter1",
    "texels": [
     512,
     512
    ],
-   "uv_offset": 1280644,
+   "uv_offset": 1314516,
    "vertex_count": 206
   },
   {
@@ -22442,17 +27185,17 @@
    "entity": 338,
    "generic": "metal",
    "index_count": 450,
-   "index_offset": 1291828,
+   "index_offset": 1325700,
    "material": "de_nuke/nuke_metalfloor_01",
    "model": 114,
-   "normal_offset": 1287068,
-   "position_offset": 1284212,
+   "normal_offset": 1320940,
+   "position_offset": 1318084,
    "targetname": "helicopter1",
    "texels": [
     512,
     512
    ],
-   "uv_offset": 1289924,
+   "uv_offset": 1323796,
    "vertex_count": 238
   },
   {
@@ -22465,17 +27208,17 @@
    "entity": 338,
    "generic": "metal",
    "index_count": 30,
-   "index_offset": 1294076,
+   "index_offset": 1327948,
    "material": "de_train/train_metalceiling_02",
    "model": 114,
-   "normal_offset": 1293796,
-   "position_offset": 1293628,
+   "normal_offset": 1327668,
+   "position_offset": 1327500,
    "targetname": "helicopter1",
    "texels": [
     512,
     512
    ],
-   "uv_offset": 1293964,
+   "uv_offset": 1327836,
    "vertex_count": 14
   },
   {
@@ -22488,17 +27231,17 @@
    "entity": 338,
    "generic": "glass",
    "index_count": 36,
-   "index_offset": 1294964,
+   "index_offset": 1328836,
    "material": "glass/glasswindow070c",
    "model": 114,
-   "normal_offset": 1294484,
-   "position_offset": 1294196,
+   "normal_offset": 1328356,
+   "position_offset": 1328068,
    "targetname": "helicopter1",
    "texels": [
     512,
     512
    ],
-   "uv_offset": 1294772,
+   "uv_offset": 1328644,
    "vertex_count": 24
   },
   {
@@ -22511,16 +27254,38 @@
    "entity": 344,
    "generic": "metal",
    "index_count": 36,
-   "index_offset": 1295876,
+   "index_offset": 1329748,
    "material": "metal/metalvent001a",
    "model": 119,
-   "normal_offset": 1295396,
-   "position_offset": 1295108,
+   "normal_offset": 1329268,
+   "position_offset": 1328980,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 1295684,
+   "uv_offset": 1329556,
+   "vertex_count": 24
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.5562,
+    0.4645,
+    0.2081
+   ],
+   "entity": 351,
+   "generic": "metal",
+   "index_count": 36,
+   "index_offset": 1330660,
+   "material": "metal/prodcaution",
+   "model": 120,
+   "normal_offset": 1330180,
+   "position_offset": 1329892,
+   "texels": [
+    256,
+    256
+   ],
+   "uv_offset": 1330468,
    "vertex_count": 24
   },
   {
@@ -22533,16 +27298,16 @@
    "entity": 383,
    "generic": "glass",
    "index_count": 36,
-   "index_offset": 1296788,
+   "index_offset": 1331572,
    "material": "glass/unbreakable",
    "model": 130,
-   "normal_offset": 1296308,
-   "position_offset": 1296020,
+   "normal_offset": 1331092,
+   "position_offset": 1330804,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 1296596,
+   "uv_offset": 1331380,
    "vertex_count": 24
   },
   {
@@ -22555,16 +27320,16 @@
    "entity": 384,
    "generic": "glass",
    "index_count": 36,
-   "index_offset": 1297700,
+   "index_offset": 1332484,
    "material": "glass/unbreakable",
    "model": 131,
-   "normal_offset": 1297220,
-   "position_offset": 1296932,
+   "normal_offset": 1332004,
+   "position_offset": 1331716,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 1297508,
+   "uv_offset": 1332292,
    "vertex_count": 24
   }
  ],
@@ -22577,6 +27342,3494 @@
   "y0": 0.0
  },
  "version": 1,
+ "volumes": [
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      97.536
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -96.9264
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      287.5788
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -286.3596
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      3.6576
+     ]
+    ]
+   ],
+   "classname": "trigger_teleport",
+   "disabled": false,
+   "entity": 132,
+   "filter": "",
+   "kind": "teleport",
+   "model": 28,
+   "outputs": [],
+   "spawnflags": 1,
+   "target": "teleport1_destination",
+   "targetname": "teleport1"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      102.4128
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -101.8032
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      23.1648
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -18.5928
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -12.4968
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      17.0688
+     ]
+    ]
+   ],
+   "classname": "trigger_once",
+   "disabled": false,
+   "entity": 175,
+   "filter": "",
+   "kind": "once",
+   "model": 48,
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "Break",
+     "output": "OnStartTouch",
+     "param": "",
+     "target": "stairs_metalgrid",
+     "times": 1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnStartTouch",
+     "param": "",
+     "target": "stairs_sound",
+     "times": 1
+    }
+   ],
+   "spawnflags": 1,
+   "targetname": "",
+   "wait": -1.0
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      85.9536
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -78.7908
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      46.3296
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -40.2336
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      2.1336
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      28.956
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 189,
+   "kind": "hurt",
+   "model": 52,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      100.8888
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -85.9536
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      46.3296
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -40.2336
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      6.7056
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 190,
+   "kind": "hurt",
+   "model": 53,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      95.7072
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -91.15425
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      40.2336
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -18.5928
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      17.0688
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 191,
+   "kind": "hurt",
+   "model": 54,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      113.9952
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -95.7072
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      23.1648
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -18.5928
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      24.9936
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 192,
+   "kind": "hurt",
+   "model": 55,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      113.9952
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -110.3376
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      26.8224
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -23.1648
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      24.9936
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 193,
+   "kind": "hurt",
+   "model": 56,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      98.7552
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -90.5256
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      96.3168
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -46.3296
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      6.7056
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 194,
+   "kind": "hurt",
+   "model": 57,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      131.6736
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -131.064
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      90.2208
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -89.0016
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      3.6576
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 195,
+   "kind": "hurt",
+   "model": 58,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      131.064
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -119.4816
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      91.44
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -86.5632
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      4.8768
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 196,
+   "kind": "hurt",
+   "model": 59,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      140.0556
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -138.9888
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      89.7636
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -88.5444
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      3.6576
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 197,
+   "kind": "hurt",
+   "model": 60,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      138.9888
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -131.6736
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      91.44
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -86.5632
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      4.8768
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 198,
+   "kind": "hurt",
+   "model": 61,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      130.1496
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -129.2352
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      86.5632
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -73.4568
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      2.1336
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 9999.0,
+   "disabled": true,
+   "entity": 199,
+   "kind": "hurt",
+   "model": 62,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      129.23539
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -97.53619
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      74.3712
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -73.4568
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      2.1336
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 9999.0,
+   "disabled": true,
+   "entity": 200,
+   "kind": "hurt",
+   "model": 63,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      114.4524
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -113.538
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      80.4672
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -74.5236
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      2.1336
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 9999.0,
+   "disabled": true,
+   "entity": 201,
+   "kind": "hurt",
+   "model": 64,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      123.444
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -117.90045
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      96.3168
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -93.5736
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.84785
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      4.28625
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 202,
+   "kind": "hurt",
+   "model": 65,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      123.44419
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -121.31059
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      101.19379
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -96.31699
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.84785
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      4.28625
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 203,
+   "kind": "hurt",
+   "model": 66,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      121.3104
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -111.4425
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      101.1936
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -99.06
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.84785
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      4.28625
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 204,
+   "kind": "hurt",
+   "model": 67,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      111.4425
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -106.7943
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      113.3856
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -96.3168
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      4.8768
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 205,
+   "kind": "hurt",
+   "model": 68,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      136.5504
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      149.9616
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -113.3856
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      9.7536
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      9.7536
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 206,
+   "kind": "hurt",
+   "model": 69,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      37.7952
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      307.2384
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -149.9616
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      9.7536
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      9.7536
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 207,
+   "kind": "hurt",
+   "model": 70,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      46.3296
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -37.7952
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      287.5788
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -286.3596
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      3.6576
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 208,
+   "kind": "hurt",
+   "model": 71,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      50.292
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -46.3296
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      289.8648
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -284.0736
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      3.6576
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 209,
+   "kind": "hurt",
+   "model": 72,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      50.5968
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -50.292
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      287.5788
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -286.3596
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      3.6576
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 210,
+   "kind": "hurt",
+   "model": 73,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      73.3044
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -50.5968
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      295.5036
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -275.844
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      8.5344
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 211,
+   "kind": "hurt",
+   "model": 74,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      97.536
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -73.3044
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      287.5788
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -286.3596
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      3.6576
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 212,
+   "kind": "hurt",
+   "model": 75,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      90.5256
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -85.9536
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      41.3004
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -40.2336
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      2.1336
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -1.2192
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 265,
+   "kind": "hurt",
+   "model": 80,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      90.5256
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -90.2208
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      41.3004
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -40.386
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      2.1336
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -1.2192
+     ]
+    ]
+   ],
+   "classname": "trigger_teleport",
+   "disabled": false,
+   "entity": 266,
+   "filter": "",
+   "kind": "teleport",
+   "model": 81,
+   "outputs": [],
+   "spawnflags": 1,
+   "target": "aa_secret_teleport_destination",
+   "targetname": "aa_secret_teleport"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      58.0644
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -55.1688
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      78.7908
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -78.3336
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      2.1336
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      1.0668
+     ]
+    ]
+   ],
+   "classname": "trigger_teleport",
+   "disabled": false,
+   "entity": 272,
+   "filter": "",
+   "kind": "teleport",
+   "model": 83,
+   "outputs": [],
+   "spawnflags": 1,
+   "target": "aa_secret_teleport2_destination",
+   "targetname": "aa_secret_teleport2"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      62.1792
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -49.0728
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      91.2876
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -78.3336
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      2.1336
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      10.9728
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 279,
+   "kind": "hurt",
+   "model": 84,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      117.90045
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -98.7552
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      96.3168
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -80.4672
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      6.7056
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 306,
+   "kind": "hurt",
+   "model": 93,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      140.0556
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -138.684
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      89.7636
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -88.5444
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      3.6576
+     ]
+    ]
+   ],
+   "classname": "trigger_push",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "disabled": false,
+   "entity": 307,
+   "kind": "push",
+   "model": 94,
+   "outputs": [],
+   "spawnflags": 1,
+   "speed": 19.031,
+   "targetname": ""
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      102.108
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -85.9536
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      46.3296
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -40.2336
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -25.4508
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      30.9372
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 309,
+   "kind": "hurt",
+   "model": 96,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      0.0,
+      0.0,
+      1.0,
+      31.5468
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -26.8224
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -18.288
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      43.8912
+     ],
+     [
+      -0.598351,
+      0.0,
+      -0.801234,
+      46.85382
+     ],
+     [
+      0.650329,
+      -0.0,
+      -0.759652,
+      -90.36842
+     ]
+    ],
+    [
+     [
+      0.0,
+      0.0,
+      1.0,
+      52.33035
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -47.5488
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -18.288
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      43.8912
+     ],
+     [
+      -0.654834,
+      0.0,
+      0.755773,
+      114.8753
+     ],
+     [
+      0.602967,
+      0.0,
+      0.797766,
+      -23.63495
+     ]
+    ],
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      120.5484
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -102.108
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      47.5488
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -31.5468
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -18.288
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      43.8912
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 9999.0,
+   "disabled": true,
+   "entity": 313,
+   "kind": "hurt",
+   "model": 100,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      123.29179
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -120.54859
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      40.6908
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -39.7764
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -35.6616
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      36.576
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 9999.0,
+   "disabled": true,
+   "entity": 320,
+   "kind": "hurt",
+   "model": 103,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      99.3648
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -98.4504
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      40.2336
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -25.7556
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -25.4508
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      26.3652
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 9999.0,
+   "disabled": true,
+   "entity": 329,
+   "kind": "hurt",
+   "model": 105,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      102.7176
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -98.4504
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      25.7556
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -24.8412
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -25.4508
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      26.3652
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 9999.0,
+   "disabled": true,
+   "entity": 331,
+   "kind": "hurt",
+   "model": 107,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      107.1372
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -102.7176
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      25.7556
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -24.8412
+     ],
+     [
+      0.11982,
+      0.992796,
+      0.0,
+      13.86762
+     ],
+     [
+      -0.11982,
+      -0.992796,
+      -0.0,
+      -12.9598
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 9999.0,
+   "disabled": true,
+   "entity": 332,
+   "kind": "hurt",
+   "model": 108,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      100.8888
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -75.438
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      45.2247
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -41.4528
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -35.5854
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      39.243
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 335,
+   "kind": "hurt",
+   "model": 111,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      124.206
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -123.2916
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      40.6908
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -36.576
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -35.6616
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      36.576
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 9999.0,
+   "disabled": true,
+   "entity": 340,
+   "kind": "hurt",
+   "model": 115,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      124.206
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -123.2916
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      36.576
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -35.3568
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -26.8986
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      36.576
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 9999.0,
+   "disabled": true,
+   "entity": 341,
+   "kind": "hurt",
+   "model": 116,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      124.206
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -123.2916
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      36.576
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -25.7556
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -25.9842
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      26.8986
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 9999.0,
+   "disabled": true,
+   "entity": 342,
+   "kind": "hurt",
+   "model": 117,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      124.206
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -114.6048
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      25.6032
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -24.6888
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -25.9842
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      26.8986
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 9999.0,
+   "disabled": true,
+   "entity": 343,
+   "kind": "hurt",
+   "model": 118,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      75.438
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -34.29
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      72.8472
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -19.812
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -35.5854
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      56.2356
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 352,
+   "kind": "hurt",
+   "model": 121,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      39.0144
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      0.0
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      66.7512
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -25.908
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -20.6883
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      26.8224
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": false,
+   "entity": 358,
+   "kind": "hurt",
+   "model": 122,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": ""
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      114.6048
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -107.1372
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      26.8224
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -23.1648
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -25.6032
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      28.0416
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 365,
+   "kind": "hurt",
+   "model": 123,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      138.9888
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -98.7552
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      72.0852
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -64.6176
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      4.8768
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 378,
+   "kind": "hurt",
+   "model": 125,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      138.9888
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -131.5212
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      85.344
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -72.0852
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      4.8768
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 379,
+   "kind": "hurt",
+   "model": 126,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      135.1788
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -133.9596
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      86.5632
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -85.344
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      3.6576
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 99999.0,
+   "disabled": true,
+   "entity": 380,
+   "kind": "hurt",
+   "model": 127,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "aa_explode"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      103.1748
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -98.7552
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      72.0852
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -64.6176
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      2.3241
+     ]
+    ]
+   ],
+   "classname": "trigger_once",
+   "disabled": false,
+   "entity": 381,
+   "filter": "activatorteam",
+   "kind": "once",
+   "model": 128,
+   "outputs": [
+    {
+     "delay": 15.0,
+     "input": "Open",
+     "output": "OnStartTouch",
+     "param": "",
+     "target": "cafeteria_1",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "Command",
+     "output": "OnStartTouch",
+     "param": "say *** Cafeteria Doors Open in 15 Seconds ***",
+     "target": "server_map",
+     "times": -1
+    }
+   ],
+   "spawnflags": 1,
+   "targetname": "",
+   "wait": -1.0
+  },
+  {
+   "brush": 479,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      25.12695
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -13.88745
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      307.2384
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -126.05385
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      9.7536
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -8.0772
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "water",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 480,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      37.7952
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -25.12695
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      175.5648
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -165.8112
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      9.7536
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -8.0772
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "water",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 481,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      136.5504
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -25.12695
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      137.29335
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -126.05385
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      9.7536
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -8.0772
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "water",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 482,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      117.0432
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -97.51695
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      126.05385
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -113.3856
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      9.7536
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -8.0772
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "water",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 489,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      113.9952
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -91.0209
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      23.1648
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -18.5928
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      2.8956
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "water",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 490,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      113.9952
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -110.3376
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      26.5557
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -23.1648
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      2.8956
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "water",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 491,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      95.7072
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -91.15425
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      34.7472
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -23.1648
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      2.8956
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "water",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 544,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      61.1124
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -60.198
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      80.3148
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -79.4004
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      2.1336
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -1.9812
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "water",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 782,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      85.9536
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -85.9155
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      46.3296
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -45.8724
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      2.1336
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      1.2192
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 783,
+   "brushes": [
+    [
+     [
+      0.0,
+      0.0,
+      1.0,
+      255.27
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -254.8128
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      9.7536
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      1.2192
+     ],
+     [
+      -0.913812,
+      -0.406138,
+      -0.0,
+      26.24369
+     ],
+     [
+      0.913812,
+      0.406138,
+      0.0,
+      -26.20888
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 784,
+   "brushes": [
+    [
+     [
+      0.0,
+      0.0,
+      1.0,
+      186.9948
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -186.5376
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      9.7536
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      1.2192
+     ],
+     [
+      -0.913812,
+      -0.406138,
+      -0.0,
+      26.24369
+     ],
+     [
+      0.913812,
+      0.406138,
+      0.0,
+      -26.20888
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 785,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      102.4509
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -102.4128
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      21.1074
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -20.6502
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -1.2192
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      12.4968
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 786,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      99.06
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -98.6028
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      9.7536
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      1.2192
+     ],
+     [
+      0.0,
+      -0.406138,
+      0.913812,
+      128.74264
+     ],
+     [
+      0.0,
+      0.406138,
+      -0.913812,
+      -128.70783
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 787,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      105.1941
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -105.156
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      44.5008
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -44.0436
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -18.8976
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      25.527
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 788,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      120.5484
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -120.5103
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      44.5008
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -44.0436
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -25.527
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      30.5562
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 789,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      120.5484
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -120.5103
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      35.052
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -34.5948
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -30.5562
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      35.5854
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 790,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      123.9774
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -123.5202
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      36.576
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -36.5379
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -25.9842
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      35.5092
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  }
+ ],
  "zz": {
   "keep_boxes": [
    {
@@ -22608,11 +30861,20 @@
    "de_piranesi/pi_grnmetalt": "metal",
    "de_train/train_metalceiling_01": "metal",
    "de_train/train_metalceiling_02": "metal",
+   "decals/infnum0": "concrete",
+   "decals/infnum1": "concrete",
+   "decals/infnum2": "concrete",
+   "decals/infnum3": "concrete",
+   "decals/infnum4": "concrete",
+   "decals/infnum5": "concrete",
+   "decals/infnum6": "concrete",
    "dev/dev_lowermetaldoor02a": "metal",
    "dev/dev_measuregeneric01": "concrete",
    "glass/glasswindow070c": "glass",
    "glass/unbreakable": "glass",
+   "halflife/lab1_cmpm3000": "metal",
    "halflife/lab1_cmpm5": "metal",
+   "halflife/lab1_comp3e": "metal",
    "metal/citadel_metalwall060a": "metal",
    "metal/citadel_metalwall072a": "metal",
    "metal/citadel_metalwall077a": "metal",
@@ -22632,6 +30894,7 @@
    "metal/prodcaution": "metal",
    "metal/prodventa": "metal",
    "nature/blendproddirtgrass": "grass",
+   "props/doorbutton002a": "metal",
    "props/metalcomputerpanel001a": "metal",
    "stone/marblefloor001b": "tile",
    "tile/prodflra": "tile",

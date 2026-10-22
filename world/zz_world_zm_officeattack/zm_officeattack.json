@@ -1,17 +1,17 @@
 {
  "bin": {
-  "bytes": 652836,
+  "bytes": 672324,
   "compression": "gzip",
   "file": "zm_officeattack.bin",
-  "sha256": "2ca0afd46f1474a080ccfce4162e51ca7fbb7288a5e61ff3854e581590c7adde",
-  "stored_bytes": 133098
+  "sha256": "5c76fdcaedd79a68f09381723a54e78644a82fc4efe573a513d07e0808220ff2",
+  "stored_bytes": 135287
  },
  "counts": {
-  "hulls": 0,
-  "models": 1,
-  "surfaces": 427,
-  "triangles": 11603,
-  "vertices": 16050
+  "hulls": 16,
+  "models": 9,
+  "surfaces": 443,
+  "triangles": 11819,
+  "vertices": 16482
  },
  "credit": {
   "author": "kizzbizz",
@@ -19,8 +19,2326 @@
   "note": "Geometry converted from the original map with credit; its textures and models are not used. Removed on the author's request.",
   "page": "https://gamebanana.com/mods/132500"
  },
+ "destinations": {},
+ "entities": [
+  {
+   "classname": "path_track",
+   "entity": 203,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "0",
+    "spawnflags": "0",
+    "target": "track1_2",
+    "targetname": "track1_1"
+   },
+   "model": null,
+   "origin": [
+    21.0312,
+    8.3439,
+    -28.0607
+   ],
+   "target": "track1_2",
+   "targetname": "track1_1",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 204,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "0",
+    "spawnflags": "0",
+    "target": "track1_1",
+    "targetname": "track1_2"
+   },
+   "model": null,
+   "origin": [
+    21.0312,
+    11.03,
+    -28.0607
+   ],
+   "target": "track1_1",
+   "targetname": "track1_2",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 206,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "0",
+    "spawnflags": "0",
+    "target": "track2_2",
+    "targetname": "track2_1"
+   },
+   "model": null,
+   "origin": [
+    21.0122,
+    5.6959,
+    -28.175
+   ],
+   "target": "track2_2",
+   "targetname": "track2_1",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 207,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "0",
+    "spawnflags": "0",
+    "target": "track2_1",
+    "targetname": "track2_2"
+   },
+   "model": null,
+   "origin": [
+    20.9931,
+    4.1148,
+    -28.175
+   ],
+   "target": "track2_1",
+   "targetname": "track2_2",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_auto",
+   "entity": 211,
+   "keys": {
+    "spawnflags": "1"
+   },
+   "model": null,
+   "origin": [
+    19.3929,
+    5.7147,
+    -26.4218
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 320,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "0",
+    "radius": "0",
+    "speed": "0",
+    "target": "Edoor1_2",
+    "targetname": "Edoor1_1"
+   },
+   "model": null,
+   "origin": [
+    12.2873,
+    1.2708,
+    17.1259
+   ],
+   "target": "Edoor1_2",
+   "targetname": "Edoor1_1",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 321,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "0",
+    "radius": "0",
+    "speed": "0",
+    "target": "Edoor1_1",
+    "targetname": "Edoor1_2"
+   },
+   "model": null,
+   "origin": [
+    12.2873,
+    1.2708,
+    16.4973
+   ],
+   "target": "Edoor1_1",
+   "targetname": "Edoor1_2",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 322,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "0",
+    "radius": "0",
+    "spawnflags": "0",
+    "speed": "0",
+    "target": "Edoor2_2",
+    "targetname": "Edoor2_1"
+   },
+   "model": null,
+   "origin": [
+    12.2873,
+    1.2708,
+    17.6784
+   ],
+   "target": "Edoor2_2",
+   "targetname": "Edoor2_1",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 323,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "0",
+    "radius": "0",
+    "spawnflags": "0",
+    "speed": "0",
+    "target": "Edoor2_1",
+    "targetname": "Edoor2_2"
+   },
+   "model": null,
+   "origin": [
+    12.2873,
+    1.2708,
+    18.3261
+   ],
+   "target": "Edoor2_1",
+   "targetname": "Edoor2_2",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 332,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "0",
+    "radius": "0",
+    "spawnflags": "0",
+    "speed": "0",
+    "target": "Edoor4_2",
+    "targetname": "Edoor4_1"
+   },
+   "model": null,
+   "origin": [
+    10.9538,
+    8.0582,
+    18.5738
+   ],
+   "target": "Edoor4_2",
+   "targetname": "Edoor4_1",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 333,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "0",
+    "radius": "0",
+    "speed": "0",
+    "target": "Edoor3_2",
+    "targetname": "Edoor3_1"
+   },
+   "model": null,
+   "origin": [
+    11.5062,
+    8.0582,
+    18.5738
+   ],
+   "target": "Edoor3_2",
+   "targetname": "Edoor3_1",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 334,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "0",
+    "radius": "0",
+    "spawnflags": "0",
+    "speed": "0",
+    "target": "Edoor4_1",
+    "targetname": "Edoor4_2"
+   },
+   "model": null,
+   "origin": [
+    10.3061,
+    8.0582,
+    18.5738
+   ],
+   "target": "Edoor4_1",
+   "targetname": "Edoor4_2",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 335,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "0",
+    "radius": "0",
+    "speed": "0",
+    "target": "Edoor3_1",
+    "targetname": "Edoor3_2"
+   },
+   "model": null,
+   "origin": [
+    12.1349,
+    8.0582,
+    18.5738
+   ],
+   "target": "Edoor3_1",
+   "targetname": "Edoor3_2",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_case",
+   "entity": 365,
+   "keys": {
+    "Case01": "3",
+    "targetname": "doorlogiccase"
+   },
+   "model": null,
+   "origin": [
+    19.9263,
+    8.0963,
+    0.2667
+   ],
+   "target": "",
+   "targetname": "doorlogiccase",
+   "treatment": "data"
+  },
+  {
+   "classname": "math_counter",
+   "entity": 366,
+   "keys": {
+    "OutValue": "doorlogiccase,InValue,,0,-1",
+    "max": "0",
+    "min": "0",
+    "startvalue": "0",
+    "targetname": "doorcounter"
+   },
+   "model": null,
+   "origin": [
+    19.9263,
+    7.5827,
+    -1.4627
+   ],
+   "target": "",
+   "targetname": "doorcounter",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 369,
+   "keys": {
+    "Template01": "soda_can_1",
+    "spawnflags": "0",
+    "targetname": "soda_can_1_template"
+   },
+   "model": null,
+   "origin": [
+    -30.2085,
+    7.8483,
+    9.8721
+   ],
+   "target": "",
+   "targetname": "soda_can_1_template",
+   "treatment": "data"
+  },
+  {
+   "classname": "math_counter",
+   "entity": 370,
+   "keys": {
+    "max": "3",
+    "targetname": "soda_machine_1_counter"
+   },
+   "model": null,
+   "origin": [
+    -30.2085,
+    7.4778,
+    10.2121
+   ],
+   "target": "",
+   "targetname": "soda_machine_1_counter",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_case",
+   "entity": 371,
+   "keys": {
+    "Case01": "1",
+    "Case02": "2",
+    "Case03": "3",
+    "targetname": "soda_machine_1_random"
+   },
+   "model": null,
+   "origin": [
+    -30.2085,
+    8.2163,
+    9.9169
+   ],
+   "target": "",
+   "targetname": "soda_machine_1_random",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_relay",
+   "entity": 374,
+   "keys": {
+    "targetname": "soda_machine_1_dispense"
+   },
+   "model": null,
+   "origin": [
+    -30.2085,
+    7.9637,
+    10.1687
+   ],
+   "target": "",
+   "targetname": "soda_machine_1_dispense",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_relay",
+   "entity": 375,
+   "keys": {
+    "targetname": "soda_machine_1_empty"
+   },
+   "model": null,
+   "origin": [
+    -30.2085,
+    7.9873,
+    9.525
+   ],
+   "target": "",
+   "targetname": "soda_machine_1_empty",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_branch",
+   "entity": 376,
+   "keys": {
+    "targetname": "soda_machine_1_branch"
+   },
+   "model": null,
+   "origin": [
+    -30.2085,
+    8.2719,
+    9.5486
+   ],
+   "target": "",
+   "targetname": "soda_machine_1_branch",
+   "treatment": "data"
+  },
+  {
+   "classname": "math_counter",
+   "entity": 377,
+   "keys": {
+    "max": "6",
+    "targetname": "soda_machine_1_total_counter"
+   },
+   "model": null,
+   "origin": [
+    -30.2085,
+    8.2486,
+    10.2121
+   ],
+   "target": "",
+   "targetname": "soda_machine_1_total_counter",
+   "treatment": "data"
+  }
+ ],
  "format": "dot-bsp-mesh",
- "hulls": [],
+ "hulls": [
+  {
+   "brush": 977,
+   "entity": 209,
+   "kind": "solid",
+   "model": 6,
+   "plane_count": 6,
+   "plane_offset": 669348,
+   "point_count": 8,
+   "point_offset": 669252
+  },
+  {
+   "brush": 978,
+   "entity": 209,
+   "kind": "solid",
+   "model": 6,
+   "plane_count": 6,
+   "plane_offset": 669540,
+   "point_count": 8,
+   "point_offset": 669444
+  },
+  {
+   "brush": 979,
+   "entity": 209,
+   "kind": "solid",
+   "model": 6,
+   "plane_count": 6,
+   "plane_offset": 669732,
+   "point_count": 8,
+   "point_offset": 669636
+  },
+  {
+   "brush": 980,
+   "entity": 209,
+   "kind": "solid",
+   "model": 6,
+   "plane_count": 6,
+   "plane_offset": 669924,
+   "point_count": 8,
+   "point_offset": 669828
+  },
+  {
+   "brush": 981,
+   "entity": 209,
+   "kind": "solid",
+   "model": 6,
+   "plane_count": 6,
+   "plane_offset": 670116,
+   "point_count": 8,
+   "point_offset": 670020
+  },
+  {
+   "brush": 982,
+   "entity": 209,
+   "kind": "solid",
+   "model": 6,
+   "plane_count": 6,
+   "plane_offset": 670308,
+   "point_count": 8,
+   "point_offset": 670212
+  },
+  {
+   "brush": 983,
+   "entity": 210,
+   "kind": "solid",
+   "model": 7,
+   "plane_count": 6,
+   "plane_offset": 670500,
+   "point_count": 8,
+   "point_offset": 670404
+  },
+  {
+   "brush": 984,
+   "entity": 210,
+   "kind": "solid",
+   "model": 7,
+   "plane_count": 6,
+   "plane_offset": 670692,
+   "point_count": 8,
+   "point_offset": 670596
+  },
+  {
+   "brush": 985,
+   "entity": 210,
+   "kind": "solid",
+   "model": 7,
+   "plane_count": 6,
+   "plane_offset": 670884,
+   "point_count": 8,
+   "point_offset": 670788
+  },
+  {
+   "brush": 986,
+   "entity": 210,
+   "kind": "solid",
+   "model": 7,
+   "plane_count": 6,
+   "plane_offset": 671076,
+   "point_count": 8,
+   "point_offset": 670980
+  },
+  {
+   "brush": 987,
+   "entity": 210,
+   "kind": "solid",
+   "model": 7,
+   "plane_count": 6,
+   "plane_offset": 671268,
+   "point_count": 8,
+   "point_offset": 671172
+  },
+  {
+   "brush": 988,
+   "entity": 210,
+   "kind": "solid",
+   "model": 7,
+   "plane_count": 6,
+   "plane_offset": 671460,
+   "point_count": 8,
+   "point_offset": 671364
+  },
+  {
+   "brush": 1010,
+   "entity": 324,
+   "kind": "solid",
+   "model": 18,
+   "plane_count": 6,
+   "plane_offset": 671652,
+   "point_count": 8,
+   "point_offset": 671556
+  },
+  {
+   "brush": 1011,
+   "entity": 325,
+   "kind": "solid",
+   "model": 19,
+   "plane_count": 6,
+   "plane_offset": 671844,
+   "point_count": 8,
+   "point_offset": 671748
+  },
+  {
+   "brush": 1014,
+   "entity": 330,
+   "kind": "solid",
+   "model": 22,
+   "plane_count": 6,
+   "plane_offset": 672036,
+   "point_count": 8,
+   "point_offset": 671940
+  },
+  {
+   "brush": 1015,
+   "entity": 331,
+   "kind": "solid",
+   "model": 23,
+   "plane_count": 6,
+   "plane_offset": 672228,
+   "point_count": 8,
+   "point_offset": 672132
+  }
+ ],
+ "links": [
+  {
+   "delay": 0.0,
+   "from": 99,
+   "from_class": "prop_physics_multiplayer",
+   "from_name": "",
+   "input": "AddHealth",
+   "output": "OnPlayerUse",
+   "param": "",
+   "special": false,
+   "target": "",
+   "times": -1,
+   "to": []
+  },
+  {
+   "delay": 0.0,
+   "from": 203,
+   "from_class": "path_track",
+   "from_name": "track1_1",
+   "input": "Stop",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "train1",
+   "times": -1,
+   "to": [
+    210
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 204,
+   "from_class": "path_track",
+   "from_name": "track1_2",
+   "input": "Stop",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "train1",
+   "times": -1,
+   "to": [
+    210
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 205,
+   "from_class": "func_button",
+   "from_name": "track1_button",
+   "input": "StartForward",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "train1",
+   "times": -1,
+   "to": [
+    210
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 206,
+   "from_class": "path_track",
+   "from_name": "track2_1",
+   "input": "Stop",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "train2",
+   "times": -1,
+   "to": [
+    209
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 207,
+   "from_class": "path_track",
+   "from_name": "track2_2",
+   "input": "Stop",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "train2",
+   "times": -1,
+   "to": [
+    209
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 208,
+   "from_class": "func_button",
+   "from_name": "track2_button",
+   "input": "StartForward",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "train2",
+   "times": -1,
+   "to": [
+    209
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 211,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "Stop",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "train1",
+   "times": -1,
+   "to": [
+    210
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 211,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "Stop",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "train2",
+   "times": -1,
+   "to": [
+    209
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 211,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "StartForward",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "Edoor1",
+   "times": -1,
+   "to": [
+    324
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 211,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "Stop",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "train1",
+   "times": -1,
+   "to": [
+    210
+   ]
+  },
+  {
+   "delay": 3.0,
+   "from": 211,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "StartForward",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "Edoor1",
+   "times": -1,
+   "to": [
+    324
+   ]
+  },
+  {
+   "delay": 3.0,
+   "from": 211,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "StartForward",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "Edoor2",
+   "times": -1,
+   "to": [
+    325
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 211,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "StartForward",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "Edoor2",
+   "times": -1,
+   "to": [
+    325
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 211,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "StartForward",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "Edoor3",
+   "times": -1,
+   "to": [
+    330
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 211,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "StartForward",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "Edoor4",
+   "times": -1,
+   "to": [
+    331
+   ]
+  },
+  {
+   "delay": 3.0,
+   "from": 211,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "StartForward",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "Edoor4",
+   "times": -1,
+   "to": [
+    331
+   ]
+  },
+  {
+   "delay": 3.0,
+   "from": 211,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "StartForward",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "Edoor3",
+   "times": -1,
+   "to": [
+    330
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 320,
+   "from_class": "path_track",
+   "from_name": "Edoor1_1",
+   "input": "Stop",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "Edoor1",
+   "times": -1,
+   "to": [
+    324
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 321,
+   "from_class": "path_track",
+   "from_name": "Edoor1_2",
+   "input": "Stop",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "Edoor1",
+   "times": -1,
+   "to": [
+    324
+   ]
+  },
+  {
+   "delay": 3.0,
+   "from": 321,
+   "from_class": "path_track",
+   "from_name": "Edoor1_2",
+   "input": "StartForward",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "Edoor1",
+   "times": -1,
+   "to": [
+    324
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 322,
+   "from_class": "path_track",
+   "from_name": "Edoor2_1",
+   "input": "Stop",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "Edoor2",
+   "times": -1,
+   "to": [
+    325
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 323,
+   "from_class": "path_track",
+   "from_name": "Edoor2_2",
+   "input": "Stop",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "Edoor2",
+   "times": -1,
+   "to": [
+    325
+   ]
+  },
+  {
+   "delay": 3.0,
+   "from": 323,
+   "from_class": "path_track",
+   "from_name": "Edoor2_2",
+   "input": "StartForward",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "Edoor2",
+   "times": -1,
+   "to": [
+    325
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 326,
+   "from_class": "func_button",
+   "from_name": "Ele1_1",
+   "input": "StartForward",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "Edoor1",
+   "times": -1,
+   "to": [
+    324
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 326,
+   "from_class": "func_button",
+   "from_name": "Ele1_1",
+   "input": "StartForward",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "Edoor2",
+   "times": -1,
+   "to": [
+    325
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 329,
+   "from_class": "func_button",
+   "from_name": "Ele1_2",
+   "input": "StartForward",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "Edoor1",
+   "times": -1,
+   "to": [
+    324
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 329,
+   "from_class": "func_button",
+   "from_name": "Ele1_2",
+   "input": "StartForward",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "Edoor2",
+   "times": -1,
+   "to": [
+    325
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 332,
+   "from_class": "path_track",
+   "from_name": "Edoor4_1",
+   "input": "Stop",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "Edoor4",
+   "times": -1,
+   "to": [
+    331
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 333,
+   "from_class": "path_track",
+   "from_name": "Edoor3_1",
+   "input": "Stop",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "Edoor3",
+   "times": -1,
+   "to": [
+    330
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 334,
+   "from_class": "path_track",
+   "from_name": "Edoor4_2",
+   "input": "Stop",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "Edoor4",
+   "times": -1,
+   "to": [
+    331
+   ]
+  },
+  {
+   "delay": 3.0,
+   "from": 334,
+   "from_class": "path_track",
+   "from_name": "Edoor4_2",
+   "input": "StartForward",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "Edoor4",
+   "times": -1,
+   "to": [
+    331
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 335,
+   "from_class": "path_track",
+   "from_name": "Edoor3_2",
+   "input": "Stop",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "Edoor3",
+   "times": -1,
+   "to": [
+    330
+   ]
+  },
+  {
+   "delay": 3.0,
+   "from": 335,
+   "from_class": "path_track",
+   "from_name": "Edoor3_2",
+   "input": "StartForward",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "Edoor3",
+   "times": -1,
+   "to": [
+    330
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 336,
+   "from_class": "func_button",
+   "from_name": "Ele2_2",
+   "input": "StartForward",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "Edoor3",
+   "times": -1,
+   "to": [
+    330
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 336,
+   "from_class": "func_button",
+   "from_name": "Ele2_2",
+   "input": "StartForward",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "Edoor4",
+   "times": -1,
+   "to": [
+    331
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 337,
+   "from_class": "func_button",
+   "from_name": "Ele2_1",
+   "input": "StartForward",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "Edoor3",
+   "times": -1,
+   "to": [
+    330
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 337,
+   "from_class": "func_button",
+   "from_name": "Ele2_1",
+   "input": "StartForward",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "Edoor4",
+   "times": -1,
+   "to": [
+    331
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 340,
+   "from_class": "trigger_once",
+   "from_name": "deleteele",
+   "input": "Break",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "fallingele",
+   "times": -1,
+   "to": [
+    339
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 340,
+   "from_class": "trigger_once",
+   "from_name": "deleteele",
+   "input": "Break",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "lowerbreakabledoor1",
+   "times": -1,
+   "to": [
+    338
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 340,
+   "from_class": "trigger_once",
+   "from_name": "deleteele",
+   "input": "StopSound",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "sound_elefall",
+   "times": -1,
+   "to": [
+    343
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 340,
+   "from_class": "trigger_once",
+   "from_name": "deleteele",
+   "input": "PlaySound",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "sound_elehit",
+   "times": -1,
+   "to": [
+    342
+   ]
+  },
+  {
+   "delay": 1.0,
+   "from": 341,
+   "from_class": "trigger_once",
+   "from_name": "starteledrop",
+   "input": "Enable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "deleteele",
+   "times": -1,
+   "to": [
+    340
+   ]
+  },
+  {
+   "delay": 1.0,
+   "from": 341,
+   "from_class": "trigger_once",
+   "from_name": "starteledrop",
+   "input": "Wake",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "fallingele",
+   "times": -1,
+   "to": [
+    339
+   ]
+  },
+  {
+   "delay": 1.0,
+   "from": 341,
+   "from_class": "trigger_once",
+   "from_name": "starteledrop",
+   "input": "PlaySound",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "sound_elefall",
+   "times": -1,
+   "to": [
+    343
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 363,
+   "from_class": "prop_door_rotating",
+   "from_name": "secretdoor",
+   "input": "Lock",
+   "output": "OnFullyOpen",
+   "param": "",
+   "special": false,
+   "target": "secretdoor",
+   "times": -1,
+   "to": [
+    363
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 364,
+   "from_class": "func_button",
+   "from_name": "button1",
+   "input": "Add",
+   "output": "OnPressed",
+   "param": "1",
+   "special": false,
+   "target": "doorcounter",
+   "times": 1,
+   "to": [
+    366
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 365,
+   "from_class": "logic_case",
+   "from_name": "doorlogiccase",
+   "input": "Unlock",
+   "output": "OnCase01",
+   "param": "",
+   "special": false,
+   "target": "secretdoor",
+   "times": 1,
+   "to": [
+    363
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 367,
+   "from_class": "func_button",
+   "from_name": "button2",
+   "input": "Add",
+   "output": "OnPressed",
+   "param": "1",
+   "special": false,
+   "target": "doorcounter",
+   "times": 1,
+   "to": [
+    366
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 370,
+   "from_class": "math_counter",
+   "from_name": "soda_machine_1_counter",
+   "input": "Subtract",
+   "output": "OnHitMax",
+   "param": "1",
+   "special": false,
+   "target": "soda_machine_1_counter",
+   "times": -1,
+   "to": [
+    370
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 370,
+   "from_class": "math_counter",
+   "from_name": "soda_machine_1_counter",
+   "input": "PickRandom",
+   "output": "OnHitMax",
+   "param": "",
+   "special": false,
+   "target": "soda_machine_1_random",
+   "times": -1,
+   "to": [
+    371
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 371,
+   "from_class": "logic_case",
+   "from_name": "soda_machine_1_random",
+   "input": "Unlock",
+   "output": "OnCase02",
+   "param": "",
+   "special": false,
+   "target": "soda_machine_1",
+   "times": -1,
+   "to": [
+    384
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 371,
+   "from_class": "logic_case",
+   "from_name": "soda_machine_1_random",
+   "input": "Unlock",
+   "output": "OnCase03",
+   "param": "",
+   "special": false,
+   "target": "soda_machine_1",
+   "times": -1,
+   "to": [
+    384
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 371,
+   "from_class": "logic_case",
+   "from_name": "soda_machine_1_random",
+   "input": "SetValue",
+   "output": "OnCase01",
+   "param": "1",
+   "special": false,
+   "target": "soda_machine_1_branch",
+   "times": -1,
+   "to": [
+    376
+   ]
+  },
+  {
+   "delay": 0.2,
+   "from": 374,
+   "from_class": "logic_relay",
+   "from_name": "soda_machine_1_dispense",
+   "input": "ShowSprite",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "soda_machine_1_sprite",
+   "times": -1,
+   "to": [
+    378
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 374,
+   "from_class": "logic_relay",
+   "from_name": "soda_machine_1_dispense",
+   "input": "HideSprite",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "soda_machine_1_sprite",
+   "times": -1,
+   "to": [
+    378
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 374,
+   "from_class": "logic_relay",
+   "from_name": "soda_machine_1_dispense",
+   "input": "PlaySound",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "soda_machine_1_dispense_sound",
+   "times": -1,
+   "to": [
+    372
+   ]
+  },
+  {
+   "delay": 0.5,
+   "from": 374,
+   "from_class": "logic_relay",
+   "from_name": "soda_machine_1_dispense",
+   "input": "ForceSpawn",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "soda_can_1_template",
+   "times": -1,
+   "to": [
+    369
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 374,
+   "from_class": "logic_relay",
+   "from_name": "soda_machine_1_dispense",
+   "input": "Add",
+   "output": "OnTrigger",
+   "param": "1",
+   "special": false,
+   "target": "soda_machine_1_total_counter",
+   "times": -1,
+   "to": [
+    377
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 375,
+   "from_class": "logic_relay",
+   "from_name": "soda_machine_1_empty",
+   "input": "color",
+   "output": "OnTrigger",
+   "param": "255 23 23",
+   "special": false,
+   "target": "soda_machine_1_sprite",
+   "times": -1,
+   "to": [
+    378
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 375,
+   "from_class": "logic_relay",
+   "from_name": "soda_machine_1_empty",
+   "input": "Kill",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "soda_can_1_template",
+   "times": 1,
+   "to": [
+    369
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 375,
+   "from_class": "logic_relay",
+   "from_name": "soda_machine_1_empty",
+   "input": "PlaySound",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "soda_machine_1_empty_sound",
+   "times": -1,
+   "to": [
+    373
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 375,
+   "from_class": "logic_relay",
+   "from_name": "soda_machine_1_empty",
+   "input": "Add",
+   "output": "OnTrigger",
+   "param": "1",
+   "special": false,
+   "target": "doorcounter",
+   "times": -1,
+   "to": [
+    366
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 376,
+   "from_class": "logic_branch",
+   "from_name": "soda_machine_1_branch",
+   "input": "Trigger",
+   "output": "OnFalse",
+   "param": "",
+   "special": false,
+   "target": "soda_machine_1_dispense",
+   "times": -1,
+   "to": [
+    374
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 376,
+   "from_class": "logic_branch",
+   "from_name": "soda_machine_1_branch",
+   "input": "Trigger",
+   "output": "OnTrue",
+   "param": "",
+   "special": false,
+   "target": "soda_machine_1_empty",
+   "times": -1,
+   "to": [
+    375
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 377,
+   "from_class": "math_counter",
+   "from_name": "soda_machine_1_total_counter",
+   "input": "SetValue",
+   "output": "OnHitMax",
+   "param": "1",
+   "special": false,
+   "target": "soda_machine_1_branch",
+   "times": -1,
+   "to": [
+    376
+   ]
+  },
+  {
+   "delay": 0.1,
+   "from": 384,
+   "from_class": "func_button",
+   "from_name": "soda_machine_1",
+   "input": "Add",
+   "output": "OnPressed",
+   "param": "1",
+   "special": false,
+   "target": "soda_machine_1_counter",
+   "times": -1,
+   "to": [
+    370
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 384,
+   "from_class": "func_button",
+   "from_name": "soda_machine_1",
+   "input": "Test",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "soda_machine_1_branch",
+   "times": -1,
+   "to": [
+    376
+   ]
+  }
+ ],
+ "movers": [
+  {
+   "classname": "func_tracktrain",
+   "entity": 209,
+   "height": 0.0,
+   "kind": "path",
+   "maxs": [
+    21.0503,
+    6.477,
+    -27.6606
+   ],
+   "mins": [
+    21.0122,
+    4.9149,
+    -28.6893
+   ],
+   "model": 6,
+   "opened_by": [
+    {
+     "classname": "path_track",
+     "delay": 0.0,
+     "entity": 206,
+     "input": "Stop",
+     "output": "OnPass",
+     "targetname": "track2_1"
+    },
+    {
+     "classname": "path_track",
+     "delay": 0.0,
+     "entity": 207,
+     "input": "Stop",
+     "output": "OnPass",
+     "targetname": "track2_2"
+    },
+    {
+     "classname": "func_button",
+     "delay": 0.0,
+     "entity": 208,
+     "input": "StartForward",
+     "output": "OnPressed",
+     "targetname": "track2_button"
+    },
+    {
+     "classname": "logic_auto",
+     "delay": 0.0,
+     "entity": 211,
+     "input": "Stop",
+     "output": "OnMapSpawn",
+     "targetname": ""
+    }
+   ],
+   "origin": [
+    21.0312,
+    5.6959,
+    -28.175
+   ],
+   "outputs": [],
+   "path": [
+    {
+     "at": [
+      21.0122,
+      5.6959,
+      -28.175
+     ],
+     "name": "track2_1"
+    },
+    {
+     "at": [
+      20.9931,
+      4.1148,
+      -28.175
+     ],
+     "name": "track2_2"
+    },
+    {
+     "loop": "track2_1"
+    }
+   ],
+   "solid": true,
+   "spawnflags": 17,
+   "speed": 0.0,
+   "start_speed": 1.905,
+   "targetname": "train2",
+   "travel_time": 0.0
+  },
+  {
+   "classname": "func_tracktrain",
+   "entity": 210,
+   "height": 0.0,
+   "kind": "path",
+   "maxs": [
+    21.0503,
+    9.2393,
+    -27.6606
+   ],
+   "mins": [
+    21.0122,
+    7.6772,
+    -28.6893
+   ],
+   "model": 7,
+   "opened_by": [
+    {
+     "classname": "path_track",
+     "delay": 0.0,
+     "entity": 203,
+     "input": "Stop",
+     "output": "OnPass",
+     "targetname": "track1_1"
+    },
+    {
+     "classname": "path_track",
+     "delay": 0.0,
+     "entity": 204,
+     "input": "Stop",
+     "output": "OnPass",
+     "targetname": "track1_2"
+    },
+    {
+     "classname": "func_button",
+     "delay": 0.0,
+     "entity": 205,
+     "input": "StartForward",
+     "output": "OnPressed",
+     "targetname": "track1_button"
+    },
+    {
+     "classname": "logic_auto",
+     "delay": 0.0,
+     "entity": 211,
+     "input": "Stop",
+     "output": "OnMapSpawn",
+     "targetname": ""
+    },
+    {
+     "classname": "logic_auto",
+     "delay": 0.0,
+     "entity": 211,
+     "input": "Stop",
+     "output": "OnMapSpawn",
+     "targetname": ""
+    }
+   ],
+   "origin": [
+    21.0312,
+    8.4582,
+    -28.175
+   ],
+   "outputs": [],
+   "path": [
+    {
+     "at": [
+      21.0312,
+      8.3439,
+      -28.0607
+     ],
+     "name": "track1_1"
+    },
+    {
+     "at": [
+      21.0312,
+      11.03,
+      -28.0607
+     ],
+     "name": "track1_2"
+    },
+    {
+     "loop": "track1_1"
+    }
+   ],
+   "solid": true,
+   "spawnflags": 17,
+   "speed": 0.0,
+   "start_speed": 1.905,
+   "targetname": "train1",
+   "travel_time": 0.0
+  },
+  {
+   "classname": "func_tracktrain",
+   "entity": 324,
+   "height": 0.0,
+   "kind": "path",
+   "maxs": [
+    12.3254,
+    2.3432,
+    17.4117
+   ],
+   "mins": [
+    12.2301,
+    0.2286,
+    16.8021
+   ],
+   "model": 18,
+   "opened_by": [
+    {
+     "classname": "logic_auto",
+     "delay": 0.0,
+     "entity": 211,
+     "input": "StartForward",
+     "output": "OnMapSpawn",
+     "targetname": ""
+    },
+    {
+     "classname": "logic_auto",
+     "delay": 3.0,
+     "entity": 211,
+     "input": "StartForward",
+     "output": "OnMapSpawn",
+     "targetname": ""
+    },
+    {
+     "classname": "path_track",
+     "delay": 0.0,
+     "entity": 320,
+     "input": "Stop",
+     "output": "OnPass",
+     "targetname": "Edoor1_1"
+    },
+    {
+     "classname": "path_track",
+     "delay": 0.0,
+     "entity": 321,
+     "input": "Stop",
+     "output": "OnPass",
+     "targetname": "Edoor1_2"
+    },
+    {
+     "classname": "path_track",
+     "delay": 3.0,
+     "entity": 321,
+     "input": "StartForward",
+     "output": "OnPass",
+     "targetname": "Edoor1_2"
+    },
+    {
+     "classname": "func_button",
+     "delay": 0.0,
+     "entity": 326,
+     "input": "StartForward",
+     "output": "OnPressed",
+     "targetname": "Ele1_1"
+    },
+    {
+     "classname": "func_button",
+     "delay": 0.0,
+     "entity": 329,
+     "input": "StartForward",
+     "output": "OnPressed",
+     "targetname": "Ele1_2"
+    }
+   ],
+   "origin": [
+    12.2777,
+    1.2859,
+    17.1069
+   ],
+   "outputs": [],
+   "path": [
+    {
+     "at": [
+      12.2873,
+      1.2708,
+      17.1259
+     ],
+     "name": "Edoor1_1"
+    },
+    {
+     "at": [
+      12.2873,
+      1.2708,
+      16.4973
+     ],
+     "name": "Edoor1_2"
+    },
+    {
+     "loop": "Edoor1_1"
+    }
+   ],
+   "solid": true,
+   "spawnflags": 17,
+   "speed": 0.0,
+   "start_speed": 0.5715,
+   "targetname": "Edoor1",
+   "travel_time": 0.0
+  },
+  {
+   "classname": "func_tracktrain",
+   "entity": 325,
+   "height": 0.0,
+   "kind": "path",
+   "maxs": [
+    12.3254,
+    2.3432,
+    18.0213
+   ],
+   "mins": [
+    12.2301,
+    0.2286,
+    17.4117
+   ],
+   "model": 19,
+   "opened_by": [
+    {
+     "classname": "logic_auto",
+     "delay": 3.0,
+     "entity": 211,
+     "input": "StartForward",
+     "output": "OnMapSpawn",
+     "targetname": ""
+    },
+    {
+     "classname": "logic_auto",
+     "delay": 0.0,
+     "entity": 211,
+     "input": "StartForward",
+     "output": "OnMapSpawn",
+     "targetname": ""
+    },
+    {
+     "classname": "path_track",
+     "delay": 0.0,
+     "entity": 322,
+     "input": "Stop",
+     "output": "OnPass",
+     "targetname": "Edoor2_1"
+    },
+    {
+     "classname": "path_track",
+     "delay": 0.0,
+     "entity": 323,
+     "input": "Stop",
+     "output": "OnPass",
+     "targetname": "Edoor2_2"
+    },
+    {
+     "classname": "path_track",
+     "delay": 3.0,
+     "entity": 323,
+     "input": "StartForward",
+     "output": "OnPass",
+     "targetname": "Edoor2_2"
+    },
+    {
+     "classname": "func_button",
+     "delay": 0.0,
+     "entity": 326,
+     "input": "StartForward",
+     "output": "OnPressed",
+     "targetname": "Ele1_1"
+    },
+    {
+     "classname": "func_button",
+     "delay": 0.0,
+     "entity": 329,
+     "input": "StartForward",
+     "output": "OnPressed",
+     "targetname": "Ele1_2"
+    }
+   ],
+   "origin": [
+    12.2777,
+    1.2859,
+    17.7165
+   ],
+   "outputs": [],
+   "path": [
+    {
+     "at": [
+      12.2873,
+      1.2708,
+      17.6784
+     ],
+     "name": "Edoor2_1"
+    },
+    {
+     "at": [
+      12.2873,
+      1.2708,
+      18.3261
+     ],
+     "name": "Edoor2_2"
+    },
+    {
+     "loop": "Edoor2_1"
+    }
+   ],
+   "solid": true,
+   "spawnflags": 17,
+   "speed": 0.0,
+   "start_speed": 0.5715,
+   "targetname": "Edoor2",
+   "travel_time": 0.0
+  },
+  {
+   "classname": "func_tracktrain",
+   "entity": 330,
+   "height": 0.0,
+   "kind": "path",
+   "maxs": [
+    11.83,
+    9.1059,
+    18.6119
+   ],
+   "mins": [
+    11.2205,
+    6.9533,
+    18.5166
+   ],
+   "model": 22,
+   "opened_by": [
+    {
+     "classname": "logic_auto",
+     "delay": 0.0,
+     "entity": 211,
+     "input": "StartForward",
+     "output": "OnMapSpawn",
+     "targetname": ""
+    },
+    {
+     "classname": "logic_auto",
+     "delay": 3.0,
+     "entity": 211,
+     "input": "StartForward",
+     "output": "OnMapSpawn",
+     "targetname": ""
+    },
+    {
+     "classname": "path_track",
+     "delay": 0.0,
+     "entity": 333,
+     "input": "Stop",
+     "output": "OnPass",
+     "targetname": "Edoor3_1"
+    },
+    {
+     "classname": "path_track",
+     "delay": 0.0,
+     "entity": 335,
+     "input": "Stop",
+     "output": "OnPass",
+     "targetname": "Edoor3_2"
+    },
+    {
+     "classname": "path_track",
+     "delay": 3.0,
+     "entity": 335,
+     "input": "StartForward",
+     "output": "OnPass",
+     "targetname": "Edoor3_2"
+    },
+    {
+     "classname": "func_button",
+     "delay": 0.0,
+     "entity": 336,
+     "input": "StartForward",
+     "output": "OnPressed",
+     "targetname": "Ele2_2"
+    },
+    {
+     "classname": "func_button",
+     "delay": 0.0,
+     "entity": 337,
+     "input": "StartForward",
+     "output": "OnPressed",
+     "targetname": "Ele2_1"
+    }
+   ],
+   "origin": [
+    11.5252,
+    8.0296,
+    18.5642
+   ],
+   "outputs": [],
+   "path": [
+    {
+     "at": [
+      11.5062,
+      8.0582,
+      18.5738
+     ],
+     "name": "Edoor3_1"
+    },
+    {
+     "at": [
+      12.1349,
+      8.0582,
+      18.5738
+     ],
+     "name": "Edoor3_2"
+    },
+    {
+     "loop": "Edoor3_1"
+    }
+   ],
+   "solid": true,
+   "spawnflags": 17,
+   "speed": 0.0,
+   "start_speed": 0.5715,
+   "targetname": "Edoor3",
+   "travel_time": 0.0
+  },
+  {
+   "classname": "func_tracktrain",
+   "entity": 331,
+   "height": 0.0,
+   "kind": "path",
+   "maxs": [
+    11.2205,
+    9.1059,
+    18.6119
+   ],
+   "mins": [
+    10.6109,
+    6.9533,
+    18.5166
+   ],
+   "model": 23,
+   "opened_by": [
+    {
+     "classname": "logic_auto",
+     "delay": 0.0,
+     "entity": 211,
+     "input": "StartForward",
+     "output": "OnMapSpawn",
+     "targetname": ""
+    },
+    {
+     "classname": "logic_auto",
+     "delay": 3.0,
+     "entity": 211,
+     "input": "StartForward",
+     "output": "OnMapSpawn",
+     "targetname": ""
+    },
+    {
+     "classname": "path_track",
+     "delay": 0.0,
+     "entity": 332,
+     "input": "Stop",
+     "output": "OnPass",
+     "targetname": "Edoor4_1"
+    },
+    {
+     "classname": "path_track",
+     "delay": 0.0,
+     "entity": 334,
+     "input": "Stop",
+     "output": "OnPass",
+     "targetname": "Edoor4_2"
+    },
+    {
+     "classname": "path_track",
+     "delay": 3.0,
+     "entity": 334,
+     "input": "StartForward",
+     "output": "OnPass",
+     "targetname": "Edoor4_2"
+    },
+    {
+     "classname": "func_button",
+     "delay": 0.0,
+     "entity": 336,
+     "input": "StartForward",
+     "output": "OnPressed",
+     "targetname": "Ele2_2"
+    },
+    {
+     "classname": "func_button",
+     "delay": 0.0,
+     "entity": 337,
+     "input": "StartForward",
+     "output": "OnPressed",
+     "targetname": "Ele2_1"
+    }
+   ],
+   "origin": [
+    10.9157,
+    8.0296,
+    18.5642
+   ],
+   "outputs": [],
+   "path": [
+    {
+     "at": [
+      10.9538,
+      8.0582,
+      18.5738
+     ],
+     "name": "Edoor4_1"
+    },
+    {
+     "at": [
+      10.3061,
+      8.0582,
+      18.5738
+     ],
+     "name": "Edoor4_2"
+    },
+    {
+     "loop": "Edoor4_1"
+    }
+   ],
+   "solid": true,
+   "spawnflags": 17,
+   "speed": 0.0,
+   "start_speed": 0.5715,
+   "targetname": "Edoor4",
+   "travel_time": 0.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 364,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    21.9837,
+    1.0477,
+    5.0102
+   ],
+   "mins": [
+    21.9647,
+    0.9716,
+    4.953
+   ],
+   "model": 30,
+   "opened_by": [],
+   "origin": [
+    21.9742,
+    1.0097,
+    4.9816
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "Add",
+     "output": "OnPressed",
+     "param": "1",
+     "target": "doorcounter",
+     "times": 1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1024,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "button1",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 367,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -21.5646,
+    1.0477,
+    -7.5057
+   ],
+   "mins": [
+    -21.5837,
+    0.9716,
+    -7.5629
+   ],
+   "model": 31,
+   "opened_by": [],
+   "origin": [
+    -21.5741,
+    1.0097,
+    -7.5343
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "Add",
+     "output": "OnPressed",
+     "param": "1",
+     "target": "doorcounter",
+     "times": 1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1024,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "button2",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  }
+ ],
  "name": "zm_officeattack",
  "notes": [],
  "skipped": {
@@ -12155,6 +14473,414 @@
    ],
    "uv_offset": 652608,
    "vertex_count": 12
+  },
+  {
+   "classname": "func_tracktrain",
+   "colour": [
+    0.3132,
+    0.308,
+    0.3036
+   ],
+   "entity": 209,
+   "generic": "metal",
+   "index_count": 216,
+   "index_offset": 657444,
+   "material": "de_nuke/nuke_metalfloor_01",
+   "model": 6,
+   "normal_offset": 654564,
+   "position_offset": 652836,
+   "targetname": "train2",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 656292,
+   "vertex_count": 144
+  },
+  {
+   "classname": "func_tracktrain",
+   "colour": [
+    0.1225,
+    0.1104,
+    0.1023
+   ],
+   "entity": 210,
+   "generic": "metal",
+   "index_count": 216,
+   "index_offset": 662916,
+   "material": "de_train/train_metalceiling_02",
+   "model": 7,
+   "normal_offset": 660036,
+   "position_offset": 658308,
+   "targetname": "train1",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 661764,
+   "vertex_count": 144
+  },
+  {
+   "classname": "func_tracktrain",
+   "colour": [
+    0.7078,
+    0.6877,
+    0.6745
+   ],
+   "entity": 324,
+   "generic": "plaster_painted",
+   "index_count": 6,
+   "index_offset": 663908,
+   "material": "plaster/offwllg",
+   "model": 18,
+   "normal_offset": 663828,
+   "position_offset": 663780,
+   "targetname": "Edoor1",
+   "texels": [
+    512,
+    512
+   ],
+   "tint": [
+    0.8,
+    0.88,
+    0.97
+   ],
+   "uv_offset": 663876,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_tracktrain",
+   "colour": [
+    0.7078,
+    0.6877,
+    0.6745
+   ],
+   "entity": 324,
+   "generic": "plaster_painted",
+   "index_count": 24,
+   "index_offset": 664444,
+   "material": "plaster/offwllg",
+   "model": 18,
+   "normal_offset": 664124,
+   "position_offset": 663932,
+   "targetname": "Edoor1",
+   "texels": [
+    512,
+    512
+   ],
+   "tint": [
+    0.8,
+    0.88,
+    0.97
+   ],
+   "uv_offset": 664316,
+   "vertex_count": 16
+  },
+  {
+   "classname": "func_tracktrain",
+   "colour": [
+    0.3122,
+    0.271,
+    0.2457
+   ],
+   "entity": 324,
+   "generic": "metal",
+   "index_count": 6,
+   "index_offset": 664668,
+   "material": "vehicle/metaltrain001d",
+   "model": 18,
+   "normal_offset": 664588,
+   "position_offset": 664540,
+   "targetname": "Edoor1",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 664636,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_tracktrain",
+   "colour": [
+    0.7078,
+    0.6877,
+    0.6745
+   ],
+   "entity": 325,
+   "generic": "plaster_painted",
+   "index_count": 12,
+   "index_offset": 664948,
+   "material": "plaster/offwllg",
+   "model": 19,
+   "normal_offset": 664788,
+   "position_offset": 664692,
+   "targetname": "Edoor2",
+   "texels": [
+    512,
+    512
+   ],
+   "tint": [
+    0.8,
+    0.88,
+    0.97
+   ],
+   "uv_offset": 664884,
+   "vertex_count": 8
+  },
+  {
+   "classname": "func_tracktrain",
+   "colour": [
+    0.7078,
+    0.6877,
+    0.6745
+   ],
+   "entity": 325,
+   "generic": "plaster_painted",
+   "index_count": 18,
+   "index_offset": 665380,
+   "material": "plaster/offwllg",
+   "model": 19,
+   "normal_offset": 665140,
+   "position_offset": 664996,
+   "targetname": "Edoor2",
+   "texels": [
+    512,
+    512
+   ],
+   "tint": [
+    0.8,
+    0.88,
+    0.97
+   ],
+   "uv_offset": 665284,
+   "vertex_count": 12
+  },
+  {
+   "classname": "func_tracktrain",
+   "colour": [
+    0.3122,
+    0.271,
+    0.2457
+   ],
+   "entity": 325,
+   "generic": "metal",
+   "index_count": 6,
+   "index_offset": 665580,
+   "material": "vehicle/metaltrain001d",
+   "model": 19,
+   "normal_offset": 665500,
+   "position_offset": 665452,
+   "targetname": "Edoor2",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 665548,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_tracktrain",
+   "colour": [
+    0.7078,
+    0.6877,
+    0.6745
+   ],
+   "entity": 330,
+   "generic": "plaster_painted",
+   "index_count": 24,
+   "index_offset": 666116,
+   "material": "plaster/offwllg",
+   "model": 22,
+   "normal_offset": 665796,
+   "position_offset": 665604,
+   "targetname": "Edoor3",
+   "texels": [
+    512,
+    512
+   ],
+   "tint": [
+    0.8,
+    0.88,
+    0.97
+   ],
+   "uv_offset": 665988,
+   "vertex_count": 16
+  },
+  {
+   "classname": "func_tracktrain",
+   "colour": [
+    0.7078,
+    0.6877,
+    0.6745
+   ],
+   "entity": 330,
+   "generic": "plaster_painted",
+   "index_count": 6,
+   "index_offset": 666340,
+   "material": "plaster/offwllg",
+   "model": 22,
+   "normal_offset": 666260,
+   "position_offset": 666212,
+   "targetname": "Edoor3",
+   "texels": [
+    512,
+    512
+   ],
+   "tint": [
+    0.8,
+    0.88,
+    0.97
+   ],
+   "uv_offset": 666308,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_tracktrain",
+   "colour": [
+    0.3122,
+    0.271,
+    0.2457
+   ],
+   "entity": 330,
+   "generic": "metal",
+   "index_count": 6,
+   "index_offset": 666492,
+   "material": "vehicle/metaltrain001d",
+   "model": 22,
+   "normal_offset": 666412,
+   "position_offset": 666364,
+   "targetname": "Edoor3",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 666460,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_tracktrain",
+   "colour": [
+    0.7078,
+    0.6877,
+    0.6745
+   ],
+   "entity": 331,
+   "generic": "plaster_painted",
+   "index_count": 12,
+   "index_offset": 666772,
+   "material": "plaster/offwllg",
+   "model": 23,
+   "normal_offset": 666612,
+   "position_offset": 666516,
+   "targetname": "Edoor4",
+   "texels": [
+    512,
+    512
+   ],
+   "tint": [
+    0.8,
+    0.88,
+    0.97
+   ],
+   "uv_offset": 666708,
+   "vertex_count": 8
+  },
+  {
+   "classname": "func_tracktrain",
+   "colour": [
+    0.7078,
+    0.6877,
+    0.6745
+   ],
+   "entity": 331,
+   "generic": "plaster_painted",
+   "index_count": 18,
+   "index_offset": 667204,
+   "material": "plaster/offwllg",
+   "model": 23,
+   "normal_offset": 666964,
+   "position_offset": 666820,
+   "targetname": "Edoor4",
+   "texels": [
+    512,
+    512
+   ],
+   "tint": [
+    0.8,
+    0.88,
+    0.97
+   ],
+   "uv_offset": 667108,
+   "vertex_count": 12
+  },
+  {
+   "classname": "func_tracktrain",
+   "colour": [
+    0.3122,
+    0.271,
+    0.2457
+   ],
+   "entity": 331,
+   "generic": "metal",
+   "index_count": 6,
+   "index_offset": 667404,
+   "material": "vehicle/metaltrain001d",
+   "model": 23,
+   "normal_offset": 667324,
+   "position_offset": 667276,
+   "targetname": "Edoor4",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 667372,
+   "vertex_count": 4
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.2042,
+    0.1657,
+    0.1452
+   ],
+   "entity": 364,
+   "generic": "metal",
+   "index_count": 36,
+   "index_offset": 668196,
+   "material": "cs_havana/metalwall085a",
+   "model": 30,
+   "normal_offset": 667716,
+   "position_offset": 667428,
+   "targetname": "button1",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 668004,
+   "vertex_count": 24
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.2042,
+    0.1657,
+    0.1452
+   ],
+   "entity": 367,
+   "generic": "metal",
+   "index_count": 36,
+   "index_offset": 669108,
+   "material": "cs_havana/metalwall085a",
+   "model": 31,
+   "normal_offset": 668628,
+   "position_offset": 668340,
+   "targetname": "button2",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 668916,
+   "vertex_count": 24
   }
  ],
  "units": {
@@ -12166,6 +14892,416 @@
   "y0": 0.0
  },
  "version": 1,
+ "volumes": [
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      34.0233
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -31.7754
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      9.65835
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -7.7343
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -0.81915
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      2.6289
+     ]
+    ]
+   ],
+   "classname": "trigger_once",
+   "disabled": false,
+   "entity": 340,
+   "filter": "",
+   "kind": "once",
+   "model": 28,
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "Break",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "fallingele",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "Break",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "lowerbreakabledoor1",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "StopSound",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "sound_elefall",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "sound_elehit",
+     "times": -1
+    }
+   ],
+   "spawnflags": 64,
+   "targetname": "deleteele",
+   "wait": -1.0
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      20.97405
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -17.6784
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      10.8966
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -7.75335
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -6.83895
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      9.35355
+     ]
+    ]
+   ],
+   "classname": "trigger_once",
+   "disabled": false,
+   "entity": 341,
+   "filter": "",
+   "kind": "once",
+   "model": 29,
+   "outputs": [
+    {
+     "delay": 1.0,
+     "input": "Enable",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "deleteele",
+     "times": -1
+    },
+    {
+     "delay": 1.0,
+     "input": "Wake",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "fallingele",
+     "times": -1
+    },
+    {
+     "delay": 1.0,
+     "input": "PlaySound",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "sound_elefall",
+     "times": -1
+    }
+   ],
+   "spawnflags": 1,
+   "targetname": "starteledrop",
+   "wait": -1.0
+  },
+  {
+   "brush": 133,
+   "brushes": [
+    [
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -0.1524
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      0.28575
+     ],
+     [
+      -0.196116,
+      0.0,
+      -0.980581,
+      -0.36987
+     ],
+     [
+      -0.848689,
+      0.0,
+      -0.528893,
+      -14.83616
+     ],
+     [
+      -0.981044,
+      0.0,
+      -0.193786,
+      -17.81812
+     ],
+     [
+      -0.983282,
+      -0.0,
+      0.182089,
+      -17.88028
+     ],
+     [
+      -0.606043,
+      -0.0,
+      0.795432,
+      -9.44463
+     ],
+     [
+      0.750037,
+      0.0,
+      0.661396,
+      19.47404
+     ],
+     [
+      0.496139,
+      0.0,
+      0.868243,
+      14.62139
+     ],
+     [
+      0.999989,
+      0.0,
+      0.004762,
+      24.25963
+     ],
+     [
+      0.743979,
+      0.0,
+      -0.668203,
+      19.431
+     ],
+     [
+      -0.337073,
+      -0.0,
+      0.941479,
+      -3.39905
+     ],
+     [
+      -0.54588,
+      0.0,
+      -0.837863,
+      -8.09213
+     ],
+     [
+      -0.854199,
+      -0.0,
+      0.519947,
+      -14.99545
+     ],
+     [
+      -0.21243,
+      0.0,
+      -0.977176,
+      -0.74218
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "water",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 849,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -10.0203
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      10.03935
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      17.31645
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -16.59255
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -0.36195
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      9.04875
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 880,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -23.41245
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      23.45055
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      -27.60345
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      28.575
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -6.41985
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      7.7343
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 971,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      32.766
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -32.0421
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      9.7155
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -9.69645
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      1.84785
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      9.69645
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  }
+ ],
  "zz": {
   "keep_boxes": [],
   "materials": {
@@ -12182,6 +15318,7 @@
    "concrete/concreteceiling004a": "ceiling",
    "concrete/concretefloor005a": "concrete",
    "cs_havana/ceiling01": "ceiling",
+   "cs_havana/metalwall085a": "metal",
    "cs_italy/stonewall02": "stone",
    "de_cbble/concrete01": "concrete",
    "de_chateau/interiortile03": "tile",
@@ -12225,6 +15362,7 @@
    "tile/tilefloor016a": "tile",
    "tile/tilefloor021a": "tile",
    "tools/toolsblack": "concrete",
+   "vehicle/metaltrain001d": "metal",
    "wood/offdesktop": "wood",
    "wood/offdesktopsd": "wood",
    "wood/offparticleboard": "wood"

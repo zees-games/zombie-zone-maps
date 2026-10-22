@@ -1,14 +1,14 @@
 {
  "bin": {
-  "bytes": 1512164,
+  "bytes": 1514468,
   "compression": "gzip",
   "file": "zm_pathogen.bin",
-  "sha256": "9269007ec97301a9c040469de7d758f8f320b0c83994353a48e1910789a1e5ed",
-  "stored_bytes": 347354
+  "sha256": "34e8ac274208a84c49d916d977ddc932eb040768e3a2e6645c160e22492bcc83",
+  "stored_bytes": 347889
  },
  "counts": {
-  "hulls": 0,
-  "models": 27,
+  "hulls": 12,
+  "models": 39,
   "surfaces": 1236,
   "triangles": 28747,
   "vertices": 36475
@@ -19,8 +19,8732 @@
   "note": "Geometry converted from the original map with credit; its textures and models are not used. Removed on the author's request.",
   "page": "https://steamcommunity.com/sharedfiles/filedetails/?id=292859426"
  },
+ "destinations": {
+  "breen_target": {
+   "at": [
+    38.0238,
+    15.3162,
+    7.6962
+   ],
+   "yaw": -90.0
+  },
+  "breen_target2": {
+   "at": [
+    38.0238,
+    15.3162,
+    7.3152
+   ],
+   "yaw": -90.0
+  }
+ },
+ "entities": [
+  {
+   "classname": "logic_auto",
+   "entity": 3,
+   "keys": {
+    "hammerid": "121259",
+    "spawnflags": "1"
+   },
+   "model": null,
+   "origin": [
+    -23.3172,
+    17.2974,
+    7.3914
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_shooter",
+   "entity": 7,
+   "keys": {
+    "angles": "0 60 0",
+    "delay": "0",
+    "disablereceiveshadows": "1",
+    "gibangles": "0 0 0",
+    "gibgravityscale": ".03125",
+    "hammerid": "124757",
+    "m_flGibLife": "30",
+    "m_flVariance": ".5",
+    "m_flVelocity": "12.5",
+    "m_iGibs": "1",
+    "nogibshadows": "1",
+    "renderamt": "255",
+    "rendercolor": "255 255 255",
+    "renderfx": "0",
+    "rendermode": "0",
+    "shootmodel": "models/Gibs/metal_gib1.mdl",
+    "shootsounds": "-1",
+    "simulation": "0",
+    "skin": "1",
+    "spawnflags": "7",
+    "targetname": "gib_1"
+   },
+   "model": null,
+   "origin": [
+    95.4024,
+    73.914,
+    182.7276
+   ],
+   "target": "",
+   "targetname": "gib_1",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_shooter",
+   "entity": 8,
+   "keys": {
+    "angles": "-45 120 0",
+    "delay": ".25",
+    "disablereceiveshadows": "1",
+    "gibangles": "30 0 0",
+    "gibgravityscale": ".03125",
+    "hammerid": "124801",
+    "m_flGibLife": "30",
+    "m_flVariance": ".5",
+    "m_flVelocity": "25",
+    "m_iGibs": "2",
+    "renderamt": "255",
+    "rendercolor": "255 255 255",
+    "renderfx": "0",
+    "rendermode": "0",
+    "shootmodel": "models/gibs/metal_gib1.mdl",
+    "shootsounds": "-1",
+    "simulation": "0",
+    "skin": "0",
+    "spawnflags": "7",
+    "targetname": "gib_4"
+   },
+   "model": null,
+   "origin": [
+    91.5162,
+    74.7522,
+    182.7276
+   ],
+   "target": "",
+   "targetname": "gib_4",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_auto",
+   "entity": 9,
+   "keys": {
+    "hammerid": "124819",
+    "spawnflags": "1"
+   },
+   "model": null,
+   "origin": [
+    93.5736,
+    72.5424,
+    179.6034
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_timer",
+   "entity": 10,
+   "keys": {
+    "LowerRandomBound": "10",
+    "StartDisabled": "0",
+    "UpperRandomBound": "20",
+    "UseRandomTime": "1",
+    "hammerid": "125468",
+    "spawnflags": "0",
+    "targetname": "gib_timer1"
+   },
+   "model": null,
+   "origin": [
+    93.5736,
+    72.9234,
+    179.6034
+   ],
+   "target": "",
+   "targetname": "gib_timer1",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_timer",
+   "entity": 11,
+   "keys": {
+    "LowerRandomBound": "8",
+    "StartDisabled": "0",
+    "UpperRandomBound": "16",
+    "UseRandomTime": "1",
+    "hammerid": "125501",
+    "spawnflags": "0",
+    "targetname": "gib_timer4"
+   },
+   "model": null,
+   "origin": [
+    93.5736,
+    72.1614,
+    179.6034
+   ],
+   "target": "",
+   "targetname": "gib_timer4",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_hinge",
+   "entity": 15,
+   "keys": {
+    "SystemLoadScale": "1",
+    "attach2": "metal_door",
+    "hammerid": "154618",
+    "hingeaxis": "204 996 10",
+    "maxSoundThreshold": "80",
+    "minSoundThreshold": "6",
+    "spawnflags": "0"
+   },
+   "model": null,
+   "origin": [
+    3.8862,
+    2.2098,
+    -18.9738
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_thruster",
+   "entity": 23,
+   "keys": {
+    "angles": "0 0 0",
+    "attach1": "carousel",
+    "force": "50",
+    "forcetime": "3",
+    "hammerid": "174356",
+    "spawnflags": "30",
+    "targetname": "thruster"
+   },
+   "model": null,
+   "origin": [
+    9.6774,
+    5.4864,
+    -21.336
+   ],
+   "target": "",
+   "targetname": "thruster",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_hinge",
+   "entity": 28,
+   "keys": {
+    "SystemLoadScale": "1",
+    "attach1": "seat",
+    "hammerid": "174670",
+    "hingeaxis": "656 910 320",
+    "maxSoundThreshold": "80",
+    "minSoundThreshold": "6",
+    "spawnflags": "8"
+   },
+   "model": null,
+   "origin": [
+    12.4968,
+    6.096,
+    -16.8021
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_collision_pair",
+   "entity": 29,
+   "keys": {
+    "attach1": "seat",
+    "attach2": "base",
+    "hammerid": "174689",
+    "startdisabled": "1"
+   },
+   "model": null,
+   "origin": [
+    12.192,
+    6.0198,
+    -16.764
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "filter_activator_team",
+   "entity": 30,
+   "keys": {
+    "Negated": "Allow entities that match criteria",
+    "filterteam": "nobody",
+    "hammerid": "174710",
+    "targetname": "unbreakable"
+   },
+   "model": null,
+   "origin": [
+    12.192,
+    6.477,
+    -16.764
+   ],
+   "target": "",
+   "targetname": "unbreakable",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_hinge",
+   "entity": 36,
+   "keys": {
+    "SystemLoadScale": "1",
+    "attach1": "ttt_block1",
+    "hammerid": "174895",
+    "hingeaxis": "900 1260 306",
+    "maxSoundThreshold": "80",
+    "minSoundThreshold": "6"
+   },
+   "model": null,
+   "origin": [
+    17.1069,
+    5.8293,
+    -24.003
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_hinge",
+   "entity": 37,
+   "keys": {
+    "SystemLoadScale": "1",
+    "attach1": "ttt_block2",
+    "hammerid": "174908",
+    "hingeaxis": "928 1260 306",
+    "maxSoundThreshold": "80",
+    "minSoundThreshold": "6"
+   },
+   "model": null,
+   "origin": [
+    17.6403,
+    5.8293,
+    -24.003
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_hinge",
+   "entity": 38,
+   "keys": {
+    "SystemLoadScale": "1",
+    "attach1": "ttt_block3",
+    "hammerid": "174924",
+    "hingeaxis": "928 1260 324",
+    "maxSoundThreshold": "80",
+    "minSoundThreshold": "6"
+   },
+   "model": null,
+   "origin": [
+    17.6403,
+    6.1722,
+    -24.003
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_hinge",
+   "entity": 39,
+   "keys": {
+    "SystemLoadScale": "1",
+    "attach1": "ttt_block4",
+    "hammerid": "174937",
+    "hingeaxis": "914 1260 324",
+    "maxSoundThreshold": "80",
+    "minSoundThreshold": "6"
+   },
+   "model": null,
+   "origin": [
+    17.3736,
+    6.1722,
+    -24.003
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_hinge",
+   "entity": 40,
+   "keys": {
+    "SystemLoadScale": "1",
+    "attach1": "ttt_block5",
+    "hammerid": "174953",
+    "hingeaxis": "900 1260 340",
+    "maxSoundThreshold": "80",
+    "minSoundThreshold": "6"
+   },
+   "model": null,
+   "origin": [
+    17.1069,
+    6.477,
+    -24.003
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_physexplosion",
+   "entity": 41,
+   "keys": {
+    "hammerid": "174972",
+    "magnitude": "18",
+    "spawnflags": "1",
+    "targetentityname": "ttt_block1",
+    "targetname": "phys_explosion1"
+   },
+   "model": null,
+   "origin": [
+    17.0688,
+    5.7912,
+    -23.6982
+   ],
+   "target": "",
+   "targetname": "phys_explosion1",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_physexplosion",
+   "entity": 42,
+   "keys": {
+    "hammerid": "175000",
+    "magnitude": "18",
+    "spawnflags": "1",
+    "targetentityname": "ttt_block2",
+    "targetname": "phys_explosion2"
+   },
+   "model": null,
+   "origin": [
+    17.6784,
+    5.7912,
+    -23.6982
+   ],
+   "target": "",
+   "targetname": "phys_explosion2",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_physexplosion",
+   "entity": 43,
+   "keys": {
+    "hammerid": "175012",
+    "magnitude": "18",
+    "spawnflags": "1",
+    "targetentityname": "ttt_block3",
+    "targetname": "phys_explosion3"
+   },
+   "model": null,
+   "origin": [
+    17.6784,
+    6.1722,
+    -23.6982
+   ],
+   "target": "",
+   "targetname": "phys_explosion3",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_physexplosion",
+   "entity": 44,
+   "keys": {
+    "hammerid": "175024",
+    "magnitude": "18",
+    "spawnflags": "1",
+    "targetentityname": "ttt_block4",
+    "targetname": "phys_explosion4"
+   },
+   "model": null,
+   "origin": [
+    17.3736,
+    6.1722,
+    -23.6982
+   ],
+   "target": "",
+   "targetname": "phys_explosion4",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_physexplosion",
+   "entity": 45,
+   "keys": {
+    "hammerid": "175036",
+    "magnitude": "18",
+    "spawnflags": "1",
+    "targetentityname": "ttt_block5",
+    "targetname": "phys_explosion5"
+   },
+   "model": null,
+   "origin": [
+    17.0688,
+    6.477,
+    -23.6982
+   ],
+   "target": "",
+   "targetname": "phys_explosion5",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_hinge",
+   "entity": 50,
+   "keys": {
+    "SystemLoadScale": "1",
+    "attach1": "carousel",
+    "hammerid": "176251",
+    "hingeaxis": "508 1196 272",
+    "hingefriction": "50",
+    "maxSoundThreshold": "80",
+    "minSoundThreshold": "6"
+   },
+   "model": null,
+   "origin": [
+    9.6774,
+    5.7531,
+    -22.7838
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 211,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "212663",
+    "orientationtype": "1",
+    "targetname": "track3"
+   },
+   "model": null,
+   "origin": [
+    -2.5146,
+    1.8288,
+    -46.2534
+   ],
+   "target": "",
+   "targetname": "track3",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 236,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "212654",
+    "orientationtype": "0",
+    "spawnflags": "0",
+    "target": "track2",
+    "targetname": "track1"
+   },
+   "model": null,
+   "origin": [
+    -2.5146,
+    1.8288,
+    64.1604
+   ],
+   "target": "track2",
+   "targetname": "track1",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_shake",
+   "entity": 349,
+   "keys": {
+    "amplitude": "3",
+    "duration": "25",
+    "frequency": "5",
+    "hammerid": "230587",
+    "radius": "500",
+    "spawnflags": "1",
+    "targetname": "transmition.shake"
+   },
+   "model": null,
+   "origin": [
+    -3.6576,
+    0.4572,
+    -15.8496
+   ],
+   "target": "",
+   "targetname": "transmition.shake",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 354,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "234117",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "track4",
+    "targetname": "track2"
+   },
+   "model": null,
+   "origin": [
+    -2.5146,
+    1.8288,
+    48.3108
+   ],
+   "target": "track4",
+   "targetname": "track2",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 401,
+   "keys": {
+    "Template01": "transmission.glow",
+    "hammerid": "247981",
+    "spawnflags": "2",
+    "targetname": "citadel_glow_spawner"
+   },
+   "model": null,
+   "origin": [
+    99.1362,
+    71.7804,
+    177.927
+   ],
+   "target": "",
+   "targetname": "citadel_glow_spawner",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_hinge",
+   "entity": 405,
+   "keys": {
+    "SystemLoadScale": "1",
+    "attach2": "metal_door2",
+    "hammerid": "248259",
+    "hingeaxis": "546 788 9",
+    "maxSoundThreshold": "80",
+    "minSoundThreshold": "6",
+    "spawnflags": "0"
+   },
+   "model": null,
+   "origin": [
+    10.4013,
+    2.2098,
+    -15.0114
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 406,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "252074",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "track5",
+    "targetname": "track4"
+   },
+   "model": null,
+   "origin": [
+    -2.5146,
+    1.8288,
+    33.2232
+   ],
+   "target": "track5",
+   "targetname": "track4",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_shake",
+   "entity": 407,
+   "keys": {
+    "amplitude": "4",
+    "duration": "2",
+    "frequency": "2.5",
+    "hammerid": "252086",
+    "radius": "500",
+    "targetname": "train.shake1"
+   },
+   "model": null,
+   "origin": [
+    -2.5146,
+    2.2098,
+    33.2232
+   ],
+   "target": "",
+   "targetname": "train.shake1",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 408,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "252119",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "track6",
+    "targetname": "track5"
+   },
+   "model": null,
+   "origin": [
+    -2.5146,
+    1.8288,
+    21.8694
+   ],
+   "target": "track6",
+   "targetname": "track5",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_shake",
+   "entity": 409,
+   "keys": {
+    "amplitude": "4",
+    "duration": "2",
+    "frequency": "2.5",
+    "hammerid": "252128",
+    "radius": "500",
+    "spawnflags": "0",
+    "targetname": "train.shake2"
+   },
+   "model": null,
+   "origin": [
+    -2.5146,
+    2.2098,
+    21.8694
+   ],
+   "target": "",
+   "targetname": "train.shake2",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 410,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "252143",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "track7",
+    "targetname": "track6"
+   },
+   "model": null,
+   "origin": [
+    -2.5146,
+    1.8288,
+    11.5824
+   ],
+   "target": "track7",
+   "targetname": "track6",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_shake",
+   "entity": 411,
+   "keys": {
+    "amplitude": "4",
+    "duration": "2",
+    "frequency": "2.5",
+    "hammerid": "252152",
+    "radius": "500",
+    "spawnflags": "0",
+    "targetname": "train.shake3"
+   },
+   "model": null,
+   "origin": [
+    -2.5146,
+    2.2098,
+    11.5824
+   ],
+   "target": "",
+   "targetname": "train.shake3",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 412,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "252173",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "track8",
+    "targetname": "track7"
+   },
+   "model": null,
+   "origin": [
+    -2.5146,
+    1.8288,
+    1.6764
+   ],
+   "target": "track8",
+   "targetname": "track7",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_shake",
+   "entity": 413,
+   "keys": {
+    "amplitude": "4",
+    "duration": "2",
+    "frequency": "2.5",
+    "hammerid": "252182",
+    "radius": "500",
+    "spawnflags": "0",
+    "targetname": "train.shake4"
+   },
+   "model": null,
+   "origin": [
+    -2.5146,
+    2.2098,
+    1.6764
+   ],
+   "target": "",
+   "targetname": "train.shake4",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 414,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "252194",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "track9",
+    "targetname": "track8"
+   },
+   "model": null,
+   "origin": [
+    -2.5146,
+    1.8288,
+    -9.8298
+   ],
+   "target": "track9",
+   "targetname": "track8",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_shake",
+   "entity": 415,
+   "keys": {
+    "amplitude": "4",
+    "duration": "2",
+    "frequency": "2.5",
+    "hammerid": "252200",
+    "radius": "500",
+    "spawnflags": "0",
+    "targetname": "train.shake5"
+   },
+   "model": null,
+   "origin": [
+    -2.5146,
+    2.2098,
+    -9.8298
+   ],
+   "target": "",
+   "targetname": "train.shake5",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 416,
+   "keys": {
+    "angles": "0 0 0",
+    "hammerid": "252212",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "track3",
+    "targetname": "track9"
+   },
+   "model": null,
+   "origin": [
+    -2.5146,
+    1.8288,
+    -23.6982
+   ],
+   "target": "track3",
+   "targetname": "track9",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_shake",
+   "entity": 417,
+   "keys": {
+    "amplitude": "4",
+    "duration": "2",
+    "frequency": "2.5",
+    "hammerid": "252218",
+    "radius": "500",
+    "spawnflags": "0",
+    "targetname": "train.shake6"
+   },
+   "model": null,
+   "origin": [
+    -2.5146,
+    2.2098,
+    -23.6982
+   ],
+   "target": "",
+   "targetname": "train.shake6",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 420,
+   "keys": {
+    "Template01": "portal_rift",
+    "hammerid": "260183",
+    "spawnflags": "2",
+    "targetname": "portal_rift_spawner"
+   },
+   "model": null,
+   "origin": [
+    99.1362,
+    72.2376,
+    177.927
+   ],
+   "target": "",
+   "targetname": "portal_rift_spawner",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_case",
+   "entity": 422,
+   "keys": {
+    "Case01": "template_transmission1",
+    "Case02": "template_transmission2",
+    "Case03": "template_transmission3",
+    "Case04": "template_transmission4",
+    "Case05": "template_transmission5",
+    "hammerid": "268464",
+    "targetname": "case_transmission"
+   },
+   "model": null,
+   "origin": [
+    92.6592,
+    0.5334,
+    179.2224
+   ],
+   "target": "",
+   "targetname": "case_transmission",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_timer",
+   "entity": 423,
+   "keys": {
+    "LowerRandomBound": "1",
+    "StartDisabled": "1",
+    "UpperRandomBound": "1.5",
+    "UseRandomTime": "1",
+    "hammerid": "268478",
+    "spawnflags": "0",
+    "targetname": "transmission_timer"
+   },
+   "model": null,
+   "origin": [
+    92.6592,
+    0.9144,
+    179.2224
+   ],
+   "target": "",
+   "targetname": "transmission_timer",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 425,
+   "keys": {
+    "Template01": "transmission_trail2",
+    "Template02": "transmission_sprite2",
+    "Template03": "transmission_door2",
+    "hammerid": "268456",
+    "spawnflags": "0",
+    "targetname": "template_transmission2"
+   },
+   "model": null,
+   "origin": [
+    95.7072,
+    0.5334,
+    175.4886
+   ],
+   "target": "",
+   "targetname": "template_transmission2",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 429,
+   "keys": {
+    "Template01": "transmission_trail3",
+    "Template02": "transmission_sprite3",
+    "Template03": "transmission_door3",
+    "hammerid": "268444",
+    "spawnflags": "0",
+    "targetname": "template_transmission3"
+   },
+   "model": null,
+   "origin": [
+    93.726,
+    0.5334,
+    175.4886
+   ],
+   "target": "",
+   "targetname": "template_transmission3",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 433,
+   "keys": {
+    "Template01": "transmission_trail1",
+    "Template02": "transmission_sprite1",
+    "Template03": "transmission_door1",
+    "hammerid": "268438",
+    "spawnflags": "0",
+    "targetname": "template_transmission1"
+   },
+   "model": null,
+   "origin": [
+    91.5924,
+    0.5334,
+    175.4886
+   ],
+   "target": "",
+   "targetname": "template_transmission1",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 439,
+   "keys": {
+    "Template01": "transmission_trail4",
+    "Template02": "transmission_sprite4",
+    "Template03": "transmission_door4",
+    "hammerid": "268425",
+    "spawnflags": "0",
+    "targetname": "template_transmission4"
+   },
+   "model": null,
+   "origin": [
+    90.0684,
+    0.5334,
+    175.4886
+   ],
+   "target": "",
+   "targetname": "template_transmission4",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 443,
+   "keys": {
+    "Template01": "transmission_trail5",
+    "Template02": "transmission_sprite5",
+    "Template03": "transmission_door5",
+    "hammerid": "268408",
+    "spawnflags": "0",
+    "targetname": "template_transmission5"
+   },
+   "model": null,
+   "origin": [
+    88.3158,
+    0.5334,
+    175.4886
+   ],
+   "target": "",
+   "targetname": "template_transmission5",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_headcrabcanister",
+   "entity": 460,
+   "keys": {
+    "Damage": "150",
+    "DamageRadius": "0",
+    "FlightSpeed": "3000",
+    "FlightTime": "6",
+    "HeadcrabCount": "0",
+    "SkyboxCannisterCount": "1",
+    "SmokeLifetime": "1",
+    "angles": "-52 90.5 0",
+    "hammerid": "288678",
+    "spawnflags": "73728",
+    "targetname": "canister1"
+   },
+   "model": null,
+   "origin": [
+    14.478,
+    15.5448,
+    52.1416
+   ],
+   "target": "",
+   "targetname": "canister1",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_headcrabcanister",
+   "entity": 461,
+   "keys": {
+    "Damage": "150",
+    "DamageRadius": "0",
+    "FlightSpeed": "3000",
+    "FlightTime": "6",
+    "HeadcrabCount": "0",
+    "SkyboxCannisterCount": "1",
+    "SmokeLifetime": "1",
+    "angles": "-52 90.5 0",
+    "hammerid": "288699",
+    "spawnflags": "73728",
+    "targetname": "canister2"
+   },
+   "model": null,
+   "origin": [
+    2.2098,
+    11.5824,
+    37.3395
+   ],
+   "target": "",
+   "targetname": "canister2",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_headcrabcanister",
+   "entity": 462,
+   "keys": {
+    "Damage": "150",
+    "DamageRadius": "0",
+    "FlightSpeed": "3000",
+    "FlightTime": "6",
+    "HeadcrabCount": "0",
+    "SkyboxCannisterCount": "1",
+    "SmokeLifetime": "1",
+    "angles": "-52 90.5 0",
+    "hammerid": "288714",
+    "spawnflags": "73728",
+    "targetname": "canister3"
+   },
+   "model": null,
+   "origin": [
+    44.3484,
+    15.3162,
+    11.7449
+   ],
+   "target": "",
+   "targetname": "canister3",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_headcrabcanister",
+   "entity": 463,
+   "keys": {
+    "Damage": "150",
+    "DamageRadius": "0",
+    "FlightSpeed": "3000",
+    "FlightTime": "6",
+    "HeadcrabCount": "0",
+    "SkyboxCannisterCount": "1",
+    "SmokeLifetime": "1",
+    "angles": "-52 90.5 0",
+    "hammerid": "288726",
+    "spawnflags": "73728",
+    "targetname": "canister4"
+   },
+   "model": null,
+   "origin": [
+    -28.3912,
+    17.5962,
+    9.7024
+   ],
+   "target": "",
+   "targetname": "canister4",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_headcrabcanister",
+   "entity": 464,
+   "keys": {
+    "Damage": "150",
+    "DamageRadius": "0",
+    "FlightSpeed": "3000",
+    "FlightTime": "6",
+    "HeadcrabCount": "0",
+    "SkyboxCannisterCount": "1",
+    "SmokeLifetime": "1",
+    "angles": "-52 90.5 0",
+    "hammerid": "288732",
+    "spawnflags": "73728",
+    "targetname": "canister5"
+   },
+   "model": null,
+   "origin": [
+    -31.0896,
+    10.281,
+    -7.0104
+   ],
+   "target": "",
+   "targetname": "canister5",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_headcrabcanister",
+   "entity": 465,
+   "keys": {
+    "Damage": "150",
+    "DamageRadius": "0",
+    "FlightSpeed": "3000",
+    "FlightTime": "6",
+    "HeadcrabCount": "0",
+    "SkyboxCannisterCount": "1",
+    "SmokeLifetime": "1",
+    "angles": "-52 90.5 0",
+    "hammerid": "288744",
+    "spawnflags": "73728",
+    "targetname": "canister6"
+   },
+   "model": null,
+   "origin": [
+    -18.4425,
+    20.0991,
+    78.0966
+   ],
+   "target": "",
+   "targetname": "canister6",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_ballsocket",
+   "entity": 475,
+   "keys": {
+    "attach2": "sign",
+    "forcelimit": "0",
+    "hammerid": "288923",
+    "spawnflags": "0"
+   },
+   "model": null,
+   "origin": [
+    39.6431,
+    8.0582,
+    1.3145
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_timer",
+   "entity": 483,
+   "keys": {
+    "LowerRandomBound": "20",
+    "StartDisabled": "1",
+    "UpperRandomBound": "30",
+    "UseRandomTime": "1",
+    "hammerid": "293329",
+    "spawnflags": "0",
+    "targetname": "citadel_hit_timer"
+   },
+   "model": null,
+   "origin": [
+    -23.3172,
+    18.0594,
+    10.3632
+   ],
+   "target": "",
+   "targetname": "citadel_hit_timer",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_relay",
+   "entity": 484,
+   "keys": {
+    "StartDisabled": "0",
+    "hammerid": "293337",
+    "spawnflags": "0",
+    "targetname": "citadel_hit_relay"
+   },
+   "model": null,
+   "origin": [
+    -23.3172,
+    18.4404,
+    10.3632
+   ],
+   "target": "",
+   "targetname": "citadel_hit_relay",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_timer",
+   "entity": 485,
+   "keys": {
+    "LowerRandomBound": "15",
+    "StartDisabled": "1",
+    "UpperRandomBound": "25",
+    "UseRandomTime": "1",
+    "hammerid": "293351",
+    "spawnflags": "0",
+    "targetname": "citadel_hit_timer2"
+   },
+   "model": null,
+   "origin": [
+    -23.3172,
+    18.0594,
+    9.9822
+   ],
+   "target": "",
+   "targetname": "citadel_hit_timer2",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_branch",
+   "entity": 557,
+   "keys": {
+    "hammerid": "328921",
+    "targetname": "second_branch"
+   },
+   "model": null,
+   "origin": [
+    10.668,
+    6.7818,
+    14.9352
+   ],
+   "target": "",
+   "targetname": "second_branch",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_branch",
+   "entity": 560,
+   "keys": {
+    "hammerid": "328949",
+    "targetname": "first_branch"
+   },
+   "model": null,
+   "origin": [
+    10.668,
+    6.7818,
+    12.192
+   ],
+   "target": "",
+   "targetname": "first_branch",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_branch_listener",
+   "entity": 561,
+   "keys": {
+    "Branch01": "first_branch",
+    "Branch02": "second_branch",
+    "hammerid": "328961"
+   },
+   "model": null,
+   "origin": [
+    10.3632,
+    7.8486,
+    13.5636
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_shake",
+   "entity": 606,
+   "keys": {
+    "amplitude": "10",
+    "duration": "4",
+    "frequency": "2.5",
+    "hammerid": "356840",
+    "radius": "500",
+    "spawnflags": "1",
+    "targetname": "earthquake"
+   },
+   "model": null,
+   "origin": [
+    9.4488,
+    1.2192,
+    25.908
+   ],
+   "target": "",
+   "targetname": "earthquake",
+   "treatment": "data"
+  },
+  {
+   "classname": "env_microphone",
+   "entity": 612,
+   "keys": {
+    "MaxRange": "150",
+    "Sensitivity": "1",
+    "SpeakerName": "breen_target",
+    "StartDisabled": "0",
+    "hammerid": "378256",
+    "spawnflags": "0",
+    "speaker_dsp_preset": "57",
+    "targetname": "breen_microphone_1"
+   },
+   "model": null,
+   "origin": [
+    38.4048,
+    15.3162,
+    7.6962
+   ],
+   "target": "",
+   "targetname": "breen_microphone_1",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_relay",
+   "entity": 616,
+   "keys": {
+    "hammerid": "383540",
+    "spawnflags": "0",
+    "targetname": "microphone_enable_relay"
+   },
+   "model": null,
+   "origin": [
+    38.4048,
+    15.3162,
+    7.3152
+   ],
+   "target": "",
+   "targetname": "microphone_enable_relay",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_case",
+   "entity": 620,
+   "keys": {
+    "Case01": "template_ammo_1_set1",
+    "Case02": "template_ammo_2_set1",
+    "Case03": "template_ammo_3_set1",
+    "Case04": "template_ammo_4_set1",
+    "hammerid": "383634",
+    "targetname": "set1_case_ammo"
+   },
+   "model": null,
+   "origin": [
+    26.7462,
+    17.2212,
+    -9.8298
+   ],
+   "target": "",
+   "targetname": "set1_case_ammo",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 621,
+   "keys": {
+    "Template01": "ammo1_set1",
+    "hammerid": "383640",
+    "spawnflags": "2",
+    "targetname": "template_ammo_1_set1"
+   },
+   "model": null,
+   "origin": [
+    26.7462,
+    17.6022,
+    -9.8298
+   ],
+   "target": "",
+   "targetname": "template_ammo_1_set1",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 622,
+   "keys": {
+    "Template01": "ammo2_set1",
+    "hammerid": "383646",
+    "spawnflags": "2",
+    "targetname": "template_ammo_2_set1"
+   },
+   "model": null,
+   "origin": [
+    26.7462,
+    17.9832,
+    -9.8298
+   ],
+   "target": "",
+   "targetname": "template_ammo_2_set1",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 623,
+   "keys": {
+    "Template01": "ammo3_set1",
+    "hammerid": "383648",
+    "spawnflags": "2",
+    "targetname": "template_ammo_3_set1"
+   },
+   "model": null,
+   "origin": [
+    26.7462,
+    18.3642,
+    -9.8298
+   ],
+   "target": "",
+   "targetname": "template_ammo_3_set1",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 624,
+   "keys": {
+    "Template01": "ammo4_set1",
+    "hammerid": "383650",
+    "spawnflags": "2",
+    "targetname": "template_ammo_4_set1"
+   },
+   "model": null,
+   "origin": [
+    26.7462,
+    18.7452,
+    -9.8298
+   ],
+   "target": "",
+   "targetname": "template_ammo_4_set1",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_case",
+   "entity": 629,
+   "keys": {
+    "Case01": "template_ammo_1_set2",
+    "Case02": "template_ammo_2_set2",
+    "Case03": "template_ammo_3_set2",
+    "Case04": "template_ammo_4_set2",
+    "hammerid": "383785",
+    "targetname": "set2_case_ammo"
+   },
+   "model": null,
+   "origin": [
+    26.7462,
+    17.2212,
+    -10.2108
+   ],
+   "target": "",
+   "targetname": "set2_case_ammo",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_auto",
+   "entity": 630,
+   "keys": {
+    "hammerid": "383825",
+    "spawnflags": "1"
+   },
+   "model": null,
+   "origin": [
+    26.7462,
+    17.2212,
+    -10.7442
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 631,
+   "keys": {
+    "Template01": "ammo4_set2",
+    "hammerid": "383847",
+    "spawnflags": "2",
+    "targetname": "template_ammo_4_set2"
+   },
+   "model": null,
+   "origin": [
+    26.7462,
+    18.7452,
+    -10.2108
+   ],
+   "target": "",
+   "targetname": "template_ammo_4_set2",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 632,
+   "keys": {
+    "Template01": "ammo3_set2",
+    "hammerid": "383849",
+    "spawnflags": "2",
+    "targetname": "template_ammo_3_set2"
+   },
+   "model": null,
+   "origin": [
+    26.7462,
+    18.3642,
+    -10.2108
+   ],
+   "target": "",
+   "targetname": "template_ammo_3_set2",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 633,
+   "keys": {
+    "Template01": "ammo2_set2",
+    "hammerid": "383851",
+    "spawnflags": "2",
+    "targetname": "template_ammo_2_set2"
+   },
+   "model": null,
+   "origin": [
+    26.7462,
+    17.9832,
+    -10.2108
+   ],
+   "target": "",
+   "targetname": "template_ammo_2_set2",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 634,
+   "keys": {
+    "Template01": "ammo1_set2",
+    "hammerid": "383853",
+    "spawnflags": "2",
+    "targetname": "template_ammo_1_set2"
+   },
+   "model": null,
+   "origin": [
+    26.7462,
+    17.6022,
+    -10.2108
+   ],
+   "target": "",
+   "targetname": "template_ammo_1_set2",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_case",
+   "entity": 639,
+   "keys": {
+    "Case01": "set1_template_healthvial1",
+    "Case02": "set1_template_healthvial2",
+    "Case03": "set1_template_healthvial3",
+    "Case04": "set1_template_healthvial4",
+    "hammerid": "383941",
+    "targetname": "set1_case_healthvial"
+   },
+   "model": null,
+   "origin": [
+    26.7462,
+    17.2212,
+    -11.2776
+   ],
+   "target": "",
+   "targetname": "set1_case_healthvial",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 640,
+   "keys": {
+    "Template01": "set_1_healthvial_1",
+    "hammerid": "383955",
+    "spawnflags": "2",
+    "targetname": "set1_template_healthvial1"
+   },
+   "model": null,
+   "origin": [
+    26.7462,
+    17.6022,
+    -11.2776
+   ],
+   "target": "",
+   "targetname": "set1_template_healthvial1",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 641,
+   "keys": {
+    "Template01": "set_1_healthvial_2",
+    "hammerid": "383973",
+    "spawnflags": "2",
+    "targetname": "set1_template_healthvial2"
+   },
+   "model": null,
+   "origin": [
+    26.7462,
+    17.9832,
+    -11.2776
+   ],
+   "target": "",
+   "targetname": "set1_template_healthvial2",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 642,
+   "keys": {
+    "Template01": "set_1_healthvial_3",
+    "hammerid": "383975",
+    "spawnflags": "2",
+    "targetname": "set1_template_healthvial3"
+   },
+   "model": null,
+   "origin": [
+    26.7462,
+    18.3642,
+    -11.2776
+   ],
+   "target": "",
+   "targetname": "set1_template_healthvial3",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 643,
+   "keys": {
+    "Template01": "set_1_healthvial_4",
+    "hammerid": "383977",
+    "spawnflags": "2",
+    "targetname": "set1_template_healthvial4"
+   },
+   "model": null,
+   "origin": [
+    26.7462,
+    18.7452,
+    -11.2776
+   ],
+   "target": "",
+   "targetname": "set1_template_healthvial4",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_case",
+   "entity": 648,
+   "keys": {
+    "Case01": "set2_template_healthvial1",
+    "Case02": "set2_template_healthvial2",
+    "Case03": "set2_template_healthvial3",
+    "Case04": "set2_template_healthvial4",
+    "hammerid": "384073",
+    "targetname": "set2_case_healthvial"
+   },
+   "model": null,
+   "origin": [
+    26.7462,
+    17.2212,
+    -11.6586
+   ],
+   "target": "",
+   "targetname": "set2_case_healthvial",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 649,
+   "keys": {
+    "Template01": "set_2_healthvial_1",
+    "hammerid": "384075",
+    "spawnflags": "2",
+    "targetname": "set2_template_healthvial1"
+   },
+   "model": null,
+   "origin": [
+    26.7462,
+    17.6022,
+    -11.6586
+   ],
+   "target": "",
+   "targetname": "set2_template_healthvial1",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 650,
+   "keys": {
+    "Template01": "set_2_healthvial_2",
+    "hammerid": "384077",
+    "spawnflags": "2",
+    "targetname": "set2_template_healthvial2"
+   },
+   "model": null,
+   "origin": [
+    26.7462,
+    17.9832,
+    -11.6586
+   ],
+   "target": "",
+   "targetname": "set2_template_healthvial2",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 651,
+   "keys": {
+    "Template01": "set_2_healthvial_3",
+    "hammerid": "384079",
+    "spawnflags": "2",
+    "targetname": "set2_template_healthvial3"
+   },
+   "model": null,
+   "origin": [
+    26.7462,
+    18.3642,
+    -11.6586
+   ],
+   "target": "",
+   "targetname": "set2_template_healthvial3",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 652,
+   "keys": {
+    "Template01": "set_2_healthvial_4",
+    "hammerid": "384081",
+    "spawnflags": "2",
+    "targetname": "set2_template_healthvial4"
+   },
+   "model": null,
+   "origin": [
+    26.7462,
+    18.7452,
+    -11.6586
+   ],
+   "target": "",
+   "targetname": "set2_template_healthvial4",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_auto",
+   "entity": 740,
+   "keys": {
+    "hammerid": "413275",
+    "spawnflags": "1"
+   },
+   "model": null,
+   "origin": [
+    8.8392,
+    0.381,
+    24.6888
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_relay",
+   "entity": 741,
+   "keys": {
+    "StartDisabled": "0",
+    "hammerid": "413283",
+    "spawnflags": "0",
+    "targetname": "citadel_transmission_trigger"
+   },
+   "model": null,
+   "origin": [
+    8.8392,
+    0.762,
+    24.6888
+   ],
+   "target": "",
+   "targetname": "citadel_transmission_trigger",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 748,
+   "keys": {
+    "Template01": "canister1",
+    "hammerid": "435696",
+    "spawnflags": "2",
+    "targetname": "1_canister_spawn"
+   },
+   "model": null,
+   "origin": [
+    11.049,
+    0.381,
+    24.5364
+   ],
+   "target": "",
+   "targetname": "1_canister_spawn",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 749,
+   "keys": {
+    "Template01": "canister2",
+    "hammerid": "435710",
+    "spawnflags": "2",
+    "targetname": "2_canister_spawn"
+   },
+   "model": null,
+   "origin": [
+    11.049,
+    0.762,
+    24.5364
+   ],
+   "target": "",
+   "targetname": "2_canister_spawn",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 750,
+   "keys": {
+    "Template01": "canister3",
+    "hammerid": "435718",
+    "spawnflags": "2",
+    "targetname": "3_canister_spawn"
+   },
+   "model": null,
+   "origin": [
+    11.049,
+    1.143,
+    24.5364
+   ],
+   "target": "",
+   "targetname": "3_canister_spawn",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 751,
+   "keys": {
+    "Template01": "canister4",
+    "hammerid": "435722",
+    "spawnflags": "2",
+    "targetname": "4_canister_spawn"
+   },
+   "model": null,
+   "origin": [
+    11.049,
+    1.524,
+    24.5364
+   ],
+   "target": "",
+   "targetname": "4_canister_spawn",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 752,
+   "keys": {
+    "Template01": "canister5",
+    "hammerid": "435728",
+    "spawnflags": "2",
+    "targetname": "5_canister_spawn"
+   },
+   "model": null,
+   "origin": [
+    11.049,
+    1.905,
+    24.5364
+   ],
+   "target": "",
+   "targetname": "5_canister_spawn",
+   "treatment": "data"
+  },
+  {
+   "classname": "point_template",
+   "entity": 753,
+   "keys": {
+    "Template01": "canister6",
+    "hammerid": "435736",
+    "spawnflags": "2",
+    "targetname": "6_canister_spawn"
+   },
+   "model": null,
+   "origin": [
+    11.049,
+    2.286,
+    24.5364
+   ],
+   "target": "",
+   "targetname": "6_canister_spawn",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 754,
+   "keys": {
+    "hammerid": "435802",
+    "nodeid": "2"
+   },
+   "model": null,
+   "origin": [
+    31.3992,
+    5.3531,
+    -26.9653
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 755,
+   "keys": {
+    "hammerid": "435804",
+    "nodeid": "3"
+   },
+   "model": null,
+   "origin": [
+    27.1708,
+    4.8959,
+    -27.0182
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 756,
+   "keys": {
+    "hammerid": "435806",
+    "nodeid": "4"
+   },
+   "model": null,
+   "origin": [
+    22.6278,
+    4.8959,
+    -26.9066
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 757,
+   "keys": {
+    "hammerid": "435808",
+    "nodeid": "5"
+   },
+   "model": null,
+   "origin": [
+    18.1128,
+    4.8959,
+    -27.0085
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 758,
+   "keys": {
+    "hammerid": "435810",
+    "nodeid": "6"
+   },
+   "model": null,
+   "origin": [
+    13.0574,
+    4.8959,
+    -27.0434
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 759,
+   "keys": {
+    "hammerid": "435812",
+    "nodeid": "7"
+   },
+   "model": null,
+   "origin": [
+    7.95,
+    4.8959,
+    -27.1053
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 760,
+   "keys": {
+    "hammerid": "435814",
+    "nodeid": "8"
+   },
+   "model": null,
+   "origin": [
+    2.7575,
+    4.8959,
+    -27.071
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 761,
+   "keys": {
+    "hammerid": "435816",
+    "nodeid": "9"
+   },
+   "model": null,
+   "origin": [
+    -2.1153,
+    4.8959,
+    -27.0649
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 762,
+   "keys": {
+    "hammerid": "435818",
+    "nodeid": "10"
+   },
+   "model": null,
+   "origin": [
+    -7.1903,
+    4.8959,
+    -26.9055
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 763,
+   "keys": {
+    "hammerid": "435820",
+    "nodeid": "11"
+   },
+   "model": null,
+   "origin": [
+    -10.7601,
+    4.8959,
+    -26.9847
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 764,
+   "keys": {
+    "hammerid": "435822",
+    "nodeid": "12"
+   },
+   "model": null,
+   "origin": [
+    -10.6505,
+    4.8959,
+    -30.2154
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 765,
+   "keys": {
+    "hammerid": "435824",
+    "nodeid": "13"
+   },
+   "model": null,
+   "origin": [
+    -6.1988,
+    4.8959,
+    -32.3484
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 766,
+   "keys": {
+    "hammerid": "435826",
+    "nodeid": "14"
+   },
+   "model": null,
+   "origin": [
+    -2.7849,
+    4.8959,
+    -35.8388
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 767,
+   "keys": {
+    "hammerid": "435828",
+    "nodeid": "15"
+   },
+   "model": null,
+   "origin": [
+    -2.8046,
+    4.8959,
+    -30.2802
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 768,
+   "keys": {
+    "hammerid": "435854",
+    "nodeid": "16"
+   },
+   "model": null,
+   "origin": [
+    -14.7963,
+    4.8959,
+    -27.0059
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 769,
+   "keys": {
+    "hammerid": "435856",
+    "nodeid": "17"
+   },
+   "model": null,
+   "origin": [
+    -20.2035,
+    4.8959,
+    -26.8828
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 770,
+   "keys": {
+    "hammerid": "435858",
+    "nodeid": "18"
+   },
+   "model": null,
+   "origin": [
+    -20.8929,
+    4.8959,
+    -31.0018
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 771,
+   "keys": {
+    "hammerid": "435860",
+    "nodeid": "19"
+   },
+   "model": null,
+   "origin": [
+    -22.8705,
+    4.8959,
+    -35.0364
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 772,
+   "keys": {
+    "hammerid": "435862",
+    "nodeid": "20"
+   },
+   "model": null,
+   "origin": [
+    -26.9175,
+    4.8959,
+    -35.0579
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 773,
+   "keys": {
+    "hammerid": "435864",
+    "nodeid": "21"
+   },
+   "model": null,
+   "origin": [
+    -20.333,
+    4.8959,
+    -22.3514
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 774,
+   "keys": {
+    "hammerid": "435866",
+    "nodeid": "22"
+   },
+   "model": null,
+   "origin": [
+    -20.0534,
+    4.8959,
+    -17.0051
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 775,
+   "keys": {
+    "hammerid": "435868",
+    "nodeid": "23"
+   },
+   "model": null,
+   "origin": [
+    -20.1553,
+    4.8959,
+    -11.6654
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 776,
+   "keys": {
+    "hammerid": "435870",
+    "nodeid": "24"
+   },
+   "model": null,
+   "origin": [
+    -20.3252,
+    4.8959,
+    -5.8155
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 777,
+   "keys": {
+    "hammerid": "435872",
+    "nodeid": "25"
+   },
+   "model": null,
+   "origin": [
+    -20.3515,
+    4.8959,
+    -0.9144
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 778,
+   "keys": {
+    "hammerid": "435874",
+    "nodeid": "26"
+   },
+   "model": null,
+   "origin": [
+    -24.0205,
+    4.8959,
+    -0.7156
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 779,
+   "keys": {
+    "hammerid": "435876",
+    "nodeid": "27"
+   },
+   "model": null,
+   "origin": [
+    -28.9522,
+    4.8959,
+    -0.7684
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 780,
+   "keys": {
+    "hammerid": "435878",
+    "nodeid": "28"
+   },
+   "model": null,
+   "origin": [
+    -28.9088,
+    4.8959,
+    3.1881
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 781,
+   "keys": {
+    "hammerid": "435880",
+    "nodeid": "29"
+   },
+   "model": null,
+   "origin": [
+    -25.2449,
+    4.8959,
+    4.0453
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 782,
+   "keys": {
+    "hammerid": "435882",
+    "nodeid": "30"
+   },
+   "model": null,
+   "origin": [
+    -25.7929,
+    5.1966,
+    7.9253
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 783,
+   "keys": {
+    "hammerid": "435884",
+    "nodeid": "31"
+   },
+   "model": null,
+   "origin": [
+    -27.9199,
+    5.2138,
+    10.3476
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 784,
+   "keys": {
+    "hammerid": "435886",
+    "nodeid": "32"
+   },
+   "model": null,
+   "origin": [
+    -26.0419,
+    4.9149,
+    14.0234
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 785,
+   "keys": {
+    "hammerid": "435888",
+    "nodeid": "33"
+   },
+   "model": null,
+   "origin": [
+    -30.6709,
+    4.8959,
+    6.7291
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 786,
+   "keys": {
+    "hammerid": "435890",
+    "nodeid": "34"
+   },
+   "model": null,
+   "origin": [
+    -30.6358,
+    4.8959,
+    10.6258
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 787,
+   "keys": {
+    "hammerid": "435894",
+    "nodeid": "35"
+   },
+   "model": null,
+   "origin": [
+    -30.812,
+    4.8959,
+    13.7597
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 788,
+   "keys": {
+    "hammerid": "435896",
+    "nodeid": "36"
+   },
+   "model": null,
+   "origin": [
+    -30.6038,
+    4.8959,
+    19.3293
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 789,
+   "keys": {
+    "hammerid": "435898",
+    "nodeid": "37"
+   },
+   "model": null,
+   "origin": [
+    -24.3985,
+    4.8959,
+    19.1881
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 790,
+   "keys": {
+    "hammerid": "435900",
+    "nodeid": "38"
+   },
+   "model": null,
+   "origin": [
+    -22.342,
+    4.8959,
+    13.965
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 791,
+   "keys": {
+    "hammerid": "435902",
+    "nodeid": "39"
+   },
+   "model": null,
+   "origin": [
+    -20.4052,
+    4.8959,
+    9.4065
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 792,
+   "keys": {
+    "hammerid": "435904",
+    "nodeid": "40"
+   },
+   "model": null,
+   "origin": [
+    -20.5755,
+    4.8959,
+    3.8291
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 793,
+   "keys": {
+    "hammerid": "435906",
+    "nodeid": "41"
+   },
+   "model": null,
+   "origin": [
+    -20.558,
+    4.8959,
+    18.804
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 794,
+   "keys": {
+    "hammerid": "435908",
+    "nodeid": "42"
+   },
+   "model": null,
+   "origin": [
+    -20.4344,
+    4.8959,
+    25.5415
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 795,
+   "keys": {
+    "hammerid": "435910",
+    "nodeid": "43"
+   },
+   "model": null,
+   "origin": [
+    -20.5471,
+    4.8959,
+    30.8136
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 796,
+   "keys": {
+    "hammerid": "435912",
+    "nodeid": "44"
+   },
+   "model": null,
+   "origin": [
+    -20.3001,
+    4.8959,
+    36.6021
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 797,
+   "keys": {
+    "hammerid": "435914",
+    "nodeid": "45"
+   },
+   "model": null,
+   "origin": [
+    -17.6554,
+    4.8959,
+    24.5806
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 798,
+   "keys": {
+    "hammerid": "435916",
+    "nodeid": "46"
+   },
+   "model": null,
+   "origin": [
+    -17.7419,
+    2.6099,
+    20.0012
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 799,
+   "keys": {
+    "hammerid": "435918",
+    "nodeid": "47"
+   },
+   "model": null,
+   "origin": [
+    -17.7686,
+    0.1923,
+    15.0414
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 800,
+   "keys": {
+    "hammerid": "435920",
+    "nodeid": "48"
+   },
+   "model": null,
+   "origin": [
+    -13.1411,
+    4.8959,
+    25.419
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 801,
+   "keys": {
+    "hammerid": "435922",
+    "nodeid": "49"
+   },
+   "model": null,
+   "origin": [
+    -7.368,
+    4.8959,
+    25.5436
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 802,
+   "keys": {
+    "hammerid": "435924",
+    "nodeid": "50"
+   },
+   "model": null,
+   "origin": [
+    -1.8719,
+    4.8959,
+    25.667
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 803,
+   "keys": {
+    "hammerid": "435926",
+    "nodeid": "51"
+   },
+   "model": null,
+   "origin": [
+    2.1179,
+    4.8959,
+    25.556
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 804,
+   "keys": {
+    "hammerid": "435928",
+    "nodeid": "52"
+   },
+   "model": null,
+   "origin": [
+    5.0059,
+    4.8959,
+    22.3636
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 805,
+   "keys": {
+    "hammerid": "435930",
+    "nodeid": "53"
+   },
+   "model": null,
+   "origin": [
+    5.3906,
+    5.2007,
+    16.4601
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 806,
+   "keys": {
+    "hammerid": "435932",
+    "nodeid": "54"
+   },
+   "model": null,
+   "origin": [
+    0.572,
+    4.8959,
+    18.6057
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 807,
+   "keys": {
+    "hammerid": "435934",
+    "nodeid": "55"
+   },
+   "model": null,
+   "origin": [
+    -5.0287,
+    4.8959,
+    17.5649
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 808,
+   "keys": {
+    "hammerid": "435936",
+    "nodeid": "56"
+   },
+   "model": null,
+   "origin": [
+    -7.3347,
+    5.2007,
+    19.7324
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 809,
+   "keys": {
+    "hammerid": "435938",
+    "nodeid": "57"
+   },
+   "model": null,
+   "origin": [
+    -7.2714,
+    5.2007,
+    15.0203
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 810,
+   "keys": {
+    "hammerid": "435940",
+    "nodeid": "58"
+   },
+   "model": null,
+   "origin": [
+    -3.2552,
+    5.2007,
+    11.7238
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 811,
+   "keys": {
+    "hammerid": "435942",
+    "nodeid": "59"
+   },
+   "model": null,
+   "origin": [
+    4.1598,
+    5.2007,
+    11.241
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 812,
+   "keys": {
+    "hammerid": "435944",
+    "nodeid": "60"
+   },
+   "model": null,
+   "origin": [
+    6.1261,
+    5.2007,
+    6.9093
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 813,
+   "keys": {
+    "hammerid": "435946",
+    "nodeid": "61"
+   },
+   "model": null,
+   "origin": [
+    5.9756,
+    5.2007,
+    1.7678
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 814,
+   "keys": {
+    "hammerid": "435948",
+    "nodeid": "62"
+   },
+   "model": null,
+   "origin": [
+    5.8488,
+    5.2007,
+    -2.971
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 815,
+   "keys": {
+    "hammerid": "435950",
+    "nodeid": "63"
+   },
+   "model": null,
+   "origin": [
+    5.6539,
+    5.2007,
+    -8.7119
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 816,
+   "keys": {
+    "hammerid": "435952",
+    "nodeid": "64"
+   },
+   "model": null,
+   "origin": [
+    5.7376,
+    5.2007,
+    -13.9977
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 817,
+   "keys": {
+    "hammerid": "435954",
+    "nodeid": "65"
+   },
+   "model": null,
+   "origin": [
+    5.8234,
+    5.2007,
+    -19.6847
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 818,
+   "keys": {
+    "hammerid": "435956",
+    "nodeid": "66"
+   },
+   "model": null,
+   "origin": [
+    5.4658,
+    5.2007,
+    -25.0262
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 819,
+   "keys": {
+    "hammerid": "435958",
+    "nodeid": "67"
+   },
+   "model": null,
+   "origin": [
+    11.4011,
+    5.3526,
+    -23.8455
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 820,
+   "keys": {
+    "hammerid": "435960",
+    "nodeid": "68"
+   },
+   "model": null,
+   "origin": [
+    9.2202,
+    5.349,
+    -18.8913
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 821,
+   "keys": {
+    "hammerid": "435962",
+    "nodeid": "69"
+   },
+   "model": null,
+   "origin": [
+    10.7837,
+    5.6047,
+    -15.8999
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 822,
+   "keys": {
+    "hammerid": "435964",
+    "nodeid": "70"
+   },
+   "model": null,
+   "origin": [
+    13.1701,
+    5.5909,
+    -19.5163
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 823,
+   "keys": {
+    "hammerid": "435966",
+    "nodeid": "71"
+   },
+   "model": null,
+   "origin": [
+    16.757,
+    5.3355,
+    -23.5586
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 824,
+   "keys": {
+    "hammerid": "435968",
+    "nodeid": "72"
+   },
+   "model": null,
+   "origin": [
+    18.588,
+    5.4778,
+    -18.9163
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 825,
+   "keys": {
+    "hammerid": "435970",
+    "nodeid": "73"
+   },
+   "model": null,
+   "origin": [
+    22.3194,
+    5.3307,
+    -21.8323
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 826,
+   "keys": {
+    "hammerid": "435972",
+    "nodeid": "74"
+   },
+   "model": null,
+   "origin": [
+    21.9073,
+    5.3531,
+    -16.2113
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 827,
+   "keys": {
+    "hammerid": "435974",
+    "nodeid": "75"
+   },
+   "model": null,
+   "origin": [
+    14.5557,
+    5.5756,
+    -15.0798
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 828,
+   "keys": {
+    "hammerid": "435976",
+    "nodeid": "76"
+   },
+   "model": null,
+   "origin": [
+    11.6416,
+    5.4292,
+    -9.9442
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 829,
+   "keys": {
+    "hammerid": "435978",
+    "nodeid": "77"
+   },
+   "model": null,
+   "origin": [
+    10.6161,
+    5.5042,
+    -4.9489
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 830,
+   "keys": {
+    "hammerid": "435980",
+    "nodeid": "78"
+   },
+   "model": null,
+   "origin": [
+    10.4667,
+    5.3234,
+    -0.5976
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 831,
+   "keys": {
+    "hammerid": "435982",
+    "nodeid": "79"
+   },
+   "model": null,
+   "origin": [
+    9.8483,
+    5.2275,
+    4.6909
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 832,
+   "keys": {
+    "hammerid": "435984",
+    "nodeid": "80"
+   },
+   "model": null,
+   "origin": [
+    13.6205,
+    5.348,
+    6.5939
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 833,
+   "keys": {
+    "hammerid": "435986",
+    "nodeid": "81"
+   },
+   "model": null,
+   "origin": [
+    19.294,
+    5.2007,
+    7.0896
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 834,
+   "keys": {
+    "hammerid": "435988",
+    "nodeid": "82"
+   },
+   "model": null,
+   "origin": [
+    24.2992,
+    5.2007,
+    7.1761
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 835,
+   "keys": {
+    "hammerid": "435990",
+    "nodeid": "83"
+   },
+   "model": null,
+   "origin": [
+    29.7123,
+    5.2007,
+    7.1215
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 836,
+   "keys": {
+    "hammerid": "435992",
+    "nodeid": "84"
+   },
+   "model": null,
+   "origin": [
+    31.6274,
+    5.3531,
+    2.3017
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 837,
+   "keys": {
+    "hammerid": "435994",
+    "nodeid": "85"
+   },
+   "model": null,
+   "origin": [
+    31.4199,
+    5.2007,
+    -3.0947
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 838,
+   "keys": {
+    "hammerid": "435996",
+    "nodeid": "86"
+   },
+   "model": null,
+   "origin": [
+    31.5196,
+    5.3531,
+    -8.9188
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 839,
+   "keys": {
+    "hammerid": "435998",
+    "nodeid": "87"
+   },
+   "model": null,
+   "origin": [
+    31.3721,
+    5.3531,
+    -14.5601
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 840,
+   "keys": {
+    "hammerid": "436000",
+    "nodeid": "88"
+   },
+   "model": null,
+   "origin": [
+    31.4938,
+    5.3531,
+    -20.0709
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 841,
+   "keys": {
+    "hammerid": "436002",
+    "nodeid": "89"
+   },
+   "model": null,
+   "origin": [
+    27.9928,
+    5.2007,
+    -0.3594
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 842,
+   "keys": {
+    "hammerid": "436004",
+    "nodeid": "90"
+   },
+   "model": null,
+   "origin": [
+    24.6957,
+    5.2007,
+    -3.8741
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 843,
+   "keys": {
+    "hammerid": "436006",
+    "nodeid": "91"
+   },
+   "model": null,
+   "origin": [
+    22.5512,
+    5.2007,
+    -0.2227
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 844,
+   "keys": {
+    "hammerid": "436008",
+    "nodeid": "92"
+   },
+   "model": null,
+   "origin": [
+    18.9818,
+    5.2007,
+    -6.1867
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 845,
+   "keys": {
+    "hammerid": "436010",
+    "nodeid": "93"
+   },
+   "model": null,
+   "origin": [
+    22.7872,
+    5.2007,
+    -11.4836
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 846,
+   "keys": {
+    "hammerid": "436012",
+    "nodeid": "94"
+   },
+   "model": null,
+   "origin": [
+    8.472,
+    5.2007,
+    11.0379
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 847,
+   "keys": {
+    "hammerid": "436014",
+    "nodeid": "95"
+   },
+   "model": null,
+   "origin": [
+    13.5714,
+    5.2007,
+    13.8168
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 848,
+   "keys": {
+    "hammerid": "436016",
+    "nodeid": "96"
+   },
+   "model": null,
+   "origin": [
+    17.0597,
+    5.2007,
+    18.0522
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 849,
+   "keys": {
+    "hammerid": "436018",
+    "nodeid": "97"
+   },
+   "model": null,
+   "origin": [
+    24.2543,
+    4.8959,
+    -28.963
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 850,
+   "keys": {
+    "hammerid": "436020",
+    "nodeid": "98"
+   },
+   "model": null,
+   "origin": [
+    24.8559,
+    4.8959,
+    -33.1163
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 851,
+   "keys": {
+    "hammerid": "436022",
+    "nodeid": "99"
+   },
+   "model": null,
+   "origin": [
+    27.6326,
+    4.8959,
+    -35.3518
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 852,
+   "keys": {
+    "hammerid": "436024",
+    "nodeid": "100"
+   },
+   "model": null,
+   "origin": [
+    25.9271,
+    5.3321,
+    -37.4216
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 853,
+   "keys": {
+    "hammerid": "436026",
+    "nodeid": "101"
+   },
+   "model": null,
+   "origin": [
+    22.0426,
+    7.3342,
+    -37.3409
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 854,
+   "keys": {
+    "hammerid": "436028",
+    "nodeid": "102"
+   },
+   "model": null,
+   "origin": [
+    22.0633,
+    7.3342,
+    -32.7012
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 855,
+   "keys": {
+    "hammerid": "436030",
+    "nodeid": "103"
+   },
+   "model": null,
+   "origin": [
+    22.7087,
+    7.3342,
+    -30.0489
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 856,
+   "keys": {
+    "hammerid": "436032",
+    "nodeid": "104"
+   },
+   "model": null,
+   "origin": [
+    24.9766,
+    7.3342,
+    -34.8659
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 857,
+   "keys": {
+    "hammerid": "436034",
+    "nodeid": "105"
+   },
+   "model": null,
+   "origin": [
+    29.8155,
+    7.3342,
+    -35.137
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 858,
+   "keys": {
+    "hammerid": "436036",
+    "nodeid": "106"
+   },
+   "model": null,
+   "origin": [
+    18.9331,
+    8.5534,
+    -37.3938
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 859,
+   "keys": {
+    "hammerid": "436038",
+    "nodeid": "107"
+   },
+   "model": null,
+   "origin": [
+    18.7679,
+    8.5534,
+    -31.9158
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 860,
+   "keys": {
+    "hammerid": "436040",
+    "nodeid": "108"
+   },
+   "model": null,
+   "origin": [
+    35.5572,
+    5.2769,
+    5.0649
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 861,
+   "keys": {
+    "hammerid": "436042",
+    "nodeid": "109"
+   },
+   "model": null,
+   "origin": [
+    39.7903,
+    5.3531,
+    8.3642
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 862,
+   "keys": {
+    "hammerid": "436044",
+    "nodeid": "110"
+   },
+   "model": null,
+   "origin": [
+    39.7505,
+    5.3531,
+    0.8081
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 863,
+   "keys": {
+    "hammerid": "436046",
+    "nodeid": "111"
+   },
+   "model": null,
+   "origin": [
+    39.6907,
+    5.3531,
+    -5.4207
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 864,
+   "keys": {
+    "hammerid": "436048",
+    "nodeid": "112"
+   },
+   "model": null,
+   "origin": [
+    39.8608,
+    5.3531,
+    -11.7194
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 865,
+   "keys": {
+    "hammerid": "436050",
+    "nodeid": "113"
+   },
+   "model": null,
+   "origin": [
+    39.9435,
+    5.3531,
+    -17.2014
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 866,
+   "keys": {
+    "hammerid": "436052",
+    "nodeid": "114"
+   },
+   "model": null,
+   "origin": [
+    43.7645,
+    5.3531,
+    -18.7712
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 867,
+   "keys": {
+    "hammerid": "436054",
+    "nodeid": "115"
+   },
+   "model": null,
+   "origin": [
+    39.6973,
+    5.3531,
+    -22.7535
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 868,
+   "keys": {
+    "hammerid": "436056",
+    "nodeid": "116"
+   },
+   "model": null,
+   "origin": [
+    37.547,
+    5.2769,
+    -27.6478
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 869,
+   "keys": {
+    "hammerid": "436058",
+    "nodeid": "117"
+   },
+   "model": null,
+   "origin": [
+    35.5042,
+    5.2769,
+    -21.7347
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 870,
+   "keys": {
+    "hammerid": "436060",
+    "nodeid": "118"
+   },
+   "model": null,
+   "origin": [
+    35.0278,
+    5.2769,
+    -15.9146
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 871,
+   "keys": {
+    "hammerid": "436062",
+    "nodeid": "119"
+   },
+   "model": null,
+   "origin": [
+    35.9039,
+    5.2769,
+    -11.1441
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 872,
+   "keys": {
+    "hammerid": "436064",
+    "nodeid": "120"
+   },
+   "model": null,
+   "origin": [
+    35.8826,
+    5.2769,
+    -5.3594
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 873,
+   "keys": {
+    "hammerid": "436068",
+    "nodeid": "122"
+   },
+   "model": null,
+   "origin": [
+    35.9066,
+    5.2769,
+    -0.0292
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 874,
+   "keys": {
+    "hammerid": "436070",
+    "nodeid": "123"
+   },
+   "model": null,
+   "origin": [
+    33.1104,
+    6.5767,
+    12.1417
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 875,
+   "keys": {
+    "hammerid": "436072",
+    "nodeid": "124"
+   },
+   "model": null,
+   "origin": [
+    34.5946,
+    7.1426,
+    15.7967
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 876,
+   "keys": {
+    "hammerid": "436074",
+    "nodeid": "125"
+   },
+   "model": null,
+   "origin": [
+    29.4684,
+    6.6444,
+    18.8909
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 877,
+   "keys": {
+    "hammerid": "436076",
+    "nodeid": "126"
+   },
+   "model": null,
+   "origin": [
+    22.8467,
+    7.6831,
+    19.675
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 878,
+   "keys": {
+    "hammerid": "436078",
+    "nodeid": "127"
+   },
+   "model": null,
+   "origin": [
+    20.647,
+    7.6391,
+    14.1512
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 879,
+   "keys": {
+    "hammerid": "436080",
+    "nodeid": "128"
+   },
+   "model": null,
+   "origin": [
+    28.1014,
+    7.6391,
+    14.6341
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 880,
+   "keys": {
+    "hammerid": "436082",
+    "nodeid": "129"
+   },
+   "model": null,
+   "origin": [
+    38.4259,
+    7.4866,
+    18.9353
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 881,
+   "keys": {
+    "hammerid": "436084",
+    "nodeid": "130"
+   },
+   "model": null,
+   "origin": [
+    -7.2146,
+    4.8959,
+    29.2844
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 882,
+   "keys": {
+    "hammerid": "436086",
+    "nodeid": "131"
+   },
+   "model": null,
+   "origin": [
+    -1.6831,
+    4.8959,
+    30.5471
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 883,
+   "keys": {
+    "hammerid": "436088",
+    "nodeid": "132"
+   },
+   "model": null,
+   "origin": [
+    1.62,
+    4.8959,
+    32.0667
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 884,
+   "keys": {
+    "hammerid": "436090",
+    "nodeid": "133"
+   },
+   "model": null,
+   "origin": [
+    5.1445,
+    4.8959,
+    28.5173
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 885,
+   "keys": {
+    "hammerid": "436092",
+    "nodeid": "134"
+   },
+   "model": null,
+   "origin": [
+    5.5737,
+    4.8959,
+    35.0444
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 886,
+   "keys": {
+    "hammerid": "436094",
+    "nodeid": "135"
+   },
+   "model": null,
+   "origin": [
+    -0.884,
+    4.8959,
+    36.2297
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 887,
+   "keys": {
+    "hammerid": "436096",
+    "nodeid": "136"
+   },
+   "model": null,
+   "origin": [
+    -7.6408,
+    6.1475,
+    33.8757
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 888,
+   "keys": {
+    "hammerid": "436098",
+    "nodeid": "137"
+   },
+   "model": null,
+   "origin": [
+    -7.7977,
+    7.3342,
+    36.6288
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 889,
+   "keys": {
+    "hammerid": "436100",
+    "nodeid": "138"
+   },
+   "model": null,
+   "origin": [
+    -11.967,
+    7.3342,
+    36.7785
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 890,
+   "keys": {
+    "hammerid": "436102",
+    "nodeid": "139"
+   },
+   "model": null,
+   "origin": [
+    -3.9804,
+    7.3342,
+    36.7471
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 891,
+   "keys": {
+    "hammerid": "436104",
+    "nodeid": "140"
+   },
+   "model": null,
+   "origin": [
+    -0.2687,
+    5.844,
+    39.6895
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 892,
+   "keys": {
+    "hammerid": "436106",
+    "nodeid": "141"
+   },
+   "model": null,
+   "origin": [
+    5.4969,
+    4.8959,
+    39.3022
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 893,
+   "keys": {
+    "hammerid": "436108",
+    "nodeid": "142"
+   },
+   "model": null,
+   "origin": [
+    -7.6668,
+    5.6022,
+    39.2401
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 894,
+   "keys": {
+    "hammerid": "436110",
+    "nodeid": "143"
+   },
+   "model": null,
+   "origin": [
+    -14.2111,
+    4.8959,
+    39.1137
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 895,
+   "keys": {
+    "hammerid": "436112",
+    "nodeid": "144"
+   },
+   "model": null,
+   "origin": [
+    -18.0684,
+    4.8959,
+    37.1505
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 896,
+   "keys": {
+    "hammerid": "436114",
+    "nodeid": "145"
+   },
+   "model": null,
+   "origin": [
+    -17.7868,
+    4.8959,
+    31.5237
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 897,
+   "keys": {
+    "hammerid": "436116",
+    "nodeid": "146"
+   },
+   "model": null,
+   "origin": [
+    -14.1907,
+    0.0822,
+    19.6686
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 898,
+   "keys": {
+    "hammerid": "436118",
+    "nodeid": "147"
+   },
+   "model": null,
+   "origin": [
+    -13.5796,
+    0.1062,
+    13.6665
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 899,
+   "keys": {
+    "hammerid": "436120",
+    "nodeid": "148"
+   },
+   "model": null,
+   "origin": [
+    -14.1066,
+    0.0934,
+    7.8464
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 900,
+   "keys": {
+    "hammerid": "436122",
+    "nodeid": "149"
+   },
+   "model": null,
+   "origin": [
+    -14.3799,
+    0.0932,
+    1.6975
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 901,
+   "keys": {
+    "hammerid": "436124",
+    "nodeid": "150"
+   },
+   "model": null,
+   "origin": [
+    -14.5463,
+    0.0667,
+    -3.0287
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 902,
+   "keys": {
+    "hammerid": "436126",
+    "nodeid": "151"
+   },
+   "model": null,
+   "origin": [
+    -14.6796,
+    0.0385,
+    -8.9409
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 903,
+   "keys": {
+    "hammerid": "436128",
+    "nodeid": "152"
+   },
+   "model": null,
+   "origin": [
+    -14.2685,
+    0.0653,
+    -15.3925
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 904,
+   "keys": {
+    "hammerid": "436130",
+    "nodeid": "153"
+   },
+   "model": null,
+   "origin": [
+    -13.3546,
+    0.0738,
+    -21.949
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 905,
+   "keys": {
+    "hammerid": "436132",
+    "nodeid": "154"
+   },
+   "model": null,
+   "origin": [
+    -8.4384,
+    0.6287,
+    13.5053
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 906,
+   "keys": {
+    "hammerid": "436134",
+    "nodeid": "155"
+   },
+   "model": null,
+   "origin": [
+    -7.3593,
+    0.6287,
+    18.3096
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 907,
+   "keys": {
+    "hammerid": "436136",
+    "nodeid": "156"
+   },
+   "model": null,
+   "origin": [
+    -6.2922,
+    0.6287,
+    10.012
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 908,
+   "keys": {
+    "hammerid": "436138",
+    "nodeid": "157"
+   },
+   "model": null,
+   "origin": [
+    -5.8989,
+    0.6287,
+    4.0783
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 909,
+   "keys": {
+    "hammerid": "436140",
+    "nodeid": "158"
+   },
+   "model": null,
+   "origin": [
+    -5.2704,
+    0.1715,
+    0.7301
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 910,
+   "keys": {
+    "hammerid": "436142",
+    "nodeid": "159"
+   },
+   "model": null,
+   "origin": [
+    -6.3893,
+    0.1715,
+    -3.3571
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 911,
+   "keys": {
+    "hammerid": "436144",
+    "nodeid": "160"
+   },
+   "model": null,
+   "origin": [
+    -4.5343,
+    0.1715,
+    -9.0614
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 912,
+   "keys": {
+    "hammerid": "436146",
+    "nodeid": "161"
+   },
+   "model": null,
+   "origin": [
+    -3.6722,
+    0.1715,
+    -15.1592
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 913,
+   "keys": {
+    "hammerid": "436148",
+    "nodeid": "162"
+   },
+   "model": null,
+   "origin": [
+    -8.0893,
+    2.4575,
+    -15.1468
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 914,
+   "keys": {
+    "hammerid": "436150",
+    "nodeid": "163"
+   },
+   "model": null,
+   "origin": [
+    -6.7563,
+    2.6099,
+    -18.51
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 915,
+   "keys": {
+    "hammerid": "436152",
+    "nodeid": "164"
+   },
+   "model": null,
+   "origin": [
+    -0.516,
+    0.1715,
+    -19.9065
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 916,
+   "keys": {
+    "hammerid": "436154",
+    "nodeid": "165"
+   },
+   "model": null,
+   "origin": [
+    -4.3793,
+    0.1715,
+    -23.7997
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 917,
+   "keys": {
+    "hammerid": "436156",
+    "nodeid": "166"
+   },
+   "model": null,
+   "origin": [
+    3.5501,
+    0.1715,
+    -17.8907
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 918,
+   "keys": {
+    "hammerid": "436158",
+    "nodeid": "167"
+   },
+   "model": null,
+   "origin": [
+    3.4574,
+    0.1715,
+    -11.9278
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 919,
+   "keys": {
+    "hammerid": "436160",
+    "nodeid": "168"
+   },
+   "model": null,
+   "origin": [
+    3.178,
+    0.1715,
+    -6.4383
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 920,
+   "keys": {
+    "hammerid": "436162",
+    "nodeid": "169"
+   },
+   "model": null,
+   "origin": [
+    2.991,
+    0.1715,
+    -2.7717
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 921,
+   "keys": {
+    "hammerid": "436164",
+    "nodeid": "170"
+   },
+   "model": null,
+   "origin": [
+    3.2271,
+    0.1715,
+    3.3764
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 922,
+   "keys": {
+    "hammerid": "436166",
+    "nodeid": "171"
+   },
+   "model": null,
+   "origin": [
+    2.5189,
+    0.1715,
+    8.8365
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 923,
+   "keys": {
+    "hammerid": "436168",
+    "nodeid": "172"
+   },
+   "model": null,
+   "origin": [
+    -0.5918,
+    0.1715,
+    -1.1133
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 924,
+   "keys": {
+    "hammerid": "436170",
+    "nodeid": "173"
+   },
+   "model": null,
+   "origin": [
+    -1.1452,
+    0.1715,
+    6.899
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 925,
+   "keys": {
+    "hammerid": "436172",
+    "nodeid": "174"
+   },
+   "model": null,
+   "origin": [
+    -0.5156,
+    0.1715,
+    13.9517
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 926,
+   "keys": {
+    "hammerid": "436174",
+    "nodeid": "175"
+   },
+   "model": null,
+   "origin": [
+    3.4872,
+    1.8478,
+    13.1807
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 927,
+   "keys": {
+    "hammerid": "436176",
+    "nodeid": "176"
+   },
+   "model": null,
+   "origin": [
+    3.5229,
+    1.8478,
+    17.7346
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 928,
+   "keys": {
+    "hammerid": "436178",
+    "nodeid": "177"
+   },
+   "model": null,
+   "origin": [
+    3.4436,
+    1.8478,
+    22.3601
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 929,
+   "keys": {
+    "hammerid": "436180",
+    "nodeid": "178"
+   },
+   "model": null,
+   "origin": [
+    3.4922,
+    1.8478,
+    28.3093
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 930,
+   "keys": {
+    "hammerid": "436182",
+    "nodeid": "179"
+   },
+   "model": null,
+   "origin": [
+    -0.8387,
+    0.1715,
+    19.8457
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 931,
+   "keys": {
+    "hammerid": "436184",
+    "nodeid": "180"
+   },
+   "model": null,
+   "origin": [
+    -0.8308,
+    0.1715,
+    27.1257
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 932,
+   "keys": {
+    "hammerid": "436186",
+    "nodeid": "181"
+   },
+   "model": null,
+   "origin": [
+    -0.6238,
+    0.1715,
+    32.3631
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 933,
+   "keys": {
+    "hammerid": "436188",
+    "nodeid": "182"
+   },
+   "model": null,
+   "origin": [
+    -6.8749,
+    0.1715,
+    21.7993
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 934,
+   "keys": {
+    "hammerid": "436190",
+    "nodeid": "183"
+   },
+   "model": null,
+   "origin": [
+    -6.9567,
+    0.1715,
+    26.7321
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 935,
+   "keys": {
+    "hammerid": "436207",
+    "nodeid": "184"
+   },
+   "model": null,
+   "origin": [
+    9.2283,
+    0.1715,
+    3.8561
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 936,
+   "keys": {
+    "hammerid": "436209",
+    "nodeid": "185"
+   },
+   "model": null,
+   "origin": [
+    9.9793,
+    0.1715,
+    6.7265
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 937,
+   "keys": {
+    "hammerid": "436213",
+    "nodeid": "187"
+   },
+   "model": null,
+   "origin": [
+    15.1539,
+    0.1715,
+    3.8544
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 938,
+   "keys": {
+    "hammerid": "436215",
+    "nodeid": "188"
+   },
+   "model": null,
+   "origin": [
+    10.183,
+    0.1715,
+    -2.707
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 939,
+   "keys": {
+    "hammerid": "436217",
+    "nodeid": "189"
+   },
+   "model": null,
+   "origin": [
+    10.1163,
+    0.1715,
+    -9.1598
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 940,
+   "keys": {
+    "hammerid": "436219",
+    "nodeid": "190"
+   },
+   "model": null,
+   "origin": [
+    5.0607,
+    0.1715,
+    -9.2395
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 941,
+   "keys": {
+    "hammerid": "436221",
+    "nodeid": "191"
+   },
+   "model": null,
+   "origin": [
+    9.9412,
+    0.1715,
+    -13.5885
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 942,
+   "keys": {
+    "hammerid": "436223",
+    "nodeid": "192"
+   },
+   "model": null,
+   "origin": [
+    15.3619,
+    0.1715,
+    -2.7632
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 943,
+   "keys": {
+    "hammerid": "436225",
+    "nodeid": "193"
+   },
+   "model": null,
+   "origin": [
+    17.3042,
+    0.1715,
+    5.6057
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 944,
+   "keys": {
+    "hammerid": "436227",
+    "nodeid": "194"
+   },
+   "model": null,
+   "origin": [
+    20.5096,
+    0.3226,
+    8.8879
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 945,
+   "keys": {
+    "hammerid": "436229",
+    "nodeid": "195"
+   },
+   "model": null,
+   "origin": [
+    21.7465,
+    0.6613,
+    3.3451
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 946,
+   "keys": {
+    "hammerid": "436231",
+    "nodeid": "196"
+   },
+   "model": null,
+   "origin": [
+    22.2955,
+    0.1513,
+    -2.5533
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 947,
+   "keys": {
+    "hammerid": "436233",
+    "nodeid": "197"
+   },
+   "model": null,
+   "origin": [
+    20.4666,
+    0.1715,
+    -7.6663
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 948,
+   "keys": {
+    "hammerid": "436235",
+    "nodeid": "198"
+   },
+   "model": null,
+   "origin": [
+    18.6829,
+    0.1344,
+    -4.5098
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 949,
+   "keys": {
+    "hammerid": "436237",
+    "nodeid": "199"
+   },
+   "model": null,
+   "origin": [
+    16.4132,
+    0.1715,
+    -10.8484
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 950,
+   "keys": {
+    "hammerid": "436239",
+    "nodeid": "200"
+   },
+   "model": null,
+   "origin": [
+    16.5387,
+    1.3907,
+    -14.0791
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 951,
+   "keys": {
+    "hammerid": "436241",
+    "nodeid": "201"
+   },
+   "model": null,
+   "origin": [
+    19.5407,
+    2.6099,
+    -14.1222
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 952,
+   "keys": {
+    "hammerid": "436243",
+    "nodeid": "202"
+   },
+   "model": null,
+   "origin": [
+    23.7119,
+    2.6099,
+    -14.395
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 953,
+   "keys": {
+    "hammerid": "436245",
+    "nodeid": "203"
+   },
+   "model": null,
+   "origin": [
+    23.3631,
+    2.6099,
+    -10.5125
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 954,
+   "keys": {
+    "hammerid": "436247",
+    "nodeid": "204"
+   },
+   "model": null,
+   "origin": [
+    24.3453,
+    2.6099,
+    -7.0459
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 955,
+   "keys": {
+    "hammerid": "436249",
+    "nodeid": "205"
+   },
+   "model": null,
+   "origin": [
+    29.5864,
+    2.6099,
+    -7.2103
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 956,
+   "keys": {
+    "hammerid": "436251",
+    "nodeid": "206"
+   },
+   "model": null,
+   "origin": [
+    34.7407,
+    2.6099,
+    -7.3338
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 957,
+   "keys": {
+    "hammerid": "436253",
+    "nodeid": "207"
+   },
+   "model": null,
+   "origin": [
+    34.9169,
+    2.6099,
+    -4.0742
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 958,
+   "keys": {
+    "hammerid": "436255",
+    "nodeid": "208"
+   },
+   "model": null,
+   "origin": [
+    31.1572,
+    2.6099,
+    -4.1656
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 959,
+   "keys": {
+    "hammerid": "436257",
+    "nodeid": "209"
+   },
+   "model": null,
+   "origin": [
+    26.5363,
+    2.6099,
+    -4.1826
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 960,
+   "keys": {
+    "hammerid": "436259",
+    "nodeid": "210"
+   },
+   "model": null,
+   "origin": [
+    24.3709,
+    2.6099,
+    -1.3162
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 961,
+   "keys": {
+    "hammerid": "436261",
+    "nodeid": "211"
+   },
+   "model": null,
+   "origin": [
+    24.4903,
+    2.6099,
+    3.8438
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 962,
+   "keys": {
+    "hammerid": "436263",
+    "nodeid": "212"
+   },
+   "model": null,
+   "origin": [
+    29.0259,
+    2.6099,
+    4.2459
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 963,
+   "keys": {
+    "hammerid": "436265",
+    "nodeid": "213"
+   },
+   "model": null,
+   "origin": [
+    23.0915,
+    2.6099,
+    9.2767
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 964,
+   "keys": {
+    "hammerid": "436267",
+    "nodeid": "214"
+   },
+   "model": null,
+   "origin": [
+    17.721,
+    2.6099,
+    9.8517
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 965,
+   "keys": {
+    "hammerid": "436269",
+    "nodeid": "215"
+   },
+   "model": null,
+   "origin": [
+    26.6357,
+    2.6099,
+    7.8626
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 966,
+   "keys": {
+    "hammerid": "436271",
+    "nodeid": "216"
+   },
+   "model": null,
+   "origin": [
+    31.7539,
+    2.6099,
+    4.2739
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 967,
+   "keys": {
+    "hammerid": "436273",
+    "nodeid": "217"
+   },
+   "model": null,
+   "origin": [
+    31.9808,
+    2.6099,
+    -0.7857
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 968,
+   "keys": {
+    "hammerid": "436275",
+    "nodeid": "218"
+   },
+   "model": null,
+   "origin": [
+    32.2873,
+    2.6099,
+    8.63
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 969,
+   "keys": {
+    "hammerid": "436277",
+    "nodeid": "219"
+   },
+   "model": null,
+   "origin": [
+    35.0996,
+    2.6099,
+    -14.1321
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 970,
+   "keys": {
+    "hammerid": "436279",
+    "nodeid": "220"
+   },
+   "model": null,
+   "origin": [
+    29.4368,
+    2.6099,
+    -14.5951
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 971,
+   "keys": {
+    "hammerid": "436281",
+    "nodeid": "221"
+   },
+   "model": null,
+   "origin": [
+    20.2968,
+    0.1715,
+    -12.0928
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 972,
+   "keys": {
+    "hammerid": "436283",
+    "nodeid": "222"
+   },
+   "model": null,
+   "origin": [
+    9.2742,
+    0.1715,
+    9.1177
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 973,
+   "keys": {
+    "hammerid": "436285",
+    "nodeid": "223"
+   },
+   "model": null,
+   "origin": [
+    8.6546,
+    0.1715,
+    12.6204
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 974,
+   "keys": {
+    "hammerid": "436287",
+    "nodeid": "224"
+   },
+   "model": null,
+   "origin": [
+    8.4554,
+    0.5836,
+    15.4995
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 975,
+   "keys": {
+    "hammerid": "436289",
+    "nodeid": "225"
+   },
+   "model": null,
+   "origin": [
+    5.4805,
+    1.8478,
+    17.4138
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 976,
+   "keys": {
+    "hammerid": "436291",
+    "nodeid": "226"
+   },
+   "model": null,
+   "origin": [
+    12.5828,
+    0.1715,
+    18.7617
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 977,
+   "keys": {
+    "hammerid": "436293",
+    "nodeid": "227"
+   },
+   "model": null,
+   "origin": [
+    12.9499,
+    0.1715,
+    14.7094
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 978,
+   "keys": {
+    "hammerid": "436295",
+    "nodeid": "228"
+   },
+   "model": null,
+   "origin": [
+    3.5534,
+    0.1715,
+    -20.1932
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 979,
+   "keys": {
+    "hammerid": "436297",
+    "nodeid": "229"
+   },
+   "model": null,
+   "origin": [
+    4.2082,
+    0.1715,
+    -24.4122
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 980,
+   "keys": {
+    "hammerid": "436299",
+    "nodeid": "230"
+   },
+   "model": null,
+   "origin": [
+    7.1775,
+    0.1715,
+    -20.016
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 981,
+   "keys": {
+    "hammerid": "436301",
+    "nodeid": "231"
+   },
+   "model": null,
+   "origin": [
+    6.2975,
+    0.1715,
+    -16.4832
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 982,
+   "keys": {
+    "hammerid": "436303",
+    "nodeid": "232"
+   },
+   "model": null,
+   "origin": [
+    5.9342,
+    0.1715,
+    -12.4006
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "info_node",
+   "entity": 983,
+   "keys": {
+    "hammerid": "436305",
+    "nodeid": "233"
+   },
+   "model": null,
+   "origin": [
+    10.5409,
+    0.1715,
+    -16.3025
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "zombiegasses",
+   "entity": 988,
+   "keys": {
+    "hammerid": "459298",
+    "radius": "150"
+   },
+   "model": null,
+   "origin": [
+    -15.7734,
+    1.8288,
+    25.2222
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "zombiegasses",
+   "entity": 989,
+   "keys": {
+    "hammerid": "459320",
+    "radius": "150"
+   },
+   "model": null,
+   "origin": [
+    -12.4206,
+    1.8288,
+    25.2222
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  }
+ ],
  "format": "dot-bsp-mesh",
- "hulls": [],
+ "hulls": [
+  {
+   "brush": 2205,
+   "entity": 570,
+   "kind": "clip",
+   "model": 32,
+   "plane_count": 6,
+   "plane_offset": 1512260,
+   "point_count": 8,
+   "point_offset": 1512164
+  },
+  {
+   "brush": 2206,
+   "entity": 571,
+   "kind": "clip",
+   "model": 33,
+   "plane_count": 6,
+   "plane_offset": 1512452,
+   "point_count": 8,
+   "point_offset": 1512356
+  },
+  {
+   "brush": 2207,
+   "entity": 572,
+   "kind": "clip",
+   "model": 34,
+   "plane_count": 6,
+   "plane_offset": 1512644,
+   "point_count": 8,
+   "point_offset": 1512548
+  },
+  {
+   "brush": 2208,
+   "entity": 576,
+   "kind": "clip",
+   "model": 35,
+   "plane_count": 6,
+   "plane_offset": 1512836,
+   "point_count": 8,
+   "point_offset": 1512740
+  },
+  {
+   "brush": 2209,
+   "entity": 577,
+   "kind": "clip",
+   "model": 36,
+   "plane_count": 6,
+   "plane_offset": 1513028,
+   "point_count": 8,
+   "point_offset": 1512932
+  },
+  {
+   "brush": 2210,
+   "entity": 578,
+   "kind": "clip",
+   "model": 37,
+   "plane_count": 6,
+   "plane_offset": 1513220,
+   "point_count": 8,
+   "point_offset": 1513124
+  },
+  {
+   "brush": 2211,
+   "entity": 582,
+   "kind": "clip",
+   "model": 38,
+   "plane_count": 6,
+   "plane_offset": 1513412,
+   "point_count": 8,
+   "point_offset": 1513316
+  },
+  {
+   "brush": 2212,
+   "entity": 583,
+   "kind": "clip",
+   "model": 39,
+   "plane_count": 6,
+   "plane_offset": 1513604,
+   "point_count": 8,
+   "point_offset": 1513508
+  },
+  {
+   "brush": 2213,
+   "entity": 584,
+   "kind": "clip",
+   "model": 40,
+   "plane_count": 6,
+   "plane_offset": 1513796,
+   "point_count": 8,
+   "point_offset": 1513700
+  },
+  {
+   "brush": 2214,
+   "entity": 588,
+   "kind": "clip",
+   "model": 41,
+   "plane_count": 6,
+   "plane_offset": 1513988,
+   "point_count": 8,
+   "point_offset": 1513892
+  },
+  {
+   "brush": 2215,
+   "entity": 589,
+   "kind": "clip",
+   "model": 42,
+   "plane_count": 6,
+   "plane_offset": 1514180,
+   "point_count": 8,
+   "point_offset": 1514084
+  },
+  {
+   "brush": 2216,
+   "entity": 590,
+   "kind": "clip",
+   "model": 43,
+   "plane_count": 6,
+   "plane_offset": 1514372,
+   "point_count": 8,
+   "point_offset": 1514276
+  }
+ ],
+ "links": [
+  {
+   "delay": 0.0,
+   "from": 3,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "SetAutoExposureMax",
+   "output": "OnMapSpawn",
+   "param": "1",
+   "special": false,
+   "target": "tonemap",
+   "times": -1,
+   "to": [
+    4
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 3,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "SetAutoExposureMin",
+   "output": "OnMapSpawn",
+   "param": "0.5",
+   "special": false,
+   "target": "tonemap",
+   "times": -1,
+   "to": [
+    4
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 3,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "SetBloomScale",
+   "output": "OnMapSpawn",
+   "param": "0.17",
+   "special": false,
+   "target": "tonemap",
+   "times": -1,
+   "to": [
+    4
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 3,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "fire",
+   "times": -1,
+   "to": [
+    223,
+    226,
+    286,
+    337,
+    397
+   ]
+  },
+  {
+   "delay": 1.0,
+   "from": 3,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "Trigger",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "citadel_hit_relay",
+   "times": -1,
+   "to": [
+    484
+   ]
+  },
+  {
+   "delay": 2.0,
+   "from": 3,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "Start",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "smoke",
+   "times": -1,
+   "to": [
+    489,
+    695
+   ]
+  },
+  {
+   "delay": 40.0,
+   "from": 3,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "ep2_song",
+   "times": 1,
+   "to": [
+    611
+   ]
+  },
+  {
+   "delay": 1.0,
+   "from": 3,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "Trigger",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "microphone_enable_relay",
+   "times": -1,
+   "to": [
+    616
+   ]
+  },
+  {
+   "delay": 34.0,
+   "from": 3,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "welcome",
+   "times": -1,
+   "to": [
+    985
+   ]
+  },
+  {
+   "delay": 38.0,
+   "from": 3,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "welcome2",
+   "times": -1,
+   "to": [
+    986
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 9,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "Enable",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "gib_timer1",
+   "times": -1,
+   "to": [
+    10
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 9,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "Enable",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "gib_timer4",
+   "times": -1,
+   "to": [
+    11
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 10,
+   "from_class": "logic_timer",
+   "from_name": "gib_timer1",
+   "input": "Shoot",
+   "output": "OnTimer",
+   "param": "",
+   "special": false,
+   "target": "gib_1",
+   "times": -1,
+   "to": [
+    7
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 11,
+   "from_class": "logic_timer",
+   "from_name": "gib_timer4",
+   "input": "Shoot",
+   "output": "OnTimer",
+   "param": "",
+   "special": false,
+   "target": "gib_4",
+   "times": -1,
+   "to": [
+    8
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 20,
+   "from_class": "prop_physics",
+   "from_name": "carousel",
+   "input": "Activate",
+   "output": "OnPlayerUse",
+   "param": "",
+   "special": false,
+   "target": "thruster",
+   "times": -1,
+   "to": [
+    23
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 21,
+   "from_class": "prop_physics",
+   "from_name": "baby_doll",
+   "input": "PlaySound",
+   "output": "OnPlayerPickup",
+   "param": "",
+   "special": false,
+   "target": "doll_sound",
+   "times": -1,
+   "to": [
+    22
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 24,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "children",
+   "times": 1,
+   "to": [
+    25
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 31,
+   "from_class": "prop_physics",
+   "from_name": "ttt_block1",
+   "input": "Explode",
+   "output": "OnPlayerUse",
+   "param": "",
+   "special": false,
+   "target": "phys_explosion1",
+   "times": -1,
+   "to": [
+    41
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 32,
+   "from_class": "prop_physics",
+   "from_name": "ttt_block2",
+   "input": "Explode",
+   "output": "OnPlayerUse",
+   "param": "",
+   "special": false,
+   "target": "phys_explosion2",
+   "times": -1,
+   "to": [
+    42
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 33,
+   "from_class": "prop_physics",
+   "from_name": "ttt_block3",
+   "input": "Explode",
+   "output": "OnPlayerUse",
+   "param": "",
+   "special": false,
+   "target": "phys_explosion3",
+   "times": -1,
+   "to": [
+    43
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 34,
+   "from_class": "prop_physics",
+   "from_name": "ttt_block4",
+   "input": "Explode",
+   "output": "OnPlayerUse",
+   "param": "",
+   "special": false,
+   "target": "phys_explosion4",
+   "times": -1,
+   "to": [
+    44
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 35,
+   "from_class": "prop_physics",
+   "from_name": "ttt_block5",
+   "input": "Explode",
+   "output": "OnPlayerUse",
+   "param": "",
+   "special": false,
+   "target": "phys_explosion5",
+   "times": -1,
+   "to": [
+    45
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 211,
+   "from_class": "path_track",
+   "from_name": "track3",
+   "input": "Kill",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "train",
+   "times": -1,
+   "to": [
+    213
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 346,
+   "from_class": "func_door",
+   "from_name": "transmission_door1",
+   "input": "Kill",
+   "output": "OnFullyOpen",
+   "param": "",
+   "special": false,
+   "target": "transmission_sprite1",
+   "times": -1,
+   "to": [
+    435
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 346,
+   "from_class": "func_door",
+   "from_name": "transmission_door1",
+   "input": "Kill",
+   "output": "OnFullyOpen",
+   "param": "",
+   "special": false,
+   "target": "transmission_trail1",
+   "times": -1,
+   "to": [
+    434
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 346,
+   "from_class": "func_door",
+   "from_name": "transmission_door1",
+   "input": "Kill",
+   "output": "OnFullyOpen",
+   "param": "",
+   "special": false,
+   "target": "transmission_door1",
+   "times": -1,
+   "to": [
+    346
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 354,
+   "from_class": "path_track",
+   "from_name": "track2",
+   "input": "SetSpeed",
+   "output": "OnPass",
+   "param": "500",
+   "special": false,
+   "target": "train",
+   "times": -1,
+   "to": [
+    213
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 406,
+   "from_class": "path_track",
+   "from_name": "track4",
+   "input": "StartShake",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "train.shake1",
+   "times": -1,
+   "to": [
+    407
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 408,
+   "from_class": "path_track",
+   "from_name": "track5",
+   "input": "StartShake",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "train.shake2",
+   "times": -1,
+   "to": [
+    409
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 410,
+   "from_class": "path_track",
+   "from_name": "track6",
+   "input": "StartShake",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "train.shake3",
+   "times": -1,
+   "to": [
+    411
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 412,
+   "from_class": "path_track",
+   "from_name": "track7",
+   "input": "StartShake",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "train.shake4",
+   "times": -1,
+   "to": [
+    413
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 414,
+   "from_class": "path_track",
+   "from_name": "track8",
+   "input": "StartShake",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "train.shake5",
+   "times": -1,
+   "to": [
+    415
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 416,
+   "from_class": "path_track",
+   "from_name": "track9",
+   "input": "StartShake",
+   "output": "OnPass",
+   "param": "",
+   "special": false,
+   "target": "train.shake6",
+   "times": -1,
+   "to": [
+    417
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 422,
+   "from_class": "logic_case",
+   "from_name": "case_transmission",
+   "input": "ForceSpawn",
+   "output": "OnCase01",
+   "param": "",
+   "special": false,
+   "target": "template_transmission1",
+   "times": -1,
+   "to": [
+    433
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 422,
+   "from_class": "logic_case",
+   "from_name": "case_transmission",
+   "input": "ForceSpawn",
+   "output": "OnCase02",
+   "param": "",
+   "special": false,
+   "target": "template_transmission2",
+   "times": -1,
+   "to": [
+    425
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 422,
+   "from_class": "logic_case",
+   "from_name": "case_transmission",
+   "input": "ForceSpawn",
+   "output": "OnCase03",
+   "param": "",
+   "special": false,
+   "target": "template_transmission3",
+   "times": -1,
+   "to": [
+    429
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 422,
+   "from_class": "logic_case",
+   "from_name": "case_transmission",
+   "input": "ForceSpawn",
+   "output": "OnCase04",
+   "param": "",
+   "special": false,
+   "target": "template_transmission4",
+   "times": -1,
+   "to": [
+    439
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 422,
+   "from_class": "logic_case",
+   "from_name": "case_transmission",
+   "input": "ForceSpawn",
+   "output": "OnCase05",
+   "param": "",
+   "special": false,
+   "target": "template_transmission5",
+   "times": -1,
+   "to": [
+    443
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 423,
+   "from_class": "logic_timer",
+   "from_name": "transmission_timer",
+   "input": "PickRandom",
+   "output": "OnTimer",
+   "param": "",
+   "special": false,
+   "target": "case_transmission",
+   "times": -1,
+   "to": [
+    422
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 425,
+   "from_class": "point_template",
+   "from_name": "template_transmission2",
+   "input": "Open",
+   "output": "OnEntitySpawned",
+   "param": "",
+   "special": false,
+   "target": "transmission_door*",
+   "times": -1,
+   "to": []
+  },
+  {
+   "delay": 0.0,
+   "from": 426,
+   "from_class": "func_door",
+   "from_name": "transmission_door2",
+   "input": "Kill",
+   "output": "OnFullyOpen",
+   "param": "",
+   "special": false,
+   "target": "transmission_sprite2",
+   "times": -1,
+   "to": [
+    428
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 426,
+   "from_class": "func_door",
+   "from_name": "transmission_door2",
+   "input": "Kill",
+   "output": "OnFullyOpen",
+   "param": "",
+   "special": false,
+   "target": "transmission_trail2",
+   "times": -1,
+   "to": [
+    427
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 426,
+   "from_class": "func_door",
+   "from_name": "transmission_door2",
+   "input": "Kill",
+   "output": "OnFullyOpen",
+   "param": "",
+   "special": false,
+   "target": "transmission_door2",
+   "times": -1,
+   "to": [
+    426
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 429,
+   "from_class": "point_template",
+   "from_name": "template_transmission3",
+   "input": "Open",
+   "output": "OnEntitySpawned",
+   "param": "",
+   "special": false,
+   "target": "transmission_door*",
+   "times": -1,
+   "to": []
+  },
+  {
+   "delay": 0.0,
+   "from": 430,
+   "from_class": "func_door",
+   "from_name": "transmission_door3",
+   "input": "Kill",
+   "output": "OnFullyOpen",
+   "param": "",
+   "special": false,
+   "target": "transmission_sprite3",
+   "times": -1,
+   "to": [
+    432
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 430,
+   "from_class": "func_door",
+   "from_name": "transmission_door3",
+   "input": "Kill",
+   "output": "OnFullyOpen",
+   "param": "",
+   "special": false,
+   "target": "transmission_trail3",
+   "times": -1,
+   "to": [
+    431
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 430,
+   "from_class": "func_door",
+   "from_name": "transmission_door3",
+   "input": "Kill",
+   "output": "OnFullyOpen",
+   "param": "",
+   "special": false,
+   "target": "transmission_door3",
+   "times": -1,
+   "to": [
+    430
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 433,
+   "from_class": "point_template",
+   "from_name": "template_transmission1",
+   "input": "Open",
+   "output": "OnEntitySpawned",
+   "param": "",
+   "special": false,
+   "target": "transmission_door*",
+   "times": -1,
+   "to": []
+  },
+  {
+   "delay": 0.0,
+   "from": 438,
+   "from_class": "func_door",
+   "from_name": "transmission_door4",
+   "input": "Kill",
+   "output": "OnFullyOpen",
+   "param": "",
+   "special": false,
+   "target": "transmission_sprite4",
+   "times": -1,
+   "to": [
+    436
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 438,
+   "from_class": "func_door",
+   "from_name": "transmission_door4",
+   "input": "Kill",
+   "output": "OnFullyOpen",
+   "param": "",
+   "special": false,
+   "target": "transmission_trail4",
+   "times": -1,
+   "to": [
+    437
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 438,
+   "from_class": "func_door",
+   "from_name": "transmission_door4",
+   "input": "Kill",
+   "output": "OnFullyOpen",
+   "param": "",
+   "special": false,
+   "target": "transmission_door4",
+   "times": -1,
+   "to": [
+    438
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 439,
+   "from_class": "point_template",
+   "from_name": "template_transmission4",
+   "input": "Open",
+   "output": "OnEntitySpawned",
+   "param": "",
+   "special": false,
+   "target": "transmission_door*",
+   "times": -1,
+   "to": []
+  },
+  {
+   "delay": 0.0,
+   "from": 440,
+   "from_class": "func_door",
+   "from_name": "transmission_door5",
+   "input": "Kill",
+   "output": "OnFullyOpen",
+   "param": "",
+   "special": false,
+   "target": "transmission_sprite5",
+   "times": -1,
+   "to": [
+    441
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 440,
+   "from_class": "func_door",
+   "from_name": "transmission_door5",
+   "input": "Kill",
+   "output": "OnFullyOpen",
+   "param": "",
+   "special": false,
+   "target": "transmission_trail5",
+   "times": -1,
+   "to": [
+    442
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 440,
+   "from_class": "func_door",
+   "from_name": "transmission_door5",
+   "input": "Kill",
+   "output": "OnFullyOpen",
+   "param": "",
+   "special": false,
+   "target": "transmission_door5",
+   "times": -1,
+   "to": [
+    440
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 443,
+   "from_class": "point_template",
+   "from_name": "template_transmission5",
+   "input": "Open",
+   "output": "OnEntitySpawned",
+   "param": "",
+   "special": false,
+   "target": "transmission_door*",
+   "times": -1,
+   "to": []
+  },
+  {
+   "delay": 30.0,
+   "from": 460,
+   "from_class": "env_headcrabcanister",
+   "from_name": "canister1",
+   "input": "Kill",
+   "output": "OnImpacted",
+   "param": "",
+   "special": false,
+   "target": "canister1",
+   "times": -1,
+   "to": [
+    460
+   ]
+  },
+  {
+   "delay": 30.0,
+   "from": 461,
+   "from_class": "env_headcrabcanister",
+   "from_name": "canister2",
+   "input": "Kill",
+   "output": "OnImpacted",
+   "param": "",
+   "special": false,
+   "target": "canister2",
+   "times": -1,
+   "to": [
+    461
+   ]
+  },
+  {
+   "delay": 30.0,
+   "from": 462,
+   "from_class": "env_headcrabcanister",
+   "from_name": "canister3",
+   "input": "Kill",
+   "output": "OnImpacted",
+   "param": "",
+   "special": false,
+   "target": "canister3",
+   "times": -1,
+   "to": [
+    462
+   ]
+  },
+  {
+   "delay": 30.0,
+   "from": 463,
+   "from_class": "env_headcrabcanister",
+   "from_name": "canister4",
+   "input": "Kill",
+   "output": "OnImpacted",
+   "param": "",
+   "special": false,
+   "target": "canister4",
+   "times": -1,
+   "to": [
+    463
+   ]
+  },
+  {
+   "delay": 30.0,
+   "from": 464,
+   "from_class": "env_headcrabcanister",
+   "from_name": "canister5",
+   "input": "Kill",
+   "output": "OnImpacted",
+   "param": "",
+   "special": false,
+   "target": "canister5",
+   "times": -1,
+   "to": [
+    464
+   ]
+  },
+  {
+   "delay": 30.0,
+   "from": 465,
+   "from_class": "env_headcrabcanister",
+   "from_name": "canister6",
+   "input": "Kill",
+   "output": "OnImpacted",
+   "param": "",
+   "special": false,
+   "target": "canister6",
+   "times": -1,
+   "to": [
+    465
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 483,
+   "from_class": "logic_timer",
+   "from_name": "citadel_hit_timer",
+   "input": "PlaySound",
+   "output": "OnTimer",
+   "param": "",
+   "special": false,
+   "target": "citadel_hit",
+   "times": -1,
+   "to": [
+    481
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 484,
+   "from_class": "logic_relay",
+   "from_name": "citadel_hit_relay",
+   "input": "Enable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "citadel_hit_timer",
+   "times": -1,
+   "to": [
+    483
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 484,
+   "from_class": "logic_relay",
+   "from_name": "citadel_hit_relay",
+   "input": "Enable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "citadel_hit_timer2",
+   "times": -1,
+   "to": [
+    485
+   ]
+  },
+  {
+   "delay": 1.0,
+   "from": 484,
+   "from_class": "logic_relay",
+   "from_name": "citadel_hit_relay",
+   "input": "FireTimer",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "citadel_hit_timer",
+   "times": -1,
+   "to": [
+    483
+   ]
+  },
+  {
+   "delay": 1.0,
+   "from": 484,
+   "from_class": "logic_relay",
+   "from_name": "citadel_hit_relay",
+   "input": "FireTimer",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "citadel_hit_timer2",
+   "times": -1,
+   "to": [
+    485
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 485,
+   "from_class": "logic_timer",
+   "from_name": "citadel_hit_timer2",
+   "input": "PlaySound",
+   "output": "OnTimer",
+   "param": "",
+   "special": false,
+   "target": "citadel_hit2",
+   "times": -1,
+   "to": [
+    482
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 499,
+   "from_class": "func_button",
+   "from_name": "second_button",
+   "input": "SetValue",
+   "output": "OnPressed",
+   "param": "1",
+   "special": false,
+   "target": "second_branch",
+   "times": -1,
+   "to": [
+    557
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 499,
+   "from_class": "func_button",
+   "from_name": "second_button",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "button_sound_2",
+   "times": -1,
+   "to": [
+    563
+   ]
+  },
+  {
+   "delay": 0.5,
+   "from": 499,
+   "from_class": "func_button",
+   "from_name": "second_button",
+   "input": "SetValue",
+   "output": "OnPressed",
+   "param": "0",
+   "special": false,
+   "target": "second_branch",
+   "times": -1,
+   "to": [
+    557
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 559,
+   "from_class": "func_button",
+   "from_name": "first_button",
+   "input": "SetValue",
+   "output": "OnPressed",
+   "param": "1",
+   "special": false,
+   "target": "first_branch",
+   "times": -1,
+   "to": [
+    560
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 559,
+   "from_class": "func_button",
+   "from_name": "first_button",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "button_sound_1",
+   "times": -1,
+   "to": [
+    562
+   ]
+  },
+  {
+   "delay": 0.5,
+   "from": 559,
+   "from_class": "func_button",
+   "from_name": "first_button",
+   "input": "SetValue",
+   "output": "OnPressed",
+   "param": "0",
+   "special": false,
+   "target": "first_branch",
+   "times": -1,
+   "to": [
+    560
+   ]
+  },
+  {
+   "delay": 1.0,
+   "from": 561,
+   "from_class": "logic_branch_listener",
+   "from_name": "",
+   "input": "SetAnimation",
+   "output": "OnAllTrue",
+   "param": "Open",
+   "special": false,
+   "target": "bunker_gate",
+   "times": -1,
+   "to": [
+    496
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 561,
+   "from_class": "logic_branch_listener",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnAllTrue",
+   "param": "",
+   "special": false,
+   "target": "gate_open_alert",
+   "times": -1,
+   "to": [
+    564
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 561,
+   "from_class": "logic_branch_listener",
+   "from_name": "",
+   "input": "Kill",
+   "output": "OnAllTrue",
+   "param": "",
+   "special": false,
+   "target": "first_button",
+   "times": -1,
+   "to": [
+    559
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 561,
+   "from_class": "logic_branch_listener",
+   "from_name": "",
+   "input": "Kill",
+   "output": "OnAllTrue",
+   "param": "",
+   "special": false,
+   "target": "second_button",
+   "times": -1,
+   "to": [
+    499
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 565,
+   "from_class": "func_button",
+   "from_name": "CANISTER",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "canister_alert_sound",
+   "times": -1,
+   "to": [
+    347
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 565,
+   "from_class": "func_button",
+   "from_name": "CANISTER",
+   "input": "ForceSpawn",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "1_canister_spawn",
+   "times": -1,
+   "to": [
+    748
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 565,
+   "from_class": "func_button",
+   "from_name": "CANISTER",
+   "input": "ForceSpawn",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "2_canister_spawn",
+   "times": -1,
+   "to": [
+    749
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 565,
+   "from_class": "func_button",
+   "from_name": "CANISTER",
+   "input": "ForceSpawn",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "3_canister_spawn",
+   "times": -1,
+   "to": [
+    750
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 565,
+   "from_class": "func_button",
+   "from_name": "CANISTER",
+   "input": "ForceSpawn",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "4_canister_spawn",
+   "times": -1,
+   "to": [
+    751
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 565,
+   "from_class": "func_button",
+   "from_name": "CANISTER",
+   "input": "ForceSpawn",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "5_canister_spawn",
+   "times": -1,
+   "to": [
+    752
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 565,
+   "from_class": "func_button",
+   "from_name": "CANISTER",
+   "input": "ForceSpawn",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "6_canister_spawn",
+   "times": -1,
+   "to": [
+    753
+   ]
+  },
+  {
+   "delay": 8.5,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "SetAnimation",
+   "output": "OnPressed",
+   "param": "Open",
+   "special": false,
+   "target": "portal_rift",
+   "times": -1,
+   "to": [
+    345
+   ]
+  },
+  {
+   "delay": 8.5,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "transmition.sound2",
+   "times": -1,
+   "to": [
+    348
+   ]
+  },
+  {
+   "delay": 13.5,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "StartShake",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "transmition.shake",
+   "times": -1,
+   "to": [
+    349
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "transmition.advisor.sound",
+   "times": -1,
+   "to": [
+    370
+   ]
+  },
+  {
+   "delay": 9.5,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "transmition.explosion",
+   "times": -1,
+   "to": [
+    399
+   ]
+  },
+  {
+   "delay": 7.5,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "ForceSpawn",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "citadel_glow_spawner",
+   "times": -1,
+   "to": [
+    401
+   ]
+  },
+  {
+   "delay": 7.5,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "transmition.explosion2",
+   "times": -1,
+   "to": [
+    402
+   ]
+  },
+  {
+   "delay": 8.5,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "ForceSpawn",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "portal_rift_spawner",
+   "times": -1,
+   "to": [
+    420
+   ]
+  },
+  {
+   "delay": 37.0,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "Kill",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "transmission.glow",
+   "times": -1,
+   "to": [
+    400
+   ]
+  },
+  {
+   "delay": 13.5,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "Enable",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "transmission_timer",
+   "times": -1,
+   "to": [
+    423
+   ]
+  },
+  {
+   "delay": 33.0,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "Disable",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "transmission_timer",
+   "times": -1,
+   "to": [
+    423
+   ]
+  },
+  {
+   "delay": 7.5,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "Enable",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "correction",
+   "times": -1,
+   "to": [
+    488
+   ]
+  },
+  {
+   "delay": 37.5,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "Disable",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "correction",
+   "times": -1,
+   "to": [
+    488
+   ]
+  },
+  {
+   "delay": 13.5,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "FireTimer",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "transmission_timer",
+   "times": -1,
+   "to": [
+    423
+   ]
+  },
+  {
+   "delay": 33.5,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "about_to_explode",
+   "times": -1,
+   "to": [
+    605
+   ]
+  },
+  {
+   "delay": 37.0,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "big_explosion",
+   "times": -1,
+   "to": [
+    604
+   ]
+  },
+  {
+   "delay": 42.0,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "Start",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "shockwave_particle",
+   "times": -1,
+   "to": [
+    603
+   ]
+  },
+  {
+   "delay": 42.0,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "StartShake",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "earthquake",
+   "times": -1,
+   "to": [
+    606
+   ]
+  },
+  {
+   "delay": 37.0,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "Kill",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "portal_rift",
+   "times": -1,
+   "to": [
+    345
+   ]
+  },
+  {
+   "delay": 7.5,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "Start",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "portal_ring",
+   "times": -1,
+   "to": [
+    607
+   ]
+  },
+  {
+   "delay": 7.5,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "Start",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "portal_glow",
+   "times": -1,
+   "to": [
+    608
+   ]
+  },
+  {
+   "delay": 37.0,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "Start",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "portal_flash_end",
+   "times": -1,
+   "to": [
+    609
+   ]
+  },
+  {
+   "delay": 42.0,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "portal_blast_sound",
+   "times": -1,
+   "to": [
+    610
+   ]
+  },
+  {
+   "delay": 50.0,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "Stop",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "portal_ring",
+   "times": -1,
+   "to": [
+    607
+   ]
+  },
+  {
+   "delay": 50.0,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "Stop",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "shockwave_particle",
+   "times": -1,
+   "to": [
+    603
+   ]
+  },
+  {
+   "delay": 50.0,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "Stop",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "portal_glow",
+   "times": -1,
+   "to": [
+    608
+   ]
+  },
+  {
+   "delay": 50.0,
+   "from": 566,
+   "from_class": "func_button",
+   "from_name": "CITADEL",
+   "input": "Stop",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "portal_flash_end",
+   "times": -1,
+   "to": [
+    609
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 616,
+   "from_class": "logic_relay",
+   "from_name": "microphone_enable_relay",
+   "input": "Enable",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "breen_microphone_1",
+   "times": -1,
+   "to": [
+    612
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 620,
+   "from_class": "logic_case",
+   "from_name": "set1_case_ammo",
+   "input": "ForceSpawn",
+   "output": "OnCase01",
+   "param": "",
+   "special": false,
+   "target": "template_ammo_1_set1",
+   "times": -1,
+   "to": [
+    621
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 620,
+   "from_class": "logic_case",
+   "from_name": "set1_case_ammo",
+   "input": "ForceSpawn",
+   "output": "OnCase02",
+   "param": "",
+   "special": false,
+   "target": "template_ammo_2_set1",
+   "times": -1,
+   "to": [
+    622
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 620,
+   "from_class": "logic_case",
+   "from_name": "set1_case_ammo",
+   "input": "ForceSpawn",
+   "output": "OnCase03",
+   "param": "",
+   "special": false,
+   "target": "template_ammo_3_set1",
+   "times": -1,
+   "to": [
+    623
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 620,
+   "from_class": "logic_case",
+   "from_name": "set1_case_ammo",
+   "input": "ForceSpawn",
+   "output": "OnCase04",
+   "param": "",
+   "special": false,
+   "target": "template_ammo_4_set1",
+   "times": -1,
+   "to": [
+    624
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 629,
+   "from_class": "logic_case",
+   "from_name": "set2_case_ammo",
+   "input": "ForceSpawn",
+   "output": "OnCase01",
+   "param": "",
+   "special": false,
+   "target": "template_ammo_1_set2",
+   "times": -1,
+   "to": [
+    634
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 629,
+   "from_class": "logic_case",
+   "from_name": "set2_case_ammo",
+   "input": "ForceSpawn",
+   "output": "OnCase02",
+   "param": "",
+   "special": false,
+   "target": "template_ammo_2_set2",
+   "times": -1,
+   "to": [
+    633
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 629,
+   "from_class": "logic_case",
+   "from_name": "set2_case_ammo",
+   "input": "ForceSpawn",
+   "output": "OnCase03",
+   "param": "",
+   "special": false,
+   "target": "template_ammo_3_set2",
+   "times": -1,
+   "to": [
+    632
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 629,
+   "from_class": "logic_case",
+   "from_name": "set2_case_ammo",
+   "input": "ForceSpawn",
+   "output": "OnCase04",
+   "param": "",
+   "special": false,
+   "target": "template_ammo_4_set2",
+   "times": -1,
+   "to": [
+    631
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 630,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "PickRandom",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "set1_case_ammo",
+   "times": -1,
+   "to": [
+    620
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 630,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "PickRandom",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "set2_case_ammo",
+   "times": -1,
+   "to": [
+    629
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 630,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "PickRandom",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "set1_case_healthvial",
+   "times": -1,
+   "to": [
+    639
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 630,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "PickRandom",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "set2_case_healthvial",
+   "times": -1,
+   "to": [
+    648
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 639,
+   "from_class": "logic_case",
+   "from_name": "set1_case_healthvial",
+   "input": "ForceSpawn",
+   "output": "OnCase01",
+   "param": "",
+   "special": false,
+   "target": "set1_template_healthvial1",
+   "times": -1,
+   "to": [
+    640
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 639,
+   "from_class": "logic_case",
+   "from_name": "set1_case_healthvial",
+   "input": "ForceSpawn",
+   "output": "OnCase02",
+   "param": "",
+   "special": false,
+   "target": "set1_template_healthvial2",
+   "times": -1,
+   "to": [
+    641
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 639,
+   "from_class": "logic_case",
+   "from_name": "set1_case_healthvial",
+   "input": "ForceSpawn",
+   "output": "OnCase03",
+   "param": "",
+   "special": false,
+   "target": "set1_template_healthvial3",
+   "times": -1,
+   "to": [
+    642
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 639,
+   "from_class": "logic_case",
+   "from_name": "set1_case_healthvial",
+   "input": "ForceSpawn",
+   "output": "OnCase04",
+   "param": "",
+   "special": false,
+   "target": "set1_template_healthvial4",
+   "times": -1,
+   "to": [
+    643
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 648,
+   "from_class": "logic_case",
+   "from_name": "set2_case_healthvial",
+   "input": "ForceSpawn",
+   "output": "OnCase01",
+   "param": "",
+   "special": false,
+   "target": "set2_template_healthvial1",
+   "times": -1,
+   "to": [
+    649
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 648,
+   "from_class": "logic_case",
+   "from_name": "set2_case_healthvial",
+   "input": "ForceSpawn",
+   "output": "OnCase02",
+   "param": "",
+   "special": false,
+   "target": "set2_template_healthvial2",
+   "times": -1,
+   "to": [
+    650
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 648,
+   "from_class": "logic_case",
+   "from_name": "set2_case_healthvial",
+   "input": "ForceSpawn",
+   "output": "OnCase03",
+   "param": "",
+   "special": false,
+   "target": "set2_template_healthvial3",
+   "times": -1,
+   "to": [
+    651
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 648,
+   "from_class": "logic_case",
+   "from_name": "set2_case_healthvial",
+   "input": "ForceSpawn",
+   "output": "OnCase04",
+   "param": "",
+   "special": false,
+   "target": "set2_template_healthvial4",
+   "times": -1,
+   "to": [
+    652
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 740,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "Trigger",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "citadel_transmission_trigger",
+   "times": -1,
+   "to": [
+    741
+   ]
+  },
+  {
+   "delay": 460.0,
+   "from": 741,
+   "from_class": "logic_relay",
+   "from_name": "citadel_transmission_trigger",
+   "input": "Press",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "CITADEL",
+   "times": -1,
+   "to": [
+    566
+   ]
+  },
+  {
+   "delay": 440.0,
+   "from": 741,
+   "from_class": "logic_relay",
+   "from_name": "citadel_transmission_trigger",
+   "input": "Press",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "CANISTER",
+   "times": -1,
+   "to": [
+    565
+   ]
+  },
+  {
+   "delay": 150.0,
+   "from": 741,
+   "from_class": "logic_relay",
+   "from_name": "citadel_transmission_trigger",
+   "input": "Press",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "train_button",
+   "times": -1,
+   "to": [
+    990
+   ]
+  },
+  {
+   "delay": 3.0,
+   "from": 748,
+   "from_class": "point_template",
+   "from_name": "1_canister_spawn",
+   "input": "FireCanister",
+   "output": "OnEntitySpawned",
+   "param": "",
+   "special": false,
+   "target": "canister1",
+   "times": -1,
+   "to": [
+    460
+   ]
+  },
+  {
+   "delay": 4.5,
+   "from": 749,
+   "from_class": "point_template",
+   "from_name": "2_canister_spawn",
+   "input": "FireCanister",
+   "output": "OnEntitySpawned",
+   "param": "",
+   "special": false,
+   "target": "canister2",
+   "times": -1,
+   "to": [
+    461
+   ]
+  },
+  {
+   "delay": 6.0,
+   "from": 750,
+   "from_class": "point_template",
+   "from_name": "3_canister_spawn",
+   "input": "FireCanister",
+   "output": "OnEntitySpawned",
+   "param": "",
+   "special": false,
+   "target": "canister3",
+   "times": -1,
+   "to": [
+    462
+   ]
+  },
+  {
+   "delay": 7.0,
+   "from": 751,
+   "from_class": "point_template",
+   "from_name": "4_canister_spawn",
+   "input": "FireCanister",
+   "output": "OnEntitySpawned",
+   "param": "",
+   "special": false,
+   "target": "canister4",
+   "times": -1,
+   "to": [
+    463
+   ]
+  },
+  {
+   "delay": 8.5,
+   "from": 752,
+   "from_class": "point_template",
+   "from_name": "5_canister_spawn",
+   "input": "FireCanister",
+   "output": "OnEntitySpawned",
+   "param": "",
+   "special": false,
+   "target": "canister5",
+   "times": -1,
+   "to": [
+    464
+   ]
+  },
+  {
+   "delay": 9.3,
+   "from": 753,
+   "from_class": "point_template",
+   "from_name": "6_canister_spawn",
+   "input": "FireCanister",
+   "output": "OnEntitySpawned",
+   "param": "",
+   "special": false,
+   "target": "canister6",
+   "times": -1,
+   "to": [
+    465
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 990,
+   "from_class": "func_button",
+   "from_name": "train_button",
+   "input": "ShowSprite",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "train_signal_light",
+   "times": -1,
+   "to": [
+    212
+   ]
+  },
+  {
+   "delay": 20.0,
+   "from": 990,
+   "from_class": "func_button",
+   "from_name": "train_button",
+   "input": "StartForward",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "train",
+   "times": -1,
+   "to": [
+    213
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 990,
+   "from_class": "func_button",
+   "from_name": "train_button",
+   "input": "TurnOn",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "red_light",
+   "times": -1,
+   "to": [
+    231
+   ]
+  },
+  {
+   "delay": 8.0,
+   "from": 990,
+   "from_class": "func_button",
+   "from_name": "train_button",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "train_distant_horn",
+   "times": -1,
+   "to": [
+    418
+   ]
+  },
+  {
+   "delay": 11.0,
+   "from": 990,
+   "from_class": "func_button",
+   "from_name": "train_button",
+   "input": "PlaySound",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "train_horn",
+   "times": -1,
+   "to": [
+    419
+   ]
+  },
+  {
+   "delay": 27.0,
+   "from": 990,
+   "from_class": "func_button",
+   "from_name": "train_button",
+   "input": "TurnOff",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "red_light",
+   "times": -1,
+   "to": [
+    231
+   ]
+  }
+ ],
+ "movers": [
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "func_door_rotating",
+   "degrees": -115.0,
+   "entity": 570,
+   "kind": "rotate",
+   "locked": false,
+   "maxs": [
+    18.5166,
+    6.5015,
+    19.0767
+   ],
+   "mins": [
+    18.2309,
+    5.3775,
+    19.0576
+   ],
+   "model": 32,
+   "opened_by": [],
+   "origin": [
+    18.5164,
+    5.8857,
+    19.0691
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 310,
+   "speed": 150.0,
+   "start_open": false,
+   "targetname": "locker_door_4",
+   "touch": false,
+   "travel_time": 0.7667,
+   "use": true,
+   "wait": -1.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "func_door_rotating",
+   "degrees": 106.0,
+   "entity": 571,
+   "kind": "rotate",
+   "locked": false,
+   "maxs": [
+    18.2309,
+    6.5015,
+    19.0767
+   ],
+   "mins": [
+    17.9451,
+    5.3775,
+    19.0576
+   ],
+   "model": 33,
+   "opened_by": [],
+   "origin": [
+    17.9449,
+    5.8849,
+    19.0691
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 308,
+   "speed": 220.0,
+   "start_open": false,
+   "targetname": "locker_door_5",
+   "touch": false,
+   "travel_time": 0.4818,
+   "use": true,
+   "wait": -1.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "func_door_rotating",
+   "degrees": 120.0,
+   "entity": 572,
+   "kind": "rotate",
+   "locked": false,
+   "maxs": [
+    17.907,
+    6.5015,
+    19.0767
+   ],
+   "mins": [
+    17.6403,
+    5.3775,
+    19.0576
+   ],
+   "model": 34,
+   "opened_by": [],
+   "origin": [
+    17.6401,
+    5.8857,
+    19.0691
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 308,
+   "speed": 190.0,
+   "start_open": false,
+   "targetname": "locker_door_6",
+   "touch": false,
+   "travel_time": 0.6316,
+   "use": true,
+   "wait": -1.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "func_door_rotating",
+   "degrees": -115.0,
+   "entity": 576,
+   "kind": "rotate",
+   "locked": false,
+   "maxs": [
+    30.5067,
+    8.6351,
+    -36.2141
+   ],
+   "mins": [
+    30.4876,
+    7.5111,
+    -36.4998
+   ],
+   "model": 35,
+   "opened_by": [],
+   "origin": [
+    30.4992,
+    8.0193,
+    -36.4998
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 310,
+   "speed": 150.0,
+   "start_open": false,
+   "targetname": "locker_door_1",
+   "touch": false,
+   "travel_time": 0.7667,
+   "use": true,
+   "wait": -1.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "func_door_rotating",
+   "degrees": 106.0,
+   "entity": 577,
+   "kind": "rotate",
+   "locked": false,
+   "maxs": [
+    30.5067,
+    8.6351,
+    -35.9283
+   ],
+   "mins": [
+    30.4876,
+    7.5111,
+    -36.214
+   ],
+   "model": 36,
+   "opened_by": [],
+   "origin": [
+    30.4992,
+    8.0185,
+    -35.9285
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 308,
+   "speed": 220.0,
+   "start_open": false,
+   "targetname": "locker_door_2",
+   "touch": false,
+   "travel_time": 0.4818,
+   "use": true,
+   "wait": -1.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "func_door_rotating",
+   "degrees": 120.0,
+   "entity": 578,
+   "kind": "rotate",
+   "locked": false,
+   "maxs": [
+    30.5067,
+    8.6351,
+    -35.6235
+   ],
+   "mins": [
+    30.4876,
+    7.5111,
+    -35.8902
+   ],
+   "model": 37,
+   "opened_by": [],
+   "origin": [
+    30.4992,
+    8.0193,
+    -35.6235
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 308,
+   "speed": 190.0,
+   "start_open": false,
+   "targetname": "locker_door_3",
+   "touch": false,
+   "travel_time": 0.6316,
+   "use": true,
+   "wait": -1.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "func_door_rotating",
+   "degrees": 120.0,
+   "entity": 582,
+   "kind": "rotate",
+   "locked": false,
+   "maxs": [
+    5.4483,
+    6.1967,
+    38.0924
+   ],
+   "mins": [
+    5.1816,
+    5.0727,
+    38.0733
+   ],
+   "model": 38,
+   "opened_by": [],
+   "origin": [
+    5.4485,
+    5.5809,
+    38.081
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 308,
+   "speed": 190.0,
+   "start_open": false,
+   "targetname": "locker_door_9",
+   "touch": false,
+   "travel_time": 0.6316,
+   "use": true,
+   "wait": -1.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "func_door_rotating",
+   "degrees": 106.0,
+   "entity": 583,
+   "kind": "rotate",
+   "locked": false,
+   "maxs": [
+    5.1435,
+    6.1967,
+    38.0924
+   ],
+   "mins": [
+    4.8577,
+    5.0727,
+    38.0733
+   ],
+   "model": 39,
+   "opened_by": [],
+   "origin": [
+    5.1437,
+    5.5801,
+    38.081
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 308,
+   "speed": 220.0,
+   "start_open": false,
+   "targetname": "locker_door_8",
+   "touch": false,
+   "travel_time": 0.4818,
+   "use": true,
+   "wait": -1.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "func_door_rotating",
+   "degrees": -115.0,
+   "entity": 584,
+   "kind": "rotate",
+   "locked": false,
+   "maxs": [
+    4.8579,
+    6.1967,
+    38.0924
+   ],
+   "mins": [
+    4.5722,
+    5.0727,
+    38.0733
+   ],
+   "model": 40,
+   "opened_by": [],
+   "origin": [
+    4.5722,
+    5.5809,
+    38.081
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 310,
+   "speed": 150.0,
+   "start_open": false,
+   "targetname": "locker_door_7",
+   "touch": false,
+   "travel_time": 0.7667,
+   "use": true,
+   "wait": -1.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "func_door_rotating",
+   "degrees": 120.0,
+   "entity": 588,
+   "kind": "rotate",
+   "locked": false,
+   "maxs": [
+    3.3526,
+    3.1487,
+    33.5547
+   ],
+   "mins": [
+    3.0859,
+    2.0247,
+    33.5356
+   ],
+   "model": 41,
+   "opened_by": [],
+   "origin": [
+    3.0859,
+    2.5329,
+    33.547
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 308,
+   "speed": 190.0,
+   "start_open": false,
+   "targetname": "locker_door_12",
+   "touch": false,
+   "travel_time": 0.6316,
+   "use": true,
+   "wait": -1.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "func_door_rotating",
+   "degrees": 106.0,
+   "entity": 589,
+   "kind": "rotate",
+   "locked": false,
+   "maxs": [
+    3.6765,
+    3.1487,
+    33.5547
+   ],
+   "mins": [
+    3.3907,
+    2.0247,
+    33.5356
+   ],
+   "model": 42,
+   "opened_by": [],
+   "origin": [
+    3.3907,
+    2.5321,
+    33.547
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 308,
+   "speed": 220.0,
+   "start_open": false,
+   "targetname": "locker_door_11",
+   "touch": false,
+   "travel_time": 0.4818,
+   "use": true,
+   "wait": -1.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "func_door_rotating",
+   "degrees": -115.0,
+   "entity": 590,
+   "kind": "rotate",
+   "locked": false,
+   "maxs": [
+    3.9622,
+    3.1487,
+    33.5547
+   ],
+   "mins": [
+    3.6765,
+    2.0247,
+    33.5356
+   ],
+   "model": 43,
+   "opened_by": [],
+   "origin": [
+    3.9622,
+    2.5329,
+    33.547
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 310,
+   "speed": 150.0,
+   "start_open": false,
+   "targetname": "locker_door_10",
+   "touch": false,
+   "travel_time": 0.7667,
+   "use": true,
+   "wait": -1.0
+  }
+ ],
  "name": "zm_pathogen",
  "notes": [],
  "skipped": {
@@ -32838,6 +41562,216 @@
   "y0": 0.0
  },
  "version": 1,
+ "volumes": [
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -7.0104
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      25.3746
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      -13.335
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      25.527
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -5.1816
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      9.525
+     ]
+    ]
+   ],
+   "classname": "trigger_once",
+   "disabled": false,
+   "entity": 24,
+   "filter": "",
+   "kind": "once",
+   "model": 3,
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "children",
+     "times": 1
+    }
+   ],
+   "spawnflags": 1,
+   "targetname": "",
+   "wait": -1.0
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      3.8862
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -1.143
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      78.6384
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -49.3776
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -0.4572
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      3.8862
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 9999.0,
+   "disabled": false,
+   "entity": 421,
+   "kind": "hurt",
+   "model": 20,
+   "outputs": [],
+   "spawnflags": 1089,
+   "targetname": ""
+  },
+  {
+   "brush": 2166,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -2.5527
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      2.57175
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      -22.2885
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      22.7457
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -0.1524
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      3.21945
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 2167,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -3.0099
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      3.4671
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      -25.0317
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      25.05075
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -2.7432
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      5.35305
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  }
+ ],
  "zz": {
   "keep_boxes": [],
   "materials": {

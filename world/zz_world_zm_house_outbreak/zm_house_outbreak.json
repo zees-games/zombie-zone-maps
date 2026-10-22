@@ -1,17 +1,17 @@
 {
  "bin": {
-  "bytes": 1747844,
+  "bytes": 1748948,
   "compression": "gzip",
   "file": "zm_house_outbreak.bin",
-  "sha256": "0bc225053c6a1109c599f9a74a5e807d58895c83db5acdee73d7596f151d6501",
-  "stored_bytes": 506261
+  "sha256": "d94071f85f89e105d395edd273772d84ad98e9a273b979c38f4fc0ac22798805",
+  "stored_bytes": 506462
  },
  "counts": {
-  "hulls": 0,
-  "models": 8,
-  "surfaces": 443,
-  "triangles": 46643,
-  "vertices": 37129
+  "hulls": 1,
+  "models": 9,
+  "surfaces": 446,
+  "triangles": 46655,
+  "vertices": 37153
  },
  "credit": {
   "author": "WaterPyro",
@@ -19,8 +19,254 @@
   "note": "Geometry converted from the original map with credit; its textures and models are not used. Removed on the author's request.",
   "page": "https://gamebanana.com/mods/132025"
  },
+ "destinations": {},
+ "entities": [
+  {
+   "classname": "phys_hinge",
+   "entity": 46,
+   "keys": {
+    "SystemLoadScale": "1",
+    "attach1": "frontdoor",
+    "hingeaxis": "-252 136 78.25",
+    "spawnflags": "8"
+   },
+   "model": null,
+   "origin": [
+    -4.8006,
+    1.4907,
+    -2.5908
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "phys_hinge",
+   "entity": 47,
+   "keys": {
+    "SystemLoadScale": "1",
+    "attach1": "frontdoor",
+    "hingeaxis": "-252 136 28",
+    "spawnflags": "8"
+   },
+   "model": null,
+   "origin": [
+    -4.8006,
+    0.5334,
+    -2.5908
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_relay",
+   "entity": 82,
+   "keys": {
+    "targetname": "relay1"
+   },
+   "model": null,
+   "origin": [
+    -16.5735,
+    0.615,
+    18.0975
+   ],
+   "target": "",
+   "targetname": "relay1",
+   "treatment": "data"
+  }
+ ],
  "format": "dot-bsp-mesh",
- "hulls": [],
+ "hulls": [
+  {
+   "brush": 1358,
+   "entity": 301,
+   "kind": "solid",
+   "model": 88,
+   "plane_count": 6,
+   "plane_offset": 1748852,
+   "point_count": 8,
+   "point_offset": 1748756
+  }
+ ],
+ "links": [
+  {
+   "delay": 2.0,
+   "from": 75,
+   "from_class": "func_breakable",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnBreak",
+   "param": "",
+   "special": false,
+   "target": "screa",
+   "times": -1,
+   "to": [
+    325
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 82,
+   "from_class": "logic_relay",
+   "from_name": "relay1",
+   "input": "SetAnimation",
+   "output": "OnTrigger",
+   "param": "run",
+   "special": false,
+   "target": "car1",
+   "times": -1,
+   "to": [
+    81
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 82,
+   "from_class": "logic_relay",
+   "from_name": "relay1",
+   "input": "SetAnimation",
+   "output": "OnTrigger",
+   "param": "fall",
+   "special": false,
+   "target": "fal",
+   "times": -1,
+   "to": []
+  },
+  {
+   "delay": 0.0,
+   "from": 83,
+   "from_class": "trigger_multiple",
+   "from_name": "",
+   "input": "Trigger",
+   "output": "OnTrigger",
+   "param": "",
+   "special": false,
+   "target": "relay1",
+   "times": -1,
+   "to": [
+    82
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 83,
+   "from_class": "trigger_multiple",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnStartTouch",
+   "param": "",
+   "special": false,
+   "target": "leaves",
+   "times": -1,
+   "to": [
+    318
+   ]
+  },
+  {
+   "delay": 5.0,
+   "from": 320,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnStartTouch",
+   "param": "",
+   "special": false,
+   "target": "fightlikeman",
+   "times": -1,
+   "to": [
+    319
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 320,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnStartTouch",
+   "param": "",
+   "special": false,
+   "target": "Comeout",
+   "times": -1,
+   "to": [
+    321
+   ]
+  },
+  {
+   "delay": 10.0,
+   "from": 320,
+   "from_class": "trigger_once",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnStartTouch",
+   "param": "",
+   "special": false,
+   "target": "zombie",
+   "times": -1,
+   "to": [
+    323
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 371,
+   "from_class": "trigger_multiple",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnStartTouch",
+   "param": "",
+   "special": false,
+   "target": "scary",
+   "times": -1,
+   "to": [
+    349
+   ]
+  }
+ ],
+ "movers": [
+  {
+   "classname": "func_door",
+   "direction": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 1.1811,
+   "entity": 301,
+   "kind": "slide",
+   "lip": -0.0191,
+   "locked": false,
+   "maxs": [
+    10.3442,
+    -0.6858,
+    -2.4575
+   ],
+   "mins": [
+    9.144,
+    -2.8194,
+    -2.5337
+   ],
+   "model": 88,
+   "opened_by": [],
+   "origin": [
+    9.7441,
+    -1.7526,
+    -2.4956
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 1024,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": true,
+   "travel_time": 0.62,
+   "use": false,
+   "wait": 4.0
+  }
+ ],
  "name": "zm_house_outbreak",
  "notes": [],
  "skipped": {
@@ -11771,6 +12017,72 @@
    "vertex_count": 4
   },
   {
+   "classname": "func_door",
+   "colour": [
+    0.2728,
+    0.1702,
+    0.1405
+   ],
+   "entity": 301,
+   "generic": "door_wood",
+   "index_count": 12,
+   "index_offset": 1746732,
+   "material": "wood/wooddoor048a",
+   "model": 88,
+   "normal_offset": 1746572,
+   "position_offset": 1746476,
+   "texels": [
+    256,
+    512
+   ],
+   "uv_offset": 1746668,
+   "vertex_count": 8
+  },
+  {
+   "classname": "func_door",
+   "colour": [
+    0.2728,
+    0.1702,
+    0.1405
+   ],
+   "entity": 301,
+   "generic": "door_wood",
+   "index_count": 18,
+   "index_offset": 1747164,
+   "material": "wood/wooddoor048a",
+   "model": 88,
+   "normal_offset": 1746924,
+   "position_offset": 1746780,
+   "texels": [
+    256,
+    512
+   ],
+   "uv_offset": 1747068,
+   "vertex_count": 12
+  },
+  {
+   "classname": "func_door",
+   "colour": [
+    0.2728,
+    0.1702,
+    0.1405
+   ],
+   "entity": 301,
+   "generic": "door_wood",
+   "index_count": 6,
+   "index_offset": 1747364,
+   "material": "wood/wooddoor048a",
+   "model": 88,
+   "normal_offset": 1747284,
+   "position_offset": 1747236,
+   "texels": [
+    256,
+    512
+   ],
+   "uv_offset": 1747332,
+   "vertex_count": 4
+  },
+  {
    "classname": "func_brush",
    "colour": [
     0.7183,
@@ -11780,16 +12092,16 @@
    "entity": 397,
    "generic": "concrete",
    "index_count": 18,
-   "index_offset": 1746860,
+   "index_offset": 1747772,
    "material": "concrete/concretewall047a",
    "model": 98,
-   "normal_offset": 1746620,
-   "position_offset": 1746476,
+   "normal_offset": 1747532,
+   "position_offset": 1747388,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 1746764,
+   "uv_offset": 1747676,
    "vertex_count": 12
   },
   {
@@ -11802,16 +12114,16 @@
    "entity": 421,
    "generic": "grass",
    "index_count": 36,
-   "index_offset": 1747700,
+   "index_offset": 1748612,
    "material": "de_chateau/bush01a",
    "model": 100,
-   "normal_offset": 1747220,
-   "position_offset": 1746932,
+   "normal_offset": 1748132,
+   "position_offset": 1747844,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 1747508,
+   "uv_offset": 1748420,
    "vertex_count": 24
   }
  ],
@@ -11824,6 +12136,565 @@
   "y0": 0.0
  },
  "version": 1,
+ "volumes": [
+  {
+   "brushes": [
+    [
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      2.8194
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -1.58115
+     ],
+     [
+      -0.364874,
+      0.0,
+      0.931057,
+      -12.41852
+     ],
+     [
+      -0.919145,
+      0.0,
+      0.393919,
+      -26.52471
+     ],
+     [
+      -0.91707,
+      0.0,
+      -0.398726,
+      -23.47841
+     ],
+     [
+      -0.364874,
+      0.0,
+      -0.931057,
+      -5.41255
+     ],
+     [
+      0.91707,
+      0.0,
+      0.398726,
+      27.10233
+     ],
+     [
+      0.369195,
+      0.0,
+      0.929352,
+      9.03615
+     ],
+     [
+      0.369195,
+      0.0,
+      -0.929352,
+      16.02929
+     ],
+     [
+      0.919145,
+      0.0,
+      -0.393919,
+      30.14172
+     ]
+    ]
+   ],
+   "classname": "func_water_analog",
+   "disabled": false,
+   "entity": 43,
+   "kind": "water",
+   "model": 43,
+   "outputs": [],
+   "spawnflags": 0,
+   "targetname": ""
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      18.84045
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -14.097
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      20.28825
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      6.36443
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      0.8138
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      1.524
+     ]
+    ]
+   ],
+   "classname": "trigger_multiple",
+   "disabled": false,
+   "entity": 83,
+   "filter": "",
+   "kind": "multiple",
+   "model": 75,
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "Trigger",
+     "output": "OnTrigger",
+     "param": "",
+     "target": "relay1",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnStartTouch",
+     "param": "",
+     "target": "leaves",
+     "times": -1
+    }
+   ],
+   "spawnflags": 64,
+   "targetname": "",
+   "wait": 6.0
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -23.86965
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      24.3078
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      16.17345
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -12.4206
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      0.3048
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      1.12395
+     ]
+    ]
+   ],
+   "classname": "trigger_once",
+   "disabled": false,
+   "entity": 320,
+   "filter": "",
+   "kind": "once",
+   "model": 89,
+   "outputs": [
+    {
+     "delay": 5.0,
+     "input": "PlaySound",
+     "output": "OnStartTouch",
+     "param": "",
+     "target": "fightlikeman",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnStartTouch",
+     "param": "",
+     "target": "Comeout",
+     "times": -1
+    },
+    {
+     "delay": 10.0,
+     "input": "PlaySound",
+     "output": "OnStartTouch",
+     "param": "",
+     "target": "zombie",
+     "times": -1
+    }
+   ],
+   "spawnflags": 1,
+   "targetname": "",
+   "wait": -1.0
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      0.0
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      4.953
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      3.8862
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      1.9812
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      2.8194
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -0.381
+     ]
+    ]
+   ],
+   "classname": "trigger_multiple",
+   "disabled": false,
+   "entity": 371,
+   "filter": "",
+   "kind": "multiple",
+   "model": 97,
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnStartTouch",
+     "param": "",
+     "target": "scary",
+     "times": -1
+    }
+   ],
+   "spawnflags": 1031,
+   "targetname": "",
+   "wait": 14.0
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      1.42875
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -0.3048
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      3.7719
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -3.18135
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      2.8194
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -0.81915
+     ]
+    ]
+   ],
+   "classname": "trigger_teleport",
+   "disabled": false,
+   "entity": 420,
+   "filter": "",
+   "kind": "teleport",
+   "model": 99,
+   "outputs": [],
+   "spawnflags": 1,
+   "target": "camproof",
+   "targetname": ""
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -35.90925
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      37.1475
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      -10.30605
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      11.9253
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      2.83956
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -1.31445
+     ]
+    ]
+   ],
+   "classname": "trigger_teleport",
+   "disabled": false,
+   "entity": 422,
+   "filter": "",
+   "kind": "teleport",
+   "model": 101,
+   "outputs": [],
+   "spawnflags": 1,
+   "target": "Toproof",
+   "targetname": ""
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -3.60045
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      4.55295
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      3.60045
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -2.667
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -8.17245
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      8.2296
+     ]
+    ]
+   ],
+   "classname": "func_water_analog",
+   "disabled": false,
+   "entity": 423,
+   "kind": "water",
+   "model": 102,
+   "outputs": [],
+   "spawnflags": 0,
+   "targetname": "Toproof"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      32.17545
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -31.56585
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      1.80975
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -1.1049
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -6.38175
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      6.41985
+     ]
+    ]
+   ],
+   "classname": "func_water_analog",
+   "disabled": false,
+   "entity": 424,
+   "kind": "water",
+   "model": 103,
+   "outputs": [],
+   "spawnflags": 0,
+   "targetname": "camproof"
+  },
+  {
+   "brush": 1007,
+   "brushes": [
+    [
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      1.04775
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -0.3048
+     ],
+     [
+      -0.252691,
+      0.0,
+      0.967547,
+      6.4099
+     ],
+     [
+      -0.950687,
+      0.0,
+      0.310151,
+      -21.22745
+     ],
+     [
+      -0.917049,
+      0.0,
+      -0.398775,
+      -29.96821
+     ],
+     [
+      -0.252691,
+      0.0,
+      -0.967547,
+      -19.91067
+     ],
+     [
+      0.917049,
+      0.0,
+      0.398775,
+      30.00484
+     ],
+     [
+      0.362928,
+      0.0,
+      0.931817,
+      22.41379
+     ],
+     [
+      0.362928,
+      -0.0,
+      -0.931817,
+      -2.93481
+     ],
+     [
+      0.950687,
+      -0.0,
+      -0.310151,
+      21.26236
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  }
+ ],
  "zz": {
   "keep_boxes": [],
   "materials": {
@@ -11910,6 +12781,7 @@
    "wood/wooddoor007a": "wood",
    "wood/wooddoor014a": "wood",
    "wood/wooddoor045a": "wood",
+   "wood/wooddoor048a": "wood",
    "wood/woodfloor007a": "wood_floor",
    "wood/woodfloor007a_c17": "wood_floor",
    "wood/woodstair002c": "wood",

@@ -19,6 +19,7 @@ jobs:
               with:
                   python-version: '3.12'
             - run: python3 tools/build_maps.py --check
+            - run: python3 tools/check_worlds.py
 
     release:
         needs: check

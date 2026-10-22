@@ -21,7 +21,15 @@ WHAT IS DRAWN IS WHAT THE DOCUMENT COLLIDES WITH, as far as a face can say:
 - the water's faces are left out (the game draws water itself, from the document's volumes);
 - the spec's `add_boxes` (stand-ins for what the game has no mover for) are not in the source, so
   the manifest lists them under `zz.keep_boxes` and the game keeps drawing those as boxes;
-- no hulls: nothing here collides.
+- no hulls, except those of the models the game moves (below): nothing else here collides.
+
+WHAT MOVES IS THE GAME'S TO ANIMATE, FROM THE MANIFEST. `movers`, `volumes`, `links`, `entities` and
+`destinations` are dot-map's (`bsp.py mesh` writes the same records; DotMapEntities reads them).
+A brush entity is left to them only when the document does not already stand it up: a class in
+the spec's `solid_classes` or `gate_classes` is boxes (a static wall, or a gate an objective
+opens), and a second, moving copy would collide twice. Every other mover keeps its faces in the
+mesh (a model of its own, drawn at rest) and, when solid, its hulls, so the game can move the
+collider with the picture.
 
 Textures are never the author's: each face carries its source material NAME only, and
 `zz.materials` turns it into this game's material id through the importer's own table.
@@ -35,7 +43,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 
 import import_bsp  # noqa: E402  (puts dot-map's tools/bsp on the path, and owns the material table)
-from dotbsp import mesh, reader  # noqa: E402
+from dotbsp import mesh, movers, reader, units  # noqa: E402
 
 # Metres of world one batch covers: the game's own (ZzMap.CHUNK), because the compatibility renderer
 # lights a mesh with at most eight lamps and a chunk is about a room, which is about a lamp.
@@ -48,7 +56,11 @@ MOVING = {"func_door", "func_door_rotating", "func_movelinear", "func_button", "
           "func_pushable", "momentary_rot_button", "func_water_analog"}
 
 
-def keep_surface(s, spec):
+# Mover kinds whose model the game carries a collider with.
+CARRIED = {"slide", "rotate", "plat", "path"}
+
+
+def keep_surface(s, spec, live=frozenset()):
     if s.water:
         return False
     if s.model == 0:
@@ -57,7 +69,15 @@ def keep_surface(s, spec):
         return False
     if s.classname in spec.get("solid_classes", []):
         return True
+    if s.model in live:
+        return True
     return s.classname not in MOVING
+
+
+def live_movers(records, spec):
+    """The mover records the game animates: those the document does not already stand up as boxes."""
+    boxed = set(spec.get("solid_classes", [])) | set(spec.get("gate_classes", []))
+    return [r for r in records if r["classname"] not in boxed and r.get("model") is not None]
 
 
 def _dropped(c, spec):
@@ -95,15 +115,38 @@ def trim(s, spec):
     return s
 
 
+def _centre(rec):
+    lo, hi = rec.get("mins"), rec.get("maxs")
+    return [(lo[k] + hi[k]) / 2.0 for k in range(3)] if lo and hi else rec["origin"]
+
+
 def build(spec, bsp_path):
     bsp = reader.Bsp(bsp_path).load()
-    m = mesh.build(bsp, y0=float(spec.get("y0", 0.0)), chunk=CHUNK)
+    y0 = float(spec.get("y0", 0.0))
+    m = mesh.build(bsp, y0=y0, chunk=CHUNK)
     before = len(m.surfaces)
-    m.surfaces = [s for s in (trim(s, spec) for s in m.surfaces if keep_surface(s, spec)) if s.index]
-    m.hulls = []
+    records = [r for r in live_movers(movers.movers(bsp, units.VISUAL, y0), spec) if not _dropped(_centre(r), spec)]
+    live = frozenset(r["model"] for r in records)
+    m.surfaces = [s for s in (trim(s, spec) for s in m.surfaces if keep_surface(s, spec, live)) if s.index]
+    solid = frozenset(r["model"] for r in records if r["kind"] in CARRIED and r.get("solid", True))
+    m.hulls = [h for h in m.hulls if h["model"] in solid]
+    # A mover whose faces are all tool textures or hidden has nothing to move.
+    has = {s.model for s in m.surfaces} | {h["model"] for h in m.hulls}
+    records = [r for r in records if r["model"] in has]
     mats = {s.material: import_bsp.material_for(s.material.lower()) for s in m.surfaces}
     keep = [dict(b) for b in spec.get("add_boxes", [])]
-    return m, before, {"zz": {"materials": dict(sorted(mats.items())), "keep_boxes": keep}}
+    extra = {"zz": {"materials": dict(sorted(mats.items())), "keep_boxes": keep},
+             "movers": records, "volumes": movers.volumes(bsp, units.VISUAL, y0),
+             "destinations": movers.destinations(bsp, units.VISUAL, y0),
+             "links": movers.links(bsp), "entities": movers.generic(bsp)}
+    return m, before, extra
+
+
+def _kinds(records):
+    out = {}
+    for r in records:
+        out[r["kind"]] = out.get(r["kind"], 0) + 1
+    return out
 
 
 def name_in_document(doc_path):
@@ -133,8 +176,11 @@ def main(argv):
     credit["note"] = "Geometry converted from the original map with credit; its textures and models are not used. Removed on the author's request."
     doc = mesh.write(m, os.path.join(out_dir, map_id), credit=credit, name=map_id, extra=extra)
     c = doc["counts"]
-    print("%s: %d of %d surfaces drawn, %d triangles, bin %d bytes (%d gzip'd) -> %s" % (
-        map_id, c["surfaces"], before, c["triangles"], doc["bin"]["bytes"], doc["bin"]["stored_bytes"], out_dir))
+    print("%s: %d of %d surfaces drawn, %d triangles, %d hulls, bin %d bytes (%d gzip'd) -> %s" % (
+        map_id, c["surfaces"], before, c["triangles"], c["hulls"], doc["bin"]["bytes"], doc["bin"]["stored_bytes"], out_dir))
+    print("  %d movers (%s), %d volumes, %d links, %d entities" % (
+        len(extra["movers"]), ", ".join("%s %d" % kv for kv in sorted(_kinds(extra["movers"]).items())),
+        len(extra["volumes"]), len(extra["links"]), len(extra["entities"])))
     doc_path = os.path.join(HERE, "..", "maps", map_id + ".json")
     if os.path.isfile(doc_path) and name_in_document(doc_path):
         print("  named it in maps/%s.json" % map_id)

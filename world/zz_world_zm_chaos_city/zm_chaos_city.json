@@ -1,17 +1,17 @@
 {
  "bin": {
-  "bytes": 1193432,
+  "bytes": 1446108,
   "compression": "gzip",
   "file": "zm_chaos_city.bin",
-  "sha256": "95937f60794aea1e6249082d9222f6adcae4f60f9b3d6a713b8fdc8d969d4eee",
-  "stored_bytes": 222824
+  "sha256": "1e3d03b14472c3ed681ae30d21dfe402bb0d06b1bb176c2defcc16ebd29ff9f7",
+  "stored_bytes": 296515
  },
  "counts": {
-  "hulls": 0,
-  "models": 3,
-  "surfaces": 661,
-  "triangles": 23626,
-  "vertices": 28435
+  "hulls": 339,
+  "models": 15,
+  "surfaces": 677,
+  "triangles": 26807,
+  "vertices": 33435
  },
  "credit": {
   "author": "Niiskunkoppa (Emnu); helicopter by Aurora",
@@ -19,8 +19,4492 @@
   "note": "Geometry converted from the original map with credit; its textures and models are not used. Removed on the author's request.",
   "page": "https://gamebanana.com/mods/130668"
  },
+ "destinations": {
+  "destination": {
+   "at": [
+    4.8768,
+    4.1338,
+    7.3152
+   ],
+   "yaw": -90.0
+  }
+ },
+ "entities": [
+  {
+   "classname": "env_shake",
+   "entity": 179,
+   "keys": {
+    "amplitude": "4",
+    "duration": "10",
+    "frequency": "2.5",
+    "radius": "500",
+    "spawnflags": "5",
+    "targetname": "nuke_shake"
+   },
+   "model": null,
+   "origin": [
+    -11.2014,
+    16.0211,
+    -44.0436
+   ],
+   "target": "",
+   "targetname": "nuke_shake",
+   "treatment": "data"
+  },
+  {
+   "classname": "logic_auto",
+   "entity": 183,
+   "keys": {
+    "spawnflags": "1"
+   },
+   "model": null,
+   "origin": [
+    -9.9822,
+    16.0211,
+    -44.0436
+   ],
+   "target": "",
+   "targetname": "",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 198,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "targetname": "track7"
+   },
+   "model": null,
+   "origin": [
+    -2.4384,
+    15.0114,
+    7.3914
+   ],
+   "target": "",
+   "targetname": "track7",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 199,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "track3",
+    "targetname": "track2"
+   },
+   "model": null,
+   "origin": [
+    -2.4384,
+    16.4592,
+    7.4676
+   ],
+   "target": "track3",
+   "targetname": "track2",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 200,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "track4",
+    "targetname": "track3"
+   },
+   "model": null,
+   "origin": [
+    -2.4384,
+    15.0876,
+    -14.6304
+   ],
+   "target": "track4",
+   "targetname": "track3",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 201,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "track5",
+    "targetname": "track4"
+   },
+   "model": null,
+   "origin": [
+    -2.4384,
+    3.2004,
+    -14.6304
+   ],
+   "target": "track5",
+   "targetname": "track4",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 202,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "track6",
+    "targetname": "track5"
+   },
+   "model": null,
+   "origin": [
+    -2.4384,
+    10.668,
+    -14.6304
+   ],
+   "target": "track6",
+   "targetname": "track5",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 203,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "spawnflags": "0",
+    "target": "track7",
+    "targetname": "track6"
+   },
+   "model": null,
+   "origin": [
+    -2.4384,
+    15.0114,
+    -9.2964
+   ],
+   "target": "track7",
+   "targetname": "track6",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 204,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "2",
+    "spawnflags": "0",
+    "target": "1_5",
+    "targetname": "track1"
+   },
+   "model": null,
+   "origin": [
+    -2.4384,
+    15.0114,
+    7.4676
+   ],
+   "target": "1_5",
+   "targetname": "track1",
+   "treatment": "data"
+  },
+  {
+   "classname": "path_track",
+   "entity": 230,
+   "keys": {
+    "angles": "0 0 0",
+    "orientationtype": "1",
+    "target": "track2",
+    "targetname": "1_5"
+   },
+   "model": null,
+   "origin": [
+    -0.8382,
+    15.0114,
+    7.4676
+   ],
+   "target": "track2",
+   "targetname": "1_5",
+   "treatment": "data"
+  }
+ ],
  "format": "dot-bsp-mesh",
- "hulls": [],
+ "hulls": [
+  {
+   "brush": 1234,
+   "entity": 82,
+   "kind": "solid",
+   "model": 19,
+   "plane_count": 6,
+   "plane_offset": 1391700,
+   "point_count": 8,
+   "point_offset": 1391604
+  },
+  {
+   "brush": 1235,
+   "entity": 83,
+   "kind": "solid",
+   "model": 20,
+   "plane_count": 6,
+   "plane_offset": 1391892,
+   "point_count": 8,
+   "point_offset": 1391796
+  },
+  {
+   "brush": 1237,
+   "entity": 95,
+   "kind": "clip",
+   "model": 22,
+   "plane_count": 6,
+   "plane_offset": 1392084,
+   "point_count": 8,
+   "point_offset": 1391988
+  },
+  {
+   "brush": 1370,
+   "entity": 187,
+   "kind": "solid",
+   "model": 43,
+   "plane_count": 5,
+   "plane_offset": 1392252,
+   "point_count": 6,
+   "point_offset": 1392180
+  },
+  {
+   "brush": 1371,
+   "entity": 187,
+   "kind": "solid",
+   "model": 43,
+   "plane_count": 6,
+   "plane_offset": 1392428,
+   "point_count": 8,
+   "point_offset": 1392332
+  },
+  {
+   "brush": 1372,
+   "entity": 187,
+   "kind": "solid",
+   "model": 43,
+   "plane_count": 5,
+   "plane_offset": 1392596,
+   "point_count": 6,
+   "point_offset": 1392524
+  },
+  {
+   "brush": 1373,
+   "entity": 187,
+   "kind": "solid",
+   "model": 43,
+   "plane_count": 6,
+   "plane_offset": 1392772,
+   "point_count": 8,
+   "point_offset": 1392676
+  },
+  {
+   "brush": 1374,
+   "entity": 187,
+   "kind": "solid",
+   "model": 43,
+   "plane_count": 6,
+   "plane_offset": 1392964,
+   "point_count": 8,
+   "point_offset": 1392868
+  },
+  {
+   "brush": 1375,
+   "entity": 187,
+   "kind": "solid",
+   "model": 43,
+   "plane_count": 6,
+   "plane_offset": 1393156,
+   "point_count": 8,
+   "point_offset": 1393060
+  },
+  {
+   "brush": 1376,
+   "entity": 187,
+   "kind": "solid",
+   "model": 43,
+   "plane_count": 5,
+   "plane_offset": 1393324,
+   "point_count": 6,
+   "point_offset": 1393252
+  },
+  {
+   "brush": 1377,
+   "entity": 187,
+   "kind": "solid",
+   "model": 43,
+   "plane_count": 5,
+   "plane_offset": 1393476,
+   "point_count": 6,
+   "point_offset": 1393404
+  },
+  {
+   "brush": 1415,
+   "entity": 190,
+   "kind": "solid",
+   "model": 46,
+   "plane_count": 5,
+   "plane_offset": 1393628,
+   "point_count": 6,
+   "point_offset": 1393556
+  },
+  {
+   "brush": 1416,
+   "entity": 190,
+   "kind": "solid",
+   "model": 46,
+   "plane_count": 5,
+   "plane_offset": 1393780,
+   "point_count": 6,
+   "point_offset": 1393708
+  },
+  {
+   "brush": 1417,
+   "entity": 190,
+   "kind": "solid",
+   "model": 46,
+   "plane_count": 5,
+   "plane_offset": 1393932,
+   "point_count": 6,
+   "point_offset": 1393860
+  },
+  {
+   "brush": 1418,
+   "entity": 190,
+   "kind": "solid",
+   "model": 46,
+   "plane_count": 5,
+   "plane_offset": 1394084,
+   "point_count": 6,
+   "point_offset": 1394012
+  },
+  {
+   "brush": 1419,
+   "entity": 190,
+   "kind": "solid",
+   "model": 46,
+   "plane_count": 5,
+   "plane_offset": 1394236,
+   "point_count": 6,
+   "point_offset": 1394164
+  },
+  {
+   "brush": 1420,
+   "entity": 190,
+   "kind": "solid",
+   "model": 46,
+   "plane_count": 5,
+   "plane_offset": 1394388,
+   "point_count": 6,
+   "point_offset": 1394316
+  },
+  {
+   "brush": 1421,
+   "entity": 190,
+   "kind": "solid",
+   "model": 46,
+   "plane_count": 5,
+   "plane_offset": 1394540,
+   "point_count": 6,
+   "point_offset": 1394468
+  },
+  {
+   "brush": 1422,
+   "entity": 190,
+   "kind": "solid",
+   "model": 46,
+   "plane_count": 5,
+   "plane_offset": 1394692,
+   "point_count": 6,
+   "point_offset": 1394620
+  },
+  {
+   "brush": 1423,
+   "entity": 190,
+   "kind": "solid",
+   "model": 46,
+   "plane_count": 5,
+   "plane_offset": 1394844,
+   "point_count": 6,
+   "point_offset": 1394772
+  },
+  {
+   "brush": 1424,
+   "entity": 190,
+   "kind": "solid",
+   "model": 46,
+   "plane_count": 5,
+   "plane_offset": 1394996,
+   "point_count": 6,
+   "point_offset": 1394924
+  },
+  {
+   "brush": 1425,
+   "entity": 190,
+   "kind": "solid",
+   "model": 46,
+   "plane_count": 5,
+   "plane_offset": 1395148,
+   "point_count": 6,
+   "point_offset": 1395076
+  },
+  {
+   "brush": 1426,
+   "entity": 190,
+   "kind": "solid",
+   "model": 46,
+   "plane_count": 5,
+   "plane_offset": 1395300,
+   "point_count": 6,
+   "point_offset": 1395228
+  },
+  {
+   "brush": 1427,
+   "entity": 190,
+   "kind": "solid",
+   "model": 46,
+   "plane_count": 5,
+   "plane_offset": 1395452,
+   "point_count": 6,
+   "point_offset": 1395380
+  },
+  {
+   "brush": 1428,
+   "entity": 190,
+   "kind": "solid",
+   "model": 46,
+   "plane_count": 5,
+   "plane_offset": 1395604,
+   "point_count": 6,
+   "point_offset": 1395532
+  },
+  {
+   "brush": 1429,
+   "entity": 190,
+   "kind": "solid",
+   "model": 46,
+   "plane_count": 5,
+   "plane_offset": 1395756,
+   "point_count": 6,
+   "point_offset": 1395684
+  },
+  {
+   "brush": 1430,
+   "entity": 190,
+   "kind": "solid",
+   "model": 46,
+   "plane_count": 5,
+   "plane_offset": 1395908,
+   "point_count": 6,
+   "point_offset": 1395836
+  },
+  {
+   "brush": 1431,
+   "entity": 190,
+   "kind": "solid",
+   "model": 46,
+   "plane_count": 5,
+   "plane_offset": 1396060,
+   "point_count": 6,
+   "point_offset": 1395988
+  },
+  {
+   "brush": 1432,
+   "entity": 190,
+   "kind": "solid",
+   "model": 46,
+   "plane_count": 5,
+   "plane_offset": 1396212,
+   "point_count": 6,
+   "point_offset": 1396140
+  },
+  {
+   "brush": 1433,
+   "entity": 190,
+   "kind": "solid",
+   "model": 46,
+   "plane_count": 5,
+   "plane_offset": 1396364,
+   "point_count": 6,
+   "point_offset": 1396292
+  },
+  {
+   "brush": 1434,
+   "entity": 190,
+   "kind": "solid",
+   "model": 46,
+   "plane_count": 5,
+   "plane_offset": 1396516,
+   "point_count": 6,
+   "point_offset": 1396444
+  },
+  {
+   "brush": 1435,
+   "entity": 190,
+   "kind": "solid",
+   "model": 46,
+   "plane_count": 5,
+   "plane_offset": 1396668,
+   "point_count": 6,
+   "point_offset": 1396596
+  },
+  {
+   "brush": 1436,
+   "entity": 190,
+   "kind": "solid",
+   "model": 46,
+   "plane_count": 5,
+   "plane_offset": 1396820,
+   "point_count": 6,
+   "point_offset": 1396748
+  },
+  {
+   "brush": 1443,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1396972,
+   "point_count": 6,
+   "point_offset": 1396900
+  },
+  {
+   "brush": 1444,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1397148,
+   "point_count": 8,
+   "point_offset": 1397052
+  },
+  {
+   "brush": 1445,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1397340,
+   "point_count": 8,
+   "point_offset": 1397244
+  },
+  {
+   "brush": 1446,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1397532,
+   "point_count": 8,
+   "point_offset": 1397436
+  },
+  {
+   "brush": 1447,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1397700,
+   "point_count": 6,
+   "point_offset": 1397628
+  },
+  {
+   "brush": 1448,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1397900,
+   "point_count": 10,
+   "point_offset": 1397780
+  },
+  {
+   "brush": 1449,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1398068,
+   "point_count": 6,
+   "point_offset": 1397996
+  },
+  {
+   "brush": 1450,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1398220,
+   "point_count": 6,
+   "point_offset": 1398148
+  },
+  {
+   "brush": 1451,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1398396,
+   "point_count": 8,
+   "point_offset": 1398300
+  },
+  {
+   "brush": 1452,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1398612,
+   "point_count": 10,
+   "point_offset": 1398492
+  },
+  {
+   "brush": 1453,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 7,
+   "plane_offset": 1398828,
+   "point_count": 10,
+   "point_offset": 1398708
+  },
+  {
+   "brush": 1454,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1399060,
+   "point_count": 10,
+   "point_offset": 1398940
+  },
+  {
+   "brush": 1455,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1399228,
+   "point_count": 6,
+   "point_offset": 1399156
+  },
+  {
+   "brush": 1456,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1399380,
+   "point_count": 6,
+   "point_offset": 1399308
+  },
+  {
+   "brush": 1457,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1399532,
+   "point_count": 6,
+   "point_offset": 1399460
+  },
+  {
+   "brush": 1458,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1399684,
+   "point_count": 6,
+   "point_offset": 1399612
+  },
+  {
+   "brush": 1459,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1399836,
+   "point_count": 6,
+   "point_offset": 1399764
+  },
+  {
+   "brush": 1460,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1399988,
+   "point_count": 6,
+   "point_offset": 1399916
+  },
+  {
+   "brush": 1461,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1400140,
+   "point_count": 6,
+   "point_offset": 1400068
+  },
+  {
+   "brush": 1462,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1400292,
+   "point_count": 6,
+   "point_offset": 1400220
+  },
+  {
+   "brush": 1463,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1400444,
+   "point_count": 6,
+   "point_offset": 1400372
+  },
+  {
+   "brush": 1464,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1400596,
+   "point_count": 6,
+   "point_offset": 1400524
+  },
+  {
+   "brush": 1465,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1400748,
+   "point_count": 6,
+   "point_offset": 1400676
+  },
+  {
+   "brush": 1466,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1400900,
+   "point_count": 6,
+   "point_offset": 1400828
+  },
+  {
+   "brush": 1467,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1401052,
+   "point_count": 6,
+   "point_offset": 1400980
+  },
+  {
+   "brush": 1468,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1401204,
+   "point_count": 6,
+   "point_offset": 1401132
+  },
+  {
+   "brush": 1469,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1401356,
+   "point_count": 6,
+   "point_offset": 1401284
+  },
+  {
+   "brush": 1470,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1401508,
+   "point_count": 6,
+   "point_offset": 1401436
+  },
+  {
+   "brush": 1471,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1401660,
+   "point_count": 6,
+   "point_offset": 1401588
+  },
+  {
+   "brush": 1472,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1401812,
+   "point_count": 6,
+   "point_offset": 1401740
+  },
+  {
+   "brush": 1473,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1401964,
+   "point_count": 6,
+   "point_offset": 1401892
+  },
+  {
+   "brush": 1474,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1402116,
+   "point_count": 6,
+   "point_offset": 1402044
+  },
+  {
+   "brush": 1475,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1402268,
+   "point_count": 6,
+   "point_offset": 1402196
+  },
+  {
+   "brush": 1476,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1402420,
+   "point_count": 6,
+   "point_offset": 1402348
+  },
+  {
+   "brush": 1477,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1402572,
+   "point_count": 6,
+   "point_offset": 1402500
+  },
+  {
+   "brush": 1478,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1402772,
+   "point_count": 10,
+   "point_offset": 1402652
+  },
+  {
+   "brush": 1479,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1402940,
+   "point_count": 6,
+   "point_offset": 1402868
+  },
+  {
+   "brush": 1480,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1403092,
+   "point_count": 6,
+   "point_offset": 1403020
+  },
+  {
+   "brush": 1481,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1403244,
+   "point_count": 6,
+   "point_offset": 1403172
+  },
+  {
+   "brush": 1482,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1403444,
+   "point_count": 10,
+   "point_offset": 1403324
+  },
+  {
+   "brush": 1483,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1403612,
+   "point_count": 6,
+   "point_offset": 1403540
+  },
+  {
+   "brush": 1484,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1403764,
+   "point_count": 6,
+   "point_offset": 1403692
+  },
+  {
+   "brush": 1485,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1403964,
+   "point_count": 10,
+   "point_offset": 1403844
+  },
+  {
+   "brush": 1486,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1404204,
+   "point_count": 12,
+   "point_offset": 1404060
+  },
+  {
+   "brush": 1487,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1404372,
+   "point_count": 6,
+   "point_offset": 1404300
+  },
+  {
+   "brush": 1488,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1404512,
+   "point_count": 5,
+   "point_offset": 1404452
+  },
+  {
+   "brush": 1489,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1404640,
+   "point_count": 4,
+   "point_offset": 1404592
+  },
+  {
+   "brush": 1490,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1404776,
+   "point_count": 6,
+   "point_offset": 1404704
+  },
+  {
+   "brush": 1491,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1404940,
+   "point_count": 7,
+   "point_offset": 1404856
+  },
+  {
+   "brush": 1492,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1405128,
+   "point_count": 9,
+   "point_offset": 1405020
+  },
+  {
+   "brush": 1493,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1405272,
+   "point_count": 4,
+   "point_offset": 1405224
+  },
+  {
+   "brush": 1494,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1405384,
+   "point_count": 4,
+   "point_offset": 1405336
+  },
+  {
+   "brush": 1495,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1405520,
+   "point_count": 6,
+   "point_offset": 1405448
+  },
+  {
+   "brush": 1496,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1405672,
+   "point_count": 6,
+   "point_offset": 1405600
+  },
+  {
+   "brush": 1497,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1405800,
+   "point_count": 4,
+   "point_offset": 1405752
+  },
+  {
+   "brush": 1498,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1405912,
+   "point_count": 4,
+   "point_offset": 1405864
+  },
+  {
+   "brush": 1499,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1406036,
+   "point_count": 5,
+   "point_offset": 1405976
+  },
+  {
+   "brush": 1500,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1406164,
+   "point_count": 4,
+   "point_offset": 1406116
+  },
+  {
+   "brush": 1501,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1406288,
+   "point_count": 5,
+   "point_offset": 1406228
+  },
+  {
+   "brush": 1502,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1406416,
+   "point_count": 4,
+   "point_offset": 1406368
+  },
+  {
+   "brush": 1503,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1406540,
+   "point_count": 5,
+   "point_offset": 1406480
+  },
+  {
+   "brush": 1504,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1406668,
+   "point_count": 4,
+   "point_offset": 1406620
+  },
+  {
+   "brush": 1505,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1406792,
+   "point_count": 5,
+   "point_offset": 1406732
+  },
+  {
+   "brush": 1506,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1406932,
+   "point_count": 5,
+   "point_offset": 1406872
+  },
+  {
+   "brush": 1507,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1407060,
+   "point_count": 4,
+   "point_offset": 1407012
+  },
+  {
+   "brush": 1508,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1407184,
+   "point_count": 5,
+   "point_offset": 1407124
+  },
+  {
+   "brush": 1509,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1407312,
+   "point_count": 4,
+   "point_offset": 1407264
+  },
+  {
+   "brush": 1510,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1407424,
+   "point_count": 4,
+   "point_offset": 1407376
+  },
+  {
+   "brush": 1511,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1407560,
+   "point_count": 6,
+   "point_offset": 1407488
+  },
+  {
+   "brush": 1512,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1407712,
+   "point_count": 6,
+   "point_offset": 1407640
+  },
+  {
+   "brush": 1513,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1407864,
+   "point_count": 6,
+   "point_offset": 1407792
+  },
+  {
+   "brush": 1514,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1408016,
+   "point_count": 6,
+   "point_offset": 1407944
+  },
+  {
+   "brush": 1515,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1408168,
+   "point_count": 6,
+   "point_offset": 1408096
+  },
+  {
+   "brush": 1516,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1408320,
+   "point_count": 6,
+   "point_offset": 1408248
+  },
+  {
+   "brush": 1517,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1408508,
+   "point_count": 9,
+   "point_offset": 1408400
+  },
+  {
+   "brush": 1518,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1408676,
+   "point_count": 6,
+   "point_offset": 1408604
+  },
+  {
+   "brush": 1519,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1408828,
+   "point_count": 6,
+   "point_offset": 1408756
+  },
+  {
+   "brush": 1520,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1408980,
+   "point_count": 6,
+   "point_offset": 1408908
+  },
+  {
+   "brush": 1521,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1409132,
+   "point_count": 6,
+   "point_offset": 1409060
+  },
+  {
+   "brush": 1522,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1409284,
+   "point_count": 6,
+   "point_offset": 1409212
+  },
+  {
+   "brush": 1523,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1409436,
+   "point_count": 6,
+   "point_offset": 1409364
+  },
+  {
+   "brush": 1524,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1409588,
+   "point_count": 6,
+   "point_offset": 1409516
+  },
+  {
+   "brush": 1525,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1409740,
+   "point_count": 6,
+   "point_offset": 1409668
+  },
+  {
+   "brush": 1526,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1409892,
+   "point_count": 6,
+   "point_offset": 1409820
+  },
+  {
+   "brush": 1527,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1410044,
+   "point_count": 6,
+   "point_offset": 1409972
+  },
+  {
+   "brush": 1528,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1410196,
+   "point_count": 6,
+   "point_offset": 1410124
+  },
+  {
+   "brush": 1529,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1410348,
+   "point_count": 6,
+   "point_offset": 1410276
+  },
+  {
+   "brush": 1530,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1410500,
+   "point_count": 6,
+   "point_offset": 1410428
+  },
+  {
+   "brush": 1531,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1410652,
+   "point_count": 6,
+   "point_offset": 1410580
+  },
+  {
+   "brush": 1532,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1410804,
+   "point_count": 6,
+   "point_offset": 1410732
+  },
+  {
+   "brush": 1533,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1410956,
+   "point_count": 6,
+   "point_offset": 1410884
+  },
+  {
+   "brush": 1534,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1411108,
+   "point_count": 6,
+   "point_offset": 1411036
+  },
+  {
+   "brush": 1535,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1411260,
+   "point_count": 6,
+   "point_offset": 1411188
+  },
+  {
+   "brush": 1536,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1411412,
+   "point_count": 6,
+   "point_offset": 1411340
+  },
+  {
+   "brush": 1537,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1411564,
+   "point_count": 6,
+   "point_offset": 1411492
+  },
+  {
+   "brush": 1538,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1411716,
+   "point_count": 6,
+   "point_offset": 1411644
+  },
+  {
+   "brush": 1539,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1411868,
+   "point_count": 6,
+   "point_offset": 1411796
+  },
+  {
+   "brush": 1540,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1412020,
+   "point_count": 6,
+   "point_offset": 1411948
+  },
+  {
+   "brush": 1541,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1412172,
+   "point_count": 6,
+   "point_offset": 1412100
+  },
+  {
+   "brush": 1542,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1412300,
+   "point_count": 4,
+   "point_offset": 1412252
+  },
+  {
+   "brush": 1543,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1412460,
+   "point_count": 8,
+   "point_offset": 1412364
+  },
+  {
+   "brush": 1544,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1412588,
+   "point_count": 4,
+   "point_offset": 1412540
+  },
+  {
+   "brush": 1545,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1412748,
+   "point_count": 8,
+   "point_offset": 1412652
+  },
+  {
+   "brush": 1546,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1412924,
+   "point_count": 8,
+   "point_offset": 1412828
+  },
+  {
+   "brush": 1547,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1413076,
+   "point_count": 6,
+   "point_offset": 1413004
+  },
+  {
+   "brush": 1548,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1413228,
+   "point_count": 6,
+   "point_offset": 1413156
+  },
+  {
+   "brush": 1549,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1413380,
+   "point_count": 6,
+   "point_offset": 1413308
+  },
+  {
+   "brush": 1550,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1413532,
+   "point_count": 6,
+   "point_offset": 1413460
+  },
+  {
+   "brush": 1551,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1413684,
+   "point_count": 6,
+   "point_offset": 1413612
+  },
+  {
+   "brush": 1552,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1413836,
+   "point_count": 6,
+   "point_offset": 1413764
+  },
+  {
+   "brush": 1553,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1413964,
+   "point_count": 4,
+   "point_offset": 1413916
+  },
+  {
+   "brush": 1554,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1414124,
+   "point_count": 8,
+   "point_offset": 1414028
+  },
+  {
+   "brush": 1555,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 7,
+   "plane_offset": 1414288,
+   "point_count": 7,
+   "point_offset": 1414204
+  },
+  {
+   "brush": 1556,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1414496,
+   "point_count": 8,
+   "point_offset": 1414400
+  },
+  {
+   "brush": 1557,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1414648,
+   "point_count": 6,
+   "point_offset": 1414576
+  },
+  {
+   "brush": 1558,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1414800,
+   "point_count": 6,
+   "point_offset": 1414728
+  },
+  {
+   "brush": 1559,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1414976,
+   "point_count": 8,
+   "point_offset": 1414880
+  },
+  {
+   "brush": 1560,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1415152,
+   "point_count": 8,
+   "point_offset": 1415056
+  },
+  {
+   "brush": 1561,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1415352,
+   "point_count": 10,
+   "point_offset": 1415232
+  },
+  {
+   "brush": 1562,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 7,
+   "plane_offset": 1415616,
+   "point_count": 14,
+   "point_offset": 1415448
+  },
+  {
+   "brush": 1563,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1415800,
+   "point_count": 6,
+   "point_offset": 1415728
+  },
+  {
+   "brush": 1564,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1415952,
+   "point_count": 6,
+   "point_offset": 1415880
+  },
+  {
+   "brush": 1565,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1416104,
+   "point_count": 6,
+   "point_offset": 1416032
+  },
+  {
+   "brush": 1566,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1416304,
+   "point_count": 10,
+   "point_offset": 1416184
+  },
+  {
+   "brush": 1567,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1416448,
+   "point_count": 4,
+   "point_offset": 1416400
+  },
+  {
+   "brush": 1568,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1416632,
+   "point_count": 10,
+   "point_offset": 1416512
+  },
+  {
+   "brush": 1569,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1416812,
+   "point_count": 7,
+   "point_offset": 1416728
+  },
+  {
+   "brush": 1570,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1416988,
+   "point_count": 8,
+   "point_offset": 1416892
+  },
+  {
+   "brush": 1571,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1417116,
+   "point_count": 4,
+   "point_offset": 1417068
+  },
+  {
+   "brush": 1572,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1417276,
+   "point_count": 8,
+   "point_offset": 1417180
+  },
+  {
+   "brush": 1573,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1417404,
+   "point_count": 4,
+   "point_offset": 1417356
+  },
+  {
+   "brush": 1574,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1417516,
+   "point_count": 4,
+   "point_offset": 1417468
+  },
+  {
+   "brush": 1575,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1417640,
+   "point_count": 5,
+   "point_offset": 1417580
+  },
+  {
+   "brush": 1576,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1417792,
+   "point_count": 6,
+   "point_offset": 1417720
+  },
+  {
+   "brush": 1577,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1417944,
+   "point_count": 6,
+   "point_offset": 1417872
+  },
+  {
+   "brush": 1578,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1418112,
+   "point_count": 6,
+   "point_offset": 1418040
+  },
+  {
+   "brush": 1579,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1418240,
+   "point_count": 4,
+   "point_offset": 1418192
+  },
+  {
+   "brush": 1580,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1418400,
+   "point_count": 8,
+   "point_offset": 1418304
+  },
+  {
+   "brush": 1581,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1418640,
+   "point_count": 12,
+   "point_offset": 1418496
+  },
+  {
+   "brush": 1582,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1418808,
+   "point_count": 6,
+   "point_offset": 1418736
+  },
+  {
+   "brush": 1583,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1418960,
+   "point_count": 6,
+   "point_offset": 1418888
+  },
+  {
+   "brush": 1584,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1419112,
+   "point_count": 6,
+   "point_offset": 1419040
+  },
+  {
+   "brush": 1585,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1419264,
+   "point_count": 6,
+   "point_offset": 1419192
+  },
+  {
+   "brush": 1586,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1419416,
+   "point_count": 6,
+   "point_offset": 1419344
+  },
+  {
+   "brush": 1587,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1419568,
+   "point_count": 6,
+   "point_offset": 1419496
+  },
+  {
+   "brush": 1588,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1419696,
+   "point_count": 4,
+   "point_offset": 1419648
+  },
+  {
+   "brush": 1589,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1419856,
+   "point_count": 8,
+   "point_offset": 1419760
+  },
+  {
+   "brush": 1590,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1420032,
+   "point_count": 8,
+   "point_offset": 1419936
+  },
+  {
+   "brush": 1591,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1420172,
+   "point_count": 5,
+   "point_offset": 1420112
+  },
+  {
+   "brush": 1592,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1420324,
+   "point_count": 6,
+   "point_offset": 1420252
+  },
+  {
+   "brush": 1593,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1420476,
+   "point_count": 6,
+   "point_offset": 1420404
+  },
+  {
+   "brush": 1594,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1420652,
+   "point_count": 8,
+   "point_offset": 1420556
+  },
+  {
+   "brush": 1595,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1420828,
+   "point_count": 8,
+   "point_offset": 1420732
+  },
+  {
+   "brush": 1596,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1421028,
+   "point_count": 10,
+   "point_offset": 1420908
+  },
+  {
+   "brush": 1597,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 7,
+   "plane_offset": 1421292,
+   "point_count": 14,
+   "point_offset": 1421124
+  },
+  {
+   "brush": 1598,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1421452,
+   "point_count": 4,
+   "point_offset": 1421404
+  },
+  {
+   "brush": 1599,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1421576,
+   "point_count": 5,
+   "point_offset": 1421516
+  },
+  {
+   "brush": 1600,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1421728,
+   "point_count": 6,
+   "point_offset": 1421656
+  },
+  {
+   "brush": 1601,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1421880,
+   "point_count": 6,
+   "point_offset": 1421808
+  },
+  {
+   "brush": 1602,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1422032,
+   "point_count": 6,
+   "point_offset": 1421960
+  },
+  {
+   "brush": 1603,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1422184,
+   "point_count": 6,
+   "point_offset": 1422112
+  },
+  {
+   "brush": 1604,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1422352,
+   "point_count": 6,
+   "point_offset": 1422280
+  },
+  {
+   "brush": 1605,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1422504,
+   "point_count": 6,
+   "point_offset": 1422432
+  },
+  {
+   "brush": 1606,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1422656,
+   "point_count": 6,
+   "point_offset": 1422584
+  },
+  {
+   "brush": 1607,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1422808,
+   "point_count": 6,
+   "point_offset": 1422736
+  },
+  {
+   "brush": 1608,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1422960,
+   "point_count": 6,
+   "point_offset": 1422888
+  },
+  {
+   "brush": 1609,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1423112,
+   "point_count": 6,
+   "point_offset": 1423040
+  },
+  {
+   "brush": 1610,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1423264,
+   "point_count": 6,
+   "point_offset": 1423192
+  },
+  {
+   "brush": 1611,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1423416,
+   "point_count": 6,
+   "point_offset": 1423344
+  },
+  {
+   "brush": 1612,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1423568,
+   "point_count": 6,
+   "point_offset": 1423496
+  },
+  {
+   "brush": 1613,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1423720,
+   "point_count": 6,
+   "point_offset": 1423648
+  },
+  {
+   "brush": 1614,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1423872,
+   "point_count": 6,
+   "point_offset": 1423800
+  },
+  {
+   "brush": 1615,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1424024,
+   "point_count": 6,
+   "point_offset": 1423952
+  },
+  {
+   "brush": 1616,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1424176,
+   "point_count": 6,
+   "point_offset": 1424104
+  },
+  {
+   "brush": 1617,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1424304,
+   "point_count": 4,
+   "point_offset": 1424256
+  },
+  {
+   "brush": 1618,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1424428,
+   "point_count": 5,
+   "point_offset": 1424368
+  },
+  {
+   "brush": 1619,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1424556,
+   "point_count": 4,
+   "point_offset": 1424508
+  },
+  {
+   "brush": 1620,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1424668,
+   "point_count": 4,
+   "point_offset": 1424620
+  },
+  {
+   "brush": 1621,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1424792,
+   "point_count": 5,
+   "point_offset": 1424732
+  },
+  {
+   "brush": 1622,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1424920,
+   "point_count": 4,
+   "point_offset": 1424872
+  },
+  {
+   "brush": 1623,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1425032,
+   "point_count": 4,
+   "point_offset": 1424984
+  },
+  {
+   "brush": 1624,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1425180,
+   "point_count": 7,
+   "point_offset": 1425096
+  },
+  {
+   "brush": 1625,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1425320,
+   "point_count": 5,
+   "point_offset": 1425260
+  },
+  {
+   "brush": 1626,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1425448,
+   "point_count": 4,
+   "point_offset": 1425400
+  },
+  {
+   "brush": 1627,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1425572,
+   "point_count": 5,
+   "point_offset": 1425512
+  },
+  {
+   "brush": 1628,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1425736,
+   "point_count": 7,
+   "point_offset": 1425652
+  },
+  {
+   "brush": 1629,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1425900,
+   "point_count": 7,
+   "point_offset": 1425816
+  },
+  {
+   "brush": 1630,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1426064,
+   "point_count": 7,
+   "point_offset": 1425980
+  },
+  {
+   "brush": 1631,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1426204,
+   "point_count": 5,
+   "point_offset": 1426144
+  },
+  {
+   "brush": 1632,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1426332,
+   "point_count": 4,
+   "point_offset": 1426284
+  },
+  {
+   "brush": 1633,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1426456,
+   "point_count": 5,
+   "point_offset": 1426396
+  },
+  {
+   "brush": 1634,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1426584,
+   "point_count": 4,
+   "point_offset": 1426536
+  },
+  {
+   "brush": 1635,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1426696,
+   "point_count": 4,
+   "point_offset": 1426648
+  },
+  {
+   "brush": 1636,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1426820,
+   "point_count": 5,
+   "point_offset": 1426760
+  },
+  {
+   "brush": 1637,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1426996,
+   "point_count": 8,
+   "point_offset": 1426900
+  },
+  {
+   "brush": 1638,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1427188,
+   "point_count": 8,
+   "point_offset": 1427092
+  },
+  {
+   "brush": 1639,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1427356,
+   "point_count": 6,
+   "point_offset": 1427284
+  },
+  {
+   "brush": 1640,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1427508,
+   "point_count": 6,
+   "point_offset": 1427436
+  },
+  {
+   "brush": 1641,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1427684,
+   "point_count": 8,
+   "point_offset": 1427588
+  },
+  {
+   "brush": 1642,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1427876,
+   "point_count": 8,
+   "point_offset": 1427780
+  },
+  {
+   "brush": 1643,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1428064,
+   "point_count": 9,
+   "point_offset": 1427956
+  },
+  {
+   "brush": 1644,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1428292,
+   "point_count": 11,
+   "point_offset": 1428160
+  },
+  {
+   "brush": 1645,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1428496,
+   "point_count": 9,
+   "point_offset": 1428388
+  },
+  {
+   "brush": 1646,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1428688,
+   "point_count": 8,
+   "point_offset": 1428592
+  },
+  {
+   "brush": 1647,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1428856,
+   "point_count": 6,
+   "point_offset": 1428784
+  },
+  {
+   "brush": 1648,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1429008,
+   "point_count": 6,
+   "point_offset": 1428936
+  },
+  {
+   "brush": 1649,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1429184,
+   "point_count": 8,
+   "point_offset": 1429088
+  },
+  {
+   "brush": 1650,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1429352,
+   "point_count": 6,
+   "point_offset": 1429280
+  },
+  {
+   "brush": 1651,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1429504,
+   "point_count": 6,
+   "point_offset": 1429432
+  },
+  {
+   "brush": 1652,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1429680,
+   "point_count": 8,
+   "point_offset": 1429584
+  },
+  {
+   "brush": 1653,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1429872,
+   "point_count": 8,
+   "point_offset": 1429776
+  },
+  {
+   "brush": 1654,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1430064,
+   "point_count": 8,
+   "point_offset": 1429968
+  },
+  {
+   "brush": 1655,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1430256,
+   "point_count": 8,
+   "point_offset": 1430160
+  },
+  {
+   "brush": 1656,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1430448,
+   "point_count": 8,
+   "point_offset": 1430352
+  },
+  {
+   "brush": 1657,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1430640,
+   "point_count": 8,
+   "point_offset": 1430544
+  },
+  {
+   "brush": 1658,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1430832,
+   "point_count": 8,
+   "point_offset": 1430736
+  },
+  {
+   "brush": 1659,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1431000,
+   "point_count": 6,
+   "point_offset": 1430928
+  },
+  {
+   "brush": 1660,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1431152,
+   "point_count": 6,
+   "point_offset": 1431080
+  },
+  {
+   "brush": 1661,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1431304,
+   "point_count": 6,
+   "point_offset": 1431232
+  },
+  {
+   "brush": 1662,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1431456,
+   "point_count": 6,
+   "point_offset": 1431384
+  },
+  {
+   "brush": 1663,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1431608,
+   "point_count": 6,
+   "point_offset": 1431536
+  },
+  {
+   "brush": 1664,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1431760,
+   "point_count": 6,
+   "point_offset": 1431688
+  },
+  {
+   "brush": 1665,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1431912,
+   "point_count": 6,
+   "point_offset": 1431840
+  },
+  {
+   "brush": 1666,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1432064,
+   "point_count": 6,
+   "point_offset": 1431992
+  },
+  {
+   "brush": 1667,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1432216,
+   "point_count": 6,
+   "point_offset": 1432144
+  },
+  {
+   "brush": 1668,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1432368,
+   "point_count": 6,
+   "point_offset": 1432296
+  },
+  {
+   "brush": 1669,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1432568,
+   "point_count": 10,
+   "point_offset": 1432448
+  },
+  {
+   "brush": 1670,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1432736,
+   "point_count": 6,
+   "point_offset": 1432664
+  },
+  {
+   "brush": 1671,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1432888,
+   "point_count": 6,
+   "point_offset": 1432816
+  },
+  {
+   "brush": 1672,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1433040,
+   "point_count": 6,
+   "point_offset": 1432968
+  },
+  {
+   "brush": 1673,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1433192,
+   "point_count": 6,
+   "point_offset": 1433120
+  },
+  {
+   "brush": 1674,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1433344,
+   "point_count": 6,
+   "point_offset": 1433272
+  },
+  {
+   "brush": 1675,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 8,
+   "plane_offset": 1433688,
+   "point_count": 22,
+   "point_offset": 1433424
+  },
+  {
+   "brush": 1676,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1433936,
+   "point_count": 10,
+   "point_offset": 1433816
+  },
+  {
+   "brush": 1677,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 7,
+   "plane_offset": 1434224,
+   "point_count": 16,
+   "point_offset": 1434032
+  },
+  {
+   "brush": 1678,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1434408,
+   "point_count": 6,
+   "point_offset": 1434336
+  },
+  {
+   "brush": 1679,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1434560,
+   "point_count": 6,
+   "point_offset": 1434488
+  },
+  {
+   "brush": 1680,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1434712,
+   "point_count": 6,
+   "point_offset": 1434640
+  },
+  {
+   "brush": 1681,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1434864,
+   "point_count": 6,
+   "point_offset": 1434792
+  },
+  {
+   "brush": 1682,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1435016,
+   "point_count": 6,
+   "point_offset": 1434944
+  },
+  {
+   "brush": 1683,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1435168,
+   "point_count": 6,
+   "point_offset": 1435096
+  },
+  {
+   "brush": 1684,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1435320,
+   "point_count": 6,
+   "point_offset": 1435248
+  },
+  {
+   "brush": 1685,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 7,
+   "plane_offset": 1435592,
+   "point_count": 16,
+   "point_offset": 1435400
+  },
+  {
+   "brush": 1686,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1435776,
+   "point_count": 6,
+   "point_offset": 1435704
+  },
+  {
+   "brush": 1687,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1435928,
+   "point_count": 6,
+   "point_offset": 1435856
+  },
+  {
+   "brush": 1688,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1436080,
+   "point_count": 6,
+   "point_offset": 1436008
+  },
+  {
+   "brush": 1689,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1436232,
+   "point_count": 6,
+   "point_offset": 1436160
+  },
+  {
+   "brush": 1690,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1436432,
+   "point_count": 10,
+   "point_offset": 1436312
+  },
+  {
+   "brush": 1691,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1436600,
+   "point_count": 6,
+   "point_offset": 1436528
+  },
+  {
+   "brush": 1692,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1436752,
+   "point_count": 6,
+   "point_offset": 1436680
+  },
+  {
+   "brush": 1693,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1436904,
+   "point_count": 6,
+   "point_offset": 1436832
+  },
+  {
+   "brush": 1694,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1437056,
+   "point_count": 6,
+   "point_offset": 1436984
+  },
+  {
+   "brush": 1695,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1437208,
+   "point_count": 6,
+   "point_offset": 1437136
+  },
+  {
+   "brush": 1696,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1437360,
+   "point_count": 6,
+   "point_offset": 1437288
+  },
+  {
+   "brush": 1697,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1437512,
+   "point_count": 6,
+   "point_offset": 1437440
+  },
+  {
+   "brush": 1698,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1437664,
+   "point_count": 6,
+   "point_offset": 1437592
+  },
+  {
+   "brush": 1699,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1437816,
+   "point_count": 6,
+   "point_offset": 1437744
+  },
+  {
+   "brush": 1700,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1437968,
+   "point_count": 6,
+   "point_offset": 1437896
+  },
+  {
+   "brush": 1701,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 7,
+   "plane_offset": 1438240,
+   "point_count": 16,
+   "point_offset": 1438048
+  },
+  {
+   "brush": 1702,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1438448,
+   "point_count": 8,
+   "point_offset": 1438352
+  },
+  {
+   "brush": 1704,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1438600,
+   "point_count": 6,
+   "point_offset": 1438528
+  },
+  {
+   "brush": 1705,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1438740,
+   "point_count": 5,
+   "point_offset": 1438680
+  },
+  {
+   "brush": 1706,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1438904,
+   "point_count": 7,
+   "point_offset": 1438820
+  },
+  {
+   "brush": 1707,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1439044,
+   "point_count": 5,
+   "point_offset": 1438984
+  },
+  {
+   "brush": 1708,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 4,
+   "plane_offset": 1439172,
+   "point_count": 4,
+   "point_offset": 1439124
+  },
+  {
+   "brush": 1709,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1439308,
+   "point_count": 6,
+   "point_offset": 1439236
+  },
+  {
+   "brush": 1710,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1439484,
+   "point_count": 8,
+   "point_offset": 1439388
+  },
+  {
+   "brush": 1711,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1439676,
+   "point_count": 8,
+   "point_offset": 1439580
+  },
+  {
+   "brush": 1712,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1439868,
+   "point_count": 8,
+   "point_offset": 1439772
+  },
+  {
+   "brush": 1713,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1440060,
+   "point_count": 8,
+   "point_offset": 1439964
+  },
+  {
+   "brush": 1714,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 9,
+   "plane_offset": 1440324,
+   "point_count": 14,
+   "point_offset": 1440156
+  },
+  {
+   "brush": 1715,
+   "entity": 192,
+   "kind": "solid",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1440564,
+   "point_count": 8,
+   "point_offset": 1440468
+  },
+  {
+   "brush": 1716,
+   "entity": 192,
+   "kind": "clip",
+   "model": 48,
+   "plane_count": 5,
+   "plane_offset": 1440732,
+   "point_count": 6,
+   "point_offset": 1440660
+  },
+  {
+   "brush": 1717,
+   "entity": 192,
+   "kind": "clip",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1440908,
+   "point_count": 8,
+   "point_offset": 1440812
+  },
+  {
+   "brush": 1718,
+   "entity": 192,
+   "kind": "clip",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1441100,
+   "point_count": 8,
+   "point_offset": 1441004
+  },
+  {
+   "brush": 1719,
+   "entity": 192,
+   "kind": "clip",
+   "model": 48,
+   "plane_count": 6,
+   "plane_offset": 1441292,
+   "point_count": 8,
+   "point_offset": 1441196
+  },
+  {
+   "brush": 1742,
+   "entity": 195,
+   "kind": "solid",
+   "model": 51,
+   "plane_count": 5,
+   "plane_offset": 1441460,
+   "point_count": 6,
+   "point_offset": 1441388
+  },
+  {
+   "brush": 1743,
+   "entity": 195,
+   "kind": "solid",
+   "model": 51,
+   "plane_count": 5,
+   "plane_offset": 1441612,
+   "point_count": 6,
+   "point_offset": 1441540
+  },
+  {
+   "brush": 1744,
+   "entity": 195,
+   "kind": "solid",
+   "model": 51,
+   "plane_count": 5,
+   "plane_offset": 1441764,
+   "point_count": 6,
+   "point_offset": 1441692
+  },
+  {
+   "brush": 1745,
+   "entity": 195,
+   "kind": "solid",
+   "model": 51,
+   "plane_count": 5,
+   "plane_offset": 1441916,
+   "point_count": 6,
+   "point_offset": 1441844
+  },
+  {
+   "brush": 1746,
+   "entity": 195,
+   "kind": "solid",
+   "model": 51,
+   "plane_count": 5,
+   "plane_offset": 1442068,
+   "point_count": 6,
+   "point_offset": 1441996
+  },
+  {
+   "brush": 1747,
+   "entity": 195,
+   "kind": "solid",
+   "model": 51,
+   "plane_count": 5,
+   "plane_offset": 1442220,
+   "point_count": 6,
+   "point_offset": 1442148
+  },
+  {
+   "brush": 1748,
+   "entity": 195,
+   "kind": "solid",
+   "model": 51,
+   "plane_count": 5,
+   "plane_offset": 1442372,
+   "point_count": 6,
+   "point_offset": 1442300
+  },
+  {
+   "brush": 1749,
+   "entity": 195,
+   "kind": "solid",
+   "model": 51,
+   "plane_count": 5,
+   "plane_offset": 1442524,
+   "point_count": 6,
+   "point_offset": 1442452
+  },
+  {
+   "brush": 1750,
+   "entity": 195,
+   "kind": "solid",
+   "model": 51,
+   "plane_count": 5,
+   "plane_offset": 1442676,
+   "point_count": 6,
+   "point_offset": 1442604
+  },
+  {
+   "brush": 1751,
+   "entity": 195,
+   "kind": "solid",
+   "model": 51,
+   "plane_count": 5,
+   "plane_offset": 1442828,
+   "point_count": 6,
+   "point_offset": 1442756
+  },
+  {
+   "brush": 1752,
+   "entity": 195,
+   "kind": "solid",
+   "model": 51,
+   "plane_count": 5,
+   "plane_offset": 1442980,
+   "point_count": 6,
+   "point_offset": 1442908
+  },
+  {
+   "brush": 1753,
+   "entity": 195,
+   "kind": "solid",
+   "model": 51,
+   "plane_count": 5,
+   "plane_offset": 1443132,
+   "point_count": 6,
+   "point_offset": 1443060
+  },
+  {
+   "brush": 1754,
+   "entity": 195,
+   "kind": "solid",
+   "model": 51,
+   "plane_count": 5,
+   "plane_offset": 1443284,
+   "point_count": 6,
+   "point_offset": 1443212
+  },
+  {
+   "brush": 1755,
+   "entity": 195,
+   "kind": "solid",
+   "model": 51,
+   "plane_count": 5,
+   "plane_offset": 1443436,
+   "point_count": 6,
+   "point_offset": 1443364
+  },
+  {
+   "brush": 1756,
+   "entity": 195,
+   "kind": "solid",
+   "model": 51,
+   "plane_count": 5,
+   "plane_offset": 1443588,
+   "point_count": 6,
+   "point_offset": 1443516
+  },
+  {
+   "brush": 1757,
+   "entity": 195,
+   "kind": "solid",
+   "model": 51,
+   "plane_count": 5,
+   "plane_offset": 1443740,
+   "point_count": 6,
+   "point_offset": 1443668
+  },
+  {
+   "brush": 1758,
+   "entity": 195,
+   "kind": "solid",
+   "model": 51,
+   "plane_count": 5,
+   "plane_offset": 1443892,
+   "point_count": 6,
+   "point_offset": 1443820
+  },
+  {
+   "brush": 1759,
+   "entity": 195,
+   "kind": "solid",
+   "model": 51,
+   "plane_count": 5,
+   "plane_offset": 1444044,
+   "point_count": 6,
+   "point_offset": 1443972
+  },
+  {
+   "brush": 1760,
+   "entity": 195,
+   "kind": "solid",
+   "model": 51,
+   "plane_count": 5,
+   "plane_offset": 1444196,
+   "point_count": 6,
+   "point_offset": 1444124
+  },
+  {
+   "brush": 1761,
+   "entity": 195,
+   "kind": "solid",
+   "model": 51,
+   "plane_count": 5,
+   "plane_offset": 1444348,
+   "point_count": 6,
+   "point_offset": 1444276
+  },
+  {
+   "brush": 1762,
+   "entity": 195,
+   "kind": "solid",
+   "model": 51,
+   "plane_count": 5,
+   "plane_offset": 1444500,
+   "point_count": 6,
+   "point_offset": 1444428
+  },
+  {
+   "brush": 1763,
+   "entity": 195,
+   "kind": "solid",
+   "model": 51,
+   "plane_count": 5,
+   "plane_offset": 1444652,
+   "point_count": 6,
+   "point_offset": 1444580
+  },
+  {
+   "brush": 1770,
+   "entity": 197,
+   "kind": "solid",
+   "model": 53,
+   "plane_count": 5,
+   "plane_offset": 1444804,
+   "point_count": 6,
+   "point_offset": 1444732
+  },
+  {
+   "brush": 1771,
+   "entity": 197,
+   "kind": "solid",
+   "model": 53,
+   "plane_count": 5,
+   "plane_offset": 1444956,
+   "point_count": 6,
+   "point_offset": 1444884
+  },
+  {
+   "brush": 1772,
+   "entity": 197,
+   "kind": "solid",
+   "model": 53,
+   "plane_count": 6,
+   "plane_offset": 1445132,
+   "point_count": 8,
+   "point_offset": 1445036
+  },
+  {
+   "brush": 1773,
+   "entity": 197,
+   "kind": "solid",
+   "model": 53,
+   "plane_count": 5,
+   "plane_offset": 1445300,
+   "point_count": 6,
+   "point_offset": 1445228
+  },
+  {
+   "brush": 1774,
+   "entity": 197,
+   "kind": "solid",
+   "model": 53,
+   "plane_count": 5,
+   "plane_offset": 1445452,
+   "point_count": 6,
+   "point_offset": 1445380
+  },
+  {
+   "brush": 1775,
+   "entity": 197,
+   "kind": "solid",
+   "model": 53,
+   "plane_count": 6,
+   "plane_offset": 1445628,
+   "point_count": 8,
+   "point_offset": 1445532
+  },
+  {
+   "brush": 1776,
+   "entity": 197,
+   "kind": "solid",
+   "model": 53,
+   "plane_count": 6,
+   "plane_offset": 1445820,
+   "point_count": 8,
+   "point_offset": 1445724
+  },
+  {
+   "brush": 1777,
+   "entity": 197,
+   "kind": "solid",
+   "model": 53,
+   "plane_count": 6,
+   "plane_offset": 1446012,
+   "point_count": 8,
+   "point_offset": 1445916
+  }
+ ],
+ "links": [
+  {
+   "delay": 0.0,
+   "from": 81,
+   "from_class": "func_breakable",
+   "from_name": "",
+   "input": "EnableMotion",
+   "output": "OnBreak",
+   "param": "",
+   "special": false,
+   "target": "prop_horseshoe",
+   "times": -1,
+   "to": [
+    80
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 96,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Open",
+   "output": "OnDamaged",
+   "param": "",
+   "special": false,
+   "target": "grave door",
+   "times": -1,
+   "to": [
+    95
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 97,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Open",
+   "output": "OnIn",
+   "param": "",
+   "special": false,
+   "target": "grave door",
+   "times": -1,
+   "to": [
+    95
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 171,
+   "from_class": "func_breakable",
+   "from_name": "",
+   "input": "EnableMotion",
+   "output": "OnBreak",
+   "param": "",
+   "special": false,
+   "target": "prop_ChurchCross",
+   "times": -1,
+   "to": [
+    170
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 176,
+   "from_class": "trigger_teleport",
+   "from_name": "teleparth",
+   "input": "Disable",
+   "output": "OnStartTouchAll",
+   "param": "",
+   "special": false,
+   "target": "teleparth",
+   "times": -1,
+   "to": [
+    176
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 177,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Enable",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "teleparth",
+   "times": -1,
+   "to": [
+    176
+   ]
+  },
+  {
+   "delay": 1.0,
+   "from": 177,
+   "from_class": "func_button",
+   "from_name": "",
+   "input": "Disable",
+   "output": "OnPressed",
+   "param": "",
+   "special": false,
+   "target": "teleparth",
+   "times": -1,
+   "to": [
+    176
+   ]
+  },
+  {
+   "delay": 360.0,
+   "from": 183,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnMapSpawn",
+   "param": "say **Nuke Has Been Launched**",
+   "special": false,
+   "target": "servercommand",
+   "times": -1,
+   "to": [
+    182
+   ]
+  },
+  {
+   "delay": 360.0,
+   "from": 183,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "nuke_launched",
+   "times": -1,
+   "to": [
+    180
+   ]
+  },
+  {
+   "delay": 365.0,
+   "from": 183,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnMapSpawn",
+   "param": "say **Nuke Will Explode in 20 seconds**",
+   "special": false,
+   "target": "servercommand",
+   "times": -1,
+   "to": [
+    182
+   ]
+  },
+  {
+   "delay": 380.0,
+   "from": 183,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnMapSpawn",
+   "param": "say **5 Seconds Till Impact**",
+   "special": false,
+   "target": "servercommand",
+   "times": -1,
+   "to": [
+    182
+   ]
+  },
+  {
+   "delay": 385.0,
+   "from": 183,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "PlaySound",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "nuke_explode",
+   "times": -1,
+   "to": [
+    181
+   ]
+  },
+  {
+   "delay": 385.0,
+   "from": 183,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "StartShake",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "nuke_shake",
+   "times": -1,
+   "to": [
+    179
+   ]
+  },
+  {
+   "delay": 388.0,
+   "from": 183,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "Enable",
+   "output": "OnMapSpawn",
+   "param": "",
+   "special": false,
+   "target": "nuke_hurt",
+   "times": -1,
+   "to": [
+    178
+   ]
+  },
+  {
+   "delay": 310.0,
+   "from": 183,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "Command",
+   "output": "OnMapSpawn",
+   "param": "say **Helicopter is arriving**",
+   "special": false,
+   "target": "servercommand",
+   "times": -1,
+   "to": [
+    182
+   ]
+  },
+  {
+   "delay": 310.0,
+   "from": 183,
+   "from_class": "logic_auto",
+   "from_name": "",
+   "input": "SetSpeed",
+   "output": "OnMapSpawn",
+   "param": "80",
+   "special": false,
+   "target": "huey",
+   "times": -1,
+   "to": [
+    192
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 201,
+   "from_class": "path_track",
+   "from_name": "track4",
+   "input": "SetSpeed",
+   "output": "OnPass",
+   "param": "0",
+   "special": false,
+   "target": "huey",
+   "times": -1,
+   "to": [
+    192
+   ]
+  },
+  {
+   "delay": 15.0,
+   "from": 201,
+   "from_class": "path_track",
+   "from_name": "track4",
+   "input": "SetSpeed",
+   "output": "OnPass",
+   "param": "15",
+   "special": false,
+   "target": "huey",
+   "times": -1,
+   "to": [
+    192
+   ]
+  },
+  {
+   "delay": 0.0,
+   "from": 201,
+   "from_class": "path_track",
+   "from_name": "track4",
+   "input": "Command",
+   "output": "OnPass",
+   "param": "say **Helicopter leaving in 15 seconds**",
+   "special": false,
+   "target": "servercommand",
+   "times": -1,
+   "to": [
+    182
+   ]
+  }
+ ],
+ "movers": [
+  {
+   "classname": "func_door",
+   "direction": [
+    0.0,
+    -0.0,
+    -1.0
+   ],
+   "distance": 1.1811,
+   "entity": 82,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    30.0037,
+    3.048,
+    -5.2197
+   ],
+   "mins": [
+    29.9275,
+    0.762,
+    -6.4389
+   ],
+   "model": 19,
+   "opened_by": [],
+   "origin": [
+    29.9658,
+    1.905,
+    -5.8293
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 1024,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": true,
+   "travel_time": 0.62,
+   "use": false,
+   "wait": 4.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "distance": 1.1811,
+   "entity": 83,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    30.0037,
+    3.048,
+    -3.9243
+   ],
+   "mins": [
+    29.9275,
+    0.762,
+    -5.1435
+   ],
+   "model": 20,
+   "opened_by": [],
+   "origin": [
+    29.9658,
+    1.905,
+    -4.5339
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 1024,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": true,
+   "travel_time": 0.62,
+   "use": false,
+   "wait": 4.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.9525,
+   "entity": 95,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    37.1856,
+    0.4572,
+    3.7338
+   ],
+   "mins": [
+    36.195,
+    0.381,
+    3.6576
+   ],
+   "model": 22,
+   "opened_by": [
+    {
+     "classname": "func_button",
+     "delay": 0.0,
+     "entity": 96,
+     "input": "Open",
+     "output": "OnDamaged",
+     "targetname": ""
+    },
+    {
+     "classname": "func_button",
+     "delay": 0.0,
+     "entity": 97,
+     "input": "Open",
+     "output": "OnIn",
+     "targetname": ""
+    }
+   ],
+   "origin": [
+    36.6905,
+    0.4191,
+    3.6957
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 0,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "grave door",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.5,
+   "use": false,
+   "wait": 4.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 97,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    36.7665,
+    -0.1524,
+    2.8194
+   ],
+   "mins": [
+    36.6141,
+    -0.3048,
+    2.7432
+   ],
+   "model": 24,
+   "opened_by": [],
+   "origin": [
+    36.6905,
+    -0.2286,
+    2.7813
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "Open",
+     "output": "OnIn",
+     "param": "",
+     "target": "grave door",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1025,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 177,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -20.3454,
+    -1.9812,
+    -41.5862
+   ],
+   "mins": [
+    -20.4978,
+    -2.1336,
+    -41.6052
+   ],
+   "model": 38,
+   "opened_by": [],
+   "origin": [
+    -20.4216,
+    -2.0574,
+    -41.5957
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "Enable",
+     "output": "OnPressed",
+     "param": "",
+     "target": "teleparth",
+     "times": -1
+    },
+    {
+     "delay": 1.0,
+     "input": "Disable",
+     "output": "OnPressed",
+     "param": "",
+     "target": "teleparth",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1025,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "classname": "func_rotating",
+   "degrees_per_second": 1000.0,
+   "entity": 185,
+   "kind": "spin",
+   "maxs": [
+    -8.401,
+    17.2593,
+    7.3152
+   ],
+   "mins": [
+    -8.6487,
+    15.1447,
+    7.1247
+   ],
+   "model": 41,
+   "opened_by": [],
+   "origin": [
+    -8.5249,
+    16.2026,
+    7.22
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 537,
+   "start_on": true,
+   "targetname": "huey_blade",
+   "travel_time": 0.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    -0.99619,
+    -0.0,
+    0.08716
+   ],
+   "distance": 1.1101,
+   "entity": 187,
+   "kind": "slide",
+   "lip": 0.1524,
+   "locked": false,
+   "maxs": [
+    -1.524,
+    15.4305,
+    8.4392
+   ],
+   "mins": [
+    -2.8194,
+    14.1542,
+    8.2867
+   ],
+   "model": 43,
+   "opened_by": [],
+   "origin": [
+    -2.0955,
+    14.8495,
+    8.3629
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 288,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "huey_door1",
+   "toggle": true,
+   "touch": false,
+   "travel_time": 0.5827,
+   "use": true,
+   "wait": 4.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "func_rotating",
+   "degrees_per_second": 1000.0,
+   "entity": 188,
+   "kind": "spin",
+   "maxs": [
+    -1.3144,
+    16.5545,
+    11.7348
+   ],
+   "mins": [
+    -2.7242,
+    15.8687,
+    3.2004
+   ],
+   "model": 44,
+   "opened_by": [],
+   "origin": [
+    -2.0193,
+    16.2116,
+    7.4676
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 529,
+   "start_on": true,
+   "targetname": "huey_blade",
+   "travel_time": 0.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "func_door_rotating",
+   "degrees": 90.0,
+   "entity": 190,
+   "kind": "rotate",
+   "locked": false,
+   "maxs": [
+    -0.3047,
+    15.4305,
+    8.4392
+   ],
+   "mins": [
+    -1.1431,
+    14.1541,
+    8.1915
+   ],
+   "model": 46,
+   "opened_by": [],
+   "origin": [
+    -0.3048,
+    14.8495,
+    8.2296
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 304,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "huey_door3",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0
+  },
+  {
+   "classname": "func_tracktrain",
+   "entity": 192,
+   "height": 0.0762,
+   "kind": "path",
+   "maxs": [
+    0.6096,
+    16.2497,
+    8.4392
+   ],
+   "mins": [
+    -8.5725,
+    13.9826,
+    6.496
+   ],
+   "model": 48,
+   "opened_by": [
+    {
+     "classname": "logic_auto",
+     "delay": 310.0,
+     "entity": 183,
+     "input": "SetSpeed",
+     "output": "OnMapSpawn",
+     "targetname": ""
+    },
+    {
+     "classname": "path_track",
+     "delay": 0.0,
+     "entity": 201,
+     "input": "SetSpeed",
+     "output": "OnPass",
+     "targetname": "track4"
+    },
+    {
+     "classname": "path_track",
+     "delay": 15.0,
+     "entity": 201,
+     "input": "SetSpeed",
+     "output": "OnPass",
+     "targetname": "track4"
+    }
+   ],
+   "origin": [
+    -3.9815,
+    15.1162,
+    7.4676
+   ],
+   "outputs": [],
+   "path": [
+    {
+     "at": [
+      -2.4384,
+      15.0114,
+      7.4676
+     ],
+     "name": "track1"
+    },
+    {
+     "at": [
+      -0.8382,
+      15.0114,
+      7.4676
+     ],
+     "name": "1_5"
+    },
+    {
+     "at": [
+      -2.4384,
+      16.4592,
+      7.4676
+     ],
+     "name": "track2"
+    },
+    {
+     "at": [
+      -2.4384,
+      15.0876,
+      -14.6304
+     ],
+     "name": "track3"
+    },
+    {
+     "at": [
+      -2.4384,
+      3.2004,
+      -14.6304
+     ],
+     "name": "track4"
+    },
+    {
+     "at": [
+      -2.4384,
+      10.668,
+      -14.6304
+     ],
+     "name": "track5"
+    },
+    {
+     "at": [
+      -2.4384,
+      15.0114,
+      -9.2964
+     ],
+     "name": "track6"
+    },
+    {
+     "at": [
+      -2.4384,
+      15.0114,
+      7.3914
+     ],
+     "name": "track7"
+    }
+   ],
+   "solid": true,
+   "spawnflags": 0,
+   "speed": 0.0,
+   "start_speed": 1.524,
+   "targetname": "huey",
+   "travel_time": 0.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "func_door_rotating",
+   "degrees": -90.0,
+   "entity": 195,
+   "kind": "rotate",
+   "locked": false,
+   "maxs": [
+    -0.3047,
+    15.4305,
+    6.7437
+   ],
+   "mins": [
+    -1.1431,
+    14.1541,
+    6.496
+   ],
+   "model": 51,
+   "opened_by": [],
+   "origin": [
+    -0.3048,
+    14.8495,
+    6.7056
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 306,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "huey_door4",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    -0.99619,
+    -0.0,
+    -0.08716
+   ],
+   "distance": 1.1101,
+   "entity": 197,
+   "kind": "slide",
+   "lip": 0.1524,
+   "locked": false,
+   "maxs": [
+    -1.524,
+    15.4305,
+    6.6485
+   ],
+   "mins": [
+    -2.8194,
+    14.1542,
+    6.496
+   ],
+   "model": 53,
+   "opened_by": [],
+   "origin": [
+    -2.0955,
+    14.8495,
+    6.5723
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 288,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "huey_door2",
+   "toggle": true,
+   "touch": false,
+   "travel_time": 0.5827,
+   "use": true,
+   "wait": 4.0
+  }
+ ],
  "name": "zm_chaos_city",
  "notes": [],
  "skipped": {
@@ -17498,6 +21982,116 @@
    "vertex_count": 5
   },
   {
+   "classname": "func_door",
+   "colour": [
+    0.504,
+    0.4253,
+    0.3987
+   ],
+   "entity": 82,
+   "generic": "door_wood",
+   "index_count": 36,
+   "index_offset": 1129380,
+   "material": "de_cbble/door010",
+   "model": 19,
+   "normal_offset": 1128900,
+   "position_offset": 1128612,
+   "texels": [
+    256,
+    512
+   ],
+   "uv_offset": 1129188,
+   "vertex_count": 24
+  },
+  {
+   "classname": "func_door",
+   "colour": [
+    0.504,
+    0.4253,
+    0.3987
+   ],
+   "entity": 83,
+   "generic": "door_wood",
+   "index_count": 36,
+   "index_offset": 1130292,
+   "material": "de_cbble/door010",
+   "model": 20,
+   "normal_offset": 1129812,
+   "position_offset": 1129524,
+   "texels": [
+    256,
+    512
+   ],
+   "uv_offset": 1130100,
+   "vertex_count": 24
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.3132,
+    0.308,
+    0.3036
+   ],
+   "entity": 97,
+   "generic": "metal",
+   "index_count": 24,
+   "index_offset": 1130948,
+   "material": "de_nuke/nuke_metalfloor_01",
+   "model": 24,
+   "normal_offset": 1130628,
+   "position_offset": 1130436,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 1130820,
+   "vertex_count": 16
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.2414,
+    0.1318,
+    0.1489
+   ],
+   "entity": 97,
+   "generic": "metal",
+   "index_count": 12,
+   "index_offset": 1131300,
+   "material": "props/doorbutton002a",
+   "model": 24,
+   "normal_offset": 1131140,
+   "position_offset": 1131044,
+   "texels": [
+    32,
+    64
+   ],
+   "uv_offset": 1131236,
+   "vertex_count": 8
+  },
+  {
+   "classname": "func_button",
+   "colour": [
+    0.2414,
+    0.1318,
+    0.1489
+   ],
+   "entity": 177,
+   "generic": "metal",
+   "index_count": 36,
+   "index_offset": 1132116,
+   "material": "props/doorbutton002a",
+   "model": 38,
+   "normal_offset": 1131636,
+   "position_offset": 1131348,
+   "texels": [
+    32,
+    64
+   ],
+   "uv_offset": 1131924,
+   "vertex_count": 24
+  },
+  {
    "classname": "func_wall_toggle",
    "colour": [
     0.1628,
@@ -17507,16 +22101,16 @@
    "entity": 184,
    "generic": "metal",
    "index_count": 792,
-   "index_offset": 1144132,
+   "index_offset": 1147780,
    "material": "metal/metalcombine002",
    "model": 40,
-   "normal_offset": 1134432,
-   "position_offset": 1128612,
+   "normal_offset": 1138080,
+   "position_offset": 1132260,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 1140252,
+   "uv_offset": 1143900,
    "vertex_count": 485
   },
   {
@@ -17529,17 +22123,40 @@
    "entity": 184,
    "generic": "metal",
    "index_count": 579,
-   "index_offset": 1157636,
+   "index_offset": 1161284,
    "material": "metal/metalwall074a",
    "model": 40,
-   "normal_offset": 1151176,
-   "position_offset": 1147300,
+   "normal_offset": 1154824,
+   "position_offset": 1150948,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 1155052,
+   "uv_offset": 1158700,
    "vertex_count": 323
+  },
+  {
+   "classname": "func_rotating",
+   "colour": [
+    0.1628,
+    0.1873,
+    0.2163
+   ],
+   "entity": 185,
+   "generic": "metal",
+   "index_count": 459,
+   "index_offset": 1170512,
+   "material": "metal/metalcombine002",
+   "model": 41,
+   "normal_offset": 1166192,
+   "position_offset": 1163600,
+   "targetname": "huey_blade",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 1168784,
+   "vertex_count": 216
   },
   {
    "classname": "func_wall_toggle",
@@ -17551,16 +22168,16 @@
    "entity": 186,
    "generic": "metal",
    "index_count": 696,
-   "index_offset": 1172336,
+   "index_offset": 1184732,
    "material": "metal/metalcombine002",
    "model": 42,
-   "normal_offset": 1164596,
-   "position_offset": 1159952,
+   "normal_offset": 1176992,
+   "position_offset": 1172348,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 1169240,
+   "uv_offset": 1181636,
    "vertex_count": 387
   },
   {
@@ -17573,16 +22190,16 @@
    "entity": 186,
    "generic": "metal",
    "index_count": 33,
-   "index_offset": 1175536,
+   "index_offset": 1187932,
    "material": "metal/metaldoor044a",
    "model": 42,
-   "normal_offset": 1175276,
-   "position_offset": 1175120,
+   "normal_offset": 1187672,
+   "position_offset": 1187516,
    "texels": [
     256,
     512
    ],
-   "uv_offset": 1175432,
+   "uv_offset": 1187828,
    "vertex_count": 13
   },
   {
@@ -17595,17 +22212,247 @@
    "entity": 186,
    "generic": "metal",
    "index_count": 777,
-   "index_offset": 1190324,
+   "index_offset": 1202720,
    "material": "metal/metalwall074a",
    "model": 42,
-   "normal_offset": 1181164,
-   "position_offset": 1175668,
+   "normal_offset": 1193560,
+   "position_offset": 1188064,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 1186660,
+   "uv_offset": 1199056,
    "vertex_count": 458
+  },
+  {
+   "classname": "func_door",
+   "colour": [
+    0.2655,
+    0.2518,
+    0.2091
+   ],
+   "entity": 187,
+   "generic": "metal",
+   "index_count": 168,
+   "index_offset": 1209540,
+   "material": "metal/metalwall074a",
+   "model": 43,
+   "normal_offset": 1207220,
+   "position_offset": 1205828,
+   "targetname": "huey_door1",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 1208612,
+   "vertex_count": 116
+  },
+  {
+   "classname": "func_rotating",
+   "colour": [
+    0.1628,
+    0.1873,
+    0.2163
+   ],
+   "entity": 188,
+   "generic": "metal",
+   "index_count": 2196,
+   "index_offset": 1242980,
+   "material": "metal/metalcombine002",
+   "model": 44,
+   "normal_offset": 1222500,
+   "position_offset": 1210212,
+   "targetname": "huey_blade",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 1234788,
+   "vertex_count": 1024
+  },
+  {
+   "classname": "func_door_rotating",
+   "colour": [
+    0.2655,
+    0.2518,
+    0.2091
+   ],
+   "entity": 190,
+   "generic": "metal",
+   "index_count": 480,
+   "index_offset": 1260500,
+   "material": "metal/metalwall074a",
+   "model": 46,
+   "normal_offset": 1255040,
+   "position_offset": 1251764,
+   "targetname": "huey_door3",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 1258316,
+   "vertex_count": 273
+  },
+  {
+   "classname": "func_tracktrain",
+   "colour": [
+    0.3962,
+    0.3899,
+    0.3662
+   ],
+   "entity": 192,
+   "generic": "metal",
+   "index_count": 54,
+   "index_offset": 1263572,
+   "material": "metal/metalfloor007a",
+   "model": 48,
+   "normal_offset": 1262852,
+   "position_offset": 1262420,
+   "targetname": "huey",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 1263284,
+   "vertex_count": 36
+  },
+  {
+   "classname": "func_tracktrain",
+   "colour": [
+    0.3316,
+    0.3254,
+    0.3041
+   ],
+   "entity": 192,
+   "generic": "metal",
+   "index_count": 66,
+   "index_offset": 1265196,
+   "material": "metal/metalstair002a",
+   "model": 48,
+   "normal_offset": 1264316,
+   "position_offset": 1263788,
+   "targetname": "huey",
+   "texels": [
+    512,
+    128
+   ],
+   "uv_offset": 1264844,
+   "vertex_count": 44
+  },
+  {
+   "classname": "func_tracktrain",
+   "colour": [
+    0.2655,
+    0.2518,
+    0.2091
+   ],
+   "entity": 192,
+   "generic": "metal",
+   "index_count": 4698,
+   "index_offset": 1345332,
+   "material": "metal/metalwall074a",
+   "model": 48,
+   "normal_offset": 1295412,
+   "position_offset": 1265460,
+   "targetname": "huey",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 1325364,
+   "vertex_count": 2496
+  },
+  {
+   "classname": "func_tracktrain",
+   "colour": [
+    0.3321,
+    0.3365,
+    0.3377
+   ],
+   "entity": 192,
+   "generic": "metal",
+   "index_count": 105,
+   "index_offset": 1365532,
+   "material": "props/metalcomputerpanel001a",
+   "model": 48,
+   "normal_offset": 1364652,
+   "position_offset": 1364124,
+   "targetname": "huey",
+   "texels": [
+    512,
+    256
+   ],
+   "uv_offset": 1365180,
+   "vertex_count": 44
+  },
+  {
+   "classname": "func_tracktrain",
+   "colour": [
+    0.6076,
+    0.6092,
+    0.5935
+   ],
+   "entity": 192,
+   "generic": "ceiling",
+   "index_count": 531,
+   "index_offset": 1374368,
+   "material": "props/plasticceiling001a",
+   "model": 48,
+   "normal_offset": 1369108,
+   "position_offset": 1365952,
+   "targetname": "huey",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 1372264,
+   "vertex_count": 263
+  },
+  {
+   "classname": "func_door_rotating",
+   "colour": [
+    0.2655,
+    0.2518,
+    0.2091
+   ],
+   "entity": 195,
+   "generic": "metal",
+   "index_count": 474,
+   "index_offset": 1385324,
+   "material": "metal/metalwall074a",
+   "model": 51,
+   "normal_offset": 1379804,
+   "position_offset": 1376492,
+   "targetname": "huey_door4",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 1383116,
+   "vertex_count": 276
+  },
+  {
+   "classname": "func_door",
+   "colour": [
+    0.2655,
+    0.2518,
+    0.2091
+   ],
+   "entity": 197,
+   "generic": "metal",
+   "index_count": 168,
+   "index_offset": 1390932,
+   "material": "metal/metalwall074a",
+   "model": 53,
+   "normal_offset": 1388612,
+   "position_offset": 1387220,
+   "targetname": "huey_door2",
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 1390004,
+   "vertex_count": 116
   }
  ],
  "units": {
@@ -17617,6 +22464,312 @@
   "y0": 0.0
  },
  "version": 1,
+ "volumes": [
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      20.8788
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -19.9644
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      -40.6908
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      41.6052
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      2.286
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -2.1336
+     ]
+    ]
+   ],
+   "classname": "trigger_teleport",
+   "disabled": true,
+   "entity": 176,
+   "filter": "",
+   "kind": "teleport",
+   "model": 37,
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "Disable",
+     "output": "OnStartTouchAll",
+     "param": "",
+     "target": "teleparth",
+     "times": -1
+    }
+   ],
+   "spawnflags": 1,
+   "target": "destination",
+   "targetname": "teleparth"
+  },
+  {
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      46.3296
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      41.3004
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      14.0208
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      44.196
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      2.8956
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      13.4112
+     ]
+    ]
+   ],
+   "classname": "trigger_hurt",
+   "damage": 100000.0,
+   "disabled": true,
+   "entity": 178,
+   "kind": "hurt",
+   "model": 39,
+   "outputs": [],
+   "spawnflags": 1,
+   "targetname": "nuke_hurt"
+  },
+  {
+   "brush": 1188,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      33.47561
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -33.32321
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      -40.1574
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      40.4622
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -0.30212
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      3.04531
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 1189,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      -34.1376
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      34.7472
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      -11.2014
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      11.2776
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      0.0
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      5.1816
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 1206,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      8.001
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -7.3914
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      2.5146
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      -2.3622
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -4.11204
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      6.56949
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  },
+  {
+   "brush": 1207,
+   "brushes": [
+    [
+     [
+      -1.0,
+      0.0,
+      -0.0,
+      28.0416
+     ],
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -27.8892
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      -7.62
+     ],
+     [
+      0.0,
+      0.0,
+      -1.0,
+      8.1534
+     ],
+     [
+      0.0,
+      -1.0,
+      -0.0,
+      -0.78686
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      3.62531
+     ]
+    ]
+   ],
+   "classname": "worldspawn",
+   "entity": null,
+   "kind": "ladder",
+   "model": 0,
+   "slime": false
+  }
+ ],
  "zz": {
   "keep_boxes": [
    {
@@ -17701,6 +22854,7 @@
    "de_aztec/stairsfake01_s2a": "stone",
    "de_aztec/stonework01mossc": "stone",
    "de_aztec/stonework05": "stone",
+   "de_cbble/door010": "wood",
    "de_cbble/pi_wood3": "wood_floor",
    "de_cbble/woodfloor01": "wood_floor",
    "de_chateau/brickfcrk02": "brick",
@@ -17736,10 +22890,12 @@
    "glass/unbreakable": "glass",
    "metal/metalcombine002": "metal",
    "metal/metaldoor044a": "metal",
+   "metal/metalfloor007a": "metal",
    "metal/metalroof004a": "metal",
    "metal/metalroof004a_c17": "metal",
    "metal/metalroof008a": "metal",
    "metal/metalroof008a_c17": "metal",
+   "metal/metalstair002a": "metal",
    "metal/metalwall001a": "metal",
    "metal/metalwall005b": "metal",
    "metal/metalwall015b": "metal",
@@ -17772,6 +22928,9 @@
    "props/carpetfloor006a": "carpet",
    "props/carpetfloor007a": "carpet",
    "props/carpetfloor008a": "carpet",
+   "props/doorbutton002a": "metal",
+   "props/metalcomputerpanel001a": "metal",
+   "props/plasticceiling001a": "ceiling",
    "props/plasticceiling002a": "ceiling",
    "skybox/stonefloor008a": "stone",
    "stone/infdrb": "stone",
