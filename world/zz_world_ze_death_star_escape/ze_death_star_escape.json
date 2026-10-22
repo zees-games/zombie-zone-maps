@@ -869,8 +869,710 @@
    "treatment": "data"
   }
  ],
+ "environment": {
+  "fog": [
+   {
+    "blend": false,
+    "colour": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "colour2": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "enabled": true,
+    "end": 133.35,
+    "entity": 1101,
+    "far_z": -1,
+    "max_density": 1.0,
+    "start": 95.25,
+    "targetname": ""
+   }
+  ],
+  "sky": {
+   "keys": {
+    "detailmaterial": "detail/detailsprites",
+    "detailvbsp": "detail.vbsp",
+    "maxpropscreenwidth": "-1",
+    "skyname": "space"
+   },
+   "name": "space"
+  },
+  "sky_camera": {
+   "at": [
+    -157.9626,
+    -12.2682,
+    155.3718
+   ],
+   "entity": 928,
+   "fog": false,
+   "fog_colour": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "fog_end": 38.1,
+   "fog_start": 9.525,
+   "scale": 64.0
+  },
+  "sun": {
+   "ambient": [
+    1.0,
+    1.0,
+    1.0,
+    20.0
+   ],
+   "ambient_hdr": null,
+   "class": "light_environment",
+   "colour": [
+    1.0,
+    1.0,
+    1.0,
+    300.0
+   ],
+   "colour_hdr": null,
+   "entity": 927,
+   "pitch": -5.0,
+   "spread": 0.0,
+   "yaw": 64.0
+  }
+ },
  "format": "dot-bsp-mesh",
  "hulls": [],
+ "licence": {
+  "model_stand_ins": [
+   {
+    "author": "Kenney",
+    "count": 16,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "bed",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 65,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "ceiling_light",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 7,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "chair",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 10,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Survival Kit",
+    "stand_in": "crate",
+    "url": "https://kenney.nl/assets/survival-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 3,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "desk",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 10,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Nature Kit",
+    "stand_in": "fence",
+    "url": "https://kenney.nl/assets/nature-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 3,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "fridge",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "monitor",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "stove",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   }
+  ],
+  "models": [
+   {
+    "count": 8,
+    "model": "models/items/ammocrate_ar2.mdl",
+    "stand_in": "crate"
+   },
+   {
+    "count": 2,
+    "model": "models/items/ammocrate_grenade.mdl",
+    "stand_in": "crate"
+   },
+   {
+    "count": 3,
+    "model": "models/props/cs_assault/camera.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 10,
+    "model": "models/props/cs_assault/consolepanelloadingbay.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 2,
+    "model": "models/props/cs_assault/wall_vent.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 15,
+    "model": "models/props/cs_militia/bottle02.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 8,
+    "model": "models/props/cs_militia/bunkbed.mdl",
+    "stand_in": "bed"
+   },
+   {
+    "count": 8,
+    "model": "models/props/cs_militia/bunkbed2.mdl",
+    "stand_in": "bed"
+   },
+   {
+    "count": 2,
+    "model": "models/props/cs_militia/wallconcreterubble.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 32,
+    "model": "models/props/cs_office/light_security.mdl",
+    "stand_in": "ceiling_light"
+   },
+   {
+    "count": 1,
+    "model": "models/props/de_nuke/craneb.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 1,
+    "model": "models/props/de_nuke/electricalbox01.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 13,
+    "model": "models/props/de_prodigy/wall_console1.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 12,
+    "model": "models/props/de_prodigy/wall_console3.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 28,
+    "model": "models/props/de_train/light_security.mdl",
+    "stand_in": "ceiling_light"
+   },
+   {
+    "count": 1,
+    "model": "models/props_c17/light_cagelight01_off.mdl",
+    "stand_in": "ceiling_light"
+   },
+   {
+    "count": 1,
+    "model": "models/props_c17/light_decklight01_off.mdl",
+    "stand_in": "ceiling_light"
+   },
+   {
+    "count": 1,
+    "model": "models/props_c17/substation_stripebox01a.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 2,
+    "model": "models/props_c17/substation_transformer01a.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 3,
+    "model": "models/props_canal/generator01.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 1,
+    "model": "models/props_citizen_tech/steamengine001a.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 7,
+    "model": "models/props_combine/breenchair.mdl",
+    "stand_in": "chair"
+   },
+   {
+    "count": 2,
+    "model": "models/props_combine/combine_bridge.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 2,
+    "model": "models/props_combine/combine_fence01b.mdl",
+    "stand_in": "fence"
+   },
+   {
+    "count": 1,
+    "model": "models/props_combine/combine_interface001.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 2,
+    "model": "models/props_combine/combine_interface002.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 1,
+    "model": "models/props_combine/combine_intmonitor001.mdl",
+    "stand_in": "monitor"
+   },
+   {
+    "count": 4,
+    "model": "models/props_combine/railing_128.mdl",
+    "stand_in": "fence"
+   },
+   {
+    "count": 4,
+    "model": "models/props_combine/railing_512.mdl",
+    "stand_in": "fence"
+   },
+   {
+    "count": 3,
+    "model": "models/props_combine/weaponstripper.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 2,
+    "model": "models/props_industrial/oil_pipes.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 15,
+    "model": "models/props_junk/glassbottle01a.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 1,
+    "model": "models/props_lab/eyescanner.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 5,
+    "model": "models/props_pipes/pipecluster08d_001a.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 1,
+    "model": "models/props_pipes/pipecluster08d_006a.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 2,
+    "model": "models/props_pipes/pipecluster16d_002a.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 20,
+    "model": "models/props_pipes/pipecluster32d_001a.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 1,
+    "model": "models/props_pipes/pipecluster32d_002a.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 1,
+    "model": "models/props_pipes/pipecluster32d_003a.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 1,
+    "model": "models/props_pipes/valvewheel002a.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 1,
+    "model": "models/props_vents/vent_large_corner002.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 1,
+    "model": "models/props_vents/vent_large_straight001.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 3,
+    "model": "models/props_wasteland/controlroom_desk001a.mdl",
+    "stand_in": "desk"
+   },
+   {
+    "count": 1,
+    "model": "models/props_wasteland/cranemagnet01a.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 3,
+    "model": "models/props_wasteland/kitchen_fridge001a.mdl",
+    "stand_in": "fridge"
+   },
+   {
+    "count": 1,
+    "model": "models/props_wasteland/kitchen_stove002a.mdl",
+    "stand_in": "stove"
+   },
+   {
+    "count": 3,
+    "model": "models/props_wasteland/prison_cagedlight001a.mdl",
+    "stand_in": "ceiling_light"
+   },
+   {
+    "count": 1,
+    "model": "models/props_wasteland/prison_pipes002a.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 1,
+    "model": "models/zombie/classic.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 1,
+    "model": "models/zombie/fast.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 1,
+    "model": "models/zombie/poison.mdl",
+    "stand_in": "placeholder_box"
+   }
+  ],
+  "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
+  "sounds": [
+   {
+    "author": "TMC (dot-audio authors)",
+    "count": 5,
+    "licence": "CC0-1.0",
+    "source": "dot-audio stock ambience (synthesised)",
+    "stand_in": "amb_city",
+    "url": "https://github.com/modcommunity/dot-audio"
+   },
+   {
+    "author": "TMC (dot-audio authors)",
+    "count": 1,
+    "licence": "CC0-1.0",
+    "source": "dot-audio stock ambience (synthesised)",
+    "stand_in": "amb_eerie",
+    "url": "https://github.com/modcommunity/dot-audio"
+   },
+   {
+    "author": "TMC (dot-audio authors)",
+    "count": 2,
+    "licence": "CC0-1.0",
+    "source": "dot-audio stock ambience (synthesised)",
+    "stand_in": "amb_wind",
+    "url": "https://github.com/modcommunity/dot-audio"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "licence": "CC0-1.0",
+    "source": "Kenney Impact Sounds",
+    "stand_in": "bell",
+    "url": "https://kenney.nl/assets/impact-sounds"
+   },
+   {
+    "author": "Kenney",
+    "count": 5,
+    "licence": "CC0-1.0",
+    "source": "Kenney Sci-Fi Sounds",
+    "stand_in": "bubbling",
+    "url": "https://kenney.nl/assets/sci-fi-sounds"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "licence": "CC0-1.0",
+    "source": "Kenney Sci-Fi Sounds",
+    "stand_in": "explosion",
+    "url": "https://kenney.nl/assets/sci-fi-sounds"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "licence": "CC0-1.0",
+    "source": "Kenney Sci-Fi Sounds",
+    "stand_in": "machine",
+    "url": "https://kenney.nl/assets/sci-fi-sounds"
+   }
+  ],
+  "textures": [
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.25,
+     0.125,
+     0.125
+    ],
+    "file": "surfaces/metal",
+    "generic": "metal",
+    "how": "table",
+    "key": "metal:metal",
+    "kind": "metal",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "cs_havana/metalwall085a",
+     "cs_italy/ironmetal01",
+     "de_nuke/nukslidea",
+     "dev/dev_lowermetaldoor02a",
+     "metal/citadel_metalwall076a",
+     "metal/citadel_metalwall091a",
+     "metal/citadel_tilewall005a",
+     "metal/metalfloor001a",
+     "metal/metalgrate013b",
+     "metal/metalhull002a",
+     "metal/metalhull010b",
+     "metal/metalhull013a",
+     "metal/metalpipe007a",
+     "metal/metalwall085a",
+     "models/props/de_nuke/pipesa_bombsite",
+     "props/doorbutton002a",
+     "props/metalcrate002c",
+     "senne/space/ck-control3",
+     "senne/space/ck-gird2",
+     "senne/space/ck-solar1",
+     "senne/space/ck-wintrim1",
+     "senne/space/ckhull-2",
+     "senne/space/cktiles-02",
+     "senne/space/cktiles-03",
+     "senne/space/light1",
+     "senne/space/redtile01",
+     "starwars/bespin/mp_b_pipe06",
+     "starwars/bespin/u_casing01",
+     "starwars/bespin/u_shaftwall02",
+     "starwars/bespin/u_tunpipe",
+     "starwars/bespin/u_tunpipe02",
+     "starwars/decals/mp_imperial_symbol",
+     "starwars/doomgiver/centerpipes",
+     "starwars/doomgiver/deathconlight",
+     "starwars/doomgiver/door1",
+     "starwars/doomgiver/foormetal2",
+     "starwars/doomgiver/grate01d",
+     "starwars/imp_mine/ramp",
+     "starwars/impdetention/lpanel6tu",
+     "starwars/impdetention/lpanel6tuw",
+     "starwars/impgarrison/blastdoor_01",
+     "starwars/kejim/blastdoor_onoff",
+     "starwars/kejim/kej_lights",
+     "starwars/yavin/main_display05",
+     "starwars/yavin/met_pipe01"
+    ],
+    "surfaces": 396,
+    "url": "https://ambientcg.com/view?id=Metal063"
+   },
+   {
+    "author": "TMC (generated)",
+    "colour": [
+     0.0,
+     0.125,
+     0.125
+    ],
+    "file": "textures/gen_glass_002020.png",
+    "generic": "glass",
+    "how": "table",
+    "key": "generated:glass:002020",
+    "kind": "generated",
+    "licence": "CC0-1.0",
+    "source": "dotbsp generator",
+    "sources": [
+     "glass/combineglass001a",
+     "glass/glasswindow070c"
+    ],
+    "surfaces": 43,
+    "url": "generated by tools/bsp/dotbsp/textures.py"
+   },
+   {
+    "author": "TMC (generated)",
+    "colour": [
+     0.5,
+     0.5,
+     0.5
+    ],
+    "file": "textures/gen_flat_808080.png",
+    "generic": "flat",
+    "how": "table",
+    "key": "generated:flat:808080",
+    "kind": "generated",
+    "licence": "CC0-1.0",
+    "source": "dotbsp generator",
+    "sources": [
+     "cs_italy/black",
+     "lights/white001"
+    ],
+    "surfaces": 25,
+    "url": "generated by tools/bsp/dotbsp/textures.py"
+   },
+   {
+    "author": "TMC (generated)",
+    "colour": [
+     0.125,
+     0.125,
+     0.125
+    ],
+    "file": "textures/gen_flat_202020.png",
+    "generic": "flat",
+    "how": "flat",
+    "key": "generated:flat:202020",
+    "kind": "generated",
+    "licence": "CC0-1.0",
+    "source": "dotbsp generator",
+    "sources": [
+     "models/props_combine/breentp_sheet"
+    ],
+    "surfaces": 15,
+    "url": "generated by tools/bsp/dotbsp/textures.py"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.375,
+     0.375,
+     0.375
+    ],
+    "file": "surfaces/wood_planks",
+    "generic": "wood_planks",
+    "how": "table",
+    "key": "wood_planks:wood_planks",
+    "kind": "wood_planks",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "de_cbble/cratesm01b",
+     "starwars/cairn/c_crate",
+     "starwars/yavin/crate01"
+    ],
+    "surfaces": 19,
+    "url": "https://ambientcg.com/view?id=Planks039"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.5,
+     0.5,
+     0.5
+    ],
+    "file": "surfaces/concrete_clean",
+    "generic": "ceiling",
+    "how": "table",
+    "key": "concrete_clean:ceiling",
+    "kind": "concrete_clean",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "starwars/imp_mine/ceiling_light"
+    ],
+    "surfaces": 5,
+    "url": "https://ambientcg.com/view?id=Concrete034"
+   },
+   {
+    "author": "TMC (generated)",
+    "colour": [
+     0.75,
+     0.25,
+     0.25
+    ],
+    "file": "textures/gen_flat_bf4040.png",
+    "generic": "flat",
+    "how": "table",
+    "key": "generated:flat:bf4040",
+    "kind": "generated",
+    "licence": "CC0-1.0",
+    "source": "dotbsp generator",
+    "sources": [
+     "sprites/combineball_glow_red_1"
+    ],
+    "surfaces": 2,
+    "url": "generated by tools/bsp/dotbsp/textures.py"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.5,
+     0.5,
+     0.375
+    ],
+    "file": "surfaces/ground",
+    "generic": "mud",
+    "how": "table",
+    "key": "ground:mud",
+    "kind": "ground",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "nature/trash01a"
+    ],
+    "surfaces": 2,
+    "url": "https://ambientcg.com/view?id=Ground037"
+   },
+   {
+    "author": "TMC (generated)",
+    "colour": [
+     0.25,
+     0.25,
+     0.25
+    ],
+    "file": "textures/gen_flat_404040.png",
+    "generic": "flat",
+    "how": "table",
+    "key": "generated:flat:404040",
+    "kind": "generated",
+    "licence": "CC0-1.0",
+    "source": "dotbsp generator",
+    "sources": [
+     "effects/combineshield/comshieldwall2"
+    ],
+    "surfaces": 4,
+    "url": "generated by tools/bsp/dotbsp/textures.py"
+   }
+  ]
+ },
  "links": [
   {
    "delay": 0.0,
@@ -5552,6 +6254,1284 @@
  ],
  "name": "ze_death_star_escape",
  "notes": [],
+ "props": [
+  {
+   "at": [
+    30.7698,
+    0.5959,
+    -248.2748
+   ],
+   "model": "models/items/ammocrate_ar2.mdl",
+   "scale": 1.0,
+   "stand_in": "crate",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    26.9036,
+    0.5959,
+    -248.2748
+   ],
+   "model": "models/items/ammocrate_ar2.mdl",
+   "scale": 1.0,
+   "stand_in": "crate",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    26.9091,
+    0.6161,
+    -252.664
+   ],
+   "model": "models/items/ammocrate_ar2.mdl",
+   "scale": 1.0,
+   "stand_in": "crate",
+   "yaw": 269.0
+  },
+  {
+   "at": [
+    30.8507,
+    0.6161,
+    -252.8316
+   ],
+   "model": "models/items/ammocrate_ar2.mdl",
+   "scale": 1.0,
+   "stand_in": "crate",
+   "yaw": 269.0
+  },
+  {
+   "at": [
+    43.6014,
+    0.5959,
+    -252.8164
+   ],
+   "model": "models/items/ammocrate_ar2.mdl",
+   "scale": 1.0,
+   "stand_in": "crate",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    47.4676,
+    0.5959,
+    -252.8164
+   ],
+   "model": "models/items/ammocrate_ar2.mdl",
+   "scale": 1.0,
+   "stand_in": "crate",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    47.4621,
+    0.6161,
+    -248.4272
+   ],
+   "model": "models/items/ammocrate_ar2.mdl",
+   "scale": 1.0,
+   "stand_in": "crate",
+   "yaw": 89.0
+  },
+  {
+   "at": [
+    43.5205,
+    0.6161,
+    -248.2596
+   ],
+   "model": "models/items/ammocrate_ar2.mdl",
+   "scale": 1.0,
+   "stand_in": "crate",
+   "yaw": 89.0
+  },
+  {
+   "at": [
+    -16.3068,
+    5.2578,
+    -201.3966
+   ],
+   "model": "models/props_wasteland/controlroom_desk001a.mdl",
+   "scale": 1.0,
+   "stand_in": "desk",
+   "yaw": 318.5
+  },
+  {
+   "at": [
+    -19.5834,
+    2.6133,
+    -75.5904
+   ],
+   "model": "models/props_wasteland/prison_cagedlight001a.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -89.6112,
+    0.3239,
+    -18.1356
+   ],
+   "model": "models/props_combine/breenchair.mdl",
+   "scale": 1.0,
+   "stand_in": "chair",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -88.392,
+    0.3093,
+    -18.1356
+   ],
+   "model": "models/props_combine/breenchair.mdl",
+   "scale": 1.0,
+   "stand_in": "chair",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -87.9348,
+    0.3932,
+    -20.5729
+   ],
+   "model": "models/props_combine/breenchair.mdl",
+   "scale": 1.0,
+   "stand_in": "chair",
+   "yaw": 353.5
+  },
+  {
+   "at": [
+    -87.7824,
+    0.3932,
+    -19.3537
+   ],
+   "model": "models/props_combine/breenchair.mdl",
+   "scale": 1.0,
+   "stand_in": "chair",
+   "yaw": 2.0
+  },
+  {
+   "at": [
+    -73.7616,
+    0.3093,
+    -18.1356
+   ],
+   "model": "models/props_combine/breenchair.mdl",
+   "scale": 1.0,
+   "stand_in": "chair",
+   "yaw": 268.0
+  },
+  {
+   "at": [
+    -72.5424,
+    0.3239,
+    -18.1356
+   ],
+   "model": "models/props_combine/breenchair.mdl",
+   "scale": 1.0,
+   "stand_in": "chair",
+   "yaw": 268.0
+  },
+  {
+   "at": [
+    -74.2188,
+    0.3932,
+    -20.5729
+   ],
+   "model": "models/props_combine/breenchair.mdl",
+   "scale": 1.0,
+   "stand_in": "chair",
+   "yaw": 186.5
+  },
+  {
+   "at": [
+    -97.1152,
+    0.762,
+    83.7526
+   ],
+   "model": "models/items/ammocrate_grenade.mdl",
+   "scale": 1.0,
+   "stand_in": "crate",
+   "yaw": 263.0
+  },
+  {
+   "at": [
+    -95.9051,
+    0.7674,
+    83.9012
+   ],
+   "model": "models/items/ammocrate_grenade.mdl",
+   "scale": 1.0,
+   "stand_in": "crate",
+   "yaw": 263.0
+  },
+  {
+   "at": [
+    30.8019,
+    0.2858,
+    -246.9109
+   ],
+   "model": "models/props/cs_militia/bunkbed2.mdl",
+   "scale": 1.0,
+   "stand_in": "bed",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    30.8019,
+    0.3002,
+    -246.9109
+   ],
+   "model": "models/props/cs_militia/bunkbed.mdl",
+   "scale": 1.0,
+   "stand_in": "bed",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    26.9356,
+    0.2858,
+    -246.8956
+   ],
+   "model": "models/props/cs_militia/bunkbed2.mdl",
+   "scale": 1.0,
+   "stand_in": "bed",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    26.9356,
+    0.3002,
+    -246.8956
+   ],
+   "model": "models/props/cs_militia/bunkbed.mdl",
+   "scale": 1.0,
+   "stand_in": "bed",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    26.8769,
+    0.306,
+    -254.1956
+   ],
+   "model": "models/props/cs_militia/bunkbed2.mdl",
+   "scale": 1.0,
+   "stand_in": "bed",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    26.8769,
+    0.3205,
+    -254.1956
+   ],
+   "model": "models/props/cs_militia/bunkbed.mdl",
+   "scale": 1.0,
+   "stand_in": "bed",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    30.8814,
+    0.3106,
+    -254.1956
+   ],
+   "model": "models/props/cs_militia/bunkbed2.mdl",
+   "scale": 1.0,
+   "stand_in": "bed",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    30.8814,
+    0.325,
+    -254.1956
+   ],
+   "model": "models/props/cs_militia/bunkbed.mdl",
+   "scale": 1.0,
+   "stand_in": "bed",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    43.5693,
+    0.2858,
+    -254.1803
+   ],
+   "model": "models/props/cs_militia/bunkbed2.mdl",
+   "scale": 1.0,
+   "stand_in": "bed",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    43.5693,
+    0.3002,
+    -254.1803
+   ],
+   "model": "models/props/cs_militia/bunkbed.mdl",
+   "scale": 1.0,
+   "stand_in": "bed",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    47.4356,
+    0.2858,
+    -254.1956
+   ],
+   "model": "models/props/cs_militia/bunkbed2.mdl",
+   "scale": 1.0,
+   "stand_in": "bed",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    47.4356,
+    0.3002,
+    -254.1956
+   ],
+   "model": "models/props/cs_militia/bunkbed.mdl",
+   "scale": 1.0,
+   "stand_in": "bed",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    47.4943,
+    0.306,
+    -246.8956
+   ],
+   "model": "models/props/cs_militia/bunkbed2.mdl",
+   "scale": 1.0,
+   "stand_in": "bed",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    47.4943,
+    0.3205,
+    -246.8956
+   ],
+   "model": "models/props/cs_militia/bunkbed.mdl",
+   "scale": 1.0,
+   "stand_in": "bed",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    43.4898,
+    0.3106,
+    -246.8956
+   ],
+   "model": "models/props/cs_militia/bunkbed2.mdl",
+   "scale": 1.0,
+   "stand_in": "bed",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    43.4898,
+    0.325,
+    -246.8956
+   ],
+   "model": "models/props/cs_militia/bunkbed.mdl",
+   "scale": 1.0,
+   "stand_in": "bed",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    49.6763,
+    3.5624,
+    -208.4794
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    16.1483,
+    3.5624,
+    -188.9726
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    5.7912,
+    -3.7529,
+    -188.9794
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -46.0187,
+    3.5624,
+    -25.6066
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -34.1307,
+    3.5869,
+    -22.5609
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -9.1509,
+    5.7205,
+    82.9113
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    24.8261,
+    0.6096,
+    -250.5456
+   ],
+   "model": "models/props_wasteland/controlroom_desk001a.mdl",
+   "scale": 1.0,
+   "stand_in": "desk",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    49.5451,
+    0.6096,
+    -250.5456
+   ],
+   "model": "models/props_wasteland/controlroom_desk001a.mdl",
+   "scale": 1.0,
+   "stand_in": "desk",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    32.1945,
+    1.0668,
+    -213.4743
+   ],
+   "model": "models/props_combine/combine_fence01b.mdl",
+   "scale": 1.0,
+   "stand_in": "fence",
+   "yaw": 46.0
+  },
+  {
+   "at": [
+    28.3464,
+    1.0709,
+    -217.3224
+   ],
+   "model": "models/props_combine/combine_fence01b.mdl",
+   "scale": 1.0,
+   "stand_in": "fence",
+   "yaw": 225.0
+  },
+  {
+   "at": [
+    37.1856,
+    3.5052,
+    -226.4664
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    37.1925,
+    3.5869,
+    -195.9921
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    24.6758,
+    3.5298,
+    -208.1784
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    37.189,
+    3.5869,
+    -264.8655
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    37.189,
+    3.5869,
+    -221.2791
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    19.5011,
+    3.5488,
+    -208.186
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    1.8288,
+    3.4446,
+    -195.072
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    1.8254,
+    3.4726,
+    -195.6873
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    26.8188,
+    -4.8488,
+    -162.7693
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    23.7805,
+    -4.8876,
+    -166.3861
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    26.8258,
+    -3.7283,
+    -177.9971
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    37.506,
+    -3.7283,
+    -162.7544
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    6.09,
+    3.1835,
+    -188.9829
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    6.7116,
+    3.1994,
+    -188.9794
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -13.4935,
+    8.001,
+    -200.7108
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -19.5072,
+    5.1816,
+    -221.8944
+   ],
+   "model": "models/props_combine/railing_512.mdl",
+   "scale": 1.0,
+   "stand_in": "fence",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -28.382,
+    5.1816,
+    -221.8944
+   ],
+   "model": "models/props_combine/railing_512.mdl",
+   "scale": 1.0,
+   "stand_in": "fence",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -18.2933,
+    5.183,
+    -210.9159
+   ],
+   "model": "models/props_combine/railing_512.mdl",
+   "scale": 1.0,
+   "stand_in": "fence",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -27.1682,
+    5.183,
+    -210.9159
+   ],
+   "model": "models/props_combine/railing_512.mdl",
+   "scale": 1.0,
+   "stand_in": "fence",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -33.8328,
+    5.1816,
+    -210.9216
+   ],
+   "model": "models/props_combine/railing_128.mdl",
+   "scale": 1.0,
+   "stand_in": "fence",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -33.8328,
+    5.1816,
+    -221.8944
+   ],
+   "model": "models/props_combine/railing_128.mdl",
+   "scale": 1.0,
+   "stand_in": "fence",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -10.2055,
+    5.1723,
+    -221.9058
+   ],
+   "model": "models/props_combine/railing_128.mdl",
+   "scale": 1.0,
+   "stand_in": "fence",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -10.2055,
+    5.1723,
+    -210.933
+   ],
+   "model": "models/props_combine/railing_128.mdl",
+   "scale": 1.0,
+   "stand_in": "fence",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -22.3959,
+    7.2279,
+    -206.6601
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -31.6923,
+    7.8457,
+    -226.7769
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -31.6923,
+    7.8541,
+    -206.6601
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -7.3213,
+    7.8541,
+    -242.6284
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -31.6958,
+    7.8541,
+    -226.1559
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -43.3052,
+    7.8541,
+    -242.6132
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -7.3212,
+    0.4806,
+    -233.1682
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -9.7501,
+    0.5836,
+    -245.0535
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -31.7061,
+    7.8541,
+    -245.0821
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -12.8133,
+    3.7393,
+    -143.8717
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -12.8051,
+    3.7808,
+    -117.6589
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -24.9886,
+    3.1866,
+    -133.8011
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -24.9986,
+    3.1866,
+    -97.8469
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -12.7981,
+    3.7721,
+    -117.0371
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -24.997,
+    3.4726,
+    -102.1137
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -19.6941,
+    2.6152,
+    -74.9825
+   ],
+   "model": "models/props_wasteland/prison_cagedlight001a.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -19.6941,
+    2.6145,
+    -76.2017
+   ],
+   "model": "models/props_wasteland/prison_cagedlight001a.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    16.4231,
+    3.8207,
+    -134.7277
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    13.4172,
+    3.8155,
+    -138.9922
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    19.5011,
+    3.8155,
+    -138.9957
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    17.0688,
+    4.7735,
+    -44.2722
+   ],
+   "model": "models/props_c17/light_decklight01_off.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    10.5156,
+    1.2192,
+    -60.0456
+   ],
+   "model": "models/props_combine/combine_intmonitor001.mdl",
+   "scale": 1.0,
+   "stand_in": "monitor",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    17.0628,
+    3.7795,
+    -111.8304
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -1.8256,
+    4.4182,
+    -39.0083
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -1.8256,
+    3.2059,
+    -51.2003
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -4.8708,
+    3.2059,
+    -48.1237
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -17.0628,
+    3.2458,
+    -25.6066
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -35.9664,
+    2.7813,
+    -33.8328
+   ],
+   "model": "models/props_c17/light_cagelight01_off.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -5.4924,
+    3.1734,
+    -48.1512
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -79.256,
+    0.9395,
+    -19.8958
+   ],
+   "model": "models/props_wasteland/kitchen_fridge001a.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -79.8957,
+    0.3239,
+    -1.0668
+   ],
+   "model": "models/props_wasteland/kitchen_fridge001a.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -81.1911,
+    0.3088,
+    -1.0668
+   ],
+   "model": "models/props_wasteland/kitchen_fridge001a.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -82.3722,
+    0.3088,
+    -0.9525
+   ],
+   "model": "models/props_wasteland/kitchen_stove002a.mdl",
+   "scale": 1.0,
+   "stand_in": "stove",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -80.7659,
+    3.2423,
+    3.0291
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -81.3877,
+    3.2327,
+    3.0373
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -54.2413,
+    3.2072,
+    6.09
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -107.8984,
+    3.2177,
+    6.09
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -81.0831,
+    1.6718,
+    30.4739
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -81.0762,
+    5.933,
+    30.4739
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -81.0835,
+    5.8919,
+    24.3901
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -81.0583,
+    1.7135,
+    24.3901
+   ],
+   "model": "models/props/de_train/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -75.0191,
+    3.7887,
+    76.1939
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -87.2117,
+    3.7273,
+    76.4987
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -9.1786,
+    10.0639,
+    82.9117
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    28.9499,
+    10.2544,
+    62.7812
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -89.9099,
+    3.5624,
+    -24.997
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -113.0747,
+    3.5624,
+    3.0446
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -49.0789,
+    3.5624,
+    3.0514
+   ],
+   "model": "models/props/cs_office/light_security.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  }
+ ],
  "skipped": {
   "face:sky3d_moved": 1439,
   "face:tools/toolsskybox": 205,
@@ -5585,6 +7565,534 @@
   ],
   "scale": 64.0
  },
+ "sounds": {
+  "ambient": [
+   {
+    "at": [
+     -19.5072,
+     6.7056,
+     -199.3392
+    ],
+    "entity": 266,
+    "everywhere": false,
+    "looped": true,
+    "message": "ambient/levels/canals/generator_ambience_loop1.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 57.15,
+    "source_entity": "",
+    "stand_in": "amb_eerie",
+    "start_silent": false,
+    "targetname": "",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     3.8848,
+     2.6992,
+     -191.0486
+    ],
+    "entity": 652,
+    "everywhere": false,
+    "looped": false,
+    "message": "ambient/alarms/combine_bank_alarm_loop1.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 95.25,
+    "source_entity": "",
+    "stand_in": "bell",
+    "start_silent": true,
+    "targetname": "ambient_01",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -85.344,
+     2.4384,
+     -12.192
+    ],
+    "entity": 786,
+    "everywhere": false,
+    "looped": true,
+    "message": "ambient/starwarscantina.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 95.25,
+    "source_entity": "",
+    "stand_in": "amb_city",
+    "start_silent": true,
+    "targetname": "sc",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -85.344,
+     2.4648,
+     -4.8768
+    ],
+    "entity": 787,
+    "everywhere": false,
+    "looped": true,
+    "message": "ambient/starwarscantina.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 95.25,
+    "source_entity": "",
+    "stand_in": "amb_city",
+    "start_silent": true,
+    "targetname": "sc",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -81.0768,
+     2.2356,
+     -15.6972
+    ],
+    "entity": 788,
+    "everywhere": false,
+    "looped": true,
+    "message": "ambient/starwarscantina.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 95.25,
+    "source_entity": "",
+    "stand_in": "amb_city",
+    "start_silent": true,
+    "targetname": "sc",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -76.8096,
+     2.2369,
+     -12.0396
+    ],
+    "entity": 789,
+    "everywhere": false,
+    "looped": true,
+    "message": "ambient/starwarscantina.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 95.25,
+    "source_entity": "",
+    "stand_in": "amb_city",
+    "start_silent": true,
+    "targetname": "sc",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -76.8096,
+     2.286,
+     -4.7244
+    ],
+    "entity": 790,
+    "everywhere": false,
+    "looped": true,
+    "message": "ambient/starwarscantina.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 95.25,
+    "source_entity": "",
+    "stand_in": "amb_city",
+    "start_silent": true,
+    "targetname": "sc",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     26.1501,
+     9.0863,
+     61.1315
+    ],
+    "entity": 1067,
+    "everywhere": true,
+    "looped": false,
+    "message": "ambient/starwarsdarthmaul.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 23.812,
+    "source_entity": "",
+    "stand_in": "",
+    "start_silent": true,
+    "targetname": "ambient_02",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     74.0487,
+     15.0701,
+     51.6253
+    ],
+    "entity": 1087,
+    "everywhere": true,
+    "looped": false,
+    "message": "ambient/explosions/exp1.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 23.812,
+    "source_entity": "",
+    "stand_in": "explosion",
+    "start_silent": true,
+    "targetname": "ambient_03",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -17.6512,
+     6.4511,
+     -76.4425
+    ],
+    "entity": 1215,
+    "everywhere": false,
+    "looped": true,
+    "message": "substation_generators",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 95.25,
+    "source_entity": "",
+    "stand_in": "machine",
+    "start_silent": false,
+    "targetname": "",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -13.0784,
+     1.6764,
+     -138.3792
+    ],
+    "entity": 1216,
+    "everywhere": false,
+    "looped": true,
+    "message": "ambient/tones/tunnel_wind_loop.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 57.15,
+    "source_entity": "",
+    "stand_in": "amb_wind",
+    "start_silent": false,
+    "targetname": "",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     3.7019,
+     2.8956,
+     -138.9888
+    ],
+    "entity": 1217,
+    "everywhere": false,
+    "looped": true,
+    "message": "ambient/tones/tunnel_wind_loop.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 57.15,
+    "source_entity": "",
+    "stand_in": "amb_wind",
+    "start_silent": false,
+    "targetname": "",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     14.0931,
+     0.3619,
+     -82.7193
+    ],
+    "entity": 1218,
+    "everywhere": false,
+    "looped": true,
+    "message": "ambient/misc/flour_light.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 95.25,
+    "source_entity": "",
+    "stand_in": "",
+    "start_silent": false,
+    "targetname": "",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     14.0662,
+     0.3619,
+     -78.0078
+    ],
+    "entity": 1219,
+    "everywhere": false,
+    "looped": true,
+    "message": "ambient/misc/flour_light.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 95.25,
+    "source_entity": "",
+    "stand_in": "",
+    "start_silent": false,
+    "targetname": "",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     14.0662,
+     0.3619,
+     -74.3417
+    ],
+    "entity": 1220,
+    "everywhere": false,
+    "looped": true,
+    "message": "ambient/misc/flour_light.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 95.25,
+    "source_entity": "",
+    "stand_in": "",
+    "start_silent": false,
+    "targetname": "",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     14.0661,
+     0.3619,
+     -70.236
+    ],
+    "entity": 1221,
+    "everywhere": false,
+    "looped": true,
+    "message": "ambient/misc/flour_light.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 95.25,
+    "source_entity": "",
+    "stand_in": "",
+    "start_silent": false,
+    "targetname": "",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -49.149,
+     1.6357,
+     3.0952
+    ],
+    "entity": 1222,
+    "everywhere": false,
+    "looped": true,
+    "message": "ambient/levels/citadel/citadel_ambient_scream_loop1.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 19.05,
+    "source_entity": "",
+    "stand_in": "",
+    "start_silent": false,
+    "targetname": "",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -113.0046,
+     1.5285,
+     3.0417
+    ],
+    "entity": 1223,
+    "everywhere": false,
+    "looped": true,
+    "message": "ambient/levels/citadel/citadel_ambient_scream_loop1.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 19.05,
+    "source_entity": "",
+    "stand_in": "",
+    "start_silent": false,
+    "targetname": "",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -35.814,
+     3.4513,
+     -31.1031
+    ],
+    "entity": 1224,
+    "everywhere": false,
+    "looped": true,
+    "message": "ambient/levels/citadel/citadel_ambient_scream_loop1.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 19.05,
+    "source_entity": "",
+    "stand_in": "",
+    "start_silent": false,
+    "targetname": "",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     3.1242,
+     3.4104,
+     -29.9975
+    ],
+    "entity": 1225,
+    "everywhere": false,
+    "looped": true,
+    "message": "ambient/levels/citadel/citadel_ambient_scream_loop1.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 19.05,
+    "source_entity": "",
+    "stand_in": "",
+    "start_silent": false,
+    "targetname": "",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     1.6258,
+     1.8347,
+     -58.5216
+    ],
+    "entity": 1226,
+    "everywhere": false,
+    "looped": true,
+    "message": "ambient/machines/deep_boil.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 23.812,
+    "source_entity": "",
+    "stand_in": "bubbling",
+    "start_silent": false,
+    "targetname": "",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     1.9535,
+     4.1148,
+     -179.8533
+    ],
+    "entity": 1227,
+    "everywhere": false,
+    "looped": true,
+    "message": "ambient/machines/deep_boil.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 23.812,
+    "source_entity": "",
+    "stand_in": "bubbling",
+    "start_silent": false,
+    "targetname": "",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -29.827,
+     2.103,
+     -42.3409
+    ],
+    "entity": 1228,
+    "everywhere": false,
+    "looped": true,
+    "message": "ambient/machines/deep_boil.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 23.812,
+    "source_entity": "",
+    "stand_in": "bubbling",
+    "start_silent": false,
+    "targetname": "",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -66.7819,
+     2.0876,
+     -42.2668
+    ],
+    "entity": 1229,
+    "everywhere": false,
+    "looped": true,
+    "message": "ambient/machines/deep_boil.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 23.812,
+    "source_entity": "",
+    "stand_in": "bubbling",
+    "start_silent": false,
+    "targetname": "",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -55.4561,
+     2.0849,
+     -42.2544
+    ],
+    "entity": 1230,
+    "everywhere": false,
+    "looped": true,
+    "message": "ambient/machines/deep_boil.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 23.812,
+    "source_entity": "",
+    "stand_in": "bubbling",
+    "start_silent": false,
+    "targetname": "",
+    "volume": 1.0
+   }
+  ],
+  "files": {
+   "ambient/alarms/combine_bank_alarm_loop1.wav": [
+    "ambient_generic:652"
+   ],
+   "ambient/explosions/exp1.wav": [
+    "ambient_generic:1087"
+   ],
+   "ambient/levels/canals/generator_ambience_loop1.wav": [
+    "ambient_generic:266"
+   ],
+   "ambient/levels/citadel/citadel_ambient_scream_loop1.wav": [
+    "ambient_generic:1222",
+    "ambient_generic:1223",
+    "ambient_generic:1224",
+    "ambient_generic:1225"
+   ],
+   "ambient/machines/deep_boil.wav": [
+    "ambient_generic:1226",
+    "ambient_generic:1227",
+    "ambient_generic:1228",
+    "ambient_generic:1229",
+    "ambient_generic:1230"
+   ],
+   "ambient/misc/flour_light.wav": [
+    "ambient_generic:1218",
+    "ambient_generic:1219",
+    "ambient_generic:1220",
+    "ambient_generic:1221"
+   ],
+   "ambient/starwarscantina.wav": [
+    "ambient_generic:786",
+    "ambient_generic:787",
+    "ambient_generic:788",
+    "ambient_generic:789",
+    "ambient_generic:790"
+   ],
+   "ambient/starwarsdarthmaul.wav": [
+    "ambient_generic:1067"
+   ],
+   "ambient/tones/tunnel_wind_loop.wav": [
+    "ambient_generic:1216",
+    "ambient_generic:1217"
+   ],
+   "substation_generators": [
+    "ambient_generic:1215"
+   ]
+  },
+  "soundscapes": [],
+  "triggers": []
+ },
  "source": {
   "bsp_version": 20,
   "bytes": 52982254,
@@ -5600,6 +8108,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 627,
    "index_offset": 6304,
@@ -5623,6 +8132,7 @@
     0.4025
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 429,
    "index_offset": 14924,
@@ -5646,6 +8156,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 1338,
    "index_offset": 38336,
@@ -5669,6 +8180,7 @@
     0.1443
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 498,
    "index_offset": 53352,
@@ -5692,6 +8204,7 @@
     0.4509
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 10617,
    "index_offset": 172720,
@@ -5719,6 +8232,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 63,
    "index_offset": 216116,
@@ -5745,6 +8259,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 219,
    "index_offset": 219184,
@@ -5771,6 +8286,7 @@
     0.4134
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 220732,
@@ -5797,6 +8313,7 @@
     0.5133
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 63,
    "index_offset": 221480,
@@ -5823,6 +8340,7 @@
     0.3525
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 221988,
@@ -5849,6 +8367,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 126,
    "index_offset": 224748,
@@ -5875,6 +8394,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 6,
    "index_offset": 225380,
@@ -5901,6 +8421,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 12,
    "index_offset": 225660,
@@ -5927,6 +8448,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 42,
    "index_offset": 226604,
@@ -5953,6 +8475,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 6,
    "index_offset": 226900,
@@ -5979,6 +8502,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 227148,
@@ -6005,6 +8529,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 369,
    "index_offset": 230312,
@@ -6031,6 +8556,7 @@
     0.001
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 51,
    "index_offset": 232652,
@@ -6057,6 +8583,7 @@
     0.207
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 232984,
@@ -6083,6 +8610,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 126,
    "index_offset": 234736,
@@ -6109,6 +8637,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 60,
    "index_offset": 236072,
@@ -6135,6 +8664,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 207,
    "index_offset": 239160,
@@ -6161,6 +8691,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 276,
    "index_offset": 243572,
@@ -6187,6 +8718,7 @@
     0.4134
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 245060,
@@ -6213,6 +8745,7 @@
     0.5133
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 245324,
@@ -6239,6 +8772,7 @@
     0.3525
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 245628,
@@ -6265,6 +8799,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 174,
    "index_offset": 248900,
@@ -6291,6 +8826,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 21,
    "index_offset": 249948,
@@ -6317,6 +8853,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 63,
    "index_offset": 251152,
@@ -6343,6 +8880,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 6,
    "index_offset": 251532,
@@ -6369,6 +8907,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 6,
    "index_offset": 251684,
@@ -6395,6 +8934,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 204,
    "index_offset": 254716,
@@ -6421,6 +8961,7 @@
     0.3819
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 114,
    "index_offset": 257580,
@@ -6447,6 +8988,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 699,
    "index_offset": 268020,
@@ -6473,6 +9015,7 @@
     0.207
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 271328,
@@ -6499,6 +9042,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 271768,
@@ -6525,6 +9069,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 300,
    "index_offset": 275768,
@@ -6551,6 +9096,7 @@
     0.4134
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 278024,
@@ -6577,6 +9123,7 @@
     0.5133
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 278660,
@@ -6603,6 +9150,7 @@
     0.3525
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 278944,
@@ -6629,6 +9177,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 9,
    "index_offset": 279128,
@@ -6655,6 +9204,7 @@
     0.207
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 279484,
@@ -6681,6 +9231,7 @@
     0.207
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 279812,
@@ -6707,6 +9258,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 280248,
@@ -6733,6 +9285,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 264,
    "index_offset": 284164,
@@ -6759,6 +9312,7 @@
     0.4134
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 285892,
@@ -6785,6 +9339,7 @@
     0.3525
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 286256,
@@ -6811,6 +9366,7 @@
     0.4891
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 286456,
@@ -6837,6 +9393,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 287184,
@@ -6858,6 +9415,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 81,
    "index_offset": 288248,
@@ -6889,6 +9447,7 @@
     0.2551
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 120,
    "index_offset": 289916,
@@ -6915,6 +9474,7 @@
     0.7925
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 252,
    "index_offset": 295772,
@@ -6941,6 +9501,7 @@
     0.1025
    ],
    "entity": null,
+   "free": "generated:flat:202020",
    "generic": null,
    "index_count": 75,
    "index_offset": 297644,
@@ -6967,6 +9528,7 @@
     0.1025
    ],
    "entity": null,
+   "free": "generated:flat:202020",
    "generic": null,
    "index_count": 75,
    "index_offset": 298808,
@@ -6993,6 +9555,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 282,
    "index_offset": 303652,
@@ -7019,6 +9582,7 @@
     0.3819
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 132,
    "index_offset": 306444,
@@ -7045,6 +9609,7 @@
     0.7406
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 307612,
@@ -7071,6 +9636,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 307884,
@@ -7097,6 +9663,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 69,
    "index_offset": 309156,
@@ -7123,6 +9690,7 @@
     0.3221
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 309752,
@@ -7149,6 +9717,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 18,
    "index_offset": 310104,
@@ -7175,6 +9744,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 18,
    "index_offset": 310432,
@@ -7201,6 +9771,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 168,
    "index_offset": 313256,
@@ -7227,6 +9798,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 314664,
@@ -7253,6 +9825,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 314948,
@@ -7279,6 +9852,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 207,
    "index_offset": 318524,
@@ -7305,6 +9879,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 165,
    "index_offset": 321176,
@@ -7331,6 +9906,7 @@
     0.5133
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 322188,
@@ -7357,6 +9933,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 270,
    "index_offset": 326520,
@@ -7383,6 +9960,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 12,
    "index_offset": 327792,
@@ -7409,6 +9987,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 27,
    "index_offset": 328256,
@@ -7435,6 +10014,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 93,
    "index_offset": 329804,
@@ -7461,6 +10041,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 12,
    "index_offset": 330368,
@@ -7487,6 +10068,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 51,
    "index_offset": 331056,
@@ -7513,6 +10095,7 @@
     0.3819
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 331772,
@@ -7539,6 +10122,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 240,
    "index_offset": 334588,
@@ -7565,6 +10149,7 @@
     0.207
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 336156,
@@ -7591,6 +10176,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 45,
    "index_offset": 336856,
@@ -7617,6 +10203,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 165,
    "index_offset": 339116,
@@ -7643,6 +10230,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 339904,
@@ -7669,6 +10257,7 @@
     0.5133
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 340248,
@@ -7695,6 +10284,7 @@
     0.207
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 340856,
@@ -7721,6 +10311,7 @@
     0.207
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 341140,
@@ -7747,6 +10338,7 @@
     0.2551
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 341292,
@@ -7773,6 +10365,7 @@
     0.7925
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 341508,
@@ -7799,6 +10392,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 342036,
@@ -7825,6 +10419,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 435,
    "index_offset": 348336,
@@ -7851,6 +10446,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 350524,
@@ -7877,6 +10473,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 12,
    "index_offset": 350860,
@@ -7903,6 +10500,7 @@
     0.2551
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 225,
    "index_offset": 353276,
@@ -7929,6 +10527,7 @@
     0.7925
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 336,
    "index_offset": 360032,
@@ -7955,6 +10554,7 @@
     0.7067
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 186,
    "index_offset": 364640,
@@ -7981,6 +10581,7 @@
     0.7067
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 216,
    "index_offset": 368776,
@@ -8007,6 +10608,7 @@
     0.7067
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 90,
    "index_offset": 370792,
@@ -8033,6 +10635,7 @@
     0.7067
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 371280,
@@ -8059,6 +10662,7 @@
     0.7067
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 371944,
@@ -8085,6 +10689,7 @@
     0.1025
    ],
    "entity": null,
+   "free": "generated:flat:202020",
    "generic": null,
    "index_count": 105,
    "index_offset": 373280,
@@ -8111,6 +10716,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 276,
    "index_offset": 377540,
@@ -8137,6 +10743,7 @@
     0.3819
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 93,
    "index_offset": 379732,
@@ -8163,6 +10770,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 549,
    "index_offset": 388488,
@@ -8189,6 +10797,7 @@
     0.2548
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 138,
    "index_offset": 393244,
@@ -8215,6 +10824,7 @@
     0.7406
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 394180,
@@ -8241,6 +10851,7 @@
     0.3486
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 216,
    "index_offset": 397348,
@@ -8267,6 +10878,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 168,
    "index_offset": 400644,
@@ -8293,6 +10905,7 @@
     0.2551
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 288,
    "index_offset": 404484,
@@ -8319,6 +10932,7 @@
     0.7925
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 873,
    "index_offset": 421988,
@@ -8345,6 +10959,7 @@
     0.1025
    ],
    "entity": null,
+   "free": "generated:flat:202020",
    "generic": null,
    "index_count": 192,
    "index_offset": 427624,
@@ -8371,6 +10986,7 @@
     0.1025
    ],
    "entity": null,
+   "free": "generated:flat:202020",
    "generic": null,
    "index_count": 123,
    "index_offset": 429800,
@@ -8397,6 +11013,7 @@
     0.1025
    ],
    "entity": null,
+   "free": "generated:flat:202020",
    "generic": null,
    "index_count": 129,
    "index_offset": 431668,
@@ -8423,6 +11040,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 957,
    "index_offset": 446808,
@@ -8449,6 +11067,7 @@
     0.3819
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 276,
    "index_offset": 454092,
@@ -8475,6 +11094,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 455708,
@@ -8501,6 +11121,7 @@
     0.2548
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 138,
    "index_offset": 458412,
@@ -8527,6 +11148,7 @@
     0.3499
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 90,
    "index_offset": 460372,
@@ -8553,6 +11175,7 @@
     0.7406
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 102,
    "index_offset": 462524,
@@ -8579,6 +11202,7 @@
     0.3486
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 463700,
@@ -8600,6 +11224,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 39,
    "index_offset": 464372,
@@ -8631,6 +11256,7 @@
     0.7925
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 252,
    "index_offset": 469456,
@@ -8657,6 +11283,7 @@
     0.1025
    ],
    "entity": null,
+   "free": "generated:flat:202020",
    "generic": null,
    "index_count": 141,
    "index_offset": 472064,
@@ -8683,6 +11310,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 276,
    "index_offset": 477108,
@@ -8709,6 +11337,7 @@
     0.3819
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 114,
    "index_offset": 479652,
@@ -8735,6 +11364,7 @@
     0.7406
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 480748,
@@ -8761,6 +11391,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 481276,
@@ -8787,6 +11418,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 78,
    "index_offset": 482524,
@@ -8813,6 +11445,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 483092,
@@ -8839,6 +11472,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 483676,
@@ -8865,6 +11499,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 216,
    "index_offset": 487172,
@@ -8891,6 +11526,7 @@
     0.2504
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 60,
    "index_offset": 488804,
@@ -8917,6 +11553,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 489556,
@@ -8938,6 +11575,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 54,
    "index_offset": 490404,
@@ -8969,6 +11607,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 491452,
@@ -8995,6 +11634,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 876,
    "index_offset": 500540,
@@ -9021,6 +11661,7 @@
     0.4622
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 1116,
    "index_offset": 516716,
@@ -9047,6 +11688,7 @@
     0.5133
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 225,
    "index_offset": 523196,
@@ -9073,6 +11715,7 @@
     0.6289
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 524896,
@@ -9099,6 +11742,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 69,
    "index_offset": 525980,
@@ -9125,6 +11769,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 63,
    "index_offset": 527280,
@@ -9151,6 +11796,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 527980,
@@ -9177,6 +11823,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 270,
    "index_offset": 532516,
@@ -9203,6 +11850,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 222,
    "index_offset": 537116,
@@ -9229,6 +11877,7 @@
     0.4134
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 538772,
@@ -9255,6 +11904,7 @@
     0.3525
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 45,
    "index_offset": 539564,
@@ -9281,6 +11931,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 540512,
@@ -9307,6 +11958,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 540,
    "index_offset": 547424,
@@ -9333,6 +11985,7 @@
     0.4134
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 550032,
@@ -9359,6 +12012,7 @@
     0.3525
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 550296,
@@ -9385,6 +12039,7 @@
     0.207
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 550760,
@@ -9411,6 +12066,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 551316,
@@ -9437,6 +12093,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 186,
    "index_offset": 554212,
@@ -9463,6 +12120,7 @@
     0.3499
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 33,
    "index_offset": 555628,
@@ -9489,6 +12147,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 21,
    "index_offset": 556176,
@@ -9515,6 +12174,7 @@
     0.207
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 556708,
@@ -9541,6 +12201,7 @@
     0.207
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 556988,
@@ -9567,6 +12228,7 @@
     0.7925
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 557152,
@@ -9593,6 +12255,7 @@
     0.433
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 557816,
@@ -9619,6 +12282,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 57,
    "index_offset": 558512,
@@ -9645,6 +12309,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 153,
    "index_offset": 560756,
@@ -9671,6 +12336,7 @@
     0.2551
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 102,
    "index_offset": 562520,
@@ -9697,6 +12363,7 @@
     0.7925
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 201,
    "index_offset": 566480,
@@ -9723,6 +12390,7 @@
     0.1025
    ],
    "entity": null,
+   "free": "generated:flat:202020",
    "generic": null,
    "index_count": 84,
    "index_offset": 568212,
@@ -9749,6 +12417,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 195,
    "index_offset": 571588,
@@ -9775,6 +12444,7 @@
     0.3819
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 93,
    "index_offset": 573456,
@@ -9801,6 +12471,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 195,
    "index_offset": 577188,
@@ -9827,6 +12498,7 @@
     0.7406
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 578224,
@@ -9853,6 +12525,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 36,
    "index_offset": 578912,
@@ -9879,6 +12552,7 @@
     0.2551
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 387,
    "index_offset": 583408,
@@ -9905,6 +12579,7 @@
     0.7925
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 804,
    "index_offset": 601468,
@@ -9931,6 +12606,7 @@
     0.1025
    ],
    "entity": null,
+   "free": "generated:flat:202020",
    "generic": null,
    "index_count": 348,
    "index_offset": 608620,
@@ -9957,6 +12633,7 @@
     0.1025
    ],
    "entity": null,
+   "free": "generated:flat:202020",
    "generic": null,
    "index_count": 114,
    "index_offset": 611228,
@@ -9983,6 +12660,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 1116,
    "index_offset": 628452,
@@ -10009,6 +12687,7 @@
     0.3819
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 291,
    "index_offset": 636724,
@@ -10035,6 +12714,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 638400,
@@ -10061,6 +12741,7 @@
     0.3499
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 42,
    "index_offset": 639376,
@@ -10087,6 +12768,7 @@
     0.7406
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 105,
    "index_offset": 641368,
@@ -10113,6 +12795,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 642044,
@@ -10134,6 +12817,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 36,
    "index_offset": 642540,
@@ -10165,6 +12849,7 @@
     0.2551
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 195,
    "index_offset": 644892,
@@ -10191,6 +12876,7 @@
     0.7925
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 252,
    "index_offset": 650600,
@@ -10217,6 +12903,7 @@
     0.1025
    ],
    "entity": null,
+   "free": "generated:flat:202020",
    "generic": null,
    "index_count": 141,
    "index_offset": 653208,
@@ -10243,6 +12930,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 396,
    "index_offset": 659596,
@@ -10269,6 +12957,7 @@
     0.3819
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 123,
    "index_offset": 662684,
@@ -10295,6 +12984,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 141,
    "index_offset": 665256,
@@ -10321,6 +13011,7 @@
     0.4134
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 666012,
@@ -10347,6 +13038,7 @@
     0.7406
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 666700,
@@ -10373,6 +13065,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 667132,
@@ -10399,6 +13092,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 60,
    "index_offset": 668028,
@@ -10425,6 +13119,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 668940,
@@ -10451,6 +13146,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 669352,
@@ -10477,6 +13173,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 669720,
@@ -10503,6 +13200,7 @@
     0.483
    ],
    "entity": null,
+   "free": "concrete_clean:ceiling",
    "generic": "ceiling",
    "index_count": 159,
    "index_offset": 671616,
@@ -10524,6 +13222,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 108,
    "index_offset": 673660,
@@ -10555,6 +13254,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 674284,
@@ -10581,6 +13281,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 606,
    "index_offset": 680636,
@@ -10607,6 +13308,7 @@
     0.4672
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 726,
    "index_offset": 691316,
@@ -10633,6 +13335,7 @@
     0.483
    ],
    "entity": null,
+   "free": "concrete_clean:ceiling",
    "generic": "ceiling",
    "index_count": 933,
    "index_offset": 702476,
@@ -10659,6 +13362,7 @@
     0.5133
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 231,
    "index_offset": 708032,
@@ -10685,6 +13389,7 @@
     0.6289
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 709212,
@@ -10711,6 +13416,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 709548,
@@ -10737,6 +13443,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 709920,
@@ -10763,6 +13470,7 @@
     0.3499
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 30,
    "index_offset": 710644,
@@ -10789,6 +13497,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 710924,
@@ -10815,6 +13524,7 @@
     0.3237
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 711088,
@@ -10841,6 +13551,7 @@
     0.3237
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 711240,
@@ -10867,6 +13578,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 45,
    "index_offset": 711872,
@@ -10893,6 +13605,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 69,
    "index_offset": 713044,
@@ -10919,6 +13632,7 @@
     0.3499
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 30,
    "index_offset": 713960,
@@ -10945,6 +13659,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 714560,
@@ -10971,6 +13686,7 @@
     0.3237
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 715308,
@@ -10997,6 +13713,7 @@
     0.3237
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 716196,
@@ -11023,6 +13740,7 @@
     0.3237
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 716724,
@@ -11049,6 +13767,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 177,
    "index_offset": 718556,
@@ -11075,6 +13794,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 972,
    "index_offset": 731456,
@@ -11101,6 +13821,7 @@
     0.4134
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 735504,
@@ -11127,6 +13848,7 @@
     0.3499
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 30,
    "index_offset": 736180,
@@ -11153,6 +13875,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 51,
    "index_offset": 737164,
@@ -11174,6 +13897,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 63,
    "index_offset": 738488,
@@ -11200,6 +13924,7 @@
     0.2551
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 360,
    "index_offset": 741972,
@@ -11226,6 +13951,7 @@
     0.7925
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 432,
    "index_offset": 752500,
@@ -11252,6 +13978,7 @@
     0.1025
    ],
    "entity": null,
+   "free": "generated:flat:202020",
    "generic": null,
    "index_count": 258,
    "index_offset": 757236,
@@ -11278,6 +14005,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 1155,
    "index_offset": 772764,
@@ -11304,6 +14032,7 @@
     0.3819
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 246,
    "index_offset": 780520,
@@ -11330,6 +14059,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 2496,
    "index_offset": 813120,
@@ -11356,6 +14086,7 @@
     0.4134
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 33,
    "index_offset": 823552,
@@ -11382,6 +14113,7 @@
     0.7406
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 72,
    "index_offset": 824964,
@@ -11408,6 +14140,7 @@
     0.3221
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 825636,
@@ -11434,6 +14167,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 825860,
@@ -11460,6 +14194,7 @@
     0.0418
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 402,
    "index_offset": 830108,
@@ -11486,6 +14221,7 @@
     0.3237
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 831972,
@@ -11512,6 +14248,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 832300,
@@ -11538,6 +14275,7 @@
     0.6889
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 354,
    "index_offset": 837204,
@@ -11564,6 +14302,7 @@
     0.7067
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 839516,
@@ -11590,6 +14329,7 @@
     0.7067
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 839812,
@@ -11616,6 +14356,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 855,
    "index_offset": 854396,
@@ -11642,6 +14383,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 279,
    "index_offset": 861400,
@@ -11668,6 +14410,7 @@
     0.4134
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 862708,
@@ -11694,6 +14437,7 @@
     0.3486
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 66,
    "index_offset": 864164,
@@ -11720,6 +14464,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 864588,
@@ -11746,6 +14491,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 865168,
@@ -11772,6 +14518,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 865404,
@@ -11798,6 +14545,7 @@
     0.483
    ],
    "entity": null,
+   "free": "concrete_clean:ceiling",
    "generic": "ceiling",
    "index_count": 456,
    "index_offset": 870548,
@@ -11819,6 +14567,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 120,
    "index_offset": 873716,
@@ -11850,6 +14599,7 @@
     0.6889
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 810,
    "index_offset": 884948,
@@ -11876,6 +14626,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 888508,
@@ -11902,6 +14653,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 889212,
@@ -11928,6 +14680,7 @@
     0.483
    ],
    "entity": null,
+   "free": "concrete_clean:ceiling",
    "generic": "ceiling",
    "index_count": 1077,
    "index_offset": 899768,
@@ -11954,6 +14707,7 @@
     0.7198
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 904588,
@@ -11980,6 +14734,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 45,
    "index_offset": 905364,
@@ -12006,6 +14761,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 246,
    "index_offset": 909064,
@@ -12032,6 +14788,7 @@
     0.3499
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 30,
    "index_offset": 910688,
@@ -12058,6 +14815,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 911064,
@@ -12084,6 +14842,7 @@
     0.483
    ],
    "entity": null,
+   "free": "concrete_clean:ceiling",
    "generic": "ceiling",
    "index_count": 153,
    "index_offset": 913000,
@@ -12110,6 +14869,7 @@
     0.6289
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 914124,
@@ -12136,6 +14896,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 914604,
@@ -12157,6 +14918,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 18,
    "index_offset": 914932,
@@ -12183,6 +14945,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 915644,
@@ -12204,6 +14967,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 18,
    "index_offset": 916148,
@@ -12230,6 +14994,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 916476,
@@ -12256,6 +15021,7 @@
     0.083
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 378,
    "index_offset": 920172,
@@ -12282,6 +15048,7 @@
     0.3577
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 922452,
@@ -12308,6 +15075,7 @@
     0.3577
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 922724,
@@ -12334,6 +15102,7 @@
     0.3577
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 923004,
@@ -12360,6 +15129,7 @@
     0.3577
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 923948,
@@ -12386,6 +15156,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 87,
    "index_offset": 925172,
@@ -12412,6 +15183,7 @@
     0.4263
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 132,
    "index_offset": 927312,
@@ -12438,6 +15210,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 645,
    "index_offset": 937152,
@@ -12464,6 +15237,7 @@
     0.3499
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 30,
    "index_offset": 940372,
@@ -12490,6 +15264,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 940876,
@@ -12516,6 +15291,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 312,
    "index_offset": 945196,
@@ -12542,6 +15318,7 @@
     0.2551
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 285,
    "index_offset": 949420,
@@ -12568,6 +15345,7 @@
     0.7925
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 675,
    "index_offset": 964032,
@@ -12594,6 +15372,7 @@
     0.1025
    ],
    "entity": null,
+   "free": "generated:flat:202020",
    "generic": null,
    "index_count": 54,
    "index_offset": 967436,
@@ -12620,6 +15399,7 @@
     0.1025
    ],
    "entity": null,
+   "free": "generated:flat:202020",
    "generic": null,
    "index_count": 318,
    "index_offset": 971236,
@@ -12646,6 +15426,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 900,
    "index_offset": 985308,
@@ -12672,6 +15453,7 @@
     0.3819
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 225,
    "index_offset": 991852,
@@ -12698,6 +15480,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 993,
    "index_offset": 1006288,
@@ -12724,6 +15507,7 @@
     0.3499
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 60,
    "index_offset": 1011540,
@@ -12750,6 +15534,7 @@
     0.7406
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 90,
    "index_offset": 1013380,
@@ -12776,6 +15561,7 @@
     0.3221
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1014124,
@@ -12802,6 +15588,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1014540,
@@ -12828,6 +15615,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 465,
    "index_offset": 1022164,
@@ -12854,6 +15642,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 1024568,
@@ -12880,6 +15669,7 @@
     0.3872
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1024980,
@@ -12906,6 +15696,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1025156,
@@ -12927,6 +15718,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 6,
    "index_offset": 1025308,
@@ -12958,6 +15750,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 2385,
    "index_offset": 1058452,
@@ -12984,6 +15777,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 45,
    "index_offset": 1068600,
@@ -13010,6 +15804,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 234,
    "index_offset": 1071852,
@@ -13036,6 +15831,7 @@
     0.2571
    ],
    "entity": null,
+   "free": "generated:flat:bf4040",
    "generic": "flat",
    "index_count": 585,
    "index_offset": 1083764,
@@ -13062,6 +15858,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 1086680,
@@ -13090,6 +15887,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "ground:mud",
    "generic": "mud",
    "index_count": 384,
    "index_offset": 1089392,
@@ -13116,6 +15914,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 60,
    "index_offset": 1091824,
@@ -13142,6 +15941,7 @@
     0.7925
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 96,
    "index_offset": 1094112,
@@ -13168,6 +15968,7 @@
     0.7067
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 1095392,
@@ -13194,6 +15995,7 @@
     0.7067
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 1096456,
@@ -13220,6 +16022,7 @@
     0.7067
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1096752,
@@ -13246,6 +16049,7 @@
     0.7067
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1096904,
@@ -13272,6 +16076,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 1097568,
@@ -13298,6 +16103,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 630,
    "index_offset": 1107064,
@@ -13324,6 +16130,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 933,
    "index_offset": 1120048,
@@ -13350,6 +16157,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 1124484,
@@ -13376,6 +16184,7 @@
     0.3478
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 54,
    "index_offset": 1125548,
@@ -13402,6 +16211,7 @@
     0.6289
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 69,
    "index_offset": 1126820,
@@ -13428,6 +16238,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 126,
    "index_offset": 1128440,
@@ -13454,6 +16265,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 420,
    "index_offset": 1134832,
@@ -13480,6 +16292,7 @@
     0.3478
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1137024,
@@ -13506,6 +16319,7 @@
     0.6289
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 54,
    "index_offset": 1138320,
@@ -13532,6 +16346,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1138664,
@@ -13558,6 +16373,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 1139360,
@@ -13584,6 +16400,7 @@
     0.3478
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1139808,
@@ -13610,6 +16427,7 @@
     0.6289
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1140136,
@@ -13636,6 +16454,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 1140536,
@@ -13662,6 +16481,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 171,
    "index_offset": 1143524,
@@ -13688,6 +16508,7 @@
     0.3221
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1144464,
@@ -13714,6 +16535,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1144856,
@@ -13740,6 +16562,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 207,
    "index_offset": 1148504,
@@ -13766,6 +16589,7 @@
     0.4134
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 1149972,
@@ -13792,6 +16616,7 @@
     0.3221
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 51,
    "index_offset": 1150956,
@@ -13818,6 +16643,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1151352,
@@ -13844,6 +16670,7 @@
     0.3237
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1152168,
@@ -13870,6 +16697,7 @@
     0.3237
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1152568,
@@ -13896,6 +16724,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 99,
    "index_offset": 1153672,
@@ -13922,6 +16751,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 405,
    "index_offset": 1160308,
@@ -13948,6 +16778,7 @@
     0.3221
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1162184,
@@ -13974,6 +16805,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1162448,
@@ -14000,6 +16832,7 @@
     0.3237
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1162752,
@@ -14026,6 +16859,7 @@
     0.3237
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1163568,
@@ -14052,6 +16886,7 @@
     0.6889
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 1164256,
@@ -14078,6 +16913,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 126,
    "index_offset": 1165612,
@@ -14104,6 +16940,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 489,
    "index_offset": 1173060,
@@ -14130,6 +16967,7 @@
     0.5564
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1175144,
@@ -14156,6 +16994,7 @@
     0.3221
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1175424,
@@ -14182,6 +17021,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1175688,
@@ -14208,6 +17048,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 45,
    "index_offset": 1176344,
@@ -14234,6 +17075,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 156,
    "index_offset": 1179276,
@@ -14260,6 +17102,7 @@
     0.3221
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1180156,
@@ -14286,6 +17129,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 1180388,
@@ -14312,6 +17156,7 @@
     0.236
    ],
    "entity": null,
+   "free": "generated:flat:404040",
    "generic": "flat",
    "index_count": 6,
    "index_offset": 1180552,
@@ -14338,6 +17183,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 81,
    "index_offset": 1181536,
@@ -14364,6 +17210,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 393,
    "index_offset": 1188356,
@@ -14390,6 +17237,7 @@
     0.2719
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 42,
    "index_offset": 1190824,
@@ -14411,6 +17259,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 54,
    "index_offset": 1191696,
@@ -14442,6 +17291,7 @@
     0.236
    ],
    "entity": null,
+   "free": "generated:flat:404040",
    "generic": "flat",
    "index_count": 6,
    "index_offset": 1192040,
@@ -14468,6 +17318,7 @@
     0.236
    ],
    "entity": null,
+   "free": "generated:flat:404040",
    "generic": "flat",
    "index_count": 12,
    "index_offset": 1192320,
@@ -14494,6 +17345,7 @@
     0.236
    ],
    "entity": null,
+   "free": "generated:flat:404040",
    "generic": "flat",
    "index_count": 12,
    "index_offset": 1192624,
@@ -14520,6 +17372,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 24,
    "index_offset": 1193184,
@@ -14546,6 +17399,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 6,
    "index_offset": 1193408,
@@ -14572,6 +17426,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 36,
    "index_offset": 1194200,
@@ -14598,6 +17453,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 6,
    "index_offset": 1194472,
@@ -14624,6 +17480,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 132,
    "index_offset": 1195808,
@@ -14650,6 +17507,7 @@
     0.4263
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1196464,
@@ -14676,6 +17534,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 978,
    "index_offset": 1210664,
@@ -14702,6 +17561,7 @@
     0.352
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 339,
    "index_offset": 1218768,
@@ -14728,6 +17588,7 @@
     0.5047
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 354,
    "index_offset": 1224156,
@@ -14754,6 +17615,7 @@
     0.2719
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 18,
    "index_offset": 1225956,
@@ -14775,6 +17637,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 12,
    "index_offset": 1226220,
@@ -14806,6 +17669,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 12,
    "index_offset": 1226524,
@@ -14832,6 +17696,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 12,
    "index_offset": 1226828,
@@ -14858,6 +17723,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 63,
    "index_offset": 1227548,
@@ -14884,6 +17750,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 306,
    "index_offset": 1232536,
@@ -14910,6 +17777,7 @@
     0.3221
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1234016,
@@ -14936,6 +17804,7 @@
     0.352
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 57,
    "index_offset": 1234888,
@@ -14962,6 +17831,7 @@
     0.5047
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 147,
    "index_offset": 1236972,
@@ -14983,6 +17853,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 81,
    "index_offset": 1238456,
@@ -15014,6 +17885,7 @@
     0.2551
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 120,
    "index_offset": 1240124,
@@ -15040,6 +17912,7 @@
     0.7925
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 252,
    "index_offset": 1245980,
@@ -15066,6 +17939,7 @@
     0.1025
    ],
    "entity": null,
+   "free": "generated:flat:202020",
    "generic": null,
    "index_count": 150,
    "index_offset": 1248716,
@@ -15092,6 +17966,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 336,
    "index_offset": 1254596,
@@ -15118,6 +17993,7 @@
     0.3819
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 132,
    "index_offset": 1257604,
@@ -15144,6 +18020,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 33,
    "index_offset": 1258612,
@@ -15170,6 +18047,7 @@
     0.7406
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1259384,
@@ -15196,6 +18074,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1260040,
@@ -15222,6 +18101,7 @@
     0.1831
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 6,
    "index_offset": 1260312,
@@ -15248,6 +18128,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 84,
    "index_offset": 1262128,
@@ -15274,6 +18155,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 18,
    "index_offset": 1262848,
@@ -15300,6 +18182,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 36,
    "index_offset": 1263688,
@@ -15326,6 +18209,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 6,
    "index_offset": 1263960,
@@ -15352,6 +18236,7 @@
     0.6889
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 60,
    "index_offset": 1265264,
@@ -15378,6 +18263,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 57,
    "index_offset": 1266176,
@@ -15404,6 +18290,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 594,
    "index_offset": 1275268,
@@ -15430,6 +18317,7 @@
     0.3872
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 1278668,
@@ -15456,6 +18344,7 @@
     0.3221
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 156,
    "index_offset": 1282060,
@@ -15482,6 +18371,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1282940,
@@ -15503,6 +18393,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 6,
    "index_offset": 1283140,
@@ -15534,6 +18425,7 @@
     0.1831
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 48,
    "index_offset": 1283740,
@@ -15560,6 +18452,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 2115,
    "index_offset": 1314172,
@@ -15586,6 +18479,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 60,
    "index_offset": 1323400,
@@ -15612,6 +18506,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 645,
    "index_offset": 1332376,
@@ -15638,6 +18533,7 @@
     0.2571
    ],
    "entity": null,
+   "free": "generated:flat:bf4040",
    "generic": "flat",
    "index_count": 591,
    "index_offset": 1345996,
@@ -15666,6 +18562,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "ground:mud",
    "generic": "mud",
    "index_count": 384,
    "index_offset": 1350952,
@@ -15687,6 +18584,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 6,
    "index_offset": 1352616,
@@ -15718,6 +18616,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 543,
    "index_offset": 1362464,
@@ -15744,6 +18643,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1365084,
@@ -15770,6 +18670,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 108,
    "index_offset": 1366828,
@@ -15796,6 +18697,7 @@
     0.3478
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1367516,
@@ -15822,6 +18724,7 @@
     0.6289
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1367972,
@@ -15843,6 +18746,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 12,
    "index_offset": 1368300,
@@ -15874,6 +18778,7 @@
     0.3408
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 114,
    "index_offset": 1369628,
@@ -15895,6 +18800,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 18,
    "index_offset": 1370404,
@@ -15926,6 +18832,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 33,
    "index_offset": 1370924,
@@ -15952,6 +18859,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 174,
    "index_offset": 1374160,
@@ -15978,6 +18886,7 @@
     0.3221
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1375368,
@@ -16004,6 +18913,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 1376056,
@@ -16030,6 +18940,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 429,
    "index_offset": 1382328,
@@ -16056,6 +18967,7 @@
     0.4134
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 99,
    "index_offset": 1385932,
@@ -16082,6 +18994,7 @@
     0.3221
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 120,
    "index_offset": 1388440,
@@ -16108,6 +19021,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 1389144,
@@ -16134,6 +19048,7 @@
     0.3237
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1389460,
@@ -16160,6 +19075,7 @@
     0.3237
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1390276,
@@ -16186,6 +19102,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 117,
    "index_offset": 1391668,
@@ -16212,6 +19129,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 408,
    "index_offset": 1398248,
@@ -16238,6 +19156,7 @@
     0.3221
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1400136,
@@ -16264,6 +19183,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 1400432,
@@ -16290,6 +19210,7 @@
     0.3237
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1401260,
@@ -16316,6 +19237,7 @@
     0.3237
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1401660,
@@ -16342,6 +19264,7 @@
     0.6889
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1402220,
@@ -16368,6 +19291,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 120,
    "index_offset": 1403532,
@@ -16394,6 +19318,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 444,
    "index_offset": 1410156,
@@ -16420,6 +19345,7 @@
     0.5564
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1412060,
@@ -16446,6 +19372,7 @@
     0.3221
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1412340,
@@ -16472,6 +19399,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1412604,
@@ -16498,6 +19426,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 54,
    "index_offset": 1413292,
@@ -16524,6 +19453,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 222,
    "index_offset": 1417028,
@@ -16550,6 +19480,7 @@
     0.3221
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1418172,
@@ -16576,6 +19507,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 1418404,
@@ -16597,6 +19529,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 18,
    "index_offset": 1418824,
@@ -16623,6 +19556,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 81,
    "index_offset": 1419888,
@@ -16649,6 +19583,7 @@
     0.4263
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 120,
    "index_offset": 1421812,
@@ -16675,6 +19610,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 798,
    "index_offset": 1433428,
@@ -16696,6 +19632,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 69,
    "index_offset": 1437484,
@@ -16727,6 +19664,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 36,
    "index_offset": 1438528,
@@ -16753,6 +19691,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 6,
    "index_offset": 1438800,
@@ -16779,6 +19718,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 6,
    "index_offset": 1438952,
@@ -16805,6 +19745,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 18,
    "index_offset": 1439360,
@@ -16831,6 +19772,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 6,
    "index_offset": 1439560,
@@ -16857,6 +19799,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 168,
    "index_offset": 1441216,
@@ -16883,6 +19826,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 531,
    "index_offset": 1449376,
@@ -16909,6 +19853,7 @@
     0.352
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 195,
    "index_offset": 1453996,
@@ -16935,6 +19880,7 @@
     0.5047
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 534,
    "index_offset": 1461016,
@@ -16961,6 +19907,7 @@
     0.2719
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 54,
    "index_offset": 1464304,
@@ -16982,6 +19929,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 18,
    "index_offset": 1464840,
@@ -17013,6 +19961,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 12,
    "index_offset": 1465168,
@@ -17039,6 +19988,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 12,
    "index_offset": 1465472,
@@ -17065,6 +20015,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 63,
    "index_offset": 1466128,
@@ -17091,6 +20042,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 432,
    "index_offset": 1472300,
@@ -17117,6 +20069,7 @@
     0.3221
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1474220,
@@ -17143,6 +20096,7 @@
     0.352
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 105,
    "index_offset": 1475420,
@@ -17169,6 +20123,7 @@
     0.5047
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 153,
    "index_offset": 1477888,
@@ -17195,6 +20150,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 186,
    "index_offset": 1482468,
@@ -17221,6 +20177,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 18,
    "index_offset": 1483596,
@@ -17247,6 +20204,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 36,
    "index_offset": 1484436,
@@ -17273,6 +20231,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 12,
    "index_offset": 1484836,
@@ -17299,6 +20258,7 @@
     0.1817
    ],
    "entity": null,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 18,
    "index_offset": 1485268,
@@ -17325,6 +20285,7 @@
     0.6889
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 84,
    "index_offset": 1487132,
@@ -17351,6 +20312,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1487724,
@@ -17377,6 +20339,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 51,
    "index_offset": 1488348,
@@ -17403,6 +20366,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 150,
    "index_offset": 1490696,
@@ -17429,6 +20393,7 @@
     0.3221
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1491744,
@@ -17455,6 +20420,7 @@
     0.8049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1492016,
@@ -17476,6 +20442,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 12,
    "index_offset": 1492296,
@@ -17507,6 +20474,7 @@
     0.3408
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 111,
    "index_offset": 1493592,
@@ -17528,6 +20496,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 12,
    "index_offset": 1494292,
@@ -17559,6 +20528,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 54,
    "index_offset": 1495300,
@@ -17580,6 +20550,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 18,
    "index_offset": 1495772,
@@ -17606,6 +20577,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 99,
    "index_offset": 1497476,
@@ -17632,6 +20604,7 @@
     0.1153
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 1498096,
@@ -17658,6 +20631,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 189,
    "index_offset": 1501132,
@@ -17684,6 +20658,7 @@
     0.3221
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1502400,
@@ -17710,6 +20685,7 @@
     0.2719
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 6,
    "index_offset": 1502672,
@@ -17736,6 +20712,7 @@
     0.5305
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 1502984,
@@ -17757,6 +20734,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 12,
    "index_offset": 1503324,
@@ -17788,6 +20766,7 @@
     0.3408
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 270,
    "index_offset": 1505932,
@@ -17809,6 +20788,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 21,
    "index_offset": 1507364,
@@ -17840,6 +20820,7 @@
     0.5133
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 96,
    "index_offset": 1508536,
@@ -17862,6 +20843,7 @@
     0.1996
    ],
    "entity": 89,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1509048,
@@ -17884,6 +20866,7 @@
     0.1996
    ],
    "entity": 89,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1509328,
@@ -17906,6 +20889,7 @@
     0.1996
    ],
    "entity": 89,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1509632,
@@ -17928,6 +20912,7 @@
     0.1489
    ],
    "entity": 89,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1509808,
@@ -17950,6 +20935,7 @@
     0.1996
    ],
    "entity": 110,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1510216,
@@ -17972,6 +20958,7 @@
     0.1996
    ],
    "entity": 110,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1510544,
@@ -17994,6 +20981,7 @@
     0.1489
    ],
    "entity": 110,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1510720,
@@ -18016,6 +21004,7 @@
     0.1996
    ],
    "entity": 166,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1511000,
@@ -18038,6 +21027,7 @@
     0.1996
    ],
    "entity": 166,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1511304,
@@ -18060,6 +21050,7 @@
     0.1489
    ],
    "entity": 166,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1511608,
@@ -18082,6 +21073,7 @@
     0.1996
    ],
    "entity": 171,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1512040,
@@ -18105,6 +21097,7 @@
     0.1996
    ],
    "entity": 171,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1512368,
@@ -18128,6 +21121,7 @@
     0.1489
    ],
    "entity": 171,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1512544,
@@ -18151,6 +21145,7 @@
     0.1153
    ],
    "entity": 220,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1513336,
@@ -18173,6 +21168,7 @@
     0.4891
    ],
    "entity": 265,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 1514120,
@@ -18195,6 +21191,7 @@
     0.5873
    ],
    "entity": 294,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 216,
    "index_offset": 1518848,
@@ -18217,6 +21214,7 @@
     0.5873
    ],
    "entity": 294,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1520096,
@@ -18239,6 +21237,7 @@
     0.5873
    ],
    "entity": 294,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 1521064,
@@ -18261,6 +21260,7 @@
     0.5873
    ],
    "entity": 294,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 90,
    "index_offset": 1523152,
@@ -18283,6 +21283,7 @@
     0.5873
    ],
    "entity": 294,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1524024,
@@ -18305,6 +21306,7 @@
     0.5873
    ],
    "entity": 294,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1524632,
@@ -18327,6 +21329,7 @@
     0.5873
    ],
    "entity": 294,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1525112,
@@ -18349,6 +21352,7 @@
     0.5873
    ],
    "entity": 295,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 216,
    "index_offset": 1529792,
@@ -18371,6 +21375,7 @@
     0.5873
    ],
    "entity": 295,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1531040,
@@ -18393,6 +21398,7 @@
     0.5873
    ],
    "entity": 295,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 114,
    "index_offset": 1533544,
@@ -18415,6 +21421,7 @@
     0.5873
    ],
    "entity": 295,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1534512,
@@ -18437,6 +21444,7 @@
     0.5873
    ],
    "entity": 295,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 60,
    "index_offset": 1535888,
@@ -18459,6 +21467,7 @@
     0.1153
    ],
    "entity": 486,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1536896,
@@ -18481,6 +21490,7 @@
     0.6889
    ],
    "entity": 492,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 1537872,
@@ -18504,6 +21514,7 @@
     0.1153
    ],
    "entity": 492,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1538256,
@@ -18527,6 +21538,7 @@
     0.1996
    ],
    "entity": 683,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1538560,
@@ -18549,6 +21561,7 @@
     0.1996
    ],
    "entity": 683,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1538864,
@@ -18571,6 +21584,7 @@
     0.1996
    ],
    "entity": 683,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1539040,
@@ -18593,6 +21607,7 @@
     0.1489
    ],
    "entity": 683,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1539192,
@@ -18615,6 +21630,7 @@
     0.3824
    ],
    "entity": 1102,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 90,
    "index_offset": 1541136,
@@ -18638,6 +21654,7 @@
     0.3499
    ],
    "entity": 1102,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 495,
    "index_offset": 1548984,
@@ -18661,6 +21678,7 @@
     0.3824
    ],
    "entity": 1105,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 90,
    "index_offset": 1552884,
@@ -18684,6 +21702,7 @@
     0.3499
    ],
    "entity": 1105,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 492,
    "index_offset": 1560796,

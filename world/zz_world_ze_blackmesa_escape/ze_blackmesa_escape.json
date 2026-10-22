@@ -587,8 +587,500 @@
    "treatment": "data"
   }
  ],
+ "environment": {
+  "sky": {
+   "keys": {
+    "detailmaterial": "detail/detailsprites",
+    "detailvbsp": "detail.vbsp",
+    "maxpropscreenwidth": "-1",
+    "skyname": "sky_day01_07"
+   },
+   "name": "sky_day01_07"
+  },
+  "sun": {
+   "ambient": [
+    1.0,
+    1.0,
+    1.0,
+    20.0
+   ],
+   "ambient_hdr": null,
+   "class": "light_environment",
+   "colour": [
+    0.5137,
+    0.5137,
+    0.5137,
+    200.0
+   ],
+   "colour_hdr": null,
+   "entity": 6,
+   "pitch": -90.0,
+   "spread": 0.0,
+   "yaw": 0.0
+  }
+ },
  "format": "dot-bsp-mesh",
  "hulls": [],
+ "licence": {
+  "model_stand_ins": [
+   {
+    "author": "Kenney",
+    "count": 5,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "bookcase",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 12,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "ceiling_light",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 7,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "chair",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "desk",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 4,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "fridge",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   }
+  ],
+  "models": [
+   {
+    "count": 1,
+    "model": "models/combine_soldier.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 1,
+    "model": "models/gman.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 1,
+    "model": "models/props/cs_assault/consolepanelloadingbay.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 1,
+    "model": "models/props/cs_assault/forklift.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 4,
+    "model": "models/props/cs_office/vending_machine.mdl",
+    "stand_in": "fridge"
+   },
+   {
+    "count": 1,
+    "model": "models/props/de_train/de_train_securityguard.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 2,
+    "model": "models/props/de_train/lockers_long.mdl",
+    "stand_in": "bookcase"
+   },
+   {
+    "count": 7,
+    "model": "models/props_c17/chair02a.mdl",
+    "stand_in": "chair"
+   },
+   {
+    "count": 3,
+    "model": "models/props_c17/light_cagelight01_on.mdl",
+    "stand_in": "ceiling_light"
+   },
+   {
+    "count": 3,
+    "model": "models/props_industrial/warehouse_shelf001.mdl",
+    "stand_in": "bookcase"
+   },
+   {
+    "count": 1,
+    "model": "models/props_lab/desklamp01.mdl",
+    "stand_in": "desk"
+   },
+   {
+    "count": 1,
+    "model": "models/props_lab/securitybank.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 30,
+    "model": "models/props_lab/walllight001a.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 6,
+    "model": "models/props_wasteland/cargo_container01.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 9,
+    "model": "models/props_wasteland/prison_cagedlight001a.mdl",
+    "stand_in": "ceiling_light"
+   },
+   {
+    "count": 1,
+    "model": "models/zombie/classic.mdl",
+    "stand_in": "placeholder_box"
+   }
+  ],
+  "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
+  "sounds": [
+   {
+    "author": "Kenney",
+    "count": 1,
+    "licence": "CC0-1.0",
+    "source": "Kenney Impact Sounds",
+    "stand_in": "bell",
+    "url": "https://kenney.nl/assets/impact-sounds"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "licence": "CC0-1.0",
+    "source": "Kenney Interface Sounds",
+    "stand_in": "button",
+    "url": "https://kenney.nl/assets/interface-sounds"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "licence": "CC0-1.0",
+    "source": "Kenney Sci-Fi Sounds",
+    "stand_in": "explosion",
+    "url": "https://kenney.nl/assets/sci-fi-sounds"
+   }
+  ],
+  "textures": [
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.5,
+     0.375,
+     0.375
+    ],
+    "file": "surfaces/brick",
+    "generic": "brick_red",
+    "how": "table",
+    "key": "brick:brick_red",
+    "kind": "brick",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "brick/brickfloor001a"
+    ],
+    "surfaces": 3,
+    "url": "https://ambientcg.com/view?id=Bricks097"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.5,
+     0.5,
+     0.5
+    ],
+    "file": "surfaces/tile_white",
+    "generic": "tile_floor",
+    "how": "table",
+    "key": "tile_white:tile_floor",
+    "kind": "tile_white",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "de_piranesi/marblefloor01",
+     "stone/marblefloor001b",
+     "tile/prodflra",
+     "tile/tilefloor021a"
+    ],
+    "surfaces": 25,
+    "url": "https://ambientcg.com/view?id=Tiles107"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.375,
+     0.375,
+     0.375
+    ],
+    "file": "surfaces/metal",
+    "generic": "metal",
+    "how": "table",
+    "key": "metal:metal",
+    "kind": "metal",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "cs_havana/metal02",
+     "cs_havana/metalfence007a",
+     "cs_havana/metalwall085a",
+     "de_nuke/nuke_metalfloor_01",
+     "de_nuke/nukslidea",
+     "de_piranesi/pi_grnmetalt",
+     "de_train/train_metalceiling_01",
+     "de_train/train_metalceiling_02",
+     "dev/dev_lowermetaldoor02a",
+     "halflife/lab1_cmpm3000",
+     "halflife/lab1_cmpm5",
+     "halflife/lab1_comp3e",
+     "metal/citadel_metalwall060a",
+     "metal/citadel_metalwall072a",
+     "metal/citadel_metalwall077a",
+     "metal/metaldoor053a",
+     "metal/metaldoor061a",
+     "metal/metalfloor003a",
+     "metal/metalgrate013b",
+     "metal/metalhull010b",
+     "metal/metalhull010c",
+     "metal/metalladder001a",
+     "metal/metalrail003a",
+     "metal/metalvent001a",
+     "metal/metalvent003a",
+     "metal/metalwall005b",
+     "metal/metalwall013a",
+     "metal/metalwall013d",
+     "metal/prodcaution",
+     "metal/prodventa",
+     "props/doorbutton002a",
+     "props/metalcomputerpanel001a"
+    ],
+    "surfaces": 732,
+    "url": "https://ambientcg.com/view?id=Metal063"
+   },
+   {
+    "author": "TMC (generated)",
+    "colour": [
+     0.5,
+     0.5,
+     0.5
+    ],
+    "file": "textures/gen_flat_808080.png",
+    "generic": "flat",
+    "how": "table",
+    "key": "generated:flat:808080",
+    "kind": "generated",
+    "licence": "CC0-1.0",
+    "source": "dotbsp generator",
+    "sources": [
+     "tools/toolsblack"
+    ],
+    "surfaces": 8,
+    "url": "generated by tools/bsp/dotbsp/textures.py"
+   },
+   {
+    "author": "TMC (generated)",
+    "colour": [
+     0.75,
+     0.75,
+     0.75
+    ],
+    "file": "textures/gen_flat_bfbfbf.png",
+    "generic": "flat",
+    "how": "table",
+    "key": "generated:flat:bfbfbf",
+    "kind": "generated",
+    "licence": "CC0-1.0",
+    "source": "dotbsp generator",
+    "sources": [
+     "cs_havana/lightb"
+    ],
+    "surfaces": 26,
+    "url": "generated by tools/bsp/dotbsp/textures.py"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.375,
+     0.375,
+     0.375
+    ],
+    "file": "surfaces/wood_planks",
+    "generic": "wood_planks",
+    "how": "table",
+    "key": "wood_planks:wood_planks",
+    "kind": "wood_planks",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "cs_italy/picrate1",
+     "de_cbble/cratesm01b"
+    ],
+    "surfaces": 75,
+    "url": "https://ambientcg.com/view?id=Planks039"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.25,
+     0.25,
+     0.25
+    ],
+    "file": "surfaces/concrete_clean",
+    "generic": "stone_wall",
+    "how": "table",
+    "key": "concrete_clean:stone_wall",
+    "kind": "concrete_clean",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "de_chateau/rockf"
+    ],
+    "surfaces": 29,
+    "url": "https://ambientcg.com/view?id=Concrete034"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.5,
+     0.5,
+     0.5
+    ],
+    "file": "surfaces/grass",
+    "generic": "grass",
+    "how": "table",
+    "key": "grass:grass",
+    "kind": "grass",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "nature/blendproddirtgrass"
+    ],
+    "surfaces": 8,
+    "url": "https://ambientcg.com/view?id=Grass004"
+   },
+   {
+    "author": "TMC (generated)",
+    "colour": [
+     0.875,
+     0.5,
+     0.0
+    ],
+    "file": "textures/gen_flat_df8000.png",
+    "generic": "flat",
+    "how": "table",
+    "key": "generated:flat:df8000",
+    "kind": "generated",
+    "licence": "CC0-1.0",
+    "source": "dotbsp generator",
+    "sources": [
+     "dev/dev_measuregeneric01"
+    ],
+    "surfaces": 1,
+    "url": "generated by tools/bsp/dotbsp/textures.py"
+   },
+   {
+    "author": "TMC (generated)",
+    "colour": [
+     0.375,
+     0.375,
+     0.375
+    ],
+    "file": "textures/gen_flat_606060.png",
+    "generic": "flat",
+    "how": "table",
+    "key": "generated:flat:606060",
+    "kind": "generated",
+    "licence": "CC0-1.0",
+    "source": "dotbsp generator",
+    "sources": [
+     "decals/infnum0",
+     "decals/infnum2",
+     "decals/infnum3",
+     "decals/infnum4",
+     "decals/infnum5",
+     "decals/infnum6"
+    ],
+    "surfaces": 6,
+    "url": "generated by tools/bsp/dotbsp/textures.py"
+   },
+   {
+    "author": "TMC (generated)",
+    "colour": [
+     0.25,
+     0.375,
+     0.375
+    ],
+    "file": "textures/gen_flat_406060.png",
+    "generic": "flat",
+    "how": "table",
+    "key": "generated:flat:406060",
+    "kind": "generated",
+    "licence": "CC0-1.0",
+    "source": "dotbsp generator",
+    "sources": [
+     "decals/infnum1"
+    ],
+    "surfaces": 1,
+    "url": "generated by tools/bsp/dotbsp/textures.py"
+   },
+   {
+    "author": "TMC (generated)",
+    "colour": [
+     0.125,
+     0.0,
+     0.125
+    ],
+    "file": "textures/gen_glass_200020.png",
+    "generic": "glass",
+    "how": "table",
+    "key": "generated:glass:200020",
+    "kind": "generated",
+    "licence": "CC0-1.0",
+    "source": "dotbsp generator",
+    "sources": [
+     "glass/unbreakable"
+    ],
+    "surfaces": 3,
+    "url": "generated by tools/bsp/dotbsp/textures.py"
+   },
+   {
+    "author": "TMC (generated)",
+    "colour": [
+     0.0,
+     0.125,
+     0.125
+    ],
+    "file": "textures/gen_glass_002020.png",
+    "generic": "glass",
+    "how": "table",
+    "key": "generated:glass:002020",
+    "kind": "generated",
+    "licence": "CC0-1.0",
+    "source": "dotbsp generator",
+    "sources": [
+     "glass/glasswindow070c"
+    ],
+    "surfaces": 1,
+    "url": "generated by tools/bsp/dotbsp/textures.py"
+   }
+  ]
+ },
  "links": [
   {
    "delay": 0.0,
@@ -3774,6 +4266,327 @@
  ],
  "name": "ze_blackmesa_escape",
  "notes": [],
+ "props": [
+  {
+   "at": [
+    -109.9616,
+    2.3056,
+    87.7634
+   ],
+   "model": "models/props_lab/desklamp01.mdl",
+   "scale": 1.0,
+   "stand_in": "desk",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -125.0442,
+    1.905,
+    91.2686
+   ],
+   "model": "models/props/de_train/lockers_long.mdl",
+   "scale": 1.0,
+   "stand_in": "bookcase",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -125.0442,
+    1.905,
+    86.7347
+   ],
+   "model": "models/props/de_train/lockers_long.mdl",
+   "scale": 1.0,
+   "stand_in": "bookcase",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -133.9787,
+    1.5033,
+    76.4191
+   ],
+   "model": "models/props_c17/chair02a.mdl",
+   "scale": 1.0,
+   "stand_in": "chair",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -132.6878,
+    1.5033,
+    77.5049
+   ],
+   "model": "models/props_c17/chair02a.mdl",
+   "scale": 1.0,
+   "stand_in": "chair",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -131.5784,
+    1.5033,
+    76.2095
+   ],
+   "model": "models/props_c17/chair02a.mdl",
+   "scale": 1.0,
+   "stand_in": "chair",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -132.8692,
+    1.5033,
+    75.1237
+   ],
+   "model": "models/props_c17/chair02a.mdl",
+   "scale": 1.0,
+   "stand_in": "chair",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -138.0127,
+    1.5033,
+    66.6369
+   ],
+   "model": "models/props_c17/chair02a.mdl",
+   "scale": 1.0,
+   "stand_in": "chair",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -137.4221,
+    1.5033,
+    72.5234
+   ],
+   "model": "models/props_c17/chair02a.mdl",
+   "scale": 1.0,
+   "stand_in": "chair",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -138.5316,
+    1.5033,
+    73.8188
+   ],
+   "model": "models/props_c17/chair02a.mdl",
+   "scale": 1.0,
+   "stand_in": "chair",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -42.672,
+    3.3719,
+    286.3939
+   ],
+   "model": "models/props_wasteland/prison_cagedlight001a.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -42.672,
+    3.3719,
+    287.5369
+   ],
+   "model": "models/props_wasteland/prison_cagedlight001a.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -109.1197,
+    5.0864,
+    96.3221
+   ],
+   "model": "models/props_c17/light_cagelight01_on.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -48.4632,
+    3.3719,
+    284.1117
+   ],
+   "model": "models/props_wasteland/prison_cagedlight001a.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -48.4615,
+    3.3719,
+    289.8229
+   ],
+   "model": "models/props_wasteland/prison_cagedlight001a.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -109.1197,
+    5.0864,
+    80.4809
+   ],
+   "model": "models/props_c17/light_cagelight01_on.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -57.9692,
+    1.2383,
+    285.2738
+   ],
+   "model": "models/props_industrial/warehouse_shelf001.mdl",
+   "scale": 1.0,
+   "stand_in": "bookcase",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -62.9412,
+    1.2383,
+    284.7022
+   ],
+   "model": "models/props_industrial/warehouse_shelf001.mdl",
+   "scale": 1.0,
+   "stand_in": "bookcase",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -59.2264,
+    1.2383,
+    280.416
+   ],
+   "model": "models/props_industrial/warehouse_shelf001.mdl",
+   "scale": 1.0,
+   "stand_in": "bookcase",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -50.6349,
+    3.8291,
+    286.9692
+   ],
+   "model": "models/props_wasteland/prison_cagedlight001a.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -61.5696,
+    3.9815,
+    275.8859
+   ],
+   "model": "models/props_wasteland/prison_cagedlight001a.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -61.5679,
+    3.9815,
+    295.4617
+   ],
+   "model": "models/props_wasteland/prison_cagedlight001a.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -69.4927,
+    3.9815,
+    295.4617
+   ],
+   "model": "models/props_wasteland/prison_cagedlight001a.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -69.4944,
+    3.9815,
+    275.8859
+   ],
+   "model": "models/props_wasteland/prison_cagedlight001a.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -109.1157,
+    5.0864,
+    113.3993
+   ],
+   "model": "models/props_c17/light_cagelight01_on.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -130.7211,
+    1.2383,
+    71.7042
+   ],
+   "model": "models/props/cs_office/vending_machine.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -129.7495,
+    1.2383,
+    71.7042
+   ],
+   "model": "models/props/cs_office/vending_machine.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -128.8112,
+    1.2383,
+    71.6996
+   ],
+   "model": "models/props/cs_office/vending_machine.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -127.8396,
+    1.2383,
+    71.6996
+   ],
+   "model": "models/props/cs_office/vending_machine.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 180.0
+  }
+ ],
  "skipped": {
   "face:tools/toolsskybox": 40,
   "model:func_buyzone": 2,
@@ -3783,6 +4596,322 @@
   "model:trigger_teleport": 3
  },
  "sky3d": null,
+ "sounds": {
+  "ambient": [
+   {
+    "at": [
+     -33.9852,
+     4.2672,
+     245.364
+    ],
+    "entity": 8,
+    "everywhere": true,
+    "looped": true,
+    "message": "mysounds/atmospheric.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 23.812,
+    "source_entity": "",
+    "stand_in": "",
+    "start_silent": true,
+    "targetname": "ambient1",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -37.6428,
+     2.1336,
+     284.6832
+    ],
+    "entity": 85,
+    "everywhere": false,
+    "looped": false,
+    "message": "buttons/button5.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 23.812,
+    "source_entity": "",
+    "stand_in": "button",
+    "start_silent": true,
+    "targetname": "bling",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -109.1184,
+     4.2672,
+     113.538
+    ],
+    "entity": 111,
+    "everywhere": false,
+    "looped": true,
+    "message": "mysounds/bigwarning.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 29.375,
+    "source_entity": "",
+    "stand_in": "",
+    "start_silent": true,
+    "targetname": "alarm1",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -109.1565,
+     2.4384,
+     89.0588
+    ],
+    "entity": 120,
+    "everywhere": false,
+    "looped": true,
+    "message": "mysounds/warn1.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 43.034,
+    "source_entity": "",
+    "stand_in": "",
+    "start_silent": true,
+    "targetname": "alarm1",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -33.9852,
+     4.8768,
+     245.364
+    ],
+    "entity": 171,
+    "everywhere": true,
+    "looped": true,
+    "message": "ambient/explosions/citadel_end_explosion1.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 23.812,
+    "source_entity": "",
+    "stand_in": "explosion",
+    "start_silent": true,
+    "targetname": "rocket_sound_explode",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -101.4984,
+     12.3444,
+     21.7711
+    ],
+    "entity": 176,
+    "everywhere": false,
+    "looped": false,
+    "message": "vo/npc/barney/ba_lookout.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 23.812,
+    "source_entity": "",
+    "stand_in": "",
+    "start_silent": true,
+    "targetname": "stairs_sound",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -55.626,
+     -0.762,
+     84.8106
+    ],
+    "entity": 286,
+    "everywhere": false,
+    "looped": false,
+    "message": "vo/gman_misc/gman_02.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 23.584,
+    "source_entity": "",
+    "stand_in": "",
+    "start_silent": true,
+    "targetname": "aa_secret_room_gman",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -55.626,
+     -0.4572,
+     84.8106
+    ],
+    "entity": 298,
+    "everywhere": false,
+    "looped": false,
+    "message": "vo/breencast/br_overwatch01.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 23.584,
+    "source_entity": "",
+    "stand_in": "",
+    "start_silent": true,
+    "targetname": "aa_secret_room_combine",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -55.626,
+     -0.1524,
+     84.8106
+    ],
+    "entity": 299,
+    "everywhere": false,
+    "looped": false,
+    "message": "npc/zombie/moan_loop1.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 23.584,
+    "source_entity": "",
+    "stand_in": "",
+    "start_silent": true,
+    "targetname": "aa_secret_room_zombie",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -25.2984,
+     3.5052,
+     248.7168
+    ],
+    "entity": 300,
+    "everywhere": true,
+    "looped": false,
+    "message": "mysounds/c0a0_tr_emerg.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 23.812,
+    "source_entity": "",
+    "stand_in": "",
+    "start_silent": true,
+    "targetname": "tram_safety",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -55.9308,
+     -0.762,
+     84.8106
+    ],
+    "entity": 302,
+    "everywhere": false,
+    "looped": false,
+    "message": "mysounds/return.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 29.204,
+    "source_entity": "",
+    "stand_in": "",
+    "start_silent": true,
+    "targetname": "aa_secret_room_music",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -110.871,
+     26.7081,
+     25.2222
+    ],
+    "entity": 345,
+    "everywhere": true,
+    "looped": true,
+    "message": "ambient/alarms/alarm_citizen_loop1.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 23.812,
+    "source_entity": "",
+    "stand_in": "bell",
+    "start_silent": true,
+    "targetname": "rocket_alarm1",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -110.871,
+     27.6225,
+     25.2222
+    ],
+    "entity": 349,
+    "everywhere": true,
+    "looped": false,
+    "message": "hl1/fvox/evacuate_area.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 23.812,
+    "source_entity": "",
+    "stand_in": "",
+    "start_silent": true,
+    "targetname": "rocket_sound1",
+    "volume": 1.0
+   },
+   {
+    "at": [
+     -111.1758,
+     27.6225,
+     25.2222
+    ],
+    "entity": 350,
+    "everywhere": true,
+    "looped": false,
+    "message": "hl1/fvox/immediately.wav",
+    "pitch": 100.0,
+    "pitch_start": 100.0,
+    "radius": 23.812,
+    "source_entity": "",
+    "stand_in": "",
+    "start_silent": true,
+    "targetname": "rocket_sound2",
+    "volume": 1.0
+   }
+  ],
+  "files": {
+   "ambient/alarms/alarm_citizen_loop1.wav": [
+    "ambient_generic:345"
+   ],
+   "ambient/explosions/citadel_end_explosion1.wav": [
+    "ambient_generic:171"
+   ],
+   "buttons/button5.wav": [
+    "ambient_generic:85"
+   ],
+   "hl1/fvox/evacuate_area.wav": [
+    "ambient_generic:349"
+   ],
+   "hl1/fvox/immediately.wav": [
+    "ambient_generic:350"
+   ],
+   "mysounds/atmospheric.wav": [
+    "ambient_generic:8"
+   ],
+   "mysounds/bigwarning.wav": [
+    "ambient_generic:111"
+   ],
+   "mysounds/c0a0_tr_emerg.wav": [
+    "ambient_generic:300"
+   ],
+   "mysounds/return.wav": [
+    "ambient_generic:302"
+   ],
+   "mysounds/warn1.wav": [
+    "ambient_generic:120"
+   ],
+   "npc/zombie/moan_loop1.wav": [
+    "ambient_generic:299"
+   ],
+   "vo/breencast/br_overwatch01.wav": [
+    "ambient_generic:298"
+   ],
+   "vo/gman_misc/gman_02.wav": [
+    "ambient_generic:286"
+   ],
+   "vo/npc/barney/ba_lookout.wav": [
+    "ambient_generic:176"
+   ]
+  },
+  "soundscapes": [],
+  "triggers": []
+ },
  "source": {
   "bsp_version": 20,
   "bytes": 20708781,
@@ -3802,6 +4931,7 @@
     0.353
    ],
    "entity": null,
+   "free": "brick:brick_red",
    "generic": "brick_red",
    "index_count": 60,
    "index_offset": 768,
@@ -3828,6 +4958,7 @@
     0.4674
    ],
    "entity": null,
+   "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 102,
    "index_offset": 2928,
@@ -3854,6 +4985,7 @@
     0.3909
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 3592,
@@ -3880,6 +5012,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 3952,
@@ -3906,6 +5039,7 @@
     0.2216
    ],
    "entity": null,
+   "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 72,
    "index_offset": 5548,
@@ -3932,6 +5066,7 @@
     0.3306
    ],
    "entity": null,
+   "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 18,
    "index_offset": 6092,
@@ -3958,6 +5093,7 @@
     0.353
    ],
    "entity": null,
+   "free": "brick:brick_red",
    "generic": "brick_red",
    "index_count": 120,
    "index_offset": 7700,
@@ -3984,6 +5120,7 @@
     0.4674
    ],
    "entity": null,
+   "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 204,
    "index_offset": 12020,
@@ -4010,6 +5147,7 @@
     0.3909
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 13252,
@@ -4036,6 +5174,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 13652,
@@ -4062,6 +5201,7 @@
     0.2216
    ],
    "entity": null,
+   "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 144,
    "index_offset": 16796,
@@ -4088,6 +5228,7 @@
     0.3306
    ],
    "entity": null,
+   "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 36,
    "index_offset": 17788,
@@ -4114,6 +5255,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 18188,
@@ -4140,6 +5282,7 @@
     0.4891
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 18364,
@@ -4166,6 +5309,7 @@
     0.3909
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 66,
    "index_offset": 19220,
@@ -4192,6 +5336,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 339,
    "index_offset": 25084,
@@ -4218,6 +5363,7 @@
     0.4997
    ],
    "entity": null,
+   "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 72,
    "index_offset": 27272,
@@ -4244,6 +5390,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 27848,
@@ -4270,6 +5417,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 28092,
@@ -4291,6 +5439,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 12,
    "index_offset": 28320,
@@ -4317,6 +5466,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 28528,
@@ -4338,6 +5488,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 48,
    "index_offset": 29044,
@@ -4364,6 +5515,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 29428,
@@ -4385,6 +5537,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 48,
    "index_offset": 30052,
@@ -4411,6 +5564,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 30404,
@@ -4432,6 +5586,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 6,
    "index_offset": 30568,
@@ -4458,6 +5613,7 @@
     0.1756
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 204,
    "index_offset": 32576,
@@ -4484,6 +5640,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 33840,
@@ -4510,6 +5667,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 34192,
@@ -4536,6 +5694,7 @@
     0.2049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 34368,
@@ -4562,6 +5721,7 @@
     0.5304
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 183,
    "index_offset": 37112,
@@ -4588,6 +5748,7 @@
     0.7296
    ],
    "entity": null,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 24,
    "index_offset": 38228,
@@ -4614,6 +5775,7 @@
     0.1756
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 372,
    "index_offset": 41876,
@@ -4640,6 +5802,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 120,
    "index_offset": 45540,
@@ -4666,6 +5829,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 46276,
@@ -4692,6 +5856,7 @@
     0.2049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 46644,
@@ -4718,6 +5883,7 @@
     0.5304
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 177,
    "index_offset": 49244,
@@ -4744,6 +5910,7 @@
     0.353
    ],
    "entity": null,
+   "free": "brick:brick_red",
    "generic": "brick_red",
    "index_count": 63,
    "index_offset": 50752,
@@ -4770,6 +5937,7 @@
     0.4674
    ],
    "entity": null,
+   "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 102,
    "index_offset": 52924,
@@ -4796,6 +5964,7 @@
     0.3909
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 53492,
@@ -4822,6 +5991,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 53944,
@@ -4848,6 +6018,7 @@
     0.2216
    ],
    "entity": null,
+   "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 75,
    "index_offset": 55656,
@@ -4874,6 +6045,7 @@
     0.3306
    ],
    "entity": null,
+   "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 12,
    "index_offset": 56148,
@@ -4900,6 +6072,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 54,
    "index_offset": 56836,
@@ -4926,6 +6099,7 @@
     0.5304
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 114,
    "index_offset": 58844,
@@ -4952,6 +6126,7 @@
     0.7296
    ],
    "entity": null,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 24,
    "index_offset": 59812,
@@ -4978,6 +6153,7 @@
     0.1756
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 45,
    "index_offset": 60644,
@@ -5004,6 +6180,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 216,
    "index_offset": 65176,
@@ -5030,6 +6207,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 96,
    "index_offset": 68088,
@@ -5056,6 +6234,7 @@
     0.3909
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 68984,
@@ -5082,6 +6261,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 483,
    "index_offset": 75712,
@@ -5108,6 +6288,7 @@
     0.4997
    ],
    "entity": null,
+   "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 54,
    "index_offset": 78284,
@@ -5134,6 +6315,7 @@
     0.1756
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 96,
    "index_offset": 80036,
@@ -5160,6 +6342,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 27,
    "index_offset": 80900,
@@ -5186,6 +6369,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 45,
    "index_offset": 81488,
@@ -5212,6 +6396,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 54,
    "index_offset": 82212,
@@ -5238,6 +6423,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 82812,
@@ -5264,6 +6450,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 83172,
@@ -5290,6 +6477,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 96,
    "index_offset": 84256,
@@ -5316,6 +6504,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 6,
    "index_offset": 84768,
@@ -5342,6 +6531,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 85208,
@@ -5368,6 +6558,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 85604,
@@ -5394,6 +6585,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 99,
    "index_offset": 86852,
@@ -5420,6 +6612,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 90,
    "index_offset": 88208,
@@ -5446,6 +6639,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 24,
    "index_offset": 89016,
@@ -5472,6 +6666,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 89560,
@@ -5498,6 +6693,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 90048,
@@ -5524,6 +6720,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 90224,
@@ -5550,6 +6747,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 105,
    "index_offset": 92136,
@@ -5576,6 +6774,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 92940,
@@ -5602,6 +6801,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 93476,
@@ -5628,6 +6828,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 93880,
@@ -5654,6 +6855,7 @@
     0.1756
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 94080,
@@ -5680,6 +6882,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 30,
    "index_offset": 94744,
@@ -5706,6 +6909,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 240,
    "index_offset": 98960,
@@ -5732,6 +6936,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 100144,
@@ -5758,6 +6963,7 @@
     0.3909
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 100588,
@@ -5784,6 +6990,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 101284,
@@ -5810,6 +7017,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 528,
    "index_offset": 106708,
@@ -5836,6 +7044,7 @@
     0.7296
    ],
    "entity": null,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 18,
    "index_offset": 109204,
@@ -5862,6 +7071,7 @@
     0.1756
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 414,
    "index_offset": 114300,
@@ -5888,6 +7098,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 116148,
@@ -5914,6 +7125,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 156,
    "index_offset": 119396,
@@ -5940,6 +7152,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 252,
    "index_offset": 124756,
@@ -5966,6 +7179,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 125956,
@@ -5992,6 +7206,7 @@
     0.3909
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 126260,
@@ -6018,6 +7233,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 384,
    "index_offset": 131484,
@@ -6044,6 +7260,7 @@
     0.6889
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 133404,
@@ -6070,6 +7287,7 @@
     0.1692
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 294,
    "index_offset": 138084,
@@ -6096,6 +7314,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 303,
    "index_offset": 142364,
@@ -6122,6 +7341,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 143992,
@@ -6148,6 +7368,7 @@
     0.5304
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 45,
    "index_offset": 144812,
@@ -6174,6 +7395,7 @@
     0.3377
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 145120,
@@ -6200,6 +7422,7 @@
     0.1756
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 69,
    "index_offset": 146040,
@@ -6226,6 +7449,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 146604,
@@ -6252,6 +7476,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 6,
    "index_offset": 146816,
@@ -6278,6 +7503,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 324,
    "index_offset": 151832,
@@ -6304,6 +7530,7 @@
     0.1692
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 231,
    "index_offset": 156616,
@@ -6330,6 +7557,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 158212,
@@ -6356,6 +7584,7 @@
     0.7296
    ],
    "entity": null,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 12,
    "index_offset": 158624,
@@ -6382,6 +7611,7 @@
     0.1756
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 282,
    "index_offset": 161200,
@@ -6408,6 +7638,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 42,
    "index_offset": 163096,
@@ -6434,6 +7665,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 164288,
@@ -6460,6 +7692,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 45,
    "index_offset": 165216,
@@ -6486,6 +7719,7 @@
     0.1692
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 69,
    "index_offset": 166452,
@@ -6512,6 +7746,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 150,
    "index_offset": 169672,
@@ -6538,6 +7773,7 @@
     0.4866
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 170528,
@@ -6564,6 +7800,7 @@
     0.4991
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 171216,
@@ -6590,6 +7827,7 @@
     0.3909
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 171560,
@@ -6616,6 +7854,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 171876,
@@ -6642,6 +7881,7 @@
     0.2252
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 172088,
@@ -6668,6 +7908,7 @@
     0.5238
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 66,
    "index_offset": 173072,
@@ -6694,6 +7935,7 @@
     0.3306
    ],
    "entity": null,
+   "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 114,
    "index_offset": 174328,
@@ -6720,6 +7962,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 175040,
@@ -6746,6 +7989,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 120,
    "index_offset": 176464,
@@ -6772,6 +8016,7 @@
     0.5304
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 156,
    "index_offset": 179184,
@@ -6798,6 +8043,7 @@
     0.4997
    ],
    "entity": null,
+   "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 33,
    "index_offset": 180224,
@@ -6824,6 +8070,7 @@
     0.1756
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 180484,
@@ -6850,6 +8097,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 30,
    "index_offset": 181148,
@@ -6876,6 +8124,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 182100,
@@ -6902,6 +8151,7 @@
     0.2618
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 182460,
@@ -6928,6 +8178,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 183,
    "index_offset": 185228,
@@ -6954,6 +8205,7 @@
     0.3909
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 45,
    "index_offset": 186568,
@@ -6980,6 +8232,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 78,
    "index_offset": 187900,
@@ -7006,6 +8259,7 @@
     0.4997
    ],
    "entity": null,
+   "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 42,
    "index_offset": 188724,
@@ -7032,6 +8286,7 @@
     0.7296
    ],
    "entity": null,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 12,
    "index_offset": 189148,
@@ -7058,6 +8313,7 @@
     0.1756
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 87,
    "index_offset": 190508,
@@ -7084,6 +8340,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 126,
    "index_offset": 193416,
@@ -7110,6 +8367,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 147,
    "index_offset": 196192,
@@ -7136,6 +8394,7 @@
     0.1023
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 196940,
@@ -7162,6 +8421,7 @@
     0.6889
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 198,
    "index_offset": 199792,
@@ -7188,6 +8448,7 @@
     0.6129
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 45,
    "index_offset": 201192,
@@ -7214,6 +8475,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 69,
    "index_offset": 202300,
@@ -7240,6 +8502,7 @@
     0.7296
    ],
    "entity": null,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 6,
    "index_offset": 202704,
@@ -7266,6 +8529,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 96,
    "index_offset": 203752,
@@ -7292,6 +8556,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 45,
    "index_offset": 204936,
@@ -7318,6 +8583,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 99,
    "index_offset": 206684,
@@ -7344,6 +8610,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 207560,
@@ -7370,6 +8637,7 @@
     0.1023
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 207844,
@@ -7396,6 +8664,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 207996,
@@ -7422,6 +8691,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 327,
    "index_offset": 213876,
@@ -7448,6 +8718,7 @@
     0.6889
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 215312,
@@ -7474,6 +8745,7 @@
     0.6129
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 215464,
@@ -7500,6 +8772,7 @@
     0.1692
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 216064,
@@ -7526,6 +8799,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 66,
    "index_offset": 217040,
@@ -7552,6 +8826,7 @@
     0.7296
    ],
    "entity": null,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 12,
    "index_offset": 217560,
@@ -7578,6 +8853,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 218248,
@@ -7604,6 +8880,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 21,
    "index_offset": 218856,
@@ -7630,6 +8907,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 108,
    "index_offset": 221052,
@@ -7656,6 +8934,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 54,
    "index_offset": 222028,
@@ -7682,6 +8961,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 222692,
@@ -7708,6 +8988,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 252,
    "index_offset": 226996,
@@ -7734,6 +9015,7 @@
     0.1692
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 228132,
@@ -7760,6 +9042,7 @@
     0.7296
    ],
    "entity": null,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 6,
    "index_offset": 228284,
@@ -7786,6 +9069,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 81,
    "index_offset": 229812,
@@ -7812,6 +9096,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 75,
    "index_offset": 231576,
@@ -7838,6 +9123,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 81,
    "index_offset": 232676,
@@ -7864,6 +9150,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 233192,
@@ -7890,6 +9177,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 333,
    "index_offset": 238528,
@@ -7916,6 +9204,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 30,
    "index_offset": 240500,
@@ -7942,6 +9231,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 241036,
@@ -7968,6 +9258,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 241308,
@@ -7994,6 +9285,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 99,
    "index_offset": 243540,
@@ -8020,6 +9312,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 244448,
@@ -8046,6 +9339,7 @@
     0.7296
    ],
    "entity": null,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 12,
    "index_offset": 244872,
@@ -8072,6 +9366,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 42,
    "index_offset": 245816,
@@ -8098,6 +9393,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 1188,
    "index_offset": 267552,
@@ -8124,6 +9420,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 81,
    "index_offset": 272976,
@@ -8150,6 +9447,7 @@
     0.3909
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 60,
    "index_offset": 273940,
@@ -8176,6 +9474,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 282,
    "index_offset": 277284,
@@ -8202,6 +9501,7 @@
     0.2049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 278604,
@@ -8228,6 +9528,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 1323,
    "index_offset": 289084,
@@ -8254,6 +9555,7 @@
     0.1756
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 342,
    "index_offset": 298184,
@@ -8280,6 +9582,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 299712,
@@ -8306,6 +9609,7 @@
     0.3237
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 300004,
@@ -8332,6 +9636,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 99,
    "index_offset": 301748,
@@ -8358,6 +9663,7 @@
     0.1692
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 72,
    "index_offset": 303680,
@@ -8384,6 +9690,7 @@
     0.5304
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 246,
    "index_offset": 307680,
@@ -8410,6 +9717,7 @@
     0.7296
    ],
    "entity": null,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 30,
    "index_offset": 309176,
@@ -8436,6 +9744,7 @@
     0.1756
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 249,
    "index_offset": 312432,
@@ -8462,6 +9771,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 313748,
@@ -8488,6 +9798,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 312,
    "index_offset": 319488,
@@ -8514,6 +9825,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 207,
    "index_offset": 324288,
@@ -8540,6 +9852,7 @@
     0.1023
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 325244,
@@ -8566,6 +9879,7 @@
     0.3909
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 325620,
@@ -8592,6 +9906,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 183,
    "index_offset": 328264,
@@ -8618,6 +9933,7 @@
     0.6889
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 329764,
@@ -8644,6 +9960,7 @@
     0.6129
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 330420,
@@ -8670,6 +9987,7 @@
     0.2049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 330900,
@@ -8696,6 +10014,7 @@
     0.1692
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 90,
    "index_offset": 332828,
@@ -8722,6 +10041,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 150,
    "index_offset": 335460,
@@ -8748,6 +10068,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 336508,
@@ -8774,6 +10095,7 @@
     0.4997
    ],
    "entity": null,
+   "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 9,
    "index_offset": 336788,
@@ -8800,6 +10122,7 @@
     0.7296
    ],
    "entity": null,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 6,
    "index_offset": 336952,
@@ -8826,6 +10149,7 @@
     0.1756
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 114,
    "index_offset": 338160,
@@ -8852,6 +10176,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 111,
    "index_offset": 340408,
@@ -8878,6 +10203,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 341236,
@@ -8904,6 +10230,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 341436,
@@ -8930,6 +10257,7 @@
     0.1692
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 341716,
@@ -8956,6 +10284,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 96,
    "index_offset": 342884,
@@ -8982,6 +10311,7 @@
     0.4997
    ],
    "entity": null,
+   "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 33,
    "index_offset": 343748,
@@ -9008,6 +10338,7 @@
     0.7296
    ],
    "entity": null,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 6,
    "index_offset": 344008,
@@ -9034,6 +10365,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 344544,
@@ -9060,6 +10392,7 @@
     0.3909
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 344800,
@@ -9086,6 +10419,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 117,
    "index_offset": 346532,
@@ -9112,6 +10446,7 @@
     0.3306
    ],
    "entity": null,
+   "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 60,
    "index_offset": 347608,
@@ -9138,6 +10473,7 @@
     0.4997
    ],
    "entity": null,
+   "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 30,
    "index_offset": 348232,
@@ -9164,6 +10500,7 @@
     0.7296
    ],
    "entity": null,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 12,
    "index_offset": 348544,
@@ -9190,6 +10527,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 9,
    "index_offset": 348752,
@@ -9216,6 +10554,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 349428,
@@ -9242,6 +10581,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 349828,
@@ -9268,6 +10608,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 144,
    "index_offset": 351604,
@@ -9294,6 +10635,7 @@
     0.5304
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 352948,
@@ -9320,6 +10662,7 @@
     0.4997
    ],
    "entity": null,
+   "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 48,
    "index_offset": 353684,
@@ -9346,6 +10689,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 354516,
@@ -9372,6 +10716,7 @@
     0.3909
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 355004,
@@ -9398,6 +10743,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 51,
    "index_offset": 355804,
@@ -9424,6 +10770,7 @@
     0.4997
    ],
    "entity": null,
+   "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 54,
    "index_offset": 356616,
@@ -9450,6 +10797,7 @@
     0.7296
    ],
    "entity": null,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 12,
    "index_offset": 357088,
@@ -9476,6 +10824,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 6,
    "index_offset": 357264,
@@ -9502,6 +10851,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 105,
    "index_offset": 359048,
@@ -9528,6 +10878,7 @@
     0.6889
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 75,
    "index_offset": 360236,
@@ -9554,6 +10905,7 @@
     0.6129
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 360952,
@@ -9580,6 +10932,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 45,
    "index_offset": 361732,
@@ -9606,6 +10959,7 @@
     0.7296
    ],
    "entity": null,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 6,
    "index_offset": 362040,
@@ -9632,6 +10986,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 201,
    "index_offset": 365200,
@@ -9658,6 +11013,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 171,
    "index_offset": 368692,
@@ -9684,6 +11040,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 57,
    "index_offset": 370304,
@@ -9710,6 +11067,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 370788,
@@ -9736,6 +11094,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 371116,
@@ -9762,6 +11121,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 246,
    "index_offset": 374292,
@@ -9788,6 +11148,7 @@
     0.6889
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 375404,
@@ -9814,6 +11175,7 @@
     0.6129
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 375588,
@@ -9840,6 +11202,7 @@
     0.1692
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 120,
    "index_offset": 377544,
@@ -9866,6 +11229,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 105,
    "index_offset": 379176,
@@ -9892,6 +11256,7 @@
     0.7296
    ],
    "entity": null,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 12,
    "index_offset": 379852,
@@ -9918,6 +11283,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 380284,
@@ -9944,6 +11310,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 21,
    "index_offset": 380756,
@@ -9970,6 +11337,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 114,
    "index_offset": 383016,
@@ -9996,6 +11364,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 383984,
@@ -10022,6 +11391,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 81,
    "index_offset": 384912,
@@ -10048,6 +11418,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 141,
    "index_offset": 387636,
@@ -10074,6 +11445,7 @@
     0.1692
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 388712,
@@ -10100,6 +11472,7 @@
     0.7296
    ],
    "entity": null,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 6,
    "index_offset": 388936,
@@ -10126,6 +11499,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 114,
    "index_offset": 391584,
@@ -10152,6 +11526,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 117,
    "index_offset": 393960,
@@ -10178,6 +11553,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 66,
    "index_offset": 395100,
@@ -10204,6 +11580,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 395876,
@@ -10230,6 +11607,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 150,
    "index_offset": 398468,
@@ -10256,6 +11634,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 30,
    "index_offset": 399708,
@@ -10282,6 +11661,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 400276,
@@ -10308,6 +11688,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 400740,
@@ -10334,6 +11715,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 401292,
@@ -10360,6 +11742,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 401696,
@@ -10381,6 +11764,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 6,
    "index_offset": 401920,
@@ -10407,6 +11791,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 72,
    "index_offset": 403224,
@@ -10433,6 +11818,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 403800,
@@ -10459,6 +11845,7 @@
     0.3909
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 404204,
@@ -10485,6 +11872,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 75,
    "index_offset": 405388,
@@ -10511,6 +11899,7 @@
     0.7296
    ],
    "entity": null,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 12,
    "index_offset": 405944,
@@ -10537,6 +11926,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 552,
    "index_offset": 417512,
@@ -10563,6 +11953,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 420040,
@@ -10589,6 +11980,7 @@
     0.3909
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 420404,
@@ -10615,6 +12007,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 1044,
    "index_offset": 429052,
@@ -10641,6 +12034,7 @@
     0.7296
    ],
    "entity": null,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 30,
    "index_offset": 433868,
@@ -10667,6 +12061,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 261,
    "index_offset": 438692,
@@ -10693,6 +12088,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 378,
    "index_offset": 446936,
@@ -10719,6 +12115,7 @@
     0.1023
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 448576,
@@ -10745,6 +12142,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 448760,
@@ -10771,6 +12169,7 @@
     0.3909
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 60,
    "index_offset": 449564,
@@ -10797,6 +12196,7 @@
     0.6889
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 129,
    "index_offset": 450988,
@@ -10823,6 +12223,7 @@
     0.6129
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 72,
    "index_offset": 452528,
@@ -10849,6 +12250,7 @@
     0.2049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 452944,
@@ -10875,6 +12277,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 582,
    "index_offset": 459688,
@@ -10901,6 +12304,7 @@
     0.5304
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 462656,
@@ -10927,6 +12331,7 @@
     0.4997
    ],
    "entity": null,
+   "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 51,
    "index_offset": 463384,
@@ -10953,6 +12358,7 @@
     0.7296
    ],
    "entity": null,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 6,
    "index_offset": 463716,
@@ -10979,6 +12385,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 108,
    "index_offset": 465916,
@@ -11005,6 +12412,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 234,
    "index_offset": 470188,
@@ -11031,6 +12439,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 471924,
@@ -11057,6 +12466,7 @@
     0.3909
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 472560,
@@ -11083,6 +12493,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 123,
    "index_offset": 474220,
@@ -11109,6 +12520,7 @@
     0.4997
    ],
    "entity": null,
+   "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 168,
    "index_offset": 476408,
@@ -11135,6 +12547,7 @@
     0.7296
    ],
    "entity": null,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 6,
    "index_offset": 477208,
@@ -11161,6 +12574,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 33,
    "index_offset": 477904,
@@ -11187,6 +12601,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 478548,
@@ -11213,6 +12628,7 @@
     0.3909
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 478868,
@@ -11239,6 +12655,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 57,
    "index_offset": 479472,
@@ -11265,6 +12682,7 @@
     0.4997
    ],
    "entity": null,
+   "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 102,
    "index_offset": 480628,
@@ -11291,6 +12709,7 @@
     0.7296
    ],
    "entity": null,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 12,
    "index_offset": 481228,
@@ -11317,6 +12736,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 75,
    "index_offset": 482652,
@@ -11343,6 +12763,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 483592,
@@ -11369,6 +12790,7 @@
     0.3909
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 484280,
@@ -11395,6 +12817,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 72,
    "index_offset": 485140,
@@ -11421,6 +12844,7 @@
     0.4997
    ],
    "entity": null,
+   "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 90,
    "index_offset": 486420,
@@ -11447,6 +12871,7 @@
     0.3909
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 486940,
@@ -11473,6 +12898,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 487264,
@@ -11499,6 +12925,7 @@
     0.4997
    ],
    "entity": null,
+   "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 9,
    "index_offset": 487508,
@@ -11525,6 +12952,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 487832,
@@ -11551,6 +12979,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 192,
    "index_offset": 491156,
@@ -11577,6 +13006,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 54,
    "index_offset": 492532,
@@ -11603,6 +13033,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 63,
    "index_offset": 493388,
@@ -11629,6 +13060,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 494024,
@@ -11655,6 +13087,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 494480,
@@ -11681,6 +13114,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 51,
    "index_offset": 495248,
@@ -11707,6 +13141,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 6,
    "index_offset": 495580,
@@ -11733,6 +13168,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 495956,
@@ -11759,6 +13195,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 45,
    "index_offset": 496520,
@@ -11785,6 +13222,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 60,
    "index_offset": 497532,
@@ -11811,6 +13249,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 72,
    "index_offset": 498476,
@@ -11837,6 +13276,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 499500,
@@ -11863,6 +13303,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 499976,
@@ -11889,6 +13330,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 500456,
@@ -11915,6 +13357,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 500784,
@@ -11941,6 +13384,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 500960,
@@ -11967,6 +13411,7 @@
     0.1023
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 501112,
@@ -11993,6 +13438,7 @@
     0.6129
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 501392,
@@ -12019,6 +13465,7 @@
     0.2232
    ],
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 12,
    "index_offset": 501632,
@@ -12045,6 +13492,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 502000,
@@ -12073,6 +13521,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 384,
    "index_offset": 504664,
@@ -12099,6 +13548,7 @@
     0.2232
    ],
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 24,
    "index_offset": 506488,
@@ -12125,6 +13575,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 507064,
@@ -12151,6 +13602,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 123,
    "index_offset": 509736,
@@ -12177,6 +13629,7 @@
     0.2232
    ],
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 30,
    "index_offset": 510580,
@@ -12203,6 +13656,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 132,
    "index_offset": 512396,
@@ -12229,6 +13683,7 @@
     0.1023
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 513180,
@@ -12255,6 +13710,7 @@
     0.3909
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 513380,
@@ -12281,6 +13737,7 @@
     0.6889
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 114,
    "index_offset": 514524,
@@ -12307,6 +13764,7 @@
     0.6129
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 99,
    "index_offset": 516548,
@@ -12333,6 +13791,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 177,
    "index_offset": 519184,
@@ -12361,6 +13820,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "grass:grass",
    "generic": "grass",
    "index_count": 1536,
    "index_offset": 529140,
@@ -12387,6 +13847,7 @@
     0.2232
    ],
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 12,
    "index_offset": 535476,
@@ -12413,6 +13874,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 535844,
@@ -12439,6 +13901,7 @@
     0.2232
    ],
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 24,
    "index_offset": 536204,
@@ -12465,6 +13928,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 536780,
@@ -12493,6 +13957,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 384,
    "index_offset": 539516,
@@ -12519,6 +13984,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 69,
    "index_offset": 541724,
@@ -12545,6 +14011,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 542416,
@@ -12571,6 +14038,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 542816,
@@ -12597,6 +14065,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 543056,
@@ -12623,6 +14092,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 543584,
@@ -12649,6 +14119,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 543904,
@@ -12675,6 +14146,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 544280,
@@ -12701,6 +14173,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 57,
    "index_offset": 545136,
@@ -12727,6 +14200,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 66,
    "index_offset": 545972,
@@ -12753,6 +14227,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 546460,
@@ -12779,6 +14254,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 546784,
@@ -12805,6 +14281,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 547124,
@@ -12831,6 +14308,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 547364,
@@ -12857,6 +14335,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 216,
    "index_offset": 551764,
@@ -12883,6 +14362,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 553076,
@@ -12909,6 +14389,7 @@
     0.1023
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 553516,
@@ -12935,6 +14416,7 @@
     0.6889
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 33,
    "index_offset": 554092,
@@ -12961,6 +14443,7 @@
     0.6129
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 165,
    "index_offset": 556304,
@@ -12987,6 +14470,7 @@
     0.6889
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 557188,
@@ -13013,6 +14497,7 @@
     0.6129
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 557440,
@@ -13039,6 +14524,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 36,
    "index_offset": 558256,
@@ -13065,6 +14551,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 93,
    "index_offset": 559552,
@@ -13091,6 +14578,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 96,
    "index_offset": 561108,
@@ -13117,6 +14605,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 561876,
@@ -13143,6 +14632,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 562188,
@@ -13169,6 +14659,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 562364,
@@ -13195,6 +14686,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 562612,
@@ -13221,6 +14713,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 45,
    "index_offset": 563152,
@@ -13247,6 +14740,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 563556,
@@ -13273,6 +14767,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 564000,
@@ -13299,6 +14794,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 33,
    "index_offset": 564504,
@@ -13325,6 +14821,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 564956,
@@ -13351,6 +14848,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 565284,
@@ -13377,6 +14875,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 565484,
@@ -13403,6 +14902,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 565700,
@@ -13429,6 +14929,7 @@
     0.6889
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 566132,
@@ -13455,6 +14956,7 @@
     0.6129
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 566564,
@@ -13481,6 +14983,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 216,
    "index_offset": 570424,
@@ -13507,6 +15010,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 144,
    "index_offset": 572632,
@@ -13533,6 +15037,7 @@
     0.3909
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 573464,
@@ -13559,6 +15064,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 42,
    "index_offset": 574240,
@@ -13585,6 +15091,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 33,
    "index_offset": 574792,
@@ -13611,6 +15118,7 @@
     0.3909
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 575276,
@@ -13637,6 +15145,7 @@
     0.6889
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 575620,
@@ -13663,6 +15172,7 @@
     0.6129
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 575904,
@@ -13691,6 +15201,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 2304,
    "index_offset": 590396,
@@ -13719,6 +15230,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "grass:grass",
    "generic": "grass",
    "index_count": 384,
    "index_offset": 602204,
@@ -13745,6 +15257,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 604380,
@@ -13773,6 +15286,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 384,
    "index_offset": 607092,
@@ -13801,6 +15315,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "grass:grass",
    "generic": "grass",
    "index_count": 3072,
    "index_offset": 627124,
@@ -13829,6 +15344,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 768,
    "index_offset": 644596,
@@ -13857,6 +15373,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "grass:grass",
    "generic": "grass",
    "index_count": 384,
    "index_offset": 650260,
@@ -13883,6 +15400,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 195,
    "index_offset": 654068,
@@ -13909,6 +15427,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 90,
    "index_offset": 656224,
@@ -13937,6 +15456,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 1920,
    "index_offset": 668424,
@@ -13963,6 +15483,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 96,
    "index_offset": 677352,
@@ -13989,6 +15510,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 678376,
@@ -14015,6 +15537,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 678976,
@@ -14041,6 +15564,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 679592,
@@ -14067,6 +15591,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 680132,
@@ -14093,6 +15618,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 680492,
@@ -14119,6 +15645,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 45,
    "index_offset": 681160,
@@ -14145,6 +15672,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 681660,
@@ -14171,6 +15699,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 682020,
@@ -14197,6 +15726,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 63,
    "index_offset": 682980,
@@ -14223,6 +15753,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 683584,
@@ -14249,6 +15780,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 684248,
@@ -14275,6 +15807,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 684708,
@@ -14301,6 +15834,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 685200,
@@ -14327,6 +15861,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 685528,
@@ -14353,6 +15888,7 @@
     0.6889
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 685800,
@@ -14379,6 +15915,7 @@
     0.6129
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 685988,
@@ -14405,6 +15942,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 216,
    "index_offset": 690364,
@@ -14431,6 +15969,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 138,
    "index_offset": 693116,
@@ -14457,6 +15996,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 96,
    "index_offset": 694948,
@@ -14483,6 +16023,7 @@
     0.1023
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 695844,
@@ -14509,6 +16050,7 @@
     0.3909
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 696160,
@@ -14535,6 +16077,7 @@
     0.6889
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 696708,
@@ -14561,6 +16104,7 @@
     0.6129
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 141,
    "index_offset": 698804,
@@ -14587,6 +16131,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 117,
    "index_offset": 701128,
@@ -14613,6 +16158,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 66,
    "index_offset": 702300,
@@ -14639,6 +16185,7 @@
     0.3909
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 702788,
@@ -14665,6 +16212,7 @@
     0.6889
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 703168,
@@ -14691,6 +16239,7 @@
     0.6129
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 45,
    "index_offset": 704104,
@@ -14719,6 +16268,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 768,
    "index_offset": 709468,
@@ -14745,6 +16295,7 @@
     0.2232
    ],
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 96,
    "index_offset": 713788,
@@ -14771,6 +16322,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 714684,
@@ -14797,6 +16349,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 715548,
@@ -14823,6 +16376,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 141,
    "index_offset": 718092,
@@ -14849,6 +16403,7 @@
     0.2232
    ],
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 168,
    "index_offset": 720448,
@@ -14875,6 +16430,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 69,
    "index_offset": 722048,
@@ -14903,6 +16459,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "grass:grass",
    "generic": "grass",
    "index_count": 1536,
    "index_offset": 731572,
@@ -14929,6 +16486,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 135,
    "index_offset": 739700,
@@ -14955,6 +16513,7 @@
     0.2232
    ],
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 120,
    "index_offset": 741520,
@@ -14981,6 +16540,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 742640,
@@ -15007,6 +16567,7 @@
     0.2232
    ],
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 57,
    "index_offset": 743672,
@@ -15033,6 +16594,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 744412,
@@ -15061,6 +16623,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 768,
    "index_offset": 749692,
@@ -15087,6 +16650,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 753212,
@@ -15113,6 +16677,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 753740,
@@ -15139,6 +16704,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 754340,
@@ -15165,6 +16731,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 754576,
@@ -15191,6 +16758,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 754888,
@@ -15217,6 +16785,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 755388,
@@ -15243,6 +16812,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 755784,
@@ -15269,6 +16839,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 102,
    "index_offset": 757020,
@@ -15295,6 +16866,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 757588,
@@ -15321,6 +16893,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 57,
    "index_offset": 758200,
@@ -15347,6 +16920,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 69,
    "index_offset": 759356,
@@ -15373,6 +16947,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 3,
    "index_offset": 759728,
@@ -15399,6 +16974,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 760316,
@@ -15425,6 +17001,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 45,
    "index_offset": 761052,
@@ -15451,6 +17028,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 45,
    "index_offset": 762096,
@@ -15477,6 +17055,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 762532,
@@ -15503,6 +17082,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 762708,
@@ -15529,6 +17109,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 762860,
@@ -15555,6 +17136,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 763300,
@@ -15581,6 +17163,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 763512,
@@ -15607,6 +17190,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 763728,
@@ -15633,6 +17217,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 763936,
@@ -15659,6 +17244,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 764356,
@@ -15685,6 +17271,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 764556,
@@ -15711,6 +17298,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 9,
    "index_offset": 764740,
@@ -15737,6 +17325,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 33,
    "index_offset": 765192,
@@ -15763,6 +17352,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 765612,
@@ -15789,6 +17379,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 765856,
@@ -15815,6 +17406,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 766052,
@@ -15841,6 +17433,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 766472,
@@ -15867,6 +17460,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 766672,
@@ -15893,6 +17487,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 766984,
@@ -15919,6 +17514,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 767332,
@@ -15945,6 +17541,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 767776,
@@ -15971,6 +17568,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 768232,
@@ -15997,6 +17595,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 768680,
@@ -16023,6 +17622,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 769012,
@@ -16049,6 +17649,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 769360,
@@ -16075,6 +17676,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 769612,
@@ -16101,6 +17703,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 769916,
@@ -16127,6 +17730,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 770244,
@@ -16153,6 +17757,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 770444,
@@ -16179,6 +17784,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 770660,
@@ -16205,6 +17811,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 770868,
@@ -16231,6 +17838,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 771064,
@@ -16257,6 +17865,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 771484,
@@ -16283,6 +17892,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 771684,
@@ -16309,6 +17919,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 771868,
@@ -16335,6 +17946,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 772320,
@@ -16361,6 +17973,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 772532,
@@ -16387,6 +18000,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 6,
    "index_offset": 772684,
@@ -16413,6 +18027,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 773220,
@@ -16439,6 +18054,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 773532,
@@ -16465,6 +18081,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 773900,
@@ -16491,6 +18108,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 108,
    "index_offset": 776172,
@@ -16517,6 +18135,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 69,
    "index_offset": 777340,
@@ -16543,6 +18162,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 777968,
@@ -16569,6 +18189,7 @@
     0.1023
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 33,
    "index_offset": 778556,
@@ -16595,6 +18216,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 438,
    "index_offset": 786368,
@@ -16621,6 +18243,7 @@
     0.6129
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 87,
    "index_offset": 789368,
@@ -16647,6 +18270,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 135,
    "index_offset": 791924,
@@ -16673,6 +18297,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 9,
    "index_offset": 792624,
@@ -16699,6 +18324,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 792948,
@@ -16725,6 +18351,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 793332,
@@ -16751,6 +18378,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 793844,
@@ -16777,6 +18405,7 @@
     0.6129
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 794056,
@@ -16803,6 +18432,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 794496,
@@ -16829,6 +18459,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 794828,
@@ -16855,6 +18486,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 795048,
@@ -16881,6 +18513,7 @@
     0.2232
    ],
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 39,
    "index_offset": 795596,
@@ -16907,6 +18540,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 60,
    "index_offset": 796648,
@@ -16933,6 +18567,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 27,
    "index_offset": 797304,
@@ -16959,6 +18594,7 @@
     0.2232
    ],
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 60,
    "index_offset": 798116,
@@ -16985,6 +18621,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 84,
    "index_offset": 799380,
@@ -17013,6 +18650,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 1536,
    "index_offset": 808964,
@@ -17039,6 +18677,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 12,
    "index_offset": 815364,
@@ -17065,6 +18704,7 @@
     0.2232
    ],
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 69,
    "index_offset": 816180,
@@ -17091,6 +18731,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 57,
    "index_offset": 817256,
@@ -17117,6 +18758,7 @@
     0.2232
    ],
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 12,
    "index_offset": 817740,
@@ -17143,6 +18785,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 818364,
@@ -17169,6 +18812,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 818932,
@@ -17195,6 +18839,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 819280,
@@ -17221,6 +18866,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 819488,
@@ -17247,6 +18893,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 819876,
@@ -17273,6 +18920,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 33,
    "index_offset": 820368,
@@ -17299,6 +18947,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 820692,
@@ -17325,6 +18974,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 114,
    "index_offset": 821764,
@@ -17351,6 +19001,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 822412,
@@ -17377,6 +19028,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 822876,
@@ -17403,6 +19055,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 823224,
@@ -17429,6 +19082,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 63,
    "index_offset": 824008,
@@ -17455,6 +19109,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 15,
    "index_offset": 824612,
@@ -17481,6 +19136,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 72,
    "index_offset": 825504,
@@ -17507,6 +19163,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 57,
    "index_offset": 826432,
@@ -17533,6 +19190,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 57,
    "index_offset": 827844,
@@ -17559,6 +19217,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 93,
    "index_offset": 829512,
@@ -17585,6 +19244,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 830204,
@@ -17611,6 +19271,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 57,
    "index_offset": 830980,
@@ -17637,6 +19298,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 24,
    "index_offset": 831784,
@@ -17663,6 +19325,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 832392,
@@ -17689,6 +19352,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 832776,
@@ -17715,6 +19379,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 114,
    "index_offset": 834744,
@@ -17741,6 +19406,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 835808,
@@ -17767,6 +19433,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 836540,
@@ -17793,6 +19460,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 837124,
@@ -17819,6 +19487,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 837524,
@@ -17845,6 +19514,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 837948,
@@ -17871,6 +19541,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 120,
    "index_offset": 840040,
@@ -17897,6 +19568,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 57,
    "index_offset": 841320,
@@ -17923,6 +19595,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 842124,
@@ -17949,6 +19622,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 75,
    "index_offset": 842964,
@@ -17975,6 +19649,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 27,
    "index_offset": 843808,
@@ -18001,6 +19676,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 84,
    "index_offset": 844940,
@@ -18027,6 +19703,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 845596,
@@ -18053,6 +19730,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 90,
    "index_offset": 847356,
@@ -18079,6 +19757,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 847844,
@@ -18105,6 +19784,7 @@
     0.2049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 848060,
@@ -18131,6 +19811,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 63,
    "index_offset": 848908,
@@ -18157,6 +19838,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 849448,
@@ -18183,6 +19865,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 849992,
@@ -18209,6 +19892,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 850384,
@@ -18235,6 +19919,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 174,
    "index_offset": 853004,
@@ -18261,6 +19946,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 54,
    "index_offset": 854340,
@@ -18287,6 +19973,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 855132,
@@ -18313,6 +20000,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 81,
    "index_offset": 856132,
@@ -18339,6 +20027,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 30,
    "index_offset": 857096,
@@ -18365,6 +20054,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 72,
    "index_offset": 857920,
@@ -18391,6 +20081,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 858496,
@@ -18417,6 +20108,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 102,
    "index_offset": 860372,
@@ -18443,6 +20135,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 54,
    "index_offset": 861420,
@@ -18469,6 +20162,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 862212,
@@ -18495,6 +20189,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 33,
    "index_offset": 862764,
@@ -18521,6 +20216,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 30,
    "index_offset": 863536,
@@ -18547,6 +20243,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 57,
    "index_offset": 864328,
@@ -18573,6 +20270,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 864876,
@@ -18599,6 +20297,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 108,
    "index_offset": 866828,
@@ -18625,6 +20324,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 867644,
@@ -18651,6 +20351,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 868212,
@@ -18677,6 +20378,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 54,
    "index_offset": 868876,
@@ -18703,6 +20405,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 869284,
@@ -18729,6 +20432,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 869556,
@@ -18755,6 +20459,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 102,
    "index_offset": 871408,
@@ -18781,6 +20486,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 872072,
@@ -18807,6 +20513,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 872744,
@@ -18833,6 +20540,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 873264,
@@ -18859,6 +20567,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 873692,
@@ -18885,6 +20594,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 874012,
@@ -18911,6 +20621,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 162,
    "index_offset": 876504,
@@ -18937,6 +20648,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 54,
    "index_offset": 877792,
@@ -18963,6 +20675,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 60,
    "index_offset": 878776,
@@ -18989,6 +20702,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 60,
    "index_offset": 879592,
@@ -19015,6 +20729,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 48,
    "index_offset": 880792,
@@ -19041,6 +20756,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 93,
    "index_offset": 882168,
@@ -19067,6 +20783,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 882892,
@@ -19093,6 +20810,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 96,
    "index_offset": 884728,
@@ -19119,6 +20837,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 63,
    "index_offset": 885912,
@@ -19145,6 +20864,7 @@
     0.2049
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 886356,
@@ -19171,6 +20891,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 886916,
@@ -19197,6 +20918,7 @@
     0.7296
    ],
    "entity": null,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 12,
    "index_offset": 887316,
@@ -19223,6 +20945,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 63,
    "index_offset": 888004,
@@ -19249,6 +20972,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 42,
    "index_offset": 889152,
@@ -19275,6 +20999,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 240,
    "index_offset": 893096,
@@ -19301,6 +21026,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 57,
    "index_offset": 894600,
@@ -19327,6 +21053,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 126,
    "index_offset": 896876,
@@ -19353,6 +21080,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 507,
    "index_offset": 907396,
@@ -19379,6 +21107,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 51,
    "index_offset": 910096,
@@ -19405,6 +21134,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 910620,
@@ -19431,6 +21161,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 911208,
@@ -19457,6 +21188,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 911748,
@@ -19483,6 +21215,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 90,
    "index_offset": 913532,
@@ -19509,6 +21242,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 54,
    "index_offset": 914532,
@@ -19535,6 +21269,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 915196,
@@ -19561,6 +21296,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 54,
    "index_offset": 915828,
@@ -19587,6 +21323,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 126,
    "index_offset": 918348,
@@ -19613,6 +21350,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 919396,
@@ -19639,6 +21377,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 919940,
@@ -19665,6 +21404,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 168,
    "index_offset": 922556,
@@ -19691,6 +21431,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 78,
    "index_offset": 924060,
@@ -19717,6 +21458,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 925012,
@@ -19743,6 +21485,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 925556,
@@ -19769,6 +21512,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 9,
    "index_offset": 925824,
@@ -19795,6 +21539,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 926116,
@@ -19821,6 +21566,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 926316,
@@ -19847,6 +21593,7 @@
     0.0276
    ],
    "entity": null,
+   "free": "generated:flat:df8000",
    "generic": "flat",
    "index_count": 126,
    "index_offset": 928836,
@@ -19878,6 +21625,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 75,
    "index_offset": 930844,
@@ -19904,6 +21652,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 931592,
@@ -19925,6 +21674,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 54,
    "index_offset": 932256,
@@ -19953,6 +21703,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 2304,
    "index_offset": 946904,
@@ -19981,6 +21732,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "grass:grass",
    "generic": "grass",
    "index_count": 384,
    "index_offset": 958712,
@@ -20009,6 +21761,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 384,
    "index_offset": 962840,
@@ -20037,6 +21790,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "grass:grass",
    "generic": "grass",
    "index_count": 3072,
    "index_offset": 982872,
@@ -20065,6 +21819,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 768,
    "index_offset": 1000344,
@@ -20093,6 +21848,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "grass:grass",
    "generic": "grass",
    "index_count": 384,
    "index_offset": 1006008,
@@ -20121,6 +21877,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 1920,
    "index_offset": 1019384,
@@ -20147,6 +21904,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 24,
    "index_offset": 1027576,
@@ -20173,6 +21931,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 1027992,
@@ -20199,6 +21958,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1028356,
@@ -20225,6 +21985,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 1028652,
@@ -20251,6 +22012,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 54,
    "index_offset": 1029384,
@@ -20277,6 +22039,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 6,
    "index_offset": 1029728,
@@ -20303,6 +22066,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 1030168,
@@ -20329,6 +22093,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 1030596,
@@ -20355,6 +22120,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 1031280,
@@ -20381,6 +22147,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1031728,
@@ -20407,6 +22174,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1032216,
@@ -20433,6 +22201,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 114,
    "index_offset": 1033608,
@@ -20459,6 +22228,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 1034512,
@@ -20485,6 +22255,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 1035120,
@@ -20511,6 +22282,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1035532,
@@ -20537,6 +22309,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 81,
    "index_offset": 1036668,
@@ -20563,6 +22336,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1037120,
@@ -20589,6 +22363,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1037400,
@@ -20615,6 +22390,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1037792,
@@ -20641,6 +22417,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 1038176,
@@ -20667,6 +22444,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 105,
    "index_offset": 1039516,
@@ -20693,6 +22471,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1040192,
@@ -20719,6 +22498,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 1040552,
@@ -20745,6 +22525,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 60,
    "index_offset": 1041276,
@@ -20771,6 +22552,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1042028,
@@ -20797,6 +22579,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 123,
    "index_offset": 1043644,
@@ -20823,6 +22606,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1044392,
@@ -20849,6 +22633,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 1044880,
@@ -20875,6 +22660,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 1045432,
@@ -20901,6 +22687,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 1045904,
@@ -20927,6 +22714,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 72,
    "index_offset": 1046724,
@@ -20953,6 +22741,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1047332,
@@ -20979,6 +22768,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1047652,
@@ -21005,6 +22795,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 1048172,
@@ -21031,6 +22822,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 1048756,
@@ -21057,6 +22849,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 114,
    "index_offset": 1050240,
@@ -21083,6 +22876,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1050952,
@@ -21109,6 +22903,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 63,
    "index_offset": 1051696,
@@ -21135,6 +22930,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 1052396,
@@ -21161,6 +22957,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 1052980,
@@ -21187,6 +22984,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 120,
    "index_offset": 1054496,
@@ -21213,6 +23011,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1055232,
@@ -21239,6 +23038,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1055592,
@@ -21265,6 +23065,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 1056200,
@@ -21291,6 +23092,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1056752,
@@ -21317,6 +23119,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 96,
    "index_offset": 1058000,
@@ -21343,6 +23146,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1058576,
@@ -21369,6 +23173,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 1058976,
@@ -21395,6 +23200,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 1059596,
@@ -21421,6 +23227,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 33,
    "index_offset": 1060268,
@@ -21447,6 +23254,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 60,
    "index_offset": 1061072,
@@ -21473,6 +23281,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1061568,
@@ -21499,6 +23308,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 1061928,
@@ -21525,6 +23335,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1062332,
@@ -21551,6 +23362,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
    "index_offset": 1062716,
@@ -21577,6 +23389,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 102,
    "index_offset": 1064024,
@@ -21603,6 +23416,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1064752,
@@ -21629,6 +23443,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1065104,
@@ -21655,6 +23470,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 1065624,
@@ -21681,6 +23497,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 1066208,
@@ -21707,6 +23524,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 126,
    "index_offset": 1067756,
@@ -21733,6 +23551,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1068516,
@@ -21759,6 +23578,7 @@
     0.7296
    ],
    "entity": null,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 24,
    "index_offset": 1068972,
@@ -21785,6 +23605,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1069388,
@@ -21811,6 +23632,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 108,
    "index_offset": 1071276,
@@ -21837,6 +23659,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 1072188,
@@ -21863,6 +23686,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 1072796,
@@ -21889,6 +23713,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1073160,
@@ -21915,6 +23740,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 186,
    "index_offset": 1075760,
@@ -21941,6 +23767,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1076760,
@@ -21967,6 +23794,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 1076992,
@@ -21993,6 +23821,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 1077540,
@@ -22019,6 +23848,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 1078180,
@@ -22045,6 +23875,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 126,
    "index_offset": 1079772,
@@ -22071,6 +23902,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1080468,
@@ -22097,6 +23929,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 1080932,
@@ -22123,6 +23956,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 1081548,
@@ -22149,6 +23983,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 1082132,
@@ -22175,6 +24010,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 192,
    "index_offset": 1084224,
@@ -22201,6 +24037,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 78,
    "index_offset": 1085952,
@@ -22227,6 +24064,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1086520,
@@ -22253,6 +24091,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 1086880,
@@ -22279,6 +24118,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1087220,
@@ -22305,6 +24145,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1087548,
@@ -22331,6 +24172,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1087852,
@@ -22357,6 +24199,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1088116,
@@ -22378,6 +24221,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 114,
    "index_offset": 1089124,
@@ -22406,6 +24250,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 1536,
    "index_offset": 1098828,
@@ -22432,6 +24277,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 1105260,
@@ -22458,6 +24304,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 1105504,
@@ -22484,6 +24331,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 1105956,
@@ -22510,6 +24358,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 81,
    "index_offset": 1107644,
@@ -22536,6 +24385,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 1108672,
@@ -22562,6 +24412,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 1109248,
@@ -22588,6 +24439,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1109688,
@@ -22614,6 +24466,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 33,
    "index_offset": 1110264,
@@ -22640,6 +24493,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 45,
    "index_offset": 1110876,
@@ -22666,6 +24520,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1111312,
@@ -22692,6 +24547,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1111640,
@@ -22718,6 +24574,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 1112064,
@@ -22744,6 +24601,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1112940,
@@ -22770,6 +24628,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 66,
    "index_offset": 1114044,
@@ -22796,6 +24655,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1114564,
@@ -22822,6 +24682,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1114764,
@@ -22848,6 +24709,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 21,
    "index_offset": 1115204,
@@ -22874,6 +24736,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 1115928,
@@ -22900,6 +24763,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 1116472,
@@ -22926,6 +24790,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 1117380,
@@ -22952,6 +24817,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 1117952,
@@ -22978,6 +24844,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1118292,
@@ -23004,6 +24871,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1118596,
@@ -23030,6 +24898,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 36,
    "index_offset": 1119436,
@@ -23056,6 +24925,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 75,
    "index_offset": 1120412,
@@ -23082,6 +24952,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 51,
    "index_offset": 1121256,
@@ -23108,6 +24979,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 84,
    "index_offset": 1122740,
@@ -23134,6 +25006,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1123460,
@@ -23160,6 +25033,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 9,
    "index_offset": 1123692,
@@ -23186,6 +25060,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1123984,
@@ -23212,6 +25087,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 33,
    "index_offset": 1124440,
@@ -23238,6 +25114,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 33,
    "index_offset": 1124956,
@@ -23264,6 +25141,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 69,
    "index_offset": 1126208,
@@ -23290,6 +25168,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1126740,
@@ -23316,6 +25195,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1127132,
@@ -23342,6 +25222,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 33,
    "index_offset": 1127708,
@@ -23368,6 +25249,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1128160,
@@ -23394,6 +25276,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 75,
    "index_offset": 1129440,
@@ -23420,6 +25303,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1130188,
@@ -23446,6 +25330,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1130412,
@@ -23472,6 +25357,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1130692,
@@ -23498,6 +25384,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 45,
    "index_offset": 1131340,
@@ -23524,6 +25411,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1131936,
@@ -23550,6 +25438,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 75,
    "index_offset": 1133264,
@@ -23576,6 +25465,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1133948,
@@ -23602,6 +25492,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1134404,
@@ -23628,6 +25519,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1134756,
@@ -23654,6 +25546,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 1135276,
@@ -23680,6 +25573,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 1135844,
@@ -23706,6 +25600,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 1136896,
@@ -23732,6 +25627,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1137344,
@@ -23758,6 +25654,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1137584,
@@ -23784,6 +25681,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1137824,
@@ -23810,6 +25708,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1138128,
@@ -23836,6 +25735,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 12,
    "index_offset": 1138456,
@@ -23862,6 +25762,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 60,
    "index_offset": 1139144,
@@ -23888,6 +25789,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 33,
    "index_offset": 1139768,
@@ -23914,6 +25816,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 105,
    "index_offset": 1141404,
@@ -23940,6 +25843,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1141952,
@@ -23966,6 +25870,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1142168,
@@ -23992,6 +25897,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1142472,
@@ -24018,6 +25924,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 18,
    "index_offset": 1142928,
@@ -24044,6 +25951,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 54,
    "index_offset": 1143672,
@@ -24070,6 +25978,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1144208,
@@ -24096,6 +26005,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
    "index_offset": 1145104,
@@ -24122,6 +26032,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 1145676,
@@ -24148,6 +26059,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1145888,
@@ -24174,6 +26086,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1146232,
@@ -24200,6 +26113,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 33,
    "index_offset": 1146808,
@@ -24226,6 +26140,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 33,
    "index_offset": 1147324,
@@ -24252,6 +26167,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 75,
    "index_offset": 1148640,
@@ -24278,6 +26194,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1149388,
@@ -24304,6 +26221,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1149612,
@@ -24330,6 +26248,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1149892,
@@ -24356,6 +26275,7 @@
     0.7296
    ],
    "entity": null,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 12,
    "index_offset": 1150220,
@@ -24382,6 +26302,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 1150620,
@@ -24408,6 +26329,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 162,
    "index_offset": 1152584,
@@ -24434,6 +26356,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 333,
    "index_offset": 1157712,
@@ -24460,6 +26383,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 75,
    "index_offset": 1159716,
@@ -24486,6 +26410,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 75,
    "index_offset": 1161200,
@@ -24512,6 +26437,7 @@
     0.2595
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 549,
    "index_offset": 1171676,
@@ -24538,6 +26464,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1174192,
@@ -24564,6 +26491,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1174544,
@@ -24590,6 +26518,7 @@
     0.1452
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1174808,
@@ -24616,6 +26545,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 24,
    "index_offset": 1175368,
@@ -24642,6 +26572,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 84,
    "index_offset": 1176456,
@@ -24668,6 +26599,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
    "index_offset": 1177272,
@@ -24694,6 +26626,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 78,
    "index_offset": 1178656,
@@ -24720,6 +26653,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 21,
    "index_offset": 1179384,
@@ -24746,6 +26680,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1179596,
@@ -24772,6 +26707,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1179812,
@@ -24798,6 +26734,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 45,
    "index_offset": 1180788,
@@ -24824,6 +26761,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 78,
    "index_offset": 1181832,
@@ -24850,6 +26788,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 45,
    "index_offset": 1182624,
@@ -24876,6 +26815,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 75,
    "index_offset": 1183988,
@@ -24902,6 +26842,7 @@
     0.2563
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 1184864,
@@ -24928,6 +26869,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1185240,
@@ -24954,6 +26896,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1185568,
@@ -24980,6 +26923,7 @@
     0.3636
    ],
    "entity": null,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 15,
    "index_offset": 1185928,
@@ -25006,6 +26950,7 @@
     0.3036
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 27,
    "index_offset": 1186340,
@@ -25032,6 +26977,7 @@
     0.1582
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1186704,
@@ -25058,6 +27004,7 @@
     0.1119
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1187544,
@@ -25084,6 +27031,7 @@
     0.3382
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1187816,
@@ -25110,6 +27058,7 @@
     0.2081
    ],
    "entity": null,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1188032,
@@ -25131,6 +27080,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
+   "free": "generated:flat:808080",
    "generic": "flat",
    "index_count": 69,
    "index_offset": 1188784,
@@ -25159,6 +27109,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 384,
    "index_offset": 1191652,
@@ -25187,6 +27138,7 @@
    ],
    "displacement": true,
    "entity": null,
+   "free": "concrete_clean:stone_wall",
    "generic": "stone_wall",
    "index_count": 384,
    "index_offset": 1195780,
@@ -25209,6 +27161,7 @@
     0.7296
    ],
    "entity": 1,
+   "free": "generated:flat:bfbfbf",
    "generic": "flat",
    "index_count": 30,
    "index_offset": 1197892,
@@ -25232,6 +27185,7 @@
     0.1452
    ],
    "entity": 1,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 57,
    "index_offset": 1198940,
@@ -25255,6 +27209,7 @@
     0.3036
    ],
    "entity": 1,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 111,
    "index_offset": 1201312,
@@ -25278,6 +27233,7 @@
     0.1023
    ],
    "entity": 1,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 1202396,
@@ -25301,6 +27257,7 @@
     0.1857
    ],
    "entity": 1,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1203100,
@@ -25324,6 +27281,7 @@
     0.3587
    ],
    "entity": 1,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1203452,
@@ -25347,6 +27305,7 @@
     0.3382
    ],
    "entity": 1,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 1266,
    "index_offset": 1225444,
@@ -25370,6 +27329,7 @@
     0.0959
    ],
    "entity": 4,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1231276,
@@ -25392,6 +27352,7 @@
     0.3036
    ],
    "entity": 4,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 120,
    "index_offset": 1233724,
@@ -25414,6 +27375,7 @@
     0.1381
    ],
    "entity": 5,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 240,
    "index_offset": 1237020,
@@ -25436,6 +27398,7 @@
     0.2081
    ],
    "entity": 5,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 228,
    "index_offset": 1240540,
@@ -25458,6 +27421,7 @@
     0.1489
    ],
    "entity": 11,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1242220,
@@ -25480,6 +27444,7 @@
     0.2563
    ],
    "entity": 37,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 60,
    "index_offset": 1243644,
@@ -25503,6 +27468,7 @@
     0.3382
    ],
    "entity": 37,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
    "index_offset": 1244780,
@@ -25526,6 +27492,7 @@
     0.319
    ],
    "entity": 48,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 36,
    "index_offset": 1245740,
@@ -25548,6 +27515,7 @@
     0.1381
    ],
    "entity": 57,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1246332,
@@ -25570,6 +27538,7 @@
     0.2081
    ],
    "entity": 57,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
    "index_offset": 1246748,
@@ -25592,6 +27561,7 @@
     0.257
    ],
    "entity": 63,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1247396,
@@ -25614,6 +27584,7 @@
     0.3896
    ],
    "entity": 69,
+   "free": "generated:flat:606060",
    "generic": "flat",
    "index_count": 6,
    "index_offset": 1247620,
@@ -25637,6 +27608,7 @@
     0.3382
    ],
    "entity": 69,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1248156,
@@ -25660,6 +27632,7 @@
     0.1489
    ],
    "entity": 69,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1248380,
@@ -25683,6 +27656,7 @@
     0.3748
    ],
    "entity": 70,
+   "free": "generated:flat:606060",
    "generic": "flat",
    "index_count": 6,
    "index_offset": 1248532,
@@ -25706,6 +27680,7 @@
     0.3382
    ],
    "entity": 70,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1249068,
@@ -25729,6 +27704,7 @@
     0.1489
    ],
    "entity": 70,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1249292,
@@ -25752,6 +27728,7 @@
     0.3858
    ],
    "entity": 71,
+   "free": "generated:flat:606060",
    "generic": "flat",
    "index_count": 6,
    "index_offset": 1249444,
@@ -25775,6 +27752,7 @@
     0.3382
    ],
    "entity": 71,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1249980,
@@ -25798,6 +27776,7 @@
     0.1489
    ],
    "entity": 71,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1250204,
@@ -25821,6 +27800,7 @@
     0.3916
    ],
    "entity": 72,
+   "free": "generated:flat:606060",
    "generic": "flat",
    "index_count": 6,
    "index_offset": 1250356,
@@ -25844,6 +27824,7 @@
     0.3382
    ],
    "entity": 72,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1250892,
@@ -25867,6 +27848,7 @@
     0.1489
    ],
    "entity": 72,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1251116,
@@ -25890,6 +27872,7 @@
     0.3725
    ],
    "entity": 73,
+   "free": "generated:flat:606060",
    "generic": "flat",
    "index_count": 6,
    "index_offset": 1251268,
@@ -25913,6 +27896,7 @@
     0.3382
    ],
    "entity": 73,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1251804,
@@ -25936,6 +27920,7 @@
     0.1489
    ],
    "entity": 73,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1252028,
@@ -25959,6 +27944,7 @@
     0.3727
    ],
    "entity": 74,
+   "free": "generated:flat:406060",
    "generic": "flat",
    "index_count": 6,
    "index_offset": 1252180,
@@ -25982,6 +27968,7 @@
     0.3382
    ],
    "entity": 74,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1252716,
@@ -26005,6 +27992,7 @@
     0.1489
    ],
    "entity": 74,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1252940,
@@ -26028,6 +28016,7 @@
     0.3731
    ],
    "entity": 75,
+   "free": "generated:flat:606060",
    "generic": "flat",
    "index_count": 6,
    "index_offset": 1253092,
@@ -26051,6 +28040,7 @@
     0.3382
    ],
    "entity": 75,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1253628,
@@ -26074,6 +28064,7 @@
     0.1489
    ],
    "entity": 75,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
    "index_offset": 1253852,
@@ -26097,6 +28088,7 @@
     0.257
    ],
    "entity": 103,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1254452,
@@ -26119,6 +28111,7 @@
     0.257
    ],
    "entity": 123,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1255124,
@@ -26141,6 +28134,7 @@
     0.257
    ],
    "entity": 124,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1255796,
@@ -26163,6 +28157,7 @@
     0.319
    ],
    "entity": 130,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 36,
    "index_offset": 1256660,
@@ -26185,6 +28180,7 @@
     0.319
    ],
    "entity": 131,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 36,
    "index_offset": 1257572,
@@ -26207,6 +28203,7 @@
     0.257
    ],
    "entity": 133,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1258292,
@@ -26229,6 +28226,7 @@
     0.257
    ],
    "entity": 134,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1258964,
@@ -26251,6 +28249,7 @@
     0.257
    ],
    "entity": 140,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1259636,
@@ -26273,6 +28272,7 @@
     0.257
    ],
    "entity": 141,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1260308,
@@ -26295,6 +28295,7 @@
     0.319
    ],
    "entity": 144,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 36,
    "index_offset": 1261172,
@@ -26317,6 +28318,7 @@
     0.257
    ],
    "entity": 150,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1261892,
@@ -26340,6 +28342,7 @@
     0.3237
    ],
    "entity": 158,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1262756,
@@ -26362,6 +28365,7 @@
     0.6889
    ],
    "entity": 159,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1263668,
@@ -26384,6 +28388,7 @@
     0.6889
    ],
    "entity": 160,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1264580,
@@ -26406,6 +28411,7 @@
     0.2595
    ],
    "entity": 163,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1265492,
@@ -26428,6 +28434,7 @@
     0.2
    ],
    "entity": 165,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1265892,
@@ -26450,6 +28457,7 @@
     0.2563
    ],
    "entity": 165,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1266452,
@@ -26472,6 +28480,7 @@
     0.3636
    ],
    "entity": 166,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 36,
    "index_offset": 1267316,
@@ -26495,6 +28504,7 @@
     0.1489
    ],
    "entity": 167,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1268228,
@@ -26517,6 +28527,7 @@
     0.3036
    ],
    "entity": 172,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 288,
    "index_offset": 1274516,
@@ -26539,6 +28550,7 @@
     0.2595
    ],
    "entity": 174,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1276436,
@@ -26562,6 +28574,7 @@
     0.4715
    ],
    "entity": 184,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1277348,
@@ -26584,6 +28597,7 @@
     0.4715
    ],
    "entity": 185,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1278260,
@@ -26606,6 +28620,7 @@
     0.4715
    ],
    "entity": 186,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1279172,
@@ -26628,6 +28643,7 @@
     0.2563
    ],
    "entity": 271,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1279828,
@@ -26650,6 +28666,7 @@
     0.1489
    ],
    "entity": 271,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1280180,
@@ -26672,6 +28689,7 @@
     0.319
    ],
    "entity": 294,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 36,
    "index_offset": 1280996,
@@ -26694,6 +28712,7 @@
     0.319
    ],
    "entity": 295,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 30,
    "index_offset": 1281780,
@@ -26716,6 +28735,7 @@
     0.319
    ],
    "entity": 296,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 30,
    "index_offset": 1282540,
@@ -26738,6 +28758,7 @@
     0.4891
    ],
    "entity": 301,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1283428,
@@ -26760,6 +28781,7 @@
     0.2563
    ],
    "entity": 303,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1284084,
@@ -26782,6 +28804,7 @@
     0.1489
    ],
    "entity": 303,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1284436,
@@ -26804,6 +28827,7 @@
     0.2563
    ],
    "entity": 304,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1284996,
@@ -26826,6 +28850,7 @@
     0.1489
    ],
    "entity": 304,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1285348,
@@ -26848,6 +28873,7 @@
     0.2563
    ],
    "entity": 305,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1285908,
@@ -26870,6 +28896,7 @@
     0.1489
    ],
    "entity": 305,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1286260,
@@ -26892,6 +28919,7 @@
     0.4891
    ],
    "entity": 308,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
    "index_offset": 1286564,
@@ -26915,6 +28943,7 @@
     0.2563
    ],
    "entity": 308,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
    "index_offset": 1287124,
@@ -26938,6 +28967,7 @@
     0.6889
    ],
    "entity": 310,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 564,
    "index_offset": 1294964,
@@ -26961,6 +28991,7 @@
     0.6889
    ],
    "entity": 311,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 240,
    "index_offset": 1301316,
@@ -26984,6 +29015,7 @@
     0.0755
    ],
    "entity": 312,
+   "free": "generated:glass:200020",
    "generic": "glass",
    "index_count": 36,
    "index_offset": 1303044,
@@ -27006,6 +29038,7 @@
     0.3036
    ],
    "entity": 314,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1303956,
@@ -27028,6 +29061,7 @@
     0.319
    ],
    "entity": 316,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 36,
    "index_offset": 1304868,
@@ -27050,6 +29084,7 @@
     0.4715
    ],
    "entity": 321,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1305780,
@@ -27072,6 +29107,7 @@
     0.4715
    ],
    "entity": 330,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1306692,
@@ -27094,6 +29130,7 @@
     0.4715
    ],
    "entity": 333,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1307604,
@@ -27116,6 +29153,7 @@
     0.319
    ],
    "entity": 334,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 36,
    "index_offset": 1308516,
@@ -27138,6 +29176,7 @@
     0.319
    ],
    "entity": 336,
+   "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 36,
    "index_offset": 1309428,
@@ -27160,6 +29199,7 @@
     0.1452
    ],
    "entity": 338,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 480,
    "index_offset": 1316164,
@@ -27183,6 +29223,7 @@
     0.3036
    ],
    "entity": 338,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 450,
    "index_offset": 1325700,
@@ -27206,6 +29247,7 @@
     0.1023
    ],
    "entity": 338,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
    "index_offset": 1327948,
@@ -27229,6 +29271,7 @@
     0.1817
    ],
    "entity": 338,
+   "free": "generated:glass:002020",
    "generic": "glass",
    "index_count": 36,
    "index_offset": 1328836,
@@ -27252,6 +29295,7 @@
     0.4715
    ],
    "entity": 344,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1329748,
@@ -27274,6 +29318,7 @@
     0.2081
    ],
    "entity": 351,
+   "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
    "index_offset": 1330660,
@@ -27296,6 +29341,7 @@
     0.0755
    ],
    "entity": 383,
+   "free": "generated:glass:200020",
    "generic": "glass",
    "index_count": 36,
    "index_offset": 1331572,
@@ -27318,6 +29364,7 @@
     0.0755
    ],
    "entity": 384,
+   "free": "generated:glass:200020",
    "generic": "glass",
    "index_count": 36,
    "index_offset": 1332484,
