@@ -2,7 +2,6 @@
 
 Every texture of this map is a free replacement; the original map's textures and models are not used.
 
-- grass (grass): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Grass004
 - snow (snow): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Snow004
 - brick (brick_red): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Bricks097
 - concrete (concrete): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Concrete047A

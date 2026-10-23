@@ -91,7 +91,7 @@ GAME_MATERIAL = {
     "wood_planks": "wood", "door_wood": "wood", "plaster_painted": "paint", "wallpaper": "paint",
     "plaster_worn": "plaster", "stone_wall": "stone", "roof_tiles": "roof", "tile_floor": "tile",
     "brick_red": "brick", "mud": "dirt", "snow": "concrete", "flat": "concrete",
-    "rock": "stone", "stone_block": "stone", "roof_clay": "roof", "ceiling_tile": "ceiling",
+    "rock": "stone", "stone_block": "stone", "roof_clay": "roof", "ceiling_tile": "ceiling", "foliage_card": "grass",
 }
 
 # Where this game had a more specific surface than the list's id, and keeps it: a road and a pavement are not
@@ -133,11 +133,12 @@ def name_world(doc, repo_root):
     return out
 
 
-def aim_spawns(spawns, boxes, look=5.0, reach=14.0):
-    """Turn a survivor start that faces a wall (or a bare sky edge) to its most open direction.
-    The source's `angles` are kept when eye height is clear for `look` metres; a generated start
-    (yaw 0) and a start in a room whose authored facing is a wall get the best of sixteen headings.
-    A person put down staring at a wall sees nothing of the map, and a render of it reads as dark."""
+def aim_spawns(spawns, boxes, look=5.0, reach=14.0, floors=None, goals=()):
+    """Turn a survivor start that faces a wall, a bare sky edge or the drop off a deck towards the map.
+    The source's `angles` are kept when eye height is clear for `look` metres and the ground goes on
+    ahead (`floors`); otherwise the heading is the one that keeps to the floor, is clear for 3 m and
+    lies nearest the bearing of the closest goal (post, cache, objective, route point). A heading with
+    something to look at (3 m to `reach`) outranks a bare one: openness alone picked the sky on a roof deck."""
     turned = 0
     for sp in spawns:
         x, y, z = sp["at"]
@@ -169,11 +170,36 @@ def aim_spawns(spawns, boxes, look=5.0, reach=14.0):
                 d += 0.25
             return reach
 
+        def ground(yaw):
+            """Share of the points 2, 4 and 6 m ahead that stand on a floor within 0.8 m of the feet."""
+            if not floors:
+                return 1.0
+            a = math.radians(yaw)
+            hit = 0
+            for d in (2.0, 4.0, 6.0):
+                px, pz = x - math.sin(a) * d, z - math.cos(a) * d
+                if any(f[0] <= px <= f[2] and f[1] <= pz <= f[3] and abs(f[4] - y) <= 0.8 for f in floors):
+                    hit += 1
+            return hit / 3.0
+
+        goals_far = [g for g in goals if (g[0] - x) ** 2 + (g[2] - z) ** 2 > 9.0]
+        goals_far = [g for g in goals_far if abs(g[1] - y) <= 4.0] or goals_far
+
+        def off_goal(yaw):
+            if not goals_far:
+                return 0.0
+            g = min(goals_far, key=lambda g: (g[0] - x) ** 2 + (g[2] - z) ** 2)
+            gx, gz = g[0], g[2]
+            want = math.degrees(math.atan2(-(gx - x), -(gz - z)))
+            return abs((yaw - want + 180.0) % 360.0 - 180.0)
+
         cur = sp.get("yaw", 0.0)
-        if clear(cur) >= look:
+        # Bare open space ahead is kept only when it is roughly towards a goal: a deck facing the sea is sky.
+        if clear(cur) >= look and ground(cur) >= 0.6 and (clear(cur) < reach or off_goal(cur) <= 90.0):
             continue
-        best = max(range(0, 360, 22), key=lambda h: (round(clear(h), 1), -min(abs(h - cur) % 360, 360 - abs(h - cur) % 360)))
-        if clear(best) > clear(cur) + 1.0:
+        heads = list(range(0, 360, 15))
+        best = max(heads, key=lambda h: (ground(h) >= 0.6, 3.0 <= clear(h) < reach, -round(off_goal(h) / 15.0), round(clear(h), 1)))
+        if (ground(best), clear(best)) != (ground(cur), clear(cur)) and (ground(best) > ground(cur) or clear(best) > clear(cur) + 1.0):
             sp["yaw"] = float(best)
             turned += 1
     return turned
@@ -1593,7 +1619,7 @@ def main(argv):
         all_boxes = tiled
     else:
         all_boxes = boxes + bar_boxes + gate_boxes
-    turned = aim_spawns(spawns, all_boxes)
+    turned = aim_spawns(spawns, all_boxes, floors=floors, goals=[list(p) for p in list(posts) + list(caches) + list(route or [])[1:]])
     if turned:
         print("  survivor spawns: %d facing a wall turned to open ground" % turned)
     doc = {

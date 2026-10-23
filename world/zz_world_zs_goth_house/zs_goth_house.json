@@ -1,10 +1,10 @@
 {
  "bin": {
-  "bytes": 414548,
+  "bytes": 403020,
   "compression": "gzip",
   "file": "zs_goth_house.bin",
-  "sha256": "c76beae9b28b74787675344347831de974060e1bbc7322dac82a365454e96454",
-  "stored_bytes": 99314
+  "sha256": "4d46709db4c7803916baaacdf90c729ca84d11897c74e0b76e84f9b014a14a40",
+  "stored_bytes": 96285
  },
  "breakables": [
   {
@@ -380,9 +380,9 @@
  "counts": {
   "hulls": 419,
   "models": 44,
-  "surfaces": 172,
-  "triangles": 6743,
-  "vertices": 7874
+  "surfaces": 166,
+  "triangles": 6433,
+  "vertices": 7630
  },
  "credit": {
   "author": "Draculine",
@@ -580,9 +580,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 332980,
+   "plane_offset": 321452,
    "point_count": 8,
-   "point_offset": 332884
+   "point_offset": 321356
   },
   {
    "brush": 1,
@@ -590,9 +590,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 333172,
+   "plane_offset": 321644,
    "point_count": 8,
-   "point_offset": 333076
+   "point_offset": 321548
   },
   {
    "brush": 2,
@@ -600,9 +600,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 333364,
+   "plane_offset": 321836,
    "point_count": 8,
-   "point_offset": 333268
+   "point_offset": 321740
   },
   {
    "brush": 3,
@@ -610,9 +610,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 333556,
+   "plane_offset": 322028,
    "point_count": 8,
-   "point_offset": 333460
+   "point_offset": 321932
   },
   {
    "brush": 4,
@@ -620,9 +620,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 333748,
+   "plane_offset": 322220,
    "point_count": 8,
-   "point_offset": 333652
+   "point_offset": 322124
   },
   {
    "brush": 5,
@@ -630,9 +630,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 333940,
+   "plane_offset": 322412,
    "point_count": 8,
-   "point_offset": 333844
+   "point_offset": 322316
   },
   {
    "brush": 6,
@@ -640,9 +640,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 334132,
+   "plane_offset": 322604,
    "point_count": 8,
-   "point_offset": 334036
+   "point_offset": 322508
   },
   {
    "brush": 7,
@@ -650,9 +650,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 334324,
+   "plane_offset": 322796,
    "point_count": 8,
-   "point_offset": 334228
+   "point_offset": 322700
   },
   {
    "brush": 8,
@@ -660,9 +660,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 334516,
+   "plane_offset": 322988,
    "point_count": 8,
-   "point_offset": 334420
+   "point_offset": 322892
   },
   {
    "brush": 9,
@@ -670,9 +670,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 334708,
+   "plane_offset": 323180,
    "point_count": 8,
-   "point_offset": 334612
+   "point_offset": 323084
   },
   {
    "brush": 10,
@@ -680,9 +680,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 334900,
+   "plane_offset": 323372,
    "point_count": 8,
-   "point_offset": 334804
+   "point_offset": 323276
   },
   {
    "brush": 11,
@@ -690,9 +690,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 335092,
+   "plane_offset": 323564,
    "point_count": 8,
-   "point_offset": 334996
+   "point_offset": 323468
   },
   {
    "brush": 12,
@@ -700,9 +700,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 335284,
+   "plane_offset": 323756,
    "point_count": 8,
-   "point_offset": 335188
+   "point_offset": 323660
   },
   {
    "brush": 13,
@@ -710,9 +710,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 335476,
+   "plane_offset": 323948,
    "point_count": 8,
-   "point_offset": 335380
+   "point_offset": 323852
   },
   {
    "brush": 14,
@@ -720,9 +720,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 335668,
+   "plane_offset": 324140,
    "point_count": 8,
-   "point_offset": 335572
+   "point_offset": 324044
   },
   {
    "brush": 15,
@@ -730,9 +730,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 335860,
+   "plane_offset": 324332,
    "point_count": 8,
-   "point_offset": 335764
+   "point_offset": 324236
   },
   {
    "brush": 16,
@@ -740,9 +740,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 336052,
+   "plane_offset": 324524,
    "point_count": 8,
-   "point_offset": 335956
+   "point_offset": 324428
   },
   {
    "brush": 17,
@@ -750,9 +750,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 336244,
+   "plane_offset": 324716,
    "point_count": 8,
-   "point_offset": 336148
+   "point_offset": 324620
   },
   {
    "brush": 18,
@@ -760,9 +760,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 336436,
+   "plane_offset": 324908,
    "point_count": 8,
-   "point_offset": 336340
+   "point_offset": 324812
   },
   {
    "brush": 19,
@@ -770,9 +770,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 336628,
+   "plane_offset": 325100,
    "point_count": 8,
-   "point_offset": 336532
+   "point_offset": 325004
   },
   {
    "brush": 20,
@@ -780,9 +780,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 336820,
+   "plane_offset": 325292,
    "point_count": 8,
-   "point_offset": 336724
+   "point_offset": 325196
   },
   {
    "brush": 21,
@@ -790,9 +790,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 337012,
+   "plane_offset": 325484,
    "point_count": 8,
-   "point_offset": 336916
+   "point_offset": 325388
   },
   {
    "brush": 22,
@@ -800,9 +800,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 337204,
+   "plane_offset": 325676,
    "point_count": 8,
-   "point_offset": 337108
+   "point_offset": 325580
   },
   {
    "brush": 23,
@@ -810,9 +810,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 337396,
+   "plane_offset": 325868,
    "point_count": 8,
-   "point_offset": 337300
+   "point_offset": 325772
   },
   {
    "brush": 24,
@@ -820,9 +820,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 337588,
+   "plane_offset": 326060,
    "point_count": 8,
-   "point_offset": 337492
+   "point_offset": 325964
   },
   {
    "brush": 25,
@@ -830,9 +830,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 337780,
+   "plane_offset": 326252,
    "point_count": 8,
-   "point_offset": 337684
+   "point_offset": 326156
   },
   {
    "brush": 26,
@@ -840,9 +840,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 337972,
+   "plane_offset": 326444,
    "point_count": 8,
-   "point_offset": 337876
+   "point_offset": 326348
   },
   {
    "brush": 27,
@@ -850,9 +850,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 338164,
+   "plane_offset": 326636,
    "point_count": 8,
-   "point_offset": 338068
+   "point_offset": 326540
   },
   {
    "brush": 28,
@@ -860,9 +860,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 338356,
+   "plane_offset": 326828,
    "point_count": 8,
-   "point_offset": 338260
+   "point_offset": 326732
   },
   {
    "brush": 29,
@@ -870,9 +870,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 338548,
+   "plane_offset": 327020,
    "point_count": 8,
-   "point_offset": 338452
+   "point_offset": 326924
   },
   {
    "brush": 30,
@@ -880,9 +880,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 338740,
+   "plane_offset": 327212,
    "point_count": 8,
-   "point_offset": 338644
+   "point_offset": 327116
   },
   {
    "brush": 31,
@@ -890,9 +890,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 338932,
+   "plane_offset": 327404,
    "point_count": 8,
-   "point_offset": 338836
+   "point_offset": 327308
   },
   {
    "brush": 32,
@@ -900,9 +900,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 339124,
+   "plane_offset": 327596,
    "point_count": 8,
-   "point_offset": 339028
+   "point_offset": 327500
   },
   {
    "brush": 33,
@@ -910,9 +910,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 339316,
+   "plane_offset": 327788,
    "point_count": 8,
-   "point_offset": 339220
+   "point_offset": 327692
   },
   {
    "brush": 34,
@@ -920,9 +920,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 339508,
+   "plane_offset": 327980,
    "point_count": 8,
-   "point_offset": 339412
+   "point_offset": 327884
   },
   {
    "brush": 35,
@@ -930,9 +930,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 339700,
+   "plane_offset": 328172,
    "point_count": 8,
-   "point_offset": 339604
+   "point_offset": 328076
   },
   {
    "brush": 36,
@@ -940,9 +940,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 339892,
+   "plane_offset": 328364,
    "point_count": 8,
-   "point_offset": 339796
+   "point_offset": 328268
   },
   {
    "brush": 37,
@@ -950,9 +950,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 340084,
+   "plane_offset": 328556,
    "point_count": 8,
-   "point_offset": 339988
+   "point_offset": 328460
   },
   {
    "brush": 38,
@@ -960,9 +960,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 340276,
+   "plane_offset": 328748,
    "point_count": 8,
-   "point_offset": 340180
+   "point_offset": 328652
   },
   {
    "brush": 39,
@@ -970,9 +970,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 9,
-   "plane_offset": 340516,
+   "plane_offset": 328988,
    "point_count": 12,
-   "point_offset": 340372
+   "point_offset": 328844
   },
   {
    "brush": 40,
@@ -980,9 +980,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 340756,
+   "plane_offset": 329228,
    "point_count": 8,
-   "point_offset": 340660
+   "point_offset": 329132
   },
   {
    "brush": 41,
@@ -990,9 +990,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 340948,
+   "plane_offset": 329420,
    "point_count": 8,
-   "point_offset": 340852
+   "point_offset": 329324
   },
   {
    "brush": 42,
@@ -1000,9 +1000,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 341140,
+   "plane_offset": 329612,
    "point_count": 8,
-   "point_offset": 341044
+   "point_offset": 329516
   },
   {
    "brush": 43,
@@ -1010,9 +1010,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 341332,
+   "plane_offset": 329804,
    "point_count": 8,
-   "point_offset": 341236
+   "point_offset": 329708
   },
   {
    "brush": 44,
@@ -1020,9 +1020,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 341524,
+   "plane_offset": 329996,
    "point_count": 8,
-   "point_offset": 341428
+   "point_offset": 329900
   },
   {
    "brush": 45,
@@ -1030,9 +1030,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 341716,
+   "plane_offset": 330188,
    "point_count": 8,
-   "point_offset": 341620
+   "point_offset": 330092
   },
   {
    "brush": 46,
@@ -1040,9 +1040,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 341908,
+   "plane_offset": 330380,
    "point_count": 8,
-   "point_offset": 341812
+   "point_offset": 330284
   },
   {
    "brush": 47,
@@ -1050,9 +1050,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 342100,
+   "plane_offset": 330572,
    "point_count": 8,
-   "point_offset": 342004
+   "point_offset": 330476
   },
   {
    "brush": 48,
@@ -1060,9 +1060,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 342292,
+   "plane_offset": 330764,
    "point_count": 8,
-   "point_offset": 342196
+   "point_offset": 330668
   },
   {
    "brush": 49,
@@ -1070,9 +1070,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 342484,
+   "plane_offset": 330956,
    "point_count": 8,
-   "point_offset": 342388
+   "point_offset": 330860
   },
   {
    "brush": 50,
@@ -1080,9 +1080,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 342676,
+   "plane_offset": 331148,
    "point_count": 8,
-   "point_offset": 342580
+   "point_offset": 331052
   },
   {
    "brush": 51,
@@ -1090,9 +1090,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 342868,
+   "plane_offset": 331340,
    "point_count": 8,
-   "point_offset": 342772
+   "point_offset": 331244
   },
   {
    "brush": 52,
@@ -1100,9 +1100,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 343060,
+   "plane_offset": 331532,
    "point_count": 8,
-   "point_offset": 342964
+   "point_offset": 331436
   },
   {
    "brush": 53,
@@ -1110,9 +1110,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 343252,
+   "plane_offset": 331724,
    "point_count": 8,
-   "point_offset": 343156
+   "point_offset": 331628
   },
   {
    "brush": 54,
@@ -1120,9 +1120,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 343444,
+   "plane_offset": 331916,
    "point_count": 8,
-   "point_offset": 343348
+   "point_offset": 331820
   },
   {
    "brush": 55,
@@ -1130,9 +1130,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 343636,
+   "plane_offset": 332108,
    "point_count": 8,
-   "point_offset": 343540
+   "point_offset": 332012
   },
   {
    "brush": 56,
@@ -1140,9 +1140,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 343828,
+   "plane_offset": 332300,
    "point_count": 8,
-   "point_offset": 343732
+   "point_offset": 332204
   },
   {
    "brush": 57,
@@ -1150,9 +1150,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 344020,
+   "plane_offset": 332492,
    "point_count": 8,
-   "point_offset": 343924
+   "point_offset": 332396
   },
   {
    "brush": 58,
@@ -1160,9 +1160,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 344212,
+   "plane_offset": 332684,
    "point_count": 8,
-   "point_offset": 344116
+   "point_offset": 332588
   },
   {
    "brush": 59,
@@ -1170,9 +1170,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 344404,
+   "plane_offset": 332876,
    "point_count": 8,
-   "point_offset": 344308
+   "point_offset": 332780
   },
   {
    "brush": 60,
@@ -1180,9 +1180,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 344596,
+   "plane_offset": 333068,
    "point_count": 8,
-   "point_offset": 344500
+   "point_offset": 332972
   },
   {
    "brush": 61,
@@ -1190,9 +1190,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 344788,
+   "plane_offset": 333260,
    "point_count": 8,
-   "point_offset": 344692
+   "point_offset": 333164
   },
   {
    "brush": 62,
@@ -1200,9 +1200,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 344980,
+   "plane_offset": 333452,
    "point_count": 8,
-   "point_offset": 344884
+   "point_offset": 333356
   },
   {
    "brush": 63,
@@ -1210,9 +1210,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 345172,
+   "plane_offset": 333644,
    "point_count": 8,
-   "point_offset": 345076
+   "point_offset": 333548
   },
   {
    "brush": 64,
@@ -1220,9 +1220,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 345364,
+   "plane_offset": 333836,
    "point_count": 8,
-   "point_offset": 345268
+   "point_offset": 333740
   },
   {
    "brush": 65,
@@ -1230,9 +1230,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 345556,
+   "plane_offset": 334028,
    "point_count": 8,
-   "point_offset": 345460
+   "point_offset": 333932
   },
   {
    "brush": 66,
@@ -1240,9 +1240,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 345748,
+   "plane_offset": 334220,
    "point_count": 8,
-   "point_offset": 345652
+   "point_offset": 334124
   },
   {
    "brush": 67,
@@ -1250,9 +1250,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 345940,
+   "plane_offset": 334412,
    "point_count": 8,
-   "point_offset": 345844
+   "point_offset": 334316
   },
   {
    "brush": 68,
@@ -1260,9 +1260,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 346132,
+   "plane_offset": 334604,
    "point_count": 8,
-   "point_offset": 346036
+   "point_offset": 334508
   },
   {
    "brush": 69,
@@ -1270,9 +1270,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 346324,
+   "plane_offset": 334796,
    "point_count": 8,
-   "point_offset": 346228
+   "point_offset": 334700
   },
   {
    "brush": 70,
@@ -1280,9 +1280,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 346516,
+   "plane_offset": 334988,
    "point_count": 8,
-   "point_offset": 346420
+   "point_offset": 334892
   },
   {
    "brush": 71,
@@ -1290,9 +1290,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 346708,
+   "plane_offset": 335180,
    "point_count": 8,
-   "point_offset": 346612
+   "point_offset": 335084
   },
   {
    "brush": 72,
@@ -1300,9 +1300,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 346900,
+   "plane_offset": 335372,
    "point_count": 8,
-   "point_offset": 346804
+   "point_offset": 335276
   },
   {
    "brush": 73,
@@ -1310,9 +1310,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 347092,
+   "plane_offset": 335564,
    "point_count": 8,
-   "point_offset": 346996
+   "point_offset": 335468
   },
   {
    "brush": 74,
@@ -1320,9 +1320,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 347284,
+   "plane_offset": 335756,
    "point_count": 8,
-   "point_offset": 347188
+   "point_offset": 335660
   },
   {
    "brush": 75,
@@ -1330,9 +1330,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 347476,
+   "plane_offset": 335948,
    "point_count": 8,
-   "point_offset": 347380
+   "point_offset": 335852
   },
   {
    "brush": 76,
@@ -1340,9 +1340,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 347668,
+   "plane_offset": 336140,
    "point_count": 8,
-   "point_offset": 347572
+   "point_offset": 336044
   },
   {
    "brush": 77,
@@ -1350,9 +1350,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 347860,
+   "plane_offset": 336332,
    "point_count": 8,
-   "point_offset": 347764
+   "point_offset": 336236
   },
   {
    "brush": 78,
@@ -1360,9 +1360,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 348052,
+   "plane_offset": 336524,
    "point_count": 8,
-   "point_offset": 347956
+   "point_offset": 336428
   },
   {
    "brush": 79,
@@ -1370,9 +1370,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 348244,
+   "plane_offset": 336716,
    "point_count": 8,
-   "point_offset": 348148
+   "point_offset": 336620
   },
   {
    "brush": 80,
@@ -1380,9 +1380,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 348436,
+   "plane_offset": 336908,
    "point_count": 8,
-   "point_offset": 348340
+   "point_offset": 336812
   },
   {
    "brush": 81,
@@ -1390,9 +1390,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 348628,
+   "plane_offset": 337100,
    "point_count": 8,
-   "point_offset": 348532
+   "point_offset": 337004
   },
   {
    "brush": 82,
@@ -1400,9 +1400,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 7,
-   "plane_offset": 348844,
+   "plane_offset": 337316,
    "point_count": 10,
-   "point_offset": 348724
+   "point_offset": 337196
   },
   {
    "brush": 83,
@@ -1410,9 +1410,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 7,
-   "plane_offset": 349076,
+   "plane_offset": 337548,
    "point_count": 10,
-   "point_offset": 348956
+   "point_offset": 337428
   },
   {
    "brush": 84,
@@ -1420,9 +1420,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 349284,
+   "plane_offset": 337756,
    "point_count": 8,
-   "point_offset": 349188
+   "point_offset": 337660
   },
   {
    "brush": 85,
@@ -1430,9 +1430,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 349476,
+   "plane_offset": 337948,
    "point_count": 8,
-   "point_offset": 349380
+   "point_offset": 337852
   },
   {
    "brush": 86,
@@ -1440,9 +1440,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 349668,
+   "plane_offset": 338140,
    "point_count": 8,
-   "point_offset": 349572
+   "point_offset": 338044
   },
   {
    "brush": 87,
@@ -1450,9 +1450,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 349860,
+   "plane_offset": 338332,
    "point_count": 8,
-   "point_offset": 349764
+   "point_offset": 338236
   },
   {
    "brush": 88,
@@ -1460,9 +1460,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 350052,
+   "plane_offset": 338524,
    "point_count": 8,
-   "point_offset": 349956
+   "point_offset": 338428
   },
   {
    "brush": 89,
@@ -1470,9 +1470,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 350244,
+   "plane_offset": 338716,
    "point_count": 8,
-   "point_offset": 350148
+   "point_offset": 338620
   },
   {
    "brush": 90,
@@ -1480,9 +1480,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 350436,
+   "plane_offset": 338908,
    "point_count": 8,
-   "point_offset": 350340
+   "point_offset": 338812
   },
   {
    "brush": 91,
@@ -1490,9 +1490,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 350628,
+   "plane_offset": 339100,
    "point_count": 8,
-   "point_offset": 350532
+   "point_offset": 339004
   },
   {
    "brush": 92,
@@ -1500,9 +1500,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 350820,
+   "plane_offset": 339292,
    "point_count": 8,
-   "point_offset": 350724
+   "point_offset": 339196
   },
   {
    "brush": 93,
@@ -1510,9 +1510,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 351012,
+   "plane_offset": 339484,
    "point_count": 8,
-   "point_offset": 350916
+   "point_offset": 339388
   },
   {
    "brush": 94,
@@ -1520,9 +1520,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 351204,
+   "plane_offset": 339676,
    "point_count": 8,
-   "point_offset": 351108
+   "point_offset": 339580
   },
   {
    "brush": 95,
@@ -1530,9 +1530,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 351396,
+   "plane_offset": 339868,
    "point_count": 8,
-   "point_offset": 351300
+   "point_offset": 339772
   },
   {
    "brush": 96,
@@ -1540,9 +1540,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 351588,
+   "plane_offset": 340060,
    "point_count": 8,
-   "point_offset": 351492
+   "point_offset": 339964
   },
   {
    "brush": 97,
@@ -1550,9 +1550,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 351780,
+   "plane_offset": 340252,
    "point_count": 8,
-   "point_offset": 351684
+   "point_offset": 340156
   },
   {
    "brush": 98,
@@ -1560,9 +1560,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 351972,
+   "plane_offset": 340444,
    "point_count": 8,
-   "point_offset": 351876
+   "point_offset": 340348
   },
   {
    "brush": 99,
@@ -1570,9 +1570,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 352164,
+   "plane_offset": 340636,
    "point_count": 8,
-   "point_offset": 352068
+   "point_offset": 340540
   },
   {
    "brush": 100,
@@ -1580,9 +1580,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 352356,
+   "plane_offset": 340828,
    "point_count": 8,
-   "point_offset": 352260
+   "point_offset": 340732
   },
   {
    "brush": 101,
@@ -1590,9 +1590,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 352548,
+   "plane_offset": 341020,
    "point_count": 8,
-   "point_offset": 352452
+   "point_offset": 340924
   },
   {
    "brush": 102,
@@ -1600,9 +1600,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 352740,
+   "plane_offset": 341212,
    "point_count": 8,
-   "point_offset": 352644
+   "point_offset": 341116
   },
   {
    "brush": 103,
@@ -1610,9 +1610,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 352932,
+   "plane_offset": 341404,
    "point_count": 8,
-   "point_offset": 352836
+   "point_offset": 341308
   },
   {
    "brush": 104,
@@ -1620,9 +1620,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 353124,
+   "plane_offset": 341596,
    "point_count": 8,
-   "point_offset": 353028
+   "point_offset": 341500
   },
   {
    "brush": 105,
@@ -1630,9 +1630,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 353316,
+   "plane_offset": 341788,
    "point_count": 8,
-   "point_offset": 353220
+   "point_offset": 341692
   },
   {
    "brush": 106,
@@ -1640,9 +1640,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 353508,
+   "plane_offset": 341980,
    "point_count": 8,
-   "point_offset": 353412
+   "point_offset": 341884
   },
   {
    "brush": 107,
@@ -1650,9 +1650,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 353700,
+   "plane_offset": 342172,
    "point_count": 8,
-   "point_offset": 353604
+   "point_offset": 342076
   },
   {
    "brush": 108,
@@ -1660,9 +1660,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 353892,
+   "plane_offset": 342364,
    "point_count": 8,
-   "point_offset": 353796
+   "point_offset": 342268
   },
   {
    "brush": 109,
@@ -1670,9 +1670,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 354084,
+   "plane_offset": 342556,
    "point_count": 8,
-   "point_offset": 353988
+   "point_offset": 342460
   },
   {
    "brush": 110,
@@ -1680,9 +1680,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 354276,
+   "plane_offset": 342748,
    "point_count": 8,
-   "point_offset": 354180
+   "point_offset": 342652
   },
   {
    "brush": 111,
@@ -1690,9 +1690,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 354468,
+   "plane_offset": 342940,
    "point_count": 8,
-   "point_offset": 354372
+   "point_offset": 342844
   },
   {
    "brush": 112,
@@ -1700,9 +1700,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 354660,
+   "plane_offset": 343132,
    "point_count": 8,
-   "point_offset": 354564
+   "point_offset": 343036
   },
   {
    "brush": 113,
@@ -1710,9 +1710,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 354852,
+   "plane_offset": 343324,
    "point_count": 8,
-   "point_offset": 354756
+   "point_offset": 343228
   },
   {
    "brush": 114,
@@ -1720,9 +1720,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 355044,
+   "plane_offset": 343516,
    "point_count": 8,
-   "point_offset": 354948
+   "point_offset": 343420
   },
   {
    "brush": 115,
@@ -1730,9 +1730,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 355236,
+   "plane_offset": 343708,
    "point_count": 8,
-   "point_offset": 355140
+   "point_offset": 343612
   },
   {
    "brush": 116,
@@ -1740,9 +1740,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 355428,
+   "plane_offset": 343900,
    "point_count": 8,
-   "point_offset": 355332
+   "point_offset": 343804
   },
   {
    "brush": 117,
@@ -1750,9 +1750,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 355620,
+   "plane_offset": 344092,
    "point_count": 8,
-   "point_offset": 355524
+   "point_offset": 343996
   },
   {
    "brush": 118,
@@ -1760,9 +1760,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 355812,
+   "plane_offset": 344284,
    "point_count": 8,
-   "point_offset": 355716
+   "point_offset": 344188
   },
   {
    "brush": 119,
@@ -1770,9 +1770,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 356004,
+   "plane_offset": 344476,
    "point_count": 8,
-   "point_offset": 355908
+   "point_offset": 344380
   },
   {
    "brush": 120,
@@ -1780,9 +1780,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 356196,
+   "plane_offset": 344668,
    "point_count": 8,
-   "point_offset": 356100
+   "point_offset": 344572
   },
   {
    "brush": 121,
@@ -1790,9 +1790,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 356388,
+   "plane_offset": 344860,
    "point_count": 8,
-   "point_offset": 356292
+   "point_offset": 344764
   },
   {
    "brush": 122,
@@ -1800,9 +1800,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 356580,
+   "plane_offset": 345052,
    "point_count": 8,
-   "point_offset": 356484
+   "point_offset": 344956
   },
   {
    "brush": 123,
@@ -1810,9 +1810,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 356772,
+   "plane_offset": 345244,
    "point_count": 8,
-   "point_offset": 356676
+   "point_offset": 345148
   },
   {
    "brush": 124,
@@ -1820,9 +1820,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 356964,
+   "plane_offset": 345436,
    "point_count": 8,
-   "point_offset": 356868
+   "point_offset": 345340
   },
   {
    "brush": 125,
@@ -1830,9 +1830,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 357156,
+   "plane_offset": 345628,
    "point_count": 8,
-   "point_offset": 357060
+   "point_offset": 345532
   },
   {
    "brush": 126,
@@ -1840,9 +1840,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 7,
-   "plane_offset": 357372,
+   "plane_offset": 345844,
    "point_count": 10,
-   "point_offset": 357252
+   "point_offset": 345724
   },
   {
    "brush": 127,
@@ -1850,9 +1850,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 357580,
+   "plane_offset": 346052,
    "point_count": 8,
-   "point_offset": 357484
+   "point_offset": 345956
   },
   {
    "brush": 128,
@@ -1860,9 +1860,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 5,
-   "plane_offset": 357748,
+   "plane_offset": 346220,
    "point_count": 6,
-   "point_offset": 357676
+   "point_offset": 346148
   },
   {
    "brush": 129,
@@ -1870,9 +1870,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 357924,
+   "plane_offset": 346396,
    "point_count": 8,
-   "point_offset": 357828
+   "point_offset": 346300
   },
   {
    "brush": 130,
@@ -1880,9 +1880,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 358116,
+   "plane_offset": 346588,
    "point_count": 8,
-   "point_offset": 358020
+   "point_offset": 346492
   },
   {
    "brush": 131,
@@ -1890,9 +1890,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 7,
-   "plane_offset": 358332,
+   "plane_offset": 346804,
    "point_count": 10,
-   "point_offset": 358212
+   "point_offset": 346684
   },
   {
    "brush": 132,
@@ -1900,9 +1900,9 @@
    "kind": "glass",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 358540,
+   "plane_offset": 347012,
    "point_count": 8,
-   "point_offset": 358444
+   "point_offset": 346916
   },
   {
    "brush": 133,
@@ -1910,9 +1910,9 @@
    "kind": "glass",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 358732,
+   "plane_offset": 347204,
    "point_count": 8,
-   "point_offset": 358636
+   "point_offset": 347108
   },
   {
    "brush": 134,
@@ -1920,9 +1920,9 @@
    "kind": "glass",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 358924,
+   "plane_offset": 347396,
    "point_count": 8,
-   "point_offset": 358828
+   "point_offset": 347300
   },
   {
    "brush": 135,
@@ -1930,9 +1930,9 @@
    "kind": "glass",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 359116,
+   "plane_offset": 347588,
    "point_count": 8,
-   "point_offset": 359020
+   "point_offset": 347492
   },
   {
    "brush": 136,
@@ -1940,9 +1940,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 359308,
+   "plane_offset": 347780,
    "point_count": 8,
-   "point_offset": 359212
+   "point_offset": 347684
   },
   {
    "brush": 137,
@@ -1950,9 +1950,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 359500,
+   "plane_offset": 347972,
    "point_count": 8,
-   "point_offset": 359404
+   "point_offset": 347876
   },
   {
    "brush": 138,
@@ -1960,9 +1960,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 359692,
+   "plane_offset": 348164,
    "point_count": 8,
-   "point_offset": 359596
+   "point_offset": 348068
   },
   {
    "brush": 139,
@@ -1970,9 +1970,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 359884,
+   "plane_offset": 348356,
    "point_count": 8,
-   "point_offset": 359788
+   "point_offset": 348260
   },
   {
    "brush": 140,
@@ -1980,9 +1980,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 360076,
+   "plane_offset": 348548,
    "point_count": 8,
-   "point_offset": 359980
+   "point_offset": 348452
   },
   {
    "brush": 141,
@@ -1990,9 +1990,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 360268,
+   "plane_offset": 348740,
    "point_count": 8,
-   "point_offset": 360172
+   "point_offset": 348644
   },
   {
    "brush": 142,
@@ -2000,9 +2000,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 360460,
+   "plane_offset": 348932,
    "point_count": 8,
-   "point_offset": 360364
+   "point_offset": 348836
   },
   {
    "brush": 143,
@@ -2010,9 +2010,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 360652,
+   "plane_offset": 349124,
    "point_count": 8,
-   "point_offset": 360556
+   "point_offset": 349028
   },
   {
    "brush": 144,
@@ -2020,9 +2020,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 360844,
+   "plane_offset": 349316,
    "point_count": 8,
-   "point_offset": 360748
+   "point_offset": 349220
   },
   {
    "brush": 145,
@@ -2030,9 +2030,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 361036,
+   "plane_offset": 349508,
    "point_count": 8,
-   "point_offset": 360940
+   "point_offset": 349412
   },
   {
    "brush": 146,
@@ -2040,9 +2040,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 361228,
+   "plane_offset": 349700,
    "point_count": 8,
-   "point_offset": 361132
+   "point_offset": 349604
   },
   {
    "brush": 147,
@@ -2050,9 +2050,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 361420,
+   "plane_offset": 349892,
    "point_count": 8,
-   "point_offset": 361324
+   "point_offset": 349796
   },
   {
    "brush": 148,
@@ -2060,9 +2060,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 361612,
+   "plane_offset": 350084,
    "point_count": 8,
-   "point_offset": 361516
+   "point_offset": 349988
   },
   {
    "brush": 149,
@@ -2070,9 +2070,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 361804,
+   "plane_offset": 350276,
    "point_count": 8,
-   "point_offset": 361708
+   "point_offset": 350180
   },
   {
    "brush": 150,
@@ -2080,9 +2080,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 361996,
+   "plane_offset": 350468,
    "point_count": 8,
-   "point_offset": 361900
+   "point_offset": 350372
   },
   {
    "brush": 151,
@@ -2090,9 +2090,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 362188,
+   "plane_offset": 350660,
    "point_count": 8,
-   "point_offset": 362092
+   "point_offset": 350564
   },
   {
    "brush": 152,
@@ -2100,9 +2100,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 362380,
+   "plane_offset": 350852,
    "point_count": 8,
-   "point_offset": 362284
+   "point_offset": 350756
   },
   {
    "brush": 153,
@@ -2110,9 +2110,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 362572,
+   "plane_offset": 351044,
    "point_count": 8,
-   "point_offset": 362476
+   "point_offset": 350948
   },
   {
    "brush": 154,
@@ -2120,9 +2120,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 362764,
+   "plane_offset": 351236,
    "point_count": 8,
-   "point_offset": 362668
+   "point_offset": 351140
   },
   {
    "brush": 155,
@@ -2130,9 +2130,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 362956,
+   "plane_offset": 351428,
    "point_count": 8,
-   "point_offset": 362860
+   "point_offset": 351332
   },
   {
    "brush": 156,
@@ -2140,9 +2140,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 363148,
+   "plane_offset": 351620,
    "point_count": 8,
-   "point_offset": 363052
+   "point_offset": 351524
   },
   {
    "brush": 157,
@@ -2150,9 +2150,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 363340,
+   "plane_offset": 351812,
    "point_count": 8,
-   "point_offset": 363244
+   "point_offset": 351716
   },
   {
    "brush": 158,
@@ -2160,9 +2160,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 363532,
+   "plane_offset": 352004,
    "point_count": 8,
-   "point_offset": 363436
+   "point_offset": 351908
   },
   {
    "brush": 159,
@@ -2170,9 +2170,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 363724,
+   "plane_offset": 352196,
    "point_count": 8,
-   "point_offset": 363628
+   "point_offset": 352100
   },
   {
    "brush": 160,
@@ -2180,9 +2180,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 363916,
+   "plane_offset": 352388,
    "point_count": 8,
-   "point_offset": 363820
+   "point_offset": 352292
   },
   {
    "brush": 161,
@@ -2190,9 +2190,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 7,
-   "plane_offset": 364132,
+   "plane_offset": 352604,
    "point_count": 10,
-   "point_offset": 364012
+   "point_offset": 352484
   },
   {
    "brush": 162,
@@ -2200,9 +2200,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 5,
-   "plane_offset": 364316,
+   "plane_offset": 352788,
    "point_count": 6,
-   "point_offset": 364244
+   "point_offset": 352716
   },
   {
    "brush": 163,
@@ -2210,9 +2210,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 7,
-   "plane_offset": 364516,
+   "plane_offset": 352988,
    "point_count": 10,
-   "point_offset": 364396
+   "point_offset": 352868
   },
   {
    "brush": 164,
@@ -2220,9 +2220,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 7,
-   "plane_offset": 364748,
+   "plane_offset": 353220,
    "point_count": 10,
-   "point_offset": 364628
+   "point_offset": 353100
   },
   {
    "brush": 165,
@@ -2230,9 +2230,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 5,
-   "plane_offset": 364932,
+   "plane_offset": 353404,
    "point_count": 6,
-   "point_offset": 364860
+   "point_offset": 353332
   },
   {
    "brush": 166,
@@ -2240,9 +2240,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 7,
-   "plane_offset": 365132,
+   "plane_offset": 353604,
    "point_count": 10,
-   "point_offset": 365012
+   "point_offset": 353484
   },
   {
    "brush": 167,
@@ -2250,9 +2250,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 365340,
+   "plane_offset": 353812,
    "point_count": 8,
-   "point_offset": 365244
+   "point_offset": 353716
   },
   {
    "brush": 168,
@@ -2260,9 +2260,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 365532,
+   "plane_offset": 354004,
    "point_count": 8,
-   "point_offset": 365436
+   "point_offset": 353908
   },
   {
    "brush": 169,
@@ -2270,9 +2270,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 365724,
+   "plane_offset": 354196,
    "point_count": 8,
-   "point_offset": 365628
+   "point_offset": 354100
   },
   {
    "brush": 170,
@@ -2280,9 +2280,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 365916,
+   "plane_offset": 354388,
    "point_count": 8,
-   "point_offset": 365820
+   "point_offset": 354292
   },
   {
    "brush": 171,
@@ -2290,9 +2290,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 366108,
+   "plane_offset": 354580,
    "point_count": 8,
-   "point_offset": 366012
+   "point_offset": 354484
   },
   {
    "brush": 172,
@@ -2300,9 +2300,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 366300,
+   "plane_offset": 354772,
    "point_count": 8,
-   "point_offset": 366204
+   "point_offset": 354676
   },
   {
    "brush": 173,
@@ -2310,9 +2310,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 366492,
+   "plane_offset": 354964,
    "point_count": 8,
-   "point_offset": 366396
+   "point_offset": 354868
   },
   {
    "brush": 174,
@@ -2320,9 +2320,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 366684,
+   "plane_offset": 355156,
    "point_count": 8,
-   "point_offset": 366588
+   "point_offset": 355060
   },
   {
    "brush": 175,
@@ -2330,9 +2330,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 366876,
+   "plane_offset": 355348,
    "point_count": 8,
-   "point_offset": 366780
+   "point_offset": 355252
   },
   {
    "brush": 176,
@@ -2340,9 +2340,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 367068,
+   "plane_offset": 355540,
    "point_count": 8,
-   "point_offset": 366972
+   "point_offset": 355444
   },
   {
    "brush": 177,
@@ -2350,9 +2350,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 367260,
+   "plane_offset": 355732,
    "point_count": 8,
-   "point_offset": 367164
+   "point_offset": 355636
   },
   {
    "brush": 178,
@@ -2360,9 +2360,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 367452,
+   "plane_offset": 355924,
    "point_count": 8,
-   "point_offset": 367356
+   "point_offset": 355828
   },
   {
    "brush": 179,
@@ -2370,9 +2370,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 367644,
+   "plane_offset": 356116,
    "point_count": 8,
-   "point_offset": 367548
+   "point_offset": 356020
   },
   {
    "brush": 180,
@@ -2380,9 +2380,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 367836,
+   "plane_offset": 356308,
    "point_count": 8,
-   "point_offset": 367740
+   "point_offset": 356212
   },
   {
    "brush": 181,
@@ -2390,9 +2390,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 7,
-   "plane_offset": 368052,
+   "plane_offset": 356524,
    "point_count": 10,
-   "point_offset": 367932
+   "point_offset": 356404
   },
   {
    "brush": 182,
@@ -2400,9 +2400,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 5,
-   "plane_offset": 368236,
+   "plane_offset": 356708,
    "point_count": 6,
-   "point_offset": 368164
+   "point_offset": 356636
   },
   {
    "brush": 183,
@@ -2410,9 +2410,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 368412,
+   "plane_offset": 356884,
    "point_count": 8,
-   "point_offset": 368316
+   "point_offset": 356788
   },
   {
    "brush": 184,
@@ -2420,9 +2420,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 7,
-   "plane_offset": 368628,
+   "plane_offset": 357100,
    "point_count": 10,
-   "point_offset": 368508
+   "point_offset": 356980
   },
   {
    "brush": 185,
@@ -2430,9 +2430,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 368836,
+   "plane_offset": 357308,
    "point_count": 8,
-   "point_offset": 368740
+   "point_offset": 357212
   },
   {
    "brush": 186,
@@ -2440,9 +2440,9 @@
    "kind": "sky",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 369028,
+   "plane_offset": 357500,
    "point_count": 8,
-   "point_offset": 368932
+   "point_offset": 357404
   },
   {
    "brush": 187,
@@ -2450,9 +2450,9 @@
    "kind": "sky",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 369220,
+   "plane_offset": 357692,
    "point_count": 8,
-   "point_offset": 369124
+   "point_offset": 357596
   },
   {
    "brush": 188,
@@ -2460,9 +2460,9 @@
    "kind": "sky",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 369412,
+   "plane_offset": 357884,
    "point_count": 8,
-   "point_offset": 369316
+   "point_offset": 357788
   },
   {
    "brush": 189,
@@ -2470,9 +2470,9 @@
    "kind": "sky",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 369604,
+   "plane_offset": 358076,
    "point_count": 8,
-   "point_offset": 369508
+   "point_offset": 357980
   },
   {
    "brush": 190,
@@ -2480,9 +2480,9 @@
    "kind": "sky",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 369796,
+   "plane_offset": 358268,
    "point_count": 8,
-   "point_offset": 369700
+   "point_offset": 358172
   },
   {
    "brush": 191,
@@ -2490,9 +2490,9 @@
    "kind": "sky",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 369988,
+   "plane_offset": 358460,
    "point_count": 8,
-   "point_offset": 369892
+   "point_offset": 358364
   },
   {
    "brush": 192,
@@ -2500,9 +2500,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 370180,
+   "plane_offset": 358652,
    "point_count": 8,
-   "point_offset": 370084
+   "point_offset": 358556
   },
   {
    "brush": 193,
@@ -2510,9 +2510,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 370372,
+   "plane_offset": 358844,
    "point_count": 8,
-   "point_offset": 370276
+   "point_offset": 358748
   },
   {
    "brush": 194,
@@ -2520,9 +2520,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 370564,
+   "plane_offset": 359036,
    "point_count": 8,
-   "point_offset": 370468
+   "point_offset": 358940
   },
   {
    "brush": 195,
@@ -2530,9 +2530,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 370756,
+   "plane_offset": 359228,
    "point_count": 8,
-   "point_offset": 370660
+   "point_offset": 359132
   },
   {
    "brush": 196,
@@ -2540,9 +2540,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 370948,
+   "plane_offset": 359420,
    "point_count": 8,
-   "point_offset": 370852
+   "point_offset": 359324
   },
   {
    "brush": 197,
@@ -2550,9 +2550,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 371140,
+   "plane_offset": 359612,
    "point_count": 8,
-   "point_offset": 371044
+   "point_offset": 359516
   },
   {
    "brush": 198,
@@ -2560,9 +2560,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 371332,
+   "plane_offset": 359804,
    "point_count": 8,
-   "point_offset": 371236
+   "point_offset": 359708
   },
   {
    "brush": 199,
@@ -2570,9 +2570,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 371524,
+   "plane_offset": 359996,
    "point_count": 8,
-   "point_offset": 371428
+   "point_offset": 359900
   },
   {
    "brush": 200,
@@ -2580,9 +2580,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 371716,
+   "plane_offset": 360188,
    "point_count": 8,
-   "point_offset": 371620
+   "point_offset": 360092
   },
   {
    "brush": 201,
@@ -2590,9 +2590,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 371908,
+   "plane_offset": 360380,
    "point_count": 8,
-   "point_offset": 371812
+   "point_offset": 360284
   },
   {
    "brush": 202,
@@ -2600,9 +2600,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 372100,
+   "plane_offset": 360572,
    "point_count": 8,
-   "point_offset": 372004
+   "point_offset": 360476
   },
   {
    "brush": 203,
@@ -2610,9 +2610,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 372292,
+   "plane_offset": 360764,
    "point_count": 8,
-   "point_offset": 372196
+   "point_offset": 360668
   },
   {
    "brush": 204,
@@ -2620,9 +2620,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 372484,
+   "plane_offset": 360956,
    "point_count": 8,
-   "point_offset": 372388
+   "point_offset": 360860
   },
   {
    "brush": 205,
@@ -2630,9 +2630,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 372676,
+   "plane_offset": 361148,
    "point_count": 8,
-   "point_offset": 372580
+   "point_offset": 361052
   },
   {
    "brush": 206,
@@ -2640,9 +2640,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 372868,
+   "plane_offset": 361340,
    "point_count": 8,
-   "point_offset": 372772
+   "point_offset": 361244
   },
   {
    "brush": 207,
@@ -2650,9 +2650,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 373060,
+   "plane_offset": 361532,
    "point_count": 8,
-   "point_offset": 372964
+   "point_offset": 361436
   },
   {
    "brush": 208,
@@ -2660,9 +2660,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 373252,
+   "plane_offset": 361724,
    "point_count": 8,
-   "point_offset": 373156
+   "point_offset": 361628
   },
   {
    "brush": 209,
@@ -2670,9 +2670,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 373444,
+   "plane_offset": 361916,
    "point_count": 8,
-   "point_offset": 373348
+   "point_offset": 361820
   },
   {
    "brush": 210,
@@ -2680,9 +2680,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 373636,
+   "plane_offset": 362108,
    "point_count": 8,
-   "point_offset": 373540
+   "point_offset": 362012
   },
   {
    "brush": 211,
@@ -2690,9 +2690,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 373828,
+   "plane_offset": 362300,
    "point_count": 8,
-   "point_offset": 373732
+   "point_offset": 362204
   },
   {
    "brush": 212,
@@ -2700,9 +2700,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 374020,
+   "plane_offset": 362492,
    "point_count": 8,
-   "point_offset": 373924
+   "point_offset": 362396
   },
   {
    "brush": 213,
@@ -2710,9 +2710,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 374212,
+   "plane_offset": 362684,
    "point_count": 8,
-   "point_offset": 374116
+   "point_offset": 362588
   },
   {
    "brush": 214,
@@ -2720,9 +2720,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 374404,
+   "plane_offset": 362876,
    "point_count": 8,
-   "point_offset": 374308
+   "point_offset": 362780
   },
   {
    "brush": 215,
@@ -2730,9 +2730,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 374596,
+   "plane_offset": 363068,
    "point_count": 8,
-   "point_offset": 374500
+   "point_offset": 362972
   },
   {
    "brush": 216,
@@ -2740,9 +2740,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 374788,
+   "plane_offset": 363260,
    "point_count": 8,
-   "point_offset": 374692
+   "point_offset": 363164
   },
   {
    "brush": 217,
@@ -2750,9 +2750,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 374980,
+   "plane_offset": 363452,
    "point_count": 8,
-   "point_offset": 374884
+   "point_offset": 363356
   },
   {
    "brush": 218,
@@ -2760,9 +2760,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 375172,
+   "plane_offset": 363644,
    "point_count": 8,
-   "point_offset": 375076
+   "point_offset": 363548
   },
   {
    "brush": 219,
@@ -2770,9 +2770,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 375364,
+   "plane_offset": 363836,
    "point_count": 8,
-   "point_offset": 375268
+   "point_offset": 363740
   },
   {
    "brush": 220,
@@ -2780,9 +2780,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 375556,
+   "plane_offset": 364028,
    "point_count": 8,
-   "point_offset": 375460
+   "point_offset": 363932
   },
   {
    "brush": 221,
@@ -2790,9 +2790,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 375748,
+   "plane_offset": 364220,
    "point_count": 8,
-   "point_offset": 375652
+   "point_offset": 364124
   },
   {
    "brush": 222,
@@ -2800,9 +2800,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 375940,
+   "plane_offset": 364412,
    "point_count": 8,
-   "point_offset": 375844
+   "point_offset": 364316
   },
   {
    "brush": 223,
@@ -2810,9 +2810,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 376132,
+   "plane_offset": 364604,
    "point_count": 8,
-   "point_offset": 376036
+   "point_offset": 364508
   },
   {
    "brush": 224,
@@ -2820,9 +2820,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 376324,
+   "plane_offset": 364796,
    "point_count": 8,
-   "point_offset": 376228
+   "point_offset": 364700
   },
   {
    "brush": 225,
@@ -2830,9 +2830,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 376516,
+   "plane_offset": 364988,
    "point_count": 8,
-   "point_offset": 376420
+   "point_offset": 364892
   },
   {
    "brush": 226,
@@ -2840,9 +2840,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 376708,
+   "plane_offset": 365180,
    "point_count": 8,
-   "point_offset": 376612
+   "point_offset": 365084
   },
   {
    "brush": 227,
@@ -2850,9 +2850,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 376900,
+   "plane_offset": 365372,
    "point_count": 8,
-   "point_offset": 376804
+   "point_offset": 365276
   },
   {
    "brush": 228,
@@ -2860,9 +2860,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 377092,
+   "plane_offset": 365564,
    "point_count": 8,
-   "point_offset": 376996
+   "point_offset": 365468
   },
   {
    "brush": 229,
@@ -2870,9 +2870,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 377284,
+   "plane_offset": 365756,
    "point_count": 8,
-   "point_offset": 377188
+   "point_offset": 365660
   },
   {
    "brush": 230,
@@ -2880,9 +2880,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 377476,
+   "plane_offset": 365948,
    "point_count": 8,
-   "point_offset": 377380
+   "point_offset": 365852
   },
   {
    "brush": 231,
@@ -2890,9 +2890,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 377668,
+   "plane_offset": 366140,
    "point_count": 8,
-   "point_offset": 377572
+   "point_offset": 366044
   },
   {
    "brush": 232,
@@ -2900,9 +2900,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 377860,
+   "plane_offset": 366332,
    "point_count": 8,
-   "point_offset": 377764
+   "point_offset": 366236
   },
   {
    "brush": 233,
@@ -2910,9 +2910,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 378052,
+   "plane_offset": 366524,
    "point_count": 8,
-   "point_offset": 377956
+   "point_offset": 366428
   },
   {
    "brush": 234,
@@ -2920,9 +2920,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 378244,
+   "plane_offset": 366716,
    "point_count": 8,
-   "point_offset": 378148
+   "point_offset": 366620
   },
   {
    "brush": 235,
@@ -2930,9 +2930,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 378436,
+   "plane_offset": 366908,
    "point_count": 8,
-   "point_offset": 378340
+   "point_offset": 366812
   },
   {
    "brush": 236,
@@ -2940,9 +2940,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 378628,
+   "plane_offset": 367100,
    "point_count": 8,
-   "point_offset": 378532
+   "point_offset": 367004
   },
   {
    "brush": 237,
@@ -2950,9 +2950,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 378820,
+   "plane_offset": 367292,
    "point_count": 8,
-   "point_offset": 378724
+   "point_offset": 367196
   },
   {
    "brush": 238,
@@ -2960,9 +2960,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 379012,
+   "plane_offset": 367484,
    "point_count": 8,
-   "point_offset": 378916
+   "point_offset": 367388
   },
   {
    "brush": 239,
@@ -2970,9 +2970,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 379204,
+   "plane_offset": 367676,
    "point_count": 8,
-   "point_offset": 379108
+   "point_offset": 367580
   },
   {
    "brush": 240,
@@ -2980,9 +2980,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 379396,
+   "plane_offset": 367868,
    "point_count": 8,
-   "point_offset": 379300
+   "point_offset": 367772
   },
   {
    "brush": 241,
@@ -2990,9 +2990,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 379588,
+   "plane_offset": 368060,
    "point_count": 8,
-   "point_offset": 379492
+   "point_offset": 367964
   },
   {
    "brush": 242,
@@ -3000,9 +3000,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 379780,
+   "plane_offset": 368252,
    "point_count": 8,
-   "point_offset": 379684
+   "point_offset": 368156
   },
   {
    "brush": 243,
@@ -3010,9 +3010,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 379972,
+   "plane_offset": 368444,
    "point_count": 8,
-   "point_offset": 379876
+   "point_offset": 368348
   },
   {
    "brush": 244,
@@ -3020,9 +3020,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 380164,
+   "plane_offset": 368636,
    "point_count": 8,
-   "point_offset": 380068
+   "point_offset": 368540
   },
   {
    "brush": 245,
@@ -3030,9 +3030,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 380356,
+   "plane_offset": 368828,
    "point_count": 8,
-   "point_offset": 380260
+   "point_offset": 368732
   },
   {
    "brush": 246,
@@ -3040,9 +3040,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 380548,
+   "plane_offset": 369020,
    "point_count": 8,
-   "point_offset": 380452
+   "point_offset": 368924
   },
   {
    "brush": 247,
@@ -3050,9 +3050,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 380740,
+   "plane_offset": 369212,
    "point_count": 8,
-   "point_offset": 380644
+   "point_offset": 369116
   },
   {
    "brush": 248,
@@ -3060,9 +3060,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 380932,
+   "plane_offset": 369404,
    "point_count": 8,
-   "point_offset": 380836
+   "point_offset": 369308
   },
   {
    "brush": 249,
@@ -3070,9 +3070,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 381124,
+   "plane_offset": 369596,
    "point_count": 8,
-   "point_offset": 381028
+   "point_offset": 369500
   },
   {
    "brush": 250,
@@ -3080,9 +3080,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 381316,
+   "plane_offset": 369788,
    "point_count": 8,
-   "point_offset": 381220
+   "point_offset": 369692
   },
   {
    "brush": 251,
@@ -3090,9 +3090,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 381508,
+   "plane_offset": 369980,
    "point_count": 8,
-   "point_offset": 381412
+   "point_offset": 369884
   },
   {
    "brush": 252,
@@ -3100,9 +3100,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 381700,
+   "plane_offset": 370172,
    "point_count": 8,
-   "point_offset": 381604
+   "point_offset": 370076
   },
   {
    "brush": 253,
@@ -3110,9 +3110,9 @@
    "kind": "glass",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 381892,
+   "plane_offset": 370364,
    "point_count": 8,
-   "point_offset": 381796
+   "point_offset": 370268
   },
   {
    "brush": 254,
@@ -3120,9 +3120,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 382084,
+   "plane_offset": 370556,
    "point_count": 8,
-   "point_offset": 381988
+   "point_offset": 370460
   },
   {
    "brush": 255,
@@ -3130,9 +3130,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 382276,
+   "plane_offset": 370748,
    "point_count": 8,
-   "point_offset": 382180
+   "point_offset": 370652
   },
   {
    "brush": 256,
@@ -3140,9 +3140,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 382468,
+   "plane_offset": 370940,
    "point_count": 8,
-   "point_offset": 382372
+   "point_offset": 370844
   },
   {
    "brush": 257,
@@ -3150,9 +3150,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 382660,
+   "plane_offset": 371132,
    "point_count": 8,
-   "point_offset": 382564
+   "point_offset": 371036
   },
   {
    "brush": 258,
@@ -3160,9 +3160,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 382852,
+   "plane_offset": 371324,
    "point_count": 8,
-   "point_offset": 382756
+   "point_offset": 371228
   },
   {
    "brush": 259,
@@ -3170,9 +3170,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 383044,
+   "plane_offset": 371516,
    "point_count": 8,
-   "point_offset": 382948
+   "point_offset": 371420
   },
   {
    "brush": 260,
@@ -3180,9 +3180,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 383236,
+   "plane_offset": 371708,
    "point_count": 8,
-   "point_offset": 383140
+   "point_offset": 371612
   },
   {
    "brush": 261,
@@ -3190,9 +3190,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 383428,
+   "plane_offset": 371900,
    "point_count": 8,
-   "point_offset": 383332
+   "point_offset": 371804
   },
   {
    "brush": 262,
@@ -3200,9 +3200,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 383620,
+   "plane_offset": 372092,
    "point_count": 8,
-   "point_offset": 383524
+   "point_offset": 371996
   },
   {
    "brush": 263,
@@ -3210,9 +3210,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 383812,
+   "plane_offset": 372284,
    "point_count": 8,
-   "point_offset": 383716
+   "point_offset": 372188
   },
   {
    "brush": 264,
@@ -3220,9 +3220,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 384004,
+   "plane_offset": 372476,
    "point_count": 8,
-   "point_offset": 383908
+   "point_offset": 372380
   },
   {
    "brush": 265,
@@ -3230,9 +3230,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 384196,
+   "plane_offset": 372668,
    "point_count": 8,
-   "point_offset": 384100
+   "point_offset": 372572
   },
   {
    "brush": 266,
@@ -3240,9 +3240,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 384388,
+   "plane_offset": 372860,
    "point_count": 8,
-   "point_offset": 384292
+   "point_offset": 372764
   },
   {
    "brush": 267,
@@ -3250,9 +3250,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 384580,
+   "plane_offset": 373052,
    "point_count": 8,
-   "point_offset": 384484
+   "point_offset": 372956
   },
   {
    "brush": 268,
@@ -3260,9 +3260,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 9,
-   "plane_offset": 384820,
+   "plane_offset": 373292,
    "point_count": 12,
-   "point_offset": 384676
+   "point_offset": 373148
   },
   {
    "brush": 269,
@@ -3270,9 +3270,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 385060,
+   "plane_offset": 373532,
    "point_count": 8,
-   "point_offset": 384964
+   "point_offset": 373436
   },
   {
    "brush": 270,
@@ -3280,9 +3280,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 385252,
+   "plane_offset": 373724,
    "point_count": 8,
-   "point_offset": 385156
+   "point_offset": 373628
   },
   {
    "brush": 271,
@@ -3290,9 +3290,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 385444,
+   "plane_offset": 373916,
    "point_count": 8,
-   "point_offset": 385348
+   "point_offset": 373820
   },
   {
    "brush": 272,
@@ -3300,9 +3300,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 5,
-   "plane_offset": 385612,
+   "plane_offset": 374084,
    "point_count": 6,
-   "point_offset": 385540
+   "point_offset": 374012
   },
   {
    "brush": 273,
@@ -3310,9 +3310,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 385788,
+   "plane_offset": 374260,
    "point_count": 8,
-   "point_offset": 385692
+   "point_offset": 374164
   },
   {
    "brush": 274,
@@ -3320,9 +3320,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 385980,
+   "plane_offset": 374452,
    "point_count": 8,
-   "point_offset": 385884
+   "point_offset": 374356
   },
   {
    "brush": 275,
@@ -3330,9 +3330,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 386172,
+   "plane_offset": 374644,
    "point_count": 8,
-   "point_offset": 386076
+   "point_offset": 374548
   },
   {
    "brush": 276,
@@ -3340,9 +3340,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 386364,
+   "plane_offset": 374836,
    "point_count": 8,
-   "point_offset": 386268
+   "point_offset": 374740
   },
   {
    "brush": 277,
@@ -3350,9 +3350,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 386556,
+   "plane_offset": 375028,
    "point_count": 8,
-   "point_offset": 386460
+   "point_offset": 374932
   },
   {
    "brush": 278,
@@ -3360,9 +3360,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 386748,
+   "plane_offset": 375220,
    "point_count": 8,
-   "point_offset": 386652
+   "point_offset": 375124
   },
   {
    "brush": 279,
@@ -3370,9 +3370,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 386940,
+   "plane_offset": 375412,
    "point_count": 8,
-   "point_offset": 386844
+   "point_offset": 375316
   },
   {
    "brush": 280,
@@ -3380,9 +3380,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 387132,
+   "plane_offset": 375604,
    "point_count": 8,
-   "point_offset": 387036
+   "point_offset": 375508
   },
   {
    "brush": 281,
@@ -3390,9 +3390,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 10,
-   "plane_offset": 387372,
+   "plane_offset": 375844,
    "point_count": 12,
-   "point_offset": 387228
+   "point_offset": 375700
   },
   {
    "brush": 282,
@@ -3400,9 +3400,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 10,
-   "plane_offset": 387676,
+   "plane_offset": 376148,
    "point_count": 12,
-   "point_offset": 387532
+   "point_offset": 376004
   },
   {
    "brush": 283,
@@ -3410,9 +3410,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 10,
-   "plane_offset": 387980,
+   "plane_offset": 376452,
    "point_count": 12,
-   "point_offset": 387836
+   "point_offset": 376308
   },
   {
    "brush": 284,
@@ -3420,9 +3420,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 10,
-   "plane_offset": 388284,
+   "plane_offset": 376756,
    "point_count": 12,
-   "point_offset": 388140
+   "point_offset": 376612
   },
   {
    "brush": 285,
@@ -3430,9 +3430,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 10,
-   "plane_offset": 388588,
+   "plane_offset": 377060,
    "point_count": 12,
-   "point_offset": 388444
+   "point_offset": 376916
   },
   {
    "brush": 286,
@@ -3440,9 +3440,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 10,
-   "plane_offset": 388892,
+   "plane_offset": 377364,
    "point_count": 12,
-   "point_offset": 388748
+   "point_offset": 377220
   },
   {
    "brush": 287,
@@ -3450,9 +3450,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 10,
-   "plane_offset": 389196,
+   "plane_offset": 377668,
    "point_count": 12,
-   "point_offset": 389052
+   "point_offset": 377524
   },
   {
    "brush": 288,
@@ -3460,9 +3460,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 389452,
+   "plane_offset": 377924,
    "point_count": 8,
-   "point_offset": 389356
+   "point_offset": 377828
   },
   {
    "brush": 289,
@@ -3470,9 +3470,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 389644,
+   "plane_offset": 378116,
    "point_count": 8,
-   "point_offset": 389548
+   "point_offset": 378020
   },
   {
    "brush": 290,
@@ -3480,9 +3480,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 389836,
+   "plane_offset": 378308,
    "point_count": 8,
-   "point_offset": 389740
+   "point_offset": 378212
   },
   {
    "brush": 291,
@@ -3490,9 +3490,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 390028,
+   "plane_offset": 378500,
    "point_count": 8,
-   "point_offset": 389932
+   "point_offset": 378404
   },
   {
    "brush": 292,
@@ -3500,9 +3500,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 390220,
+   "plane_offset": 378692,
    "point_count": 8,
-   "point_offset": 390124
+   "point_offset": 378596
   },
   {
    "brush": 293,
@@ -3510,9 +3510,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 390412,
+   "plane_offset": 378884,
    "point_count": 8,
-   "point_offset": 390316
+   "point_offset": 378788
   },
   {
    "brush": 294,
@@ -3520,9 +3520,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 390604,
+   "plane_offset": 379076,
    "point_count": 8,
-   "point_offset": 390508
+   "point_offset": 378980
   },
   {
    "brush": 295,
@@ -3530,9 +3530,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 390796,
+   "plane_offset": 379268,
    "point_count": 8,
-   "point_offset": 390700
+   "point_offset": 379172
   },
   {
    "brush": 296,
@@ -3540,9 +3540,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 390988,
+   "plane_offset": 379460,
    "point_count": 8,
-   "point_offset": 390892
+   "point_offset": 379364
   },
   {
    "brush": 297,
@@ -3550,9 +3550,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 391180,
+   "plane_offset": 379652,
    "point_count": 8,
-   "point_offset": 391084
+   "point_offset": 379556
   },
   {
    "brush": 298,
@@ -3560,9 +3560,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 391372,
+   "plane_offset": 379844,
    "point_count": 8,
-   "point_offset": 391276
+   "point_offset": 379748
   },
   {
    "brush": 299,
@@ -3570,9 +3570,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 391564,
+   "plane_offset": 380036,
    "point_count": 8,
-   "point_offset": 391468
+   "point_offset": 379940
   },
   {
    "brush": 300,
@@ -3580,9 +3580,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 391756,
+   "plane_offset": 380228,
    "point_count": 8,
-   "point_offset": 391660
+   "point_offset": 380132
   },
   {
    "brush": 301,
@@ -3590,9 +3590,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 391948,
+   "plane_offset": 380420,
    "point_count": 8,
-   "point_offset": 391852
+   "point_offset": 380324
   },
   {
    "brush": 302,
@@ -3600,9 +3600,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 392140,
+   "plane_offset": 380612,
    "point_count": 8,
-   "point_offset": 392044
+   "point_offset": 380516
   },
   {
    "brush": 303,
@@ -3610,9 +3610,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 392332,
+   "plane_offset": 380804,
    "point_count": 8,
-   "point_offset": 392236
+   "point_offset": 380708
   },
   {
    "brush": 304,
@@ -3620,9 +3620,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 392524,
+   "plane_offset": 380996,
    "point_count": 8,
-   "point_offset": 392428
+   "point_offset": 380900
   },
   {
    "brush": 305,
@@ -3630,9 +3630,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 392716,
+   "plane_offset": 381188,
    "point_count": 8,
-   "point_offset": 392620
+   "point_offset": 381092
   },
   {
    "brush": 306,
@@ -3640,9 +3640,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 392908,
+   "plane_offset": 381380,
    "point_count": 8,
-   "point_offset": 392812
+   "point_offset": 381284
   },
   {
    "brush": 307,
@@ -3650,9 +3650,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 393100,
+   "plane_offset": 381572,
    "point_count": 8,
-   "point_offset": 393004
+   "point_offset": 381476
   },
   {
    "brush": 308,
@@ -3660,9 +3660,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 393292,
+   "plane_offset": 381764,
    "point_count": 8,
-   "point_offset": 393196
+   "point_offset": 381668
   },
   {
    "brush": 309,
@@ -3670,9 +3670,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 393484,
+   "plane_offset": 381956,
    "point_count": 8,
-   "point_offset": 393388
+   "point_offset": 381860
   },
   {
    "brush": 310,
@@ -3680,9 +3680,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 393676,
+   "plane_offset": 382148,
    "point_count": 8,
-   "point_offset": 393580
+   "point_offset": 382052
   },
   {
    "brush": 311,
@@ -3690,9 +3690,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 393868,
+   "plane_offset": 382340,
    "point_count": 8,
-   "point_offset": 393772
+   "point_offset": 382244
   },
   {
    "brush": 312,
@@ -3700,9 +3700,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 394060,
+   "plane_offset": 382532,
    "point_count": 8,
-   "point_offset": 393964
+   "point_offset": 382436
   },
   {
    "brush": 313,
@@ -3710,9 +3710,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 394252,
+   "plane_offset": 382724,
    "point_count": 8,
-   "point_offset": 394156
+   "point_offset": 382628
   },
   {
    "brush": 314,
@@ -3720,9 +3720,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 394444,
+   "plane_offset": 382916,
    "point_count": 8,
-   "point_offset": 394348
+   "point_offset": 382820
   },
   {
    "brush": 315,
@@ -3730,9 +3730,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 394636,
+   "plane_offset": 383108,
    "point_count": 8,
-   "point_offset": 394540
+   "point_offset": 383012
   },
   {
    "brush": 316,
@@ -3740,9 +3740,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 394828,
+   "plane_offset": 383300,
    "point_count": 8,
-   "point_offset": 394732
+   "point_offset": 383204
   },
   {
    "brush": 317,
@@ -3750,9 +3750,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 395020,
+   "plane_offset": 383492,
    "point_count": 8,
-   "point_offset": 394924
+   "point_offset": 383396
   },
   {
    "brush": 318,
@@ -3760,9 +3760,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 395212,
+   "plane_offset": 383684,
    "point_count": 8,
-   "point_offset": 395116
+   "point_offset": 383588
   },
   {
    "brush": 319,
@@ -3770,9 +3770,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 395404,
+   "plane_offset": 383876,
    "point_count": 8,
-   "point_offset": 395308
+   "point_offset": 383780
   },
   {
    "brush": 320,
@@ -3780,9 +3780,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 395596,
+   "plane_offset": 384068,
    "point_count": 8,
-   "point_offset": 395500
+   "point_offset": 383972
   },
   {
    "brush": 321,
@@ -3790,9 +3790,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 395788,
+   "plane_offset": 384260,
    "point_count": 8,
-   "point_offset": 395692
+   "point_offset": 384164
   },
   {
    "brush": 322,
@@ -3800,9 +3800,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 395980,
+   "plane_offset": 384452,
    "point_count": 8,
-   "point_offset": 395884
+   "point_offset": 384356
   },
   {
    "brush": 323,
@@ -3810,9 +3810,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 396172,
+   "plane_offset": 384644,
    "point_count": 8,
-   "point_offset": 396076
+   "point_offset": 384548
   },
   {
    "brush": 324,
@@ -3820,9 +3820,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 396364,
+   "plane_offset": 384836,
    "point_count": 8,
-   "point_offset": 396268
+   "point_offset": 384740
   },
   {
    "brush": 325,
@@ -3830,9 +3830,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 396556,
+   "plane_offset": 385028,
    "point_count": 8,
-   "point_offset": 396460
+   "point_offset": 384932
   },
   {
    "brush": 326,
@@ -3840,9 +3840,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 396748,
+   "plane_offset": 385220,
    "point_count": 8,
-   "point_offset": 396652
+   "point_offset": 385124
   },
   {
    "brush": 327,
@@ -3850,9 +3850,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 396940,
+   "plane_offset": 385412,
    "point_count": 8,
-   "point_offset": 396844
+   "point_offset": 385316
   },
   {
    "brush": 328,
@@ -3860,9 +3860,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 397132,
+   "plane_offset": 385604,
    "point_count": 8,
-   "point_offset": 397036
+   "point_offset": 385508
   },
   {
    "brush": 329,
@@ -3870,9 +3870,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 397324,
+   "plane_offset": 385796,
    "point_count": 8,
-   "point_offset": 397228
+   "point_offset": 385700
   },
   {
    "brush": 330,
@@ -3880,9 +3880,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 397516,
+   "plane_offset": 385988,
    "point_count": 8,
-   "point_offset": 397420
+   "point_offset": 385892
   },
   {
    "brush": 331,
@@ -3890,9 +3890,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 397708,
+   "plane_offset": 386180,
    "point_count": 8,
-   "point_offset": 397612
+   "point_offset": 386084
   },
   {
    "brush": 332,
@@ -3900,9 +3900,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 397900,
+   "plane_offset": 386372,
    "point_count": 8,
-   "point_offset": 397804
+   "point_offset": 386276
   },
   {
    "brush": 333,
@@ -3910,9 +3910,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 398092,
+   "plane_offset": 386564,
    "point_count": 8,
-   "point_offset": 397996
+   "point_offset": 386468
   },
   {
    "brush": 334,
@@ -3920,9 +3920,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 398284,
+   "plane_offset": 386756,
    "point_count": 8,
-   "point_offset": 398188
+   "point_offset": 386660
   },
   {
    "brush": 335,
@@ -3930,9 +3930,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 398476,
+   "plane_offset": 386948,
    "point_count": 8,
-   "point_offset": 398380
+   "point_offset": 386852
   },
   {
    "brush": 336,
@@ -3940,9 +3940,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 398668,
+   "plane_offset": 387140,
    "point_count": 8,
-   "point_offset": 398572
+   "point_offset": 387044
   },
   {
    "brush": 337,
@@ -3950,9 +3950,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 398860,
+   "plane_offset": 387332,
    "point_count": 8,
-   "point_offset": 398764
+   "point_offset": 387236
   },
   {
    "brush": 338,
@@ -3960,9 +3960,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 399052,
+   "plane_offset": 387524,
    "point_count": 8,
-   "point_offset": 398956
+   "point_offset": 387428
   },
   {
    "brush": 339,
@@ -3970,9 +3970,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 399244,
+   "plane_offset": 387716,
    "point_count": 8,
-   "point_offset": 399148
+   "point_offset": 387620
   },
   {
    "brush": 340,
@@ -3980,9 +3980,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 399436,
+   "plane_offset": 387908,
    "point_count": 8,
-   "point_offset": 399340
+   "point_offset": 387812
   },
   {
    "brush": 341,
@@ -3990,9 +3990,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 399628,
+   "plane_offset": 388100,
    "point_count": 8,
-   "point_offset": 399532
+   "point_offset": 388004
   },
   {
    "brush": 342,
@@ -4000,9 +4000,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 399820,
+   "plane_offset": 388292,
    "point_count": 8,
-   "point_offset": 399724
+   "point_offset": 388196
   },
   {
    "brush": 343,
@@ -4010,9 +4010,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 400012,
+   "plane_offset": 388484,
    "point_count": 8,
-   "point_offset": 399916
+   "point_offset": 388388
   },
   {
    "brush": 344,
@@ -4020,9 +4020,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 400204,
+   "plane_offset": 388676,
    "point_count": 8,
-   "point_offset": 400108
+   "point_offset": 388580
   },
   {
    "brush": 345,
@@ -4030,9 +4030,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 400396,
+   "plane_offset": 388868,
    "point_count": 8,
-   "point_offset": 400300
+   "point_offset": 388772
   },
   {
    "brush": 346,
@@ -4040,9 +4040,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 400588,
+   "plane_offset": 389060,
    "point_count": 8,
-   "point_offset": 400492
+   "point_offset": 388964
   },
   {
    "brush": 347,
@@ -4050,9 +4050,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 400780,
+   "plane_offset": 389252,
    "point_count": 8,
-   "point_offset": 400684
+   "point_offset": 389156
   },
   {
    "brush": 348,
@@ -4060,9 +4060,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 400972,
+   "plane_offset": 389444,
    "point_count": 8,
-   "point_offset": 400876
+   "point_offset": 389348
   },
   {
    "brush": 349,
@@ -4070,9 +4070,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 401164,
+   "plane_offset": 389636,
    "point_count": 8,
-   "point_offset": 401068
+   "point_offset": 389540
   },
   {
    "brush": 350,
@@ -4080,9 +4080,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 401356,
+   "plane_offset": 389828,
    "point_count": 8,
-   "point_offset": 401260
+   "point_offset": 389732
   },
   {
    "brush": 351,
@@ -4090,9 +4090,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 401548,
+   "plane_offset": 390020,
    "point_count": 8,
-   "point_offset": 401452
+   "point_offset": 389924
   },
   {
    "brush": 352,
@@ -4100,9 +4100,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 401740,
+   "plane_offset": 390212,
    "point_count": 8,
-   "point_offset": 401644
+   "point_offset": 390116
   },
   {
    "brush": 353,
@@ -4110,9 +4110,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 401932,
+   "plane_offset": 390404,
    "point_count": 8,
-   "point_offset": 401836
+   "point_offset": 390308
   },
   {
    "brush": 354,
@@ -4120,9 +4120,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 402124,
+   "plane_offset": 390596,
    "point_count": 8,
-   "point_offset": 402028
+   "point_offset": 390500
   },
   {
    "brush": 355,
@@ -4130,9 +4130,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 402316,
+   "plane_offset": 390788,
    "point_count": 8,
-   "point_offset": 402220
+   "point_offset": 390692
   },
   {
    "brush": 356,
@@ -4140,9 +4140,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 402508,
+   "plane_offset": 390980,
    "point_count": 8,
-   "point_offset": 402412
+   "point_offset": 390884
   },
   {
    "brush": 357,
@@ -4150,9 +4150,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 402700,
+   "plane_offset": 391172,
    "point_count": 8,
-   "point_offset": 402604
+   "point_offset": 391076
   },
   {
    "brush": 358,
@@ -4160,9 +4160,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 7,
-   "plane_offset": 402916,
+   "plane_offset": 391388,
    "point_count": 10,
-   "point_offset": 402796
+   "point_offset": 391268
   },
   {
    "brush": 359,
@@ -4170,9 +4170,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 403124,
+   "plane_offset": 391596,
    "point_count": 8,
-   "point_offset": 403028
+   "point_offset": 391500
   },
   {
    "brush": 360,
@@ -4180,9 +4180,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 403316,
+   "plane_offset": 391788,
    "point_count": 8,
-   "point_offset": 403220
+   "point_offset": 391692
   },
   {
    "brush": 361,
@@ -4190,9 +4190,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 403508,
+   "plane_offset": 391980,
    "point_count": 8,
-   "point_offset": 403412
+   "point_offset": 391884
   },
   {
    "brush": 362,
@@ -4200,9 +4200,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 403700,
+   "plane_offset": 392172,
    "point_count": 8,
-   "point_offset": 403604
+   "point_offset": 392076
   },
   {
    "brush": 363,
@@ -4210,9 +4210,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 403892,
+   "plane_offset": 392364,
    "point_count": 8,
-   "point_offset": 403796
+   "point_offset": 392268
   },
   {
    "brush": 364,
@@ -4220,9 +4220,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 404084,
+   "plane_offset": 392556,
    "point_count": 8,
-   "point_offset": 403988
+   "point_offset": 392460
   },
   {
    "brush": 365,
@@ -4230,9 +4230,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 404276,
+   "plane_offset": 392748,
    "point_count": 8,
-   "point_offset": 404180
+   "point_offset": 392652
   },
   {
    "brush": 366,
@@ -4240,9 +4240,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 404468,
+   "plane_offset": 392940,
    "point_count": 8,
-   "point_offset": 404372
+   "point_offset": 392844
   },
   {
    "brush": 367,
@@ -4250,9 +4250,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 404660,
+   "plane_offset": 393132,
    "point_count": 8,
-   "point_offset": 404564
+   "point_offset": 393036
   },
   {
    "brush": 368,
@@ -4260,9 +4260,9 @@
    "kind": "solid",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 404852,
+   "plane_offset": 393324,
    "point_count": 8,
-   "point_offset": 404756
+   "point_offset": 393228
   },
   {
    "brush": 369,
@@ -4270,9 +4270,9 @@
    "kind": "glass",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 405044,
+   "plane_offset": 393516,
    "point_count": 8,
-   "point_offset": 404948
+   "point_offset": 393420
   },
   {
    "brush": 370,
@@ -4280,9 +4280,9 @@
    "kind": "glass",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 405236,
+   "plane_offset": 393708,
    "point_count": 8,
-   "point_offset": 405140
+   "point_offset": 393612
   },
   {
    "brush": 371,
@@ -4290,9 +4290,9 @@
    "kind": "glass",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 405428,
+   "plane_offset": 393900,
    "point_count": 8,
-   "point_offset": 405332
+   "point_offset": 393804
   },
   {
    "brush": 372,
@@ -4300,9 +4300,9 @@
    "kind": "glass",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 405620,
+   "plane_offset": 394092,
    "point_count": 8,
-   "point_offset": 405524
+   "point_offset": 393996
   },
   {
    "brush": 373,
@@ -4310,9 +4310,9 @@
    "kind": "glass",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 405812,
+   "plane_offset": 394284,
    "point_count": 8,
-   "point_offset": 405716
+   "point_offset": 394188
   },
   {
    "brush": 374,
@@ -4320,9 +4320,9 @@
    "kind": "glass",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 406004,
+   "plane_offset": 394476,
    "point_count": 8,
-   "point_offset": 405908
+   "point_offset": 394380
   },
   {
    "brush": 375,
@@ -4330,9 +4330,9 @@
    "kind": "glass",
    "model": 0,
    "plane_count": 6,
-   "plane_offset": 406196,
+   "plane_offset": 394668,
    "point_count": 8,
-   "point_offset": 406100
+   "point_offset": 394572
   },
   {
    "brush": 376,
@@ -4340,9 +4340,9 @@
    "kind": "glass",
    "model": 1,
    "plane_count": 6,
-   "plane_offset": 406388,
+   "plane_offset": 394860,
    "point_count": 8,
-   "point_offset": 406292
+   "point_offset": 394764
   },
   {
    "brush": 377,
@@ -4350,9 +4350,9 @@
    "kind": "glass",
    "model": 2,
    "plane_count": 6,
-   "plane_offset": 406580,
+   "plane_offset": 395052,
    "point_count": 8,
-   "point_offset": 406484
+   "point_offset": 394956
   },
   {
    "brush": 378,
@@ -4360,9 +4360,9 @@
    "kind": "glass",
    "model": 3,
    "plane_count": 6,
-   "plane_offset": 406772,
+   "plane_offset": 395244,
    "point_count": 8,
-   "point_offset": 406676
+   "point_offset": 395148
   },
   {
    "brush": 379,
@@ -4370,9 +4370,9 @@
    "kind": "glass",
    "model": 4,
    "plane_count": 6,
-   "plane_offset": 406964,
+   "plane_offset": 395436,
    "point_count": 8,
-   "point_offset": 406868
+   "point_offset": 395340
   },
   {
    "brush": 380,
@@ -4380,9 +4380,9 @@
    "kind": "glass",
    "model": 5,
    "plane_count": 6,
-   "plane_offset": 407156,
+   "plane_offset": 395628,
    "point_count": 8,
-   "point_offset": 407060
+   "point_offset": 395532
   },
   {
    "brush": 381,
@@ -4390,9 +4390,9 @@
    "kind": "glass",
    "model": 6,
    "plane_count": 6,
-   "plane_offset": 407348,
+   "plane_offset": 395820,
    "point_count": 8,
-   "point_offset": 407252
+   "point_offset": 395724
   },
   {
    "brush": 382,
@@ -4400,9 +4400,9 @@
    "kind": "glass",
    "model": 7,
    "plane_count": 6,
-   "plane_offset": 407540,
+   "plane_offset": 396012,
    "point_count": 8,
-   "point_offset": 407444
+   "point_offset": 395916
   },
   {
    "brush": 383,
@@ -4410,9 +4410,9 @@
    "kind": "glass",
    "model": 8,
    "plane_count": 6,
-   "plane_offset": 407732,
+   "plane_offset": 396204,
    "point_count": 8,
-   "point_offset": 407636
+   "point_offset": 396108
   },
   {
    "brush": 384,
@@ -4420,9 +4420,9 @@
    "kind": "glass",
    "model": 9,
    "plane_count": 6,
-   "plane_offset": 407924,
+   "plane_offset": 396396,
    "point_count": 8,
-   "point_offset": 407828
+   "point_offset": 396300
   },
   {
    "brush": 385,
@@ -4430,9 +4430,9 @@
    "kind": "glass",
    "model": 10,
    "plane_count": 6,
-   "plane_offset": 408116,
+   "plane_offset": 396588,
    "point_count": 8,
-   "point_offset": 408020
+   "point_offset": 396492
   },
   {
    "brush": 386,
@@ -4440,9 +4440,9 @@
    "kind": "glass",
    "model": 11,
    "plane_count": 6,
-   "plane_offset": 408308,
+   "plane_offset": 396780,
    "point_count": 8,
-   "point_offset": 408212
+   "point_offset": 396684
   },
   {
    "brush": 387,
@@ -4450,9 +4450,9 @@
    "kind": "glass",
    "model": 12,
    "plane_count": 6,
-   "plane_offset": 408500,
+   "plane_offset": 396972,
    "point_count": 8,
-   "point_offset": 408404
+   "point_offset": 396876
   },
   {
    "brush": 388,
@@ -4460,9 +4460,9 @@
    "kind": "glass",
    "model": 13,
    "plane_count": 6,
-   "plane_offset": 408692,
+   "plane_offset": 397164,
    "point_count": 8,
-   "point_offset": 408596
+   "point_offset": 397068
   },
   {
    "brush": 389,
@@ -4470,9 +4470,9 @@
    "kind": "glass",
    "model": 14,
    "plane_count": 6,
-   "plane_offset": 408884,
+   "plane_offset": 397356,
    "point_count": 8,
-   "point_offset": 408788
+   "point_offset": 397260
   },
   {
    "brush": 390,
@@ -4480,9 +4480,9 @@
    "kind": "glass",
    "model": 15,
    "plane_count": 6,
-   "plane_offset": 409076,
+   "plane_offset": 397548,
    "point_count": 8,
-   "point_offset": 408980
+   "point_offset": 397452
   },
   {
    "brush": 391,
@@ -4490,9 +4490,9 @@
    "kind": "glass",
    "model": 16,
    "plane_count": 6,
-   "plane_offset": 409268,
+   "plane_offset": 397740,
    "point_count": 8,
-   "point_offset": 409172
+   "point_offset": 397644
   },
   {
    "brush": 392,
@@ -4500,9 +4500,9 @@
    "kind": "glass",
    "model": 17,
    "plane_count": 6,
-   "plane_offset": 409460,
+   "plane_offset": 397932,
    "point_count": 8,
-   "point_offset": 409364
+   "point_offset": 397836
   },
   {
    "brush": 393,
@@ -4510,9 +4510,9 @@
    "kind": "glass",
    "model": 18,
    "plane_count": 6,
-   "plane_offset": 409652,
+   "plane_offset": 398124,
    "point_count": 8,
-   "point_offset": 409556
+   "point_offset": 398028
   },
   {
    "brush": 394,
@@ -4520,9 +4520,9 @@
    "kind": "glass",
    "model": 19,
    "plane_count": 6,
-   "plane_offset": 409844,
+   "plane_offset": 398316,
    "point_count": 8,
-   "point_offset": 409748
+   "point_offset": 398220
   },
   {
    "brush": 395,
@@ -4530,9 +4530,9 @@
    "kind": "glass",
    "model": 20,
    "plane_count": 6,
-   "plane_offset": 410036,
+   "plane_offset": 398508,
    "point_count": 8,
-   "point_offset": 409940
+   "point_offset": 398412
   },
   {
    "brush": 396,
@@ -4540,9 +4540,9 @@
    "kind": "glass",
    "model": 21,
    "plane_count": 6,
-   "plane_offset": 410228,
+   "plane_offset": 398700,
    "point_count": 8,
-   "point_offset": 410132
+   "point_offset": 398604
   },
   {
    "brush": 397,
@@ -4550,9 +4550,9 @@
    "kind": "glass",
    "model": 22,
    "plane_count": 6,
-   "plane_offset": 410420,
+   "plane_offset": 398892,
    "point_count": 8,
-   "point_offset": 410324
+   "point_offset": 398796
   },
   {
    "brush": 398,
@@ -4560,9 +4560,9 @@
    "kind": "glass",
    "model": 23,
    "plane_count": 6,
-   "plane_offset": 410612,
+   "plane_offset": 399084,
    "point_count": 8,
-   "point_offset": 410516
+   "point_offset": 398988
   },
   {
    "brush": 399,
@@ -4570,9 +4570,9 @@
    "kind": "glass",
    "model": 24,
    "plane_count": 6,
-   "plane_offset": 410804,
+   "plane_offset": 399276,
    "point_count": 8,
-   "point_offset": 410708
+   "point_offset": 399180
   },
   {
    "brush": 400,
@@ -4580,9 +4580,9 @@
    "kind": "glass",
    "model": 25,
    "plane_count": 6,
-   "plane_offset": 410996,
+   "plane_offset": 399468,
    "point_count": 8,
-   "point_offset": 410900
+   "point_offset": 399372
   },
   {
    "brush": 401,
@@ -4590,9 +4590,9 @@
    "kind": "glass",
    "model": 26,
    "plane_count": 6,
-   "plane_offset": 411188,
+   "plane_offset": 399660,
    "point_count": 8,
-   "point_offset": 411092
+   "point_offset": 399564
   },
   {
    "brush": 402,
@@ -4600,9 +4600,9 @@
    "kind": "glass",
    "model": 27,
    "plane_count": 6,
-   "plane_offset": 411380,
+   "plane_offset": 399852,
    "point_count": 8,
-   "point_offset": 411284
+   "point_offset": 399756
   },
   {
    "brush": 403,
@@ -4610,9 +4610,9 @@
    "kind": "glass",
    "model": 28,
    "plane_count": 6,
-   "plane_offset": 411572,
+   "plane_offset": 400044,
    "point_count": 8,
-   "point_offset": 411476
+   "point_offset": 399948
   },
   {
    "brush": 404,
@@ -4620,9 +4620,9 @@
    "kind": "glass",
    "model": 29,
    "plane_count": 6,
-   "plane_offset": 411764,
+   "plane_offset": 400236,
    "point_count": 8,
-   "point_offset": 411668
+   "point_offset": 400140
   },
   {
    "brush": 405,
@@ -4630,9 +4630,9 @@
    "kind": "glass",
    "model": 30,
    "plane_count": 6,
-   "plane_offset": 411956,
+   "plane_offset": 400428,
    "point_count": 8,
-   "point_offset": 411860
+   "point_offset": 400332
   },
   {
    "brush": 406,
@@ -4640,9 +4640,9 @@
    "kind": "glass",
    "model": 31,
    "plane_count": 6,
-   "plane_offset": 412148,
+   "plane_offset": 400620,
    "point_count": 8,
-   "point_offset": 412052
+   "point_offset": 400524
   },
   {
    "brush": 407,
@@ -4650,9 +4650,9 @@
    "kind": "glass",
    "model": 32,
    "plane_count": 6,
-   "plane_offset": 412340,
+   "plane_offset": 400812,
    "point_count": 8,
-   "point_offset": 412244
+   "point_offset": 400716
   },
   {
    "brush": 408,
@@ -4660,9 +4660,9 @@
    "kind": "glass",
    "model": 33,
    "plane_count": 6,
-   "plane_offset": 412532,
+   "plane_offset": 401004,
    "point_count": 8,
-   "point_offset": 412436
+   "point_offset": 400908
   },
   {
    "brush": 409,
@@ -4670,9 +4670,9 @@
    "kind": "glass",
    "model": 34,
    "plane_count": 6,
-   "plane_offset": 412724,
+   "plane_offset": 401196,
    "point_count": 8,
-   "point_offset": 412628
+   "point_offset": 401100
   },
   {
    "brush": 410,
@@ -4680,9 +4680,9 @@
    "kind": "glass",
    "model": 35,
    "plane_count": 6,
-   "plane_offset": 412916,
+   "plane_offset": 401388,
    "point_count": 8,
-   "point_offset": 412820
+   "point_offset": 401292
   },
   {
    "brush": 411,
@@ -4690,9 +4690,9 @@
    "kind": "glass",
    "model": 36,
    "plane_count": 6,
-   "plane_offset": 413108,
+   "plane_offset": 401580,
    "point_count": 8,
-   "point_offset": 413012
+   "point_offset": 401484
   },
   {
    "brush": 412,
@@ -4700,9 +4700,9 @@
    "kind": "glass",
    "model": 37,
    "plane_count": 6,
-   "plane_offset": 413300,
+   "plane_offset": 401772,
    "point_count": 8,
-   "point_offset": 413204
+   "point_offset": 401676
   },
   {
    "brush": 413,
@@ -4710,9 +4710,9 @@
    "kind": "glass",
    "model": 38,
    "plane_count": 6,
-   "plane_offset": 413492,
+   "plane_offset": 401964,
    "point_count": 8,
-   "point_offset": 413396
+   "point_offset": 401868
   },
   {
    "brush": 414,
@@ -4720,9 +4720,9 @@
    "kind": "glass",
    "model": 39,
    "plane_count": 6,
-   "plane_offset": 413684,
+   "plane_offset": 402156,
    "point_count": 8,
-   "point_offset": 413588
+   "point_offset": 402060
   },
   {
    "brush": 415,
@@ -4730,9 +4730,9 @@
    "kind": "solid",
    "model": 40,
    "plane_count": 6,
-   "plane_offset": 413876,
+   "plane_offset": 402348,
    "point_count": 8,
-   "point_offset": 413780
+   "point_offset": 402252
   },
   {
    "brush": 416,
@@ -4740,9 +4740,9 @@
    "kind": "glass",
    "model": 41,
    "plane_count": 6,
-   "plane_offset": 414068,
+   "plane_offset": 402540,
    "point_count": 8,
-   "point_offset": 413972
+   "point_offset": 402444
   },
   {
    "brush": 417,
@@ -4750,9 +4750,9 @@
    "kind": "glass",
    "model": 42,
    "plane_count": 6,
-   "plane_offset": 414260,
+   "plane_offset": 402732,
    "point_count": 8,
-   "point_offset": 414164
+   "point_offset": 402636
   },
   {
    "brush": 418,
@@ -4760,9 +4760,9 @@
    "kind": "glass",
    "model": 43,
    "plane_count": 6,
-   "plane_offset": 414452,
+   "plane_offset": 402924,
    "point_count": 8,
-   "point_offset": 414356
+   "point_offset": 402828
   }
  ],
  "licence": {
@@ -5323,27 +5323,6 @@
    {
     "author": "Lennart Demes and contributors",
     "colour": [
-     0.25,
-     0.125,
-     0.125
-    ],
-    "file": "surfaces/grass",
-    "generic": "grass",
-    "how": "table",
-    "key": "grass:grass",
-    "kind": "grass",
-    "licence": "CC0-1.0",
-    "source": "ambientCG",
-    "sources": [
-     "nature/blenddirtgrass001b",
-     "nature/treeline001a"
-    ],
-    "surfaces": 10,
-    "url": "https://ambientcg.com/view?id=Grass004"
-   },
-   {
-    "author": "Lennart Demes and contributors",
-    "colour": [
      0.625,
      0.625,
      0.625
@@ -5535,6 +5514,26 @@
     ],
     "surfaces": 4,
     "url": "https://ambientcg.com/view?id=WoodFloor041"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.25,
+     0.25,
+     0.125
+    ],
+    "file": "surfaces/grass",
+    "generic": "grass",
+    "how": "table",
+    "key": "grass:grass",
+    "kind": "grass",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "nature/blenddirtgrass001b"
+    ],
+    "surfaces": 4,
+    "url": "https://ambientcg.com/view?id=Grass004"
    },
    {
     "author": "TMC (generated)",
@@ -6129,7 +6128,7 @@
  "name": "zs_goth_house",
  "notes": [
   "43 glass surfaces (kinds glass)",
-  "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): NATURE/TREELINE001A 114, GOTH_HOUSE/GOTH_STREAMER_RENDER01 5, GOTH_HOUSE/GOTH_STREAMER_RENDER00 4, GOTH_HOUSE/GOTH_WELCOME_BANNER00 1, GOTH_HOUSE/GOTH_WELCOME_BANNER01 1"
+  "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): GOTH_HOUSE/GOTH_STREAMER_RENDER01 5, GOTH_HOUSE/GOTH_STREAMER_RENDER00 4, GOTH_HOUSE/GOTH_WELCOME_BANNER00 1, GOTH_HOUSE/GOTH_WELCOME_BANNER01 1"
  ],
  "pickups": [
   {
@@ -8213,6 +8212,7 @@
  "scripts": [],
  "settings": {},
  "skipped": {
+  "face:foliage_card": 114,
   "face:tools/toolsskybox": 102
  },
  "sky3d": null,
@@ -8982,33 +8982,6 @@
    ],
    "classname": "worldspawn",
    "colour": [
-    0.2221,
-    0.1805,
-    0.1217
-   ],
-   "entity": null,
-   "free": "grass:grass",
-   "generic": "grass",
-   "index_count": 168,
-   "index_offset": 4080,
-   "material": "nature/treeline001a",
-   "model": 0,
-   "normal_offset": 3140,
-   "position_offset": 2576,
-   "texels": [
-    512,
-    512
-   ],
-   "uv_offset": 3704,
-   "vertex_count": 47
-  },
-  {
-   "chunk": [
-    -2,
-    -1
-   ],
-   "classname": "worldspawn",
-   "colour": [
     0.669,
     0.6533,
     0.608
@@ -9017,16 +8990,16 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 105,
-   "index_offset": 6512,
+   "index_offset": 4336,
    "material": "plaster/plasterwall013a",
    "model": 0,
-   "normal_offset": 5412,
-   "position_offset": 4752,
+   "normal_offset": 3236,
+   "position_offset": 2576,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 6072,
+   "uv_offset": 3896,
    "vertex_count": 55
   },
   {
@@ -9044,44 +9017,17 @@
    "free": "tile_dark:roof_tiles",
    "generic": "roof_tiles",
    "index_count": 6,
-   "index_offset": 7060,
+   "index_offset": 4884,
    "material": "props/rubberroof002a",
    "model": 0,
-   "normal_offset": 6980,
-   "position_offset": 6932,
+   "normal_offset": 4804,
+   "position_offset": 4756,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 7028,
+   "uv_offset": 4852,
    "vertex_count": 4
-  },
-  {
-   "chunk": [
-    -2,
-    0
-   ],
-   "classname": "worldspawn",
-   "colour": [
-    0.2221,
-    0.1805,
-    0.1217
-   ],
-   "entity": null,
-   "free": "grass:grass",
-   "generic": "grass",
-   "index_count": 36,
-   "index_offset": 7532,
-   "material": "nature/treeline001a",
-   "model": 0,
-   "normal_offset": 7252,
-   "position_offset": 7084,
-   "texels": [
-    512,
-    512
-   ],
-   "uv_offset": 7420,
-   "vertex_count": 14
   },
   {
    "chunk": [
@@ -9098,16 +9044,16 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 99,
-   "index_offset": 9180,
+   "index_offset": 6412,
    "material": "concrete/concretefloor011a_c17",
    "model": 0,
-   "normal_offset": 8240,
-   "position_offset": 7676,
+   "normal_offset": 5472,
+   "position_offset": 4908,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 8804,
+   "uv_offset": 6036,
    "vertex_count": 47
   },
   {
@@ -9125,16 +9071,16 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 6,
-   "index_offset": 9704,
+   "index_offset": 6936,
    "material": "concrete/concretefloor013a",
    "model": 0,
-   "normal_offset": 9624,
-   "position_offset": 9576,
+   "normal_offset": 6856,
+   "position_offset": 6808,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 9672,
+   "uv_offset": 6904,
    "vertex_count": 4
   },
   {
@@ -9152,16 +9098,16 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 393,
-   "index_offset": 15360,
+   "index_offset": 12592,
    "material": "concrete/concretestair002a",
    "model": 0,
-   "normal_offset": 11840,
-   "position_offset": 9728,
+   "normal_offset": 9072,
+   "position_offset": 6960,
    "texels": [
     512,
     128
    ],
-   "uv_offset": 13952,
+   "uv_offset": 11184,
    "vertex_count": 176
   },
   {
@@ -9179,16 +9125,16 @@
    "free": "generated:flat:200000",
    "generic": null,
    "index_count": 6,
-   "index_offset": 17060,
+   "index_offset": 14292,
    "material": "goth_house/goth_streamer_render00",
    "model": 0,
-   "normal_offset": 16980,
-   "position_offset": 16932,
+   "normal_offset": 14212,
+   "position_offset": 14164,
    "texels": [
     512,
     256
    ],
-   "uv_offset": 17028,
+   "uv_offset": 14260,
    "vertex_count": 4
   },
   {
@@ -9206,16 +9152,16 @@
    "free": "generated:flat:202020",
    "generic": null,
    "index_count": 6,
-   "index_offset": 17212,
+   "index_offset": 14444,
    "material": "goth_house/goth_streamer_render01",
    "model": 0,
-   "normal_offset": 17132,
-   "position_offset": 17084,
+   "normal_offset": 14364,
+   "position_offset": 14316,
    "texels": [
     512,
     256
    ],
-   "uv_offset": 17180,
+   "uv_offset": 14412,
    "vertex_count": 4
   },
   {
@@ -9233,16 +9179,16 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 294,
-   "index_offset": 21364,
+   "index_offset": 18596,
    "material": "metal/citadel_metalwall074a",
    "model": 0,
-   "normal_offset": 18784,
-   "position_offset": 17236,
+   "normal_offset": 16016,
+   "position_offset": 14468,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 20332,
+   "uv_offset": 17564,
    "vertex_count": 129
   },
   {
@@ -9260,16 +9206,16 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 210,
-   "index_offset": 26252,
+   "index_offset": 23484,
    "material": "metal/metalfloor005a",
    "model": 0,
-   "normal_offset": 23932,
-   "position_offset": 22540,
+   "normal_offset": 21164,
+   "position_offset": 19772,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 25324,
+   "uv_offset": 22556,
    "vertex_count": 116
   },
   {
@@ -9287,16 +9233,16 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 171,
-   "index_offset": 29556,
+   "index_offset": 26788,
    "material": "metal/metalfloor006a",
    "model": 0,
-   "normal_offset": 28016,
-   "position_offset": 27092,
+   "normal_offset": 25248,
+   "position_offset": 24324,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 28940,
+   "uv_offset": 26172,
    "vertex_count": 77
   },
   {
@@ -9314,16 +9260,16 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 228,
-   "index_offset": 35104,
+   "index_offset": 32336,
    "material": "metal/metalrail004a",
    "model": 0,
-   "normal_offset": 32064,
-   "position_offset": 30240,
+   "normal_offset": 29296,
+   "position_offset": 27472,
    "texels": [
     512,
     128
    ],
-   "uv_offset": 33888,
+   "uv_offset": 31120,
    "vertex_count": 152
   },
   {
@@ -9341,44 +9287,17 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 72,
-   "index_offset": 37168,
+   "index_offset": 34400,
    "material": "metal/metalwall026a",
    "model": 0,
-   "normal_offset": 36448,
-   "position_offset": 36016,
+   "normal_offset": 33680,
+   "position_offset": 33248,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 36880,
+   "uv_offset": 34112,
    "vertex_count": 36
-  },
-  {
-   "chunk": [
-    -1,
-    -1
-   ],
-   "classname": "worldspawn",
-   "colour": [
-    0.2221,
-    0.1805,
-    0.1217
-   ],
-   "entity": null,
-   "free": "grass:grass",
-   "generic": "grass",
-   "index_count": 357,
-   "index_offset": 39888,
-   "material": "nature/treeline001a",
-   "model": 0,
-   "normal_offset": 38368,
-   "position_offset": 37456,
-   "texels": [
-    512,
-    512
-   ],
-   "uv_offset": 39280,
-   "vertex_count": 76
   },
   {
    "chunk": [
@@ -9395,16 +9314,16 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 984,
-   "index_offset": 54084,
+   "index_offset": 47456,
    "material": "plaster/plasterwall013a",
    "model": 0,
-   "normal_offset": 46104,
-   "position_offset": 41316,
+   "normal_offset": 39476,
+   "position_offset": 34688,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 50892,
+   "uv_offset": 44264,
    "vertex_count": 399
   },
   {
@@ -9422,16 +9341,16 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 72,
-   "index_offset": 59556,
+   "index_offset": 52928,
    "material": "plaster/plasterwall013g",
    "model": 0,
-   "normal_offset": 58596,
-   "position_offset": 58020,
+   "normal_offset": 51968,
+   "position_offset": 51392,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 59172,
+   "uv_offset": 52544,
    "vertex_count": 48
   },
   {
@@ -9449,16 +9368,16 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 42,
-   "index_offset": 60676,
+   "index_offset": 54048,
    "material": "plaster/plasterwall018e",
    "model": 0,
-   "normal_offset": 60156,
-   "position_offset": 59844,
+   "normal_offset": 53528,
+   "position_offset": 53216,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 60468,
+   "uv_offset": 53840,
    "vertex_count": 26
   },
   {
@@ -9476,16 +9395,16 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 66,
-   "index_offset": 61644,
+   "index_offset": 55016,
    "material": "plaster/plasterwall036a",
    "model": 0,
-   "normal_offset": 61144,
-   "position_offset": 60844,
+   "normal_offset": 54516,
+   "position_offset": 54216,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 61444,
+   "uv_offset": 54816,
    "vertex_count": 25
   },
   {
@@ -9503,16 +9422,16 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 24,
-   "index_offset": 62420,
+   "index_offset": 55792,
    "material": "plaster/plasterwall037e",
    "model": 0,
-   "normal_offset": 62100,
-   "position_offset": 61908,
+   "normal_offset": 55472,
+   "position_offset": 55280,
    "texels": [
     512,
     64
    ],
-   "uv_offset": 62292,
+   "uv_offset": 55664,
    "vertex_count": 16
   },
   {
@@ -9530,16 +9449,16 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 72,
-   "index_offset": 63924,
+   "index_offset": 57296,
    "material": "plaster/plasterwall037f",
    "model": 0,
-   "normal_offset": 63044,
-   "position_offset": 62516,
+   "normal_offset": 56416,
+   "position_offset": 55888,
    "texels": [
     32,
     512
    ],
-   "uv_offset": 63572,
+   "uv_offset": 56944,
    "vertex_count": 44
   },
   {
@@ -9557,16 +9476,16 @@
    "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 300,
-   "index_offset": 67444,
+   "index_offset": 60816,
    "material": "plaster/wallpaper002b",
    "model": 0,
-   "normal_offset": 65424,
-   "position_offset": 64212,
+   "normal_offset": 58796,
+   "position_offset": 57584,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 66636,
+   "uv_offset": 60008,
    "vertex_count": 101
   },
   {
@@ -9584,16 +9503,16 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 96,
-   "index_offset": 70180,
+   "index_offset": 63552,
    "material": "props/mailboxwood01a",
    "model": 0,
-   "normal_offset": 69220,
-   "position_offset": 68644,
+   "normal_offset": 62592,
+   "position_offset": 62016,
    "texels": [
     512,
     256
    ],
-   "uv_offset": 69796,
+   "uv_offset": 63168,
    "vertex_count": 48
   },
   {
@@ -9611,16 +9530,16 @@
    "free": "tile_dark:roof_tiles",
    "generic": "roof_tiles",
    "index_count": 36,
-   "index_offset": 71076,
+   "index_offset": 64448,
    "material": "props/rubberroof001a",
    "model": 0,
-   "normal_offset": 70756,
-   "position_offset": 70564,
+   "normal_offset": 64128,
+   "position_offset": 63936,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 70948,
+   "uv_offset": 64320,
    "vertex_count": 16
   },
   {
@@ -9638,16 +9557,16 @@
    "free": "tile_dark:roof_tiles",
    "generic": "roof_tiles",
    "index_count": 30,
-   "index_offset": 71860,
+   "index_offset": 65232,
    "material": "props/rubberroof002a",
    "model": 0,
-   "normal_offset": 71460,
-   "position_offset": 71220,
+   "normal_offset": 64832,
+   "position_offset": 64592,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 71700,
+   "uv_offset": 65072,
    "vertex_count": 20
   },
   {
@@ -9665,16 +9584,16 @@
    "free": "roof_clay:roof_clay",
    "generic": "roof_clay",
    "index_count": 12,
-   "index_offset": 72236,
+   "index_offset": 65608,
    "material": "tile/tileroof003b",
    "model": 0,
-   "normal_offset": 72076,
-   "position_offset": 71980,
+   "normal_offset": 65448,
+   "position_offset": 65352,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 72172,
+   "uv_offset": 65544,
    "vertex_count": 8
   },
   {
@@ -9692,16 +9611,16 @@
    "free": "wood_planks:door_wood",
    "generic": "door_wood",
    "index_count": 24,
-   "index_offset": 72796,
+   "index_offset": 66168,
    "material": "wood/wooddoor014b",
    "model": 0,
-   "normal_offset": 72476,
-   "position_offset": 72284,
+   "normal_offset": 65848,
+   "position_offset": 65656,
    "texels": [
     256,
     512
    ],
-   "uv_offset": 72668,
+   "uv_offset": 66040,
    "vertex_count": 16
   },
   {
@@ -9719,16 +9638,16 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 654,
-   "index_offset": 81244,
+   "index_offset": 74616,
    "material": "wood/woodfloor007a",
    "model": 0,
-   "normal_offset": 76024,
-   "position_offset": 72892,
+   "normal_offset": 69396,
+   "position_offset": 66264,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 79156,
+   "uv_offset": 72528,
    "vertex_count": 261
   },
   {
@@ -9746,16 +9665,16 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 63,
-   "index_offset": 84916,
+   "index_offset": 78288,
    "material": "wood/woodstair002c",
    "model": 0,
-   "normal_offset": 84256,
-   "position_offset": 83860,
+   "normal_offset": 77628,
+   "position_offset": 77232,
    "texels": [
     256,
     128
    ],
-   "uv_offset": 84652,
+   "uv_offset": 78024,
    "vertex_count": 33
   },
   {
@@ -9773,16 +9692,16 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 6,
-   "index_offset": 85296,
+   "index_offset": 78668,
    "material": "wood/woodwall012a",
    "model": 0,
-   "normal_offset": 85216,
-   "position_offset": 85168,
+   "normal_offset": 78588,
+   "position_offset": 78540,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 85264,
+   "uv_offset": 78636,
    "vertex_count": 4
   },
   {
@@ -9800,16 +9719,16 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 294,
-   "index_offset": 88456,
+   "index_offset": 81828,
    "material": "wood/woodwall024a",
    "model": 0,
-   "normal_offset": 86496,
-   "position_offset": 85320,
+   "normal_offset": 79868,
+   "position_offset": 78692,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 87672,
+   "uv_offset": 81044,
    "vertex_count": 98
   },
   {
@@ -9829,16 +9748,16 @@
    "free": "grass:grass",
    "generic": "grass",
    "index_count": 1920,
-   "index_offset": 102592,
+   "index_offset": 95964,
    "material": "nature/blenddirtgrass001b",
    "model": 0,
-   "normal_offset": 94492,
-   "position_offset": 89632,
+   "normal_offset": 87864,
+   "position_offset": 83004,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 99352,
+   "uv_offset": 92724,
    "vertex_count": 405
   },
   {
@@ -9856,16 +9775,16 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 204,
-   "index_offset": 113856,
+   "index_offset": 107228,
    "material": "concrete/concretefloor011a_c17",
    "model": 0,
-   "normal_offset": 111616,
-   "position_offset": 110272,
+   "normal_offset": 104988,
+   "position_offset": 103644,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 112960,
+   "uv_offset": 106332,
    "vertex_count": 112
   },
   {
@@ -9883,16 +9802,16 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 18,
-   "index_offset": 115056,
+   "index_offset": 108428,
    "material": "concrete/concretefloor013a",
    "model": 0,
-   "normal_offset": 114816,
-   "position_offset": 114672,
+   "normal_offset": 108188,
+   "position_offset": 108044,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 114960,
+   "uv_offset": 108332,
    "vertex_count": 12
   },
   {
@@ -9910,16 +9829,16 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 207,
-   "index_offset": 118616,
+   "index_offset": 111988,
    "material": "concrete/concretestair002a",
    "model": 0,
-   "normal_offset": 116436,
-   "position_offset": 115128,
+   "normal_offset": 109808,
+   "position_offset": 108500,
    "texels": [
     512,
     128
    ],
-   "uv_offset": 117744,
+   "uv_offset": 111116,
    "vertex_count": 109
   },
   {
@@ -9938,16 +9857,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 36,
-   "index_offset": 119828,
+   "index_offset": 113200,
    "material": "glass/glasswindow026a",
    "model": 0,
-   "normal_offset": 119588,
-   "position_offset": 119444,
+   "normal_offset": 112960,
+   "position_offset": 112816,
    "texels": [
     128,
     256
    ],
-   "uv_offset": 119732,
+   "uv_offset": 113104,
    "vertex_count": 12
   },
   {
@@ -9966,16 +9885,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 18,
-   "index_offset": 120356,
+   "index_offset": 113728,
    "material": "glass/glasswindow031b",
    "model": 0,
-   "normal_offset": 120116,
-   "position_offset": 119972,
+   "normal_offset": 113488,
+   "position_offset": 113344,
    "texels": [
     128,
     256
    ],
-   "uv_offset": 120260,
+   "uv_offset": 113632,
    "vertex_count": 12
   },
   {
@@ -9993,16 +9912,16 @@
    "free": "corrugated:nearest_corrugated",
    "generic": null,
    "index_count": 6,
-   "index_offset": 120556,
+   "index_offset": 113928,
    "material": "goth_house/goth_mimi_lee",
    "model": 0,
-   "normal_offset": 120476,
-   "position_offset": 120428,
+   "normal_offset": 113848,
+   "position_offset": 113800,
    "texels": [
     512,
     256
    ],
-   "uv_offset": 120524,
+   "uv_offset": 113896,
    "vertex_count": 4
   },
   {
@@ -10020,16 +9939,16 @@
    "free": "generated:flat:202020",
    "generic": null,
    "index_count": 6,
-   "index_offset": 120708,
+   "index_offset": 114080,
    "material": "goth_house/goth_streamer_render01",
    "model": 0,
-   "normal_offset": 120628,
-   "position_offset": 120580,
+   "normal_offset": 114000,
+   "position_offset": 113952,
    "texels": [
     512,
     256
    ],
-   "uv_offset": 120676,
+   "uv_offset": 114048,
    "vertex_count": 4
   },
   {
@@ -10047,16 +9966,16 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 240,
-   "index_offset": 124700,
+   "index_offset": 118072,
    "material": "metal/metalfloor005a",
    "model": 0,
-   "normal_offset": 122220,
-   "position_offset": 120732,
+   "normal_offset": 115592,
+   "position_offset": 114104,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 123708,
+   "uv_offset": 117080,
    "vertex_count": 124
   },
   {
@@ -10074,16 +9993,16 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 276,
-   "index_offset": 131548,
+   "index_offset": 124920,
    "material": "metal/metalrail004a",
    "model": 0,
-   "normal_offset": 127868,
-   "position_offset": 125660,
+   "normal_offset": 121240,
+   "position_offset": 119032,
    "texels": [
     512,
     128
    ],
-   "uv_offset": 130076,
+   "uv_offset": 123448,
    "vertex_count": 184
   },
   {
@@ -10101,16 +10020,16 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
-   "index_offset": 133676,
+   "index_offset": 127048,
    "material": "metal/metaltruss002a",
    "model": 0,
-   "normal_offset": 133036,
-   "position_offset": 132652,
+   "normal_offset": 126408,
+   "position_offset": 126024,
    "texels": [
     64,
     512
    ],
-   "uv_offset": 133420,
+   "uv_offset": 126792,
    "vertex_count": 32
   },
   {
@@ -10128,16 +10047,16 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 78,
-   "index_offset": 135404,
+   "index_offset": 128776,
    "material": "metal/metalwall061e",
    "model": 0,
-   "normal_offset": 134444,
-   "position_offset": 133868,
+   "normal_offset": 127816,
+   "position_offset": 127240,
    "texels": [
     512,
     16
    ],
-   "uv_offset": 135020,
+   "uv_offset": 128392,
    "vertex_count": 48
   },
   {
@@ -10155,44 +10074,17 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 48,
-   "index_offset": 136740,
+   "index_offset": 130112,
    "material": "metal/metalwall061f",
    "model": 0,
-   "normal_offset": 136100,
-   "position_offset": 135716,
+   "normal_offset": 129472,
+   "position_offset": 129088,
    "texels": [
     512,
     64
    ],
-   "uv_offset": 136484,
+   "uv_offset": 129856,
    "vertex_count": 32
-  },
-  {
-   "chunk": [
-    -1,
-    0
-   ],
-   "classname": "worldspawn",
-   "colour": [
-    0.2221,
-    0.1805,
-    0.1217
-   ],
-   "entity": null,
-   "free": "grass:grass",
-   "generic": "grass",
-   "index_count": 30,
-   "index_offset": 137316,
-   "material": "nature/treeline001a",
-   "model": 0,
-   "normal_offset": 137076,
-   "position_offset": 136932,
-   "texels": [
-    512,
-    512
-   ],
-   "uv_offset": 137220,
-   "vertex_count": 12
   },
   {
    "chunk": [
@@ -10209,16 +10101,16 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 39,
-   "index_offset": 138236,
+   "index_offset": 131104,
    "material": "plaster/plasterwall018e",
    "model": 0,
-   "normal_offset": 137736,
-   "position_offset": 137436,
+   "normal_offset": 130604,
+   "position_offset": 130304,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 138036,
+   "uv_offset": 130904,
    "vertex_count": 25
   },
   {
@@ -10236,16 +10128,16 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 108,
-   "index_offset": 139864,
+   "index_offset": 132732,
    "material": "plaster/plasterwall036a",
    "model": 0,
-   "normal_offset": 138944,
-   "position_offset": 138392,
+   "normal_offset": 131812,
+   "position_offset": 131260,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 139496,
+   "uv_offset": 132364,
    "vertex_count": 46
   },
   {
@@ -10263,16 +10155,16 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 24,
-   "index_offset": 140808,
+   "index_offset": 133676,
    "material": "plaster/plasterwall037e",
    "model": 0,
-   "normal_offset": 140488,
-   "position_offset": 140296,
+   "normal_offset": 133356,
+   "position_offset": 133164,
    "texels": [
     512,
     64
    ],
-   "uv_offset": 140680,
+   "uv_offset": 133548,
    "vertex_count": 16
   },
   {
@@ -10290,16 +10182,16 @@
    "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 306,
-   "index_offset": 144392,
+   "index_offset": 137260,
    "material": "plaster/wallpaper002b",
    "model": 0,
-   "normal_offset": 142212,
-   "position_offset": 140904,
+   "normal_offset": 135080,
+   "position_offset": 133772,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 143520,
+   "uv_offset": 136388,
    "vertex_count": 109
   },
   {
@@ -10317,11 +10209,11 @@
    "free": "carpet_grey:carpet",
    "generic": "carpet",
    "index_count": 6,
-   "index_offset": 145744,
+   "index_offset": 138612,
    "material": "props/carpetfloor007a",
    "model": 0,
-   "normal_offset": 145664,
-   "position_offset": 145616,
+   "normal_offset": 138532,
+   "position_offset": 138484,
    "texels": [
     512,
     512
@@ -10331,7 +10223,7 @@
     0.62,
     0.58
    ],
-   "uv_offset": 145712,
+   "uv_offset": 138580,
    "vertex_count": 4
   },
   {
@@ -10349,16 +10241,16 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 426,
-   "index_offset": 152744,
+   "index_offset": 145612,
    "material": "props/mailboxwood01a",
    "model": 0,
-   "normal_offset": 148384,
-   "position_offset": 145768,
+   "normal_offset": 141252,
+   "position_offset": 138636,
    "texels": [
     512,
     256
    ],
-   "uv_offset": 151000,
+   "uv_offset": 143868,
    "vertex_count": 218
   },
   {
@@ -10376,16 +10268,16 @@
    "free": "wood_planks:door_wood",
    "generic": "door_wood",
    "index_count": 24,
-   "index_offset": 154960,
+   "index_offset": 147828,
    "material": "wood/wooddoor014b",
    "model": 0,
-   "normal_offset": 154640,
-   "position_offset": 154448,
+   "normal_offset": 147508,
+   "position_offset": 147316,
    "texels": [
     256,
     512
    ],
-   "uv_offset": 154832,
+   "uv_offset": 147700,
    "vertex_count": 16
   },
   {
@@ -10403,16 +10295,16 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 408,
-   "index_offset": 159888,
+   "index_offset": 152756,
    "material": "wood/woodfloor007a",
    "model": 0,
-   "normal_offset": 156868,
-   "position_offset": 155056,
+   "normal_offset": 149736,
+   "position_offset": 147924,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 158680,
+   "uv_offset": 151548,
    "vertex_count": 151
   },
   {
@@ -10430,16 +10322,16 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 6,
-   "index_offset": 161648,
+   "index_offset": 154516,
    "material": "wood/woodstair002a",
    "model": 0,
-   "normal_offset": 161568,
-   "position_offset": 161520,
+   "normal_offset": 154436,
+   "position_offset": 154388,
    "texels": [
     512,
     128
    ],
-   "uv_offset": 161616,
+   "uv_offset": 154484,
    "vertex_count": 4
   },
   {
@@ -10457,16 +10349,16 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 201,
-   "index_offset": 165352,
+   "index_offset": 158220,
    "material": "wood/woodstair002c",
    "model": 0,
-   "normal_offset": 163052,
-   "position_offset": 161672,
+   "normal_offset": 155920,
+   "position_offset": 154540,
    "texels": [
     256,
     128
    ],
-   "uv_offset": 164432,
+   "uv_offset": 157300,
    "vertex_count": 115
   },
   {
@@ -10484,16 +10376,16 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 36,
-   "index_offset": 166668,
+   "index_offset": 159536,
    "material": "wood/woodwall012a",
    "model": 0,
-   "normal_offset": 166348,
-   "position_offset": 166156,
+   "normal_offset": 159216,
+   "position_offset": 159024,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 166540,
+   "uv_offset": 159408,
    "vertex_count": 16
   },
   {
@@ -10511,16 +10403,16 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 15,
-   "index_offset": 167100,
+   "index_offset": 159968,
    "material": "wood/woodwall018a",
    "model": 0,
-   "normal_offset": 166920,
-   "position_offset": 166812,
+   "normal_offset": 159788,
+   "position_offset": 159680,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 167028,
+   "uv_offset": 159896,
    "vertex_count": 9
   },
   {
@@ -10538,16 +10430,16 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 342,
-   "index_offset": 170808,
+   "index_offset": 163676,
    "material": "wood/woodwall024a",
    "model": 0,
-   "normal_offset": 168528,
-   "position_offset": 167160,
+   "normal_offset": 161396,
+   "position_offset": 160028,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 169896,
+   "uv_offset": 162764,
    "vertex_count": 114
   },
   {
@@ -10565,16 +10457,16 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 168,
-   "index_offset": 174224,
+   "index_offset": 167092,
    "material": "wood/woodwall032a",
    "model": 0,
-   "normal_offset": 172944,
-   "position_offset": 172176,
+   "normal_offset": 165812,
+   "position_offset": 165044,
    "texels": [
     512,
     256
    ],
-   "uv_offset": 173712,
+   "uv_offset": 166580,
    "vertex_count": 64
   },
   {
@@ -10594,16 +10486,16 @@
    "free": "grass:grass",
    "generic": "grass",
    "index_count": 2304,
-   "index_offset": 190448,
+   "index_offset": 183316,
    "material": "nature/blenddirtgrass001b",
    "model": 0,
-   "normal_offset": 180728,
-   "position_offset": 174896,
+   "normal_offset": 173596,
+   "position_offset": 167764,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 186560,
+   "uv_offset": 179428,
    "vertex_count": 486
   },
   {
@@ -10623,16 +10515,16 @@
    "free": "ground:mud",
    "generic": "mud",
    "index_count": 384,
-   "index_offset": 202256,
+   "index_offset": 195124,
    "material": "nature/dirtfloor011a",
    "model": 0,
-   "normal_offset": 200636,
-   "position_offset": 199664,
+   "normal_offset": 193504,
+   "position_offset": 192532,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 201608,
+   "uv_offset": 194476,
    "vertex_count": 81
   },
   {
@@ -10650,16 +10542,16 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 66,
-   "index_offset": 204816,
+   "index_offset": 197684,
    "material": "concrete/concretefloor011a_c17",
    "model": 0,
-   "normal_offset": 204176,
-   "position_offset": 203792,
+   "normal_offset": 197044,
+   "position_offset": 196660,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 204560,
+   "uv_offset": 197428,
    "vertex_count": 32
   },
   {
@@ -10677,16 +10569,16 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 54,
-   "index_offset": 206040,
+   "index_offset": 198908,
    "material": "concrete/concretestair002a",
    "model": 0,
-   "normal_offset": 205440,
-   "position_offset": 205080,
+   "normal_offset": 198308,
+   "position_offset": 197948,
    "texels": [
     512,
     128
    ],
-   "uv_offset": 205800,
+   "uv_offset": 198668,
    "vertex_count": 30
   },
   {
@@ -10704,16 +10596,16 @@
    "free": "plaster:nearest_plaster",
    "generic": null,
    "index_count": 6,
-   "index_offset": 206384,
+   "index_offset": 199252,
    "material": "goth_house/goth_painting02",
    "model": 0,
-   "normal_offset": 206304,
-   "position_offset": 206256,
+   "normal_offset": 199172,
+   "position_offset": 199124,
    "texels": [
     128,
     128
    ],
-   "uv_offset": 206352,
+   "uv_offset": 199220,
    "vertex_count": 4
   },
   {
@@ -10731,16 +10623,16 @@
    "free": "plaster:nearest_plaster",
    "generic": null,
    "index_count": 6,
-   "index_offset": 206536,
+   "index_offset": 199404,
    "material": "goth_house/goth_painting03",
    "model": 0,
-   "normal_offset": 206456,
-   "position_offset": 206408,
+   "normal_offset": 199324,
+   "position_offset": 199276,
    "texels": [
     128,
     128
    ],
-   "uv_offset": 206504,
+   "uv_offset": 199372,
    "vertex_count": 4
   },
   {
@@ -10758,16 +10650,16 @@
    "free": "plaster:nearest_plaster",
    "generic": null,
    "index_count": 6,
-   "index_offset": 206688,
+   "index_offset": 199556,
    "material": "goth_house/goth_painting04",
    "model": 0,
-   "normal_offset": 206608,
-   "position_offset": 206560,
+   "normal_offset": 199476,
+   "position_offset": 199428,
    "texels": [
     128,
     128
    ],
-   "uv_offset": 206656,
+   "uv_offset": 199524,
    "vertex_count": 4
   },
   {
@@ -10785,16 +10677,16 @@
    "free": "plaster:nearest_plaster",
    "generic": null,
    "index_count": 174,
-   "index_offset": 210296,
+   "index_offset": 203164,
    "material": "goth_house/goth_painting_frame",
    "model": 0,
-   "normal_offset": 208056,
-   "position_offset": 206712,
+   "normal_offset": 200924,
+   "position_offset": 199580,
    "texels": [
     16,
     128
    ],
-   "uv_offset": 209400,
+   "uv_offset": 202268,
    "vertex_count": 112
   },
   {
@@ -10812,16 +10704,16 @@
    "free": "generated:flat:200000",
    "generic": null,
    "index_count": 12,
-   "index_offset": 211248,
+   "index_offset": 204116,
    "material": "goth_house/goth_streamer_render00",
    "model": 0,
-   "normal_offset": 211088,
-   "position_offset": 210992,
+   "normal_offset": 203956,
+   "position_offset": 203860,
    "texels": [
     512,
     256
    ],
-   "uv_offset": 211184,
+   "uv_offset": 204052,
    "vertex_count": 8
   },
   {
@@ -10839,16 +10731,16 @@
    "free": "generated:flat:202020",
    "generic": null,
    "index_count": 24,
-   "index_offset": 211616,
+   "index_offset": 204484,
    "material": "goth_house/goth_streamer_render01",
    "model": 0,
-   "normal_offset": 211416,
-   "position_offset": 211296,
+   "normal_offset": 204284,
+   "position_offset": 204164,
    "texels": [
     512,
     256
    ],
-   "uv_offset": 211536,
+   "uv_offset": 204404,
    "vertex_count": 10
   },
   {
@@ -10866,16 +10758,16 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
-   "index_offset": 211840,
+   "index_offset": 204708,
    "material": "metal/metalhull003a",
    "model": 0,
-   "normal_offset": 211760,
-   "position_offset": 211712,
+   "normal_offset": 204628,
+   "position_offset": 204580,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 211808,
+   "uv_offset": 204676,
    "vertex_count": 4
   },
   {
@@ -10893,44 +10785,17 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
-   "index_offset": 212376,
+   "index_offset": 205244,
    "material": "metal/metalpipe001a",
    "model": 0,
-   "normal_offset": 212056,
-   "position_offset": 211864,
+   "normal_offset": 204924,
+   "position_offset": 204732,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 212248,
+   "uv_offset": 205116,
    "vertex_count": 16
-  },
-  {
-   "chunk": [
-    0,
-    -1
-   ],
-   "classname": "worldspawn",
-   "colour": [
-    0.2221,
-    0.1805,
-    0.1217
-   ],
-   "entity": null,
-   "free": "grass:grass",
-   "generic": "grass",
-   "index_count": 147,
-   "index_offset": 213880,
-   "material": "nature/treeline001a",
-   "model": 0,
-   "normal_offset": 213000,
-   "position_offset": 212472,
-   "texels": [
-    512,
-    512
-   ],
-   "uv_offset": 213528,
-   "vertex_count": 44
   },
   {
    "chunk": [
@@ -10947,16 +10812,16 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 27,
-   "index_offset": 215012,
+   "index_offset": 205884,
    "material": "plaster/plasterwall018e",
    "model": 0,
-   "normal_offset": 214672,
-   "position_offset": 214468,
+   "normal_offset": 205544,
+   "position_offset": 205340,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 214876,
+   "uv_offset": 205748,
    "vertex_count": 17
   },
   {
@@ -10974,16 +10839,16 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 90,
-   "index_offset": 216464,
+   "index_offset": 207336,
    "material": "plaster/plasterwall036a",
    "model": 0,
-   "normal_offset": 215624,
-   "position_offset": 215120,
+   "normal_offset": 206496,
+   "position_offset": 205992,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 216128,
+   "uv_offset": 207000,
    "vertex_count": 42
   },
   {
@@ -11001,16 +10866,16 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 30,
-   "index_offset": 217272,
+   "index_offset": 208144,
    "material": "plaster/plasterwall047a",
    "model": 0,
-   "normal_offset": 216992,
-   "position_offset": 216824,
+   "normal_offset": 207864,
+   "position_offset": 207696,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 217160,
+   "uv_offset": 208032,
    "vertex_count": 14
   },
   {
@@ -11028,16 +10893,16 @@
    "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 123,
-   "index_offset": 218960,
+   "index_offset": 209832,
    "material": "plaster/wallpaper002b",
    "model": 0,
-   "normal_offset": 217980,
-   "position_offset": 217392,
+   "normal_offset": 208852,
+   "position_offset": 208264,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 218568,
+   "uv_offset": 209440,
    "vertex_count": 49
   },
   {
@@ -11055,11 +10920,11 @@
    "free": "carpet_grey:carpet",
    "generic": "carpet",
    "index_count": 15,
-   "index_offset": 219740,
+   "index_offset": 210612,
    "material": "props/carpetfloor007a",
    "model": 0,
-   "normal_offset": 219560,
-   "position_offset": 219452,
+   "normal_offset": 210432,
+   "position_offset": 210324,
    "texels": [
     512,
     512
@@ -11069,7 +10934,7 @@
     0.62,
     0.58
    ],
-   "uv_offset": 219668,
+   "uv_offset": 210540,
    "vertex_count": 9
   },
   {
@@ -11087,16 +10952,16 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 123,
-   "index_offset": 222200,
+   "index_offset": 213072,
    "material": "props/mailboxwood01a",
    "model": 0,
-   "normal_offset": 220700,
-   "position_offset": 219800,
+   "normal_offset": 211572,
+   "position_offset": 210672,
    "texels": [
     512,
     256
    ],
-   "uv_offset": 221600,
+   "uv_offset": 212472,
    "vertex_count": 75
   },
   {
@@ -11114,16 +10979,16 @@
    "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 48,
-   "index_offset": 223716,
+   "index_offset": 214588,
    "material": "tile/tilefloor009a",
    "model": 0,
-   "normal_offset": 223076,
-   "position_offset": 222692,
+   "normal_offset": 213948,
+   "position_offset": 213564,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 223460,
+   "uv_offset": 214332,
    "vertex_count": 32
   },
   {
@@ -11141,16 +11006,16 @@
    "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 27,
-   "index_offset": 224260,
+   "index_offset": 215132,
    "material": "tile/tilefloor009b",
    "model": 0,
-   "normal_offset": 224040,
-   "position_offset": 223908,
+   "normal_offset": 214912,
+   "position_offset": 214780,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 224172,
+   "uv_offset": 215044,
    "vertex_count": 11
   },
   {
@@ -11168,16 +11033,16 @@
    "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 18,
-   "index_offset": 224752,
+   "index_offset": 215624,
    "material": "tile/tilefloor016a",
    "model": 0,
-   "normal_offset": 224512,
-   "position_offset": 224368,
+   "normal_offset": 215384,
+   "position_offset": 215240,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 224656,
+   "uv_offset": 215528,
    "vertex_count": 12
   },
   {
@@ -11195,16 +11060,16 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 192,
-   "index_offset": 227384,
+   "index_offset": 218256,
    "material": "wood/woodfloor007a",
    "model": 0,
-   "normal_offset": 225784,
-   "position_offset": 224824,
+   "normal_offset": 216656,
+   "position_offset": 215696,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 226744,
+   "uv_offset": 217616,
    "vertex_count": 80
   },
   {
@@ -11222,16 +11087,16 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 30,
-   "index_offset": 228792,
+   "index_offset": 219664,
    "material": "wood/woodstair002a",
    "model": 0,
-   "normal_offset": 228392,
-   "position_offset": 228152,
+   "normal_offset": 219264,
+   "position_offset": 219024,
    "texels": [
     512,
     128
    ],
-   "uv_offset": 228632,
+   "uv_offset": 219504,
    "vertex_count": 20
   },
   {
@@ -11249,16 +11114,16 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 69,
-   "index_offset": 230224,
+   "index_offset": 221096,
    "material": "wood/woodstair002c",
    "model": 0,
-   "normal_offset": 229404,
-   "position_offset": 228912,
+   "normal_offset": 220276,
+   "position_offset": 219784,
    "texels": [
     256,
     128
    ],
-   "uv_offset": 229896,
+   "uv_offset": 220768,
    "vertex_count": 41
   },
   {
@@ -11276,16 +11141,16 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 6,
-   "index_offset": 230628,
+   "index_offset": 221500,
    "material": "wood/woodwall012a",
    "model": 0,
-   "normal_offset": 230548,
-   "position_offset": 230500,
+   "normal_offset": 221420,
+   "position_offset": 221372,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 230596,
+   "uv_offset": 221468,
    "vertex_count": 4
   },
   {
@@ -11303,16 +11168,16 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 168,
-   "index_offset": 232380,
+   "index_offset": 223252,
    "material": "wood/woodwall024a",
    "model": 0,
-   "normal_offset": 231300,
-   "position_offset": 230652,
+   "normal_offset": 222172,
+   "position_offset": 221524,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 231948,
+   "uv_offset": 222820,
    "vertex_count": 54
   },
   {
@@ -11332,16 +11197,16 @@
    "free": "grass:grass",
    "generic": "grass",
    "index_count": 384,
-   "index_offset": 235644,
+   "index_offset": 226516,
    "material": "nature/blenddirtgrass001b",
    "model": 0,
-   "normal_offset": 234024,
-   "position_offset": 233052,
+   "normal_offset": 224896,
+   "position_offset": 223924,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 234996,
+   "uv_offset": 225868,
    "vertex_count": 81
   },
   {
@@ -11359,16 +11224,16 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 66,
-   "index_offset": 238204,
+   "index_offset": 229076,
    "material": "concrete/concretefloor011a_c17",
    "model": 0,
-   "normal_offset": 237564,
-   "position_offset": 237180,
+   "normal_offset": 228436,
+   "position_offset": 228052,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 237948,
+   "uv_offset": 228820,
    "vertex_count": 32
   },
   {
@@ -11386,16 +11251,16 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 6,
-   "index_offset": 238596,
+   "index_offset": 229468,
    "material": "concrete/concretefloor013a",
    "model": 0,
-   "normal_offset": 238516,
-   "position_offset": 238468,
+   "normal_offset": 229388,
+   "position_offset": 229340,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 238564,
+   "uv_offset": 229436,
    "vertex_count": 4
   },
   {
@@ -11413,16 +11278,16 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 330,
-   "index_offset": 243356,
+   "index_offset": 234228,
    "material": "concrete/concretestair002a",
    "model": 0,
-   "normal_offset": 240396,
-   "position_offset": 238620,
+   "normal_offset": 231268,
+   "position_offset": 229492,
    "texels": [
     512,
     128
    ],
-   "uv_offset": 242172,
+   "uv_offset": 233044,
    "vertex_count": 148
   },
   {
@@ -11440,16 +11305,16 @@
    "free": "plaster:nearest_plaster",
    "generic": null,
    "index_count": 6,
-   "index_offset": 244804,
+   "index_offset": 235676,
    "material": "goth_house/goth_painting00",
    "model": 0,
-   "normal_offset": 244724,
-   "position_offset": 244676,
+   "normal_offset": 235596,
+   "position_offset": 235548,
    "texels": [
     128,
     128
    ],
-   "uv_offset": 244772,
+   "uv_offset": 235644,
    "vertex_count": 4
   },
   {
@@ -11467,16 +11332,16 @@
    "free": "plaster:nearest_plaster",
    "generic": null,
    "index_count": 6,
-   "index_offset": 244956,
+   "index_offset": 235828,
    "material": "goth_house/goth_painting01",
    "model": 0,
-   "normal_offset": 244876,
-   "position_offset": 244828,
+   "normal_offset": 235748,
+   "position_offset": 235700,
    "texels": [
     128,
     128
    ],
-   "uv_offset": 244924,
+   "uv_offset": 235796,
    "vertex_count": 4
   },
   {
@@ -11494,16 +11359,16 @@
    "free": "plaster:nearest_plaster",
    "generic": null,
    "index_count": 6,
-   "index_offset": 245108,
+   "index_offset": 235980,
    "material": "goth_house/goth_painting05",
    "model": 0,
-   "normal_offset": 245028,
-   "position_offset": 244980,
+   "normal_offset": 235900,
+   "position_offset": 235852,
    "texels": [
     128,
     256
    ],
-   "uv_offset": 245076,
+   "uv_offset": 235948,
    "vertex_count": 4
   },
   {
@@ -11521,16 +11386,16 @@
    "free": "plaster:nearest_plaster",
    "generic": null,
    "index_count": 6,
-   "index_offset": 245260,
+   "index_offset": 236132,
    "material": "goth_house/goth_painting06",
    "model": 0,
-   "normal_offset": 245180,
-   "position_offset": 245132,
+   "normal_offset": 236052,
+   "position_offset": 236004,
    "texels": [
     256,
     128
    ],
-   "uv_offset": 245228,
+   "uv_offset": 236100,
    "vertex_count": 4
   },
   {
@@ -11548,16 +11413,16 @@
    "free": "plaster:nearest_plaster",
    "generic": null,
    "index_count": 174,
-   "index_offset": 248996,
+   "index_offset": 239868,
    "material": "goth_house/goth_painting_frame",
    "model": 0,
-   "normal_offset": 246676,
-   "position_offset": 245284,
+   "normal_offset": 237548,
+   "position_offset": 236156,
    "texels": [
     16,
     128
    ],
-   "uv_offset": 248068,
+   "uv_offset": 238940,
    "vertex_count": 116
   },
   {
@@ -11575,16 +11440,16 @@
    "free": "generated:flat:200000",
    "generic": null,
    "index_count": 6,
-   "index_offset": 249820,
+   "index_offset": 240692,
    "material": "goth_house/goth_streamer_render00",
    "model": 0,
-   "normal_offset": 249740,
-   "position_offset": 249692,
+   "normal_offset": 240612,
+   "position_offset": 240564,
    "texels": [
     512,
     256
    ],
-   "uv_offset": 249788,
+   "uv_offset": 240660,
    "vertex_count": 4
   },
   {
@@ -11602,16 +11467,16 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 348,
-   "index_offset": 254612,
+   "index_offset": 245484,
    "material": "metal/citadel_metalwall074a",
    "model": 0,
-   "normal_offset": 251632,
-   "position_offset": 249844,
+   "normal_offset": 242504,
+   "position_offset": 240716,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 253420,
+   "uv_offset": 244292,
    "vertex_count": 149
   },
   {
@@ -11629,16 +11494,16 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 186,
-   "index_offset": 258628,
+   "index_offset": 249500,
    "material": "metal/metalfloor006a",
    "model": 0,
-   "normal_offset": 256988,
-   "position_offset": 256004,
+   "normal_offset": 247860,
+   "position_offset": 246876,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 257972,
+   "uv_offset": 248844,
    "vertex_count": 82
   },
   {
@@ -11656,16 +11521,16 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
-   "index_offset": 259500,
+   "index_offset": 250372,
    "material": "metal/metalhull003a",
    "model": 0,
-   "normal_offset": 259420,
-   "position_offset": 259372,
+   "normal_offset": 250292,
+   "position_offset": 250244,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 259468,
+   "uv_offset": 250340,
    "vertex_count": 4
   },
   {
@@ -11683,16 +11548,16 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 24,
-   "index_offset": 260036,
+   "index_offset": 250908,
    "material": "metal/metalpipe001a",
    "model": 0,
-   "normal_offset": 259716,
-   "position_offset": 259524,
+   "normal_offset": 250588,
+   "position_offset": 250396,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 259908,
+   "uv_offset": 250780,
    "vertex_count": 16
   },
   {
@@ -11710,44 +11575,17 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 60,
-   "index_offset": 261156,
+   "index_offset": 252028,
    "material": "metal/metalwall026a",
    "model": 0,
-   "normal_offset": 260516,
-   "position_offset": 260132,
+   "normal_offset": 251388,
+   "position_offset": 251004,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 260900,
+   "uv_offset": 251772,
    "vertex_count": 32
-  },
-  {
-   "chunk": [
-    0,
-    0
-   ],
-   "classname": "worldspawn",
-   "colour": [
-    0.2221,
-    0.1805,
-    0.1217
-   ],
-   "entity": null,
-   "free": "grass:grass",
-   "generic": "grass",
-   "index_count": 192,
-   "index_offset": 263028,
-   "material": "nature/treeline001a",
-   "model": 0,
-   "normal_offset": 262008,
-   "position_offset": 261396,
-   "texels": [
-    512,
-    512
-   ],
-   "uv_offset": 262620,
-   "vertex_count": 51
   },
   {
    "chunk": [
@@ -11764,16 +11602,16 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 1170,
-   "index_offset": 278356,
+   "index_offset": 266828,
    "material": "plaster/plasterwall013a",
    "model": 0,
-   "normal_offset": 269256,
-   "position_offset": 263796,
+   "normal_offset": 257728,
+   "position_offset": 252268,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 274716,
+   "uv_offset": 263188,
    "vertex_count": 455
   },
   {
@@ -11791,16 +11629,16 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 72,
-   "index_offset": 284572,
+   "index_offset": 273044,
    "material": "plaster/plasterwall013g",
    "model": 0,
-   "normal_offset": 283612,
-   "position_offset": 283036,
+   "normal_offset": 272084,
+   "position_offset": 271508,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 284188,
+   "uv_offset": 272660,
    "vertex_count": 48
   },
   {
@@ -11818,16 +11656,16 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 27,
-   "index_offset": 285404,
+   "index_offset": 273876,
    "material": "plaster/plasterwall018e",
    "model": 0,
-   "normal_offset": 285064,
-   "position_offset": 284860,
+   "normal_offset": 273536,
+   "position_offset": 273332,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 285268,
+   "uv_offset": 273740,
    "vertex_count": 17
   },
   {
@@ -11845,16 +11683,16 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 90,
-   "index_offset": 286856,
+   "index_offset": 275328,
    "material": "plaster/plasterwall036a",
    "model": 0,
-   "normal_offset": 286016,
-   "position_offset": 285512,
+   "normal_offset": 274488,
+   "position_offset": 273984,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 286520,
+   "uv_offset": 274992,
    "vertex_count": 42
   },
   {
@@ -11872,16 +11710,16 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 75,
-   "index_offset": 288656,
+   "index_offset": 277128,
    "material": "plaster/plasterwall037f",
    "model": 0,
-   "normal_offset": 287756,
-   "position_offset": 287216,
+   "normal_offset": 276228,
+   "position_offset": 275688,
    "texels": [
     32,
     512
    ],
-   "uv_offset": 288296,
+   "uv_offset": 276768,
    "vertex_count": 45
   },
   {
@@ -11899,16 +11737,16 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 18,
-   "index_offset": 289276,
+   "index_offset": 277748,
    "material": "plaster/plasterwall047a",
    "model": 0,
-   "normal_offset": 289076,
-   "position_offset": 288956,
+   "normal_offset": 277548,
+   "position_offset": 277428,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 289196,
+   "uv_offset": 277668,
    "vertex_count": 10
   },
   {
@@ -11926,16 +11764,16 @@
    "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 120,
-   "index_offset": 290884,
+   "index_offset": 279356,
    "material": "plaster/wallpaper002b",
    "model": 0,
-   "normal_offset": 289924,
-   "position_offset": 289348,
+   "normal_offset": 278396,
+   "position_offset": 277820,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 290500,
+   "uv_offset": 278972,
    "vertex_count": 48
   },
   {
@@ -11953,11 +11791,11 @@
    "free": "carpet_grey:carpet",
    "generic": "carpet",
    "index_count": 21,
-   "index_offset": 291716,
+   "index_offset": 280188,
    "material": "props/carpetfloor007a",
    "model": 0,
-   "normal_offset": 291496,
-   "position_offset": 291364,
+   "normal_offset": 279968,
+   "position_offset": 279836,
    "texels": [
     512,
     512
@@ -11967,7 +11805,7 @@
     0.62,
     0.58
    ],
-   "uv_offset": 291628,
+   "uv_offset": 280100,
    "vertex_count": 11
   },
   {
@@ -11985,16 +11823,16 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 36,
-   "index_offset": 292568,
+   "index_offset": 281040,
    "material": "props/mailboxwood01a",
    "model": 0,
-   "normal_offset": 292088,
-   "position_offset": 291800,
+   "normal_offset": 280560,
+   "position_offset": 280272,
    "texels": [
     512,
     256
    ],
-   "uv_offset": 292376,
+   "uv_offset": 280848,
    "vertex_count": 24
   },
   {
@@ -12012,16 +11850,16 @@
    "free": "tile_dark:roof_tiles",
    "generic": "roof_tiles",
    "index_count": 36,
-   "index_offset": 293224,
+   "index_offset": 281696,
    "material": "props/rubberroof001a",
    "model": 0,
-   "normal_offset": 292904,
-   "position_offset": 292712,
+   "normal_offset": 281376,
+   "position_offset": 281184,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 293096,
+   "uv_offset": 281568,
    "vertex_count": 16
   },
   {
@@ -12039,16 +11877,16 @@
    "free": "tile_dark:roof_tiles",
    "generic": "roof_tiles",
    "index_count": 36,
-   "index_offset": 294136,
+   "index_offset": 282608,
    "material": "props/rubberroof002a",
    "model": 0,
-   "normal_offset": 293656,
-   "position_offset": 293368,
+   "normal_offset": 282128,
+   "position_offset": 281840,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 293944,
+   "uv_offset": 282416,
    "vertex_count": 24
   },
   {
@@ -12066,16 +11904,16 @@
    "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 18,
-   "index_offset": 294664,
+   "index_offset": 283136,
    "material": "tile/tilefloor009a",
    "model": 0,
-   "normal_offset": 294424,
-   "position_offset": 294280,
+   "normal_offset": 282896,
+   "position_offset": 282752,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 294568,
+   "uv_offset": 283040,
    "vertex_count": 12
   },
   {
@@ -12093,16 +11931,16 @@
    "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 15,
-   "index_offset": 294960,
+   "index_offset": 283432,
    "material": "tile/tilefloor009b",
    "model": 0,
-   "normal_offset": 294820,
-   "position_offset": 294736,
+   "normal_offset": 283292,
+   "position_offset": 283208,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 294904,
+   "uv_offset": 283376,
    "vertex_count": 7
   },
   {
@@ -12120,16 +11958,16 @@
    "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 6,
-   "index_offset": 295148,
+   "index_offset": 283620,
    "material": "tile/tilefloor012b",
    "model": 0,
-   "normal_offset": 295068,
-   "position_offset": 295020,
+   "normal_offset": 283540,
+   "position_offset": 283492,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 295116,
+   "uv_offset": 283588,
    "vertex_count": 4
   },
   {
@@ -12147,16 +11985,16 @@
    "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 54,
-   "index_offset": 296196,
+   "index_offset": 284668,
    "material": "tile/tilefloor016a",
    "model": 0,
-   "normal_offset": 295556,
-   "position_offset": 295172,
+   "normal_offset": 284028,
+   "position_offset": 283644,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 295940,
+   "uv_offset": 284412,
    "vertex_count": 32
   },
   {
@@ -12174,16 +12012,16 @@
    "free": "roof_clay:roof_clay",
    "generic": "roof_clay",
    "index_count": 12,
-   "index_offset": 296668,
+   "index_offset": 285140,
    "material": "tile/tileroof002a",
    "model": 0,
-   "normal_offset": 296508,
-   "position_offset": 296412,
+   "normal_offset": 284980,
+   "position_offset": 284884,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 296604,
+   "uv_offset": 285076,
    "vertex_count": 8
   },
   {
@@ -12201,16 +12039,16 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 6,
-   "index_offset": 296844,
+   "index_offset": 285316,
    "material": "wood/cabinets01a",
    "model": 0,
-   "normal_offset": 296764,
-   "position_offset": 296716,
+   "normal_offset": 285236,
+   "position_offset": 285188,
    "texels": [
     512,
     256
    ],
-   "uv_offset": 296812,
+   "uv_offset": 285284,
    "vertex_count": 4
   },
   {
@@ -12228,16 +12066,16 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 561,
-   "index_offset": 304260,
+   "index_offset": 292732,
    "material": "wood/woodfloor007a",
    "model": 0,
-   "normal_offset": 299640,
-   "position_offset": 296868,
+   "normal_offset": 288112,
+   "position_offset": 285340,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 302412,
+   "uv_offset": 290884,
    "vertex_count": 231
   },
   {
@@ -12255,16 +12093,16 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 6,
-   "index_offset": 306632,
+   "index_offset": 295104,
    "material": "wood/woodstair002a",
    "model": 0,
-   "normal_offset": 306552,
-   "position_offset": 306504,
+   "normal_offset": 295024,
+   "position_offset": 294976,
    "texels": [
     512,
     128
    ],
-   "uv_offset": 306600,
+   "uv_offset": 295072,
    "vertex_count": 4
   },
   {
@@ -12282,16 +12120,16 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 81,
-   "index_offset": 308224,
+   "index_offset": 296696,
    "material": "wood/woodstair002c",
    "model": 0,
-   "normal_offset": 307244,
-   "position_offset": 306656,
+   "normal_offset": 295716,
+   "position_offset": 295128,
    "texels": [
     256,
     128
    ],
-   "uv_offset": 307832,
+   "uv_offset": 296304,
    "vertex_count": 49
   },
   {
@@ -12309,16 +12147,16 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 6,
-   "index_offset": 308676,
+   "index_offset": 297148,
    "material": "wood/woodwall012a",
    "model": 0,
-   "normal_offset": 308596,
-   "position_offset": 308548,
+   "normal_offset": 297068,
+   "position_offset": 297020,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 308644,
+   "uv_offset": 297116,
    "vertex_count": 4
   },
   {
@@ -12336,16 +12174,16 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 168,
-   "index_offset": 310428,
+   "index_offset": 298900,
    "material": "wood/woodwall024a",
    "model": 0,
-   "normal_offset": 309348,
-   "position_offset": 308700,
+   "normal_offset": 297820,
+   "position_offset": 297172,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 309996,
+   "uv_offset": 298468,
    "vertex_count": 54
   },
   {
@@ -12365,16 +12203,16 @@
    "free": "grass:grass",
    "generic": "grass",
    "index_count": 768,
-   "index_offset": 316284,
+   "index_offset": 304756,
    "material": "nature/blenddirtgrass001b",
    "model": 0,
-   "normal_offset": 313044,
-   "position_offset": 311100,
+   "normal_offset": 301516,
+   "position_offset": 299572,
    "texels": [
     512,
     512
    ],
-   "uv_offset": 314988,
+   "uv_offset": 303460,
    "vertex_count": 162
   },
   {
@@ -12389,16 +12227,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 319612,
+   "index_offset": 308084,
    "material": "glass/glasswindow037a",
    "model": 1,
-   "normal_offset": 319452,
-   "position_offset": 319356,
+   "normal_offset": 307924,
+   "position_offset": 307828,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 319548,
+   "uv_offset": 308020,
    "vertex_count": 8
   },
   {
@@ -12413,16 +12251,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 319916,
+   "index_offset": 308388,
    "material": "glass/glasswindow037a",
    "model": 2,
-   "normal_offset": 319756,
-   "position_offset": 319660,
+   "normal_offset": 308228,
+   "position_offset": 308132,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 319852,
+   "uv_offset": 308324,
    "vertex_count": 8
   },
   {
@@ -12437,16 +12275,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 320220,
+   "index_offset": 308692,
    "material": "glass/glasswindow037a",
    "model": 3,
-   "normal_offset": 320060,
-   "position_offset": 319964,
+   "normal_offset": 308532,
+   "position_offset": 308436,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 320156,
+   "uv_offset": 308628,
    "vertex_count": 8
   },
   {
@@ -12461,16 +12299,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 320524,
+   "index_offset": 308996,
    "material": "glass/glasswindow037c",
    "model": 4,
-   "normal_offset": 320364,
-   "position_offset": 320268,
+   "normal_offset": 308836,
+   "position_offset": 308740,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 320460,
+   "uv_offset": 308932,
    "vertex_count": 8
   },
   {
@@ -12485,16 +12323,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 320828,
+   "index_offset": 309300,
    "material": "glass/glasswindow037a",
    "model": 5,
-   "normal_offset": 320668,
-   "position_offset": 320572,
+   "normal_offset": 309140,
+   "position_offset": 309044,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 320764,
+   "uv_offset": 309236,
    "vertex_count": 8
   },
   {
@@ -12509,16 +12347,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 321132,
+   "index_offset": 309604,
    "material": "glass/glasswindow037a",
    "model": 6,
-   "normal_offset": 320972,
-   "position_offset": 320876,
+   "normal_offset": 309444,
+   "position_offset": 309348,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 321068,
+   "uv_offset": 309540,
    "vertex_count": 8
   },
   {
@@ -12533,16 +12371,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 321436,
+   "index_offset": 309908,
    "material": "glass/glasswindow037c",
    "model": 7,
-   "normal_offset": 321276,
-   "position_offset": 321180,
+   "normal_offset": 309748,
+   "position_offset": 309652,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 321372,
+   "uv_offset": 309844,
    "vertex_count": 8
   },
   {
@@ -12557,16 +12395,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 321740,
+   "index_offset": 310212,
    "material": "glass/glasswindow037a",
    "model": 8,
-   "normal_offset": 321580,
-   "position_offset": 321484,
+   "normal_offset": 310052,
+   "position_offset": 309956,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 321676,
+   "uv_offset": 310148,
    "vertex_count": 8
   },
   {
@@ -12581,16 +12419,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 322044,
+   "index_offset": 310516,
    "material": "glass/glasswindow037a",
    "model": 9,
-   "normal_offset": 321884,
-   "position_offset": 321788,
+   "normal_offset": 310356,
+   "position_offset": 310260,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 321980,
+   "uv_offset": 310452,
    "vertex_count": 8
   },
   {
@@ -12605,16 +12443,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 322348,
+   "index_offset": 310820,
    "material": "glass/glasswindow037a",
    "model": 10,
-   "normal_offset": 322188,
-   "position_offset": 322092,
+   "normal_offset": 310660,
+   "position_offset": 310564,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 322284,
+   "uv_offset": 310756,
    "vertex_count": 8
   },
   {
@@ -12629,16 +12467,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 322652,
+   "index_offset": 311124,
    "material": "glass/glasswindow037a",
    "model": 11,
-   "normal_offset": 322492,
-   "position_offset": 322396,
+   "normal_offset": 310964,
+   "position_offset": 310868,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 322588,
+   "uv_offset": 311060,
    "vertex_count": 8
   },
   {
@@ -12653,16 +12491,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 322956,
+   "index_offset": 311428,
    "material": "glass/glasswindow037a",
    "model": 12,
-   "normal_offset": 322796,
-   "position_offset": 322700,
+   "normal_offset": 311268,
+   "position_offset": 311172,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 322892,
+   "uv_offset": 311364,
    "vertex_count": 8
   },
   {
@@ -12677,16 +12515,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 323260,
+   "index_offset": 311732,
    "material": "glass/glasswindow037a",
    "model": 13,
-   "normal_offset": 323100,
-   "position_offset": 323004,
+   "normal_offset": 311572,
+   "position_offset": 311476,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 323196,
+   "uv_offset": 311668,
    "vertex_count": 8
   },
   {
@@ -12701,16 +12539,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 323564,
+   "index_offset": 312036,
    "material": "glass/glasswindow037a",
    "model": 14,
-   "normal_offset": 323404,
-   "position_offset": 323308,
+   "normal_offset": 311876,
+   "position_offset": 311780,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 323500,
+   "uv_offset": 311972,
    "vertex_count": 8
   },
   {
@@ -12725,16 +12563,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 323868,
+   "index_offset": 312340,
    "material": "glass/glasswindow037a",
    "model": 15,
-   "normal_offset": 323708,
-   "position_offset": 323612,
+   "normal_offset": 312180,
+   "position_offset": 312084,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 323804,
+   "uv_offset": 312276,
    "vertex_count": 8
   },
   {
@@ -12749,16 +12587,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 324172,
+   "index_offset": 312644,
    "material": "glass/glasswindow037c",
    "model": 16,
-   "normal_offset": 324012,
-   "position_offset": 323916,
+   "normal_offset": 312484,
+   "position_offset": 312388,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 324108,
+   "uv_offset": 312580,
    "vertex_count": 8
   },
   {
@@ -12773,16 +12611,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 324476,
+   "index_offset": 312948,
    "material": "glass/glasswindow037a",
    "model": 17,
-   "normal_offset": 324316,
-   "position_offset": 324220,
+   "normal_offset": 312788,
+   "position_offset": 312692,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 324412,
+   "uv_offset": 312884,
    "vertex_count": 8
   },
   {
@@ -12797,16 +12635,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 324780,
+   "index_offset": 313252,
    "material": "glass/glasswindow037a",
    "model": 18,
-   "normal_offset": 324620,
-   "position_offset": 324524,
+   "normal_offset": 313092,
+   "position_offset": 312996,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 324716,
+   "uv_offset": 313188,
    "vertex_count": 8
   },
   {
@@ -12821,16 +12659,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 325084,
+   "index_offset": 313556,
    "material": "glass/glasswindow037a",
    "model": 19,
-   "normal_offset": 324924,
-   "position_offset": 324828,
+   "normal_offset": 313396,
+   "position_offset": 313300,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 325020,
+   "uv_offset": 313492,
    "vertex_count": 8
   },
   {
@@ -12845,16 +12683,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 325388,
+   "index_offset": 313860,
    "material": "glass/glasswindow037c",
    "model": 20,
-   "normal_offset": 325228,
-   "position_offset": 325132,
+   "normal_offset": 313700,
+   "position_offset": 313604,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 325324,
+   "uv_offset": 313796,
    "vertex_count": 8
   },
   {
@@ -12869,16 +12707,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 325692,
+   "index_offset": 314164,
    "material": "glass/glasswindow037a",
    "model": 21,
-   "normal_offset": 325532,
-   "position_offset": 325436,
+   "normal_offset": 314004,
+   "position_offset": 313908,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 325628,
+   "uv_offset": 314100,
    "vertex_count": 8
   },
   {
@@ -12893,16 +12731,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 325996,
+   "index_offset": 314468,
    "material": "glass/glasswindow037a",
    "model": 22,
-   "normal_offset": 325836,
-   "position_offset": 325740,
+   "normal_offset": 314308,
+   "position_offset": 314212,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 325932,
+   "uv_offset": 314404,
    "vertex_count": 8
   },
   {
@@ -12917,16 +12755,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 326300,
+   "index_offset": 314772,
    "material": "glass/glasswindow037a",
    "model": 23,
-   "normal_offset": 326140,
-   "position_offset": 326044,
+   "normal_offset": 314612,
+   "position_offset": 314516,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 326236,
+   "uv_offset": 314708,
    "vertex_count": 8
   },
   {
@@ -12941,16 +12779,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 326604,
+   "index_offset": 315076,
    "material": "glass/glasswindow037a",
    "model": 24,
-   "normal_offset": 326444,
-   "position_offset": 326348,
+   "normal_offset": 314916,
+   "position_offset": 314820,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 326540,
+   "uv_offset": 315012,
    "vertex_count": 8
   },
   {
@@ -12965,16 +12803,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 326908,
+   "index_offset": 315380,
    "material": "glass/glasswindow031b",
    "model": 25,
-   "normal_offset": 326748,
-   "position_offset": 326652,
+   "normal_offset": 315220,
+   "position_offset": 315124,
    "texels": [
     128,
     256
    ],
-   "uv_offset": 326844,
+   "uv_offset": 315316,
    "vertex_count": 8
   },
   {
@@ -12989,16 +12827,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 327212,
+   "index_offset": 315684,
    "material": "glass/glasswindow037a",
    "model": 26,
-   "normal_offset": 327052,
-   "position_offset": 326956,
+   "normal_offset": 315524,
+   "position_offset": 315428,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 327148,
+   "uv_offset": 315620,
    "vertex_count": 8
   },
   {
@@ -13013,16 +12851,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 327516,
+   "index_offset": 315988,
    "material": "glass/glasswindow037a",
    "model": 27,
-   "normal_offset": 327356,
-   "position_offset": 327260,
+   "normal_offset": 315828,
+   "position_offset": 315732,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 327452,
+   "uv_offset": 315924,
    "vertex_count": 8
   },
   {
@@ -13037,16 +12875,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 327820,
+   "index_offset": 316292,
    "material": "glass/glasswindow037c",
    "model": 28,
-   "normal_offset": 327660,
-   "position_offset": 327564,
+   "normal_offset": 316132,
+   "position_offset": 316036,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 327756,
+   "uv_offset": 316228,
    "vertex_count": 8
   },
   {
@@ -13061,16 +12899,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 328124,
+   "index_offset": 316596,
    "material": "glass/glasswindow037a",
    "model": 29,
-   "normal_offset": 327964,
-   "position_offset": 327868,
+   "normal_offset": 316436,
+   "position_offset": 316340,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 328060,
+   "uv_offset": 316532,
    "vertex_count": 8
   },
   {
@@ -13085,16 +12923,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 328428,
+   "index_offset": 316900,
    "material": "glass/glasswindow037a",
    "model": 30,
-   "normal_offset": 328268,
-   "position_offset": 328172,
+   "normal_offset": 316740,
+   "position_offset": 316644,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 328364,
+   "uv_offset": 316836,
    "vertex_count": 8
   },
   {
@@ -13109,16 +12947,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 328732,
+   "index_offset": 317204,
    "material": "glass/glasswindow037c",
    "model": 31,
-   "normal_offset": 328572,
-   "position_offset": 328476,
+   "normal_offset": 317044,
+   "position_offset": 316948,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 328668,
+   "uv_offset": 317140,
    "vertex_count": 8
   },
   {
@@ -13133,16 +12971,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 329036,
+   "index_offset": 317508,
    "material": "glass/glasswindow037a",
    "model": 32,
-   "normal_offset": 328876,
-   "position_offset": 328780,
+   "normal_offset": 317348,
+   "position_offset": 317252,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 328972,
+   "uv_offset": 317444,
    "vertex_count": 8
   },
   {
@@ -13157,16 +12995,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 329340,
+   "index_offset": 317812,
    "material": "glass/glasswindow037a",
    "model": 33,
-   "normal_offset": 329180,
-   "position_offset": 329084,
+   "normal_offset": 317652,
+   "position_offset": 317556,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 329276,
+   "uv_offset": 317748,
    "vertex_count": 8
   },
   {
@@ -13181,16 +13019,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 329644,
+   "index_offset": 318116,
    "material": "glass/glasswindow037c",
    "model": 34,
-   "normal_offset": 329484,
-   "position_offset": 329388,
+   "normal_offset": 317956,
+   "position_offset": 317860,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 329580,
+   "uv_offset": 318052,
    "vertex_count": 8
   },
   {
@@ -13205,16 +13043,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 329948,
+   "index_offset": 318420,
    "material": "glass/glasswindow037a",
    "model": 35,
-   "normal_offset": 329788,
-   "position_offset": 329692,
+   "normal_offset": 318260,
+   "position_offset": 318164,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 329884,
+   "uv_offset": 318356,
    "vertex_count": 8
   },
   {
@@ -13229,16 +13067,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 330252,
+   "index_offset": 318724,
    "material": "glass/glasswindow037a",
    "model": 36,
-   "normal_offset": 330092,
-   "position_offset": 329996,
+   "normal_offset": 318564,
+   "position_offset": 318468,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 330188,
+   "uv_offset": 318660,
    "vertex_count": 8
   },
   {
@@ -13253,16 +13091,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 330556,
+   "index_offset": 319028,
    "material": "glass/glasswindow037c",
    "model": 37,
-   "normal_offset": 330396,
-   "position_offset": 330300,
+   "normal_offset": 318868,
+   "position_offset": 318772,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 330492,
+   "uv_offset": 318964,
    "vertex_count": 8
   },
   {
@@ -13277,16 +13115,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 330860,
+   "index_offset": 319332,
    "material": "glass/glasswindow037a",
    "model": 38,
-   "normal_offset": 330700,
-   "position_offset": 330604,
+   "normal_offset": 319172,
+   "position_offset": 319076,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 330796,
+   "uv_offset": 319268,
    "vertex_count": 8
   },
   {
@@ -13301,16 +13139,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 331164,
+   "index_offset": 319636,
    "material": "glass/glasswindow037c",
    "model": 39,
-   "normal_offset": 331004,
-   "position_offset": 330908,
+   "normal_offset": 319476,
+   "position_offset": 319380,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 331100,
+   "uv_offset": 319572,
    "vertex_count": 8
   },
   {
@@ -13324,16 +13162,16 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
-   "index_offset": 331852,
+   "index_offset": 320324,
    "material": "props/doorbutton002a",
    "model": 40,
-   "normal_offset": 331452,
-   "position_offset": 331212,
+   "normal_offset": 319924,
+   "position_offset": 319684,
    "texels": [
     32,
     64
    ],
-   "uv_offset": 331692,
+   "uv_offset": 320164,
    "vertex_count": 20
   },
   {
@@ -13348,16 +13186,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 332228,
+   "index_offset": 320700,
    "material": "glass/glasswindow037c",
    "model": 41,
-   "normal_offset": 332068,
-   "position_offset": 331972,
+   "normal_offset": 320540,
+   "position_offset": 320444,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 332164,
+   "uv_offset": 320636,
    "vertex_count": 8
   },
   {
@@ -13372,16 +13210,16 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 332532,
+   "index_offset": 321004,
    "material": "glass/glasswindow037a",
    "model": 42,
-   "normal_offset": 332372,
-   "position_offset": 332276,
+   "normal_offset": 320844,
+   "position_offset": 320748,
    "texels": [
     256,
     256
    ],
-   "uv_offset": 332468,
+   "uv_offset": 320940,
    "vertex_count": 8
   },
   {
@@ -13395,16 +13233,16 @@
    "free": "roof_clay:nearest_roof_clay",
    "generic": null,
    "index_count": 6,
-   "index_offset": 332708,
+   "index_offset": 321180,
    "material": "goth_house/goth_welcome_banner00",
    "model": 43,
-   "normal_offset": 332628,
-   "position_offset": 332580,
+   "normal_offset": 321100,
+   "position_offset": 321052,
    "texels": [
     512,
     128
    ],
-   "uv_offset": 332676,
+   "uv_offset": 321148,
    "vertex_count": 4
   },
   {
@@ -13418,16 +13256,16 @@
    "free": "tile_dark:nearest_tile_dark",
    "generic": null,
    "index_count": 6,
-   "index_offset": 332860,
+   "index_offset": 321332,
    "material": "goth_house/goth_welcome_banner01",
    "model": 43,
-   "normal_offset": 332780,
-   "position_offset": 332732,
+   "normal_offset": 321252,
+   "position_offset": 321204,
    "texels": [
     512,
     128
    ],
-   "uv_offset": 332828,
+   "uv_offset": 321300,
    "vertex_count": 4
   }
  ],
