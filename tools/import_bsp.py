@@ -53,6 +53,12 @@ def _dotbsp_path():
 
 sys.path.insert(1, _dotbsp_path())
 from dotbsp import boxes as dboxes, docboxes, intermediate, reader, texturemap  # noqa: E402
+from dotbsp import terrain as dterrain  # noqa: E402
+
+# The displacement ground (dotbsp.terrain.Heightfield) the floods walk by slope; None without terrain.
+TERRAIN = None
+# Its walk points after the last flood, which the game's graph is built on (nav_emulate mirrors it).
+TERRAIN_PTS = []
 
 
 # A map compiled with an empty game lump (no static props) crashes dot-map's reader; the fix
@@ -300,14 +306,20 @@ def _thin_wall_over(b, ix, iz):
             and abs(b["at"][2] - (iz + 0.5) * CELL) < (b["size"][2] + CELL) / 2)
 
 
-def surfaces_at(boxes, grid, ix, iz):
-    """Walkable heights in a cell: box tops with headroom."""
+def spans_at(boxes, grid, ix, iz):
+    """(lo, hi) of every box over a cell's centre."""
     cx, cz = (ix + 0.5) * CELL, (iz + 0.5) * CELL
     spans = []
     for bi in grid.get((ix, iz), ()):
         b = boxes[bi]
         if inside_box(b, cx, cz) or _thin_wall_over(b, ix, iz):
             spans.append((b["at"][1] - b["size"][1] / 2, b["at"][1] + b["size"][1] / 2))
+    return spans
+
+
+def surfaces_at(boxes, grid, ix, iz):
+    """Walkable heights in a cell: box tops with headroom."""
+    spans = spans_at(boxes, grid, ix, iz)
     out = []
     for lo, hi in spans:
         if any(l2 < hi + HEAD and h2 > hi + 0.05 for l2, h2 in spans if (l2, h2) != (lo, hi)):
@@ -327,6 +339,8 @@ def build_nav(boxes, starts, blocked=None, wide=False):
                 s = [h for h in s if h >= MIN_FLOOR_Y]
             if s:
                 surf[(ix, iz)] = s
+    tsurf = dterrain.add_surfaces(TERRAIN, surf, lambda a, b: spans_at(solid, grid, a, b), CELL, HEAD) if TERRAIN else set()
+    build_nav.tsurf = tsurf
     seen = set()
     parent = {}
     dist = {}
@@ -341,7 +355,7 @@ def build_nav(boxes, starts, blocked=None, wide=False):
         a prop in the middle of a doorway takes the rest. Only a 2x2 block of open cells counts."""
         for ox in (-1, 0):
             for oz in (-1, 0):
-                if all(any(abs(h2 - h) <= STEP and is_open(ix + ox + i, iz + oz + j, h2) for h2 in surf.get((ix + ox + i, iz + oz + j), ()))
+                if all(any(abs(h2 - h) <= (CELL * dterrain.WALK_RISE * 2 if (ix, iz, h) in tsurf else STEP) and is_open(ix + ox + i, iz + oz + j, h2) for h2 in surf.get((ix + ox + i, iz + oz + j), ()))
                        for i in (0, 1) for j in (0, 1)):
                     return True
         return False
@@ -360,6 +374,17 @@ def build_nav(boxes, starts, blocked=None, wide=False):
         for dx, dz in ((1, 0), (-1, 0), (0, 1), (0, -1)):
             for h2 in surf.get((ix + dx, iz + dz), ()):
                 dh = h2 - h
+                if (ix, iz, h) in tsurf and (ix + dx, iz + dz, h2) in tsurf:
+                    kind = dterrain.move(dh, CELL, DROP)
+                    if kind and (ix + dx, iz + dz, h2) not in seen and (
+                            not wide or (is_open(ix + dx, iz + dz, h2) and is_wide(ix + dx, iz + dz, h2))):
+                        if kind == "drop":
+                            links.setdefault((ix // 3, iz // 3, round(h, 1), round(h2, 1)), [r3((ix + 0.5) * CELL), r3(h), r3((iz + 0.5) * CELL), r3((ix + dx + 0.5) * CELL), r3(h2), r3((iz + dz + 0.5) * CELL)])
+                        seen.add((ix + dx, iz + dz, h2))
+                        parent[(ix + dx, iz + dz, h2)] = (ix, iz, h)
+                        dist[(ix + dx, iz + dz, h2)] = dist[(ix, iz, h)] + 1
+                        dq.append((ix + dx, iz + dz, h2))
+                    continue
                 if (-DROP <= dh < -STEP or STEP < dh <= JUMP) and (ix + dx, iz + dz, h2) not in seen and (
                         not wide or (is_open(ix + dx, iz + dz, h2) and is_wide(ix + dx, iz + dz, h2))):
                     # a drop or a jump up: the body crosses it, the zombies by a link
@@ -374,7 +399,7 @@ def build_nav(boxes, starts, blocked=None, wide=False):
                     dq.append((ix + dx, iz + dz, h2))
     # Surfaces within 0.12 m of each other (a kerb, a worn step) are one floor: the game joins
     # nav points by distance, and two floors 0.1 m apart that merely touch are not joined.
-    hs = sorted({h for _, _, h in seen})
+    hs = sorted({t[2] for t in seen if t not in tsurf})
     snap = {}
     i = 0
     while i < len(hs):
@@ -386,6 +411,8 @@ def build_nav(boxes, starts, blocked=None, wide=False):
         i = j + 1
     byh = {}
     for ix, iz, h in seen:
+        if (ix, iz, h) in tsurf:
+            continue      # terrain ships as the heightfield's walk mask, not as flat floors
         byh.setdefault(snap[h], set()).add((ix, iz))
     floors = []
     if GREEDY_FLOORS:
@@ -493,7 +520,7 @@ def filter_wall_links(links, boxes, props, sizes, floors, strict=False, fixed=()
     bad = [l for l in links if blocked(l)]
     if not bad:
         return links
-    G = nav_emulate.Graph(boxes, props, sizes, floors)
+    G = nav_emulate.Graph(boxes, props, sizes, floors, terrain_pts=TERRAIN_PTS)
 
     def ends(l):
         return G.nearest(l[0], l[1], l[2], 2.0), G.nearest(l[3], l[4], l[5], 2.0)
@@ -736,23 +763,19 @@ def main(argv):
     for b in model_boxes(bs, 0, y0):
         boxes.append(b)
 
-    # `terrain`: ground that is displacements (sculpted heightmaps, not brushes) has no box at all, so
-    # the map would have no floor; dot-map's shared `terrain_cells` samples it into a stepped field of
-    # ground boxes. Optional {"cell": 80, "quant": 5} (source units) coarsens the field for the box limit.
+    # `terrain`: ground that is displacements (sculpted heightmaps, not brushes) has no box at all.
+    # It ships as dot-map's heightfield (the game collides with its triangles) and the floods walk
+    # it by slope; a stepped box field stopped them at the first hill. Optional {"budget": bytes}.
+    global TERRAIN, TERRAIN_PTS
+    TERRAIN, TERRAIN_PTS = None, []
     if spec.get("terrain"):
         topts = spec["terrain"] if isinstance(spec["terrain"], dict) else {}
         if not bs.terrain_tris():
             sys.exit("import_bsp: spec asks for terrain but the intermediate has no displacements; rebuild it with `bsp.py convert --displacements`")
-        n = 0
-        terrain_area = 0.0
-        for c in dboxes.terrain_cells(bs.terrain_tris(), cell=float(topts.get("cell", 80.0)), quant=float(topts.get("quant", 5.0))):
-            sx, sy, sz = dboxes.size(c)
-            boxes.append({"at": [r3(v) for v in gpt(dboxes.centre(c), y0)],
-                          "size": [r3(max(v, 0.02)) for v in (sx * S, sz * S, sy * S)],
-                          "mat": spec.get("terrain_mat", "dirt")})
-            n += 1
-            terrain_area += sx * sy * S * S
-        print("terrain: %d ground boxes from the displacements" % n)
+        terrain_tris = dterrain.game_tris(bs.terrain_tris(), S, y0)
+        TERRAIN = dterrain.Heightfield.from_tris(terrain_tris, 1.0)
+        terrain_area = TERRAIN.count()
+        print("terrain: %dx%d heightfield at 1 m from %d displacement triangles" % (TERRAIN.nx, TERRAIN.nz, len(terrain_tris)))
 
     # brush entities: solid ones are part of the world; gates are held back for the route
     gate_cands = []
@@ -1051,6 +1074,19 @@ def main(argv):
                 start_spawns.append({"at": [r3(ss["at"][0] + c * ss.get("gap", 1.4)), r3(ss["at"][1] + 0.1), r3(ss["at"][2] + r * ss.get("gap", 1.4))],
                                      "yaw": ss.get("yaw", 0.0)})
     starts = [s_["at"] for s_ in start_spawns] if ss else [src_to_game(e) for e in surv]
+    if TERRAIN:
+        # Ship the finest field that fits the budget over the ground the survivors reach (plus a
+        # margin), then walk exactly the shipped field so the walk mask matches what the game reads.
+        walked = {(a, b) for a, b, h in build_nav(boxes, starts)[2] if (a, b, h) in build_nav.tsurf}
+        if not walked:
+            sys.exit("import_bsp: the survivors reach no terrain; check the spawns and y0")
+        xs = [a * CELL for a, _ in walked]
+        zs = [b * CELL for _, b in walked]
+        near = {(a // 4, b // 4) for a, b in walked}
+        hf, size = dterrain.fit(terrain_tris, (min(xs), min(zs), max(xs) + CELL, max(zs) + CELL), int(topts.get("budget", 18000)),
+                                keep=lambda x, z: (math.floor(x / CELL) // 4, math.floor(z / CELL) // 4) in near)
+        TERRAIN = dterrain.Heightfield.decode(hf.encode(0.05))[0]
+        print("terrain: shipped %dx%d at %.1f m, %d bytes" % (TERRAIN.nx, TERRAIN.nz, TERRAIN.cell, size))
     floors, surf, seen, parent, dist = build_nav(boxes, starts)
 
     # Distant scenery (the original's backdrop pieces, its boundary walls twenty metres tall) is a
@@ -1172,6 +1208,9 @@ def main(argv):
         print("  nav_min_depth: %d floor sides grown to %.2f m" % (n_grown, nd))
     lost = {(a, b) for a, b, _ in seen} - have
     seen = seen2
+    if TERRAIN:
+        tseen = {(a, b) for a, b, h in seen if (a, b, h) in build_nav.tsurf}
+        TERRAIN_PTS = dterrain.walk_points(TERRAIN, dterrain.walk_samples(TERRAIN, tseen, CELL), 1.0)
     print("  ground: %d cells walked without props, %d with; %d of %d props kept" % (len({(a, b) for a, b, _ in seen}) + len(lost), len({(a, b) for a, b, _ in seen}), len(keep), len(cand)))
 
     # The game's own graph, worked out here (nav_emulate): a doorway a metre wide has no point in
@@ -1200,7 +1239,7 @@ def main(argv):
                 b["nav"] = False
                 under += 1
         print("  clip_underlay: %d invisible slab(s) under a floor left out of the graph" % under)
-    G = nav_emulate.Graph(boxes + bar_boxes, keep, sizes, floors)
+    G = nav_emulate.Graph(boxes + bar_boxes, keep, sizes, floors, terrain_pts=TERRAIN_PTS)
     links = list(build_nav.links)
     dead = set()
     for bid, cx, cz, thin in bar_geo:
@@ -1643,6 +1682,8 @@ def main(argv):
         sp = [s["at"] for s in spawns]
         doc["areas"]["start"] = [{"min": [r3(min(p[0] for p in sp) - 2), r3(min(p[1] for p in sp) - 0.5), r3(min(p[2] for p in sp) - 2)],
                                   "max": [r3(max(p[0] for p in sp) + 2), r3(max(p[1] for p in sp) + 3), r3(max(p[2] for p in sp) + 2)]}]
+    if TERRAIN:
+        doc["terrain"] = TERRAIN.encode(0.05, dterrain.walk_samples(TERRAIN, tseen, CELL), spec.get("terrain_mat", "dirt"))
     water = water_volumes(bs, y0, floors, spec)
     if water:
         doc["water"] = water
@@ -1663,10 +1704,10 @@ def main(argv):
         path, len(doc["boxes"]), len(bar_boxes), len(props), len(lights), len(spawns), len(zsp), len(floors), len(items), len(caches), len(posts)))
     print("  route %d points, %d objectives, %d gate boxes, %d cells reachable, end %s" % (len(route), len(objectives), len(gate_boxes), len(seen), end_area[0]["min"] if end_area else None))
     if spec.get("terrain"):
-        # A stepped field cannot be walked up a slope steeper than a step per cell, so a hilly map's reach stops at the first hill.
-        share = len(seen) * CELL * CELL / max(terrain_area, 1.0)
+        share = len(tseen) * CELL * CELL / max(terrain_area, 1.0)
+        print("  terrain: the survivors walk %.0f m2, %.1f%% of the displacements' %d m2" % (len(tseen) * CELL * CELL, share * 100, terrain_area))
         if share < 0.05:
-            print("  WARNING: the survivors' flood covers %.1f%% of the terrain: the displacements are too steep for a box field (needs triangle ground)" % (share * 100))
+            print("  WARNING: the survivors' flood covers under 5% of the terrain: check the spawns, y0 and the slope limit")
     return 0
 
 

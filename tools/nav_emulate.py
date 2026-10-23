@@ -36,7 +36,9 @@ def _is_floor(b, floors):
 
 
 class Graph:
-    def __init__(self, boxes, props, sizes, floors, spacing=1.0, clearance=0.35):
+    def __init__(self, boxes, props, sizes, floors, spacing=1.0, clearance=0.35, terrain_pts=(), slope=1.0):
+        """`terrain_pts`: the terrain's walk points (dotbsp.terrain.walk_points), joined by `slope`
+        rise per metre as DotNpcNavBuilder.add_points joins them."""
         self.spacing, self.clearance = spacing, clearance
         obs = []
         for box in boxes:
@@ -63,30 +65,34 @@ class Graph:
                 for iz in range(int(math.floor(b[2] / 4)), int(math.floor(b[5] / 4)) + 1):
                     self.cells.setdefault((ix, iz), []).append(i)
         self.pts = []
+        self.slopes = []
         seen = {}
+
+        def place(px, h, pz, slope_):
+            if self.blocked(px, h, pz):
+                return
+            ck = (int(math.floor(px / spacing)), int(math.floor(pz / spacing)))
+            for dx in (-1, 0, 1):
+                for dz in (-1, 0, 1):
+                    for j in seen.get((ck[0] + dx, ck[1] + dz), ()):
+                        q = self.pts[j]
+                        if abs(q[1] - h) <= spacing * 0.5 and math.hypot(q[0] - px, q[2] - pz) < spacing * 0.5:
+                            return
+            seen.setdefault(ck, []).append(len(self.pts))
+            self.pts.append((px, h, pz))
+            self.slopes.append(slope_)
+
         for f in floors:
             h = f[4]
             x = f[0] + spacing * 0.5
             while x < f[2]:
                 z = f[1] + spacing * 0.5
                 while z < f[3]:
-                    px, pz = x, z
+                    place(x, h, z, 0.0)
                     z += spacing
-                    if self.blocked(px, h, pz):
-                        continue
-                    ck = (int(math.floor(px / spacing)), int(math.floor(pz / spacing)))
-                    dup = False
-                    for dx in (-1, 0, 1):
-                        for dz in (-1, 0, 1):
-                            for j in seen.get((ck[0] + dx, ck[1] + dz), ()):
-                                q = self.pts[j]
-                                if abs(q[1] - h) <= spacing * 0.5 and math.hypot(q[0] - px, q[2] - pz) < spacing * 0.5:
-                                    dup = True
-                    if dup:
-                        continue
-                    seen.setdefault(ck, []).append(len(self.pts))
-                    self.pts.append((px, h, pz))
                 x += spacing
+        for p in terrain_pts:
+            place(p[0], p[1], p[2], slope)
         self.parent = list(range(len(self.pts)))
         reach = spacing * 1.5
         near = {}
@@ -103,7 +109,9 @@ class Graph:
                         # Exactly 1.5 apart is a coin toss in the game's float32, so it is not an edge here: a
                         # pair joined only by that toss is bridged by a real link instead.
                         q = self.pts[j]
-                        if (p[0] - q[0]) ** 2 + (p[1] - q[1]) ** 2 + (p[2] - q[2]) ** 2 > reach * reach - 1e-3 or abs(p[1] - q[1]) > spacing * 0.5:
+                        sl = min(self.slopes[i], self.slopes[j])
+                        rise = sl * math.hypot(p[0] - q[0], p[2] - q[2]) if sl > 0 else spacing * 0.5
+                        if (p[0] - q[0]) ** 2 + (p[1] - q[1]) ** 2 + (p[2] - q[2]) ** 2 > reach * reach - 1e-3 or abs(p[1] - q[1]) > rise:
                             continue
                         if not self.crosses(p, q):
                             self.union(i, j)

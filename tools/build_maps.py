@@ -1656,12 +1656,16 @@ def _toy_anchor(doc, anchor):
     return a[0], a[1], a[2]
 
 
-def _toy_floor(boxes, x, z, near_y):
-    """The top of the highest solid box under (x, z) no more than a metre over near_y, or None."""
+def _toy_floor(boxes, x, z, near_y, ground=None, ground_mat=None):
+    """The top of the highest solid box (or the terrain heightfield `ground`) under (x, z) no
+    more than a metre over near_y, or None."""
     best = None
     for b, lo, hi in boxes:
         if lo[0] <= x <= hi[0] and lo[2] <= z <= hi[2] and hi[1] <= near_y + 1.0 and (best is None or hi[1] > best[0]):
             best = (hi[1], b.get("mat"))
+    h = ground.height(x, z) if ground else None
+    if h is not None and h <= near_y + 1.0 and (best is None or h > best[0]):
+        best = (h, ground_mat)
     return best
 
 
@@ -1672,6 +1676,10 @@ def settle_toys(doc, hints):
         hi = [b["at"][i] + b["size"][i] / 2.0 for i in range(3)]
         solid.append((b, lo, hi))
     keep_off = [sp["at"] for sp in doc["spawns"].get("survivors", [])] + [it["at"] for it in doc.get("items", []) if "at" in it]
+    ground = None
+    if "terrain" in doc:
+        from dotbsp import terrain   # on the path whenever a converter wrote a terrain (import_bsp)
+        ground = terrain.Heightfield.decode(doc["terrain"])[0]
     placed, out = [], []
     for h in hints:
         ax, ay, az = _toy_anchor(doc, h["anchor"])
@@ -1684,7 +1692,7 @@ def settle_toys(doc, hints):
             for k in range(steps):
                 a = 2 * math.pi * k / steps
                 x, z = r(ax + h["dx"] + rr * math.cos(a)), r(az + h["dz"] + rr * math.sin(a))
-                under = [_toy_floor(solid, px, pz, ay) for px, pz in ((x, z), (x - radius, z - radius), (x + radius, z - radius), (x - radius, z + radius), (x + radius, z + radius))]
+                under = [_toy_floor(solid, px, pz, ay, ground, doc.get("terrain", {}).get("mat")) for px, pz in ((x, z), (x - radius, z - radius), (x + radius, z - radius), (x - radius, z + radius), (x + radius, z + radius))]
                 if any(u is None or u[1] in TOY_NOT_FLOOR for u in under):
                     continue
                 top = under[0][0]
