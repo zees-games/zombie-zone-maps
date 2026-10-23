@@ -45,17 +45,25 @@ def check(pack_dir):
             bad.append("%s: the .bin is not the one the manifest describes" % pack)
     except (OSError, KeyError) as e:
         bad.append("%s: no .bin: %s" % (pack, e))
-    if not isinstance(m.get("zz", {}).get("materials"), dict):
+    # A pack from dot-map's global importer carries no "zz" block (the game reads it as a global pack).
+    if "zz" in m and not isinstance(m["zz"].get("materials"), dict):
         bad.append("%s: no zz.materials" % pack)
     drawn = {s["model"] for s in m["surfaces"]}
     hulled = {h["model"] for h in m["hulls"]}
     for r in m["movers"]:
         who = "%s mover %s (%s)" % (pack, r.get("targetname") or r["entity"], r["kind"])
-        if r.get("model") is None or (r["model"] not in drawn and r["model"] not in hulled):
-            bad.append("%s: its model has neither surfaces nor hulls" % who)
-        elif r["kind"] in CARRIED and r.get("solid", True) and r["model"] not in hulled:
-            bad.append("%s: solid but has no hull" % who)
-        for k in ("origin", "mins", "maxs"):
+        if r.get("model") is None:
+            # A prop mover (a door model, not a brush) is placed from its model path.
+            if not r.get("model_path"):
+                bad.append("%s: neither a brush model nor a model_path" % who)
+            keys = ("origin",)
+        else:
+            if r["model"] not in drawn and r["model"] not in hulled:
+                bad.append("%s: its model has neither surfaces nor hulls" % who)
+            elif r["kind"] in CARRIED and r.get("solid", True) and r["model"] not in hulled:
+                bad.append("%s: solid but has no hull" % who)
+            keys = ("origin", "mins", "maxs")
+        for k in keys:
             if len(r.get(k, [])) != 3:
                 bad.append("%s: no %s" % (who, k))
     for rec in m["links"]:
