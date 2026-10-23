@@ -18362,6 +18362,58 @@
   "27 glass surfaces (kinds glass)",
   "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): CS_HAVANA/METALFENCE007A 89, HALFLIFE/{LADDER2 56, METAL/METALFIREESCAPE002A 50, CS_HAVANA/{FENCE3 14, WOOD/WOODDOOR007B 14, METAL/METALFENCE001A 6, WOOD/WOODDOOR048B 5, DE_TIDES/TIDDECCLOSED 5, MODELS/COMBINE_HELICOPTER/COMBINE_HELICOPTER_NEW_BLADEBLUR 5, MODELS/PROPS_LAB/TELEPORTGATE_FENCE 1"
  ],
+ "pickups": [
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    24.1935,
+    1.4859,
+    -4.2672
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    24.0411,
+    1.4859,
+    -4.1148
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_smokegrenade",
+   "origin": [
+    24.3269,
+    0.7811,
+    -3.9624
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_smokegrenade",
+   "origin": [
+    24.3269,
+    0.7811,
+    -4.191
+   ],
+   "props": {}
+  },
+  {
+   "angle": 211.0,
+   "classname": "weapon_p90",
+   "origin": [
+    23.9078,
+    0.4572,
+    -4.1338
+   ],
+   "props": {}
+  }
+ ],
  "props": [
   {
    "at": [
