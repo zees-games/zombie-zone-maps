@@ -12119,7 +12119,7 @@
   "model_stand_ins": [
    {
     "author": "Kenney",
-    "count": 8,
+    "count": 10,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -12173,7 +12173,7 @@
    },
    {
     "author": "Kenney",
-    "count": 13,
+    "count": 17,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -12182,7 +12182,7 @@
    },
    {
     "author": "Kenney",
-    "count": 28,
+    "count": 35,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -12227,6 +12227,33 @@
    },
    {
     "author": "Kenney",
+    "count": 3,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Factory Kit",
+    "stand_in": "factory/door",
+    "url": "https://kenney.nl/assets/factory-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 24,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Factory Kit",
+    "stand_in": "factory/pipe",
+    "url": "https://kenney.nl/assets/factory-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 23,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Factory Kit",
+    "stand_in": "factory/window",
+    "url": "https://kenney.nl/assets/factory-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 16,
     "files": [],
     "licence": "CC0-1.0",
@@ -12236,12 +12263,21 @@
    },
    {
     "author": "Kenney",
-    "count": 1,
+    "count": 8,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
     "stand_in": "fridge",
     "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 8,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Graveyard Kit",
+    "stand_in": "graveyard/lamppost",
+    "url": "https://kenney.nl/assets/graveyard-kit"
    },
    {
     "author": "Kenney",
@@ -12269,6 +12305,15 @@
     "source": "Kenney Furniture Kit",
     "stand_in": "office_chair",
     "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 6,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Prototype Kit",
+    "stand_in": "prototype/ladder",
+    "url": "https://kenney.nl/assets/prototype-kit"
    },
    {
     "author": "Kenney",
@@ -12332,6 +12377,15 @@
     "source": "Kenney Furniture Kit",
     "stand_in": "tv",
     "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 5,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Car Kit",
+    "stand_in": "vehicles/cone",
+    "url": "https://kenney.nl/assets/car-kit"
    },
    {
     "author": "Kenney",
@@ -12399,7 +12453,7 @@
    {
     "count": 1,
     "model": "models/props/de_train/de_train_windowframe_01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/window"
    },
    {
     "count": 1,
@@ -12439,12 +12493,12 @@
    {
     "count": 3,
     "model": "models/props_c17/door01_left.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/door"
    },
    {
     "count": 2,
     "model": "models/props_c17/furnitureboiler001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 5,
@@ -12479,7 +12533,7 @@
    {
     "count": 1,
     "model": "models/props_c17/furnitureradiator001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 2,
@@ -12529,7 +12583,7 @@
    {
     "count": 6,
     "model": "models/props_c17/metalladder002.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "prototype/ladder"
    },
    {
     "count": 8,
@@ -12564,7 +12618,7 @@
    {
     "count": 8,
     "model": "models/props_c17/utilitypole02b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "graveyard/lamppost"
    },
    {
     "count": 1,
@@ -12694,22 +12748,22 @@
    {
     "count": 1,
     "model": "models/props_interiors/radiator01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 2,
     "model": "models/props_interiors/refrigerator01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "fridge"
    },
    {
     "count": 3,
     "model": "models/props_interiors/refrigeratordoor01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "fridge"
    },
    {
     "count": 2,
     "model": "models/props_interiors/refrigeratordoor02a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "fridge"
    },
    {
     "count": 2,
@@ -12859,7 +12913,7 @@
    {
     "count": 5,
     "model": "models/props_junk/trafficcone001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "vehicles/cone"
    },
    {
     "count": 1,
@@ -12904,12 +12958,12 @@
    {
     "count": 3,
     "model": "models/props_lab/lab_flourescentlight001b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "ceiling_light"
    },
    {
     "count": 2,
     "model": "models/props_lab/lab_flourescentlight002b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "ceiling_light"
    },
    {
     "count": 1,
@@ -12919,7 +12973,7 @@
    {
     "count": 4,
     "model": "models/props_lab/pipesystem01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 2,
@@ -12934,57 +12988,57 @@
    {
     "count": 1,
     "model": "models/props_pipes/destroyedpipes01d.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/props_pipes/pipe01_45degree01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/props_pipes/pipe01_connector01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 2,
     "model": "models/props_pipes/pipe01_straight01_short.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 3,
     "model": "models/props_pipes/pipe02_connector01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/props_pipes/pipe02_straight01_long.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 2,
     "model": "models/props_pipes/pipe02_straight01_short.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/props_pipes/pipe02_yjoint02.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 2,
     "model": "models/props_pipes/pipecluster16d_002a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 2,
     "model": "models/props_pipes/pipecluster32d_001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 2,
     "model": "models/props_pipes/pipeset32d_256_001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
@@ -13159,7 +13213,7 @@
    {
     "count": 2,
     "model": "models/props_wasteland/horizontalcoolingtank04.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "barrel"
    },
    {
     "count": 1,
@@ -13189,27 +13243,27 @@
    {
     "count": 1,
     "model": "models/props_wasteland/pipecluster001c.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/props_wasteland/pipecluster003a_small.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 5,
     "model": "models/props_wasteland/plasterwall029c_window01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/window"
    },
    {
     "count": 11,
     "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/window"
    },
    {
     "count": 6,
     "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/window"
    },
    {
     "count": 1,
@@ -13234,12 +13288,12 @@
    {
     "count": 1,
     "model": "models/props_wasteland/prison_flourescentlight001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "ceiling_light"
    },
    {
     "count": 1,
     "model": "models/props_wasteland/prison_flourescentlight001c.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "ceiling_light"
    },
    {
     "count": 2,
@@ -13358,18 +13412,18 @@
      0.375,
      0.25
     ],
-    "file": "surfaces/ground",
-    "generic": "mud",
+    "file": "surfaces/sand",
+    "generic": "sand",
     "how": "table",
-    "key": "ground:mud",
-    "kind": "ground",
+    "key": "sand:sand",
+    "kind": "sand",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
      "nature/blendsandsand008b_wvt_patch"
     ],
     "surfaces": 87,
-    "url": "https://ambientcg.com/view?id=Ground037"
+    "url": "https://ambientcg.com/view?id=Ground080"
    },
    {
     "author": "TMC (generated)",
@@ -13448,11 +13502,11 @@
      0.375,
      0.25
     ],
-    "file": "surfaces/concrete_clean",
-    "generic": "stone_wall",
+    "file": "surfaces/rock",
+    "generic": "rock",
     "how": "table",
-    "key": "concrete_clean:stone_wall",
-    "kind": "concrete_clean",
+    "key": "rock:rock",
+    "kind": "rock",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
@@ -13461,7 +13515,7 @@
      "nature/rockwall006a"
     ],
     "surfaces": 44,
-    "url": "https://ambientcg.com/view?id=Concrete034"
+    "url": "https://ambientcg.com/view?id=Rock023"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -13554,11 +13608,11 @@
      0.625,
      0.5
     ],
-    "file": "surfaces/plaster",
+    "file": "surfaces/plaster_worn",
     "generic": "plaster_worn",
     "how": "table",
-    "key": "plaster:plaster_worn",
-    "kind": "plaster",
+    "key": "plaster_worn:plaster_worn",
+    "kind": "plaster_worn",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
@@ -13579,7 +13633,7 @@
      "plaster/plasterwall050a"
     ],
     "surfaces": 25,
-    "url": "https://ambientcg.com/view?id=PaintedPlaster017"
+    "url": "https://ambientcg.com/view?id=Plaster003"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -13588,11 +13642,11 @@
      0.375,
      0.25
     ],
-    "file": "surfaces/tile_dark",
-    "generic": "roof_tiles",
+    "file": "surfaces/roof_clay",
+    "generic": "roof_clay",
     "how": "table",
-    "key": "tile_dark:roof_tiles",
-    "kind": "tile_dark",
+    "key": "roof_clay:roof_clay",
+    "kind": "roof_clay",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
@@ -13600,7 +13654,7 @@
      "tile/tileroof004b"
     ],
     "surfaces": 12,
-    "url": "https://ambientcg.com/view?id=Tiles138"
+    "url": "https://ambientcg.com/view?id=RoofingTiles014A"
    },
    {
     "author": "TMC (generated)",
@@ -13806,25 +13860,25 @@
     "url": "generated by tools/bsp/dotbsp/textures.py"
    },
    {
-    "author": "Lennart Demes and contributors",
+    "author": "Rob Tuytel",
     "colour": [
      0.75,
      0.75,
      0.625
     ],
-    "file": "surfaces/plaster",
-    "generic": "wallpaper",
+    "file": "surfaces/wallpaper_decrepit",
+    "generic": "wallpaper_decrepit",
     "how": "table",
-    "key": "plaster:wallpaper",
-    "kind": "plaster",
+    "key": "wallpaper_decrepit:wallpaper_decrepit",
+    "kind": "wallpaper_decrepit",
     "licence": "CC0-1.0",
-    "source": "ambientCG",
+    "source": "Poly Haven",
     "sources": [
      "plaster/plasterwallpaper004a",
      "plaster/plasterwallpaper006a"
     ],
     "surfaces": 4,
-    "url": "https://ambientcg.com/view?id=PaintedPlaster017"
+    "url": "https://polyhaven.com/a/decrepit_wallpaper"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -14598,6 +14652,102 @@
  ],
  "movers": [
   {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 144,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -35.0139,
+    7.1247,
+    -70.3517
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 180.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 146,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -29.6799,
+    7.1247,
+    -66.5798
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 0.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 265,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    21.717,
+    3.0915,
+    -71.1137
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 0.0
+  },
+  {
    "classname": "func_button",
    "direction": [
     1.0,
@@ -14888,47 +15038,68 @@
    "wait": -1.0
   }
  ],
- "movers_without_geometry": [
-  {
-   "classname": "prop_door_rotating",
-   "entity": 144,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    -35.0139,
-    7.1247,
-    -70.3517
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 146,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    -29.6799,
-    7.1247,
-    -66.5798
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 265,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    21.717,
-    3.0915,
-    -71.1137
-   ],
-   "targetname": ""
-  }
- ],
+ "movers_without_geometry": [],
  "name": "zs_erosion_b1",
  "notes": [
   "40 glass surfaces (kinds glass)",
   "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): WOOD/WOODWALL019A 5"
  ],
+ "pickups": [
+  {
+   "angle": -90.0,
+   "classname": "item_healthkit",
+   "origin": [
+    -45.5295,
+    1.7526,
+    -52.9971
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_battleaxe",
+   "origin": [
+    2.9718,
+    2.0574,
+    -59.0169
+   ],
+   "props": {}
+  }
+ ],
  "props": [
+  {
+   "at": [
+    -34.0614,
+    7.5438,
+    -65.9511
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -34.0614,
+    7.5438,
+    -65.9511
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    26.289,
+    2.667,
+    -73.514
+   ],
+   "model": "models/props_c17/furnitureradiator001a.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 270.0
+  },
   {
    "at": [
     38.7858,
@@ -15038,6 +15209,61 @@
    "scale": 1.0,
    "stand_in": "fence",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    23.3172,
+    1.6764,
+    -54.7116
+   ],
+   "model": "models/props_junk/trafficcone001a.mdl",
+   "scale": 1.0,
+   "stand_in": "vehicles/cone",
+   "yaw": 105.0
+  },
+  {
+   "at": [
+    30.3461,
+    1.5089,
+    -52.1572
+   ],
+   "model": "models/props_junk/trafficcone001a.mdl",
+   "scale": 1.0,
+   "stand_in": "vehicles/cone",
+   "yaw": 335.0
+  },
+  {
+   "at": [
+    27.6987,
+    1.524,
+    -54.0929
+   ],
+   "model": "models/props_junk/trafficcone001a.mdl",
+   "scale": 1.0,
+   "stand_in": "vehicles/cone",
+   "yaw": 120.0
+  },
+  {
+   "at": [
+    -23.3934,
+    0.1149,
+    -27.4943
+   ],
+   "model": "models/props_interiors/refrigeratordoor01a.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -23.3934,
+    -0.1524,
+    -27.7368
+   ],
+   "model": "models/props_interiors/refrigeratordoor02a.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 90.0
   },
   {
    "at": [
@@ -15261,6 +15487,17 @@
   },
   {
    "at": [
+    73.9902,
+    0.4572,
+    13.4112
+   ],
+   "model": "models/props_interiors/refrigeratordoor02a.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 295.0
+  },
+  {
+   "at": [
     23.241,
     2.3791,
     -73.0758
@@ -15367,6 +15604,17 @@
    "model": "models/props_debris/concrete_chunk02b.mdl",
    "scale": 1.0,
    "stand_in": "rock",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -23.3934,
+    0.3429,
+    -26.8224
+   ],
+   "model": "models/props_interiors/refrigerator01a.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
    "yaw": 0.0
   },
   {
@@ -15521,6 +15769,17 @@
    "model": "models/props_lab/monitor02.mdl",
    "scale": 1.0,
    "stand_in": "monitor",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -24.8031,
+    0.0,
+    -27.6606
+   ],
+   "model": "models/props_interiors/radiator01a.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
    "yaw": 0.0
   },
   {
@@ -16042,6 +16301,17 @@
   },
   {
    "at": [
+    74.2188,
+    0.1524,
+    13.335
+   ],
+   "model": "models/props_interiors/refrigeratordoor01a.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 295.0
+  },
+  {
+   "at": [
     74.295,
     -0.2286,
     13.4112
@@ -16204,6 +16474,28 @@
    "scale": 1.0,
    "stand_in": "crate",
    "yaw": 5.0
+  },
+  {
+   "at": [
+    20.1168,
+    1.524,
+    -53.9115
+   ],
+   "model": "models/props_junk/trafficcone001a.mdl",
+   "scale": 1.0,
+   "stand_in": "vehicles/cone",
+   "yaw": 115.0
+  },
+  {
+   "at": [
+    18.8976,
+    1.5089,
+    -52.4256
+   ],
+   "model": "models/props_junk/trafficcone001a.mdl",
+   "scale": 1.0,
+   "stand_in": "vehicles/cone",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -16735,6 +17027,50 @@
   },
   {
    "at": [
+    74.0218,
+    0.3311,
+    13.2957
+   ],
+   "model": "models/props_interiors/refrigeratordoor01a.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 295.0
+  },
+  {
+   "at": [
+    27.432,
+    3.2766,
+    -69.4182
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    23.4696,
+    3.2766,
+    -69.4182
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    26.0604,
+    3.2766,
+    -76.581
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -47.2312,
     20.5315,
     -22.9183
@@ -16812,6 +17148,17 @@
   },
   {
    "at": [
+    21.717,
+    3.2766,
+    -70.2564
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     12.8016,
     -6.8199,
     -20.5359
@@ -16856,6 +17203,17 @@
   },
   {
    "at": [
+    21.717,
+    3.2766,
+    -72.8472
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     25.0698,
     -7.62,
     -6.7628
@@ -16897,6 +17255,17 @@
    "scale": 1.0,
    "stand_in": "crate",
    "yaw": 194.5
+  },
+  {
+   "at": [
+    23.6601,
+    -6.5723,
+    -17.8308
+   ],
+   "model": "models/props_interiors/refrigerator01a.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 304.5
   },
   {
    "at": [
@@ -17040,6 +17409,83 @@
    "scale": 1.0,
    "stand_in": "rock",
    "yaw": 287.14
+  },
+  {
+   "at": [
+    -33.648,
+    9.7536,
+    -14.202
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 315.0
+  },
+  {
+   "at": [
+    -33.6476,
+    7.3152,
+    -14.2014
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 315.0
+  },
+  {
+   "at": [
+    -33.648,
+    4.8768,
+    -14.202
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 315.0
+  },
+  {
+   "at": [
+    -33.648,
+    2.4374,
+    -14.202
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 315.0
+  },
+  {
+   "at": [
+    -33.6476,
+    0.0012,
+    -14.2014
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 315.0
+  },
+  {
+   "at": [
+    -33.648,
+    -2.435,
+    -14.202
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 315.0
+  },
+  {
+   "at": [
+    23.7744,
+    3.2766,
+    -76.581
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -17219,6 +17665,50 @@
   },
   {
    "at": [
+    5.0292,
+    -5.4864,
+    -2.0574
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    7.4676,
+    -5.4864,
+    -2.0574
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    3.8862,
+    -5.4864,
+    -5.0292
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    5.0292,
+    -5.4864,
+    -6.1722
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -48.768,
     1.2954,
     -8.5344
@@ -17252,6 +17742,17 @@
   },
   {
    "at": [
+    -21.9456,
+    1.2192,
+    -15.8877
+   ],
+   "model": "models/props/de_train/de_train_windowframe_01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     -80.01,
     0.762,
     -1.3716
@@ -17260,6 +17761,17 @@
    "scale": 1.0,
    "stand_in": "vehicles/truck",
    "yaw": 150.0
+  },
+  {
+   "at": [
+    49.0538,
+    6.9533,
+    -72.8472
+   ],
+   "model": "models/props_pipes/pipeset32d_256_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -17274,6 +17786,17 @@
   },
   {
    "at": [
+    29.1846,
+    3.2766,
+    -72.9615
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     -25.6032,
     2.1907,
     -49.8539
@@ -17282,6 +17805,50 @@
    "scale": 1.0,
    "stand_in": "vehicles/truck",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    22.3838,
+    1.4097,
+    -75.0189
+   ],
+   "model": "models/props_wasteland/pipecluster001c.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    25.3365,
+    2.9176,
+    -69.7992
+   ],
+   "model": "models/props_c17/furnitureboiler001a.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -17.6784,
+    0.4953,
+    -31.6992
+   ],
+   "model": "models/props_wasteland/horizontalcoolingtank04.mdl",
+   "scale": 1.0,
+   "stand_in": "barrel",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    8.4582,
+    -5.4864,
+    -5.0292
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -17307,6 +17874,149 @@
   },
   {
    "at": [
+    50.4444,
+    4.5149,
+    -76.1048
+   ],
+   "model": "models/props_pipes/pipe01_45degree01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    50.4444,
+    4.8768,
+    -75.5904
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    50.4444,
+    4.8006,
+    -76.1048
+   ],
+   "model": "models/props_pipes/pipe01_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    50.4444,
+    4.572,
+    -75.6666
+   ],
+   "model": "models/props_pipes/pipe02_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    50.4444,
+    4.3053,
+    -75.8952
+   ],
+   "model": "models/props_pipes/pipe01_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    50.4444,
+    4.0957,
+    -75.6666
+   ],
+   "model": "models/props_pipes/pipe02_yjoint02.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    50.4444,
+    2.4384,
+    -75.5904
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    50.4444,
+    3.3528,
+    -75.5904
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    50.4444,
+    3.6766,
+    -75.6666
+   ],
+   "model": "models/props_pipes/pipe02_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    50.4444,
+    2.8956,
+    -75.6666
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    47.3964,
+    6.5532,
+    -73.7616
+   ],
+   "model": "models/props_wasteland/prison_flourescentlight001c.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 285.0
+  },
+  {
+   "at": [
+    -24.5745,
+    -0.0572,
+    -19.2596
+   ],
+   "model": "models/props_wasteland/pipecluster003a_small.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -22.098,
+    0.1524,
+    -15.5448
+   ],
+   "model": "models/props_pipes/pipecluster16d_002a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     48.006,
     3.791,
     -84.1248
@@ -17315,6 +18025,28 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 90.0
+  },
+  {
+   "at": [
+    48.006,
+    4.4005,
+    -83.7629
+   ],
+   "model": "models/props_pipes/pipeset32d_256_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    50.4444,
+    4.8768,
+    -76.1048
+   ],
+   "model": "models/props_pipes/pipe01_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -17384,6 +18116,17 @@
   },
   {
    "at": [
+    47.3964,
+    6.7056,
+    -71.9328
+   ],
+   "model": "models/props_wasteland/prison_flourescentlight001a.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     35.3568,
     2.667,
     -73.1139
@@ -17392,6 +18135,17 @@
    "scale": 1.0,
    "stand_in": "fence",
    "yaw": 180.0
+  },
+  {
+   "at": [
+    49.53,
+    1.7717,
+    -79.5528
+   ],
+   "model": "models/props_pipes/destroyedpipes01d.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -17450,6 +18204,17 @@
   },
   {
    "at": [
+    -26.2128,
+    0.4953,
+    -31.6992
+   ],
+   "model": "models/props_wasteland/horizontalcoolingtank04.mdl",
+   "scale": 1.0,
+   "stand_in": "barrel",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -40.8432,
     0.9906,
     -28.1178
@@ -17494,6 +18259,17 @@
   },
   {
    "at": [
+    41.2242,
+    3.6488,
+    -76.8287
+   ],
+   "model": "models/props_pipes/pipecluster32d_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     41.6052,
     3.6576,
     -30.9372
@@ -17527,6 +18303,17 @@
   },
   {
    "at": [
+    -32.9565,
+    7.5438,
+    -74.4855
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -27.0891,
     8.4582,
     -70.8089
@@ -17546,6 +18333,17 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    -30.0609,
+    6.9533,
+    -68.8467
+   ],
+   "model": "models/props_c17/furnitureboiler001a.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -17579,6 +18377,39 @@
    "scale": 1.0,
    "stand_in": "fence",
    "yaw": 15.0
+  },
+  {
+   "at": [
+    -28.6512,
+    4.4005,
+    -24.384
+   ],
+   "model": "models/props_lab/lab_flourescentlight001b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -21.9456,
+    4.4005,
+    -24.384
+   ],
+   "model": "models/props_lab/lab_flourescentlight001b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -15.24,
+    4.4005,
+    -24.384
+   ],
+   "model": "models/props_lab/lab_flourescentlight001b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -17659,6 +18490,17 @@
   },
   {
    "at": [
+    42.5958,
+    3.6488,
+    -76.8287
+   ],
+   "model": "models/props_pipes/pipecluster32d_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     21.6027,
     3.7338,
     -72.3138
@@ -17667,6 +18509,17 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 180.0
+  },
+  {
+   "at": [
+    29.1846,
+    3.2766,
+    -70.3326
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -17714,6 +18567,127 @@
   },
   {
    "at": [
+    27.432,
+    3.2766,
+    -69.4182
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    23.4696,
+    3.2766,
+    -69.4182
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    26.0604,
+    3.2766,
+    -76.581
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    10.5728,
+    -0.1143,
+    -59.817
+   ],
+   "model": "models/props_c17/utilitypole02b.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -10.9157,
+    -0.1143,
+    -59.817
+   ],
+   "model": "models/props_c17/utilitypole02b.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -35.2234,
+    -0.1143,
+    -57.0929
+   ],
+   "model": "models/props_c17/utilitypole02b.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 220.0
+  },
+  {
+   "at": [
+    27.1272,
+    -0.1143,
+    -59.817
+   ],
+   "model": "models/props_c17/utilitypole02b.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -37.338,
+    -0.8403,
+    -35.6473
+   ],
+   "model": "models/props_c17/utilitypole02b.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -38.862,
+    -1.6427,
+    -11.9634
+   ],
+   "model": "models/props_c17/utilitypole02b.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 65.5
+  },
+  {
+   "at": [
+    -59.7408,
+    0.0,
+    0.4572
+   ],
+   "model": "models/props_c17/utilitypole02b.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -96.3168,
+    0.0,
+    0.4572
+   ],
+   "model": "models/props_c17/utilitypole02b.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     39.5097,
     9.9822,
     -61.5696
@@ -17747,6 +18721,28 @@
   },
   {
    "at": [
+    28.956,
+    2.8004,
+    -69.323
+   ],
+   "model": "models/props_lab/pipesystem01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    28.956,
+    1.5812,
+    -69.323
+   ],
+   "model": "models/props_lab/pipesystem01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     -30.0228,
     7.7389,
     -65.8559
@@ -17754,6 +18750,28 @@
    "model": "models/props_lab/powerbox02a.mdl",
    "scale": 1.0,
    "stand_in": "cabinet",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -30.0228,
+    6.9197,
+    -65.8559
+   ],
+   "model": "models/props_lab/pipesystem01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -30.0228,
+    5.7005,
+    -65.8559
+   ],
+   "model": "models/props_lab/pipesystem01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
    "yaw": 270.0
   },
   {
@@ -17769,6 +18787,39 @@
   },
   {
    "at": [
+    -30.7277,
+    7.5438,
+    -65.9511
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    21.717,
+    3.2766,
+    -70.2564
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    21.717,
+    3.2766,
+    -72.8472
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     28.2893,
     1.6574,
     -77.8002
@@ -17777,6 +18828,17 @@
    "scale": 1.0,
    "stand_in": "rock",
    "yaw": 86.5
+  },
+  {
+   "at": [
+    37.4523,
+    1.5812,
+    -75.8571
+   ],
+   "model": "models/props_pipes/pipecluster16d_002a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -17865,6 +18927,28 @@
    "scale": 1.0,
    "stand_in": "toilet",
    "yaw": 37.5
+  },
+  {
+   "at": [
+    43.2816,
+    3.3528,
+    -51.2636
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    40.1765,
+    5.0292,
+    -74.0664
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -18043,6 +19127,7 @@
    "yaw": 63.5
   }
  ],
+ "scripts": [],
  "settings": {},
  "skipped": {
   "face:tools/toolsskybox": 375,
@@ -19181,8 +20266,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 192,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -19264,8 +20349,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 24,
    "index_offset": 1008,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -19347,8 +20432,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 2064,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -19430,8 +20515,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 24,
    "index_offset": 2880,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -19513,8 +20598,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 3936,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -19596,8 +20681,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 6,
    "index_offset": 4592,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -19679,8 +20764,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 5112,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -19762,8 +20847,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 6,
    "index_offset": 5768,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -19845,8 +20930,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 6288,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -19928,8 +21013,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 6,
    "index_offset": 6944,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -20065,8 +21150,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 18,
    "index_offset": 10540,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -20150,8 +21235,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 96,
    "index_offset": 11892,
    "material": "nature/rockwall006a",
@@ -20204,8 +21289,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 27,
    "index_offset": 13296,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -20314,8 +21399,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 14516,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -20397,8 +21482,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 24,
    "index_offset": 15332,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -20480,8 +21565,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 16388,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -20590,8 +21675,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 24,
    "index_offset": 17540,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -20704,8 +21789,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 192,
    "index_offset": 22084,
    "material": "nature/rockwall003a",
@@ -20733,8 +21818,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 96,
    "index_offset": 23652,
    "material": "nature/rockwall006a",
@@ -20814,8 +21899,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 36,
    "index_offset": 26952,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -20926,8 +22011,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 30264,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -21009,8 +22094,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 24,
    "index_offset": 31080,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -21092,8 +22177,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 32136,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -21256,8 +22341,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 36564,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -21339,7 +22424,7 @@
     0.5551
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 18,
    "index_offset": 37348,
@@ -21366,7 +22451,7 @@
     0.6493
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 30,
    "index_offset": 37804,
@@ -21393,7 +22478,7 @@
     0.5038
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 63,
    "index_offset": 38788,
@@ -21420,7 +22505,7 @@
     0.7404
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 105,
    "index_offset": 40352,
@@ -21447,7 +22532,7 @@
     0.7173
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 141,
    "index_offset": 42468,
@@ -21474,8 +22559,8 @@
     0.2788
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 12,
    "index_offset": 43288,
    "material": "tile/tileroof004a",
@@ -21501,8 +22586,8 @@
     0.2788
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 9,
    "index_offset": 43496,
    "material": "tile/tileroof004a",
@@ -21716,8 +22801,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 192,
    "index_offset": 54700,
    "material": "nature/rockwall006a",
@@ -21824,8 +22909,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 6,
    "index_offset": 58160,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -21938,8 +23023,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 1344,
    "index_offset": 82040,
    "material": "nature/rockwall006a",
@@ -22316,8 +23401,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 33,
    "index_offset": 130932,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -22706,8 +23791,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 576,
    "index_offset": 168608,
    "material": "nature/cliffface001a",
@@ -22735,8 +23820,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 96,
    "index_offset": 171712,
    "material": "nature/rockwall003a",
@@ -22764,8 +23849,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 672,
    "index_offset": 177696,
    "material": "nature/rockwall006a",
@@ -22845,8 +23930,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 27,
    "index_offset": 181928,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -22955,8 +24040,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 182860,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -23038,8 +24123,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 24,
    "index_offset": 183500,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -23121,8 +24206,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 9,
    "index_offset": 184236,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -23204,8 +24289,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 6,
    "index_offset": 184704,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -23289,8 +24374,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 96,
    "index_offset": 185832,
    "material": "nature/rockwall006a",
@@ -23316,8 +24401,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 186408,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -23401,8 +24486,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 192,
    "index_offset": 188536,
    "material": "nature/cliffface001a",
@@ -23430,8 +24515,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 96,
    "index_offset": 190104,
    "material": "nature/rockwall006a",
@@ -23457,8 +24542,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 6,
    "index_offset": 190616,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -23542,8 +24627,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 96,
    "index_offset": 191744,
    "material": "nature/cliffface001a",
@@ -23571,8 +24656,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 192,
    "index_offset": 193728,
    "material": "nature/rockwall006a",
@@ -23598,8 +24683,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 18,
    "index_offset": 194752,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -23683,8 +24768,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 192,
    "index_offset": 197080,
    "material": "nature/cliffface001a",
@@ -23712,8 +24797,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 192,
    "index_offset": 199448,
    "material": "nature/rockwall006a",
@@ -23875,8 +24960,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 27,
    "index_offset": 204976,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -23958,7 +25043,7 @@
     0.6493
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 12,
    "index_offset": 206132,
@@ -23985,7 +25070,7 @@
     0.5038
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 15,
    "index_offset": 206468,
@@ -24012,7 +25097,7 @@
     0.7404
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 75,
    "index_offset": 207584,
@@ -24039,7 +25124,7 @@
     0.7173
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 51,
    "index_offset": 208812,
@@ -24066,8 +25151,8 @@
     0.2788
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 6,
    "index_offset": 209144,
    "material": "tile/tileroof004a",
@@ -24340,8 +25425,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 192,
    "index_offset": 224888,
    "material": "nature/cliffface001a",
@@ -24369,8 +25454,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 672,
    "index_offset": 231256,
    "material": "nature/rockwall006a",
@@ -24752,8 +25837,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 252220,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -24974,8 +26059,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 480,
    "index_offset": 286884,
    "material": "nature/cliffface001a",
@@ -25003,8 +26088,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 1248,
    "index_offset": 297988,
    "material": "nature/rockwall006a",
@@ -26057,8 +27142,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 24,
    "index_offset": 519596,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -26441,8 +27526,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 768,
    "index_offset": 548300,
    "material": "nature/cliffface001a",
@@ -26470,8 +27555,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 96,
    "index_offset": 552172,
    "material": "nature/rockwall006a",
@@ -26497,8 +27582,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 24,
    "index_offset": 552844,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -26580,8 +27665,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 553900,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -26663,8 +27748,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 24,
    "index_offset": 554716,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -26746,8 +27831,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 555772,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -26829,8 +27914,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 556492,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -26912,8 +27997,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 24,
    "index_offset": 557308,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -26995,8 +28080,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 558364,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -27078,8 +28163,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 24,
    "index_offset": 559180,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -27269,8 +28354,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 27,
    "index_offset": 574372,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -27352,7 +28437,7 @@
     0.6493
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 138,
    "index_offset": 576912,
@@ -27379,7 +28464,7 @@
     0.4134
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 6,
    "index_offset": 577592,
@@ -27406,7 +28491,7 @@
     0.5345
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 348,
    "index_offset": 581840,
@@ -27433,7 +28518,7 @@
     0.6019
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 57,
    "index_offset": 584032,
@@ -27460,7 +28545,7 @@
     0.5708
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 519,
    "index_offset": 590116,
@@ -27487,8 +28572,8 @@
     0.6382
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
-   "generic": "wallpaper",
+   "free": "wallpaper_decrepit:wallpaper_decrepit",
+   "generic": "wallpaper_decrepit",
    "index_count": 78,
    "index_offset": 593344,
    "material": "plaster/plasterwallpaper004a",
@@ -27514,8 +28599,8 @@
     0.6382
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
-   "generic": "wallpaper",
+   "free": "wallpaper_decrepit:wallpaper_decrepit",
+   "generic": "wallpaper_decrepit",
    "index_count": 24,
    "index_offset": 594040,
    "material": "plaster/plasterwallpaper004a",
@@ -27568,8 +28653,8 @@
     0.2465
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 21,
    "index_offset": 595320,
    "material": "tile/tileroof004b",
@@ -27595,8 +28680,8 @@
     0.2465
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 21,
    "index_offset": 595756,
    "material": "tile/tileroof004b",
@@ -27622,8 +28707,8 @@
     0.2465
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 15,
    "index_offset": 596128,
    "material": "tile/tileroof004b",
@@ -28033,8 +29118,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 480,
    "index_offset": 626332,
    "material": "nature/cliffface001a",
@@ -28470,8 +29555,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 661372,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -28611,8 +29696,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 480,
    "index_offset": 704164,
    "material": "nature/cliffface001a",
@@ -28665,8 +29750,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 24,
    "index_offset": 707284,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -28748,7 +29833,7 @@
     0.6512
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 210,
    "index_offset": 710324,
@@ -28775,7 +29860,7 @@
     0.6019
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 30,
    "index_offset": 711612,
@@ -28802,7 +29887,7 @@
     0.5541
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 66,
    "index_offset": 712372,
@@ -28829,7 +29914,7 @@
     0.5541
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 93,
    "index_offset": 713628,
@@ -28856,7 +29941,7 @@
     0.5541
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 42,
    "index_offset": 714448,
@@ -28883,7 +29968,7 @@
     0.5708
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 45,
    "index_offset": 715288,
@@ -28910,7 +29995,7 @@
     0.6073
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 42,
    "index_offset": 715980,
@@ -28937,8 +30022,8 @@
     0.2465
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 18,
    "index_offset": 716532,
    "material": "tile/tileroof004b",
@@ -28964,8 +30049,8 @@
     0.2465
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 6,
    "index_offset": 716732,
    "material": "tile/tileroof004b",
@@ -29400,8 +30485,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 576,
    "index_offset": 835040,
    "material": "nature/cliffface001a",
@@ -29429,8 +30514,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 576,
    "index_offset": 842144,
    "material": "nature/rockwall006a",
@@ -29456,8 +30541,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 24,
    "index_offset": 844736,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -29541,8 +30626,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 96,
    "index_offset": 846400,
    "material": "nature/rockwall006a",
@@ -29568,8 +30653,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 846976,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -29651,8 +30736,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 24,
    "index_offset": 847792,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -29734,8 +30819,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 848848,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -29817,8 +30902,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 6,
    "index_offset": 849504,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -29900,8 +30985,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 850024,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -29983,8 +31068,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 6,
    "index_offset": 850680,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -30066,8 +31151,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 851200,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -30151,8 +31236,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 288,
    "index_offset": 854304,
    "material": "nature/cliffface001a",
@@ -30180,8 +31265,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 288,
    "index_offset": 857856,
    "material": "nature/rockwall006a",
@@ -30531,8 +31616,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 27,
    "index_offset": 892904,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -30889,8 +31974,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 288,
    "index_offset": 903036,
    "material": "nature/cliffface001a",
@@ -30918,8 +32003,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 384,
    "index_offset": 907228,
    "material": "nature/rockwall006a",
@@ -31107,8 +32192,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 916944,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -31272,8 +32357,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 96,
    "index_offset": 925616,
    "material": "nature/cliffface001a",
@@ -31301,8 +32386,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 768,
    "index_offset": 932272,
    "material": "nature/rockwall006a",
@@ -31328,8 +32413,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 21,
    "index_offset": 935632,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -31442,8 +32527,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 288,
    "index_offset": 940044,
    "material": "nature/cliffface001a",
@@ -31471,8 +32556,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 672,
    "index_offset": 946540,
    "material": "nature/rockwall006a",
@@ -31498,8 +32583,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 949420,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -31581,8 +32666,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 6,
    "index_offset": 950076,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -31664,8 +32749,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 950596,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -31747,8 +32832,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 6,
    "index_offset": 951252,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -31830,8 +32915,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 951772,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -31913,8 +32998,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 24,
    "index_offset": 952588,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -31996,8 +33081,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 953644,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -32079,8 +33164,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 39,
    "index_offset": 954588,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -32164,8 +33249,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 288,
    "index_offset": 958288,
    "material": "nature/cliffface001a",
@@ -32193,8 +33278,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 288,
    "index_offset": 961840,
    "material": "nature/rockwall006a",
@@ -32220,8 +33305,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 27,
    "index_offset": 963312,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -32305,8 +33390,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 576,
    "index_offset": 969076,
    "material": "nature/rockwall006a",
@@ -32386,8 +33471,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 24,
    "index_offset": 973568,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -32550,7 +33635,7 @@
     0.7646
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 48,
    "index_offset": 977100,
@@ -32577,7 +33662,7 @@
     0.7173
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 132,
    "index_offset": 979084,
@@ -32604,7 +33689,7 @@
     0.7029
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 138,
    "index_offset": 981596,
@@ -32631,7 +33716,7 @@
     0.681
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 60,
    "index_offset": 982852,
@@ -32658,8 +33743,8 @@
     0.6382
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
-   "generic": "wallpaper",
+   "free": "wallpaper_decrepit:wallpaper_decrepit",
+   "generic": "wallpaper_decrepit",
    "index_count": 84,
    "index_offset": 984436,
    "material": "plaster/plasterwallpaper004a",
@@ -32685,8 +33770,8 @@
     0.6975
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
-   "generic": "wallpaper",
+   "free": "wallpaper_decrepit:wallpaper_decrepit",
+   "generic": "wallpaper_decrepit",
    "index_count": 282,
    "index_offset": 988772,
    "material": "plaster/plasterwallpaper006a",
@@ -32712,8 +33797,8 @@
     0.2788
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 27,
    "index_offset": 990444,
    "material": "tile/tileroof004a",
@@ -32739,8 +33824,8 @@
     0.2788
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 21,
    "index_offset": 990904,
    "material": "tile/tileroof004a",
@@ -32766,8 +33851,8 @@
     0.2788
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 15,
    "index_offset": 991212,
    "material": "tile/tileroof004a",
@@ -32793,8 +33878,8 @@
     0.2788
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 51,
    "index_offset": 992008,
    "material": "tile/tileroof004a",
@@ -32959,8 +34044,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 384,
    "index_offset": 1019040,
    "material": "nature/rockwall006a",
@@ -32986,8 +34071,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 1020768,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -33069,8 +34154,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 24,
    "index_offset": 1021584,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -33152,8 +34237,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 1022640,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -33235,8 +34320,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 1023360,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -33318,8 +34403,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 24,
    "index_offset": 1024176,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -33401,8 +34486,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 1025232,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -33484,8 +34569,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 36,
    "index_offset": 1026144,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -33569,8 +34654,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 288,
    "index_offset": 1029744,
    "material": "nature/cliffface001a",
@@ -33598,8 +34683,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 288,
    "index_offset": 1033296,
    "material": "nature/rockwall006a",
@@ -33625,8 +34710,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 24,
    "index_offset": 1034736,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -33710,8 +34795,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 576,
    "index_offset": 1040400,
    "material": "nature/rockwall006a",
@@ -33737,8 +34822,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 24,
    "index_offset": 1042992,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -33820,8 +34905,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 1044048,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -33903,8 +34988,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 24,
    "index_offset": 1044864,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -33986,8 +35071,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 1045920,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -34069,8 +35154,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 6,
    "index_offset": 1046576,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -34152,8 +35237,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 1047096,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -34235,8 +35320,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 6,
    "index_offset": 1047752,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -34318,8 +35403,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 18,
    "index_offset": 1048336,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -34403,8 +35488,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 192,
    "index_offset": 1050664,
    "material": "nature/cliffface001a",
@@ -34432,8 +35517,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 192,
    "index_offset": 1053032,
    "material": "nature/rockwall006a",
@@ -34459,8 +35544,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 1053992,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -34544,8 +35629,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 384,
    "index_offset": 1057720,
    "material": "nature/rockwall006a",
@@ -34571,8 +35656,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 1059448,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -34654,8 +35739,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 6,
    "index_offset": 1060104,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -34737,8 +35822,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 12,
    "index_offset": 1060624,
    "material": "nature/blendsandsand008b_wvt_patch",
@@ -34820,8 +35905,8 @@
     0.2663
    ],
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "sand:sand",
+   "generic": "sand",
    "index_count": 6,
    "index_offset": 1061280,
    "material": "nature/blendsandsand008b_wvt_patch",

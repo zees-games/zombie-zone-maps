@@ -10624,7 +10624,7 @@
    },
    {
     "author": "Kenney",
-    "count": 13,
+    "count": 15,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -10666,6 +10666,15 @@
     "source": "Kenney Furniture Kit",
     "stand_in": "fridge",
     "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Pirate Kit",
+    "stand_in": "pirate/boat",
+    "url": "https://kenney.nl/assets/pirate-kit"
    },
    {
     "author": "Kenney",
@@ -11001,7 +11010,7 @@
    {
     "count": 2,
     "model": "models/props_lab/lab_flourescentlight002b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "ceiling_light"
    },
    {
     "count": 1,
@@ -11051,7 +11060,7 @@
    {
     "count": 1,
     "model": "models/props_wasteland/boat_fishing01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "pirate/boat"
    },
    {
     "count": 6,
@@ -11180,11 +11189,11 @@
      0.875,
      0.875
     ],
-    "file": "surfaces/plaster",
+    "file": "surfaces/wallpaper",
     "generic": "wallpaper",
     "how": "table",
-    "key": "plaster:wallpaper",
-    "kind": "plaster",
+    "key": "wallpaper:wallpaper",
+    "kind": "wallpaper",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
@@ -11195,7 +11204,7 @@
      "de_chateau/wall02b"
     ],
     "surfaces": 11,
-    "url": "https://ambientcg.com/view?id=PaintedPlaster017"
+    "url": "https://ambientcg.com/view?id=Wallpaper002A"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -11204,23 +11213,42 @@
      0.5,
      0.375
     ],
-    "file": "surfaces/concrete_clean",
+    "file": "surfaces/stone_block",
     "generic": "stone_wall",
     "how": "table",
-    "key": "concrete_clean:stone_wall",
-    "kind": "concrete_clean",
+    "key": "stone_block:stone_wall",
+    "kind": "stone_block",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
      "de_cbble/outwall01",
      "de_dust/pi_rust",
      "de_dust/residbwall04",
-     "de_dust/rockwall_blend",
      "de_tides/blend_concrete_dirt",
      "de_tides/tides_grass_a"
     ],
-    "surfaces": 29,
-    "url": "https://ambientcg.com/view?id=Concrete034"
+    "surfaces": 15,
+    "url": "https://ambientcg.com/view?id=Bricks076A"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.375,
+     0.25,
+     0.25
+    ],
+    "file": "surfaces/rock",
+    "generic": "rock",
+    "how": "table",
+    "key": "rock:rock",
+    "kind": "rock",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "de_dust/rockwall_blend"
+    ],
+    "surfaces": 14,
+    "url": "https://ambientcg.com/view?id=Rock023"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -11354,18 +11382,18 @@
      0.25,
      0.25
     ],
-    "file": "surfaces/tile_dark",
-    "generic": "roof_tiles",
+    "file": "surfaces/roof_clay",
+    "generic": "roof_clay",
     "how": "table",
-    "key": "tile_dark:roof_tiles",
-    "kind": "tile_dark",
+    "key": "roof_clay:roof_clay",
+    "kind": "roof_clay",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
      "tile/tileroof002a"
     ],
     "surfaces": 3,
-    "url": "https://ambientcg.com/view?id=Tiles138"
+    "url": "https://ambientcg.com/view?id=RoofingTiles014A"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -11408,9 +11436,10 @@
      "de_cbble/woodbeam01",
      "de_cbble/woodceiling01",
      "models/props/cs_militia/shelves_wood",
+     "test_speakers/miwoodm",
      "wood/offdesktop"
     ],
-    "surfaces": 10,
+    "surfaces": 11,
     "url": "https://ambientcg.com/view?id=Planks039"
    },
    {
@@ -11480,18 +11509,18 @@
      0.375,
      0.5
     ],
-    "file": "surfaces/plaster",
+    "file": "surfaces/plaster_worn",
     "generic": "plaster_worn",
     "how": "table",
-    "key": "plaster:plaster_worn",
-    "kind": "plaster",
+    "key": "plaster_worn:plaster_worn",
+    "kind": "plaster_worn",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
      "metal/milwall005"
     ],
     "surfaces": 2,
-    "url": "https://ambientcg.com/view?id=PaintedPlaster017"
+    "url": "https://ambientcg.com/view?id=Plaster003"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -11500,18 +11529,18 @@
      0.625,
      0.5
     ],
-    "file": "surfaces/wood_planks",
-    "generic": "nearest_wood_planks",
+    "file": "surfaces/sand",
+    "generic": "nearest_sand",
     "how": "colour",
-    "key": "wood_planks:nearest_wood_planks",
-    "kind": "wood_planks",
+    "key": "sand:nearest_sand",
+    "kind": "sand",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
      "models/props/cs_office/offcorkboarda"
     ],
     "surfaces": 1,
-    "url": "https://ambientcg.com/view?id=Planks039"
+    "url": "https://ambientcg.com/view?id=Ground080"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -11532,26 +11561,6 @@
     ],
     "surfaces": 1,
     "url": "https://ambientcg.com/view?id=Grass004"
-   },
-   {
-    "author": "TMC (generated)",
-    "colour": [
-     0.375,
-     0.25,
-     0.125
-    ],
-    "file": "textures/gen_flat_604020.png",
-    "generic": "flat",
-    "how": "table",
-    "key": "generated:flat:604020",
-    "kind": "generated",
-    "licence": "CC0-1.0",
-    "source": "dotbsp generator",
-    "sources": [
-     "test_speakers/miwoodm"
-    ],
-    "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -11884,6 +11893,28 @@
   }
  ],
  "props": [
+  {
+   "at": [
+    -29.2608,
+    4.6482,
+    -27.051
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -32.9184,
+    4.6482,
+    -27.051
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
   {
    "at": [
     8.1534,
@@ -12667,6 +12698,17 @@
   },
   {
    "at": [
+    -4.8768,
+    -4.2672,
+    15.24
+   ],
+   "model": "models/props_wasteland/boat_fishing01a.mdl",
+   "scale": 1.0,
+   "stand_in": "pirate/boat",
+   "yaw": 159.02
+  },
+  {
+   "at": [
     5.1816,
     2.4384,
     1.2954
@@ -13227,6 +13269,7 @@
    "yaw": 0.0
   }
  ],
+ "scripts": [],
  "settings": {},
  "skipped": {
   "face:tools/toolsskybox": 85,
@@ -13772,7 +13815,7 @@
     0.8623
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 75,
    "index_offset": 5204,
@@ -13804,7 +13847,7 @@
     0.6144
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 9,
    "index_offset": 5664,
@@ -13836,7 +13879,7 @@
     0.4482
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 165,
    "index_offset": 8228,
@@ -13868,7 +13911,7 @@
     0.3849
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 204,
    "index_offset": 11576,
@@ -13895,7 +13938,7 @@
     0.4979
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 9,
    "index_offset": 12552,
@@ -13922,8 +13965,8 @@
     0.1974
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 294,
    "index_offset": 15244,
    "material": "de_dust/rockwall_blend",
@@ -14192,8 +14235,8 @@
     0.2097
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 204,
    "index_offset": 41124,
    "material": "tile/tileroof002a",
@@ -14585,7 +14628,7 @@
     0.8623
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 198,
    "index_offset": 121952,
@@ -14617,7 +14660,7 @@
     0.7635
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 354,
    "index_offset": 126840,
@@ -14649,7 +14692,7 @@
     0.4482
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 1122,
    "index_offset": 141792,
@@ -14735,7 +14778,7 @@
     0.3849
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 423,
    "index_offset": 178908,
@@ -14843,7 +14886,7 @@
     0.1829
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 105,
    "index_offset": 188676,
@@ -14875,7 +14918,7 @@
     0.4979
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 1611,
    "index_offset": 207304,
@@ -14902,8 +14945,8 @@
     0.1974
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 186,
    "index_offset": 215796,
    "material": "de_dust/rockwall_blend",
@@ -15226,7 +15269,7 @@
     0.4565
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 156,
    "index_offset": 273004,
@@ -15280,7 +15323,7 @@
     0.5153
    ],
    "entity": null,
-   "free": "wood_planks:nearest_wood_planks",
+   "free": "sand:nearest_sand",
    "generic": null,
    "index_count": 30,
    "index_offset": 276800,
@@ -15442,8 +15485,8 @@
     0.1706
    ],
    "entity": null,
-   "free": "generated:flat:604020",
-   "generic": "flat",
+   "free": "wood_planks:wood_planks",
+   "generic": "wood_planks",
    "index_count": 582,
    "index_offset": 298708,
    "material": "test_speakers/miwoodm",
@@ -15550,8 +15593,8 @@
     0.2097
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 546,
    "index_offset": 315840,
    "material": "tile/tileroof002a",
@@ -15859,7 +15902,7 @@
     0.1562
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 72,
    "index_offset": 361852,
@@ -15886,8 +15929,8 @@
     0.1974
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 186,
    "index_offset": 364188,
    "material": "de_dust/rockwall_blend",
@@ -15967,7 +16010,7 @@
     0.2011
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 57,
    "index_offset": 379072,
@@ -16313,8 +16356,8 @@
     0.1974
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 156,
    "index_offset": 416924,
    "material": "de_dust/rockwall_blend",
@@ -16340,7 +16383,7 @@
     0.2011
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 9,
    "index_offset": 417708,
@@ -16664,8 +16707,8 @@
     0.1974
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 261,
    "index_offset": 466468,
    "material": "de_dust/rockwall_blend",
@@ -16691,7 +16734,7 @@
     0.2011
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 9,
    "index_offset": 467672,
@@ -17108,7 +17151,7 @@
     0.3849
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 108,
    "index_offset": 506048,
@@ -17189,7 +17232,7 @@
     0.2918
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 24,
    "index_offset": 516488,
@@ -17216,7 +17259,7 @@
     0.2011
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 51,
    "index_offset": 517224,
@@ -17433,7 +17476,7 @@
     0.4565
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 144,
    "index_offset": 548432,
@@ -17596,8 +17639,8 @@
     0.2097
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 312,
    "index_offset": 579132,
    "material": "tile/tileroof002a",
@@ -17822,7 +17865,7 @@
     0.2011
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 153,
    "index_offset": 595548,
@@ -18258,8 +18301,8 @@
     0.1974
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 168,
    "index_offset": 693260,
    "material": "de_dust/rockwall_blend",
@@ -18285,7 +18328,7 @@
     0.2011
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 39,
    "index_offset": 694604,
@@ -18579,8 +18622,8 @@
     0.1974
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 213,
    "index_offset": 756968,
    "material": "de_dust/rockwall_blend",
@@ -18883,7 +18926,7 @@
     0.1829
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 267,
    "index_offset": 789352,
@@ -18915,8 +18958,8 @@
     0.1974
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 90,
    "index_offset": 791508,
    "material": "de_dust/rockwall_blend",
@@ -18942,7 +18985,7 @@
     0.2011
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 42,
    "index_offset": 792412,
@@ -19543,8 +19586,8 @@
     0.1974
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 81,
    "index_offset": 850604,
    "material": "de_dust/rockwall_blend",
@@ -19570,7 +19613,7 @@
     0.2011
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 42,
    "index_offset": 851504,
@@ -19945,8 +19988,8 @@
     0.1974
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 192,
    "index_offset": 896288,
    "material": "de_dust/rockwall_blend",
@@ -20077,8 +20120,8 @@
     0.1974
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 30,
    "index_offset": 902452,
    "material": "de_dust/rockwall_blend",
@@ -20136,7 +20179,7 @@
     0.1829
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 21,
    "index_offset": 903296,
@@ -20168,8 +20211,8 @@
     0.1974
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 42,
    "index_offset": 903956,
    "material": "de_dust/rockwall_blend",
@@ -20276,8 +20319,8 @@
     0.1974
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 57,
    "index_offset": 907404,
    "material": "de_dust/rockwall_blend",
@@ -20352,8 +20395,8 @@
     0.1974
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 45,
    "index_offset": 910152,
    "material": "de_dust/rockwall_blend",
@@ -20993,7 +21036,7 @@
     0.4482
    ],
    "entity": 152,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 24,
    "index_offset": 935756,
@@ -21021,7 +21064,7 @@
     0.1829
    ],
    "entity": 152,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 6,
    "index_offset": 935980,

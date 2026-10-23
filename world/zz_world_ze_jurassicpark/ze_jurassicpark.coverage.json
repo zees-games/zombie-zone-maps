@@ -21,8 +21,8 @@
  "models": {
   "looked_up": 61,
   "by_tier": {
-   "default": 37,
-   "fallback": 24
+   "default": 40,
+   "fallback": 21
   }
  },
  "sounds": {
@@ -195,11 +195,8 @@
    "props/cs_assault/forklift.mdl",
    "props/cs_militia/militiarock03.mdl",
    "props/cs_office/phone.mdl",
-   "props/de_nuke/electricalbox01.mdl",
-   "props/de_nuke/electricalbox02.mdl",
    "props/de_nuke/emergency_lighta.mdl",
    "props/de_nuke/equipment1.mdl",
-   "props/de_nuke/floodlight.mdl",
    "props/de_prodigy/concretebags3.mdl",
    "props/de_prodigy/concretebags4.mdl",
    "props/de_train/chainlinkgate.mdl",
@@ -326,7 +323,7 @@
  "counts": {
   "textures_unmapped": 2,
   "textures_flat": 0,
-  "models_unmapped": 24,
+  "models_unmapped": 21,
   "sounds_unmapped": 4,
   "classes_unmapped": 0,
   "keys_unmapped": 100,

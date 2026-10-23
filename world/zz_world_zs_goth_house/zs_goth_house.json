@@ -4796,7 +4796,7 @@
    },
    {
     "author": "Kenney",
-    "count": 8,
+    "count": 10,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -4814,7 +4814,7 @@
    },
    {
     "author": "Kenney",
-    "count": 21,
+    "count": 22,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -4838,6 +4838,24 @@
     "source": "Kenney Survival Kit",
     "stand_in": "crate",
     "url": "https://kenney.nl/assets/survival-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 4,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Factory Kit",
+    "stand_in": "factory/door",
+    "url": "https://kenney.nl/assets/factory-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 42,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Factory Kit",
+    "stand_in": "factory/window",
+    "url": "https://kenney.nl/assets/factory-kit"
    },
    {
     "author": "Kenney",
@@ -4925,12 +4943,12 @@
    {
     "count": 1,
     "model": "models/goth_house/goth_jackolantern.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "ceiling_light"
    },
    {
     "count": 4,
     "model": "models/props_c17/door01_left.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/door"
    },
    {
     "count": 6,
@@ -5015,7 +5033,7 @@
    {
     "count": 1,
     "model": "models/props_c17/metalpot001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bucket"
    },
    {
     "count": 3,
@@ -5075,7 +5093,7 @@
    {
     "count": 1,
     "model": "models/props_interiors/pot01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bucket"
    },
    {
     "count": 2,
@@ -5235,7 +5253,7 @@
    {
     "count": 42,
     "model": "models/props_wasteland/woodwall030b_window01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/window"
    }
   ],
   "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
@@ -5321,11 +5339,11 @@
      0.625,
      0.625
     ],
-    "file": "surfaces/plaster",
+    "file": "surfaces/plaster_worn",
     "generic": "plaster_worn",
     "how": "table",
-    "key": "plaster:plaster_worn",
-    "kind": "plaster",
+    "key": "plaster_worn:plaster_worn",
+    "kind": "plaster_worn",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
@@ -5338,7 +5356,7 @@
      "plaster/plasterwall047a"
     ],
     "surfaces": 19,
-    "url": "https://ambientcg.com/view?id=PaintedPlaster017"
+    "url": "https://ambientcg.com/view?id=Plaster003"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -5356,11 +5374,9 @@
     "source": "ambientCG",
     "sources": [
      "props/rubberroof001a",
-     "props/rubberroof002a",
-     "tile/tileroof002a",
-     "tile/tileroof003b"
+     "props/rubberroof002a"
     ],
-    "surfaces": 7,
+    "surfaces": 5,
     "url": "https://ambientcg.com/view?id=Tiles138"
    },
    {
@@ -5410,18 +5426,18 @@
      0.5,
      0.5
     ],
-    "file": "surfaces/plaster",
+    "file": "surfaces/wallpaper",
     "generic": "wallpaper",
     "how": "table",
-    "key": "plaster:wallpaper",
-    "kind": "plaster",
+    "key": "wallpaper:wallpaper",
+    "kind": "wallpaper",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
      "plaster/wallpaper002b"
     ],
     "surfaces": 4,
-    "url": "https://ambientcg.com/view?id=PaintedPlaster017"
+    "url": "https://ambientcg.com/view?id=Wallpaper002A"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -5449,6 +5465,27 @@
     ],
     "surfaces": 22,
     "url": "https://ambientcg.com/view?id=Planks039"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.375,
+     0.25,
+     0.25
+    ],
+    "file": "surfaces/roof_clay",
+    "generic": "roof_clay",
+    "how": "table",
+    "key": "roof_clay:roof_clay",
+    "kind": "roof_clay",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "tile/tileroof002a",
+     "tile/tileroof003b"
+    ],
+    "surfaces": 2,
+    "url": "https://ambientcg.com/view?id=RoofingTiles014A"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -5687,18 +5724,18 @@
      0.375,
      0.375
     ],
-    "file": "surfaces/brick",
-    "generic": "nearest_brick",
+    "file": "surfaces/roof_clay",
+    "generic": "nearest_roof_clay",
     "how": "colour",
-    "key": "brick:nearest_brick",
-    "kind": "brick",
+    "key": "roof_clay:nearest_roof_clay",
+    "kind": "roof_clay",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
      "goth_house/goth_welcome_banner00"
     ],
     "surfaces": 1,
-    "url": "https://ambientcg.com/view?id=Bricks097"
+    "url": "https://ambientcg.com/view?id=RoofingTiles014A"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -5877,6 +5914,134 @@
  ],
  "movers": [
   {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 1,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -3.029,
+    1.0287,
+    2.0955
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 270.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 2,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -1.2383,
+    1.0287,
+    2.0955
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 90.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 104,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -26.9939,
+    1.0287,
+    -16.1163
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 90.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 111,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    22.1171,
+    1.0287,
+    18.5547
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 270.0
+  },
+  {
    "classname": "func_button",
    "direction": [
     1.0,
@@ -5951,52 +6116,7 @@
    "wait": 3.0
   }
  ],
- "movers_without_geometry": [
-  {
-   "classname": "prop_door_rotating",
-   "entity": 1,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    -3.029,
-    1.0287,
-    2.0955
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 2,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    -1.2383,
-    1.0287,
-    2.0955
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 104,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    -26.9939,
-    1.0287,
-    -16.1163
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 111,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    22.1171,
-    1.0287,
-    18.5547
-   ],
-   "targetname": ""
-  }
- ],
+ "movers_without_geometry": [],
  "name": "zs_goth_house",
  "notes": [
   "43 glass surfaces (kinds glass)",
@@ -6825,6 +6945,28 @@
   },
   {
    "at": [
+    1.8098,
+    -1.9955,
+    -1.3526
+   ],
+   "model": "models/props_interiors/pot01a.mdl",
+   "scale": 1.0,
+   "stand_in": "bucket",
+   "yaw": 243.0
+  },
+  {
+   "at": [
+    4.5339,
+    -1.9602,
+    -1.6574
+   ],
+   "model": "models/props_c17/metalpot001a.mdl",
+   "scale": 1.0,
+   "stand_in": "bucket",
+   "yaw": 243.0
+  },
+  {
+   "at": [
     -24.0792,
     0.2477,
     -11.1062
@@ -6943,6 +7085,270 @@
    "scale": 1.0,
    "stand_in": "bin",
    "yaw": 144.5
+  },
+  {
+   "at": [
+    -3.9624,
+    1.143,
+    2.0955
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -6.096,
+    1.143,
+    2.0955
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -0.1524,
+    1.143,
+    2.0955
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    4.1148,
+    1.143,
+    2.0955
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    1.9812,
+    1.143,
+    2.0955
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -0.1524,
+    1.143,
+    -2.0955
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    1.9812,
+    1.143,
+    -2.0955
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    4.1148,
+    1.143,
+    -2.0955
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -3.9624,
+    1.143,
+    -2.0955
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -6.096,
+    1.143,
+    -2.0955
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -3.9624,
+    3.8862,
+    2.0955
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -6.096,
+    3.8862,
+    2.0955
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -0.1524,
+    3.8862,
+    2.0955
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    4.1148,
+    3.8862,
+    2.0955
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    1.9812,
+    3.8862,
+    2.0955
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -0.1524,
+    3.8862,
+    -2.0955
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    1.9812,
+    3.8862,
+    -2.0955
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    4.1148,
+    3.8862,
+    -2.0955
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -3.9624,
+    3.8862,
+    -2.0955
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -6.096,
+    3.8862,
+    -2.0955
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -8.3439,
+    3.8862,
+    1.4859
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -8.3439,
+    3.8862,
+    -1.4859
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -8.3439,
+    1.143,
+    1.4859
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -8.3439,
+    1.143,
+    -1.4859
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -7331,6 +7737,160 @@
   },
   {
    "at": [
+    -26.2128,
+    1.3716,
+    -16.1163
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -28.6512,
+    1.3716,
+    -16.1163
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -31.0896,
+    1.3716,
+    -16.1163
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -26.2128,
+    4.1148,
+    -9.4869
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -28.6512,
+    4.1148,
+    -9.4869
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -31.0896,
+    4.1148,
+    -9.4869
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    21.336,
+    1.3716,
+    18.5547
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    23.7744,
+    1.3716,
+    18.5547
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    26.2128,
+    1.3716,
+    18.5547
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    21.336,
+    4.1148,
+    18.5547
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    23.7744,
+    4.1148,
+    18.5547
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    26.2128,
+    4.1148,
+    18.5547
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    21.336,
+    4.1148,
+    11.9253
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    26.2128,
+    4.1148,
+    11.9253
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
     -12.8778,
     0.2286,
     -15.1638
@@ -7496,6 +8056,50 @@
   },
   {
    "at": [
+    23.622,
+    2.8194,
+    12.8016
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 329.0
+  },
+  {
+   "at": [
+    -26.2128,
+    4.1148,
+    -16.1163
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -31.0896,
+    4.1148,
+    -16.1163
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -28.8036,
+    2.8194,
+    -15.24
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 329.0
+  },
+  {
+   "at": [
     6.0579,
     -2.6289,
     0.8001
@@ -7540,6 +8144,17 @@
   },
   {
    "at": [
+    -3.3528,
+    0.6096,
+    2.4384
+   ],
+   "model": "models/goth_house/goth_jackolantern.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     24.0792,
     -0.0762,
     -2.1336
@@ -7550,6 +8165,7 @@
    "yaw": 90.0
   }
  ],
+ "scripts": [],
  "settings": {},
  "skipped": {
   "face:tools/toolsskybox": 102
@@ -8353,7 +8969,7 @@
     0.608
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 105,
    "index_offset": 6512,
@@ -8731,7 +9347,7 @@
     0.608
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 984,
    "index_offset": 54084,
@@ -8758,7 +9374,7 @@
     0.5843
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 72,
    "index_offset": 59556,
@@ -8785,7 +9401,7 @@
     0.2819
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 42,
    "index_offset": 60676,
@@ -8812,7 +9428,7 @@
     0.3149
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 66,
    "index_offset": 61644,
@@ -8839,7 +9455,7 @@
     0.3531
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 24,
    "index_offset": 62420,
@@ -8866,7 +9482,7 @@
     0.4134
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 72,
    "index_offset": 63924,
@@ -8893,7 +9509,7 @@
     0.4832
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 300,
    "index_offset": 67444,
@@ -9001,8 +9617,8 @@
     0.2337
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 12,
    "index_offset": 72236,
    "material": "tile/tileroof003b",
@@ -9545,7 +10161,7 @@
     0.2819
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 39,
    "index_offset": 138236,
@@ -9572,7 +10188,7 @@
     0.3149
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 108,
    "index_offset": 139864,
@@ -9599,7 +10215,7 @@
     0.3531
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 24,
    "index_offset": 140808,
@@ -9626,7 +10242,7 @@
     0.4832
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 306,
    "index_offset": 144392,
@@ -10283,7 +10899,7 @@
     0.2819
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 27,
    "index_offset": 215012,
@@ -10310,7 +10926,7 @@
     0.3149
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 90,
    "index_offset": 216464,
@@ -10337,7 +10953,7 @@
     0.6375
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 30,
    "index_offset": 217272,
@@ -10364,7 +10980,7 @@
     0.4832
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 123,
    "index_offset": 218960,
@@ -11100,7 +11716,7 @@
     0.608
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 1170,
    "index_offset": 278356,
@@ -11127,7 +11743,7 @@
     0.5843
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 72,
    "index_offset": 284572,
@@ -11154,7 +11770,7 @@
     0.2819
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 27,
    "index_offset": 285404,
@@ -11181,7 +11797,7 @@
     0.3149
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 90,
    "index_offset": 286856,
@@ -11208,7 +11824,7 @@
     0.4134
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 75,
    "index_offset": 288656,
@@ -11235,7 +11851,7 @@
     0.6375
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 18,
    "index_offset": 289276,
@@ -11262,7 +11878,7 @@
     0.4832
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 120,
    "index_offset": 290884,
@@ -11510,8 +12126,8 @@
     0.2097
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 12,
    "index_offset": 296668,
    "material": "tile/tileroof002a",
@@ -12731,7 +13347,7 @@
     0.3288
    ],
    "entity": 229,
-   "free": "brick:nearest_brick",
+   "free": "roof_clay:nearest_roof_clay",
    "generic": null,
    "index_count": 6,
    "index_offset": 332708,

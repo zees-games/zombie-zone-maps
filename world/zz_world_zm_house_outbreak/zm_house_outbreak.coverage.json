@@ -20,8 +20,8 @@
  "models": {
   "looked_up": 80,
   "by_tier": {
-   "default": 64,
-   "fallback": 16
+   "default": 67,
+   "fallback": 13
   }
  },
  "sounds": {
@@ -158,11 +158,8 @@
    "props/de_nuke/car_nuke_animation.mdl",
    "props/de_piranesi/pi_apc.mdl",
    "props_c17/clock01.mdl",
-   "props_c17/door01_left.mdl",
    "props_c17/furniturebed001a.mdl",
    "props_c17/furniturecupboard001a.mdl",
-   "props_c17/furnitureradiator001a.mdl",
-   "props_c17/utilitypole01a.mdl",
    "props_combine/breenclock.mdl",
    "props_junk/popcan01a.mdl"
   ],
@@ -255,7 +252,7 @@
  "counts": {
   "textures_unmapped": 1,
   "textures_flat": 0,
-  "models_unmapped": 16,
+  "models_unmapped": 13,
   "sounds_unmapped": 5,
   "classes_unmapped": 0,
   "keys_unmapped": 72,

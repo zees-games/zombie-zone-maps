@@ -11,7 +11,7 @@
   },
   "free_by_tier": {
    "default": 10,
-   "fallback": 4
+   "fallback": 6
   },
   "nearest_photo": [
    "boharox/lego/dawall_01",
@@ -30,8 +30,8 @@
  "models": {
   "looked_up": 29,
   "by_tier": {
-   "default": 21,
-   "fallback": 8
+   "default": 22,
+   "fallback": 7
   }
  },
  "sounds": {
@@ -249,7 +249,6 @@
    "props/cs_militia/food_stack.mdl",
    "props/cs_office/exit_wall.mdl",
    "props/de_nuke/ibeams_bombsitec.mdl",
-   "props_c17/metalladder002.mdl",
    "props_trainstation/tracksign10.mdl"
   ],
   "sounds_unmapped": [
@@ -382,7 +381,7 @@
  "counts": {
   "textures_unmapped": 15,
   "textures_flat": 4,
-  "models_unmapped": 8,
+  "models_unmapped": 7,
   "sounds_unmapped": 1,
   "classes_unmapped": 0,
   "keys_unmapped": 119,

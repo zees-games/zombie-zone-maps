@@ -9,15 +9,15 @@
    "default": 59
   },
   "free_by_tier": {
-   "default": 9
+   "default": 11
   },
   "nearest_photo": []
  },
  "models": {
   "looked_up": 53,
   "by_tier": {
-   "default": 40,
-   "fallback": 13
+   "default": 49,
+   "fallback": 4
   }
  },
  "sounds": {
@@ -86,19 +86,10 @@
   "textures_unmapped": [],
   "textures_flat": [],
   "models_unmapped": [
-   "props_c17/door01_left.mdl",
-   "props_c17/furniturepipecluster001a.mdl",
-   "props_c17/gasmeter001a.mdl",
-   "props_c17/gate_door02a.mdl",
-   "props_c17/metalladder001.mdl",
    "props_junk/bicycle01a.mdl",
    "props_junk/glassbottle01a.mdl",
    "props_lab/generatorconsole.mdl",
-   "props_lab/harddrive01.mdl",
-   "props_pipes/pipeset32d_128_001a.mdl",
-   "props_wasteland/prison_flourescentlight001a.mdl",
-   "props_wasteland/prison_flourescentlight001b.mdl",
-   "props_wasteland/prison_flourescentlight002b.mdl"
+   "props_lab/harddrive01.mdl"
   ],
   "sounds_unmapped": [],
   "classes_unmapped": [],
@@ -133,7 +124,7 @@
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 13,
+  "models_unmapped": 4,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 24,

@@ -15,6 +15,8 @@ PY
     d="$OUT/zz_world_$id"; mkdir -p "$d"
     args=(--game-rules "$HERE/convert")
     [ -f "$HERE/convert/maps/$id.json" ] && args+=(--map-rules "$HERE/convert/maps/$id.json")
+    y0=$(python3 -I -c 'import json,sys; print(json.load(open(sys.argv[1])).get("y0",""))' "$HERE/bsp/$id.json" 2>/dev/null)
+    [ -n "$y0" ] && args+=(--y0 "$y0")
     python3 -I "$BSP/bsp.py" regen "$key" --out "$d/$id" "${args[@]}" > "$d/regen.log" 2>&1
     echo "$id exit $?"
 done

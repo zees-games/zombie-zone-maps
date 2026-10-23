@@ -17967,7 +17967,7 @@
    },
    {
     "author": "Kenney",
-    "count": 5,
+    "count": 10,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -17976,7 +17976,7 @@
    },
    {
     "author": "Kenney",
-    "count": 6,
+    "count": 8,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -18207,12 +18207,12 @@
    {
     "count": 4,
     "model": "models/props/de_nuke/electricalbox01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 1,
     "model": "models/props/de_nuke/electricalbox02.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 2,
@@ -18227,7 +18227,7 @@
    {
     "count": 2,
     "model": "models/props/de_nuke/floodlight.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "ceiling_light"
    },
    {
     "count": 1,
@@ -22152,6 +22152,61 @@
   },
   {
    "at": [
+    -120.3385,
+    -18.4976,
+    9.513
+   ],
+   "model": "models/props/de_nuke/electricalbox01.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -113.5186,
+    -18.4976,
+    9.513
+   ],
+   "model": "models/props/de_nuke/electricalbox01.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -125.1374,
+    -15.1257,
+    2.0764
+   ],
+   "model": "models/props/de_nuke/electricalbox02.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -113.9554,
+    -18.4976,
+    1.9431
+   ],
+   "model": "models/props/de_nuke/electricalbox01.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -120.7753,
+    -18.4976,
+    1.9431
+   ],
+   "model": "models/props/de_nuke/electricalbox01.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     -127.9208,
     -13.8684,
     6.1722
@@ -22181,6 +22236,17 @@
    "model": "models/props_lab/powerbox02d.mdl",
    "scale": 1.0,
    "stand_in": "cabinet",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -104.8512,
+    -12.508,
+    5.3848
+   ],
+   "model": "models/props/de_nuke/floodlight.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
    "yaw": 0.0
   },
   {
@@ -22247,6 +22313,17 @@
    "model": "models/props/cs_militia/trees2.mdl",
    "scale": 1.0,
    "stand_in": "tree",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -104.8512,
+    -12.508,
+    5.9944
+   ],
+   "model": "models/props/de_nuke/floodlight.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
    "yaw": 0.0
   },
   {
@@ -22712,6 +22789,7 @@
    "yaw": 0.0
   }
  ],
+ "scripts": [],
  "settings": {},
  "skipped": {
   "face:sky3d_moved": 13,

@@ -21,8 +21,8 @@
  "models": {
   "looked_up": 51,
   "by_tier": {
-   "default": 19,
-   "fallback": 32
+   "default": 34,
+   "fallback": 17
   }
  },
  "sounds": {
@@ -249,30 +249,15 @@
    "props/cs_assault/wall_vent.mdl",
    "props/cs_militia/bottle02.mdl",
    "props/de_nuke/craneb.mdl",
-   "props/de_nuke/electricalbox01.mdl",
-   "props/de_prodigy/wall_console1.mdl",
-   "props/de_prodigy/wall_console3.mdl",
    "props_c17/substation_stripebox01a.mdl",
    "props_canal/generator01.mdl",
    "props_citizen_tech/steamengine001a.mdl",
    "props_combine/combine_bridge.mdl",
-   "props_combine/combine_interface001.mdl",
-   "props_combine/combine_interface002.mdl",
    "props_combine/weaponstripper.mdl",
-   "props_industrial/oil_pipes.mdl",
    "props_junk/glassbottle01a.mdl",
-   "props_lab/eyescanner.mdl",
-   "props_pipes/pipecluster08d_001a.mdl",
-   "props_pipes/pipecluster08d_006a.mdl",
-   "props_pipes/pipecluster16d_002a.mdl",
-   "props_pipes/pipecluster32d_001a.mdl",
-   "props_pipes/pipecluster32d_002a.mdl",
-   "props_pipes/pipecluster32d_003a.mdl",
-   "props_pipes/valvewheel002a.mdl",
    "props_vents/vent_large_corner002.mdl",
    "props_vents/vent_large_straight001.mdl",
    "props_wasteland/cranemagnet01a.mdl",
-   "props_wasteland/prison_pipes002a.mdl",
    "zombie/classic.mdl",
    "zombie/fast.mdl",
    "zombie/poison.mdl"
@@ -431,7 +416,7 @@
  "counts": {
   "textures_unmapped": 3,
   "textures_flat": 1,
-  "models_unmapped": 32,
+  "models_unmapped": 17,
   "sounds_unmapped": 2,
   "classes_unmapped": 0,
   "keys_unmapped": 142,

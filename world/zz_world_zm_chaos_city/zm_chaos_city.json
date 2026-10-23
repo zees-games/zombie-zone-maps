@@ -18378,12 +18378,48 @@
    },
    {
     "author": "Kenney",
+    "count": 4,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Factory Kit",
+    "stand_in": "factory/door",
+    "url": "https://kenney.nl/assets/factory-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 2,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Factory Kit",
+    "stand_in": "factory/pipe",
+    "url": "https://kenney.nl/assets/factory-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 16,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
     "stand_in": "fridge",
     "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 4,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Graveyard Kit",
+    "stand_in": "graveyard/cross",
+    "url": "https://kenney.nl/assets/graveyard-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 4,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Graveyard Kit",
+    "stand_in": "graveyard/gravestone",
+    "url": "https://kenney.nl/assets/graveyard-kit"
    },
    {
     "author": "Kenney",
@@ -18402,6 +18438,15 @@
     "source": "Kenney Furniture Kit",
     "stand_in": "plant",
     "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 4,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Prototype Kit",
+    "stand_in": "prototype/ladder",
+    "url": "https://kenney.nl/assets/prototype-kit"
    },
    {
     "author": "Kenney",
@@ -18502,7 +18547,7 @@
    {
     "count": 1,
     "model": "models/props/cs_militia/ladderwood.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "prototype/ladder"
    },
    {
     "count": 2,
@@ -18567,7 +18612,7 @@
    {
     "count": 4,
     "model": "models/props_c17/door01_left.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/door"
    },
    {
     "count": 4,
@@ -18597,32 +18642,32 @@
    {
     "count": 1,
     "model": "models/props_c17/gasmeterpipes002a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 4,
     "model": "models/props_c17/gravestone_coffinpiece002a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "graveyard/gravestone"
    },
    {
     "count": 4,
     "model": "models/props_c17/gravestone_cross001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "graveyard/cross"
    },
    {
     "count": 1,
     "model": "models/props_c17/metalladder001.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "prototype/ladder"
    },
    {
     "count": 1,
     "model": "models/props_c17/metalladder002.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "prototype/ladder"
    },
    {
     "count": 1,
     "model": "models/props_c17/metalladder002b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "prototype/ladder"
    },
    {
     "count": 11,
@@ -18677,7 +18722,7 @@
    {
     "count": 1,
     "model": "models/props_rooftop/chimneypipe_cluster02b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
@@ -18822,11 +18867,11 @@
      0.625,
      0.625
     ],
-    "file": "surfaces/plaster",
+    "file": "surfaces/wallpaper",
     "generic": "wallpaper",
     "how": "table",
-    "key": "plaster:wallpaper",
-    "kind": "plaster",
+    "key": "wallpaper:wallpaper",
+    "kind": "wallpaper",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
@@ -18836,7 +18881,7 @@
      "plaster/wallpaper003a"
     ],
     "surfaces": 10,
-    "url": "https://ambientcg.com/view?id=PaintedPlaster017"
+    "url": "https://ambientcg.com/view?id=Wallpaper002A"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -19751,6 +19796,102 @@
  ],
  "movers": [
   {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 32,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -23.0124,
+    5.9109,
+    -12.7826
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 180.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 33,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -23.0124,
+    3.4725,
+    -12.7826
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 180.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 64,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    26.651,
+    1.0341,
+    -37.6809
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 90.0
+  },
+  {
    "classname": "func_door",
    "direction": [
     0.0,
@@ -19989,6 +20130,38 @@
    "travel_time": 0.0,
    "use": true,
    "wait": 3.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 98,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    15.3734,
+    1.1865,
+    5.7497
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 90.0
   },
   {
    "classname": "func_button",
@@ -20400,52 +20573,7 @@
    "wait": 4.0
   }
  ],
- "movers_without_geometry": [
-  {
-   "classname": "prop_door_rotating",
-   "entity": 32,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    -23.0124,
-    5.9109,
-    -12.7826
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 33,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    -23.0124,
-    3.4725,
-    -12.7826
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 64,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    26.651,
-    1.0341,
-    -37.6809
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 98,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    15.3734,
-    1.1865,
-    5.7497
-   ],
-   "targetname": ""
-  }
- ],
+ "movers_without_geometry": [],
  "name": "ze_chaos_city_b1",
  "notes": [
   "18 glass surfaces (kinds glass)"
@@ -21136,6 +21264,17 @@
   },
   {
    "at": [
+    36.6903,
+    0.2084,
+    3.7367
+   ],
+   "model": "models/props_c17/gravestone_coffinpiece002a.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/gravestone",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     18.9738,
     0.0037,
     4.4196
@@ -21301,6 +21440,28 @@
   },
   {
    "at": [
+    -28.0416,
+    2.2098,
+    -7.9248
+   ],
+   "model": "models/props/cs_militia/ladderwood.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -24.9174,
+    4.9929,
+    -0.0
+   ],
+   "model": "models/props_rooftop/chimneypipe_cluster02b.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     -16.002,
     0.0,
     3.3528
@@ -21342,6 +21503,28 @@
    "scale": 1.0,
    "stand_in": "desk",
    "yaw": 180.0
+  },
+  {
+   "at": [
+    -33.2232,
+    0.3048,
+    -40.3098
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -33.2232,
+    2.7432,
+    -40.3098
+   ],
+   "model": "models/props_c17/metalladder002b.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -21463,6 +21646,83 @@
    "scale": 1.0,
    "stand_in": "rock",
    "yaw": 90.0
+  },
+  {
+   "at": [
+    38.9382,
+    1.5256,
+    2.2098
+   ],
+   "model": "models/props_c17/gravestone_cross001a.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/cross",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    38.9382,
+    0.2084,
+    3.7338
+   ],
+   "model": "models/props_c17/gravestone_coffinpiece002a.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/gravestone",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    36.6903,
+    1.5256,
+    2.2127
+   ],
+   "model": "models/props_c17/gravestone_cross001a.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/cross",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    34.2519,
+    1.5256,
+    2.2127
+   ],
+   "model": "models/props_c17/gravestone_cross001a.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/cross",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    34.2519,
+    0.2084,
+    3.7367
+   ],
+   "model": "models/props_c17/gravestone_coffinpiece002a.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/gravestone",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    31.8135,
+    1.5256,
+    2.2127
+   ],
+   "model": "models/props_c17/gravestone_cross001a.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/cross",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    31.8135,
+    0.2084,
+    3.7367
+   ],
+   "model": "models/props_c17/gravestone_coffinpiece002a.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/gravestone",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -21683,8 +21943,31 @@
    "scale": 1.0,
    "stand_in": "plant",
    "yaw": 90.0
+  },
+  {
+   "at": [
+    -0.6858,
+    2.8911,
+    1.2192
+   ],
+   "model": "models/props_c17/gasmeterpipes002a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -7.6962,
+    4.1202,
+    2.5146
+   ],
+   "model": "models/props_c17/metalladder001.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 90.0
   }
  ],
+ "scripts": [],
  "settings": {},
  "skipped": {
   "face:tools/toolsnodraw": 12,
@@ -22414,7 +22697,7 @@
     0.6144
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 21,
    "index_offset": 4656,
@@ -22979,7 +23262,7 @@
     0.6144
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 174,
    "index_offset": 26964,
@@ -23922,7 +24205,7 @@
     0.6144
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 303,
    "index_offset": 65396,
@@ -25857,7 +26140,7 @@
     0.594
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 72,
    "index_offset": 198788,
@@ -25884,7 +26167,7 @@
     0.4562
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 54,
    "index_offset": 199908,
@@ -25911,7 +26194,7 @@
     0.4176
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 72,
    "index_offset": 201148,
@@ -29228,7 +29511,7 @@
     0.6144
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 78,
    "index_offset": 433924,
@@ -31421,7 +31704,7 @@
     0.6144
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 33,
    "index_offset": 658152,
@@ -33188,7 +33471,7 @@
     0.6144
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 141,
    "index_offset": 922408,
@@ -33961,7 +34244,7 @@
     0.6144
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 138,
    "index_offset": 982648,

@@ -16,8 +16,8 @@
  "models": {
   "looked_up": 47,
   "by_tier": {
-   "default": 33,
-   "fallback": 14
+   "default": 42,
+   "fallback": 5
   }
  },
  "sounds": {
@@ -172,18 +172,9 @@
   "models_unmapped": [
    "humans/corpse1.mdl",
    "props/cs_militia/bar01.mdl",
-   "props/cs_militia/ladderwood.mdl",
-   "props_c17/door01_left.mdl",
    "props_c17/furniturefireplace001a.mdl",
-   "props_c17/gasmeterpipes002a.mdl",
-   "props_c17/gravestone_coffinpiece002a.mdl",
-   "props_c17/gravestone_cross001a.mdl",
-   "props_c17/metalladder001.mdl",
-   "props_c17/metalladder002.mdl",
-   "props_c17/metalladder002b.mdl",
    "props_junk/bicycle01a.mdl",
-   "props_junk/vent001.mdl",
-   "props_rooftop/chimneypipe_cluster02b.mdl"
+   "props_junk/vent001.mdl"
   ],
   "sounds_unmapped": [],
   "classes_unmapped": [],
@@ -288,7 +279,7 @@
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 14,
+  "models_unmapped": 5,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 94,

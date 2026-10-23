@@ -17,8 +17,8 @@
  "models": {
   "looked_up": 15,
   "by_tier": {
-   "default": 10,
-   "fallback": 5
+   "default": 14,
+   "fallback": 1
   }
  },
  "sounds": {
@@ -174,11 +174,7 @@
    "zgmrvn/violetzigomarvin"
   ],
   "models_unmapped": [
-   "props/cs_militia/dryer.mdl",
-   "props/cs_militia/ladderrung.mdl",
-   "props/de_train/floodlight.mdl",
-   "props_lab/lab_flourescentlight001a.mdl",
-   "props_lab/lab_flourescentlight002b.mdl"
+   "props/cs_militia/dryer.mdl"
   ],
   "sounds_unmapped": [],
   "classes_unmapped": [],
@@ -274,7 +270,7 @@
  "counts": {
   "textures_unmapped": 8,
   "textures_flat": 8,
-  "models_unmapped": 5,
+  "models_unmapped": 1,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 85,

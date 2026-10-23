@@ -9,15 +9,15 @@
    "default": 60
   },
   "free_by_tier": {
-   "default": 15
+   "default": 16
   },
   "nearest_photo": []
  },
  "models": {
   "looked_up": 23,
   "by_tier": {
-   "default": 16,
-   "fallback": 7
+   "default": 20,
+   "fallback": 3
   }
  },
  "sounds": {
@@ -302,13 +302,9 @@
   "textures_unmapped": [],
   "textures_flat": [],
   "models_unmapped": [
-   "airboatgun.mdl",
-   "props/cs_office/doorknob.mdl",
    "props/cs_office/phone.mdl",
-   "props/de_train/ladderaluminium.mdl",
    "props_c17/trappropeller_engine.mdl",
-   "props_junk/sawblade001a.mdl",
-   "props_pipes/concrete_pipe001a.mdl"
+   "props_junk/sawblade001a.mdl"
   ],
   "sounds_unmapped": [],
   "classes_unmapped": [],
@@ -523,7 +519,7 @@
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 7,
+  "models_unmapped": 3,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 192,

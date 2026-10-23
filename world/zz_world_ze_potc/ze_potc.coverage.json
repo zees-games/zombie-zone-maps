@@ -9,15 +9,15 @@
    "default": 80
   },
   "free_by_tier": {
-   "default": 12
+   "default": 13
   },
   "nearest_photo": []
  },
  "models": {
   "looked_up": 61,
   "by_tier": {
-   "default": 40,
-   "fallback": 21
+   "default": 50,
+   "fallback": 11
   }
  },
  "sounds": {
@@ -207,24 +207,14 @@
   "models_unmapped": [
    "effects/vol_light.mdl",
    "parrot.mdl",
-   "props/cs_italy/it_lantern2.mdl",
    "props/cs_italy/it_wndg.mdl",
-   "props/cs_militia/ropeladder01.mdl",
    "props/pi_arch128x32.mdl",
    "props/piratehat.mdl",
-   "props_c17/gravestone001a.mdl",
-   "props_c17/gravestone002a.mdl",
-   "props_c17/gravestone004a.mdl",
-   "props_c17/gravestone_coffinpiece002a.mdl",
-   "props_c17/gravestone_cross001b.mdl",
    "props_canal/canalmap001.mdl",
    "props_docks/dock01_pole01a_128.mdl",
    "props_docks/dock01_pole01a_256.mdl",
    "props_docks/dockpole01a.mdl",
    "props_junk/harpoon002a.mdl",
-   "shiroko/ot_tropic01.mdl",
-   "shiroko/ot_tropic02.mdl",
-   "shiroko/ot_tropic03.mdl",
    "weapons/w_pistol/w_pistol.mdl"
   ],
   "sounds_unmapped": [
@@ -355,7 +345,7 @@
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 21,
+  "models_unmapped": 11,
   "sounds_unmapped": 2,
   "classes_unmapped": 0,
   "keys_unmapped": 116,

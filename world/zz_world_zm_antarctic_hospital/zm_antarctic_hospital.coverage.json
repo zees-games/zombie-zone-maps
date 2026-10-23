@@ -9,15 +9,15 @@
    "default": 48
   },
   "free_by_tier": {
-   "default": 14
+   "default": 15
   },
   "nearest_photo": []
  },
  "models": {
   "looked_up": 72,
   "by_tier": {
-   "default": 55,
-   "fallback": 17
+   "default": 63,
+   "fallback": 9
   }
  },
  "sounds": {
@@ -118,20 +118,12 @@
   "models_unmapped": [
    "",
    "props_c17/cashregister01a.mdl",
-   "props_c17/metalladder002.mdl",
-   "props_c17/metalladder002b.mdl",
-   "props_c17/metalpot001a.mdl",
-   "props_c17/metalpot002a.mdl",
    "props_c17/tools_pliers01a.mdl",
    "props_c17/tools_wrench01a.mdl",
-   "props_c17/utilitypole01a.mdl",
    "props_combine/breenglobe.mdl",
    "props_interiors/furniture_vanity01a.mdl",
-   "props_interiors/radiator01a.mdl",
    "props_junk/popcan01a.mdl",
    "props_lab/harddrive02.mdl",
-   "props_lab/lab_flourescentlight002b.mdl",
-   "props_wasteland/kitchen_counter001d.mdl",
    "tools/camera/camera.mdl"
   ],
   "sounds_unmapped": [],
@@ -191,7 +183,7 @@
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 17,
+  "models_unmapped": 9,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 48,

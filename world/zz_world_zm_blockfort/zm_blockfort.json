@@ -15403,11 +15403,29 @@
   "model_stand_ins": [
    {
     "author": "Kenney",
+    "count": 2,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Survival Kit",
+    "stand_in": "barrel",
+    "url": "https://kenney.nl/assets/survival-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 8,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
     "stand_in": "bookcase",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 2,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "cabinet",
     "url": "https://kenney.nl/assets/furniture-kit"
    },
    {
@@ -15427,6 +15445,15 @@
     "source": "Kenney Survival Kit",
     "stand_in": "crate_large",
     "url": "https://kenney.nl/assets/survival-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 8,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Factory Kit",
+    "stand_in": "factory/pipe",
+    "url": "https://kenney.nl/assets/factory-kit"
    },
    {
     "author": "Kenney",
@@ -15460,7 +15487,7 @@
    {
     "count": 2,
     "model": "models/props/cs_assault/acunit02.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 1,
@@ -15535,7 +15562,7 @@
    {
     "count": 2,
     "model": "models/props/de_train/de_train_horizontalcoolingtank.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "barrel"
    },
    {
     "count": 15,
@@ -15560,7 +15587,7 @@
    {
     "count": 8,
     "model": "models/props_pipes/pipecluster32d_001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
@@ -16067,18 +16094,18 @@
      0.375,
      0.375
     ],
-    "file": "surfaces/concrete_clean",
+    "file": "surfaces/stone_block",
     "generic": "stone_wall",
     "how": "table",
-    "key": "concrete_clean:stone_wall",
-    "kind": "concrete_clean",
+    "key": "stone_block:stone_wall",
+    "kind": "stone_block",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
      "de_dust/picrate1"
     ],
     "surfaces": 1,
-    "url": "https://ambientcg.com/view?id=Concrete034"
+    "url": "https://ambientcg.com/view?id=Bricks076A"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -16107,18 +16134,18 @@
      0.875,
      0.875
     ],
-    "file": "surfaces/tile_white",
-    "generic": "nearest_tile_white",
+    "file": "surfaces/wallpaper",
+    "generic": "nearest_wallpaper",
     "how": "colour",
-    "key": "tile_white:nearest_tile_white",
-    "kind": "tile_white",
+    "key": "wallpaper:nearest_wallpaper",
+    "kind": "wallpaper",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
      "blockfort/special_thanks"
     ],
     "surfaces": 1,
-    "url": "https://ambientcg.com/view?id=Tiles107"
+    "url": "https://ambientcg.com/view?id=Wallpaper002A"
    },
    {
     "author": "TMC (generated)",
@@ -19098,6 +19125,80 @@
   "8 glass surfaces (kinds glass)",
   "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): BLOCKFORT/MARIO_VINE 9, CS_HAVANA/METALFENCE007A 4, BLOCKFORT/SPECIAL_THANKS 1, BLOCKFORT/NOENTRY 1"
  ],
+ "pickups": [
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    51.816,
+    9.5164,
+    32.9184
+   ],
+   "props": {
+    "targetname": "logo_nades"
+   }
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    52.4256,
+    9.5164,
+    32.9184
+   ],
+   "props": {
+    "targetname": "logo_nades"
+   }
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    53.0352,
+    9.5164,
+    32.9184
+   ],
+   "props": {
+    "targetname": "logo_nades"
+   }
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    53.6448,
+    9.5164,
+    32.9184
+   ],
+   "props": {
+    "targetname": "logo_nades"
+   }
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    54.2544,
+    9.5164,
+    32.9184
+   ],
+   "props": {
+    "targetname": "logo_nades"
+   }
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_knife",
+   "origin": [
+    -33.5661,
+    20.7264,
+    51.7779
+   ],
+   "props": {
+    "targetname": "snowman_knife"
+   }
+  }
+ ],
  "props": [
   {
    "at": [
@@ -19992,6 +20093,39 @@
   },
   {
    "at": [
+    23.1648,
+    10.668,
+    27.8892
+   ],
+   "model": "models/props_pipes/pipecluster32d_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    21.6408,
+    9.906,
+    28.4988
+   ],
+   "model": "models/props_pipes/pipecluster32d_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    23.1648,
+    10.668,
+    26.5176
+   ],
+   "model": "models/props_pipes/pipecluster32d_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
     56.9976,
     5.7912,
     20.2692
@@ -20080,6 +20214,39 @@
   },
   {
    "at": [
+    43.8912,
+    5.8313,
+    46.6344
+   ],
+   "model": "models/props_pipes/pipecluster32d_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    44.0436,
+    5.7912,
+    45.2628
+   ],
+   "model": "models/props_pipes/pipecluster32d_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    44.0436,
+    7.62,
+    45.2628
+   ],
+   "model": "models/props_pipes/pipecluster32d_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     49.6824,
     4.8768,
     62.0268
@@ -20098,6 +20265,28 @@
    "model": "models/props/cs_assault/washer_box.mdl",
    "scale": 1.0,
    "stand_in": "crate",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    55.7567,
+    5.6388,
+    56.9517
+   ],
+   "model": "models/props/de_train/de_train_horizontalcoolingtank.mdl",
+   "scale": 1.0,
+   "stand_in": "barrel",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    55.7567,
+    5.6388,
+    58.9329
+   ],
+   "model": "models/props/de_train/de_train_horizontalcoolingtank.mdl",
+   "scale": 1.0,
+   "stand_in": "barrel",
    "yaw": 0.0
   },
   {
@@ -20143,6 +20332,50 @@
    "scale": 1.0,
    "stand_in": "crate",
    "yaw": 270.0
+  },
+  {
+   "at": [
+    29.8323,
+    6.7056,
+    59.2773
+   ],
+   "model": "models/props_pipes/pipecluster32d_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    31.242,
+    6.7056,
+    59.2836
+   ],
+   "model": "models/props_pipes/pipecluster32d_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    33.3756,
+    7.1628,
+    47.3964
+   ],
+   "model": "models/props/cs_assault/acunit02.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    33.3756,
+    7.1628,
+    46.482
+   ],
+   "model": "models/props/cs_assault/acunit02.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -20442,6 +20675,7 @@
    "yaw": 270.0
   }
  ],
+ "scripts": [],
  "settings": {
   "phys_pushscale": 4,
   "phys_timescale": 0.75,
@@ -23455,7 +23689,7 @@
     0.3222
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 6,
    "index_offset": 617216,
@@ -29861,7 +30095,7 @@
     0.862
    ],
    "entity": 449,
-   "free": "tile_white:nearest_tile_white",
+   "free": "wallpaper:nearest_wallpaper",
    "generic": null,
    "index_count": 6,
    "index_offset": 1101876,

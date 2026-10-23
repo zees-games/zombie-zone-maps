@@ -10458,6 +10458,24 @@
    },
    {
     "author": "Kenney",
+    "count": 4,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Factory Kit",
+    "stand_in": "factory/door",
+    "url": "https://kenney.nl/assets/factory-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 4,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Factory Kit",
+    "stand_in": "factory/pipe",
+    "url": "https://kenney.nl/assets/factory-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 5,
     "files": [],
     "licence": "CC0-1.0",
@@ -10476,12 +10494,30 @@
    },
    {
     "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Pirate Kit",
+    "stand_in": "pirate/boat",
+    "url": "https://kenney.nl/assets/pirate-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 7,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
     "stand_in": "plant",
     "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 2,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Prototype Kit",
+    "stand_in": "prototype/ladder",
+    "url": "https://kenney.nl/assets/prototype-kit"
    },
    {
     "author": "Kenney",
@@ -10515,7 +10551,7 @@
    {
     "count": 1,
     "model": "models/airboatgun.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "pirate/boat"
    },
    {
     "count": 6,
@@ -10535,7 +10571,7 @@
    {
     "count": 4,
     "model": "models/props/cs_office/doorknob.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/door"
    },
    {
     "count": 3,
@@ -10590,7 +10626,7 @@
    {
     "count": 2,
     "model": "models/props/de_train/ladderaluminium.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "prototype/ladder"
    },
    {
     "count": 2,
@@ -10625,7 +10661,7 @@
    {
     "count": 4,
     "model": "models/props_pipes/concrete_pipe001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    }
   ],
   "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
@@ -10734,23 +10770,22 @@
      0.625,
      0.5
     ],
-    "file": "surfaces/concrete_clean",
+    "file": "surfaces/stone_block",
     "generic": "stone_wall",
     "how": "table",
-    "key": "concrete_clean:stone_wall",
-    "kind": "concrete_clean",
+    "key": "stone_block:stone_wall",
+    "kind": "stone_block",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
      "cs_italy/stonewall02",
      "de_dust/groundsand03a",
-     "de_dust/rockwall01",
      "de_dust/sitebwall14a",
      "de_dust/stonewall02",
      "de_dust/templewall02b"
     ],
-    "surfaces": 20,
-    "url": "https://ambientcg.com/view?id=Concrete034"
+    "surfaces": 19,
+    "url": "https://ambientcg.com/view?id=Bricks076A"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -10863,18 +10898,18 @@
      0.75,
      0.75
     ],
-    "file": "surfaces/concrete_clean",
-    "generic": "ceiling",
+    "file": "surfaces/ceiling_tile",
+    "generic": "ceiling_tile",
     "how": "table",
-    "key": "concrete_clean:ceiling",
-    "kind": "concrete_clean",
+    "key": "ceiling_tile:ceiling_tile",
+    "kind": "ceiling_tile",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
      "tile/ceilingtilea"
     ],
     "surfaces": 4,
-    "url": "https://ambientcg.com/view?id=Concrete034"
+    "url": "https://ambientcg.com/view?id=OfficeCeiling005"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -10978,6 +11013,26 @@
     ],
     "surfaces": 9,
     "url": "https://ambientcg.com/view?id=Tiles107"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.375,
+     0.25,
+     0.25
+    ],
+    "file": "surfaces/rock",
+    "generic": "rock",
+    "how": "table",
+    "key": "rock:rock",
+    "kind": "rock",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "de_dust/rockwall01"
+    ],
+    "surfaces": 1,
+    "url": "https://ambientcg.com/view?id=Rock023"
    },
    {
     "author": "TMC (generated)",
@@ -14812,6 +14867,7 @@
    "classname": "func_rotating",
    "degrees_per_second": 100.0,
    "entity": 570,
+   "fan_friction": 20.0,
    "kind": "spin",
    "maxs": [
     65.4716,
@@ -15121,6 +15177,7 @@
    "classname": "func_rotating",
    "degrees_per_second": 800.0,
    "entity": 643,
+   "fan_friction": 20.0,
    "kind": "spin",
    "maxs": [
     68.6393,
@@ -15155,6 +15212,7 @@
    "classname": "func_rotating",
    "degrees_per_second": 800.0,
    "entity": 644,
+   "fan_friction": 20.0,
    "kind": "spin",
    "maxs": [
     68.2945,
@@ -15189,6 +15247,7 @@
    "classname": "func_rotating",
    "degrees_per_second": 800.0,
    "entity": 645,
+   "fan_friction": 20.0,
    "kind": "spin",
    "maxs": [
     67.9535,
@@ -15223,6 +15282,7 @@
    "classname": "func_rotating",
    "degrees_per_second": 800.0,
    "entity": 646,
+   "fan_friction": 20.0,
    "kind": "spin",
    "maxs": [
     67.6106,
@@ -15266,6 +15326,1516 @@
  "notes": [
   "44 glass surfaces (kinds glass)",
   "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): EFFECTS/FLICKER_128 39, DECALS/DECALMETALVENT006A 8"
+ ],
+ "pickups": [
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -4.1275,
+    -4.7818,
+    5.0541
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -4.5339,
+    -4.7818,
+    5.1583
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -4.3899,
+    -4.7818,
+    4.8374
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -5.0319,
+    -4.7818,
+    5.1973
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -4.5332,
+    -4.7818,
+    4.74
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -4.8444,
+    -4.7818,
+    4.9144
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -3.9882,
+    -4.7818,
+    4.5468
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_m249",
+   "origin": [
+    -1.3809,
+    -3.9386,
+    -0.7114
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_m249",
+   "origin": [
+    -0.8725,
+    -3.9386,
+    -0.7648
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_m249",
+   "origin": [
+    -1.7719,
+    -3.9386,
+    -0.7545
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.3984,
+    -3.8761,
+    21.6501
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.0082,
+    -3.7338,
+    21.8355
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.226,
+    -3.7338,
+    21.8323
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.4441,
+    -3.7338,
+    21.8458
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.6685,
+    -3.7338,
+    21.8401
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.3984,
+    -3.8761,
+    21.6501
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    19.8737,
+    -3.7338,
+    21.5814
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.0947,
+    -3.7338,
+    21.6174
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.3452,
+    -3.7338,
+    21.6084
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.5102,
+    -3.7338,
+    21.5656
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.7544,
+    -3.7338,
+    21.6444
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    19.9185,
+    -3.7338,
+    21.332
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.25,
+    -3.7338,
+    21.2819
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.4841,
+    -3.7338,
+    21.2924
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.7622,
+    -3.7338,
+    21.2514
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    21.071,
+    -3.7338,
+    21.259
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.9009,
+    -3.7338,
+    21.7905
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    21.1268,
+    -3.7338,
+    21.7218
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    21.0295,
+    -3.429,
+    21.3349
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    21.1236,
+    -3.7338,
+    21.5375
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    19.8692,
+    -3.7338,
+    21.0369
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.5327,
+    -3.7338,
+    20.9868
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    19.9949,
+    -3.7338,
+    21.008
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.7428,
+    -3.7338,
+    20.9817
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    21.0255,
+    -3.7338,
+    21.0024
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    21.0558,
+    -3.7338,
+    20.751
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    19.8613,
+    -3.7338,
+    20.7104
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.0366,
+    -3.7338,
+    20.7013
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.1962,
+    -3.7338,
+    20.6894
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.3317,
+    -3.7338,
+    20.7123
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.461,
+    -3.7338,
+    20.7228
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.63,
+    -3.7338,
+    20.7308
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.7199,
+    -3.7338,
+    20.7123
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    19.8354,
+    -3.7338,
+    20.4126
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    19.9705,
+    -3.7338,
+    20.3827
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.1623,
+    -3.7338,
+    20.3818
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.3431,
+    -3.7338,
+    20.3854
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.4713,
+    -3.7338,
+    20.3921
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.6007,
+    -3.7338,
+    20.3966
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.7159,
+    -3.7338,
+    20.4031
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.8276,
+    -3.7338,
+    20.4073
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    20.9302,
+    -3.7338,
+    20.4159
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    21.027,
+    -3.7338,
+    20.4264
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    25.4049,
+    -4.6292,
+    22.1601
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    24.9923,
+    -4.6292,
+    22.2089
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    25.2283,
+    -4.6292,
+    22.2131
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    24.8524,
+    -4.6292,
+    22.2487
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    24.632,
+    -4.6292,
+    22.306
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    24.5366,
+    -4.6861,
+    22.0012
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    24.3693,
+    -4.6292,
+    22.2795
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    24.2625,
+    -4.678,
+    21.9747
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    24.1283,
+    -4.6292,
+    22.2395
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    23.9399,
+    -4.6292,
+    22.2306
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    23.8184,
+    -4.6714,
+    21.9258
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    23.9401,
+    -4.5611,
+    21.621
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    23.9401,
+    -4.2563,
+    21.5781
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    25.4902,
+    -4.6292,
+    21.9692
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    25.1818,
+    -4.6292,
+    21.9728
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    25.0033,
+    -4.6292,
+    22.0159
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    24.8473,
+    -4.6292,
+    22.0268
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    24.7162,
+    -4.6536,
+    21.722
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    25.4298,
+    -4.6292,
+    21.8793
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    25.3235,
+    -4.6292,
+    21.7766
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    25.0187,
+    -4.7523,
+    21.769
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    24.9591,
+    -4.6128,
+    21.4642
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    24.5802,
+    -4.6292,
+    21.8058
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    24.228,
+    -4.6292,
+    21.7692
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    24.4215,
+    -4.6292,
+    21.7446
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    24.7814,
+    -4.6292,
+    21.5221
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    24.5633,
+    -4.6292,
+    21.5122
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    24.3867,
+    -4.6292,
+    21.5343
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    24.1857,
+    -4.6292,
+    21.5151
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    23.9325,
+    -4.6292,
+    21.5524
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    23.7264,
+    -4.6292,
+    21.5736
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    23.683,
+    -4.6292,
+    22.1652
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    23.6199,
+    -4.3243,
+    21.629
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    25.3927,
+    -4.6292,
+    21.6158
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    25.3218,
+    -4.6292,
+    21.5362
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    25.2649,
+    -4.6292,
+    21.496
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -11.7527,
+    -4.6053,
+    18.232
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -11.7404,
+    -4.6053,
+    17.9815
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -11.7216,
+    -4.6053,
+    17.8944
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -11.683,
+    -4.6053,
+    17.6057
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -11.7293,
+    -4.6053,
+    17.4509
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -11.7114,
+    -4.6053,
+    17.2833
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -11.5932,
+    -4.6285,
+    16.9785
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -11.4421,
+    -4.3237,
+    16.9043
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -11.3685,
+    -4.6053,
+    17.1371
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -11.3904,
+    -4.6053,
+    17.3775
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -11.4914,
+    -4.6053,
+    17.8517
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -11.4735,
+    -4.6053,
+    17.7375
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -11.4967,
+    -4.6053,
+    18.2236
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -11.4367,
+    -4.6697,
+    17.9188
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -11.3257,
+    -4.6053,
+    18.3154
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -11.2785,
+    -4.6053,
+    18.1581
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -11.2498,
+    -4.6053,
+    17.9761
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -11.2423,
+    -4.6053,
+    17.8191
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -11.2069,
+    -4.6053,
+    17.6797
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -11.2105,
+    -4.6053,
+    17.527
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -11.188,
+    -4.6053,
+    17.3621
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -11.1921,
+    -4.6053,
+    17.2055
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -11.207,
+    -4.6053,
+    17.0237
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -11.4369,
+    -4.6053,
+    16.8866
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -11.7434,
+    -4.6053,
+    16.7618
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -9.025,
+    -4.6053,
+    13.7883
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -8.9838,
+    -4.6053,
+    13.9887
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -9.0051,
+    -4.6053,
+    14.2554
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -9.0032,
+    -4.6053,
+    14.5488
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -9.022,
+    -4.6053,
+    14.7648
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -9.0275,
+    -4.6053,
+    15.0594
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -9.0364,
+    -4.6053,
+    15.2748
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -9.3629,
+    -4.6053,
+    15.2425
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -9.391,
+    -4.6053,
+    14.968
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -9.3845,
+    -4.6053,
+    14.6588
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -9.3516,
+    -4.6053,
+    14.304
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -9.3335,
+    -4.6053,
+    14.0009
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -9.2753,
+    -4.6053,
+    13.6721
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -9.6454,
+    -4.6053,
+    13.6719
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -9.683,
+    -4.6053,
+    13.9208
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -9.6371,
+    -4.6053,
+    14.2079
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -9.695,
+    -4.6053,
+    14.5054
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -9.6876,
+    -4.6053,
+    14.7373
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -9.6914,
+    -4.6053,
+    14.988
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_flashbang",
+   "origin": [
+    -9.6842,
+    -4.6053,
+    15.3036
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_m249",
+   "origin": [
+    -10.8763,
+    -4.6053,
+    18.3999
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_m249",
+   "origin": [
+    -10.8179,
+    -4.6053,
+    18.0241
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_m249",
+   "origin": [
+    -10.8151,
+    -4.6053,
+    17.6737
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_m249",
+   "origin": [
+    -10.7997,
+    -4.6053,
+    17.3638
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_m249",
+   "origin": [
+    -10.7922,
+    -4.6053,
+    16.9998
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_m249",
+   "origin": [
+    -10.7914,
+    -4.6053,
+    16.7451
+   ],
+   "props": {}
+  },
+  {
+   "angle": 90.0,
+   "classname": "weapon_m3",
+   "origin": [
+    -10.1604,
+    -4.6053,
+    13.7007
+   ],
+   "props": {}
+  },
+  {
+   "angle": 90.0,
+   "classname": "weapon_m3",
+   "origin": [
+    -10.1525,
+    -4.6053,
+    14.0071
+   ],
+   "props": {}
+  },
+  {
+   "angle": 90.0,
+   "classname": "weapon_m3",
+   "origin": [
+    -10.184,
+    -4.6053,
+    14.3295
+   ],
+   "props": {}
+  },
+  {
+   "angle": 90.0,
+   "classname": "weapon_m3",
+   "origin": [
+    -10.1748,
+    -4.6053,
+    14.6871
+   ],
+   "props": {}
+  },
+  {
+   "angle": 90.0,
+   "classname": "weapon_m3",
+   "origin": [
+    -10.1841,
+    -4.6053,
+    15.0072
+   ],
+   "props": {}
+  },
+  {
+   "angle": 90.0,
+   "classname": "weapon_m3",
+   "origin": [
+    -10.16,
+    -4.6053,
+    15.4266
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_deagle",
+   "origin": [
+    65.419,
+    -4.1602,
+    24.3752
+   ],
+   "props": {
+    "targetname": "Knife_freezer"
+   }
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_deagle",
+   "origin": [
+    65.3828,
+    -4.1261,
+    22.1418
+   ],
+   "props": {
+    "targetname": "vip"
+   }
+  },
+  {
+   "angle": 180.0,
+   "classname": "weapon_deagle",
+   "origin": [
+    70.9803,
+    -4.2103,
+    15.6591
+   ],
+   "props": {
+    "targetname": "teslagrena"
+   }
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_deagle",
+   "origin": [
+    66.3702,
+    -4.1256,
+    15.8496
+   ],
+   "props": {
+    "targetname": "motosierra"
+   }
+  }
  ],
  "props": [
   {
@@ -15886,6 +17456,17 @@
   },
   {
    "at": [
+    65.151,
+    -3.8269,
+    24.2888
+   ],
+   "model": "models/airboatgun.mdl",
+   "scale": 1.0,
+   "stand_in": "pirate/boat",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     8.8698,
     -4.1719,
     13.2336
@@ -15960,6 +17541,61 @@
    "scale": 1.0,
    "stand_in": "armchair",
    "yaw": 359.5
+  },
+  {
+   "at": [
+    5.8864,
+    -3.3147,
+    -1.9241
+   ],
+   "model": "models/props/cs_office/doorknob.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/door",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    1.6383,
+    -4.0957,
+    -3.9243
+   ],
+   "model": "models/props/cs_office/doorknob.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/door",
+   "yaw": 306.88
+  },
+  {
+   "at": [
+    7.4486,
+    -3.3147,
+    10.4204
+   ],
+   "model": "models/props/cs_office/doorknob.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/door",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    2.5245,
+    -2.2044,
+    -5.5374
+   ],
+   "model": "models/props/de_train/ladderaluminium.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 269.69
+  },
+  {
+   "at": [
+    2.5312,
+    -3.4925,
+    -5.8498
+   ],
+   "model": "models/props/de_train/ladderaluminium.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 269.69
   },
   {
    "at": [
@@ -16202,8 +17838,64 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 270.0
+  },
+  {
+   "at": [
+    14.9628,
+    -4.0411,
+    -8.0556
+   ],
+   "model": "models/props_pipes/concrete_pipe001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 359.5
+  },
+  {
+   "at": [
+    13.3091,
+    -4.0411,
+    -6.2983
+   ],
+   "model": "models/props_pipes/concrete_pipe001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 269.5
+  },
+  {
+   "at": [
+    13.2932,
+    -4.0411,
+    -4.2791
+   ],
+   "model": "models/props_pipes/concrete_pipe001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 269.5
+  },
+  {
+   "at": [
+    16.9647,
+    -4.0411,
+    -8.0382
+   ],
+   "model": "models/props_pipes/concrete_pipe001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 359.5
+  },
+  {
+   "at": [
+    7.4486,
+    -3.3147,
+    -1.905
+   ],
+   "model": "models/props/cs_office/doorknob.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/door",
+   "yaw": 180.0
   }
  ],
+ "scripts": [],
  "settings": {},
  "skipped": {
   "face:tools/toolsskybox": 180,
@@ -17228,7 +18920,7 @@
     0.4678
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 2193,
    "index_offset": 31636,
@@ -17255,7 +18947,7 @@
     0.6057
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 648,
    "index_offset": 46168,
@@ -17702,8 +19394,8 @@
     0.7382
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 222,
    "index_offset": 83048,
    "material": "tile/ceilingtilea",
@@ -17901,7 +19593,7 @@
     0.4678
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 669,
    "index_offset": 117824,
@@ -17928,7 +19620,7 @@
     0.6057
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 966,
    "index_offset": 128500,
@@ -18654,8 +20346,8 @@
     0.7382
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 300,
    "index_offset": 171464,
    "material": "tile/ceilingtilea",
@@ -18993,7 +20685,7 @@
     0.4443
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 48,
    "index_offset": 354164,
@@ -19020,7 +20712,7 @@
     0.685
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 192,
    "index_offset": 357076,
@@ -19047,7 +20739,7 @@
     0.4678
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 789,
    "index_offset": 367828,
@@ -19074,7 +20766,7 @@
     0.6057
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 825,
    "index_offset": 377800,
@@ -19830,8 +21522,8 @@
     0.7382
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 270,
    "index_offset": 452780,
    "material": "tile/ceilingtilea",
@@ -20169,7 +21861,7 @@
     0.2591
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 48,
    "index_offset": 484768,
@@ -20196,7 +21888,7 @@
     0.4443
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 1101,
    "index_offset": 506688,
@@ -20223,8 +21915,8 @@
     0.1974
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 477,
    "index_offset": 517972,
    "material": "de_dust/rockwall01",
@@ -20250,7 +21942,7 @@
     0.685
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 396,
    "index_offset": 525224,
@@ -20277,7 +21969,7 @@
     0.4678
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 2853,
    "index_offset": 557720,
@@ -20304,7 +21996,7 @@
     0.6057
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 1692,
    "index_offset": 585484,
@@ -21227,8 +22919,8 @@
     0.7382
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 405,
    "index_offset": 718244,
    "material": "tile/ceilingtilea",
@@ -21578,7 +23270,7 @@
     0.4678
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 69,
    "index_offset": 815480,
@@ -21605,7 +23297,7 @@
     0.6057
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 1449,
    "index_offset": 827948,
@@ -21795,7 +23487,7 @@
     0.4678
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 225,
    "index_offset": 859308,
@@ -21822,7 +23514,7 @@
     0.6057
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 2532,
    "index_offset": 886960,
@@ -22532,7 +24224,7 @@
     0.4678
    ],
    "entity": 212,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 36,
    "index_offset": 1014804,
@@ -22556,7 +24248,7 @@
     0.4678
    ],
    "entity": 213,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 36,
    "index_offset": 1015716,

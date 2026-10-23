@@ -10479,7 +10479,7 @@
    },
    {
     "author": "Kenney",
-    "count": 29,
+    "count": 30,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -10512,6 +10512,24 @@
     "source": "Kenney Survival Kit",
     "stand_in": "crate_large",
     "url": "https://kenney.nl/assets/survival-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "desk",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Factory Kit",
+    "stand_in": "factory/door",
+    "url": "https://kenney.nl/assets/factory-kit"
    },
    {
     "author": "Kenney",
@@ -10781,7 +10799,7 @@
    {
     "count": 1,
     "model": "models/props_c17/door01_left.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/door"
    },
    {
     "count": 1,
@@ -10851,12 +10869,12 @@
    {
     "count": 1,
     "model": "models/props_lab/servers.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 1,
     "model": "models/props_lab/workspace004.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "desk"
    },
    {
     "count": 6,
@@ -11079,18 +11097,18 @@
      0.25,
      0.125
     ],
-    "file": "surfaces/plaster",
+    "file": "surfaces/wallpaper",
     "generic": "wallpaper",
     "how": "table",
-    "key": "plaster:wallpaper",
-    "kind": "plaster",
+    "key": "wallpaper:wallpaper",
+    "kind": "wallpaper",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
      "de_chateau/wall02b"
     ],
     "surfaces": 2,
-    "url": "https://ambientcg.com/view?id=PaintedPlaster017"
+    "url": "https://ambientcg.com/view?id=Wallpaper002A"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -13367,6 +13385,64 @@
    "wait": 6.0
   },
   {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 363,
+   "kind": "rotate",
+   "locked": true,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [
+    {
+     "classname": "prop_door_rotating",
+     "delay": 0.0,
+     "entity": 363,
+     "input": "Lock",
+     "output": "OnFullyOpen",
+     "targetname": "secretdoor"
+    },
+    {
+     "classname": "logic_case",
+     "delay": 0.0,
+     "entity": 365,
+     "input": "Unlock",
+     "output": "OnCase01",
+     "targetname": "doorlogiccase"
+    }
+   ],
+   "origin": [
+    -17.6974,
+    7.8105,
+    -5.0673
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "Lock",
+     "output": "OnFullyOpen",
+     "param": "",
+     "target": "secretdoor",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 10240,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "secretdoor",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 0.0
+  },
+  {
    "classname": "func_button",
    "direction": [
     -1.0,
@@ -13542,19 +13618,7 @@
    "wait": 1.0
   }
  ],
- "movers_without_geometry": [
-  {
-   "classname": "prop_door_rotating",
-   "entity": 363,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    -17.6974,
-    7.8105,
-    -5.0673
-   ],
-   "targetname": "secretdoor"
-  }
- ],
+ "movers_without_geometry": [],
  "name": "zm_officeattack_b5a",
  "notes": [
   "17 glass surfaces (kinds glass)",
@@ -16083,6 +16147,28 @@
   },
   {
    "at": [
+    13.6208,
+    11.7348,
+    16.002
+   ],
+   "model": "models/props_lab/servers.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    12.7254,
+    11.7348,
+    17.2833
+   ],
+   "model": "models/props_lab/workspace004.mdl",
+   "scale": 1.0,
+   "stand_in": "desk",
+   "yaw": 180.0
+  },
+  {
+   "at": [
     16.4401,
     6.7818,
     -27.3177
@@ -16357,6 +16443,7 @@
    "yaw": 0.0
   }
  ],
+ "scripts": [],
  "settings": {},
  "skipped": {
   "face:sky3d_moved": 207,
@@ -18011,7 +18098,7 @@
     0.1829
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 48,
    "index_offset": 63364,
@@ -20073,7 +20160,7 @@
     0.1829
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 24,
    "index_offset": 199668,

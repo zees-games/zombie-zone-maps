@@ -28651,7 +28651,7 @@
    },
    {
     "author": "Kenney",
-    "count": 21,
+    "count": 31,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -28705,6 +28705,24 @@
    },
    {
     "author": "Kenney",
+    "count": 18,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Factory Kit",
+    "stand_in": "factory/door",
+    "url": "https://kenney.nl/assets/factory-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 42,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Factory Kit",
+    "stand_in": "factory/pipe",
+    "url": "https://kenney.nl/assets/factory-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 21,
     "files": [],
     "licence": "CC0-1.0",
@@ -28723,6 +28741,15 @@
    },
    {
     "author": "Kenney",
+    "count": 3,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Graveyard Kit",
+    "stand_in": "graveyard/lamppost",
+    "url": "https://kenney.nl/assets/graveyard-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 7,
     "files": [],
     "licence": "CC0-1.0",
@@ -28738,6 +28765,15 @@
     "source": "Kenney Furniture Kit",
     "stand_in": "monitor",
     "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 4,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Prototype Kit",
+    "stand_in": "prototype/ladder",
+    "url": "https://kenney.nl/assets/prototype-kit"
    },
    {
     "author": "Kenney",
@@ -28958,7 +28994,7 @@
    {
     "count": 17,
     "model": "models/props_c17/door01_left.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/door"
    },
    {
     "count": 3,
@@ -28983,7 +29019,7 @@
    {
     "count": 1,
     "model": "models/props_c17/furnitureboiler001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 7,
@@ -29008,7 +29044,7 @@
    {
     "count": 2,
     "model": "models/props_c17/furniturepipecluster001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 8,
@@ -29018,7 +29054,7 @@
    {
     "count": 1,
     "model": "models/props_c17/gate_door01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/door"
    },
    {
     "count": 2,
@@ -29078,12 +29114,12 @@
    {
     "count": 2,
     "model": "models/props_c17/metalladder002.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "prototype/ladder"
    },
    {
     "count": 2,
     "model": "models/props_c17/metalladder002b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "prototype/ladder"
    },
    {
     "count": 18,
@@ -29168,7 +29204,7 @@
    {
     "count": 3,
     "model": "models/props_c17/utilitypole02b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "graveyard/lamppost"
    },
    {
     "count": 2,
@@ -29203,12 +29239,12 @@
    {
     "count": 1,
     "model": "models/props_combine/combine_interface002.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 2,
     "model": "models/props_combine/combine_interface003.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 1,
@@ -29633,7 +29669,7 @@
    {
     "count": 2,
     "model": "models/props_lab/eyescanner.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 2,
@@ -29683,7 +29719,7 @@
    {
     "count": 6,
     "model": "models/props_lab/pipesystem01b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 3,
@@ -29713,67 +29749,67 @@
    {
     "count": 2,
     "model": "models/props_pipes/destroyedpipes01c.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 4,
     "model": "models/props_pipes/destroyedpipes01d.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 2,
     "model": "models/props_pipes/gutterlarge_512_001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/props_pipes/pipe02_lcurve01_long.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 2,
     "model": "models/props_pipes/pipe02_straight01_long.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/props_pipes/pipe02_tjoint01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 3,
     "model": "models/props_pipes/pipe03_scurve02_long.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/props_pipes/pipecluster08d_001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 2,
     "model": "models/props_pipes/pipecluster32d_001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 9,
     "model": "models/props_pipes/pipeset08d_128_001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/props_pipes/pipeset08d_corner128d_001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/props_pipes/pipeset32d_128_001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/props_pipes/pipeset32d_256_001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
@@ -29798,12 +29834,12 @@
    {
     "count": 1,
     "model": "models/props_rooftop/chimneytoppipe_cluster01c.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 2,
     "model": "models/props_rooftop/roof_vent004.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 1,
@@ -29833,7 +29869,7 @@
    {
     "count": 2,
     "model": "models/props_silo/electricalbox02.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 1,
@@ -30128,7 +30164,7 @@
    {
     "count": 2,
     "model": "models/props_wasteland/pipecluster003a_small.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 2,
@@ -30148,7 +30184,7 @@
    {
     "count": 1,
     "model": "models/props_wasteland/prison_pipes002a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 2,
@@ -30769,24 +30805,24 @@
     "url": "https://ambientcg.com/view?id=WoodFloor041"
    },
    {
-    "author": "Lennart Demes and contributors",
+    "author": "Rob Tuytel",
     "colour": [
      0.75,
      0.75,
      0.75
     ],
-    "file": "surfaces/plaster",
-    "generic": "wallpaper",
+    "file": "surfaces/wallpaper_decrepit",
+    "generic": "wallpaper_decrepit",
     "how": "table",
-    "key": "plaster:wallpaper",
-    "kind": "plaster",
+    "key": "wallpaper_decrepit:wallpaper_decrepit",
+    "kind": "wallpaper_decrepit",
     "licence": "CC0-1.0",
-    "source": "ambientCG",
+    "source": "Poly Haven",
     "sources": [
      "plaster/plasterwallpaper006a"
     ],
     "surfaces": 4,
-    "url": "https://ambientcg.com/view?id=PaintedPlaster017"
+    "url": "https://polyhaven.com/a/decrepit_wallpaper"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -33242,6 +33278,198 @@
  ],
  "movers": [
   {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 64,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -7.3723,
+    1.1859,
+    24.4602
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "door1",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 270.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 65,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -5.5817,
+    1.1859,
+    24.4602
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "door1",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 90.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 66,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -8.5915,
+    3.6195,
+    -15.9258
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 270.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 197,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    3.8672,
+    2.8575,
+    20.0406
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 90.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 198,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    4.191,
+    2.8575,
+    18.0404
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 0.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 199,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -7.0295,
+    1.6383,
+    18.8214
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 90.0
+  },
+  {
    "classname": "func_tanktrain",
    "entity": 213,
    "height": 0.0762,
@@ -33371,6 +33599,326 @@
    "travel_time": 0.0
   },
   {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 398,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    24.3078,
+    3.6195,
+    9.3536
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 0.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 450,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    25.7556,
+    3.6195,
+    -14.078
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 0.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 451,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    23.1838,
+    3.6195,
+    -13.4112
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 270.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 452,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    23.7934,
+    3.6195,
+    -6.0198
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 270.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 453,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    30.3276,
+    3.6195,
+    -4.553
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 180.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 454,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    33.8328,
+    3.6195,
+    -4.553
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 180.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 455,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    30.1752,
+    3.6195,
+    4.7054
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 0.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 456,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    32.2517,
+    3.6195,
+    7.0866
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 270.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 459,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -8.9154,
+    1.6383,
+    6.1532
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 0.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 478,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    24.2507,
+    3.6195,
+    3.1242
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 270.0
+  },
+  {
    "classname": "func_button",
    "direction": [
     1.0,
@@ -33444,6 +33992,38 @@
    "travel_time": 0.0,
    "use": true,
    "wait": 2.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 528,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    10.3823,
+    1.1811,
+    7.1628
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 90.0
   },
   {
    "classname": "func_button",
@@ -34464,72 +35044,6 @@
  ],
  "movers_without_geometry": [
   {
-   "classname": "prop_door_rotating",
-   "entity": 64,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    -7.3723,
-    1.1859,
-    24.4602
-   ],
-   "targetname": "door1"
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 65,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    -5.5817,
-    1.1859,
-    24.4602
-   ],
-   "targetname": "door1"
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 66,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    -8.5915,
-    3.6195,
-    -15.9258
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 197,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    3.8672,
-    2.8575,
-    20.0406
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 198,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    4.191,
-    2.8575,
-    18.0404
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 199,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    -7.0295,
-    1.6383,
-    18.8214
-   ],
-   "targetname": ""
-  },
-  {
    "classname": "func_door",
    "entity": 346,
    "model_path": null,
@@ -34539,17 +35053,6 @@
     175.9458
    ],
    "targetname": "transmission_door1"
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 398,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    24.3078,
-    3.6195,
-    9.3536
-   ],
-   "targetname": ""
   },
   {
    "classname": "func_door",
@@ -34594,116 +35097,6 @@
     175.9458
    ],
    "targetname": "transmission_door5"
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 450,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    25.7556,
-    3.6195,
-    -14.078
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 451,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    23.1838,
-    3.6195,
-    -13.4112
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 452,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    23.7934,
-    3.6195,
-    -6.0198
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 453,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    30.3276,
-    3.6195,
-    -4.553
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 454,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    33.8328,
-    3.6195,
-    -4.553
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 455,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    30.1752,
-    3.6195,
-    4.7054
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 456,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    32.2517,
-    3.6195,
-    7.0866
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 459,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    -8.9154,
-    1.6383,
-    6.1532
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 478,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    24.2507,
-    3.6195,
-    3.1242
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 528,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    10.3823,
-    1.1811,
-    7.1628
-   ],
-   "targetname": ""
   }
  ],
  "name": "zs_pathogen",
@@ -37443,6 +37836,17 @@
   },
   {
    "at": [
+    10.9728,
+    6.0198,
+    14.9352
+   ],
+   "model": "models/props_lab/eyescanner.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 180.0
+  },
+  {
+   "at": [
     15.9258,
     0.8339,
     -6.6294
@@ -37605,6 +38009,17 @@
    "scale": 1.0,
    "stand_in": "barrel",
    "yaw": 274.28
+  },
+  {
+   "at": [
+    10.9728,
+    6.0198,
+    12.192
+   ],
+   "model": "models/props_lab/eyescanner.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -38169,6 +38584,50 @@
   },
   {
    "at": [
+    -8.6677,
+    2.9909,
+    19.0691
+   ],
+   "model": "models/props_pipes/pipe02_lcurve01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -8.667,
+    1.8555,
+    19.054
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -8.667,
+    1.2459,
+    19.1302
+   ],
+   "model": "models/props_pipes/pipe02_tjoint01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -8.667,
+    0.6173,
+    19.054
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -4.1338,
     0.1524,
     0.2286
@@ -38224,6 +38683,28 @@
   },
   {
    "at": [
+    8.8392,
+    3.5499,
+    11.5824
+   ],
+   "model": "models/props_pipes/pipeset32d_256_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    6.5532,
+    0.8382,
+    13.6398
+   ],
+   "model": "models/props_pipes/pipeset08d_128_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     11.9634,
     0.762,
     -9.2202
@@ -38257,6 +38738,17 @@
   },
   {
    "at": [
+    12.1158,
+    1.0613,
+    -9.2964
+   ],
+   "model": "models/props_pipes/destroyedpipes01c.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 24.92
+  },
+  {
+   "at": [
     31.3944,
     3.6264,
     -13.4112
@@ -38276,6 +38768,28 @@
    "scale": 1.0,
    "stand_in": "cabinet",
    "yaw": 90.0
+  },
+  {
+   "at": [
+    31.6992,
+    3.0296,
+    -12.8016
+   ],
+   "model": "models/props_lab/pipesystem01b.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    31.6992,
+    2.5908,
+    -16.4592
+   ],
+   "model": "models/props_silo/electricalbox02.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -39291,6 +39805,28 @@
   },
   {
    "at": [
+    17.2212,
+    10.1973,
+    16.9164
+   ],
+   "model": "models/props_pipes/pipecluster32d_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    14.1732,
+    10.1973,
+    16.9164
+   ],
+   "model": "models/props_pipes/pipecluster32d_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     43.053,
     13.7216,
     5.6388
@@ -39365,6 +39901,17 @@
    "scale": 1.0,
    "stand_in": "rock",
    "yaw": 90.0
+  },
+  {
+   "at": [
+    -24.2316,
+    7.5438,
+    -13.1826
+   ],
+   "model": "models/props_pipes/destroyedpipes01d.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 146.86
   },
   {
    "at": [
@@ -39500,6 +40047,17 @@
   },
   {
    "at": [
+    35.653,
+    7.8486,
+    18.8214
+   ],
+   "model": "models/props_pipes/destroyedpipes01d.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 316.91
+  },
+  {
+   "at": [
     33.2232,
     7.4676,
     19.9644
@@ -39588,6 +40146,17 @@
   },
   {
    "at": [
+    -10.7442,
+    5.968,
+    -32.1564
+   ],
+   "model": "models/props_c17/gate_door01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/door",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     -8.6106,
     7.2569,
     -28.6893
@@ -39618,6 +40187,17 @@
    "scale": 1.0,
    "stand_in": "rock",
    "yaw": 30.0
+  },
+  {
+   "at": [
+    -7.62,
+    4.8768,
+    -25.6032
+   ],
+   "model": "models/props_c17/utilitypole02b.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -39863,6 +40443,17 @@
   },
   {
    "at": [
+    37.8529,
+    7.0866,
+    -33.0708
+   ],
+   "model": "models/props_pipes/destroyedpipes01d.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 4.01
+  },
+  {
+   "at": [
     100.0506,
     0.762,
     91.5162
@@ -39896,6 +40487,17 @@
   },
   {
    "at": [
+    25.2984,
+    10.026,
+    -18.3642
+   ],
+   "model": "models/props_pipes/pipecluster08d_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
     24.9936,
     5.715,
     -21.4122
@@ -39926,6 +40528,17 @@
    "scale": 1.0,
    "stand_in": "tree",
    "yaw": 75.0
+  },
+  {
+   "at": [
+    30.4038,
+    10.2145,
+    -22.6314
+   ],
+   "model": "models/props_pipes/gutterlarge_512_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -39981,6 +40594,28 @@
    "scale": 1.0,
    "stand_in": "bin",
    "yaw": 246.0
+  },
+  {
+   "at": [
+    16.383,
+    5.187,
+    -12.7254
+   ],
+   "model": "models/props_c17/utilitypole02b.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    16.383,
+    5.187,
+    4.1148
+   ],
+   "model": "models/props_c17/utilitypole02b.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -40094,6 +40729,17 @@
   },
   {
    "at": [
+    -11.3538,
+    1.524,
+    44.1198
+   ],
+   "model": "models/props_pipes/destroyedpipes01d.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 294.36
+  },
+  {
+   "at": [
     -16.002,
     1.6764,
     25.6032
@@ -40204,6 +40850,17 @@
   },
   {
    "at": [
+    -4.8006,
+    3.8161,
+    -21.1455
+   ],
+   "model": "models/props_c17/furniturepipecluster001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     -3.8481,
     4.572,
     -18.8976
@@ -40256,6 +40913,17 @@
    "scale": 1.0,
    "stand_in": "cabinet",
    "yaw": 270.0
+  },
+  {
+   "at": [
+    29.5285,
+    19.5125,
+    -29.723
+   ],
+   "model": "models/props_rooftop/roof_vent004.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -40322,6 +40990,17 @@
    "scale": 1.0,
    "stand_in": "bin",
    "yaw": 193.5
+  },
+  {
+   "at": [
+    4.0386,
+    3.0534,
+    30.4038
+   ],
+   "model": "models/props_pipes/pipeset08d_128_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
   },
   {
    "at": [
@@ -40413,6 +41092,61 @@
   },
   {
    "at": [
+    -18.5166,
+    1.0444,
+    36.1188
+   ],
+   "model": "models/props_pipes/pipe03_scurve02_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    22.0218,
+    9.7573,
+    -28.0416
+   ],
+   "model": "models/props_pipes/gutterlarge_512_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    23.7744,
+    3.8167,
+    -15.3924
+   ],
+   "model": "models/props_pipes/pipeset08d_corner128d_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    35.8902,
+    3.8154,
+    -11.2776
+   ],
+   "model": "models/props_pipes/pipeset08d_128_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    35.7517,
+    4.4958,
+    -1.2954
+   ],
+   "model": "models/props_wasteland/pipecluster003a_small.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     32.2326,
     2.6596,
     -14.7828
@@ -40421,6 +41155,17 @@
    "scale": 1.0,
    "stand_in": "bin",
    "yaw": 78.0
+  },
+  {
+   "at": [
+    35.433,
+    4.8737,
+    -10.4394
+   ],
+   "model": "models/props_wasteland/prison_pipes002a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -40443,6 +41188,28 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 90.0
+  },
+  {
+   "at": [
+    17.8308,
+    3.8154,
+    10.5918
+   ],
+   "model": "models/props_pipes/pipeset08d_128_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    17.8308,
+    1.2192,
+    10.5918
+   ],
+   "model": "models/props_pipes/pipeset08d_128_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -40985,6 +41752,17 @@
   },
   {
    "at": [
+    21.6408,
+    8.1754,
+    -29.0322
+   ],
+   "model": "models/props_c17/furnitureboiler001a.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     22.098,
     7.3914,
     -32.766
@@ -41007,6 +41785,17 @@
   },
   {
    "at": [
+    -4.8006,
+    0.5912,
+    24.365
+   ],
+   "model": "models/props_lab/pipesystem01b.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     25.8318,
     3.6004,
     2.9527
@@ -41014,6 +41803,39 @@
    "model": "models/props_lab/powerbox02d.mdl",
    "scale": 1.0,
    "stand_in": "cabinet",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    25.8318,
+    3.0296,
+    3.0099
+   ],
+   "model": "models/props_lab/pipesystem01b.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    33.2422,
+    3.8161,
+    -5.2578
+   ],
+   "model": "models/props_c17/furniturepipecluster001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    33.6804,
+    3.8154,
+    5.8674
+   ],
+   "model": "models/props_pipes/pipeset08d_128_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
    "yaw": 90.0
   },
   {
@@ -41059,6 +41881,17 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    -9.7536,
+    0.5334,
+    16.6066
+   ],
+   "model": "models/props_pipes/pipe03_scurve02_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -41150,6 +41983,17 @@
   },
   {
    "at": [
+    18.9738,
+    6.4062,
+    11.7348
+   ],
+   "model": "models/props_pipes/pipeset08d_128_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     18.4214,
     1.162,
     -13.3922
@@ -41161,6 +42005,39 @@
   },
   {
    "at": [
+    18.4214,
+    0.5912,
+    -13.4493
+   ],
+   "model": "models/props_lab/pipesystem01b.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    30.0228,
+    3.8154,
+    7.6962
+   ],
+   "model": "models/props_pipes/pipeset08d_128_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    23.6982,
+    3.8154,
+    10.5918
+   ],
+   "model": "models/props_pipes/pipeset08d_128_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 359.5
+  },
+  {
+   "at": [
     28.4988,
     3.6004,
     -8.382
@@ -41168,6 +42045,17 @@
    "model": "models/props_lab/powerbox02d.mdl",
    "scale": 1.0,
    "stand_in": "cabinet",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    28.4988,
+    3.0296,
+    -8.4391
+   ],
+   "model": "models/props_lab/pipesystem01b.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
    "yaw": 270.0
   },
   {
@@ -41216,6 +42104,17 @@
   },
   {
    "at": [
+    11.2586,
+    0.5912,
+    15.5448
+   ],
+   "model": "models/props_lab/pipesystem01b.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
     10.287,
     2.8956,
     10.7823
@@ -41238,6 +42137,17 @@
   },
   {
    "at": [
+    6.5532,
+    0.7434,
+    17.3545
+   ],
+   "model": "models/props_pipes/pipe03_scurve02_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     14.9784,
     1.3742,
     14.4265
@@ -41249,6 +42159,17 @@
   },
   {
    "at": [
+    12.2111,
+    1.3732,
+    -17.8117
+   ],
+   "model": "models/props_pipes/pipeset32d_128_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     8.6106,
     0.2212,
     18.5166
@@ -41257,6 +42178,17 @@
    "scale": 1.0,
    "stand_in": "bin",
    "yaw": 138.0
+  },
+  {
+   "at": [
+    7.5248,
+    2.0764,
+    10.287
+   ],
+   "model": "models/props_wasteland/pipecluster003a_small.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
   },
   {
    "at": [
@@ -41279,6 +42211,39 @@
    "scale": 1.0,
    "stand_in": "cabinet",
    "yaw": 180.0
+  },
+  {
+   "at": [
+    7.3914,
+    0.1578,
+    24.1554
+   ],
+   "model": "models/props_combine/combine_interface002.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    7.4676,
+    0.1578,
+    25.527
+   ],
+   "model": "models/props_combine/combine_interface003.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    7.3914,
+    0.1578,
+    22.7076
+   ],
+   "model": "models/props_combine/combine_interface003.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -41367,6 +42332,17 @@
    "scale": 1.0,
    "stand_in": "rock",
    "yaw": 259.91
+  },
+  {
+   "at": [
+    1.8288,
+    1.9812,
+    -26.9748
+   ],
+   "model": "models/props_pipes/destroyedpipes01c.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 101.93
   },
   {
    "at": [
@@ -41579,6 +42555,17 @@
   },
   {
    "at": [
+    44.9536,
+    17.6838,
+    -2.9337
+   ],
+   "model": "models/props_rooftop/roof_vent004.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -28.27,
     6.0873,
     -30.404
@@ -41608,6 +42595,28 @@
    "model": "models/props_c17/light_domelight01_off.mdl",
    "scale": 1.0,
    "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    4.1148,
+    1.8288,
+    25.6032
+   ],
+   "model": "models/props_silo/electricalbox02.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    26.9495,
+    17.46,
+    -14.1023
+   ],
+   "model": "models/props_rooftop/chimneytoppipe_cluster01c.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
    "yaw": 0.0
   },
   {
@@ -41700,6 +42709,50 @@
   },
   {
    "at": [
+    2.7432,
+    0.6096,
+    -22.5171
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    2.7432,
+    2.7432,
+    -22.5171
+   ],
+   "model": "models/props_c17/metalladder002b.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    3.2385,
+    4.8768,
+    -25.2222
+   ],
+   "model": "models/props_c17/metalladder002b.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    3.2385,
+    2.7486,
+    -25.2222
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     42.4434,
     9.9822,
     30.2514
@@ -41710,6 +42763,7 @@
    "yaw": 228.17
   }
  ],
+ "scripts": [],
  "settings": {},
  "skipped": {
   "face:tools/toolsskybox": 308,
@@ -48260,8 +49314,8 @@
     0.6975
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
-   "generic": "wallpaper",
+   "free": "wallpaper_decrepit:wallpaper_decrepit",
+   "generic": "wallpaper_decrepit",
    "index_count": 303,
    "index_offset": 402712,
    "material": "plaster/plasterwallpaper006a",
@@ -50260,8 +51314,8 @@
     0.6975
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
-   "generic": "wallpaper",
+   "free": "wallpaper_decrepit:wallpaper_decrepit",
+   "generic": "wallpaper_decrepit",
    "index_count": 228,
    "index_offset": 599980,
    "material": "plaster/plasterwallpaper006a",
@@ -58750,8 +59804,8 @@
     0.6975
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
-   "generic": "wallpaper",
+   "free": "wallpaper_decrepit:wallpaper_decrepit",
+   "generic": "wallpaper_decrepit",
    "index_count": 42,
    "index_offset": 1190064,
    "material": "plaster/plasterwallpaper006a",
@@ -60136,8 +61190,8 @@
     0.6975
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
-   "generic": "wallpaper",
+   "free": "wallpaper_decrepit:wallpaper_decrepit",
+   "generic": "wallpaper_decrepit",
    "index_count": 84,
    "index_offset": 1299412,
    "material": "plaster/plasterwallpaper006a",

@@ -20861,6 +20861,15 @@
    },
    {
     "author": "Kenney",
+    "count": 3,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Survival Kit",
+    "stand_in": "bucket",
+    "url": "https://kenney.nl/assets/survival-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 25,
     "files": [],
     "licence": "CC0-1.0",
@@ -20870,7 +20879,7 @@
    },
    {
     "author": "Kenney",
-    "count": 10,
+    "count": 13,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -20879,7 +20888,7 @@
    },
    {
     "author": "Kenney",
-    "count": 55,
+    "count": 95,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -20906,6 +20915,33 @@
    },
    {
     "author": "Kenney",
+    "count": 8,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Factory Kit",
+    "stand_in": "factory/door",
+    "url": "https://kenney.nl/assets/factory-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 4,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Factory Kit",
+    "stand_in": "factory/pipe",
+    "url": "https://kenney.nl/assets/factory-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 64,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Factory Kit",
+    "stand_in": "factory/window",
+    "url": "https://kenney.nl/assets/factory-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 41,
     "files": [],
     "licence": "CC0-1.0",
@@ -20915,12 +20951,21 @@
    },
    {
     "author": "Kenney",
-    "count": 12,
+    "count": 13,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
     "stand_in": "fridge",
     "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 8,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Graveyard Kit",
+    "stand_in": "graveyard/lamppost",
+    "url": "https://kenney.nl/assets/graveyard-kit"
    },
    {
     "author": "Kenney",
@@ -20930,6 +20975,24 @@
     "source": "Kenney Furniture Kit",
     "stand_in": "lamp",
     "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Pirate Kit",
+    "stand_in": "pirate/boat",
+    "url": "https://kenney.nl/assets/pirate-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 19,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Prototype Kit",
+    "stand_in": "prototype/ladder",
+    "url": "https://kenney.nl/assets/prototype-kit"
    },
    {
     "author": "Kenney",
@@ -21008,7 +21071,7 @@
    {
     "count": 1,
     "model": "models/props/cs_italy/it_lantern2.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "ceiling_light"
    },
    {
     "count": 24,
@@ -21113,7 +21176,7 @@
    {
     "count": 8,
     "model": "models/props_c17/door01_left.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/door"
    },
    {
     "count": 2,
@@ -21173,12 +21236,12 @@
    {
     "count": 16,
     "model": "models/props_c17/metalladder002.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "prototype/ladder"
    },
    {
     "count": 3,
     "model": "models/props_c17/metalladder003.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "prototype/ladder"
    },
    {
     "count": 15,
@@ -21193,17 +21256,17 @@
    {
     "count": 4,
     "model": "models/props_c17/utilitypole01b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "graveyard/lamppost"
    },
    {
     "count": 4,
     "model": "models/props_c17/utilitypole02b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "graveyard/lamppost"
    },
    {
     "count": 1,
     "model": "models/props_canal/boat001b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "pirate/boat"
    },
    {
     "count": 1,
@@ -21253,17 +21316,17 @@
    {
     "count": 1,
     "model": "models/props_interiors/pot01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bucket"
    },
    {
     "count": 2,
     "model": "models/props_interiors/pot02a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bucket"
    },
    {
     "count": 1,
     "model": "models/props_interiors/refrigerator01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "fridge"
    },
    {
     "count": 2,
@@ -21333,7 +21396,7 @@
    {
     "count": 39,
     "model": "models/props_lab/lab_flourescentlight002b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "ceiling_light"
    },
    {
     "count": 1,
@@ -21358,12 +21421,12 @@
    {
     "count": 2,
     "model": "models/props_rooftop/roof_vent001.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 1,
     "model": "models/props_rooftop/roof_vent004.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 1,
@@ -21498,37 +21561,37 @@
    {
     "count": 1,
     "model": "models/props_wasteland/pipecluster001c.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/props_wasteland/pipecluster003a_small.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 15,
     "model": "models/props_wasteland/plasterwall029c_window01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/window"
    },
    {
     "count": 15,
     "model": "models/props_wasteland/plasterwall029c_window01a_bars.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/window"
    },
    {
     "count": 15,
     "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/window"
    },
    {
     "count": 15,
     "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/window"
    },
    {
     "count": 2,
     "model": "models/props_wasteland/prison_pipefaucet001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 4,
@@ -21588,12 +21651,12 @@
    {
     "count": 2,
     "model": "models/props_wasteland/woodwall030b_window01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/window"
    },
    {
     "count": 2,
     "model": "models/props_wasteland/woodwall030b_window01a_bars.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/window"
    }
   ],
   "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
@@ -21804,20 +21867,18 @@
      0.375,
      0.375
     ],
-    "file": "surfaces/concrete_clean",
-    "generic": "stone_wall",
+    "file": "surfaces/rock",
+    "generic": "rock",
     "how": "table",
-    "key": "concrete_clean:stone_wall",
-    "kind": "concrete_clean",
+    "key": "rock:rock",
+    "kind": "rock",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
-     "de_aztec/generic68a",
-     "nature/cliffface001a",
-     "stone/stonewall002a"
+     "nature/cliffface001a"
     ],
-    "surfaces": 34,
-    "url": "https://ambientcg.com/view?id=Concrete034"
+    "surfaces": 26,
+    "url": "https://ambientcg.com/view?id=Rock023"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -21925,11 +21986,9 @@
     "source": "ambientCG",
     "sources": [
      "props/tarpaperroof002a",
-     "tile/tileroof004a",
-     "tile/tileroof004b",
      "wood/woodshingles002a"
     ],
-    "surfaces": 20,
+    "surfaces": 7,
     "url": "https://ambientcg.com/view?id=Tiles138"
    },
    {
@@ -21939,11 +21998,11 @@
      0.75,
      0.625
     ],
-    "file": "surfaces/plaster",
+    "file": "surfaces/plaster_worn",
     "generic": "plaster_worn",
     "how": "table",
-    "key": "plaster:plaster_worn",
-    "kind": "plaster",
+    "key": "plaster_worn:plaster_worn",
+    "kind": "plaster_worn",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
@@ -21960,28 +22019,70 @@
      "plaster/plasterwall049e"
     ],
     "surfaces": 62,
-    "url": "https://ambientcg.com/view?id=PaintedPlaster017"
+    "url": "https://ambientcg.com/view?id=Plaster003"
    },
    {
-    "author": "Lennart Demes and contributors",
+    "author": "Rob Tuytel",
     "colour": [
      0.75,
      0.75,
      0.75
     ],
-    "file": "surfaces/plaster",
-    "generic": "wallpaper",
+    "file": "surfaces/wallpaper_decrepit",
+    "generic": "wallpaper_decrepit",
     "how": "table",
-    "key": "plaster:wallpaper",
-    "kind": "plaster",
+    "key": "wallpaper_decrepit:wallpaper_decrepit",
+    "kind": "wallpaper_decrepit",
     "licence": "CC0-1.0",
-    "source": "ambientCG",
+    "source": "Poly Haven",
     "sources": [
      "plaster/plasterwallpaper004a",
      "plaster/plasterwallpaper006a"
     ],
     "surfaces": 16,
-    "url": "https://ambientcg.com/view?id=PaintedPlaster017"
+    "url": "https://polyhaven.com/a/decrepit_wallpaper"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.375,
+     0.5,
+     0.375
+    ],
+    "file": "surfaces/stone_block",
+    "generic": "stone_wall",
+    "how": "table",
+    "key": "stone_block:stone_wall",
+    "kind": "stone_block",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "de_aztec/generic68a",
+     "stone/stonewall002a"
+    ],
+    "surfaces": 8,
+    "url": "https://ambientcg.com/view?id=Bricks076A"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.5,
+     0.375,
+     0.25
+    ],
+    "file": "surfaces/roof_clay",
+    "generic": "roof_clay",
+    "how": "table",
+    "key": "roof_clay:roof_clay",
+    "kind": "roof_clay",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "tile/tileroof004a",
+     "tile/tileroof004b"
+    ],
+    "surfaces": 13,
+    "url": "https://ambientcg.com/view?id=RoofingTiles014A"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -25400,6 +25501,302 @@
  "movers": [
   {
    "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 284,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [
+    {
+     "classname": "trigger_multiple",
+     "delay": 0.0,
+     "entity": 627,
+     "input": "Open",
+     "output": "OnStartTouch",
+     "targetname": ""
+    },
+    {
+     "classname": "trigger_multiple",
+     "delay": 4.0,
+     "entity": 627,
+     "input": "Close",
+     "output": "OnEndTouch",
+     "targetname": ""
+    }
+   ],
+   "origin": [
+    29.1812,
+    -20.3073,
+    -97.9742
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnOpen",
+     "param": "",
+     "target": "house_door_move",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnFullyClosed",
+     "param": "",
+     "target": "house_door_closed",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnClose",
+     "param": "",
+     "target": "house_door_move",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 32768,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "house_door",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 180.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 374,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [
+    {
+     "classname": "trigger_multiple",
+     "delay": 0.0,
+     "entity": 629,
+     "input": "Open",
+     "output": "OnStartTouch",
+     "targetname": ""
+    },
+    {
+     "classname": "trigger_multiple",
+     "delay": 4.0,
+     "entity": 629,
+     "input": "Close",
+     "output": "OnEndTouch",
+     "targetname": ""
+    }
+   ],
+   "origin": [
+    76.0286,
+    -20.9169,
+    -90.3334
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnOpen",
+     "param": "",
+     "target": "controlroom_door2_move",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnFullyClosed",
+     "param": "",
+     "target": "controlroom_door2_closed",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnClose",
+     "param": "",
+     "target": "controlroom_door2_move",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 32768,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "controlroom_door2",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 90.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 378,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [
+    {
+     "classname": "trigger_multiple",
+     "delay": 0.0,
+     "entity": 628,
+     "input": "Open",
+     "output": "OnStartTouch",
+     "targetname": ""
+    },
+    {
+     "classname": "trigger_multiple",
+     "delay": 4.0,
+     "entity": 628,
+     "input": "Close",
+     "output": "OnEndTouch",
+     "targetname": ""
+    }
+   ],
+   "origin": [
+    70.2166,
+    -20.9169,
+    -91.6115
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnOpen",
+     "param": "",
+     "target": "controlroom_door1_move",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnFullyClosed",
+     "param": "",
+     "target": "controlroom_door1_closed",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnClose",
+     "param": "",
+     "target": "controlroom_door1_move",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 32768,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "controlroom_door1",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 0.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 384,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [
+    {
+     "classname": "trigger_multiple",
+     "delay": 0.0,
+     "entity": 626,
+     "input": "Open",
+     "output": "OnStartTouch",
+     "targetname": ""
+    },
+    {
+     "classname": "trigger_multiple",
+     "delay": 4.0,
+     "entity": 626,
+     "input": "Close",
+     "output": "OnEndTouch",
+     "targetname": ""
+    }
+   ],
+   "origin": [
+    26.0414,
+    -20.3073,
+    -121.8802
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnOpen",
+     "param": "",
+     "target": "small_house_door_move",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnFullyClosed",
+     "param": "",
+     "target": "small_house_door_closed",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnClose",
+     "param": "",
+     "target": "small_house_door_move",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 32768,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "small_house_door",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 90.0
+  },
+  {
+   "axis": [
     1.0,
     0.0,
     -0.0
@@ -25469,6 +25866,169 @@
    "travel_time": 1.2,
    "use": true,
    "wait": 4.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 463,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [
+    {
+     "classname": "trigger_multiple",
+     "delay": 0.0,
+     "entity": 527,
+     "input": "Open",
+     "output": "OnStartTouch",
+     "targetname": ""
+    },
+    {
+     "classname": "trigger_multiple",
+     "delay": 4.0,
+     "entity": 527,
+     "input": "Close",
+     "output": "OnEndTouch",
+     "targetname": ""
+    }
+   ],
+   "origin": [
+    -10.2299,
+    -17.8689,
+    -165.735
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnOpen",
+     "param": "",
+     "target": "ct_house_door_move",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnFullyClosed",
+     "param": "",
+     "target": "ct_house_door_closed",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnClose",
+     "param": "",
+     "target": "ct_house_door_move",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 32768,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "ct_house_door",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 90.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 0.0,
+   "entity": 464,
+   "kind": "rotate",
+   "locked": true,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    75.1523,
+    -20.9169,
+    -68.1609
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 2048,
+   "speed": 0.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 270.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 90.0,
+   "entity": 708,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -51.1112,
+    -19.6787,
+    -201.2061
+   ],
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnOpen",
+     "param": "",
+     "target": "small_house_door_move",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnFullyClosed",
+     "param": "",
+     "target": "small_house_door_closed",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnClose",
+     "param": "",
+     "target": "small_house_door_move",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 0,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "tunneldoor2323",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 270.0
   },
   {
    "axis": [
@@ -25603,98 +26163,66 @@
    "travel_time": 1.2,
    "use": true,
    "wait": 4.0
-  }
- ],
- "movers_without_geometry": [
-  {
-   "classname": "prop_door_rotating",
-   "entity": 284,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    29.1812,
-    -20.3073,
-    -97.9742
-   ],
-   "targetname": "house_door"
   },
   {
-   "classname": "prop_door_rotating",
-   "entity": 374,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    76.0286,
-    -20.9169,
-    -90.3334
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
    ],
-   "targetname": "controlroom_door2"
-  },
-  {
    "classname": "prop_door_rotating",
-   "entity": 378,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    70.2166,
-    -20.9169,
-    -91.6115
-   ],
-   "targetname": "controlroom_door1"
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 384,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    26.0414,
-    -20.3073,
-    -121.8802
-   ],
-   "targetname": "small_house_door"
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 463,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    -10.2299,
-    -17.8689,
-    -165.735
-   ],
-   "targetname": "ct_house_door"
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 464,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    75.1523,
-    -20.9169,
-    -68.1609
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 708,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    -51.1112,
-    -19.6787,
-    -201.2061
-   ],
-   "targetname": "tunneldoor2323"
-  },
-  {
-   "classname": "prop_door_rotating",
+   "degrees": 90.0,
    "entity": 918,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
    "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
    "origin": [
     -4.0957,
     -19.6977,
     -190.9572
    ],
-   "targetname": "tunneldoor2324"
+   "outputs": [
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnOpen",
+     "param": "",
+     "target": "small_house_door_move",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnFullyClosed",
+     "param": "",
+     "target": "small_house_door_closed",
+     "times": -1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnClose",
+     "param": "",
+     "target": "small_house_door_move",
+     "times": -1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 0,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "tunneldoor2324",
+   "touch": false,
+   "travel_time": 0.9,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 270.0
   }
  ],
+ "movers_without_geometry": [],
  "name": "zm_roy_highway",
  "notes": [
   "121 glass surfaces (kinds glass)",
@@ -26320,6 +26848,215 @@
   },
   {
    "at": [
+    29.1842,
+    -17.602,
+    -97.536
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    32.9184,
+    -20.0404,
+    -96.2402
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    34.061,
+    -20.0404,
+    -95.0976
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    34.061,
+    -20.0404,
+    -90.2208
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    34.061,
+    -17.602,
+    -90.2208
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    32.9184,
+    -17.602,
+    -89.0782
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    32.9184,
+    -20.0404,
+    -89.0782
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    28.0416,
+    -17.602,
+    -89.0782
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    28.0416,
+    -20.0404,
+    -89.0782
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    26.899,
+    -17.602,
+    -90.2208
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    26.899,
+    -20.0404,
+    -90.2208
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    22.0222,
+    -20.0404,
+    -94.7547
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    22.0222,
+    -20.0404,
+    -95.4405
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    22.0222,
+    -17.602,
+    -97.536
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    28.0416,
+    -17.602,
+    -98.6786
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -15.7734,
+    -17.526,
+    -162.1536
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -15.7734,
+    -17.526,
+    -164.592
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    50.0634,
+    -19.9644,
+    -102.87
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    51.2064,
+    -19.9644,
+    -103.5558
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     70.7046,
     -12.0556,
     58.3031
@@ -26339,6 +27076,127 @@
    "scale": 1.0,
    "stand_in": "fence",
    "yaw": 270.0
+  },
+  {
+   "at": [
+    26.7462,
+    -19.9644,
+    -110.9472
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    26.7462,
+    -19.9644,
+    -115.824
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    26.7462,
+    -19.9644,
+    -120.7199
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    23.1648,
+    -19.9644,
+    -121.8438
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    20.7264,
+    -19.9644,
+    -121.8438
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    19.5834,
+    -19.9644,
+    -113.3856
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    19.5834,
+    -19.9644,
+    -120.7008
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -9.7536,
+    -17.526,
+    -161.0106
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -12.192,
+    -17.526,
+    -161.0106
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -14.6304,
+    -17.526,
+    -161.0106
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -14.6304,
+    -17.526,
+    -165.735
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -26408,6 +27266,17 @@
   },
   {
    "at": [
+    22.7457,
+    -20.1168,
+    -95.9168
+   ],
+   "model": "models/props_interiors/pot02a.mdl",
+   "scale": 1.0,
+   "stand_in": "bucket",
+   "yaw": 322.0
+  },
+  {
+   "at": [
     23.0695,
     -20.0216,
     -95.9739
@@ -26438,6 +27307,28 @@
    "scale": 1.0,
    "stand_in": "bin",
    "yaw": 233.5
+  },
+  {
+   "at": [
+    25.6223,
+    -20.461,
+    -95.6882
+   ],
+   "model": "models/props_interiors/pot01a.mdl",
+   "scale": 1.0,
+   "stand_in": "bucket",
+   "yaw": 317.0
+  },
+  {
+   "at": [
+    25.1079,
+    -20.4991,
+    -95.631
+   ],
+   "model": "models/props_interiors/pot02a.mdl",
+   "scale": 1.0,
+   "stand_in": "bucket",
+   "yaw": 317.0
   },
   {
    "at": [
@@ -26694,6 +27585,17 @@
   },
   {
    "at": [
+    24.384,
+    -49.911,
+    -83.5343
+   ],
+   "model": "models/props_canal/boat001b.mdl",
+   "scale": 1.0,
+   "stand_in": "pirate/boat",
+   "yaw": 161.93
+  },
+  {
+   "at": [
     43.1197,
     -21.7414,
     -117.5863
@@ -26713,6 +27615,72 @@
    "scale": 1.0,
    "stand_in": "barrel",
    "yaw": 117.0
+  },
+  {
+   "at": [
+    22.0218,
+    -20.0406,
+    -94.7547
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -73.352,
+    -15.4566,
+    -109.7362
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -73.7713,
+    -15.4522,
+    -196.4512
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -54.2639,
+    -15.4522,
+    -196.4512
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -108.9742,
+    -15.4522,
+    -153.0953
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    75.5822,
+    -4.4984,
+    -196.4341
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -26859,6 +27827,292 @@
   },
   {
    "at": [
+    -99.048,
+    -15.4566,
+    -119.7536
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 45.0
+  },
+  {
+   "at": [
+    -98.9404,
+    -15.4566,
+    -186.5256
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 315.0
+  },
+  {
+   "at": [
+    -87.8163,
+    -15.4522,
+    -112.547
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 67.5
+  },
+  {
+   "at": [
+    -106.32,
+    -15.4522,
+    -130.8303
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 22.5
+  },
+  {
+   "at": [
+    -88.2737,
+    -15.4488,
+    -194.0814
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 292.5
+  },
+  {
+   "at": [
+    -106.5569,
+    -15.4488,
+    -175.5781
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 337.5
+  },
+  {
+   "at": [
+    -64.0175,
+    -15.4634,
+    -196.4512
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -44.5103,
+    -15.4634,
+    -196.4512
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -5.4956,
+    -15.4556,
+    -196.4512
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -15.2493,
+    -15.4443,
+    -196.4512
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -25.0027,
+    -15.4556,
+    -196.4512
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -34.7567,
+    -15.4443,
+    -196.4512
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    4.2578,
+    -15.4634,
+    -196.4512
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    13.8503,
+    -14.8696,
+    -196.4512
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    23.6039,
+    -12.9197,
+    -196.4512
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    33.3659,
+    -10.9766,
+    -196.4512
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    43.1199,
+    -9.0335,
+    -196.4512
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    52.8731,
+    -7.0713,
+    -196.4512
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    62.6267,
+    -5.1092,
+    -196.4512
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    75.5822,
+    -4.4906,
+    -206.1877
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    75.5822,
+    -4.4906,
+    -215.9413
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    75.5822,
+    -4.4984,
+    -167.1733
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    75.5822,
+    -4.4906,
+    -176.9267
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    75.5822,
+    -4.4906,
+    -186.6803
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    75.5822,
+    -4.4984,
+    -157.4197
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    75.5822,
+    -4.4984,
+    -147.6661
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     71.1731,
     -11.7575,
     -148.6933
@@ -26988,6 +28242,17 @@
    "scale": 1.0,
    "stand_in": "barrel",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    22.0218,
+    -20.0406,
+    -95.4405
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 90.0
   },
   {
    "at": [
@@ -27373,6 +28638,28 @@
    "scale": 1.0,
    "stand_in": "armchair",
    "yaw": 18.0
+  },
+  {
+   "at": [
+    84.7656,
+    -10.5315,
+    -133.9722
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 351.5
+  },
+  {
+   "at": [
+    84.0644,
+    -10.5315,
+    -129.2807
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a_bars.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 171.5
   },
   {
    "at": [
@@ -27805,6 +29092,94 @@
   },
   {
    "at": [
+    -57.6017,
+    -21.0981,
+    -103.0062
+   ],
+   "model": "models/props_c17/utilitypole01b.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 60.0
+  },
+  {
+   "at": [
+    -36.5017,
+    -21.6315,
+    -122.8184
+   ],
+   "model": "models/props_c17/utilitypole01b.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 60.0
+  },
+  {
+   "at": [
+    -24.8955,
+    -19.6503,
+    -165.0625
+   ],
+   "model": "models/props_c17/utilitypole01b.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 15.0
+  },
+  {
+   "at": [
+    4.9165,
+    -19.8027,
+    -166.8972
+   ],
+   "model": "models/props_c17/utilitypole01b.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    20.8662,
+    -20.1031,
+    -155.2428
+   ],
+   "model": "models/props_c17/utilitypole02b.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 120.0
+  },
+  {
+   "at": [
+    29.6799,
+    -19.2596,
+    -100.4507
+   ],
+   "model": "models/props_rooftop/roof_vent001.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    29.6799,
+    -19.2596,
+    -100.4507
+   ],
+   "model": "models/props_rooftop/roof_vent001.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    29.1084,
+    -15.4686,
+    -93.1164
+   ],
+   "model": "models/props_rooftop/roof_vent004.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     23.815,
     -20.0216,
     -95.9851
@@ -27860,6 +29235,17 @@
   },
   {
    "at": [
+    23.2646,
+    -20.3645,
+    -96.0231
+   ],
+   "model": "models/props_wasteland/prison_pipefaucet001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
     25.2603,
     -20.5359,
     -93.3069
@@ -27867,6 +29253,17 @@
    "model": "models/props_c17/grinderclamp01a.mdl",
    "scale": 1.0,
    "stand_in": "lamp",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    23.0741,
+    -20.3645,
+    -96.0231
+   ],
+   "model": "models/props_wasteland/prison_pipefaucet001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
    "yaw": 180.0
   },
   {
@@ -27890,6 +29287,325 @@
    "scale": 1.0,
    "stand_in": "bookcase",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    29.1846,
+    -17.6022,
+    -97.536
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    32.9184,
+    -20.0406,
+    -96.2406
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    34.0614,
+    -20.0406,
+    -95.0976
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    34.0614,
+    -20.0406,
+    -90.2208
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    34.0614,
+    -17.6022,
+    -90.2208
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    32.9184,
+    -17.6022,
+    -89.0778
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    32.9184,
+    -20.0406,
+    -89.0778
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    28.0416,
+    -17.6022,
+    -89.0778
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    28.0416,
+    -20.0406,
+    -89.0778
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    26.8986,
+    -17.6022,
+    -90.2208
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    26.8986,
+    -20.0406,
+    -90.2208
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    22.0218,
+    -17.6022,
+    -97.536
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    28.0416,
+    -17.6022,
+    -98.679
+   ],
+   "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -15.7734,
+    -17.526,
+    -162.1536
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -15.7734,
+    -17.526,
+    -164.592
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    50.0634,
+    -19.9644,
+    -102.87
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    51.2064,
+    -19.9644,
+    -103.5558
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    26.7462,
+    -19.9644,
+    -110.9472
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    26.7462,
+    -19.9644,
+    -115.824
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    26.7462,
+    -19.9644,
+    -120.7199
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    23.1648,
+    -19.9644,
+    -121.8438
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    20.7264,
+    -19.9644,
+    -121.8438
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    19.5834,
+    -19.9644,
+    -113.3856
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    19.5834,
+    -19.9644,
+    -120.7008
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -9.7536,
+    -17.526,
+    -161.0106
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -12.192,
+    -17.526,
+    -161.0106
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -14.6304,
+    -17.526,
+    -161.0106
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -14.6304,
+    -17.526,
+    -165.735
+   ],
+   "model": "models/props_wasteland/plasterwall029c_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    26.3462,
+    -20.6312,
+    -95.8025
+   ],
+   "model": "models/props_interiors/refrigerator01a.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 265.5
   },
   {
    "at": [
@@ -28044,6 +29760,17 @@
    "scale": 1.0,
    "stand_in": "rock",
    "yaw": 281.0
+  },
+  {
+   "at": [
+    32.2517,
+    -21.9647,
+    -99.3267
+   ],
+   "model": "models/props_c17/utilitypole02b.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 315.0
   },
   {
    "at": [
@@ -28245,6 +29972,17 @@
   },
   {
    "at": [
+    27.3819,
+    -21.9647,
+    -121.9636
+   ],
+   "model": "models/props_c17/utilitypole02b.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 105.0
+  },
+  {
+   "at": [
     51.2064,
     -30.0228,
     -91.6686
@@ -28286,6 +30024,17 @@
    "scale": 1.0,
    "stand_in": "tree",
    "yaw": 270.0
+  },
+  {
+   "at": [
+    79.7934,
+    -19.812,
+    -93.2783
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -28509,6 +30258,61 @@
   },
   {
    "at": [
+    81.6864,
+    -51.2064,
+    -93.9356
+   ],
+   "model": "models/props_c17/metalladder003.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    81.6864,
+    -29.0322,
+    -93.9356
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    81.6864,
+    -26.5938,
+    -93.9356
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    81.6864,
+    -24.4412,
+    -93.9356
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    30.3467,
+    -19.1453,
+    -97.4408
+   ],
+   "model": "models/props/cs_italy/it_lantern2.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -31.7373,
     -19.9073,
     -143.7704
@@ -28641,6 +30445,72 @@
   },
   {
    "at": [
+    27.5082,
+    -19.0119,
+    -101.2317
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    55.4791,
+    -24.6888,
+    -97.4217
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    81.4633,
+    -21.3985,
+    -96.3162
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    81.4633,
+    -19.1315,
+    -96.3162
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    81.4633,
+    -16.998,
+    -96.3162
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    81.4633,
+    -14.7882,
+    -96.3162
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     128.1956,
     -49.1686,
     -78.5551
@@ -28663,6 +30533,39 @@
   },
   {
    "at": [
+    25.0889,
+    -21.9647,
+    -138.2649
+   ],
+   "model": "models/props_c17/utilitypole02b.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    21.7361,
+    -22.0599,
+    -96.8121
+   ],
+   "model": "models/props_wasteland/pipecluster003a_small.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    21.717,
+    -22.5171,
+    -96.0501
+   ],
+   "model": "models/props_wasteland/pipecluster001c.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     36.6794,
     -23.6601,
     -92.0772
@@ -28670,6 +30573,39 @@
    "model": "models/props_lab/powerbox02a.mdl",
    "scale": 1.0,
    "stand_in": "cabinet",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    73.7481,
+    -11.8681,
+    -205.6695
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 330.0
+  },
+  {
+   "at": [
+    43.2626,
+    -27.7964,
+    -124.3138
+   ],
+   "model": "models/props_c17/metalladder003.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 135.0
+  },
+  {
+   "at": [
+    70.466,
+    -10.1918,
+    -93.3315
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
    "yaw": 0.0
   },
   {
@@ -28696,6 +30632,39 @@
   },
   {
    "at": [
+    24.6372,
+    -20.4323,
+    -91.4966
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    78.655,
+    -11.811,
+    -45.4763
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 75.0
+  },
+  {
+   "at": [
+    78.2389,
+    -11.4109,
+    21.7225
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -50.7052,
     -17.7247,
     -200.8423
@@ -28707,6 +30676,17 @@
   },
   {
    "at": [
+    -49.2147,
+    -18.3713,
+    -204.0788
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  },
+  {
+   "at": [
     -69.1134,
     -19.6074,
     -200.5203
@@ -28715,6 +30695,17 @@
    "scale": 1.0,
    "stand_in": "vehicles/truck",
    "yaw": 180.0
+  },
+  {
+   "at": [
+    -103.1121,
+    -19.4691,
+    -137.769
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -28751,6 +30742,17 @@
   },
   {
    "at": [
+    84.7656,
+    -10.5315,
+    -133.9722
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 351.5
+  },
+  {
+   "at": [
     86.6343,
     -10.5471,
     -132.1079
@@ -28769,6 +30771,17 @@
    "model": "models/props_c17/furnitureshelf002a.mdl",
    "scale": 1.0,
    "stand_in": "bookcase",
+   "yaw": 171.5
+  },
+  {
+   "at": [
+    84.0644,
+    -10.5315,
+    -129.2807
+   ],
+   "model": "models/props_wasteland/woodwall030b_window01a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
    "yaw": 171.5
   },
   {
@@ -28792,6 +30805,39 @@
    "scale": 1.0,
    "stand_in": "vehicles/van",
    "yaw": 90.0
+  },
+  {
+   "at": [
+    86.0311,
+    -11.5252,
+    -129.039
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 258.0
+  },
+  {
+   "at": [
+    -40.2073,
+    -34.121,
+    -169.1566
+   ],
+   "model": "models/props_c17/metalladder003.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 31.0
+  },
+  {
+   "at": [
+    46.174,
+    -15.8758,
+    -174.9455
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -29122,8 +31168,64 @@
    "scale": 1.0,
    "stand_in": "lamp",
    "yaw": 90.0
+  },
+  {
+   "at": [
+    -1.9818,
+    -15.4757,
+    -188.5843
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    5.059,
+    -15.4757,
+    -188.7194
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    6.096,
+    -22.2504,
+    -173.5455
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    10.2566,
+    -18.9809,
+    -180.6052
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    10.0781,
+    -20.8096,
+    -171.0177
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
   }
  ],
+ "scripts": [],
  "settings": {},
  "skipped": {
   "face:tools/toolsskybox": 829,
@@ -33314,8 +35416,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 96,
    "index_offset": 71860,
    "material": "nature/cliffface001a",
@@ -33456,8 +35558,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 672,
    "index_offset": 79836,
    "material": "nature/cliffface001a",
@@ -34339,8 +36441,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 192,
    "index_offset": 117692,
    "material": "nature/cliffface001a",
@@ -34478,8 +36580,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 192,
    "index_offset": 126004,
    "material": "nature/cliffface001a",
@@ -34644,8 +36746,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 192,
    "index_offset": 135524,
    "material": "nature/cliffface001a",
@@ -34841,8 +36943,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 384,
    "index_offset": 148916,
    "material": "nature/cliffface001a",
@@ -35744,7 +37846,7 @@
     0.6493
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 51,
    "index_offset": 183240,
@@ -35771,7 +37873,7 @@
     0.6855
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 186,
    "index_offset": 185044,
@@ -35798,7 +37900,7 @@
     0.6855
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 63,
    "index_offset": 186524,
@@ -35825,7 +37927,7 @@
     0.6855
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 36,
    "index_offset": 187288,
@@ -35852,7 +37954,7 @@
     0.7173
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 39,
    "index_offset": 188072,
@@ -35879,7 +37981,7 @@
     0.576
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 24,
    "index_offset": 188548,
@@ -35906,8 +38008,8 @@
     0.6975
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
-   "generic": "wallpaper",
+   "free": "wallpaper_decrepit:wallpaper_decrepit",
+   "generic": "wallpaper_decrepit",
    "index_count": 228,
    "index_offset": 191012,
    "material": "plaster/plasterwallpaper006a",
@@ -35960,7 +38062,7 @@
     0.4194
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 150,
    "index_offset": 203456,
@@ -35987,8 +38089,8 @@
     0.2788
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 69,
    "index_offset": 204984,
    "material": "tile/tileroof004a",
@@ -36014,8 +38116,8 @@
     0.2788
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 18,
    "index_offset": 205644,
    "material": "tile/tileroof004a",
@@ -36041,8 +38143,8 @@
     0.2788
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 12,
    "index_offset": 205972,
    "material": "tile/tileroof004a",
@@ -36288,8 +38390,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 96,
    "index_offset": 227204,
    "material": "nature/cliffface001a",
@@ -36402,8 +38504,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 576,
    "index_offset": 236996,
    "material": "nature/cliffface001a",
@@ -36516,8 +38618,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 192,
    "index_offset": 245796,
    "material": "nature/cliffface001a",
@@ -36708,7 +38810,7 @@
     0.7646
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 129,
    "index_offset": 252068,
@@ -36735,7 +38837,7 @@
     0.6855
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 42,
    "index_offset": 253288,
@@ -36762,7 +38864,7 @@
     0.6855
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 351,
    "index_offset": 258416,
@@ -36789,7 +38891,7 @@
     0.6855
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 144,
    "index_offset": 261804,
@@ -36816,7 +38918,7 @@
     0.6855
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 99,
    "index_offset": 263564,
@@ -36843,7 +38945,7 @@
     0.6855
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 24,
    "index_offset": 264408,
@@ -36870,7 +38972,7 @@
     0.6855
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 51,
    "index_offset": 265560,
@@ -36897,7 +38999,7 @@
     0.6855
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 96,
    "index_offset": 266788,
@@ -36924,7 +39026,7 @@
     0.6855
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 36,
    "index_offset": 267940,
@@ -36951,7 +39053,7 @@
     0.7173
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 81,
    "index_offset": 269524,
@@ -36978,7 +39080,7 @@
     0.576
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 186,
    "index_offset": 272216,
@@ -37005,7 +39107,7 @@
     0.4194
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 471,
    "index_offset": 279328,
@@ -38373,8 +40475,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 192,
    "index_offset": 359840,
    "material": "nature/cliffface001a",
@@ -38705,8 +40807,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 864,
    "index_offset": 383592,
    "material": "nature/cliffface001a",
@@ -38977,7 +41079,7 @@
     0.6493
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 279,
    "index_offset": 400396,
@@ -39004,7 +41106,7 @@
     0.7646
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 51,
    "index_offset": 402568,
@@ -39031,7 +41133,7 @@
     0.6855
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 39,
    "index_offset": 403188,
@@ -39058,7 +41160,7 @@
     0.7173
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 258,
    "index_offset": 406640,
@@ -39085,7 +41187,7 @@
     0.576
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 24,
    "index_offset": 407992,
@@ -39112,7 +41214,7 @@
     0.7029
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 117,
    "index_offset": 409432,
@@ -39139,7 +41241,7 @@
     0.7029
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 234,
    "index_offset": 412332,
@@ -39166,7 +41268,7 @@
     0.7029
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 6,
    "index_offset": 413396,
@@ -39193,7 +41295,7 @@
     0.6019
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 111,
    "index_offset": 414860,
@@ -39220,7 +41322,7 @@
     0.5541
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 75,
    "index_offset": 416040,
@@ -39247,7 +41349,7 @@
     0.5541
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 69,
    "index_offset": 417012,
@@ -39274,7 +41376,7 @@
     0.5541
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 111,
    "index_offset": 418408,
@@ -39301,7 +41403,7 @@
     0.5708
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 54,
    "index_offset": 419684,
@@ -39328,7 +41430,7 @@
     0.4928
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 66,
    "index_offset": 420668,
@@ -39355,8 +41457,8 @@
     0.6382
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
-   "generic": "wallpaper",
+   "free": "wallpaper_decrepit:wallpaper_decrepit",
+   "generic": "wallpaper_decrepit",
    "index_count": 276,
    "index_offset": 424388,
    "material": "plaster/plasterwallpaper004a",
@@ -39382,8 +41484,8 @@
     0.6382
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
-   "generic": "wallpaper",
+   "free": "wallpaper_decrepit:wallpaper_decrepit",
+   "generic": "wallpaper_decrepit",
    "index_count": 171,
    "index_offset": 427636,
    "material": "plaster/plasterwallpaper004a",
@@ -39409,8 +41511,8 @@
     0.6382
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
-   "generic": "wallpaper",
+   "free": "wallpaper_decrepit:wallpaper_decrepit",
+   "generic": "wallpaper_decrepit",
    "index_count": 249,
    "index_offset": 431104,
    "material": "plaster/plasterwallpaper004a",
@@ -39436,8 +41538,8 @@
     0.6975
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
-   "generic": "wallpaper",
+   "free": "wallpaper_decrepit:wallpaper_decrepit",
+   "generic": "wallpaper_decrepit",
    "index_count": 414,
    "index_offset": 437156,
    "material": "plaster/plasterwallpaper006a",
@@ -39490,7 +41592,7 @@
     0.4194
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 315,
    "index_offset": 457068,
@@ -39544,8 +41646,8 @@
     0.2788
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 42,
    "index_offset": 459248,
    "material": "tile/tileroof004a",
@@ -39571,8 +41673,8 @@
     0.2788
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 60,
    "index_offset": 460504,
    "material": "tile/tileroof004a",
@@ -39598,8 +41700,8 @@
     0.2788
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 6,
    "index_offset": 460872,
    "material": "tile/tileroof004a",
@@ -39625,8 +41727,8 @@
     0.2788
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 15,
    "index_offset": 461120,
    "material": "tile/tileroof004a",
@@ -39652,8 +41754,8 @@
     0.2465
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 6,
    "index_offset": 461308,
    "material": "tile/tileroof004b",
@@ -40056,8 +42158,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 384,
    "index_offset": 515280,
    "material": "nature/cliffface001a",
@@ -40302,7 +42404,7 @@
     0.6493
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 240,
    "index_offset": 523004,
@@ -40329,7 +42431,7 @@
     0.7646
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 27,
    "index_offset": 524444,
@@ -40356,7 +42458,7 @@
     0.6855
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 36,
    "index_offset": 524936,
@@ -40383,7 +42485,7 @@
     0.7173
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 198,
    "index_offset": 527576,
@@ -40410,7 +42512,7 @@
     0.7029
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 84,
    "index_offset": 529584,
@@ -40437,7 +42539,7 @@
     0.7029
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 6,
    "index_offset": 530048,
@@ -40464,7 +42566,7 @@
     0.7029
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 54,
    "index_offset": 530648,
@@ -40491,7 +42593,7 @@
     0.7029
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 30,
    "index_offset": 531248,
@@ -40518,8 +42620,8 @@
     0.6382
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
-   "generic": "wallpaper",
+   "free": "wallpaper_decrepit:wallpaper_decrepit",
+   "generic": "wallpaper_decrepit",
    "index_count": 513,
    "index_offset": 538056,
    "material": "plaster/plasterwallpaper004a",
@@ -40545,8 +42647,8 @@
     0.6382
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
-   "generic": "wallpaper",
+   "free": "wallpaper_decrepit:wallpaper_decrepit",
+   "generic": "wallpaper_decrepit",
    "index_count": 132,
    "index_offset": 542028,
    "material": "plaster/plasterwallpaper004a",
@@ -40572,8 +42674,8 @@
     0.6382
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
-   "generic": "wallpaper",
+   "free": "wallpaper_decrepit:wallpaper_decrepit",
+   "generic": "wallpaper_decrepit",
    "index_count": 81,
    "index_offset": 543676,
    "material": "plaster/plasterwallpaper004a",
@@ -40599,8 +42701,8 @@
     0.6382
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
-   "generic": "wallpaper",
+   "free": "wallpaper_decrepit:wallpaper_decrepit",
+   "generic": "wallpaper_decrepit",
    "index_count": 18,
    "index_offset": 544256,
    "material": "plaster/plasterwallpaper004a",
@@ -40653,7 +42755,7 @@
     0.4194
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 363,
    "index_offset": 551300,
@@ -40761,8 +42863,8 @@
     0.2788
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 9,
    "index_offset": 555408,
    "material": "tile/tileroof004a",
@@ -40788,8 +42890,8 @@
     0.2788
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 36,
    "index_offset": 556084,
    "material": "tile/tileroof004a",
@@ -40815,8 +42917,8 @@
     0.2788
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 18,
    "index_offset": 556484,
    "material": "tile/tileroof004a",
@@ -41118,8 +43220,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 480,
    "index_offset": 595364,
    "material": "nature/cliffface001a",
@@ -41912,7 +44014,7 @@
     0.6493
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 165,
    "index_offset": 620620,
@@ -41939,7 +44041,7 @@
     0.7646
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 96,
    "index_offset": 622688,
@@ -41966,7 +44068,7 @@
     0.7404
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 225,
    "index_offset": 625664,
@@ -42240,8 +44342,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 192,
    "index_offset": 673460,
    "material": "nature/cliffface001a",
@@ -42298,8 +44400,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 96,
    "index_offset": 679764,
    "material": "nature/cliffface001a",
@@ -42433,7 +44535,7 @@
     0.6493
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 72,
    "index_offset": 689300,
@@ -42460,7 +44562,7 @@
     0.7646
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 72,
    "index_offset": 690612,
@@ -42487,7 +44589,7 @@
     0.6855
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 456,
    "index_offset": 696852,
@@ -42514,7 +44616,7 @@
     0.6855
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 339,
    "index_offset": 703508,
@@ -42541,7 +44643,7 @@
     0.6855
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 126,
    "index_offset": 706272,
@@ -42568,7 +44670,7 @@
     0.7173
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 24,
    "index_offset": 707160,
@@ -42595,7 +44697,7 @@
     0.576
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 120,
    "index_offset": 708920,
@@ -42622,7 +44724,7 @@
     0.7029
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 36,
    "index_offset": 709976,
@@ -42649,8 +44751,8 @@
     0.6382
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
-   "generic": "wallpaper",
+   "free": "wallpaper_decrepit:wallpaper_decrepit",
+   "generic": "wallpaper_decrepit",
    "index_count": 69,
    "index_offset": 710920,
    "material": "plaster/plasterwallpaper004a",
@@ -42676,8 +44778,8 @@
     0.6382
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
-   "generic": "wallpaper",
+   "free": "wallpaper_decrepit:wallpaper_decrepit",
+   "generic": "wallpaper_decrepit",
    "index_count": 36,
    "index_offset": 711708,
    "material": "plaster/plasterwallpaper004a",
@@ -42703,8 +44805,8 @@
     0.6382
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
-   "generic": "wallpaper",
+   "free": "wallpaper_decrepit:wallpaper_decrepit",
+   "generic": "wallpaper_decrepit",
    "index_count": 36,
    "index_offset": 712364,
    "material": "plaster/plasterwallpaper004a",
@@ -42757,7 +44859,7 @@
     0.4194
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 420,
    "index_offset": 718684,
@@ -43139,7 +45241,7 @@
     0.6493
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 66,
    "index_offset": 817088,
@@ -43166,7 +45268,7 @@
     0.7646
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 72,
    "index_offset": 818376,
@@ -43193,7 +45295,7 @@
     0.6855
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 240,
    "index_offset": 821864,
@@ -43220,7 +45322,7 @@
     0.6855
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 297,
    "index_offset": 826696,
@@ -43247,7 +45349,7 @@
     0.6855
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 24,
    "index_offset": 828204,
@@ -43274,7 +45376,7 @@
     0.7173
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 54,
    "index_offset": 829004,
@@ -43301,7 +45403,7 @@
     0.7029
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 72,
    "index_offset": 830180,
@@ -43328,7 +45430,7 @@
     0.7029
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 27,
    "index_offset": 830820,
@@ -43355,7 +45457,7 @@
     0.7029
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 24,
    "index_offset": 831248,
@@ -43382,8 +45484,8 @@
     0.6382
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
-   "generic": "wallpaper",
+   "free": "wallpaper_decrepit:wallpaper_decrepit",
+   "generic": "wallpaper_decrepit",
    "index_count": 417,
    "index_offset": 836560,
    "material": "plaster/plasterwallpaper004a",
@@ -43409,8 +45511,8 @@
     0.6382
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
-   "generic": "wallpaper",
+   "free": "wallpaper_decrepit:wallpaper_decrepit",
+   "generic": "wallpaper_decrepit",
    "index_count": 36,
    "index_offset": 838740,
    "material": "plaster/plasterwallpaper004a",
@@ -43436,8 +45538,8 @@
     0.6382
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
-   "generic": "wallpaper",
+   "free": "wallpaper_decrepit:wallpaper_decrepit",
+   "generic": "wallpaper_decrepit",
    "index_count": 126,
    "index_offset": 840676,
    "material": "plaster/plasterwallpaper004a",
@@ -43463,8 +45565,8 @@
     0.6382
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
-   "generic": "wallpaper",
+   "free": "wallpaper_decrepit:wallpaper_decrepit",
+   "generic": "wallpaper_decrepit",
    "index_count": 18,
    "index_offset": 841436,
    "material": "plaster/plasterwallpaper004a",
@@ -43517,7 +45619,7 @@
     0.4194
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 162,
    "index_offset": 844532,
@@ -43544,8 +45646,8 @@
     0.2788
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 6,
    "index_offset": 845308,
    "material": "tile/tileroof004a",
@@ -43571,8 +45673,8 @@
     0.2788
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 6,
    "index_offset": 845460,
    "material": "tile/tileroof004a",
@@ -43842,8 +45944,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 1056,
    "index_offset": 877724,
    "material": "nature/cliffface001a",
@@ -44236,8 +46338,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 288,
    "index_offset": 889244,
    "material": "nature/cliffface001a",
@@ -44321,8 +46423,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 288,
    "index_offset": 893100,
    "material": "nature/cliffface001a",
@@ -45162,8 +47264,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 192,
    "index_offset": 987820,
    "material": "nature/cliffface001a",
@@ -45647,8 +47749,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 576,
    "index_offset": 1027588,
    "material": "nature/cliffface001a",
@@ -46466,8 +48568,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 96,
    "index_offset": 1112464,
    "material": "nature/cliffface001a",
@@ -48673,8 +50775,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 384,
    "index_offset": 1252856,
    "material": "nature/cliffface001a",
@@ -49028,8 +51130,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 96,
    "index_offset": 1277372,
    "material": "nature/cliffface001a",
@@ -49192,8 +51294,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 576,
    "index_offset": 1288116,
    "material": "nature/cliffface001a",
@@ -49809,8 +51911,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 192,
    "index_offset": 1306444,
    "material": "nature/cliffface001a",
@@ -49951,8 +52053,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 288,
    "index_offset": 1312844,
    "material": "nature/cliffface001a",
@@ -53213,7 +55315,7 @@
     0.7646
    ],
    "entity": 349,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 90,
    "index_offset": 1401100,
@@ -53236,7 +55338,7 @@
     0.7646
    ],
    "entity": 350,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 60,
    "index_offset": 1402740,
@@ -53536,7 +55638,7 @@
     0.2155
    ],
    "entity": 437,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 360,
    "index_offset": 1459748,
@@ -53559,7 +55661,7 @@
     0.7173
    ],
    "entity": 465,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 6,
    "index_offset": 1461316,
@@ -55431,7 +57533,7 @@
     0.2155
    ],
    "entity": 513,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 354,
    "index_offset": 1499524,

@@ -8881,7 +8881,16 @@
    },
    {
     "author": "Kenney",
-    "count": 9,
+    "count": 3,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Survival Kit",
+    "stand_in": "bucket",
+    "url": "https://kenney.nl/assets/survival-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 14,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -8890,7 +8899,7 @@
    },
    {
     "author": "Kenney",
-    "count": 1,
+    "count": 20,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -8926,7 +8935,7 @@
    },
    {
     "author": "Kenney",
-    "count": 7,
+    "count": 8,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -8953,6 +8962,15 @@
    },
    {
     "author": "Kenney",
+    "count": 5,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Graveyard Kit",
+    "stand_in": "graveyard/lamppost",
+    "url": "https://kenney.nl/assets/graveyard-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 10,
     "files": [],
     "licence": "CC0-1.0",
@@ -8968,6 +8986,15 @@
     "source": "Kenney Furniture Kit",
     "stand_in": "monitor",
     "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 2,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Prototype Kit",
+    "stand_in": "prototype/ladder",
+    "url": "https://kenney.nl/assets/prototype-kit"
    },
    {
     "author": "Kenney",
@@ -9130,22 +9157,22 @@
    {
     "count": 1,
     "model": "models/props_c17/metalladder002.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "prototype/ladder"
    },
    {
     "count": 1,
     "model": "models/props_c17/metalladder002b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "prototype/ladder"
    },
    {
     "count": 1,
     "model": "models/props_c17/metalpot001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bucket"
    },
    {
     "count": 2,
     "model": "models/props_c17/metalpot002a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bucket"
    },
    {
     "count": 6,
@@ -9170,7 +9197,7 @@
    {
     "count": 5,
     "model": "models/props_c17/utilitypole01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "graveyard/lamppost"
    },
    {
     "count": 1,
@@ -9225,7 +9252,7 @@
    {
     "count": 5,
     "model": "models/props_interiors/radiator01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 6,
@@ -9295,7 +9322,7 @@
    {
     "count": 19,
     "model": "models/props_lab/lab_flourescentlight002b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "ceiling_light"
    },
    {
     "count": 1,
@@ -9365,7 +9392,7 @@
    {
     "count": 1,
     "model": "models/props_wasteland/kitchen_counter001d.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "desk"
    },
    {
     "count": 1,
@@ -9575,11 +9602,11 @@
      0.375,
      0.25
     ],
-    "file": "surfaces/plaster",
+    "file": "surfaces/plaster_worn",
     "generic": "plaster_worn",
     "how": "table",
-    "key": "plaster:plaster_worn",
-    "kind": "plaster",
+    "key": "plaster_worn:plaster_worn",
+    "kind": "plaster_worn",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
@@ -9598,7 +9625,7 @@
      "plaster/plasterwall046b"
     ],
     "surfaces": 34,
-    "url": "https://ambientcg.com/view?id=PaintedPlaster017"
+    "url": "https://ambientcg.com/view?id=Plaster003"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -9607,18 +9634,18 @@
      0.625,
      0.5
     ],
-    "file": "surfaces/plaster",
+    "file": "surfaces/wallpaper",
     "generic": "wallpaper",
     "how": "table",
-    "key": "plaster:wallpaper",
-    "kind": "plaster",
+    "key": "wallpaper:wallpaper",
+    "kind": "wallpaper",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
      "plaster/wallpaper003b"
     ],
     "surfaces": 2,
-    "url": "https://ambientcg.com/view?id=PaintedPlaster017"
+    "url": "https://ambientcg.com/view?id=Wallpaper002A"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -9627,20 +9654,18 @@
      0.75,
      0.75
     ],
-    "file": "surfaces/concrete_clean",
-    "generic": "ceiling",
+    "file": "surfaces/ceiling_tile",
+    "generic": "ceiling_tile",
     "how": "table",
-    "key": "concrete_clean:ceiling",
-    "kind": "concrete_clean",
+    "key": "ceiling_tile:ceiling_tile",
+    "kind": "ceiling_tile",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
-     "concrete/concreteceiling003a",
-     "concrete/concreteceiling004a",
      "props/acousticceiling002a"
     ],
-    "surfaces": 4,
-    "url": "https://ambientcg.com/view?id=Concrete034"
+    "surfaces": 2,
+    "url": "https://ambientcg.com/view?id=OfficeCeiling005"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -9729,6 +9754,27 @@
     ],
     "surfaces": 44,
     "url": "https://ambientcg.com/view?id=WoodFloor041"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.75,
+     0.75,
+     0.625
+    ],
+    "file": "surfaces/concrete_clean",
+    "generic": "ceiling",
+    "how": "table",
+    "key": "concrete_clean:ceiling",
+    "kind": "concrete_clean",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "concrete/concreteceiling003a",
+     "concrete/concreteceiling004a"
+    ],
+    "surfaces": 2,
+    "url": "https://ambientcg.com/view?id=Concrete034"
    },
    {
     "author": "TMC (generated)",
@@ -9965,6 +10011,108 @@
  "notes": [
   "46 glass surfaces (kinds glass)",
   "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): NATURE/TREELINE001A 58, METAL/METALGATE005A 1"
+ ],
+ "pickups": [
+  {
+   "angle": 248.0,
+   "classname": "item_healthkit",
+   "origin": [
+    8.4772,
+    0.634,
+    11.811
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_sledgehammer",
+   "origin": [
+    10.0013,
+    0.9144,
+    12.1158
+   ],
+   "props": {}
+  },
+  {
+   "angle": 90.0,
+   "classname": "item_healthcharger",
+   "origin": [
+    -7.3152,
+    1.7526,
+    11.5824
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_healthcharger",
+   "origin": [
+    -7.0104,
+    4.4021,
+    5.715
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_hammer",
+   "origin": [
+    -0.5143,
+    1.7145,
+    12.2111
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_deagle",
+   "origin": [
+    0.1715,
+    1.7145,
+    12.2111
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_healthvial",
+   "origin": [
+    -2.5337,
+    4.2838,
+    17.3926
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_healthvial",
+   "origin": [
+    -2.5337,
+    4.2856,
+    17.5105
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_healthkit",
+   "origin": [
+    -6.4961,
+    3.7379,
+    23.984
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_peashooter",
+   "origin": [
+    -2.4575,
+    4.2672,
+    24.6888
+   ],
+   "props": {}
+  }
  ],
  "props": [
   {
@@ -10574,6 +10722,17 @@
   },
   {
    "at": [
+    -3.6576,
+    3.8291,
+    4.1148
+   ],
+   "model": "models/props_wasteland/kitchen_counter001d.mdl",
+   "scale": 1.0,
+   "stand_in": "desk",
+   "yaw": 180.0
+  },
+  {
+   "at": [
     -6.7056,
     3.3909,
     10.0584
@@ -10780,6 +10939,39 @@
    "scale": 1.0,
    "stand_in": "bin",
    "yaw": 30.0
+  },
+  {
+   "at": [
+    0.5524,
+    4.3053,
+    6.1722
+   ],
+   "model": "models/props_c17/metalpot001a.mdl",
+   "scale": 1.0,
+   "stand_in": "bucket",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    0.5524,
+    4.3624,
+    5.6198
+   ],
+   "model": "models/props_c17/metalpot002a.mdl",
+   "scale": 1.0,
+   "stand_in": "bucket",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    0.2858,
+    4.3624,
+    5.8293
+   ],
+   "model": "models/props_c17/metalpot002a.mdl",
+   "scale": 1.0,
+   "stand_in": "bucket",
+   "yaw": 60.0
   },
   {
    "at": [
@@ -11289,6 +11481,17 @@
   },
   {
    "at": [
+    -13.6017,
+    1.072,
+    12.9921
+   ],
+   "model": "models/props_interiors/radiator01a.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -13.1445,
     0.9577,
     6.6104
@@ -11297,6 +11500,50 @@
    "scale": 1.0,
    "stand_in": "table",
    "yaw": 7.0
+  },
+  {
+   "at": [
+    -13.6017,
+    1.072,
+    17.9832
+   ],
+   "model": "models/props_interiors/radiator01a.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -6.9342,
+    1.072,
+    11.1633
+   ],
+   "model": "models/props_interiors/radiator01a.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -8.001,
+    1.072,
+    8.4201
+   ],
+   "model": "models/props_interiors/radiator01a.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -1.143,
+    1.072,
+    2.8385
+   ],
+   "model": "models/props_interiors/radiator01a.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -11564,6 +11811,83 @@
   },
   {
    "at": [
+    -4.8387,
+    2.9718,
+    5.0405
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    4.7625,
+    2.9718,
+    12.2605
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -3.8481,
+    2.9718,
+    12.2033
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    4.7054,
+    5.715,
+    17.0801
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -1.9812,
+    2.9718,
+    23.6142
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    4.7054,
+    5.715,
+    24.4905
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -1.9431,
+    2.9718,
+    17.0038
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     2.9718,
     3.8672,
     2.5718
@@ -11784,11 +12108,165 @@
   },
   {
    "at": [
+    4.8006,
+    2.9527,
+    23.1648
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     9.2964,
     2.1336,
     11.9253
    ],
    "model": "models/props_interiors/lightbulb01a.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    11.5062,
+    0.9144,
+    6.1722
+   ],
+   "model": "models/props_c17/metalladder002.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    11.5062,
+    3.2004,
+    6.1722
+   ],
+   "model": "models/props_c17/metalladder002b.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -10.4775,
+    2.9718,
+    18.2992
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -10.6299,
+    2.9718,
+    11.5174
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -10.5537,
+    2.9718,
+    5.7262
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    4.7625,
+    2.9718,
+    5.0404
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    10.1537,
+    5.715,
+    17.1373
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -0.1715,
+    5.715,
+    10.8317
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -3.029,
+    5.715,
+    4.8881
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -4.7244,
+    5.715,
+    17.1182
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -4.7244,
+    5.715,
+    23.7856
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    0.0381,
+    5.715,
+    23.1951
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    0.0381,
+    5.715,
+    16.7372
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 0.0
@@ -11960,6 +12438,17 @@
   },
   {
    "at": [
+    -16.002,
+    0.6096,
+    -4.2672
+   ],
+   "model": "models/props_c17/utilitypole01a.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 112.5
+  },
+  {
+   "at": [
     -7.0104,
     6.0753,
     2.286
@@ -12001,8 +12490,53 @@
    "scale": 1.0,
    "stand_in": "tree",
    "yaw": 195.0
+  },
+  {
+   "at": [
+    -21.6408,
+    6.2484,
+    -14.0208
+   ],
+   "model": "models/props_c17/utilitypole01a.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 132.0
+  },
+  {
+   "at": [
+    -27.8892,
+    6.2484,
+    -21.336
+   ],
+   "model": "models/props_c17/utilitypole01a.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 103.5
+  },
+  {
+   "at": [
+    -31.5468,
+    4.2672,
+    -31.0896
+   ],
+   "model": "models/props_c17/utilitypole01a.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 132.5
+  },
+  {
+   "at": [
+    -39.624,
+    1.9812,
+    -42.9768
+   ],
+   "model": "models/props_c17/utilitypole01a.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 112.5
   }
  ],
+ "scripts": [],
  "settings": {},
  "skipped": {
   "face:tools/toolsskybox": 73,
@@ -13951,7 +14485,7 @@
     0.2856
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 6,
    "index_offset": 120572,
@@ -13978,7 +14512,7 @@
     0.2856
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 18,
    "index_offset": 120916,
@@ -14005,7 +14539,7 @@
     0.2856
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 117,
    "index_offset": 122492,
@@ -14032,7 +14566,7 @@
     0.2856
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 21,
    "index_offset": 123312,
@@ -14059,7 +14593,7 @@
     0.7173
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 618,
    "index_offset": 131012,
@@ -14086,7 +14620,7 @@
     0.7013
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 24,
    "index_offset": 133868,
@@ -14113,7 +14647,7 @@
     0.3639
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 48,
    "index_offset": 134604,
@@ -14140,7 +14674,7 @@
     0.3639
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 6,
    "index_offset": 134924,
@@ -14167,7 +14701,7 @@
     0.4339
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 30,
    "index_offset": 135460,
@@ -14194,7 +14728,7 @@
     0.6505
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 129,
    "index_offset": 137148,
@@ -14221,7 +14755,7 @@
     0.6505
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 126,
    "index_offset": 139456,
@@ -14248,7 +14782,7 @@
     0.6505
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 9,
    "index_offset": 140120,
@@ -14275,7 +14809,7 @@
     0.5697
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 42,
    "index_offset": 140924,
@@ -14302,7 +14836,7 @@
     0.5697
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 15,
    "index_offset": 141316,
@@ -14329,7 +14863,7 @@
     0.5697
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 69,
    "index_offset": 142432,
@@ -14356,7 +14890,7 @@
     0.4631
    ],
    "entity": null,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 240,
    "index_offset": 145140,
@@ -14383,8 +14917,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 357,
    "index_offset": 150676,
    "material": "props/acousticceiling002a",
@@ -16191,7 +16725,7 @@
     0.5551
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 18,
    "index_offset": 359780,
@@ -16218,7 +16752,7 @@
     0.487
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 90,
    "index_offset": 361004,
@@ -16245,7 +16779,7 @@
     0.2856
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 174,
    "index_offset": 363796,
@@ -16272,7 +16806,7 @@
     0.2856
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 18,
    "index_offset": 364812,
@@ -16299,7 +16833,7 @@
     0.2856
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 6,
    "index_offset": 365012,
@@ -16326,7 +16860,7 @@
     0.7173
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 96,
    "index_offset": 366572,
@@ -16353,7 +16887,7 @@
     0.3463
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 84,
    "index_offset": 368172,
@@ -16380,7 +16914,7 @@
     0.7013
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 6,
    "index_offset": 368636,
@@ -16407,7 +16941,7 @@
     0.3639
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 21,
    "index_offset": 369012,
@@ -16434,7 +16968,7 @@
     0.3639
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 33,
    "index_offset": 369576,
@@ -16461,7 +16995,7 @@
     0.6653
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 123,
    "index_offset": 371660,
@@ -16488,7 +17022,7 @@
     0.4727
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 132,
    "index_offset": 374136,
@@ -16515,7 +17049,7 @@
     0.4125
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 477,
    "index_offset": 380584,
@@ -16542,7 +17076,7 @@
     0.4339
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 30,
    "index_offset": 383004,
@@ -16569,7 +17103,7 @@
     0.6505
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 171,
    "index_offset": 385140,
@@ -16596,7 +17130,7 @@
     0.6505
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 12,
    "index_offset": 386016,
@@ -16623,7 +17157,7 @@
     0.6505
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 21,
    "index_offset": 386416,
@@ -16650,7 +17184,7 @@
     0.6505
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 12,
    "index_offset": 386756,
@@ -16677,7 +17211,7 @@
     0.6505
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 12,
    "index_offset": 386996,
@@ -16704,8 +17238,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 399,
    "index_offset": 391908,
    "material": "props/acousticceiling002a",
@@ -19462,7 +19996,7 @@
     0.4631
    ],
    "entity": 117,
-   "free": "plaster:wallpaper",
+   "free": "wallpaper:wallpaper",
    "generic": "wallpaper",
    "index_count": 24,
    "index_offset": 526128,

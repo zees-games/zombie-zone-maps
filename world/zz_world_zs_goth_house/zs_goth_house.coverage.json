@@ -10,7 +10,7 @@
    "fallback": 13
   },
   "free_by_tier": {
-   "default": 14,
+   "default": 15,
    "fallback": 4
   },
   "nearest_photo": [
@@ -30,8 +30,8 @@
  "models": {
   "looked_up": 63,
   "by_tier": {
-   "default": 48,
-   "fallback": 15
+   "default": 53,
+   "fallback": 10
   }
  },
  "sounds": {
@@ -191,12 +191,8 @@
    "goth_house/goth_streamer_render01"
   ],
   "models_unmapped": [
-   "goth_house/goth_jackolantern.mdl",
-   "props_c17/door01_left.mdl",
    "props_c17/furniturefireplace001a.mdl",
-   "props_c17/metalpot001a.mdl",
    "props_docks/dock01_pole01a_128.mdl",
-   "props_interiors/pot01a.mdl",
    "props_junk/bicycle01a.mdl",
    "props_junk/glassbottle01a.mdl",
    "props_junk/popcan01a.mdl",
@@ -204,8 +200,7 @@
    "props_junk/watermelon01.mdl",
    "props_lab/partsbin01.mdl",
    "props_lab/reciever01a.mdl",
-   "props_trainstation/clock01.mdl",
-   "props_wasteland/woodwall030b_window01a.mdl"
+   "props_trainstation/clock01.mdl"
   ],
   "sounds_unmapped": [
    "zs_goth_house/mimi_lee.wav"
@@ -298,7 +293,7 @@
  "counts": {
   "textures_unmapped": 13,
   "textures_flat": 2,
-  "models_unmapped": 15,
+  "models_unmapped": 10,
   "sounds_unmapped": 1,
   "classes_unmapped": 0,
   "keys_unmapped": 80,

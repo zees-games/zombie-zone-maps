@@ -9,15 +9,15 @@
    "default": 43
   },
   "free_by_tier": {
-   "default": 8
+   "default": 7
   },
   "nearest_photo": []
  },
  "models": {
   "looked_up": 80,
   "by_tier": {
-   "default": 44,
-   "fallback": 36
+   "default": 64,
+   "fallback": 16
   }
  },
  "sounds": {
@@ -210,34 +210,14 @@
    "props/de_nuke/car_nuke_black.mdl",
    "props/de_nuke/car_nuke_glass.mdl",
    "props/de_nuke/car_nuke_red.mdl",
-   "props/de_nuke/electricalbox02.mdl",
    "props/de_nuke/lifepreserver.mdl",
    "props/de_prodigy/spoolwire.mdl",
-   "props/de_train/acunit1.mdl",
-   "props/de_train/acunit2.mdl",
-   "props/de_train/de_train_horizontalcoolingtank.mdl",
-   "props_c17/metalladder002.mdl",
-   "props_c17/metalladder002b.mdl",
    "props_industrial/light.mdl",
    "props_industrial/oil_storage.mdl",
    "props_industrial/winch_deck.mdl",
    "props_industrial/winch_stern.mdl",
    "props_lab/harddrive02.mdl",
-   "props_lab/pipesystem01b.mdl",
-   "props_lab/pipesystem02a.mdl",
-   "props_lab/pipesystem02b.mdl",
-   "props_lab/pipesystem02d.mdl",
-   "props_pipes/pipe02_straight01_long.mdl",
-   "props_pipes/pipe03_45degree01.mdl",
-   "props_pipes/pipe03_90degree01.mdl",
-   "props_pipes/pipe03_straight01_long.mdl",
-   "props_pipes/pipe03_straight01_short.mdl",
-   "props_pipes/valve002.mdl",
-   "props_pipes/valvewheel001.mdl",
    "props_rooftop/roof_dish001.mdl",
-   "props_rooftop/roof_vent003.mdl",
-   "props_wasteland/pipecluster001a.mdl",
-   "props_wasteland/pipecluster001c.mdl",
    "props_wasteland/prison_switchbox001a.mdl",
    "weapons/w_rif_sg552.mdl",
    "weapons/w_shot_m3super90.mdl"
@@ -379,7 +359,7 @@
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 36,
+  "models_unmapped": 16,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 123,

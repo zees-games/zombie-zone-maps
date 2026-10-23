@@ -11,7 +11,7 @@
   },
   "free_by_tier": {
    "default": 21,
-   "fallback": 17
+   "fallback": 19
   },
   "nearest_photo": [
    "custom/28weeks",
@@ -28,6 +28,7 @@
    "custom/bestcomp",
    "custom/bf3_gamestop",
    "custom/bf3post",
+   "custom/bk",
    "custom/bkmenu",
    "custom/bootbarn",
    "custom/bww",
@@ -70,6 +71,7 @@
    "custom/srlogo",
    "custom/srmilk",
    "custom/srnature",
+   "custom/srpharm",
    "custom/sryo",
    "custom/star2",
    "custom/subawy",
@@ -100,8 +102,8 @@
  "models": {
   "looked_up": 158,
   "by_tier": {
-   "default": 114,
-   "fallback": 44
+   "default": 121,
+   "fallback": 37
   }
  },
  "sounds": {
@@ -384,7 +386,6 @@
    "bobpoblo/airport/restrooms",
    "cs_italy/black",
    "custom/bestbuya2",
-   "custom/bk",
    "custom/bluemix",
    "custom/bww1",
    "custom/bww3",
@@ -395,7 +396,6 @@
    "custom/gs",
    "custom/mallad",
    "custom/sroj",
-   "custom/srpharm",
    "dev/reflectivity_20",
    "new/black",
    "new/galaga_control",
@@ -420,16 +420,13 @@
    "props_c17/cashregister01a.mdl",
    "props_c17/concrete_barrier001a.mdl",
    "props_c17/display_cooler01a.mdl",
-   "props_c17/door01_left.mdl",
    "props_c17/fountain_01.mdl",
-   "props_c17/metalladder001.mdl",
    "props_c17/traffic_light001a.mdl",
    "props_junk/bicycle01a.mdl",
    "props_junk/food_pile02.mdl",
    "props_junk/glassbottle01a.mdl",
    "props_junk/meathook001a.mdl",
    "props_junk/shoe001a.mdl",
-   "props_junk/trafficcone001a.mdl",
    "props_junk/watermelon01.mdl",
    "props_junk/wheebarrow01a.mdl",
    "props_lab/binderbluelabel.mdl",
@@ -437,12 +434,8 @@
    "props_lab/binderredlabel.mdl",
    "props_lab/clipboard.mdl",
    "props_lab/securitybank.mdl",
-   "props_lab/servers.mdl",
    "props_lab/walllight001a.mdl",
    "props_trainstation/payphone001a.mdl",
-   "props_wasteland/kitchen_counter001a.mdl",
-   "props_wasteland/kitchen_counter001c.mdl",
-   "props_wasteland/kitchen_counter001d.mdl",
    "ps3/ps3.mdl",
    "spongebob/patty.mdl",
    "xboxblack/xbox.mdl",
@@ -576,8 +569,8 @@
  },
  "counts": {
   "textures_unmapped": 98,
-  "textures_flat": 21,
-  "models_unmapped": 44,
+  "textures_flat": 19,
+  "models_unmapped": 37,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 119,

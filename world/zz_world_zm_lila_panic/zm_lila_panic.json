@@ -3231,7 +3231,7 @@
    },
    {
     "author": "Kenney",
-    "count": 4,
+    "count": 9,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -3418,12 +3418,12 @@
    {
     "count": 3,
     "model": "models/props_wasteland/coolingtank02.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "barrel"
    },
    {
     "count": 2,
     "model": "models/props_wasteland/horizontalcoolingtank04.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "barrel"
    }
   ],
   "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
@@ -3436,20 +3436,21 @@
      0.25,
      0.375
     ],
-    "file": "surfaces/plaster",
-    "generic": "plaster_painted",
+    "file": "surfaces/metal",
+    "generic": "metal",
     "how": "table",
-    "key": "plaster:plaster_painted",
-    "kind": "plaster",
+    "key": "metal:metal",
+    "kind": "metal",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
      "cs_assault/assault_metalcrate001a",
      "cs_assault/assault_metalcrate001b_red",
-     "cs_assault/assault_metalcrate001d"
+     "cs_assault/assault_metalcrate001d",
+     "metal/metalrail003a"
     ],
-    "surfaces": 11,
-    "url": "https://ambientcg.com/view?id=PaintedPlaster017"
+    "surfaces": 13,
+    "url": "https://ambientcg.com/view?id=Metal063"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -3490,26 +3491,6 @@
     ],
     "surfaces": 4,
     "url": "https://ambientcg.com/view?id=Concrete047A"
-   },
-   {
-    "author": "Lennart Demes and contributors",
-    "colour": [
-     0.25,
-     0.25,
-     0.125
-    ],
-    "file": "surfaces/metal",
-    "generic": "metal",
-    "how": "table",
-    "key": "metal:metal",
-    "kind": "metal",
-    "licence": "CC0-1.0",
-    "source": "ambientCG",
-    "sources": [
-     "metal/metalrail003a"
-    ],
-    "surfaces": 2,
-    "url": "https://ambientcg.com/view?id=Metal063"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -4345,6 +4326,61 @@
   },
   {
    "at": [
+    21.0312,
+    3.8239,
+    -13.1064
+   ],
+   "model": "models/props_wasteland/coolingtank02.mdl",
+   "scale": 1.0,
+   "stand_in": "barrel",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    23.1648,
+    3.8239,
+    -10.9728
+   ],
+   "model": "models/props_wasteland/coolingtank02.mdl",
+   "scale": 1.0,
+   "stand_in": "barrel",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    23.1648,
+    3.8239,
+    -13.1064
+   ],
+   "model": "models/props_wasteland/coolingtank02.mdl",
+   "scale": 1.0,
+   "stand_in": "barrel",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    23.1648,
+    1.2192,
+    10.3632
+   ],
+   "model": "models/props_wasteland/horizontalcoolingtank04.mdl",
+   "scale": 1.0,
+   "stand_in": "barrel",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    23.1648,
+    1.2192,
+    4.2672
+   ],
+   "model": "models/props_wasteland/horizontalcoolingtank04.mdl",
+   "scale": 1.0,
+   "stand_in": "barrel",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     21.336,
     0.9144,
     11.2776
@@ -4355,6 +4391,7 @@
    "yaw": 90.0
   }
  ],
+ "scripts": [],
  "settings": {},
  "skipped": {
   "face:tools/toolsskybox": 53,
@@ -5093,8 +5130,8 @@
     0.3554
    ],
    "entity": null,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 78,
    "index_offset": 864,
    "material": "cs_assault/assault_metalcrate001d",
@@ -5104,11 +5141,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 648,
    "vertex_count": 27
@@ -5125,8 +5157,8 @@
     0.2544
    ],
    "entity": null,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 90,
    "index_offset": 2264,
    "material": "cs_assault/assault_metalcrate001b_red",
@@ -5136,11 +5168,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 1992,
    "vertex_count": 34
@@ -5157,8 +5184,8 @@
     0.3554
    ],
    "entity": null,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 282,
    "index_offset": 6336,
    "material": "cs_assault/assault_metalcrate001d",
@@ -5168,11 +5195,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 5408,
    "vertex_count": 116
@@ -5216,8 +5238,8 @@
     0.2544
    ],
    "entity": null,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 798,
    "index_offset": 20588,
    "material": "cs_assault/assault_metalcrate001b_red",
@@ -5227,11 +5249,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 17540,
    "vertex_count": 381
@@ -5248,8 +5265,8 @@
     0.3554
    ],
    "entity": null,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 882,
    "index_offset": 35172,
    "material": "cs_assault/assault_metalcrate001d",
@@ -5259,11 +5276,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 32324,
    "vertex_count": 356
@@ -5334,8 +5346,8 @@
     0.4071
    ],
    "entity": null,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 672,
    "index_offset": 52528,
    "material": "cs_assault/assault_metalcrate001a",
@@ -5345,11 +5357,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 49696,
    "vertex_count": 354
@@ -5366,8 +5373,8 @@
     0.2544
    ],
    "entity": null,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 1518,
    "index_offset": 73104,
    "material": "cs_assault/assault_metalcrate001b_red",
@@ -5377,11 +5384,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 68632,
    "vertex_count": 559
@@ -5398,8 +5400,8 @@
     0.3554
    ],
    "entity": null,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 1881,
    "index_offset": 104712,
    "material": "cs_assault/assault_metalcrate001d",
@@ -5409,11 +5411,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 98328,
    "vertex_count": 798
@@ -5565,8 +5562,8 @@
     0.4071
    ],
    "entity": null,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 2439,
    "index_offset": 160492,
    "material": "cs_assault/assault_metalcrate001a",
@@ -5576,11 +5573,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 152980,
    "vertex_count": 939
@@ -5597,8 +5589,8 @@
     0.2544
    ],
    "entity": null,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 981,
    "index_offset": 182792,
    "material": "cs_assault/assault_metalcrate001b_red",
@@ -5608,11 +5600,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 179656,
    "vertex_count": 392
@@ -5629,8 +5616,8 @@
     0.3554
    ],
    "entity": null,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 267,
    "index_offset": 191996,
    "material": "cs_assault/assault_metalcrate001d",
@@ -5640,11 +5627,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 190676,
    "vertex_count": 165

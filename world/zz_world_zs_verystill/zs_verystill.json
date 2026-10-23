@@ -57175,7 +57175,7 @@
   "model_stand_ins": [
    {
     "author": "Kenney",
-    "count": 8,
+    "count": 9,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -57211,7 +57211,7 @@
    },
    {
     "author": "Kenney",
-    "count": 24,
+    "count": 28,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -57229,7 +57229,7 @@
    },
    {
     "author": "Kenney",
-    "count": 49,
+    "count": 57,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -57238,7 +57238,7 @@
    },
    {
     "author": "Kenney",
-    "count": 85,
+    "count": 91,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -57274,12 +57274,30 @@
    },
    {
     "author": "Kenney",
-    "count": 3,
+    "count": 4,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
     "stand_in": "desk",
     "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 24,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Factory Kit",
+    "stand_in": "factory/door",
+    "url": "https://kenney.nl/assets/factory-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 371,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Factory Kit",
+    "stand_in": "factory/pipe",
+    "url": "https://kenney.nl/assets/factory-kit"
    },
    {
     "author": "Kenney",
@@ -57298,6 +57316,15 @@
     "source": "Kenney Furniture Kit",
     "stand_in": "fridge",
     "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 4,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Graveyard Kit",
+    "stand_in": "graveyard/lamppost",
+    "url": "https://kenney.nl/assets/graveyard-kit"
    },
    {
     "author": "Kenney",
@@ -57334,6 +57361,15 @@
     "source": "Kenney Furniture Kit",
     "stand_in": "plant",
     "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 4,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Prototype Kit",
+    "stand_in": "prototype/ladder",
+    "url": "https://kenney.nl/assets/prototype-kit"
    },
    {
     "author": "Kenney",
@@ -57406,6 +57442,15 @@
     "source": "Kenney Nature Kit",
     "stand_in": "tree",
     "url": "https://kenney.nl/assets/nature-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Car Kit",
+    "stand_in": "vehicles/cone",
+    "url": "https://kenney.nl/assets/car-kit"
    },
    {
     "author": "Kenney",
@@ -57534,7 +57579,7 @@
    {
     "count": 2,
     "model": "models/props/cs_assault/acunit02.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 1,
@@ -57544,7 +57589,7 @@
    {
     "count": 1,
     "model": "models/props/cs_assault/floodlight02.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "ceiling_light"
    },
    {
     "count": 2,
@@ -57554,7 +57599,7 @@
    {
     "count": 1,
     "model": "models/props/cs_assault/ladder_tall.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "prototype/ladder"
    },
    {
     "count": 1,
@@ -57584,7 +57629,7 @@
    {
     "count": 2,
     "model": "models/props/cs_militia/ladderrung.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "prototype/ladder"
    },
    {
     "count": 1,
@@ -57699,12 +57744,12 @@
    {
     "count": 1,
     "model": "models/props/de_prodigy/wall_console1.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 1,
     "model": "models/props/de_prodigy/wall_console2.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 4,
@@ -57834,12 +57879,12 @@
    {
     "count": 9,
     "model": "models/props_c17/door01_left.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/door"
    },
    {
     "count": 11,
     "model": "models/props_c17/door03_left.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/door"
    },
    {
     "count": 1,
@@ -57849,12 +57894,12 @@
    {
     "count": 1,
     "model": "models/props_c17/gasmeterpipes001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 3,
     "model": "models/props_c17/gaspipes001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 7,
@@ -57939,17 +57984,17 @@
    {
     "count": 1,
     "model": "models/props_c17/metalladder001.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "prototype/ladder"
    },
    {
     "count": 2,
     "model": "models/props_c17/metalpot001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bucket"
    },
    {
     "count": 2,
     "model": "models/props_c17/metalpot002a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bucket"
    },
    {
     "count": 8,
@@ -57959,7 +58004,7 @@
    {
     "count": 8,
     "model": "models/props_c17/pipe_cap005c.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 2,
@@ -57999,7 +58044,7 @@
    {
     "count": 4,
     "model": "models/props_c17/utilitypole01d.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "graveyard/lamppost"
    },
    {
     "count": 1,
@@ -58144,12 +58189,12 @@
    {
     "count": 1,
     "model": "models/props_electric/smallelectricalbox_008_brightness.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 1,
     "model": "models/props_electric/smallelectricalbox_016_brightness.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 1,
@@ -58334,7 +58379,7 @@
    {
     "count": 3,
     "model": "models/props_interiors/lightsconce02.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "ceiling_light"
    },
    {
     "count": 1,
@@ -58594,7 +58639,7 @@
    {
     "count": 1,
     "model": "models/props_junk/trafficcone001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "vehicles/cone"
    },
    {
     "count": 4,
@@ -58714,7 +58759,7 @@
    {
     "count": 4,
     "model": "models/props_lab/labcupboard_tall01b_door.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/door"
    },
    {
     "count": 1,
@@ -58749,42 +58794,42 @@
    {
     "count": 13,
     "model": "models/props_lab/pipesystem02a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 4,
     "model": "models/props_lab/pipesystem02b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 5,
     "model": "models/props_lab/pipesystem02c.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 3,
     "model": "models/props_lab/pipesystem02d.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 2,
     "model": "models/props_lab/pipesystem02e.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/props_lab/pipesystem03b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/props_lab/pipesystem03c.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/props_lab/pipesystem03d.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 5,
@@ -58834,7 +58879,7 @@
    {
     "count": 1,
     "model": "models/props_lab/workspace004.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "desk"
    },
    {
     "count": 3,
@@ -58854,162 +58899,162 @@
    {
     "count": 9,
     "model": "models/props_pipes/pipe02_45degree01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 11,
     "model": "models/props_pipes/pipe02_90degree01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 87,
     "model": "models/props_pipes/pipe02_connector01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 5,
     "model": "models/props_pipes/pipe02_lcurve01_long.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 3,
     "model": "models/props_pipes/pipe02_lcurve02_short.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/props_pipes/pipe02_scurve01_long.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 72,
     "model": "models/props_pipes/pipe02_straight01_long.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 17,
     "model": "models/props_pipes/pipe02_straight01_short.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 2,
     "model": "models/props_pipes/pipe02_tjoint01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 3,
     "model": "models/props_pipes/pipe02_yjoint01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 3,
     "model": "models/props_pipes/pipe03_90degree01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 19,
     "model": "models/props_pipes/pipe03_connector01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/props_pipes/pipe03_lcurve02_long.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 15,
     "model": "models/props_pipes/pipe03_straight01_long.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 5,
     "model": "models/props_pipes/pipe03_straight01_short.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/props_pipes/pipe03_tjoint01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/props_pipes/pipecluster04d_001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 3,
     "model": "models/props_pipes/pipecluster08d_001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/props_pipes/pipecluster08d_006a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 2,
     "model": "models/props_pipes/pipeset02d_128_001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/props_pipes/pipeset02d_128_001b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 4,
     "model": "models/props_pipes/pipeset08d_128_001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 3,
     "model": "models/props_pipes/pipeset08d_256_001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 3,
     "model": "models/props_pipes/pipeset08d_64_001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 4,
     "model": "models/props_pipes/pipeset08d_corner128d_001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 3,
     "model": "models/props_pipes/pipeset32d_128_001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/props_pipes/pipeset32d_corner128r_001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 2,
     "model": "models/props_pipes/valve001.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/props_pipes/valve002.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 2,
     "model": "models/props_pipes/valve003.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/props_pipes/valvewheel001.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/props_pipes/valvewheel002a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
@@ -59024,7 +59069,7 @@
    {
     "count": 1,
     "model": "models/props_rooftop/gutter_pipe_128.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
@@ -59034,7 +59079,7 @@
    {
     "count": 2,
     "model": "models/props_rooftop/roof_vent001.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 1,
@@ -59219,7 +59264,7 @@
    {
     "count": 1,
     "model": "models/props_wasteland/horizontalcoolingtank04.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "barrel"
    },
    {
     "count": 1,
@@ -59284,7 +59329,7 @@
    {
     "count": 2,
     "model": "models/props_wasteland/prison_flourescentlight001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "ceiling_light"
    },
    {
     "count": 7,
@@ -59354,52 +59399,52 @@
    {
     "count": 8,
     "model": "models/u4lab/pipe_segments_16_128.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 3,
     "model": "models/u4lab/pipe_segments_16_256.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 10,
     "model": "models/u4lab/pipe_segments_16_64.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/u4lab/pipe_segments_16_bend.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 8,
     "model": "models/u4lab/pipe_segments_16_corner.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 5,
     "model": "models/u4lab/pipe_segments_32_128.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/u4lab/pipe_segments_32_256.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/u4lab/pipe_segments_32_64.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 3,
     "model": "models/u4lab/pipe_segments_32_corner.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    },
    {
     "count": 1,
     "model": "models/u4lab/pipe_segments_32_junction.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/pipe"
    }
   ],
   "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
@@ -59712,11 +59757,11 @@
      0.375,
      0.375
     ],
-    "file": "surfaces/grass",
-    "generic": "grass",
+    "file": "surfaces/rock",
+    "generic": "rock",
     "how": "table",
-    "key": "grass:grass",
-    "kind": "grass",
+    "key": "rock:rock",
+    "kind": "rock",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
@@ -59724,13 +59769,10 @@
      "forest/blend_cliff_grass",
      "forest/blend_cliff_grass_nodet",
      "forest/blend_cliff_grass_short_wvt_patch",
-     "forest/blend_dirt_grass_short",
-     "forest/blend_dirt_grass_short_nodet",
-     "forest/blend_grass_002_mud_001",
-     "forest/blendconc_grass_01"
+     "forest/blend_gravel02_cliff"
     ],
-    "surfaces": 71,
-    "url": "https://ambientcg.com/view?id=Grass004"
+    "surfaces": 20,
+    "url": "https://ambientcg.com/view?id=Rock023"
    },
    {
     "author": "TMC (generated)",
@@ -59792,13 +59834,35 @@
     "sources": [
      "card/skybox_ground_001_to_002",
      "card/skybox_ground_002_to_003",
-     "forest/blend_gravel02_cliff",
      "nature/dirtfloor004a",
      "nature/dirtfloor005c",
      "nature/dirtfloor009c"
     ],
-    "surfaces": 14,
+    "surfaces": 7,
     "url": "https://ambientcg.com/view?id=Ground037"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.5,
+     0.5,
+     0.375
+    ],
+    "file": "surfaces/grass",
+    "generic": "grass",
+    "how": "table",
+    "key": "grass:grass",
+    "kind": "grass",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "forest/blend_dirt_grass_short",
+     "forest/blend_dirt_grass_short_nodet",
+     "forest/blend_grass_002_mud_001",
+     "forest/blendconc_grass_01"
+    ],
+    "surfaces": 58,
+    "url": "https://ambientcg.com/view?id=Grass004"
    },
    {
     "author": "TMC (generated)",
@@ -59955,20 +60019,18 @@
      0.75,
      0.75
     ],
-    "file": "surfaces/concrete_clean",
-    "generic": "ceiling",
+    "file": "surfaces/ceiling_tile",
+    "generic": "ceiling_tile",
     "how": "table",
-    "key": "concrete_clean:ceiling",
-    "kind": "concrete_clean",
+    "key": "ceiling_tile:ceiling_tile",
+    "kind": "ceiling_tile",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
-     "props/acousticceiling002a",
-     "tile/prodceilingtilea",
-     "wood/woodceiling003a"
+     "props/acousticceiling002a"
     ],
-    "surfaces": 20,
-    "url": "https://ambientcg.com/view?id=Concrete034"
+    "surfaces": 4,
+    "url": "https://ambientcg.com/view?id=OfficeCeiling005"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -59977,11 +60039,11 @@
      0.25,
      0.25
     ],
-    "file": "surfaces/concrete_clean",
+    "file": "surfaces/stone_block",
     "generic": "stone_wall",
     "how": "table",
-    "key": "concrete_clean:stone_wall",
-    "kind": "concrete_clean",
+    "key": "stone_block:stone_wall",
+    "kind": "stone_block",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
@@ -59989,7 +60051,7 @@
      "tile/marblefloor001b_phong"
     ],
     "surfaces": 12,
-    "url": "https://ambientcg.com/view?id=Concrete034"
+    "url": "https://ambientcg.com/view?id=Bricks076A"
    },
    {
     "author": "TMC (generated)",
@@ -60038,11 +60100,11 @@
      0.375,
      0.25
     ],
-    "file": "surfaces/plaster",
+    "file": "surfaces/plaster_worn",
     "generic": "plaster_worn",
     "how": "table",
-    "key": "plaster:plaster_worn",
-    "kind": "plaster",
+    "key": "plaster_worn:plaster_worn",
+    "kind": "plaster_worn",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
@@ -60055,7 +60117,7 @@
      "plaster/plasterwall05a_green_mossy_logoa"
     ],
     "surfaces": 16,
-    "url": "https://ambientcg.com/view?id=PaintedPlaster017"
+    "url": "https://ambientcg.com/view?id=Plaster003"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -60109,6 +60171,27 @@
     ],
     "surfaces": 43,
     "url": "https://ambientcg.com/view?id=Tiles107"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.75,
+     0.625,
+     0.625
+    ],
+    "file": "surfaces/concrete_clean",
+    "generic": "ceiling",
+    "how": "table",
+    "key": "concrete_clean:ceiling",
+    "kind": "concrete_clean",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "tile/prodceilingtilea",
+     "wood/woodceiling003a"
+    ],
+    "surfaces": 16,
+    "url": "https://ambientcg.com/view?id=Concrete034"
    },
    {
     "author": "TMC (generated)",
@@ -62095,6 +62178,38 @@
     1.0,
     -0.0
    ],
+   "classname": "prop_door_rotating",
+   "degrees": -100.0,
+   "entity": 154,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_utility/labdoor01_left.mdl",
+   "open_dir": 2,
+   "opened_by": [],
+   "origin": [
+    -97.4598,
+    40.1955,
+    88.1634
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.0,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 90.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
    "classname": "func_door_rotating",
    "degrees": -90.0,
    "entity": 159,
@@ -62251,6 +62366,38 @@
     1.0,
     -0.0
    ],
+   "classname": "prop_door_rotating",
+   "degrees": 105.0,
+   "entity": 222,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door03_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -113.614,
+    40.1955,
+    84.2201
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.05,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 180.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
    "classname": "func_door_rotating",
    "degrees": -90.0,
    "entity": 260,
@@ -62322,6 +62469,166 @@
    "travel_time": 0.9,
    "use": true,
    "wait": -1.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": -100.0,
+   "entity": 316,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_utility/labdoor01_left.mdl",
+   "open_dir": 2,
+   "opened_by": [],
+   "origin": [
+    -114.3762,
+    40.1955,
+    79.629
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.0,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 180.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 100.0,
+   "entity": 319,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_utility/labdoor01_left.mdl",
+   "open_dir": 1,
+   "opened_by": [],
+   "origin": [
+    -114.3762,
+    40.1955,
+    82.2198
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.0,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 180.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 105.0,
+   "entity": 328,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door03_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -103.708,
+    40.1955,
+    84.2201
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.05,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 180.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": -100.0,
+   "entity": 331,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_utility/labdoor01_left.mdl",
+   "open_dir": 2,
+   "opened_by": [],
+   "origin": [
+    -115.7478,
+    40.1955,
+    89.6874
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.0,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 180.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": -100.0,
+   "entity": 401,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_utility/labdoor01_left.mdl",
+   "open_dir": 2,
+   "opened_by": [],
+   "origin": [
+    -104.4702,
+    40.1955,
+    82.9818
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.0,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 180.0
   },
   {
    "axis": [
@@ -62641,6 +62948,38 @@
     1.0,
     -0.0
    ],
+   "classname": "prop_door_rotating",
+   "degrees": 100.0,
+   "entity": 623,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -68.7896,
+    35.7759,
+    77.4954
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.0,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 270.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
    "classname": "func_door_rotating",
    "degrees": 90.0,
    "entity": 787,
@@ -62792,6 +63131,70 @@
    "wait": -1.0
   },
   {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 100.0,
+   "entity": 826,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -87.249,
+    35.7759,
+    54.6545
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.0,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 180.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 100.0,
+   "entity": 827,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -84.0486,
+    35.7759,
+    53.4353
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.0,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 180.0
+  },
+  {
    "classname": "func_door",
    "direction": [
     1.0,
@@ -62865,6 +63268,486 @@
    "travel_time": 0.44,
    "use": true,
    "wait": -1.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 100.0,
+   "entity": 884,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -95.1738,
+    40.1955,
+    56.4452
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.0,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 0.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 100.0,
+   "entity": 886,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -80.2195,
+    35.7759,
+    82.5246
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.0,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 270.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 105.0,
+   "entity": 916,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door03_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -94.6976,
+    40.1955,
+    54.0256
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.05,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 270.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 105.0,
+   "entity": 960,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door03_left.mdl",
+   "open_dir": 1,
+   "opened_by": [],
+   "origin": [
+    -100.203,
+    40.1955,
+    56.6738
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.05,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 0.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": -105.0,
+   "entity": 961,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door03_left.mdl",
+   "open_dir": 2,
+   "opened_by": [],
+   "origin": [
+    -100.203,
+    40.1955,
+    54.8831
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "door1",
+   "touch": false,
+   "travel_time": 1.05,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 180.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 105.0,
+   "entity": 963,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door03_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -98.5838,
+    40.1955,
+    78.1048
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.05,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 270.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": -100.0,
+   "entity": 987,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_utility/labdoor01_left.mdl",
+   "open_dir": 2,
+   "opened_by": [],
+   "origin": [
+    -101.4222,
+    40.1955,
+    89.0778
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.0,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 180.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": -100.0,
+   "entity": 1137,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door03_left.mdl",
+   "open_dir": 2,
+   "opened_by": [],
+   "origin": [
+    -77.9526,
+    40.1955,
+    104.7559
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.0,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 0.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 100.0,
+   "entity": 1139,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 1,
+   "opened_by": [],
+   "origin": [
+    -79.3432,
+    40.1955,
+    102.489
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.0,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 90.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": -100.0,
+   "entity": 1140,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door03_left.mdl",
+   "open_dir": 2,
+   "opened_by": [],
+   "origin": [
+    -82.9818,
+    40.1955,
+    104.7559
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.0,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 0.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 105.0,
+   "entity": 1159,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door03_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -96.3928,
+    40.1955,
+    51.1493
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.05,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 180.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": -100.0,
+   "entity": 1166,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 2,
+   "opened_by": [],
+   "origin": [
+    -118.6417,
+    40.1955,
+    83.42
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.0,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 0.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 100.0,
+   "entity": 1172,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 1,
+   "opened_by": [],
+   "origin": [
+    -116.9099,
+    40.1955,
+    79.629
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.0,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 90.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 100.0,
+   "entity": 1175,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door01_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -98.8124,
+    40.1955,
+    53.4162
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.0,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 270.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 105.0,
+   "entity": 1179,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door03_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -99.8984,
+    40.1955,
+    76.7906
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.05,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 0.0
   },
   {
    "axis": [
@@ -63017,6 +63900,70 @@
    "start_on": true,
    "targetname": "bigfan",
    "travel_time": 0.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": -100.0,
+   "entity": 2117,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_utility/labdoor01_left.mdl",
+   "open_dir": 2,
+   "opened_by": [],
+   "origin": [
+    -99.8982,
+    40.1955,
+    80.6958
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.0,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 270.0
+  },
+  {
+   "axis": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "classname": "prop_door_rotating",
+   "degrees": 105.0,
+   "entity": 2120,
+   "kind": "rotate",
+   "locked": false,
+   "model": null,
+   "model_path": "models/props_c17/door03_left.mdl",
+   "open_dir": 0,
+   "opened_by": [],
+   "origin": [
+    -98.5838,
+    40.1955,
+    86.487
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 8192,
+   "speed": 100.0,
+   "start_open": false,
+   "targetname": "",
+   "touch": false,
+   "travel_time": 1.05,
+   "use": true,
+   "wait": 4.0,
+   "yaw": 270.0
   },
   {
    "classname": "func_button",
@@ -63179,281 +64126,6 @@
  ],
  "movers_without_geometry": [
   {
-   "classname": "prop_door_rotating",
-   "entity": 154,
-   "model_path": "models/props_utility/labdoor01_left.mdl",
-   "origin": [
-    -97.4598,
-    40.1955,
-    88.1634
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 222,
-   "model_path": "models/props_c17/door03_left.mdl",
-   "origin": [
-    -113.614,
-    40.1955,
-    84.2201
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 316,
-   "model_path": "models/props_utility/labdoor01_left.mdl",
-   "origin": [
-    -114.3762,
-    40.1955,
-    79.629
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 319,
-   "model_path": "models/props_utility/labdoor01_left.mdl",
-   "origin": [
-    -114.3762,
-    40.1955,
-    82.2198
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 328,
-   "model_path": "models/props_c17/door03_left.mdl",
-   "origin": [
-    -103.708,
-    40.1955,
-    84.2201
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 331,
-   "model_path": "models/props_utility/labdoor01_left.mdl",
-   "origin": [
-    -115.7478,
-    40.1955,
-    89.6874
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 401,
-   "model_path": "models/props_utility/labdoor01_left.mdl",
-   "origin": [
-    -104.4702,
-    40.1955,
-    82.9818
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 623,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    -68.7896,
-    35.7759,
-    77.4954
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 826,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    -87.249,
-    35.7759,
-    54.6545
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 827,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    -84.0486,
-    35.7759,
-    53.4353
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 884,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    -95.1738,
-    40.1955,
-    56.4452
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 886,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    -80.2195,
-    35.7759,
-    82.5246
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 916,
-   "model_path": "models/props_c17/door03_left.mdl",
-   "origin": [
-    -94.6976,
-    40.1955,
-    54.0256
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 960,
-   "model_path": "models/props_c17/door03_left.mdl",
-   "origin": [
-    -100.203,
-    40.1955,
-    56.6738
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 961,
-   "model_path": "models/props_c17/door03_left.mdl",
-   "origin": [
-    -100.203,
-    40.1955,
-    54.8831
-   ],
-   "targetname": "door1"
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 963,
-   "model_path": "models/props_c17/door03_left.mdl",
-   "origin": [
-    -98.5838,
-    40.1955,
-    78.1048
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 987,
-   "model_path": "models/props_utility/labdoor01_left.mdl",
-   "origin": [
-    -101.4222,
-    40.1955,
-    89.0778
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 1137,
-   "model_path": "models/props_c17/door03_left.mdl",
-   "origin": [
-    -77.9526,
-    40.1955,
-    104.7559
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 1139,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    -79.3432,
-    40.1955,
-    102.489
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 1140,
-   "model_path": "models/props_c17/door03_left.mdl",
-   "origin": [
-    -82.9818,
-    40.1955,
-    104.7559
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 1159,
-   "model_path": "models/props_c17/door03_left.mdl",
-   "origin": [
-    -96.3928,
-    40.1955,
-    51.1493
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 1166,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    -118.6417,
-    40.1955,
-    83.42
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 1172,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    -116.9099,
-    40.1955,
-    79.629
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 1175,
-   "model_path": "models/props_c17/door01_left.mdl",
-   "origin": [
-    -98.8124,
-    40.1955,
-    53.4162
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 1179,
-   "model_path": "models/props_c17/door03_left.mdl",
-   "origin": [
-    -99.8984,
-    40.1955,
-    76.7906
-   ],
-   "targetname": ""
-  },
-  {
    "classname": "func_tracktrain",
    "entity": 1314,
    "model_path": null,
@@ -63463,34 +64135,74 @@
     31.8516
    ],
    "targetname": "wave1_jetevent_track"
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 2117,
-   "model_path": "models/props_utility/labdoor01_left.mdl",
-   "origin": [
-    -99.8982,
-    40.1955,
-    80.6958
-   ],
-   "targetname": ""
-  },
-  {
-   "classname": "prop_door_rotating",
-   "entity": 2120,
-   "model_path": "models/props_c17/door03_left.mdl",
-   "origin": [
-    -98.5838,
-    40.1955,
-    86.487
-   ],
-   "targetname": ""
   }
  ],
  "name": "zs_verystill_v1a",
  "notes": [
   "267 glass surfaces (kinds glass)",
   "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): FOREST/LIGHT_ORANGE001_FADE 23, VGUI/SCREENS/TRANSPARENT 16, EFFECTS/METALTRUSS022B 5, PROPS/METALREBAR001A 1, CARD/CARD_005 1, METAL/MILGRATE001 1"
+ ],
+ "pickups": [
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_medicgun",
+   "origin": [
+    -104.6035,
+    40.2717,
+    90.5447
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_hammer",
+   "origin": [
+    -98.6504,
+    41.0718,
+    92.5735
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_healthvial",
+   "origin": [
+    -100.765,
+    41.3469,
+    92.5735
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_healthvial",
+   "origin": [
+    -100.8983,
+    41.3457,
+    92.564
+   ],
+   "props": {}
+  },
+  {
+   "angle": -146.877,
+   "classname": "item_healthvial",
+   "origin": [
+    -101.1473,
+    41.388,
+    92.5678
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_shovel",
+   "origin": [
+    -119.1863,
+    39.9856,
+    92.7545
+   ],
+   "props": {}
+  }
  ],
  "props": [
   {
@@ -63547,6 +64259,17 @@
    "scale": 1.0,
    "stand_in": "stool",
    "yaw": 90.0
+  },
+  {
+   "at": [
+    -115.2523,
+    40.3298,
+    91.8408
+   ],
+   "model": "models/props_c17/metalpot002a.mdl",
+   "scale": 1.0,
+   "stand_in": "bucket",
+   "yaw": -59.86
   },
   {
    "at": [
@@ -63646,6 +64369,28 @@
    "scale": 1.0,
    "stand_in": "stool",
    "yaw": 69.46
+  },
+  {
+   "at": [
+    -117.9576,
+    39.9288,
+    94.3928
+   ],
+   "model": "models/props_lab/labcupboard_tall01b_door.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/door",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -118.3767,
+    39.9288,
+    94.3928
+   ],
+   "model": "models/props_lab/labcupboard_tall01b_door.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/door",
+   "yaw": 90.0
   },
   {
    "at": [
@@ -64100,6 +64845,17 @@
   },
   {
    "at": [
+    -104.6035,
+    39.9288,
+    90.0684
+   ],
+   "model": "models/props_lab/labcupboard_tall01b_door.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/door",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -102.1461,
     39.5804,
     92.3735
@@ -64130,6 +64886,17 @@
    "scale": 1.0,
    "stand_in": "table",
    "yaw": -89.69
+  },
+  {
+   "at": [
+    -104.6035,
+    39.9288,
+    90.4875
+   ],
+   "model": "models/props_lab/labcupboard_tall01b_door.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/door",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -65123,6 +65890,39 @@
   },
   {
    "at": [
+    -94.9279,
+    40.0983,
+    77.7928
+   ],
+   "model": "models/props_c17/metalpot002a.mdl",
+   "scale": 1.0,
+   "stand_in": "bucket",
+   "yaw": 51.87
+  },
+  {
+   "at": [
+    -93.4212,
+    39.5669,
+    77.7812
+   ],
+   "model": "models/props_c17/metalpot001a.mdl",
+   "scale": 1.0,
+   "stand_in": "bucket",
+   "yaw": 51.87
+  },
+  {
+   "at": [
+    -93.1187,
+    39.5669,
+    78.0075
+   ],
+   "model": "models/props_c17/metalpot001a.mdl",
+   "scale": 1.0,
+   "stand_in": "bucket",
+   "yaw": 6.87
+  },
+  {
+   "at": [
     -120.9294,
     40.748,
     78.3336
@@ -65200,6 +66000,17 @@
   },
   {
    "at": [
+    -117.9239,
+    39.6501,
+    77.3419
+   ],
+   "model": "models/props_junk/trafficcone001a.mdl",
+   "scale": 1.0,
+   "stand_in": "vehicles/cone",
+   "yaw": 168.65
+  },
+  {
+   "at": [
     -93.6629,
     35.835,
     76.5532
@@ -65266,6 +66077,17 @@
   },
   {
    "at": [
+    -79.248,
+    42.5577,
+    98.4123
+   ],
+   "model": "models/props_pipes/pipeset08d_128_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -84.3054,
     42.0243,
     102.3747
@@ -65299,6 +66121,127 @@
   },
   {
    "at": [
+    -116.1288,
+    41.3004,
+    79.2289
+   ],
+   "model": "models/props_lab/pipesystem02c.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -78.9432,
+    37.6809,
+    82.9818
+   ],
+   "model": "models/props_pipes/pipeset08d_corner128d_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -70.866,
+    37.5476,
+    81.3054
+   ],
+   "model": "models/props_pipes/pipe02_lcurve01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -70.5517,
+    37.5476,
+    81.0229
+   ],
+   "model": "models/props_pipes/pipe02_lcurve01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -70.485,
+    37.5476,
+    80.1624
+   ],
+   "model": "models/props_pipes/pipe02_yjoint01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -70.485,
+    37.4714,
+    79.5337
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -70.485,
+    37.3571,
+    78.4669
+   ],
+   "model": "models/props_pipes/pipe02_45degree01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -70.485,
+    36.9761,
+    78.2002
+   ],
+   "model": "models/props_pipes/pipe02_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -70.485,
+    36.7284,
+    77.8193
+   ],
+   "model": "models/props_pipes/pipe02_45degree01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -70.485,
+    36.2903,
+    77.8955
+   ],
+   "model": "models/props_pipes/pipe02_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -70.485,
+    34.7472,
+    77.8193
+   ],
+   "model": "models/props_pipes/valve002.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     -69.141,
     34.7472,
     79.6848
@@ -65318,6 +66261,17 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 270.0
+  },
+  {
+   "at": [
+    -67.6085,
+    35.8902,
+    82.7722
+   ],
+   "model": "models/props_wasteland/horizontalcoolingtank04.mdl",
+   "scale": 1.0,
+   "stand_in": "barrel",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -65362,6 +66316,17 @@
    "scale": 1.0,
    "stand_in": "fence",
    "yaw": 270.0
+  },
+  {
+   "at": [
+    -76.6382,
+    34.7592,
+    83.9534
+   ],
+   "model": "models/props/de_prodigy/wall_console2.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -65417,6 +66382,17 @@
    "scale": 1.0,
    "stand_in": "rock",
    "yaw": 30.0
+  },
+  {
+   "at": [
+    -99.2343,
+    42.8816,
+    87.6681
+   ],
+   "model": "models/props_pipes/pipecluster08d_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -65871,6 +66847,28 @@
   },
   {
    "at": [
+    -92.8116,
+    36.5341,
+    77.8177
+   ],
+   "model": "models/props_lab/pipesystem02a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -92.8116,
+    35.3758,
+    77.8193
+   ],
+   "model": "models/props_lab/pipesystem02c.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -115.2144,
     41.5481,
     92.7926
@@ -65970,6 +66968,17 @@
   },
   {
    "at": [
+    -116.967,
+    40.8167,
+    89.8398
+   ],
+   "model": "models/props_interiors/lightsconce02.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     -97.7456,
     39.224,
     56.7309
@@ -66003,6 +67012,39 @@
   },
   {
    "at": [
+    -82.677,
+    40.7085,
+    97.5551
+   ],
+   "model": "models/props_lab/pipesystem02c.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -82.677,
+    40.767,
+    97.5551
+   ],
+   "model": "models/props_lab/pipesystem02c.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -83.1342,
+    39.8145,
+    97.5551
+   ],
+   "model": "models/props_lab/pipesystem02a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     -83.1342,
     39.2811,
     97.6122
@@ -66010,6 +67052,17 @@
    "model": "models/props_lab/powerbox02b.mdl",
    "scale": 1.0,
    "stand_in": "cabinet",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -83.2675,
+    39.8145,
+    97.5551
+   ],
+   "model": "models/props_lab/pipesystem02a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
    "yaw": 270.0
   },
   {
@@ -66058,6 +67111,17 @@
   },
   {
    "at": [
+    -118.491,
+    40.8167,
+    80.9434
+   ],
+   "model": "models/props_interiors/lightsconce02.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -116.5479,
     42.291,
     85.4202
@@ -66102,6 +67166,17 @@
   },
   {
    "at": [
+    -83.058,
+    41.9626,
+    104.3559
+   ],
+   "model": "models/props/cs_assault/floodlight02.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  },
+  {
+   "at": [
     -69.7802,
     35.5854,
     72.4281
@@ -66109,6 +67184,61 @@
    "model": "models/props/de_nuke/powerplanttank.mdl",
    "scale": 1.0,
    "stand_in": "plant",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -69.2277,
+    35.9474,
+    71.9519
+   ],
+   "model": "models/props_lab/pipesystem02a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -69.2277,
+    35.8331,
+    71.9519
+   ],
+   "model": "models/props_lab/pipesystem02a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -68.2318,
+    35.7864,
+    71.9519
+   ],
+   "model": "models/props_lab/pipesystem02e.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -67.9133,
+    35.9474,
+    71.9519
+   ],
+   "model": "models/props_lab/pipesystem02a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -68.0552,
+    35.2094,
+    71.9519
+   ],
+   "model": "models/props_lab/pipesystem02a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
    "yaw": 270.0
   },
   {
@@ -66311,6 +67441,28 @@
   },
   {
    "at": [
+    -70.866,
+    37.338,
+    73.4187
+   ],
+   "model": "models/u4lab/pipe_segments_16_128.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -73.8759,
+    38.0701,
+    80.8482
+   ],
+   "model": "models/props/cs_militia/ladderrung.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 180.0
+  },
+  {
+   "at": [
     -73.0568,
     34.7472,
     74.7332
@@ -66333,6 +67485,116 @@
   },
   {
    "at": [
+    -70.866,
+    37.338,
+    73.4187
+   ],
+   "model": "models/u4lab/pipe_segments_16_bend.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -67.2084,
+    37.338,
+    73.4187
+   ],
+   "model": "models/u4lab/pipe_segments_16_128.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -64.751,
+    37.338,
+    73.4187
+   ],
+   "model": "models/u4lab/pipe_segments_16_128.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -68.4276,
+    37.338,
+    74.0093
+   ],
+   "model": "models/u4lab/pipe_segments_16_64.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -68.4276,
+    37.338,
+    74.0093
+   ],
+   "model": "models/u4lab/pipe_segments_16_corner.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -69.6468,
+    36.8999,
+    72.7139
+   ],
+   "model": "models/u4lab/pipe_segments_32_128.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -72.6948,
+    37.5095,
+    72.7329
+   ],
+   "model": "models/u4lab/pipe_segments_32_corner.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -67.2084,
+    36.8999,
+    72.7139
+   ],
+   "model": "models/u4lab/pipe_segments_32_128.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -64.77,
+    36.8999,
+    72.7139
+   ],
+   "model": "models/u4lab/pipe_segments_32_128.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -76.0476,
+    36.1569,
+    72.5424
+   ],
+   "model": "models/props_electric/smallelectricalbox_016_brightness.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     -88.5444,
     39.1478,
     55.7975
@@ -66344,6 +67606,94 @@
   },
   {
    "at": [
+    -109.0232,
+    42.291,
+    84.0486
+   ],
+   "model": "models/props_lab/pipesystem02b.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -107.9945,
+    42.291,
+    84.0486
+   ],
+   "model": "models/props_lab/pipesystem02b.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -74.4093,
+    36.8808,
+    84.6963
+   ],
+   "model": "models/u4lab/pipe_segments_16_128.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -74.1045,
+    36.576,
+    84.6963
+   ],
+   "model": "models/u4lab/pipe_segments_16_corner.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -74.1045,
+    36.576,
+    84.6963
+   ],
+   "model": "models/u4lab/pipe_segments_16_128.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -74.1045,
+    34.1376,
+    84.6963
+   ],
+   "model": "models/u4lab/pipe_segments_16_64.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -77.7431,
+    36.4236,
+    82.3341
+   ],
+   "model": "models/props_c17/gaspipes001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -97.3836,
+    36.5893,
+    74.8284
+   ],
+   "model": "models/props_c17/pipe_cap005c.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     -114.1286,
     37.1475,
     92.6402
@@ -66352,6 +67702,17 @@
    "scale": 1.0,
    "stand_in": "bush",
    "yaw": 91.45
+  },
+  {
+   "at": [
+    -96.9836,
+    38.2715,
+    76.7144
+   ],
+   "model": "models/props_pipes/pipe03_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -66377,6 +67738,28 @@
   },
   {
    "at": [
+    -98.279,
+    42.4434,
+    78.3336
+   ],
+   "model": "models/props_pipes/pipe03_90degree01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -98.279,
+    42.272,
+    79.5147
+   ],
+   "model": "models/props_pipes/pipe03_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -122.6058,
     38.6715,
     74.657
@@ -66385,6 +67768,94 @@
    "scale": 1.0,
    "stand_in": "bush",
    "yaw": 356.0
+  },
+  {
+   "at": [
+    -98.279,
+    42.4625,
+    80.4291
+   ],
+   "model": "models/props_pipes/pipe03_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -98.279,
+    42.272,
+    81.3625
+   ],
+   "model": "models/props_pipes/pipe03_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -98.279,
+    42.4625,
+    82.2769
+   ],
+   "model": "models/props_pipes/pipe03_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -99.9935,
+    42.4625,
+    83.3819
+   ],
+   "model": "models/props_pipes/pipe03_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -98.5647,
+    42.4434,
+    83.2485
+   ],
+   "model": "models/props_pipes/pipe03_lcurve02_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -101.8032,
+    42.4625,
+    83.3819
+   ],
+   "model": "models/props_pipes/pipe03_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -100.9079,
+    42.272,
+    83.3819
+   ],
+   "model": "models/props_pipes/pipe03_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -103.613,
+    42.4625,
+    83.3819
+   ],
+   "model": "models/props_pipes/pipe03_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -66462,6 +67933,83 @@
    "scale": 1.0,
    "stand_in": "crate",
    "yaw": 356.5
+  },
+  {
+   "at": [
+    -96.9836,
+    38.2715,
+    75.0189
+   ],
+   "model": "models/props_pipes/pipe03_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -96.9836,
+    38.1191,
+    75.8
+   ],
+   "model": "models/props_pipes/pipe03_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -94.4118,
+    37.3952,
+    77.8764
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -94.7166,
+    37.3952,
+    76.962
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -94.4118,
+    37.3952,
+    76.962
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -94.4118,
+    37.3952,
+    76.0476
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -94.7166,
+    37.3952,
+    76.0476
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -66641,6 +68189,17 @@
   },
   {
    "at": [
+    -102.7176,
+    42.272,
+    83.3819
+   ],
+   "model": "models/props_pipes/pipe03_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     119.4245,
     86.8871,
     48.5775
@@ -66682,6 +68241,17 @@
    "scale": 1.0,
    "stand_in": "rock",
    "yaw": 74.5
+  },
+  {
+   "at": [
+    -92.4878,
+    36.957,
+    85.9536
+   ],
+   "model": "models/props_pipes/pipe03_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -66781,6 +68351,50 @@
    "scale": 1.0,
    "stand_in": "bush",
    "yaw": 146.0
+  },
+  {
+   "at": [
+    -74.5236,
+    35.3949,
+    84.6963
+   ],
+   "model": "models/u4lab/pipe_segments_16_64.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -74.5236,
+    35.3949,
+    84.6963
+   ],
+   "model": "models/u4lab/pipe_segments_16_corner.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -74.5236,
+    36.0045,
+    84.0867
+   ],
+   "model": "models/u4lab/pipe_segments_16_corner.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -74.5236,
+    37.2237,
+    84.1058
+   ],
+   "model": "models/u4lab/pipe_segments_16_64.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -67147,6 +68761,17 @@
   },
   {
    "at": [
+    -93.9165,
+    38.1191,
+    80.791
+   ],
+   "model": "models/props_pipes/pipe03_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     -97.5505,
     34.2519,
     75.6666
@@ -67224,6 +68849,17 @@
   },
   {
    "at": [
+    -81.6879,
+    42.5577,
+    98.4138
+   ],
+   "model": "models/props_pipes/pipeset08d_128_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -80.772,
     39.224,
     104.8512
@@ -67232,6 +68868,28 @@
    "scale": 1.0,
    "stand_in": "bin",
    "yaw": 60.0
+  },
+  {
+   "at": [
+    -81.6864,
+    42.2148,
+    105.4608
+   ],
+   "model": "models/props_rooftop/roof_vent001.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -81.0768,
+    42.2148,
+    105.4608
+   ],
+   "model": "models/props_rooftop/roof_vent001.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -67422,6 +69080,17 @@
   },
   {
    "at": [
+    -90.8304,
+    35.8712,
+    81.1911
+   ],
+   "model": "models/props_electric/smallelectricalbox_008_brightness.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -109.8804,
     38.4475,
     82.9246
@@ -67499,6 +69168,17 @@
   },
   {
    "at": [
+    -84.1248,
+    42.5577,
+    99.3648
+   ],
+   "model": "models/props_pipes/pipeset08d_corner128d_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -97.0979,
     39.1668,
     83.1532
@@ -67521,6 +69201,17 @@
   },
   {
    "at": [
+    -118.7196,
+    42.1577,
+    91.7639
+   ],
+   "model": "models/props_rooftop/gutter_pipe_128.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     127.5398,
     86.8299,
     52.5018
@@ -67529,6 +69220,17 @@
    "scale": 1.0,
    "stand_in": "tree",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    -104.4955,
+    38.0619,
+    65.513
+   ],
+   "model": "models/props_c17/utilitypole01d.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 90.0
   },
   {
    "at": [
@@ -67620,6 +69322,94 @@
   },
   {
    "at": [
+    -85.6679,
+    34.2709,
+    52.5971
+   ],
+   "model": "models/u4lab/pipe_segments_16_64.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -85.6679,
+    35.4901,
+    52.5971
+   ],
+   "model": "models/u4lab/pipe_segments_16_corner.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -84.1248,
+    35.795,
+    52.5971
+   ],
+   "model": "models/u4lab/pipe_segments_16_64.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -86.868,
+    36.3741,
+    54.102
+   ],
+   "model": "models/u4lab/pipe_segments_16_corner.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -86.868,
+    36.3741,
+    54.102
+   ],
+   "model": "models/u4lab/pipe_segments_16_64.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -86.868,
+    36.3741,
+    52.8828
+   ],
+   "model": "models/u4lab/pipe_segments_16_corner.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -85.344,
+    36.3741,
+    52.5971
+   ],
+   "model": "models/u4lab/pipe_segments_16_64.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -84.1248,
+    36.3741,
+    52.5971
+   ],
+   "model": "models/u4lab/pipe_segments_16_64.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     -100.3935,
     43.7769,
     83.8391
@@ -67639,6 +69429,127 @@
    "scale": 1.0,
    "stand_in": "cabinet",
    "yaw": 180.0
+  },
+  {
+   "at": [
+    -77.7429,
+    34.8971,
+    51.5733
+   ],
+   "model": "models/props_lab/pipesystem02c.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -77.7431,
+    35.7759,
+    51.5303
+   ],
+   "model": "models/props_lab/pipesystem02d.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -77.7621,
+    36.4023,
+    51.8732
+   ],
+   "model": "models/props_lab/pipesystem03b.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -84.3915,
+    36.938,
+    86.3346
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -85.4583,
+    36.938,
+    87.2681
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -85.0011,
+    37.0142,
+    87.2681
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -84.5439,
+    36.938,
+    87.2681
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -84.0867,
+    37.0142,
+    87.2681
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -83.7819,
+    36.938,
+    87.2681
+   ],
+   "model": "models/props_pipes/pipe02_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -83.4771,
+    37.0142,
+    87.2681
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -83.1117,
+    36.938,
+    87.2681
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
   },
   {
    "at": [
@@ -67697,6 +69608,28 @@
   },
   {
    "at": [
+    -96.9836,
+    38.2715,
+    78.886
+   ],
+   "model": "models/props_pipes/pipe03_tjoint01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -96.9836,
+    38.1191,
+    77.6288
+   ],
+   "model": "models/props_pipes/pipe03_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -104.794,
     38.9382,
     70.3326
@@ -67705,6 +69638,17 @@
    "scale": 1.0,
    "stand_in": "bush",
    "yaw": 90.0
+  },
+  {
+   "at": [
+    -73.8759,
+    35.9527,
+    80.8482
+   ],
+   "model": "models/props/cs_militia/ladderrung.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -67749,6 +69693,17 @@
    "scale": 1.0,
    "stand_in": "fence",
    "yaw": 90.0
+  },
+  {
+   "at": [
+    -79.4004,
+    35.1949,
+    75.8381
+   ],
+   "model": "models/u4lab/pipe_segments_32_128.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -67829,6 +69784,116 @@
   },
   {
    "at": [
+    -117.6528,
+    41.91,
+    78.486
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -111.0806,
+    42.291,
+    84.0486
+   ],
+   "model": "models/props_lab/pipesystem02b.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -110.0519,
+    42.291,
+    84.0486
+   ],
+   "model": "models/props_lab/pipesystem02b.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -118.11,
+    41.9862,
+    78.486
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -119.0435,
+    41.9862,
+    78.486
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -119.5007,
+    41.91,
+    78.486
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -119.9769,
+    41.9862,
+    78.486
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -119.1768,
+    42.0434,
+    82.8103
+   ],
+   "model": "models/props_pipes/pipe02_lcurve01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -119.1768,
+    42.1958,
+    82.9437
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -119.4626,
+    41.9862,
+    81.8578
+   ],
+   "model": "models/props_pipes/valvewheel002a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -116.0907,
     40.2146,
     77.8002
@@ -67858,6 +69923,50 @@
    "model": "models/props_lab/powerbox02d.mdl",
    "scale": 1.0,
    "stand_in": "cabinet",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -116.1288,
+    40.0915,
+    77.6288
+   ],
+   "model": "models/props_lab/pipesystem03d.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -116.1288,
+    39.4716,
+    77.4764
+   ],
+   "model": "models/props_lab/pipesystem02d.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -116.1288,
+    39.1668,
+    77.343
+   ],
+   "model": "models/props_lab/pipesystem02a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -116.1288,
+    39.1668,
+    77.2859
+   ],
+   "model": "models/props_lab/pipesystem02a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
    "yaw": 0.0
   },
   {
@@ -67961,6 +70070,39 @@
   },
   {
    "at": [
+    -95.7644,
+    38.1191,
+    80.791
+   ],
+   "model": "models/props_pipes/pipe03_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -96.9836,
+    38.2715,
+    80.7529
+   ],
+   "model": "models/props_pipes/pipe03_90degree01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -96.9836,
+    38.1191,
+    79.8385
+   ],
+   "model": "models/props_pipes/pipe03_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -120.0912,
     40.7099,
     21.2789
@@ -68038,6 +70180,28 @@
   },
   {
    "at": [
+    -104.2225,
+    38.9573,
+    26.7843
+   ],
+   "model": "models/props_c17/utilitypole01d.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -103.2129,
+    41.8148,
+    0.8382
+   ],
+   "model": "models/props_c17/utilitypole01d.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     -81.2673,
     34.7853,
     57.2072
@@ -68057,6 +70221,28 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    -98.9236,
+    36.5893,
+    71.7804
+   ],
+   "model": "models/props_c17/pipe_cap005c.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -97.4023,
+    36.5893,
+    71.7796
+   ],
+   "model": "models/props_c17/pipe_cap005c.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -68126,6 +70312,28 @@
   },
   {
    "at": [
+    -98.9236,
+    36.5893,
+    71.7804
+   ],
+   "model": "models/props_c17/pipe_cap005c.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -97.4023,
+    36.5893,
+    71.7796
+   ],
+   "model": "models/props_c17/pipe_cap005c.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     -80.6005,
     34.7472,
     49.6253
@@ -68148,6 +70356,61 @@
   },
   {
    "at": [
+    -80.3148,
+    37.319,
+    55.9308
+   ],
+   "model": "models/u4lab/pipe_segments_16_128.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -82.7532,
+    37.319,
+    55.9308
+   ],
+   "model": "models/u4lab/pipe_segments_16_corner.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -83.058,
+    37.319,
+    55.626
+   ],
+   "model": "models/u4lab/pipe_segments_16_128.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -83.058,
+    37.319,
+    53.1876
+   ],
+   "model": "models/u4lab/pipe_segments_16_128.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -85.344,
+    37.4142,
+    54.7307
+   ],
+   "model": "models/props_pipes/pipeset02d_128_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
     -72.3999,
     34.3639,
     88.9523
@@ -68167,6 +70430,17 @@
    "scale": 1.0,
    "stand_in": "rock",
    "yaw": 300.0
+  },
+  {
+   "at": [
+    -79.4004,
+    36.4236,
+    74.6189
+   ],
+   "model": "models/u4lab/pipe_segments_32_junction.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -68313,6 +70587,17 @@
   },
   {
    "at": [
+    -98.5076,
+    41.8648,
+    57.4548
+   ],
+   "model": "models/props/cs_assault/acunit02.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     -86.6966,
     38.462,
     98.9267
@@ -68321,6 +70606,17 @@
    "scale": 1.0,
    "stand_in": "bush",
    "yaw": 180.0
+  },
+  {
+   "at": [
+    -97.6313,
+    41.8648,
+    57.4548
+   ],
+   "model": "models/props/cs_assault/acunit02.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -68354,6 +70650,39 @@
    "scale": 1.0,
    "stand_in": "tree",
    "yaw": 270.0
+  },
+  {
+   "at": [
+    -77.9526,
+    37.338,
+    76.2
+   ],
+   "model": "models/props_pipes/pipeset08d_64_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -77.9526,
+    37.338,
+    78.0098
+   ],
+   "model": "models/props_pipes/pipeset08d_128_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -77.0001,
+    37.338,
+    80.4291
+   ],
+   "model": "models/props_pipes/pipeset08d_corner128d_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -68489,6 +70818,17 @@
   },
   {
    "at": [
+    -95.4215,
+    40.2717,
+    54.2354
+   ],
+   "model": "models/props_c17/gaspipes001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
     -96.9074,
     39.224,
     51.0159
@@ -68522,6 +70862,17 @@
   },
   {
    "at": [
+    -93.1164,
+    39.1668,
+    51.797
+   ],
+   "model": "models/props_lab/workspace004.mdl",
+   "scale": 1.0,
+   "stand_in": "desk",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     -94.7928,
     41.7386,
     52.5018
@@ -68552,6 +70903,457 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 270.0
+  },
+  {
+   "at": [
+    -87.7824,
+    37.6238,
+    54.4068
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -88.6968,
+    37.6238,
+    54.4068
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -90.5256,
+    37.6238,
+    54.4068
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -89.6112,
+    37.6238,
+    54.4068
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -91.44,
+    37.7571,
+    54.4068
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -92.3354,
+    38.0048,
+    54.4068
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -93.2307,
+    38.1191,
+    54.4068
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -90.9828,
+    37.7,
+    54.4068
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -87.3443,
+    37.7,
+    54.4068
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -89.154,
+    37.7,
+    54.4068
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -90.0684,
+    37.7,
+    54.4068
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -94.1451,
+    38.1191,
+    54.4068
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -91.8782,
+    37.9476,
+    54.4068
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -92.7735,
+    38.1953,
+    54.4068
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -93.6879,
+    38.1953,
+    54.4068
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -94.488,
+    38.1953,
+    54.4068
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -87.7824,
+    37.6238,
+    55.1498
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -87.3443,
+    37.7,
+    55.1498
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -88.6968,
+    37.6238,
+    55.1498
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -89.6112,
+    37.6238,
+    55.1498
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -89.154,
+    37.7,
+    55.1498
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -88.2396,
+    37.7,
+    55.1498
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -90.2208,
+    37.7,
+    55.1498
+   ],
+   "model": "models/props_pipes/pipe02_90degree01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -90.2399,
+    37.6238,
+    55.7594
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -90.2399,
+    37.7,
+    56.2166
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -87.7824,
+    37.6238,
+    53.9877
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -87.3443,
+    37.7,
+    53.9877
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -88.6968,
+    37.6238,
+    53.9877
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -89.154,
+    37.7,
+    53.9877
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -89.6112,
+    37.6238,
+    53.9877
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -90.0684,
+    37.7,
+    53.9877
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -90.5256,
+    37.6238,
+    53.9877
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -90.9828,
+    37.7,
+    53.9877
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -92.3354,
+    38.0048,
+    53.9877
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -91.44,
+    37.7571,
+    53.9877
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -91.8782,
+    37.9476,
+    53.9877
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -93.3069,
+    38.1191,
+    53.5877
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 45.0
+  },
+  {
+   "at": [
+    -92.8878,
+    38.1953,
+    54.0068
+   ],
+   "model": "models/props_pipes/pipe02_45degree01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 135.0
+  },
+  {
+   "at": [
+    -93.726,
+    38.1953,
+    53.1686
+   ],
+   "model": "models/props_pipes/pipe02_45degree01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 315.0
+  },
+  {
+   "at": [
+    -94.1642,
+    38.1191,
+    53.1876
+   ],
+   "model": "models/props_pipes/pipe02_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -94.488,
+    38.1953,
+    53.1876
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -68852,6 +71654,17 @@
   },
   {
    "at": [
+    -85.2488,
+    34.69,
+    68.2371
+   ],
+   "model": "models/props_pipes/pipecluster08d_006a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -84.4296,
     37.1856,
     72.5996
@@ -68885,6 +71698,50 @@
   },
   {
    "at": [
+    -86.868,
+    36.7856,
+    59.055
+   ],
+   "model": "models/props_lab/pipesystem02a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -86.868,
+    35.5663,
+    59.055
+   ],
+   "model": "models/props_lab/pipesystem02a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -86.868,
+    36.4617,
+    59.1121
+   ],
+   "model": "models/props_lab/pipesystem02a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -86.8697,
+    35.2463,
+    59.1121
+   ],
+   "model": "models/props_lab/pipesystem02a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
     -106.2037,
     43.4531,
     77.324
@@ -68893,6 +71750,446 @@
    "scale": 1.0,
    "stand_in": "tree",
    "yaw": 145.92
+  },
+  {
+   "at": [
+    -70.485,
+    37.338,
+    78.7336
+   ],
+   "model": "models/props_pipes/pipe02_45degree01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -70.485,
+    37.5476,
+    78.9432
+   ],
+   "model": "models/props_pipes/pipe02_45degree01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -70.085,
+    37.4714,
+    80.4481
+   ],
+   "model": "models/props_pipes/pipe02_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 45.0
+  },
+  {
+   "at": [
+    -70.9232,
+    37.4714,
+    82.296
+   ],
+   "model": "models/props_pipes/pipe02_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -69.0372,
+    37.4714,
+    80.6958
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -68.4086,
+    37.5476,
+    80.6958
+   ],
+   "model": "models/props_pipes/pipe02_tjoint01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -66.5988,
+    37.4714,
+    80.6958
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -67.9323,
+    37.4714,
+    80.6958
+   ],
+   "model": "models/props_pipes/pipe02_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -65.6844,
+    37.4714,
+    80.6958
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -70.9232,
+    35.2044,
+    77.9717
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -70.9232,
+    35.8902,
+    77.7621
+   ],
+   "model": "models/props_pipes/valve001.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -70.9232,
+    36.3665,
+    77.9717
+   ],
+   "model": "models/props_pipes/pipe02_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -70.9232,
+    36.8046,
+    77.8955
+   ],
+   "model": "models/props_pipes/pipe02_45degree01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -70.9232,
+    37.0523,
+    78.2574
+   ],
+   "model": "models/props_pipes/pipe02_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -70.9232,
+    37.4142,
+    78.5241
+   ],
+   "model": "models/props_pipes/pipe02_45degree01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -70.9232,
+    37.338,
+    79.0956
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -71.2182,
+    37.4904,
+    80.1818
+   ],
+   "model": "models/props_pipes/pipe02_scurve01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -71.2182,
+    37.6047,
+    81.1915
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -71.2182,
+    37.6809,
+    81.8011
+   ],
+   "model": "models/props_pipes/pipe02_90degree01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -71.6564,
+    37.6047,
+    81.8011
+   ],
+   "model": "models/props_pipes/pipe02_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -68.4086,
+    37.4714,
+    81.4006
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -68.4086,
+    37.4714,
+    82.1436
+   ],
+   "model": "models/props_pipes/pipe02_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -68.2752,
+    37.3952,
+    80.01
+   ],
+   "model": "models/props_pipes/pipe03_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -66.1607,
+    37.3952,
+    79.9909
+   ],
+   "model": "models/props_pipes/pipe03_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -69.1896,
+    37.5666,
+    79.9909
+   ],
+   "model": "models/props_pipes/pipe03_90degree01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -69.1896,
+    37.3952,
+    78.7908
+   ],
+   "model": "models/props_pipes/pipe03_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -70.9232,
+    34.7662,
+    77.8955
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -70.9232,
+    37.4142,
+    79.5528
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -71.2089,
+    37.6809,
+    80.7339
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -71.9328,
+    37.6809,
+    81.8007
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -70.9232,
+    37.5476,
+    81.9912
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -70.9232,
+    37.5476,
+    82.4293
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -70.7136,
+    37.5476,
+    81.172
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -68.4076,
+    37.5476,
+    82.4326
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -68.4086,
+    37.5476,
+    81.8388
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -69.4754,
+    37.5476,
+    80.6958
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -67.6656,
+    37.5476,
+    80.6958
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -77.1144,
+    37.6809,
+    83.9343
+   ],
+   "model": "models/props_pipes/pipeset08d_64_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -67.056,
+    37.5476,
+    80.6958
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -66.1416,
+    37.5476,
+    80.6958
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -68918,6 +72215,17 @@
   },
   {
    "at": [
+    -99.2505,
+    42.5577,
+    80.6196
+   ],
+   "model": "models/props_pipes/pipecluster08d_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     -82.7151,
     37.1464,
     57.9695
@@ -68937,6 +72245,39 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 180.0
+  },
+  {
+   "at": [
+    -88.8111,
+    35.9474,
+    83.5343
+   ],
+   "model": "models/props_lab/pipesystem03c.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -88.6587,
+    36.1188,
+    83.5343
+   ],
+   "model": "models/props_lab/pipesystem02e.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -88.9826,
+    35.2806,
+    83.5343
+   ],
+   "model": "models/props_lab/pipesystem02d.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -69006,6 +72347,50 @@
   },
   {
    "at": [
+    -80.029,
+    36.7094,
+    72.8853
+   ],
+   "model": "models/props_pipes/pipeset32d_corner128r_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -77.5907,
+    36.7094,
+    72.0281
+   ],
+   "model": "models/props_pipes/pipeset32d_128_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -80.9053,
+    36.7094,
+    75.3047
+   ],
+   "model": "models/props_pipes/pipeset32d_128_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -80.9053,
+    36.7094,
+    77.724
+   ],
+   "model": "models/props_pipes/pipeset32d_128_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     -81.0958,
     32.9287,
     74.8895
@@ -69036,6 +72421,17 @@
    "scale": 1.0,
    "stand_in": "rock",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    -75.7238,
+    33.528,
+    71.228
+   ],
+   "model": "models/props/de_prodigy/wall_console1.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -69127,6 +72523,17 @@
   },
   {
    "at": [
+    -74.5236,
+    34.1376,
+    84.6963
+   ],
+   "model": "models/u4lab/pipe_segments_16_64.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -119.2149,
     39.4526,
     92.7164
@@ -69135,6 +72542,50 @@
    "scale": 1.0,
    "stand_in": "bin",
    "yaw": 180.0
+  },
+  {
+   "at": [
+    -89.3064,
+    35.6749,
+    89.0016
+   ],
+   "model": "models/props_c17/pipe_cap005c.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -86.106,
+    35.6749,
+    89.0016
+   ],
+   "model": "models/props_c17/pipe_cap005c.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -98.9076,
+    36.5893,
+    74.8284
+   ],
+   "model": "models/props_c17/pipe_cap005c.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -94.9643,
+    36.3665,
+    76.1619
+   ],
+   "model": "models/props_c17/gasmeterpipes001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -69171,6 +72622,39 @@
   },
   {
    "at": [
+    -67.8371,
+    36.957,
+    85.9155
+   ],
+   "model": "models/u4lab/pipe_segments_16_256.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -72.7139,
+    36.957,
+    85.9155
+   ],
+   "model": "models/u4lab/pipe_segments_16_256.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -77.5907,
+    36.957,
+    85.9155
+   ],
+   "model": "models/u4lab/pipe_segments_16_256.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     -69.4944,
     33.6232,
     81.2673
@@ -69201,6 +72685,50 @@
    "scale": 1.0,
    "stand_in": "bin",
    "yaw": 90.0
+  },
+  {
+   "at": [
+    -70.485,
+    36.0236,
+    77.9526
+   ],
+   "model": "models/props_pipes/valve003.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -70.485,
+    35.1472,
+    78.0098
+   ],
+   "model": "models/props_pipes/valve003.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -70.9232,
+    35.8902,
+    78.0859
+   ],
+   "model": "models/props_pipes/valvewheel001.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -65.2463,
+    37.5476,
+    79.9909
+   ],
+   "model": "models/props_pipes/pipe03_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -69237,6 +72765,83 @@
   },
   {
    "at": [
+    -83.8772,
+    37.0713,
+    77.2478
+   ],
+   "model": "models/props_pipes/pipeset08d_256_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -83.8772,
+    37.0713,
+    72.371
+   ],
+   "model": "models/props_pipes/pipeset08d_256_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -82.9056,
+    37.07,
+    68.7324
+   ],
+   "model": "models/props_pipes/pipeset08d_corner128d_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -79.248,
+    37.0713,
+    67.7799
+   ],
+   "model": "models/props_pipes/pipeset08d_256_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -75.5904,
+    37.0713,
+    67.7799
+   ],
+   "model": "models/props_pipes/pipeset08d_128_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -73.7616,
+    37.0713,
+    67.7799
+   ],
+   "model": "models/props_pipes/pipeset08d_64_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -80.4672,
+    36.8237,
+    67.0179
+   ],
+   "model": "models/u4lab/pipe_segments_32_256.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     -84.2391,
     33.5661,
     75.6095
@@ -69270,6 +72875,50 @@
   },
   {
    "at": [
+    -76.8088,
+    36.3474,
+    60.2117
+   ],
+   "model": "models/props_pipes/pipeset02d_128_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -76.8096,
+    36.0617,
+    60.2171
+   ],
+   "model": "models/props_pipes/pipeset02d_128_001b.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -79.4004,
+    35.1949,
+    78.2764
+   ],
+   "model": "models/u4lab/pipe_segments_32_corner.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -79.4004,
+    37.6428,
+    74.6189
+   ],
+   "model": "models/u4lab/pipe_segments_32_64.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
     120.7381,
     87.2202,
     43.815
@@ -69278,6 +72927,39 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 90.0
+  },
+  {
+   "at": [
+    -67.037,
+    37.5476,
+    79.9909
+   ],
+   "model": "models/props_pipes/pipe03_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -67.6847,
+    37.5476,
+    80.01
+   ],
+   "model": "models/props_pipes/pipe03_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -65.2272,
+    37.5476,
+    80.6958
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -69424,6 +73106,39 @@
   },
   {
    "at": [
+    -92.8116,
+    37.3952,
+    78.6384
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -93.345,
+    37.3952,
+    78.6384
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -94.85,
+    38.2715,
+    80.791
+   ],
+   "model": "models/props_pipes/pipe03_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -82.3722,
     40.7099,
     97.6122
@@ -69479,6 +73194,50 @@
   },
   {
    "at": [
+    -92.9831,
+    38.2715,
+    80.791
+   ],
+   "model": "models/props_pipes/pipe03_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -99.9363,
+    38.1191,
+    78.886
+   ],
+   "model": "models/props_pipes/pipe03_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -98.4123,
+    38.1191,
+    78.886
+   ],
+   "model": "models/props_pipes/pipe03_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -91.5734,
+    36.8046,
+    85.9536
+   ],
+   "model": "models/props_pipes/pipe03_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     -83.0008,
     34.7472,
     84.944
@@ -69498,6 +73257,17 @@
    "scale": 1.0,
    "stand_in": "fence",
    "yaw": 90.0
+  },
+  {
+   "at": [
+    -96.1244,
+    38.0619,
+    89.6531
+   ],
+   "model": "models/props_c17/utilitypole01d.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 120.0
   },
   {
    "at": [
@@ -69622,6 +73392,39 @@
   },
   {
    "at": [
+    -116.3003,
+    41.9862,
+    78.486
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -116.7384,
+    41.91,
+    78.486
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -117.1956,
+    41.9862,
+    78.486
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -80.0481,
     34.7472,
     80.8482
@@ -69721,6 +73524,28 @@
   },
   {
    "at": [
+    -79.9024,
+    37.4523,
+    64.9809
+   ],
+   "model": "models/props_pipes/pipecluster08d_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -78.988,
+    37.4523,
+    66.675
+   ],
+   "model": "models/props_pipes/pipecluster04d_001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -82.2388,
     33.2994,
     65.0367
@@ -69740,6 +73565,358 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 270.0
+  },
+  {
+   "at": [
+    -87.0014,
+    36.576,
+    79.5337
+   ],
+   "model": "models/props_c17/gaspipes001a.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -85.8965,
+    35.7378,
+    79.5718
+   ],
+   "model": "models/props_pipes/pipe02_90degree01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -86.487,
+    35.814,
+    79.5718
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -88.754,
+    37.1856,
+    79.5718
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -88.8302,
+    36.7284,
+    79.5718
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -87.1157,
+    35.7378,
+    79.5718
+   ],
+   "model": "models/props_pipes/pipe02_tjoint01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -87.7443,
+    35.814,
+    79.5718
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -88.2015,
+    35.7378,
+    79.5718
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -88.754,
+    36.2712,
+    79.5718
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -88.6778,
+    35.8712,
+    79.5718
+   ],
+   "model": "models/props_pipes/pipe02_lcurve02_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -88.754,
+    34.7662,
+    79.5718
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -88.6778,
+    35.1663,
+    79.5718
+   ],
+   "model": "models/props_pipes/pipe02_lcurve02_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -88.2015,
+    35.2996,
+    79.5718
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -87.1347,
+    35.3187,
+    79.5718
+   ],
+   "model": "models/props_pipes/pipe02_90degree01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -87.7443,
+    35.2234,
+    79.5718
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -91.1543,
+    37.1856,
+    79.5337
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -91.2305,
+    37.1406,
+    79.5337
+   ],
+   "model": "models/props_pipes/pipe02_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -91.1543,
+    36.8427,
+    79.5337
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -92.1449,
+    36.2141,
+    79.5337
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -91.6877,
+    36.2903,
+    79.5337
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -91.2114,
+    36.4427,
+    79.5337
+   ],
+   "model": "models/props_pipes/pipe02_lcurve02_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -92.6021,
+    36.2903,
+    79.5337
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -92.6211,
+    35.3377,
+    79.5337
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -92.1639,
+    35.2615,
+    79.5337
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -91.7067,
+    35.3377,
+    79.5337
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -91.2495,
+    35.2615,
+    79.5337
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -90.6399,
+    35.3377,
+    79.5528
+   ],
+   "model": "models/props_pipes/pipe02_90degree01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -90.6399,
+    35.6235,
+    79.5528
+   ],
+   "model": "models/props_pipes/pipe02_90degree01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -91.2495,
+    35.5473,
+    79.5337
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -92.6211,
+    35.6235,
+    79.5337
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -91.7067,
+    35.6235,
+    79.5337
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -92.1639,
+    35.5473,
+    79.5337
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
   },
   {
    "at": [
@@ -69905,6 +74082,17 @@
    "scale": 1.0,
    "stand_in": "rock",
    "yaw": 198.5
+  },
+  {
+   "at": [
+    -116.7765,
+    40.8167,
+    82.3722
+   ],
+   "model": "models/props_interiors/lightsconce02.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -70458,6 +74646,182 @@
   },
   {
    "at": [
+    -94.7166,
+    37.319,
+    76.5048
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -94.7166,
+    37.319,
+    77.4192
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -94.7166,
+    37.3952,
+    78.0288
+   ],
+   "model": "models/props_pipes/pipe02_yjoint01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -94.4118,
+    37.319,
+    78.1812
+   ],
+   "model": "models/props_pipes/pipe02_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -94.4118,
+    37.319,
+    76.5048
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -94.4118,
+    37.319,
+    77.4192
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -94.4118,
+    37.3952,
+    78.6384
+   ],
+   "model": "models/props_pipes/pipe02_90degree01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -94.7166,
+    37.3952,
+    78.9432
+   ],
+   "model": "models/props_pipes/pipe02_90degree01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -94.107,
+    37.319,
+    78.9622
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -93.1926,
+    37.319,
+    78.9622
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -93.8022,
+    37.319,
+    78.6384
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -93.0402,
+    37.319,
+    78.6384
+   ],
+   "model": "models/props_pipes/pipe02_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -94.7166,
+    37.319,
+    78.505
+   ],
+   "model": "models/props_pipes/pipe02_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -95.1167,
+    37.319,
+    78.3145
+   ],
+   "model": "models/props_pipes/pipe02_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 315.0
+  },
+  {
+   "at": [
+    -92.8307,
+    37.3952,
+    78.9622
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -93.6498,
+    37.3952,
+    78.9622
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -97.6884,
     42.6339,
     55.3212
@@ -70499,6 +74863,17 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 135.0
+  },
+  {
+   "at": [
+    -82.7532,
+    37.0142,
+    87.2681
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -70590,6 +74965,105 @@
   },
   {
    "at": [
+    -118.5672,
+    41.91,
+    78.7146
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -117.1956,
+    41.9862,
+    78.7146
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -117.6528,
+    41.91,
+    78.7146
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -118.11,
+    41.9862,
+    78.7146
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -116.7384,
+    41.91,
+    78.7146
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -119.1578,
+    41.9862,
+    78.7146
+   ],
+   "model": "models/props_pipes/pipe02_90degree01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -119.1768,
+    41.91,
+    79.3242
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -119.1768,
+    41.9862,
+    79.7814
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -119.1768,
+    41.9862,
+    80.6958
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     -85.2678,
     34.7472,
     80.2005
@@ -70620,6 +75094,479 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 90.0
+  },
+  {
+   "at": [
+    -89.7255,
+    36.8046,
+    85.9346
+   ],
+   "model": "models/props_pipes/pipe03_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -90.6399,
+    36.957,
+    85.9346
+   ],
+   "model": "models/props_pipes/pipe03_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -87.8777,
+    36.8046,
+    85.9346
+   ],
+   "model": "models/props_pipes/pipe03_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -88.7921,
+    36.957,
+    85.9346
+   ],
+   "model": "models/props_pipes/pipe03_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -86.0298,
+    36.8046,
+    85.9346
+   ],
+   "model": "models/props_pipes/pipe03_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -86.9442,
+    36.957,
+    85.9346
+   ],
+   "model": "models/props_pipes/pipe03_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -84.4746,
+    36.8046,
+    85.9346
+   ],
+   "model": "models/props_pipes/pipe03_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -85.0964,
+    36.957,
+    85.9346
+   ],
+   "model": "models/props_pipes/pipe03_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -83.2675,
+    36.8046,
+    85.9346
+   ],
+   "model": "models/props_pipes/pipe03_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -83.8772,
+    36.957,
+    85.9346
+   ],
+   "model": "models/props_pipes/pipe03_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -82.7722,
+    36.957,
+    85.9346
+   ],
+   "model": "models/props_pipes/pipe03_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -92.0496,
+    36.938,
+    86.3346
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -92.5068,
+    37.0142,
+    86.3346
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -91.5924,
+    37.0142,
+    86.3346
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -91.1352,
+    36.938,
+    86.3346
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -90.678,
+    37.0142,
+    86.3346
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -90.2208,
+    36.938,
+    86.3346
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -89.5922,
+    37.0142,
+    86.3346
+   ],
+   "model": "models/props_pipes/pipe02_yjoint01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -89.1921,
+    36.938,
+    86.849
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 45.0
+  },
+  {
+   "at": [
+    -88.773,
+    37.0142,
+    87.2871
+   ],
+   "model": "models/props_pipes/pipe02_45degree01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 135.0
+  },
+  {
+   "at": [
+    -88.2015,
+    36.938,
+    87.2871
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -87.7443,
+    37.0142,
+    87.2871
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -87.2871,
+    36.938,
+    87.2871
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -86.8299,
+    37.0142,
+    87.2871
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -86.3727,
+    36.938,
+    87.2681
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -85.9155,
+    37.0142,
+    87.2681
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -88.9635,
+    36.938,
+    86.3346
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -88.5063,
+    37.0142,
+    86.3346
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -88.0491,
+    36.938,
+    86.3346
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -87.5919,
+    37.0142,
+    86.3346
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -87.1347,
+    36.938,
+    86.3346
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -86.6775,
+    37.0142,
+    86.3346
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -85.7631,
+    37.0142,
+    86.3346
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -86.2203,
+    36.938,
+    86.3346
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -84.8487,
+    37.0142,
+    86.3346
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -85.3059,
+    36.938,
+    86.3346
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -83.801,
+    37.0142,
+    86.3346
+   ],
+   "model": "models/props_pipes/pipe02_90degree01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -78.0288,
+    36.8237,
+    67.0179
+   ],
+   "model": "models/u4lab/pipe_segments_32_corner.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -78.0288,
+    36.8237,
+    67.0179
+   ],
+   "model": "models/u4lab/pipe_segments_32_128.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -118.5672,
+    41.91,
+    78.486
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -120.8151,
+    42.1958,
+    78.486
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -120.6818,
+    42.0434,
+    78.486
+   ],
+   "model": "models/props_pipes/pipe02_lcurve01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -116.3003,
+    41.9862,
+    78.7146
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -70678,6 +75625,39 @@
   },
   {
    "at": [
+    -100.203,
+    42.3482,
+    88.373
+   ],
+   "model": "models/props_wasteland/prison_flourescentlight001a.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -102.6414,
+    42.3482,
+    88.373
+   ],
+   "model": "models/props_wasteland/prison_flourescentlight001a.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -110.9472,
+    35.5854,
+    70.6565
+   ],
+   "model": "models/props_c17/metalladder001.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     -101.0412,
     39.1668,
     74.8856
@@ -70733,6 +75713,61 @@
   },
   {
    "at": [
+    -119.1768,
+    41.91,
+    80.2386
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -119.1768,
+    41.9862,
+    81.6102
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -119.1768,
+    41.91,
+    81.153
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -119.1768,
+    41.9862,
+    82.1245
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -119.0435,
+    41.9862,
+    81.8578
+   ],
+   "model": "models/props_pipes/valve001.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -101.0603,
     41.0718,
     82.8294
@@ -70752,6 +75787,116 @@
    "scale": 1.0,
    "stand_in": "bin",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    -79.8195,
+    35.2044,
+    56.6928
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -79.8195,
+    36.3556,
+    56.6804
+   ],
+   "model": "models/props_pipes/pipe02_lcurve01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -79.8195,
+    36.4236,
+    57.3024
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -79.8195,
+    36.4236,
+    58.2168
+   ],
+   "model": "models/props_pipes/pipe02_straight01_long.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -79.8195,
+    36.5189,
+    58.8264
+   ],
+   "model": "models/props_pipes/pipe02_90degree01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -79.8195,
+    36.9761,
+    58.9026
+   ],
+   "model": "models/props_pipes/pipe02_straight01_short.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -79.8195,
+    34.7662,
+    56.6166
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -79.8195,
+    35.6616,
+    56.6166
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -79.8195,
+    36.4998,
+    57.7596
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -79.8195,
+    36.4998,
+    56.8452
+   ],
+   "model": "models/props_pipes/pipe02_connector01.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/pipe",
+   "yaw": 90.0
   },
   {
    "at": [
@@ -70796,8 +75941,20 @@
    "scale": 1.0,
    "stand_in": "tree",
    "yaw": 90.0
+  },
+  {
+   "at": [
+    -97.3836,
+    41.2814,
+    91.5924
+   ],
+   "model": "models/props/cs_assault/ladder_tall.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 90.0
   }
  ],
+ "scripts": [],
  "settings": {
   "r_radiosity": 4
  },
@@ -73057,8 +78214,8 @@
     0.3131
    ],
    "entity": null,
-   "free": "grass:grass",
-   "generic": "grass",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 4374,
    "index_offset": 91148,
    "material": "forest/blend_cliff_grass_short_wvt_patch",
@@ -73180,8 +78337,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "grass:grass",
-   "generic": "grass",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 19968,
    "index_offset": 639108,
    "material": "forest/blend_cliff_grass_nodet",
@@ -73258,8 +78415,8 @@
     0.3131
    ],
    "entity": null,
-   "free": "grass:grass",
-   "generic": "grass",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 12,
    "index_offset": 1171940,
    "material": "forest/blend_cliff02_grass_wvt_patch",
@@ -74512,8 +79669,8 @@
     0.3131
    ],
    "entity": null,
-   "free": "grass:grass",
-   "generic": "grass",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 6,
    "index_offset": 1223304,
    "material": "forest/blend_cliff02_grass_wvt_patch",
@@ -77129,8 +82286,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 30,
    "index_offset": 1376792,
    "material": "props/acousticceiling002a",
@@ -77379,8 +82536,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "grass:grass",
-   "generic": "grass",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 1920,
    "index_offset": 1398432,
    "material": "forest/blend_cliff_grass",
@@ -77611,8 +82768,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 384,
    "index_offset": 1449984,
    "material": "forest/blend_gravel02_cliff",
@@ -80695,7 +85852,7 @@
     0.1975
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 108,
    "index_offset": 1718144,
@@ -83084,7 +88241,7 @@
     0.2856
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 150,
    "index_offset": 2050988,
@@ -83111,7 +88268,7 @@
     0.2856
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 24,
    "index_offset": 2052100,
@@ -83138,7 +88295,7 @@
     0.2856
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 12,
    "index_offset": 2052388,
@@ -83165,7 +88322,7 @@
     0.481
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 6,
    "index_offset": 2052564,
@@ -83192,7 +88349,7 @@
     0.3013
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 18,
    "index_offset": 2052844,
@@ -83219,7 +88376,7 @@
     0.3013
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 21,
    "index_offset": 2053204,
@@ -83246,7 +88403,7 @@
     0.3013
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 12,
    "index_offset": 2053480,
@@ -83273,7 +88430,7 @@
     0.3013
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 57,
    "index_offset": 2054456,
@@ -83300,7 +88457,7 @@
     0.4526
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 9,
    "index_offset": 2054844,
@@ -83327,7 +88484,7 @@
     0.4188
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 9,
    "index_offset": 2055040,
@@ -83381,8 +88538,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 1275,
    "index_offset": 2085652,
    "material": "props/acousticceiling002a",
@@ -83948,7 +89105,7 @@
     0.2216
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 12,
    "index_offset": 2124752,
@@ -83975,7 +89132,7 @@
     0.2216
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 36,
    "index_offset": 2125376,
@@ -84002,7 +89159,7 @@
     0.2216
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 6,
    "index_offset": 2125648,
@@ -84029,7 +89186,7 @@
     0.2216
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 12,
    "index_offset": 2125864,
@@ -84056,7 +89213,7 @@
     0.2216
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 6,
    "index_offset": 2126040,
@@ -84083,7 +89240,7 @@
     0.2216
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 12,
    "index_offset": 2126320,
@@ -84110,7 +89267,7 @@
     0.2216
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 12,
    "index_offset": 2126624,
@@ -84137,7 +89294,7 @@
     0.2216
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 42,
    "index_offset": 2127312,
@@ -84164,7 +89321,7 @@
     0.2216
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 6,
    "index_offset": 2127608,
@@ -84191,7 +89348,7 @@
     0.2216
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 24,
    "index_offset": 2128016,
@@ -84218,7 +89375,7 @@
     0.2216
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 24,
    "index_offset": 2128496,
@@ -85241,8 +90398,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "grass:grass",
-   "generic": "grass",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 2688,
    "index_offset": 2226936,
    "material": "forest/blend_cliff_grass",
@@ -85270,8 +90427,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "grass:grass",
-   "generic": "grass",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 1536,
    "index_offset": 2248056,
    "material": "forest/blend_cliff_grass",
@@ -85299,8 +90456,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "grass:grass",
-   "generic": "grass",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 768,
    "index_offset": 2259384,
    "material": "forest/blend_cliff_grass",
@@ -85328,8 +90485,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "grass:grass",
-   "generic": "grass",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 384,
    "index_offset": 2265048,
    "material": "forest/blend_cliff_grass",
@@ -85357,8 +90514,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "grass:grass",
-   "generic": "grass",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 3072,
    "index_offset": 2287320,
    "material": "forest/blend_cliff_grass",
@@ -85386,8 +90543,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "grass:grass",
-   "generic": "grass",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 3072,
    "index_offset": 2320344,
    "material": "forest/blend_cliff_grass",
@@ -85415,8 +90572,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "grass:grass",
-   "generic": "grass",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 1152,
    "index_offset": 2340408,
    "material": "forest/blend_cliff_grass",
@@ -85879,8 +91036,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 768,
    "index_offset": 2464824,
    "material": "forest/blend_gravel02_cliff",
@@ -85908,8 +91065,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 384,
    "index_offset": 2470488,
    "material": "forest/blend_gravel02_cliff",
@@ -85937,8 +91094,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 768,
    "index_offset": 2477208,
    "material": "forest/blend_gravel02_cliff",
@@ -85966,8 +91123,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 384,
    "index_offset": 2482872,
    "material": "forest/blend_gravel02_cliff",
@@ -85995,8 +91152,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 1536,
    "index_offset": 2494776,
    "material": "forest/blend_gravel02_cliff",
@@ -86024,8 +91181,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "ground:mud",
-   "generic": "mud",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 384,
    "index_offset": 2503512,
    "material": "forest/blend_gravel02_cliff",
@@ -86286,8 +91443,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "grass:grass",
-   "generic": "grass",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 384,
    "index_offset": 2542184,
    "material": "forest/blend_cliff_grass",
@@ -89759,8 +94916,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 180,
    "index_offset": 2857952,
    "material": "props/acousticceiling002a",
@@ -96274,7 +101431,7 @@
     0.681
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 36,
    "index_offset": 3556888,
@@ -96301,7 +101458,7 @@
     0.3639
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 156,
    "index_offset": 3559080,
@@ -96328,7 +101485,7 @@
     0.3639
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 6,
    "index_offset": 3559832,
@@ -96355,7 +101512,7 @@
     0.481
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 93,
    "index_offset": 3561232,
@@ -96382,7 +101539,7 @@
     0.3013
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 30,
    "index_offset": 3561956,
@@ -96409,7 +101566,7 @@
     0.3013
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 9,
    "index_offset": 3562236,
@@ -96463,8 +101620,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 510,
    "index_offset": 3574564,
    "material": "props/acousticceiling002a",

@@ -9,15 +9,15 @@
    "default": 7
   },
   "free_by_tier": {
-   "default": 5
+   "default": 4
   },
   "nearest_photo": []
  },
  "models": {
   "looked_up": 19,
   "by_tier": {
-   "default": 16,
-   "fallback": 3
+   "default": 18,
+   "fallback": 1
   }
  },
  "sounds": {
@@ -77,9 +77,7 @@
   "textures_unmapped": [],
   "textures_flat": [],
   "models_unmapped": [
-   "props/de_piranesi/pi_apc.mdl",
-   "props_wasteland/coolingtank02.mdl",
-   "props_wasteland/horizontalcoolingtank04.mdl"
+   "props/de_piranesi/pi_apc.mdl"
   ],
   "sounds_unmapped": [],
   "classes_unmapped": [],
@@ -119,7 +117,7 @@
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 3,
+  "models_unmapped": 1,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 29,

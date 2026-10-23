@@ -8,6 +8,9 @@ grep -v '^#' "$HERE/convert/ship.tsv" | while IFS=$'\t' read -r id key; do
     [ -n "$SHIP_IDS" ] && [[ " $SHIP_IDS " != *" $id "* ]] && continue
     grep -q "^$key " "$HERE/convert/excluded.txt" && { echo "$id excluded"; continue; }
     d="$OUT/zz_world_$id"; rm -rf "$d"; mkdir -p "$d"
-    python3 -I "$BSP/bsp.py" regen "$key" --out "$d/$id" --game-rules "$HERE/convert" > "$d/regen.log" 2>&1
+    args=(--game-rules "$HERE/convert")
+    y0=$(python3 -I -c 'import json,sys; print(json.load(open(sys.argv[1])).get("y0",""))' "$HERE/bsp/$id.json" 2>/dev/null)
+    [ -n "$y0" ] && args+=(--y0 "$y0")
+    python3 -I "$BSP/bsp.py" regen "$key" --out "$d/$id" "${args[@]}" > "$d/regen.log" 2>&1
     rc=$?; mv "$d/regen.log" "${TMPDIR:-/tmp}/regen-$id.log"; echo "$id exit $rc"
 done

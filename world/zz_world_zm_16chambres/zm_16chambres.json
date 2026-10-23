@@ -25009,7 +25009,7 @@
    },
    {
     "author": "Kenney",
-    "count": 97,
+    "count": 116,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -25033,6 +25033,15 @@
     "source": "Kenney Furniture Kit",
     "stand_in": "plant",
     "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 3,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Prototype Kit",
+    "stand_in": "prototype/ladder",
+    "url": "https://kenney.nl/assets/prototype-kit"
    }
   ],
   "models": [
@@ -25054,7 +25063,7 @@
    {
     "count": 3,
     "model": "models/props/cs_militia/ladderrung.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "prototype/ladder"
    },
    {
     "count": 1,
@@ -25094,7 +25103,7 @@
    {
     "count": 16,
     "model": "models/props/de_train/floodlight.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "ceiling_light"
    },
    {
     "count": 9,
@@ -25104,12 +25113,12 @@
    {
     "count": 1,
     "model": "models/props_lab/lab_flourescentlight001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "ceiling_light"
    },
    {
     "count": 2,
     "model": "models/props_lab/lab_flourescentlight002b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "ceiling_light"
    }
   ],
   "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
@@ -25256,11 +25265,11 @@
      0.625,
      0.5
     ],
-    "file": "surfaces/concrete_clean",
+    "file": "surfaces/stone_block",
     "generic": "stone_wall",
     "how": "table",
-    "key": "concrete_clean:stone_wall",
-    "kind": "concrete_clean",
+    "key": "stone_block:stone_wall",
+    "kind": "stone_block",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
@@ -25271,7 +25280,7 @@
      "de_dust/groundsand03"
     ],
     "surfaces": 12,
-    "url": "https://ambientcg.com/view?id=Concrete034"
+    "url": "https://ambientcg.com/view?id=Bricks076A"
    },
    {
     "author": "TMC (generated)",
@@ -34318,6 +34327,17 @@
   },
   {
    "at": [
+    -20.1168,
+    3.9624,
+    -25.6032
+   ],
+   "model": "models/props_lab/lab_flourescentlight001a.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -23.7744,
     2.1336,
     -31.6992
@@ -34824,6 +34844,39 @@
   },
   {
    "at": [
+    -15.8496,
+    0.6477,
+    -23.1648
+   ],
+   "model": "models/props/cs_militia/ladderrung.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -15.8496,
+    -1.7907,
+    -23.1648
+   ],
+   "model": "models/props/cs_militia/ladderrung.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -15.8496,
+    -4.2291,
+    -23.1648
+   ],
+   "model": "models/props/cs_militia/ladderrung.mdl",
+   "scale": 1.0,
+   "stand_in": "prototype/ladder",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     20.1168,
     -0.3048,
     -31.0896
@@ -35000,6 +35053,182 @@
   },
   {
    "at": [
+    -1.143,
+    2.4384,
+    10.668
+   ],
+   "model": "models/props/de_train/floodlight.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    1.143,
+    2.4384,
+    10.668
+   ],
+   "model": "models/props/de_train/floodlight.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    1.143,
+    2.4384,
+    -1.524
+   ],
+   "model": "models/props/de_train/floodlight.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -1.143,
+    2.4384,
+    -1.524
+   ],
+   "model": "models/props/de_train/floodlight.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    1.143,
+    2.4384,
+    -50.9016
+   ],
+   "model": "models/props/de_train/floodlight.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -1.143,
+    2.4384,
+    -50.9016
+   ],
+   "model": "models/props/de_train/floodlight.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    1.143,
+    2.4384,
+    -38.7096
+   ],
+   "model": "models/props/de_train/floodlight.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -1.143,
+    2.4384,
+    -38.7096
+   ],
+   "model": "models/props/de_train/floodlight.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    18.5928,
+    2.4384,
+    -18.9738
+   ],
+   "model": "models/props/de_train/floodlight.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    30.7848,
+    2.4384,
+    -18.9738
+   ],
+   "model": "models/props/de_train/floodlight.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    30.7848,
+    2.4384,
+    -21.2598
+   ],
+   "model": "models/props/de_train/floodlight.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    18.5928,
+    2.4384,
+    -21.2598
+   ],
+   "model": "models/props/de_train/floodlight.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -18.5928,
+    2.4384,
+    -21.2598
+   ],
+   "model": "models/props/de_train/floodlight.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -18.5928,
+    2.4384,
+    -18.9738
+   ],
+   "model": "models/props/de_train/floodlight.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -30.7848,
+    2.4384,
+    -18.9738
+   ],
+   "model": "models/props/de_train/floodlight.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -30.7848,
+    2.4384,
+    -21.2598
+   ],
+   "model": "models/props/de_train/floodlight.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     -36.0045,
     2.4384,
     -31.6992
@@ -35099,6 +35328,17 @@
   },
   {
    "at": [
+    31.4516,
+    -0.3048,
+    -28.0416
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     29.2608,
     -0.1524,
     -29.4132
@@ -35154,6 +35394,17 @@
   },
   {
    "at": [
+    29.4132,
+    -0.3048,
+    -32.8612
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     -28.6512,
     2.4384,
     -24.384
@@ -35186,6 +35437,7 @@
    "yaw": 90.0
   }
  ],
+ "scripts": [],
  "settings": {},
  "skipped": {
   "face:tools/toolsskybox": 310,
@@ -36618,7 +36870,7 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 384,
    "index_offset": 108588,
@@ -36946,7 +37198,7 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 576,
    "index_offset": 280392,
@@ -37637,7 +37889,7 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 384,
    "index_offset": 625392,
@@ -38042,7 +38294,7 @@
     0.6658
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 849,
    "index_offset": 974792,
@@ -38096,7 +38348,7 @@
     0.6283
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 216,
    "index_offset": 1005300,
@@ -38123,7 +38375,7 @@
     0.5052
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 126,
    "index_offset": 1008468,
@@ -38150,7 +38402,7 @@
     0.4898
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 393,
    "index_offset": 1013036,
@@ -38453,7 +38705,7 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 96,
    "index_offset": 1048184,
@@ -38837,7 +39089,7 @@
     0.6658
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 1659,
    "index_offset": 1243468,
@@ -38864,7 +39116,7 @@
     0.6283
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 468,
    "index_offset": 1256824,
@@ -38891,7 +39143,7 @@
     0.5052
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 144,
    "index_offset": 1261384,
@@ -38918,7 +39170,7 @@
     0.4898
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 645,
    "index_offset": 1267400,

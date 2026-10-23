@@ -10,15 +10,15 @@
    "fallback": 1
   },
   "free_by_tier": {
-   "default": 18
+   "default": 20
   },
   "nearest_photo": []
  },
  "models": {
   "looked_up": 118,
   "by_tier": {
-   "default": 73,
-   "fallback": 45
+   "default": 95,
+   "fallback": 23
   }
  },
  "sounds": {
@@ -171,7 +171,6 @@
    "cs_italy/yellow"
   ],
   "models_unmapped": [
-   "props/cs_italy/it_lantern2.mdl",
    "props/cs_militia/lightfixture01.mdl",
    "props/de_dust/stoneblock01a.mdl",
    "props/de_dust/stoneblocks48.mdl",
@@ -181,41 +180,20 @@
    "props/de_prodigy/spoolwire.mdl",
    "props/de_prodigy/tirestack.mdl",
    "props/de_prodigy/tirestack3.mdl",
-   "props_c17/door01_left.mdl",
    "props_c17/furniturefireplace001a.mdl",
-   "props_c17/metalladder002.mdl",
-   "props_c17/metalladder003.mdl",
    "props_c17/trappropeller_engine.mdl",
-   "props_c17/utilitypole01b.mdl",
-   "props_c17/utilitypole02b.mdl",
-   "props_canal/boat001b.mdl",
    "props_citizen_tech/windmill_blade002a.mdl",
    "props_combine/combinetower001.mdl",
-   "props_interiors/pot01a.mdl",
-   "props_interiors/pot02a.mdl",
-   "props_interiors/refrigerator01a.mdl",
    "props_junk/wheebarrow01a.mdl",
-   "props_lab/lab_flourescentlight002b.mdl",
    "props_rooftop/antenna01a.mdl",
    "props_rooftop/gutter_drain001.mdl",
-   "props_rooftop/roof_vent001.mdl",
-   "props_rooftop/roof_vent004.mdl",
    "props_rooftop/rooftopcluser01a.mdl",
    "props_trainstation/train001.mdl",
    "props_trainstation/train002.mdl",
    "props_trainstation/train003.mdl",
    "props_wasteland/bridge_low_res.mdl",
    "props_wasteland/buoy01.mdl",
-   "props_wasteland/medbridge_post01.mdl",
-   "props_wasteland/pipecluster001c.mdl",
-   "props_wasteland/pipecluster003a_small.mdl",
-   "props_wasteland/plasterwall029c_window01a.mdl",
-   "props_wasteland/plasterwall029c_window01a_bars.mdl",
-   "props_wasteland/plasterwall029g_window01a.mdl",
-   "props_wasteland/plasterwall029g_window01a_bars.mdl",
-   "props_wasteland/prison_pipefaucet001a.mdl",
-   "props_wasteland/woodwall030b_window01a.mdl",
-   "props_wasteland/woodwall030b_window01a_bars.mdl"
+   "props_wasteland/medbridge_post01.mdl"
   ],
   "sounds_unmapped": [
    "physics/wood/wood_plank_break4.wav",
@@ -333,7 +311,7 @@
  "counts": {
   "textures_unmapped": 1,
   "textures_flat": 1,
-  "models_unmapped": 45,
+  "models_unmapped": 23,
   "sounds_unmapped": 2,
   "classes_unmapped": 0,
   "keys_unmapped": 93,

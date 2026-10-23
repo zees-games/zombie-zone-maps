@@ -10,7 +10,7 @@
    "fallback": 2
   },
   "free_by_tier": {
-   "default": 18,
+   "default": 19,
    "fallback": 2
   },
   "nearest_photo": [
@@ -21,8 +21,8 @@
  "models": {
   "looked_up": 72,
   "by_tier": {
-   "default": 59,
-   "fallback": 13
+   "default": 61,
+   "fallback": 11
   }
  },
  "sounds": {
@@ -109,9 +109,7 @@
    "props_c17/playgroundslide01.mdl",
    "props_citizen_tech/till001a_safetyarm01.mdl",
    "props_junk/food_pile01.mdl",
-   "props_lab/kennel_physics.mdl",
-   "props_lab/lab_flourescentlight002b.mdl",
-   "props_wasteland/boat_fishing01a.mdl"
+   "props_lab/kennel_physics.mdl"
   ],
   "sounds_unmapped": [],
   "classes_unmapped": [],
@@ -159,7 +157,7 @@
  "counts": {
   "textures_unmapped": 2,
   "textures_flat": 0,
-  "models_unmapped": 13,
+  "models_unmapped": 11,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 35,

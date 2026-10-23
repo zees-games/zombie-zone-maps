@@ -9,15 +9,15 @@
    "default": 50
   },
   "free_by_tier": {
-   "default": 16
+   "default": 17
   },
   "nearest_photo": []
  },
  "models": {
   "looked_up": 134,
   "by_tier": {
-   "default": 81,
-   "fallback": 53
+   "default": 108,
+   "fallback": 26
   }
  },
  "sounds": {
@@ -191,27 +191,14 @@
    "props/cs_militia/sheetrock_leaning.mdl",
    "props_c17/clock01.mdl",
    "props_c17/doll01.mdl",
-   "props_c17/door01_left.mdl",
    "props_c17/furniturebed001a.mdl",
-   "props_c17/furnitureboiler001a.mdl",
    "props_c17/furniturecupboard001a.mdl",
-   "props_c17/furniturepipecluster001a.mdl",
-   "props_c17/gasmeter003a.mdl",
-   "props_c17/gaspipes001a.mdl",
-   "props_c17/metalladder001.mdl",
    "props_c17/suitcase_passenger_physics.mdl",
    "props_c17/tools_pliers01a.mdl",
    "props_c17/tools_wrench01a.mdl",
    "props_c17/trappropeller_engine.mdl",
-   "props_canal/boat001a.mdl",
-   "props_canal/boat001b.mdl",
-   "props_canal/boat002b.mdl",
    "props_docks/dock01_polecluster01d_256.mdl",
    "props_docks/dock_broken01a_256.mdl",
-   "props_interiors/lightsconce01.mdl",
-   "props_interiors/radiator01a.mdl",
-   "props_interiors/refrigerator01a.mdl",
-   "props_interiors/refrigeratordoor01a.mdl",
    "props_junk/bicycle01a.mdl",
    "props_junk/glassbottle01a.mdl",
    "props_junk/harpoon002a.mdl",
@@ -222,24 +209,10 @@
    "props_junk/watermelon01.mdl",
    "props_junk/wheebarrow01a.mdl",
    "props_lab/binderblue.mdl",
-   "props_lab/lab_flourescentlight002b.mdl",
-   "props_lab/pipesystem01b.mdl",
-   "props_lab/pipesystem02b.mdl",
-   "props_lab/pipesystem02e.mdl",
-   "props_lab/pipesystem03a.mdl",
-   "props_lab/pipesystem03c.mdl",
-   "props_pipes/gutter_256_001a.mdl",
-   "props_pipes/gutter_384_002a.mdl",
-   "props_pipes/valvewheel002.mdl",
    "props_rooftop/antenna01a.mdl",
    "props_rooftop/gutter_drain001.mdl",
-   "props_rooftop/gutter_pipe_128.mdl",
-   "props_rooftop/roof_vent002.mdl",
-   "props_rooftop/roof_vent003.mdl",
    "props_wasteland/dockplank01b.mdl",
-   "props_wasteland/pipecluster003a_small.mdl",
-   "props_wasteland/prison_heater002a.mdl",
-   "props_wasteland/prison_pipefaucet001a.mdl"
+   "props_wasteland/prison_heater002a.mdl"
   ],
   "sounds_unmapped": [],
   "classes_unmapped": [],
@@ -349,7 +322,7 @@
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 53,
+  "models_unmapped": 26,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 99,
