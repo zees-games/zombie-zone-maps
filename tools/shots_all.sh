@@ -11,5 +11,5 @@ for d in "$SRC"/zz_world_*/; do
     done
 done
 for v in spawn overview; do
-    montage "$OUT"/*_$v.png -tile 6x -geometry 426x240+2+2 -label '%t' "$OUT/sheet_$v.png"
+    magick montage "$OUT"/*_$v.png -tile 6x -geometry 426x240+2+2 -label '%t' "$OUT/sheet_$v.png"
 done

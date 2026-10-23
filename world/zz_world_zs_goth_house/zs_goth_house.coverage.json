@@ -1,0 +1,307 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "zs_goth_house",
+ "sha256": "c356151472e31a5ece9c404ecf292426853dce9f9d0ace21348676b412bc05a1",
+ "textures": {
+  "looked_up": 61,
+  "by_tier": {
+   "default": 48,
+   "fallback": 13
+  },
+  "free_by_tier": {
+   "default": 14,
+   "fallback": 4
+  },
+  "nearest_photo": [
+   "goth_house/goth_mimi_lee",
+   "goth_house/goth_painting00",
+   "goth_house/goth_painting01",
+   "goth_house/goth_painting02",
+   "goth_house/goth_painting03",
+   "goth_house/goth_painting04",
+   "goth_house/goth_painting05",
+   "goth_house/goth_painting06",
+   "goth_house/goth_painting_frame",
+   "goth_house/goth_welcome_banner00",
+   "goth_house/goth_welcome_banner01"
+  ]
+ },
+ "models": {
+  "looked_up": 63,
+  "by_tier": {
+   "default": 48,
+   "fallback": 15
+  }
+ },
+ "sounds": {
+  "looked_up": 1,
+  "by_tier": {
+   "fallback": 1
+  }
+ },
+ "classes": {
+  "distinct": 23,
+  "entities": 361,
+  "by_tier": {
+   "default": 23
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "cspinup",
+    "fadeinsecs",
+    "fadeoutsecs",
+    "health",
+    "lfomodpitch",
+    "lfomodvol",
+    "lforate",
+    "lfotype",
+    "pitch",
+    "pitchstart",
+    "preset",
+    "spindown",
+    "spinup",
+    "volstart"
+   ],
+   "func_breakable": [
+    "disableflashlight",
+    "disablereceiveshadows",
+    "disableshadows",
+    "material",
+    "modelscale",
+    "nodamageforces",
+    "spawnobject"
+   ],
+   "func_brush": [
+    "InputFilter",
+    "disableflashlight",
+    "disablereceiveshadows",
+    "disableshadows",
+    "vrad_brush_cast_shadows"
+   ],
+   "func_button": [
+    "disablereceiveshadows"
+   ],
+   "info_player_human": [
+    "disabled"
+   ],
+   "info_player_zombie": [
+    "disabled"
+   ],
+   "info_player_zombie_boss": [
+    "disabled"
+   ],
+   "info_sigilnode": [
+    "disableteleports",
+    "forcespawn",
+    "spawnrestriction"
+   ],
+   "prop_door_rotating": [
+    "disableflashlight",
+    "disableshadows",
+    "dmg",
+    "fademaxdist",
+    "fademindist",
+    "fadescale",
+    "speed"
+   ],
+   "prop_dynamic": [
+    "HoldAnimation",
+    "SetBodyGroup",
+    "disableflashlight",
+    "disablereceiveshadows",
+    "disableshadows",
+    "fademaxdist",
+    "fademindist",
+    "fadescale",
+    "solid"
+   ],
+   "prop_physics": [
+    "disableflashlight",
+    "disablereceiveshadows",
+    "disableshadows",
+    "nodamageforces",
+    "shadowcastdist"
+   ],
+   "weapon_zs_arsenalcrate": [
+    "fademaxdist",
+    "fademindist",
+    "fadescale",
+    "gmod_allowphysgun",
+    "spawnflags"
+   ],
+   "weapon_zs_boardpack": [
+    "fademaxdist",
+    "fademindist",
+    "fadescale",
+    "gmod_allowphysgun",
+    "spawnflags"
+   ],
+   "weapon_zs_hammer": [
+    "fademaxdist",
+    "fademindist",
+    "fadescale",
+    "gmod_allowphysgun",
+    "spawnflags"
+   ],
+   "weapon_zs_hunter": [
+    "fademaxdist",
+    "fademindist",
+    "fadescale",
+    "gmod_allowphysgun",
+    "spawnflags"
+   ],
+   "weapon_zs_silencer": [
+    "fademaxdist",
+    "fademindist",
+    "fadescale",
+    "gmod_allowphysgun",
+    "spawnflags"
+   ],
+   "worldspawn": [
+    "mapversion"
+   ]
+  }
+ },
+ "links": {
+  "total": 10,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [
+   "GOTH_HOUSE/GOTH_MIMI_LEE",
+   "GOTH_HOUSE/GOTH_PAINTING00",
+   "GOTH_HOUSE/GOTH_PAINTING01",
+   "GOTH_HOUSE/GOTH_PAINTING02",
+   "GOTH_HOUSE/GOTH_PAINTING03",
+   "GOTH_HOUSE/GOTH_PAINTING04",
+   "GOTH_HOUSE/GOTH_PAINTING05",
+   "GOTH_HOUSE/GOTH_PAINTING06",
+   "GOTH_HOUSE/GOTH_PAINTING_FRAME",
+   "GOTH_HOUSE/GOTH_STREAMER_RENDER00",
+   "GOTH_HOUSE/GOTH_STREAMER_RENDER01",
+   "GOTH_HOUSE/GOTH_WELCOME_BANNER00",
+   "GOTH_HOUSE/GOTH_WELCOME_BANNER01"
+  ],
+  "textures_flat": [
+   "goth_house/goth_streamer_render00",
+   "goth_house/goth_streamer_render01"
+  ],
+  "models_unmapped": [
+   "goth_house/goth_jackolantern.mdl",
+   "props_c17/door01_left.mdl",
+   "props_c17/furniturefireplace001a.mdl",
+   "props_c17/metalpot001a.mdl",
+   "props_docks/dock01_pole01a_128.mdl",
+   "props_interiors/pot01a.mdl",
+   "props_junk/bicycle01a.mdl",
+   "props_junk/glassbottle01a.mdl",
+   "props_junk/popcan01a.mdl",
+   "props_junk/sawblade001a.mdl",
+   "props_junk/watermelon01.mdl",
+   "props_lab/partsbin01.mdl",
+   "props_lab/reciever01a.mdl",
+   "props_trainstation/clock01.mdl",
+   "props_wasteland/woodwall030b_window01a.mdl"
+  ],
+  "sounds_unmapped": [
+   "zs_goth_house/mimi_lee.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.cspinup",
+   "ambient_generic.fadeinsecs",
+   "ambient_generic.fadeoutsecs",
+   "ambient_generic.health",
+   "ambient_generic.lfomodpitch",
+   "ambient_generic.lfomodvol",
+   "ambient_generic.lforate",
+   "ambient_generic.lfotype",
+   "ambient_generic.pitch",
+   "ambient_generic.pitchstart",
+   "ambient_generic.preset",
+   "ambient_generic.spindown",
+   "ambient_generic.spinup",
+   "ambient_generic.volstart",
+   "func_breakable.disableflashlight",
+   "func_breakable.disablereceiveshadows",
+   "func_breakable.disableshadows",
+   "func_breakable.material",
+   "func_breakable.modelscale",
+   "func_breakable.nodamageforces",
+   "func_breakable.spawnobject",
+   "func_brush.InputFilter",
+   "func_brush.disableflashlight",
+   "func_brush.disablereceiveshadows",
+   "func_brush.disableshadows",
+   "func_brush.vrad_brush_cast_shadows",
+   "func_button.disablereceiveshadows",
+   "info_player_human.disabled",
+   "info_player_zombie.disabled",
+   "info_player_zombie_boss.disabled",
+   "info_sigilnode.disableteleports",
+   "info_sigilnode.forcespawn",
+   "info_sigilnode.spawnrestriction",
+   "prop_door_rotating.disableflashlight",
+   "prop_door_rotating.disableshadows",
+   "prop_door_rotating.dmg",
+   "prop_door_rotating.fademaxdist",
+   "prop_door_rotating.fademindist",
+   "prop_door_rotating.fadescale",
+   "prop_door_rotating.speed",
+   "prop_dynamic.HoldAnimation",
+   "prop_dynamic.SetBodyGroup",
+   "prop_dynamic.disableflashlight",
+   "prop_dynamic.disablereceiveshadows",
+   "prop_dynamic.disableshadows",
+   "prop_dynamic.fademaxdist",
+   "prop_dynamic.fademindist",
+   "prop_dynamic.fadescale",
+   "prop_dynamic.solid",
+   "prop_physics.disableflashlight",
+   "prop_physics.disablereceiveshadows",
+   "prop_physics.disableshadows",
+   "prop_physics.nodamageforces",
+   "prop_physics.shadowcastdist",
+   "weapon_zs_arsenalcrate.fademaxdist",
+   "weapon_zs_arsenalcrate.fademindist",
+   "weapon_zs_arsenalcrate.fadescale",
+   "weapon_zs_arsenalcrate.gmod_allowphysgun",
+   "weapon_zs_arsenalcrate.spawnflags",
+   "weapon_zs_boardpack.fademaxdist",
+   "weapon_zs_boardpack.fademindist",
+   "weapon_zs_boardpack.fadescale",
+   "weapon_zs_boardpack.gmod_allowphysgun",
+   "weapon_zs_boardpack.spawnflags",
+   "weapon_zs_hammer.fademaxdist",
+   "weapon_zs_hammer.fademindist",
+   "weapon_zs_hammer.fadescale",
+   "weapon_zs_hammer.gmod_allowphysgun",
+   "weapon_zs_hammer.spawnflags",
+   "weapon_zs_hunter.fademaxdist",
+   "weapon_zs_hunter.fademindist",
+   "weapon_zs_hunter.fadescale",
+   "weapon_zs_hunter.gmod_allowphysgun",
+   "weapon_zs_hunter.spawnflags",
+   "weapon_zs_silencer.fademaxdist",
+   "weapon_zs_silencer.fademindist",
+   "weapon_zs_silencer.fadescale",
+   "weapon_zs_silencer.gmod_allowphysgun",
+   "weapon_zs_silencer.spawnflags",
+   "worldspawn.mapversion"
+  ],
+  "links_unresolved": []
+ },
+ "counts": {
+  "textures_unmapped": 13,
+  "textures_flat": 2,
+  "models_unmapped": 15,
+  "sounds_unmapped": 1,
+  "classes_unmapped": 0,
+  "keys_unmapped": 80,
+  "links_unresolved": 0
+ }
+}

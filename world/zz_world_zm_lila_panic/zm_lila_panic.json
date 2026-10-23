@@ -1,0 +1,5744 @@
+{
+ "bin": {
+  "bytes": 269700,
+  "compression": "gzip",
+  "file": "zm_lila_panic.bin",
+  "sha256": "1b03cc812fdc08ee9294245aa80e8efc82e90cc937a944b6cc2e180b4357ccda",
+  "stored_bytes": 47339
+ },
+ "breakables": [],
+ "counts": {
+  "hulls": 316,
+  "models": 1,
+  "surfaces": 22,
+  "triangles": 4079,
+  "vertices": 5005
+ },
+ "credit": {
+  "author": "Lila (uploaded by tonyscha)",
+  "first_import": null,
+  "licence": "CC BY-NC-ND 4.0",
+  "missing": [],
+  "page": "https://gamebanana.com/mods/132209",
+  "removal": "Credited with a link; removed on the author's request."
+ },
+ "destinations": {},
+ "entities": [],
+ "entity_report": {
+  "by_treatment": {
+   "dropped": {
+    "func_bomb_target": 1,
+    "func_buyzone": 3
+   },
+   "point": {
+    "info_player_counterterrorist": 32,
+    "info_player_terrorist": 32,
+    "prop_physics_multiplayer": 4,
+    "prop_physics_override": 58,
+    "prop_static": 20
+   },
+   "world": {
+    "worldspawn": 1
+   }
+  },
+  "entities": 131,
+  "unknown": {}
+ },
+ "environment": {
+  "sky": {
+   "keys": {
+    "detailmaterial": "detail/detailsprites",
+    "detailvbsp": "detail.vbsp",
+    "maxpropscreenwidth": "-1",
+    "skyname": "sky_day01_01"
+   },
+   "name": "sky_day01_01"
+  }
+ },
+ "format": "dot-bsp-mesh",
+ "hulls": [
+  {
+   "brush": 0,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 209204,
+   "point_count": 8,
+   "point_offset": 209108
+  },
+  {
+   "brush": 1,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 209396,
+   "point_count": 8,
+   "point_offset": 209300
+  },
+  {
+   "brush": 2,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 209588,
+   "point_count": 8,
+   "point_offset": 209492
+  },
+  {
+   "brush": 3,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 209780,
+   "point_count": 8,
+   "point_offset": 209684
+  },
+  {
+   "brush": 4,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 209972,
+   "point_count": 8,
+   "point_offset": 209876
+  },
+  {
+   "brush": 5,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 210164,
+   "point_count": 8,
+   "point_offset": 210068
+  },
+  {
+   "brush": 6,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 210356,
+   "point_count": 8,
+   "point_offset": 210260
+  },
+  {
+   "brush": 7,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 210548,
+   "point_count": 8,
+   "point_offset": 210452
+  },
+  {
+   "brush": 8,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 210740,
+   "point_count": 8,
+   "point_offset": 210644
+  },
+  {
+   "brush": 9,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 210932,
+   "point_count": 8,
+   "point_offset": 210836
+  },
+  {
+   "brush": 10,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 211124,
+   "point_count": 8,
+   "point_offset": 211028
+  },
+  {
+   "brush": 11,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 211316,
+   "point_count": 8,
+   "point_offset": 211220
+  },
+  {
+   "brush": 12,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 211508,
+   "point_count": 8,
+   "point_offset": 211412
+  },
+  {
+   "brush": 13,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 211700,
+   "point_count": 8,
+   "point_offset": 211604
+  },
+  {
+   "brush": 14,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 211892,
+   "point_count": 8,
+   "point_offset": 211796
+  },
+  {
+   "brush": 15,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 212084,
+   "point_count": 8,
+   "point_offset": 211988
+  },
+  {
+   "brush": 16,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 212276,
+   "point_count": 8,
+   "point_offset": 212180
+  },
+  {
+   "brush": 17,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 212468,
+   "point_count": 8,
+   "point_offset": 212372
+  },
+  {
+   "brush": 18,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 212660,
+   "point_count": 8,
+   "point_offset": 212564
+  },
+  {
+   "brush": 19,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 212852,
+   "point_count": 8,
+   "point_offset": 212756
+  },
+  {
+   "brush": 20,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 213044,
+   "point_count": 8,
+   "point_offset": 212948
+  },
+  {
+   "brush": 21,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 213236,
+   "point_count": 8,
+   "point_offset": 213140
+  },
+  {
+   "brush": 22,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 213428,
+   "point_count": 8,
+   "point_offset": 213332
+  },
+  {
+   "brush": 23,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 213620,
+   "point_count": 8,
+   "point_offset": 213524
+  },
+  {
+   "brush": 24,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 213812,
+   "point_count": 8,
+   "point_offset": 213716
+  },
+  {
+   "brush": 25,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 214004,
+   "point_count": 8,
+   "point_offset": 213908
+  },
+  {
+   "brush": 26,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 214196,
+   "point_count": 8,
+   "point_offset": 214100
+  },
+  {
+   "brush": 27,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 214388,
+   "point_count": 8,
+   "point_offset": 214292
+  },
+  {
+   "brush": 28,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 214580,
+   "point_count": 8,
+   "point_offset": 214484
+  },
+  {
+   "brush": 29,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 214772,
+   "point_count": 8,
+   "point_offset": 214676
+  },
+  {
+   "brush": 30,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 214964,
+   "point_count": 8,
+   "point_offset": 214868
+  },
+  {
+   "brush": 31,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 215156,
+   "point_count": 8,
+   "point_offset": 215060
+  },
+  {
+   "brush": 32,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 215348,
+   "point_count": 8,
+   "point_offset": 215252
+  },
+  {
+   "brush": 33,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 215540,
+   "point_count": 8,
+   "point_offset": 215444
+  },
+  {
+   "brush": 34,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 215732,
+   "point_count": 8,
+   "point_offset": 215636
+  },
+  {
+   "brush": 35,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 215924,
+   "point_count": 8,
+   "point_offset": 215828
+  },
+  {
+   "brush": 36,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 216116,
+   "point_count": 8,
+   "point_offset": 216020
+  },
+  {
+   "brush": 37,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 216308,
+   "point_count": 8,
+   "point_offset": 216212
+  },
+  {
+   "brush": 38,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 216500,
+   "point_count": 8,
+   "point_offset": 216404
+  },
+  {
+   "brush": 39,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 216692,
+   "point_count": 8,
+   "point_offset": 216596
+  },
+  {
+   "brush": 40,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 216884,
+   "point_count": 8,
+   "point_offset": 216788
+  },
+  {
+   "brush": 41,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 217076,
+   "point_count": 8,
+   "point_offset": 216980
+  },
+  {
+   "brush": 42,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 217268,
+   "point_count": 8,
+   "point_offset": 217172
+  },
+  {
+   "brush": 43,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 217460,
+   "point_count": 8,
+   "point_offset": 217364
+  },
+  {
+   "brush": 44,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 217652,
+   "point_count": 8,
+   "point_offset": 217556
+  },
+  {
+   "brush": 45,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 217844,
+   "point_count": 8,
+   "point_offset": 217748
+  },
+  {
+   "brush": 46,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 218036,
+   "point_count": 8,
+   "point_offset": 217940
+  },
+  {
+   "brush": 47,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 218228,
+   "point_count": 8,
+   "point_offset": 218132
+  },
+  {
+   "brush": 48,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 218420,
+   "point_count": 8,
+   "point_offset": 218324
+  },
+  {
+   "brush": 49,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 218612,
+   "point_count": 8,
+   "point_offset": 218516
+  },
+  {
+   "brush": 50,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 218804,
+   "point_count": 8,
+   "point_offset": 218708
+  },
+  {
+   "brush": 51,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 218996,
+   "point_count": 8,
+   "point_offset": 218900
+  },
+  {
+   "brush": 52,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 219188,
+   "point_count": 8,
+   "point_offset": 219092
+  },
+  {
+   "brush": 53,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 219380,
+   "point_count": 8,
+   "point_offset": 219284
+  },
+  {
+   "brush": 54,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 219572,
+   "point_count": 8,
+   "point_offset": 219476
+  },
+  {
+   "brush": 55,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 219764,
+   "point_count": 8,
+   "point_offset": 219668
+  },
+  {
+   "brush": 56,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 219956,
+   "point_count": 8,
+   "point_offset": 219860
+  },
+  {
+   "brush": 57,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 220148,
+   "point_count": 8,
+   "point_offset": 220052
+  },
+  {
+   "brush": 58,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 220340,
+   "point_count": 8,
+   "point_offset": 220244
+  },
+  {
+   "brush": 59,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 220532,
+   "point_count": 8,
+   "point_offset": 220436
+  },
+  {
+   "brush": 60,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 220724,
+   "point_count": 8,
+   "point_offset": 220628
+  },
+  {
+   "brush": 61,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 220916,
+   "point_count": 8,
+   "point_offset": 220820
+  },
+  {
+   "brush": 62,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 221108,
+   "point_count": 8,
+   "point_offset": 221012
+  },
+  {
+   "brush": 63,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 5,
+   "plane_offset": 221276,
+   "point_count": 6,
+   "point_offset": 221204
+  },
+  {
+   "brush": 64,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 221452,
+   "point_count": 8,
+   "point_offset": 221356
+  },
+  {
+   "brush": 65,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 221644,
+   "point_count": 8,
+   "point_offset": 221548
+  },
+  {
+   "brush": 66,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 221836,
+   "point_count": 8,
+   "point_offset": 221740
+  },
+  {
+   "brush": 67,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 222028,
+   "point_count": 8,
+   "point_offset": 221932
+  },
+  {
+   "brush": 68,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 222220,
+   "point_count": 8,
+   "point_offset": 222124
+  },
+  {
+   "brush": 69,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 222412,
+   "point_count": 8,
+   "point_offset": 222316
+  },
+  {
+   "brush": 70,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 222604,
+   "point_count": 8,
+   "point_offset": 222508
+  },
+  {
+   "brush": 71,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 222796,
+   "point_count": 8,
+   "point_offset": 222700
+  },
+  {
+   "brush": 72,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 222988,
+   "point_count": 8,
+   "point_offset": 222892
+  },
+  {
+   "brush": 73,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 223180,
+   "point_count": 8,
+   "point_offset": 223084
+  },
+  {
+   "brush": 74,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 223372,
+   "point_count": 8,
+   "point_offset": 223276
+  },
+  {
+   "brush": 75,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 223564,
+   "point_count": 8,
+   "point_offset": 223468
+  },
+  {
+   "brush": 76,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 223756,
+   "point_count": 8,
+   "point_offset": 223660
+  },
+  {
+   "brush": 77,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 223948,
+   "point_count": 8,
+   "point_offset": 223852
+  },
+  {
+   "brush": 78,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 224140,
+   "point_count": 8,
+   "point_offset": 224044
+  },
+  {
+   "brush": 79,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 224332,
+   "point_count": 8,
+   "point_offset": 224236
+  },
+  {
+   "brush": 80,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 224524,
+   "point_count": 8,
+   "point_offset": 224428
+  },
+  {
+   "brush": 81,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 224716,
+   "point_count": 8,
+   "point_offset": 224620
+  },
+  {
+   "brush": 82,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 224908,
+   "point_count": 8,
+   "point_offset": 224812
+  },
+  {
+   "brush": 83,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 225100,
+   "point_count": 8,
+   "point_offset": 225004
+  },
+  {
+   "brush": 84,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 225292,
+   "point_count": 8,
+   "point_offset": 225196
+  },
+  {
+   "brush": 85,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 225484,
+   "point_count": 8,
+   "point_offset": 225388
+  },
+  {
+   "brush": 86,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 225676,
+   "point_count": 8,
+   "point_offset": 225580
+  },
+  {
+   "brush": 87,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 225868,
+   "point_count": 8,
+   "point_offset": 225772
+  },
+  {
+   "brush": 88,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 226060,
+   "point_count": 8,
+   "point_offset": 225964
+  },
+  {
+   "brush": 89,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 226252,
+   "point_count": 8,
+   "point_offset": 226156
+  },
+  {
+   "brush": 90,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 226444,
+   "point_count": 8,
+   "point_offset": 226348
+  },
+  {
+   "brush": 91,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 226636,
+   "point_count": 8,
+   "point_offset": 226540
+  },
+  {
+   "brush": 92,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 226828,
+   "point_count": 8,
+   "point_offset": 226732
+  },
+  {
+   "brush": 93,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 227020,
+   "point_count": 8,
+   "point_offset": 226924
+  },
+  {
+   "brush": 94,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 227212,
+   "point_count": 8,
+   "point_offset": 227116
+  },
+  {
+   "brush": 95,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 227404,
+   "point_count": 8,
+   "point_offset": 227308
+  },
+  {
+   "brush": 96,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 227596,
+   "point_count": 8,
+   "point_offset": 227500
+  },
+  {
+   "brush": 97,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 227788,
+   "point_count": 8,
+   "point_offset": 227692
+  },
+  {
+   "brush": 98,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 227980,
+   "point_count": 8,
+   "point_offset": 227884
+  },
+  {
+   "brush": 99,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 228172,
+   "point_count": 8,
+   "point_offset": 228076
+  },
+  {
+   "brush": 100,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 228364,
+   "point_count": 8,
+   "point_offset": 228268
+  },
+  {
+   "brush": 101,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 228556,
+   "point_count": 8,
+   "point_offset": 228460
+  },
+  {
+   "brush": 102,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 228748,
+   "point_count": 8,
+   "point_offset": 228652
+  },
+  {
+   "brush": 103,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 228940,
+   "point_count": 8,
+   "point_offset": 228844
+  },
+  {
+   "brush": 104,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 229132,
+   "point_count": 8,
+   "point_offset": 229036
+  },
+  {
+   "brush": 105,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 229324,
+   "point_count": 8,
+   "point_offset": 229228
+  },
+  {
+   "brush": 106,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 229516,
+   "point_count": 8,
+   "point_offset": 229420
+  },
+  {
+   "brush": 107,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 229708,
+   "point_count": 8,
+   "point_offset": 229612
+  },
+  {
+   "brush": 108,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 229900,
+   "point_count": 8,
+   "point_offset": 229804
+  },
+  {
+   "brush": 109,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 230092,
+   "point_count": 8,
+   "point_offset": 229996
+  },
+  {
+   "brush": 110,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 230284,
+   "point_count": 8,
+   "point_offset": 230188
+  },
+  {
+   "brush": 111,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 230476,
+   "point_count": 8,
+   "point_offset": 230380
+  },
+  {
+   "brush": 112,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 230668,
+   "point_count": 8,
+   "point_offset": 230572
+  },
+  {
+   "brush": 113,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 230860,
+   "point_count": 8,
+   "point_offset": 230764
+  },
+  {
+   "brush": 114,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 231052,
+   "point_count": 8,
+   "point_offset": 230956
+  },
+  {
+   "brush": 115,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 231244,
+   "point_count": 8,
+   "point_offset": 231148
+  },
+  {
+   "brush": 116,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 5,
+   "plane_offset": 231412,
+   "point_count": 6,
+   "point_offset": 231340
+  },
+  {
+   "brush": 118,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 231588,
+   "point_count": 8,
+   "point_offset": 231492
+  },
+  {
+   "brush": 119,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 231780,
+   "point_count": 8,
+   "point_offset": 231684
+  },
+  {
+   "brush": 120,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 231972,
+   "point_count": 8,
+   "point_offset": 231876
+  },
+  {
+   "brush": 121,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 232164,
+   "point_count": 8,
+   "point_offset": 232068
+  },
+  {
+   "brush": 122,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 232356,
+   "point_count": 8,
+   "point_offset": 232260
+  },
+  {
+   "brush": 123,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 232548,
+   "point_count": 8,
+   "point_offset": 232452
+  },
+  {
+   "brush": 124,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 232740,
+   "point_count": 8,
+   "point_offset": 232644
+  },
+  {
+   "brush": 125,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 232932,
+   "point_count": 8,
+   "point_offset": 232836
+  },
+  {
+   "brush": 126,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 233124,
+   "point_count": 8,
+   "point_offset": 233028
+  },
+  {
+   "brush": 127,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 233316,
+   "point_count": 8,
+   "point_offset": 233220
+  },
+  {
+   "brush": 128,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 233508,
+   "point_count": 8,
+   "point_offset": 233412
+  },
+  {
+   "brush": 129,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 233700,
+   "point_count": 8,
+   "point_offset": 233604
+  },
+  {
+   "brush": 130,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 233892,
+   "point_count": 8,
+   "point_offset": 233796
+  },
+  {
+   "brush": 131,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 234084,
+   "point_count": 8,
+   "point_offset": 233988
+  },
+  {
+   "brush": 132,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 234276,
+   "point_count": 8,
+   "point_offset": 234180
+  },
+  {
+   "brush": 133,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 234468,
+   "point_count": 8,
+   "point_offset": 234372
+  },
+  {
+   "brush": 134,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 234660,
+   "point_count": 8,
+   "point_offset": 234564
+  },
+  {
+   "brush": 135,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 234852,
+   "point_count": 8,
+   "point_offset": 234756
+  },
+  {
+   "brush": 136,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 235044,
+   "point_count": 8,
+   "point_offset": 234948
+  },
+  {
+   "brush": 137,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 235236,
+   "point_count": 8,
+   "point_offset": 235140
+  },
+  {
+   "brush": 138,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 235428,
+   "point_count": 8,
+   "point_offset": 235332
+  },
+  {
+   "brush": 139,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 235620,
+   "point_count": 8,
+   "point_offset": 235524
+  },
+  {
+   "brush": 140,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 235812,
+   "point_count": 8,
+   "point_offset": 235716
+  },
+  {
+   "brush": 141,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 236004,
+   "point_count": 8,
+   "point_offset": 235908
+  },
+  {
+   "brush": 142,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 236196,
+   "point_count": 8,
+   "point_offset": 236100
+  },
+  {
+   "brush": 143,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 236388,
+   "point_count": 8,
+   "point_offset": 236292
+  },
+  {
+   "brush": 144,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 236580,
+   "point_count": 8,
+   "point_offset": 236484
+  },
+  {
+   "brush": 145,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 236772,
+   "point_count": 8,
+   "point_offset": 236676
+  },
+  {
+   "brush": 146,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 236964,
+   "point_count": 8,
+   "point_offset": 236868
+  },
+  {
+   "brush": 147,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 237156,
+   "point_count": 8,
+   "point_offset": 237060
+  },
+  {
+   "brush": 148,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 237348,
+   "point_count": 8,
+   "point_offset": 237252
+  },
+  {
+   "brush": 149,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 237540,
+   "point_count": 8,
+   "point_offset": 237444
+  },
+  {
+   "brush": 150,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 237732,
+   "point_count": 8,
+   "point_offset": 237636
+  },
+  {
+   "brush": 151,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 237924,
+   "point_count": 8,
+   "point_offset": 237828
+  },
+  {
+   "brush": 152,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 238116,
+   "point_count": 8,
+   "point_offset": 238020
+  },
+  {
+   "brush": 153,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 238308,
+   "point_count": 8,
+   "point_offset": 238212
+  },
+  {
+   "brush": 154,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 238500,
+   "point_count": 8,
+   "point_offset": 238404
+  },
+  {
+   "brush": 155,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 238692,
+   "point_count": 8,
+   "point_offset": 238596
+  },
+  {
+   "brush": 156,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 238884,
+   "point_count": 8,
+   "point_offset": 238788
+  },
+  {
+   "brush": 157,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 239076,
+   "point_count": 8,
+   "point_offset": 238980
+  },
+  {
+   "brush": 158,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 239268,
+   "point_count": 8,
+   "point_offset": 239172
+  },
+  {
+   "brush": 159,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 239460,
+   "point_count": 8,
+   "point_offset": 239364
+  },
+  {
+   "brush": 160,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 239652,
+   "point_count": 8,
+   "point_offset": 239556
+  },
+  {
+   "brush": 161,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 239844,
+   "point_count": 8,
+   "point_offset": 239748
+  },
+  {
+   "brush": 162,
+   "entity": null,
+   "kind": "sky",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 240036,
+   "point_count": 8,
+   "point_offset": 239940
+  },
+  {
+   "brush": 163,
+   "entity": null,
+   "kind": "sky",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 240228,
+   "point_count": 8,
+   "point_offset": 240132
+  },
+  {
+   "brush": 164,
+   "entity": null,
+   "kind": "sky",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 240420,
+   "point_count": 8,
+   "point_offset": 240324
+  },
+  {
+   "brush": 165,
+   "entity": null,
+   "kind": "sky",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 240612,
+   "point_count": 8,
+   "point_offset": 240516
+  },
+  {
+   "brush": 166,
+   "entity": null,
+   "kind": "sky",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 240804,
+   "point_count": 8,
+   "point_offset": 240708
+  },
+  {
+   "brush": 167,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 240996,
+   "point_count": 8,
+   "point_offset": 240900
+  },
+  {
+   "brush": 168,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 241188,
+   "point_count": 8,
+   "point_offset": 241092
+  },
+  {
+   "brush": 169,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 241380,
+   "point_count": 8,
+   "point_offset": 241284
+  },
+  {
+   "brush": 170,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 241572,
+   "point_count": 8,
+   "point_offset": 241476
+  },
+  {
+   "brush": 171,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 241764,
+   "point_count": 8,
+   "point_offset": 241668
+  },
+  {
+   "brush": 172,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 241956,
+   "point_count": 8,
+   "point_offset": 241860
+  },
+  {
+   "brush": 173,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 242148,
+   "point_count": 8,
+   "point_offset": 242052
+  },
+  {
+   "brush": 174,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 242340,
+   "point_count": 8,
+   "point_offset": 242244
+  },
+  {
+   "brush": 175,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 242532,
+   "point_count": 8,
+   "point_offset": 242436
+  },
+  {
+   "brush": 176,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 242724,
+   "point_count": 8,
+   "point_offset": 242628
+  },
+  {
+   "brush": 177,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 242916,
+   "point_count": 8,
+   "point_offset": 242820
+  },
+  {
+   "brush": 178,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 243108,
+   "point_count": 8,
+   "point_offset": 243012
+  },
+  {
+   "brush": 179,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 243300,
+   "point_count": 8,
+   "point_offset": 243204
+  },
+  {
+   "brush": 180,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 243492,
+   "point_count": 8,
+   "point_offset": 243396
+  },
+  {
+   "brush": 181,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 243684,
+   "point_count": 8,
+   "point_offset": 243588
+  },
+  {
+   "brush": 182,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 243876,
+   "point_count": 8,
+   "point_offset": 243780
+  },
+  {
+   "brush": 183,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 244068,
+   "point_count": 8,
+   "point_offset": 243972
+  },
+  {
+   "brush": 184,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 244260,
+   "point_count": 8,
+   "point_offset": 244164
+  },
+  {
+   "brush": 185,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 244452,
+   "point_count": 8,
+   "point_offset": 244356
+  },
+  {
+   "brush": 186,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 244644,
+   "point_count": 8,
+   "point_offset": 244548
+  },
+  {
+   "brush": 187,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 244836,
+   "point_count": 8,
+   "point_offset": 244740
+  },
+  {
+   "brush": 188,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 245028,
+   "point_count": 8,
+   "point_offset": 244932
+  },
+  {
+   "brush": 189,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 245220,
+   "point_count": 8,
+   "point_offset": 245124
+  },
+  {
+   "brush": 190,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 245412,
+   "point_count": 8,
+   "point_offset": 245316
+  },
+  {
+   "brush": 191,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 245604,
+   "point_count": 8,
+   "point_offset": 245508
+  },
+  {
+   "brush": 192,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 245796,
+   "point_count": 8,
+   "point_offset": 245700
+  },
+  {
+   "brush": 193,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 245988,
+   "point_count": 8,
+   "point_offset": 245892
+  },
+  {
+   "brush": 194,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 246180,
+   "point_count": 8,
+   "point_offset": 246084
+  },
+  {
+   "brush": 195,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 246372,
+   "point_count": 8,
+   "point_offset": 246276
+  },
+  {
+   "brush": 196,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 246564,
+   "point_count": 8,
+   "point_offset": 246468
+  },
+  {
+   "brush": 197,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 246756,
+   "point_count": 8,
+   "point_offset": 246660
+  },
+  {
+   "brush": 198,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 246948,
+   "point_count": 8,
+   "point_offset": 246852
+  },
+  {
+   "brush": 199,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 247140,
+   "point_count": 8,
+   "point_offset": 247044
+  },
+  {
+   "brush": 200,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 247332,
+   "point_count": 8,
+   "point_offset": 247236
+  },
+  {
+   "brush": 201,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 247524,
+   "point_count": 8,
+   "point_offset": 247428
+  },
+  {
+   "brush": 202,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 247716,
+   "point_count": 8,
+   "point_offset": 247620
+  },
+  {
+   "brush": 203,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 247908,
+   "point_count": 8,
+   "point_offset": 247812
+  },
+  {
+   "brush": 204,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 248100,
+   "point_count": 8,
+   "point_offset": 248004
+  },
+  {
+   "brush": 205,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 248292,
+   "point_count": 8,
+   "point_offset": 248196
+  },
+  {
+   "brush": 206,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 248484,
+   "point_count": 8,
+   "point_offset": 248388
+  },
+  {
+   "brush": 207,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 248676,
+   "point_count": 8,
+   "point_offset": 248580
+  },
+  {
+   "brush": 208,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 248868,
+   "point_count": 8,
+   "point_offset": 248772
+  },
+  {
+   "brush": 209,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 249060,
+   "point_count": 8,
+   "point_offset": 248964
+  },
+  {
+   "brush": 210,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 249252,
+   "point_count": 8,
+   "point_offset": 249156
+  },
+  {
+   "brush": 211,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 249444,
+   "point_count": 8,
+   "point_offset": 249348
+  },
+  {
+   "brush": 212,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 249636,
+   "point_count": 8,
+   "point_offset": 249540
+  },
+  {
+   "brush": 213,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 249828,
+   "point_count": 8,
+   "point_offset": 249732
+  },
+  {
+   "brush": 214,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 250020,
+   "point_count": 8,
+   "point_offset": 249924
+  },
+  {
+   "brush": 215,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 250212,
+   "point_count": 8,
+   "point_offset": 250116
+  },
+  {
+   "brush": 216,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 250404,
+   "point_count": 8,
+   "point_offset": 250308
+  },
+  {
+   "brush": 217,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 250596,
+   "point_count": 8,
+   "point_offset": 250500
+  },
+  {
+   "brush": 218,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 250788,
+   "point_count": 8,
+   "point_offset": 250692
+  },
+  {
+   "brush": 219,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 250980,
+   "point_count": 8,
+   "point_offset": 250884
+  },
+  {
+   "brush": 220,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 251172,
+   "point_count": 8,
+   "point_offset": 251076
+  },
+  {
+   "brush": 221,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 251364,
+   "point_count": 8,
+   "point_offset": 251268
+  },
+  {
+   "brush": 222,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 251556,
+   "point_count": 8,
+   "point_offset": 251460
+  },
+  {
+   "brush": 223,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 251748,
+   "point_count": 8,
+   "point_offset": 251652
+  },
+  {
+   "brush": 224,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 251940,
+   "point_count": 8,
+   "point_offset": 251844
+  },
+  {
+   "brush": 225,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 252132,
+   "point_count": 8,
+   "point_offset": 252036
+  },
+  {
+   "brush": 226,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 252324,
+   "point_count": 8,
+   "point_offset": 252228
+  },
+  {
+   "brush": 227,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 252516,
+   "point_count": 8,
+   "point_offset": 252420
+  },
+  {
+   "brush": 228,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 252708,
+   "point_count": 8,
+   "point_offset": 252612
+  },
+  {
+   "brush": 229,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 252900,
+   "point_count": 8,
+   "point_offset": 252804
+  },
+  {
+   "brush": 230,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 253092,
+   "point_count": 8,
+   "point_offset": 252996
+  },
+  {
+   "brush": 231,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 253284,
+   "point_count": 8,
+   "point_offset": 253188
+  },
+  {
+   "brush": 232,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 253476,
+   "point_count": 8,
+   "point_offset": 253380
+  },
+  {
+   "brush": 233,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 253668,
+   "point_count": 8,
+   "point_offset": 253572
+  },
+  {
+   "brush": 234,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 253860,
+   "point_count": 8,
+   "point_offset": 253764
+  },
+  {
+   "brush": 235,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 254052,
+   "point_count": 8,
+   "point_offset": 253956
+  },
+  {
+   "brush": 236,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 254244,
+   "point_count": 8,
+   "point_offset": 254148
+  },
+  {
+   "brush": 237,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 254436,
+   "point_count": 8,
+   "point_offset": 254340
+  },
+  {
+   "brush": 238,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 254628,
+   "point_count": 8,
+   "point_offset": 254532
+  },
+  {
+   "brush": 239,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 254820,
+   "point_count": 8,
+   "point_offset": 254724
+  },
+  {
+   "brush": 240,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 255012,
+   "point_count": 8,
+   "point_offset": 254916
+  },
+  {
+   "brush": 241,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 255204,
+   "point_count": 8,
+   "point_offset": 255108
+  },
+  {
+   "brush": 242,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 255396,
+   "point_count": 8,
+   "point_offset": 255300
+  },
+  {
+   "brush": 243,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 255588,
+   "point_count": 8,
+   "point_offset": 255492
+  },
+  {
+   "brush": 244,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 255780,
+   "point_count": 8,
+   "point_offset": 255684
+  },
+  {
+   "brush": 245,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 255972,
+   "point_count": 8,
+   "point_offset": 255876
+  },
+  {
+   "brush": 246,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 256164,
+   "point_count": 8,
+   "point_offset": 256068
+  },
+  {
+   "brush": 247,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 256356,
+   "point_count": 8,
+   "point_offset": 256260
+  },
+  {
+   "brush": 248,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 256548,
+   "point_count": 8,
+   "point_offset": 256452
+  },
+  {
+   "brush": 249,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 256740,
+   "point_count": 8,
+   "point_offset": 256644
+  },
+  {
+   "brush": 250,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 256932,
+   "point_count": 8,
+   "point_offset": 256836
+  },
+  {
+   "brush": 251,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 257124,
+   "point_count": 8,
+   "point_offset": 257028
+  },
+  {
+   "brush": 252,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 257316,
+   "point_count": 8,
+   "point_offset": 257220
+  },
+  {
+   "brush": 253,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 257508,
+   "point_count": 8,
+   "point_offset": 257412
+  },
+  {
+   "brush": 254,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 257700,
+   "point_count": 8,
+   "point_offset": 257604
+  },
+  {
+   "brush": 255,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 257892,
+   "point_count": 8,
+   "point_offset": 257796
+  },
+  {
+   "brush": 256,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 258084,
+   "point_count": 8,
+   "point_offset": 257988
+  },
+  {
+   "brush": 257,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 258276,
+   "point_count": 8,
+   "point_offset": 258180
+  },
+  {
+   "brush": 258,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 258468,
+   "point_count": 8,
+   "point_offset": 258372
+  },
+  {
+   "brush": 259,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 258660,
+   "point_count": 8,
+   "point_offset": 258564
+  },
+  {
+   "brush": 260,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 258852,
+   "point_count": 8,
+   "point_offset": 258756
+  },
+  {
+   "brush": 261,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 259044,
+   "point_count": 8,
+   "point_offset": 258948
+  },
+  {
+   "brush": 262,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 259236,
+   "point_count": 8,
+   "point_offset": 259140
+  },
+  {
+   "brush": 263,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 259428,
+   "point_count": 8,
+   "point_offset": 259332
+  },
+  {
+   "brush": 264,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 259620,
+   "point_count": 8,
+   "point_offset": 259524
+  },
+  {
+   "brush": 265,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 259812,
+   "point_count": 8,
+   "point_offset": 259716
+  },
+  {
+   "brush": 266,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 260004,
+   "point_count": 8,
+   "point_offset": 259908
+  },
+  {
+   "brush": 267,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 260196,
+   "point_count": 8,
+   "point_offset": 260100
+  },
+  {
+   "brush": 268,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 260388,
+   "point_count": 8,
+   "point_offset": 260292
+  },
+  {
+   "brush": 269,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 260580,
+   "point_count": 8,
+   "point_offset": 260484
+  },
+  {
+   "brush": 270,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 260772,
+   "point_count": 8,
+   "point_offset": 260676
+  },
+  {
+   "brush": 271,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 260964,
+   "point_count": 8,
+   "point_offset": 260868
+  },
+  {
+   "brush": 272,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 261156,
+   "point_count": 8,
+   "point_offset": 261060
+  },
+  {
+   "brush": 273,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 261348,
+   "point_count": 8,
+   "point_offset": 261252
+  },
+  {
+   "brush": 274,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 261540,
+   "point_count": 8,
+   "point_offset": 261444
+  },
+  {
+   "brush": 275,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 261732,
+   "point_count": 8,
+   "point_offset": 261636
+  },
+  {
+   "brush": 276,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 261924,
+   "point_count": 8,
+   "point_offset": 261828
+  },
+  {
+   "brush": 277,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 262116,
+   "point_count": 8,
+   "point_offset": 262020
+  },
+  {
+   "brush": 278,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 262308,
+   "point_count": 8,
+   "point_offset": 262212
+  },
+  {
+   "brush": 279,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 262500,
+   "point_count": 8,
+   "point_offset": 262404
+  },
+  {
+   "brush": 280,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 262692,
+   "point_count": 8,
+   "point_offset": 262596
+  },
+  {
+   "brush": 281,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 262884,
+   "point_count": 8,
+   "point_offset": 262788
+  },
+  {
+   "brush": 282,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 263076,
+   "point_count": 8,
+   "point_offset": 262980
+  },
+  {
+   "brush": 283,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 263268,
+   "point_count": 8,
+   "point_offset": 263172
+  },
+  {
+   "brush": 284,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 263460,
+   "point_count": 8,
+   "point_offset": 263364
+  },
+  {
+   "brush": 285,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 263652,
+   "point_count": 8,
+   "point_offset": 263556
+  },
+  {
+   "brush": 286,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 263844,
+   "point_count": 8,
+   "point_offset": 263748
+  },
+  {
+   "brush": 287,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 264036,
+   "point_count": 8,
+   "point_offset": 263940
+  },
+  {
+   "brush": 288,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 264228,
+   "point_count": 8,
+   "point_offset": 264132
+  },
+  {
+   "brush": 289,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 264420,
+   "point_count": 8,
+   "point_offset": 264324
+  },
+  {
+   "brush": 290,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 264612,
+   "point_count": 8,
+   "point_offset": 264516
+  },
+  {
+   "brush": 291,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 264804,
+   "point_count": 8,
+   "point_offset": 264708
+  },
+  {
+   "brush": 292,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 264996,
+   "point_count": 8,
+   "point_offset": 264900
+  },
+  {
+   "brush": 293,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 265188,
+   "point_count": 8,
+   "point_offset": 265092
+  },
+  {
+   "brush": 294,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 265380,
+   "point_count": 8,
+   "point_offset": 265284
+  },
+  {
+   "brush": 295,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 265572,
+   "point_count": 8,
+   "point_offset": 265476
+  },
+  {
+   "brush": 296,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 265764,
+   "point_count": 8,
+   "point_offset": 265668
+  },
+  {
+   "brush": 297,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 265956,
+   "point_count": 8,
+   "point_offset": 265860
+  },
+  {
+   "brush": 298,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 266148,
+   "point_count": 8,
+   "point_offset": 266052
+  },
+  {
+   "brush": 299,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 266340,
+   "point_count": 8,
+   "point_offset": 266244
+  },
+  {
+   "brush": 300,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 266532,
+   "point_count": 8,
+   "point_offset": 266436
+  },
+  {
+   "brush": 301,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 266724,
+   "point_count": 8,
+   "point_offset": 266628
+  },
+  {
+   "brush": 302,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 266916,
+   "point_count": 8,
+   "point_offset": 266820
+  },
+  {
+   "brush": 303,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 267108,
+   "point_count": 8,
+   "point_offset": 267012
+  },
+  {
+   "brush": 304,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 267300,
+   "point_count": 8,
+   "point_offset": 267204
+  },
+  {
+   "brush": 305,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 267492,
+   "point_count": 8,
+   "point_offset": 267396
+  },
+  {
+   "brush": 306,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 267684,
+   "point_count": 8,
+   "point_offset": 267588
+  },
+  {
+   "brush": 307,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 267876,
+   "point_count": 8,
+   "point_offset": 267780
+  },
+  {
+   "brush": 308,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 268068,
+   "point_count": 8,
+   "point_offset": 267972
+  },
+  {
+   "brush": 309,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 268260,
+   "point_count": 8,
+   "point_offset": 268164
+  },
+  {
+   "brush": 310,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 268452,
+   "point_count": 8,
+   "point_offset": 268356
+  },
+  {
+   "brush": 311,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 268644,
+   "point_count": 8,
+   "point_offset": 268548
+  },
+  {
+   "brush": 312,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 268836,
+   "point_count": 8,
+   "point_offset": 268740
+  },
+  {
+   "brush": 313,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 269028,
+   "point_count": 8,
+   "point_offset": 268932
+  },
+  {
+   "brush": 314,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 269220,
+   "point_count": 8,
+   "point_offset": 269124
+  },
+  {
+   "brush": 315,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 269412,
+   "point_count": 8,
+   "point_offset": 269316
+  },
+  {
+   "brush": 316,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 269604,
+   "point_count": 8,
+   "point_offset": 269508
+  }
+ ],
+ "licence": {
+  "model_stand_ins": [
+   {
+    "author": "Kenney",
+    "count": 4,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "armchair",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 4,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Survival Kit",
+    "stand_in": "barrel",
+    "url": "https://kenney.nl/assets/survival-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 5,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "bookcase",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "cabinet",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Survival Kit",
+    "stand_in": "crate",
+    "url": "https://kenney.nl/assets/survival-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Survival Kit",
+    "stand_in": "crate_large",
+    "url": "https://kenney.nl/assets/survival-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 3,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Nature Kit",
+    "stand_in": "fence",
+    "url": "https://kenney.nl/assets/nature-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 17,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "fridge",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 31,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "sofa",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "table",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 2,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Car Kit",
+    "stand_in": "vehicles/sedan",
+    "url": "https://kenney.nl/assets/car-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 4,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Car Kit",
+    "stand_in": "vehicles/truck",
+    "url": "https://kenney.nl/assets/car-kit"
+   }
+  ],
+  "models": [
+   {
+    "count": 2,
+    "model": "models/props/cs_havana/bookcase_large.mdl",
+    "stand_in": "bookcase"
+   },
+   {
+    "count": 3,
+    "model": "models/props/cs_office/bookshelf1.mdl",
+    "stand_in": "bookcase"
+   },
+   {
+    "count": 1,
+    "model": "models/props/cs_office/crates_indoor.mdl",
+    "stand_in": "crate"
+   },
+   {
+    "count": 31,
+    "model": "models/props/cs_office/sofa.mdl",
+    "stand_in": "sofa"
+   },
+   {
+    "count": 4,
+    "model": "models/props/cs_office/sofa_chair.mdl",
+    "stand_in": "armchair"
+   },
+   {
+    "count": 1,
+    "model": "models/props/cs_office/table_meeting.mdl",
+    "stand_in": "table"
+   },
+   {
+    "count": 17,
+    "model": "models/props/cs_office/vending_machine.mdl",
+    "stand_in": "fridge"
+   },
+   {
+    "count": 2,
+    "model": "models/props/de_nuke/truck_nuke.mdl",
+    "stand_in": "vehicles/truck"
+   },
+   {
+    "count": 3,
+    "model": "models/props/de_piranesi/pi_apc.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 1,
+    "model": "models/props/de_prodigy/transformer.mdl",
+    "stand_in": "cabinet"
+   },
+   {
+    "count": 1,
+    "model": "models/props/de_tides/truck.mdl",
+    "stand_in": "vehicles/truck"
+   },
+   {
+    "count": 2,
+    "model": "models/props_c17/fence01a.mdl",
+    "stand_in": "fence"
+   },
+   {
+    "count": 1,
+    "model": "models/props_c17/fence04a.mdl",
+    "stand_in": "fence"
+   },
+   {
+    "count": 4,
+    "model": "models/props_c17/oildrum001.mdl",
+    "stand_in": "barrel"
+   },
+   {
+    "count": 2,
+    "model": "models/props_vehicles/car004a.mdl",
+    "stand_in": "vehicles/sedan"
+   },
+   {
+    "count": 1,
+    "model": "models/props_vehicles/trailer002a.mdl",
+    "stand_in": "vehicles/truck"
+   },
+   {
+    "count": 1,
+    "model": "models/props_wasteland/cargo_container01c.mdl",
+    "stand_in": "crate_large"
+   },
+   {
+    "count": 3,
+    "model": "models/props_wasteland/coolingtank02.mdl",
+    "stand_in": "placeholder_box"
+   },
+   {
+    "count": 2,
+    "model": "models/props_wasteland/horizontalcoolingtank04.mdl",
+    "stand_in": "placeholder_box"
+   }
+  ],
+  "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
+  "sounds": [],
+  "textures": [
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.25,
+     0.25,
+     0.375
+    ],
+    "file": "surfaces/plaster",
+    "generic": "plaster_painted",
+    "how": "table",
+    "key": "plaster:plaster_painted",
+    "kind": "plaster",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "cs_assault/assault_metalcrate001a",
+     "cs_assault/assault_metalcrate001b_red",
+     "cs_assault/assault_metalcrate001d"
+    ],
+    "surfaces": 11,
+    "url": "https://ambientcg.com/view?id=PaintedPlaster017"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.5,
+     0.375,
+     0.375
+    ],
+    "file": "surfaces/brick",
+    "generic": "brick_red",
+    "how": "table",
+    "key": "brick:brick_red",
+    "kind": "brick",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "brick/brickwall003a"
+    ],
+    "surfaces": 4,
+    "url": "https://ambientcg.com/view?id=Bricks097"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.5,
+     0.5,
+     0.5
+    ],
+    "file": "surfaces/concrete",
+    "generic": "concrete",
+    "how": "table",
+    "key": "concrete:concrete",
+    "kind": "concrete",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "de_train/train_cement_floor_01"
+    ],
+    "surfaces": 4,
+    "url": "https://ambientcg.com/view?id=Concrete047A"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.25,
+     0.25,
+     0.125
+    ],
+    "file": "surfaces/metal",
+    "generic": "metal",
+    "how": "table",
+    "key": "metal:metal",
+    "kind": "metal",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "metal/metalrail003a"
+    ],
+    "surfaces": 2,
+    "url": "https://ambientcg.com/view?id=Metal063"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.375,
+     0.375,
+     0.375
+    ],
+    "file": "surfaces/wood_planks",
+    "generic": "wood_planks",
+    "how": "table",
+    "key": "wood_planks:wood_planks",
+    "kind": "wood_planks",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "de_cbble/cratesm01b"
+    ],
+    "surfaces": 1,
+    "url": "https://ambientcg.com/view?id=Planks039"
+   }
+  ]
+ },
+ "links": [],
+ "movers": [],
+ "movers_without_geometry": [],
+ "name": "zm_lila_panic",
+ "notes": [],
+ "pickups": [],
+ "props": [
+  {
+   "at": [
+    6.7056,
+    0.1715,
+    0.9144
+   ],
+   "model": "models/props/cs_office/vending_machine.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    5.4864,
+    0.1715,
+    0.9144
+   ],
+   "model": "models/props/cs_office/vending_machine.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    0.9144,
+    0.1715,
+    9.7536
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    6.096,
+    0.1715,
+    6.096
+   ],
+   "model": "models/props/cs_office/table_meeting.mdl",
+   "scale": 1.0,
+   "stand_in": "table",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    2.4384,
+    0.1715,
+    11.2776
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    11.7356,
+    0.1715,
+    10.2627
+   ],
+   "model": "models/props/cs_office/bookshelf1.mdl",
+   "scale": 1.0,
+   "stand_in": "bookcase",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    11.7302,
+    0.1715,
+    6.8112
+   ],
+   "model": "models/props/cs_office/bookshelf1.mdl",
+   "scale": 1.0,
+   "stand_in": "bookcase",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    0.4672,
+    0.1715,
+    1.9285
+   ],
+   "model": "models/props/cs_office/bookshelf1.mdl",
+   "scale": 1.0,
+   "stand_in": "bookcase",
+   "yaw": 359.5
+  },
+  {
+   "at": [
+    11.8872,
+    5.6579,
+    1.8288
+   ],
+   "model": "models/props/cs_havana/bookcase_large.mdl",
+   "scale": 1.0,
+   "stand_in": "bookcase",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    0.3048,
+    5.6579,
+    10.3632
+   ],
+   "model": "models/props/cs_havana/bookcase_large.mdl",
+   "scale": 1.0,
+   "stand_in": "bookcase",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    11.2776,
+    5.6579,
+    11.2776
+   ],
+   "model": "models/props/cs_office/vending_machine.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 231.0
+  },
+  {
+   "at": [
+    0.9144,
+    5.6579,
+    0.9144
+   ],
+   "model": "models/props/cs_office/vending_machine.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 51.5
+  },
+  {
+   "at": [
+    5.1816,
+    5.6579,
+    5.4864
+   ],
+   "model": "models/props/cs_office/sofa_chair.mdl",
+   "scale": 1.0,
+   "stand_in": "armchair",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    5.1816,
+    5.6579,
+    6.7056
+   ],
+   "model": "models/props/cs_office/sofa_chair.mdl",
+   "scale": 1.0,
+   "stand_in": "armchair",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    7.0104,
+    5.6579,
+    5.4864
+   ],
+   "model": "models/props/cs_office/sofa_chair.mdl",
+   "scale": 1.0,
+   "stand_in": "armchair",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    7.0104,
+    5.6579,
+    6.7056
+   ],
+   "model": "models/props/cs_office/sofa_chair.mdl",
+   "scale": 1.0,
+   "stand_in": "armchair",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    3.048,
+    2.9146,
+    6.096
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    9.144,
+    2.9146,
+    6.096
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 180.5
+  },
+  {
+   "at": [
+    6.096,
+    2.9146,
+    9.144
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 91.0
+  },
+  {
+   "at": [
+    6.096,
+    2.9146,
+    3.048
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 271.0
+  },
+  {
+   "at": [
+    8.5344,
+    2.9146,
+    3.6576
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 231.5
+  },
+  {
+   "at": [
+    3.6576,
+    2.9146,
+    8.5344
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 51.5
+  },
+  {
+   "at": [
+    8.5344,
+    2.9146,
+    8.5344
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 141.5
+  },
+  {
+   "at": [
+    3.6576,
+    2.9146,
+    3.6576
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 321.0
+  },
+  {
+   "at": [
+    -29.2608,
+    -5.0102,
+    6.8771
+   ],
+   "model": "models/props/cs_office/vending_machine.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -14.6304,
+    -5.0102,
+    29.5656
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -14.6304,
+    -5.0102,
+    26.8224
+   ],
+   "model": "models/props/cs_office/vending_machine.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 0.5
+  },
+  {
+   "at": [
+    -12.4968,
+    -5.0102,
+    29.5656
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -16.764,
+    -5.0102,
+    29.5656
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -10.3632,
+    -5.0102,
+    29.5656
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -18.8976,
+    -5.0102,
+    29.5656
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -26.2128,
+    -5.0102,
+    24.6888
+   ],
+   "model": "models/props/cs_office/vending_machine.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 179.5
+  },
+  {
+   "at": [
+    -29.5656,
+    -5.0102,
+    24.0792
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -29.5656,
+    -5.0102,
+    21.9456
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -17.3736,
+    -5.0102,
+    19.5072
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -19.812,
+    -5.0102,
+    19.5072
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -21.9456,
+    -5.0102,
+    18.8976
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -21.9456,
+    -5.0102,
+    9.4488
+   ],
+   "model": "models/props/cs_office/vending_machine.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -14.6304,
+    -5.0102,
+    12.4968
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 89.0
+  },
+  {
+   "at": [
+    -11.8872,
+    -5.0102,
+    12.0466
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 179.5
+  },
+  {
+   "at": [
+    -11.8872,
+    -5.0102,
+    9.8875
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 179.5
+  },
+  {
+   "at": [
+    -17.3736,
+    -5.0102,
+    12.4968
+   ],
+   "model": "models/props/cs_office/vending_machine.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 142.0
+  },
+  {
+   "at": [
+    -15.8496,
+    -5.0102,
+    -5.4864
+   ],
+   "model": "models/props/cs_office/vending_machine.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -14.3256,
+    -5.0102,
+    -5.4864
+   ],
+   "model": "models/props/cs_office/vending_machine.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -17.3736,
+    -5.0102,
+    -5.4864
+   ],
+   "model": "models/props/cs_office/vending_machine.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -29.5656,
+    -5.0102,
+    1.2192
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 359.5
+  },
+  {
+   "at": [
+    -23.7744,
+    -5.0102,
+    1.2192
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -21.9456,
+    -5.0102,
+    17.0688
+   ],
+   "model": "models/props/cs_office/vending_machine.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    -26.5176,
+    -5.0102,
+    9.7536
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -26.5176,
+    -5.0102,
+    12.192
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -26.5176,
+    -5.0102,
+    7.62
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -26.5176,
+    -5.0102,
+    -0.6096
+   ],
+   "model": "models/props/cs_office/vending_machine.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -35.3568,
+    -5.0102,
+    23.1648
+   ],
+   "model": "models/props/cs_office/vending_machine.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 269.5
+  },
+  {
+   "at": [
+    -36.8808,
+    -5.0102,
+    23.7744
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -36.8808,
+    -5.0102,
+    18.8976
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -36.8808,
+    -5.0102,
+    21.0312
+   ],
+   "model": "models/props/cs_office/sofa.mdl",
+   "scale": 1.0,
+   "stand_in": "sofa",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -33.528,
+    -5.0102,
+    17.3736
+   ],
+   "model": "models/props/cs_office/vending_machine.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -35.052,
+    -5.0102,
+    17.3736
+   ],
+   "model": "models/props/cs_office/vending_machine.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -2.4113,
+    0.2165,
+    23.1972
+   ],
+   "model": "models/props_c17/oildrum001.mdl",
+   "scale": 1.0,
+   "stand_in": "barrel",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -1.8558,
+    0.1784,
+    23.6925
+   ],
+   "model": "models/props_c17/oildrum001.mdl",
+   "scale": 1.0,
+   "stand_in": "barrel",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -1.3386,
+    0.1593,
+    23.6544
+   ],
+   "model": "models/props_c17/oildrum001.mdl",
+   "scale": 1.0,
+   "stand_in": "barrel",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -0.7438,
+    0.2927,
+    22.74
+   ],
+   "model": "models/props_c17/oildrum001.mdl",
+   "scale": 1.0,
+   "stand_in": "barrel",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -9.7536,
+    0.0,
+    -13.1064
+   ],
+   "model": "models/props/de_nuke/truck_nuke.mdl",
+   "scale": 1.0,
+   "stand_in": "vehicles/truck",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -9.7536,
+    1.1108,
+    21.0312
+   ],
+   "model": "models/props/de_nuke/truck_nuke.mdl",
+   "scale": 1.0,
+   "stand_in": "vehicles/truck",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -9.7536,
+    0.1475,
+    3.6576
+   ],
+   "model": "models/props/de_tides/truck.mdl",
+   "scale": 1.0,
+   "stand_in": "vehicles/truck",
+   "yaw": 181.5
+  },
+  {
+   "at": [
+    -9.7536,
+    0.6096,
+    6.4008
+   ],
+   "model": "models/props_vehicles/car004a.mdl",
+   "scale": 1.0,
+   "stand_in": "vehicles/sedan",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -9.7536,
+    0.6096,
+    9.144
+   ],
+   "model": "models/props_vehicles/car004a.mdl",
+   "scale": 1.0,
+   "stand_in": "vehicles/sedan",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    1.524,
+    1.524,
+    13.1064
+   ],
+   "model": "models/props/cs_office/crates_indoor.mdl",
+   "scale": 1.0,
+   "stand_in": "crate",
+   "yaw": 269.0
+  },
+  {
+   "at": [
+    -2.6708,
+    1.0356,
+    22.7971
+   ],
+   "model": "models/props_c17/fence01a.mdl",
+   "scale": 1.0,
+   "stand_in": "fence",
+   "yaw": 1.0
+  },
+  {
+   "at": [
+    -1.3944,
+    1.0356,
+    21.0636
+   ],
+   "model": "models/props_c17/fence04a.mdl",
+   "scale": 1.0,
+   "stand_in": "fence",
+   "yaw": 89.0
+  },
+  {
+   "at": [
+    0.4344,
+    1.0356,
+    22.759
+   ],
+   "model": "models/props_c17/fence01a.mdl",
+   "scale": 1.0,
+   "stand_in": "fence",
+   "yaw": 344.0
+  },
+  {
+   "at": [
+    20.4216,
+    1.1549,
+    22.86
+   ],
+   "model": "models/props_wasteland/cargo_container01c.mdl",
+   "scale": 1.0,
+   "stand_in": "crate_large",
+   "yaw": 270.5
+  },
+  {
+   "at": [
+    12.8016,
+    0.0,
+    10.9728
+   ],
+   "model": "models/props/de_prodigy/transformer.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    21.336,
+    0.9144,
+    11.2776
+   ],
+   "model": "models/props_vehicles/trailer002a.mdl",
+   "scale": 1.0,
+   "stand_in": "vehicles/truck",
+   "yaw": 90.0
+  }
+ ],
+ "settings": {},
+ "skipped": {
+  "face:tools/toolsskybox": 53,
+  "model:func_bomb_target": 1,
+  "model:func_buyzone": 3
+ },
+ "sky3d": null,
+ "sounds": {
+  "ambient": [],
+  "files": {},
+  "soundscapes": [],
+  "triggers": []
+ },
+ "source": {
+  "bsp_version": 20,
+  "bytes": 1032420,
+  "file": "source.bsp",
+  "sha256": "95870c7f447ddb776c8a3595b23cd0824d3dd0fab6cbcf6707a1d18e97a68949"
+ },
+ "spawns": [
+  {
+   "at": [
+    19.5072,
+    0.0191,
+    7.3152
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    19.5072,
+    0.0191,
+    4.8768
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    19.5072,
+    0.0191,
+    2.4384
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    17.0688,
+    0.0191,
+    2.4384
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    17.0688,
+    0.0191,
+    4.8768
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    17.0688,
+    0.0191,
+    7.3152
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    18.288,
+    0.0191,
+    6.096
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    18.288,
+    0.0191,
+    3.6576
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    20.7264,
+    0.0191,
+    3.6576
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    20.7264,
+    0.0191,
+    6.096
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    20.7264,
+    0.0191,
+    1.2192
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    18.288,
+    0.0191,
+    1.2192
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    15.8496,
+    0.0191,
+    1.2192
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    15.8496,
+    0.0191,
+    3.6576
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    15.8496,
+    0.0191,
+    6.096
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    15.8496,
+    0.0191,
+    8.5344
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    18.288,
+    0.0191,
+    8.5344
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    20.7264,
+    0.0191,
+    8.5344
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    19.5072,
+    0.0191,
+    9.7536
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    17.0688,
+    0.0191,
+    9.7536
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    17.0688,
+    0.0191,
+    -0.0
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    19.5072,
+    0.0191,
+    -0.0
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    20.7264,
+    0.0191,
+    -1.2192
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    19.5072,
+    0.0191,
+    -2.4384
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    17.0688,
+    0.0191,
+    -2.4384
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    18.288,
+    0.0191,
+    -1.2192
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    15.8496,
+    0.0191,
+    -1.2192
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    15.8496,
+    0.0191,
+    -3.6576
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    18.288,
+    0.0191,
+    -3.6576
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    20.7264,
+    0.0191,
+    -3.6576
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    15.8496,
+    0.0191,
+    10.9728
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    18.288,
+    0.0191,
+    10.9728
+   ],
+   "classname": "info_player_counterterrorist",
+   "targetname": "",
+   "team": "blue",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    -31.6992,
+    -3.029,
+    -12.192
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -29.2608,
+    -3.029,
+    -12.192
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -26.8224,
+    -3.029,
+    -12.192
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -24.384,
+    -3.029,
+    -12.192
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -24.384,
+    -3.029,
+    -9.7536
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -26.8224,
+    -3.029,
+    -9.7536
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -29.2608,
+    -3.029,
+    -9.7536
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -31.6992,
+    -3.029,
+    -9.7536
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -31.6992,
+    -3.029,
+    -7.3152
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -29.2608,
+    -3.029,
+    -7.3152
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -26.8224,
+    -3.029,
+    -7.3152
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -24.384,
+    -3.029,
+    -7.3152
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -24.384,
+    -3.029,
+    -4.8768
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -26.8224,
+    -3.029,
+    -4.8768
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -29.2608,
+    -3.029,
+    -4.8768
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -31.6992,
+    -3.029,
+    -4.8768
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -30.48,
+    -3.029,
+    -6.096
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -30.48,
+    -3.029,
+    -8.5344
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -30.48,
+    -3.029,
+    -10.9728
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -28.0416,
+    -3.029,
+    -10.9728
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -28.0416,
+    -3.029,
+    -8.5344
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -28.0416,
+    -3.029,
+    -6.096
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -25.6032,
+    -3.029,
+    -6.096
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -25.6032,
+    -3.029,
+    -8.5344
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -25.6032,
+    -3.029,
+    -10.9728
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -34.1376,
+    -5.1626,
+    19.5072
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -31.6992,
+    -5.1626,
+    19.5072
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -34.1376,
+    -5.1626,
+    21.9456
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -31.6992,
+    -5.1626,
+    21.9456
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -32.9184,
+    -5.1626,
+    20.7264
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -32.9184,
+    -5.1626,
+    23.1648
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  },
+  {
+   "at": [
+    -31.6992,
+    -5.1626,
+    24.384
+   ],
+   "classname": "info_player_terrorist",
+   "targetname": "",
+   "team": "red",
+   "yaw": -90.0
+  }
+ ],
+ "surfaces": [
+  {
+   "chunk": [
+    -2,
+    -1
+   ],
+   "classname": "worldspawn",
+   "colour": [
+    0.2658,
+    0.3058,
+    0.3554
+   ],
+   "entity": null,
+   "free": "plaster:plaster_painted",
+   "generic": "plaster_painted",
+   "index_count": 78,
+   "index_offset": 864,
+   "material": "cs_assault/assault_metalcrate001d",
+   "model": 0,
+   "normal_offset": 324,
+   "position_offset": 0,
+   "texels": [
+    512,
+    512
+   ],
+   "tint": [
+    0.85,
+    0.85,
+    0.88
+   ],
+   "uv_offset": 648,
+   "vertex_count": 27
+  },
+  {
+   "chunk": [
+    -2,
+    0
+   ],
+   "classname": "worldspawn",
+   "colour": [
+    0.4275,
+    0.2666,
+    0.2544
+   ],
+   "entity": null,
+   "free": "plaster:plaster_painted",
+   "generic": "plaster_painted",
+   "index_count": 90,
+   "index_offset": 2264,
+   "material": "cs_assault/assault_metalcrate001b_red",
+   "model": 0,
+   "normal_offset": 1584,
+   "position_offset": 1176,
+   "texels": [
+    512,
+    512
+   ],
+   "tint": [
+    0.85,
+    0.85,
+    0.88
+   ],
+   "uv_offset": 1992,
+   "vertex_count": 34
+  },
+  {
+   "chunk": [
+    -2,
+    0
+   ],
+   "classname": "worldspawn",
+   "colour": [
+    0.2658,
+    0.3058,
+    0.3554
+   ],
+   "entity": null,
+   "free": "plaster:plaster_painted",
+   "generic": "plaster_painted",
+   "index_count": 282,
+   "index_offset": 6336,
+   "material": "cs_assault/assault_metalcrate001d",
+   "model": 0,
+   "normal_offset": 4016,
+   "position_offset": 2624,
+   "texels": [
+    512,
+    512
+   ],
+   "tint": [
+    0.85,
+    0.85,
+    0.88
+   ],
+   "uv_offset": 5408,
+   "vertex_count": 116
+  },
+  {
+   "chunk": [
+    -1,
+    -1
+   ],
+   "classname": "worldspawn",
+   "colour": [
+    0.4758,
+    0.3749,
+    0.3309
+   ],
+   "entity": null,
+   "free": "brick:brick_red",
+   "generic": "brick_red",
+   "index_count": 57,
+   "index_offset": 8168,
+   "material": "brick/brickwall003a",
+   "model": 0,
+   "normal_offset": 7728,
+   "position_offset": 7464,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 7992,
+   "vertex_count": 22
+  },
+  {
+   "chunk": [
+    -1,
+    -1
+   ],
+   "classname": "worldspawn",
+   "colour": [
+    0.4275,
+    0.2666,
+    0.2544
+   ],
+   "entity": null,
+   "free": "plaster:plaster_painted",
+   "generic": "plaster_painted",
+   "index_count": 798,
+   "index_offset": 20588,
+   "material": "cs_assault/assault_metalcrate001b_red",
+   "model": 0,
+   "normal_offset": 12968,
+   "position_offset": 8396,
+   "texels": [
+    512,
+    512
+   ],
+   "tint": [
+    0.85,
+    0.85,
+    0.88
+   ],
+   "uv_offset": 17540,
+   "vertex_count": 381
+  },
+  {
+   "chunk": [
+    -1,
+    -1
+   ],
+   "classname": "worldspawn",
+   "colour": [
+    0.2658,
+    0.3058,
+    0.3554
+   ],
+   "entity": null,
+   "free": "plaster:plaster_painted",
+   "generic": "plaster_painted",
+   "index_count": 882,
+   "index_offset": 35172,
+   "material": "cs_assault/assault_metalcrate001d",
+   "model": 0,
+   "normal_offset": 28052,
+   "position_offset": 23780,
+   "texels": [
+    512,
+    512
+   ],
+   "tint": [
+    0.85,
+    0.85,
+    0.88
+   ],
+   "uv_offset": 32324,
+   "vertex_count": 356
+  },
+  {
+   "chunk": [
+    -1,
+    -1
+   ],
+   "classname": "worldspawn",
+   "colour": [
+    0.5153,
+    0.4951,
+    0.4655
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 135,
+   "index_offset": 39916,
+   "material": "de_train/train_cement_floor_01",
+   "model": 0,
+   "normal_offset": 39156,
+   "position_offset": 38700,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 39612,
+   "vertex_count": 38
+  },
+  {
+   "chunk": [
+    -1,
+    0
+   ],
+   "classname": "worldspawn",
+   "colour": [
+    0.4758,
+    0.3749,
+    0.3309
+   ],
+   "entity": null,
+   "free": "brick:brick_red",
+   "generic": "brick_red",
+   "index_count": 42,
+   "index_offset": 41032,
+   "material": "brick/brickwall003a",
+   "model": 0,
+   "normal_offset": 40672,
+   "position_offset": 40456,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 40888,
+   "vertex_count": 18
+  },
+  {
+   "chunk": [
+    -1,
+    0
+   ],
+   "classname": "worldspawn",
+   "colour": [
+    0.3214,
+    0.3592,
+    0.4071
+   ],
+   "entity": null,
+   "free": "plaster:plaster_painted",
+   "generic": "plaster_painted",
+   "index_count": 672,
+   "index_offset": 52528,
+   "material": "cs_assault/assault_metalcrate001a",
+   "model": 0,
+   "normal_offset": 45448,
+   "position_offset": 41200,
+   "texels": [
+    512,
+    512
+   ],
+   "tint": [
+    0.85,
+    0.85,
+    0.88
+   ],
+   "uv_offset": 49696,
+   "vertex_count": 354
+  },
+  {
+   "chunk": [
+    -1,
+    0
+   ],
+   "classname": "worldspawn",
+   "colour": [
+    0.4275,
+    0.2666,
+    0.2544
+   ],
+   "entity": null,
+   "free": "plaster:plaster_painted",
+   "generic": "plaster_painted",
+   "index_count": 1518,
+   "index_offset": 73104,
+   "material": "cs_assault/assault_metalcrate001b_red",
+   "model": 0,
+   "normal_offset": 61924,
+   "position_offset": 55216,
+   "texels": [
+    512,
+    512
+   ],
+   "tint": [
+    0.85,
+    0.85,
+    0.88
+   ],
+   "uv_offset": 68632,
+   "vertex_count": 559
+  },
+  {
+   "chunk": [
+    -1,
+    0
+   ],
+   "classname": "worldspawn",
+   "colour": [
+    0.2658,
+    0.3058,
+    0.3554
+   ],
+   "entity": null,
+   "free": "plaster:plaster_painted",
+   "generic": "plaster_painted",
+   "index_count": 1881,
+   "index_offset": 104712,
+   "material": "cs_assault/assault_metalcrate001d",
+   "model": 0,
+   "normal_offset": 88752,
+   "position_offset": 79176,
+   "texels": [
+    512,
+    512
+   ],
+   "tint": [
+    0.85,
+    0.85,
+    0.88
+   ],
+   "uv_offset": 98328,
+   "vertex_count": 798
+  },
+  {
+   "chunk": [
+    -1,
+    0
+   ],
+   "classname": "worldspawn",
+   "colour": [
+    0.5153,
+    0.4951,
+    0.4655
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 111,
+   "index_offset": 113324,
+   "material": "de_train/train_cement_floor_01",
+   "model": 0,
+   "normal_offset": 112644,
+   "position_offset": 112236,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 113052,
+   "vertex_count": 34
+  },
+  {
+   "chunk": [
+    -1,
+    0
+   ],
+   "classname": "worldspawn",
+   "colour": [
+    0.1982,
+    0.1896,
+    0.1692
+   ],
+   "entity": null,
+   "free": "metal:metal",
+   "generic": "metal",
+   "index_count": 819,
+   "index_offset": 124392,
+   "material": "metal/metalrail003a",
+   "model": 0,
+   "normal_offset": 117752,
+   "position_offset": 113768,
+   "texels": [
+    512,
+    128
+   ],
+   "uv_offset": 121736,
+   "vertex_count": 332
+  },
+  {
+   "chunk": [
+    0,
+    -1
+   ],
+   "classname": "worldspawn",
+   "colour": [
+    0.4758,
+    0.3749,
+    0.3309
+   ],
+   "entity": null,
+   "free": "brick:brick_red",
+   "generic": "brick_red",
+   "index_count": 42,
+   "index_offset": 128244,
+   "material": "brick/brickwall003a",
+   "model": 0,
+   "normal_offset": 127884,
+   "position_offset": 127668,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 128100,
+   "vertex_count": 18
+  },
+  {
+   "chunk": [
+    0,
+    -1
+   ],
+   "classname": "worldspawn",
+   "colour": [
+    0.5153,
+    0.4951,
+    0.4655
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 57,
+   "index_offset": 128988,
+   "material": "de_train/train_cement_floor_01",
+   "model": 0,
+   "normal_offset": 128628,
+   "position_offset": 128412,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 128844,
+   "vertex_count": 18
+  },
+  {
+   "chunk": [
+    0,
+    0
+   ],
+   "classname": "worldspawn",
+   "colour": [
+    0.4758,
+    0.3749,
+    0.3309
+   ],
+   "entity": null,
+   "free": "brick:brick_red",
+   "generic": "brick_red",
+   "index_count": 75,
+   "index_offset": 130144,
+   "material": "brick/brickwall003a",
+   "model": 0,
+   "normal_offset": 129564,
+   "position_offset": 129216,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 129912,
+   "vertex_count": 29
+  },
+  {
+   "chunk": [
+    0,
+    0
+   ],
+   "classname": "worldspawn",
+   "colour": [
+    0.3214,
+    0.3592,
+    0.4071
+   ],
+   "entity": null,
+   "free": "plaster:plaster_painted",
+   "generic": "plaster_painted",
+   "index_count": 2439,
+   "index_offset": 160492,
+   "material": "cs_assault/assault_metalcrate001a",
+   "model": 0,
+   "normal_offset": 141712,
+   "position_offset": 130444,
+   "texels": [
+    512,
+    512
+   ],
+   "tint": [
+    0.85,
+    0.85,
+    0.88
+   ],
+   "uv_offset": 152980,
+   "vertex_count": 939
+  },
+  {
+   "chunk": [
+    0,
+    0
+   ],
+   "classname": "worldspawn",
+   "colour": [
+    0.4275,
+    0.2666,
+    0.2544
+   ],
+   "entity": null,
+   "free": "plaster:plaster_painted",
+   "generic": "plaster_painted",
+   "index_count": 981,
+   "index_offset": 182792,
+   "material": "cs_assault/assault_metalcrate001b_red",
+   "model": 0,
+   "normal_offset": 174952,
+   "position_offset": 170248,
+   "texels": [
+    512,
+    512
+   ],
+   "tint": [
+    0.85,
+    0.85,
+    0.88
+   ],
+   "uv_offset": 179656,
+   "vertex_count": 392
+  },
+  {
+   "chunk": [
+    0,
+    0
+   ],
+   "classname": "worldspawn",
+   "colour": [
+    0.2658,
+    0.3058,
+    0.3554
+   ],
+   "entity": null,
+   "free": "plaster:plaster_painted",
+   "generic": "plaster_painted",
+   "index_count": 267,
+   "index_offset": 191996,
+   "material": "cs_assault/assault_metalcrate001d",
+   "model": 0,
+   "normal_offset": 188696,
+   "position_offset": 186716,
+   "texels": [
+    512,
+    512
+   ],
+   "tint": [
+    0.85,
+    0.85,
+    0.88
+   ],
+   "uv_offset": 190676,
+   "vertex_count": 165
+  },
+  {
+   "chunk": [
+    0,
+    0
+   ],
+   "classname": "worldspawn",
+   "colour": [
+    0.4138,
+    0.3902,
+    0.3636
+   ],
+   "entity": null,
+   "free": "wood_planks:wood_planks",
+   "generic": "wood_planks",
+   "index_count": 24,
+   "index_offset": 193576,
+   "material": "de_cbble/cratesm01b",
+   "model": 0,
+   "normal_offset": 193256,
+   "position_offset": 193064,
+   "texels": [
+    256,
+    256
+   ],
+   "uv_offset": 193448,
+   "vertex_count": 16
+  },
+  {
+   "chunk": [
+    0,
+    0
+   ],
+   "classname": "worldspawn",
+   "colour": [
+    0.5153,
+    0.4951,
+    0.4655
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 219,
+   "index_offset": 195464,
+   "material": "de_train/train_cement_floor_01",
+   "model": 0,
+   "normal_offset": 194344,
+   "position_offset": 193672,
+   "texels": [
+    512,
+    512
+   ],
+   "uv_offset": 195016,
+   "vertex_count": 56
+  },
+  {
+   "chunk": [
+    0,
+    0
+   ],
+   "classname": "worldspawn",
+   "colour": [
+    0.1982,
+    0.1896,
+    0.1692
+   ],
+   "entity": null,
+   "free": "metal:metal",
+   "generic": "metal",
+   "index_count": 768,
+   "index_offset": 206036,
+   "material": "metal/metalrail003a",
+   "model": 0,
+   "normal_offset": 199976,
+   "position_offset": 196340,
+   "texels": [
+    512,
+    128
+   ],
+   "uv_offset": 203612,
+   "vertex_count": 303
+  }
+ ],
+ "units": {
+  "axes": "Godot (x, z, -y) of the map's",
+  "length": "metres",
+  "metres_per_unit": 0.01905,
+  "uv": "source texture coordinate / source texture size",
+  "vertex": "per surface: vertex_count float32 xyz positions, then normals, then float32 uv pairs, then index_count uint32",
+  "y0": 0.0
+ },
+ "version": 1,
+ "volumes": []
+}

@@ -1,0 +1,65 @@
+{
+ "id": "zs_krusty_krab_large",
+ "name": "Krusty Krab Large",
+ "source": "zs_krusty_krab_large_v5.bsp",
+ "author": "Scott (Steam Workshop conversion to ZS); original Krusty Krab by FireWavezZ (gamebanana.com/mods/132150)",
+ "page": "https://steamcommunity.com/sharedfiles/filedetails/?id=645191518",
+ "licence": "none stated (Steam Workshop)",
+ "blurb": "Hold out against the horde.",
+ "mode": "survival",
+ "survivors": 8,
+ "survivor_class": "info_player_human",
+ "zombie_classes": [
+  "info_player_zombie"
+ ],
+ "solid_classes": [
+  "func_brush"
+ ],
+ "flood_step": 0.3,
+ "thin_walls": true,
+ "toys": [
+  [
+   "barrel",
+   "spawn",
+   3,
+   -2
+  ],
+  [
+   "tyre",
+   "spawn",
+   -3,
+   2
+  ]
+ ],
+ "items_auto": true,
+ "auto_lights": {
+  "spacing": 6.0,
+  "height": 2.3,
+  "range": 7.0,
+  "energy": 0.9
+ },
+ "prop_models": {
+  "models/props/cs_militia/table_kitchen.mdl": "furniture_table",
+  "models/firewavezzmodels/chair.mdl": "furniture_chair",
+  "models/props/de_nuke/crate_extrasmall.mdl": "survival_box",
+  "models/props_c17/furniturechair001a.mdl": "furniture_chair",
+  "models/props_wasteland/kitchen_shelf001a.mdl": "furniture_bookcase_closed",
+  "models/props_wasteland/controlroom_desk001b.mdl": "furniture_table",
+  "models/props/cs_office/bookshelf3.mdl": "furniture_bookcase_closed",
+  "models/props_c17/furnituretable001a.mdl": "furniture_table",
+  "models/firewavezzmodels/metal_table_test.mdl": "furniture_table",
+  "models/firewavezzmodels/spongetoiletdoor.mdl": "furniture_toilet",
+  "models/props_c17/furnituretable002a.mdl": "furniture_table"
+ },
+ "generated": true,
+ "survive_seconds": 600,
+ "posts": 6,
+ "caches_near_posts": true,
+ "drop_ramps": 0.9,
+ "greedy_floors": true,
+ "thin_lintels": true,
+ "drop_small": [
+  0.15,
+  1.5
+ ]
+}

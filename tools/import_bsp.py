@@ -480,11 +480,11 @@ class Source:
         return [self.brushes[i] for i in m["brushes"]] if m else []
 
 
-def load_source(path):
+def load_source(path, terrain=False):
     if path.lower().endswith(".json"):
         with open(path) as f:
             return Source(json.load(f))
-    return Source(intermediate.build(reader.Bsp(path).load(), name=os.path.splitext(os.path.basename(path))[0]))
+    return Source(intermediate.build(reader.Bsp(path).load(), name=os.path.splitext(os.path.basename(path))[0], displacements=terrain))
 
 
 def model_boxes(bs, model, y0):
@@ -653,7 +653,7 @@ def main(argv):
         # the graph can keeps ground nobody can reach out of the map.
         STEP = JUMP = float(spec["flood_step"])
     out_dir = argv[3] if len(argv) > 3 else os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "maps")
-    bs = load_source(argv[2])
+    bs = load_source(argv[2], bool(spec.get("terrain")))
     ents = bs.entities
     surv = [e for e in ents if e.get("classname") == spec["survivor_class"]]
     y0 = float(spec.get("y0", 0.0))    # spec y0: metres the source floor sits above the game's y = 0 (the nav is flat at 0)
@@ -832,6 +832,13 @@ def main(argv):
             print("  keep_treads: %d small boxes kept as stair treads" % len(treads))
         boxes[:] = [b for b in boxes if b not in small]
         print("  dropped %d small boxes" % len(small))
+    if spec.get("max_boxes") and len(boxes) > spec["max_boxes"]:
+        # The wire limit (ZzMapDoc.WIRE_LIMIT, MAX_BOXES) caps what a document can collide with; the
+        # drawn world pack carries the detail, so the smallest solids go first.
+        order = sorted(range(len(boxes)), key=lambda i: boxes[i]["size"][0] * boxes[i]["size"][1] * boxes[i]["size"][2])
+        gone = set(order[:len(boxes) - int(spec["max_boxes"])])
+        print("  max_boxes: dropped the %d smallest of %d boxes" % (len(gone), len(boxes)))
+        boxes[:] = [b for i, b in enumerate(boxes) if i not in gone]
     for ab in spec.get("add_boxes", []):
         boxes.append(dict(ab))
     # `stairs`: a flight that stands in for a slope too steep for the graph (a slide, a ladder shaft).
@@ -1255,6 +1262,16 @@ def main(argv):
             continue
         if p and p[2] <= spec.get("spawn_z_max", 1e9):
             spawns.append({"at": p, "yaw": r3(reader.yaw_to_godot(parse_vec(e.get("angles", "0 0 0"))[1]))})
+    # Too few usable starts (the source's own sit in the air, in a wall or off the graph): the team
+    # stands on the main ground around the flood's seed, 1.4 m apart, so a generated spec still plays.
+    if G.pts and len(spawns) < spec.get("survivors", 4):
+        sx, sy, sz = starts[0]
+        mp = sorted((q for i, q in enumerate(G.pts) if G.find(i) == main), key=lambda q: (q[0] - sx) ** 2 + (q[2] - sz) ** 2)
+        for q in mp:
+            if len(spawns) >= max(4, spec.get("survivors", 4)):
+                break
+            if all((q[0] - o["at"][0]) ** 2 + (q[2] - o["at"][2]) ** 2 >= 1.96 for o in spawns):
+                spawns.append({"at": [r3(q[0]), r3(q[1] + 0.1), r3(q[2])], "yaw": 0})
     # A survivor start on an island of the horde's graph (a room whose doorway is narrower than two
     # points) is a stand-in that has no path out and walks into the nearest wall: atix's second
     # spawn stood behind a window sill. It moves to the nearest point of the main ground within 8 m
@@ -1293,6 +1310,18 @@ def main(argv):
                 print("  zombie starts: %d of %d on the main ground" % (len(zkeep), len(zsp)))
             zsp = zkeep
 
+    if G.pts and len(zsp) < 4:
+        # The source's zombie spawns did not land on ground: the horde starts at the far end of the main ground.
+        cx = sum(o["at"][0] for o in spawns) / max(1, len(spawns))
+        cz = sum(o["at"][2] for o in spawns) / max(1, len(spawns))
+        far = -1 if spec["mode"] == "survival" else 1  # an escape map's horde starts a run behind the team, not across the map
+        for q in sorted((q for i, q in enumerate(G.pts) if G.find(i) == main and (spec["mode"] == "survival" or 100 <= (q[0] - cx) ** 2 + (q[2] - cz) ** 2 <= 1600)),
+                        key=lambda q: far * ((q[0] - cx) ** 2 + (q[2] - cz) ** 2)):
+            if len(zsp) >= 8:
+                break
+            if all((q[0] - o[0]) ** 2 + (q[2] - o[2]) ** 2 >= 4 for o in zsp):
+                zsp.append([r3(q[0]), r3(q[1]), r3(q[2])])
+
     def settle_any(p):
         ix, iz = int(math.floor(p[0] / CELL)), int(math.floor(p[2] / CELL))
         hs = [h for h in surf.get((ix, iz), []) if abs(h - p[1]) <= 0.6]
@@ -1323,6 +1352,16 @@ def main(argv):
             if wid:
                 it["id"] = wid
             items.append(it)
+    if spec.get("items_auto") and spawns:
+        # Starting kit beside the first survivor spawn, for a map whose spec cannot name coordinates (tools/auto_spec.py).
+        sx, sy, sz = spawns[0]["at"]
+        for (kind, wid), (dx, dz) in zip(kinds[:5], [(2, 2), (-2, 2), (2, -2), (-2, -2), (0, 3)]):
+            p = settle_any([sx + dx, sy, sz + dz])
+            if p:
+                it = {"kind": kind, "at": p}
+                if wid:
+                    it["id"] = wid
+                items.append(it)
     items = items[:60]
 
     props, cache_src = [], []

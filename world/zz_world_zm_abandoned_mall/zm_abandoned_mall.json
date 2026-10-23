@@ -70542,10 +70542,9 @@
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
-     "concrete/concreteceiling003a",
-     "props/acousticceiling002a"
+     "concrete/concreteceiling003a"
     ],
-    "surfaces": 37,
+    "surfaces": 14,
     "url": "https://ambientcg.com/view?id=Concrete034"
    },
    {
@@ -70563,14 +70562,11 @@
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
-     "custom/28weeks",
-     "custom/bkmenu",
      "custom/bww4",
      "custom/chickenmahharsmdonalds",
-     "custom/srfroot",
      "vegas/pa-pacman_side"
     ],
-    "surfaces": 18,
+    "surfaces": 3,
     "url": "https://ambientcg.com/view?id=Planks039"
    },
    {
@@ -70622,10 +70618,9 @@
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
-     "custom/add",
      "custom/tacbobellmenu"
     ],
-    "surfaces": 5,
+    "surfaces": 4,
     "url": "https://ambientcg.com/view?id=Bricks097"
    },
    {
@@ -70643,6 +70638,7 @@
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
+     "cs_assault/assault_metalcrate001a",
      "cs_havana/metal01",
      "de_nuke/nuke_metaldoor_01",
      "de_nuke/nuke_metalfloor_01",
@@ -70691,7 +70687,7 @@
      "props/metalstainless01",
      "spongebob/krusty_krab/box"
     ],
-    "surfaces": 400,
+    "surfaces": 406,
     "url": "https://ambientcg.com/view?id=Metal063"
    },
    {
@@ -70737,7 +70733,6 @@
     "sources": [
      "building_template/building_template002a",
      "building_template/building_template013o",
-     "cs_assault/assault_metalcrate001a",
      "cs_assault/pavement001",
      "cs_assault/pavement001a",
      "custom/wall_01",
@@ -70750,7 +70745,7 @@
      "office/tan_wall",
      "plaster/offwllb"
     ],
-    "surfaces": 96,
+    "surfaces": 90,
     "url": "https://ambientcg.com/view?id=PaintedPlaster017"
    },
    {
@@ -70829,6 +70824,26 @@
      0.75,
      0.75
     ],
+    "file": "surfaces/ceiling_tile",
+    "generic": "ceiling_tile",
+    "how": "table",
+    "key": "ceiling_tile:ceiling_tile",
+    "kind": "ceiling_tile",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "props/acousticceiling002a"
+    ],
+    "surfaces": 23,
+    "url": "https://ambientcg.com/view?id=OfficeCeiling005"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.75,
+     0.75,
+     0.75
+    ],
     "file": "surfaces/tile_white",
     "generic": "tile_floor",
     "how": "table",
@@ -70871,6 +70886,29 @@
    {
     "author": "Lennart Demes and contributors",
     "colour": [
+     0.75,
+     0.625,
+     0.5
+    ],
+    "file": "surfaces/sand",
+    "generic": "nearest_sand",
+    "how": "colour",
+    "key": "sand:nearest_sand",
+    "kind": "sand",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "custom/28weeks",
+     "custom/bestbuy",
+     "custom/bkmenu",
+     "custom/srfroot"
+    ],
+    "surfaces": 17,
+    "url": "https://ambientcg.com/view?id=Ground080"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
      0.625,
      0.5,
      0.5
@@ -70884,12 +70922,11 @@
     "source": "ambientCG",
     "sources": [
      "custom/bestbuy3",
-     "custom/pvsz2",
      "custom/srcoca",
      "custom/tacobellcombo",
      "custom/teamworkreminder"
     ],
-    "surfaces": 22,
+    "surfaces": 21,
     "url": "https://ambientcg.com/view?id=Concrete047A"
    },
    {
@@ -70962,26 +70999,22 @@
      0.375,
      0.375
     ],
-    "file": "surfaces/metal",
-    "generic": "nearest_metal",
+    "file": "surfaces/stone_block",
+    "generic": "nearest_stone_block",
     "how": "colour",
-    "key": "metal:nearest_metal",
-    "kind": "metal",
+    "key": "stone_block:nearest_stone_block",
+    "kind": "stone_block",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
-     "custom/bat",
+     "custom/add",
      "custom/bww",
-     "custom/gaplogo",
      "custom/poster1",
      "custom/quicksilver",
-     "hawahi/donky_controls",
-     "hawahi/donky_side",
-     "new/galaga_side",
      "vegas/pa-pacman_feild"
     ],
-    "surfaces": 11,
-    "url": "https://ambientcg.com/view?id=Metal063"
+    "surfaces": 7,
+    "url": "https://ambientcg.com/view?id=Bricks076A"
    },
    {
     "author": "TMC (generated)",
@@ -71079,19 +71112,20 @@
      0.375,
      0.25
     ],
-    "file": "surfaces/rust",
-    "generic": "nearest_rust",
+    "file": "surfaces/roof_clay",
+    "generic": "nearest_roof_clay",
     "how": "colour",
-    "key": "rust:nearest_rust",
-    "kind": "rust",
+    "key": "roof_clay:nearest_roof_clay",
+    "kind": "roof_clay",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
      "custom/cafemenu",
+     "custom/fg4",
      "custom/wanted"
     ],
-    "surfaces": 2,
-    "url": "https://ambientcg.com/view?id=Rust009"
+    "surfaces": 4,
+    "url": "https://ambientcg.com/view?id=RoofingTiles014A"
    },
    {
     "author": "TMC (generated)",
@@ -71163,11 +71197,11 @@
      0.5,
      0.375
     ],
-    "file": "surfaces/plaster",
+    "file": "surfaces/plaster_worn",
     "generic": "plaster_worn",
     "how": "table",
-    "key": "plaster:plaster_worn",
-    "kind": "plaster",
+    "key": "plaster_worn:plaster_worn",
+    "kind": "plaster_worn",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
@@ -71183,7 +71217,7 @@
      "plaster/plasterwall043b"
     ],
     "surfaces": 20,
-    "url": "https://ambientcg.com/view?id=PaintedPlaster017"
+    "url": "https://ambientcg.com/view?id=Plaster003"
    },
    {
     "author": "TMC (generated)",
@@ -71238,27 +71272,27 @@
      0.625,
      0.625
     ],
-    "file": "surfaces/corrugated",
-    "generic": "nearest_corrugated",
+    "file": "surfaces/rock",
+    "generic": "nearest_rock",
     "how": "colour",
-    "key": "corrugated:nearest_corrugated",
-    "kind": "corrugated",
+    "key": "rock:nearest_rock",
+    "kind": "rock",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
      "custom/bf3_gamestop",
      "custom/bf3post",
-     "custom/d2",
      "custom/gapmodel",
      "custom/gapmodel2",
      "custom/iapple",
-     "custom/l4d",
      "custom/pactour",
+     "custom/pvsz2",
+     "custom/srmilk",
      "custom/whitecastle",
      "hawahi/donky_top"
     ],
-    "surfaces": 22,
-    "url": "https://ambientcg.com/view?id=CorrugatedSteel009"
+    "surfaces": 15,
+    "url": "https://ambientcg.com/view?id=Rock023"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -71283,6 +71317,30 @@
     ],
     "surfaces": 7,
     "url": "https://ambientcg.com/view?id=Tiles138"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.5,
+     0.375,
+     0.5
+    ],
+    "file": "surfaces/metal",
+    "generic": "nearest_metal",
+    "how": "colour",
+    "key": "metal:nearest_metal",
+    "kind": "metal",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "custom/bat",
+     "custom/gaplogo",
+     "hawahi/donky_controls",
+     "hawahi/donky_side",
+     "new/galaga_side"
+    ],
+    "surfaces": 5,
+    "url": "https://ambientcg.com/view?id=Metal063"
    },
    {
     "author": "TMC (generated)",
@@ -71408,26 +71466,6 @@
    {
     "author": "TMC (generated)",
     "colour": [
-     0.75,
-     0.25,
-     0.25
-    ],
-    "file": "textures/gen_flat_bf4040.png",
-    "generic": "flat",
-    "how": "flat",
-    "key": "generated:flat:bf4040",
-    "kind": "generated",
-    "licence": "CC0-1.0",
-    "source": "dotbsp generator",
-    "sources": [
-     "custom/fg4"
-    ],
-    "surfaces": 2,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
-   },
-   {
-    "author": "TMC (generated)",
-    "colour": [
      0.25,
      0.625,
      0.5
@@ -71443,26 +71481,6 @@
      "custom/fg_cp"
     ],
     "surfaces": 3,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
-   },
-   {
-    "author": "TMC (generated)",
-    "colour": [
-     0.5,
-     0.625,
-     0.75
-    ],
-    "file": "textures/gen_flat_809fbf.png",
-    "generic": "flat",
-    "how": "flat",
-    "key": "generated:flat:809fbf",
-    "kind": "generated",
-    "licence": "CC0-1.0",
-    "source": "dotbsp generator",
-    "sources": [
-     "custom/srmilk"
-    ],
-    "surfaces": 1,
     "url": "generated by tools/bsp/dotbsp/textures.py"
    },
    {
@@ -71545,6 +71563,27 @@
     ],
     "surfaces": 14,
     "url": "generated by tools/bsp/dotbsp/textures.py"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.5,
+     0.5,
+     0.5
+    ],
+    "file": "surfaces/corrugated",
+    "generic": "nearest_corrugated",
+    "how": "colour",
+    "key": "corrugated:nearest_corrugated",
+    "kind": "corrugated",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "custom/d2",
+     "custom/l4d"
+    ],
+    "surfaces": 9,
+    "url": "https://ambientcg.com/view?id=CorrugatedSteel009"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -71778,26 +71817,6 @@
      "custom/srpharm"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
-   },
-   {
-    "author": "TMC (generated)",
-    "colour": [
-     0.75,
-     0.75,
-     0.5
-    ],
-    "file": "textures/gen_flat_bfbf80.png",
-    "generic": "flat",
-    "how": "flat",
-    "key": "generated:flat:bfbf80",
-    "kind": "generated",
-    "licence": "CC0-1.0",
-    "source": "dotbsp generator",
-    "sources": [
-     "custom/bestbuy"
-    ],
-    "surfaces": 2,
     "url": "generated by tools/bsp/dotbsp/textures.py"
    },
    {
@@ -72494,6 +72513,248 @@
  "notes": [
   "168 glass surfaces (kinds glass)",
   "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): CUSTOM/WHITECASTLE 2, ZS_PLAZA/FORLEASE 1"
+ ],
+ "pickups": [
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_swissarmyknife",
+   "origin": [
+    -20.4216,
+    1.1811,
+    -39.5478
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_swissarmyknife",
+   "origin": [
+    -19.2596,
+    1.3335,
+    -42.3101
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_plank",
+   "origin": [
+    -5.2612,
+    0.4763,
+    -30.1068
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_plank",
+   "origin": [
+    20.9695,
+    0.4763,
+    -44.6181
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_healthkit",
+   "origin": [
+    -2.7058,
+    0.3239,
+    -44.7012
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_healthkit",
+   "origin": [
+    46.6222,
+    0.8435,
+    -23.9632
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_healthkit",
+   "origin": [
+    32.0815,
+    1.0531,
+    -7.7847
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_healthkit",
+   "origin": [
+    -9.6473,
+    0.3292,
+    -18.3439
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_healthvial",
+   "origin": [
+    14.1893,
+    0.3294,
+    -35.6829
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_healthvial",
+   "origin": [
+    14.2308,
+    0.3294,
+    -35.5553
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_healthvial",
+   "origin": [
+    46.3115,
+    0.8438,
+    -14.2021
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_healthvial",
+   "origin": [
+    26.9257,
+    0.3378,
+    8.9988
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_healthvial",
+   "origin": [
+    -23.9921,
+    0.4763,
+    -33.9082
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_shovel",
+   "origin": [
+    15.6591,
+    0.4763,
+    -62.1792
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_hammer",
+   "origin": [
+    13.5065,
+    0.4763,
+    6.0008
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_healthvial",
+   "origin": [
+    8.2057,
+    1.1621,
+    -40.0879
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_ammo_pistol",
+   "origin": [
+    46.0284,
+    0.8435,
+    -14.2528
+   ],
+   "props": {}
+  },
+  {
+   "angle": 180.0,
+   "classname": "item_healthcharger",
+   "origin": [
+    60.7695,
+    1.4097,
+    -44.0627
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_ammo_pistol",
+   "origin": [
+    43.546,
+    1.034,
+    -79.9252
+   ],
+   "props": {}
+  },
+  {
+   "angle": 91.0,
+   "classname": "item_healthcharger",
+   "origin": [
+    45.8533,
+    1.2764,
+    -83.5152
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_arsenalcrate",
+   "origin": [
+    15.7343,
+    0.3239,
+    -113.2402
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_pot",
+   "origin": [
+    15.9449,
+    1.3493,
+    -95.631
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_messagebeacon",
+   "origin": [
+    -9.6508,
+    0.3239,
+    -51.6322
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_shieldwindow",
+   "origin": [
+    46.301,
+    0.3239,
+    -33.5208
+   ],
+   "props": {}
+  }
  ],
  "props": [
   {
@@ -84877,8 +85138,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 135,
    "index_offset": 28356,
    "material": "props/acousticceiling002a",
@@ -85336,7 +85597,7 @@
     0.5458
    ],
    "entity": null,
-   "free": "wood_planks:nearest_wood_planks",
+   "free": "sand:nearest_sand",
    "generic": null,
    "index_count": 6,
    "index_offset": 82616,
@@ -85716,8 +85977,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 96,
    "index_offset": 114304,
    "material": "props/acousticceiling002a",
@@ -86460,8 +86721,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 117,
    "index_offset": 167676,
    "material": "props/acousticceiling002a",
@@ -86654,7 +86915,7 @@
     0.3192
    ],
    "entity": null,
-   "free": "metal:nearest_metal",
+   "free": "stone_block:nearest_stone_block",
    "generic": null,
    "index_count": 42,
    "index_offset": 174256,
@@ -87226,8 +87487,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 492,
    "index_offset": 311132,
    "material": "props/acousticceiling002a",
@@ -87933,7 +88194,7 @@
     0.2042
    ],
    "entity": null,
-   "free": "rust:nearest_rust",
+   "free": "roof_clay:nearest_roof_clay",
    "generic": null,
    "index_count": 6,
    "index_offset": 386168,
@@ -89067,7 +89328,7 @@
     0.4292
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 111,
    "index_offset": 452064,
@@ -89148,8 +89409,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 297,
    "index_offset": 516784,
    "material": "props/acousticceiling002a",
@@ -89750,7 +90011,7 @@
     0.3143
    ],
    "entity": null,
-   "free": "brick:nearest_brick",
+   "free": "stone_block:nearest_stone_block",
    "generic": null,
    "index_count": 24,
    "index_offset": 580176,
@@ -89858,7 +90119,7 @@
     0.6037
    ],
    "entity": null,
-   "free": "corrugated:nearest_corrugated",
+   "free": "rock:nearest_rock",
    "generic": null,
    "index_count": 12,
    "index_offset": 581356,
@@ -90355,7 +90616,7 @@
     0.57
    ],
    "entity": null,
-   "free": "corrugated:nearest_corrugated",
+   "free": "rock:nearest_rock",
    "generic": null,
    "index_count": 6,
    "index_offset": 614732,
@@ -90845,8 +91106,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 312,
    "index_offset": 698380,
    "material": "props/acousticceiling002a",
@@ -91277,7 +91538,7 @@
     0.3656
    ],
    "entity": null,
-   "free": "metal:nearest_metal",
+   "free": "stone_block:nearest_stone_block",
    "generic": null,
    "index_count": 12,
    "index_offset": 728788,
@@ -92064,7 +92325,7 @@
     0.5291
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 285,
    "index_offset": 765112,
@@ -92145,8 +92406,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 108,
    "index_offset": 771476,
    "material": "props/acousticceiling002a",
@@ -92403,7 +92664,7 @@
     0.2549
    ],
    "entity": null,
-   "free": "generated:flat:bf4040",
+   "free": "roof_clay:nearest_roof_clay",
    "generic": null,
    "index_count": 138,
    "index_offset": 779120,
@@ -92484,7 +92745,7 @@
     0.6947
    ],
    "entity": null,
-   "free": "generated:flat:809fbf",
+   "free": "rock:nearest_rock",
    "generic": null,
    "index_count": 6,
    "index_offset": 781108,
@@ -92973,8 +93234,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 219,
    "index_offset": 860412,
    "material": "props/acousticceiling002a",
@@ -93334,7 +93595,7 @@
     0.3192
    ],
    "entity": null,
-   "free": "metal:nearest_metal",
+   "free": "stone_block:nearest_stone_block",
    "generic": null,
    "index_count": 87,
    "index_offset": 927992,
@@ -93496,7 +93757,7 @@
     0.2549
    ],
    "entity": null,
-   "free": "generated:flat:bf4040",
+   "free": "roof_clay:nearest_roof_clay",
    "generic": null,
    "index_count": 144,
    "index_offset": 933096,
@@ -94702,7 +94963,7 @@
     0.4723
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 24,
    "index_offset": 1078400,
@@ -94783,8 +95044,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 573,
    "index_offset": 1102084,
    "material": "props/acousticceiling002a",
@@ -95323,7 +95584,7 @@
     0.3192
    ],
    "entity": null,
-   "free": "metal:nearest_metal",
+   "free": "stone_block:nearest_stone_block",
    "generic": null,
    "index_count": 6,
    "index_offset": 1149176,
@@ -95458,7 +95719,7 @@
     0.5957
    ],
    "entity": null,
-   "free": "corrugated:nearest_corrugated",
+   "free": "rock:nearest_rock",
    "generic": null,
    "index_count": 30,
    "index_offset": 1152360,
@@ -95485,7 +95746,7 @@
     0.3686
    ],
    "entity": null,
-   "free": "metal:nearest_metal",
+   "free": "stone_block:nearest_stone_block",
    "generic": null,
    "index_count": 6,
    "index_offset": 1152608,
@@ -97061,7 +97322,7 @@
     0.4292
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 39,
    "index_offset": 1297584,
@@ -97088,7 +97349,7 @@
     0.7016
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 318,
    "index_offset": 1303884,
@@ -97115,7 +97376,7 @@
     0.328
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 33,
    "index_offset": 1305764,
@@ -97196,8 +97457,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 714,
    "index_offset": 1404448,
    "material": "props/acousticceiling002a",
@@ -97967,7 +98228,7 @@
     0.5341
    ],
    "entity": null,
-   "free": "wood_planks:nearest_wood_planks",
+   "free": "sand:nearest_sand",
    "generic": null,
    "index_count": 6,
    "index_offset": 1454112,
@@ -98075,7 +98336,7 @@
     0.5964
    ],
    "entity": null,
-   "free": "corrugated:nearest_corrugated",
+   "free": "rock:nearest_rock",
    "generic": null,
    "index_count": 12,
    "index_offset": 1455760,
@@ -99483,7 +99744,7 @@
     0.4279
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 156,
    "index_offset": 1570948,
@@ -99606,7 +99867,7 @@
     0.7016
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 3201,
    "index_offset": 1629812,
@@ -99633,7 +99894,7 @@
     0.4892
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 198,
    "index_offset": 1646456,
@@ -99660,7 +99921,7 @@
     0.7013
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 405,
    "index_offset": 1653776,
@@ -99741,8 +100002,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 921,
    "index_offset": 1729304,
    "material": "props/acousticceiling002a",
@@ -101755,7 +102016,7 @@
     0.4279
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 108,
    "index_offset": 1928012,
@@ -101942,7 +102203,7 @@
     0.6747
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 159,
    "index_offset": 1932752,
@@ -101969,7 +102230,7 @@
     0.328
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 36,
    "index_offset": 1934156,
@@ -101996,7 +102257,7 @@
     0.3463
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 6,
    "index_offset": 1934428,
@@ -102023,7 +102284,7 @@
     0.5291
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 12,
    "index_offset": 1934644,
@@ -102104,8 +102365,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 513,
    "index_offset": 1995252,
    "material": "props/acousticceiling002a",
@@ -103062,8 +103323,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 81,
    "index_offset": 2136208,
    "material": "props/acousticceiling002a",
@@ -103876,7 +104137,7 @@
     0.7016
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 540,
    "index_offset": 2282192,
@@ -103957,8 +104218,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 423,
    "index_offset": 2331496,
    "material": "props/acousticceiling002a",
@@ -104210,7 +104471,7 @@
     0.4569
    ],
    "entity": null,
-   "free": "generated:flat:bfbf80",
+   "free": "sand:nearest_sand",
    "generic": null,
    "index_count": 6,
    "index_offset": 2421420,
@@ -104345,7 +104606,7 @@
     0.2278
    ],
    "entity": null,
-   "free": "rust:nearest_rust",
+   "free": "roof_clay:nearest_roof_clay",
    "generic": null,
    "index_count": 6,
    "index_offset": 2440316,
@@ -105926,7 +106187,7 @@
     0.4279
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 75,
    "index_offset": 2638640,
@@ -105985,7 +106246,7 @@
     0.7016
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 252,
    "index_offset": 2645388,
@@ -106012,7 +106273,7 @@
     0.328
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 36,
    "index_offset": 2647036,
@@ -106093,8 +106354,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 828,
    "index_offset": 2753768,
    "material": "props/acousticceiling002a",
@@ -106616,8 +106877,8 @@
     0.4071
    ],
    "entity": null,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 888,
    "index_offset": 3022600,
    "material": "cs_assault/assault_metalcrate001a",
@@ -106627,11 +106888,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 3017864,
    "vertex_count": 592
@@ -106702,7 +106958,7 @@
     0.5548
    ],
    "entity": null,
-   "free": "corrugated:nearest_corrugated",
+   "free": "rock:nearest_rock",
    "generic": null,
    "index_count": 204,
    "index_offset": 3033880,
@@ -106864,7 +107120,7 @@
     0.577
    ],
    "entity": null,
-   "free": "corrugated:nearest_corrugated",
+   "free": "rock:nearest_rock",
    "generic": null,
    "index_count": 30,
    "index_offset": 3046592,
@@ -106891,7 +107147,7 @@
     0.5442
    ],
    "entity": null,
-   "free": "corrugated:nearest_corrugated",
+   "free": "rock:nearest_rock",
    "generic": null,
    "index_count": 18,
    "index_offset": 3047096,
@@ -107053,7 +107309,7 @@
     0.5009
    ],
    "entity": null,
-   "free": "concrete:nearest_concrete",
+   "free": "rock:nearest_rock",
    "generic": null,
    "index_count": 6,
    "index_offset": 3053620,
@@ -107080,7 +107336,7 @@
     0.3629
    ],
    "entity": null,
-   "free": "metal:nearest_metal",
+   "free": "stone_block:nearest_stone_block",
    "generic": null,
    "index_count": 30,
    "index_offset": 3054284,
@@ -108788,8 +109044,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 672,
    "index_offset": 3316968,
    "material": "props/acousticceiling002a",
@@ -110081,7 +110337,7 @@
     0.328
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 18,
    "index_offset": 3415316,
@@ -110162,8 +110418,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 177,
    "index_offset": 3486684,
    "material": "props/acousticceiling002a",
@@ -110682,8 +110938,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 21,
    "index_offset": 3500784,
    "material": "props/acousticceiling002a",
@@ -111564,8 +111820,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 111,
    "index_offset": 3609256,
    "material": "props/acousticceiling002a",
@@ -111741,8 +111997,8 @@
     0.4071
    ],
    "entity": null,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 12,
    "index_offset": 3895704,
    "material": "cs_assault/assault_metalcrate001a",
@@ -111752,11 +112008,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 3895640,
    "vertex_count": 8
@@ -111773,7 +112024,7 @@
     0.5548
    ],
    "entity": null,
-   "free": "corrugated:nearest_corrugated",
+   "free": "rock:nearest_rock",
    "generic": null,
    "index_count": 6,
    "index_offset": 3895880,
@@ -111800,7 +112051,7 @@
     0.5974
    ],
    "entity": null,
-   "free": "corrugated:nearest_corrugated",
+   "free": "rock:nearest_rock",
    "generic": null,
    "index_count": 30,
    "index_offset": 3896544,
@@ -112232,8 +112483,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 165,
    "index_offset": 3978860,
    "material": "props/acousticceiling002a",
@@ -112723,8 +112974,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 51,
    "index_offset": 4025452,
    "material": "props/acousticceiling002a",
@@ -113253,8 +113504,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 30,
    "index_offset": 4066748,
    "material": "props/acousticceiling002a",
@@ -114961,8 +115212,8 @@
     0.7268
    ],
    "entity": 518,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 6,
    "index_offset": 4206528,
    "material": "props/acousticceiling002a",
@@ -115218,7 +115469,7 @@
     0.4569
    ],
    "entity": 593,
-   "free": "generated:flat:bfbf80",
+   "free": "sand:nearest_sand",
    "generic": null,
    "index_count": 6,
    "index_offset": 4209872,
@@ -115831,7 +116082,7 @@
     0.5548
    ],
    "entity": 885,
-   "free": "corrugated:nearest_corrugated",
+   "free": "rock:nearest_rock",
    "generic": null,
    "index_count": 36,
    "index_offset": 4220544,
@@ -115854,7 +116105,7 @@
     0.5548
    ],
    "entity": 886,
-   "free": "corrugated:nearest_corrugated",
+   "free": "rock:nearest_rock",
    "generic": null,
    "index_count": 36,
    "index_offset": 4221456,
@@ -115877,8 +116128,8 @@
     0.4071
    ],
    "entity": 888,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 36,
    "index_offset": 4222368,
    "material": "cs_assault/assault_metalcrate001a",
@@ -115888,11 +116139,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 4222176,
    "vertex_count": 24
@@ -115905,8 +116151,8 @@
     0.4071
    ],
    "entity": 889,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 36,
    "index_offset": 4223280,
    "material": "cs_assault/assault_metalcrate001a",
@@ -115916,11 +116162,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 4223088,
    "vertex_count": 24
@@ -115933,8 +116174,8 @@
     0.4071
    ],
    "entity": 890,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 36,
    "index_offset": 4224192,
    "material": "cs_assault/assault_metalcrate001a",
@@ -115944,11 +116185,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 4224000,
    "vertex_count": 24
@@ -115961,8 +116197,8 @@
     0.4071
    ],
    "entity": 891,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 36,
    "index_offset": 4225104,
    "material": "cs_assault/assault_metalcrate001a",
@@ -115972,11 +116208,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 4224912,
    "vertex_count": 24
@@ -116058,7 +116289,7 @@
     0.5548
    ],
    "entity": 989,
-   "free": "corrugated:nearest_corrugated",
+   "free": "rock:nearest_rock",
    "generic": null,
    "index_count": 36,
    "index_offset": 4227840,
@@ -116081,7 +116312,7 @@
     0.5548
    ],
    "entity": 990,
-   "free": "corrugated:nearest_corrugated",
+   "free": "rock:nearest_rock",
    "generic": null,
    "index_count": 36,
    "index_offset": 4228752,
@@ -116472,7 +116703,7 @@
     0.483
    ],
    "entity": 1013,
-   "free": "wood_planks:nearest_wood_planks",
+   "free": "sand:nearest_sand",
    "generic": null,
    "index_count": 36,
    "index_offset": 4243344,
@@ -116495,7 +116726,7 @@
     0.483
    ],
    "entity": 1014,
-   "free": "wood_planks:nearest_wood_planks",
+   "free": "sand:nearest_sand",
    "generic": null,
    "index_count": 36,
    "index_offset": 4244256,
@@ -116518,7 +116749,7 @@
     0.483
    ],
    "entity": 1015,
-   "free": "wood_planks:nearest_wood_planks",
+   "free": "sand:nearest_sand",
    "generic": null,
    "index_count": 36,
    "index_offset": 4245168,
@@ -116541,7 +116772,7 @@
     0.483
    ],
    "entity": 1016,
-   "free": "wood_planks:nearest_wood_planks",
+   "free": "sand:nearest_sand",
    "generic": null,
    "index_count": 36,
    "index_offset": 4246080,
@@ -116564,7 +116795,7 @@
     0.483
    ],
    "entity": 1017,
-   "free": "wood_planks:nearest_wood_planks",
+   "free": "sand:nearest_sand",
    "generic": null,
    "index_count": 36,
    "index_offset": 4246992,
@@ -116587,7 +116818,7 @@
     0.483
    ],
    "entity": 1018,
-   "free": "wood_planks:nearest_wood_planks",
+   "free": "sand:nearest_sand",
    "generic": null,
    "index_count": 36,
    "index_offset": 4247904,
@@ -116610,7 +116841,7 @@
     0.483
    ],
    "entity": 1019,
-   "free": "wood_planks:nearest_wood_planks",
+   "free": "sand:nearest_sand",
    "generic": null,
    "index_count": 36,
    "index_offset": 4248816,
@@ -117001,7 +117232,7 @@
     0.483
    ],
    "entity": 1353,
-   "free": "wood_planks:nearest_wood_planks",
+   "free": "sand:nearest_sand",
    "generic": null,
    "index_count": 36,
    "index_offset": 4262800,
@@ -117024,7 +117255,7 @@
     0.483
    ],
    "entity": 1354,
-   "free": "wood_planks:nearest_wood_planks",
+   "free": "sand:nearest_sand",
    "generic": null,
    "index_count": 36,
    "index_offset": 4263712,
@@ -117047,7 +117278,7 @@
     0.483
    ],
    "entity": 1355,
-   "free": "wood_planks:nearest_wood_planks",
+   "free": "sand:nearest_sand",
    "generic": null,
    "index_count": 36,
    "index_offset": 4264624,
@@ -117162,7 +117393,7 @@
     0.483
    ],
    "entity": 1360,
-   "free": "wood_planks:nearest_wood_planks",
+   "free": "sand:nearest_sand",
    "generic": null,
    "index_count": 36,
    "index_offset": 4269184,
@@ -117185,7 +117416,7 @@
     0.483
    ],
    "entity": 1361,
-   "free": "wood_planks:nearest_wood_planks",
+   "free": "sand:nearest_sand",
    "generic": null,
    "index_count": 36,
    "index_offset": 4270096,
@@ -117208,7 +117439,7 @@
     0.483
    ],
    "entity": 1362,
-   "free": "wood_planks:nearest_wood_planks",
+   "free": "sand:nearest_sand",
    "generic": null,
    "index_count": 36,
    "index_offset": 4271008,

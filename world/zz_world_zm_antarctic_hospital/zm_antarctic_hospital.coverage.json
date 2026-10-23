@@ -1,0 +1,200 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "zs_antarctic_hospital",
+ "sha256": "0df5e296e4460ca3f8521e883ca63ed975572d60149fa6be2e60665157c6ede1",
+ "textures": {
+  "looked_up": 48,
+  "by_tier": {
+   "default": 48
+  },
+  "free_by_tier": {
+   "default": 14
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 72,
+  "by_tier": {
+   "default": 55,
+   "fallback": 17
+  }
+ },
+ "sounds": {
+  "looked_up": 1,
+  "by_tier": {
+   "default": 1
+  }
+ },
+ "classes": {
+  "distinct": 40,
+  "entities": 724,
+  "by_tier": {
+   "default": 40
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "health",
+    "pitch",
+    "pitchstart"
+   ],
+   "func_breakable": [
+    "disablereceiveshadows",
+    "disableshadows",
+    "material",
+    "nodamageforces",
+    "spawnobject"
+   ],
+   "func_button": [
+    "disablereceiveshadows"
+   ],
+   "func_physbox": [
+    "ExplodeDamage",
+    "ExplodeRadius",
+    "PerformanceMode",
+    "disablereceiveshadows",
+    "disableshadows",
+    "explodemagnitude",
+    "explosion",
+    "gibdir",
+    "health",
+    "material",
+    "nodamageforces",
+    "pressuredelay",
+    "propdata",
+    "renderamt",
+    "rendercolor",
+    "renderfx",
+    "rendermode",
+    "spawnobject"
+   ],
+   "item_healthcharger": [
+    "fademindist",
+    "fadescale"
+   ],
+   "light_spot": [
+    "_cone",
+    "_exponent",
+    "_inner_cone",
+    "pitch"
+   ],
+   "npc_enemyfinder": [
+    "FieldOfView",
+    "MaxSearchDist",
+    "StartOn",
+    "freepass_movetolerance",
+    "freepass_refillrate"
+   ],
+   "point_spotlight": [
+    "disablereceiveshadows"
+   ],
+   "prop_dynamic": [
+    "fademindist",
+    "fadescale",
+    "solid"
+   ],
+   "prop_physics": [
+    "disablereceiveshadows",
+    "disableshadows",
+    "nodamageforces",
+    "shadowcastdist"
+   ],
+   "worldspawn": [
+    "mapversion",
+    "message"
+   ]
+  }
+ },
+ "links": {
+  "total": 7,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [
+   "",
+   "props_c17/cashregister01a.mdl",
+   "props_c17/metalladder002.mdl",
+   "props_c17/metalladder002b.mdl",
+   "props_c17/metalpot001a.mdl",
+   "props_c17/metalpot002a.mdl",
+   "props_c17/tools_pliers01a.mdl",
+   "props_c17/tools_wrench01a.mdl",
+   "props_c17/utilitypole01a.mdl",
+   "props_combine/breenglobe.mdl",
+   "props_interiors/furniture_vanity01a.mdl",
+   "props_interiors/radiator01a.mdl",
+   "props_junk/popcan01a.mdl",
+   "props_lab/harddrive02.mdl",
+   "props_lab/lab_flourescentlight002b.mdl",
+   "props_wasteland/kitchen_counter001d.mdl",
+   "tools/camera/camera.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.health",
+   "ambient_generic.pitch",
+   "ambient_generic.pitchstart",
+   "func_breakable.disablereceiveshadows",
+   "func_breakable.disableshadows",
+   "func_breakable.material",
+   "func_breakable.nodamageforces",
+   "func_breakable.spawnobject",
+   "func_button.disablereceiveshadows",
+   "func_physbox.ExplodeDamage",
+   "func_physbox.ExplodeRadius",
+   "func_physbox.PerformanceMode",
+   "func_physbox.disablereceiveshadows",
+   "func_physbox.disableshadows",
+   "func_physbox.explodemagnitude",
+   "func_physbox.explosion",
+   "func_physbox.gibdir",
+   "func_physbox.health",
+   "func_physbox.material",
+   "func_physbox.nodamageforces",
+   "func_physbox.pressuredelay",
+   "func_physbox.propdata",
+   "func_physbox.renderamt",
+   "func_physbox.rendercolor",
+   "func_physbox.renderfx",
+   "func_physbox.rendermode",
+   "func_physbox.spawnobject",
+   "item_healthcharger.fademindist",
+   "item_healthcharger.fadescale",
+   "light_spot._cone",
+   "light_spot._exponent",
+   "light_spot._inner_cone",
+   "light_spot.pitch",
+   "npc_enemyfinder.FieldOfView",
+   "npc_enemyfinder.MaxSearchDist",
+   "npc_enemyfinder.StartOn",
+   "npc_enemyfinder.freepass_movetolerance",
+   "npc_enemyfinder.freepass_refillrate",
+   "point_spotlight.disablereceiveshadows",
+   "prop_dynamic.fademindist",
+   "prop_dynamic.fadescale",
+   "prop_dynamic.solid",
+   "prop_physics.disablereceiveshadows",
+   "prop_physics.disableshadows",
+   "prop_physics.nodamageforces",
+   "prop_physics.shadowcastdist",
+   "worldspawn.mapversion",
+   "worldspawn.message"
+  ],
+  "links_unresolved": []
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 17,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 48,
+  "links_unresolved": 0
+ }
+}

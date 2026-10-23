@@ -1,0 +1,72 @@
+{
+ "id": "ze_potc",
+ "name": "Potc",
+ "source": "ze_potc_v3_4fix.bsp",
+ "author": "FreeZe (Key Author); Kaemon (contributor)",
+ "page": "https://gamebanana.com/mods/130933",
+ "licence": "CC BY-NC-ND 4.0",
+ "blurb": "Run for it: an escape map converted from FreeZe's ze_potc_v3_4fix.",
+ "mode": "exodus",
+ "survivors": 8,
+ "survivor_class": "info_player_counterterrorist",
+ "zombie_classes": [
+  "info_player_terrorist"
+ ],
+ "solid_classes": [
+  "func_breakable",
+  "func_brush",
+  "func_tracktrain"
+ ],
+ "flood_step": 0.3,
+ "thin_walls": true,
+ "toys": [
+  [
+   "barrel",
+   "spawn",
+   3,
+   -2
+  ],
+  [
+   "tyre",
+   "spawn",
+   -3,
+   2
+  ]
+ ],
+ "items_auto": true,
+ "auto_lights": {
+  "spacing": 6.0,
+  "height": 2.3,
+  "range": 7.0,
+  "energy": 0.9
+ },
+ "prop_models": {
+  "models/props/de_inferno/wine_barrel.mdl": "survival_barrel",
+  "models/shiroko/ot_tree06.mdl": "nature_tree_default",
+  "models/props/de_dust/palm_tree_full.mdl": "nature_tree_default",
+  "models/senne/palms/palmtree00a_tall.mdl": "nature_tree_default",
+  "models/plants/bananatree.mdl": "nature_tree_default",
+  "models/shiroko/ot_gianttree01.mdl": "nature_tree_default",
+  "models/props/de_dust/du_crate_64x64_stone.mdl": "survival_box"
+ },
+ "generated": true,
+ "gate_classes": [
+  "func_door",
+  "func_door_rotating",
+  "func_movelinear"
+ ],
+ "holdout": 25,
+ "gate_label": "Open the door",
+ "drop_buried": true,
+ "route_bridge": true,
+ "terrain": {
+  "cell": 400,
+  "quant": 30
+ },
+ "terrain_mat": "grass",
+ "drop_small": [
+  0.3,
+  3.0
+ ],
+ "max_boxes": 3500
+}

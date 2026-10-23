@@ -1,0 +1,94 @@
+{
+ "id": "zs_verystill",
+ "name": "Verystill",
+ "source": "zs_verystill_v1a.bsp",
+ "author": "doggy prozac",
+ "page": "https://steamcommunity.com/sharedfiles/filedetails/?id=3209397565",
+ "licence": "none stated (Steam Workshop)",
+ "blurb": "Hold out against the horde.",
+ "mode": "survival",
+ "survivors": 8,
+ "survivor_class": "info_player_human",
+ "zombie_classes": [
+  "info_player_zombie"
+ ],
+ "solid_classes": [
+  "func_brush"
+ ],
+ "flood_step": 0.3,
+ "thin_walls": true,
+ "toys": [
+  [
+   "barrel",
+   "spawn",
+   3,
+   -2
+  ],
+  [
+   "tyre",
+   "spawn",
+   -3,
+   2
+  ]
+ ],
+ "items_auto": true,
+ "auto_lights": {
+  "spacing": 6.0,
+  "height": 2.3,
+  "range": 7.0,
+  "energy": 0.9
+ },
+ "prop_models": {
+  "models/props_interiors/table_folding_folded.mdl": "furniture_table",
+  "models/props_c17/chair_stool01a.mdl": "furniture_chair",
+  "models/props_wasteland/kitchen_shelf001a.mdl": "furniture_bookcase_closed",
+  "models/props_junk/soda_box001a_open.mdl": "survival_box",
+  "models/props_lab/monitor02.mdl": "furniture_television_modern",
+  "models/props_c17/chair_office01a.mdl": "furniture_chair",
+  "models/props_wasteland/controlroom_chair001a.mdl": "furniture_chair",
+  "models/props_c17/furnituretable002a.mdl": "furniture_table",
+  "models/props_junk/plasticcrate01a.mdl": "survival_box",
+  "models/props_wasteland/kitchen_shelf002a.mdl": "furniture_bookcase_closed",
+  "models/props_junk/cardboard_box003a.mdl": "cars_sedan",
+  "models/props_junk/cardboard_box001a.mdl": "cars_sedan",
+  "models/props_junk/cardboard_box002a.mdl": "cars_sedan",
+  "models/props_junk/wood_crate003a.mdl": "survival_box",
+  "models/props_junk/cardboardbox08a.mdl": "cars_sedan",
+  "models/props_c17/chair02a.mdl": "furniture_chair",
+  "models/props_interiors/furniture_chair03a.mdl": "furniture_chair",
+  "models/props_junk/soda_box001a.mdl": "survival_box",
+  "models/donald/props_junk/pushcart04a.mdl": "cars_sedan",
+  "models/props_lab/mobiletable01.mdl": "furniture_table",
+  "models/props_junk/cardboardbox07.mdl": "cars_sedan",
+  "models/props_c17/hospital_shelf01.mdl": "furniture_bookcase_closed",
+  "models/props_junk/cardboardbox04.mdl": "cars_sedan",
+  "models/props_junk/wood_crate001b.mdl": "survival_box",
+  "models/props_junk/wood_crate001a_half.mdl": "survival_box",
+  "models/props_junk/wood_crate001a.mdl": "survival_box",
+  "models/props_c17/oildrum001.mdl": "survival_barrel",
+  "models/donald/props_junk/pushcart03a.mdl": "cars_sedan",
+  "models/props_interiors/table_folding.mdl": "furniture_table",
+  "models/props_interiors/chair_office2.mdl": "furniture_chair",
+  "models/props_junk/wood_pallet001a.mdl": "urban_pallet",
+  "models/props_junk/cardboardbox06.mdl": "cars_sedan",
+  "models/props_industrial/smalltoolbox.mdl": "survival_box",
+  "models/props_junk/wood_pallet001a_chunka3.mdl": "urban_pallet",
+  "models/props_junk/wood_crate002a_half.mdl": "survival_box",
+  "models/props_junk/pushcart01a.mdl": "cars_sedan",
+  "models/props_junk/vegbox01.mdl": "survival_box",
+  "models/props_junk/cardboardbox05.mdl": "cars_sedan",
+  "models/props_wasteland/prison_toilet01.mdl": "furniture_toilet",
+  "models/donald/props_junk/pushcart05a.mdl": "cars_sedan"
+ },
+ "generated": true,
+ "survive_seconds": 600,
+ "posts": 6,
+ "caches_near_posts": true,
+ "drop_ramps": 0.9,
+ "greedy_floors": true,
+ "thin_lintels": true,
+ "drop_small": [
+  0.15,
+  1.5
+ ]
+}

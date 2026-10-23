@@ -1,0 +1,77 @@
+{
+ "id": "zs_slugde",
+ "name": "Slugde",
+ "source": "zs_slugde.bsp",
+ "author": "Ethosaur",
+ "page": "https://steamcommunity.com/sharedfiles/filedetails/?id=323893414",
+ "licence": "none stated (Steam Workshop)",
+ "blurb": "Hold out against the horde.",
+ "mode": "survival",
+ "survivors": 8,
+ "survivor_class": "info_player_human",
+ "zombie_classes": [
+  "info_player_zombie"
+ ],
+ "solid_classes": [
+  "func_brush"
+ ],
+ "flood_step": 0.3,
+ "thin_walls": true,
+ "toys": [
+  [
+   "barrel",
+   "spawn",
+   3,
+   -2
+  ],
+  [
+   "tyre",
+   "spawn",
+   -3,
+   2
+  ]
+ ],
+ "items_auto": true,
+ "auto_lights": {
+  "spacing": 6.0,
+  "height": 2.3,
+  "range": 7.0,
+  "energy": 0.9
+ },
+ "prop_models": {
+  "models/props_wasteland/controlroom_desk001a.mdl": "furniture_table",
+  "models/props_wasteland/kitchen_shelf001a.mdl": "furniture_bookcase_closed",
+  "models/props_junk/wood_crate001a.mdl": "survival_box",
+  "models/props_junk/plasticcrate01a.mdl": "survival_box",
+  "models/props_wasteland/cafeteria_table001a.mdl": "furniture_table",
+  "models/props_interiors/furniture_chair03a.mdl": "furniture_chair",
+  "models/props_c17/furnituretable002a.mdl": "furniture_table",
+  "models/props_c17/furnituretable001a.mdl": "furniture_table",
+  "models/props_c17/furniturechair001a.mdl": "furniture_chair",
+  "models/props_c17/chair_office01a.mdl": "furniture_chair",
+  "models/props_lab/monitor02.mdl": "furniture_television_modern",
+  "models/props_junk/wood_crate002a.mdl": "survival_box",
+  "models/props_c17/shelfunit01a.mdl": "furniture_bookcase_closed",
+  "models/props_c17/lockers001a.mdl": "furniture_bookcase_closed_doors",
+  "models/props_c17/furniturecouch001a.mdl": "furniture_lounge_sofa",
+  "models/props_wasteland/controlroom_chair001a.mdl": "furniture_chair",
+  "models/props_lab/box01a.mdl": "survival_box",
+  "models/props_lab/box01b.mdl": "survival_box",
+  "models/props_junk/wood_pallet001a.mdl": "urban_pallet",
+  "models/props_c17/oildrum001.mdl": "survival_barrel",
+  "models/props_wasteland/cafeteria_bench001a.mdl": "furniture_bench",
+  "models/props_wasteland/prison_bedframe001b.mdl": "furniture_bed_single",
+  "models/props_junk/pushcart01a.mdl": "cars_sedan"
+ },
+ "generated": true,
+ "survive_seconds": 600,
+ "posts": 6,
+ "caches_near_posts": true,
+ "drop_ramps": 0.9,
+ "greedy_floors": true,
+ "thin_lintels": true,
+ "drop_small": [
+  0.15,
+  1.5
+ ]
+}

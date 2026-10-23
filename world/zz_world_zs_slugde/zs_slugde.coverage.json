@@ -1,0 +1,142 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "zs_slugde",
+ "sha256": "1db50335ec340585305aaf20673d72ec238a954103eb0798d81426599b9c38fb",
+ "textures": {
+  "looked_up": 59,
+  "by_tier": {
+   "default": 59
+  },
+  "free_by_tier": {
+   "default": 9
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 53,
+  "by_tier": {
+   "default": 40,
+   "fallback": 13
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 35,
+  "entities": 845,
+  "by_tier": {
+   "default": 35
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "func_breakable": [
+    "disablereceiveshadows",
+    "disableshadows",
+    "material",
+    "nodamageforces",
+    "spawnobject"
+   ],
+   "func_rotating": [
+    "disablereceiveshadows",
+    "disableshadows"
+   ],
+   "item_healthcharger": [
+    "fademindist",
+    "fadescale"
+   ],
+   "light_spot": [
+    "_cone",
+    "_exponent",
+    "_inner_cone",
+    "pitch"
+   ],
+   "npc_enemyfinder": [
+    "FieldOfView",
+    "MaxSearchDist",
+    "StartOn",
+    "freepass_movetolerance",
+    "freepass_refillrate"
+   ],
+   "point_spotlight": [
+    "disablereceiveshadows"
+   ],
+   "prop_door_rotating": [
+    "speed"
+   ],
+   "prop_physics": [
+    "disablereceiveshadows",
+    "nodamageforces",
+    "shadowcastdist"
+   ],
+   "worldspawn": [
+    "mapversion"
+   ]
+  }
+ },
+ "links": {
+  "total": 4,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [
+   "props_c17/door01_left.mdl",
+   "props_c17/furniturepipecluster001a.mdl",
+   "props_c17/gasmeter001a.mdl",
+   "props_c17/gate_door02a.mdl",
+   "props_c17/metalladder001.mdl",
+   "props_junk/bicycle01a.mdl",
+   "props_junk/glassbottle01a.mdl",
+   "props_lab/generatorconsole.mdl",
+   "props_lab/harddrive01.mdl",
+   "props_pipes/pipeset32d_128_001a.mdl",
+   "props_wasteland/prison_flourescentlight001a.mdl",
+   "props_wasteland/prison_flourescentlight001b.mdl",
+   "props_wasteland/prison_flourescentlight002b.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "func_breakable.disablereceiveshadows",
+   "func_breakable.disableshadows",
+   "func_breakable.material",
+   "func_breakable.nodamageforces",
+   "func_breakable.spawnobject",
+   "func_rotating.disablereceiveshadows",
+   "func_rotating.disableshadows",
+   "item_healthcharger.fademindist",
+   "item_healthcharger.fadescale",
+   "light_spot._cone",
+   "light_spot._exponent",
+   "light_spot._inner_cone",
+   "light_spot.pitch",
+   "npc_enemyfinder.FieldOfView",
+   "npc_enemyfinder.MaxSearchDist",
+   "npc_enemyfinder.StartOn",
+   "npc_enemyfinder.freepass_movetolerance",
+   "npc_enemyfinder.freepass_refillrate",
+   "point_spotlight.disablereceiveshadows",
+   "prop_door_rotating.speed",
+   "prop_physics.disablereceiveshadows",
+   "prop_physics.nodamageforces",
+   "prop_physics.shadowcastdist",
+   "worldspawn.mapversion"
+  ],
+  "links_unresolved": []
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 13,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 24,
+  "links_unresolved": 0
+ }
+}

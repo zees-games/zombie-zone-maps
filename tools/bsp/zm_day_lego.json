@@ -1,0 +1,58 @@
+{
+ "id": "zm_day_lego",
+ "name": "Day Lego",
+ "source": "zm_day_lego_v2_fix.bsp",
+ "author": "Ayrton09 (map creator)",
+ "page": "https://gamebanana.com/mods/131650",
+ "licence": "CC BY-NC-ND 4.0",
+ "blurb": "Hold out against the horde.",
+ "mode": "survival",
+ "survivors": 8,
+ "survivor_class": "info_player_counterterrorist",
+ "zombie_classes": [
+  "info_player_terrorist"
+ ],
+ "solid_classes": [
+  "func_brush"
+ ],
+ "flood_step": 0.3,
+ "thin_walls": true,
+ "toys": [
+  [
+   "barrel",
+   "spawn",
+   3,
+   -2
+  ],
+  [
+   "tyre",
+   "spawn",
+   -3,
+   2
+  ]
+ ],
+ "items_auto": true,
+ "auto_lights": {
+  "spacing": 6.0,
+  "height": 2.3,
+  "range": 7.0,
+  "energy": 0.9
+ },
+ "prop_models": {
+  "models/props/cs_office/sofa_chair.mdl": "furniture_chair",
+  "models/props_c17/oildrum001_explosive.mdl": "survival_barrel",
+  "models/props/de_inferno/crates_fruit1.mdl": "survival_box",
+  "models/props/de_inferno/crates_fruit2.mdl": "survival_box"
+ },
+ "generated": true,
+ "survive_seconds": 600,
+ "posts": 6,
+ "caches_near_posts": true,
+ "drop_ramps": 0.9,
+ "greedy_floors": true,
+ "thin_lintels": true,
+ "drop_small": [
+  0.15,
+  1.5
+ ]
+}

@@ -13858,10 +13858,9 @@
     "source": "ambientCG",
     "sources": [
      "concrete/concreteceiling002a",
-     "cs_havana/ceiling01",
-     "props/acousticceiling002a"
+     "cs_havana/ceiling01"
     ],
-    "surfaces": 20,
+    "surfaces": 10,
     "url": "https://ambientcg.com/view?id=Concrete034"
    },
    {
@@ -13914,6 +13913,8 @@
     "source": "ambientCG",
     "sources": [
      "concrete/metalwall001b_cheap",
+     "cs_assault/assault_metalcrate001c_red",
+     "cs_assault/assault_metalcrate001d",
      "cs_havana/metal01",
      "cs_havana/metal02",
      "cs_havana/metalwall085a",
@@ -13947,7 +13948,7 @@
      "props/elevatorbutton003b",
      "props/metalduct004a"
     ],
-    "surfaces": 170,
+    "surfaces": 175,
     "url": "https://ambientcg.com/view?id=Metal063"
    },
    {
@@ -13957,18 +13958,18 @@
      0.5,
      0.375
     ],
-    "file": "surfaces/concrete_clean",
-    "generic": "stone_wall",
+    "file": "surfaces/rock",
+    "generic": "rock",
     "how": "table",
-    "key": "concrete_clean:stone_wall",
-    "kind": "concrete_clean",
+    "key": "rock:rock",
+    "kind": "rock",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
      "cs_havana/rockwall011d"
     ],
     "surfaces": 8,
-    "url": "https://ambientcg.com/view?id=Concrete034"
+    "url": "https://ambientcg.com/view?id=Rock023"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -14082,27 +14083,6 @@
     "colour": [
      0.25,
      0.25,
-     0.375
-    ],
-    "file": "surfaces/plaster",
-    "generic": "plaster_painted",
-    "how": "table",
-    "key": "plaster:plaster_painted",
-    "kind": "plaster",
-    "licence": "CC0-1.0",
-    "source": "ambientCG",
-    "sources": [
-     "cs_assault/assault_metalcrate001c_red",
-     "cs_assault/assault_metalcrate001d"
-    ],
-    "surfaces": 5,
-    "url": "https://ambientcg.com/view?id=PaintedPlaster017"
-   },
-   {
-    "author": "Lennart Demes and contributors",
-    "colour": [
-     0.25,
-     0.25,
      0.25
     ],
     "file": "surfaces/tile_dark",
@@ -14139,6 +14119,26 @@
     ],
     "surfaces": 18,
     "url": "https://ambientcg.com/view?id=Tiles107"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.75,
+     0.75,
+     0.75
+    ],
+    "file": "surfaces/ceiling_tile",
+    "generic": "ceiling_tile",
+    "how": "table",
+    "key": "ceiling_tile:ceiling_tile",
+    "kind": "ceiling_tile",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "props/acousticceiling002a"
+    ],
+    "surfaces": 10,
+    "url": "https://ambientcg.com/view?id=OfficeCeiling005"
    },
    {
     "author": "TMC (generated)",
@@ -18565,6 +18565,238 @@
   "19 glass surfaces (kinds glass)",
   "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): METAL/METALARCH004B 20"
  ],
+ "pickups": [
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -71.3232,
+    21.1167,
+    25.4508
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -71.3232,
+    21.1167,
+    24.8412
+   ],
+   "props": {}
+  },
+  {
+   "angle": 90.0,
+   "classname": "weapon_m3",
+   "origin": [
+    -71.3232,
+    21.336,
+    25.1458
+   ],
+   "props": {}
+  },
+  {
+   "angle": 0.0,
+   "classname": "weapon_m249",
+   "origin": [
+    -34.9758,
+    28.6512,
+    15.3162
+   ],
+   "props": {}
+  },
+  {
+   "angle": 180.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -34.6716,
+    28.4319,
+    15.24
+   ],
+   "props": {}
+  },
+  {
+   "angle": 180.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -35.2812,
+    28.4319,
+    15.24
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -87.1728,
+    20.7936,
+    32.766
+   ],
+   "props": {}
+  },
+  {
+   "angle": 90.0,
+   "classname": "weapon_mac10",
+   "origin": [
+    -87.1728,
+    20.8788,
+    32.461
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -87.1728,
+    20.7936,
+    32.1564
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -42.0624,
+    10.1439,
+    32.004
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -42.0624,
+    10.1439,
+    31.3944
+   ],
+   "props": {}
+  },
+  {
+   "angle": 90.0,
+   "classname": "weapon_xm1014",
+   "origin": [
+    -42.0624,
+    10.3632,
+    31.699
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -17.9832,
+    0.9999,
+    47.7012
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -17.9832,
+    0.9999,
+    47.0916
+   ],
+   "props": {}
+  },
+  {
+   "angle": 90.0,
+   "classname": "weapon_g3sg1",
+   "origin": [
+    -17.9832,
+    1.2192,
+    47.3962
+   ],
+   "props": {}
+  },
+  {
+   "angle": 180.0,
+   "classname": "weapon_tmp",
+   "origin": [
+    11.5824,
+    28.194,
+    76.5048
+   ],
+   "props": {}
+  },
+  {
+   "angle": 0.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    11.915,
+    28.1271,
+    76.5048
+   ],
+   "props": {}
+  },
+  {
+   "angle": 0.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    11.3054,
+    28.1271,
+    76.5048
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_p90",
+   "origin": [
+    23.0124,
+    93.9546,
+    44.0434
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    22.86,
+    93.9639,
+    44.3484
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    22.86,
+    93.9639,
+    43.7388
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    23.4696,
+    93.9639,
+    44.3484
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    23.4696,
+    93.9639,
+    43.7388
+   ],
+   "props": {}
+  }
+ ],
  "props": [
   {
    "at": [
@@ -20372,8 +20604,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 384,
    "index_offset": 79304,
    "material": "cs_havana/rockwall011d",
@@ -20833,8 +21065,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 384,
    "index_offset": 135660,
    "material": "cs_havana/rockwall011d",
@@ -21049,8 +21281,8 @@
     0.4238
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 840,
    "index_offset": 163108,
    "material": "cs_havana/rockwall011d",
@@ -21377,8 +21609,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 1248,
    "index_offset": 207368,
    "material": "cs_havana/rockwall011d",
@@ -21404,8 +21636,8 @@
     0.4238
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 516,
    "index_offset": 219336,
    "material": "cs_havana/rockwall011d",
@@ -21570,8 +21802,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 2304,
    "index_offset": 242216,
    "material": "cs_havana/rockwall011d",
@@ -22665,8 +22897,8 @@
     0.3554
    ],
    "entity": null,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 258,
    "index_offset": 354776,
    "material": "cs_assault/assault_metalcrate001d",
@@ -22676,11 +22908,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 353944,
    "vertex_count": 104
@@ -22751,8 +22978,8 @@
     0.4238
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 210,
    "index_offset": 373692,
    "material": "cs_havana/rockwall011d",
@@ -23549,8 +23776,8 @@
     0.4238
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 96,
    "index_offset": 478892,
    "material": "cs_havana/rockwall011d",
@@ -23930,8 +24157,8 @@
     0.3111
    ],
    "entity": null,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 10125,
    "index_offset": 671152,
    "material": "cs_assault/assault_metalcrate001c_red",
@@ -23941,11 +24168,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 630712,
    "vertex_count": 5055
@@ -25209,8 +25431,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 354,
    "index_offset": 933192,
    "material": "props/acousticceiling002a",
@@ -26049,8 +26271,8 @@
     0.7268
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 651,
    "index_offset": 1076168,
    "material": "props/acousticceiling002a",
@@ -26395,8 +26617,8 @@
     0.3111
    ],
    "entity": 8,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 36,
    "index_offset": 1100280,
    "material": "cs_assault/assault_metalcrate001c_red",
@@ -26407,11 +26629,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 1100088,
    "vertex_count": 24
@@ -27065,8 +27282,8 @@
     0.7268
    ],
    "entity": 113,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 6,
    "index_offset": 1120144,
    "material": "props/acousticceiling002a",
@@ -27161,8 +27378,8 @@
     0.7268
    ],
    "entity": 114,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 6,
    "index_offset": 1121056,
    "material": "props/acousticceiling002a",
@@ -27257,8 +27474,8 @@
     0.7268
    ],
    "entity": 115,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 6,
    "index_offset": 1121968,
    "material": "props/acousticceiling002a",
@@ -27353,8 +27570,8 @@
     0.7268
    ],
    "entity": 118,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 6,
    "index_offset": 1122880,
    "material": "props/acousticceiling002a",
@@ -27769,8 +27986,8 @@
     0.7268
    ],
    "entity": 134,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 6,
    "index_offset": 1130544,
    "material": "props/acousticceiling002a",
@@ -27841,8 +28058,8 @@
     0.7268
    ],
    "entity": 135,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 6,
    "index_offset": 1131456,
    "material": "props/acousticceiling002a",
@@ -27913,8 +28130,8 @@
     0.7268
    ],
    "entity": 136,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 6,
    "index_offset": 1132368,
    "material": "props/acousticceiling002a",
@@ -27985,8 +28202,8 @@
     0.7268
    ],
    "entity": 139,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 6,
    "index_offset": 1133280,
    "material": "props/acousticceiling002a",
@@ -28681,8 +28898,8 @@
     0.3111
    ],
    "entity": 223,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 36,
    "index_offset": 1167976,
    "material": "cs_assault/assault_metalcrate001c_red",
@@ -28693,11 +28910,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 1167784,
    "vertex_count": 24
@@ -28998,8 +29210,8 @@
     0.3111
    ],
    "entity": 242,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 36,
    "index_offset": 1183064,
    "material": "cs_assault/assault_metalcrate001c_red",
@@ -29010,11 +29222,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 1182872,
    "vertex_count": 24

@@ -1,0 +1,391 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "zm_day_lego_v2_fix",
+ "sha256": "c04ce7a6691fc405624c45d9aa5757b436bb05b6f8015f75ef6d45eedca35d1c",
+ "textures": {
+  "looked_up": 45,
+  "by_tier": {
+   "default": 30,
+   "fallback": 15
+  },
+  "free_by_tier": {
+   "default": 10,
+   "fallback": 4
+  },
+  "nearest_photo": [
+   "boharox/lego/dawall_01",
+   "boharox/lego/dawall_03",
+   "boharox/lego/dawall_07midbot",
+   "boharox/lego/dawall_07midtop",
+   "boharox/lego/dawall_07stripes",
+   "boharox/lego/dawall_07stripmid",
+   "boharox/lego/dawall_09midbot",
+   "boharox/lego/dawall_09midtop",
+   "boharox/lego/dawall_middle",
+   "boharox/lego/thatwayshiny",
+   "boharox/lego/thatwayshiny2"
+  ]
+ },
+ "models": {
+  "looked_up": 29,
+  "by_tier": {
+   "default": 21,
+   "fallback": 8
+  }
+ },
+ "sounds": {
+  "looked_up": 4,
+  "by_tier": {
+   "default": 3,
+   "fallback": 1
+  }
+ },
+ "classes": {
+  "distinct": 44,
+  "entities": 773,
+  "by_tier": {
+   "default": 44
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "cspinup",
+    "fadeinsecs",
+    "fadeoutsecs",
+    "health",
+    "lfomodpitch",
+    "lfomodvol",
+    "lforate",
+    "lfotype",
+    "pitch",
+    "pitchstart",
+    "preset",
+    "spindown",
+    "spinup",
+    "volstart"
+   ],
+   "func_breakable": [
+    "disablereceiveshadows",
+    "disableshadows",
+    "gibmodel",
+    "material",
+    "nodamageforces",
+    "spawnobject"
+   ],
+   "func_breakable_surf": [
+    "ExplodeDamage",
+    "ExplodeRadius",
+    "PerformanceMode",
+    "disablereceiveshadows",
+    "disableshadows",
+    "explodemagnitude",
+    "explosion",
+    "gibdir",
+    "material",
+    "nodamageforces",
+    "pressuredelay",
+    "propdata",
+    "renderamt",
+    "rendercolor",
+    "renderfx",
+    "rendermode",
+    "spawnobject"
+   ],
+   "func_button": [
+    "disablereceiveshadows"
+   ],
+   "func_door": [
+    "disablereceiveshadows",
+    "disableshadows",
+    "locked_sentence",
+    "unlocked_sentence"
+   ],
+   "func_physbox": [
+    "ExplodeDamage",
+    "ExplodeRadius",
+    "PerformanceMode",
+    "disablereceiveshadows",
+    "disableshadows",
+    "explodemagnitude",
+    "explosion",
+    "gibdir",
+    "health",
+    "material",
+    "nodamageforces",
+    "pressuredelay",
+    "propdata",
+    "renderamt",
+    "rendercolor",
+    "renderfx",
+    "rendermode",
+    "spawnobject"
+   ],
+   "func_rotating": [
+    "disablereceiveshadows",
+    "disableshadows"
+   ],
+   "func_tracktrain": [
+    "disablereceiveshadows",
+    "disableshadows",
+    "speed",
+    "volume"
+   ],
+   "light_spot": [
+    "_cone",
+    "_exponent",
+    "_inner_cone",
+    "pitch"
+   ],
+   "path_track": [
+    "speed"
+   ],
+   "point_spotlight": [
+    "disablereceiveshadows"
+   ],
+   "prop_dynamic_override": [
+    "SetBodyGroup",
+    "disablereceiveshadows",
+    "disableshadows",
+    "fademaxdist",
+    "fademindist",
+    "fadescale",
+    "solid"
+   ],
+   "prop_physics": [
+    "disablereceiveshadows",
+    "nodamageforces",
+    "shadowcastdist"
+   ],
+   "prop_physics_multiplayer": [
+    "Damagetype",
+    "damagetoenablemotion",
+    "disableshadows",
+    "fademindist",
+    "fadescale",
+    "forcetoenablemotion",
+    "inertiaScale",
+    "massScale",
+    "minhealthdmg",
+    "nodamageforces",
+    "physdamagescale",
+    "renderamt",
+    "rendercolor",
+    "shadowcastdist",
+    "spawnflags"
+   ],
+   "prop_physics_override": [
+    "Damagetype",
+    "damagetoenablemotion",
+    "fademindist",
+    "fadescale",
+    "forcetoenablemotion",
+    "inertiaScale",
+    "massScale",
+    "minhealthdmg",
+    "nodamageforces",
+    "physdamagescale",
+    "shadowcastdist",
+    "skin",
+    "spawnflags"
+   ],
+   "prop_ragdoll": [
+    "disableshadows",
+    "fademaxdist",
+    "fademindist",
+    "fadescale"
+   ],
+   "trigger_push": [
+    "speed"
+   ],
+   "weapon_p228": [
+    "spawnflags"
+   ],
+   "weapon_tmp": [
+    "spawnflags"
+   ],
+   "weapon_usp": [
+    "spawnflags"
+   ],
+   "worldspawn": [
+    "mapversion"
+   ]
+  }
+ },
+ "links": {
+  "total": 27,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [
+   "BOHAROX/LEGO/DAFLOOR_05",
+   "BOHAROX/LEGO/DAWALL_01",
+   "BOHAROX/LEGO/DAWALL_03",
+   "BOHAROX/LEGO/DAWALL_05",
+   "BOHAROX/LEGO/DAWALL_07",
+   "BOHAROX/LEGO/DAWALL_07MIDBOT",
+   "BOHAROX/LEGO/DAWALL_07MIDTOP",
+   "BOHAROX/LEGO/DAWALL_07STRIPES",
+   "BOHAROX/LEGO/DAWALL_07STRIPMID",
+   "BOHAROX/LEGO/DAWALL_09",
+   "BOHAROX/LEGO/DAWALL_09MIDBOT",
+   "BOHAROX/LEGO/DAWALL_09MIDTOP",
+   "BOHAROX/LEGO/DAWALL_MIDDLE",
+   "BOHAROX/LEGO/THATWAYSHINY",
+   "BOHAROX/LEGO/THATWAYSHINY2"
+  ],
+  "textures_flat": [
+   "boharox/lego/dafloor_05",
+   "boharox/lego/dawall_05",
+   "boharox/lego/dawall_07",
+   "boharox/lego/dawall_09"
+  ],
+  "models_unmapped": [
+   "police.mdl",
+   "props/cs_assault/nostopssign.mdl",
+   "props/cs_havana/gazebo.mdl",
+   "props/cs_militia/food_stack.mdl",
+   "props/cs_office/exit_wall.mdl",
+   "props/de_nuke/ibeams_bombsitec.mdl",
+   "props_c17/metalladder002.mdl",
+   "props_trainstation/tracksign10.mdl"
+  ],
+  "sounds_unmapped": [
+   "player/pl_pain5.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.cspinup",
+   "ambient_generic.fadeinsecs",
+   "ambient_generic.fadeoutsecs",
+   "ambient_generic.health",
+   "ambient_generic.lfomodpitch",
+   "ambient_generic.lfomodvol",
+   "ambient_generic.lforate",
+   "ambient_generic.lfotype",
+   "ambient_generic.pitch",
+   "ambient_generic.pitchstart",
+   "ambient_generic.preset",
+   "ambient_generic.spindown",
+   "ambient_generic.spinup",
+   "ambient_generic.volstart",
+   "func_breakable.disablereceiveshadows",
+   "func_breakable.disableshadows",
+   "func_breakable.gibmodel",
+   "func_breakable.material",
+   "func_breakable.nodamageforces",
+   "func_breakable.spawnobject",
+   "func_breakable_surf.ExplodeDamage",
+   "func_breakable_surf.ExplodeRadius",
+   "func_breakable_surf.PerformanceMode",
+   "func_breakable_surf.disablereceiveshadows",
+   "func_breakable_surf.disableshadows",
+   "func_breakable_surf.explodemagnitude",
+   "func_breakable_surf.explosion",
+   "func_breakable_surf.gibdir",
+   "func_breakable_surf.material",
+   "func_breakable_surf.nodamageforces",
+   "func_breakable_surf.pressuredelay",
+   "func_breakable_surf.propdata",
+   "func_breakable_surf.renderamt",
+   "func_breakable_surf.rendercolor",
+   "func_breakable_surf.renderfx",
+   "func_breakable_surf.rendermode",
+   "func_breakable_surf.spawnobject",
+   "func_button.disablereceiveshadows",
+   "func_door.disablereceiveshadows",
+   "func_door.disableshadows",
+   "func_door.locked_sentence",
+   "func_door.unlocked_sentence",
+   "func_physbox.ExplodeDamage",
+   "func_physbox.ExplodeRadius",
+   "func_physbox.PerformanceMode",
+   "func_physbox.disablereceiveshadows",
+   "func_physbox.disableshadows",
+   "func_physbox.explodemagnitude",
+   "func_physbox.explosion",
+   "func_physbox.gibdir",
+   "func_physbox.health",
+   "func_physbox.material",
+   "func_physbox.nodamageforces",
+   "func_physbox.pressuredelay",
+   "func_physbox.propdata",
+   "func_physbox.renderamt",
+   "func_physbox.rendercolor",
+   "func_physbox.renderfx",
+   "func_physbox.rendermode",
+   "func_physbox.spawnobject",
+   "func_rotating.disablereceiveshadows",
+   "func_rotating.disableshadows",
+   "func_tracktrain.disablereceiveshadows",
+   "func_tracktrain.disableshadows",
+   "func_tracktrain.speed",
+   "func_tracktrain.volume",
+   "light_spot._cone",
+   "light_spot._exponent",
+   "light_spot._inner_cone",
+   "light_spot.pitch",
+   "path_track.speed",
+   "point_spotlight.disablereceiveshadows",
+   "prop_dynamic_override.SetBodyGroup",
+   "prop_dynamic_override.disablereceiveshadows",
+   "prop_dynamic_override.disableshadows",
+   "prop_dynamic_override.fademaxdist",
+   "prop_dynamic_override.fademindist",
+   "prop_dynamic_override.fadescale",
+   "prop_dynamic_override.solid",
+   "prop_physics.disablereceiveshadows",
+   "prop_physics.nodamageforces",
+   "prop_physics.shadowcastdist",
+   "prop_physics_multiplayer.Damagetype",
+   "prop_physics_multiplayer.damagetoenablemotion",
+   "prop_physics_multiplayer.disableshadows",
+   "prop_physics_multiplayer.fademindist",
+   "prop_physics_multiplayer.fadescale",
+   "prop_physics_multiplayer.forcetoenablemotion",
+   "prop_physics_multiplayer.inertiaScale",
+   "prop_physics_multiplayer.massScale",
+   "prop_physics_multiplayer.minhealthdmg",
+   "prop_physics_multiplayer.nodamageforces",
+   "prop_physics_multiplayer.physdamagescale",
+   "prop_physics_multiplayer.renderamt",
+   "prop_physics_multiplayer.rendercolor",
+   "prop_physics_multiplayer.shadowcastdist",
+   "prop_physics_multiplayer.spawnflags",
+   "prop_physics_override.Damagetype",
+   "prop_physics_override.damagetoenablemotion",
+   "prop_physics_override.fademindist",
+   "prop_physics_override.fadescale",
+   "prop_physics_override.forcetoenablemotion",
+   "prop_physics_override.inertiaScale",
+   "prop_physics_override.massScale",
+   "prop_physics_override.minhealthdmg",
+   "prop_physics_override.nodamageforces",
+   "prop_physics_override.physdamagescale",
+   "prop_physics_override.shadowcastdist",
+   "prop_physics_override.skin",
+   "prop_physics_override.spawnflags",
+   "prop_ragdoll.disableshadows",
+   "prop_ragdoll.fademaxdist",
+   "prop_ragdoll.fademindist",
+   "prop_ragdoll.fadescale",
+   "trigger_push.speed",
+   "weapon_p228.spawnflags",
+   "weapon_tmp.spawnflags",
+   "weapon_usp.spawnflags",
+   "worldspawn.mapversion"
+  ],
+  "links_unresolved": []
+ },
+ "counts": {
+  "textures_unmapped": 15,
+  "textures_flat": 4,
+  "models_unmapped": 8,
+  "sounds_unmapped": 1,
+  "classes_unmapped": 0,
+  "keys_unmapped": 119,
+  "links_unresolved": 0
+ }
+}

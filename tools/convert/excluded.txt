@@ -1,3 +1,5 @@
 # store key (zz/<id>) and why it is not built into world/. regen_all.sh skips every key listed here.
 zz/zm_clouds_v2_1  CC BY-NC-ND 4.0, the page forbids redistribution
 zz/zm_mars_horror_b4  the author asks to be asked before the map is altered; permission not yet obtained
+zz/ze_voodoo_islands_v8_5  no document yet: the converter finds a 64-point start island and no route (teleport-driven island hops); needs a hand spec
+zz/zs_adrift_v4  no document yet: 2431 nav floors against ZzMapDoc.MAX_NAV_FLOORS 800 (a ship of small decks); the converter needs a floor merge for it

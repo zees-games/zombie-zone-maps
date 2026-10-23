@@ -1,0 +1,117 @@
+{
+ "id": "ze_biohazard_manor",
+ "name": "Biohazard Manor",
+ "source": "ze_biohazard_manor_v4a_004.bsp",
+ "author": "aeris004",
+ "page": "https://gamebanana.com/mods/130643",
+ "licence": "CC BY-NC-ND 4.0",
+ "blurb": "Run for it: an escape map converted from aeris004's ze_biohazard_manor_v4a_004.",
+ "mode": "exodus",
+ "survivors": 8,
+ "survivor_class": "info_player_counterterrorist",
+ "zombie_classes": [
+  "info_player_terrorist"
+ ],
+ "solid_classes": [
+  "func_breakable",
+  "func_brush",
+  "func_tracktrain"
+ ],
+ "flood_step": 0.3,
+ "thin_walls": true,
+ "toys": [
+  [
+   "barrel",
+   "spawn",
+   3,
+   -2
+  ],
+  [
+   "tyre",
+   "spawn",
+   -3,
+   2
+  ]
+ ],
+ "items_auto": true,
+ "auto_lights": {
+  "spacing": 6.0,
+  "height": 2.3,
+  "range": 7.0,
+  "energy": 0.9
+ },
+ "prop_models": {
+  "models/props/cs_office/table_coffee.mdl": "furniture_table",
+  "models/props/de_inferno/flower_barrel.mdl": "survival_barrel",
+  "models/props/de_inferno/tableantique.mdl": "furniture_table",
+  "models/props/de_inferno/tablecoffee.mdl": "furniture_table",
+  "models/props/de_inferno/wine_barrel.mdl": "survival_barrel",
+  "models/props/cs_office/cardboard_box01.mdl": "cars_sedan",
+  "models/props/cs_office/cardboard_box03.mdl": "cars_sedan",
+  "models/props/cs_office/cardboard_box02.mdl": "cars_sedan",
+  "models/props/de_tides/patio_chair.mdl": "furniture_chair",
+  "models/props/de_train/barrel.mdl": "survival_barrel",
+  "models/props_borealis/bluebarrel002.mdl": "survival_barrel",
+  "models/props_junk/cardboard_box001a.mdl": "cars_sedan",
+  "models/props_junk/cardboard_box001b.mdl": "cars_sedan",
+  "models/props_junk/cardboard_box002a.mdl": "cars_sedan",
+  "models/props_c17/woodbarrel001.mdl": "survival_barrel",
+  "models/props_wasteland/interior_fence001g.mdl": "survival_fence",
+  "models/props_wasteland/interior_fence002c.mdl": "survival_fence",
+  "models/props_c17/oildrum001.mdl": "survival_barrel",
+  "models/props_wasteland/kitchen_shelf001a.mdl": "furniture_bookcase_closed",
+  "models/props_wasteland/kitchen_shelf002a.mdl": "furniture_bookcase_closed",
+  "models/props_wasteland/laundry_cart001.mdl": "cars_sedan",
+  "models/props_c17/furniturecouch002a.mdl": "furniture_lounge_sofa",
+  "models/props_interiors/furniture_chair01a.mdl": "furniture_chair",
+  "models/props/de_inferno/chairantique.mdl": "furniture_chair",
+  "models/props_c17/shelfunit01a.mdl": "furniture_bookcase_closed",
+  "models/props_combine/breenchair.mdl": "furniture_chair",
+  "models/props_c17/furniturechair001a.mdl": "furniture_chair",
+  "models/props_c17/furnituretable002a.mdl": "furniture_table",
+  "models/props/cs_assault/barrelwarning.mdl": "survival_barrel",
+  "models/props/cs_office/chair_office.mdl": "furniture_chair",
+  "models/props_borealis/bluebarrel001.mdl": "survival_barrel",
+  "models/props_wasteland/controlroom_chair001a.mdl": "furniture_chair",
+  "models/props_lab/reciever_cart.mdl": "cars_sedan",
+  "models/props_wasteland/exterior_fence003b.mdl": "survival_fence",
+  "models/props_junk/pushcart01a.mdl": "cars_sedan",
+  "models/props/cs_office/computer_monitor.mdl": "furniture_television_modern",
+  "models/haxxer/me2_props/sink.mdl": "furniture_bathroom_sink",
+  "models/haxxer/me2_props/kitchen_shelf.mdl": "furniture_bookcase_closed",
+  "models/haxxer/me2_props/crate_small.mdl": "survival_box",
+  "models/haxxer/me2_props/medcrate.mdl": "survival_box",
+  "models/haxxer/me2_props/crate_large.mdl": "survival_box",
+  "models/haxxer/me2_props/medbed.mdl": "furniture_bed_single",
+  "models/haxxer/me2_props/table_a.mdl": "furniture_table",
+  "models/haxxer/normandy/meddesk.mdl": "furniture_table",
+  "models/haxxer/me2_props/illusive_chair.mdl": "furniture_chair",
+  "models/haxxer/normandy/kitchentable.mdl": "furniture_table",
+  "models/mandrac/resource_cache/cargo_cache.mdl": "cars_sedan",
+  "models/testmodels/leather_chair.mdl": "furniture_chair",
+  "models/props/cs_office/file_box_p1.mdl": "survival_box",
+  "models/haxxer/normandy/medchair.mdl": "furniture_chair",
+  "models/crate.mdl": "survival_box",
+  "models/shelf.mdl": "furniture_bookcase_closed"
+ },
+ "generated": true,
+ "gate_classes": [
+  "func_door",
+  "func_door_rotating",
+  "func_movelinear"
+ ],
+ "holdout": 25,
+ "gate_label": "Open the door",
+ "drop_buried": true,
+ "route_bridge": true,
+ "terrain": {
+  "cell": 400,
+  "quant": 30
+ },
+ "terrain_mat": "grass",
+ "drop_small": [
+  0.3,
+  3.0
+ ],
+ "max_boxes": 3500
+}

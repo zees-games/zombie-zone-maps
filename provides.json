@@ -10,6 +10,13 @@
     "entries": [
         {
             "kind": "map",
+            "id": "ze_biohazard_manor",
+            "name": "Biohazard Manor",
+            "scene": "maps/ze_biohazard_manor.json",
+            "map_kind": "exodus"
+        },
+        {
+            "kind": "map",
             "id": "ze_blackmesa_escape",
             "name": "Black Mesa Escape",
             "scene": "maps/ze_blackmesa_escape.json",
@@ -45,10 +52,24 @@
         },
         {
             "kind": "map",
+            "id": "ze_potc",
+            "name": "Potc",
+            "scene": "maps/ze_potc.json",
+            "map_kind": "exodus"
+        },
+        {
+            "kind": "map",
             "id": "ze_runforyourlife_1_v4",
             "name": "Run For Your Life",
             "scene": "maps/ze_runforyourlife_1_v4.json",
             "map_kind": "exodus"
+        },
+        {
+            "kind": "map",
+            "id": "zm_16chambres",
+            "name": "16chambres",
+            "scene": "maps/zm_16chambres.json",
+            "map_kind": "survival"
         },
         {
             "kind": "map",
@@ -80,6 +101,13 @@
         },
         {
             "kind": "map",
+            "id": "zm_blockfort",
+            "name": "Blockfort",
+            "scene": "maps/zm_blockfort.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
             "id": "zm_chaos_city",
             "name": "Chaos City",
             "scene": "maps/zm_chaos_city.json",
@@ -87,9 +115,44 @@
         },
         {
             "kind": "map",
+            "id": "zm_day_lego",
+            "name": "Day Lego",
+            "scene": "maps/zm_day_lego.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "zm_hellarch",
+            "name": "Hellarch",
+            "scene": "maps/zm_hellarch.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
             "id": "zm_house_outbreak",
             "name": "House Outbreak",
             "scene": "maps/zm_house_outbreak.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "zm_krusty_krab",
+            "name": "Krusty Krab",
+            "scene": "maps/zm_krusty_krab.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "zm_lila_panic",
+            "name": "Lila Panic",
+            "scene": "maps/zm_lila_panic.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "zm_mansion_css",
+            "name": "Mansion Css",
+            "scene": "maps/zm_mansion_css.json",
             "map_kind": "survival"
         },
         {
@@ -108,9 +171,65 @@
         },
         {
             "kind": "map",
+            "id": "zm_roy_highway",
+            "name": "Roy Highway",
+            "scene": "maps/zm_roy_highway.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "zm_roy_the_ship",
+            "name": "Roy The Ship",
+            "scene": "maps/zm_roy_the_ship.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "zs_erosion",
+            "name": "Erosion",
+            "scene": "maps/zs_erosion.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "zs_goth_house",
+            "name": "Goth House",
+            "scene": "maps/zs_goth_house.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "zs_krusty_krab_large",
+            "name": "Krusty Krab Large",
+            "scene": "maps/zs_krusty_krab_large.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "zs_lens",
+            "name": "Lens",
+            "scene": "maps/zs_lens.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
             "id": "zs_ravenstreet",
             "name": "Raven Street",
             "scene": "maps/zs_ravenstreet.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "zs_slugde",
+            "name": "Slugde",
+            "scene": "maps/zs_slugde.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "zs_verystill",
+            "name": "Verystill",
+            "scene": "maps/zs_verystill.json",
             "map_kind": "survival"
         },
         {

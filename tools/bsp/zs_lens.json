@@ -1,0 +1,85 @@
+{
+ "id": "zs_lens",
+ "name": "Lens",
+ "source": "zs_lens.bsp",
+ "author": "deadfs",
+ "page": "https://steamcommunity.com/sharedfiles/filedetails/?id=3212681027",
+ "licence": "none stated (Steam Workshop)",
+ "blurb": "Hold out against the horde.",
+ "mode": "survival",
+ "survivors": 8,
+ "survivor_class": "info_player_human",
+ "zombie_classes": [
+  "info_player_zombie"
+ ],
+ "solid_classes": [
+  "func_brush"
+ ],
+ "flood_step": 0.3,
+ "thin_walls": true,
+ "toys": [
+  [
+   "barrel",
+   "spawn",
+   3,
+   -2
+  ],
+  [
+   "tyre",
+   "spawn",
+   -3,
+   2
+  ]
+ ],
+ "items_auto": true,
+ "auto_lights": {
+  "spacing": 6.0,
+  "height": 2.3,
+  "range": 7.0,
+  "energy": 0.9
+ },
+ "prop_models": {
+  "models/props_c17/furniturecouch001a.mdl": "furniture_lounge_sofa",
+  "models/props_c17/furniturecouch002a.mdl": "furniture_lounge_sofa",
+  "models/props_junk/plasticcrate01a.mdl": "survival_box",
+  "models/props_c17/furniturechair001a.mdl": "furniture_chair",
+  "models/props_junk/wood_crate002a.mdl": "survival_box",
+  "models/props_c17/furniturebed001a.mdl": "furniture_bed_single",
+  "models/props_junk/cardboard_box003a.mdl": "cars_sedan",
+  "models/props_junk/cardboard_box001a.mdl": "cars_sedan",
+  "models/props_wasteland/prison_bedframe001b.mdl": "furniture_bed_single",
+  "models/props_wasteland/prison_shelf002a.mdl": "furniture_bookcase_closed",
+  "models/props_junk/cardboard_box004a.mdl": "cars_sedan",
+  "models/props_interiors/furniture_couch02a.mdl": "furniture_lounge_sofa",
+  "models/props_junk/wood_pallet001a.mdl": "urban_pallet",
+  "models/props_c17/furnitureshelf001a.mdl": "furniture_bookcase_closed",
+  "models/props_c17/oildrum001.mdl": "survival_barrel",
+  "models/props_wasteland/laundry_cart002.mdl": "cars_sedan",
+  "models/props_c17/furnituretable002a.mdl": "furniture_table",
+  "models/props_wasteland/cafeteria_table001a.mdl": "furniture_table",
+  "models/props_c17/chair_stool01a.mdl": "furniture_chair",
+  "models/props_junk/garbage_takeoutcarton001a.mdl": "cars_sedan",
+  "models/props_junk/garbage_milkcarton001a.mdl": "cars_sedan",
+  "models/props_c17/chair02a.mdl": "furniture_chair",
+  "models/props_junk/wood_pallet001a_chunka.mdl": "urban_pallet",
+  "models/props_wasteland/cafeteria_bench001a.mdl": "furniture_bench",
+  "models/props_c17/furnituresink001a.mdl": "furniture_bathroom_sink",
+  "models/props_c17/furnituretoilet001a.mdl": "furniture_toilet",
+  "models/props_junk/wood_crate001a.mdl": "survival_box",
+  "models/props_wasteland/kitchen_shelf001a.mdl": "furniture_bookcase_closed",
+  "models/props_c17/tv_monitor01.mdl": "furniture_television_modern",
+  "models/props_vehicles/carparts_muffler01a.mdl": "cars_sedan",
+  "models/props_lab/desklamp01.mdl": "furniture_table"
+ },
+ "generated": true,
+ "survive_seconds": 600,
+ "posts": 6,
+ "caches_near_posts": true,
+ "drop_ramps": 0.9,
+ "greedy_floors": true,
+ "thin_lintels": true,
+ "drop_small": [
+  0.15,
+  1.5
+ ]
+}

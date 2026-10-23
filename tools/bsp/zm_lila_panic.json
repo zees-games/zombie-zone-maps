@@ -1,0 +1,58 @@
+{
+ "id": "zm_lila_panic",
+ "name": "Lila Panic",
+ "source": "zm_lila_panic.bsp",
+ "author": "Lila (uploaded by tonyscha)",
+ "page": "https://gamebanana.com/mods/132209",
+ "licence": "CC BY-NC-ND 4.0",
+ "blurb": "Hold out against the horde.",
+ "mode": "survival",
+ "survivors": 8,
+ "survivor_class": "info_player_counterterrorist",
+ "zombie_classes": [
+  "info_player_terrorist"
+ ],
+ "solid_classes": [
+  "func_brush"
+ ],
+ "flood_step": 0.3,
+ "thin_walls": true,
+ "toys": [
+  [
+   "barrel",
+   "spawn",
+   3,
+   -2
+  ],
+  [
+   "tyre",
+   "spawn",
+   -3,
+   2
+  ]
+ ],
+ "items_auto": true,
+ "auto_lights": {
+  "spacing": 6.0,
+  "height": 2.3,
+  "range": 7.0,
+  "energy": 0.9
+ },
+ "prop_models": {
+  "models/props/cs_office/table_meeting.mdl": "furniture_table",
+  "models/props/cs_office/bookshelf1.mdl": "furniture_bookcase_closed",
+  "models/props/cs_office/sofa_chair.mdl": "furniture_chair",
+  "models/props_c17/oildrum001.mdl": "survival_barrel"
+ },
+ "generated": true,
+ "survive_seconds": 600,
+ "posts": 6,
+ "caches_near_posts": true,
+ "drop_ramps": 0.9,
+ "greedy_floors": true,
+ "thin_lintels": true,
+ "drop_small": [
+  0.15,
+  1.5
+ ]
+}

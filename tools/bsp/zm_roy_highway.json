@@ -1,0 +1,75 @@
+{
+ "id": "zm_roy_highway",
+ "name": "Roy Highway",
+ "source": "zm_roy_highway.bsp",
+ "author": "Roy (uploaded by Mo0nLiGht)",
+ "page": "https://gamebanana.com/mods/132705",
+ "licence": "CC BY-NC-ND 4.0",
+ "blurb": "Hold out against the horde.",
+ "mode": "survival",
+ "survivors": 8,
+ "survivor_class": "info_player_counterterrorist",
+ "zombie_classes": [
+  "info_player_terrorist"
+ ],
+ "solid_classes": [
+  "func_brush"
+ ],
+ "flood_step": 0.3,
+ "thin_walls": true,
+ "toys": [
+  [
+   "barrel",
+   "spawn",
+   3,
+   -2
+  ],
+  [
+   "tyre",
+   "spawn",
+   -3,
+   2
+  ]
+ ],
+ "items_auto": true,
+ "auto_lights": {
+  "spacing": 6.0,
+  "height": 2.3,
+  "range": 7.0,
+  "energy": 0.9
+ },
+ "prop_models": {
+  "models/props_wasteland/cafeteria_table001a.mdl": "furniture_table",
+  "models/props_combine/combine_fence01b.mdl": "survival_fence",
+  "models/props_combine/combine_fence01a.mdl": "survival_fence",
+  "models/props_junk/garbage_milkcarton002a.mdl": "cars_sedan",
+  "models/props_junk/garbage_takeoutcarton001a.mdl": "cars_sedan",
+  "models/props_c17/oildrum001.mdl": "survival_barrel",
+  "models/props_vehicles/carparts_tire01a.mdl": "cars_sedan",
+  "models/props_wasteland/cafeteria_bench001a.mdl": "furniture_bench",
+  "models/props_c17/furnituretable003a.mdl": "furniture_table",
+  "models/props_wasteland/wood_fence02a.mdl": "survival_fence",
+  "models/props_wasteland/wood_fence01a.mdl": "survival_fence",
+  "models/props_junk/wood_crate002a.mdl": "survival_box",
+  "models/props_junk/wood_pallet001a.mdl": "urban_pallet",
+  "models/props_junk/plasticcrate01a.mdl": "survival_box",
+  "models/props/cs_office/sofa_chair.mdl": "furniture_chair",
+  "models/props/de_nuke/crate_extrasmall.mdl": "survival_box",
+  "models/props/cs_militia/crate_extrasmallmill.mdl": "survival_box",
+  "models/props/de_inferno/bed.mdl": "furniture_bed_single",
+  "models/props_wasteland/wood_fence01c.mdl": "survival_fence",
+  "models/props_wasteland/controlroom_chair001a.mdl": "furniture_chair"
+ },
+ "generated": true,
+ "survive_seconds": 600,
+ "posts": 6,
+ "caches_near_posts": true,
+ "drop_ramps": 0.9,
+ "greedy_floors": true,
+ "thin_lintels": true,
+ "drop_small": [
+  0.3,
+  3.0
+ ],
+ "max_boxes": 3000
+}

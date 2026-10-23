@@ -64352,6 +64352,7 @@
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
+     "cs_assault/assault_metalcrate001a_red",
      "cs_havana/metal01",
      "cs_havana/metalwall085a",
      "cs_italy/ironmetal01",
@@ -64434,7 +64435,7 @@
      "starwars/yavin/met_pipe01",
      "vehicle/metaltrain001d"
     ],
-    "surfaces": 734,
+    "surfaces": 735,
     "url": "https://ambientcg.com/view?id=Metal063"
    },
    {
@@ -64521,11 +64522,10 @@
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
-     "cs_assault/assault_metalcrate001a_red",
      "cs_havana/white",
      "cs_italy/white"
     ],
-    "surfaces": 13,
+    "surfaces": 12,
     "url": "https://ambientcg.com/view?id=PaintedPlaster017"
    },
    {
@@ -73658,6 +73658,7 @@
    "classname": "func_rotating",
    "degrees_per_second": 30.0,
    "entity": 294,
+   "fan_friction": 20.0,
    "kind": "spin",
    "maxs": [
     40.2336,
@@ -73692,6 +73693,7 @@
    "classname": "func_rotating",
    "degrees_per_second": -30.0,
    "entity": 295,
+   "fan_friction": 20.0,
    "kind": "spin",
    "maxs": [
     40.2336,
@@ -74978,6 +74980,7 @@
    "classname": "func_rotating",
    "degrees_per_second": 30.0,
    "entity": 492,
+   "fan_friction": 20.0,
    "kind": "spin",
    "maxs": [
     7.9031,
@@ -80286,6 +80289,7 @@
    "classname": "func_rotating",
    "degrees_per_second": 725.0,
    "entity": 1096,
+   "fan_friction": 20.0,
    "kind": "spin",
    "maxs": [
     -81.2103,
@@ -80625,6 +80629,7 @@
    "classname": "func_rotating",
    "degrees_per_second": 725.0,
    "entity": 1259,
+   "fan_friction": 20.0,
    "kind": "spin",
    "maxs": [
     -84.802,
@@ -80763,6 +80768,7 @@
    "classname": "func_rotating",
    "degrees_per_second": 30.0,
    "entity": 1267,
+   "fan_friction": 20.0,
    "kind": "spin",
    "maxs": [
     -40.6908,
@@ -80794,6 +80800,232 @@
  "notes": [
   "55 glass surfaces (kinds glass)",
   "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): METAL/METALGRATE013A2 104, EFFECTS/COM_SHIELD004A 38, EFFECTS/LASERPLANE 24, STARWARS/DECALS/MP_IMPERIAL_SYMBOL 20, DE_NUKE/NUKE_METALVENT 17, HALFLIFE/{LADDER2 15, EFFECTS/BLUEBLACKLARGEBEAM 12, DECALS/DECALMETALSPEAKER002A 10, MODELS/PROPS_COMBINE/TPRINGS_GLOBE_DX60 10, EFFECTS/COMBINE_BINOCOVERLAY 9, EFFECTS/METALTRUSS022B 6, EFFECTS/COMBINESHIELD/COMSHIELDWALL2 6"
+ ],
+ "pickups": [
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -97.5038,
+    0.5236,
+    84.5662
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -97.0085,
+    0.5236,
+    84.5553
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -96.0566,
+    0.5236,
+    84.6626
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -96.3842,
+    0.5236,
+    85.02
+   ],
+   "props": {}
+  },
+  {
+   "angle": 263.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -96.807,
+    1.1684,
+    83.9547
+   ],
+   "props": {}
+  },
+  {
+   "angle": 263.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -97.2346,
+    1.1684,
+    83.7659
+   ],
+   "props": {}
+  },
+  {
+   "angle": 263.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -96.0792,
+    1.1737,
+    83.9419
+   ],
+   "props": {}
+  },
+  {
+   "angle": 263.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    -95.6594,
+    1.1737,
+    83.9309
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_deagle",
+   "origin": [
+    -81.4018,
+    7.2627,
+    -87.992
+   ],
+   "props": {
+    "targetname": "saber_deagle"
+   }
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    49.4942,
+    1.0057,
+    -251.4352
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    49.6142,
+    1.0057,
+    -251.1285
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    49.398,
+    1.0057,
+    -250.7342
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    49.5753,
+    1.0057,
+    -250.2294
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    49.3698,
+    1.0057,
+    -250.0351
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    49.5414,
+    1.0057,
+    -249.616
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    24.7082,
+    1.0057,
+    -249.5664
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    24.9519,
+    1.0057,
+    -249.8255
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    24.7505,
+    1.0057,
+    -250.1456
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    24.9942,
+    1.0057,
+    -250.498
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    24.6745,
+    1.0057,
+    -250.8714
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_hegrenade",
+   "origin": [
+    24.8343,
+    1.0057,
+    -251.3171
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_deagle",
+   "origin": [
+    -84.9937,
+    7.2246,
+    -87.8777
+   ],
+   "props": {
+    "targetname": "saber_deagle2"
+   }
+  }
  ],
  "props": [
   {
@@ -106121,8 +106353,8 @@
     0.2538
    ],
    "entity": 785,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 36,
    "index_offset": 3962848,
    "material": "cs_assault/assault_metalcrate001a_red",
@@ -106133,11 +106365,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 3962656,
    "vertex_count": 24

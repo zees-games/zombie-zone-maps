@@ -1,0 +1,358 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "zs_lens",
+ "sha256": "3b471a31e42c1f1211591a0ffa954f2a2befcadc0489db2ea339cc93de8c5172",
+ "textures": {
+  "looked_up": 50,
+  "by_tier": {
+   "default": 50
+  },
+  "free_by_tier": {
+   "default": 16
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 134,
+  "by_tier": {
+   "default": 81,
+   "fallback": 53
+  }
+ },
+ "sounds": {
+  "looked_up": 11,
+  "by_tier": {
+   "default": 11
+  }
+ },
+ "classes": {
+  "distinct": 50,
+  "entities": 620,
+  "by_tier": {
+   "default": 50
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "health",
+    "pitch",
+    "pitchstart",
+    "preset"
+   ],
+   "env_fade": [
+    "renderamt",
+    "rendercolor"
+   ],
+   "env_soundscape_triggerable": [
+    "StartDisabled",
+    "radius",
+    "soundscape"
+   ],
+   "filter_activator_name": [
+    "Negated"
+   ],
+   "func_breakable_surf": [
+    "ExplodeDamage",
+    "ExplodeRadius",
+    "PerformanceMode",
+    "disablereceiveshadows",
+    "disableshadows",
+    "explodemagnitude",
+    "explosion",
+    "gibdir",
+    "material",
+    "nodamageforces",
+    "pressuredelay",
+    "propdata",
+    "renderamt",
+    "rendercolor",
+    "renderfx",
+    "rendermode",
+    "spawnobject"
+   ],
+   "func_brush": [
+    "InputFilter",
+    "disablereceiveshadows",
+    "disableshadows",
+    "vrad_brush_cast_shadows"
+   ],
+   "func_monitor": [
+    "InputFilter",
+    "Solidity",
+    "StartDisabled",
+    "disablereceiveshadows",
+    "disableshadows",
+    "invert_exclusion",
+    "renderamt",
+    "rendercolor",
+    "renderfx",
+    "rendermode",
+    "solidbsp",
+    "spawnflags",
+    "vrad_brush_cast_shadows"
+   ],
+   "info_sigilgroup": [
+    "sigilgrouping"
+   ],
+   "info_sigilnode": [
+    "sigilgroupname"
+   ],
+   "light_spot": [
+    "_cone",
+    "_exponent",
+    "_inner_cone",
+    "pitch"
+   ],
+   "logic_beats": [
+    "disableannoucner",
+    "enabled",
+    "playwaveendsound",
+    "playwavestartsound"
+   ],
+   "logic_waves": [
+    "wave"
+   ],
+   "logic_winlose": [
+    "endcamera",
+    "endslowmo",
+    "losemusic",
+    "winmusic"
+   ],
+   "point_zsmessage": [
+    "displaytime",
+    "position",
+    "team",
+    "textcolor"
+   ],
+   "prop_door_rotating": [
+    "disableshadows",
+    "speed"
+   ],
+   "prop_dynamic": [
+    "SetBodyGroup",
+    "disablereceiveshadows",
+    "disableshadows",
+    "fademindist",
+    "fadescale",
+    "solid"
+   ],
+   "prop_physics": [
+    "disablereceiveshadows",
+    "disableshadows",
+    "nodamageforces",
+    "shadowcastdist"
+   ],
+   "prop_physics_override": [
+    "Damagetype",
+    "ExplodeDamage",
+    "ExplodeRadius",
+    "PerformanceMode",
+    "damagetoenablemotion",
+    "disableshadows",
+    "fademaxdist",
+    "fademindist",
+    "fadescale",
+    "forcetoenablemotion",
+    "inertiaScale",
+    "massScale",
+    "minhealthdmg",
+    "modelscale",
+    "nodamageforces",
+    "physdamagescale",
+    "pressuredelay",
+    "shadowcastdist",
+    "skin",
+    "spawnflags"
+   ],
+   "trigger_push": [
+    "speed"
+   ],
+   "worldspawn": [
+    "mapversion",
+    "message"
+   ],
+   "zombiegasses": [
+    "radius"
+   ]
+  }
+ },
+ "links": {
+  "total": 33,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [
+   "effects/urban_puddle_model02a.mdl",
+   "props/cs_militia/sheetrock_leaning.mdl",
+   "props_c17/clock01.mdl",
+   "props_c17/doll01.mdl",
+   "props_c17/door01_left.mdl",
+   "props_c17/furniturebed001a.mdl",
+   "props_c17/furnitureboiler001a.mdl",
+   "props_c17/furniturecupboard001a.mdl",
+   "props_c17/furniturepipecluster001a.mdl",
+   "props_c17/gasmeter003a.mdl",
+   "props_c17/gaspipes001a.mdl",
+   "props_c17/metalladder001.mdl",
+   "props_c17/suitcase_passenger_physics.mdl",
+   "props_c17/tools_pliers01a.mdl",
+   "props_c17/tools_wrench01a.mdl",
+   "props_c17/trappropeller_engine.mdl",
+   "props_canal/boat001a.mdl",
+   "props_canal/boat001b.mdl",
+   "props_canal/boat002b.mdl",
+   "props_docks/dock01_polecluster01d_256.mdl",
+   "props_docks/dock_broken01a_256.mdl",
+   "props_interiors/lightsconce01.mdl",
+   "props_interiors/radiator01a.mdl",
+   "props_interiors/refrigerator01a.mdl",
+   "props_interiors/refrigeratordoor01a.mdl",
+   "props_junk/bicycle01a.mdl",
+   "props_junk/glassbottle01a.mdl",
+   "props_junk/harpoon002a.mdl",
+   "props_junk/popcan01a.mdl",
+   "props_junk/propane_tank001a.mdl",
+   "props_junk/shovel01a.mdl",
+   "props_junk/terracotta01.mdl",
+   "props_junk/watermelon01.mdl",
+   "props_junk/wheebarrow01a.mdl",
+   "props_lab/binderblue.mdl",
+   "props_lab/lab_flourescentlight002b.mdl",
+   "props_lab/pipesystem01b.mdl",
+   "props_lab/pipesystem02b.mdl",
+   "props_lab/pipesystem02e.mdl",
+   "props_lab/pipesystem03a.mdl",
+   "props_lab/pipesystem03c.mdl",
+   "props_pipes/gutter_256_001a.mdl",
+   "props_pipes/gutter_384_002a.mdl",
+   "props_pipes/valvewheel002.mdl",
+   "props_rooftop/antenna01a.mdl",
+   "props_rooftop/gutter_drain001.mdl",
+   "props_rooftop/gutter_pipe_128.mdl",
+   "props_rooftop/roof_vent002.mdl",
+   "props_rooftop/roof_vent003.mdl",
+   "props_wasteland/dockplank01b.mdl",
+   "props_wasteland/pipecluster003a_small.mdl",
+   "props_wasteland/prison_heater002a.mdl",
+   "props_wasteland/prison_pipefaucet001a.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.health",
+   "ambient_generic.pitch",
+   "ambient_generic.pitchstart",
+   "ambient_generic.preset",
+   "env_fade.renderamt",
+   "env_fade.rendercolor",
+   "env_soundscape_triggerable.StartDisabled",
+   "env_soundscape_triggerable.radius",
+   "env_soundscape_triggerable.soundscape",
+   "filter_activator_name.Negated",
+   "func_breakable_surf.ExplodeDamage",
+   "func_breakable_surf.ExplodeRadius",
+   "func_breakable_surf.PerformanceMode",
+   "func_breakable_surf.disablereceiveshadows",
+   "func_breakable_surf.disableshadows",
+   "func_breakable_surf.explodemagnitude",
+   "func_breakable_surf.explosion",
+   "func_breakable_surf.gibdir",
+   "func_breakable_surf.material",
+   "func_breakable_surf.nodamageforces",
+   "func_breakable_surf.pressuredelay",
+   "func_breakable_surf.propdata",
+   "func_breakable_surf.renderamt",
+   "func_breakable_surf.rendercolor",
+   "func_breakable_surf.renderfx",
+   "func_breakable_surf.rendermode",
+   "func_breakable_surf.spawnobject",
+   "func_brush.InputFilter",
+   "func_brush.disablereceiveshadows",
+   "func_brush.disableshadows",
+   "func_brush.vrad_brush_cast_shadows",
+   "func_monitor.InputFilter",
+   "func_monitor.Solidity",
+   "func_monitor.StartDisabled",
+   "func_monitor.disablereceiveshadows",
+   "func_monitor.disableshadows",
+   "func_monitor.invert_exclusion",
+   "func_monitor.renderamt",
+   "func_monitor.rendercolor",
+   "func_monitor.renderfx",
+   "func_monitor.rendermode",
+   "func_monitor.solidbsp",
+   "func_monitor.spawnflags",
+   "func_monitor.vrad_brush_cast_shadows",
+   "info_sigilgroup.sigilgrouping",
+   "info_sigilnode.sigilgroupname",
+   "light_spot._cone",
+   "light_spot._exponent",
+   "light_spot._inner_cone",
+   "light_spot.pitch",
+   "logic_beats.disableannoucner",
+   "logic_beats.enabled",
+   "logic_beats.playwaveendsound",
+   "logic_beats.playwavestartsound",
+   "logic_waves.wave",
+   "logic_winlose.endcamera",
+   "logic_winlose.endslowmo",
+   "logic_winlose.losemusic",
+   "logic_winlose.winmusic",
+   "point_zsmessage.displaytime",
+   "point_zsmessage.position",
+   "point_zsmessage.team",
+   "point_zsmessage.textcolor",
+   "prop_door_rotating.disableshadows",
+   "prop_door_rotating.speed",
+   "prop_dynamic.SetBodyGroup",
+   "prop_dynamic.disablereceiveshadows",
+   "prop_dynamic.disableshadows",
+   "prop_dynamic.fademindist",
+   "prop_dynamic.fadescale",
+   "prop_dynamic.solid",
+   "prop_physics.disablereceiveshadows",
+   "prop_physics.disableshadows",
+   "prop_physics.nodamageforces",
+   "prop_physics.shadowcastdist",
+   "prop_physics_override.Damagetype",
+   "prop_physics_override.ExplodeDamage",
+   "prop_physics_override.ExplodeRadius",
+   "prop_physics_override.PerformanceMode",
+   "prop_physics_override.damagetoenablemotion",
+   "prop_physics_override.disableshadows",
+   "prop_physics_override.fademaxdist",
+   "prop_physics_override.fademindist",
+   "prop_physics_override.fadescale",
+   "prop_physics_override.forcetoenablemotion",
+   "prop_physics_override.inertiaScale",
+   "prop_physics_override.massScale",
+   "prop_physics_override.minhealthdmg",
+   "prop_physics_override.modelscale",
+   "prop_physics_override.nodamageforces",
+   "prop_physics_override.physdamagescale",
+   "prop_physics_override.pressuredelay",
+   "prop_physics_override.shadowcastdist",
+   "prop_physics_override.skin",
+   "prop_physics_override.spawnflags",
+   "trigger_push.speed",
+   "worldspawn.mapversion",
+   "worldspawn.message",
+   "zombiegasses.radius"
+  ],
+  "links_unresolved": []
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 53,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 99,
+  "links_unresolved": 0
+ }
+}

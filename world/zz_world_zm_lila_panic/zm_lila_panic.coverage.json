@@ -1,0 +1,128 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "zm_lila_panic",
+ "sha256": "95870c7f447ddb776c8a3595b23cd0824d3dd0fab6cbcf6707a1d18e97a68949",
+ "textures": {
+  "looked_up": 7,
+  "by_tier": {
+   "default": 7
+  },
+  "free_by_tier": {
+   "default": 5
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 19,
+  "by_tier": {
+   "default": 16,
+   "fallback": 3
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 8,
+  "entities": 151,
+  "by_tier": {
+   "default": 8
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "prop_physics_multiplayer": [
+    "Damagetype",
+    "ExplodeDamage",
+    "ExplodeRadius",
+    "PerformanceMode",
+    "damagetoenablemotion",
+    "fademindist",
+    "fadescale",
+    "forcetoenablemotion",
+    "inertiaScale",
+    "massScale",
+    "minhealthdmg",
+    "nodamageforces",
+    "physdamagescale",
+    "pressuredelay",
+    "shadowcastdist",
+    "skin",
+    "spawnflags"
+   ],
+   "prop_physics_override": [
+    "Damagetype",
+    "damagetoenablemotion",
+    "fademindist",
+    "fadescale",
+    "forcetoenablemotion",
+    "inertiaScale",
+    "massScale",
+    "minhealthdmg",
+    "nodamageforces",
+    "physdamagescale",
+    "shadowcastdist",
+    "spawnflags"
+   ]
+  }
+ },
+ "links": {
+  "total": 0,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [
+   "props/de_piranesi/pi_apc.mdl",
+   "props_wasteland/coolingtank02.mdl",
+   "props_wasteland/horizontalcoolingtank04.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "prop_physics_multiplayer.Damagetype",
+   "prop_physics_multiplayer.ExplodeDamage",
+   "prop_physics_multiplayer.ExplodeRadius",
+   "prop_physics_multiplayer.PerformanceMode",
+   "prop_physics_multiplayer.damagetoenablemotion",
+   "prop_physics_multiplayer.fademindist",
+   "prop_physics_multiplayer.fadescale",
+   "prop_physics_multiplayer.forcetoenablemotion",
+   "prop_physics_multiplayer.inertiaScale",
+   "prop_physics_multiplayer.massScale",
+   "prop_physics_multiplayer.minhealthdmg",
+   "prop_physics_multiplayer.nodamageforces",
+   "prop_physics_multiplayer.physdamagescale",
+   "prop_physics_multiplayer.pressuredelay",
+   "prop_physics_multiplayer.shadowcastdist",
+   "prop_physics_multiplayer.skin",
+   "prop_physics_multiplayer.spawnflags",
+   "prop_physics_override.Damagetype",
+   "prop_physics_override.damagetoenablemotion",
+   "prop_physics_override.fademindist",
+   "prop_physics_override.fadescale",
+   "prop_physics_override.forcetoenablemotion",
+   "prop_physics_override.inertiaScale",
+   "prop_physics_override.massScale",
+   "prop_physics_override.minhealthdmg",
+   "prop_physics_override.nodamageforces",
+   "prop_physics_override.physdamagescale",
+   "prop_physics_override.shadowcastdist",
+   "prop_physics_override.spawnflags"
+  ],
+  "links_unresolved": []
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 3,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 29,
+  "links_unresolved": 0
+ }
+}

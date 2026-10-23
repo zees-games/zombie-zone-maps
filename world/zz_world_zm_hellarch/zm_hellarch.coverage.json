@@ -1,0 +1,168 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "zm_hellarch",
+ "sha256": "c7b76e402189fd459b68a7977726465979ac8770e0c27714cb5996e0453f3734",
+ "textures": {
+  "looked_up": 91,
+  "by_tier": {
+   "default": 89,
+   "fallback": 2
+  },
+  "free_by_tier": {
+   "default": 18,
+   "fallback": 2
+  },
+  "nearest_photo": [
+   "forrest_fog",
+   "models/props/cs_office/offcorkboarda"
+  ]
+ },
+ "models": {
+  "looked_up": 72,
+  "by_tier": {
+   "default": 59,
+   "fallback": 13
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 31,
+  "entities": 288,
+  "by_tier": {
+   "default": 31
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "func_breakable": [
+    "disablereceiveshadows",
+    "disableshadows",
+    "material",
+    "nodamageforces",
+    "spawnobject"
+   ],
+   "func_illusionary": [
+    "disablereceiveshadows",
+    "disableshadows"
+   ],
+   "prop_dynamic": [
+    "SetBodyGroup",
+    "disableshadows",
+    "fademindist",
+    "fadescale",
+    "solid"
+   ],
+   "prop_physics": [
+    "disablereceiveshadows",
+    "disableshadows",
+    "nodamageforces",
+    "shadowcastdist"
+   ],
+   "prop_physics_override": [
+    "Damagetype",
+    "ExplodeDamage",
+    "ExplodeRadius",
+    "PerformanceMode",
+    "damagetoenablemotion",
+    "disableshadows",
+    "fademindist",
+    "fadescale",
+    "forcetoenablemotion",
+    "inertiaScale",
+    "massScale",
+    "minhealthdmg",
+    "nodamageforces",
+    "physdamagescale",
+    "pressuredelay",
+    "shadowcastdist",
+    "skin",
+    "spawnflags"
+   ],
+   "weapon_scout": [
+    "spawnflags"
+   ]
+  }
+ },
+ "links": {
+  "total": 2,
+  "unresolved": 1
+ },
+ "lists": {
+  "textures_unmapped": [
+   "/FORREST_FOG",
+   "MODELS/PROPS/CS_OFFICE/OFFCORKBOARDA"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "",
+   "props/cs_assault/wall_vent.mdl",
+   "props/cs_militia/microwave01.mdl",
+   "props/cs_militia/mountedfish01.mdl",
+   "props/de_prodigy/fanoff.mdl",
+   "props_c17/playground_jungle_gym01a.mdl",
+   "props_c17/playground_jungle_gym01b.mdl",
+   "props_c17/playgroundslide01.mdl",
+   "props_citizen_tech/till001a_safetyarm01.mdl",
+   "props_junk/food_pile01.mdl",
+   "props_lab/kennel_physics.mdl",
+   "props_lab/lab_flourescentlight002b.mdl",
+   "props_wasteland/boat_fishing01a.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "func_breakable.disablereceiveshadows",
+   "func_breakable.disableshadows",
+   "func_breakable.material",
+   "func_breakable.nodamageforces",
+   "func_breakable.spawnobject",
+   "func_illusionary.disablereceiveshadows",
+   "func_illusionary.disableshadows",
+   "prop_dynamic.SetBodyGroup",
+   "prop_dynamic.disableshadows",
+   "prop_dynamic.fademindist",
+   "prop_dynamic.fadescale",
+   "prop_dynamic.solid",
+   "prop_physics.disablereceiveshadows",
+   "prop_physics.disableshadows",
+   "prop_physics.nodamageforces",
+   "prop_physics.shadowcastdist",
+   "prop_physics_override.Damagetype",
+   "prop_physics_override.ExplodeDamage",
+   "prop_physics_override.ExplodeRadius",
+   "prop_physics_override.PerformanceMode",
+   "prop_physics_override.damagetoenablemotion",
+   "prop_physics_override.disableshadows",
+   "prop_physics_override.fademindist",
+   "prop_physics_override.fadescale",
+   "prop_physics_override.forcetoenablemotion",
+   "prop_physics_override.inertiaScale",
+   "prop_physics_override.massScale",
+   "prop_physics_override.minhealthdmg",
+   "prop_physics_override.nodamageforces",
+   "prop_physics_override.physdamagescale",
+   "prop_physics_override.pressuredelay",
+   "prop_physics_override.shadowcastdist",
+   "prop_physics_override.skin",
+   "prop_physics_override.spawnflags",
+   "weapon_scout.spawnflags"
+  ],
+  "links_unresolved": [
+   "weapon_awp.OnPlayerPickup->equip_awp"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 2,
+  "textures_flat": 0,
+  "models_unmapped": 13,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 35,
+  "links_unresolved": 1
+ }
+}

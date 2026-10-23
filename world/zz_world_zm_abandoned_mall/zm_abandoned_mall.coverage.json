@@ -10,8 +10,8 @@
    "fallback": 98
   },
   "free_by_tier": {
-   "default": 20,
-   "fallback": 14
+   "default": 21,
+   "fallback": 17
   },
   "nearest_photo": [
    "custom/28weeks",
@@ -21,6 +21,7 @@
    "custom/arbys",
    "custom/balls",
    "custom/bat",
+   "custom/bestbuy",
    "custom/bestbuy3",
    "custom/bestbuyad_1",
    "custom/bestbuyxmas2",
@@ -39,6 +40,7 @@
    "custom/d3",
    "custom/dayofthedead",
    "custom/doom3",
+   "custom/fg4",
    "custom/fifa12",
    "custom/gamestoplogo",
    "custom/gaplogo",
@@ -66,6 +68,7 @@
    "custom/srcoca",
    "custom/srfroot",
    "custom/srlogo",
+   "custom/srmilk",
    "custom/srnature",
    "custom/sryo",
    "custom/star2",
@@ -380,20 +383,17 @@
   "textures_flat": [
    "bobpoblo/airport/restrooms",
    "cs_italy/black",
-   "custom/bestbuy",
    "custom/bestbuya2",
    "custom/bk",
    "custom/bluemix",
    "custom/bww1",
    "custom/bww3",
    "custom/fg2",
-   "custom/fg4",
    "custom/fg_black",
    "custom/fg_cp",
    "custom/gapad1",
    "custom/gs",
    "custom/mallad",
-   "custom/srmilk",
    "custom/sroj",
    "custom/srpharm",
    "dev/reflectivity_20",
@@ -576,7 +576,7 @@
  },
  "counts": {
   "textures_unmapped": 98,
-  "textures_flat": 24,
+  "textures_flat": 21,
   "models_unmapped": 44,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
