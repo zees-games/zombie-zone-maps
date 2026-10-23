@@ -65012,17 +65012,6 @@
   },
   {
    "at": [
-    -99.6757,
-    39.5804,
-    89.6099
-   ],
-   "model": "models/props_lab/mobiletable01.mdl",
-   "scale": 1.0,
-   "stand_in": "table",
-   "yaw": -89.69
-  },
-  {
-   "at": [
     -104.6035,
     39.9288,
     90.4875
@@ -65451,17 +65440,6 @@
    "scale": 1.0,
    "stand_in": "chair",
    "yaw": 151.25
-  },
-  {
-   "at": [
-    -94.2404,
-    39.174,
-    51.1685
-   ],
-   "model": "models/props_interiors/table_folding.mdl",
-   "scale": 1.0,
-   "stand_in": "table",
-   "yaw": -89.1
   },
   {
    "at": [
@@ -66275,17 +66253,6 @@
   },
   {
    "at": [
-    -116.2991,
-    39.5558,
-    78.2576
-   ],
-   "model": "models/props_junk/wood_crate002a_half.mdl",
-   "scale": 1.0,
-   "stand_in": "crate",
-   "yaw": -2.9
-  },
-  {
-   "at": [
     -117.1194,
     39.5552,
     78.0098
@@ -66800,17 +66767,6 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 90.0
-  },
-  {
-   "at": [
-    -115.1382,
-    39.9669,
-    91.802
-   ],
-   "model": "models/props_interiors/makeshift_stove_battery.mdl",
-   "scale": 1.0,
-   "stand_in": "stove",
-   "yaw": 0.0
   },
   {
    "at": [
@@ -77176,6 +77132,66 @@
    "size": 2.456,
    "stand_in": "bin",
    "yaw": 90.0
+  },
+  {
+   "at": [
+    -99.6711,
+    39.5804,
+    89.5907
+   ],
+   "box": [
+    0.8,
+    0.809,
+    1.202
+   ],
+   "model": "models/props_lab/mobiletable01.mdl",
+   "scale": 1.0,
+   "yaw": -89.69
+  },
+  {
+   "at": [
+    -94.2404,
+    39.4592,
+    51.1685
+   ],
+   "box": [
+    0.692,
+    0.57,
+    1.659
+   ],
+   "model": "models/props_interiors/table_folding.mdl",
+   "scale": 1.0,
+   "yaw": -89.1
+  },
+  {
+   "at": [
+    -116.2977,
+    39.3653,
+    78.2577
+   ],
+   "box": [
+    0.77,
+    0.384,
+    1.292
+   ],
+   "model": "models/props_junk/wood_crate002a_half.mdl",
+   "scale": 1.0,
+   "yaw": -2.9
+  },
+  {
+   "at": [
+    -115.1595,
+    40.1314,
+    91.781
+   ],
+   "box": [
+    0.417,
+    0.33,
+    0.699
+   ],
+   "model": "models/props_interiors/makeshift_stove_battery.mdl",
+   "scale": 1.0,
+   "yaw": 0.0
   }
  ],
  "scripts": [],

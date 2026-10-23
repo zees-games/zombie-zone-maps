@@ -82641,17 +82641,6 @@
   },
   {
    "at": [
-    -38.5953,
-    -26.8224,
-    -118.5291
-   ],
-   "model": "models/haxxer/normandy/meddesk.mdl",
-   "scale": 1.0,
-   "stand_in": "desk",
-   "yaw": 178.5
-  },
-  {
-   "at": [
     -62.5221,
     -24.003,
     -118.5482
@@ -82660,17 +82649,6 @@
    "scale": 1.0,
    "stand_in": "crate_large",
    "yaw": 180.65
-  },
-  {
-   "at": [
-    -39.7002,
-    -27.2415,
-    -121.9391
-   ],
-   "model": "models/mandrac/ore_container/ore_medium.mdl",
-   "scale": 1.0,
-   "stand_in": "crate_large",
-   "yaw": 0.0
   },
   {
    "at": [
@@ -83072,17 +83050,6 @@
    "scale": 1.0,
    "stand_in": "table",
    "yaw": 0.0
-  },
-  {
-   "at": [
-    -40.2908,
-    -16.6057,
-    -93.9546
-   ],
-   "model": "models/haxxer/normandy/meddesk.mdl",
-   "scale": 1.0,
-   "stand_in": "desk",
-   "yaw": 179.5
   },
   {
    "at": [
@@ -90008,17 +89975,6 @@
   },
   {
    "at": [
-    -31.2039,
-    -13.2547,
-    -92.1639
-   ],
-   "model": "models/testmodels/coffee_table_long.mdl",
-   "scale": 1.0,
-   "stand_in": "table",
-   "yaw": 0.0
-  },
-  {
-   "at": [
     -30.4991,
     -13.2325,
     -90.3732
@@ -94785,6 +94741,66 @@
    "shape": true,
    "size": 2.921,
    "stand_in": "chest",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -39.2091,
+    -26.4031,
+    -119.1761
+   ],
+   "box": [
+    3.779,
+    0.839,
+    1.261
+   ],
+   "model": "models/haxxer/normandy/meddesk.mdl",
+   "scale": 1.0,
+   "yaw": 178.5
+  },
+  {
+   "at": [
+    -39.6976,
+    -26.6271,
+    -121.952
+   ],
+   "box": [
+    2.335,
+    1.255,
+    2.661
+   ],
+   "model": "models/mandrac/ore_container/ore_medium.mdl",
+   "scale": 1.0,
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -40.9157,
+    -16.1864,
+    -94.5908
+   ],
+   "box": [
+    3.779,
+    0.839,
+    1.261
+   ],
+   "model": "models/haxxer/normandy/meddesk.mdl",
+   "scale": 1.0,
+   "yaw": 179.5
+  },
+  {
+   "at": [
+    -31.2028,
+    -13.0349,
+    -92.2606
+   ],
+   "box": [
+    0.747,
+    0.438,
+    1.688
+   ],
+   "model": "models/testmodels/coffee_table_long.mdl",
+   "scale": 1.0,
    "yaw": 0.0
   }
  ],

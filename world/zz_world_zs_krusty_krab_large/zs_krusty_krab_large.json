@@ -36439,28 +36439,6 @@
   },
   {
    "at": [
-    1.524,
-    -4.872,
-    -4.7244
-   ],
-   "model": "models/firewavezzmodels/metal_table_test.mdl",
-   "scale": 1.0,
-   "stand_in": "table",
-   "yaw": 270.0
-  },
-  {
-   "at": [
-    31.6992,
-    -8.8344,
-    11.5824
-   ],
-   "model": "models/firewavezzmodels/metal_table_test.mdl",
-   "scale": 1.0,
-   "stand_in": "table",
-   "yaw": 0.0
-  },
-  {
-   "at": [
     38.2524,
     -8.8338,
     -0.0
@@ -40406,6 +40384,36 @@
    "size": 0.191,
    "stand_in": "stump",
    "yaw": 90.0
+  },
+  {
+   "at": [
+    1.8383,
+    -4.5291,
+    -4.7244
+   ],
+   "box": [
+    1.829,
+    0.686,
+    0.629
+   ],
+   "model": "models/firewavezzmodels/metal_table_test.mdl",
+   "scale": 1.0,
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    31.6992,
+    -8.4915,
+    11.2681
+   ],
+   "box": [
+    1.829,
+    0.686,
+    0.629
+   ],
+   "model": "models/firewavezzmodels/metal_table_test.mdl",
+   "scale": 1.0,
+   "yaw": 0.0
   }
  ],
  "scripts": [],
