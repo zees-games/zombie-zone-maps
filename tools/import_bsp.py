@@ -744,12 +744,14 @@ def main(argv):
         if not bs.terrain_tris():
             sys.exit("import_bsp: spec asks for terrain but the intermediate has no displacements; rebuild it with `bsp.py convert --displacements`")
         n = 0
+        terrain_area = 0.0
         for c in dboxes.terrain_cells(bs.terrain_tris(), cell=float(topts.get("cell", 80.0)), quant=float(topts.get("quant", 5.0))):
             sx, sy, sz = dboxes.size(c)
             boxes.append({"at": [r3(v) for v in gpt(dboxes.centre(c), y0)],
                           "size": [r3(max(v, 0.02)) for v in (sx * S, sz * S, sy * S)],
                           "mat": spec.get("terrain_mat", "dirt")})
             n += 1
+            terrain_area += sx * sy * S * S
         print("terrain: %d ground boxes from the displacements" % n)
 
     # brush entities: solid ones are part of the world; gates are held back for the route
@@ -1660,6 +1662,11 @@ def main(argv):
     print("%s: %d boxes (%d barricade), %d props, %d lights, %d spawns, %d zombie spawns, %d floors, %d items, %d caches, %d posts" % (
         path, len(doc["boxes"]), len(bar_boxes), len(props), len(lights), len(spawns), len(zsp), len(floors), len(items), len(caches), len(posts)))
     print("  route %d points, %d objectives, %d gate boxes, %d cells reachable, end %s" % (len(route), len(objectives), len(gate_boxes), len(seen), end_area[0]["min"] if end_area else None))
+    if spec.get("terrain"):
+        # A stepped field cannot be walked up a slope steeper than a step per cell, so a hilly map's reach stops at the first hill.
+        share = len(seen) * CELL * CELL / max(terrain_area, 1.0)
+        if share < 0.05:
+            print("  WARNING: the survivors' flood covers %.1f%% of the terrain: the displacements are too steep for a box field (needs triangle ground)" % (share * 100))
     return 0
 
 

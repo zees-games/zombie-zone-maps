@@ -28595,7 +28595,7 @@
    },
    {
     "author": "Kenney",
-    "count": 30,
+    "count": 35,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -28694,7 +28694,7 @@
    },
    {
     "author": "Kenney",
-    "count": 43,
+    "count": 45,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -28772,6 +28772,15 @@
     "source": "Kenney Furniture Kit",
     "stand_in": "lamp",
     "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 7,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Nature Kit",
+    "stand_in": "log",
+    "url": "https://kenney.nl/assets/nature-kit"
    },
    {
     "author": "Kenney",
@@ -28865,7 +28874,7 @@
    },
    {
     "author": "Kenney",
-    "count": 26,
+    "count": 12,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Car Kit",
@@ -30054,27 +30063,27 @@
    {
     "count": 3,
     "model": "models/props_vehicles/carparts_axel01a.mdl",
-    "stand_in": "vehicles/sedan"
+    "stand_in": "log"
    },
    {
     "count": 2,
     "model": "models/props_vehicles/carparts_door01a.mdl",
-    "stand_in": "vehicles/sedan"
+    "stand_in": "crate"
    },
    {
     "count": 4,
     "model": "models/props_vehicles/carparts_muffler01a.mdl",
-    "stand_in": "vehicles/sedan"
+    "stand_in": "log"
    },
    {
     "count": 2,
     "model": "models/props_vehicles/carparts_tire01a.mdl",
-    "stand_in": "vehicles/sedan"
+    "stand_in": "barrel"
    },
    {
     "count": 3,
     "model": "models/props_vehicles/carparts_wheel01a.mdl",
-    "stand_in": "vehicles/sedan"
+    "stand_in": "barrel"
    },
    {
     "count": 1,
@@ -35541,17 +35550,6 @@
  "props": [
   {
    "at": [
-    0.8382,
-    6.096,
-    36.3474
-   ],
-   "model": "models/props_debris/walldestroyed08a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 270.0
-  },
-  {
-   "at": [
     8.5344,
     1.0668,
     -10.5388
@@ -35593,28 +35591,6 @@
    "scale": 1.0,
    "stand_in": "chair",
    "yaw": 270.0
-  },
-  {
-   "at": [
-    16.0782,
-    6.9245,
-    -12.954
-   ],
-   "model": "models/props_junk/cinderblock01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 147.5
-  },
-  {
-   "at": [
-    15.8496,
-    6.858,
-    -13.0302
-   ],
-   "model": "models/props_junk/cinderblock01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 251.0
   },
   {
    "at": [
@@ -36331,7 +36307,8 @@
    ],
    "model": "models/props_vehicles/carparts_muffler01a.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/sedan",
+   "size": 1.1,
+   "stand_in": "log",
    "yaw": 165.12
   },
   {
@@ -36342,7 +36319,8 @@
    ],
    "model": "models/props_vehicles/carparts_muffler01a.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/sedan",
+   "size": 1.1,
+   "stand_in": "log",
    "yaw": 165.12
   },
   {
@@ -36353,7 +36331,8 @@
    ],
    "model": "models/props_vehicles/carparts_tire01a.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/sedan",
+   "size": 0.8,
+   "stand_in": "barrel",
    "yaw": 0.0
   },
   {
@@ -36364,7 +36343,8 @@
    ],
    "model": "models/props_vehicles/carparts_tire01a.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/sedan",
+   "size": 0.8,
+   "stand_in": "barrel",
    "yaw": 0.0
   },
   {
@@ -36639,7 +36619,8 @@
    ],
    "model": "models/props_vehicles/carparts_wheel01a.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/sedan",
+   "size": 0.8,
+   "stand_in": "barrel",
    "yaw": 135.31
   },
   {
@@ -36650,7 +36631,8 @@
    ],
    "model": "models/props_vehicles/carparts_wheel01a.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/sedan",
+   "size": 0.8,
+   "stand_in": "barrel",
    "yaw": 135.31
   },
   {
@@ -36661,7 +36643,8 @@
    ],
    "model": "models/props_vehicles/carparts_wheel01a.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/sedan",
+   "size": 0.8,
+   "stand_in": "barrel",
    "yaw": 135.31
   },
   {
@@ -37212,7 +37195,8 @@
    ],
    "model": "models/props_vehicles/carparts_muffler01a.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/sedan",
+   "size": 1.1,
+   "stand_in": "log",
    "yaw": 165.12
   },
   {
@@ -37404,28 +37388,6 @@
   },
   {
    "at": [
-    36.3167,
-    5.3583,
-    8.1392
-   ],
-   "model": "models/props_junk/cinderblock01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 251.0
-  },
-  {
-   "at": [
-    33.147,
-    5.3583,
-    -14.4018
-   ],
-   "model": "models/props_junk/cinderblock01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 193.5
-  },
-  {
-   "at": [
     3.2004,
     5.0967,
     17.907
@@ -37443,7 +37405,8 @@
    ],
    "model": "models/props_vehicles/carparts_door01a.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/sedan",
+   "size": 1.1,
+   "stand_in": "crate",
    "yaw": 0.0
   },
   {
@@ -37454,7 +37417,8 @@
    ],
    "model": "models/props_vehicles/carparts_axel01a.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/sedan",
+   "size": 1.5,
+   "stand_in": "log",
    "yaw": 314.5
   },
   {
@@ -37465,7 +37429,8 @@
    ],
    "model": "models/props_vehicles/carparts_axel01a.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/sedan",
+   "size": 1.5,
+   "stand_in": "log",
    "yaw": 314.5
   },
   {
@@ -37476,7 +37441,8 @@
    ],
    "model": "models/props_vehicles/carparts_axel01a.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/sedan",
+   "size": 1.5,
+   "stand_in": "log",
    "yaw": 314.5
   },
   {
@@ -37597,7 +37563,8 @@
    ],
    "model": "models/props_vehicles/carparts_muffler01a.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/sedan",
+   "size": 1.1,
+   "stand_in": "log",
    "yaw": 165.12
   },
   {
@@ -37641,7 +37608,8 @@
    ],
    "model": "models/props_vehicles/carparts_door01a.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/sedan",
+   "size": 1.1,
+   "stand_in": "crate",
    "yaw": 0.0
   },
   {
@@ -38801,39 +38769,6 @@
   },
   {
    "at": [
-    11.9634,
-    0.762,
-    -9.2202
-   ],
-   "model": "models/props_debris/barricade_short02a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 242.24
-  },
-  {
-   "at": [
-    13.4112,
-    1.3716,
-    -9.144
-   ],
-   "model": "models/props_debris/barricade_tall02a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 256.79
-  },
-  {
-   "at": [
-    14.3256,
-    1.2954,
-    -9.2202
-   ],
-   "model": "models/props_debris/barricade_tall04a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 251.5
-  },
-  {
-   "at": [
     12.1158,
     1.0613,
     -9.2964
@@ -38900,83 +38835,6 @@
   },
   {
    "at": [
-    35.3568,
-    4.1148,
-    0.6858
-   ],
-   "model": "models/props_debris/rebar002b_48.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 331.0
-  },
-  {
-   "at": [
-    34.671,
-    4.0386,
-    0.6858
-   ],
-   "model": "models/props_debris/rebar001a_32.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 331.0
-  },
-  {
-   "at": [
-    34.3662,
-    4.1148,
-    0.6096
-   ],
-   "model": "models/props_debris/rebar001a_32.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 341.0
-  },
-  {
-   "at": [
-    35.7378,
-    4.4196,
-    0.3048
-   ],
-   "model": "models/props_debris/rebar_cluster002a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 155.27
-  },
-  {
-   "at": [
-    34.8234,
-    4.4958,
-    0.381
-   ],
-   "model": "models/props_debris/rebar001a_32.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 339.41
-  },
-  {
-   "at": [
-    34.671,
-    3.7688,
-    0.762
-   ],
-   "model": "models/props_debris/barricade_tall02a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 219.5
-  },
-  {
-   "at": [
-    35.433,
-    3.1178,
-    1.2954
-   ],
-   "model": "models/props_debris/barricade_short04a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 165.5
-  },
-  {
-   "at": [
     20.4026,
     2.9718,
     9.1059
@@ -39007,17 +38865,6 @@
    "scale": 1.0,
    "stand_in": "fence",
    "yaw": 0.0
-  },
-  {
-   "at": [
-    -30.3276,
-    13.4112,
-    -7.239
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 180.0
   },
   {
    "at": [
@@ -39057,28 +38904,6 @@
   },
   {
    "at": [
-    -26.8986,
-    15.8552,
-    7.0866
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 180.0
-  },
-  {
-   "at": [
-    -23.9268,
-    6.1727,
-    -11.5062
-   ],
-   "model": "models/props_debris/walldestroyed01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 323.36
-  },
-  {
-   "at": [
     -26.0604,
     21.9463,
     9.6012
@@ -39100,171 +38925,6 @@
    "size": 1.219,
    "stand_in": "rock",
    "yaw": 180.0
-  },
-  {
-   "at": [
-    -26.8224,
-    6.1016,
-    2.3622
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    -28.194,
-    7.6962,
-    -11.7348
-   ],
-   "model": "models/props_debris/walldestroyed09e.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 64.54
-  },
-  {
-   "at": [
-    -24.5364,
-    6.1016,
-    6.858
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 270.0
-  },
-  {
-   "at": [
-    -28.6512,
-    6.1016,
-    6.858
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    -29.7942,
-    6.096,
-    13.1826
-   ],
-   "model": "models/props_debris/walldestroyed01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    -31.5468,
-    15.9004,
-    4.7244
-   ],
-   "model": "models/props_debris/walldestroyed01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    -26.3652,
-    6.096,
-    17.9832
-   ],
-   "model": "models/props_debris/walldestroyed05a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    -23.7744,
-    5.2685,
-    -7.62
-   ],
-   "model": "models/props_debris/concrete_debris256pile001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    -29.2608,
-    10.9784,
-    20.4216
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 270.0
-  },
-  {
-   "at": [
-    -25.6032,
-    5.9724,
-    26.2271
-   ],
-   "model": "models/props_debris/walldestroyed09e.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 180.0
-  },
-  {
-   "at": [
-    -25.146,
-    5.9724,
-    31.1658
-   ],
-   "model": "models/props_debris/walldestroyed09e.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 221.0
-  },
-  {
-   "at": [
-    -27.8412,
-    6.7606,
-    23.8506
-   ],
-   "model": "models/props_debris/walldestroyed08a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    -29.0322,
-    6.477,
-    22.479
-   ],
-   "model": "models/props_debris/walldestroyed01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 59.0
-  },
-  {
-   "at": [
-    -26.289,
-    7.3864,
-    25.3746
-   ],
-   "model": "models/props_debris/walldestroyed07b.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 41.5
-  },
-  {
-   "at": [
-    -23.8506,
-    8.54,
-    33.6804
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 270.0
   },
   {
    "at": [
@@ -39292,28 +38952,6 @@
   },
   {
    "at": [
-    -26.67,
-    8.54,
-    34.7472
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    -25.4508,
-    8.54,
-    35.9664
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 270.0
-  },
-  {
-   "at": [
     -23.8506,
     12.0403,
     35.9664
@@ -39338,39 +38976,6 @@
   },
   {
    "at": [
-    -26.6155,
-    8.0772,
-    32.6136
-   ],
-   "model": "models/props_debris/beam01c.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 45.5
-  },
-  {
-   "at": [
-    -26.5176,
-    8.0772,
-    27.5082
-   ],
-   "model": "models/props_debris/beam01c.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 310.41
-  },
-  {
-   "at": [
-    -26.9748,
-    13.4168,
-    40.6908
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 270.0
-  },
-  {
-   "at": [
     -24.9174,
     12.0403,
     39.3192
@@ -39380,61 +38985,6 @@
    "size": 2.438,
    "stand_in": "rock",
    "yaw": 270.0
-  },
-  {
-   "at": [
-    -24.9936,
-    18.3004,
-    10.0584
-   ],
-   "model": "models/props_debris/walldestroyed08a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    -28.1178,
-    13.4261,
-    -4.572
-   ],
-   "model": "models/props_debris/walldestroyed08a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    -26.8224,
-    6.1084,
-    6.3246
-   ],
-   "model": "models/props_debris/walldestroyed08a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    -9.7536,
-    8.5344,
-    26.9748
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    -19.1262,
-    8.54,
-    31.6992
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
   },
   {
    "at": [
@@ -39462,50 +39012,6 @@
   },
   {
    "at": [
-    -12.192,
-    10.9728,
-    26.9748
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    -10.287,
-    6.096,
-    30.9372
-   ],
-   "model": "models/props_debris/walldestroyed08a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    -4.1148,
-    5.2685,
-    34.3662
-   ],
-   "model": "models/props_debris/concrete_debris256pile001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    -10.0584,
-    8.5344,
-    31.7754
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
-  },
-  {
-   "at": [
     -17.7546,
     7.3159,
     32.8422
@@ -39518,17 +39024,6 @@
   },
   {
    "at": [
-    -14.3256,
-    8.5344,
-    30.4038
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 180.0
-  },
-  {
-   "at": [
     -23.1852,
     4.8857,
     -4.3445
@@ -39537,39 +39032,6 @@
    "scale": 1.0,
    "stand_in": "tree",
    "yaw": 0.0
-  },
-  {
-   "at": [
-    -13.335,
-    7.7069,
-    34.3662
-   ],
-   "model": "models/props_debris/concrete_debris256pile001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 270.0
-  },
-  {
-   "at": [
-    -16.383,
-    8.5344,
-    36.8046
-   ],
-   "model": "models/props_debris/walldestroyed08a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 270.0
-  },
-  {
-   "at": [
-    -19.1262,
-    8.5344,
-    34.2138
-   ],
-   "model": "models/props_debris/walldestroyed08a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
   },
   {
    "at": [
@@ -39597,39 +39059,6 @@
   },
   {
    "at": [
-    -7.3152,
-    8.5344,
-    37.4904
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    -4.191,
-    6.096,
-    28.3464
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 359.5
-  },
-  {
-   "at": [
-    -12.192,
-    7.7724,
-    31.3182
-   ],
-   "model": "models/props_debris/rebar_cluster002a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 180.0
-  },
-  {
-   "at": [
     -13.5636,
     9.7536,
     27.7368
@@ -39642,17 +39071,6 @@
   },
   {
    "at": [
-    -12.4968,
-    10.9728,
-    31.7754
-   ],
-   "model": "models/props_debris/walldestroyed08a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
     -13.2588,
     7.3152,
     33.147
@@ -39660,17 +39078,6 @@
    "model": "models/props_debris/walldestroyed02a.mdl",
    "scale": 1.0,
    "size": 4.87,
-   "stand_in": "rock",
-   "yaw": 270.0
-  },
-  {
-   "at": [
-    -3.048,
-    8.5344,
-    26.9748
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
    "stand_in": "rock",
    "yaw": 270.0
   },
@@ -39700,17 +39107,6 @@
   },
   {
    "at": [
-    -0.6096,
-    10.9728,
-    34.8996
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
     2.2098,
     7.1661,
     36.2712
@@ -39732,171 +39128,6 @@
    "size": 1.219,
    "stand_in": "rock",
    "yaw": 180.0
-  },
-  {
-   "at": [
-    -3.8862,
-    5.4864,
-    33.3756
-   ],
-   "model": "models/props_debris/building_brokenexterior002c.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 240.07
-  },
-  {
-   "at": [
-    -0.8382,
-    8.5344,
-    37.4904
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 270.0
-  },
-  {
-   "at": [
-    -8.6868,
-    8.5344,
-    38.3286
-   ],
-   "model": "models/props_debris/walldestroyed08a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 270.0
-  },
-  {
-   "at": [
-    0.2286,
-    10.9816,
-    40.9194
-   ],
-   "model": "models/props_debris/walldestroyed06b.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 270.0
-  },
-  {
-   "at": [
-    -2.2098,
-    10.9816,
-    40.9194
-   ],
-   "model": "models/props_debris/walldestroyed07b.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 270.0
-  },
-  {
-   "at": [
-    2.3622,
-    10.668,
-    37.719
-   ],
-   "model": "models/props_debris/walldestroyed09e.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 191.96
-  },
-  {
-   "at": [
-    -4.953,
-    7.3914,
-    40.2336
-   ],
-   "model": "models/props_debris/walldestroyed07b.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 277.44
-  },
-  {
-   "at": [
-    -14.097,
-    5.4038,
-    40.6908
-   ],
-   "model": "models/props_debris/barricade_short04a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    -16.2306,
-    7.9946,
-    27.2796
-   ],
-   "model": "models/props_debris/barricade_short04a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 270.0
-  },
-  {
-   "at": [
-    1.143,
-    5.4038,
-    34.8996
-   ],
-   "model": "models/props_debris/barricade_short04a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    2.4384,
-    5.4144,
-    37.8714
-   ],
-   "model": "models/props_debris/barricade_short02a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 87.0
-  },
-  {
-   "at": [
-    -19.1262,
-    10.9728,
-    35.8902
-   ],
-   "model": "models/props_debris/walldestroyed08a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    -19.1262,
-    10.9728,
-    39.0906
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    -13.9446,
-    10.9728,
-    40.9194
-   ],
-   "model": "models/props_debris/walldestroyed01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    -6.9342,
-    10.9728,
-    40.9194
-   ],
-   "model": "models/props_debris/walldestroyed01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
   },
   {
    "at": [
@@ -39941,50 +39172,6 @@
    "scale": 1.0,
    "stand_in": "factory/pipe",
    "yaw": 270.0
-  },
-  {
-   "at": [
-    43.053,
-    13.7216,
-    5.6388
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 180.0
-  },
-  {
-   "at": [
-    41.3766,
-    13.7182,
-    4.4958
-   ],
-   "model": "models/props_debris/building_brokenexterior002c.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 180.0
-  },
-  {
-   "at": [
-    41.3766,
-    16.16,
-    13.7922
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 180.0
-  },
-  {
-   "at": [
-    41.3766,
-    16.1606,
-    10.9728
-   ],
-   "model": "models/props_debris/building_brokenexterior002a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 180.0
   },
   {
    "at": [
@@ -40035,72 +39222,6 @@
   },
   {
    "at": [
-    -5.0292,
-    6.096,
-    26.9748
-   ],
-   "model": "models/props_debris/walldestroyed08a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 180.0
-  },
-  {
-   "at": [
-    0.8382,
-    6.096,
-    30.4038
-   ],
-   "model": "models/props_debris/walldestroyed08a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 270.0
-  },
-  {
-   "at": [
-    38.3286,
-    7.3152,
-    14.4018
-   ],
-   "model": "models/props_debris/walldestroyed01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 317.91
-  },
-  {
-   "at": [
-    31.623,
-    8.0772,
-    24.9936
-   ],
-   "model": "models/props_debris/walldestroyed09e.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 64.87
-  },
-  {
-   "at": [
-    40.6354,
-    9.3731,
-    25.8318
-   ],
-   "model": "models/props_debris/walldestroyed09e.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 179.66
-  },
-  {
-   "at": [
-    39.7764,
-    11.7348,
-    26.6014
-   ],
-   "model": "models/props_debris/beam01c.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 320.83
-  },
-  {
-   "at": [
     46.1772,
     12.2119,
     33.528
@@ -40110,50 +39231,6 @@
    "size": 4.87,
    "stand_in": "rock",
    "yaw": 270.0
-  },
-  {
-   "at": [
-    46.101,
-    15.8496,
-    28.8417
-   ],
-   "model": "models/props_debris/walldestroyed01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 180.0
-  },
-  {
-   "at": [
-    46.1772,
-    15.8552,
-    24.0792
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 180.0
-  },
-  {
-   "at": [
-    35.2044,
-    9.6774,
-    28.4226
-   ],
-   "model": "models/props_debris/walldestroyed01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 322.0
-  },
-  {
-   "at": [
-    32.5374,
-    10.1346,
-    29.4894
-   ],
-   "model": "models/props_debris/concrete_debris256pile001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 260.67
   },
   {
    "at": [
@@ -40176,17 +39253,6 @@
    "scale": 1.0,
    "stand_in": "factory/pipe",
    "yaw": 316.91
-  },
-  {
-   "at": [
-    33.2232,
-    7.4676,
-    19.9644
-   ],
-   "model": "models/props_debris/building_brokenexterior002c.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 124.25
   },
   {
    "at": [
@@ -40223,17 +39289,6 @@
   },
   {
    "at": [
-    -10.8204,
-    12.3444,
-    55.0926
-   ],
-   "model": "models/props_debris/walldestroyed09e.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 130.37
-  },
-  {
-   "at": [
     7.7724,
     1.188,
     -15.0114
@@ -40242,28 +39297,6 @@
    "scale": 1.0,
    "stand_in": "fence",
    "yaw": 90.0
-  },
-  {
-   "at": [
-    22.9362,
-    8.6868,
-    26.289
-   ],
-   "model": "models/props_debris/walldestroyed09e.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 94.47
-  },
-  {
-   "at": [
-    26.5176,
-    8.4582,
-    27.2034
-   ],
-   "model": "models/props_debris/walldestroyed01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 96.48
   },
   {
    "at": [
@@ -40278,39 +39311,6 @@
   },
   {
    "at": [
-    -8.6106,
-    7.2569,
-    -28.6893
-   ],
-   "model": "models/props_debris/rebar_cluster001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    -4.8578,
-    6.8771,
-    -28.7274
-   ],
-   "model": "models/props_debris/rebar_medthin01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 16.55
-  },
-  {
-   "at": [
-    -5.8592,
-    11.3538,
-    -31.3944
-   ],
-   "model": "models/props_debris/rebar002d_96.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 30.0
-  },
-  {
-   "at": [
     -7.62,
     4.8768,
     -25.6032
@@ -40319,50 +39319,6 @@
    "scale": 1.0,
    "stand_in": "graveyard/lamppost",
    "yaw": 180.0
-  },
-  {
-   "at": [
-    -6.9342,
-    5.2578,
-    -35.6616
-   ],
-   "model": "models/props_debris/concrete_debris256pile001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    -5.8674,
-    6.096,
-    -38.1762
-   ],
-   "model": "models/props_debris/walldestroyed01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    -8.1534,
-    6.096,
-    -33.147
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    -2.0574,
-    11.1252,
-    -37.9476
-   ],
-   "model": "models/props_debris/rebar002b_48.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 30.93
   },
   {
    "at": [
@@ -40375,105 +39331,6 @@
    "size": 1.219,
    "stand_in": "rock",
    "yaw": 269.5
-  },
-  {
-   "at": [
-    28.956,
-    5.0292,
-    -36.8046
-   ],
-   "model": "models/props_debris/concrete_debris128pile001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 270.0
-  },
-  {
-   "at": [
-    18.8976,
-    9.7536,
-    -28.575
-   ],
-   "model": "models/props_debris/building_brokenexterior002c.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 270.0
-  },
-  {
-   "at": [
-    15.24,
-    17.0688,
-    -28.4226
-   ],
-   "model": "models/props_debris/concrete_section128wall001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 270.0
-  },
-  {
-   "at": [
-    18.8976,
-    17.0688,
-    -28.575
-   ],
-   "model": "models/props_debris/building_brokenexterior002a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    13.0302,
-    17.0812,
-    -29.8704
-   ],
-   "model": "models/props_debris/walldestroyed08a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 270.0
-  },
-  {
-   "at": [
-    16.8402,
-    19.05,
-    -32.2326
-   ],
-   "model": "models/props_debris/beam01c.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 198.63
-  },
-  {
-   "at": [
-    36.3474,
-    6.096,
-    -31.0134
-   ],
-   "model": "models/props_debris/concrete_debris128pile001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 24.9
-  },
-  {
-   "at": [
-    38.1,
-    6.1277,
-    -31.1658
-   ],
-   "model": "models/props_debris/walldestroyed03a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 330.96
-  },
-  {
-   "at": [
-    40.0812,
-    6.7818,
-    -33.6042
-   ],
-   "model": "models/props_debris/walldestroyed09e.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 154.48
   },
   {
    "at": [
@@ -40507,61 +39364,6 @@
    "scale": 1.0,
    "stand_in": "bench",
    "yaw": 90.0
-  },
-  {
-   "at": [
-    37.338,
-    8.6868,
-    -35.8902
-   ],
-   "model": "models/props_debris/rebar_cluster002a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 153.61
-  },
-  {
-   "at": [
-    34.29,
-    8.0585,
-    -36.3474
-   ],
-   "model": "models/props_debris/rebar002b_48.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 353.69
-  },
-  {
-   "at": [
-    33.6042,
-    8.9916,
-    -36.4236
-   ],
-   "model": "models/props_debris/rebar001a_32.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 33.48
-  },
-  {
-   "at": [
-    32.9184,
-    8.8392,
-    -36.4998
-   ],
-   "model": "models/props_debris/rebar001a_32.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 179.6
-  },
-  {
-   "at": [
-    36.1188,
-    7.6962,
-    -36.0426
-   ],
-   "model": "models/props_debris/rebar001a_32.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 33.48
   },
   {
    "at": [
@@ -40763,17 +39565,6 @@
   },
   {
    "at": [
-    28.7274,
-    5.2685,
-    -31.0896
-   ],
-   "model": "models/props_debris/concrete_debris256pile001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
-  },
-  {
-   "at": [
     13.8684,
     5.4114,
     -10.9728
@@ -40818,39 +39609,6 @@
   },
   {
    "at": [
-    35.2044,
-    6.6294,
-    -31.9278
-   ],
-   "model": "models/props_debris/walldestroyed03a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.96
-  },
-  {
-   "at": [
-    -13.716,
-    1.2954,
-    44.0436
-   ],
-   "model": "models/props_debris/concrete_debris256pile001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    -11.43,
-    1.2192,
-    43.5102
-   ],
-   "model": "models/props_debris/barricade_short04a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 109.5
-  },
-  {
-   "at": [
     -11.3538,
     1.524,
     44.1198
@@ -40859,28 +39617,6 @@
    "scale": 1.0,
    "stand_in": "factory/pipe",
    "yaw": 294.36
-  },
-  {
-   "at": [
-    -16.002,
-    1.6764,
-    25.6032
-   ],
-   "model": "models/props_debris/walldestroyed03a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 2.72
-  },
-  {
-   "at": [
-    -11.6586,
-    1.6002,
-    26.1366
-   ],
-   "model": "models/props_debris/walldestroyed03a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 346.72
   },
   {
    "at": [
@@ -41181,17 +39917,6 @@
   },
   {
    "at": [
-    -0.6096,
-    2.4384,
-    10.3632
-   ],
-   "model": "models/props_debris/rebar002d_96.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 30.0
-  },
-  {
-   "at": [
     33.2232,
     10.5198,
     27.813
@@ -41346,28 +40071,6 @@
   },
   {
    "at": [
-    -6.1722,
-    5.4038,
-    -28.956
-   ],
-   "model": "models/props_debris/barricade_short04a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    -0.0762,
-    0.3048,
-    11.7348
-   ],
-   "model": "models/props_debris/concrete_debris128pile001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
-  },
-  {
-   "at": [
     9.6012,
     4.9911,
     -29.4132
@@ -41511,17 +40214,6 @@
   },
   {
    "at": [
-    4.0386,
-    5.4038,
-    27.2796
-   ],
-   "model": "models/props_debris/barricade_short04a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 270.0
-  },
-  {
-   "at": [
     3.5814,
     0.2286,
     -6.1722
@@ -41552,17 +40244,6 @@
    "scale": 1.0,
    "stand_in": "bin",
    "yaw": 207.5
-  },
-  {
-   "at": [
-    -24.9174,
-    7.8422,
-    33.9852
-   ],
-   "model": "models/props_debris/barricade_short04a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 270.0
   },
   {
    "at": [
@@ -41618,28 +40299,6 @@
    "scale": 1.0,
    "stand_in": "bin",
    "yaw": 180.0
-  },
-  {
-   "at": [
-    -3.6576,
-    5.2578,
-    15.0876
-   ],
-   "model": "models/props_debris/concrete_debris256pile001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 270.0
-  },
-  {
-   "at": [
-    -2.5908,
-    5.0385,
-    16.5354
-   ],
-   "model": "models/props_debris/walldestroyed08a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 322.0
   },
   {
    "at": [
@@ -42446,17 +41105,6 @@
   },
   {
    "at": [
-    0.762,
-    1.6764,
-    -25.908
-   ],
-   "model": "models/props_debris/barricade_tall02a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 259.91
-  },
-  {
-   "at": [
     1.8288,
     1.9812,
     -26.9748
@@ -42465,94 +41113,6 @@
    "scale": 1.0,
    "stand_in": "factory/pipe",
    "yaw": 101.93
-  },
-  {
-   "at": [
-    1.9812,
-    0.9144,
-    -25.7556
-   ],
-   "model": "models/props_debris/barricade_short02a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 236.75
-  },
-  {
-   "at": [
-    10.0802,
-    18.0213,
-    50.0746
-   ],
-   "model": "models/props_debris/rebar002d_96.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 31.19
-  },
-  {
-   "at": [
-    9.3536,
-    15.4686,
-    52.0149
-   ],
-   "model": "models/props_debris/walldestroyed07b.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 277.44
-  },
-  {
-   "at": [
-    -16.6878,
-    17.6022,
-    55.7565
-   ],
-   "model": "models/props_debris/rebar002b_48.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 197.41
-  },
-  {
-   "at": [
-    -14.5542,
-    13.5735,
-    57.15
-   ],
-   "model": "models/props_debris/beam01c.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 45.5
-  },
-  {
-   "at": [
-    -2.4384,
-    14.5542,
-    54.2544
-   ],
-   "model": "models/props_debris/walldestroyed09e.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 146.45
-  },
-  {
-   "at": [
-    18.669,
-    14.859,
-    45.5676
-   ],
-   "model": "models/props_debris/beam01c.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 38.83
-  },
-  {
-   "at": [
-    42.4434,
-    10.3632,
-    26.6258
-   ],
-   "model": "models/props_debris/walldestroyed01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
   },
   {
    "at": [
@@ -42575,28 +41135,6 @@
    "scale": 1.0,
    "stand_in": "cabinet",
    "yaw": 270.0
-  },
-  {
-   "at": [
-    38.6334,
-    5.7848,
-    3.5052
-   ],
-   "model": "models/props_debris/barricade_short04a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 180.0
-  },
-  {
-   "at": [
-    -18.2118,
-    13.4874,
-    50.413
-   ],
-   "model": "models/props_debris/barricade_tall04a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 45.18
   },
   {
    "at": [
@@ -42663,17 +41201,6 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 0.0
-  },
-  {
-   "at": [
-    41.91,
-    15.24,
-    13.1826
-   ],
-   "model": "models/props_debris/beam01c.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 171.38
   },
   {
    "at": [
@@ -42820,17 +41347,6 @@
   },
   {
    "at": [
-    34.1376,
-    5.4102,
-    6.7818
-   ],
-   "model": "models/props_debris/concrete_debris128pile001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
-  },
-  {
-   "at": [
     2.7432,
     0.6096,
     -22.5171
@@ -42872,17 +41388,6 @@
    "scale": 1.0,
    "stand_in": "prototype/ladder",
    "yaw": 270.0
-  },
-  {
-   "at": [
-    42.4434,
-    9.9822,
-    30.2514
-   ],
-   "model": "models/props_debris/walldestroyed09e.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 228.17
   },
   {
    "at": [
