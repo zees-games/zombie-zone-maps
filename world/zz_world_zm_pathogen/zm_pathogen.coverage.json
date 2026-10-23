@@ -1,0 +1,399 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "zs_pathogen",
+ "sha256": "f3537730df38f4ec9ab4285b9da12078f81dfbddf2e8cc01018220411c599cdd",
+ "textures": {
+  "looked_up": 284,
+  "by_tier": {
+   "default": 284
+  },
+  "free_by_tier": {
+   "default": 17
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 267,
+  "by_tier": {
+   "default": 150,
+   "fallback": 117
+  }
+ },
+ "sounds": {
+  "looked_up": 20,
+  "by_tier": {
+   "default": 17,
+   "fallback": 3
+  }
+ },
+ "classes": {
+  "distinct": 73,
+  "entities": 1547,
+  "by_tier": {
+   "default": 73
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "health",
+    "pitch",
+    "pitchstart"
+   ],
+   "env_headcrabcanister": [
+    "Damage",
+    "DamageRadius",
+    "FlightSpeed",
+    "FlightTime",
+    "HeadcrabCount",
+    "SkyboxCannisterCount",
+    "SmokeLifetime"
+   ],
+   "env_microphone": [
+    "spawnflags"
+   ],
+   "env_shooter": [
+    "disablereceiveshadows",
+    "renderamt",
+    "rendercolor",
+    "renderfx",
+    "rendermode"
+   ],
+   "filter_activator_team": [
+    "Negated"
+   ],
+   "func_breakable": [
+    "disablereceiveshadows",
+    "disableshadows",
+    "material",
+    "nodamageforces",
+    "spawnobject"
+   ],
+   "func_button": [
+    "disablereceiveshadows"
+   ],
+   "func_door": [
+    "disablereceiveshadows",
+    "disableshadows",
+    "locked_sentence",
+    "unlocked_sentence"
+   ],
+   "func_door_rotating": [
+    "disablereceiveshadows",
+    "disableshadows",
+    "locked_sentence",
+    "unlocked_sentence"
+   ],
+   "func_illusionary": [
+    "disablereceiveshadows",
+    "disableshadows"
+   ],
+   "func_physbox": [
+    "ExplodeDamage",
+    "ExplodeRadius",
+    "PerformanceMode",
+    "disablereceiveshadows",
+    "disableshadows",
+    "explodemagnitude",
+    "explosion",
+    "gibdir",
+    "health",
+    "material",
+    "nodamageforces",
+    "pressuredelay",
+    "propdata",
+    "renderamt",
+    "rendercolor",
+    "renderfx",
+    "rendermode",
+    "spawnobject"
+   ],
+   "func_tanktrain": [
+    "disablereceiveshadows",
+    "disableshadows",
+    "speed",
+    "volume"
+   ],
+   "light_spot": [
+    "_cone",
+    "_exponent",
+    "_inner_cone",
+    "pitch"
+   ],
+   "prop_door_rotating": [
+    "speed"
+   ],
+   "prop_dynamic": [
+    "SetBodyGroup",
+    "disablereceiveshadows",
+    "disableshadows",
+    "fademaxdist",
+    "fademindist",
+    "fadescale",
+    "solid"
+   ],
+   "prop_physics": [
+    "disablereceiveshadows",
+    "disableshadows",
+    "nodamageforces",
+    "shadowcastdist"
+   ],
+   "weapon_zs_battleaxe": [
+    "fademindist",
+    "fadescale"
+   ],
+   "weapon_zs_hammer": [
+    "fademindist",
+    "fadescale"
+   ],
+   "weapon_zs_medicgun": [
+    "fademindist",
+    "fadescale"
+   ],
+   "weapon_zs_swissarmyknife": [
+    "fademindist",
+    "fadescale"
+   ],
+   "weapon_zs_wrench": [
+    "fademindist",
+    "fadescale"
+   ],
+   "worldspawn": [
+    "mapversion"
+   ],
+   "zombiegasses": [
+    "radius"
+   ]
+  }
+ },
+ "links": {
+  "total": 149,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [
+   "./props_c17/trappropeller_engine.mdl",
+   "effects/portalrift.mdl",
+   "items/car_battery01.mdl",
+   "props/cs_italy/bananna_bunch.mdl",
+   "props/cs_office/microwave.mdl",
+   "props_buildings/collapsedbuilding02b.mdl",
+   "props_buildings/collapsedbuilding02c.mdl",
+   "props_buildings/destroyed_cityblock01b.mdl",
+   "props_buildings/destroyed_cityblock01d.mdl",
+   "props_buildings/destroyed_cityblock01e.mdl",
+   "props_buildings/destroyed_cityblock01f.mdl",
+   "props_buildings/destroyed_cityblock01g.mdl",
+   "props_buildings/destroyed_cityblock01h.mdl",
+   "props_buildings/project_destroyedbuildings03_skybox.mdl",
+   "props_buildings/project_destroyedbuildings04_skybox.mdl",
+   "props_c17/cashregister01a.mdl",
+   "props_c17/consolebox05a.mdl",
+   "props_c17/display_cooler01a.mdl",
+   "props_c17/doll01.mdl",
+   "props_c17/door01_left.mdl",
+   "props_c17/frame002a.mdl",
+   "props_c17/furniturebed001a.mdl",
+   "props_c17/furnitureboiler001a.mdl",
+   "props_c17/furniturefireplace001a.mdl",
+   "props_c17/furniturepipecluster001a.mdl",
+   "props_c17/gate_door01a.mdl",
+   "props_c17/metalladder002.mdl",
+   "props_c17/metalladder002b.mdl",
+   "props_c17/overhaingcluster_001a.mdl",
+   "props_c17/playground_carousel01.mdl",
+   "props_c17/playground_jungle_gym01a.mdl",
+   "props_c17/playground_jungle_gym01b.mdl",
+   "props_c17/playground_swingset01.mdl",
+   "props_c17/playground_teetertoter_stan.mdl",
+   "props_c17/playgroundslide01.mdl",
+   "props_c17/playgroundtick-tack-toe_block01a.mdl",
+   "props_c17/playgroundtick-tack-toe_post01.mdl",
+   "props_c17/suitcase_passenger_physics.mdl",
+   "props_c17/utilityconducter001.mdl",
+   "props_c17/utilitypole02b.mdl",
+   "props_canal/refinery_02_skybox.mdl",
+   "props_canal/refinery_03_skybox.mdl",
+   "props_combine/breenbust.mdl",
+   "props_combine/combine_citadelburst.mdl",
+   "props_combine/combine_citadelcard001b.mdl",
+   "props_combine/combine_interface002.mdl",
+   "props_combine/combine_interface003.mdl",
+   "props_combine/combine_lock01.mdl",
+   "props_combine/combineinnerwallcluster1024_001a.mdl",
+   "props_combine/combinewallcrushed.mdl",
+   "props_interiors/refrigerator01a.mdl",
+   "props_junk/bicycle01a.mdl",
+   "props_junk/ibeam01a.mdl",
+   "props_junk/popcan01a.mdl",
+   "props_junk/sawblade001a.mdl",
+   "props_junk/shoe001a.mdl",
+   "props_junk/watermelon01.mdl",
+   "props_lab/cornerunit2.mdl",
+   "props_lab/elevatordoor.mdl",
+   "props_lab/eyescanner.mdl",
+   "props_lab/harddrive01.mdl",
+   "props_lab/hev_case.mdl",
+   "props_lab/lab_flourescentlight002b.mdl",
+   "props_lab/partsbin01.mdl",
+   "props_lab/pipesystem01b.mdl",
+   "props_lab/reciever_cart.mdl",
+   "props_mining/oiltank01.mdl",
+   "props_pipes/destroyedpipes01c.mdl",
+   "props_pipes/destroyedpipes01d.mdl",
+   "props_pipes/gutterlarge_512_001a.mdl",
+   "props_pipes/pipe02_lcurve01_long.mdl",
+   "props_pipes/pipe02_straight01_long.mdl",
+   "props_pipes/pipe02_tjoint01.mdl",
+   "props_pipes/pipe03_scurve02_long.mdl",
+   "props_pipes/pipecluster08d_001a.mdl",
+   "props_pipes/pipecluster32d_001a.mdl",
+   "props_pipes/pipeset08d_128_001a.mdl",
+   "props_pipes/pipeset08d_corner128d_001a.mdl",
+   "props_pipes/pipeset32d_128_001a.mdl",
+   "props_pipes/pipeset32d_256_001a.mdl",
+   "props_rooftop/antenna01a.mdl",
+   "props_rooftop/antenna03a.mdl",
+   "props_rooftop/antenna04a.mdl",
+   "props_rooftop/antennaclusters01a.mdl",
+   "props_rooftop/chimneytoppipe_cluster01c.mdl",
+   "props_rooftop/roof_vent004.mdl",
+   "props_rooftop/rooftopcluser06a.mdl",
+   "props_rooftop/scaffolding01a.mdl",
+   "props_silo/electricalbox02.mdl",
+   "props_silo/industriallight01.mdl",
+   "props_silo/prodcables128.mdl",
+   "props_trainstation/cable_1152connection001b.mdl",
+   "props_trainstation/lighttowercluster01.mdl",
+   "props_trainstation/payphone001a.mdl",
+   "props_trainstation/pole_384connection001a.mdl",
+   "props_trainstation/pole_448connection002b.mdl",
+   "props_trainstation/trackmarkers01.mdl",
+   "props_trainstation/tracksign01.mdl",
+   "props_trainstation/tracksign02.mdl",
+   "props_trainstation/tracksign03.mdl",
+   "props_trainstation/tracksign09.mdl",
+   "props_trainstation/trackswitch01.mdl",
+   "props_trainstation/train001.mdl",
+   "props_trainstation/train002.mdl",
+   "props_trainstation/train003.mdl",
+   "props_trainstation/train005.mdl",
+   "props_trainstation/trainstation_post001.mdl",
+   "props_trainstation/traintrack001c.mdl",
+   "props_vents/vent_large_grill001.mdl",
+   "props_wasteland/coolingtank01.mdl",
+   "props_wasteland/horizontalcoolingtank04.mdl",
+   "props_wasteland/laundry_dryer001.mdl",
+   "props_wasteland/pipecluster003a_small.mdl",
+   "props_wasteland/prison_conduit001a.mdl",
+   "props_wasteland/prison_heater001a.mdl",
+   "props_wasteland/prison_metalbed001a.mdl",
+   "props_wasteland/prison_pipes002a.mdl"
+  ],
+  "sounds_unmapped": [
+   "ambient/outro/citadelfinale.wav",
+   "ambient/outro/messagepacketsmultiple02.wav",
+   "doll.squeak"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.health",
+   "ambient_generic.pitch",
+   "ambient_generic.pitchstart",
+   "env_headcrabcanister.Damage",
+   "env_headcrabcanister.DamageRadius",
+   "env_headcrabcanister.FlightSpeed",
+   "env_headcrabcanister.FlightTime",
+   "env_headcrabcanister.HeadcrabCount",
+   "env_headcrabcanister.SkyboxCannisterCount",
+   "env_headcrabcanister.SmokeLifetime",
+   "env_microphone.spawnflags",
+   "env_shooter.disablereceiveshadows",
+   "env_shooter.renderamt",
+   "env_shooter.rendercolor",
+   "env_shooter.renderfx",
+   "env_shooter.rendermode",
+   "filter_activator_team.Negated",
+   "func_breakable.disablereceiveshadows",
+   "func_breakable.disableshadows",
+   "func_breakable.material",
+   "func_breakable.nodamageforces",
+   "func_breakable.spawnobject",
+   "func_button.disablereceiveshadows",
+   "func_door.disablereceiveshadows",
+   "func_door.disableshadows",
+   "func_door.locked_sentence",
+   "func_door.unlocked_sentence",
+   "func_door_rotating.disablereceiveshadows",
+   "func_door_rotating.disableshadows",
+   "func_door_rotating.locked_sentence",
+   "func_door_rotating.unlocked_sentence",
+   "func_illusionary.disablereceiveshadows",
+   "func_illusionary.disableshadows",
+   "func_physbox.ExplodeDamage",
+   "func_physbox.ExplodeRadius",
+   "func_physbox.PerformanceMode",
+   "func_physbox.disablereceiveshadows",
+   "func_physbox.disableshadows",
+   "func_physbox.explodemagnitude",
+   "func_physbox.explosion",
+   "func_physbox.gibdir",
+   "func_physbox.health",
+   "func_physbox.material",
+   "func_physbox.nodamageforces",
+   "func_physbox.pressuredelay",
+   "func_physbox.propdata",
+   "func_physbox.renderamt",
+   "func_physbox.rendercolor",
+   "func_physbox.renderfx",
+   "func_physbox.rendermode",
+   "func_physbox.spawnobject",
+   "func_tanktrain.disablereceiveshadows",
+   "func_tanktrain.disableshadows",
+   "func_tanktrain.speed",
+   "func_tanktrain.volume",
+   "light_spot._cone",
+   "light_spot._exponent",
+   "light_spot._inner_cone",
+   "light_spot.pitch",
+   "prop_door_rotating.speed",
+   "prop_dynamic.SetBodyGroup",
+   "prop_dynamic.disablereceiveshadows",
+   "prop_dynamic.disableshadows",
+   "prop_dynamic.fademaxdist",
+   "prop_dynamic.fademindist",
+   "prop_dynamic.fadescale",
+   "prop_dynamic.solid",
+   "prop_physics.disablereceiveshadows",
+   "prop_physics.disableshadows",
+   "prop_physics.nodamageforces",
+   "prop_physics.shadowcastdist",
+   "weapon_zs_battleaxe.fademindist",
+   "weapon_zs_battleaxe.fadescale",
+   "weapon_zs_hammer.fademindist",
+   "weapon_zs_hammer.fadescale",
+   "weapon_zs_medicgun.fademindist",
+   "weapon_zs_medicgun.fadescale",
+   "weapon_zs_swissarmyknife.fademindist",
+   "weapon_zs_swissarmyknife.fadescale",
+   "weapon_zs_wrench.fademindist",
+   "weapon_zs_wrench.fadescale",
+   "worldspawn.mapversion",
+   "zombiegasses.radius"
+  ],
+  "links_unresolved": []
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 117,
+  "sounds_unmapped": 3,
+  "classes_unmapped": 0,
+  "keys_unmapped": 83,
+  "links_unresolved": 0
+ }
+}
