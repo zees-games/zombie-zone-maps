@@ -16,8 +16,8 @@
  "models": {
   "looked_up": 61,
   "by_tier": {
-   "default": 50,
-   "fallback": 11
+   "default": 51,
+   "fallback": 10
   }
  },
  "sounds": {
@@ -214,8 +214,7 @@
    "props_docks/dock01_pole01a_128.mdl",
    "props_docks/dock01_pole01a_256.mdl",
    "props_docks/dockpole01a.mdl",
-   "props_junk/harpoon002a.mdl",
-   "weapons/w_pistol/w_pistol.mdl"
+   "props_junk/harpoon002a.mdl"
   ],
   "sounds_unmapped": [
    "ambient/levels/coast/seagulls_ambient1.wav",
@@ -345,7 +344,7 @@
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 11,
+  "models_unmapped": 10,
   "sounds_unmapped": 2,
   "classes_unmapped": 0,
   "keys_unmapped": 116,

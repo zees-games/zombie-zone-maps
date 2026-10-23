@@ -57238,6 +57238,15 @@
    },
    {
     "author": "Kenney",
+    "count": 5,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "cardboard_box",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 91,
     "files": [],
     "licence": "CC0-1.0",
@@ -57358,6 +57367,15 @@
     "count": 9,
     "files": [],
     "licence": "CC0-1.0",
+    "source": "Kenney Pirate Kit",
+    "stand_in": "pirate/bottle",
+    "url": "https://kenney.nl/assets/pirate-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 9,
+    "files": [],
+    "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
     "stand_in": "plant",
     "url": "https://kenney.nl/assets/furniture-kit"
@@ -57382,7 +57400,7 @@
    },
    {
     "author": "Kenney",
-    "count": 60,
+    "count": 73,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Nature Kit",
@@ -57609,12 +57627,12 @@
    {
     "count": 1,
     "model": "models/props/cs_italy/bananna_bunch.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 3,
     "model": "models/props/cs_italy/orange.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 2,
@@ -57754,17 +57772,17 @@
    {
     "count": 4,
     "model": "models/props/de_stadium/food_sarnie.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 2,
     "model": "models/props/de_stadium/food_straw.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 1,
     "model": "models/props/de_stadium/food_tray2.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 17,
@@ -58449,12 +58467,12 @@
    {
     "count": 1,
     "model": "models/props_junk/food_pile02.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 1,
     "model": "models/props_junk/food_pile03.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 2,
@@ -58714,12 +58732,12 @@
    {
     "count": 5,
     "model": "models/props_lab/beaker01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "pirate/bottle"
    },
    {
     "count": 1,
     "model": "models/props_lab/beaker01b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "pirate/bottle"
    },
    {
     "count": 4,
@@ -58734,22 +58752,22 @@
    {
     "count": 1,
     "model": "models/props_lab/harddrive01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 4,
     "model": "models/props_lab/harddrive02.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 2,
     "model": "models/props_lab/jar01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "pirate/bottle"
    },
    {
     "count": 1,
     "model": "models/props_lab/jar01b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "pirate/bottle"
    },
    {
     "count": 4,
@@ -59084,22 +59102,22 @@
    {
     "count": 1,
     "model": "models/props_sky/lowpoly_vstill_scenery.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "skybox"
    },
    {
     "count": 1,
     "model": "models/props_sky/skybox_buildings_low_b_brightness.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "skybox"
    },
    {
     "count": 1,
     "model": "models/props_sky/skybox_buildings_low_brightness.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "skybox"
    },
    {
     "count": 1,
     "model": "models/props_sky/skybox_buildings_medium_brightness.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "skybox"
    },
    {
     "count": 9,
@@ -59109,17 +59127,17 @@
    {
     "count": 4,
     "model": "models/props_sky/skybox_forest_001_brightness.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "skybox"
    },
    {
     "count": 24,
     "model": "models/props_sky/skybox_forest_001a_brightness.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "skybox"
    },
    {
     "count": 5,
     "model": "models/props_sky/skybox_powertower_001_brightness.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "skybox"
    },
    {
     "count": 7,
@@ -59144,7 +59162,7 @@
    {
     "count": 1,
     "model": "models/props_unique/skybox_cityscape_highrise.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "skybox"
    },
    {
     "count": 7,
@@ -64339,6 +64357,18 @@
   },
   {
    "at": [
+    -115.2605,
+    39.2462,
+    94.3628
+   ],
+   "model": "models/props_lab/harddrive02.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 127.68
+  },
+  {
+   "at": [
     -115.7301,
     39.4078,
     94.2247
@@ -64391,6 +64421,18 @@
    "scale": 1.0,
    "stand_in": "factory/door",
    "yaw": 90.0
+  },
+  {
+   "at": [
+    -118.3577,
+    40.7897,
+    92.202
+   ],
+   "model": "models/props_lab/jar01b.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "pirate/bottle",
+   "yaw": 359.7
   },
   {
    "at": [
@@ -64466,6 +64508,7 @@
    ],
    "model": "models/props_junk/oil_can.mdl",
    "scale": 1.0,
+   "size": 0.13,
    "stand_in": "bucket",
    "yaw": 0.0
   },
@@ -64501,6 +64544,18 @@
    "scale": 1.0,
    "stand_in": "bucket",
    "yaw": 90.37
+  },
+  {
+   "at": [
+    -83.439,
+    39.876,
+    102.0699
+   ],
+   "model": "models/props_lab/harddrive01.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 54.93
   },
   {
    "at": [
@@ -64845,6 +64900,54 @@
   },
   {
    "at": [
+    -102.3938,
+    40.0241,
+    80.4291
+   ],
+   "model": "models/props_lab/beaker01a.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "pirate/bottle",
+   "yaw": 267.0
+  },
+  {
+   "at": [
+    -102.3176,
+    40.0431,
+    80.2957
+   ],
+   "model": "models/props_lab/beaker01b.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "pirate/bottle",
+   "yaw": 57.0
+  },
+  {
+   "at": [
+    -101.327,
+    40.1765,
+    78.4288
+   ],
+   "model": "models/props_lab/harddrive02.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 267.0
+  },
+  {
+   "at": [
+    -99.4044,
+    40.0241,
+    92.639
+   ],
+   "model": "models/props_lab/beaker01a.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "pirate/bottle",
+   "yaw": 192.0
+  },
+  {
+   "at": [
     -104.6035,
     39.9288,
     90.0684
@@ -64853,6 +64956,18 @@
    "scale": 1.0,
    "stand_in": "factory/door",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    -101.3651,
+    40.1765,
+    92.564
+   ],
+   "model": "models/props_lab/harddrive02.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 87.0
   },
   {
    "at": [
@@ -64922,6 +65037,18 @@
   },
   {
    "at": [
+    -99.5744,
+    40.0241,
+    92.5068
+   ],
+   "model": "models/props_lab/beaker01a.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "pirate/bottle",
+   "yaw": 270.5
+  },
+  {
+   "at": [
     -114.0905,
     39.9187,
     87.0776
@@ -64963,6 +65090,18 @@
    "scale": 1.0,
    "stand_in": "bucket",
    "yaw": 211.0
+  },
+  {
+   "at": [
+    -118.3577,
+    40.7897,
+    92.8116
+   ],
+   "model": "models/props_lab/jar01a.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "pirate/bottle",
+   "yaw": 359.7
   },
   {
    "at": [
@@ -65401,6 +65540,7 @@
    ],
    "model": "models/props_junk/oil_can.mdl",
    "scale": 1.0,
+   "size": 0.13,
    "stand_in": "bucket",
    "yaw": 110.39
   },
@@ -65659,6 +65799,78 @@
   },
   {
    "at": [
+    -94.107,
+    39.9479,
+    85.706
+   ],
+   "model": "models/props/de_stadium/food_tray2.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "rock",
+   "yaw": 30.0
+  },
+  {
+   "at": [
+    -93.4974,
+    39.9479,
+    85.5536
+   ],
+   "model": "models/props/de_stadium/food_straw.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "rock",
+   "yaw": 285.0
+  },
+  {
+   "at": [
+    -91.9925,
+    39.9479,
+    84.4296
+   ],
+   "model": "models/props/de_stadium/food_straw.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "rock",
+   "yaw": 30.0
+  },
+  {
+   "at": [
+    -92.1258,
+    39.9479,
+    84.3534
+   ],
+   "model": "models/props/de_stadium/food_sarnie.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "rock",
+   "yaw": 30.0
+  },
+  {
+   "at": [
+    -100.5823,
+    40.0812,
+    82.7898
+   ],
+   "model": "models/props_lab/beaker01a.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "pirate/bottle",
+   "yaw": 357.0
+  },
+  {
+   "at": [
+    -100.4697,
+    40.0812,
+    82.7913
+   ],
+   "model": "models/props_lab/beaker01a.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "pirate/bottle",
+   "yaw": 267.0
+  },
+  {
+   "at": [
     -81.6102,
     34.7853,
     82.1817
@@ -65780,6 +65992,18 @@
   },
   {
    "at": [
+    -100.9841,
+    41.0718,
+    78.4479
+   ],
+   "model": "models/props_lab/jar01a.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "pirate/bottle",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -95.8194,
     39.1731,
     80.9286
@@ -65890,6 +66114,42 @@
   },
   {
    "at": [
+    -93.3639,
+    39.8023,
+    77.8223
+   ],
+   "model": "models/props/de_stadium/food_sarnie.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "rock",
+   "yaw": 30.1
+  },
+  {
+   "at": [
+    -93.0728,
+    39.8038,
+    77.949
+   ],
+   "model": "models/props/de_stadium/food_sarnie.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "rock",
+   "yaw": -70.84
+  },
+  {
+   "at": [
+    -92.8956,
+    39.8042,
+    78.1782
+   ],
+   "model": "models/props/de_stadium/food_sarnie.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "rock",
+   "yaw": 19.33
+  },
+  {
+   "at": [
     -94.9279,
     40.0983,
     77.7928
@@ -65898,6 +66158,54 @@
    "scale": 1.0,
    "stand_in": "bucket",
    "yaw": 51.87
+  },
+  {
+   "at": [
+    -93.3827,
+    40.5976,
+    77.7996
+   ],
+   "model": "models/props/cs_italy/bananna_bunch.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 50.82
+  },
+  {
+   "at": [
+    -93.0583,
+    40.6138,
+    78.2233
+   ],
+   "model": "models/props/cs_italy/orange.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 114.22
+  },
+  {
+   "at": [
+    -92.9678,
+    40.6131,
+    78.1372
+   ],
+   "model": "models/props/cs_italy/orange.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 84.52
+  },
+  {
+   "at": [
+    -92.8726,
+    40.6133,
+    78.1945
+   ],
+   "model": "models/props/cs_italy/orange.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 84.41
   },
   {
    "at": [
@@ -65951,6 +66259,7 @@
    ],
    "model": "models/props_junk/oil_can.mdl",
    "scale": 1.0,
+   "size": 0.13,
    "stand_in": "bucket",
    "yaw": 45.0
   },
@@ -65984,6 +66293,7 @@
    ],
    "model": "models/props_junk/oil_can.mdl",
    "scale": 1.0,
+   "size": 0.13,
    "stand_in": "bucket",
    "yaw": -30.0
   },
@@ -66272,6 +66582,18 @@
    "scale": 1.0,
    "stand_in": "barrel",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    -66.1988,
+    34.7472,
+    72.4281
+   ],
+   "model": "models/props_junk/food_pile02.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "rock",
+   "yaw": 240.0
   },
   {
    "at": [
@@ -73458,6 +73780,18 @@
   },
   {
    "at": [
+    -84.2772,
+    33.5089,
+    68.7705
+   ],
+   "model": "models/props_junk/food_pile03.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "rock",
+   "yaw": 165.0
+  },
+  {
+   "at": [
     -84.9821,
     32.5374,
     68.6372
@@ -75776,6 +76110,18 @@
    "scale": 1.0,
    "stand_in": "radio",
    "yaw": 98.0
+  },
+  {
+   "at": [
+    -84.201,
+    39.9861,
+    101.9747
+   ],
+   "model": "models/props_lab/harddrive02.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 92.92
   },
   {
    "at": [

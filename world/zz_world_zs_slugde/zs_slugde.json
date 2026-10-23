@@ -13357,6 +13357,15 @@
    },
    {
     "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "cardboard_box",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 44,
     "files": [],
     "licence": "CC0-1.0",
@@ -13661,7 +13670,7 @@
    {
     "count": 1,
     "model": "models/props_lab/harddrive01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 1,
@@ -15084,6 +15093,7 @@
    ],
    "model": "models/props_c17/computer01_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 225.0
   },
@@ -15097,6 +15107,18 @@
    "scale": 1.0,
    "stand_in": "monitor",
    "yaw": 225.0
+  },
+  {
+   "at": [
+    8.8773,
+    6.9723,
+    -32.8993
+   ],
+   "model": "models/props_lab/harddrive01.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 195.0
   },
   {
    "at": [

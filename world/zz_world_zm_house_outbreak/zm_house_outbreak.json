@@ -14672,6 +14672,15 @@
     "count": 1,
     "files": [],
     "licence": "CC0-1.0",
+    "source": "Kenney Pirate Kit",
+    "stand_in": "pirate/bottle",
+    "url": "https://kenney.nl/assets/pirate-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
     "stand_in": "plant",
     "url": "https://kenney.nl/assets/furniture-kit"
@@ -15135,7 +15144,7 @@
    {
     "count": 1,
     "model": "models/props_junk/popcan01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "pirate/bottle"
    },
    {
     "count": 8,
@@ -16728,12 +16737,25 @@
   },
   {
    "at": [
+    14.7447,
+    3.9624,
+    -3.5716
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     14.459,
     3.791,
     -3.3811
    ],
    "model": "models/props/cs_office/computer_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 270.0
   },
@@ -16767,6 +16789,7 @@
    ],
    "model": "models/props/cs_office/computer_mouse.mdl",
    "scale": 1.0,
+   "size": 0.2,
    "stand_in": "monitor",
    "yaw": 270.0
   },

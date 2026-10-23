@@ -4880,6 +4880,15 @@
     "count": 3,
     "files": [],
     "licence": "CC0-1.0",
+    "source": "Kenney Pirate Kit",
+    "stand_in": "pirate/bottle",
+    "url": "https://kenney.nl/assets/pirate-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 3,
+    "files": [],
+    "licence": "CC0-1.0",
     "source": "Kenney Nature Kit",
     "stand_in": "rock",
     "url": "https://kenney.nl/assets/nature-kit"
@@ -5148,7 +5157,7 @@
    {
     "count": 3,
     "model": "models/props_junk/popcan01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "pirate/bottle"
    },
    {
     "count": 2,
@@ -6942,6 +6951,42 @@
    "scale": 1.0,
    "stand_in": "chair",
    "yaw": 355.5
+  },
+  {
+   "at": [
+    -4.6482,
+    -2.0252,
+    0.7811
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 243.0
+  },
+  {
+   "at": [
+    -4.6482,
+    -2.2552,
+    0.2667
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 334.5
+  },
+  {
+   "at": [
+    -4.8387,
+    -2.2552,
+    0.1333
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 243.0
   },
   {
    "at": [

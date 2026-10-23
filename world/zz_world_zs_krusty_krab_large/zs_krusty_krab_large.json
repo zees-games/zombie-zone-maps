@@ -33903,6 +33903,15 @@
    },
    {
     "author": "Kenney",
+    "count": 5,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "cardboard_box",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 56,
     "files": [],
     "licence": "CC0-1.0",
@@ -33998,6 +34007,15 @@
     "licence": "CC0-1.0",
     "source": "Kenney Pirate Kit",
     "stand_in": "pirate/boat",
+    "url": "https://kenney.nl/assets/pirate-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Pirate Kit",
+    "stand_in": "pirate/bottle",
     "url": "https://kenney.nl/assets/pirate-kit"
    },
    {
@@ -34210,7 +34228,7 @@
    {
     "count": 4,
     "model": "models/props/cs_assault/money.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 4,
@@ -34265,7 +34283,7 @@
    {
     "count": 1,
     "model": "models/props/cs_office/coffee_mug.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "pirate/bottle"
    },
    {
     "count": 5,
@@ -34395,7 +34413,7 @@
    {
     "count": 1,
     "model": "models/props_c17/cashregister01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 1,
@@ -35732,6 +35750,66 @@
   },
   {
    "at": [
+    -2.0647,
+    -4.191,
+    -9.774
+   ],
+   "model": "models/props/cs_assault/money.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -1.9152,
+    -4.191,
+    -9.8586
+   ],
+   "model": "models/props/cs_assault/money.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 38.0
+  },
+  {
+   "at": [
+    -1.8339,
+    -4.191,
+    -9.6876
+   ],
+   "model": "models/props/cs_assault/money.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -1.485,
+    -4.191,
+    -9.8728
+   ],
+   "model": "models/props/cs_assault/money.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 14.5
+  },
+  {
+   "at": [
+    -1.3499,
+    -4.1897,
+    -9.7751
+   ],
+   "model": "models/props/cs_office/coffee_mug.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "pirate/bottle",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     -4.0386,
     -4.8006,
     -9.4488
@@ -35916,6 +35994,18 @@
    "scale": 1.0,
    "stand_in": "crate",
    "yaw": 125.5
+  },
+  {
+   "at": [
+    5.334,
+    -3.7999,
+    2.5146
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
   },
   {
    "at": [

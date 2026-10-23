@@ -63940,6 +63940,15 @@
    },
    {
     "author": "Kenney",
+    "count": 3,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "cardboard_box",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 65,
     "files": [],
     "licence": "CC0-1.0",
@@ -64012,6 +64021,15 @@
    },
    {
     "author": "Kenney",
+    "count": 15,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Pirate Kit",
+    "stand_in": "pirate/bottle",
+    "url": "https://kenney.nl/assets/pirate-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 2,
     "files": [],
     "licence": "CC0-1.0",
@@ -64043,7 +64061,7 @@
    {
     "count": 3,
     "model": "models/props/cs_assault/camera.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 10,
@@ -64058,7 +64076,7 @@
    {
     "count": 15,
     "model": "models/props/cs_militia/bottle02.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "pirate/bottle"
    },
    {
     "count": 8,
@@ -81127,6 +81145,42 @@
   },
   {
    "at": [
+    33.528,
+    3.7577,
+    -247.5738
+   ],
+   "model": "models/props/cs_assault/camera.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 92.0
+  },
+  {
+   "at": [
+    40.8432,
+    3.7577,
+    -253.5174
+   ],
+   "model": "models/props/cs_assault/camera.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    40.2235,
+    3.6255,
+    -228.9105
+   ],
+   "model": "models/props/cs_assault/camera.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 91.0
+  },
+  {
+   "at": [
     31.4706,
     1.524,
     -198.52
@@ -81468,6 +81522,138 @@
   },
   {
    "at": [
+    -86.3317,
+    1.143,
+    -19.2596
+   ],
+   "model": "models/props/cs_militia/bottle02.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -86.7857,
+    1.1481,
+    -19.1946
+   ],
+   "model": "models/props/cs_militia/bottle02.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -88.5254,
+    1.1481,
+    -17.0905
+   ],
+   "model": "models/props/cs_militia/bottle02.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -88.9473,
+    1.1481,
+    -17.2368
+   ],
+   "model": "models/props/cs_militia/bottle02.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -88.9144,
+    1.1481,
+    -11.7829
+   ],
+   "model": "models/props/cs_militia/bottle02.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -89.2163,
+    1.1481,
+    -11.5124
+   ],
+   "model": "models/props/cs_militia/bottle02.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -88.6492,
+    1.1481,
+    -6.2632
+   ],
+   "model": "models/props/cs_militia/bottle02.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -72.4487,
+    1.1481,
+    -6.2617
+   ],
+   "model": "models/props/cs_militia/bottle02.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -72.4355,
+    1.1481,
+    -11.2317
+   ],
+   "model": "models/props/cs_militia/bottle02.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -72.9407,
+    1.1481,
+    -11.8791
+   ],
+   "model": "models/props/cs_militia/bottle02.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -73.6283,
+    1.1481,
+    -17.0905
+   ],
+   "model": "models/props/cs_militia/bottle02.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 268.0
+  },
+  {
+   "at": [
     -73.7616,
     0.3093,
     -18.1356
@@ -81498,6 +81684,54 @@
    "scale": 1.0,
    "stand_in": "chair",
    "yaw": 186.5
+  },
+  {
+   "at": [
+    -80.3693,
+    1.1671,
+    -13.1158
+   ],
+   "model": "models/props/cs_militia/bottle02.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -83.3357,
+    1.1671,
+    -9.8846
+   ],
+   "model": "models/props/cs_militia/bottle02.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -83.363,
+    1.1671,
+    -6.8067
+   ],
+   "model": "models/props/cs_militia/bottle02.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -78.8923,
+    1.1671,
+    -6.4656
+   ],
+   "model": "models/props/cs_militia/bottle02.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
   },
   {
    "at": [

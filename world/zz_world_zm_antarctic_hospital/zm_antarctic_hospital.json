@@ -8899,6 +8899,15 @@
    },
    {
     "author": "Kenney",
+    "count": 7,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "cardboard_box",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 20,
     "files": [],
     "licence": "CC0-1.0",
@@ -8986,6 +8995,15 @@
     "source": "Kenney Furniture Kit",
     "stand_in": "monitor",
     "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 21,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Pirate Kit",
+    "stand_in": "pirate/bottle",
+    "url": "https://kenney.nl/assets/pirate-kit"
    },
    {
     "author": "Kenney",
@@ -9087,7 +9105,7 @@
    {
     "count": 2,
     "model": "models/props_c17/cashregister01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 12,
@@ -9187,12 +9205,12 @@
    {
     "count": 2,
     "model": "models/props_c17/tools_pliers01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 1,
     "model": "models/props_c17/tools_wrench01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 5,
@@ -9297,7 +9315,7 @@
    {
     "count": 21,
     "model": "models/props_junk/popcan01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "pirate/bottle"
    },
    {
     "count": 8,
@@ -9317,7 +9335,7 @@
    {
     "count": 1,
     "model": "models/props_lab/harddrive02.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 19,
@@ -9432,7 +9450,7 @@
    {
     "count": 1,
     "model": "models/tools/camera/camera.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    }
   ],
   "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
@@ -10568,6 +10586,18 @@
   },
   {
    "at": [
+    -6.6866,
+    4.2481,
+    17.6403
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -2.7432,
     3.81,
     16.6116
@@ -10596,7 +10626,20 @@
    ],
    "model": "models/props_c17/computer01_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    2.1145,
+    4.3624,
+    16.9354
+   ],
+   "model": "models/props_lab/harddrive02.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
    "yaw": 180.0
   },
   {
@@ -10678,6 +10721,54 @@
   },
   {
    "at": [
+    -6.6104,
+    4.2481,
+    17.8498
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -6.7056,
+    4.2481,
+    17.9642
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -6.7056,
+    4.2481,
+    17.7736
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -6.5913,
+    4.2481,
+    17.7165
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -0.4953,
     4.2672,
     8.3248
@@ -10696,6 +10787,30 @@
    "model": "models/props_c17/furnituretable002a.mdl",
    "scale": 1.0,
    "stand_in": "table",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    1.2954,
+    4.2481,
+    13.9637
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    0.8001,
+    4.2481,
+    8.3248
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
    "yaw": 270.0
   },
   {
@@ -10887,6 +11002,30 @@
   },
   {
    "at": [
+    -3.6195,
+    4.3053,
+    4.1148
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -3.7338,
+    4.3053,
+    3.7719
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 120.0
+  },
+  {
+   "at": [
     -3.2385,
     4.4196,
     3.6005
@@ -10895,6 +11034,18 @@
    "scale": 1.0,
    "stand_in": "bin",
    "yaw": 30.0
+  },
+  {
+   "at": [
+    -3.3909,
+    4.3053,
+    3.8481
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 330.0
   },
   {
    "at": [
@@ -10972,6 +11123,18 @@
    "scale": 1.0,
    "stand_in": "bucket",
    "yaw": 60.0
+  },
+  {
+   "at": [
+    -3.5433,
+    3.8862,
+    3.8481
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 330.0
   },
   {
    "at": [
@@ -11151,6 +11314,18 @@
   },
   {
    "at": [
+    0.6096,
+    4.2481,
+    8.382
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     6.5532,
     1.124,
     18.8595
@@ -11158,6 +11333,30 @@
    "model": "models/props_c17/furnituretable002a.mdl",
    "scale": 1.0,
    "stand_in": "table",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    6.5532,
+    1.6574,
+    18.7071
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    6.6104,
+    1.6574,
+    18.8976
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
    "yaw": 180.0
   },
   {
@@ -11173,6 +11372,18 @@
   },
   {
    "at": [
+    2.5908,
+    1.6574,
+    10.4585
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     2.5527,
     1.124,
     10.5156
@@ -11180,6 +11391,18 @@
    "model": "models/props_c17/furnituretable002a.mdl",
    "scale": 1.0,
    "stand_in": "table",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    2.4003,
+    1.6574,
+    10.5156
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
    "yaw": 270.0
   },
   {
@@ -11316,6 +11539,30 @@
   },
   {
    "at": [
+    -4.8578,
+    1.6574,
+    22.46
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -4.6673,
+    1.6574,
+    22.4028
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     -5.9627,
     1.6764,
     22.4028
@@ -11323,6 +11570,42 @@
    "model": "models/props_interiors/vendingmachinesoda01a.mdl",
    "scale": 1.0,
    "stand_in": "fridge",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -4.7435,
+    1.6574,
+    22.5552
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -4.3243,
+    1.6574,
+    22.4219
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -4.8959,
+    1.6574,
+    22.2695
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
    "yaw": 270.0
   },
   {
@@ -11390,6 +11673,18 @@
    "scale": 1.0,
    "stand_in": "bin",
    "yaw": 270.0
+  },
+  {
+   "at": [
+    -11.9444,
+    1.7336,
+    16.3258
+   ],
+   "model": "models/tools/camera/camera.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 68.0
   },
   {
    "at": [
@@ -11467,6 +11762,42 @@
    "scale": 1.0,
    "stand_in": "chair",
    "yaw": 90.0
+  },
+  {
+   "at": [
+    -9.2755,
+    1.3768,
+    12.234
+   ],
+   "model": "models/props_c17/tools_wrench01a.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 307.0
+  },
+  {
+   "at": [
+    -9.7605,
+    1.3768,
+    12.3418
+   ],
+   "model": "models/props_c17/tools_pliers01a.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 307.0
+  },
+  {
+   "at": [
+    -9.8144,
+    1.3768,
+    11.8568
+   ],
+   "model": "models/props_c17/tools_pliers01a.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 247.0
   },
   {
    "at": [
@@ -11665,6 +11996,30 @@
    "scale": 1.0,
    "stand_in": "bench",
    "yaw": 7.0
+  },
+  {
+   "at": [
+    0.8573,
+    1.6383,
+    7.6266
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -0.7811,
+    1.6383,
+    7.601
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 180.0
   },
   {
    "at": [

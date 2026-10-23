@@ -16,8 +16,9 @@
  "models": {
   "looked_up": 267,
   "by_tier": {
-   "default": 183,
-   "fallback": 84
+   "default": 187,
+   "fallback": 76,
+   "skybox": 4
   }
  },
  "sounds": {
@@ -179,7 +180,6 @@
    "./props_c17/trappropeller_engine.mdl",
    "effects/portalrift.mdl",
    "items/car_battery01.mdl",
-   "props/cs_italy/bananna_bunch.mdl",
    "props/cs_office/microwave.mdl",
    "props_buildings/collapsedbuilding02b.mdl",
    "props_buildings/collapsedbuilding02c.mdl",
@@ -189,9 +189,6 @@
    "props_buildings/destroyed_cityblock01f.mdl",
    "props_buildings/destroyed_cityblock01g.mdl",
    "props_buildings/destroyed_cityblock01h.mdl",
-   "props_buildings/project_destroyedbuildings03_skybox.mdl",
-   "props_buildings/project_destroyedbuildings04_skybox.mdl",
-   "props_c17/cashregister01a.mdl",
    "props_c17/consolebox05a.mdl",
    "props_c17/display_cooler01a.mdl",
    "props_c17/doll01.mdl",
@@ -209,8 +206,6 @@
    "props_c17/playgroundtick-tack-toe_post01.mdl",
    "props_c17/suitcase_passenger_physics.mdl",
    "props_c17/utilityconducter001.mdl",
-   "props_canal/refinery_02_skybox.mdl",
-   "props_canal/refinery_03_skybox.mdl",
    "props_combine/breenbust.mdl",
    "props_combine/combine_citadelburst.mdl",
    "props_combine/combine_citadelcard001b.mdl",
@@ -219,13 +214,11 @@
    "props_combine/combinewallcrushed.mdl",
    "props_junk/bicycle01a.mdl",
    "props_junk/ibeam01a.mdl",
-   "props_junk/popcan01a.mdl",
    "props_junk/sawblade001a.mdl",
    "props_junk/shoe001a.mdl",
    "props_junk/watermelon01.mdl",
    "props_lab/cornerunit2.mdl",
    "props_lab/elevatordoor.mdl",
-   "props_lab/harddrive01.mdl",
    "props_lab/hev_case.mdl",
    "props_lab/partsbin01.mdl",
    "props_lab/reciever_cart.mdl",
@@ -357,7 +350,7 @@
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 84,
+  "models_unmapped": 76,
   "sounds_unmapped": 3,
   "classes_unmapped": 0,
   "keys_unmapped": 83,

@@ -102,8 +102,8 @@
  "models": {
   "looked_up": 158,
   "by_tier": {
-   "default": 121,
-   "fallback": 37
+   "default": 132,
+   "fallback": 26
   }
  },
  "sounds": {
@@ -404,26 +404,16 @@
    "vegas/pa-pacman_bottom"
   ],
   "models_unmapped": [
-   "jaanus/iphone.mdl",
    "johny-srka/arcade_machine.mdl",
    "props/cs_assault/forklift.mdl",
-   "props/cs_assault/money.mdl",
-   "props/cs_italy/bananna.mdl",
-   "props/cs_italy/bananna_bunch.mdl",
-   "props/cs_italy/orange.mdl",
-   "props/cs_militia/bottle01.mdl",
-   "props/cs_militia/food_stack.mdl",
    "props/cs_office/microwave.mdl",
-   "props/cs_office/water_bottle.mdl",
    "props/de_tides/menu_stand.mdl",
    "props/de_train/de_train_securityguard.mdl",
-   "props_c17/cashregister01a.mdl",
    "props_c17/concrete_barrier001a.mdl",
    "props_c17/display_cooler01a.mdl",
    "props_c17/fountain_01.mdl",
    "props_c17/traffic_light001a.mdl",
    "props_junk/bicycle01a.mdl",
-   "props_junk/food_pile02.mdl",
    "props_junk/glassbottle01a.mdl",
    "props_junk/meathook001a.mdl",
    "props_junk/shoe001a.mdl",
@@ -432,7 +422,6 @@
    "props_lab/binderbluelabel.mdl",
    "props_lab/bindergreen.mdl",
    "props_lab/binderredlabel.mdl",
-   "props_lab/clipboard.mdl",
    "props_lab/securitybank.mdl",
    "props_lab/walllight001a.mdl",
    "props_trainstation/payphone001a.mdl",
@@ -570,7 +559,7 @@
  "counts": {
   "textures_unmapped": 98,
   "textures_flat": 19,
-  "models_unmapped": 37,
+  "models_unmapped": 26,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 119,

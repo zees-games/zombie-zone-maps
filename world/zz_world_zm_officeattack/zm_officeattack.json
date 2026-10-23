@@ -10488,6 +10488,15 @@
    },
    {
     "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "cardboard_box",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 11,
     "files": [],
     "licence": "CC0-1.0",
@@ -10560,6 +10569,15 @@
    },
    {
     "author": "Kenney",
+    "count": 5,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Pirate Kit",
+    "stand_in": "pirate/bottle",
+    "url": "https://kenney.nl/assets/pirate-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 22,
     "files": [],
     "licence": "CC0-1.0",
@@ -10569,7 +10587,7 @@
    },
    {
     "author": "Kenney",
-    "count": 8,
+    "count": 16,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Nature Kit",
@@ -10629,7 +10647,7 @@
    {
     "count": 3,
     "model": "models/props/cs_italy/bananna_bunch.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 2,
@@ -10644,7 +10662,7 @@
    {
     "count": 3,
     "model": "models/props/cs_italy/orange.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 14,
@@ -10669,7 +10687,7 @@
    {
     "count": 4,
     "model": "models/props/cs_office/coffee_mug.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "pirate/bottle"
    },
    {
     "count": 13,
@@ -10719,7 +10737,7 @@
    {
     "count": 1,
     "model": "models/props/cs_office/phone.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 15,
@@ -10829,17 +10847,17 @@
    {
     "count": 1,
     "model": "models/props_junk/food_pile01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 1,
     "model": "models/props_junk/food_pile02.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 1,
     "model": "models/props_junk/popcan01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "pirate/bottle"
    },
    {
     "count": 2,
@@ -13656,6 +13674,7 @@
    ],
    "model": "models/props/cs_office/computer_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 97.5
   },
@@ -13667,6 +13686,7 @@
    ],
    "model": "models/props/cs_office/computer_mouse.mdl",
    "scale": 1.0,
+   "size": 0.2,
    "stand_in": "monitor",
    "yaw": 89.0
   },
@@ -13700,6 +13720,7 @@
    ],
    "model": "models/props/cs_office/computer_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 82.0
   },
@@ -13711,6 +13732,7 @@
    ],
    "model": "models/props/cs_office/computer_mouse.mdl",
    "scale": 1.0,
+   "size": 0.2,
    "stand_in": "monitor",
    "yaw": 73.5
   },
@@ -13744,6 +13766,7 @@
    ],
    "model": "models/props/cs_office/computer_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 90.0
   },
@@ -13755,6 +13778,7 @@
    ],
    "model": "models/props/cs_office/computer_mouse.mdl",
    "scale": 1.0,
+   "size": 0.2,
    "stand_in": "monitor",
    "yaw": 81.5
   },
@@ -13788,6 +13812,7 @@
    ],
    "model": "models/props/cs_office/computer_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 90.0
   },
@@ -13799,6 +13824,7 @@
    ],
    "model": "models/props/cs_office/computer_mouse.mdl",
    "scale": 1.0,
+   "size": 0.2,
    "stand_in": "monitor",
    "yaw": 81.5
   },
@@ -13832,6 +13858,7 @@
    ],
    "model": "models/props/cs_office/computer_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 270.5
   },
@@ -13843,6 +13870,7 @@
    ],
    "model": "models/props/cs_office/computer_mouse.mdl",
    "scale": 1.0,
+   "size": 0.2,
    "stand_in": "monitor",
    "yaw": 262.0
   },
@@ -13876,6 +13904,7 @@
    ],
    "model": "models/props/cs_office/computer_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 270.5
   },
@@ -13887,6 +13916,7 @@
    ],
    "model": "models/props/cs_office/computer_mouse.mdl",
    "scale": 1.0,
+   "size": 0.2,
    "stand_in": "monitor",
    "yaw": 262.0
   },
@@ -13920,6 +13950,7 @@
    ],
    "model": "models/props/cs_office/computer_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 270.5
   },
@@ -13931,6 +13962,7 @@
    ],
    "model": "models/props/cs_office/computer_mouse.mdl",
    "scale": 1.0,
+   "size": 0.2,
    "stand_in": "monitor",
    "yaw": 262.0
   },
@@ -13964,6 +13996,7 @@
    ],
    "model": "models/props/cs_office/computer_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 270.5
   },
@@ -13975,6 +14008,7 @@
    ],
    "model": "models/props/cs_office/computer_mouse.mdl",
    "scale": 1.0,
+   "size": 0.2,
    "stand_in": "monitor",
    "yaw": 262.0
   },
@@ -13997,6 +14031,7 @@
    ],
    "model": "models/props/cs_office/computer_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 224.5
   },
@@ -14052,6 +14087,7 @@
    ],
    "model": "models/props/cs_office/computer_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 44.5
   },
@@ -14085,6 +14121,7 @@
    ],
    "model": "models/props/cs_office/computer_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 44.5
   },
@@ -14140,6 +14177,7 @@
    ],
    "model": "models/props/cs_office/computer_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 224.5
   },
@@ -14173,8 +14211,21 @@
    ],
    "model": "models/props/cs_office/computer_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 2.0
+  },
+  {
+   "at": [
+    26.7818,
+    0.7868,
+    -28.755
+   ],
+   "model": "models/props/cs_office/coffee_mug.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "pirate/bottle",
+   "yaw": 348.5
   },
   {
    "at": [
@@ -14184,6 +14235,7 @@
    ],
    "model": "models/props/cs_office/computer_mouse.mdl",
    "scale": 1.0,
+   "size": 0.2,
    "stand_in": "monitor",
    "yaw": 353.5
   },
@@ -14239,6 +14291,7 @@
    ],
    "model": "models/props/cs_office/trash_can.mdl",
    "scale": 1.0,
+   "size": 0.13,
    "stand_in": "bin",
    "yaw": 284.0
   },
@@ -15163,8 +15216,21 @@
    ],
    "model": "models/props/cs_office/trash_can.mdl",
    "scale": 1.0,
+   "size": 0.13,
    "stand_in": "bin",
    "yaw": 104.0
+  },
+  {
+   "at": [
+    15.4901,
+    7.3067,
+    -14.5837
+   ],
+   "model": "models/props/cs_office/coffee_mug.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "pirate/bottle",
+   "yaw": 168.5
   },
   {
    "at": [
@@ -15174,6 +15240,7 @@
    ],
    "model": "models/props/cs_office/computer_mouse.mdl",
    "scale": 1.0,
+   "size": 0.2,
    "stand_in": "monitor",
    "yaw": 173.5
   },
@@ -15185,6 +15252,7 @@
    ],
    "model": "models/props/cs_office/computer_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 182.0
   },
@@ -15284,6 +15352,7 @@
    ],
    "model": "models/props/cs_office/computer_mouse.mdl",
    "scale": 1.0,
+   "size": 0.2,
    "stand_in": "monitor",
    "yaw": 264.0
   },
@@ -15295,6 +15364,7 @@
    ],
    "model": "models/props/cs_office/computer_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 272.5
   },
@@ -15394,6 +15464,7 @@
    ],
    "model": "models/props/cs_office/computer_mouse.mdl",
    "scale": 1.0,
+   "size": 0.2,
    "stand_in": "monitor",
    "yaw": 353.5
   },
@@ -15405,8 +15476,21 @@
    ],
    "model": "models/props/cs_office/computer_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 2.0
+  },
+  {
+   "at": [
+    -23.0339,
+    0.8059,
+    7.84
+   ],
+   "model": "models/props/cs_office/coffee_mug.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "pirate/bottle",
+   "yaw": 348.5
   },
   {
    "at": [
@@ -15416,6 +15500,7 @@
    ],
    "model": "models/props/cs_office/computer_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 16.0
   },
@@ -15427,6 +15512,7 @@
    ],
    "model": "models/props/cs_office/computer_mouse.mdl",
    "scale": 1.0,
+   "size": 0.2,
    "stand_in": "monitor",
    "yaw": 7.5
   },
@@ -15674,6 +15760,18 @@
   },
   {
    "at": [
+    -23.1076,
+    0.8059,
+    9.2393
+   ],
+   "model": "models/props/cs_office/phone.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 348.5
+  },
+  {
+   "at": [
     -2.3813,
     6.9533,
     -33.4518
@@ -15773,6 +15871,18 @@
   },
   {
    "at": [
+    -28.0226,
+    7.8677,
+    6.3437
+   ],
+   "model": "models/props/cs_italy/bananna_bunch.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 130.0
+  },
+  {
+   "at": [
     -28.0035,
     7.6391,
     6.3627
@@ -15781,6 +15891,54 @@
    "scale": 1.0,
    "stand_in": "crate_large",
    "yaw": 130.0
+  },
+  {
+   "at": [
+    -28.911,
+    7.7726,
+    6.2865
+   ],
+   "model": "models/props/cs_italy/orange.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 130.0
+  },
+  {
+   "at": [
+    -28.6634,
+    7.7726,
+    6.4008
+   ],
+   "model": "models/props/cs_italy/orange.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 130.0
+  },
+  {
+   "at": [
+    -28.7084,
+    7.7726,
+    6.1532
+   ],
+   "model": "models/props/cs_italy/orange.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 130.0
+  },
+  {
+   "at": [
+    -29.6227,
+    7.8677,
+    6.3437
+   ],
+   "model": "models/props/cs_italy/bananna_bunch.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 230.5
   },
   {
    "at": [
@@ -15795,6 +15953,30 @@
   },
   {
    "at": [
+    -25.9461,
+    7.4295,
+    11.5824
+   ],
+   "model": "models/props/cs_office/coffee_mug.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "pirate/bottle",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -21.933,
+    7.8677,
+    7.188
+   ],
+   "model": "models/props/cs_italy/bananna_bunch.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 204.5
+  },
+  {
+   "at": [
     -21.9096,
     7.6391,
     7.1747
@@ -15803,6 +15985,18 @@
    "scale": 1.0,
    "stand_in": "crate_large",
    "yaw": 204.5
+  },
+  {
+   "at": [
+    -30.5562,
+    7.3342,
+    9.9822
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 90.0
   },
   {
    "at": [
@@ -16386,6 +16580,30 @@
    "scale": 1.0,
    "stand_in": "fridge",
    "yaw": 269.5
+  },
+  {
+   "at": [
+    -24.0221,
+    7.601,
+    6.5913
+   ],
+   "model": "models/props_junk/food_pile02.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "rock",
+   "yaw": 268.0
+  },
+  {
+   "at": [
+    -29.0513,
+    6.7818,
+    7.62
+   ],
+   "model": "models/props_junk/food_pile01.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "rock",
+   "yaw": 268.0
   },
   {
    "at": [

@@ -16,8 +16,8 @@
  "models": {
   "looked_up": 23,
   "by_tier": {
-   "default": 20,
-   "fallback": 3
+   "default": 21,
+   "fallback": 2
   }
  },
  "sounds": {
@@ -302,7 +302,6 @@
   "textures_unmapped": [],
   "textures_flat": [],
   "models_unmapped": [
-   "props/cs_office/phone.mdl",
    "props_c17/trappropeller_engine.mdl",
    "props_junk/sawblade001a.mdl"
   ],
@@ -519,7 +518,7 @@
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 3,
+  "models_unmapped": 2,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 192,

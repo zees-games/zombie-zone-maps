@@ -16,8 +16,8 @@
  "models": {
   "looked_up": 134,
   "by_tier": {
-   "default": 108,
-   "fallback": 26
+   "default": 111,
+   "fallback": 23
   }
  },
  "sounds": {
@@ -194,15 +194,12 @@
    "props_c17/furniturebed001a.mdl",
    "props_c17/furniturecupboard001a.mdl",
    "props_c17/suitcase_passenger_physics.mdl",
-   "props_c17/tools_pliers01a.mdl",
-   "props_c17/tools_wrench01a.mdl",
    "props_c17/trappropeller_engine.mdl",
    "props_docks/dock01_polecluster01d_256.mdl",
    "props_docks/dock_broken01a_256.mdl",
    "props_junk/bicycle01a.mdl",
    "props_junk/glassbottle01a.mdl",
    "props_junk/harpoon002a.mdl",
-   "props_junk/popcan01a.mdl",
    "props_junk/propane_tank001a.mdl",
    "props_junk/shovel01a.mdl",
    "props_junk/terracotta01.mdl",
@@ -322,7 +319,7 @@
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 26,
+  "models_unmapped": 23,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 99,

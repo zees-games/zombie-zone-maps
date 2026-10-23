@@ -40,8 +40,8 @@
  "models": {
   "looked_up": 383,
   "by_tier": {
-   "default": 260,
-   "fallback": 123
+   "default": 269,
+   "fallback": 114
   }
  },
  "sounds": {
@@ -286,7 +286,6 @@
    "combine_room/combine_wire002.mdl",
    "crank.mdl",
    "dt/fackel2.mdl",
-   "firstaidspray.mdl",
    "fishy/furniture/piano.mdl",
    "g-logo/g_10.mdl",
    "goldshield.mdl",
@@ -323,7 +322,6 @@
    "mandrac/resource_cache/small_cache.mdl",
    "modisc.mdl",
    "pcmod/eeepc.mdl",
-   "props/cs_assault/camera.mdl",
    "props/cs_assault/forklift.mdl",
    "props/cs_assault/pylon.mdl",
    "props/cs_assault/ventilationduct02.mdl",
@@ -333,13 +331,11 @@
    "props/cs_italy/winerack_small.mdl",
    "props/cs_militia/bar01.mdl",
    "props/cs_militia/fireplace01.mdl",
-   "props/cs_militia/food_stack.mdl",
    "props/cs_militia/lightfixture01.mdl",
    "props/cs_militia/sheetrock_leaning.mdl",
    "props/cs_militia/vine_wall2.mdl",
    "props/cs_office/fire_extinguisher.mdl",
    "props/cs_office/microwave.mdl",
-   "props/cs_office/phone.mdl",
    "props/de_chateau/ch_wnd_bottom_16.mdl",
    "props/de_chateau/ch_wnd_ct1_28.mdl",
    "props/de_dust/grainbasket01a.mdl",
@@ -354,8 +350,6 @@
    "props_canal/canal_cap001.mdl",
    "props_combine/breenbust.mdl",
    "props_combine/breenglobe.mdl",
-   "props_junk/food_pile01.mdl",
-   "props_junk/food_pile03.mdl",
    "props_junk/vent001.mdl",
    "props_lab/bewaredog.mdl",
    "props_lab/corkboard001.mdl",
@@ -389,13 +383,10 @@
    "stalker.mdl",
    "statue.mdl",
    "suncrest.mdl",
-   "testmodels/apple_display.mdl",
    "testmodels/drinking_fountain.mdl",
-   "testmodels/keyboard.mdl",
    "testmodels/macbook_pro.mdl",
    "testmodels/work_cubicle.mdl",
    "tyrant.mdl",
-   "weapons/w_stunbaton.mdl",
    "windcrest.mdl",
    "wolf/wolfheadsmall.mdl",
    "woodenshield.mdl"
@@ -549,7 +540,7 @@
  "counts": {
   "textures_unmapped": 21,
   "textures_flat": 0,
-  "models_unmapped": 123,
+  "models_unmapped": 114,
   "sounds_unmapped": 2,
   "classes_unmapped": 0,
   "keys_unmapped": 137,

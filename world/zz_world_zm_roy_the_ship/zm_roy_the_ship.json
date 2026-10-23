@@ -11141,6 +11141,15 @@
    },
    {
     "author": "Kenney",
+    "count": 4,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "cardboard_box",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 46,
     "files": [],
     "licence": "CC0-1.0",
@@ -11480,7 +11489,7 @@
    {
     "count": 2,
     "model": "models/props_lab/harddrive02.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 2,
@@ -11660,12 +11669,12 @@
    {
     "count": 1,
     "model": "models/weapons/w_rif_sg552.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 1,
     "model": "models/weapons/w_shot_m3super90.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    }
   ],
   "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
@@ -13028,6 +13037,30 @@
  "props": [
   {
    "at": [
+    -43.1008,
+    4.4387,
+    8.5725
+   ],
+   "model": "models/weapons/w_shot_m3super90.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "cardboard_box",
+   "yaw": 357.5
+  },
+  {
+   "at": [
+    -43.1389,
+    4.553,
+    9.1631
+   ],
+   "model": "models/weapons/w_rif_sg552.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "cardboard_box",
+   "yaw": 268.5
+  },
+  {
+   "at": [
     -51.3969,
     10.8585,
     -5.1626
@@ -13072,12 +13105,25 @@
   },
   {
    "at": [
+    -42.8551,
+    8.1936,
+    -7.7591
+   ],
+   "model": "models/props_lab/harddrive02.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 195.0
+  },
+  {
+   "at": [
     -42.8701,
     8.6517,
     -7.0076
    ],
    "model": "models/props_c17/computer01_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 195.0
   },
@@ -13111,6 +13157,7 @@
    ],
    "model": "models/props/cs_office/trash_can.mdl",
    "scale": 1.0,
+   "size": 0.13,
    "stand_in": "bin",
    "yaw": 342.0
   },
@@ -13567,6 +13614,18 @@
   },
   {
    "at": [
+    -43.1292,
+    15.8898,
+    -44.196
+   ],
+   "model": "models/props_lab/harddrive02.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 184.0
+  },
+  {
+   "at": [
     -42.9768,
     16.0172,
     -43.434
@@ -13584,6 +13643,7 @@
    ],
    "model": "models/props_c17/computer01_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 183.5
   },

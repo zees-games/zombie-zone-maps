@@ -16,8 +16,8 @@
  "models": {
   "looked_up": 80,
   "by_tier": {
-   "default": 64,
-   "fallback": 16
+   "default": 67,
+   "fallback": 13
   }
  },
  "sounds": {
@@ -216,11 +216,8 @@
    "props_industrial/oil_storage.mdl",
    "props_industrial/winch_deck.mdl",
    "props_industrial/winch_stern.mdl",
-   "props_lab/harddrive02.mdl",
    "props_rooftop/roof_dish001.mdl",
-   "props_wasteland/prison_switchbox001a.mdl",
-   "weapons/w_rif_sg552.mdl",
-   "weapons/w_shot_m3super90.mdl"
+   "props_wasteland/prison_switchbox001a.mdl"
   ],
   "sounds_unmapped": [],
   "classes_unmapped": [],
@@ -359,7 +356,7 @@
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 16,
+  "models_unmapped": 13,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 123,

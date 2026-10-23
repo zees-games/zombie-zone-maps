@@ -21,8 +21,8 @@
  "models": {
   "looked_up": 51,
   "by_tier": {
-   "default": 34,
-   "fallback": 17
+   "default": 36,
+   "fallback": 15
   }
  },
  "sounds": {
@@ -244,10 +244,8 @@
    "models/props_combine/breentp_sheet"
   ],
   "models_unmapped": [
-   "props/cs_assault/camera.mdl",
    "props/cs_assault/consolepanelloadingbay.mdl",
    "props/cs_assault/wall_vent.mdl",
-   "props/cs_militia/bottle02.mdl",
    "props/de_nuke/craneb.mdl",
    "props_c17/substation_stripebox01a.mdl",
    "props_canal/generator01.mdl",
@@ -416,7 +414,7 @@
  "counts": {
   "textures_unmapped": 3,
   "textures_flat": 1,
-  "models_unmapped": 17,
+  "models_unmapped": 15,
   "sounds_unmapped": 2,
   "classes_unmapped": 0,
   "keys_unmapped": 142,

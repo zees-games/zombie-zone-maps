@@ -10440,6 +10440,15 @@
    },
    {
     "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "cardboard_box",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 22,
     "files": [],
     "licence": "CC0-1.0",
@@ -10586,7 +10595,7 @@
    {
     "count": 1,
     "model": "models/props/cs_office/phone.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 7,
@@ -16914,6 +16923,18 @@
    "scale": 1.0,
    "stand_in": "table",
    "yaw": 180.0
+  },
+  {
+   "at": [
+    0.4703,
+    -3.7094,
+    5.0873
+   ],
+   "model": "models/props/cs_office/phone.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 15.0
   },
   {
    "at": [

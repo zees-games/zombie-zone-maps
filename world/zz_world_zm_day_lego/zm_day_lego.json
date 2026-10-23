@@ -11000,6 +11000,15 @@
    },
    {
     "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Nature Kit",
+    "stand_in": "rock",
+    "url": "https://kenney.nl/assets/nature-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 28,
     "files": [],
     "licence": "CC0-1.0",
@@ -11084,7 +11093,7 @@
    {
     "count": 1,
     "model": "models/props/cs_militia/food_stack.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 1,
@@ -16389,6 +16398,7 @@
    ],
    "model": "models/props/de_inferno/crates_fruit1.mdl",
    "scale": 1.0,
+   "size": 0.1,
    "stand_in": "plant",
    "yaw": 126.0
   },
@@ -16400,6 +16410,7 @@
    ],
    "model": "models/props/de_inferno/crates_fruit2.mdl",
    "scale": 1.0,
+   "size": 0.1,
    "stand_in": "plant",
    "yaw": 126.0
   },
@@ -17568,6 +17579,18 @@
    "scale": 1.0,
    "stand_in": "crate",
    "yaw": 152.0
+  },
+  {
+   "at": [
+    23.5267,
+    9.2829,
+    4.9149
+   ],
+   "model": "models/props/cs_militia/food_stack.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "rock",
+   "yaw": 23.0
   },
   {
    "at": [

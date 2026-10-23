@@ -11069,6 +11069,15 @@
    },
    {
     "author": "Kenney",
+    "count": 3,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "cardboard_box",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 25,
     "files": [],
     "licence": "CC0-1.0",
@@ -11146,6 +11155,15 @@
     "licence": "CC0-1.0",
     "source": "Kenney Pirate Kit",
     "stand_in": "pirate/boat",
+    "url": "https://kenney.nl/assets/pirate-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 2,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Pirate Kit",
+    "stand_in": "pirate/bottle",
     "url": "https://kenney.nl/assets/pirate-kit"
    },
    {
@@ -11440,12 +11458,12 @@
    {
     "count": 1,
     "model": "models/props_c17/tools_pliers01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 2,
     "model": "models/props_c17/tools_wrench01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 1,
@@ -11695,7 +11713,7 @@
    {
     "count": 2,
     "model": "models/props_junk/popcan01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "pirate/bottle"
    },
    {
     "count": 2,
@@ -13122,6 +13140,18 @@
   },
   {
    "at": [
+    1.124,
+    0.8763,
+    -4.8006
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 119.5
+  },
+  {
+   "at": [
     1.1811,
     -2.286,
     -5.4102
@@ -13507,6 +13537,30 @@
   },
   {
    "at": [
+    -6.9714,
+    -2.4926,
+    -8.149
+   ],
+   "model": "models/props_c17/tools_pliers01a.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 238.0
+  },
+  {
+   "at": [
+    -4.6882,
+    -1.8651,
+    -6.096
+   ],
+   "model": "models/props_c17/tools_wrench01a.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 160.0
+  },
+  {
+   "at": [
     -5.0254,
     -2.3223,
     -6.4258
@@ -13526,6 +13580,18 @@
    "scale": 1.0,
    "stand_in": "rock",
    "yaw": 352.0
+  },
+  {
+   "at": [
+    -6.5438,
+    -2.4354,
+    -9.1631
+   ],
+   "model": "models/props_c17/tools_wrench01a.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 312.5
   },
   {
    "at": [
@@ -13834,6 +13900,18 @@
    "scale": 1.0,
    "stand_in": "rock",
    "yaw": 63.5
+  },
+  {
+   "at": [
+    -4.0386,
+    0.8573,
+    6.0579
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 75.0
   },
   {
    "at": [

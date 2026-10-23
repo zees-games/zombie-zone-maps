@@ -30,8 +30,8 @@
  "models": {
   "looked_up": 29,
   "by_tier": {
-   "default": 22,
-   "fallback": 7
+   "default": 23,
+   "fallback": 6
   }
  },
  "sounds": {
@@ -246,7 +246,6 @@
    "police.mdl",
    "props/cs_assault/nostopssign.mdl",
    "props/cs_havana/gazebo.mdl",
-   "props/cs_militia/food_stack.mdl",
    "props/cs_office/exit_wall.mdl",
    "props/de_nuke/ibeams_bombsitec.mdl",
    "props_trainstation/tracksign10.mdl"
@@ -381,7 +380,7 @@
  "counts": {
   "textures_unmapped": 15,
   "textures_flat": 4,
-  "models_unmapped": 7,
+  "models_unmapped": 6,
   "sounds_unmapped": 1,
   "classes_unmapped": 0,
   "keys_unmapped": 119,

@@ -20,8 +20,8 @@
  "models": {
   "looked_up": 80,
   "by_tier": {
-   "default": 67,
-   "fallback": 13
+   "default": 68,
+   "fallback": 12
   }
  },
  "sounds": {
@@ -160,8 +160,7 @@
    "props_c17/clock01.mdl",
    "props_c17/furniturebed001a.mdl",
    "props_c17/furniturecupboard001a.mdl",
-   "props_combine/breenclock.mdl",
-   "props_junk/popcan01a.mdl"
+   "props_combine/breenclock.mdl"
   ],
   "sounds_unmapped": [
    "ambient/animal/bird12.wav",
@@ -252,7 +251,7 @@
  "counts": {
   "textures_unmapped": 1,
   "textures_flat": 0,
-  "models_unmapped": 13,
+  "models_unmapped": 12,
   "sounds_unmapped": 5,
   "classes_unmapped": 0,
   "keys_unmapped": 72,

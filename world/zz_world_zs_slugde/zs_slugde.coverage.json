@@ -16,8 +16,8 @@
  "models": {
   "looked_up": 53,
   "by_tier": {
-   "default": 49,
-   "fallback": 4
+   "default": 50,
+   "fallback": 3
   }
  },
  "sounds": {
@@ -88,8 +88,7 @@
   "models_unmapped": [
    "props_junk/bicycle01a.mdl",
    "props_junk/glassbottle01a.mdl",
-   "props_lab/generatorconsole.mdl",
-   "props_lab/harddrive01.mdl"
+   "props_lab/generatorconsole.mdl"
   ],
   "sounds_unmapped": [],
   "classes_unmapped": [],
@@ -124,7 +123,7 @@
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 4,
+  "models_unmapped": 3,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 24,

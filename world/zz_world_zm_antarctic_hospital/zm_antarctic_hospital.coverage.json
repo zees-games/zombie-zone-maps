@@ -16,8 +16,8 @@
  "models": {
   "looked_up": 72,
   "by_tier": {
-   "default": 63,
-   "fallback": 9
+   "default": 69,
+   "fallback": 3
   }
  },
  "sounds": {
@@ -117,14 +117,8 @@
   "textures_flat": [],
   "models_unmapped": [
    "",
-   "props_c17/cashregister01a.mdl",
-   "props_c17/tools_pliers01a.mdl",
-   "props_c17/tools_wrench01a.mdl",
    "props_combine/breenglobe.mdl",
-   "props_interiors/furniture_vanity01a.mdl",
-   "props_junk/popcan01a.mdl",
-   "props_lab/harddrive02.mdl",
-   "tools/camera/camera.mdl"
+   "props_interiors/furniture_vanity01a.mdl"
   ],
   "sounds_unmapped": [],
   "classes_unmapped": [],
@@ -183,7 +177,7 @@
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 9,
+  "models_unmapped": 3,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 48,

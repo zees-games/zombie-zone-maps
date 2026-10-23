@@ -133,6 +133,52 @@ def name_world(doc, repo_root):
     return out
 
 
+def aim_spawns(spawns, boxes, look=5.0, reach=14.0):
+    """Turn a survivor start that faces a wall (or a bare sky edge) to its most open direction.
+    The source's `angles` are kept when eye height is clear for `look` metres; a generated start
+    (yaw 0) and a start in a room whose authored facing is a wall get the best of sixteen headings.
+    A person put down staring at a wall sees nothing of the map, and a render of it reads as dark."""
+    turned = 0
+    for sp in spawns:
+        x, y, z = sp["at"]
+        near = []
+        for b in boxes:
+            if not b.get("solid", True) or b.get("kind") == "glass":
+                continue
+            bx, by, bz = b["at"]
+            sx, sy, sz = b["size"]
+            if by + sy / 2 < y + 0.3 or by - sy / 2 > y + 1.6:
+                continue
+            if abs(bx - x) > reach + max(sx, sz) or abs(bz - z) > reach + max(sx, sz):
+                continue
+            near.append(b)
+
+        def clear(yaw):
+            a = math.radians(yaw)
+            fx, fz = -math.sin(a), -math.cos(a)
+            d = 0.4
+            while d <= reach:
+                px, pz = x + fx * d, z + fz * d
+                for b in near:
+                    dx, dz = px - b["at"][0], pz - b["at"][2]
+                    if b.get("yaw"):
+                        c, s_ = math.cos(math.radians(b["yaw"])), math.sin(math.radians(b["yaw"]))
+                        dx, dz = dx * c - dz * s_, dx * s_ + dz * c
+                    if abs(dx) <= b["size"][0] / 2 and abs(dz) <= b["size"][2] / 2:
+                        return d
+                d += 0.25
+            return reach
+
+        cur = sp.get("yaw", 0.0)
+        if clear(cur) >= look:
+            continue
+        best = max(range(0, 360, 22), key=lambda h: (round(clear(h), 1), -min(abs(h - cur) % 360, 360 - abs(h - cur) % 360)))
+        if clear(best) > clear(cur) + 1.0:
+            sp["yaw"] = float(best)
+            turned += 1
+    return turned
+
+
 def r3(v):
     return round(v, 3)
 
@@ -1547,6 +1593,9 @@ def main(argv):
         all_boxes = tiled
     else:
         all_boxes = boxes + bar_boxes + gate_boxes
+    turned = aim_spawns(spawns, all_boxes)
+    if turned:
+        print("  survivor spawns: %d facing a wall turned to open ground" % turned)
     doc = {
         "format": 1, "kind": "zombiezone_map", "id": spec["id"], "name": spec["name"],
         "author": "%s (original map, %s, %s); converted. Removed on request." % (spec["author"], spec["page"], spec["licence"]),

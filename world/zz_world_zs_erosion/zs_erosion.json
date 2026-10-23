@@ -12308,6 +12308,15 @@
    },
    {
     "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Pirate Kit",
+    "stand_in": "pirate/bottle",
+    "url": "https://kenney.nl/assets/pirate-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 6,
     "files": [],
     "licence": "CC0-1.0",
@@ -12888,7 +12897,7 @@
    {
     "count": 1,
     "model": "models/props_junk/popcan01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "pirate/bottle"
    },
    {
     "count": 1,
@@ -15757,6 +15766,7 @@
    ],
    "model": "models/props_c17/computer01_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 355.0
   },
@@ -16331,6 +16341,18 @@
    "scale": 1.0,
    "stand_in": "rock",
    "yaw": 270.0
+  },
+  {
+   "at": [
+    -24.8031,
+    -0.5334,
+    -18.5928
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 180.0
   },
   {
    "at": [

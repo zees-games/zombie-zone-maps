@@ -28660,6 +28660,15 @@
    },
    {
     "author": "Kenney",
+    "count": 3,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "cardboard_box",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 49,
     "files": [],
     "licence": "CC0-1.0",
@@ -28768,6 +28777,15 @@
    },
    {
     "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Pirate Kit",
+    "stand_in": "pirate/bottle",
+    "url": "https://kenney.nl/assets/pirate-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 4,
     "files": [],
     "licence": "CC0-1.0",
@@ -28777,7 +28795,7 @@
    },
    {
     "author": "Kenney",
-    "count": 164,
+    "count": 166,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Nature Kit",
@@ -28899,7 +28917,7 @@
    {
     "count": 2,
     "model": "models/props/cs_italy/bananna_bunch.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 2,
@@ -28954,12 +28972,12 @@
    {
     "count": 2,
     "model": "models/props_buildings/project_destroyedbuildings03_skybox.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "skybox"
    },
    {
     "count": 2,
     "model": "models/props_buildings/project_destroyedbuildings04_skybox.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "skybox"
    },
    {
     "count": 6,
@@ -28969,7 +28987,7 @@
    {
     "count": 1,
     "model": "models/props_c17/cashregister01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 1,
@@ -29214,12 +29232,12 @@
    {
     "count": 1,
     "model": "models/props_canal/refinery_02_skybox.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "skybox"
    },
    {
     "count": 1,
     "model": "models/props_canal/refinery_03_skybox.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "skybox"
    },
    {
     "count": 2,
@@ -29599,7 +29617,7 @@
    {
     "count": 1,
     "model": "models/props_junk/popcan01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "pirate/bottle"
    },
    {
     "count": 2,
@@ -29674,7 +29692,7 @@
    {
     "count": 2,
     "model": "models/props_lab/harddrive01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 3,
@@ -35702,6 +35720,18 @@
   },
   {
    "at": [
+    29.1539,
+    8.1008,
+    -36.2114
+   ],
+   "model": "models/props_junk/popcan01a.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 215.1
+  },
+  {
+   "at": [
     28.9072,
     8.1901,
     -36.5187
@@ -35835,6 +35865,18 @@
   {
    "at": [
     -4.572,
+    3.4541,
+    -19.431
+   ],
+   "model": "models/props_lab/harddrive01.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 189.5
+  },
+  {
+   "at": [
+    -4.572,
     3.2499,
     -19.05
    ],
@@ -35851,6 +35893,7 @@
    ],
    "model": "models/props_c17/computer01_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 172.0
   },
@@ -36150,6 +36193,18 @@
    "scale": 1.0,
    "stand_in": "chair",
    "yaw": 58.5
+  },
+  {
+   "at": [
+    -29.4797,
+    6.0806,
+    12.1691
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -37074,6 +37129,18 @@
    "scale": 1.0,
    "stand_in": "chair",
    "yaw": 300.0
+  },
+  {
+   "at": [
+    -4.7244,
+    1.0157,
+    26.289
+   ],
+   "model": "models/props_lab/harddrive01.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 189.5
   },
   {
    "at": [
@@ -38525,6 +38592,30 @@
    "model": "models/props_junk/garbage_milkcarton002a.mdl",
    "scale": 1.0,
    "stand_in": "bin",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -3.819,
+    6.8994,
+    40.3913
+   ],
+   "model": "models/props/cs_italy/bananna_bunch.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    12.1331,
+    5.8197,
+    15.428
+   ],
+   "model": "models/props/cs_italy/bananna_bunch.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
    "yaw": 0.0
   },
   {

@@ -65711,6 +65711,15 @@
    },
    {
     "author": "Kenney",
+    "count": 20,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "cardboard_box",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 208,
     "files": [],
     "licence": "CC0-1.0",
@@ -65864,6 +65873,15 @@
    },
    {
     "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Pirate Kit",
+    "stand_in": "pirate/bottle",
+    "url": "https://kenney.nl/assets/pirate-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 126,
     "files": [],
     "licence": "CC0-1.0",
@@ -65882,7 +65900,7 @@
    },
    {
     "author": "Kenney",
-    "count": 2,
+    "count": 7,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Nature Kit",
@@ -66073,7 +66091,7 @@
    {
     "count": 1,
     "model": "models/firstaidspray.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "pirate/bottle"
    },
    {
     "count": 1,
@@ -66348,7 +66366,7 @@
    {
     "count": 13,
     "model": "models/props/cs_assault/camera.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 8,
@@ -66463,7 +66481,7 @@
    {
     "count": 1,
     "model": "models/props/cs_militia/food_stack.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 4,
@@ -66633,7 +66651,7 @@
    {
     "count": 4,
     "model": "models/props/cs_office/phone.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 8,
@@ -67308,12 +67326,12 @@
    {
     "count": 1,
     "model": "models/props_junk/food_pile01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 1,
     "model": "models/props_junk/food_pile03.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 1,
@@ -67823,7 +67841,7 @@
    {
     "count": 2,
     "model": "models/testmodels/apple_display.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 1,
@@ -67848,7 +67866,7 @@
    {
     "count": 2,
     "model": "models/testmodels/keyboard.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 2,
@@ -67888,7 +67906,7 @@
    {
     "count": 1,
     "model": "models/weapons/w_stunbaton.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 3,
@@ -81821,6 +81839,18 @@
   },
   {
    "at": [
+    31.9659,
+    1.0531,
+    -12.2111
+   ],
+   "model": "models/props/cs_office/phone.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 298.0
+  },
+  {
+   "at": [
     29.2608,
     0.4382,
     -10.5918
@@ -82404,6 +82434,30 @@
   },
   {
    "at": [
+    -40.8813,
+    -15.9258,
+    -94.2213
+   ],
+   "model": "models/testmodels/keyboard.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 182.5
+  },
+  {
+   "at": [
+    -40.6527,
+    -15.8687,
+    -94.6595
+   ],
+   "model": "models/testmodels/apple_display.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 224.5
+  },
+  {
+   "at": [
     -61.5506,
     -16.6116,
     -107.9754
@@ -82613,6 +82667,30 @@
   },
   {
    "at": [
+    -38.9573,
+    -26.0985,
+    -119.3292
+   ],
+   "model": "models/testmodels/apple_display.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 212.5
+  },
+  {
+   "at": [
+    -39.1287,
+    -26.1366,
+    -118.6244
+   ],
+   "model": "models/testmodels/keyboard.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 182.5
+  },
+  {
+   "at": [
     -40.1003,
     -26.6319,
     -117.2909
@@ -82621,6 +82699,18 @@
    "scale": 1.0,
    "stand_in": "chair",
    "yaw": 328.5
+  },
+  {
+   "at": [
+    -41.3957,
+    -15.9639,
+    -91.7258
+   ],
+   "model": "models/props/cs_office/phone.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 148.5
   },
   {
    "at": [
@@ -82778,6 +82868,18 @@
   },
   {
    "at": [
+    15.5067,
+    5.4781,
+    -32.6136
+   ],
+   "model": "models/props/cs_office/phone.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 298.0
+  },
+  {
+   "at": [
     16.1544,
     5.0346,
     -31.5278
@@ -82822,6 +82924,18 @@
   },
   {
    "at": [
+    -27.2606,
+    5.4781,
+    -29.9847
+   ],
+   "model": "models/props/cs_office/phone.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 298.0
+  },
+  {
+   "at": [
     -26.6129,
     5.0346,
     -28.8989
@@ -82841,6 +82955,18 @@
    "scale": 1.0,
    "stand_in": "bookcase",
    "yaw": 359.5
+  },
+  {
+   "at": [
+    -26.9367,
+    5.6388,
+    -29.9276
+   ],
+   "model": "models/firstaidspray.mdl",
+   "scale": 1.0,
+   "size": 0.13,
+   "stand_in": "pirate/bottle",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -83116,6 +83242,18 @@
    "scale": 1.0,
    "stand_in": "crate",
    "yaw": 251.5
+  },
+  {
+   "at": [
+    35.4711,
+    5.7912,
+    -28.6322
+   ],
+   "model": "models/weapons/w_stunbaton.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "cardboard_box",
+   "yaw": 183.0
   },
   {
    "at": [
@@ -85572,6 +85710,18 @@
   },
   {
    "at": [
+    -22.5552,
+    -3.5052,
+    -16.8973
+   ],
+   "model": "models/props/cs_militia/food_stack.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "rock",
+   "yaw": 269.5
+  },
+  {
+   "at": [
     -18.5357,
     -2.8956,
     -16.0782
@@ -85580,6 +85730,30 @@
    "scale": 1.0,
    "stand_in": "sink",
    "yaw": 89.5
+  },
+  {
+   "at": [
+    -17.7736,
+    -3.5052,
+    -17.3164
+   ],
+   "model": "models/props_junk/food_pile01.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "rock",
+   "yaw": 269.5
+  },
+  {
+   "at": [
+    -12.0777,
+    -3.5052,
+    -18.7071
+   ],
+   "model": "models/props_junk/food_pile03.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "rock",
+   "yaw": 314.0
   },
   {
    "at": [
@@ -87395,6 +87569,162 @@
    "scale": 1.0,
    "stand_in": "cabinet",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    -24.4412,
+    3.9434,
+    -82.1436
+   ],
+   "model": "models/props/cs_assault/camera.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -39.9669,
+    3.9434,
+    -82.4103
+   ],
+   "model": "models/props/cs_assault/camera.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 344.5
+  },
+  {
+   "at": [
+    -52.559,
+    -7.5438,
+    -81.6864
+   ],
+   "model": "models/props/cs_assault/camera.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -47.5869,
+    -10.6299,
+    -91.5543
+   ],
+   "model": "models/props/cs_assault/camera.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 312.98
+  },
+  {
+   "at": [
+    -39.1097,
+    -10.7061,
+    -82.8103
+   ],
+   "model": "models/props/cs_assault/camera.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 35.5
+  },
+  {
+   "at": [
+    -45.72,
+    -12.935,
+    -111.252
+   ],
+   "model": "models/props/cs_assault/camera.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 271.55
+  },
+  {
+   "at": [
+    -33.6994,
+    -10.8585,
+    -85.6488
+   ],
+   "model": "models/props/cs_assault/camera.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -36.4236,
+    -13.8303,
+    -96.5835
+   ],
+   "model": "models/props/cs_assault/camera.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 343.0
+  },
+  {
+   "at": [
+    -36.3855,
+    -13.8494,
+    -99.3077
+   ],
+   "model": "models/props/cs_assault/camera.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 343.0
+  },
+  {
+   "at": [
+    -53.3591,
+    -14.3278,
+    -95.7072
+   ],
+   "model": "models/props/cs_assault/camera.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -53.721,
+    -13.9256,
+    -94.8309
+   ],
+   "model": "models/props/cs_assault/camera.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 289.0
+  },
+  {
+   "at": [
+    -65.2844,
+    -14.2875,
+    -115.043
+   ],
+   "model": "models/props/cs_assault/camera.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 247.19
+  },
+  {
+   "at": [
+    -60.3885,
+    -24.6126,
+    -111.5759
+   ],
+   "model": "models/props/cs_assault/camera.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 296.55
   },
   {
    "at": [

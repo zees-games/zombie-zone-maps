@@ -21,8 +21,8 @@
  "models": {
   "looked_up": 61,
   "by_tier": {
-   "default": 40,
-   "fallback": 21
+   "default": 41,
+   "fallback": 20
   }
  },
  "sounds": {
@@ -194,7 +194,6 @@
    "deinonychus/deinonychus.mdl",
    "props/cs_assault/forklift.mdl",
    "props/cs_militia/militiarock03.mdl",
-   "props/cs_office/phone.mdl",
    "props/de_nuke/emergency_lighta.mdl",
    "props/de_nuke/equipment1.mdl",
    "props/de_prodigy/concretebags3.mdl",
@@ -323,7 +322,7 @@
  "counts": {
   "textures_unmapped": 2,
   "textures_flat": 0,
-  "models_unmapped": 21,
+  "models_unmapped": 20,
   "sounds_unmapped": 4,
   "classes_unmapped": 0,
   "keys_unmapped": 100,

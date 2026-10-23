@@ -20,8 +20,8 @@
  "models": {
   "looked_up": 62,
   "by_tier": {
-   "default": 44,
-   "fallback": 18
+   "default": 51,
+   "fallback": 11
   }
  },
  "sounds": {
@@ -146,19 +146,12 @@
   ],
   "textures_flat": [],
   "models_unmapped": [
-   "props/cs_italy/bananna_bunch.mdl",
-   "props/cs_italy/orange.mdl",
-   "props/cs_office/coffee_mug.mdl",
    "props/cs_office/offinspd.mdl",
    "props/cs_office/offinspg.mdl",
-   "props/cs_office/phone.mdl",
    "props/de_prodigy/spoolwire.mdl",
    "props/de_tides/clouds.mdl",
    "props/de_train/de_train_securityguard.mdl",
    "props_c17/briefcase001a.mdl",
-   "props_junk/food_pile01.mdl",
-   "props_junk/food_pile02.mdl",
-   "props_junk/popcan01a.mdl",
    "props_lab/corkboard001.mdl",
    "props_lab/corkboard002.mdl",
    "props_lab/freightelevatorbutton.mdl",
@@ -252,7 +245,7 @@
  "counts": {
   "textures_unmapped": 1,
   "textures_flat": 0,
-  "models_unmapped": 18,
+  "models_unmapped": 11,
   "sounds_unmapped": 1,
   "classes_unmapped": 0,
   "keys_unmapped": 73,

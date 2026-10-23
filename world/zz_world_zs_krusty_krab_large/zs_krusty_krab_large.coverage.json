@@ -22,8 +22,8 @@
  "models": {
   "looked_up": 98,
   "by_tier": {
-   "default": 69,
-   "fallback": 29
+   "default": 72,
+   "fallback": 26
   }
  },
  "sounds": {
@@ -258,15 +258,12 @@
    "firewavezzmodels/woodtunnel.mdl",
    "player/zh/zh_zombie003.mdl",
    "props/cs_assault/dollar.mdl",
-   "props/cs_assault/money.mdl",
    "props/cs_italy/winerack_small.mdl",
-   "props/cs_office/coffee_mug.mdl",
    "props/de_dust/du_antenna_b.mdl",
    "props/de_nuke/clock.mdl",
    "props/de_nuke/lifepreserver.mdl",
    "props/de_prodigy/lighthanging.mdl",
    "props/de_prodigy/spoolwire.mdl",
-   "props_c17/cashregister01a.mdl",
    "props_citizen_tech/firetrap_button01a.mdl",
    "props_combine/breenglobe.mdl",
    "props_junk/glassjug01.mdl",
@@ -427,7 +424,7 @@
  "counts": {
   "textures_unmapped": 3,
   "textures_flat": 0,
-  "models_unmapped": 29,
+  "models_unmapped": 26,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 140,

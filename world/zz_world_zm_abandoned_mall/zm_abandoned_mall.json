@@ -69517,6 +69517,15 @@
    },
    {
     "author": "Kenney",
+    "count": 53,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "cardboard_box",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 184,
     "files": [],
     "licence": "CC0-1.0",
@@ -69598,6 +69607,15 @@
    },
    {
     "author": "Kenney",
+    "count": 24,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Pirate Kit",
+    "stand_in": "pirate/bottle",
+    "url": "https://kenney.nl/assets/pirate-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 6,
     "files": [],
     "licence": "CC0-1.0",
@@ -69625,7 +69643,7 @@
    },
    {
     "author": "Kenney",
-    "count": 16,
+    "count": 41,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Nature Kit",
@@ -69754,7 +69772,7 @@
    {
     "count": 17,
     "model": "models/jaanus/iphone.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 6,
@@ -69774,7 +69792,7 @@
    {
     "count": 4,
     "model": "models/props/cs_assault/money.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 1,
@@ -69804,17 +69822,17 @@
    {
     "count": 1,
     "model": "models/props/cs_italy/bananna.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 2,
     "model": "models/props/cs_italy/bananna_bunch.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 16,
     "model": "models/props/cs_italy/orange.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 28,
@@ -69824,7 +69842,7 @@
    {
     "count": 20,
     "model": "models/props/cs_militia/bottle01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "pirate/bottle"
    },
    {
     "count": 1,
@@ -69834,7 +69852,7 @@
    {
     "count": 4,
     "model": "models/props/cs_militia/food_stack.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 1,
@@ -69949,7 +69967,7 @@
    {
     "count": 4,
     "model": "models/props/cs_office/water_bottle.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "pirate/bottle"
    },
    {
     "count": 3,
@@ -70029,7 +70047,7 @@
    {
     "count": 31,
     "model": "models/props_c17/cashregister01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 5,
@@ -70264,7 +70282,7 @@
    {
     "count": 2,
     "model": "models/props_junk/food_pile02.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 10,
@@ -70399,7 +70417,7 @@
    {
     "count": 1,
     "model": "models/props_lab/clipboard.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 3,
@@ -73025,6 +73043,7 @@
    ],
    "model": "models/props_c17/computer01_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 98.0
   },
@@ -73036,6 +73055,7 @@
    ],
    "model": "models/props_c17/computer01_keyboard.mdl",
    "scale": 1.0,
+   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 116.0
   },
@@ -73437,6 +73457,30 @@
   },
   {
    "at": [
+    0.1333,
+    1.2383,
+    -24.003
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    0.1333,
+    1.2383,
+    -22.5552
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     -5.5436,
     0.7049,
     -25.146
@@ -73588,6 +73632,30 @@
    "scale": 1.0,
    "stand_in": "desk",
    "yaw": 272.0
+  },
+  {
+   "at": [
+    20.7836,
+    1.2573,
+    -20.7074
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    22.5362,
+    1.2573,
+    -20.7074
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -74812,6 +74880,18 @@
   },
   {
    "at": [
+    27.3558,
+    1.2573,
+    8.7244
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     -4.7625,
     0.3239,
     -65.1891
@@ -75219,6 +75299,18 @@
   },
   {
    "at": [
+    38.2966,
+    1.0858,
+    -62.7957
+   ],
+   "model": "models/props_lab/clipboard.mdl",
+   "scale": 1.0,
+   "size": 0.2,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     33.6804,
     0.6287,
     -73.3425
@@ -75263,6 +75355,18 @@
   },
   {
    "at": [
+    -19.8272,
+    1.3335,
+    -54.5592
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     -7.4676,
     0.4001,
     -30.1181
@@ -75271,6 +75375,18 @@
    "scale": 1.0,
    "stand_in": "fridge",
    "yaw": 267.5
+  },
+  {
+   "at": [
+    14.7828,
+    1.0097,
+    -67.7609
+   ],
+   "model": "models/props/cs_italy/bananna_bunch.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 271.0
   },
   {
    "at": [
@@ -75314,6 +75430,18 @@
    "model": "models/props/cs_office/radio.mdl",
    "scale": 1.0,
    "stand_in": "radio",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    38.9382,
+    1.1621,
+    8.9916
+   ],
+   "model": "models/props/cs_assault/money.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
    "yaw": 0.0
   },
   {
@@ -75513,6 +75641,18 @@
    "scale": 1.0,
    "stand_in": "crate",
    "yaw": 92.5
+  },
+  {
+   "at": [
+    21.6821,
+    1.3145,
+    -10.9157
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -75967,6 +76107,18 @@
   },
   {
    "at": [
+    -2.8956,
+    1.2573,
+    -47.1106
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 180.0
+  },
+  {
+   "at": [
     -6.2675,
     0.381,
     -53.8544
@@ -76363,6 +76515,18 @@
   },
   {
    "at": [
+    16.2116,
+    3.8862,
+    -29.2608
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 105.0
+  },
+  {
+   "at": [
     33.7185,
     3.2957,
     -30.9944
@@ -76484,6 +76648,18 @@
   },
   {
    "at": [
+    57.8739,
+    1.2573,
+    -12.7944
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     60.0456,
     1.0287,
     -9.4999
@@ -76558,6 +76734,18 @@
    "scale": 1.0,
    "stand_in": "table",
    "yaw": 273.0
+  },
+  {
+   "at": [
+    46.4439,
+    1.2954,
+    -32.1564
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -76935,6 +77123,138 @@
   },
   {
    "at": [
+    59.817,
+    1.2573,
+    1.1049
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    58.1025,
+    1.7336,
+    1.4097
+   ],
+   "model": "models/props/cs_militia/bottle01.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    58.293,
+    1.7336,
+    1.4097
+   ],
+   "model": "models/props/cs_militia/bottle01.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    58.5597,
+    1.7336,
+    1.4097
+   ],
+   "model": "models/props/cs_militia/bottle01.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    58.9407,
+    1.7336,
+    1.4097
+   ],
+   "model": "models/props/cs_militia/bottle01.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    59.3598,
+    1.7336,
+    1.4097
+   ],
+   "model": "models/props/cs_militia/bottle01.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    59.7408,
+    1.7336,
+    1.4097
+   ],
+   "model": "models/props/cs_militia/bottle01.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    60.0075,
+    1.7336,
+    1.4097
+   ],
+   "model": "models/props/cs_militia/bottle01.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    59.5503,
+    1.7336,
+    1.4097
+   ],
+   "model": "models/props/cs_militia/bottle01.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    59.1312,
+    1.7336,
+    1.4097
+   ],
+   "model": "models/props/cs_militia/bottle01.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    58.7311,
+    1.7336,
+    1.4097
+   ],
+   "model": "models/props/cs_militia/bottle01.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     54.102,
     0.3429,
     -4.934
@@ -77111,6 +77431,66 @@
   },
   {
    "at": [
+    72.5996,
+    1.2383,
+    -49.9661
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    72.7139,
+    1.2383,
+    -53.9877
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    72.8091,
+    1.2383,
+    -57.7596
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    68.9991,
+    1.2383,
+    -53.3972
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    71.4375,
+    1.2383,
+    -63.0365
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     65.1701,
     0.4763,
     -44.6532
@@ -77218,6 +77598,18 @@
    "scale": 1.0,
    "stand_in": "monitor",
    "yaw": 90.0
+  },
+  {
+   "at": [
+    57.7977,
+    1.2764,
+    -64.1758
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -77592,6 +77984,66 @@
    "scale": 1.0,
    "stand_in": "crate",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    -2.8765,
+    1.2192,
+    -58.176
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    46.7868,
+    1.2383,
+    -97.3455
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    46.7487,
+    1.2383,
+    -100.965
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    46.8058,
+    1.2383,
+    -104.7178
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    46.7106,
+    1.2383,
+    -108.4136
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -78299,6 +78751,198 @@
   },
   {
    "at": [
+    31.6992,
+    1.4097,
+    -80.6577
+   ],
+   "model": "models/props/cs_italy/orange.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    31.6611,
+    1.4097,
+    -81.0958
+   ],
+   "model": "models/props/cs_italy/orange.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    31.6611,
+    1.4097,
+    -81.4387
+   ],
+   "model": "models/props/cs_italy/orange.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    31.6421,
+    1.4097,
+    -81.7054
+   ],
+   "model": "models/props/cs_italy/orange.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    31.6421,
+    1.4097,
+    -81.9912
+   ],
+   "model": "models/props/cs_italy/orange.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    31.7183,
+    1.4097,
+    -82.4865
+   ],
+   "model": "models/props/cs_italy/orange.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    31.6992,
+    1.4097,
+    -82.8484
+   ],
+   "model": "models/props/cs_italy/orange.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    31.6992,
+    1.4097,
+    -83.3056
+   ],
+   "model": "models/props/cs_italy/orange.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    31.7183,
+    1.4097,
+    -83.5533
+   ],
+   "model": "models/props/cs_italy/orange.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    29.737,
+    1.4097,
+    -83.4581
+   ],
+   "model": "models/props/cs_italy/orange.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    29.718,
+    1.4097,
+    -83.0961
+   ],
+   "model": "models/props/cs_italy/orange.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    29.718,
+    1.4097,
+    -82.5627
+   ],
+   "model": "models/props/cs_italy/orange.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    29.718,
+    1.4097,
+    -82.2388
+   ],
+   "model": "models/props/cs_italy/orange.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    29.7561,
+    1.4097,
+    -81.8769
+   ],
+   "model": "models/props/cs_italy/orange.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    29.6608,
+    1.4097,
+    -80.5243
+   ],
+   "model": "models/props/cs_italy/orange.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    29.6227,
+    1.4097,
+    -81.0387
+   ],
+   "model": "models/props/cs_italy/orange.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     28.8989,
     1.505,
     -94.6976
@@ -78783,6 +79427,18 @@
   },
   {
    "at": [
+    34.2742,
+    0.9525,
+    -117.5796
+   ],
+   "model": "models/props/cs_office/water_bottle.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     40.0431,
     1.0287,
     -105.5941
@@ -79146,6 +79802,78 @@
   },
   {
    "at": [
+    31.9659,
+    0.3239,
+    -113.8428
+   ],
+   "model": "models/props/cs_militia/food_stack.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "rock",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    33.9471,
+    0.3239,
+    -113.9
+   ],
+   "model": "models/props/cs_militia/food_stack.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "rock",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    35.8331,
+    0.3239,
+    -113.9381
+   ],
+   "model": "models/props/cs_militia/food_stack.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "rock",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    37.3952,
+    0.3239,
+    -114.0333
+   ],
+   "model": "models/props/cs_militia/food_stack.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "rock",
+   "yaw": 271.0
+  },
+  {
+   "at": [
+    42.7673,
+    1.4097,
+    -117.5385
+   ],
+   "model": "models/props_junk/food_pile02.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "rock",
+   "yaw": 269.0
+  },
+  {
+   "at": [
+    40.767,
+    1.4097,
+    -117.4814
+   ],
+   "model": "models/props_junk/food_pile02.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "rock",
+   "yaw": 269.0
+  },
+  {
+   "at": [
     49.2252,
     1.0477,
     -90.3161
@@ -79176,6 +79904,30 @@
    "scale": 1.0,
    "stand_in": "monitor",
    "yaw": 180.0
+  },
+  {
+   "at": [
+    46.0819,
+    1.2573,
+    -92.8307
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    46.101,
+    1.2573,
+    -90.3161
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -79685,6 +80437,54 @@
   },
   {
    "at": [
+    18.3857,
+    1.2002,
+    -78.8289
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 276.0
+  },
+  {
+   "at": [
+    13.2207,
+    1.1621,
+    17.6593
+   ],
+   "model": "models/props/cs_office/water_bottle.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    12.6873,
+    1.1621,
+    17.6784
+   ],
+   "model": "models/props/cs_office/water_bottle.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    12.0968,
+    1.1621,
+    17.6403
+   ],
+   "model": "models/props/cs_office/water_bottle.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     14.3447,
     0.7049,
     9.4869
@@ -79934,6 +80734,78 @@
    "model": "models/props_junk/metal_paintcan001a.mdl",
    "scale": 1.0,
    "stand_in": "bucket",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    35.9049,
+    1.5447,
+    -75.8217
+   ],
+   "model": "models/props/cs_italy/bananna.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    34.6363,
+    1.5408,
+    -75.8419
+   ],
+   "model": "models/props/cs_italy/bananna_bunch.mdl",
+   "scale": 1.0,
+   "size": 0.1,
+   "stand_in": "rock",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    24.6244,
+    3.6576,
+    -28.556
+   ],
+   "model": "models/jaanus/iphone.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    25.1656,
+    3.6576,
+    -28.556
+   ],
+   "model": "models/jaanus/iphone.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    25.8318,
+    3.6576,
+    -28.556
+   ],
+   "model": "models/jaanus/iphone.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    26.1747,
+    3.8291,
+    -28.575
+   ],
+   "model": "models/props/cs_assault/money.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
    "yaw": 0.0
   },
   {
@@ -80664,6 +81536,18 @@
   },
   {
    "at": [
+    -4.8387,
+    1.2573,
+    -91.8418
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -2.0955,
     0.7811,
     -92.4116
@@ -80793,6 +81677,138 @@
    "scale": 1.0,
    "stand_in": "tv",
    "yaw": 179.5
+  },
+  {
+   "at": [
+    -16.5354,
+    1.2002,
+    -84.3043
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -16.5163,
+    0.9716,
+    -84.944
+   ],
+   "model": "models/props/cs_militia/bottle01.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -16.5163,
+    0.9716,
+    -85.1154
+   ],
+   "model": "models/props/cs_militia/bottle01.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -16.5163,
+    0.9716,
+    -85.4393
+   ],
+   "model": "models/props/cs_militia/bottle01.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -16.5163,
+    0.9716,
+    -85.2678
+   ],
+   "model": "models/props/cs_militia/bottle01.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -16.5163,
+    0.9716,
+    -85.8012
+   ],
+   "model": "models/props/cs_militia/bottle01.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -16.5163,
+    0.9716,
+    -85.6298
+   ],
+   "model": "models/props/cs_militia/bottle01.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -16.5354,
+    0.9716,
+    -86.2394
+   ],
+   "model": "models/props/cs_militia/bottle01.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -16.5354,
+    0.9716,
+    -86.0679
+   ],
+   "model": "models/props/cs_militia/bottle01.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -16.5544,
+    0.9716,
+    -86.7918
+   ],
+   "model": "models/props/cs_militia/bottle01.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -16.5544,
+    0.9716,
+    -86.6204
+   ],
+   "model": "models/props/cs_militia/bottle01.mdl",
+   "scale": 1.0,
+   "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -81214,6 +82230,102 @@
   },
   {
    "at": [
+    28.2702,
+    3.8291,
+    -28.556
+   ],
+   "model": "models/props/cs_assault/money.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    26.7199,
+    3.6576,
+    -28.5369
+   ],
+   "model": "models/jaanus/iphone.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    27.2611,
+    3.6576,
+    -28.5369
+   ],
+   "model": "models/jaanus/iphone.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    27.9273,
+    3.6576,
+    -28.5369
+   ],
+   "model": "models/jaanus/iphone.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    30.842,
+    3.8291,
+    -28.556
+   ],
+   "model": "models/props/cs_assault/money.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    29.2917,
+    3.6576,
+    -28.5369
+   ],
+   "model": "models/jaanus/iphone.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    29.8329,
+    3.6576,
+    -28.5369
+   ],
+   "model": "models/jaanus/iphone.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    30.4991,
+    3.6576,
+    -28.5369
+   ],
+   "model": "models/jaanus/iphone.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     33.8518,
     3.6195,
     -26.1366
@@ -81288,6 +82400,114 @@
    "scale": 1.0,
    "stand_in": "monitor",
    "yaw": 86.0
+  },
+  {
+   "at": [
+    20.3835,
+    3.6576,
+    -29.2418
+   ],
+   "model": "models/jaanus/iphone.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    21.1265,
+    3.6576,
+    -29.2608
+   ],
+   "model": "models/jaanus/iphone.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    21.0884,
+    3.6576,
+    -28.6131
+   ],
+   "model": "models/jaanus/iphone.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    20.2883,
+    3.6576,
+    -28.6322
+   ],
+   "model": "models/jaanus/iphone.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    17.4498,
+    1.124,
+    -33.0136
+   ],
+   "model": "models/jaanus/iphone.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    17.545,
+    1.124,
+    -33.6232
+   ],
+   "model": "models/jaanus/iphone.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    18.288,
+    1.124,
+    -33.6423
+   ],
+   "model": "models/jaanus/iphone.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    18.2499,
+    1.124,
+    -32.9946
+   ],
+   "model": "models/jaanus/iphone.mdl",
+   "scale": 1.0,
+   "size": 0.15,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    16.2306,
+    3.8862,
+    -27.8702
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 81.0
   },
   {
    "at": [
@@ -81588,6 +82808,18 @@
   },
   {
    "at": [
+    17.5609,
+    1.3145,
+    10.9347
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     34.29,
     0.3048,
     12.8397
@@ -81607,6 +82839,18 @@
    "scale": 1.0,
    "stand_in": "bench",
    "yaw": 270.0
+  },
+  {
+   "at": [
+    17.5831,
+    1.3145,
+    8.8582
+   ],
+   "model": "models/props_c17/cashregister01a.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "cardboard_box",
+   "yaw": 90.0
   },
   {
    "at": [

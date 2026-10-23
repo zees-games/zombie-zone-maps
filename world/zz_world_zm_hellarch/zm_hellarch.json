@@ -10687,7 +10687,7 @@
    },
    {
     "author": "Kenney",
-    "count": 23,
+    "count": 24,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Nature Kit",
@@ -10995,7 +10995,7 @@
    {
     "count": 1,
     "model": "models/props_junk/food_pile01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 1,
@@ -12321,6 +12321,18 @@
    "scale": 1.0,
    "stand_in": "bookcase",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    -37.3571,
+    1.2573,
+    -27.0891
+   ],
+   "model": "models/props_junk/food_pile01.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "rock",
+   "yaw": 246.5
   },
   {
    "at": [
