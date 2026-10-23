@@ -9,15 +9,15 @@
    "default": 284
   },
   "free_by_tier": {
-   "default": 17
+   "default": 18
   },
   "nearest_photo": []
  },
  "models": {
   "looked_up": 267,
   "by_tier": {
-   "default": 150,
-   "fallback": 117
+   "default": 154,
+   "fallback": 113
   }
  },
  "sounds": {
@@ -226,7 +226,6 @@
    "props_combine/combine_lock01.mdl",
    "props_combine/combineinnerwallcluster1024_001a.mdl",
    "props_combine/combinewallcrushed.mdl",
-   "props_interiors/refrigerator01a.mdl",
    "props_junk/bicycle01a.mdl",
    "props_junk/ibeam01a.mdl",
    "props_junk/popcan01a.mdl",
@@ -238,7 +237,6 @@
    "props_lab/eyescanner.mdl",
    "props_lab/harddrive01.mdl",
    "props_lab/hev_case.mdl",
-   "props_lab/lab_flourescentlight002b.mdl",
    "props_lab/partsbin01.mdl",
    "props_lab/pipesystem01b.mdl",
    "props_lab/reciever_cart.mdl",
@@ -285,8 +283,6 @@
    "props_trainstation/trainstation_post001.mdl",
    "props_trainstation/traintrack001c.mdl",
    "props_vents/vent_large_grill001.mdl",
-   "props_wasteland/coolingtank01.mdl",
-   "props_wasteland/horizontalcoolingtank04.mdl",
    "props_wasteland/laundry_dryer001.mdl",
    "props_wasteland/pipecluster003a_small.mdl",
    "props_wasteland/prison_conduit001a.mdl",
@@ -390,7 +386,7 @@
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 117,
+  "models_unmapped": 113,
   "sounds_unmapped": 3,
   "classes_unmapped": 0,
   "keys_unmapped": 83,

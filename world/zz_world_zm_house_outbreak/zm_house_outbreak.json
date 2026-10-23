@@ -14615,7 +14615,7 @@
    },
    {
     "author": "Kenney",
-    "count": 4,
+    "count": 5,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -14802,7 +14802,7 @@
    {
     "count": 1,
     "model": "models/props/cs_militia/refrigerator01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "fridge"
    },
    {
     "count": 1,
@@ -15179,25 +15179,23 @@
      0.375,
      0.25
     ],
-    "file": "surfaces/concrete_clean",
+    "file": "surfaces/stone_block",
     "generic": "stone_wall",
     "how": "table",
-    "key": "concrete_clean:stone_wall",
-    "kind": "concrete_clean",
+    "key": "stone_block:stone_wall",
+    "kind": "stone_block",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
      "cs_havana/stonefloor007a",
      "cs_italy/stonewall02",
-     "de_dust/rockwall01",
      "de_dust/tilefloor02",
      "de_tides/tides_grass_a",
-     "nature/cliffface001a",
      "stone/stonefloor011a",
      "stone/stonewall033a"
     ],
-    "surfaces": 32,
-    "url": "https://ambientcg.com/view?id=Concrete034"
+    "surfaces": 29,
+    "url": "https://ambientcg.com/view?id=Bricks076A"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -15214,6 +15212,8 @@
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
+     "cs_assault/assault_metalcrate001a",
+     "cs_assault/assault_metalcrate001b_red",
      "cs_havana/mtla",
      "de_train/blendgrassdirt001a",
      "dev/dev_corrugatedmetal",
@@ -15231,7 +15231,7 @@
      "models/props_c17/furnituremattress002a",
      "props/metalstainless01"
     ],
-    "surfaces": 39,
+    "surfaces": 42,
     "url": "https://ambientcg.com/view?id=Metal063"
    },
    {
@@ -15241,11 +15241,11 @@
      0.75,
      0.75
     ],
-    "file": "surfaces/plaster",
+    "file": "surfaces/plaster_worn",
     "generic": "plaster_worn",
     "how": "table",
-    "key": "plaster:plaster_worn",
-    "kind": "plaster",
+    "key": "plaster_worn:plaster_worn",
+    "kind": "plaster_worn",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
@@ -15260,7 +15260,7 @@
      "plaster/plasterwall042a"
     ],
     "surfaces": 26,
-    "url": "https://ambientcg.com/view?id=PaintedPlaster017"
+    "url": "https://ambientcg.com/view?id=Plaster003"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -15281,6 +15281,27 @@
     ],
     "surfaces": 7,
     "url": "https://ambientcg.com/view?id=Tiles138"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.375,
+     0.25,
+     0.25
+    ],
+    "file": "surfaces/rock",
+    "generic": "rock",
+    "how": "table",
+    "key": "rock:rock",
+    "kind": "rock",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "de_dust/rockwall01",
+     "nature/cliffface001a"
+    ],
+    "surfaces": 3,
+    "url": "https://ambientcg.com/view?id=Rock023"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -15440,8 +15461,6 @@
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
-     "cs_assault/assault_metalcrate001a",
-     "cs_assault/assault_metalcrate001b_red",
      "cs_assault/concretefloor026a",
      "cs_assault/pavement001",
      "cs_assault/pavement001a",
@@ -15449,7 +15468,7 @@
      "cs_italy/marketwall06",
      "plaster/infintwllc"
     ],
-    "surfaces": 30,
+    "surfaces": 27,
     "url": "https://ambientcg.com/view?id=PaintedPlaster017"
    },
    {
@@ -15999,6 +16018,7 @@
   "139 glass surfaces (kinds glass)",
   "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): DE_CHATEAU/BUSH01A 188, MODELS/PROPS_COMBINE/CITADEL_CABLE_B 3"
  ],
+ "pickups": [],
  "props": [
   {
    "at": [
@@ -16439,6 +16459,17 @@
    "scale": 1.0,
    "stand_in": "tv",
    "yaw": 220.0
+  },
+  {
+   "at": [
+    9.4298,
+    0.0191,
+    0.0762
+   ],
+   "model": "models/props/cs_militia/refrigerator01.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 90.0
   },
   {
    "at": [
@@ -18733,7 +18764,7 @@
     0.2011
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 33,
    "index_offset": 416,
@@ -18787,7 +18818,7 @@
     0.7173
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 27,
    "index_offset": 1116,
@@ -18843,8 +18874,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 384,
    "index_offset": 4316,
    "material": "de_dust/rockwall01",
@@ -18897,7 +18928,7 @@
     0.2011
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 87,
    "index_offset": 7188,
@@ -18978,7 +19009,7 @@
     0.7173
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 30,
    "index_offset": 8692,
@@ -19142,8 +19173,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 1920,
    "index_offset": 27872,
    "material": "de_dust/rockwall01",
@@ -19609,7 +19640,7 @@
     0.4147
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 78,
    "index_offset": 48752,
@@ -19663,7 +19694,7 @@
     0.6442
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 39,
    "index_offset": 50280,
@@ -19690,7 +19721,7 @@
     0.2591
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 228,
    "index_offset": 53508,
@@ -19879,7 +19910,7 @@
     0.2011
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 270,
    "index_offset": 59968,
@@ -20292,7 +20323,7 @@
     0.5245
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 96,
    "index_offset": 79472,
@@ -20319,7 +20350,7 @@
     0.6747
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 135,
    "index_offset": 81936,
@@ -20346,7 +20377,7 @@
     0.7173
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 267,
    "index_offset": 86156,
@@ -20373,7 +20404,7 @@
     0.5202
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 120,
    "index_offset": 89272,
@@ -20427,7 +20458,7 @@
     0.672
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 396,
    "index_offset": 102872,
@@ -20755,7 +20786,7 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 1920,
    "index_offset": 403068,
@@ -21254,7 +21285,7 @@
     0.3671
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 183,
    "index_offset": 429420,
@@ -21308,7 +21339,7 @@
     0.4147
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 18,
    "index_offset": 433004,
@@ -21362,7 +21393,7 @@
     0.6442
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 69,
    "index_offset": 434252,
@@ -21389,7 +21420,7 @@
     0.2591
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 171,
    "index_offset": 436768,
@@ -21470,7 +21501,7 @@
     0.2011
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 513,
    "index_offset": 445268,
@@ -21713,7 +21744,7 @@
     0.681
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 150,
    "index_offset": 453924,
@@ -21826,7 +21857,7 @@
     0.5245
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 198,
    "index_offset": 462804,
@@ -21853,7 +21884,7 @@
     0.6747
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 72,
    "index_offset": 464556,
@@ -21880,7 +21911,7 @@
     0.7173
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 135,
    "index_offset": 466828,
@@ -21907,7 +21938,7 @@
     0.5202
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 87,
    "index_offset": 468808,
@@ -22069,7 +22100,7 @@
     0.672
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 477,
    "index_offset": 492308,
@@ -22748,7 +22779,7 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 1920,
    "index_offset": 746176,
@@ -22971,7 +23002,7 @@
     0.6442
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 219,
    "index_offset": 887884,
@@ -22998,7 +23029,7 @@
     0.2591
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 330,
    "index_offset": 893176,
@@ -23246,7 +23277,7 @@
     0.4264
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 87,
    "index_offset": 899672,
@@ -23273,7 +23304,7 @@
     0.4264
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 21,
    "index_offset": 900308,
@@ -23300,7 +23331,7 @@
     0.4264
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 30,
    "index_offset": 900776,
@@ -23955,7 +23986,7 @@
     0.6747
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 570,
    "index_offset": 975760,
@@ -23982,7 +24013,7 @@
     0.4723
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 72,
    "index_offset": 979128,
@@ -24009,7 +24040,7 @@
     0.5202
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 141,
    "index_offset": 981752,
@@ -24090,7 +24121,7 @@
     0.672
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 648,
    "index_offset": 998208,
@@ -24605,7 +24636,7 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 4608,
    "index_offset": 1063064,
@@ -25096,7 +25127,7 @@
     0.6442
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 252,
    "index_offset": 1210072,
@@ -25123,7 +25154,7 @@
     0.2591
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 432,
    "index_offset": 1216296,
@@ -25317,7 +25348,7 @@
     0.4264
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 18,
    "index_offset": 1221588,
@@ -25344,7 +25375,7 @@
     0.4264
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 18,
    "index_offset": 1221916,
@@ -25668,7 +25699,7 @@
     0.681
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 195,
    "index_offset": 1239140,
@@ -25754,7 +25785,7 @@
     0.6747
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 294,
    "index_offset": 1248568,
@@ -25781,7 +25812,7 @@
     0.328
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 123,
    "index_offset": 1251632,
@@ -25808,7 +25839,7 @@
     0.5202
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 246,
    "index_offset": 1255516,
@@ -25862,7 +25893,7 @@
     0.3779
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 9,
    "index_offset": 1263440,
@@ -25889,7 +25920,7 @@
     0.672
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 804,
    "index_offset": 1273908,
@@ -26541,7 +26572,7 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 4608,
    "index_offset": 1385488,
@@ -26597,8 +26628,8 @@
     0.4071
    ],
    "entity": null,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 309,
    "index_offset": 1658192,
    "material": "cs_assault/assault_metalcrate001a",
@@ -26608,11 +26639,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 1656784,
    "vertex_count": 176
@@ -26766,7 +26792,7 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 384,
    "index_offset": 1668176,
@@ -26849,8 +26875,8 @@
     0.4071
    ],
    "entity": null,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 300,
    "index_offset": 1686124,
    "material": "cs_assault/assault_metalcrate001a",
@@ -26860,11 +26886,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 1684796,
    "vertex_count": 166
@@ -26881,8 +26902,8 @@
     0.2544
    ],
    "entity": null,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 420,
    "index_offset": 1694556,
    "material": "cs_assault/assault_metalcrate001b_red",
@@ -26892,11 +26913,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 1692748,
    "vertex_count": 226
@@ -27104,7 +27120,7 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 384,
    "index_offset": 1712572,
@@ -27162,8 +27178,8 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "concrete_clean:stone_wall",
-   "generic": "stone_wall",
+   "free": "rock:rock",
+   "generic": "rock",
    "index_count": 384,
    "index_offset": 1733212,
    "material": "nature/cliffface001a",
@@ -31004,7 +31020,7 @@
     0.5245
    ],
    "entity": 48,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 6,
    "index_offset": 1925180,
@@ -31027,7 +31043,7 @@
     0.672
    ],
    "entity": 48,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 6,
    "index_offset": 1925332,
@@ -31073,7 +31089,7 @@
     0.5245
    ],
    "entity": 49,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 6,
    "index_offset": 1925636,
@@ -31096,7 +31112,7 @@
     0.672
    ],
    "entity": 49,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 6,
    "index_offset": 1925788,
@@ -31602,7 +31618,7 @@
     0.672
    ],
    "entity": 69,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 6,
    "index_offset": 1943572,
@@ -31671,7 +31687,7 @@
     0.672
    ],
    "entity": 70,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 6,
    "index_offset": 1944028,

@@ -10933,7 +10933,6 @@
      "buildings/gen07",
      "buildings/gen21",
      "cs_assault/assault_door_decal01",
-     "cs_assault/assault_metalcrate001a",
      "plaster/offwllb",
      "plaster/offwllc",
      "plaster/offwlld",
@@ -10942,7 +10941,7 @@
      "plaster/offwllh",
      "plaster/offwndwa"
     ],
-    "surfaces": 115,
+    "surfaces": 114,
     "url": "https://ambientcg.com/view?id=PaintedPlaster017"
    },
    {
@@ -10995,11 +10994,11 @@
      0.25,
      0.25
     ],
-    "file": "surfaces/concrete_clean",
+    "file": "surfaces/stone_block",
     "generic": "stone_wall",
     "how": "table",
-    "key": "concrete_clean:stone_wall",
-    "kind": "concrete_clean",
+    "key": "stone_block:stone_wall",
+    "kind": "stone_block",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
@@ -11007,7 +11006,7 @@
      "de_piranesi/pi_steptop1"
     ],
     "surfaces": 6,
-    "url": "https://ambientcg.com/view?id=Concrete034"
+    "url": "https://ambientcg.com/view?id=Bricks076A"
    },
    {
     "author": "TMC (generated)",
@@ -11036,21 +11035,18 @@
      0.75,
      0.75
     ],
-    "file": "surfaces/concrete_clean",
-    "generic": "ceiling",
+    "file": "surfaces/ceiling_tile",
+    "generic": "ceiling_tile",
     "how": "table",
-    "key": "concrete_clean:ceiling",
-    "kind": "concrete_clean",
+    "key": "ceiling_tile:ceiling_tile",
+    "kind": "ceiling_tile",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
-     "concrete/concreteceiling001a",
-     "concrete/concreteceiling004a",
-     "cs_havana/ceiling01",
      "tile/ceilingtilea"
     ],
-    "surfaces": 13,
-    "url": "https://ambientcg.com/view?id=Concrete034"
+    "surfaces": 7,
+    "url": "https://ambientcg.com/view?id=OfficeCeiling005"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -11154,6 +11150,7 @@
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
+     "cs_assault/assault_metalcrate001a",
      "cs_havana/metalwall085a",
      "de_nuke/nuke_metalfloor_01",
      "de_train/train_metalceiling_01",
@@ -11171,7 +11168,7 @@
      "metal/prodcaution",
      "vehicle/metaltrain001d"
     ],
-    "surfaces": 45,
+    "surfaces": 46,
     "url": "https://ambientcg.com/view?id=Metal063"
    },
    {
@@ -11194,6 +11191,28 @@
     ],
     "surfaces": 8,
     "url": "https://ambientcg.com/view?id=Carpet001"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.75,
+     0.75,
+     0.75
+    ],
+    "file": "surfaces/concrete_clean",
+    "generic": "ceiling",
+    "how": "table",
+    "key": "concrete_clean:ceiling",
+    "kind": "concrete_clean",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "concrete/concreteceiling001a",
+     "concrete/concreteceiling004a",
+     "cs_havana/ceiling01"
+    ],
+    "surfaces": 6,
+    "url": "https://ambientcg.com/view?id=Concrete034"
    },
    {
     "author": "TMC (generated)",
@@ -13541,6 +13560,7 @@
   "17 glass surfaces (kinds glass)",
   "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): DE_TRAIN/TRAIN_METALGRATE_01 7, CS_ASSAULT/ASSAULT_DOOR_DECAL01 2"
  ],
+ "pickups": [],
  "props": [
   {
    "at": [
@@ -17581,7 +17601,7 @@
     0.2591
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 300,
    "index_offset": 35752,
@@ -17910,8 +17930,8 @@
     0.7382
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 36,
    "index_offset": 61752,
    "material": "tile/ceilingtilea",
@@ -18482,7 +18502,7 @@
     0.2591
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 288,
    "index_offset": 85472,
@@ -18778,7 +18798,7 @@
     0.479
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 12,
    "index_offset": 116780,
@@ -19697,8 +19717,8 @@
     0.7382
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 555,
    "index_offset": 182272,
    "material": "tile/ceilingtilea",
@@ -21066,8 +21086,8 @@
     0.7382
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 330,
    "index_offset": 250024,
    "material": "tile/ceilingtilea",
@@ -21658,8 +21678,8 @@
     0.7382
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 6,
    "index_offset": 269676,
    "material": "tile/ceilingtilea",
@@ -22056,7 +22076,7 @@
     0.2591
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 132,
    "index_offset": 293068,
@@ -22164,7 +22184,7 @@
     0.479
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 669,
    "index_offset": 331476,
@@ -23015,8 +23035,8 @@
     0.7382
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 342,
    "index_offset": 461752,
    "material": "tile/ceilingtilea",
@@ -23506,7 +23526,7 @@
     0.2591
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 108,
    "index_offset": 492404,
@@ -24288,8 +24308,8 @@
     0.7382
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 294,
    "index_offset": 601972,
    "material": "tile/ceilingtilea",
@@ -24691,8 +24711,8 @@
     0.7382
    ],
    "entity": null,
-   "free": "concrete_clean:ceiling",
-   "generic": "ceiling",
+   "free": "ceiling_tile:ceiling_tile",
+   "generic": "ceiling_tile",
    "index_count": 27,
    "index_offset": 631332,
    "material": "tile/ceilingtilea",
@@ -25251,8 +25271,8 @@
     0.4071
    ],
    "entity": 260,
-   "free": "plaster:plaster_painted",
-   "generic": "plaster_painted",
+   "free": "metal:metal",
+   "generic": "metal",
    "index_count": 24,
    "index_offset": 676716,
    "material": "cs_assault/assault_metalcrate001a",
@@ -25263,11 +25283,6 @@
    "texels": [
     512,
     512
-   ],
-   "tint": [
-    0.85,
-    0.85,
-    0.88
    ],
    "uv_offset": 676588,
    "vertex_count": 16

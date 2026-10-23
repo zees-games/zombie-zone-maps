@@ -28597,7 +28597,7 @@
    },
    {
     "author": "Kenney",
-    "count": 28,
+    "count": 30,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -28660,7 +28660,7 @@
    },
    {
     "author": "Kenney",
-    "count": 43,
+    "count": 49,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -28711,6 +28711,15 @@
     "source": "Kenney Nature Kit",
     "stand_in": "fence",
     "url": "https://kenney.nl/assets/nature-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "fridge",
+    "url": "https://kenney.nl/assets/furniture-kit"
    },
    {
     "author": "Kenney",
@@ -29404,7 +29413,7 @@
    {
     "count": 1,
     "model": "models/props_interiors/refrigerator01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "fridge"
    },
    {
     "count": 1,
@@ -29639,7 +29648,7 @@
    {
     "count": 6,
     "model": "models/props_lab/lab_flourescentlight002b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "ceiling_light"
    },
    {
     "count": 4,
@@ -30084,12 +30093,12 @@
    {
     "count": 1,
     "model": "models/props_wasteland/coolingtank01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "barrel"
    },
    {
     "count": 1,
     "model": "models/props_wasteland/horizontalcoolingtank04.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "barrel"
    },
    {
     "count": 25,
@@ -30570,11 +30579,11 @@
      0.625,
      0.5
     ],
-    "file": "surfaces/plaster",
+    "file": "surfaces/plaster_worn",
     "generic": "plaster_worn",
     "how": "table",
-    "key": "plaster:plaster_worn",
-    "kind": "plaster",
+    "key": "plaster_worn:plaster_worn",
+    "kind": "plaster_worn",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
@@ -30592,7 +30601,7 @@
      "plaster/plasterwall039d"
     ],
     "surfaces": 37,
-    "url": "https://ambientcg.com/view?id=PaintedPlaster017"
+    "url": "https://ambientcg.com/view?id=Plaster003"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -30601,11 +30610,11 @@
      0.625,
      0.5
     ],
-    "file": "surfaces/concrete_clean",
+    "file": "surfaces/stone_block",
     "generic": "stone_wall",
     "how": "table",
-    "key": "concrete_clean:stone_wall",
-    "kind": "concrete_clean",
+    "key": "stone_block:stone_wall",
+    "kind": "stone_block",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
@@ -30623,7 +30632,7 @@
      "stone/stonewall050j"
     ],
     "surfaces": 37,
-    "url": "https://ambientcg.com/view?id=Concrete034"
+    "url": "https://ambientcg.com/view?id=Bricks076A"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -30632,22 +30641,20 @@
      0.25,
      0.25
     ],
-    "file": "surfaces/tile_dark",
-    "generic": "roof_tiles",
+    "file": "surfaces/roof_clay",
+    "generic": "roof_clay",
     "how": "table",
-    "key": "tile_dark:roof_tiles",
-    "kind": "tile_dark",
+    "key": "roof_clay:roof_clay",
+    "kind": "roof_clay",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
-     "building_template/roof_template001b",
-     "props/rubberroof002a",
      "tile/tileroof002a",
      "tile/tileroof003a",
      "tile/tileroof003b"
     ],
-    "surfaces": 20,
-    "url": "https://ambientcg.com/view?id=Tiles138"
+    "surfaces": 14,
+    "url": "https://ambientcg.com/view?id=RoofingTiles014A"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -30671,6 +30678,27 @@
     ],
     "surfaces": 14,
     "url": "https://ambientcg.com/view?id=Concrete034"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.25,
+     0.25,
+     0.25
+    ],
+    "file": "surfaces/tile_dark",
+    "generic": "roof_tiles",
+    "how": "table",
+    "key": "tile_dark:roof_tiles",
+    "kind": "tile_dark",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "building_template/roof_template001b",
+     "props/rubberroof002a"
+    ],
+    "surfaces": 6,
+    "url": "https://ambientcg.com/view?id=Tiles138"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -34682,6 +34710,414 @@
  "notes": [
   "16 glass surfaces (kinds glass)",
   "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): METAL/METALFENCE001A 31, EFFECTS/FAKE_FOG01 2, EFFECTS/FAKE_FOG02 1, EFFECTS/BUILDING_CARD01 1"
+ ],
+ "pickups": [
+  {
+   "angle": 256.0,
+   "classname": "item_ammo_smg1",
+   "origin": [
+    -4.7006,
+    5.1816,
+    -35.0177
+   ],
+   "props": {}
+  },
+  {
+   "angle": 76.0,
+   "classname": "item_ammo_pistol",
+   "origin": [
+    -4.3706,
+    5.2248,
+    -34.9564
+   ],
+   "props": {}
+  },
+  {
+   "angle": -14.0,
+   "classname": "item_healthkit",
+   "origin": [
+    -3.961,
+    5.1054,
+    -34.8346
+   ],
+   "props": {}
+  },
+  {
+   "angle": 256.5,
+   "classname": "item_healthvial",
+   "origin": [
+    -3.7446,
+    5.1166,
+    -35.4675
+   ],
+   "props": {
+    "targetname": "healthvial9"
+   }
+  },
+  {
+   "angle": 252.5,
+   "classname": "item_ammo_pistol",
+   "origin": [
+    30.7086,
+    7.4676,
+    -36.2081
+   ],
+   "props": {
+    "targetname": "ammo1_set1"
+   }
+  },
+  {
+   "angle": 172.5,
+   "classname": "item_ammo_pistol",
+   "origin": [
+    3.6576,
+    2.2539,
+    33.7566
+   ],
+   "props": {
+    "targetname": "ammo2_set1"
+   }
+  },
+  {
+   "angle": 0.0,
+   "classname": "item_ammo_pistol",
+   "origin": [
+    18.2309,
+    6.2519,
+    19.2596
+   ],
+   "props": {
+    "targetname": "ammo3_set1"
+   }
+  },
+  {
+   "angle": 0.0,
+   "classname": "item_ammo_pistol",
+   "origin": [
+    4.8959,
+    5.1798,
+    37.8524
+   ],
+   "props": {
+    "targetname": "ammo4_set1"
+   }
+  },
+  {
+   "angle": -15.5,
+   "classname": "item_ammo_pistol",
+   "origin": [
+    18.2118,
+    6.5532,
+    19.2786
+   ],
+   "props": {
+    "targetname": "ammo1_set2"
+   }
+  },
+  {
+   "angle": -15.5,
+   "classname": "item_ammo_pistol",
+   "origin": [
+    4.8768,
+    5.9627,
+    37.8714
+   ],
+   "props": {
+    "targetname": "ammo2_set2"
+   }
+  },
+  {
+   "angle": -15.5,
+   "classname": "item_ammo_pistol",
+   "origin": [
+    3.6576,
+    2.901,
+    33.7947
+   ],
+   "props": {
+    "targetname": "ammo3_set2"
+   }
+  },
+  {
+   "angle": -83.5,
+   "classname": "item_ammo_pistol",
+   "origin": [
+    30.6705,
+    8.3787,
+    -36.195
+   ],
+   "props": {
+    "targetname": "ammo4_set2"
+   }
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_healthvial",
+   "origin": [
+    30.7086,
+    8.3584,
+    -35.7378
+   ],
+   "props": {
+    "targetname": "set_1_healthvial_1"
+   }
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_healthvial",
+   "origin": [
+    17.7546,
+    5.5983,
+    19.2786
+   ],
+   "props": {
+    "targetname": "set_1_healthvial_2"
+   }
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_healthvial",
+   "origin": [
+    4.8768,
+    5.4864,
+    37.8714
+   ],
+   "props": {
+    "targetname": "set_1_healthvial_3"
+   }
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_healthvial",
+   "origin": [
+    3.2004,
+    2.3986,
+    33.7566
+   ],
+   "props": {
+    "targetname": "set_1_healthvial_4"
+   }
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_healthvial",
+   "origin": [
+    17.7546,
+    6.2731,
+    19.2786
+   ],
+   "props": {
+    "targetname": "set_2_healthvial_4"
+   }
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_healthvial",
+   "origin": [
+    5.334,
+    5.4135,
+    37.8714
+   ],
+   "props": {
+    "targetname": "set_2_healthvial_3"
+   }
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_healthvial",
+   "origin": [
+    3.6576,
+    2.5146,
+    33.7566
+   ],
+   "props": {
+    "targetname": "set_2_healthvial_2"
+   }
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_healthvial",
+   "origin": [
+    30.6324,
+    7.9218,
+    -35.7378
+   ],
+   "props": {
+    "targetname": "set_2_healthvial_1"
+   }
+  },
+  {
+   "angle": 0.0,
+   "classname": "item_healthkit",
+   "origin": [
+    45.3781,
+    9.8206,
+    26.0726
+   ],
+   "props": {}
+  },
+  {
+   "angle": 111.251,
+   "classname": "item_ammo_pistol",
+   "origin": [
+    44.9548,
+    9.9014,
+    25.9667
+   ],
+   "props": {}
+  },
+  {
+   "angle": -12.919,
+   "classname": "item_ammo_smg1",
+   "origin": [
+    44.629,
+    9.9726,
+    26.0246
+   ],
+   "props": {}
+  },
+  {
+   "angle": 0.0,
+   "classname": "item_healthvial",
+   "origin": [
+    45.339,
+    9.4488,
+    25.9345
+   ],
+   "props": {
+    "targetname": "healthvial9"
+   }
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_battery",
+   "origin": [
+    -5.8467,
+    7.4919,
+    -34.9827
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_battery",
+   "origin": [
+    -17.6873,
+    0.1551,
+    -20.5207
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_swissarmyknife",
+   "origin": [
+    8.9154,
+    6.2084,
+    15.8496
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_swissarmyknife",
+   "origin": [
+    -26.9436,
+    5.6946,
+    15.6781
+   ],
+   "props": {}
+  },
+  {
+   "angle": 183.5,
+   "classname": "weapon_zs_wrench",
+   "origin": [
+    26.2128,
+    6.3246,
+    -7.1628
+   ],
+   "props": {}
+  },
+  {
+   "angle": 243.0,
+   "classname": "weapon_zs_medicgun",
+   "origin": [
+    18.1356,
+    5.5626,
+    13.4874
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_pipe",
+   "origin": [
+    27.5082,
+    6.477,
+    -7.1628
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_z9000",
+   "origin": [
+    12.1859,
+    6.0198,
+    16.383
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_hammer",
+   "origin": [
+    -6.611,
+    2.5908,
+    -18.79
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_hammer",
+   "origin": [
+    24.384,
+    7.3152,
+    -30.8635
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "item_battery",
+   "origin": [
+    2.5146,
+    4.5231,
+    -17.4498
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_battleaxe",
+   "origin": [
+    -28.3487,
+    4.8959,
+    12.6871
+   ],
+   "props": {}
+  },
+  {
+   "angle": -90.0,
+   "classname": "weapon_zs_battleaxe",
+   "origin": [
+    20.5068,
+    7.62,
+    11.7066
+   ],
+   "props": {}
+  }
  ],
  "props": [
   {
@@ -39735,6 +40171,17 @@
   },
   {
    "at": [
+    -6.858,
+    2.0484,
+    -8.6868
+   ],
+   "model": "models/props_wasteland/coolingtank01.mdl",
+   "scale": 1.0,
+   "stand_in": "barrel",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     18.7452,
     5.2091,
     8.5344
@@ -39996,6 +40443,17 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 90.0
+  },
+  {
+   "at": [
+    19.812,
+    1.2192,
+    0.6858
+   ],
+   "model": "models/props_wasteland/horizontalcoolingtank04.mdl",
+   "scale": 1.0,
+   "stand_in": "barrel",
+   "yaw": 269.9
   },
   {
    "at": [
@@ -40319,6 +40777,17 @@
   {
    "at": [
     32.004,
+    4.4196,
+    -5.8864
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    32.004,
     4.0924,
     9.3726
    ],
@@ -40326,6 +40795,39 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    30.3086,
+    4.4196,
+    1.4478
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    35.9093,
+    4.572,
+    -4.0386
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    35.9093,
+    4.572,
+    -13.6398
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -40411,6 +40913,28 @@
     -4.1148
    ],
    "model": "models/props_c17/light_domelight02_on.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    27.5082,
+    4.4196,
+    3.2576
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    21.8504,
+    4.4196,
+    7.0866
+   ],
+   "model": "models/props_lab/lab_flourescentlight002b.mdl",
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 0.0
@@ -40546,6 +41070,17 @@
    "scale": 1.0,
    "stand_in": "bin",
    "yaw": 180.0
+  },
+  {
+   "at": [
+    -3.8862,
+    6.4008,
+    40.3098
+   ],
+   "model": "models/props_interiors/refrigerator01a.mdl",
+   "scale": 1.0,
+   "stand_in": "fridge",
+   "yaw": 8.12
   },
   {
    "at": [
@@ -43261,7 +43796,7 @@
     0.5551
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 33,
    "index_offset": 28012,
@@ -43288,7 +43823,7 @@
     0.5038
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 165,
    "index_offset": 30512,
@@ -43315,7 +43850,7 @@
     0.4134
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 96,
    "index_offset": 32964,
@@ -43342,7 +43877,7 @@
     0.4804
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 48,
    "index_offset": 34116,
@@ -43369,7 +43904,7 @@
     0.5216
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 27,
    "index_offset": 34724,
@@ -43396,8 +43931,8 @@
     0.2097
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 36,
    "index_offset": 35408,
    "material": "tile/tileroof002a",
@@ -45057,7 +45592,7 @@
     0.5109
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 48,
    "index_offset": 112100,
@@ -45084,7 +45619,7 @@
     0.5038
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 612,
    "index_offset": 120260,
@@ -45111,7 +45646,7 @@
     0.651
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 240,
    "index_offset": 125140,
@@ -45138,7 +45673,7 @@
     0.3149
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 21,
    "index_offset": 126452,
@@ -45165,7 +45700,7 @@
     0.6651
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 24,
    "index_offset": 126856,
@@ -45192,7 +45727,7 @@
     0.3443
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 15,
    "index_offset": 127176,
@@ -45219,7 +45754,7 @@
     0.4134
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 72,
    "index_offset": 128708,
@@ -45327,7 +45862,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 18,
    "index_offset": 133440,
@@ -45354,7 +45889,7 @@
     0.4626
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 153,
    "index_offset": 135528,
@@ -45381,7 +45916,7 @@
     0.3826
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 165,
    "index_offset": 138412,
@@ -45408,8 +45943,8 @@
     0.2097
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 15,
    "index_offset": 139296,
    "material": "tile/tileroof002a",
@@ -47617,7 +48152,7 @@
     0.5109
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 171,
    "index_offset": 378864,
@@ -47644,7 +48179,7 @@
     0.5038
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 951,
    "index_offset": 392892,
@@ -47671,7 +48206,7 @@
     0.4134
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 42,
    "index_offset": 397528,
@@ -47698,7 +48233,7 @@
     0.5345
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 54,
    "index_offset": 398464,
@@ -47995,7 +48530,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 12,
    "index_offset": 410524,
@@ -48022,7 +48557,7 @@
     0.551
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 33,
    "index_offset": 410988,
@@ -48049,7 +48584,7 @@
     0.4626
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 165,
    "index_offset": 413552,
@@ -48076,7 +48611,7 @@
     0.3826
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 90,
    "index_offset": 415460,
@@ -49617,7 +50152,7 @@
     0.5109
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 105,
    "index_offset": 580788,
@@ -49644,7 +50179,7 @@
     0.5038
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 735,
    "index_offset": 592376,
@@ -49671,7 +50206,7 @@
     0.4134
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 51,
    "index_offset": 596116,
@@ -49698,7 +50233,7 @@
     0.5345
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 27,
    "index_offset": 596672,
@@ -50428,7 +50963,7 @@
     0.5109
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 108,
    "index_offset": 644944,
@@ -50455,7 +50990,7 @@
     0.4329
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 135,
    "index_offset": 647360,
@@ -50482,7 +51017,7 @@
     0.5038
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 522,
    "index_offset": 654876,
@@ -50509,7 +51044,7 @@
     0.4262
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 27,
    "index_offset": 657444,
@@ -50536,7 +51071,7 @@
     0.4254
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 66,
    "index_offset": 658448,
@@ -50590,7 +51125,7 @@
     0.4626
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 12,
    "index_offset": 659844,
@@ -50617,7 +51152,7 @@
     0.3826
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 6,
    "index_offset": 660020,
@@ -50671,8 +51206,8 @@
     0.276
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 6,
    "index_offset": 660688,
    "material": "tile/tileroof003a",
@@ -50698,8 +51233,8 @@
     0.276
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 6,
    "index_offset": 660840,
    "material": "tile/tileroof003a",
@@ -53769,7 +54304,7 @@
     0.5109
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 96,
    "index_offset": 879564,
@@ -53796,7 +54331,7 @@
     0.4329
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 69,
    "index_offset": 881004,
@@ -53823,7 +54358,7 @@
     0.5038
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 117,
    "index_offset": 883040,
@@ -53850,7 +54385,7 @@
     0.4262
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 6,
    "index_offset": 883636,
@@ -53877,7 +54412,7 @@
     0.4254
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 48,
    "index_offset": 884364,
@@ -54201,7 +54736,7 @@
     0.4626
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 198,
    "index_offset": 898516,
@@ -54228,7 +54763,7 @@
     0.4224
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 918,
    "index_offset": 913196,
@@ -54255,7 +54790,7 @@
     0.3826
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 57,
    "index_offset": 917604,
@@ -54282,7 +54817,7 @@
     0.3139
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 594,
    "index_offset": 928392,
@@ -54363,8 +54898,8 @@
     0.276
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 12,
    "index_offset": 931528,
    "material": "tile/tileroof003a",
@@ -54390,8 +54925,8 @@
     0.2337
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 57,
    "index_offset": 932376,
    "material": "tile/tileroof003b",
@@ -54417,8 +54952,8 @@
     0.2337
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 6,
    "index_offset": 932732,
    "material": "tile/tileroof003b",
@@ -54444,8 +54979,8 @@
     0.2337
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 6,
    "index_offset": 932884,
    "material": "tile/tileroof003b",
@@ -54471,8 +55006,8 @@
     0.2337
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 6,
    "index_offset": 933036,
    "material": "tile/tileroof003b",
@@ -54498,8 +55033,8 @@
     0.2337
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 6,
    "index_offset": 933188,
    "material": "tile/tileroof003b",
@@ -54525,8 +55060,8 @@
     0.2337
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 15,
    "index_offset": 933436,
    "material": "tile/tileroof003b",
@@ -58134,7 +58669,7 @@
     0.5109
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 48,
    "index_offset": 1186392,
@@ -58161,7 +58696,7 @@
     0.5038
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 75,
    "index_offset": 1187832,
@@ -58188,7 +58723,7 @@
     0.5345
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 75,
    "index_offset": 1189124,
@@ -58593,7 +59128,7 @@
     0.4626
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 75,
    "index_offset": 1222480,
@@ -58620,7 +59155,7 @@
     0.4224
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 228,
    "index_offset": 1226812,
@@ -58647,7 +59182,7 @@
     0.3139
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 558,
    "index_offset": 1237900,
@@ -59493,7 +60028,7 @@
     0.5109
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 144,
    "index_offset": 1286528,
@@ -59520,7 +60055,7 @@
     0.5038
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 396,
    "index_offset": 1293056,
@@ -59547,7 +60082,7 @@
     0.4134
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 84,
    "index_offset": 1296176,
@@ -59574,7 +60109,7 @@
     0.5345
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 93,
    "index_offset": 1297760,
@@ -60352,7 +60887,7 @@
     0.348
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 9,
    "index_offset": 1326728,
@@ -60379,7 +60914,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 24,
    "index_offset": 1327148,
@@ -60406,7 +60941,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 18,
    "index_offset": 1327628,
@@ -60433,7 +60968,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 12,
    "index_offset": 1327956,
@@ -60460,7 +60995,7 @@
     0.3455
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 39,
    "index_offset": 1328452,
@@ -60487,7 +61022,7 @@
     0.3455
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 42,
    "index_offset": 1329376,
@@ -60514,7 +61049,7 @@
     0.3455
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 12,
    "index_offset": 1329736,
@@ -60541,7 +61076,7 @@
     0.3455
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 6,
    "index_offset": 1329912,
@@ -60568,7 +61103,7 @@
     0.3475
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 21,
    "index_offset": 1330224,
@@ -60595,7 +61130,7 @@
     0.3475
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 6,
    "index_offset": 1330436,
@@ -60622,7 +61157,7 @@
     0.3475
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 12,
    "index_offset": 1330716,
@@ -60649,7 +61184,7 @@
     0.4224
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 9,
    "index_offset": 1330924,
@@ -60676,8 +61211,8 @@
     0.2097
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 6,
    "index_offset": 1331088,
    "material": "tile/tileroof002a",
@@ -62215,7 +62750,7 @@
     0.348
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 30,
    "index_offset": 1386100,
@@ -62242,7 +62777,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 24,
    "index_offset": 1386540,
@@ -62269,7 +62804,7 @@
     0.3475
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 24,
    "index_offset": 1386956,
@@ -62296,7 +62831,7 @@
     0.4224
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 48,
    "index_offset": 1387820,
@@ -62350,8 +62885,8 @@
     0.2097
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 6,
    "index_offset": 1388292,
    "material": "tile/tileroof002a",
@@ -62377,8 +62912,8 @@
     0.2097
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 24,
    "index_offset": 1388700,
    "material": "tile/tileroof002a",
@@ -63130,7 +63665,7 @@
     0.5038
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 123,
    "index_offset": 1443092,
@@ -63184,7 +63719,7 @@
     0.348
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 30,
    "index_offset": 1444576,
@@ -63211,7 +63746,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 24,
    "index_offset": 1445016,
@@ -63238,7 +63773,7 @@
     0.3475
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 24,
    "index_offset": 1445432,
@@ -63545,7 +64080,7 @@
     0.5038
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 12,
    "index_offset": 1472244,

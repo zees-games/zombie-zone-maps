@@ -91,6 +91,7 @@ GAME_MATERIAL = {
     "wood_planks": "wood", "door_wood": "wood", "plaster_painted": "paint", "wallpaper": "paint",
     "plaster_worn": "plaster", "stone_wall": "stone", "roof_tiles": "roof", "tile_floor": "tile",
     "brick_red": "brick", "mud": "dirt", "snow": "concrete", "flat": "concrete",
+    "rock": "stone", "stone_block": "stone", "roof_clay": "roof", "ceiling_tile": "ceiling",
 }
 
 # Where this game had a more specific surface than the list's id, and keeps it: a road and a pavement are not

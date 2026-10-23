@@ -10,7 +10,7 @@
    "fallback": 1
   },
   "free_by_tier": {
-   "default": 21,
+   "default": 22,
    "fallback": 1
   },
   "nearest_photo": [
@@ -20,8 +20,8 @@
  "models": {
   "looked_up": 80,
   "by_tier": {
-   "default": 63,
-   "fallback": 17
+   "default": 64,
+   "fallback": 16
   }
  },
  "sounds": {
@@ -152,7 +152,6 @@
    "props/cs_assault/firehydrant.mdl",
    "props/cs_militia/dryer.mdl",
    "props/cs_militia/oldphone01.mdl",
-   "props/cs_militia/refrigerator01.mdl",
    "props/cs_militia/van.mdl",
    "props/cs_militia/van_glass.mdl",
    "props/cs_office/microwave.mdl",
@@ -256,7 +255,7 @@
  "counts": {
   "textures_unmapped": 1,
   "textures_flat": 0,
-  "models_unmapped": 17,
+  "models_unmapped": 16,
   "sounds_unmapped": 5,
   "classes_unmapped": 0,
   "keys_unmapped": 72,

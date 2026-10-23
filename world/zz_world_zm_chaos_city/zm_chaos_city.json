@@ -19049,15 +19049,12 @@
     "source": "ambientCG",
     "sources": [
      "building_template/roof_template001a",
-     "cs_italy/tileroof01",
-     "de_chateau/roofa",
      "models/props/cs_militia/roofends",
      "tile/infroofb",
-     "tile/tileroof003b",
      "wood/milroof001",
      "wood/woodshingles002a"
     ],
-    "surfaces": 29,
+    "surfaces": 6,
     "url": "https://ambientcg.com/view?id=Tiles138"
    },
    {
@@ -19067,11 +19064,11 @@
      0.625,
      0.5
     ],
-    "file": "surfaces/concrete_clean",
+    "file": "surfaces/stone_block",
     "generic": "stone_wall",
     "how": "table",
-    "key": "concrete_clean:stone_wall",
-    "kind": "concrete_clean",
+    "key": "stone_block:stone_wall",
+    "kind": "stone_block",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
@@ -19094,7 +19091,29 @@
      "stone/stonewall021h"
     ],
     "surfaces": 73,
-    "url": "https://ambientcg.com/view?id=Concrete034"
+    "url": "https://ambientcg.com/view?id=Bricks076A"
+   },
+   {
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.25,
+     0.25,
+     0.25
+    ],
+    "file": "surfaces/roof_clay",
+    "generic": "roof_clay",
+    "how": "table",
+    "key": "roof_clay:roof_clay",
+    "kind": "roof_clay",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "cs_italy/tileroof01",
+     "de_chateau/roofa",
+     "tile/tileroof003b"
+    ],
+    "surfaces": 23,
+    "url": "https://ambientcg.com/view?id=RoofingTiles014A"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -19248,18 +19267,18 @@
      0.5,
      0.5
     ],
-    "file": "surfaces/plaster",
+    "file": "surfaces/plaster_worn",
     "generic": "plaster_worn",
     "how": "table",
-    "key": "plaster:plaster_worn",
-    "kind": "plaster",
+    "key": "plaster_worn:plaster_worn",
+    "kind": "plaster_worn",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
      "cs_italy/cellarwall01b"
     ],
     "surfaces": 2,
-    "url": "https://ambientcg.com/view?id=PaintedPlaster017"
+    "url": "https://ambientcg.com/view?id=Plaster003"
    },
    {
     "author": "TMC (generated)",
@@ -20038,6 +20057,7 @@
    "classname": "func_rotating",
    "degrees_per_second": 1000.0,
    "entity": 185,
+   "fan_friction": 50.0,
    "kind": "spin",
    "maxs": [
     -8.401,
@@ -20113,6 +20133,7 @@
    "classname": "func_rotating",
    "degrees_per_second": 1000.0,
    "entity": 188,
+   "fan_friction": 50.0,
    "kind": "spin",
    "maxs": [
     -1.3144,
@@ -20429,6 +20450,7 @@
  "notes": [
   "18 glass surfaces (kinds glass)"
  ],
+ "pickups": [],
  "props": [
   {
    "at": [
@@ -23932,7 +23954,7 @@
     0.4898
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 276,
    "index_offset": 71536,
@@ -23986,8 +24008,8 @@
     0.2707
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 36,
    "index_offset": 74544,
    "material": "de_chateau/roofa",
@@ -24067,7 +24089,7 @@
     0.2945
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 144,
    "index_offset": 80032,
@@ -24094,7 +24116,7 @@
     0.0548
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 21,
    "index_offset": 81024,
@@ -24342,7 +24364,7 @@
     0.5398
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 21,
    "index_offset": 91408,
@@ -24369,7 +24391,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 30,
    "index_offset": 91940,
@@ -24396,7 +24418,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 24,
    "index_offset": 92572,
@@ -24423,7 +24445,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 6,
    "index_offset": 92796,
@@ -24450,7 +24472,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 21,
    "index_offset": 93172,
@@ -25319,7 +25341,7 @@
     0.3079
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 192,
    "index_offset": 164468,
@@ -25346,7 +25368,7 @@
     0.4898
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 399,
    "index_offset": 172308,
@@ -25948,7 +25970,7 @@
     0.5398
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 39,
    "index_offset": 202372,
@@ -25975,7 +25997,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 117,
    "index_offset": 204032,
@@ -26002,7 +26024,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 51,
    "index_offset": 205236,
@@ -26029,7 +26051,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 138,
    "index_offset": 206816,
@@ -26056,7 +26078,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 48,
    "index_offset": 207944,
@@ -26083,7 +26105,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 87,
    "index_offset": 209288,
@@ -26110,7 +26132,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 12,
    "index_offset": 209828,
@@ -27392,8 +27414,8 @@
     0.1941
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 87,
    "index_offset": 271748,
    "material": "cs_italy/tileroof01",
@@ -27419,7 +27441,7 @@
     0.4898
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 12,
    "index_offset": 272352,
@@ -27952,7 +27974,7 @@
     0.3671
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 189,
    "index_offset": 306404,
@@ -28033,8 +28055,8 @@
     0.1941
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 72,
    "index_offset": 324548,
    "material": "cs_italy/tileroof01",
@@ -28060,7 +28082,7 @@
     0.5052
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 72,
    "index_offset": 325796,
@@ -28087,7 +28109,7 @@
     0.4898
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 201,
    "index_offset": 329892,
@@ -28632,7 +28654,7 @@
     0.344
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 27,
    "index_offset": 348360,
@@ -28659,7 +28681,7 @@
     0.344
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 15,
    "index_offset": 348692,
@@ -28686,7 +28708,7 @@
     0.344
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 12,
    "index_offset": 348944,
@@ -28713,7 +28735,7 @@
     0.344
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 9,
    "index_offset": 349152,
@@ -28740,7 +28762,7 @@
     0.5398
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 54,
    "index_offset": 350340,
@@ -28767,7 +28789,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 90,
    "index_offset": 351420,
@@ -29071,7 +29093,7 @@
     0.3671
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 516,
    "index_offset": 402564,
@@ -29125,7 +29147,7 @@
     0.4747
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 480,
    "index_offset": 412524,
@@ -29179,7 +29201,7 @@
     0.2591
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 66,
    "index_offset": 432636,
@@ -29238,7 +29260,7 @@
     0.5052
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 408,
    "index_offset": 438460,
@@ -29265,7 +29287,7 @@
     0.4898
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 540,
    "index_offset": 450556,
@@ -29508,7 +29530,7 @@
     0.3806
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 69,
    "index_offset": 470800,
@@ -29616,7 +29638,7 @@
     0.4271
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 156,
    "index_offset": 513120,
@@ -29643,7 +29665,7 @@
     0.2444
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 153,
    "index_offset": 515600,
@@ -30080,7 +30102,7 @@
     0.344
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 45,
    "index_offset": 538668,
@@ -30107,7 +30129,7 @@
     0.344
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 12,
    "index_offset": 539040,
@@ -30134,7 +30156,7 @@
     0.344
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 21,
    "index_offset": 539376,
@@ -30161,7 +30183,7 @@
     0.344
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 24,
    "index_offset": 539844,
@@ -30188,7 +30210,7 @@
     0.5398
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 81,
    "index_offset": 541380,
@@ -30215,7 +30237,7 @@
     0.3921
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 174,
    "index_offset": 545160,
@@ -30242,7 +30264,7 @@
     0.4082
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 60,
    "index_offset": 546880,
@@ -30269,7 +30291,7 @@
     0.6329
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 333,
    "index_offset": 550736,
@@ -30296,7 +30318,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 183,
    "index_offset": 553700,
@@ -30323,7 +30345,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 27,
    "index_offset": 554784,
@@ -30350,7 +30372,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 30,
    "index_offset": 555340,
@@ -30377,7 +30399,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 48,
    "index_offset": 556036,
@@ -30404,7 +30426,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 42,
    "index_offset": 556932,
@@ -30431,7 +30453,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 126,
    "index_offset": 558636,
@@ -30458,7 +30480,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 12,
    "index_offset": 559396,
@@ -30485,7 +30507,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 36,
    "index_offset": 559956,
@@ -30512,7 +30534,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 30,
    "index_offset": 560452,
@@ -30539,7 +30561,7 @@
     0.6363
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 138,
    "index_offset": 562364,
@@ -30566,8 +30588,8 @@
     0.2337
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 27,
    "index_offset": 563204,
    "material": "tile/tileroof003b",
@@ -30593,8 +30615,8 @@
     0.2337
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 21,
    "index_offset": 563664,
    "material": "tile/tileroof003b",
@@ -30620,8 +30642,8 @@
     0.2337
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 15,
    "index_offset": 563972,
    "material": "tile/tileroof003b",
@@ -30647,8 +30669,8 @@
     0.2337
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 69,
    "index_offset": 564896,
    "material": "tile/tileroof003b",
@@ -30674,8 +30696,8 @@
     0.2337
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 24,
    "index_offset": 565460,
    "material": "tile/tileroof003b",
@@ -30701,8 +30723,8 @@
     0.2337
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 6,
    "index_offset": 565684,
    "material": "tile/tileroof003b",
@@ -30728,8 +30750,8 @@
     0.2337
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 12,
    "index_offset": 565964,
    "material": "tile/tileroof003b",
@@ -31345,7 +31367,7 @@
     0.2591
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 6,
    "index_offset": 655328,
@@ -31372,8 +31394,8 @@
     0.1941
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 84,
    "index_offset": 657272,
    "material": "cs_italy/tileroof01",
@@ -31431,7 +31453,7 @@
     0.4898
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 27,
    "index_offset": 658764,
@@ -31895,7 +31917,7 @@
     0.344
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 6,
    "index_offset": 710192,
@@ -31922,7 +31944,7 @@
     0.344
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 6,
    "index_offset": 710344,
@@ -31949,7 +31971,7 @@
     0.344
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 6,
    "index_offset": 710496,
@@ -31976,7 +31998,7 @@
     0.5398
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 6,
    "index_offset": 710648,
@@ -32003,7 +32025,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 9,
    "index_offset": 710832,
@@ -32030,7 +32052,7 @@
     0.3556
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 6,
    "index_offset": 710996,
@@ -32057,8 +32079,8 @@
     0.2337
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 15,
    "index_offset": 711244,
    "material": "tile/tileroof003b",
@@ -32084,8 +32106,8 @@
     0.2337
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 6,
    "index_offset": 711432,
    "material": "tile/tileroof003b",
@@ -32111,8 +32133,8 @@
     0.2337
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 6,
    "index_offset": 711584,
    "material": "tile/tileroof003b",
@@ -32707,8 +32729,8 @@
     0.1941
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 6,
    "index_offset": 844556,
    "material": "cs_italy/tileroof01",
@@ -32815,7 +32837,7 @@
     0.5398
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 9,
    "index_offset": 882572,
@@ -33058,7 +33080,7 @@
     0.4747
    ],
    "entity": null,
-   "free": "plaster:plaster_worn",
+   "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 12,
    "index_offset": 903404,
@@ -33112,7 +33134,7 @@
     0.2591
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 39,
    "index_offset": 919180,
@@ -33139,8 +33161,8 @@
     0.1941
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 96,
    "index_offset": 920616,
    "material": "cs_italy/tileroof01",
@@ -33360,7 +33382,7 @@
     0.2444
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 18,
    "index_offset": 936180,
@@ -33532,7 +33554,7 @@
     0.344
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 12,
    "index_offset": 940252,
@@ -33559,7 +33581,7 @@
     0.5398
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 6,
    "index_offset": 940428,
@@ -33586,7 +33608,7 @@
     0.6329
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 72,
    "index_offset": 941220,
@@ -33613,7 +33635,7 @@
     0.6363
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 6,
    "index_offset": 941636,
@@ -33640,8 +33662,8 @@
     0.2337
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 6,
    "index_offset": 941788,
    "material": "tile/tileroof003b",
@@ -33667,8 +33689,8 @@
     0.2337
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 111,
    "index_offset": 943188,
    "material": "tile/tileroof003b",
@@ -33694,8 +33716,8 @@
     0.2337
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 48,
    "index_offset": 944272,
    "material": "tile/tileroof003b",
@@ -33721,8 +33743,8 @@
     0.2337
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 69,
    "index_offset": 945328,
    "material": "tile/tileroof003b",
@@ -33912,7 +33934,7 @@
     0.2591
    ],
    "entity": null,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 24,
    "index_offset": 981176,
@@ -34241,8 +34263,8 @@
     0.2337
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 12,
    "index_offset": 991432,
    "material": "tile/tileroof003b",
@@ -34268,8 +34290,8 @@
     0.2337
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 33,
    "index_offset": 991960,
    "material": "tile/tileroof003b",
@@ -34295,8 +34317,8 @@
     0.2337
    ],
    "entity": null,
-   "free": "tile_dark:roof_tiles",
-   "generic": "roof_tiles",
+   "free": "roof_clay:roof_clay",
+   "generic": "roof_clay",
    "index_count": 45,
    "index_offset": 992732,
    "material": "tile/tileroof003b",
@@ -35457,7 +35479,7 @@
     0.2945
    ],
    "entity": 113,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 36,
    "index_offset": 1139428,
@@ -35480,7 +35502,7 @@
     0.2945
    ],
    "entity": 114,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 36,
    "index_offset": 1140340,
@@ -35503,7 +35525,7 @@
     0.2945
    ],
    "entity": 115,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 36,
    "index_offset": 1141252,
@@ -35526,7 +35548,7 @@
     0.2945
    ],
    "entity": 116,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 36,
    "index_offset": 1142164,
@@ -35549,7 +35571,7 @@
     0.2945
    ],
    "entity": 117,
-   "free": "concrete_clean:stone_wall",
+   "free": "stone_block:stone_wall",
    "generic": "stone_wall",
    "index_count": 36,
    "index_offset": 1143076,
