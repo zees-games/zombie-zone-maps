@@ -1,0 +1,180 @@
+{
+    "schema": 1,
+    "title": "Zombie Zone maps",
+    "kinds": [
+        "map"
+    ],
+    "games": [
+        "gamemann/game-zombie-zone"
+    ],
+    "entries": [
+        {
+            "kind": "map",
+            "id": "ze_blackmesa_escape",
+            "name": "Black Mesa Escape",
+            "scene": "maps/ze_blackmesa_escape.json",
+            "map_kind": "exodus"
+        },
+        {
+            "kind": "map",
+            "id": "ze_boat_escape",
+            "name": "Boat Escape",
+            "scene": "maps/ze_boat_escape.json",
+            "map_kind": "exodus"
+        },
+        {
+            "kind": "map",
+            "id": "ze_death_star_escape",
+            "name": "Death Star Escape",
+            "scene": "maps/ze_death_star_escape.json",
+            "map_kind": "exodus"
+        },
+        {
+            "kind": "map",
+            "id": "ze_jurassicpark",
+            "name": "Jurassic Park",
+            "scene": "maps/ze_jurassicpark.json",
+            "map_kind": "exodus"
+        },
+        {
+            "kind": "map",
+            "id": "ze_nuke_beta",
+            "name": "Nuke (beta)",
+            "scene": "maps/ze_nuke_beta.json",
+            "map_kind": "exodus"
+        },
+        {
+            "kind": "map",
+            "id": "ze_runforyourlife_1_v4",
+            "name": "Run For Your Life",
+            "scene": "maps/ze_runforyourlife_1_v4.json",
+            "map_kind": "exodus"
+        },
+        {
+            "kind": "map",
+            "id": "zm_4way_tunnel",
+            "name": "4-Way Tunnel",
+            "scene": "maps/zm_4way_tunnel.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "zm_abandoned_mall",
+            "name": "Abandoned Mall",
+            "scene": "maps/zm_abandoned_mall.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "zm_antarctic_hospital",
+            "name": "Antarctic Hospital",
+            "scene": "maps/zm_antarctic_hospital.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "zm_atix_helicopter",
+            "name": "ATIX Helicopter",
+            "scene": "maps/zm_atix_helicopter.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "zm_chaos_city",
+            "name": "Chaos City",
+            "scene": "maps/zm_chaos_city.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "zm_house_outbreak",
+            "name": "House Outbreak",
+            "scene": "maps/zm_house_outbreak.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "zm_officeattack",
+            "name": "Office Attack",
+            "scene": "maps/zm_officeattack.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "zm_pathogen",
+            "name": "Pathogen",
+            "scene": "maps/zm_pathogen.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "zs_ravenstreet",
+            "name": "Raven Street",
+            "scene": "maps/zs_ravenstreet.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "zz_blackout_1",
+            "name": "Blackout 1: Corner Shop",
+            "scene": "maps/zz_blackout_1.json",
+            "map_kind": "exodus"
+        },
+        {
+            "kind": "map",
+            "id": "zz_blackout_2",
+            "name": "Blackout 2: The Depot",
+            "scene": "maps/zz_blackout_2.json",
+            "map_kind": "exodus"
+        },
+        {
+            "kind": "map",
+            "id": "zz_blackout_3",
+            "name": "Blackout 3: The Pier",
+            "scene": "maps/zz_blackout_3.json",
+            "map_kind": "exodus"
+        },
+        {
+            "kind": "map",
+            "id": "zz_chapel",
+            "name": "Chapel Yard",
+            "scene": "maps/zz_chapel.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "zz_high_school",
+            "name": "Westbrook High",
+            "scene": "maps/zz_high_school.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "zz_lot",
+            "name": "Parking Lot",
+            "scene": "maps/zz_lot.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "zz_mall",
+            "name": "Riverside Galleria",
+            "scene": "maps/zz_mall.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "zz_relief_camp",
+            "name": "Relief Camp",
+            "scene": "maps/zz_relief_camp.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "zz_stadium",
+            "name": "Harbor Park",
+            "scene": "maps/zz_stadium.json",
+            "map_kind": "survival"
+        }
+    ]
+}

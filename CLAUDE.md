@@ -66,3 +66,5 @@ Every map's `toys` are dot-props' **loose** toys (barrels, tyres, balls, a bowli
 `project.godot` exists only so dot-ci's release can import this repository and attach the `-pack.zip`; it carries the editor's own header and no comments, because the editor rewrites the file on its first save and a checkout would show it modified.
 
 **Publish after the game**: the Blackout maps say `exodus`, which a game before 2026-10-12 refuses.
+
+**`provides.json` is what lists this pack in the Workshop, and `tools/build_provides.py` writes it** from the documents in the folder (an entry per map, `map_kind` and the game it is for are constants at the top). Edit the script, run it, commit both; `--check` (CI) fails on a stale file. A pack whose newest READY version has no `provides` block is not a Workshop item. It ships because the pack takes every file outside the excluded folders.
