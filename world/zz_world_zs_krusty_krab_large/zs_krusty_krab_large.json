@@ -119,6 +119,7 @@
   "first_import": null,
   "licence": "none stated (Steam Workshop)",
   "missing": [],
+  "no_share_check": "2026-10-23, ask: workshop description: edited and converted from FireWavezZ original (CC BY-NC-ND 4.0, gamebanana.com/mods/132150); no statement of its own (https://steamcommunity.com/sharedfiles/filedetails/?id=645191518)",
   "page": "https://steamcommunity.com/sharedfiles/filedetails/?id=645191518",
   "removal": "Credited with a link; removed on the author's request."
  },
@@ -33867,7 +33868,7 @@
    },
    {
     "author": "Kenney",
-    "count": 2,
+    "count": 16,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -33930,7 +33931,7 @@
    },
    {
     "author": "Kenney",
-    "count": 73,
+    "count": 87,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -34083,6 +34084,15 @@
    },
    {
     "author": "Kenney",
+    "count": 13,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Nature Kit",
+    "stand_in": "stump",
+    "url": "https://kenney.nl/assets/nature-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 11,
     "files": [],
     "licence": "CC0-1.0",
@@ -34138,7 +34148,7 @@
    {
     "count": 14,
     "model": "models/firewavezzmodels/jellyfish2.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "crate"
    },
    {
     "count": 1,
@@ -34573,27 +34583,27 @@
    {
     "count": 2,
     "model": "models/spongebob/ketchup.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bin"
    },
    {
     "count": 2,
     "model": "models/spongebob/mustard.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bin"
    },
    {
     "count": 13,
     "model": "models/spongebob/patty.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "stump"
    },
    {
     "count": 8,
     "model": "models/spongebob/post.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bin"
    },
    {
     "count": 2,
     "model": "models/spongebob/relish.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bin"
    },
    {
     "count": 3,
@@ -34602,6 +34612,7 @@
    }
   ],
   "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
+  "skipped_skybox_models": 0,
   "sounds": [
    {
     "author": "Kenney",
@@ -34725,14 +34736,14 @@
    {
     "author": "TMC (generated)",
     "colour": [
-     0.5,
-     0.5,
-     0.5
+     0.0,
+     0.0,
+     0.0
     ],
-    "file": "textures/gen_flat_808080.png",
+    "file": "textures/gen_flat_000000.png",
     "generic": "flat",
     "how": "table",
-    "key": "generated:flat:808080",
+    "key": "generated:flat:000000",
     "kind": "generated",
     "licence": "CC0-1.0",
     "source": "dotbsp generator",
@@ -35559,6 +35570,8 @@
     -4.8768
    ],
    "outputs": [],
+   "panel_assumed": true,
+   "panel_offset": 0.5334,
    "panel_width": 1.0668,
    "panel_yaw": -0.0,
    "solid": true,
@@ -35804,7 +35817,6 @@
    ],
    "model": "models/props/cs_office/coffee_mug.mdl",
    "scale": 1.0,
-   "size": 0.1,
    "stand_in": "pirate/bottle",
    "yaw": 270.0
   },
@@ -40043,6 +40055,357 @@
    "scale": 1.0,
    "stand_in": "crate",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    1.7907,
+    -4.1148,
+    -4.572
+   ],
+   "model": "models/spongebob/mustard.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.305,
+   "stand_in": "bin",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    1.8288,
+    -4.1148,
+    -4.3434
+   ],
+   "model": "models/spongebob/relish.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.305,
+   "stand_in": "bin",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    1.7907,
+    -4.1148,
+    -4.1148
+   ],
+   "model": "models/spongebob/ketchup.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.305,
+   "stand_in": "bin",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    1.7907,
+    -4.1148,
+    -5.334
+   ],
+   "model": "models/spongebob/mustard.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.305,
+   "stand_in": "bin",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    1.6764,
+    -4.1148,
+    -5.1054
+   ],
+   "model": "models/spongebob/relish.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.305,
+   "stand_in": "bin",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    1.8288,
+    -4.1148,
+    -4.8006
+   ],
+   "model": "models/spongebob/ketchup.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.305,
+   "stand_in": "bin",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    0.954,
+    -3.9577,
+    8.6871
+   ],
+   "model": "models/spongebob/patty.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.191,
+   "stand_in": "stump",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -0.0357,
+    -3.9577,
+    8.0348
+   ],
+   "model": "models/spongebob/patty.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.191,
+   "stand_in": "stump",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -2.286,
+    -4.872,
+    21.4884
+   ],
+   "model": "models/spongebob/post.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.219,
+   "stand_in": "bin",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -2.286,
+    -3.6528,
+    21.4884
+   ],
+   "model": "models/spongebob/post.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.219,
+   "stand_in": "bin",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -2.286,
+    -2.4336,
+    21.4884
+   ],
+   "model": "models/spongebob/post.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.219,
+   "stand_in": "bin",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -2.286,
+    -1.2144,
+    21.4884
+   ],
+   "model": "models/spongebob/post.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.219,
+   "stand_in": "bin",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -2.286,
+    0.0048,
+    21.4884
+   ],
+   "model": "models/spongebob/post.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.219,
+   "stand_in": "bin",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -2.286,
+    1.224,
+    21.4884
+   ],
+   "model": "models/spongebob/post.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.219,
+   "stand_in": "bin",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -2.286,
+    2.4432,
+    21.4884
+   ],
+   "model": "models/spongebob/post.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.219,
+   "stand_in": "bin",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -2.286,
+    3.6624,
+    21.4884
+   ],
+   "model": "models/spongebob/post.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.219,
+   "stand_in": "bin",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    6.4008,
+    -8.4535,
+    -3.3528
+   ],
+   "model": "models/spongebob/patty.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.191,
+   "stand_in": "stump",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    10.0589,
+    -3.9577,
+    8.6516
+   ],
+   "model": "models/spongebob/patty.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.191,
+   "stand_in": "stump",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    9.3769,
+    -3.9577,
+    8.6837
+   ],
+   "model": "models/spongebob/patty.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.191,
+   "stand_in": "stump",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -1.9243,
+    -3.9577,
+    4.9548
+   ],
+   "model": "models/spongebob/patty.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.191,
+   "stand_in": "stump",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    6.0419,
+    -4.1101,
+    -0.8903
+   ],
+   "model": "models/spongebob/patty.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.191,
+   "stand_in": "stump",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    5.7552,
+    -4.1101,
+    -0.7012
+   ],
+   "model": "models/spongebob/patty.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.191,
+   "stand_in": "stump",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    5.6933,
+    -4.1101,
+    -0.9567
+   ],
+   "model": "models/spongebob/patty.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.191,
+   "stand_in": "stump",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    32.3458,
+    -8.1392,
+    11.1749
+   ],
+   "model": "models/spongebob/patty.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.191,
+   "stand_in": "stump",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    32.0764,
+    -8.1392,
+    11.2549
+   ],
+   "model": "models/spongebob/patty.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.191,
+   "stand_in": "stump",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    31.7781,
+    -8.1344,
+    11.1633
+   ],
+   "model": "models/spongebob/patty.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.191,
+   "stand_in": "stump",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    31.5087,
+    -8.1344,
+    11.2433
+   ],
+   "model": "models/spongebob/patty.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.191,
+   "stand_in": "stump",
+   "yaw": 90.0
   }
  ],
  "scripts": [],
@@ -40884,7 +41247,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
-   "free": "generated:flat:808080",
+   "free": "generated:flat:000000",
    "generic": "flat",
    "index_count": 267,
    "index_offset": 121660,
@@ -41949,7 +42312,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
-   "free": "generated:flat:808080",
+   "free": "generated:flat:000000",
    "generic": "flat",
    "index_count": 78,
    "index_offset": 495036,

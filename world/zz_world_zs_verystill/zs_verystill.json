@@ -767,6 +767,7 @@
   "first_import": null,
   "licence": "none stated (Steam Workshop)",
   "missing": [],
+  "no_share_check": "2026-10-23, none: workshop description read: no redistribution, conversion or modification statement; workshop pages carry no licence (https://steamcommunity.com/sharedfiles/filedetails/?id=3209397565)",
   "page": "https://steamcommunity.com/sharedfiles/filedetails/?id=3209397565",
   "removal": "Credited with a link; removed on the author's request."
  },
@@ -57193,7 +57194,7 @@
    },
    {
     "author": "Kenney",
-    "count": 81,
+    "count": 98,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -57229,7 +57230,7 @@
    },
    {
     "author": "Kenney",
-    "count": 57,
+    "count": 61,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -57238,7 +57239,7 @@
    },
    {
     "author": "Kenney",
-    "count": 5,
+    "count": 10,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -57265,7 +57266,16 @@
    },
    {
     "author": "Kenney",
-    "count": 41,
+    "count": 8,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Survival Kit",
+    "stand_in": "chest",
+    "url": "https://kenney.nl/assets/survival-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 45,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -57274,7 +57284,7 @@
    },
    {
     "author": "Kenney",
-    "count": 9,
+    "count": 11,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -57400,7 +57410,7 @@
    },
    {
     "author": "Kenney",
-    "count": 73,
+    "count": 77,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Nature Kit",
@@ -57433,6 +57443,15 @@
     "source": "Kenney Furniture Kit",
     "stand_in": "stove",
     "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 23,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Nature Kit",
+    "stand_in": "stump",
+    "url": "https://kenney.nl/assets/nature-kit"
    },
    {
     "author": "Kenney",
@@ -57502,17 +57521,17 @@
    {
     "count": 1,
     "model": "models/boreas/books/book_cluster01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 2,
     "model": "models/boreas/books/book_cluster03.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "crate_large"
    },
    {
     "count": 1,
     "model": "models/boreas/books/book_cluster05.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 2,
@@ -57562,7 +57581,7 @@
    {
     "count": 4,
     "model": "models/esther/objects/candle_001.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bin"
    },
    {
     "count": 2,
@@ -58037,7 +58056,7 @@
    {
     "count": 1,
     "model": "models/props_c17/substation_stripebox01a_singleuv.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bin"
    },
    {
     "count": 1,
@@ -58117,7 +58136,7 @@
    {
     "count": 1,
     "model": "models/props_clutter/plush_001_brightness.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "chest"
    },
    {
     "count": 3,
@@ -58232,7 +58251,7 @@
    {
     "count": 1,
     "model": "models/props_equipment/snack_machine2.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bin"
    },
    {
     "count": 2,
@@ -58372,7 +58391,7 @@
    {
     "count": 2,
     "model": "models/props_industrial/smalltoolbox.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 1,
@@ -58432,7 +58451,7 @@
    {
     "count": 1,
     "model": "models/props_junk/cardboardbox04.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "stump"
    },
    {
     "count": 2,
@@ -58442,12 +58461,12 @@
    {
     "count": 3,
     "model": "models/props_junk/cardboardbox06.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "stump"
    },
    {
     "count": 1,
     "model": "models/props_junk/cardboardbox07.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "stump"
    },
    {
     "count": 4,
@@ -58567,22 +58586,22 @@
    {
     "count": 2,
     "model": "models/props_junk/metalcontainer01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 2,
     "model": "models/props_junk/metalcontainer02.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "crate"
    },
    {
     "count": 3,
     "model": "models/props_junk/metalcontainer03.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 2,
     "model": "models/props_junk/metalcontainer04.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "crate"
    },
    {
     "count": 2,
@@ -58602,7 +58621,7 @@
    {
     "count": 2,
     "model": "models/props_junk/plasticbasket01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 2,
@@ -58612,12 +58631,12 @@
    {
     "count": 2,
     "model": "models/props_junk/plasticcontainer01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bin"
    },
    {
     "count": 2,
     "model": "models/props_junk/plasticcontainer02.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bin"
    },
    {
     "count": 2,
@@ -58677,22 +58696,22 @@
    {
     "count": 2,
     "model": "models/props_junk/vegbox01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 5,
     "model": "models/props_junk/wirespool01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "chest"
    },
    {
     "count": 2,
     "model": "models/props_junk/wirespool01b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "chest"
    },
    {
     "count": 1,
     "model": "models/props_junk/wirespool02.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "stump"
    },
    {
     "count": 1,
@@ -58742,7 +58761,7 @@
    {
     "count": 4,
     "model": "models/props_lab/chemjar01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bin"
    },
    {
     "count": 1,
@@ -58882,7 +58901,7 @@
    {
     "count": 1,
     "model": "models/props_lab/sterilizer.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "stump"
    },
    {
     "count": 3,
@@ -58902,7 +58921,7 @@
    {
     "count": 3,
     "model": "models/props_mining/oiltank01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bin"
    },
    {
     "count": 10,
@@ -59102,7 +59121,7 @@
    {
     "count": 1,
     "model": "models/props_sky/lowpoly_vstill_scenery.mdl",
-    "stand_in": "skybox"
+    "stand_in": "placeholder_box"
    },
    {
     "count": 1,
@@ -59152,7 +59171,7 @@
    {
     "count": 16,
     "model": "models/props_skyscraper/ceilingtruss_64x64.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "stump"
    },
    {
     "count": 8,
@@ -59466,6 +59485,7 @@
    }
   ],
   "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
+  "skipped_skybox_models": 37,
   "sounds": [],
   "textures": [
    {
@@ -64508,7 +64528,6 @@
    ],
    "model": "models/props_junk/oil_can.mdl",
    "scale": 1.0,
-   "size": 0.13,
    "stand_in": "bucket",
    "yaw": 0.0
   },
@@ -65540,7 +65559,6 @@
    ],
    "model": "models/props_junk/oil_can.mdl",
    "scale": 1.0,
-   "size": 0.13,
    "stand_in": "bucket",
    "yaw": 110.39
   },
@@ -65805,7 +65823,6 @@
    ],
    "model": "models/props/de_stadium/food_tray2.mdl",
    "scale": 1.0,
-   "size": 0.25,
    "stand_in": "rock",
    "yaw": 30.0
   },
@@ -65817,7 +65834,6 @@
    ],
    "model": "models/props/de_stadium/food_straw.mdl",
    "scale": 1.0,
-   "size": 0.25,
    "stand_in": "rock",
    "yaw": 285.0
   },
@@ -65829,7 +65845,6 @@
    ],
    "model": "models/props/de_stadium/food_straw.mdl",
    "scale": 1.0,
-   "size": 0.25,
    "stand_in": "rock",
    "yaw": 30.0
   },
@@ -65841,7 +65856,6 @@
    ],
    "model": "models/props/de_stadium/food_sarnie.mdl",
    "scale": 1.0,
-   "size": 0.25,
    "stand_in": "rock",
    "yaw": 30.0
   },
@@ -66120,7 +66134,6 @@
    ],
    "model": "models/props/de_stadium/food_sarnie.mdl",
    "scale": 1.0,
-   "size": 0.25,
    "stand_in": "rock",
    "yaw": 30.1
   },
@@ -66132,7 +66145,6 @@
    ],
    "model": "models/props/de_stadium/food_sarnie.mdl",
    "scale": 1.0,
-   "size": 0.25,
    "stand_in": "rock",
    "yaw": -70.84
   },
@@ -66144,7 +66156,6 @@
    ],
    "model": "models/props/de_stadium/food_sarnie.mdl",
    "scale": 1.0,
-   "size": 0.25,
    "stand_in": "rock",
    "yaw": 19.33
   },
@@ -66259,7 +66270,6 @@
    ],
    "model": "models/props_junk/oil_can.mdl",
    "scale": 1.0,
-   "size": 0.13,
    "stand_in": "bucket",
    "yaw": 45.0
   },
@@ -66293,7 +66303,6 @@
    ],
    "model": "models/props_junk/oil_can.mdl",
    "scale": 1.0,
-   "size": 0.13,
    "stand_in": "bucket",
    "yaw": -30.0
   },
@@ -66591,7 +66600,6 @@
    ],
    "model": "models/props_junk/food_pile02.mdl",
    "scale": 1.0,
-   "size": 0.25,
    "stand_in": "rock",
    "yaw": 240.0
   },
@@ -73786,7 +73794,6 @@
    ],
    "model": "models/props_junk/food_pile03.mdl",
    "scale": 1.0,
-   "size": 0.25,
    "stand_in": "rock",
    "yaw": 165.0
   },
@@ -76297,6 +76304,877 @@
    "model": "models/props/cs_assault/ladder_tall.mdl",
    "scale": 1.0,
    "stand_in": "prototype/ladder",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -104.7369,
+    40.2812,
+    90.1256
+   ],
+   "model": "models/props_junk/metalcontainer04.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.097,
+   "stand_in": "crate",
+   "yaw": 45.0
+  },
+  {
+   "at": [
+    -104.7178,
+    40.2812,
+    90.0113
+   ],
+   "model": "models/props_junk/metalcontainer04.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.097,
+   "stand_in": "crate",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -118.1287,
+    39.9749,
+    92.6588
+   ],
+   "model": "models/props_lab/sterilizer.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.383,
+   "stand_in": "stump",
+   "yaw": 90.05
+  },
+  {
+   "at": [
+    -78.353,
+    40.3374,
+    100.1659
+   ],
+   "model": "models/props_junk/metalcontainer02.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.097,
+   "stand_in": "crate",
+   "yaw": -0.04
+  },
+  {
+   "at": [
+    -78.294,
+    40.3373,
+    100.2977
+   ],
+   "model": "models/props_junk/metalcontainer02.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.097,
+   "stand_in": "crate",
+   "yaw": 134.92
+  },
+  {
+   "at": [
+    -100.4697,
+    40.9556,
+    78.4479
+   ],
+   "model": "models/props_lab/chemjar01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.232,
+   "stand_in": "bin",
+   "yaw": 7.0
+  },
+  {
+   "at": [
+    -99.8982,
+    40.9556,
+    92.5259
+   ],
+   "model": "models/props_lab/chemjar01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.232,
+   "stand_in": "bin",
+   "yaw": 127.0
+  },
+  {
+   "at": [
+    -100.1078,
+    40.9556,
+    92.5068
+   ],
+   "model": "models/props_lab/chemjar01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.232,
+   "stand_in": "bin",
+   "yaw": 22.0
+  },
+  {
+   "at": [
+    -118.2434,
+    39.9193,
+    86.9442
+   ],
+   "model": "models/props_junk/wirespool01a.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.305,
+   "stand_in": "chest",
+   "yaw": 292.0
+  },
+  {
+   "at": [
+    -81.0006,
+    34.9929,
+    49.6457
+   ],
+   "model": "models/props_junk/cardboardbox07.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.422,
+   "stand_in": "stump",
+   "yaw": 269.87
+  },
+  {
+   "at": [
+    -76.8738,
+    36.4188,
+    82.9466
+   ],
+   "model": "models/props_junk/cardboardbox04.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.476,
+   "stand_in": "stump",
+   "yaw": 112.41
+  },
+  {
+   "at": [
+    -103.1177,
+    39.9779,
+    76.8287
+   ],
+   "model": "models/props_junk/plasticbasket01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.626,
+   "stand_in": "rock",
+   "yaw": 315.0
+  },
+  {
+   "at": [
+    -96.1802,
+    39.8036,
+    53.6516
+   ],
+   "model": "models/props_junk/metalcontainer01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.229,
+   "stand_in": "cardboard_box",
+   "yaw": 76.07
+  },
+  {
+   "at": [
+    -95.9655,
+    39.8039,
+    53.6824
+   ],
+   "model": "models/props_junk/metalcontainer03.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.234,
+   "stand_in": "cardboard_box",
+   "yaw": 136.09
+  },
+  {
+   "at": [
+    -96.3703,
+    39.7765,
+    53.9648
+   ],
+   "model": "models/props_junk/metalcontainer03.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.234,
+   "stand_in": "cardboard_box",
+   "yaw": 64.41
+  },
+  {
+   "at": [
+    -100.7028,
+    39.1747,
+    86.7623
+   ],
+   "model": "models/props_junk/metalcontainer03.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.234,
+   "stand_in": "cardboard_box",
+   "yaw": 90.38
+  },
+  {
+   "at": [
+    -80.9816,
+    35.2488,
+    49.626
+   ],
+   "model": "models/props_junk/cardboardbox06.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.44,
+   "stand_in": "stump",
+   "yaw": 175.87
+  },
+  {
+   "at": [
+    -80.7715,
+    35.6014,
+    49.6112
+   ],
+   "model": "models/props_industrial/smalltoolbox.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.667,
+   "stand_in": "cabinet",
+   "yaw": 275.37
+  },
+  {
+   "at": [
+    -87.3589,
+    34.3412,
+    85.5646
+   ],
+   "model": "models/props_junk/wirespool02.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.267,
+   "stand_in": "stump",
+   "yaw": 90.16
+  },
+  {
+   "at": [
+    -87.4586,
+    34.3901,
+    85.8203
+   ],
+   "model": "models/props_junk/wirespool01b.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.457,
+   "stand_in": "chest",
+   "yaw": 23.19
+  },
+  {
+   "at": [
+    -72.2776,
+    35.5174,
+    80.791
+   ],
+   "model": "models/props_junk/wirespool01a.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.305,
+   "stand_in": "chest",
+   "yaw": 263.8
+  },
+  {
+   "at": [
+    -78.2751,
+    39.3651,
+    99.9138
+   ],
+   "model": "models/props_junk/wirespool01a.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.305,
+   "stand_in": "chest",
+   "yaw": -60.05
+  },
+  {
+   "at": [
+    -78.2383,
+    39.3649,
+    100.2792
+   ],
+   "model": "models/props_junk/wirespool01a.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.305,
+   "stand_in": "chest",
+   "yaw": 14.95
+  },
+  {
+   "at": [
+    -114.1716,
+    39.2019,
+    87.8009
+   ],
+   "model": "models/props_industrial/smalltoolbox.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.667,
+   "stand_in": "cabinet",
+   "yaw": 173.5
+  },
+  {
+   "at": [
+    -103.0033,
+    40.9788,
+    89.439
+   ],
+   "model": "models/props_junk/cardboardbox06.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.44,
+   "stand_in": "stump",
+   "yaw": 359.98
+  },
+  {
+   "at": [
+    -101.6127,
+    41.3681,
+    78.4288
+   ],
+   "model": "models/props_junk/plasticcontainer01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.208,
+   "stand_in": "bin",
+   "yaw": 375.0
+  },
+  {
+   "at": [
+    -101.4032,
+    41.3605,
+    78.4479
+   ],
+   "model": "models/props_junk/plasticcontainer02.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.225,
+   "stand_in": "bin",
+   "yaw": 195.0
+  },
+  {
+   "at": [
+    -100.7745,
+    40.9556,
+    78.4288
+   ],
+   "model": "models/props_lab/chemjar01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.232,
+   "stand_in": "bin",
+   "yaw": 127.0
+  },
+  {
+   "at": [
+    -93.344,
+    40.542,
+    77.7985
+   ],
+   "model": "models/props_junk/vegbox01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.459,
+   "stand_in": "rock",
+   "yaw": 143.13
+  },
+  {
+   "at": [
+    -92.964,
+    40.5542,
+    78.1812
+   ],
+   "model": "models/props_junk/vegbox01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.459,
+   "stand_in": "rock",
+   "yaw": 218.22
+  },
+  {
+   "at": [
+    -120.9294,
+    40.6327,
+    78.8287
+   ],
+   "model": "models/props_junk/wirespool01a.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.305,
+   "stand_in": "chest",
+   "yaw": -0.0
+  },
+  {
+   "at": [
+    -120.4151,
+    40.0868,
+    77.4383
+   ],
+   "model": "models/props_junk/wirespool01b.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.457,
+   "stand_in": "chest",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -117.9386,
+    40.013,
+    77.4002
+   ],
+   "model": "models/props_junk/plasticbasket01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.626,
+   "stand_in": "rock",
+   "yaw": 183.0
+  },
+  {
+   "at": [
+    -120.9473,
+    40.0191,
+    79.0045
+   ],
+   "model": "models/props_junk/plasticcontainer01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.208,
+   "stand_in": "bin",
+   "yaw": 29.85
+  },
+  {
+   "at": [
+    -120.9281,
+    40.0172,
+    78.7904
+   ],
+   "model": "models/props_junk/plasticcontainer02.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.225,
+   "stand_in": "bin",
+   "yaw": 89.1
+  },
+  {
+   "at": [
+    -120.9116,
+    40.3371,
+    80.5072
+   ],
+   "model": "models/props_junk/cardboardbox06.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.44,
+   "stand_in": "stump",
+   "yaw": -90.54
+  },
+  {
+   "at": [
+    -118.1826,
+    39.3659,
+    77.2981
+   ],
+   "model": "models/props_junk/metalcontainer01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.229,
+   "stand_in": "cardboard_box",
+   "yaw": 75.59
+  },
+  {
+   "at": [
+    -92.1613,
+    40.0431,
+    79.593
+   ],
+   "model": "models/esther/objects/candle_001.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.226,
+   "stand_in": "bin",
+   "yaw": 240.0
+  },
+  {
+   "at": [
+    -90.678,
+    41.9536,
+    82.9056
+   ],
+   "model": "models/props_skyscraper/ceilingtruss_64x64.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.219,
+   "stand_in": "stump",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -90.678,
+    41.9536,
+    81.6864
+   ],
+   "model": "models/props_skyscraper/ceilingtruss_64x64.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.219,
+   "stand_in": "stump",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -90.678,
+    41.9536,
+    80.4672
+   ],
+   "model": "models/props_skyscraper/ceilingtruss_64x64.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.219,
+   "stand_in": "stump",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -99.5532,
+    39.1668,
+    77.6695
+   ],
+   "model": "models/esther/objects/candle_001.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.226,
+   "stand_in": "bin",
+   "yaw": 165.0
+  },
+  {
+   "at": [
+    -99.4353,
+    39.1097,
+    77.7409
+   ],
+   "model": "models/esther/objects/candle_001.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.226,
+   "stand_in": "bin",
+   "yaw": 255.0
+  },
+  {
+   "at": [
+    -97.7763,
+    42.0624,
+    92.2557
+   ],
+   "model": "models/props_clutter/plush_001_brightness.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.359,
+   "stand_in": "chest",
+   "yaw": 150.0
+  },
+  {
+   "at": [
+    -92.0284,
+    40.0812,
+    79.5359
+   ],
+   "model": "models/esther/objects/candle_001.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.226,
+   "stand_in": "bin",
+   "yaw": 165.0
+  },
+  {
+   "at": [
+    -102.87,
+    41.9536,
+    83.6676
+   ],
+   "model": "models/props_skyscraper/ceilingtruss_64x64.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.219,
+   "stand_in": "stump",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -102.87,
+    41.9536,
+    84.8868
+   ],
+   "model": "models/props_skyscraper/ceilingtruss_64x64.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.219,
+   "stand_in": "stump",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -85.2869,
+    39.1803,
+    98.66
+   ],
+   "model": "models/props_c17/substation_stripebox01a_singleuv.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 3.403,
+   "stand_in": "bin",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -103.0224,
+    41.9536,
+    89.7636
+   ],
+   "model": "models/props_skyscraper/ceilingtruss_64x64.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.219,
+   "stand_in": "stump",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -100.584,
+    41.9536,
+    89.7636
+   ],
+   "model": "models/props_skyscraper/ceilingtruss_64x64.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.219,
+   "stand_in": "stump",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -99.3648,
+    41.9536,
+    89.7636
+   ],
+   "model": "models/props_skyscraper/ceilingtruss_64x64.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.219,
+   "stand_in": "stump",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -104.2416,
+    41.9536,
+    89.7636
+   ],
+   "model": "models/props_skyscraper/ceilingtruss_64x64.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.219,
+   "stand_in": "stump",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -101.8032,
+    41.9536,
+    89.7636
+   ],
+   "model": "models/props_skyscraper/ceilingtruss_64x64.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.219,
+   "stand_in": "stump",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -70.5041,
+    36.576,
+    76.6191
+   ],
+   "model": "models/props_mining/oiltank01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 2.456,
+   "stand_in": "bin",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -66.2369,
+    36.576,
+    76.6191
+   ],
+   "model": "models/props_mining/oiltank01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 2.456,
+   "stand_in": "bin",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -95.7072,
+    41.6297,
+    51.5112
+   ],
+   "model": "models/props_skyscraper/ceilingtruss_64x64.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.219,
+   "stand_in": "stump",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -95.7072,
+    41.6297,
+    52.7304
+   ],
+   "model": "models/props_skyscraper/ceilingtruss_64x64.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.219,
+   "stand_in": "stump",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -97.634,
+    40.367,
+    91.2795
+   ],
+   "model": "models/boreas/books/book_cluster03.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.398,
+   "stand_in": "crate_large",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -97.6376,
+    39.1859,
+    91.3841
+   ],
+   "model": "models/boreas/books/book_cluster01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.614,
+   "stand_in": "cabinet",
+   "yaw": 360.0
+  },
+  {
+   "at": [
+    -98.7552,
+    41.9536,
+    91.5924
+   ],
+   "model": "models/props_skyscraper/ceilingtruss_64x64.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.219,
+   "stand_in": "stump",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -100.5759,
+    39.6621,
+    82.7886
+   ],
+   "model": "models/boreas/books/book_cluster03.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.398,
+   "stand_in": "crate_large",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -101.1014,
+    39.6612,
+    82.7639
+   ],
+   "model": "models/boreas/books/book_cluster05.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.612,
+   "stand_in": "cabinet",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -103.0224,
+    41.9536,
+    80.6196
+   ],
+   "model": "models/props_skyscraper/ceilingtruss_64x64.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.219,
+   "stand_in": "stump",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -103.0224,
+    41.9536,
+    79.4004
+   ],
+   "model": "models/props_skyscraper/ceilingtruss_64x64.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.219,
+   "stand_in": "stump",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -103.0224,
+    41.9536,
+    81.8388
+   ],
+   "model": "models/props_skyscraper/ceilingtruss_64x64.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.219,
+   "stand_in": "stump",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -97.0977,
+    39.1673,
+    78.62
+   ],
+   "model": "models/props_equipment/snack_machine2.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.567,
+   "stand_in": "bin",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -72.4853,
+    36.576,
+    76.6191
+   ],
+   "model": "models/props_mining/oiltank01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 2.456,
+   "stand_in": "bin",
    "yaw": 90.0
   }
  ],

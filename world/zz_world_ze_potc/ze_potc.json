@@ -389,6 +389,7 @@
   "first_import": null,
   "licence": "CC BY-NC-ND 4.0",
   "missing": [],
+  "no_share_check": "2026-10-23, ask: CC BY-NC-ND 4.0; page licence checklist: redistribute/modify/reuse = ask the author, commercial use = no; no further restriction in the description (https://gamebanana.com/mods/130933)",
   "page": "https://gamebanana.com/mods/130933",
   "removal": "Credited with a link; removed on the author's request."
  },
@@ -23901,7 +23902,7 @@
    },
    {
     "author": "Kenney",
-    "count": 92,
+    "count": 93,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Nature Kit",
@@ -24060,7 +24061,7 @@
    {
     "count": 1,
     "model": "models/props/piratehat.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 2,
@@ -24244,6 +24245,7 @@
    }
   ],
   "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
+  "skipped_skybox_models": 0,
   "sounds": [
    {
     "author": "TMC (dot-audio authors)",
@@ -33496,6 +33498,19 @@
    "scale": 1.0,
    "stand_in": "prototype/ladder",
    "yaw": 180.0
+  },
+  {
+   "at": [
+    21.2511,
+    27.86,
+    59.3987
+   ],
+   "model": "models/props/piratehat.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.313,
+   "stand_in": "rock",
+   "yaw": 277.0
   }
  ],
  "scripts": [],

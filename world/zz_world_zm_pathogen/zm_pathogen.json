@@ -100,10 +100,8 @@
   "author": "Stelk",
   "first_import": null,
   "licence": "none stated (Steam Workshop)",
-  "missing": [
-   "author",
-   "page"
-  ],
+  "missing": [],
+  "no_share_check": "2026-10-23, none: workshop description read: no redistribution, conversion or modification statement; workshop pages carry no licence (https://steamcommunity.com/sharedfiles/filedetails/?id=292859426)",
   "page": "https://steamcommunity.com/sharedfiles/filedetails/?id=292859426",
   "removal": "Geometry converted from the original map with credit; its textures and models are not used. Removed on the author's request."
  },
@@ -28651,7 +28649,7 @@
    },
    {
     "author": "Kenney",
-    "count": 31,
+    "count": 35,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -28684,6 +28682,15 @@
     "source": "Kenney Furniture Kit",
     "stand_in": "chair",
     "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Survival Kit",
+    "stand_in": "chest",
+    "url": "https://kenney.nl/assets/survival-kit"
    },
    {
     "author": "Kenney",
@@ -29002,7 +29009,7 @@
    {
     "count": 4,
     "model": "models/props_c17/display_cooler01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 2,
@@ -29897,7 +29904,7 @@
    {
     "count": 1,
     "model": "models/props_silo/industriallight01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "chest"
    },
    {
     "count": 3,
@@ -30231,6 +30238,7 @@
    }
   ],
   "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
+  "skipped_skybox_models": 6,
   "sounds": [
    {
     "author": "TMC (dot-audio authors)",
@@ -35893,7 +35901,6 @@
    ],
    "model": "models/props_c17/computer01_keyboard.mdl",
    "scale": 1.0,
-   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 172.0
   },
@@ -42852,6 +42859,71 @@
    "scale": 1.0,
    "stand_in": "rock",
    "yaw": 228.17
+  },
+  {
+   "at": [
+    -23.9268,
+    4.8813,
+    8.9916
+   ],
+   "model": "models/props_c17/display_cooler01a.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.979,
+   "stand_in": "cabinet",
+   "yaw": 356.5
+  },
+  {
+   "at": [
+    -23.8506,
+    4.8813,
+    11.6586
+   ],
+   "model": "models/props_c17/display_cooler01a.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.979,
+   "stand_in": "cabinet",
+   "yaw": 363.5
+  },
+  {
+   "at": [
+    -29.2608,
+    4.8813,
+    12.0396
+   ],
+   "model": "models/props_c17/display_cooler01a.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.979,
+   "stand_in": "cabinet",
+   "yaw": 359.5
+  },
+  {
+   "at": [
+    -28.4226,
+    5.2347,
+    14.0208
+   ],
+   "model": "models/props_c17/display_cooler01a.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.979,
+   "stand_in": "cabinet",
+   "yaw": 378.5
+  },
+  {
+   "at": [
+    -1.8295,
+    9.3009,
+    -37.5671
+   ],
+   "model": "models/props_silo/industriallight01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.549,
+   "stand_in": "chest",
+   "yaw": 297.5
   }
  ],
  "scripts": [],

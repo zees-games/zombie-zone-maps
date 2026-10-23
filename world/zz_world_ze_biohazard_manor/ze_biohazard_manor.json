@@ -425,6 +425,7 @@
   "first_import": null,
   "licence": "CC BY-NC-ND 4.0",
   "missing": [],
+  "no_share_check": "2026-10-23, ask: CC BY-NC-ND 4.0; page licence checklist: redistribute/modify/reuse = ask the author, commercial use = no; no further restriction in the description (https://gamebanana.com/mods/130643)",
   "page": "https://gamebanana.com/mods/130643",
   "removal": "Credited with a link; removed on the author's request."
  },
@@ -65648,7 +65649,7 @@
   "model_stand_ins": [
    {
     "author": "Kenney",
-    "count": 12,
+    "count": 20,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -65666,7 +65667,7 @@
    },
    {
     "author": "Kenney",
-    "count": 3,
+    "count": 27,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -65675,7 +65676,7 @@
    },
    {
     "author": "Kenney",
-    "count": 76,
+    "count": 91,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -65711,7 +65712,7 @@
    },
    {
     "author": "Kenney",
-    "count": 20,
+    "count": 21,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -65738,7 +65739,7 @@
    },
    {
     "author": "Kenney",
-    "count": 1,
+    "count": 6,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -65747,7 +65748,7 @@
    },
    {
     "author": "Kenney",
-    "count": 32,
+    "count": 45,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -65756,7 +65757,7 @@
    },
    {
     "author": "Kenney",
-    "count": 10,
+    "count": 19,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -65900,7 +65901,7 @@
    },
    {
     "author": "Kenney",
-    "count": 7,
+    "count": 13,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Nature Kit",
@@ -65963,6 +65964,15 @@
    },
    {
     "author": "Kenney",
+    "count": 27,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Nature Kit",
+    "stand_in": "stump",
+    "url": "https://kenney.nl/assets/nature-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 20,
     "files": [],
     "licence": "CC0-1.0",
@@ -66021,7 +66031,7 @@
    {
     "count": 9,
     "model": "models/bf2/helicopters/mh-53j pave low iiie/mh-53j_gear.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bookcase"
    },
    {
     "count": 9,
@@ -66046,7 +66056,7 @@
    {
     "count": 1,
     "model": "models/blueherb.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bin"
    },
    {
     "count": 4,
@@ -66086,7 +66096,7 @@
    {
     "count": 13,
     "model": "models/dt/fackel2.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "crate"
    },
    {
     "count": 1,
@@ -66096,7 +66106,7 @@
    {
     "count": 1,
     "model": "models/fishy/furniture/piano.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "stump"
    },
    {
     "count": 1,
@@ -66111,17 +66121,17 @@
    {
     "count": 2,
     "model": "models/goldshield.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 7,
     "model": "models/gothic2/rytirnormal.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bin"
    },
    {
     "count": 1,
     "model": "models/greenherb.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bin"
    },
    {
     "count": 3,
@@ -66156,7 +66166,7 @@
    {
     "count": 2,
     "model": "models/haxxer/me2_props/medbed.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "crate_large"
    },
    {
     "count": 1,
@@ -66166,7 +66176,7 @@
    {
     "count": 3,
     "model": "models/haxxer/me2_props/microscope.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bin"
    },
    {
     "count": 1,
@@ -66216,7 +66226,7 @@
    {
     "count": 2,
     "model": "models/haxxer/normandy/mainframe.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "barrel"
    },
    {
     "count": 1,
@@ -66246,37 +66256,37 @@
    {
     "count": 2,
     "model": "models/ill_hanger/props/meddevice.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bin"
    },
    {
     "count": 1,
     "model": "models/inkribbon.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "stump"
    },
    {
     "count": 1,
     "model": "models/killerarmour.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bin"
    },
    {
     "count": 2,
     "model": "models/knight1.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bookcase"
    },
    {
     "count": 2,
     "model": "models/knight2.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bookcase"
    },
    {
     "count": 2,
     "model": "models/knight3.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bookcase"
    },
    {
     "count": 2,
     "model": "models/knight4.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bin"
    },
    {
     "count": 1,
@@ -66291,32 +66301,32 @@
    {
     "count": 4,
     "model": "models/madebycn/urn.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bin"
    },
    {
     "count": 1,
     "model": "models/madebycn/wolfking_throne.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "chest"
    },
    {
     "count": 1,
     "model": "models/mandrac/energy_cell/medium_cell.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 4,
     "model": "models/mandrac/hw_tank/hw_tank_large.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "crate_large"
    },
    {
     "count": 5,
     "model": "models/mandrac/hw_tank/hw_tank_small.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "stump"
    },
    {
     "count": 2,
     "model": "models/mandrac/hydrogen_tank/hydro_tank_large.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "barrel"
    },
    {
     "count": 1,
@@ -66341,7 +66351,7 @@
    {
     "count": 4,
     "model": "models/mandrac/resource_cache/small_cache.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "barrel"
    },
    {
     "count": 2,
@@ -66351,7 +66361,7 @@
    {
     "count": 3,
     "model": "models/pcmod/eeepc.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "chest"
    },
    {
     "count": 2,
@@ -67746,7 +67756,7 @@
    {
     "count": 3,
     "model": "models/razor/chemicals.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "crate_large"
    },
    {
     "count": 60,
@@ -67781,17 +67791,17 @@
    {
     "count": 14,
     "model": "models/razor/kuctuk01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "stump"
    },
    {
     "count": 1,
     "model": "models/razor/kuctuk02.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "chest"
    },
    {
     "count": 1,
     "model": "models/razor/kuctuk03.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "stump"
    },
    {
     "count": 1,
@@ -67821,7 +67831,7 @@
    {
     "count": 2,
     "model": "models/shieldarmour.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bin"
    },
    {
     "count": 7,
@@ -67836,7 +67846,7 @@
    {
     "count": 3,
     "model": "models/suncrest.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 2,
@@ -67851,7 +67861,7 @@
    {
     "count": 1,
     "model": "models/testmodels/drinking_fountain.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bin"
    },
    {
     "count": 2,
@@ -67876,7 +67886,7 @@
    {
     "count": 2,
     "model": "models/testmodels/macbook_pro.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "stump"
    },
    {
     "count": 1,
@@ -67916,15 +67926,16 @@
    {
     "count": 3,
     "model": "models/wolf/wolfheadsmall.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "stump"
    },
    {
     "count": 1,
     "model": "models/woodenshield.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    }
   ],
   "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
+  "skipped_skybox_models": 0,
   "sounds": [
    {
     "author": "TMC (dot-audio authors)",
@@ -68126,11 +68137,10 @@
     "licence": "CC0-1.0",
     "source": "dotbsp generator",
     "sources": [
-     "cs_italy/black",
      "dev/dev_lowertank01a",
      "effects/stairsafrnt"
     ],
-    "surfaces": 7,
+    "surfaces": 4,
     "url": "generated by tools/bsp/dotbsp/textures.py"
    },
    {
@@ -68327,6 +68337,26 @@
     ],
     "surfaces": 30,
     "url": "https://ambientcg.com/view?id=PaintedPlaster017"
+   },
+   {
+    "author": "TMC (generated)",
+    "colour": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "file": "textures/gen_flat_000000.png",
+    "generic": "flat",
+    "how": "table",
+    "key": "generated:flat:000000",
+    "kind": "generated",
+    "licence": "CC0-1.0",
+    "source": "dotbsp generator",
+    "sources": [
+     "cs_italy/black"
+    ],
+    "surfaces": 3,
+    "url": "generated by tools/bsp/dotbsp/textures.py"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -82452,7 +82482,6 @@
    ],
    "model": "models/testmodels/apple_display.mdl",
    "scale": 1.0,
-   "size": 0.1,
    "stand_in": "rock",
    "yaw": 224.5
   },
@@ -82673,7 +82702,6 @@
    ],
    "model": "models/testmodels/apple_display.mdl",
    "scale": 1.0,
-   "size": 0.1,
    "stand_in": "rock",
    "yaw": 212.5
   },
@@ -85716,7 +85744,6 @@
    ],
    "model": "models/props/cs_militia/food_stack.mdl",
    "scale": 1.0,
-   "size": 0.25,
    "stand_in": "rock",
    "yaw": 269.5
   },
@@ -85739,7 +85766,6 @@
    ],
    "model": "models/props_junk/food_pile01.mdl",
    "scale": 1.0,
-   "size": 0.25,
    "stand_in": "rock",
    "yaw": 269.5
   },
@@ -85751,7 +85777,6 @@
    ],
    "model": "models/props_junk/food_pile03.mdl",
    "scale": 1.0,
-   "size": 0.25,
    "stand_in": "rock",
    "yaw": 314.0
   },
@@ -93357,6 +93382,1410 @@
    "scale": 1.0,
    "stand_in": "tree",
    "yaw": 44.5
+  },
+  {
+   "at": [
+    -22.6906,
+    8.5392,
+    -39.4907
+   ],
+   "model": "models/killerarmour.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.561,
+   "stand_in": "bin",
+   "yaw": 360.0
+  },
+  {
+   "at": [
+    -12.2111,
+    8.5392,
+    -34.081
+   ],
+   "model": "models/shieldarmour.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.674,
+   "stand_in": "bin",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -14.3066,
+    8.5392,
+    -34.1942
+   ],
+   "model": "models/shieldarmour.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.674,
+   "stand_in": "bin",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -55.2046,
+    -15.9449,
+    -101.4603
+   ],
+   "model": "models/haxxer/me2_props/microscope.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.61,
+   "stand_in": "bin",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -40.6335,
+    -15.9258,
+    -92.5254
+   ],
+   "model": "models/testmodels/macbook_pro.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.518,
+   "stand_in": "stump",
+   "yaw": 269.0
+  },
+  {
+   "at": [
+    -61.0934,
+    -16.6062,
+    -105.6894
+   ],
+   "model": "models/haxxer/me2_props/medbed.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 2.006,
+   "stand_in": "crate_large",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -58.0254,
+    -15.6782,
+    -103.9559
+   ],
+   "model": "models/haxxer/normandy/mainframe.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 2.477,
+   "stand_in": "barrel",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -61.1124,
+    -16.6062,
+    -103.7082
+   ],
+   "model": "models/haxxer/me2_props/medbed.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 2.006,
+   "stand_in": "crate_large",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    168.417,
+    -0.9073,
+    113.525
+   ],
+   "model": "models/bf2/helicopters/mh-53j pave low iiie/mh-53j_gear.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.661,
+   "stand_in": "bookcase",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    168.417,
+    -0.9073,
+    109.5816
+   ],
+   "model": "models/bf2/helicopters/mh-53j pave low iiie/mh-53j_gear.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.661,
+   "stand_in": "bookcase",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    176.1322,
+    -0.9454,
+    111.5628
+   ],
+   "model": "models/bf2/helicopters/mh-53j pave low iiie/mh-53j_gear.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.661,
+   "stand_in": "bookcase",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -165.7119,
+    -2.8273,
+    109.8363
+   ],
+   "model": "models/bf2/helicopters/mh-53j pave low iiie/mh-53j_gear.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.661,
+   "stand_in": "bookcase",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -165.7119,
+    -2.8273,
+    113.7796
+   ],
+   "model": "models/bf2/helicopters/mh-53j pave low iiie/mh-53j_gear.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.661,
+   "stand_in": "bookcase",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -173.4271,
+    -2.8654,
+    111.7984
+   ],
+   "model": "models/bf2/helicopters/mh-53j pave low iiie/mh-53j_gear.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.661,
+   "stand_in": "bookcase",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -61.7792,
+    -26.8167,
+    -117.9386
+   ],
+   "model": "models/mandrac/resource_cache/small_cache.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.934,
+   "stand_in": "barrel",
+   "yaw": 270.5
+  },
+  {
+   "at": [
+    -61.7792,
+    -26.8167,
+    -119.1959
+   ],
+   "model": "models/mandrac/resource_cache/small_cache.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.934,
+   "stand_in": "barrel",
+   "yaw": 270.5
+  },
+  {
+   "at": [
+    -61.7792,
+    -25.2813,
+    -117.9386
+   ],
+   "model": "models/mandrac/resource_cache/small_cache.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.934,
+   "stand_in": "barrel",
+   "yaw": 270.5
+  },
+  {
+   "at": [
+    -61.7792,
+    -25.2813,
+    -119.1959
+   ],
+   "model": "models/mandrac/resource_cache/small_cache.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.934,
+   "stand_in": "barrel",
+   "yaw": 270.5
+  },
+  {
+   "at": [
+    -31.2697,
+    -12.8207,
+    -92.0371
+   ],
+   "model": "models/blueherb.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.378,
+   "stand_in": "bin",
+   "yaw": 157.0
+  },
+  {
+   "at": [
+    -31.2527,
+    -12.8212,
+    -92.4411
+   ],
+   "model": "models/greenherb.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.373,
+   "stand_in": "bin",
+   "yaw": 269.5
+  },
+  {
+   "at": [
+    -39.5265,
+    -26.1557,
+    -116.3574
+   ],
+   "model": "models/haxxer/me2_props/microscope.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.61,
+   "stand_in": "bin",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -39.1098,
+    -26.1557,
+    -116.6237
+   ],
+   "model": "models/testmodels/macbook_pro.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.518,
+   "stand_in": "stump",
+   "yaw": 223.5
+  },
+  {
+   "at": [
+    -48.6347,
+    -25.6142,
+    -116.0481
+   ],
+   "model": "models/mandrac/hw_tank/hw_tank_large.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 2.93,
+   "stand_in": "crate_large",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -46.9773,
+    -25.6142,
+    -116.0481
+   ],
+   "model": "models/mandrac/hw_tank/hw_tank_large.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 2.93,
+   "stand_in": "crate_large",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -45.32,
+    -25.6142,
+    -116.0481
+   ],
+   "model": "models/mandrac/hw_tank/hw_tank_large.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 2.93,
+   "stand_in": "crate_large",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -39.9097,
+    -26.1747,
+    -123.3503
+   ],
+   "model": "models/mandrac/hw_tank/hw_tank_small.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.354,
+   "stand_in": "stump",
+   "yaw": 449.0
+  },
+  {
+   "at": [
+    -51.7368,
+    -26.8789,
+    -116.8725
+   ],
+   "model": "models/mandrac/hydrogen_tank/hydro_tank_large.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 2.829,
+   "stand_in": "barrel",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -44.6151,
+    -25.6142,
+    -127.792
+   ],
+   "model": "models/mandrac/hw_tank/hw_tank_large.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 2.93,
+   "stand_in": "crate_large",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -57.5661,
+    -26.9741,
+    -126.988
+   ],
+   "model": "models/mandrac/hydrogen_tank/hydro_tank_large.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 2.829,
+   "stand_in": "barrel",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    16.5526,
+    5.4838,
+    -32.5974
+   ],
+   "model": "models/suncrest.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.098,
+   "stand_in": "rock",
+   "yaw": 358.5
+  },
+  {
+   "at": [
+    -56.6771,
+    1.9272,
+    -92.6573
+   ],
+   "model": "models/suncrest.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.098,
+   "stand_in": "rock",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -26.6909,
+    5.4648,
+    -30.0447
+   ],
+   "model": "models/suncrest.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.098,
+   "stand_in": "rock",
+   "yaw": 358.5
+  },
+  {
+   "at": [
+    -26.4581,
+    5.5524,
+    -30.0118
+   ],
+   "model": "models/inkribbon.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.085,
+   "stand_in": "stump",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -42.4227,
+    13.9313,
+    -71.4149
+   ],
+   "model": "models/bf2/helicopters/mh-53j pave low iiie/mh-53j_gear.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.661,
+   "stand_in": "bookcase",
+   "yaw": 11.31
+  },
+  {
+   "at": [
+    -42.3813,
+    13.9068,
+    -67.4577
+   ],
+   "model": "models/bf2/helicopters/mh-53j pave low iiie/mh-53j_gear.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.661,
+   "stand_in": "bookcase",
+   "yaw": 135.0
+  },
+  {
+   "at": [
+    -35.1628,
+    14.4838,
+    -69.502
+   ],
+   "model": "models/bf2/helicopters/mh-53j pave low iiie/mh-53j_gear.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.661,
+   "stand_in": "bookcase",
+   "yaw": 0.5
+  },
+  {
+   "at": [
+    -46.4629,
+    -15.9282,
+    -93.3244
+   ],
+   "model": "models/mandrac/hw_tank/hw_tank_small.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.354,
+   "stand_in": "stump",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -46.4629,
+    -14.5647,
+    -93.3244
+   ],
+   "model": "models/mandrac/hw_tank/hw_tank_small.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.354,
+   "stand_in": "stump",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -45.1676,
+    -15.9282,
+    -93.3244
+   ],
+   "model": "models/mandrac/hw_tank/hw_tank_small.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.354,
+   "stand_in": "stump",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -45.1676,
+    -14.5647,
+    -93.3244
+   ],
+   "model": "models/mandrac/hw_tank/hw_tank_small.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.354,
+   "stand_in": "stump",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -47.7774,
+    -13.6351,
+    -90.0113
+   ],
+   "model": "models/mandrac/energy_cell/medium_cell.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.386,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -44.1579,
+    -15.8258,
+    -91.2472
+   ],
+   "model": "models/haxxer/me2_props/microscope.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.61,
+   "stand_in": "bin",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -47.0345,
+    -15.6517,
+    -92.544
+   ],
+   "model": "models/haxxer/normandy/mainframe.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 2.477,
+   "stand_in": "barrel",
+   "yaw": 269.5
+  },
+  {
+   "at": [
+    -23.6049,
+    0.9193,
+    -34.7259
+   ],
+   "model": "models/woodenshield.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.154,
+   "stand_in": "rock",
+   "yaw": 360.0
+  },
+  {
+   "at": [
+    -23.608,
+    0.4501,
+    -34.3817
+   ],
+   "model": "models/goldshield.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.185,
+   "stand_in": "rock",
+   "yaw": 184.0
+  },
+  {
+   "at": [
+    -10.4332,
+    0.793,
+    -13.6523
+   ],
+   "model": "models/goldshield.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.185,
+   "stand_in": "rock",
+   "yaw": 405.0
+  },
+  {
+   "at": [
+    11.6776,
+    5.034,
+    -19.1453
+   ],
+   "model": "models/knight2.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.736,
+   "stand_in": "bookcase",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    16.002,
+    5.034,
+    -18.3642
+   ],
+   "model": "models/knight3.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.74,
+   "stand_in": "bookcase",
+   "yaw": 360.0
+  },
+  {
+   "at": [
+    18.929,
+    5.034,
+    -18.3642
+   ],
+   "model": "models/knight1.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.921,
+   "stand_in": "bookcase",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    21.9594,
+    5.034,
+    -18.3642
+   ],
+   "model": "models/knight4.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 2.089,
+   "stand_in": "bin",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    21.627,
+    5.034,
+    -25.8494
+   ],
+   "model": "models/knight4.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 2.089,
+   "stand_in": "bin",
+   "yaw": 90.5
+  },
+  {
+   "at": [
+    18.8282,
+    5.034,
+    -25.8509
+   ],
+   "model": "models/knight1.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.921,
+   "stand_in": "bookcase",
+   "yaw": 360.0
+  },
+  {
+   "at": [
+    16.002,
+    5.034,
+    -25.8509
+   ],
+   "model": "models/knight3.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.74,
+   "stand_in": "bookcase",
+   "yaw": 180.5
+  },
+  {
+   "at": [
+    11.6395,
+    5.034,
+    -24.7841
+   ],
+   "model": "models/knight2.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.736,
+   "stand_in": "bookcase",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -36.9945,
+    4.8816,
+    -21.1863
+   ],
+   "model": "models/gothic2/rytirnormal.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.545,
+   "stand_in": "bin",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -36.9945,
+    4.8816,
+    -25.0535
+   ],
+   "model": "models/gothic2/rytirnormal.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.545,
+   "stand_in": "bin",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -36.9945,
+    4.8816,
+    -29.6826
+   ],
+   "model": "models/gothic2/rytirnormal.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.545,
+   "stand_in": "bin",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -36.9754,
+    4.8816,
+    -35.0166
+   ],
+   "model": "models/gothic2/rytirnormal.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.545,
+   "stand_in": "bin",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -34.6526,
+    4.8816,
+    -25.048
+   ],
+   "model": "models/gothic2/rytirnormal.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.545,
+   "stand_in": "bin",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -34.6335,
+    4.8816,
+    -29.6962
+   ],
+   "model": "models/gothic2/rytirnormal.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.545,
+   "stand_in": "bin",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -34.6526,
+    4.8816,
+    -35.0112
+   ],
+   "model": "models/gothic2/rytirnormal.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.545,
+   "stand_in": "bin",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -31.3558,
+    6.8795,
+    -19.1643
+   ],
+   "model": "models/wolf/wolfheadsmall.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.986,
+   "stand_in": "stump",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    32.7279,
+    1.8404,
+    -25.1265
+   ],
+   "model": "models/wolf/wolfheadsmall.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.986,
+   "stand_in": "stump",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    17.2969,
+    1.5899,
+    -13.8303
+   ],
+   "model": "models/wolf/wolfheadsmall.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.986,
+   "stand_in": "stump",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -20.347,
+    -0.0031,
+    -24.6491
+   ],
+   "model": "models/fishy/furniture/piano.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 2.701,
+   "stand_in": "stump",
+   "yaw": 228.0
+  },
+  {
+   "at": [
+    -61.3495,
+    -16.6102,
+    -111.1269
+   ],
+   "model": "models/razor/chemicals.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.352,
+   "stand_in": "crate_large",
+   "yaw": 366.0
+  },
+  {
+   "at": [
+    -54.7161,
+    -15.9393,
+    -103.0952
+   ],
+   "model": "models/pcmod/eeepc.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.464,
+   "stand_in": "chest",
+   "yaw": 264.0
+  },
+  {
+   "at": [
+    -19.0927,
+    -12.5865,
+    -93.7493
+   ],
+   "model": "models/pcmod/eeepc.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.464,
+   "stand_in": "chest",
+   "yaw": 277.0
+  },
+  {
+   "at": [
+    -19.1313,
+    -12.5865,
+    -88.2705
+   ],
+   "model": "models/pcmod/eeepc.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.464,
+   "stand_in": "chest",
+   "yaw": 257.5
+  },
+  {
+   "at": [
+    -61.7883,
+    -26.8209,
+    -125.7395
+   ],
+   "model": "models/razor/chemicals.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.352,
+   "stand_in": "crate_large",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -10.4096,
+    -6.8602,
+    -84.0438
+   ],
+   "model": "models/razor/kuctuk03.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 2.38,
+   "stand_in": "stump",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -10.6033,
+    -7.1443,
+    -92.5737
+   ],
+   "model": "models/razor/kuctuk02.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 3.042,
+   "stand_in": "chest",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -15.1121,
+    -6.9809,
+    -83.8355
+   ],
+   "model": "models/razor/kuctuk01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.507,
+   "stand_in": "stump",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -13.0563,
+    -6.9809,
+    -83.8795
+   ],
+   "model": "models/razor/kuctuk01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.507,
+   "stand_in": "stump",
+   "yaw": 347.0
+  },
+  {
+   "at": [
+    -15.3609,
+    -6.858,
+    -92.8302
+   ],
+   "model": "models/razor/kuctuk01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.507,
+   "stand_in": "stump",
+   "yaw": 292.5
+  },
+  {
+   "at": [
+    -13.1123,
+    -6.858,
+    -92.9443
+   ],
+   "model": "models/razor/kuctuk01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.507,
+   "stand_in": "stump",
+   "yaw": 294.5
+  },
+  {
+   "at": [
+    -8.7758,
+    -6.858,
+    -96.834
+   ],
+   "model": "models/razor/kuctuk01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.507,
+   "stand_in": "stump",
+   "yaw": 273.0
+  },
+  {
+   "at": [
+    -8.6748,
+    -6.858,
+    -99.0814
+   ],
+   "model": "models/razor/kuctuk01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.507,
+   "stand_in": "stump",
+   "yaw": 347.0
+  },
+  {
+   "at": [
+    -1.6066,
+    -6.858,
+    -92.7147
+   ],
+   "model": "models/razor/kuctuk01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.507,
+   "stand_in": "stump",
+   "yaw": 347.0
+  },
+  {
+   "at": [
+    -1.9181,
+    -6.858,
+    -91.8694
+   ],
+   "model": "models/razor/kuctuk01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.507,
+   "stand_in": "stump",
+   "yaw": 347.0
+  },
+  {
+   "at": [
+    -2.0634,
+    -6.858,
+    -90.5127
+   ],
+   "model": "models/razor/kuctuk01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.507,
+   "stand_in": "stump",
+   "yaw": 307.0
+  },
+  {
+   "at": [
+    -2.0596,
+    -6.858,
+    -87.9922
+   ],
+   "model": "models/razor/kuctuk01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.507,
+   "stand_in": "stump",
+   "yaw": 347.0
+  },
+  {
+   "at": [
+    -2.1377,
+    -6.858,
+    -86.6536
+   ],
+   "model": "models/razor/kuctuk01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.507,
+   "stand_in": "stump",
+   "yaw": 257.0
+  },
+  {
+   "at": [
+    -2.1367,
+    -6.858,
+    -84.9416
+   ],
+   "model": "models/razor/kuctuk01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.507,
+   "stand_in": "stump",
+   "yaw": 312.0
+  },
+  {
+   "at": [
+    -0.9488,
+    -6.858,
+    -83.0181
+   ],
+   "model": "models/razor/kuctuk01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.507,
+   "stand_in": "stump",
+   "yaw": 305.0
+  },
+  {
+   "at": [
+    0.2463,
+    -6.858,
+    -77.6064
+   ],
+   "model": "models/razor/kuctuk01.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.507,
+   "stand_in": "stump",
+   "yaw": 230.5
+  },
+  {
+   "at": [
+    -12.2888,
+    4.887,
+    -34.8224
+   ],
+   "model": "models/dt/fackel2.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.764,
+   "stand_in": "crate",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -12.345,
+    4.887,
+    -29.7408
+   ],
+   "model": "models/dt/fackel2.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.764,
+   "stand_in": "crate",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -10.7095,
+    4.887,
+    -17.4424
+   ],
+   "model": "models/dt/fackel2.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.764,
+   "stand_in": "crate",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -17.9466,
+    4.887,
+    -21.2588
+   ],
+   "model": "models/dt/fackel2.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.764,
+   "stand_in": "crate",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -34.5963,
+    4.887,
+    -22.459
+   ],
+   "model": "models/dt/fackel2.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.764,
+   "stand_in": "crate",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -37.0347,
+    4.887,
+    -22.459
+   ],
+   "model": "models/dt/fackel2.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.764,
+   "stand_in": "crate",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -34.6344,
+    4.887,
+    -26.5547
+   ],
+   "model": "models/dt/fackel2.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.764,
+   "stand_in": "crate",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -36.9966,
+    4.887,
+    -26.6119
+   ],
+   "model": "models/dt/fackel2.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.764,
+   "stand_in": "crate",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -34.6153,
+    4.887,
+    -31.984
+   ],
+   "model": "models/dt/fackel2.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.764,
+   "stand_in": "crate",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -36.9956,
+    4.887,
+    -32.0221
+   ],
+   "model": "models/dt/fackel2.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.764,
+   "stand_in": "crate",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -34.6344,
+    4.887,
+    -37.0322
+   ],
+   "model": "models/dt/fackel2.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.764,
+   "stand_in": "crate",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -37.0147,
+    4.887,
+    -37.0513
+   ],
+   "model": "models/dt/fackel2.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.764,
+   "stand_in": "crate",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -31.0721,
+    4.887,
+    -17.3726
+   ],
+   "model": "models/dt/fackel2.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.764,
+   "stand_in": "crate",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -10.8551,
+    0.0048,
+    -6.2865
+   ],
+   "model": "models/madebycn/urn.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 2.726,
+   "stand_in": "bin",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -10.817,
+    0.0048,
+    -13.2398
+   ],
+   "model": "models/madebycn/urn.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 2.726,
+   "stand_in": "bin",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    3.3562,
+    0.0048,
+    2.7432
+   ],
+   "model": "models/madebycn/urn.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 2.726,
+   "stand_in": "bin",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -3.3494,
+    0.0048,
+    2.7432
+   ],
+   "model": "models/madebycn/urn.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 2.726,
+   "stand_in": "bin",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -53.2539,
+    -16.6102,
+    -91.4494
+   ],
+   "model": "models/razor/chemicals.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.352,
+   "stand_in": "crate_large",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -51.1197,
+    -16.6068,
+    -95.1856
+   ],
+   "model": "models/testmodels/drinking_fountain.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 0.78,
+   "stand_in": "bin",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -46.1693,
+    -16.6173,
+    -89.7831
+   ],
+   "model": "models/ill_hanger/props/meddevice.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.316,
+   "stand_in": "bin",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -44.5788,
+    -26.9044,
+    -123.3952
+   ],
+   "model": "models/ill_hanger/props/meddevice.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 1.316,
+   "stand_in": "bin",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    12.7314,
+    5.034,
+    -22.0125
+   ],
+   "model": "models/madebycn/wolfking_throne.mdl",
+   "scale": 1.0,
+   "shape": true,
+   "size": 2.921,
+   "stand_in": "chest",
+   "yaw": 0.0
   }
  ],
  "scripts": [],
@@ -96129,7 +97558,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
-   "free": "generated:flat:808080",
+   "free": "generated:flat:000000",
    "generic": "flat",
    "index_count": 42,
    "index_offset": 556220,
@@ -116807,7 +118236,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
-   "free": "generated:flat:808080",
+   "free": "generated:flat:000000",
    "generic": "flat",
    "index_count": 60,
    "index_offset": 2732332,
@@ -121266,7 +122695,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
-   "free": "generated:flat:808080",
+   "free": "generated:flat:000000",
    "generic": "flat",
    "index_count": 60,
    "index_offset": 3292088,

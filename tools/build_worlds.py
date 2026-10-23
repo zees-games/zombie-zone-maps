@@ -178,8 +178,9 @@ def main(argv):
     credit["note"] = "Geometry converted from the original map with credit; its textures and models are not used. Removed on the author's request."
     doc = mesh.write(m, os.path.join(out_dir, map_id), credit=credit, name=map_id, extra=extra)
     # The licence pass: every texture a free one, the models and sounds stand-ins (dot-map's tables), props placed.
-    licence.annotate(doc, out_dir, models=importer.placed_models(bsp))
-    doc["props"] = standins.placements(bsp, y0=y0)
+    shaped = standins.shape_matches(bsp)
+    licence.annotate(doc, out_dir, models=importer.placed_models(bsp), shaped=shaped)
+    doc["props"] = standins.placements(bsp, y0=y0, shaped=shaped)
     problems = licence.check(doc)
     with open(os.path.join(out_dir, map_id + ".json"), "w") as f:
         json.dump(doc, f, indent=1, sort_keys=True)

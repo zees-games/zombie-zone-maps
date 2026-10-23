@@ -25,8 +25,8 @@
   "looked_up": 393,
   "by_tier": {
    "default": 300,
-   "fallback": 85,
-   "skybox": 8
+   "fallback": 86,
+   "skybox": 7
   }
  },
  "sounds": {
@@ -322,6 +322,7 @@
    "props_rooftop/antennaclusters01a.mdl",
    "props_rooftop/gutter_drain001.mdl",
    "props_rooftop/roof_dish001.mdl",
+   "props_sky/lowpoly_vstill_scenery.mdl",
    "props_skyscraper/ceilingtruss_128x128.mdl",
    "props_skyscraper/ceilingtruss_64x64.mdl",
    "props_skyscraper/ceilingtruss_96x96.mdl",
@@ -470,7 +471,7 @@
  "counts": {
   "textures_unmapped": 7,
   "textures_flat": 1,
-  "models_unmapped": 85,
+  "models_unmapped": 86,
   "sounds_unmapped": 4,
   "classes_unmapped": 0,
   "keys_unmapped": 121,
