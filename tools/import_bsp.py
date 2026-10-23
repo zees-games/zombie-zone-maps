@@ -1463,7 +1463,11 @@ def main(argv):
             if key in taken or not on_main(cx, h, cz):
                 continue
             taken[key] = [r3(cx), r3(h + al.get("height", 2.3)), r3(cz)]
-        for at in list(taken.values())[:al.get("max", 100)]:
+        picked = list(taken.items())[:al.get("max", 100)]
+        if al.get("checker"):
+            # Every other cell of the lamp grid: a sparse, dim building instead of a lit shop.
+            picked = [(k, v) for k, v in picked if (k[0] + k[1]) % 2 == 0]
+        for _k, at in picked:
             lights.append({"at": at, "range": al.get("range", 7.0), "energy": al.get("energy", 0.9), "colour": al.get("colour", [1.0, 0.93, 0.8])})
     for e in ents:
         if e.get("classname") in ("light", "light_spot") and len(lights) < 120 and not al:
