@@ -23,6 +23,8 @@ if s.get("crop") and not hc.get("uncropped"):
     print("--within=%s" % ",".join(map(str, s["crop"])))
 if s.get("clip_y") and not hc.get("uncropped"):
     print("--band=%s" % ",".join(map(str, s["clip_y"])))
+if s.get("walk_limit"):    # a per-map exception to the global 0.002; walk_limit_reason says why (printed below)
+    print("--max-loss=%s" % s["walk_limit"])
 if s.get("walk_band"):    # drop_lids/drop_decor removed what stands above the street on purpose (importer prints the count)
     print("--band=%s" % ",".join(map(str, s["walk_band"])))
 # breakables the game cannot break stay passable unless the spec makes them solid (import_bsp.BREAKABLE)
@@ -40,6 +42,8 @@ PY
     [ -n "$pack" ] && [ -f "$HERE/../world/$pack/$id.json" ] && args+=("--world=$HERE/../world/$pack/$id")
     python3 -I "$BSPPY" audit "$STORE/$h/source.bsp" --doc "$DOCS/$id.json" "${args[@]}" > "$log" 2>&1
     rc=$?
+    reason="$(python3 -I -c "import json,sys;print(json.load(open(sys.argv[1])).get('walk_limit_reason',''))" "$HERE/bsp/$id.json")"
+    [ -n "$reason" ] && echo "$id: walk limit exception: $reason"
     echo "$id $(grep -h 'lost:' "$log" | sed 's/^ *//')$([ $rc -ne 0 ] && echo "  FAIL (see $log)")"
     [ $rc -ne 0 ] && fail=1
 done < <(grep -v '^#' "$HERE/convert/ship.tsv")

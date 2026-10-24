@@ -353,5 +353,7 @@
       0
     ]
   ],
-  "widen_doorways": 1.7
+  "widen_doorways": 1.7,
+  "walk_limit": 0.05,
+  "walk_limit_reason": "The shipped document predates grate and ladder brushes (21 invisible grates and one ladder missing: brushes 0.0468, floor 0.0039). A re-conversion with the current importer splits the ground (368 of 2637 points on the main one) and crashes the toys, so the map stays as authored; redo it with the route."
 }
