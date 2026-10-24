@@ -100,6 +100,8 @@ GAME_MATERIAL = {
     "plaster_worn": "plaster", "stone_wall": "stone", "roof_tiles": "roof", "tile_floor": "tile",
     "brick_red": "brick", "mud": "dirt", "snow": "concrete", "flat": "concrete",
     "rock": "stone", "stone_block": "stone", "roof_clay": "roof", "ceiling_tile": "ceiling", "foliage_card": "grass",
+    # See-through generics (dot-map vis.SEE_THROUGH_GENERIC): the box keeps a metal or glass look, the drawn world cuts them out.
+    "fence": "metal", "grate": "metal", "bars": "metal", "ladder": "metal", "chainlink": "metal", "shield": "glass", "invisible": "concrete",
 }
 
 # Where this game had a more specific surface than the list's id, and keeps it: a road and a pavement are not
