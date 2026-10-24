@@ -737,7 +737,8 @@
     0.305
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "nodraw"
   },
   {
    "at": [
@@ -2457,157 +2458,333 @@
   },
   {
    "at": [
-    7.269,
-    0.671,
+    7.178,
+    0.64,
     23.774
    ],
    "size": [
-    0.366,
-    0.122,
+    0.183,
+    0.061,
     3.658
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
-    7.635,
-    0.899,
+    7.361,
+    0.716,
     23.774
    ],
    "size": [
-    0.366,
-    0.152,
-    3.658
-   ],
-   "mat": "concrete",
-   "visible": false
-  },
-  {
-   "at": [
-    8.001,
-    1.143,
-    23.774
-   ],
-   "size": [
-    0.366,
+    0.183,
     0.152,
     3.658
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
-    8.367,
-    1.387,
+    7.544,
+    0.838,
     23.774
    ],
    "size": [
-    0.366,
+    0.183,
     0.152,
     3.658
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
-    8.733,
-    1.631,
+    7.727,
+    0.96,
     23.774
    ],
    "size": [
-    0.366,
+    0.183,
     0.152,
     3.658
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
+  },
+  {
+   "at": [
+    7.91,
+    1.082,
+    23.774
+   ],
+   "size": [
+    0.183,
+    0.152,
+    3.658
+   ],
+   "mat": "concrete",
+   "visible": false,
+   "kind": "clip"
+  },
+  {
+   "at": [
+    8.092,
+    1.204,
+    23.774
+   ],
+   "size": [
+    0.183,
+    0.152,
+    3.658
+   ],
+   "mat": "concrete",
+   "visible": false,
+   "kind": "clip"
+  },
+  {
+   "at": [
+    8.275,
+    1.326,
+    23.774
+   ],
+   "size": [
+    0.183,
+    0.152,
+    3.658
+   ],
+   "mat": "concrete",
+   "visible": false,
+   "kind": "clip"
+  },
+  {
+   "at": [
+    8.458,
+    1.448,
+    23.774
+   ],
+   "size": [
+    0.183,
+    0.152,
+    3.658
+   ],
+   "mat": "concrete",
+   "visible": false,
+   "kind": "clip"
+  },
+  {
+   "at": [
+    8.641,
+    1.57,
+    23.774
+   ],
+   "size": [
+    0.183,
+    0.152,
+    3.658
+   ],
+   "mat": "concrete",
+   "visible": false,
+   "kind": "clip"
+  },
+  {
+   "at": [
+    8.824,
+    1.692,
+    23.774
+   ],
+   "size": [
+    0.183,
+    0.152,
+    3.658
+   ],
+   "mat": "concrete",
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
     10.439,
-    1.892,
-    21.984
+    1.861,
+    22.079
    ],
    "size": [
     2.743,
-    0.127,
-    0.381
+    0.063,
+    0.191
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
     10.439,
-    2.134,
-    21.603
+    1.943,
+    21.889
    ],
    "size": [
     2.743,
     0.152,
-    0.381
+    0.191
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
     10.439,
-    2.388,
-    21.222
+    2.07,
+    21.698
    ],
    "size": [
     2.743,
     0.152,
-    0.381
+    0.191
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
     10.439,
-    2.642,
-    20.841
+    2.197,
+    21.508
    ],
    "size": [
     2.743,
     0.152,
-    0.381
+    0.191
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
     10.439,
-    2.896,
-    20.46
+    2.324,
+    21.317
    ],
    "size": [
     2.743,
     0.152,
-    0.381
+    0.191
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
     10.439,
-    3.15,
-    20.079
+    2.451,
+    21.127
    ],
    "size": [
     2.743,
     0.152,
-    0.381
+    0.191
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
+  },
+  {
+   "at": [
+    10.439,
+    2.578,
+    20.936
+   ],
+   "size": [
+    2.743,
+    0.152,
+    0.191
+   ],
+   "mat": "concrete",
+   "visible": false,
+   "kind": "clip"
+  },
+  {
+   "at": [
+    10.439,
+    2.705,
+    20.745
+   ],
+   "size": [
+    2.743,
+    0.152,
+    0.191
+   ],
+   "mat": "concrete",
+   "visible": false,
+   "kind": "clip"
+  },
+  {
+   "at": [
+    10.439,
+    2.832,
+    20.555
+   ],
+   "size": [
+    2.743,
+    0.152,
+    0.191
+   ],
+   "mat": "concrete",
+   "visible": false,
+   "kind": "clip"
+  },
+  {
+   "at": [
+    10.439,
+    2.959,
+    20.364
+   ],
+   "size": [
+    2.743,
+    0.152,
+    0.191
+   ],
+   "mat": "concrete",
+   "visible": false,
+   "kind": "clip"
+  },
+  {
+   "at": [
+    10.439,
+    3.086,
+    20.174
+   ],
+   "size": [
+    2.743,
+    0.152,
+    0.191
+   ],
+   "mat": "concrete",
+   "visible": false,
+   "kind": "clip"
+  },
+  {
+   "at": [
+    10.439,
+    3.213,
+    19.983
+   ],
+   "size": [
+    2.743,
+    0.152,
+    0.191
+   ],
+   "mat": "concrete",
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -2621,7 +2798,8 @@
     0.61
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -2713,7 +2891,8 @@
     14.326
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -2727,7 +2906,8 @@
     0.305
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -2741,7 +2921,8 @@
     14.935
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -2755,7 +2936,8 @@
     0.305
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -2769,7 +2951,8 @@
     0.305
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -2783,7 +2966,8 @@
     0.305
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -2797,7 +2981,8 @@
     5.182
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -2811,7 +2996,8 @@
     6.706
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -2825,7 +3011,8 @@
     0.305
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -2839,7 +3026,8 @@
     10.973
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -2853,7 +3041,8 @@
     0.305
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -2867,7 +3056,8 @@
     37.795
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -2881,7 +3071,8 @@
     19.507
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -2895,7 +3086,8 @@
     26.518
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -2909,7 +3101,8 @@
     10.973
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -3588,7 +3781,8 @@
     116.434
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -3602,7 +3796,8 @@
     6.096
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -3616,7 +3811,8 @@
     97.536
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -3630,7 +3826,8 @@
     9.754
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -3644,7 +3841,8 @@
     10.973
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -3658,7 +3856,8 @@
     4.267
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -3672,7 +3871,8 @@
     15.24
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "nodraw"
   },
   {
    "at": [
@@ -3686,7 +3886,8 @@
     107.29
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "nodraw"
   },
   {
    "at": [
@@ -3700,7 +3901,8 @@
     107.29
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -3714,7 +3916,8 @@
     15.24
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [

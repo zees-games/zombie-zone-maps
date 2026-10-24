@@ -920,7 +920,8 @@
    ],
    "mat": "concrete",
    "yaw": 1.15,
-   "visible": false
+   "visible": false,
+   "kind": "nodraw"
   },
   {
    "at": [
@@ -934,7 +935,8 @@
     0.229
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "nodraw"
   },
   {
    "at": [
@@ -948,7 +950,8 @@
     0.229
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "nodraw"
   },
   {
    "at": [
@@ -963,7 +966,8 @@
    ],
    "mat": "concrete",
    "yaw": 1.18,
-   "visible": false
+   "visible": false,
+   "kind": "nodraw"
   },
   {
    "at": [
@@ -977,7 +981,8 @@
     0.229
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "nodraw"
   },
   {
    "at": [
@@ -1018,7 +1023,8 @@
    ],
    "mat": "concrete",
    "yaw": 1.0,
-   "visible": false
+   "visible": false,
+   "kind": "nodraw"
   },
   {
    "at": [
@@ -1033,7 +1039,8 @@
    ],
    "mat": "concrete",
    "yaw": 1.05,
-   "visible": false
+   "visible": false,
+   "kind": "nodraw"
   },
   {
    "at": [
@@ -1048,7 +1055,8 @@
    ],
    "mat": "concrete",
    "yaw": 1.05,
-   "visible": false
+   "visible": false,
+   "kind": "nodraw"
   },
   {
    "at": [
@@ -1063,7 +1071,8 @@
    ],
    "mat": "concrete",
    "yaw": 89.52,
-   "visible": false
+   "visible": false,
+   "kind": "nodraw"
   },
   {
    "at": [
@@ -1077,7 +1086,8 @@
     37.929
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -1091,7 +1101,8 @@
     39.472
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -1105,7 +1116,8 @@
     1.314
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -1119,7 +1131,8 @@
     38.5
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -1133,7 +1146,8 @@
     38.31
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -1147,7 +1161,8 @@
     0.762
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -1161,7 +1176,8 @@
     48.978
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -1175,7 +1191,8 @@
     0.02
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -1217,7 +1234,8 @@
     36.233
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -1231,7 +1249,8 @@
     36.233
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -1245,7 +1264,8 @@
     1.105
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -1548,25 +1568,12 @@
   },
   {
    "at": [
-    -56.355,
-    24.901,
+    -56.255,
+    24.979,
     -120.987
    ],
    "size": [
-    0.398,
-    0.373,
-    0.343
-   ],
-   "mat": "metal"
-  },
-  {
-   "at": [
-    -55.956,
-    25.308,
-    -120.987
-   ],
-   "size": [
-    0.398,
+    0.199,
     0.435,
     0.343
    ],
@@ -1574,13 +1581,52 @@
   },
   {
    "at": [
-    -55.558,
-    25.715,
+    -56.056,
+    25.198,
     -120.987
    ],
    "size": [
-    0.398,
-    0.373,
+    0.199,
+    0.435,
+    0.343
+   ],
+   "mat": "metal"
+  },
+  {
+   "at": [
+    -55.857,
+    25.417,
+    -120.987
+   ],
+   "size": [
+    0.199,
+    0.435,
+    0.343
+   ],
+   "mat": "metal"
+  },
+  {
+   "at": [
+    -55.658,
+    25.636,
+    -120.987
+   ],
+   "size": [
+    0.199,
+    0.435,
+    0.343
+   ],
+   "mat": "metal"
+  },
+  {
+   "at": [
+    -55.459,
+    25.731,
+    -120.987
+   ],
+   "size": [
+    0.199,
+    0.187,
     0.343
    ],
    "mat": "metal"
@@ -2068,6 +2114,32 @@
     0.762
    ],
    "mat": "plaster"
+  },
+  {
+   "at": [
+    -75.8,
+    38.662,
+    -43.748
+   ],
+   "size": [
+    14.516,
+    0.438,
+    9.62
+   ],
+   "mat": "wood"
+  },
+  {
+   "at": [
+    -51.835,
+    27.489,
+    -105.508
+   ],
+   "size": [
+    8.572,
+    0.114,
+    1.01
+   ],
+   "mat": "wood_floor"
   },
   {
    "at": [
@@ -3656,6 +3728,31 @@
    -60.0,
    22.31,
    -65.0
+  ],
+  [
+   -71.45,
+   22.31,
+   -2.95
+  ],
+  [
+   -70.45,
+   22.31,
+   -5.95
+  ],
+  [
+   -69.45,
+   22.31,
+   -3.95
+  ],
+  [
+   -69.45,
+   22.31,
+   -7.95
+  ],
+  [
+   -68.45,
+   22.31,
+   -5.95
   ]
  ],
  "posts": [],
