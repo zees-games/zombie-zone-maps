@@ -36,6 +36,7 @@ import math
 import os
 import re
 import sys
+import zlib
 from collections import deque
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -52,7 +53,7 @@ def _dotbsp_path():
 
 
 sys.path.insert(1, _dotbsp_path())
-from dotbsp import boxes as dboxes, docboxes, intermediate, reader, texturemap  # noqa: E402
+from dotbsp import boxes as dboxes, classes as dclasses, docboxes, intermediate, reader, texturemap  # noqa: E402
 from dotbsp import terrain as dterrain  # noqa: E402
 
 # The displacement ground (dotbsp.terrain.Heightfield) the floods walk by slope; None without terrain.
@@ -593,7 +594,7 @@ def model_boxes(bs, model, y0):
         if not rec["hull"]:
             continue
         br = read_brush(bs.doc, rec)
-        if not br.pts or not (br.contents & (1 | 0x2 | 0x10000)):
+        if not br.pts or not (br.contents & (1 | 0x2 | 0x8 | 0x10000)):
             continue
         kind, mat = classify(br)
         made = boxes_from_brush(br, y0)
@@ -736,11 +737,95 @@ def widen_doorways(boxes, width, min_gap=0.5, min_h=1.5):
     return opened
 
 
+BREAKABLE = ("func_breakable", "func_breakable_surf", "func_physbox", "func_physbox_multiplayer")
+WIRE_BUDGET = 58500     # ZzMapDoc.WIRE_LIMIT (60000) less the header and the gap between this zlib and the engine's deflate
+LIMITS = {"boxes": 6000, "floors": 800, "links": 600}   # ZzMapDoc.MAX_BOXES, MAX_NAV_FLOORS, MAX_NAV_LINKS
+
+
+def wire_size(path):
+    """(boxes, compressed bytes, room) of a written document; room < 1 is over a limit by that ratio."""
+    with open(path) as f:
+        doc = json.load(f)
+    size = len(zlib.compress(json.dumps(doc, separators=(",", ":")).encode(), 9))
+    nav = doc.get("nav") or {}
+    counts = {"boxes": len(doc.get("boxes", [])), "floors": len(nav.get("floors", [])), "links": len(nav.get("links", []))}
+    room = min([WIRE_BUDGET / max(1, size)] + [LIMITS[k] / max(1, v) for k, v in counts.items()])
+    return counts["boxes"], size, room
+
+
+def fits(path):
+    """Whether a written document fits on the wire and under every count the game reads."""
+    return wire_size(path)[2] >= 1.0
+
+
 def main(argv):
     if len(argv) < 3:
         print(__doc__)
         return 2
+    # `drop_small` and `max_boxes` are a budget: every box is drawn by the world pack, so a dropped one
+    # is something a body walks through. The whole map is tried first, then the fewest drops that fit.
     spec = json.load(open(argv[1]))
+    path = os.path.join(argv[3] if len(argv) > 3 else os.path.join(HERE, "..", "maps"), spec["id"] + ".json")
+    rc = convert(argv, skip=("drop_small", "max_boxes"))
+    if rc or fits(path):
+        return rc
+    whole = wire_size(path)
+    if spec.get("drop_small"):
+        print("  over the wire budget with every box: dropping small ones")
+        rc = convert(argv, skip=("max_boxes",))
+        if rc:
+            return rc
+        if fits(path):
+            return put_back(argv, path, whole)
+    # Still over: keep the largest boxes the budget holds (the spec's `max_boxes` is only the first guess).
+    n, _, room = wire_size(path)
+    cap = min(int(spec.get("max_boxes") or n * room * 0.97), LIMITS["boxes"])
+    best = None
+    for _ in range(4):
+        print("  over the wire budget: keeping the %d largest boxes" % cap)
+        rc = convert(argv, max_boxes=cap)
+        if rc:
+            return rc
+        room = wire_size(path)[2]
+        if room >= 1.0:
+            best = cap
+            grown = min(int(cap * room * 0.97), LIMITS["boxes"])
+            if grown < cap * 1.03:
+                return 0
+            cap = grown
+        elif best is not None:
+            return convert(argv, max_boxes=best)
+        else:
+            cap = int(cap * room * 0.97)
+    if best is None:
+        print("  still over the wire budget")
+    return 0
+
+
+def put_back(argv, path, whole):
+    """After dropping every small box fits: put back the largest of them as far as the budget goes."""
+    dropped = wire_size(path)
+    per_box = max(1.0, (whole[1] - dropped[1]) / max(1, whole[0] - dropped[0]))
+    keep = min(int((WIRE_BUDGET * 0.98 - dropped[1]) / per_box), int(dropped[0] * (dropped[2] - 1.0)))
+    for _ in range(3):
+        if keep < 50:
+            break
+        print("  putting back the %d largest small boxes" % keep)
+        rc = convert(argv, skip=("max_boxes",), keep_small=keep)
+        if rc or fits(path):
+            return rc
+        n, _, room = wire_size(path)    # over: scale by what those boxes really cost
+        keep = int(n * room * 0.97) - dropped[0]
+    print("  over the wire budget with them: dropping every small box again")
+    return convert(argv, skip=("max_boxes",))
+
+
+def convert(argv, skip=(), keep_small=0, max_boxes=0):
+    spec = json.load(open(argv[1]))
+    for k in skip:
+        spec.pop(k, None)
+    if max_boxes:
+        spec["max_boxes"] = max_boxes
     global THIN_WALLS, GREEDY_FLOORS, THIN_LINTELS
     THIN_LINTELS = bool(spec.get("thin_lintels"))
     THIN_WALLS = bool(spec.get("thin_walls"))
@@ -784,9 +869,18 @@ def main(argv):
         if not m.startswith("*"):
             continue
         cls = e.get("classname")
-        if cls in spec.get("solid_classes", []):
-            boxes.extend(model_boxes(bs, int(m[1:]), y0))
-        elif cls in spec.get("gate_classes", []):
+        # dot-map's world-treatment classes (func_wall, func_breakable, func_physbox...) are drawn by the
+        # global pack, so they collide here too: drawn and not solid is a floor somebody falls through.
+        gate = cls in spec.get("gate_classes", [])
+        if cls == spec.get("barricade_class"):
+            continue
+        if not gate and (cls in spec.get("solid_classes", []) or dclasses.treatment(cls)[0] == "world"):
+            mb = model_boxes(bs, int(m[1:]), y0)
+            if cls in BREAKABLE and cls not in spec.get("solid_classes", []):
+                # the game breaks nothing: an upright breakable (a door, a window) would close its way for good
+                mb = [b for b in mb if b["size"][1] <= 0.5]
+            boxes.extend(mb)
+        elif gate:
             only = spec.get("gate_names")
             gb = model_boxes(bs, int(m[1:]), y0)
             if gb and (only is None or e.get("targetname") in only):
@@ -968,6 +1062,9 @@ def main(argv):
             # flight of 0.25 m risers is within that of every point on it, so no point stood on a stair.
             tread_ids.update(id(b) for b in treads)
             print("  keep_treads: %d small boxes kept as stair treads" % len(treads))
+        if keep_small:
+            small.sort(key=lambda b: b["size"][0] * b["size"][1] * b["size"][2])
+            small = small[:max(0, len(small) - keep_small)]
         boxes[:] = [b for b in boxes if b not in small]
         print("  dropped %d small boxes" % len(small))
     if spec.get("max_boxes") and len(boxes) > spec["max_boxes"]:
@@ -1013,47 +1110,14 @@ def main(argv):
                     break
         boxes[:] = [b for b in boxes if id(b) not in buried]
         print("  dropped %d buried box(es)" % len(buried))
-    if spec.get("drop_ramps"):
-        # The horde's graph joins two points only when they differ by half a spacing at most, so a
-        # stair steeper than one in two has no way up for a zombie, and an upper floor it cannot
-        # climb to would be a place the team holds for ever. The steep slopes go; what is left of
-        # the map is level ground.
-        # [b]Only the ramps a survivor walks onto.[/b] Dropping every slab-cut brush that rose 0.9 m
-        # took 4-Way Tunnel's tunnel walls, arches and the outsides of its roofs (2845 boxes, two
-        # thirds of the map) and left floating chunks in a void. A survivor flood (the body's own
-        # step and jump, over every box) finds the ramps somebody can stand on; the rest stay.
-        keep_step, STEP, JUMP = (STEP, JUMP), 0.42, 0.9
-        ss0 = spec.get("survivor_start")
-        reach = build_nav(boxes, [ss0["at"]] if ss0 else [gpt(parse_vec(e["origin"]), y0) for e in surv])[2]
-        STEP, JUMP = keep_step
-        stood = {}
-        for ix, iz, h in reach:
-            stood.setdefault((ix, iz), set()).add(h)
-        # `drop_every_ramp` keeps the old rule (every slab-cut brush that rises that far, walked or
-        # not, walls and arches too) for a map whose document is too big for the wire with them:
-        # the mall's arches are 349 boxes and 1% of its drawn area, and took it past WIRE_LIMIT.
-        every = spec.get("drop_every_ramp", False)
-        walked = set()
-        for b in boxes:
-            if b.get("_rise", 0) < spec["drop_ramps"] or b["_brush"] in walked:
-                continue
-            if every:
-                walked.add(b["_brush"])
-                continue
-            if not b["_walkable"]:
-                continue
-            top = b["at"][1] + b["size"][1] / 2
-            x0, x1 = b["at"][0] - b["size"][0] / 2, b["at"][0] + b["size"][0] / 2
-            z0, z1 = b["at"][2] - b["size"][2] / 2, b["at"][2] + b["size"][2] / 2
-            r = math.hypot(b["size"][0], b["size"][2]) / 2 if b.get("yaw") else 0.0
-            if any(abs(h - top) <= 0.05 and inside_box(b, (ix + 0.5) * CELL, (iz + 0.5) * CELL)
-                   for ix in range(int(math.floor((x0 - r) / CELL)), int(math.floor((x1 + r) / CELL)) + 1)
-                   for iz in range(int(math.floor((z0 - r) / CELL)), int(math.floor((z1 + r) / CELL)) + 1)
-                   for h in stood.get((ix, iz), ())):
-                walked.add(b["_brush"])
-        gone = [b for b in boxes if b.get("_brush") in walked]
-        boxes[:] = [b for b in boxes if b.get("_brush") not in walked]
-        print("  dropped %d slab(s) of %d ramp(s) rising %.1f m or more%s" % (len(gone), len(walked), spec["drop_ramps"], "" if every else " that a survivor walks onto"))
+    if spec.get("drop_ramps") and spec.get("drop_every_ramp"):
+        # Only for a document too big for the wire (the mall): slab-cut brushes rising `drop_ramps`
+        # metres that no body could walk up (tunnel walls, arches) go. A walkable ramp or stair always
+        # stays: the drawn world shows it, and a ramp with no collision is a floor players fall through.
+        gone_ids = {b["_brush"] for b in boxes if b.get("_rise", 0) >= spec["drop_ramps"] and not b["_walkable"]}
+        n0 = len(boxes)
+        boxes[:] = [b for b in boxes if b.get("_brush") not in gone_ids]
+        print("  dropped %d slab(s) of %d unwalkable slab brush(es) rising %.1f m or more" % (n0 - len(boxes), len(gone_ids), spec["drop_ramps"]))
     for g in spec.get("extra_gates", []):
         gate_cands.append((dict(g), [dict(b) for b in g["boxes"]]))
 
