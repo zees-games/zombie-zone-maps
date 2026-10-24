@@ -23,6 +23,8 @@ if s.get("crop") and not hc.get("uncropped"):
     print("--within=%s" % ",".join(map(str, s["crop"])))
 if s.get("clip_y") and not hc.get("uncropped"):
     print("--band=%s" % ",".join(map(str, s["clip_y"])))
+if s.get("walk_band"):    # drop_lids/drop_decor removed what stands above the street on purpose (importer prints the count)
+    print("--band=%s" % ",".join(map(str, s["walk_band"])))
 # breakables the game cannot break stay passable unless the spec makes them solid (import_bsp.BREAKABLE)
 for cls in ("func_breakable", "func_breakable_surf", "func_physbox", "func_physbox_multiplayer"):
     if cls not in s.get("solid_classes", []) or cls == s.get("barricade_class"):
