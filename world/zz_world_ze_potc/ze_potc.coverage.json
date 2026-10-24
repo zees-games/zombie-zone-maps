@@ -14,10 +14,10 @@
   "nearest_photo": []
  },
  "models": {
-  "looked_up": 61,
+  "looked_up": 58,
   "by_tier": {
-   "default": 51,
-   "fallback": 10
+   "default": 53,
+   "fallback": 5
   }
  },
  "sounds": {
@@ -205,16 +205,11 @@
   "textures_unmapped": [],
   "textures_flat": [],
   "models_unmapped": [
-   "effects/vol_light.mdl",
    "parrot.mdl",
-   "props/cs_italy/it_wndg.mdl",
    "props/pi_arch128x32.mdl",
    "props/piratehat.mdl",
    "props_canal/canalmap001.mdl",
-   "props_docks/dock01_pole01a_128.mdl",
-   "props_docks/dock01_pole01a_256.mdl",
-   "props_docks/dockpole01a.mdl",
-   "props_junk/harpoon002a.mdl"
+   "props_docks/dockpole01a.mdl"
   ],
   "sounds_unmapped": [
    "ambient/levels/coast/seagulls_ambient1.wav",
@@ -344,7 +339,7 @@
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 10,
+  "models_unmapped": 5,
   "sounds_unmapped": 2,
   "classes_unmapped": 0,
   "keys_unmapped": 116,

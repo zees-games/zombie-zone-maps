@@ -32,6 +32,9 @@ for c in s.get("cut", []):
 PY
 )
     log="${TMPDIR:-/tmp}/walk-$id.log"
+    # a document with `world_collision` also collides with its world pack's hulls
+    pack="$(python3 -I -c "import json,sys;print(json.load(open(sys.argv[1])).get('world',''))" "$DOCS/$id.json")"
+    [ -n "$pack" ] && [ -f "$HERE/../world/$pack/$id.json" ] && args+=("--world=$HERE/../world/$pack/$id")
     python3 -I "$BSPPY" audit "$STORE/$h/source.bsp" --doc "$DOCS/$id.json" "${args[@]}" > "$log" 2>&1
     rc=$?
     echo "$id $(grep -h 'lost:' "$log" | sed 's/^ *//')$([ $rc -ne 0 ] && echo "  FAIL (see $log)")"

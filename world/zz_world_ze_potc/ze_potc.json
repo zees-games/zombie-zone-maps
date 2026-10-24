@@ -1,10 +1,10 @@
 {
  "bin": {
-  "bytes": 6201148,
+  "bytes": 7178540,
   "compression": "gzip",
   "file": "ze_potc.bin",
-  "sha256": "04a6c8c0d69dec5dc6a1050ba2fc483b2db306438740d2dab37e438662448168",
-  "stored_bytes": 2942240
+  "sha256": "d7aa92d3edc2d6ca60b11b35001a285911858241d394c12c418f09e1a2aec232",
+  "stored_bytes": 3356838
  },
  "breakables": [
   {
@@ -23848,6 +23848,15 @@
    },
    {
     "author": "Kenney",
+    "count": 11,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Factory Kit",
+    "stand_in": "factory/window",
+    "url": "https://kenney.nl/assets/factory-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 1,
     "files": [],
     "licence": "CC0-1.0",
@@ -23872,6 +23881,15 @@
     "source": "Kenney Graveyard Kit",
     "stand_in": "graveyard/gravestone",
     "url": "https://kenney.nl/assets/graveyard-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 28,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Nature Kit",
+    "stand_in": "log",
+    "url": "https://kenney.nl/assets/nature-kit"
    },
    {
     "author": "Kenney",
@@ -23941,7 +23959,7 @@
    {
     "count": 8,
     "model": "models/effects/vol_light.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 4,
@@ -23951,7 +23969,7 @@
    {
     "count": 1,
     "model": "models/parrot.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "measured_box"
    },
    {
     "count": 16,
@@ -23976,7 +23994,7 @@
    {
     "count": 11,
     "model": "models/props/cs_italy/it_wndg.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/window"
    },
    {
     "count": 5,
@@ -24106,12 +24124,12 @@
    {
     "count": 1,
     "model": "models/props_docks/dock01_pole01a_128.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 3,
     "model": "models/props_docks/dock01_pole01a_256.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
@@ -24136,7 +24154,7 @@
    {
     "count": 28,
     "model": "models/props_junk/harpoon002a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "log"
    },
    {
     "count": 3,
@@ -28435,6 +28453,114 @@
  "props": [
   {
    "at": [
+    16.764,
+    28.2893,
+    126.7968
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 195.0
+  },
+  {
+   "at": [
+    19.7629,
+    27.9273,
+    126.8602
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 195.0
+  },
+  {
+   "at": [
+    21.9572,
+    28.0607,
+    124.4693
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    14.0134,
+    27.8639,
+    118.2965
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 210.0
+  },
+  {
+   "at": [
+    18.3706,
+    27.5019,
+    119.5077
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 210.0
+  },
+  {
+   "at": [
+    19.8714,
+    27.6353,
+    116.6302
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 285.0
+  },
+  {
+   "at": [
+    18.7377,
+    27.3749,
+    56.5688
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 150.0
+  },
+  {
+   "at": [
+    19.8674,
+    27.0129,
+    60.9478
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 150.0
+  },
+  {
+   "at": [
+    23.1099,
+    27.1463,
+    60.8089
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 225.0
+  },
+  {
+   "at": [
     21.3741,
     27.5654,
     59.6456
@@ -28444,50 +28570,6 @@
    "size": 0.25,
    "stand_in": "cardboard_box",
    "yaw": 270.0
-  },
-  {
-   "at": [
-    3.7338,
-    27.6909,
-    111.0615
-   ],
-   "model": "models/gibs/hgibs.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 275.5
-  },
-  {
-   "at": [
-    4.5339,
-    27.9136,
-    111.0615
-   ],
-   "model": "models/gibs/hgibs.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    4.0386,
-    28.2588,
-    110.9472
-   ],
-   "model": "models/gibs/hgibs.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 324.0
-  },
-  {
-   "at": [
-    4.5339,
-    27.4625,
-    111.0615
-   ],
-   "model": "models/gibs/hgibs.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 220.5
   },
   {
    "at": [
@@ -28547,6 +28629,150 @@
   },
   {
    "at": [
+    -3.1884,
+    25.908,
+    120.0912
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 195.0
+  },
+  {
+   "at": [
+    3.7555,
+    27.0369,
+    125.3235
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 240.0
+  },
+  {
+   "at": [
+    3.6702,
+    27.0413,
+    126.147
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 195.0
+  },
+  {
+   "at": [
+    2.8608,
+    26.9658,
+    125.7447
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 105.0
+  },
+  {
+   "at": [
+    2.6836,
+    26.9407,
+    124.8914
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 330.0
+  },
+  {
+   "at": [
+    17.3095,
+    28.7811,
+    185.4887
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    17.93,
+    29.2429,
+    190.444
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 179.87
+  },
+  {
+   "at": [
+    22.535,
+    28.4226,
+    135.1026
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 210.0
+  },
+  {
+   "at": [
+    21.0295,
+    28.4988,
+    135.1026
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 134.0
+  },
+  {
+   "at": [
+    21.7635,
+    28.2702,
+    137.4648
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 261.5
+  },
+  {
+   "at": [
+    -8.5406,
+    25.8044,
+    119.9537
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 285.0
+  },
+  {
+   "at": [
+    -7.9364,
+    25.908,
+    117.1194
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 210.0
+  },
+  {
+   "at": [
     -0.4191,
     26.6353,
     137.2743
@@ -28588,6 +28814,54 @@
    "scale": 1.0,
    "stand_in": "plant",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    -54.2203,
+    26.3261,
+    133.5171
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 105.0
+  },
+  {
+   "at": [
+    -54.3975,
+    26.301,
+    132.6638
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 330.0
+  },
+  {
+   "at": [
+    10.668,
+    28.0416,
+    142.4288
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 105.0
+  },
+  {
+   "at": [
+    10.4786,
+    28.1591,
+    141.5756
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 330.0
   },
   {
    "at": [
@@ -28655,6 +28929,42 @@
    "scale": 1.0,
    "stand_in": "plant",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    14.4998,
+    31.6992,
+    -13.5636
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 134.0
+  },
+  {
+   "at": [
+    -15.8496,
+    27.7368,
+    -45.72
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 119.0
+  },
+  {
+   "at": [
+    -28.3464,
+    27.5844,
+    -42.9768
+   ],
+   "model": "models/props_junk/harpoon002a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 29.0
   },
   {
    "at": [
@@ -29308,6 +29618,39 @@
   },
   {
    "at": [
+    274.2743,
+    -22.9467,
+    -126.4981
+   ],
+   "model": "models/props/cs_italy/it_wndg.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    274.2743,
+    -23.061,
+    -127.7554
+   ],
+   "model": "models/props/cs_italy/it_wndg.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    274.2743,
+    -23.1753,
+    -129.0127
+   ],
+   "model": "models/props/cs_italy/it_wndg.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     268.706,
     -21.1973,
     -133.5085
@@ -29349,6 +29692,94 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    265.277,
+    -22.775,
+    -125.0922
+   ],
+   "model": "models/props/cs_italy/it_wndg.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    267.0296,
+    -22.775,
+    -125.0922
+   ],
+   "model": "models/props/cs_italy/it_wndg.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    268.725,
+    -22.775,
+    -125.0922
+   ],
+   "model": "models/props/cs_italy/it_wndg.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    270.4014,
+    -22.775,
+    -125.0922
+   ],
+   "model": "models/props/cs_italy/it_wndg.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    272.0969,
+    -22.775,
+    -125.0922
+   ],
+   "model": "models/props/cs_italy/it_wndg.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    263.1757,
+    -23.0495,
+    -127.7478
+   ],
+   "model": "models/props/cs_italy/it_wndg.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    263.1757,
+    -22.9352,
+    -126.4905
+   ],
+   "model": "models/props/cs_italy/it_wndg.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    263.1757,
+    -23.1638,
+    -129.0051
+   ],
+   "model": "models/props/cs_italy/it_wndg.mdl",
+   "scale": 1.0,
+   "stand_in": "factory/window",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -33790,6 +34221,21 @@
    "size": 0.313,
    "stand_in": "rock",
    "yaw": 277.0
+  },
+  {
+   "at": [
+    21.2979,
+    28.4464,
+    57.821
+   ],
+   "box": [
+    0.582,
+    0.2,
+    0.346
+   ],
+   "model": "models/parrot.mdl",
+   "scale": 1.0,
+   "yaw": 0.0
   }
  ],
  "scripts": [],
@@ -35939,6 +36385,21 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    915,
+    916,
+    917,
+    922,
+    923,
+    924,
+    925,
+    928,
+    929,
+    930,
+    931,
+    935,
+    936
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -35968,6 +36429,17 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    929,
+    931,
+    933,
+    934,
+    936,
+    937,
+    1029,
+    1030,
+    1031
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -35997,6 +36469,10 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    344,
+    346
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -36024,6 +36500,16 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    427,
+    428,
+    429,
+    430,
+    437,
+    438,
+    439,
+    440
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -36052,6 +36538,16 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    427,
+    428,
+    429,
+    430,
+    437,
+    438,
+    439,
+    440
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -36080,6 +36576,14 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    426,
+    427,
+    429,
+    432,
+    437,
+    439
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -36109,6 +36613,38 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    379,
+    382,
+    383,
+    420,
+    422,
+    423,
+    427,
+    428,
+    429,
+    430,
+    431,
+    432,
+    433,
+    434,
+    435,
+    436,
+    437,
+    438,
+    439,
+    440,
+    441,
+    442,
+    443,
+    455,
+    456,
+    457,
+    458,
+    459,
+    460,
+    461
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -36137,6 +36673,38 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    379,
+    382,
+    383,
+    420,
+    422,
+    423,
+    427,
+    428,
+    429,
+    430,
+    431,
+    432,
+    433,
+    434,
+    435,
+    436,
+    437,
+    438,
+    439,
+    440,
+    441,
+    442,
+    443,
+    455,
+    456,
+    457,
+    458,
+    459,
+    460,
+    461
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -36165,6 +36733,22 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    377,
+    378,
+    379,
+    383,
+    420,
+    431,
+    432,
+    435,
+    436,
+    437,
+    439,
+    441,
+    443,
+    458
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -36194,6 +36778,19 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    443,
+    444,
+    445,
+    446,
+    447,
+    448,
+    450,
+    451,
+    452,
+    453,
+    454
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -36223,6 +36820,13 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    418,
+    448,
+    452,
+    453,
+    454
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -36252,6 +36856,9 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    448
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -36279,6 +36886,9 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    448
+   ],
    "colour": [
     0.082,
     0.0761,
@@ -36306,6 +36916,10 @@
     -1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    670,
+    674
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -36333,6 +36947,37 @@
     -1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    636,
+    640,
+    645,
+    653,
+    656,
+    661,
+    662,
+    663,
+    670,
+    671,
+    672,
+    673,
+    674,
+    676,
+    677,
+    678,
+    799,
+    803,
+    808,
+    813,
+    818,
+    821,
+    836,
+    852,
+    853,
+    873,
+    874,
+    876,
+    877
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -36361,6 +37006,36 @@
     -1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    636,
+    640,
+    645,
+    656,
+    661,
+    662,
+    663,
+    670,
+    671,
+    672,
+    673,
+    674,
+    676,
+    677,
+    678,
+    799,
+    803,
+    808,
+    813,
+    818,
+    821,
+    836,
+    852,
+    853,
+    873,
+    874,
+    876,
+    877
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -36389,6 +37064,30 @@
     0
    ],
    "classname": "worldspawn",
+   "clusters": [
+    645,
+    661,
+    663,
+    670,
+    671,
+    674,
+    676,
+    678,
+    836,
+    852,
+    853,
+    866,
+    867,
+    868,
+    873,
+    874,
+    876,
+    877,
+    879,
+    880,
+    882,
+    883
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -36417,6 +37116,30 @@
     0
    ],
    "classname": "worldspawn",
+   "clusters": [
+    645,
+    661,
+    663,
+    670,
+    671,
+    674,
+    676,
+    678,
+    836,
+    852,
+    853,
+    866,
+    867,
+    868,
+    873,
+    874,
+    876,
+    877,
+    879,
+    880,
+    882,
+    883
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -36445,6 +37168,20 @@
     0
    ],
    "classname": "worldspawn",
+   "clusters": [
+    670,
+    671,
+    674,
+    676,
+    678,
+    873,
+    874,
+    876,
+    877,
+    879,
+    882,
+    883
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -36474,6 +37211,14 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    917,
+    918,
+    919,
+    920,
+    921,
+    922
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -36502,6 +37247,14 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    917,
+    918,
+    919,
+    920,
+    921,
+    922
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -36530,6 +37283,9 @@
     -9
    ],
    "classname": "worldspawn",
+   "clusters": [
+    341
+   ],
    "entity": null,
    "free": "generated:flat:000000",
    "generic": "flat",
@@ -36557,6 +37313,11 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    344,
+    352,
+    361
+   ],
    "colour": [
     0.373,
     0.2475,
@@ -36584,6 +37345,13 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    344,
+    346,
+    352,
+    356,
+    361
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -36611,6 +37379,9 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    352
+   ],
    "colour": [
     0.082,
     0.0761,
@@ -36638,6 +37409,12 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    352,
+    356,
+    357,
+    358
+   ],
    "colour": [
     0.364,
     0.3469,
@@ -36665,6 +37442,9 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    343
+   ],
    "colour": [
     0.3394,
     0.3277,
@@ -36692,6 +37472,14 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    344,
+    352,
+    354,
+    356,
+    357,
+    358
+   ],
    "colour": [
     0.295,
     0.2903,
@@ -36719,6 +37507,9 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    344
+   ],
    "colour": [
     0.3959,
     0.2673,
@@ -36746,6 +37537,10 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    343,
+    352
+   ],
    "colour": [
     0.3802,
     0.3364,
@@ -36773,6 +37568,9 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    343
+   ],
    "colour": [
     0.4039,
     0.3519,
@@ -36800,6 +37598,12 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    343,
+    356,
+    357,
+    358
+   ],
    "colour": [
     0.6922,
     0.6596,
@@ -36827,6 +37631,9 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    344
+   ],
    "colour": [
     0.2617,
     0.2104,
@@ -36854,6 +37661,16 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    343,
+    344,
+    352,
+    353,
+    354,
+    355,
+    356,
+    361
+   ],
    "colour": [
     0.385,
     0.3422,
@@ -36881,6 +37698,9 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    352
+   ],
    "colour": [
     0.1225,
     0.1104,
@@ -36908,6 +37728,9 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    344
+   ],
    "entity": null,
    "free": "generated:flat:dfdfdf",
    "generic": "flat",
@@ -36930,6 +37753,24 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    343,
+    344,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362,
+    363,
+    364,
+    365
+   ],
    "colour": [
     0.4367,
     0.4411,
@@ -36957,6 +37798,12 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    352,
+    353,
+    354,
+    355
+   ],
    "colour": [
     0.3902,
     0.2918,
@@ -36984,6 +37831,10 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    352,
+    353
+   ],
    "colour": [
     0.3902,
     0.2918,
@@ -37011,6 +37862,10 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    349,
+    352
+   ],
    "colour": [
     0.7068,
     0.6762,
@@ -37038,6 +37893,28 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    341,
+    342,
+    343,
+    344,
+    345,
+    346,
+    351,
+    352,
+    353,
+    356,
+    357,
+    358,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366,
+    367,
+    425
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -37067,6 +37944,18 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    353,
+    358,
+    363,
+    365,
+    368,
+    369,
+    370,
+    371,
+    372,
+    377
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -37096,6 +37985,32 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    372,
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384,
+    386,
+    387,
+    388,
+    420,
+    422,
+    423,
+    431,
+    433,
+    435,
+    443,
+    455,
+    457
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -37124,6 +38039,32 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    372,
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384,
+    386,
+    387,
+    388,
+    420,
+    422,
+    423,
+    431,
+    433,
+    435,
+    443,
+    455,
+    457
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -37152,6 +38093,19 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    371,
+    372,
+    376,
+    377,
+    380,
+    383,
+    384,
+    387,
+    420,
+    422,
+    423
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -37181,6 +38135,38 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    372,
+    377,
+    384,
+    389,
+    391,
+    393,
+    394,
+    396,
+    397,
+    398,
+    399,
+    400,
+    401,
+    402,
+    403,
+    404,
+    406,
+    407,
+    408,
+    409,
+    410,
+    411,
+    412,
+    414,
+    415,
+    416,
+    417,
+    419,
+    420,
+    443
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -37210,6 +38196,14 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    398,
+    403,
+    404,
+    405,
+    410,
+    416
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -37239,6 +38233,14 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    416,
+    516,
+    517,
+    518,
+    520,
+    522
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -37266,6 +38268,11 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    416,
+    517,
+    518
+   ],
    "colour": [
     0.082,
     0.0761,
@@ -37293,6 +38300,9 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    529
+   ],
    "colour": [
     0.277,
     0.2155,
@@ -37320,6 +38330,24 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    510,
+    511,
+    512,
+    513,
+    519,
+    522,
+    523,
+    525,
+    529,
+    530,
+    531,
+    533,
+    536,
+    537,
+    539,
+    540
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -37348,6 +38376,24 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    510,
+    511,
+    512,
+    513,
+    519,
+    522,
+    523,
+    525,
+    529,
+    530,
+    531,
+    533,
+    536,
+    537,
+    539,
+    540
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -37376,6 +38422,9 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    507
+   ],
    "colour": [
     0.6989,
     0.5812,
@@ -37403,6 +38452,9 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    508
+   ],
    "colour": [
     0.3455,
     0.3258,
@@ -37430,6 +38482,16 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    509,
+    515,
+    527,
+    528,
+    534,
+    535,
+    569,
+    571
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -37459,6 +38521,9 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    529
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -37488,6 +38553,37 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    395,
+    398,
+    405,
+    410,
+    413,
+    416,
+    418,
+    448,
+    510,
+    513,
+    516,
+    517,
+    518,
+    519,
+    520,
+    521,
+    522,
+    523,
+    525,
+    526,
+    528,
+    529,
+    531,
+    535,
+    536,
+    537,
+    539,
+    540,
+    570
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -37517,6 +38613,9 @@
     -4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    536
+   ],
    "colour": [
     0.1297,
     0.1853,
@@ -37545,6 +38644,9 @@
     -4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    536
+   ],
    "colour": [
     0.1297,
     0.1853,
@@ -37573,6 +38675,9 @@
     -4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    536
+   ],
    "colour": [
     0.1297,
     0.1853,
@@ -37601,6 +38706,26 @@
     -4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    527,
+    528,
+    534,
+    535,
+    549,
+    550,
+    551,
+    552,
+    554,
+    555,
+    557,
+    558,
+    559,
+    562,
+    563,
+    571,
+    572,
+    573
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -37630,6 +38755,12 @@
     -4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    528,
+    529,
+    535,
+    536
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -37659,6 +38790,31 @@
     -3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    550,
+    551,
+    555,
+    557,
+    558,
+    559,
+    560,
+    563,
+    565,
+    568,
+    572,
+    573,
+    597,
+    598,
+    599,
+    600,
+    601,
+    602,
+    603,
+    604,
+    605,
+    665,
+    666
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -37688,6 +38844,28 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    602,
+    603,
+    604,
+    605,
+    606,
+    612,
+    613,
+    614,
+    617,
+    630,
+    631,
+    632,
+    636,
+    652,
+    653,
+    666,
+    667,
+    668,
+    669,
+    670
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -37717,6 +38895,67 @@
     -1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    615,
+    616,
+    618,
+    620,
+    622,
+    623,
+    624,
+    627,
+    628,
+    630,
+    631,
+    632,
+    633,
+    634,
+    635,
+    636,
+    637,
+    638,
+    639,
+    640,
+    642,
+    643,
+    644,
+    645,
+    646,
+    647,
+    648,
+    650,
+    652,
+    653,
+    654,
+    656,
+    658,
+    659,
+    661,
+    662,
+    663,
+    777,
+    782,
+    786,
+    795,
+    796,
+    797,
+    798,
+    799,
+    801,
+    802,
+    803,
+    805,
+    806,
+    808,
+    812,
+    813,
+    815,
+    816,
+    818,
+    826,
+    828,
+    836
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -37745,6 +38984,70 @@
     -1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    615,
+    616,
+    618,
+    620,
+    622,
+    623,
+    624,
+    627,
+    628,
+    630,
+    631,
+    632,
+    633,
+    634,
+    635,
+    636,
+    637,
+    638,
+    639,
+    640,
+    642,
+    643,
+    644,
+    645,
+    646,
+    647,
+    648,
+    650,
+    652,
+    653,
+    654,
+    656,
+    658,
+    659,
+    661,
+    662,
+    663,
+    670,
+    672,
+    674,
+    777,
+    782,
+    786,
+    795,
+    796,
+    797,
+    798,
+    799,
+    801,
+    802,
+    803,
+    805,
+    806,
+    808,
+    812,
+    813,
+    815,
+    816,
+    818,
+    826,
+    828,
+    836
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -37773,6 +39076,10 @@
     0
    ],
    "classname": "worldspawn",
+   "clusters": [
+    810,
+    834
+   ],
    "colour": [
     0.082,
     0.0761,
@@ -37800,6 +39107,19 @@
     0
    ],
    "classname": "worldspawn",
+   "clusters": [
+    796,
+    799,
+    802,
+    807,
+    810,
+    813,
+    817,
+    821,
+    824,
+    833,
+    834
+   ],
    "colour": [
     0.583,
     0.5306,
@@ -37827,6 +39147,74 @@
     0
    ],
    "classname": "worldspawn",
+   "clusters": [
+    615,
+    616,
+    618,
+    620,
+    624,
+    628,
+    630,
+    631,
+    633,
+    635,
+    636,
+    642,
+    644,
+    645,
+    777,
+    778,
+    779,
+    780,
+    782,
+    786,
+    788,
+    789,
+    792,
+    793,
+    795,
+    796,
+    797,
+    798,
+    799,
+    800,
+    801,
+    802,
+    803,
+    804,
+    805,
+    806,
+    807,
+    808,
+    809,
+    810,
+    811,
+    812,
+    813,
+    814,
+    815,
+    816,
+    817,
+    818,
+    819,
+    820,
+    821,
+    822,
+    823,
+    824,
+    825,
+    826,
+    827,
+    828,
+    829,
+    830,
+    831,
+    832,
+    833,
+    834,
+    835,
+    836
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -37855,6 +39243,74 @@
     0
    ],
    "classname": "worldspawn",
+   "clusters": [
+    615,
+    616,
+    618,
+    620,
+    624,
+    628,
+    630,
+    631,
+    633,
+    635,
+    636,
+    642,
+    644,
+    645,
+    777,
+    778,
+    779,
+    780,
+    782,
+    786,
+    788,
+    789,
+    792,
+    793,
+    795,
+    796,
+    797,
+    798,
+    799,
+    800,
+    801,
+    802,
+    803,
+    804,
+    805,
+    806,
+    807,
+    808,
+    809,
+    810,
+    811,
+    812,
+    813,
+    814,
+    815,
+    816,
+    817,
+    818,
+    819,
+    820,
+    821,
+    822,
+    823,
+    824,
+    825,
+    826,
+    827,
+    828,
+    829,
+    830,
+    831,
+    832,
+    833,
+    834,
+    835,
+    836
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -37883,6 +39339,96 @@
     0
    ],
    "classname": "worldspawn",
+   "clusters": [
+    612,
+    617,
+    618,
+    627,
+    628,
+    630,
+    631,
+    632,
+    634,
+    635,
+    636,
+    638,
+    639,
+    640,
+    642,
+    643,
+    644,
+    645,
+    647,
+    650,
+    652,
+    653,
+    654,
+    656,
+    658,
+    659,
+    660,
+    661,
+    663,
+    669,
+    670,
+    671,
+    674,
+    777,
+    778,
+    779,
+    780,
+    786,
+    788,
+    789,
+    792,
+    793,
+    795,
+    796,
+    797,
+    798,
+    799,
+    800,
+    801,
+    802,
+    804,
+    805,
+    806,
+    807,
+    809,
+    810,
+    811,
+    812,
+    813,
+    814,
+    815,
+    816,
+    817,
+    819,
+    820,
+    821,
+    822,
+    823,
+    824,
+    825,
+    826,
+    827,
+    828,
+    829,
+    830,
+    831,
+    832,
+    833,
+    834,
+    839,
+    842,
+    843,
+    844,
+    845,
+    847,
+    848,
+    873,
+    879
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -37912,6 +39458,21 @@
     0
    ],
    "classname": "worldspawn",
+   "clusters": [
+    777,
+    778,
+    780,
+    781,
+    796,
+    810,
+    855,
+    856,
+    857,
+    858,
+    866,
+    873,
+    879
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -37941,6 +39502,32 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    889,
+    890,
+    891,
+    892,
+    893,
+    894,
+    895,
+    896,
+    897,
+    898,
+    899,
+    905,
+    906,
+    907,
+    909,
+    910,
+    915,
+    917,
+    919,
+    920,
+    921,
+    922,
+    926,
+    927
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -37970,6 +39557,25 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    905,
+    906,
+    907,
+    908,
+    910,
+    911,
+    912,
+    913,
+    914,
+    927,
+    932,
+    1022,
+    1023,
+    1024,
+    1025,
+    1026,
+    1028
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -37999,6 +39605,9 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    321
+   ],
    "colour": [
     0.339,
     0.5323,
@@ -38026,6 +39635,9 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    321
+   ],
    "colour": [
     0.7429,
     0.7725,
@@ -38053,6 +39665,9 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    321
+   ],
    "colour": [
     0.2363,
     0.2501,
@@ -38080,6 +39695,9 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    321
+   ],
    "colour": [
     0.2363,
     0.2501,
@@ -38107,6 +39725,9 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    321
+   ],
    "colour": [
     0.2363,
     0.2501,
@@ -38134,6 +39755,9 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    321
+   ],
    "colour": [
     0.3962,
     0.3899,
@@ -38161,6 +39785,9 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    321
+   ],
    "colour": [
     0.6977,
     0.7002,
@@ -38188,6 +39815,9 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    321
+   ],
    "colour": [
     0.6188,
     0.6204,
@@ -38215,6 +39845,20 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    319,
+    322,
+    336,
+    337,
+    339,
+    341,
+    343,
+    347,
+    350,
+    351,
+    352,
+    353
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -38244,6 +39888,9 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    507
+   ],
    "colour": [
     0.6989,
     0.5812,
@@ -38271,6 +39918,17 @@
     -4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    541,
+    542,
+    543,
+    553,
+    554,
+    555,
+    561,
+    562,
+    563
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -38300,6 +39958,11 @@
     -3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    542,
+    547,
+    576
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -38327,6 +39990,11 @@
     -3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    542,
+    547,
+    576
+   ],
    "colour": [
     0.082,
     0.0761,
@@ -38354,6 +40022,17 @@
     -3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    541,
+    542,
+    543,
+    545,
+    546,
+    547,
+    576,
+    578,
+    581
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -38383,6 +40062,10 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    483,
+    588
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -38410,6 +40093,10 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    483,
+    588
+   ],
    "colour": [
     0.082,
     0.0761,
@@ -38437,6 +40124,19 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    576,
+    577,
+    578,
+    579,
+    581,
+    586,
+    589,
+    590,
+    593,
+    594,
+    595
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -38465,6 +40165,19 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    576,
+    577,
+    578,
+    579,
+    581,
+    586,
+    589,
+    590,
+    593,
+    594,
+    595
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -38493,6 +40206,16 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    576,
+    579,
+    586,
+    587,
+    588,
+    590,
+    593,
+    596
+   ],
    "colour": [
     0.1297,
     0.1853,
@@ -38521,6 +40244,15 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    576,
+    579,
+    586,
+    587,
+    588,
+    593,
+    596
+   ],
    "colour": [
     0.1297,
     0.1853,
@@ -38549,6 +40281,15 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    576,
+    579,
+    586,
+    587,
+    588,
+    590,
+    596
+   ],
    "colour": [
     0.1297,
     0.1853,
@@ -38577,6 +40318,10 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    576,
+    579
+   ],
    "colour": [
     0.1297,
     0.1853,
@@ -38605,6 +40350,10 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    574,
+    582
+   ],
    "entity": null,
    "free": "generated:flat:dfdfdf",
    "generic": "flat",
@@ -38627,6 +40376,25 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    483,
+    574,
+    575,
+    576,
+    577,
+    578,
+    579,
+    582,
+    583,
+    585,
+    586,
+    587,
+    588,
+    590,
+    593,
+    594,
+    596
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -38656,6 +40424,25 @@
     -1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    607,
+    608,
+    609,
+    610,
+    615,
+    619,
+    620,
+    622,
+    624,
+    757,
+    760,
+    761,
+    777,
+    781,
+    782,
+    784,
+    786
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -38684,6 +40471,25 @@
     -1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    607,
+    608,
+    609,
+    610,
+    615,
+    619,
+    620,
+    622,
+    624,
+    757,
+    760,
+    761,
+    777,
+    781,
+    782,
+    784,
+    786
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -38712,6 +40518,10 @@
     0
    ],
    "classname": "worldspawn",
+   "clusters": [
+    757,
+    761
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -38739,6 +40549,44 @@
     0
    ],
    "classname": "worldspawn",
+   "clusters": [
+    607,
+    608,
+    610,
+    615,
+    620,
+    624,
+    757,
+    758,
+    759,
+    760,
+    761,
+    763,
+    764,
+    767,
+    768,
+    769,
+    770,
+    772,
+    773,
+    775,
+    777,
+    781,
+    782,
+    784,
+    786,
+    788,
+    792,
+    794,
+    855,
+    856,
+    857,
+    858,
+    859,
+    861,
+    863,
+    864
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -38767,6 +40615,44 @@
     0
    ],
    "classname": "worldspawn",
+   "clusters": [
+    607,
+    608,
+    610,
+    615,
+    620,
+    624,
+    757,
+    758,
+    759,
+    760,
+    761,
+    763,
+    764,
+    767,
+    768,
+    769,
+    770,
+    772,
+    773,
+    775,
+    777,
+    781,
+    782,
+    784,
+    786,
+    788,
+    792,
+    794,
+    855,
+    856,
+    857,
+    858,
+    859,
+    861,
+    863,
+    864
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -38795,6 +40681,43 @@
     0
    ],
    "classname": "worldspawn",
+   "clusters": [
+    503,
+    504,
+    607,
+    608,
+    610,
+    612,
+    615,
+    616,
+    617,
+    618,
+    620,
+    624,
+    627,
+    628,
+    704,
+    705,
+    709,
+    757,
+    758,
+    759,
+    760,
+    761,
+    764,
+    768,
+    773,
+    775,
+    777,
+    781,
+    782,
+    786,
+    788,
+    855,
+    856,
+    858,
+    864
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -38824,6 +40747,19 @@
     0
    ],
    "classname": "worldspawn",
+   "clusters": [
+    704,
+    705,
+    709,
+    759,
+    767,
+    768,
+    775,
+    856,
+    857,
+    858,
+    864
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -38853,6 +40789,14 @@
     1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    768,
+    775,
+    776,
+    858,
+    864,
+    865
+   ],
    "entity": null,
    "free": "generated:flat:000000",
    "generic": "flat",
@@ -38880,6 +40824,15 @@
     2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    870,
+    871,
+    872,
+    886,
+    889,
+    890,
+    891
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -38909,6 +40862,17 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    886,
+    888,
+    889,
+    890,
+    891,
+    895,
+    896,
+    901,
+    905
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -38938,6 +40902,11 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    751,
+    900,
+    901
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -38965,6 +40934,9 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    901
+   ],
    "colour": [
     0.3917,
     0.2662,
@@ -38992,6 +40964,17 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    901,
+    903,
+    905,
+    911,
+    912,
+    1019,
+    1022,
+    1023,
+    1024
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -39021,6 +41004,11 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    901,
+    903,
+    1019
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -39050,6 +41038,14 @@
     5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    1019,
+    1021,
+    1022,
+    1023,
+    1024,
+    1027
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -39079,6 +41075,9 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    321
+   ],
    "colour": [
     0.373,
     0.2475,
@@ -39106,6 +41105,9 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    321
+   ],
    "colour": [
     0.6188,
     0.6204,
@@ -39133,6 +41135,14 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    318,
+    319,
+    320,
+    322,
+    335,
+    336
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -39162,6 +41172,10 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    479,
+    481
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -39189,6 +41203,9 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    479
+   ],
    "colour": [
     0.082,
     0.0761,
@@ -39216,6 +41233,11 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    479,
+    480,
+    497
+   ],
    "colour": [
     0.1297,
     0.1853,
@@ -39244,6 +41266,11 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    479,
+    480,
+    497
+   ],
    "colour": [
     0.1297,
     0.1853,
@@ -39272,6 +41299,11 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    479,
+    480,
+    497
+   ],
    "colour": [
     0.1297,
     0.1853,
@@ -39300,6 +41332,10 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    479,
+    481
+   ],
    "colour": [
     0.3917,
     0.2662,
@@ -39327,6 +41363,14 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    479,
+    481,
+    483,
+    497,
+    498,
+    499
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -39356,6 +41400,12 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    469,
+    479,
+    480,
+    497
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -39385,6 +41435,10 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    481,
+    483
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -39414,6 +41468,11 @@
     -1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    500,
+    501,
+    503
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -39441,6 +41500,11 @@
     -1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    500,
+    501,
+    503
+   ],
    "colour": [
     0.6989,
     0.5812,
@@ -39468,6 +41532,11 @@
     -1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    500,
+    501,
+    503
+   ],
    "colour": [
     0.3917,
     0.2662,
@@ -39495,6 +41564,14 @@
     -1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    496,
+    500,
+    690,
+    691,
+    692,
+    699
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -39524,6 +41601,15 @@
     -1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    495,
+    496,
+    500,
+    501,
+    699,
+    701,
+    702
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -39553,6 +41639,23 @@
     0
    ],
    "classname": "worldspawn",
+   "clusters": [
+    503,
+    504,
+    690,
+    692,
+    694,
+    696,
+    699,
+    700,
+    701,
+    702,
+    704,
+    705,
+    706,
+    707,
+    709
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -39582,6 +41685,14 @@
     1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    698,
+    708,
+    710,
+    711,
+    713,
+    714
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -39611,6 +41722,10 @@
     2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    711,
+    714
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -39640,6 +41755,9 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    743
+   ],
    "colour": [
     0.373,
     0.2475,
@@ -39667,6 +41785,12 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    736,
+    737,
+    743,
+    744
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -39694,6 +41818,10 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    743,
+    744
+   ],
    "colour": [
     0.2411,
     0.2124,
@@ -39721,6 +41849,10 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    743,
+    744
+   ],
    "colour": [
     0.2617,
     0.2104,
@@ -39748,6 +41880,10 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    743,
+    744
+   ],
    "colour": [
     0.2996,
     0.2292,
@@ -39775,6 +41911,12 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    736,
+    737,
+    743,
+    744
+   ],
    "colour": [
     0.4527,
     0.4309,
@@ -39802,6 +41944,12 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    736,
+    737,
+    743,
+    744
+   ],
    "colour": [
     0.4527,
     0.4309,
@@ -39829,6 +41977,11 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    736,
+    743,
+    744
+   ],
    "colour": [
     0.4527,
     0.4309,
@@ -39856,6 +42009,10 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    743,
+    744
+   ],
    "colour": [
     0.4527,
     0.4309,
@@ -39883,6 +42040,16 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    730,
+    731,
+    735,
+    736,
+    737,
+    739,
+    743,
+    744
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -39912,6 +42079,16 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    743,
+    744,
+    745,
+    747,
+    748,
+    749,
+    751,
+    752
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -39939,6 +42116,10 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    739,
+    743
+   ],
    "colour": [
     0.2411,
     0.2124,
@@ -39966,6 +42147,9 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    743
+   ],
    "colour": [
     0.2617,
     0.2104,
@@ -39993,6 +42177,12 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    739,
+    740,
+    743,
+    752
+   ],
    "colour": [
     0.2996,
     0.2292,
@@ -40020,6 +42210,9 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    752
+   ],
    "colour": [
     0.4527,
     0.4309,
@@ -40047,6 +42240,10 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    743,
+    752
+   ],
    "colour": [
     0.4527,
     0.4309,
@@ -40074,6 +42271,10 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    743,
+    752
+   ],
    "colour": [
     0.4527,
     0.4309,
@@ -40101,6 +42302,9 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    743
+   ],
    "colour": [
     0.4527,
     0.4309,
@@ -40128,6 +42332,9 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    744
+   ],
    "colour": [
     0.3917,
     0.2662,
@@ -40155,6 +42362,16 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    739,
+    740,
+    741,
+    743,
+    744,
+    752,
+    753,
+    754
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -40184,6 +42401,10 @@
     5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    953,
+    959
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -40213,6 +42434,26 @@
     6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    953,
+    954,
+    957,
+    959,
+    962,
+    963,
+    964,
+    967,
+    968,
+    969,
+    970,
+    971,
+    972,
+    974,
+    976,
+    980,
+    984,
+    985
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -40242,6 +42483,10 @@
     7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    991,
+    1006
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -40269,6 +42514,10 @@
     7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    991,
+    1006
+   ],
    "colour": [
     0.082,
     0.0761,
@@ -40296,6 +42545,21 @@
     7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    993,
+    995,
+    996,
+    997,
+    999,
+    1004,
+    1005,
+    1008,
+    1009,
+    1010,
+    1013,
+    1014,
+    1016
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -40324,6 +42588,21 @@
     7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    993,
+    995,
+    996,
+    997,
+    999,
+    1004,
+    1005,
+    1008,
+    1009,
+    1010,
+    1013,
+    1014,
+    1016
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -40352,6 +42631,12 @@
     7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    993,
+    997,
+    1001,
+    1013
+   ],
    "entity": null,
    "free": "generated:flat:dfdfdf",
    "generic": "flat",
@@ -40374,6 +42659,15 @@
     7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    971,
+    973,
+    974,
+    980,
+    982,
+    984,
+    985
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -40403,6 +42697,18 @@
     7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    983,
+    985,
+    991,
+    1001,
+    1004,
+    1005,
+    1006,
+    1009,
+    1013,
+    1014
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -40432,6 +42738,21 @@
     8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    993,
+    996,
+    997,
+    999,
+    1000,
+    1004,
+    1005,
+    1009,
+    1010,
+    1013,
+    1014,
+    1015,
+    1016
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -40460,6 +42781,21 @@
     8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    993,
+    996,
+    997,
+    999,
+    1000,
+    1004,
+    1005,
+    1009,
+    1010,
+    1013,
+    1014,
+    1015,
+    1016
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -40488,6 +42824,12 @@
     8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    993,
+    997,
+    1001,
+    1013
+   ],
    "entity": null,
    "free": "generated:flat:dfdfdf",
    "generic": "flat",
@@ -40510,6 +42852,9 @@
     8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    1017
+   ],
    "colour": [
     0.3455,
     0.3258,
@@ -40537,6 +42882,10 @@
     8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    1006,
+    1013
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -40566,6 +42915,19 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    309,
+    313,
+    315,
+    317,
+    318,
+    320,
+    328,
+    331,
+    332,
+    333,
+    335
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -40595,6 +42957,14 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    328,
+    330,
+    331,
+    332,
+    333,
+    334
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -40624,6 +42994,10 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    469,
+    486
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -40651,6 +43025,10 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    469,
+    486
+   ],
    "colour": [
     0.082,
     0.0761,
@@ -40678,6 +43056,20 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    469,
+    470,
+    472,
+    473,
+    474,
+    476,
+    477,
+    486,
+    487,
+    488,
+    490,
+    492
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -40706,6 +43098,20 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    469,
+    470,
+    472,
+    473,
+    474,
+    476,
+    477,
+    486,
+    487,
+    488,
+    490,
+    492
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -40734,6 +43140,10 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    469,
+    472
+   ],
    "colour": [
     0.1297,
     0.1853,
@@ -40762,6 +43172,11 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    469,
+    472,
+    476
+   ],
    "colour": [
     0.1297,
     0.1853,
@@ -40790,6 +43205,11 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    469,
+    472,
+    476
+   ],
    "colour": [
     0.1297,
     0.1853,
@@ -40818,6 +43238,10 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    469,
+    472
+   ],
    "colour": [
     0.1297,
     0.1853,
@@ -40846,6 +43270,25 @@
     -2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    462,
+    464,
+    469,
+    470,
+    471,
+    472,
+    474,
+    476,
+    477,
+    479,
+    480,
+    485,
+    486,
+    488,
+    490,
+    492,
+    497
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -40875,6 +43318,9 @@
     -1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    486
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -40902,6 +43348,9 @@
     -1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    486
+   ],
    "colour": [
     0.082,
     0.0761,
@@ -40929,6 +43378,11 @@
     -1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    468,
+    495,
+    496
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -40958,6 +43412,15 @@
     -1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    466,
+    467,
+    468,
+    494,
+    495,
+    496,
+    500
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -40987,6 +43450,14 @@
     -1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    486,
+    490,
+    493,
+    494,
+    495,
+    496
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -41016,6 +43487,21 @@
     0
    ],
    "classname": "worldspawn",
+   "clusters": [
+    466,
+    467,
+    468,
+    496,
+    681,
+    682,
+    683,
+    684,
+    685,
+    686,
+    687,
+    690,
+    693
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -41045,6 +43531,22 @@
     0
    ],
    "classname": "worldspawn",
+   "clusters": [
+    683,
+    685,
+    687,
+    690,
+    692,
+    693,
+    694,
+    695,
+    696,
+    697,
+    698,
+    699,
+    700,
+    710
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -41074,6 +43576,12 @@
     1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    687,
+    688,
+    710,
+    711
+   ],
    "colour": [
     0.373,
     0.2475,
@@ -41101,6 +43609,12 @@
     1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    687,
+    688,
+    710,
+    711
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -41128,6 +43642,9 @@
     1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    688
+   ],
    "colour": [
     0.082,
     0.0761,
@@ -41155,6 +43672,9 @@
     1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    688
+   ],
    "colour": [
     0.2411,
     0.2124,
@@ -41182,6 +43702,9 @@
     1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    688
+   ],
    "colour": [
     0.2617,
     0.2104,
@@ -41209,6 +43732,10 @@
     1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    688,
+    710
+   ],
    "colour": [
     0.2996,
     0.2292,
@@ -41236,6 +43763,12 @@
     1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    687,
+    688,
+    710,
+    711
+   ],
    "colour": [
     0.4527,
     0.4309,
@@ -41263,6 +43796,10 @@
     1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    688,
+    711
+   ],
    "colour": [
     0.4527,
     0.4309,
@@ -41290,6 +43827,12 @@
     1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    687,
+    688,
+    710,
+    711
+   ],
    "colour": [
     0.4527,
     0.4309,
@@ -41317,6 +43860,12 @@
     1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    687,
+    688,
+    710,
+    711
+   ],
    "colour": [
     0.4527,
     0.4309,
@@ -41344,6 +43893,13 @@
     1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    685,
+    686,
+    687,
+    698,
+    710
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -41373,6 +43929,14 @@
     1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    685,
+    687,
+    688,
+    698,
+    710,
+    713
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -41402,6 +43966,11 @@
     2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    711,
+    712,
+    728
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -41429,6 +43998,9 @@
     2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    711
+   ],
    "colour": [
     0.3917,
     0.2662,
@@ -41456,6 +44028,12 @@
     2
    ],
    "classname": "worldspawn",
+   "clusters": [
+    687,
+    688,
+    710,
+    711
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -41485,6 +44063,9 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    739
+   ],
    "colour": [
     0.373,
     0.2475,
@@ -41512,6 +44093,15 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    721,
+    723,
+    728,
+    729,
+    730,
+    731,
+    739
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -41539,6 +44129,11 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    723,
+    731,
+    739
+   ],
    "colour": [
     0.2411,
     0.2124,
@@ -41566,6 +44161,10 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    723,
+    739
+   ],
    "colour": [
     0.2617,
     0.2104,
@@ -41593,6 +44192,12 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    721,
+    723,
+    731,
+    739
+   ],
    "colour": [
     0.2996,
     0.2292,
@@ -41620,6 +44225,12 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    721,
+    723,
+    731,
+    739
+   ],
    "colour": [
     0.4527,
     0.4309,
@@ -41647,6 +44258,12 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    721,
+    723,
+    731,
+    739
+   ],
    "colour": [
     0.4527,
     0.4309,
@@ -41674,6 +44291,11 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    723,
+    731,
+    739
+   ],
    "colour": [
     0.4527,
     0.4309,
@@ -41701,6 +44323,12 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    721,
+    723,
+    731,
+    739
+   ],
    "colour": [
     0.4527,
     0.4309,
@@ -41728,6 +44356,11 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    721,
+    723,
+    739
+   ],
    "colour": [
     0.4527,
     0.4309,
@@ -41755,6 +44388,11 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    730,
+    731,
+    739
+   ],
    "colour": [
     0.3917,
     0.2662,
@@ -41782,6 +44420,16 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    719,
+    720,
+    721,
+    722,
+    723,
+    730,
+    731,
+    739
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -41811,6 +44459,10 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    723,
+    739
+   ],
    "colour": [
     0.373,
     0.2475,
@@ -41838,6 +44490,18 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    723,
+    725,
+    739,
+    740,
+    741,
+    742,
+    743,
+    752,
+    946,
+    951
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -41865,6 +44529,12 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    723,
+    725,
+    739,
+    743
+   ],
    "colour": [
     0.2411,
     0.2124,
@@ -41892,6 +44562,12 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    723,
+    725,
+    739,
+    743
+   ],
    "colour": [
     0.2617,
     0.2104,
@@ -41919,6 +44595,14 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    723,
+    725,
+    739,
+    740,
+    743,
+    752
+   ],
    "colour": [
     0.2996,
     0.2292,
@@ -41946,6 +44630,12 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    723,
+    725,
+    739,
+    740
+   ],
    "colour": [
     0.4527,
     0.4309,
@@ -41973,6 +44663,14 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    723,
+    725,
+    739,
+    740,
+    743,
+    752
+   ],
    "colour": [
     0.4527,
     0.4309,
@@ -42000,6 +44698,13 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    723,
+    725,
+    739,
+    740,
+    743
+   ],
    "colour": [
     0.4527,
     0.4309,
@@ -42027,6 +44732,13 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    723,
+    725,
+    739,
+    740,
+    752
+   ],
    "colour": [
     0.4527,
     0.4309,
@@ -42054,6 +44766,10 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    723,
+    739
+   ],
    "colour": [
     0.4527,
     0.4309,
@@ -42081,6 +44797,9 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    725
+   ],
    "colour": [
     0.4527,
     0.4309,
@@ -42108,6 +44827,9 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    741
+   ],
    "colour": [
     0.3917,
     0.2662,
@@ -42135,6 +44857,16 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    722,
+    723,
+    724,
+    725,
+    726,
+    739,
+    740,
+    741
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -42164,6 +44896,17 @@
     5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    945,
+    946,
+    947,
+    948,
+    949,
+    950,
+    951,
+    952,
+    953
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -42191,6 +44934,9 @@
     5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    953
+   ],
    "colour": [
     0.3917,
     0.2662,
@@ -42218,6 +44964,15 @@
     5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    940,
+    941,
+    942,
+    943,
+    953,
+    954,
+    963
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -42247,6 +45002,24 @@
     6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    941,
+    942,
+    943,
+    944,
+    953,
+    954,
+    963,
+    964,
+    965,
+    966,
+    968,
+    971,
+    972,
+    976,
+    980,
+    982
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -42276,6 +45049,20 @@
     7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    993,
+    994,
+    995,
+    996,
+    997,
+    998,
+    999,
+    1004,
+    1008,
+    1009,
+    1013,
+    1014
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -42304,6 +45091,20 @@
     7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    993,
+    994,
+    995,
+    996,
+    997,
+    998,
+    999,
+    1004,
+    1008,
+    1009,
+    1013,
+    1014
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -42332,6 +45133,12 @@
     7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    993,
+    997,
+    1001,
+    1013
+   ],
    "entity": null,
    "free": "generated:flat:dfdfdf",
    "generic": "flat",
@@ -42354,6 +45161,12 @@
     7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    966,
+    971,
+    973,
+    982
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -42383,6 +45196,19 @@
     7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    993,
+    996,
+    997,
+    998,
+    999,
+    1001,
+    1004,
+    1005,
+    1009,
+    1013,
+    1014
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -42412,6 +45238,20 @@
     8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    993,
+    994,
+    996,
+    997,
+    998,
+    999,
+    1000,
+    1004,
+    1009,
+    1013,
+    1014,
+    1015
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -42440,6 +45280,20 @@
     8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    993,
+    994,
+    996,
+    997,
+    998,
+    999,
+    1000,
+    1004,
+    1009,
+    1013,
+    1014,
+    1015
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -42468,6 +45322,12 @@
     8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    993,
+    997,
+    1001,
+    1013
+   ],
    "entity": null,
    "free": "generated:flat:dfdfdf",
    "generic": "flat",
@@ -42490,6 +45350,13 @@
     8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    993,
+    997,
+    998,
+    999,
+    1013
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -42519,6 +45386,15 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    308,
+    309,
+    311,
+    312,
+    313,
+    327,
+    328
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -42548,6 +45424,12 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    327,
+    328,
+    329,
+    330
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -42577,6 +45459,14 @@
     0
    ],
    "classname": "worldspawn",
+   "clusters": [
+    466,
+    467,
+    681,
+    684,
+    686,
+    687
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -42606,6 +45496,11 @@
     1
    ],
    "classname": "worldspawn",
+   "clusters": [
+    686,
+    687,
+    688
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -42635,6 +45530,10 @@
     3
    ],
    "classname": "worldspawn",
+   "clusters": [
+    719,
+    722
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -42664,6 +45563,11 @@
     4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    722,
+    724,
+    726
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -42693,6 +45597,11 @@
     6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    942,
+    943,
+    944
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -42722,6 +45631,10 @@
     -9
    ],
    "classname": "worldspawn",
+   "clusters": [
+    111,
+    306
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -42751,6 +45664,10 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    114,
+    165
+   ],
    "colour": [
     0.2996,
     0.2292,
@@ -42778,6 +45695,22 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    111,
+    114,
+    165,
+    166,
+    306,
+    307,
+    308,
+    310,
+    311,
+    312,
+    323,
+    324,
+    326,
+    327
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -42807,6 +45740,12 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    166,
+    167,
+    169,
+    170
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -42836,6 +45775,9 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    175
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -42863,6 +45805,9 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    175
+   ],
    "colour": [
     0.082,
     0.0761,
@@ -42890,6 +45835,18 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    167,
+    168,
+    169,
+    170,
+    171,
+    176,
+    177,
+    178,
+    179,
+    180
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -42918,6 +45875,18 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    167,
+    168,
+    169,
+    170,
+    171,
+    176,
+    177,
+    178,
+    179,
+    180
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -42946,6 +45915,14 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    165,
+    166,
+    167,
+    174,
+    323,
+    325
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -42975,6 +45952,11 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    175,
+    176,
+    181
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -43004,6 +45986,15 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    166,
+    167,
+    170,
+    176,
+    178,
+    179,
+    181
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -43033,6 +46024,15 @@
     -9
    ],
    "classname": "worldspawn",
+   "clusters": [
+    100,
+    101,
+    104,
+    108,
+    109,
+    110,
+    111
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -43062,6 +46062,9 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    112
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -43089,6 +46092,21 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    104,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    154,
+    162,
+    163,
+    165
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -43118,6 +46136,9 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    173
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -43145,6 +46166,9 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    173
+   ],
    "colour": [
     0.082,
     0.0761,
@@ -43172,6 +46196,12 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    163,
+    165,
+    172,
+    174
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -43201,6 +46231,18 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    160,
+    161,
+    173,
+    175,
+    176,
+    181,
+    192,
+    193,
+    221,
+    222
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -43230,6 +46272,9 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    221
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -43257,6 +46302,9 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    221
+   ],
    "colour": [
     0.082,
     0.0761,
@@ -43284,6 +46332,10 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    193,
+    221
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -43313,6 +46365,14 @@
     -9
    ],
    "classname": "worldspawn",
+   "clusters": [
+    83,
+    92,
+    98,
+    100,
+    102,
+    104
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -43342,6 +46402,18 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    92,
+    97,
+    102,
+    104,
+    105,
+    107,
+    126,
+    151,
+    154,
+    155
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -43371,6 +46443,15 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    126,
+    127,
+    151,
+    152,
+    154,
+    155,
+    156
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -43400,6 +46481,9 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    158
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -43427,6 +46511,9 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    158
+   ],
    "colour": [
     0.082,
     0.0761,
@@ -43454,6 +46541,17 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    127,
+    135,
+    151,
+    152,
+    154,
+    155,
+    156,
+    157,
+    159
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -43483,6 +46581,14 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    158,
+    160,
+    161,
+    183,
+    191,
+    192
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -43512,6 +46618,10 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    150,
+    205
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -43539,6 +46649,10 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    150,
+    205
+   ],
    "colour": [
     0.082,
     0.0761,
@@ -43566,6 +46680,25 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    182,
+    183,
+    184,
+    186,
+    187,
+    194,
+    195,
+    202,
+    203,
+    204,
+    207,
+    208,
+    210,
+    215,
+    216,
+    217,
+    218
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -43594,6 +46727,21 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    191,
+    194,
+    195,
+    196,
+    197,
+    202,
+    203
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -43622,6 +46770,18 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    204,
+    207,
+    208,
+    210,
+    213,
+    215,
+    216,
+    217,
+    218,
+    219
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -43650,6 +46810,31 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    191,
+    194,
+    195,
+    196,
+    197,
+    202,
+    203,
+    204,
+    207,
+    208,
+    210,
+    213,
+    215,
+    216,
+    217,
+    218,
+    219
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -43678,6 +46863,22 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    150,
+    182,
+    184,
+    195,
+    203,
+    204,
+    205,
+    207,
+    208,
+    210,
+    215,
+    216,
+    217,
+    218
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -43707,6 +46908,24 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    197,
+    202,
+    203
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -43736,6 +46955,10 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    207,
+    292
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -43763,6 +46986,10 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    207,
+    292
+   ],
    "colour": [
     0.082,
     0.0761,
@@ -43790,6 +47017,16 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    150,
+    205,
+    206,
+    207,
+    216,
+    292,
+    304,
+    305
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -43819,6 +47056,9 @@
     -9
    ],
    "classname": "worldspawn",
+   "clusters": [
+    92
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -43846,6 +47086,23 @@
     -9
    ],
    "classname": "worldspawn",
+   "clusters": [
+    77,
+    78,
+    79,
+    80,
+    81,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    93,
+    94,
+    95
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -43874,6 +47131,23 @@
     -9
    ],
    "classname": "worldspawn",
+   "clusters": [
+    77,
+    78,
+    79,
+    80,
+    81,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    93,
+    94,
+    95
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -43902,6 +47176,10 @@
     -9
    ],
    "classname": "worldspawn",
+   "clusters": [
+    83,
+    92
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -43931,6 +47209,28 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    93,
+    94,
+    95,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    128,
+    129,
+    130
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -43959,6 +47259,28 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    93,
+    94,
+    95,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    128,
+    129,
+    130
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -43987,6 +47309,12 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    92,
+    97,
+    124,
+    126
+   ],
    "collide": true,
    "colour": [
     0.3127,
@@ -44016,6 +47344,16 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    119,
+    120,
+    121,
+    122,
+    124,
+    125,
+    126,
+    127
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -44045,6 +47383,23 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    128,
+    129,
+    130,
+    136,
+    137,
+    140,
+    141,
+    142
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -44073,6 +47428,23 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    128,
+    129,
+    130,
+    136,
+    137,
+    140,
+    141,
+    142
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -44101,6 +47473,22 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    119,
+    124,
+    127,
+    128,
+    129,
+    130,
+    132,
+    133,
+    134,
+    135,
+    140,
+    141,
+    142,
+    143
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -44130,6 +47518,19 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    119,
+    120,
+    121,
+    122,
+    128,
+    129,
+    130,
+    132,
+    140,
+    141,
+    142
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -44159,6 +47560,28 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    117,
+    118,
+    128,
+    129,
+    130,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    144,
+    145,
+    146,
+    283,
+    284,
+    287,
+    288,
+    289
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -44187,6 +47610,28 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    117,
+    118,
+    128,
+    129,
+    130,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    144,
+    145,
+    146,
+    283,
+    284,
+    287,
+    288,
+    289
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -44215,6 +47660,15 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    133,
+    135,
+    143,
+    147,
+    148,
+    290,
+    291
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -44244,6 +47698,11 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    147,
+    148,
+    150
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -44273,6 +47732,23 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    138,
+    139,
+    144,
+    145,
+    146,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    294,
+    295,
+    296
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -44301,6 +47777,23 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    138,
+    139,
+    144,
+    145,
+    146,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    294,
+    295,
+    296
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -44329,6 +47822,13 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    147,
+    290,
+    291,
+    297,
+    303
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -44358,6 +47858,10 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    147,
+    290
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -44387,6 +47891,14 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    147,
+    148,
+    150,
+    290,
+    291,
+    292
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -44416,6 +47928,11 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    290,
+    291,
+    292
+   ],
    "collide": true,
    "colour": [
     0.3455,
@@ -44445,6 +47962,23 @@
     -4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    294,
+    295,
+    296,
+    298,
+    299,
+    300,
+    301,
+    302
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -44473,6 +48007,23 @@
     -4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    294,
+    295,
+    296,
+    298,
+    299,
+    300,
+    301,
+    302
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -44501,6 +48052,14 @@
     -9
    ],
    "classname": "worldspawn",
+   "clusters": [
+    19,
+    20,
+    77,
+    78,
+    79,
+    80
+   ],
    "colour": [
     0.0014,
     0.4372,
@@ -44528,6 +48087,26 @@
     -9
    ],
    "classname": "worldspawn",
+   "clusters": [
+    19,
+    20,
+    27,
+    28,
+    31,
+    32,
+    77,
+    78,
+    79,
+    80,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    93,
+    94
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -44556,6 +48135,26 @@
     -9
    ],
    "classname": "worldspawn",
+   "clusters": [
+    19,
+    20,
+    27,
+    28,
+    31,
+    32,
+    77,
+    78,
+    79,
+    80,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    93,
+    94
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -44584,6 +48183,32 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    27,
+    28,
+    31,
+    32,
+    59,
+    60,
+    63,
+    64,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    93,
+    94,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    128,
+    129
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -44612,6 +48237,32 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    27,
+    28,
+    31,
+    32,
+    59,
+    60,
+    63,
+    64,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    93,
+    94,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    128,
+    129
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -44640,6 +48291,26 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    59,
+    60,
+    63,
+    64,
+    71,
+    72,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    128,
+    129,
+    136,
+    137,
+    140,
+    141
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -44668,6 +48339,26 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    59,
+    60,
+    63,
+    64,
+    71,
+    72,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    128,
+    129,
+    136,
+    137,
+    140,
+    141
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -44696,6 +48387,32 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    63,
+    64,
+    71,
+    72,
+    75,
+    76,
+    117,
+    118,
+    128,
+    129,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    144,
+    145,
+    271,
+    272,
+    283,
+    284,
+    287,
+    288
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -44724,6 +48441,32 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    63,
+    64,
+    71,
+    72,
+    75,
+    76,
+    117,
+    118,
+    128,
+    129,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    144,
+    145,
+    271,
+    272,
+    283,
+    284,
+    287,
+    288
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -44752,6 +48495,26 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    75,
+    76,
+    138,
+    139,
+    144,
+    145,
+    271,
+    272,
+    275,
+    276,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    294,
+    295
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -44780,6 +48543,26 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    75,
+    76,
+    138,
+    139,
+    144,
+    145,
+    271,
+    272,
+    275,
+    276,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    294,
+    295
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -44808,6 +48591,14 @@
     -4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    281,
+    282,
+    298,
+    299,
+    300,
+    301
+   ],
    "colour": [
     0.0014,
     0.4372,
@@ -44835,6 +48626,26 @@
     -4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    271,
+    272,
+    275,
+    276,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    294,
+    295,
+    298,
+    299,
+    300,
+    301
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -44863,6 +48674,26 @@
     -4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    271,
+    272,
+    275,
+    276,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    294,
+    295,
+    298,
+    299,
+    300,
+    301
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -44891,6 +48722,14 @@
     -9
    ],
    "classname": "worldspawn",
+   "clusters": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
    "colour": [
     0.0014,
     0.4372,
@@ -44918,6 +48757,32 @@
     -9
    ],
    "classname": "worldspawn",
+   "clusters": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    77,
+    78,
+    84,
+    85,
+    86,
+    87
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -44946,6 +48811,32 @@
     -9
    ],
    "classname": "worldspawn",
+   "clusters": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    77,
+    78,
+    84,
+    85,
+    86,
+    87
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -44974,6 +48865,28 @@
     -9
    ],
    "classname": "worldspawn",
+   "clusters": [
+    3,
+    4,
+    8,
+    9,
+    16,
+    18,
+    20,
+    22,
+    26,
+    28,
+    77,
+    78,
+    79,
+    80,
+    83,
+    84,
+    85,
+    88,
+    89,
+    92
+   ],
    "collide": true,
    "colour": [
     0.6535,
@@ -45003,6 +48916,40 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    84,
+    85,
+    86,
+    87,
+    115,
+    116,
+    117,
+    118
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -45031,6 +48978,40 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    84,
+    85,
+    86,
+    87,
+    115,
+    116,
+    117,
+    118
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -45059,6 +49040,35 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    8,
+    9,
+    13,
+    14,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    36,
+    37,
+    54,
+    58,
+    60,
+    84,
+    85,
+    86,
+    87,
+    88,
+    92,
+    93,
+    97,
+    115,
+    116,
+    119,
+    124
+   ],
    "collide": true,
    "colour": [
     0.6535,
@@ -45088,6 +49098,32 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    69,
+    70,
+    71,
+    72,
+    115,
+    116,
+    117,
+    118,
+    136,
+    137
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -45116,6 +49152,32 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    69,
+    70,
+    71,
+    72,
+    115,
+    116,
+    117,
+    118,
+    136,
+    137
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -45144,6 +49206,35 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    36,
+    37,
+    41,
+    42,
+    46,
+    47,
+    54,
+    56,
+    58,
+    60,
+    62,
+    64,
+    66,
+    70,
+    72,
+    115,
+    116,
+    117,
+    118,
+    119,
+    124,
+    128,
+    133,
+    136,
+    137,
+    140,
+    143
+   ],
    "collide": true,
    "colour": [
     0.6535,
@@ -45173,6 +49264,40 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    55,
+    56,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    117,
+    118,
+    136,
+    137,
+    138,
+    139,
+    249,
+    255,
+    269,
+    270,
+    271,
+    272,
+    283,
+    284
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -45201,6 +49326,40 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    55,
+    56,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    117,
+    118,
+    136,
+    137,
+    138,
+    139,
+    249,
+    255,
+    269,
+    270,
+    271,
+    272,
+    283,
+    284
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -45229,6 +49388,49 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    41,
+    42,
+    46,
+    47,
+    51,
+    52,
+    56,
+    62,
+    64,
+    66,
+    68,
+    70,
+    72,
+    74,
+    76,
+    117,
+    118,
+    128,
+    133,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    143,
+    144,
+    145,
+    147,
+    226,
+    227,
+    250,
+    251,
+    255,
+    270,
+    272,
+    283,
+    284,
+    287,
+    288,
+    290
+   ],
    "collide": true,
    "colour": [
     0.6535,
@@ -45258,6 +49460,32 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    67,
+    68,
+    73,
+    74,
+    75,
+    76,
+    138,
+    139,
+    249,
+    255,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    283,
+    284,
+    285,
+    286
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -45286,6 +49514,32 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    67,
+    68,
+    73,
+    74,
+    75,
+    76,
+    138,
+    139,
+    249,
+    255,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    283,
+    284,
+    285,
+    286
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -45314,6 +49568,42 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    226,
+    227,
+    231,
+    232,
+    236,
+    237,
+    250,
+    251,
+    253,
+    254,
+    255,
+    268,
+    270,
+    272,
+    274,
+    276,
+    278,
+    280,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    290,
+    294,
+    295,
+    297,
+    298,
+    299,
+    300,
+    301,
+    303
+   ],
    "collide": true,
    "colour": [
     0.6535,
@@ -45343,6 +49633,14 @@
     -4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    277,
+    278,
+    279,
+    280,
+    281,
+    282
+   ],
    "colour": [
     0.0014,
     0.4372,
@@ -45370,6 +49668,32 @@
     -4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    249,
+    255,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    298,
+    299
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -45398,6 +49722,32 @@
     -4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    249,
+    255,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    298,
+    299
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -45426,6 +49776,9 @@
     7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    680
+   ],
    "collide": true,
    "colour": [
     0.5274,
@@ -45455,6 +49808,17 @@
     -9
    ],
    "classname": "worldspawn",
+   "clusters": [
+    1,
+    3,
+    4,
+    6,
+    8,
+    9,
+    11,
+    13,
+    14
+   ],
    "colour": [
     0.6535,
     0.6164,
@@ -45482,6 +49846,13 @@
     -9
    ],
    "classname": "worldspawn",
+   "clusters": [
+    2,
+    3,
+    4,
+    15,
+    16
+   ],
    "colour": [
     0.0014,
     0.4372,
@@ -45509,6 +49880,35 @@
     -9
    ],
    "classname": "worldspawn",
+   "clusters": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    29,
+    30
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -45537,6 +49937,35 @@
     -9
    ],
    "classname": "worldspawn",
+   "clusters": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    29,
+    30
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -45565,6 +49994,20 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    6,
+    8,
+    9,
+    11,
+    13,
+    14,
+    34,
+    36,
+    37,
+    39,
+    41,
+    42
+   ],
    "colour": [
     0.6535,
     0.6164,
@@ -45592,6 +50035,44 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    29,
+    30,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    61,
+    62
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -45620,6 +50101,44 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    29,
+    30,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    61,
+    62
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -45648,6 +50167,17 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    34,
+    36,
+    37,
+    39,
+    41,
+    42,
+    44,
+    46,
+    47
+   ],
    "colour": [
     0.6535,
     0.6164,
@@ -45675,6 +50205,35 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    61,
+    62,
+    65,
+    66,
+    69,
+    70
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -45703,6 +50262,35 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    61,
+    62,
+    65,
+    66,
+    69,
+    70
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -45731,6 +50319,9 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    67
+   ],
    "colour": [
     0.1538,
     0.1282,
@@ -45758,6 +50349,20 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    39,
+    41,
+    42,
+    44,
+    46,
+    47,
+    49,
+    51,
+    52,
+    224,
+    226,
+    227
+   ],
    "colour": [
     0.6535,
     0.6164,
@@ -45785,6 +50390,13 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    50,
+    67,
+    68,
+    238,
+    239
+   ],
    "colour": [
     0.1338,
     0.1131,
@@ -45812,6 +50424,10 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    67,
+    238
+   ],
    "colour": [
     0.1654,
     0.152,
@@ -45839,6 +50455,50 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    55,
+    56,
+    61,
+    62,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    73,
+    74,
+    223,
+    224,
+    225,
+    226,
+    227,
+    239,
+    240,
+    244,
+    245,
+    249,
+    250,
+    251,
+    255,
+    269,
+    270
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -45867,6 +50527,50 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    55,
+    56,
+    61,
+    62,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    73,
+    74,
+    223,
+    224,
+    225,
+    226,
+    227,
+    239,
+    240,
+    244,
+    245,
+    249,
+    250,
+    251,
+    255,
+    269,
+    270
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -45895,6 +50599,9 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    239
+   ],
    "colour": [
     0.399,
     0.3825,
@@ -45922,6 +50629,14 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    238,
+    240,
+    244,
+    245,
+    246,
+    248
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -45949,6 +50664,15 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    67,
+    238,
+    262,
+    263,
+    264,
+    265,
+    266
+   ],
    "colour": [
     0.1452,
     0.0908,
@@ -45976,6 +50700,12 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    50,
+    67,
+    225,
+    238
+   ],
    "colour": [
     0.082,
     0.0761,
@@ -46003,6 +50733,9 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    267
+   ],
    "colour": [
     0.3351,
     0.2845,
@@ -46030,6 +50763,15 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    267
+   ],
    "colour": [
     0.3394,
     0.3277,
@@ -46057,6 +50799,12 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    225,
+    238,
+    239,
+    266
+   ],
    "colour": [
     0.3091,
     0.2768,
@@ -46084,6 +50832,14 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    225,
+    230,
+    238,
+    239,
+    256,
+    257
+   ],
    "colour": [
     0.2617,
     0.2104,
@@ -46111,6 +50867,9 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    266
+   ],
    "colour": [
     0.5197,
     0.3621,
@@ -46138,6 +50897,9 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    266
+   ],
    "colour": [
     0.5197,
     0.3621,
@@ -46165,6 +50927,9 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    266
+   ],
    "colour": [
     0.5197,
     0.3621,
@@ -46192,6 +50957,9 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    266
+   ],
    "colour": [
     0.5197,
     0.3621,
@@ -46219,6 +50987,13 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    240,
+    244,
+    250,
+    251,
+    255
+   ],
    "colour": [
     0.0957,
     0.1051,
@@ -46246,6 +51021,15 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267
+   ],
    "colour": [
     0.2039,
     0.1911,
@@ -46273,6 +51057,11 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    230,
+    266,
+    267
+   ],
    "colour": [
     0.1039,
     0.11,
@@ -46300,6 +51089,11 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    230,
+    266,
+    267
+   ],
    "colour": [
     0.3533,
     0.3506,
@@ -46327,6 +51121,17 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    49,
+    51,
+    52,
+    224,
+    226,
+    227,
+    229,
+    231,
+    232
+   ],
    "colour": [
     0.6535,
     0.6164,
@@ -46354,6 +51159,38 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    50,
+    52,
+    67,
+    68,
+    225,
+    227,
+    230,
+    232,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    250,
+    251,
+    252,
+    253,
+    254,
+    256,
+    257,
+    259,
+    260,
+    261,
+    262,
+    264,
+    265,
+    266,
+    267,
+    268
+   ],
    "colour": [
     0.1338,
     0.1131,
@@ -46381,6 +51218,11 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    67,
+    238,
+    266
+   ],
    "colour": [
     0.1654,
     0.152,
@@ -46408,6 +51250,57 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    48,
+    49,
+    50,
+    51,
+    52,
+    67,
+    68,
+    73,
+    74,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    235,
+    237,
+    239,
+    240,
+    242,
+    243,
+    244,
+    245,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    254,
+    255,
+    256,
+    257,
+    259,
+    260,
+    267,
+    268,
+    269,
+    270,
+    273,
+    274,
+    277,
+    278,
+    279,
+    280
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -46436,6 +51329,57 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    48,
+    49,
+    50,
+    51,
+    52,
+    67,
+    68,
+    73,
+    74,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    235,
+    237,
+    239,
+    240,
+    242,
+    243,
+    244,
+    245,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    254,
+    255,
+    256,
+    257,
+    259,
+    260,
+    267,
+    268,
+    269,
+    270,
+    273,
+    274,
+    277,
+    278,
+    279,
+    280
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -46464,6 +51408,12 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    238,
+    239,
+    256,
+    257
+   ],
    "colour": [
     0.327,
     0.257,
@@ -46491,6 +51441,15 @@
     -4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    230,
+    256,
+    260,
+    261,
+    265,
+    266,
+    267
+   ],
    "colour": [
     0.3533,
     0.3506,
@@ -46518,6 +51477,17 @@
     -4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    224,
+    226,
+    227,
+    229,
+    231,
+    232,
+    234,
+    236,
+    237
+   ],
    "colour": [
     0.6535,
     0.6164,
@@ -46545,6 +51515,16 @@
     -4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    230,
+    256,
+    260,
+    261,
+    265,
+    266,
+    267,
+    268
+   ],
    "colour": [
     0.1338,
     0.1131,
@@ -46572,6 +51552,13 @@
     -4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    235,
+    236,
+    237,
+    277,
+    278
+   ],
    "colour": [
     0.0014,
     0.4372,
@@ -46599,6 +51586,9 @@
     -4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    266
+   ],
    "colour": [
     0.1654,
     0.152,
@@ -46626,6 +51616,35 @@
     -4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    239,
+    250,
+    256,
+    260,
+    267,
+    268,
+    273,
+    274,
+    277,
+    278,
+    279,
+    280
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -46654,6 +51673,35 @@
     -4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    239,
+    250,
+    256,
+    260,
+    267,
+    268,
+    273,
+    274,
+    277,
+    278,
+    279,
+    280
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -46682,6 +51730,14 @@
     -9
    ],
    "classname": "worldspawn",
+   "clusters": [
+    1,
+    3,
+    6,
+    8,
+    11,
+    13
+   ],
    "colour": [
     0.6535,
     0.6164,
@@ -46709,6 +51765,14 @@
     -9
    ],
    "classname": "worldspawn",
+   "clusters": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6
+   ],
    "colour": [
     0.0014,
     0.4372,
@@ -46736,6 +51800,20 @@
     -9
    ],
    "classname": "worldspawn",
+   "clusters": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -46764,6 +51842,20 @@
     -9
    ],
    "classname": "worldspawn",
+   "clusters": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -46792,6 +51884,16 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    6,
+    8,
+    11,
+    13,
+    34,
+    36,
+    39,
+    41
+   ],
    "colour": [
     0.6535,
     0.6164,
@@ -46819,6 +51921,14 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    5,
+    6,
+    10,
+    11,
+    33,
+    34
+   ],
    "colour": [
     0.0014,
     0.4372,
@@ -46846,6 +51956,24 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    33,
+    34,
+    35,
+    36,
+    38,
+    39,
+    40,
+    41
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -46874,6 +52002,24 @@
     -8
    ],
    "classname": "worldspawn",
+   "clusters": [
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    33,
+    34,
+    35,
+    36,
+    38,
+    39,
+    40,
+    41
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -46902,6 +52048,14 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    34,
+    36,
+    39,
+    41,
+    44,
+    46
+   ],
    "colour": [
     0.6535,
     0.6164,
@@ -46929,6 +52083,14 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    33,
+    34,
+    38,
+    39,
+    43,
+    44
+   ],
    "colour": [
     0.0014,
     0.4372,
@@ -46956,6 +52118,20 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    33,
+    34,
+    35,
+    36,
+    38,
+    39,
+    40,
+    41,
+    43,
+    44,
+    45,
+    46
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -46984,6 +52160,20 @@
     -7
    ],
    "classname": "worldspawn",
+   "clusters": [
+    33,
+    34,
+    35,
+    36,
+    38,
+    39,
+    40,
+    41,
+    43,
+    44,
+    45,
+    46
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -47012,6 +52202,16 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    39,
+    41,
+    44,
+    46,
+    49,
+    51,
+    224,
+    226
+   ],
    "colour": [
     0.6535,
     0.6164,
@@ -47039,6 +52239,12 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    43,
+    44,
+    48,
+    49
+   ],
    "colour": [
     0.0014,
     0.4372,
@@ -47066,6 +52272,24 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    38,
+    39,
+    40,
+    41,
+    43,
+    44,
+    45,
+    46,
+    48,
+    49,
+    50,
+    51,
+    223,
+    224,
+    225,
+    226
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -47094,6 +52318,24 @@
     -6
    ],
    "classname": "worldspawn",
+   "clusters": [
+    38,
+    39,
+    40,
+    41,
+    43,
+    44,
+    45,
+    46,
+    48,
+    49,
+    50,
+    51,
+    223,
+    224,
+    225,
+    226
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -47122,6 +52364,14 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    49,
+    51,
+    224,
+    226,
+    229,
+    231
+   ],
    "colour": [
     0.6535,
     0.6164,
@@ -47149,6 +52399,14 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    48,
+    49,
+    223,
+    224,
+    228,
+    229
+   ],
    "colour": [
     0.0014,
     0.4372,
@@ -47176,6 +52434,20 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    48,
+    49,
+    50,
+    51,
+    223,
+    224,
+    225,
+    226,
+    228,
+    229,
+    230,
+    231
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -47204,6 +52476,20 @@
     -5
    ],
    "classname": "worldspawn",
+   "clusters": [
+    48,
+    49,
+    50,
+    51,
+    223,
+    224,
+    225,
+    226,
+    228,
+    229,
+    230,
+    231
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -47232,6 +52518,14 @@
     -4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    224,
+    226,
+    229,
+    231,
+    234,
+    236
+   ],
    "colour": [
     0.6535,
     0.6164,
@@ -47259,6 +52553,14 @@
     -4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    228,
+    229,
+    233,
+    234,
+    235,
+    236
+   ],
    "colour": [
     0.0014,
     0.4372,
@@ -47286,6 +52588,20 @@
     -4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    223,
+    224,
+    225,
+    226,
+    228,
+    229,
+    230,
+    231,
+    233,
+    234,
+    235,
+    236
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -47314,6 +52630,20 @@
     -4
    ],
    "classname": "worldspawn",
+   "clusters": [
+    223,
+    224,
+    225,
+    226,
+    228,
+    229,
+    230,
+    231,
+    233,
+    234,
+    235,
+    236
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -47338,6 +52668,23 @@
   },
   {
    "classname": "func_illusionary",
+   "clusters": [
+    972,
+    973,
+    974,
+    976,
+    977,
+    978,
+    980,
+    981,
+    982,
+    983,
+    984,
+    985,
+    987,
+    988,
+    989
+   ],
    "entity": 146,
    "free": "generated:flat:000000",
    "generic": "flat",
@@ -47362,6 +52709,23 @@
   },
   {
    "classname": "func_illusionary",
+   "clusters": [
+    972,
+    973,
+    974,
+    976,
+    977,
+    978,
+    980,
+    981,
+    982,
+    983,
+    984,
+    985,
+    987,
+    988,
+    989
+   ],
    "entity": 146,
    "free": "generated:flat:dfdfdf",
    "generic": "flat",
@@ -47381,6 +52745,10 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    576,
+    578
+   ],
    "colour": [
     0.2617,
     0.2104,
@@ -47405,6 +52773,47 @@
   },
   {
    "classname": "func_illusionary",
+   "clusters": [
+    607,
+    615,
+    616,
+    618,
+    631,
+    636,
+    639,
+    643,
+    644,
+    670,
+    671,
+    676,
+    757,
+    759,
+    768,
+    777,
+    778,
+    779,
+    780,
+    796,
+    799,
+    802,
+    806,
+    807,
+    809,
+    810,
+    813,
+    816,
+    817,
+    821,
+    824,
+    828,
+    829,
+    830,
+    831,
+    832,
+    858,
+    873,
+    876
+   ],
    "colour": [
     0.5395,
     0.5829,
@@ -47429,6 +52838,9 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    603
+   ],
    "colour": [
     0.373,
     0.2475,
@@ -47453,6 +52865,9 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    603
+   ],
    "colour": [
     0.082,
     0.0761,
@@ -47477,6 +52892,10 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    527,
+    534
+   ],
    "colour": [
     0.3127,
     0.3407,
@@ -47500,6 +52919,10 @@
   },
   {
    "classname": "func_door",
+   "clusters": [
+    505,
+    518
+   ],
    "colour": [
     0.3696,
     0.3563,
@@ -47524,6 +52947,10 @@
   },
   {
    "classname": "func_door",
+   "clusters": [
+    505,
+    518
+   ],
    "colour": [
     0.3455,
     0.3258,
@@ -47548,6 +52975,11 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    518,
+    519,
+    525
+   ],
    "colour": [
     0.3455,
     0.3258,
@@ -47572,6 +53004,10 @@
   },
   {
    "classname": "func_illusionary",
+   "clusters": [
+    384,
+    389
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -47596,6 +53032,21 @@
   },
   {
    "classname": "func_illusionary",
+   "clusters": [
+    384,
+    387,
+    389,
+    391,
+    393,
+    396,
+    399,
+    406,
+    411,
+    414,
+    417,
+    420,
+    422
+   ],
    "colour": [
     0.4845,
     0.4845,
@@ -47620,6 +53071,9 @@
   },
   {
    "classname": "func_rot_button",
+   "clusters": [
+    516
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -47643,6 +53097,9 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    344
+   ],
    "colour": [
     0.5424,
     0.4415,
@@ -47667,6 +53124,9 @@
   },
   {
    "classname": "func_rot_button",
+   "clusters": [
+    344
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -47690,6 +53150,9 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    343
+   ],
    "colour": [
     0.4758,
     0.3749,
@@ -47714,6 +53177,9 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    343
+   ],
    "colour": [
     0.4163,
     0.3701,
@@ -47738,6 +53204,9 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    356
+   ],
    "colour": [
     0.3552,
     0.3142,
@@ -47762,6 +53231,9 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    343
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -47786,6 +53258,10 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    343,
+    344
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -47810,6 +53286,9 @@
   },
   {
    "classname": "func_rotating",
+   "clusters": [
+    344
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -47834,6 +53313,9 @@
   },
   {
    "classname": "func_rotating",
+   "clusters": [
+    344
+   ],
    "colour": [
     0.4137,
     0.3252,
@@ -47858,6 +53340,10 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    343,
+    344
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -47882,6 +53368,9 @@
   },
   {
    "classname": "func_lod",
+   "clusters": [
+    317
+   ],
    "colour": [
     0.3127,
     0.3407,
@@ -47905,6 +53394,9 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    112
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -47928,6 +53420,9 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    112
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -47951,6 +53446,10 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    576,
+    578
+   ],
    "colour": [
     0.3854,
     0.291,
@@ -47975,6 +53474,9 @@
   },
   {
    "classname": "func_illusionary",
+   "clusters": [
+    495
+   ],
    "entity": 332,
    "free": "generated:flat:000000",
    "generic": "flat",
@@ -47999,6 +53501,9 @@
   },
   {
    "classname": "func_illusionary",
+   "clusters": [
+    493
+   ],
    "entity": 332,
    "free": "generated:flat:dfdfdf",
    "generic": "flat",
@@ -48018,6 +53523,13 @@
   },
   {
    "classname": "func_illusionary",
+   "clusters": [
+    552,
+    555,
+    556,
+    563,
+    566
+   ],
    "entity": 334,
    "free": "generated:flat:000000",
    "generic": "flat",
@@ -48042,6 +53554,10 @@
   },
   {
    "classname": "func_illusionary",
+   "clusters": [
+    553,
+    561
+   ],
    "entity": 334,
    "free": "generated:flat:dfdfdf",
    "generic": "flat",
@@ -48061,6 +53577,9 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    576
+   ],
    "colour": [
     0.373,
     0.2475,
@@ -48085,6 +53604,9 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    576
+   ],
    "colour": [
     0.082,
     0.0761,
@@ -48109,6 +53631,9 @@
   },
   {
    "classname": "func_lod",
+   "clusters": [
+    711
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -48132,6 +53657,12 @@
   },
   {
    "classname": "func_illusionary",
+   "clusters": [
+    527,
+    528,
+    534,
+    535
+   ],
    "entity": 348,
    "free": "generated:flat:000000",
    "generic": "flat",
@@ -48156,6 +53687,12 @@
   },
   {
    "classname": "func_illusionary",
+   "clusters": [
+    528,
+    529,
+    535,
+    536
+   ],
    "entity": 348,
    "free": "generated:flat:dfdfdf",
    "generic": "flat",
@@ -48175,6 +53712,21 @@
   },
   {
    "classname": "func_illusionary",
+   "clusters": [
+    385,
+    393,
+    394,
+    396,
+    397,
+    401,
+    402,
+    408,
+    409,
+    411,
+    412,
+    414,
+    415
+   ],
    "entity": 350,
    "free": "generated:flat:000000",
    "generic": "flat",
@@ -48199,6 +53751,22 @@
   },
   {
    "classname": "func_illusionary",
+   "clusters": [
+    385,
+    392,
+    394,
+    395,
+    397,
+    398,
+    402,
+    403,
+    409,
+    410,
+    412,
+    413,
+    415,
+    416
+   ],
    "entity": 350,
    "free": "generated:flat:dfdfdf",
    "generic": "flat",
@@ -48218,6 +53786,10 @@
   },
   {
    "classname": "func_illusionary",
+   "clusters": [
+    443,
+    445
+   ],
    "entity": 352,
    "free": "generated:flat:000000",
    "generic": "flat",
@@ -48242,6 +53814,10 @@
   },
   {
    "classname": "func_illusionary",
+   "clusters": [
+    444,
+    445
+   ],
    "entity": 352,
    "free": "generated:flat:dfdfdf",
    "generic": "flat",
@@ -48261,6 +53837,9 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    92
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -48284,6 +53863,9 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    92
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -48307,6 +53889,9 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    192
+   ],
    "colour": [
     0.3455,
     0.3258,
@@ -48331,6 +53916,9 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    192
+   ],
    "colour": [
     0.3455,
     0.3258,
@@ -48355,6 +53943,9 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    161
+   ],
    "colour": [
     0.3455,
     0.3258,
@@ -48379,6 +53970,9 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    161
+   ],
    "colour": [
     0.3455,
     0.3258,
@@ -48403,6 +53997,10 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    215,
+    217
+   ],
    "colour": [
     0.3455,
     0.3258,
@@ -48427,6 +54025,10 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    215,
+    217
+   ],
    "colour": [
     0.3455,
     0.3258,
@@ -48451,6 +54053,10 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    204,
+    208
+   ],
    "colour": [
     0.3455,
     0.3258,
@@ -48475,6 +54081,10 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    204,
+    208
+   ],
    "colour": [
     0.3455,
     0.3258,
@@ -48499,6 +54109,11 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    290,
+    291,
+    292
+   ],
    "colour": [
     0.3455,
     0.3258,
@@ -48523,6 +54138,11 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    290,
+    291,
+    292
+   ],
    "colour": [
     0.3455,
     0.3258,
@@ -48547,6 +54167,14 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    147,
+    148,
+    150,
+    290,
+    291,
+    292
+   ],
    "colour": [
     0.3455,
     0.3258,
@@ -48571,6 +54199,11 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    147,
+    148,
+    150
+   ],
    "colour": [
     0.3455,
     0.3258,
@@ -48595,6 +54228,9 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    688
+   ],
    "colour": [
     0.8031,
     0.2238,
@@ -48619,6 +54255,9 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    688
+   ],
    "colour": [
     0.8031,
     0.2238,
@@ -48643,6 +54282,9 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    688
+   ],
    "colour": [
     0.8031,
     0.2238,
@@ -48667,6 +54309,9 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    688
+   ],
    "colour": [
     0.8031,
     0.2238,
@@ -48691,6 +54336,9 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    688
+   ],
    "colour": [
     0.8031,
     0.2238,
@@ -48715,6 +54363,9 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    688
+   ],
    "colour": [
     0.8031,
     0.2238,
@@ -48739,6 +54390,10 @@
   },
   {
    "classname": "func_wall_toggle",
+   "clusters": [
+    205,
+    305
+   ],
    "colour": [
     0.3455,
     0.3258,
@@ -48763,6 +54418,9 @@
   },
   {
    "classname": "func_wall_toggle",
+   "clusters": [
+    205
+   ],
    "colour": [
     0.3455,
     0.3258,
@@ -48787,6 +54445,9 @@
   },
   {
    "classname": "func_wall_toggle",
+   "clusters": [
+    305
+   ],
    "colour": [
     0.3455,
     0.3258,
@@ -48811,6 +54472,9 @@
   },
   {
    "classname": "func_wall_toggle",
+   "clusters": [
+    305
+   ],
    "colour": [
     0.3455,
     0.3258,
@@ -48835,6 +54499,22 @@
   },
   {
    "classname": "func_illusionary",
+   "clusters": [
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362,
+    363,
+    364,
+    365
+   ],
    "entity": 510,
    "free": "generated:flat:000000",
    "generic": "flat",
@@ -48859,6 +54539,9 @@
   },
   {
    "classname": "func_lod",
+   "clusters": [
+    322
+   ],
    "colour": [
     0.6547,
     0.6271,
@@ -48882,6 +54565,9 @@
   },
   {
    "classname": "func_lod",
+   "clusters": [
+    731
+   ],
    "colour": [
     0.4354,
     0.3184,
@@ -48905,6 +54591,10 @@
   },
   {
    "classname": "func_lod",
+   "clusters": [
+    730,
+    731
+   ],
    "colour": [
     0.3917,
     0.2662,
@@ -48928,6 +54618,11 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    238,
+    243,
+    254
+   ],
    "colour": [
     0.0957,
     0.1051,
@@ -48952,6 +54647,10 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    612,
+    613
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -48976,6 +54675,9 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    710
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -49000,6 +54702,9 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    741
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -49023,6 +54728,10 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    900,
+    901
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -49046,6 +54755,13 @@
   },
   {
    "classname": "func_breakable",
+   "clusters": [
+    261,
+    262,
+    264,
+    265,
+    266
+   ],
    "colour": [
     0.3284,
     0.2505,
@@ -49070,6 +54786,11 @@
   },
   {
    "classname": "func_illusionary",
+   "clusters": [
+    261,
+    262,
+    266
+   ],
    "colour": [
     0.082,
     0.0761,
@@ -49093,6 +54814,13 @@
   },
   {
    "classname": "func_illusionary",
+   "clusters": [
+    261,
+    262,
+    264,
+    265,
+    266
+   ],
    "colour": [
     0.3091,
     0.2768,
@@ -49116,6 +54844,9 @@
   },
   {
    "classname": "func_brush",
+   "clusters": [
+    344
+   ],
    "colour": [
     0.4367,
     0.4411,
@@ -49140,6 +54871,9 @@
   },
   {
    "classname": "func_illusionary",
+   "clusters": [
+    344
+   ],
    "colour": [
     0.4367,
     0.4411,
@@ -49163,6 +54897,9 @@
   },
   {
    "classname": "func_physbox_multiplayer",
+   "clusters": [
+    321
+   ],
    "entity": 641,
    "free": "generated:flat:dfdfdf",
    "generic": "flat",
@@ -49181,6 +54918,9 @@
   },
   {
    "classname": "func_button",
+   "clusters": [
+    752
+   ],
    "colour": [
     0.2414,
     0.1318,
@@ -49204,6 +54944,9 @@
   },
   {
    "classname": "func_button",
+   "clusters": [
+    352
+   ],
    "entity": 647,
    "free": "generated:flat:000000",
    "generic": "flat",
@@ -49228,6 +54971,9 @@
   },
   {
    "classname": "func_button",
+   "clusters": [
+    321
+   ],
    "colour": [
     0.373,
     0.2475,
@@ -49251,6 +54997,9 @@
   },
   {
    "classname": "func_button",
+   "clusters": [
+    321
+   ],
    "colour": [
     0.2414,
     0.1318,
@@ -49274,6 +55023,9 @@
   },
   {
    "classname": "func_button",
+   "clusters": [
+    321
+   ],
    "colour": [
     0.373,
     0.2475,
@@ -49297,6 +55049,9 @@
   },
   {
    "classname": "func_button",
+   "clusters": [
+    321
+   ],
    "colour": [
     0.2414,
     0.1318,
@@ -49320,6 +55075,9 @@
   },
   {
    "classname": "func_button",
+   "clusters": [
+    321
+   ],
    "colour": [
     0.373,
     0.2475,
@@ -49343,6 +55101,9 @@
   },
   {
    "classname": "func_button",
+   "clusters": [
+    321
+   ],
    "colour": [
     0.2414,
     0.1318,
@@ -49366,6 +55127,9 @@
   },
   {
    "classname": "func_button",
+   "clusters": [
+    321
+   ],
    "colour": [
     0.373,
     0.2475,
@@ -49389,6 +55153,9 @@
   },
   {
    "classname": "func_button",
+   "clusters": [
+    321
+   ],
    "colour": [
     0.2414,
     0.1318,
@@ -49412,6 +55179,9 @@
   },
   {
    "classname": "func_button",
+   "clusters": [
+    321
+   ],
    "colour": [
     0.373,
     0.2475,
@@ -49435,6 +55205,9 @@
   },
   {
    "classname": "func_button",
+   "clusters": [
+    321
+   ],
    "colour": [
     0.2414,
     0.1318,
@@ -49458,6 +55231,9 @@
   },
   {
    "classname": "func_physbox_multiplayer",
+   "clusters": [
+    688
+   ],
    "colour": [
     0.303,
     0.2147,
@@ -49482,6 +55258,21 @@
   },
   {
    "classname": "func_illusionary",
+   "clusters": [
+    384,
+    387,
+    389,
+    391,
+    393,
+    396,
+    399,
+    406,
+    411,
+    414,
+    417,
+    420,
+    422
+   ],
    "colour": [
     0.5841,
     0.6377,
@@ -49514,6 +55305,127 @@
   "y0": 0.0
  },
  "version": 1,
+ "vis": {
+  "cluster_area": {
+   "count": 1032,
+   "offset": 7087600
+  },
+  "clusters": 1032,
+  "head": 0,
+  "leaf_area": {
+   "count": 5219,
+   "offset": 7066724
+  },
+  "leaf_cluster": {
+   "count": 5219,
+   "offset": 7045848
+  },
+  "nodes": {
+   "count": 5061,
+   "offset": 6985116
+  },
+  "occluder_indices": {
+   "count": 6927,
+   "offset": 7150832
+  },
+  "occluder_vertices": {
+   "count": 1569,
+   "offset": 7132004
+  },
+  "planes": {
+   "count": 48998,
+   "offset": 6201148
+  },
+  "portal_entities": [
+   {
+    "key": 1,
+    "start_open": true,
+    "target": "illu1",
+    "window": true
+   },
+   {
+    "key": 2,
+    "start_open": true,
+    "target": "illu2",
+    "window": true
+   },
+   {
+    "key": 3,
+    "start_open": true,
+    "target": "illu3",
+    "window": true
+   },
+   {
+    "key": 4,
+    "start_open": true,
+    "target": "illu4",
+    "window": true
+   },
+   {
+    "key": 5,
+    "start_open": true,
+    "target": "illu5",
+    "window": true
+   },
+   {
+    "key": 6,
+    "start_open": true,
+    "target": "illu6",
+    "window": true
+   },
+   {
+    "key": 7,
+    "start_open": true,
+    "target": "illu11",
+    "window": true
+   }
+  ],
+  "portals": [
+   [
+    1,
+    6,
+    10
+   ],
+   [
+    2,
+    5,
+    6
+   ],
+   [
+    3,
+    5,
+    6
+   ],
+   [
+    4,
+    4,
+    6
+   ],
+   [
+    5,
+    3,
+    4
+   ],
+   [
+    6,
+    3,
+    4
+   ],
+   [
+    7,
+    1,
+    3
+   ]
+  ],
+  "pvs": {
+   "count": 36148,
+   "offset": 7095856
+  },
+  "pvs_offsets": {
+   "count": 1032,
+   "offset": 7091728
+  }
+ },
  "volumes": [
   {
    "brushes": [

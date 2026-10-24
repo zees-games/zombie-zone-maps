@@ -820,6 +820,22 @@ def put_back(argv, path, whole):
     return convert(argv, skip=("max_boxes",))
 
 
+def write_hulls(doc, out_dir):
+    """`<out_dir>/hulls/<id>.{json,bin}`: the hulls `world_collision` selects, in the server's maps pack,
+    which carries no world. Removed when the document collides with its boxes alone."""
+    from dotbsp import audit as daudit, mesh as dmesh
+    prefix = os.path.join(out_dir, "hulls", doc["id"])
+    for ext in (".json", ".bin"):
+        if os.path.exists(prefix + ext):
+            os.remove(prefix + ext)
+    sel = doc.get("world_collision")
+    if not sel:
+        return
+    world = os.path.join(HERE, "..", "world", doc["world"], doc["id"])
+    man = dmesh.write_collision(world, prefix, lambda hulls: daudit.collision_hulls(hulls, sel))
+    print("  world_collision: %d hulls in hulls/%s" % (len(man["hulls"]), doc["id"]))
+
+
 def convert(argv, skip=(), keep_small=0, max_boxes=0):
     spec = json.load(open(argv[1]))
     for k in skip:
@@ -844,6 +860,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
     y0 = float(spec.get("y0", 0.0))    # spec y0: metres the source floor sits above the game's y = 0 (the nav is flat at 0)
 
     boxes, skipped = [], 0
+    dropped_any = False
     tread_ids = set()
     for b in model_boxes(bs, 0, y0):
         boxes.append(b)
@@ -864,6 +881,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
 
     # brush entities: solid ones are part of the world; gates are held back for the route
     gate_cands = []
+    wc_models, wc_flat = [0], []    # what `world_collision` collides with, the same selection as the boxes
     for e in ents:
         m = str(e.get("model", ""))
         if not m.startswith("*"):
@@ -879,6 +897,9 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
             if cls in BREAKABLE and cls not in spec.get("solid_classes", []):
                 # the game breaks nothing: an upright breakable (a door, a window) would close its way for good
                 mb = [b for b in mb if b["size"][1] <= 0.5]
+                wc_flat.append(int(m[1:]))
+            else:
+                wc_models.append(int(m[1:]))
             boxes.extend(mb)
         elif gate:
             only = spec.get("gate_names")
@@ -1067,6 +1088,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
             small = small[:max(0, len(small) - keep_small)]
         boxes[:] = [b for b in boxes if b not in small]
         print("  dropped %d small boxes" % len(small))
+        dropped_any = dropped_any or bool(small)
     if spec.get("max_boxes") and len(boxes) > spec["max_boxes"]:
         # The wire limit (ZzMapDoc.WIRE_LIMIT, MAX_BOXES) caps what a document can collide with; the
         # drawn world pack carries the detail, so the smallest solids go first.
@@ -1075,6 +1097,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
         order = sorted((i for i in range(len(boxes)) if id(boxes[i]) not in tread_ids), key=lambda i: boxes[i]["size"][0] * boxes[i]["size"][1] * boxes[i]["size"][2])
         gone = set(order[:len(order) - int(spec["max_boxes"])])
         print("  max_boxes: dropped the %d smallest of %d boxes" % (len(gone), len(boxes)))
+        dropped_any = dropped_any or bool(gone)
         boxes[:] = [b for i, b in enumerate(boxes) if i not in gone]
     for ab in spec.get("add_boxes", []):
         boxes.append(dict(ab))
@@ -1338,6 +1361,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
             gone = set(order[:len(boxes) - int(spec["max_boxes"])])
             boxes[:] = [b for i, b in enumerate(boxes) if i not in gone]
             print("  max_boxes: %d more smallest dropped after the stairs were pruned" % len(gone))
+            dropped_any = dropped_any or bool(gone)
     print("  ground: %d cells walked without props, %d with; %d of %d props kept" % (len({(a, b) for a, b, _ in seen}) + len(lost), len({(a, b) for a, b, _ in seen}), len(keep), len(cand)))
 
     # The game's own graph, worked out here (nav_emulate): a doorway a metre wide has no point in
@@ -1822,11 +1846,22 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
         hints = [build_maps.toy(t[0], "spawn" if t[1] == "spawn" else tuple(t[1]), t[2], t[3], *t[4:]) for t in spec["toys"]]
         doc["toys"] = build_maps.settle_toys(doc, hints)
     doc = name_world(doc, os.path.join(HERE, ".."))
+    if dropped_any and doc.get("world"):
+        # The budget dropped boxes the world pack still draws: the game collides with the pack's own
+        # hulls for these models, so the wire carries only what the graph needs.
+        moved = [k for k in ("crop", "clip_y", "widen_doorways") if spec.get(k)]
+        if moved:
+            print("  world_collision: not written, the spec moves collision (%s)" % ", ".join(moved), file=sys.stderr)
+        else:
+            doc["world_collision"] = {"models": sorted(set(wc_models)), "flat": sorted(set(wc_flat)), "flat_height": 0.5,
+                                      "skip": [list(c[:6]) for c in spec.get("cut", []) if len(c) < 7]}
+            print("  world_collision: %d models from the world pack's hulls" % len(doc["world_collision"]["models"]))
     os.makedirs(out_dir, exist_ok=True)
     path = os.path.join(out_dir, spec["id"] + ".json")
     with open(path, "w") as f:
         json.dump(doc, f, indent=1)
         f.write("\n")
+    write_hulls(doc, out_dir)
     print("%s: %d boxes (%d barricade), %d props, %d lights, %d spawns, %d zombie spawns, %d floors, %d items, %d caches, %d posts" % (
         path, len(doc["boxes"]), len(bar_boxes), len(props), len(lights), len(spawns), len(zsp), len(floors), len(items), len(caches), len(posts)))
     print("  route %d points, %d objectives, %d gate boxes, %d cells reachable, end %s" % (len(route), len(objectives), len(gate_boxes), len(seen), end_area[0]["min"] if end_area else None))
