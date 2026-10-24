@@ -9,6 +9,7 @@
   "licence": "CC BY-NC-ND 4.0",
   "blurb": "A street of boarded houses at night, converted from Didixo's zs_RavenStreet. Hold it.",
   "ambient": {"mood": "city_ruins", "indoor": "indoor_hall"},
+  "environment": {"sky_top": [0.025, 0.035, 0.08], "sky_horizon": [0.09, 0.11, 0.17], "ground": [0.03, 0.03, 0.04], "sun_pitch": -38, "sun_yaw": 12, "sun_energy": 0.3, "sun_colour": [0.62, 0.7, 0.88], "ambient": [0.42, 0.45, 0.55], "ambient_energy": 0.35, "fog": 0.012},
   "mode": "survival",
   "survivors": 8,
   "survive_seconds": 600,
