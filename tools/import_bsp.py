@@ -17,7 +17,7 @@ engine collides with) and writes each as a box, by dot-map's `boxes.decompose`:
     most of a turned rectangle is one box (with `yaw`);
   * anything else (a ramp, a roof, a wedge) is sliced into 0.4 m slabs along its slope, each slab
     a box spanning what the brush covers at the slab's middle. An approximation, kept small;
-  * a brush with a sky, clip or all-nodraw side is an invisible wall; glass is `glass`;
+  * a brush with a sky, clip or all-nodraw side is an invisible wall (box `kind` sky, clip or nodraw); glass is `glass`;
   * the author's textures are never used (the game draws its own procedural surfaces): a
     material name maps to the nearest surface by `MATERIALS`.
 
@@ -252,6 +252,13 @@ def classify(br):
     if br.contents & 0x2:
         return "glass", "glass"
     return "solid", material_for(name)
+
+
+def hidden_kind(br):
+    """What an invisible brush is, for the game's collision: 'clip' (player or monster clip), else 'nodraw'."""
+    if br.contents & (reader.CONTENTS_PLAYERCLIP | 0x20000) or any("clip" in n for _, _, n in br.sides):
+        return "clip"
+    return "nodraw"
 
 
 def boxes_from_brush(br, y0):
@@ -620,6 +627,7 @@ def model_boxes(bs, model, y0):
                 b["_brush"] = (model, rec.get("id", id(rec)))
             if kind in ("invisible", "sky"):
                 b["visible"] = False
+                b["kind"] = "sky" if kind == "sky" else hidden_kind(br)
             if kind == "sky":
                 b["_sky"] = True
             out.append(b)
