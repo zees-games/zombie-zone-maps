@@ -778,6 +778,17 @@ def write_nav_extra(path, full):
         else:
             extra.append(b)
     nav = full["nav"]
+    # A box no taller than a step, lying on a floor (trim, a sill, a worn tile), is walked over: as an obstacle
+    # it would cut every point within the clearance of it, and the doorway behind it with them.
+    floors = nav["floors"] + doc["nav"]["floors"]
+
+    def low_on_floor(b):
+        if b["size"][1] > 0.3:
+            return False
+        top, rx, rz = b["at"][1] + b["size"][1] / 2, b["size"][0] / 2 + 0.5, b["size"][2] / 2 + 0.5
+        return any(f[0] - rx < b["at"][0] < f[2] + rx and f[1] - rz < b["at"][2] < f[3] + rz and f[4] - 0.5 <= top <= f[4] + 0.15 for f in floors)
+
+    extra = [b for b in extra if not low_on_floor(b)]
     os.makedirs(os.path.dirname(out), exist_ok=True)
     with open(out, "w") as f:
         json.dump({"boxes": extra, "floors": nav["floors"], "links": nav["links"]}, f, separators=(",", ":"))
