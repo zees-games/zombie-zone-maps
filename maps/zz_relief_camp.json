@@ -38,6 +38,11 @@
   "ambient_energy": 0.3,
   "fog": 0.03
  },
+ "ambient": {
+  "mood": "outdoor_night",
+  "indoor": "indoor_hall",
+  "frequency": 1.2
+ },
  "kill_y": -20.0,
  "survivors": 10,
  "day_environment": {

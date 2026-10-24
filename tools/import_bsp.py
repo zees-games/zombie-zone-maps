@@ -42,6 +42,7 @@ from collections import deque
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
+import ambient  # noqa: E402
 
 
 def _dotbsp_path():
@@ -1904,6 +1905,10 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
         hints = [build_maps.toy(t[0], "spawn" if t[1] == "spawn" else tuple(t[1]), t[2], t[3], *t[4:]) for t in spec["toys"]]
         doc["toys"] = build_maps.settle_toys(doc, hints)
     doc = name_world(doc, os.path.join(HERE, ".."))
+    # The spec's `ambient`, else the keyword vote of the world's sound names (tools/ambient.py).
+    field, _why = ambient.resolve(spec["id"], spec)
+    if field is not None:
+        doc = ambient.put(doc, field)
     if dropped_any and doc.get("world"):
         # The budget dropped boxes the world pack still draws: the game collides with the pack's own
         # hulls for these models, so the wire carries only what the graph needs.

@@ -50,6 +50,7 @@ Every length is metres, every angle degrees, every time seconds. A position is `
 | `kill_y` | Below this, a survivor is dead and a zombie is gone. |
 | `world` | Optional, `zz_world_<id>`: the converted map's own drawn geometry, a pack of its own (`world/zz_world_<id>/`, written by `tools/build_worlds.py`) that a client fetches when its server is on this map. Drawn only: the boxes still collide and the horde's ground is still cut from them; without the pack the boxes are drawn. |
 | `environment` | Sky, sun, ambient light and fog. Anything left out is the default daylight; the maps here are night, dusk and fog. |
+| `ambient` | The creepy ambience under the map: a mood (`outdoor_night`, `indoor_hall`, `industrial`, `cave_tunnel`, `snow_wind`, `swamp`, `city_ruins`, `interior_horror`) or an object `{"mood", "indoor", "volume", "frequency", "extra"}`: `indoor` is the mood under a roof (the player crossfades into it), `volume` (0.25 to 2) and `frequency` (0 to 4) scale the player's and server's settings for this map, `extra` adds another mood's one-shots. Optional; without it ZzAudio votes from the sound names. `tools/ambient.py` authors and checks it. |
 
 ## What is solid: boxes
 

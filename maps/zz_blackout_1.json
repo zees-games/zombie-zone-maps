@@ -38,6 +38,10 @@
   "ambient_energy": 0.22,
   "fog": 0.025
  },
+ "ambient": {
+  "mood": "outdoor_night",
+  "indoor": "indoor_hall"
+ },
  "kill_y": -20.0,
  "next": "zz_blackout_2",
  "boxes": [

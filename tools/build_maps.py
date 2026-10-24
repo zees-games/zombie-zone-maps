@@ -36,6 +36,9 @@ import os
 import random
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import ambient  # noqa: E402
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 MAPS = os.path.join(ROOT, "maps")
@@ -1792,6 +1795,8 @@ def main(argv):
         doc = plan().build()
         if TOYS.get(doc["id"]):
             doc["toys"] = settle_toys(doc, TOYS[doc["id"]])
+        if doc["id"] in ambient.HAND:
+            doc = ambient.put(doc, ambient.normalise(ambient.HAND[doc["id"]]))
         path = os.path.join(MAPS, doc["id"] + ".json")
         text = render(doc)
 
