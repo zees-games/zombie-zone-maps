@@ -2,8 +2,6 @@
   "id": "ze_death_star_escape",
   "name": "Death Star Escape",
   "source": "ze_death_star_escape_v4_3.bsp",
-  "min_coverage": 0.08,
-  "min_coverage_why": "the boxes and the horde's ground are cropped to the escape route (crop, clip_y), the rest of the station is scenery nobody can reach; its collision is the world pack's hulls, whole (hull_collision)",
   "author": "FreeZe1337, Hannibal, Keamon, Belafarinrod and Fuu",
   "page": "https://gamebanana.com/mods/130692",
   "licence": "CC BY-NC-ND 4.0",
@@ -47,12 +45,6 @@
   },
   "drop_buried": true,
   "route_bridge": true,
-  "crop": [
-    -45,
-    -300,
-    70,
-    -125
-  ],
   "drop_small": [
     0.5,
     3
@@ -73,10 +65,6 @@
     12,
     3.0
   ],
-  "clip_y": [
-    -14,
-    12
-  ],
   "min_thick": 0.6,
   "toys": [
     [
@@ -85,7 +73,7 @@
         "route",
         4
       ],
-      2,
+      -2,
       0
     ],
     [
@@ -194,8 +182,10 @@
       ]
     }
   ],
-  "hull_collision": {
-    "cuts": [],
-    "uncropped": true
-  }
+  "nav_before_cap": true,
+  "end_src": [
+    1010.5,
+    7073.3,
+    15.7
+  ]
 }

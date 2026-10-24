@@ -933,7 +933,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
 
     boxes, skipped = [], 0
     dropped_any = False
-    tread_ids = set()
+    tread_ids, added_ids = set(), set()    # added_ids: authored stand-ins, never what the cap drops
     for b in model_boxes(bs, 0, y0):
         boxes.append(b)
 
@@ -1161,7 +1161,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
         boxes[:] = [b for b in boxes if b not in small]
         print("  dropped %d small boxes" % len(small))
         dropped_any = dropped_any or bool(small)
-    if spec.get("max_boxes") and len(boxes) > spec["max_boxes"]:
+    if spec.get("max_boxes") and len(boxes) > spec["max_boxes"] and not spec.get("nav_before_cap"):
         # The wire limit (ZzMapDoc.WIRE_LIMIT, MAX_BOXES) caps what a document can collide with; the
         # drawn world pack carries the detail, so the smallest solids go first.
         # Kept treads are not counted here: the flood prunes the ones it never stands on and the cap is
@@ -1173,6 +1173,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
         boxes[:] = [b for i, b in enumerate(boxes) if i not in gone]
     for ab in spec.get("add_boxes", []):
         boxes.append(dict(ab))
+        added_ids.add(id(boxes[-1]))
     # `stairs`: a flight that stands in for a slope too steep for the graph (a slide, a ladder shaft).
     # [x0, y0, z0, x1, y1, z1, width]: steps from the top (x0, y0, z0) to the foot (x1, y1, z1) along
     # the longer horizontal axis, each rising at most 0.4 m over a run of 1 m or more (under the flood's 0.42 step) (the graph's points are a metre apart), as wide as
@@ -1197,9 +1198,20 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
         def extent(b):
             return [b["at"][k] - b["size"][k] / 2 for k in range(3)] + [b["at"][k] + b["size"][k] / 2 for k in range(3)]
         ext = [(b, extent(b)) for b in boxes if not b.get("yaw") and b.get("visible", True)]
+        # A container covers its contents' centre, so look it up in an x/z grid (every pair was 540M tests on a whole station).
+        cell, grid, big = 8.0, collections.defaultdict(list), []
+        for b, f in ext:
+            nx, nz = int(f[3] // cell) - int(f[0] // cell) + 1, int(f[5] // cell) - int(f[2] // cell) + 1
+            if nx * nz > 64:
+                big.append((b, f))
+                continue
+            for gx in range(int(f[0] // cell), int(f[3] // cell) + 1):
+                for gz in range(int(f[2] // cell), int(f[5] // cell) + 1):
+                    grid[(gx, gz)].append((b, f))
         buried = set()
         for b, e in ext:
-            for c, f in ext:
+            near = grid.get((int(((e[0] + e[3]) / 2) // cell), int(((e[2] + e[5]) / 2) // cell)), ())
+            for c, f in (*near, *big):
                 if c is not b and id(c) not in buried and all(f[k] <= e[k] + 0.02 for k in range(3)) and all(f[k + 3] >= e[k + 3] - 0.02 for k in range(3)):
                     buried.add(id(b))
                     break
@@ -1428,7 +1440,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
         boxes[:] = [b for b in boxes if not any(b is c for c in idle)]
         tread_ids.difference_update(id(b) for b in idle)
         print("  keep_treads: %d stair boxes the flood stands on kept, %d idle ones dropped" % (len(tread_ids), len(idle)))
-        if spec.get("max_boxes") and len(boxes) > spec["max_boxes"]:
+        if spec.get("max_boxes") and len(boxes) > spec["max_boxes"] and not spec.get("nav_before_cap"):
             order = sorted((i for i in range(len(boxes)) if id(boxes[i]) not in tread_ids), key=lambda i: boxes[i]["size"][0] * boxes[i]["size"][1] * boxes[i]["size"][2])
             gone = set(order[:len(boxes) - int(spec["max_boxes"])])
             boxes[:] = [b for i, b in enumerate(boxes) if i not in gone]
@@ -1864,6 +1876,13 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
     # Same solid to a body and to the graph, which only see the union.
     if not spec.get("keep_wall_links"):
         build_nav.links = filter_wall_links(build_nav.links, boxes + bar_boxes, keep, sizes, floors, bool(spec.get("strict_wall_links")), spec.get("extra_links", []))
+    if spec.get("nav_before_cap") and spec.get("max_boxes") and len(boxes) > spec["max_boxes"]:
+        # The cap is the wire's, not the horde's: the flood, route and graph above saw every box, as the server's does (nav.json).
+        order = sorted((i for i in range(len(boxes)) if id(boxes[i]) not in tread_ids | added_ids), key=lambda i: boxes[i]["size"][0] * boxes[i]["size"][1] * boxes[i]["size"][2])
+        gone = set(order[:len(boxes) - int(spec["max_boxes"])])
+        boxes[:] = [b for i, b in enumerate(boxes) if i not in gone]
+        dropped_any = True
+        print("  max_boxes (nav_before_cap): dropped the %d smallest after the graph was built" % len(gone))
     if spec.get("split_over"):
         lim, tiled = float(spec["split_over"]), []
         for b in boxes + bar_boxes + gate_boxes:
