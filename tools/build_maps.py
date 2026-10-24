@@ -1650,10 +1650,11 @@ def toy_pins(anchor, dx, dz):
 def _toy_anchor(doc, anchor):
     if anchor == "spawn":
         a = doc["spawns"]["survivors"][0]["at"]
-    elif anchor[0] == "route":
-        a = doc["route"][anchor[1]]
-    elif anchor[0] == "post":
-        a = doc["posts"][anchor[1]]
+    elif anchor[0] in ("route", "post"):
+        pts = doc["route" if anchor[0] == "route" else "posts"]
+        if anchor[1] >= len(pts):    # a route cut short by a blocked way would otherwise read as an IndexError
+            raise SystemExit("toy anchor %s: the map has only %d %s points" % (anchor, len(pts), anchor[0]))
+        a = pts[anchor[1]]
     else:
         raise SystemExit("toy anchor %s" % str(anchor))
     return a[0], a[1], a[2]

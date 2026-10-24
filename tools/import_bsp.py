@@ -918,8 +918,9 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
     THIN_LINTELS = bool(spec.get("thin_lintels"))
     THIN_WALLS = bool(spec.get("thin_walls"))
     GREEDY_FLOORS = bool(spec.get("greedy_floors"))
-    global STEP, JUMP, MIN_FLOOR_Y
+    global STEP, JUMP, MIN_FLOOR_Y, HEAD
     MIN_FLOOR_Y = spec.get("min_floor_y")
+    HEAD = float(spec.get("head", 1.7))    # a crouching body fits under 1.3: a duck-under grate is part of the route
     if spec.get("flood_step"):
         # The game's graph joins points only when they differ by half a spacing at most, so a body the
         # flood lets jump up 0.9 m reaches a ledge the horde never will: a flood that walks only what
@@ -1559,6 +1560,44 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
                 links.append([r3(G.pts[i][0]), r3(G.pts[i][1]), r3(G.pts[i][2]), r3(G.pts[j][0]), r3(G.pts[j][1]), r3(G.pts[j][2])])
         print("  wall links kept: %d (the only join of a part of the map with 40 points or more)" % kept_walls)
     build_nav.links = links[:600]
+    # The document carries every link and the game joins their ends, so the main ground is what they make one (a flight
+    # of stairs the metre-spaced graph has no point on is joined by one link; counting without it said 368 of 2637).
+    for l_ in build_nav.links + [list(x) for x in spec.get("extra_links", [])]:
+        a_, b_ = G.nearest(l_[0], l_[1], l_[2], 1.0), G.nearest(l_[3], l_[4], l_[5], 1.0)
+        if a_ >= 0 and b_ >= 0:
+            G.union(a_, b_)
+    # The walked route's path, and the links that join the graph's pieces along it, come before the main ground is
+    # counted: a stair the metre-spaced points miss is joined by exactly such a link.
+    exodus_path = None
+    if spec["mode"] == "exodus" and dist:
+        if spec.get("end_src"):
+            tx, ty, tz = gpt(spec["end_src"], y0)
+            end = min(dist, key=lambda st: (st[0] * CELL + CELL / 2 - tx) ** 2 + (st[1] * CELL + CELL / 2 - tz) ** 2 + 4 * (st[2] - ty) ** 2)
+        else:
+            end = max(dist, key=lambda st: dist[st])
+        path = [end]
+        while path[-1] in parent:
+            path.append(parent[path[-1]])
+        path.reverse()
+        exodus_path = path
+        if spec.get("route_bridge"):
+            # A slope the flood climbs can be cut into floors that the graph builder does not join
+            # (steps over 0.5 m, 1.5 m ties). Where the walked route crosses between two components,
+            # link the points nearest each side; the flood proved a body gets across.
+            bl = 0
+            prev = None
+            for st in path[::2]:
+                q = (( st[0] + 0.5) * CELL, st[2], (st[1] + 0.5) * CELL)
+                k = G.nearest(q[0], q[1], q[2], 2.0)
+                if k < 0:
+                    continue
+                if prev is not None and G.find(prev) != G.find(k):
+                    a_, b_ = G.pts[prev], G.pts[k]
+                    G.union(prev, k)
+                    build_nav.links.append([r3(a_[0]), r3(a_[1]), r3(a_[2]), r3(b_[0]), r3(b_[1]), r3(b_[2])])
+                    bl += 1
+                prev = k
+            print("  route_bridge: %d links along the route" % bl)
     start_pt = G.nearest(starts[0][0], starts[0][1], starts[0][2], 3.0)
     if start_pt < 0:
         sys.exit(f"no ground within 3 m of the survivor start {starts[0]}: the start floats or the map's floor is not brushes (displacements, models)")
@@ -1721,33 +1760,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
 
     objectives, route, end_area, gate_boxes = [], [], [], []
     if spec["mode"] == "exodus" and dist:
-        if spec.get("end_src"):
-            tx, ty, tz = gpt(spec["end_src"], y0)
-            end = min(dist, key=lambda st: (st[0] * CELL + CELL / 2 - tx) ** 2 + (st[1] * CELL + CELL / 2 - tz) ** 2 + 4 * (st[2] - ty) ** 2)
-        else:
-            end = max(dist, key=lambda st: dist[st])
-        path = [end]
-        while path[-1] in parent:
-            path.append(parent[path[-1]])
-        path.reverse()
-        if spec.get("route_bridge"):
-            # A slope the flood climbs can be cut into floors that the graph builder does not join
-            # (steps over 0.5 m, 1.5 m ties). Where the walked route crosses between two components,
-            # link the points nearest each side; the flood proved a body gets across.
-            bl = 0
-            prev = None
-            for st in path[::2]:
-                q = (( st[0] + 0.5) * CELL, st[2], (st[1] + 0.5) * CELL)
-                k = G.nearest(q[0], q[1], q[2], 2.0)
-                if k < 0:
-                    continue
-                if prev is not None and G.find(prev) != G.find(k):
-                    a_, b_ = G.pts[prev], G.pts[k]
-                    G.union(prev, k)
-                    build_nav.links.append([r3(a_[0]), r3(a_[1]), r3(a_[2]), r3(b_[0]), r3(b_[1]), r3(b_[2])])
-                    bl += 1
-                prev = k
-            print("  route_bridge: %d links along the route" % bl)
+        path = exodus_path
 
         def wp(st):
             return [r3((st[0] + 0.5) * CELL), r3(st[2]), r3((st[1] + 0.5) * CELL)]
