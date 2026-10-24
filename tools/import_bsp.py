@@ -795,7 +795,12 @@ def write_nav_extra(path, full):
     out = os.path.join(os.path.dirname(path), "hulls", doc["id"] + ".nav.json")
     if os.path.exists(out):
         os.remove(out)
-    if not doc.get("world_collision") or not full:
+    if not doc.get("world_collision"):
+        return
+    if not full:    # nothing was dropped by the budget: the hulls alone, and an empty extra so the server does not warn
+        os.makedirs(os.path.dirname(out), exist_ok=True)
+        with open(out, "w") as f:
+            f.write('{"boxes":[],"floors":[],"links":[]}\n')
         return
     have = collections.Counter(json.dumps(b, sort_keys=True) for b in doc["boxes"])
     extra = []
@@ -1917,7 +1922,8 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
     field, _why = ambient.resolve(spec["id"], spec)
     if field is not None:
         doc = ambient.put(doc, field)
-    if dropped_any and doc.get("world"):
+    hull_all = spec.get("hull_collision")    # {"cuts": [i, ...], "uncropped": bool}: the world's hulls collide where the boxes were cut or cropped
+    if (dropped_any or hull_all) and doc.get("world"):
         # The budget dropped boxes the world pack still draws: the game collides with the pack's own
         # hulls for these models, so the wire carries only what the graph needs.
         moved = [k for k in ("widen_doorways",) if spec.get(k)]
@@ -1925,10 +1931,10 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
             print("  world_collision: not written, the spec moves collision (%s)" % ", ".join(moved), file=sys.stderr)
         else:
             doc["world_collision"] = {"models": sorted(set(wc_models)), "flat": sorted(set(wc_flat)), "flat_height": 0.5,
-                                      "skip": [list(c[:6]) for c in spec.get("cut", []) if len(c) < 7]}
-            if spec.get("crop"):
+                                      "skip": [list(c[:6]) for i, c in enumerate(spec.get("cut", [])) if len(c) < 7 and i not in (hull_all or {}).get("cuts", [])]}
+            if spec.get("crop") and not (hull_all or {}).get("uncropped"):
                 doc["world_collision"]["within"] = list(spec["crop"])
-            if spec.get("clip_y"):
+            if spec.get("clip_y") and not (hull_all or {}).get("uncropped"):
                 doc["world_collision"]["band"] = list(spec["clip_y"])
             print("  world_collision: %d models from the world pack's hulls" % len(doc["world_collision"]["models"]))
     os.makedirs(out_dir, exist_ok=True)

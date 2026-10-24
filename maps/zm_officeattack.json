@@ -3716,7 +3716,8 @@
     15.107
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -3730,7 +3731,8 @@
     15.107
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -3744,7 +3746,8 @@
     15.107
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -3758,7 +3761,8 @@
     0.038
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -3772,7 +3776,8 @@
     0.038
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -3877,6 +3882,124 @@
     1.391
    ],
    "mat": "tile"
+  },
+  {
+   "at": [
+    61.276,
+    18.364,
+    -0.356
+   ],
+   "size": [
+    0.286,
+    1.029,
+    0.724
+   ],
+   "mat": "glass",
+   "yaw": 37.06
+  },
+  {
+   "at": [
+    59.265,
+    19.526,
+    4.493
+   ],
+   "size": [
+    1.116,
+    1.562,
+    0.283
+   ],
+   "mat": "glass",
+   "yaw": 60.406
+  },
+  {
+   "at": [
+    64.732,
+    15.812,
+    -14.84
+   ],
+   "size": [
+    37.795,
+    25.603,
+    0.61
+   ],
+   "mat": "concrete",
+   "visible": false,
+   "kind": "sky"
+  },
+  {
+   "at": [
+    83.934,
+    15.812,
+    3.143
+   ],
+   "size": [
+    0.61,
+    25.603,
+    36.576
+   ],
+   "mat": "concrete",
+   "visible": false,
+   "kind": "sky"
+  },
+  {
+   "at": [
+    64.427,
+    28.918,
+    3.143
+   ],
+   "size": [
+    38.405,
+    0.61,
+    36.576
+   ],
+   "mat": "concrete",
+   "visible": false,
+   "kind": "sky"
+  },
+  {
+   "at": [
+    64.732,
+    2.705,
+    3.143
+   ],
+   "size": [
+    37.795,
+    0.61,
+    36.576
+   ],
+   "mat": "concrete",
+   "visible": false,
+   "kind": "sky"
+  },
+  {
+   "at": [
+    64.732,
+    15.812,
+    21.126
+   ],
+   "size": [
+    37.795,
+    25.603,
+    0.61
+   ],
+   "mat": "concrete",
+   "visible": false,
+   "kind": "sky"
+  },
+  {
+   "at": [
+    45.529,
+    15.812,
+    3.143
+   ],
+   "size": [
+    0.61,
+    25.603,
+    36.576
+   ],
+   "mat": "concrete",
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -5438,7 +5561,8 @@
     2.648
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "nodraw"
   },
   {
    "at": [
@@ -5452,7 +5576,8 @@
     2.648
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "nodraw"
   },
   {
    "at": [
@@ -5466,7 +5591,8 @@
     2.648
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "nodraw"
   },
   {
    "at": [
@@ -5480,7 +5606,8 @@
     2.648
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "nodraw"
   },
   {
    "at": [
@@ -5494,7 +5621,8 @@
     0.038
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "nodraw"
   },
   {
    "at": [
@@ -5508,7 +5636,8 @@
     0.038
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "nodraw"
   },
   {
    "at": [
@@ -5522,7 +5651,8 @@
     2.648
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "nodraw"
   },
   {
    "at": [
@@ -7213,7 +7343,8 @@
     3.581
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -7227,7 +7358,8 @@
     3.581
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -7241,7 +7373,8 @@
     3.581
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -7255,7 +7388,8 @@
     3.581
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -7269,7 +7403,8 @@
     0.038
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -8690,6 +8825,34 @@
   },
   {
    "at": [
+    51.673,
+    17.955,
+    -2.477
+   ],
+   "size": [
+    4.229,
+    11.906,
+    4.21
+   ],
+   "mat": "paint",
+   "yaw": 78.0
+  },
+  {
+   "at": [
+    56.96,
+    20.326,
+    -2.142
+   ],
+   "size": [
+    0.284,
+    1.562,
+    1.118
+   ],
+   "mat": "glass",
+   "yaw": 83.414
+  },
+  {
+   "at": [
     18.136,
     11.62,
     11.792
@@ -8726,7 +8889,8 @@
     1.238
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "nodraw"
   },
   {
    "at": [
@@ -10846,7 +11010,8 @@
     2.343
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -11302,7 +11467,8 @@
     0.991
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -11316,7 +11482,8 @@
     0.038
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -11330,7 +11497,8 @@
     10.725
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -11344,7 +11512,8 @@
     10.649
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -11358,7 +11527,8 @@
     0.038
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
   },
   {
    "at": [
@@ -11372,7 +11542,22 @@
     10.725
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "sky"
+  },
+  {
+   "at": [
+    51.227,
+    17.917,
+    11.041
+   ],
+   "size": [
+    4.21,
+    11.981,
+    4.229
+   ],
+   "mat": "paint",
+   "yaw": 89.0
   },
   {
    "at": [
@@ -11646,6 +11831,332 @@
     0.229
    ],
    "mat": "paint"
+  },
+  {
+   "at": [
+    61.005,
+    18.606,
+    0.489
+   ],
+   "size": [
+    0.087,
+    0.088,
+    0.314
+   ],
+   "mat": "concrete",
+   "yaw": 41.91
+  },
+  {
+   "at": [
+    61.005,
+    18.431,
+    0.489
+   ],
+   "size": [
+    0.117,
+    0.263,
+    0.273
+   ],
+   "mat": "concrete"
+  },
+  {
+   "at": [
+    61.005,
+    18.256,
+    0.489
+   ],
+   "size": [
+    0.087,
+    0.088,
+    0.314
+   ],
+   "mat": "concrete",
+   "yaw": 41.91
+  },
+  {
+   "at": [
+    60.772,
+    18.256,
+    0.231
+   ],
+   "size": [
+    0.087,
+    0.088,
+    0.314
+   ],
+   "mat": "concrete",
+   "yaw": 41.91
+  },
+  {
+   "at": [
+    60.772,
+    18.431,
+    0.231
+   ],
+   "size": [
+    0.117,
+    0.263,
+    0.273
+   ],
+   "mat": "concrete"
+  },
+  {
+   "at": [
+    60.772,
+    18.606,
+    0.231
+   ],
+   "size": [
+    0.087,
+    0.088,
+    0.314
+   ],
+   "mat": "concrete",
+   "yaw": 41.91
+  },
+  {
+   "at": [
+    60.61,
+    18.431,
+    0.049
+   ],
+   "size": [
+    0.087,
+    0.438,
+    0.105
+   ],
+   "mat": "concrete",
+   "yaw": 41.89
+  },
+  {
+   "at": [
+    60.475,
+    18.256,
+    -0.101
+   ],
+   "size": [
+    0.117,
+    0.088,
+    0.212
+   ],
+   "mat": "concrete"
+  },
+  {
+   "at": [
+    60.52,
+    18.343,
+    -0.05
+   ],
+   "size": [
+    0.087,
+    0.088,
+    0.095
+   ],
+   "mat": "concrete",
+   "yaw": 41.88
+  },
+  {
+   "at": [
+    60.475,
+    18.606,
+    -0.101
+   ],
+   "size": [
+    0.117,
+    0.088,
+    0.212
+   ],
+   "mat": "concrete"
+  },
+  {
+   "at": [
+    60.52,
+    18.519,
+    -0.05
+   ],
+   "size": [
+    0.087,
+    0.088,
+    0.095
+   ],
+   "mat": "concrete",
+   "yaw": 41.88
+  },
+  {
+   "at": [
+    60.475,
+    18.409,
+    -0.101
+   ],
+   "size": [
+    0.117,
+    0.044,
+    0.212
+   ],
+   "mat": "concrete"
+  },
+  {
+   "at": [
+    60.475,
+    18.453,
+    -0.101
+   ],
+   "size": [
+    0.117,
+    0.044,
+    0.212
+   ],
+   "mat": "concrete"
+  },
+  {
+   "at": [
+    60.374,
+    18.431,
+    -0.213
+   ],
+   "size": [
+    0.087,
+    0.438,
+    0.095
+   ],
+   "mat": "concrete",
+   "yaw": 41.88
+  },
+  {
+   "at": [
+    60.2,
+    18.606,
+    -0.408
+   ],
+   "size": [
+    0.087,
+    0.088,
+    0.314
+   ],
+   "mat": "concrete",
+   "yaw": 41.88
+  },
+  {
+   "at": [
+    60.2,
+    18.431,
+    -0.408
+   ],
+   "size": [
+    0.117,
+    0.263,
+    0.273
+   ],
+   "mat": "concrete"
+  },
+  {
+   "at": [
+    60.2,
+    18.256,
+    -0.408
+   ],
+   "size": [
+    0.087,
+    0.088,
+    0.314
+   ],
+   "mat": "concrete",
+   "yaw": 41.88
+  },
+  {
+   "at": [
+    59.952,
+    18.256,
+    -0.684
+   ],
+   "size": [
+    0.088,
+    0.088,
+    0.314
+   ],
+   "mat": "concrete",
+   "yaw": 41.91
+  },
+  {
+   "at": [
+    59.952,
+    18.431,
+    -0.684
+   ],
+   "size": [
+    0.117,
+    0.263,
+    0.273
+   ],
+   "mat": "concrete"
+  },
+  {
+   "at": [
+    59.952,
+    18.606,
+    -0.684
+   ],
+   "size": [
+    0.088,
+    0.088,
+    0.314
+   ],
+   "mat": "concrete",
+   "yaw": 41.91
+  },
+  {
+   "at": [
+    59.774,
+    18.431,
+    -0.882
+   ],
+   "size": [
+    0.087,
+    0.438,
+    0.105
+   ],
+   "mat": "concrete",
+   "yaw": 41.89
+  },
+  {
+   "at": [
+    59.542,
+    18.431,
+    -1.141
+   ],
+   "size": [
+    0.087,
+    0.438,
+    0.105
+   ],
+   "mat": "concrete",
+   "yaw": 41.9
+  },
+  {
+   "at": [
+    59.642,
+    18.564,
+    -1.029
+   ],
+   "size": [
+    0.117,
+    0.173,
+    0.204
+   ],
+   "mat": "concrete"
+  },
+  {
+   "at": [
+    59.642,
+    18.314,
+    -1.029
+   ],
+   "size": [
+    0.118,
+    0.204,
+    0.204
+   ],
+   "mat": "concrete"
   },
   {
    "at": [
@@ -16346,6 +16857,123 @@
   },
   {
    "at": [
+    65.237,
+    17.955,
+    7.125
+   ],
+   "size": [
+    4.21,
+    11.906,
+    4.229
+   ],
+   "mat": "paint"
+  },
+  {
+   "at": [
+    57.864,
+    15.85,
+    9.582
+   ],
+   "size": [
+    4.248,
+    7.849,
+    4.229
+   ],
+   "mat": "paint"
+  },
+  {
+   "at": [
+    60.369,
+    15.316,
+    4.124
+   ],
+   "size": [
+    3.924,
+    6.858,
+    3.905
+   ],
+   "mat": "paint"
+  },
+  {
+   "at": [
+    57.283,
+    15.783,
+    -3.153
+   ],
+   "size": [
+    2.896,
+    7.601,
+    2.991
+   ],
+   "mat": "paint"
+  },
+  {
+   "at": [
+    54.55,
+    16.05,
+    -6.744
+   ],
+   "size": [
+    4.172,
+    8.249,
+    4.229
+   ],
+   "mat": "paint"
+  },
+  {
+   "at": [
+    61.198,
+    14.849,
+    -1.715
+   ],
+   "size": [
+    3.562,
+    6.001,
+    5.144
+   ],
+   "mat": "concrete"
+  },
+  {
+   "at": [
+    65.656,
+    16.545,
+    -1.391
+   ],
+   "size": [
+    3.562,
+    9.392,
+    4.229
+   ],
+   "mat": "paint"
+  },
+  {
+   "at": [
+    69.332,
+    16.193,
+    2.095
+   ],
+   "size": [
+    3.562,
+    8.382,
+    4.229
+   ],
+   "mat": "paint"
+  },
+  {
+   "at": [
+    61.055,
+    10.392,
+    2.153
+   ],
+   "size": [
+    28.004,
+    2.915,
+    25.413
+   ],
+   "mat": "concrete"
+  },
+  {
+   "at": [
     10.03,
     4.705,
     16.954
@@ -17136,7 +17764,8 @@
     0.385
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -17150,7 +17779,8 @@
     0.385
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -17164,7 +17794,8 @@
     0.385
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -17178,7 +17809,8 @@
     0.385
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -17192,7 +17824,8 @@
     0.385
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -17206,7 +17839,8 @@
     0.385
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -17220,7 +17854,8 @@
     0.385
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -17234,7 +17869,8 @@
     0.385
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -17248,7 +17884,8 @@
     0.385
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -21716,7 +22353,8 @@
     0.114
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -21743,7 +22381,8 @@
     11.297
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -21770,7 +22409,8 @@
     0.133
    ],
    "mat": "concrete",
-   "visible": false
+   "visible": false,
+   "kind": "clip"
   },
   {
    "at": [
@@ -22460,6 +23100,33 @@
     0.991
    ],
    "mat": "metal"
+  },
+  {
+   "at": [
+    48.273,
+    17.438,
+    1.61
+   ],
+   "size": [
+    4.229,
+    11.636,
+    4.248
+   ],
+   "mat": "paint"
+  },
+  {
+   "at": [
+    48.731,
+    16.001,
+    6.532
+   ],
+   "size": [
+    4.229,
+    8.3,
+    4.172
+   ],
+   "mat": "paint",
+   "yaw": 22.0
   },
   {
    "at": [

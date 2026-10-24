@@ -2,6 +2,7 @@
  "format": 1,
  "kind": "zombiezone_map",
  "id": "ze_runforyourlife_1_v4",
+ "world": "zz_world_ze_runforyourlife_1_v4",
  "name": "Run For Your Life",
  "author": "flabes2 (original map, https://gamebanana.com/mods/130964, CC BY-NC-ND 4.0); converted. Removed on request.",
  "attribution": "Geometry converted from ze_runforyourlife_1_v4.bsp by flabes2, https://gamebanana.com/mods/130964 (CC BY-NC-ND 4.0), used non-commercially with credit under the licence. Credit: flabes2. The original file is not redistributed and its textures and models are not used (the game draws its own surfaces and Kenney CC0 props). This conversion is removed on the author's request.",
@@ -3709,5 +3710,41 @@
     -101.501
    ]
   }
- ]
+ ],
+ "world_collision": {
+  "models": [
+   0
+  ],
+  "flat": [
+   3,
+   5,
+   6,
+   27,
+   28,
+   32,
+   33,
+   34,
+   39,
+   40,
+   41,
+   42,
+   43,
+   44,
+   46,
+   47,
+   48,
+   49
+  ],
+  "flat_height": 0.5,
+  "skip": [
+   [
+    -67,
+    24,
+    -20,
+    -65,
+    25,
+    -18.5
+   ]
+  ]
+ }
 }

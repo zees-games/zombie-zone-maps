@@ -18,16 +18,17 @@ while IFS=$'\t' read -r id key; do
 import json, sys
 s = json.load(open(sys.argv[1]))
 print("--y0=%s" % s.get("y0", 0.0))
-if s.get("crop"):
+hc = s.get("hull_collision") or {}    # the world's hulls collide where the boxes were cut or cropped
+if s.get("crop") and not hc.get("uncropped"):
     print("--within=%s" % ",".join(map(str, s["crop"])))
-if s.get("clip_y"):
+if s.get("clip_y") and not hc.get("uncropped"):
     print("--band=%s" % ",".join(map(str, s["clip_y"])))
 # breakables the game cannot break stay passable unless the spec makes them solid (import_bsp.BREAKABLE)
 for cls in ("func_breakable", "func_breakable_surf", "func_physbox", "func_physbox_multiplayer"):
     if cls not in s.get("solid_classes", []) or cls == s.get("barricade_class"):
         print("--passable=%s" % cls)
-for c in s.get("cut", []):
-    if len(c) < 7:
+for i, c in enumerate(s.get("cut", [])):
+    if len(c) < 7 and i not in hc.get("cuts", []):
         print("--skip=%s" % ",".join(map(str, c[:6])))
 PY
 )

@@ -1,0 +1,2768 @@
+{
+ "bin": {
+  "bytes": 33792,
+  "compression": "gzip",
+  "file": "ze_runforyourlife_1_v4.bin",
+  "sha256": "542b783e22e865ccf7e075046bda4ae34b7961bf35b787fef0cb1c0e0121453e",
+  "stored_bytes": 9512
+ },
+ "counts": {
+  "hulls": 176,
+  "models": 3,
+  "surfaces": 0,
+  "triangles": 0,
+  "vertices": 0
+ },
+ "credit": {
+  "author": "flabes2",
+  "first_import": null,
+  "licence": "CC BY-NC-ND 4.0",
+  "missing": [],
+  "no_share_check": "2026-10-24, ask: CC BY-NC-ND 4.0 as the shipped converted map already credits; removal on request",
+  "page": "https://gamebanana.com/mods/130964"
+ },
+ "format": "dot-bsp-mesh",
+ "hulls": [
+  {
+   "brush": 0,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 96,
+   "point_count": 8,
+   "point_offset": 0
+  },
+  {
+   "brush": 1,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 288,
+   "point_count": 8,
+   "point_offset": 192
+  },
+  {
+   "brush": 2,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 480,
+   "point_count": 8,
+   "point_offset": 384
+  },
+  {
+   "brush": 3,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 672,
+   "point_count": 8,
+   "point_offset": 576
+  },
+  {
+   "brush": 4,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 864,
+   "point_count": 8,
+   "point_offset": 768
+  },
+  {
+   "brush": 5,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 1056,
+   "point_count": 8,
+   "point_offset": 960
+  },
+  {
+   "brush": 6,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 1248,
+   "point_count": 8,
+   "point_offset": 1152
+  },
+  {
+   "brush": 7,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 1440,
+   "point_count": 8,
+   "point_offset": 1344
+  },
+  {
+   "brush": 8,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 1632,
+   "point_count": 8,
+   "point_offset": 1536
+  },
+  {
+   "brush": 9,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 1824,
+   "point_count": 8,
+   "point_offset": 1728
+  },
+  {
+   "brush": 10,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 2016,
+   "point_count": 8,
+   "point_offset": 1920
+  },
+  {
+   "brush": 11,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 2208,
+   "point_count": 8,
+   "point_offset": 2112
+  },
+  {
+   "brush": 12,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 2400,
+   "point_count": 8,
+   "point_offset": 2304
+  },
+  {
+   "brush": 13,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 2592,
+   "point_count": 8,
+   "point_offset": 2496
+  },
+  {
+   "brush": 14,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 2784,
+   "point_count": 8,
+   "point_offset": 2688
+  },
+  {
+   "brush": 15,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 2976,
+   "point_count": 8,
+   "point_offset": 2880
+  },
+  {
+   "brush": 16,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 3168,
+   "point_count": 8,
+   "point_offset": 3072
+  },
+  {
+   "brush": 17,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 3360,
+   "point_count": 8,
+   "point_offset": 3264
+  },
+  {
+   "brush": 18,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 3552,
+   "point_count": 8,
+   "point_offset": 3456
+  },
+  {
+   "brush": 19,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 3744,
+   "point_count": 8,
+   "point_offset": 3648
+  },
+  {
+   "brush": 20,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 3936,
+   "point_count": 8,
+   "point_offset": 3840
+  },
+  {
+   "brush": 21,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 4128,
+   "point_count": 8,
+   "point_offset": 4032
+  },
+  {
+   "brush": 22,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 4320,
+   "point_count": 8,
+   "point_offset": 4224
+  },
+  {
+   "brush": 23,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 4512,
+   "point_count": 8,
+   "point_offset": 4416
+  },
+  {
+   "brush": 24,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 4704,
+   "point_count": 8,
+   "point_offset": 4608
+  },
+  {
+   "brush": 25,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 4896,
+   "point_count": 8,
+   "point_offset": 4800
+  },
+  {
+   "brush": 26,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 5088,
+   "point_count": 8,
+   "point_offset": 4992
+  },
+  {
+   "brush": 27,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 5280,
+   "point_count": 8,
+   "point_offset": 5184
+  },
+  {
+   "brush": 28,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 5472,
+   "point_count": 8,
+   "point_offset": 5376
+  },
+  {
+   "brush": 29,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 5664,
+   "point_count": 8,
+   "point_offset": 5568
+  },
+  {
+   "brush": 30,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 5856,
+   "point_count": 8,
+   "point_offset": 5760
+  },
+  {
+   "brush": 31,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 6048,
+   "point_count": 8,
+   "point_offset": 5952
+  },
+  {
+   "brush": 32,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 6240,
+   "point_count": 8,
+   "point_offset": 6144
+  },
+  {
+   "brush": 33,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 6432,
+   "point_count": 8,
+   "point_offset": 6336
+  },
+  {
+   "brush": 34,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 6624,
+   "point_count": 8,
+   "point_offset": 6528
+  },
+  {
+   "brush": 35,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 6816,
+   "point_count": 8,
+   "point_offset": 6720
+  },
+  {
+   "brush": 36,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 7008,
+   "point_count": 8,
+   "point_offset": 6912
+  },
+  {
+   "brush": 37,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 7200,
+   "point_count": 8,
+   "point_offset": 7104
+  },
+  {
+   "brush": 38,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 7392,
+   "point_count": 8,
+   "point_offset": 7296
+  },
+  {
+   "brush": 40,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 7584,
+   "point_count": 8,
+   "point_offset": 7488
+  },
+  {
+   "brush": 41,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 7776,
+   "point_count": 8,
+   "point_offset": 7680
+  },
+  {
+   "brush": 42,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 7968,
+   "point_count": 8,
+   "point_offset": 7872
+  },
+  {
+   "brush": 43,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 8160,
+   "point_count": 8,
+   "point_offset": 8064
+  },
+  {
+   "brush": 44,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 8352,
+   "point_count": 8,
+   "point_offset": 8256
+  },
+  {
+   "brush": 45,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 8544,
+   "point_count": 8,
+   "point_offset": 8448
+  },
+  {
+   "brush": 46,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 8736,
+   "point_count": 8,
+   "point_offset": 8640
+  },
+  {
+   "brush": 47,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 8928,
+   "point_count": 8,
+   "point_offset": 8832
+  },
+  {
+   "brush": 48,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 9120,
+   "point_count": 8,
+   "point_offset": 9024
+  },
+  {
+   "brush": 49,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 9312,
+   "point_count": 8,
+   "point_offset": 9216
+  },
+  {
+   "brush": 50,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 9504,
+   "point_count": 8,
+   "point_offset": 9408
+  },
+  {
+   "brush": 51,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 9696,
+   "point_count": 8,
+   "point_offset": 9600
+  },
+  {
+   "brush": 52,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 9888,
+   "point_count": 8,
+   "point_offset": 9792
+  },
+  {
+   "brush": 53,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 10080,
+   "point_count": 8,
+   "point_offset": 9984
+  },
+  {
+   "brush": 54,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 10272,
+   "point_count": 8,
+   "point_offset": 10176
+  },
+  {
+   "brush": 55,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 10464,
+   "point_count": 8,
+   "point_offset": 10368
+  },
+  {
+   "brush": 56,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 10656,
+   "point_count": 8,
+   "point_offset": 10560
+  },
+  {
+   "brush": 57,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 10848,
+   "point_count": 8,
+   "point_offset": 10752
+  },
+  {
+   "brush": 58,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 11040,
+   "point_count": 8,
+   "point_offset": 10944
+  },
+  {
+   "brush": 59,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 11232,
+   "point_count": 8,
+   "point_offset": 11136
+  },
+  {
+   "brush": 60,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 11424,
+   "point_count": 8,
+   "point_offset": 11328
+  },
+  {
+   "brush": 61,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 11616,
+   "point_count": 8,
+   "point_offset": 11520
+  },
+  {
+   "brush": 62,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 11808,
+   "point_count": 8,
+   "point_offset": 11712
+  },
+  {
+   "brush": 63,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 12000,
+   "point_count": 8,
+   "point_offset": 11904
+  },
+  {
+   "brush": 64,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 12192,
+   "point_count": 8,
+   "point_offset": 12096
+  },
+  {
+   "brush": 65,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 12384,
+   "point_count": 8,
+   "point_offset": 12288
+  },
+  {
+   "brush": 66,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 12576,
+   "point_count": 8,
+   "point_offset": 12480
+  },
+  {
+   "brush": 67,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 12768,
+   "point_count": 8,
+   "point_offset": 12672
+  },
+  {
+   "brush": 68,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 12960,
+   "point_count": 8,
+   "point_offset": 12864
+  },
+  {
+   "brush": 69,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 13152,
+   "point_count": 8,
+   "point_offset": 13056
+  },
+  {
+   "brush": 70,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 13344,
+   "point_count": 8,
+   "point_offset": 13248
+  },
+  {
+   "brush": 71,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 13536,
+   "point_count": 8,
+   "point_offset": 13440
+  },
+  {
+   "brush": 72,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 13728,
+   "point_count": 8,
+   "point_offset": 13632
+  },
+  {
+   "brush": 75,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 13920,
+   "point_count": 8,
+   "point_offset": 13824
+  },
+  {
+   "brush": 76,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 14112,
+   "point_count": 8,
+   "point_offset": 14016
+  },
+  {
+   "brush": 77,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 14304,
+   "point_count": 8,
+   "point_offset": 14208
+  },
+  {
+   "brush": 78,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 14496,
+   "point_count": 8,
+   "point_offset": 14400
+  },
+  {
+   "brush": 79,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 14688,
+   "point_count": 8,
+   "point_offset": 14592
+  },
+  {
+   "brush": 80,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 14880,
+   "point_count": 8,
+   "point_offset": 14784
+  },
+  {
+   "brush": 81,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 15072,
+   "point_count": 8,
+   "point_offset": 14976
+  },
+  {
+   "brush": 82,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 15264,
+   "point_count": 8,
+   "point_offset": 15168
+  },
+  {
+   "brush": 83,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 15456,
+   "point_count": 8,
+   "point_offset": 15360
+  },
+  {
+   "brush": 84,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 15648,
+   "point_count": 8,
+   "point_offset": 15552
+  },
+  {
+   "brush": 85,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 15840,
+   "point_count": 8,
+   "point_offset": 15744
+  },
+  {
+   "brush": 86,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 16032,
+   "point_count": 8,
+   "point_offset": 15936
+  },
+  {
+   "brush": 87,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 16224,
+   "point_count": 8,
+   "point_offset": 16128
+  },
+  {
+   "brush": 88,
+   "entity": null,
+   "kind": "clip",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 16416,
+   "point_count": 8,
+   "point_offset": 16320
+  },
+  {
+   "brush": 89,
+   "entity": null,
+   "kind": "clip",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 16608,
+   "point_count": 8,
+   "point_offset": 16512
+  },
+  {
+   "brush": 90,
+   "entity": null,
+   "kind": "clip",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 16800,
+   "point_count": 8,
+   "point_offset": 16704
+  },
+  {
+   "brush": 91,
+   "entity": null,
+   "kind": "clip",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 16992,
+   "point_count": 8,
+   "point_offset": 16896
+  },
+  {
+   "brush": 92,
+   "entity": null,
+   "kind": "clip",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 17184,
+   "point_count": 8,
+   "point_offset": 17088
+  },
+  {
+   "brush": 93,
+   "entity": null,
+   "kind": "clip",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 17376,
+   "point_count": 8,
+   "point_offset": 17280
+  },
+  {
+   "brush": 94,
+   "entity": null,
+   "kind": "clip",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 17568,
+   "point_count": 8,
+   "point_offset": 17472
+  },
+  {
+   "brush": 96,
+   "entity": null,
+   "kind": "clip",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 17760,
+   "point_count": 8,
+   "point_offset": 17664
+  },
+  {
+   "brush": 97,
+   "entity": null,
+   "kind": "clip",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 17952,
+   "point_count": 8,
+   "point_offset": 17856
+  },
+  {
+   "brush": 98,
+   "entity": null,
+   "kind": "clip",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 18144,
+   "point_count": 8,
+   "point_offset": 18048
+  },
+  {
+   "brush": 99,
+   "entity": null,
+   "kind": "clip",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 18336,
+   "point_count": 8,
+   "point_offset": 18240
+  },
+  {
+   "brush": 100,
+   "entity": null,
+   "kind": "clip",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 18528,
+   "point_count": 8,
+   "point_offset": 18432
+  },
+  {
+   "brush": 101,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 18720,
+   "point_count": 8,
+   "point_offset": 18624
+  },
+  {
+   "brush": 102,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 18912,
+   "point_count": 8,
+   "point_offset": 18816
+  },
+  {
+   "brush": 103,
+   "entity": null,
+   "kind": "clip",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 19104,
+   "point_count": 8,
+   "point_offset": 19008
+  },
+  {
+   "brush": 104,
+   "entity": null,
+   "kind": "clip",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 19296,
+   "point_count": 8,
+   "point_offset": 19200
+  },
+  {
+   "brush": 105,
+   "entity": null,
+   "kind": "clip",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 19488,
+   "point_count": 8,
+   "point_offset": 19392
+  },
+  {
+   "brush": 106,
+   "entity": null,
+   "kind": "clip",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 19680,
+   "point_count": 8,
+   "point_offset": 19584
+  },
+  {
+   "brush": 115,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 19872,
+   "point_count": 8,
+   "point_offset": 19776
+  },
+  {
+   "brush": 116,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 20064,
+   "point_count": 8,
+   "point_offset": 19968
+  },
+  {
+   "brush": 120,
+   "entity": null,
+   "kind": "clip",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 20256,
+   "point_count": 8,
+   "point_offset": 20160
+  },
+  {
+   "brush": 121,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 20448,
+   "point_count": 8,
+   "point_offset": 20352
+  },
+  {
+   "brush": 122,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 20640,
+   "point_count": 8,
+   "point_offset": 20544
+  },
+  {
+   "brush": 123,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 20832,
+   "point_count": 8,
+   "point_offset": 20736
+  },
+  {
+   "brush": 124,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 21024,
+   "point_count": 8,
+   "point_offset": 20928
+  },
+  {
+   "brush": 125,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 21216,
+   "point_count": 8,
+   "point_offset": 21120
+  },
+  {
+   "brush": 127,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 21408,
+   "point_count": 8,
+   "point_offset": 21312
+  },
+  {
+   "brush": 128,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 21600,
+   "point_count": 8,
+   "point_offset": 21504
+  },
+  {
+   "brush": 129,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 21792,
+   "point_count": 8,
+   "point_offset": 21696
+  },
+  {
+   "brush": 130,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 21984,
+   "point_count": 8,
+   "point_offset": 21888
+  },
+  {
+   "brush": 131,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 22176,
+   "point_count": 8,
+   "point_offset": 22080
+  },
+  {
+   "brush": 132,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 22368,
+   "point_count": 8,
+   "point_offset": 22272
+  },
+  {
+   "brush": 133,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 22560,
+   "point_count": 8,
+   "point_offset": 22464
+  },
+  {
+   "brush": 134,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 22752,
+   "point_count": 8,
+   "point_offset": 22656
+  },
+  {
+   "brush": 135,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 22944,
+   "point_count": 8,
+   "point_offset": 22848
+  },
+  {
+   "brush": 136,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 23136,
+   "point_count": 8,
+   "point_offset": 23040
+  },
+  {
+   "brush": 137,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 23328,
+   "point_count": 8,
+   "point_offset": 23232
+  },
+  {
+   "brush": 138,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 23520,
+   "point_count": 8,
+   "point_offset": 23424
+  },
+  {
+   "brush": 139,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 23712,
+   "point_count": 8,
+   "point_offset": 23616
+  },
+  {
+   "brush": 140,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 23904,
+   "point_count": 8,
+   "point_offset": 23808
+  },
+  {
+   "brush": 141,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 24096,
+   "point_count": 8,
+   "point_offset": 24000
+  },
+  {
+   "brush": 142,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 24288,
+   "point_count": 8,
+   "point_offset": 24192
+  },
+  {
+   "brush": 143,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 24480,
+   "point_count": 8,
+   "point_offset": 24384
+  },
+  {
+   "brush": 144,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 24672,
+   "point_count": 8,
+   "point_offset": 24576
+  },
+  {
+   "brush": 145,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 24864,
+   "point_count": 8,
+   "point_offset": 24768
+  },
+  {
+   "brush": 146,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 25056,
+   "point_count": 8,
+   "point_offset": 24960
+  },
+  {
+   "brush": 147,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 25248,
+   "point_count": 8,
+   "point_offset": 25152
+  },
+  {
+   "brush": 148,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 25440,
+   "point_count": 8,
+   "point_offset": 25344
+  },
+  {
+   "brush": 149,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 25632,
+   "point_count": 8,
+   "point_offset": 25536
+  },
+  {
+   "brush": 150,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 25824,
+   "point_count": 8,
+   "point_offset": 25728
+  },
+  {
+   "brush": 151,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 26016,
+   "point_count": 8,
+   "point_offset": 25920
+  },
+  {
+   "brush": 152,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 26208,
+   "point_count": 8,
+   "point_offset": 26112
+  },
+  {
+   "brush": 153,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 26400,
+   "point_count": 8,
+   "point_offset": 26304
+  },
+  {
+   "brush": 154,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 26592,
+   "point_count": 8,
+   "point_offset": 26496
+  },
+  {
+   "brush": 155,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 26784,
+   "point_count": 8,
+   "point_offset": 26688
+  },
+  {
+   "brush": 156,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 26976,
+   "point_count": 8,
+   "point_offset": 26880
+  },
+  {
+   "brush": 157,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 27168,
+   "point_count": 8,
+   "point_offset": 27072
+  },
+  {
+   "brush": 158,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 27360,
+   "point_count": 8,
+   "point_offset": 27264
+  },
+  {
+   "brush": 159,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 27552,
+   "point_count": 8,
+   "point_offset": 27456
+  },
+  {
+   "brush": 160,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 27744,
+   "point_count": 8,
+   "point_offset": 27648
+  },
+  {
+   "brush": 161,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 27936,
+   "point_count": 8,
+   "point_offset": 27840
+  },
+  {
+   "brush": 162,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 28128,
+   "point_count": 8,
+   "point_offset": 28032
+  },
+  {
+   "brush": 163,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 28320,
+   "point_count": 8,
+   "point_offset": 28224
+  },
+  {
+   "brush": 164,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 28512,
+   "point_count": 8,
+   "point_offset": 28416
+  },
+  {
+   "brush": 165,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 28704,
+   "point_count": 8,
+   "point_offset": 28608
+  },
+  {
+   "brush": 166,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 28896,
+   "point_count": 8,
+   "point_offset": 28800
+  },
+  {
+   "brush": 167,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 29088,
+   "point_count": 8,
+   "point_offset": 28992
+  },
+  {
+   "brush": 168,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 29280,
+   "point_count": 8,
+   "point_offset": 29184
+  },
+  {
+   "brush": 169,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 29472,
+   "point_count": 8,
+   "point_offset": 29376
+  },
+  {
+   "brush": 170,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 29664,
+   "point_count": 8,
+   "point_offset": 29568
+  },
+  {
+   "brush": 171,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 29856,
+   "point_count": 8,
+   "point_offset": 29760
+  },
+  {
+   "brush": 172,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 30048,
+   "point_count": 8,
+   "point_offset": 29952
+  },
+  {
+   "brush": 173,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 30240,
+   "point_count": 8,
+   "point_offset": 30144
+  },
+  {
+   "brush": 174,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 30432,
+   "point_count": 8,
+   "point_offset": 30336
+  },
+  {
+   "brush": 175,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 30624,
+   "point_count": 8,
+   "point_offset": 30528
+  },
+  {
+   "brush": 176,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 30816,
+   "point_count": 8,
+   "point_offset": 30720
+  },
+  {
+   "brush": 177,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 31008,
+   "point_count": 8,
+   "point_offset": 30912
+  },
+  {
+   "brush": 178,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 31200,
+   "point_count": 8,
+   "point_offset": 31104
+  },
+  {
+   "brush": 179,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 31392,
+   "point_count": 8,
+   "point_offset": 31296
+  },
+  {
+   "brush": 180,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 31584,
+   "point_count": 8,
+   "point_offset": 31488
+  },
+  {
+   "brush": 181,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 31776,
+   "point_count": 8,
+   "point_offset": 31680
+  },
+  {
+   "brush": 182,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 31968,
+   "point_count": 8,
+   "point_offset": 31872
+  },
+  {
+   "brush": 183,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 32160,
+   "point_count": 8,
+   "point_offset": 32064
+  },
+  {
+   "brush": 184,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 32352,
+   "point_count": 8,
+   "point_offset": 32256
+  },
+  {
+   "brush": 185,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 32544,
+   "point_count": 8,
+   "point_offset": 32448
+  },
+  {
+   "brush": 186,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 32736,
+   "point_count": 8,
+   "point_offset": 32640
+  },
+  {
+   "brush": 187,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 32928,
+   "point_count": 8,
+   "point_offset": 32832
+  },
+  {
+   "brush": 188,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 33120,
+   "point_count": 8,
+   "point_offset": 33024
+  },
+  {
+   "brush": 189,
+   "entity": null,
+   "kind": "solid",
+   "model": 0,
+   "plane_count": 6,
+   "plane_offset": 33312,
+   "point_count": 8,
+   "point_offset": 33216
+  },
+  {
+   "brush": 229,
+   "entity": 107,
+   "kind": "solid",
+   "model": 40,
+   "plane_count": 6,
+   "plane_offset": 33504,
+   "point_count": 8,
+   "point_offset": 33408
+  },
+  {
+   "brush": 234,
+   "entity": 214,
+   "kind": "solid",
+   "model": 43,
+   "plane_count": 6,
+   "plane_offset": 33696,
+   "point_count": 8,
+   "point_offset": 33600
+  }
+ ],
+ "movers": [
+  {
+   "classname": "func_door",
+   "direction": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "distance": 1.6193,
+   "entity": 1,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -17.2783,
+    24.6888,
+    -38.9954
+   ],
+   "mins": [
+    -22.2314,
+    23.0314,
+    -43.7388
+   ],
+   "model": 1,
+   "opened_by": [],
+   "origin": [
+    -19.7549,
+    23.8601,
+    -41.3671
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 1024,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "target 10",
+   "toggle": false,
+   "touch": true,
+   "travel_time": 0.85,
+   "use": false,
+   "wait": 4.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "distance": 1.3716,
+   "entity": 2,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -73.4187,
+    23.2981,
+    -38.9763
+   ],
+   "mins": [
+    -78.1621,
+    21.8885,
+    -43.7198
+   ],
+   "model": 2,
+   "opened_by": [
+    {
+     "classname": "trigger_multiple",
+     "delay": 0.0,
+     "entity": 58,
+     "input": "Open",
+     "output": "OnStartTouch",
+     "targetname": ""
+    }
+   ],
+   "origin": [
+    -75.7904,
+    22.5933,
+    -41.348
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 1024,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "rock2",
+   "toggle": false,
+   "touch": true,
+   "travel_time": 0.72,
+   "use": false,
+   "wait": 4.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 43,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -87.4776,
+    6.839,
+    -8.1915
+   ],
+   "mins": [
+    -87.5729,
+    6.4961,
+    -8.4201
+   ],
+   "model": 4,
+   "opened_by": [],
+   "origin": [
+    -87.5252,
+    6.6675,
+    -8.3058
+   ],
+   "outputs": [
+    {
+     "delay": 30.0,
+     "input": "Open",
+     "output": "OnPressed",
+     "param": "",
+     "target": "elevator_1",
+     "times": 1
+    },
+    {
+     "delay": 30.0,
+     "input": "Break",
+     "output": "OnPressed",
+     "param": "",
+     "target": "Breaker 1",
+     "times": 1
+    },
+    {
+     "delay": 0.0,
+     "input": "Command",
+     "output": "OnPressed",
+     "param": "say Elevator will start in ...30seconds...",
+     "target": "text 1",
+     "times": 1
+    },
+    {
+     "delay": 20.0,
+     "input": "Command",
+     "output": "OnPressed",
+     "param": "say Elevator will start in ...10seconds...",
+     "target": "text 2",
+     "times": 1
+    },
+    {
+     "delay": 30.0,
+     "input": "Command",
+     "output": "OnPressed",
+     "param": "say Stone is broken",
+     "target": "text 3",
+     "times": 1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1025,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "Button 1",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    0.0,
+    -1.0,
+    -0.0
+   ],
+   "distance": 12.4778,
+   "entity": 50,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -78.0478,
+    34.5567,
+    -43.8341
+   ],
+   "mins": [
+    -82.7913,
+    22.0409,
+    -48.5204
+   ],
+   "model": 8,
+   "opened_by": [
+    {
+     "classname": "trigger_multiple",
+     "delay": 0.0,
+     "entity": 49,
+     "input": "Open",
+     "output": "OnStartTouch",
+     "targetname": ""
+    }
+   ],
+   "origin": [
+    -80.4196,
+    28.2988,
+    -46.1772
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 1024,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "rock6",
+   "toggle": false,
+   "touch": true,
+   "travel_time": 6.55,
+   "use": false,
+   "wait": 4.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "distance": 3.5624,
+   "entity": 51,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -73.3044,
+    30.1752,
+    -43.8341
+   ],
+   "mins": [
+    -78.0478,
+    26.5748,
+    -48.5204
+   ],
+   "model": 9,
+   "opened_by": [
+    {
+     "classname": "trigger_multiple",
+     "delay": 0.0,
+     "entity": 52,
+     "input": "Open",
+     "output": "OnStartTouch",
+     "targetname": ""
+    }
+   ],
+   "origin": [
+    -75.6761,
+    28.375,
+    -46.1772
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 1024,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "rock5",
+   "toggle": false,
+   "touch": true,
+   "travel_time": 1.87,
+   "use": false,
+   "wait": 4.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "distance": 3.0099,
+   "entity": 54,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -68.5419,
+    26.7653,
+    -43.9103
+   ],
+   "mins": [
+    -73.3044,
+    23.7172,
+    -48.5966
+   ],
+   "model": 12,
+   "opened_by": [
+    {
+     "classname": "trigger_multiple",
+     "delay": 0.0,
+     "entity": 53,
+     "input": "Open",
+     "output": "OnStartTouch",
+     "targetname": ""
+    }
+   ],
+   "origin": [
+    -70.9232,
+    25.2413,
+    -46.2534
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 1024,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "rock4",
+   "toggle": false,
+   "touch": true,
+   "travel_time": 1.58,
+   "use": false,
+   "wait": 4.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "distance": 1.6193,
+   "entity": 56,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -68.5038,
+    24.7269,
+    -38.9192
+   ],
+   "mins": [
+    -73.4568,
+    23.0695,
+    -43.6626
+   ],
+   "model": 14,
+   "opened_by": [
+    {
+     "classname": "trigger_multiple",
+     "delay": 0.0,
+     "entity": 55,
+     "input": "Open",
+     "output": "OnStartTouch",
+     "targetname": ""
+    }
+   ],
+   "origin": [
+    -70.9803,
+    23.8982,
+    -41.2909
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 1024,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "rock3",
+   "toggle": false,
+   "touch": true,
+   "travel_time": 0.85,
+   "use": false,
+   "wait": 4.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "distance": 0.4191,
+   "entity": 57,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -78.1621,
+    22.5171,
+    -38.9192
+   ],
+   "mins": [
+    -82.9056,
+    22.0599,
+    -43.6626
+   ],
+   "model": 15,
+   "opened_by": [],
+   "origin": [
+    -80.5339,
+    22.2889,
+    -41.2909
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 1024,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "rock1",
+   "toggle": false,
+   "touch": true,
+   "travel_time": 0.22,
+   "use": false,
+   "wait": 4.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    0.0,
+    -1.0,
+    -0.0
+   ],
+   "distance": 12.4778,
+   "entity": 60,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -26.8224,
+    34.5186,
+    -43.9103
+   ],
+   "mins": [
+    -31.5659,
+    22.0028,
+    -48.5966
+   ],
+   "model": 18,
+   "opened_by": [
+    {
+     "classname": "trigger_multiple",
+     "delay": 0.0,
+     "entity": 59,
+     "input": "Open",
+     "output": "OnStartTouch",
+     "targetname": ""
+    }
+   ],
+   "origin": [
+    -29.1941,
+    28.2607,
+    -46.2534
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 1024,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "rock7",
+   "toggle": false,
+   "touch": true,
+   "travel_time": 6.55,
+   "use": false,
+   "wait": 4.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "distance": 3.5624,
+   "entity": 61,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -22.079,
+    30.1371,
+    -43.9103
+   ],
+   "mins": [
+    -26.8224,
+    26.5367,
+    -48.5966
+   ],
+   "model": 19,
+   "opened_by": [
+    {
+     "classname": "trigger_multiple",
+     "delay": 0.0,
+     "entity": 62,
+     "input": "Open",
+     "output": "OnStartTouch",
+     "targetname": ""
+    }
+   ],
+   "origin": [
+    -24.4507,
+    28.3369,
+    -46.2534
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 1024,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "rock8",
+   "toggle": false,
+   "touch": true,
+   "travel_time": 1.87,
+   "use": false,
+   "wait": 4.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "distance": 3.0099,
+   "entity": 64,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -17.3164,
+    26.7272,
+    -43.9865
+   ],
+   "mins": [
+    -22.079,
+    23.6791,
+    -48.6728
+   ],
+   "model": 22,
+   "opened_by": [
+    {
+     "classname": "trigger_multiple",
+     "delay": 0.0,
+     "entity": 63,
+     "input": "Open",
+     "output": "OnStartTouch",
+     "targetname": ""
+    }
+   ],
+   "origin": [
+    -19.6977,
+    25.2032,
+    -46.3296
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 1024,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "rock9",
+   "toggle": false,
+   "touch": true,
+   "travel_time": 1.58,
+   "use": false,
+   "wait": 4.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "distance": 0.4191,
+   "entity": 66,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -26.9367,
+    22.479,
+    -38.9954
+   ],
+   "mins": [
+    -31.6802,
+    22.0218,
+    -43.7388
+   ],
+   "model": 24,
+   "opened_by": [],
+   "origin": [
+    -29.3084,
+    22.2508,
+    -41.3671
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 1024,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "rock1",
+   "toggle": false,
+   "touch": true,
+   "travel_time": 0.22,
+   "use": false,
+   "wait": 4.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "distance": 1.3716,
+   "entity": 68,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -22.3266,
+    23.3934,
+    -39.0525
+   ],
+   "mins": [
+    -27.0701,
+    21.9837,
+    -43.796
+   ],
+   "model": 26,
+   "opened_by": [
+    {
+     "classname": "trigger_multiple",
+     "delay": 0.0,
+     "entity": 67,
+     "input": "Open",
+     "output": "OnStartTouch",
+     "targetname": ""
+    }
+   ],
+   "origin": [
+    -24.6983,
+    22.6886,
+    -41.4242
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 1024,
+   "speed": 1.905,
+   "start_open": false,
+   "targetname": "rock11",
+   "toggle": false,
+   "touch": true,
+   "travel_time": 0.72,
+   "use": false,
+   "wait": 4.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "distance": 5.3531,
+   "entity": 73,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -47.4535,
+    27.5082,
+    -103.2701
+   ],
+   "mins": [
+    -56.2737,
+    22.1171,
+    -104.2987
+   ],
+   "model": 29,
+   "opened_by": [
+    {
+     "classname": "func_button",
+     "delay": 45.3,
+     "entity": 74,
+     "input": "Open",
+     "output": "OnPressed",
+     "targetname": "Button 2"
+    },
+    {
+     "classname": "func_button",
+     "delay": 10.0,
+     "entity": 75,
+     "input": "Close",
+     "output": "OnPressed",
+     "targetname": "Button 4"
+    }
+   ],
+   "origin": [
+    -51.8636,
+    24.8126,
+    -103.7844
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 0,
+   "speed": 0.762,
+   "start_open": false,
+   "targetname": "door2",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 7.0251,
+   "use": false,
+   "wait": -1.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 74,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -57.2453,
+    23.9649,
+    -102.3747
+   ],
+   "mins": [
+    -57.4739,
+    23.4696,
+    -102.4509
+   ],
+   "model": 30,
+   "opened_by": [],
+   "origin": [
+    -57.35,
+    23.7172,
+    -102.3652
+   ],
+   "outputs": [
+    {
+     "delay": 45.3,
+     "input": "Open",
+     "output": "OnPressed",
+     "param": "",
+     "target": "door2",
+     "times": 1
+    },
+    {
+     "delay": 0.0,
+     "input": "PlaySound",
+     "output": "OnPressed",
+     "param": "",
+     "target": "sound 3",
+     "times": 1
+    },
+    {
+     "delay": 0.0,
+     "input": "Command",
+     "output": "OnPressed",
+     "param": "say Final door will open in ...45seconds...",
+     "target": "text 4",
+     "times": 1
+    },
+    {
+     "delay": 30.0,
+     "input": "Command",
+     "output": "OnPressed",
+     "param": "say Final door will open in ...10seconds...",
+     "target": "text 5",
+     "times": 1
+    },
+    {
+     "delay": 45.0,
+     "input": "Command",
+     "output": "OnPressed",
+     "param": "say Final door is now open !",
+     "target": "text 9",
+     "times": 1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 1025,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "Button 2",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_button",
+   "direction": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "distance": 0.0,
+   "entity": 75,
+   "kind": "button",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -49.9872,
+    22.5742,
+    -120.6758
+   ],
+   "mins": [
+    -50.1018,
+    22.522,
+    -120.802
+   ],
+   "model": 31,
+   "opened_by": [],
+   "origin": [
+    -50.0455,
+    22.4992,
+    -120.7669
+   ],
+   "outputs": [
+    {
+     "delay": 20.0,
+     "input": "Toggle",
+     "output": "OnPressed",
+     "param": "",
+     "target": "hurt 1",
+     "times": 1
+    },
+    {
+     "delay": 20.0,
+     "input": "Toggle",
+     "output": "OnPressed",
+     "param": "",
+     "target": "hurt 2",
+     "times": 1
+    },
+    {
+     "delay": 18.0,
+     "input": "PlaySound",
+     "output": "OnPressed",
+     "param": "",
+     "target": "sound 1",
+     "times": 1
+    },
+    {
+     "delay": 21.0,
+     "input": "PlaySound",
+     "output": "OnPressed",
+     "param": "",
+     "target": "sound 2",
+     "times": 1
+    },
+    {
+     "delay": 10.0,
+     "input": "Close",
+     "output": "OnPressed",
+     "param": "",
+     "target": "door2",
+     "times": 1
+    },
+    {
+     "delay": 0.0,
+     "input": "Command",
+     "output": "OnPressed",
+     "param": "say Final door will close in ...10seconds...",
+     "target": "text 10",
+     "times": 1
+    },
+    {
+     "delay": 5.0,
+     "input": "Command",
+     "output": "OnPressed",
+     "param": "say Final door will close in ...5seconds...",
+     "target": "text 11",
+     "times": 1
+    },
+    {
+     "delay": 15.0,
+     "input": "Command",
+     "output": "OnPressed",
+     "param": "say INCOMING AIRSTRIKE IN...5seconds...",
+     "target": "text 12",
+     "times": 1
+    },
+    {
+     "delay": 21.0,
+     "input": "Command",
+     "output": "OnPressed",
+     "param": "say MAP MADE BY Flabes (Dan)",
+     "target": "text 13",
+     "times": 1
+    }
+   ],
+   "solid": true,
+   "spawnflags": 5121,
+   "speed": 0.0953,
+   "start_open": false,
+   "targetname": "Button 4",
+   "toggle": false,
+   "touch": false,
+   "travel_time": 0.0,
+   "use": true,
+   "wait": 3.0
+  },
+  {
+   "classname": "func_door",
+   "direction": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "distance": 16.5163,
+   "entity": 262,
+   "kind": "slide",
+   "lip": 0.0,
+   "locked": false,
+   "maxs": [
+    -87.8205,
+    22.3076,
+    -2.0003
+   ],
+   "mins": [
+    -92.9259,
+    5.7531,
+    -8.4963
+   ],
+   "model": 45,
+   "opened_by": [
+    {
+     "classname": "func_button",
+     "delay": 30.0,
+     "entity": 43,
+     "input": "Open",
+     "output": "OnPressed",
+     "targetname": "Button 1"
+    }
+   ],
+   "origin": [
+    -90.3732,
+    14.0303,
+    -5.2483
+   ],
+   "outputs": [],
+   "solid": true,
+   "spawnflags": 32,
+   "speed": 3.81,
+   "start_open": false,
+   "targetname": "elevator_1",
+   "toggle": true,
+   "touch": false,
+   "travel_time": 4.335,
+   "use": false,
+   "wait": 4.0
+  }
+ ],
+ "name": "ze_runforyourlife_1_v4",
+ "notes": [],
+ "skipped": {},
+ "sky3d": null,
+ "source": {
+  "bsp_version": 20,
+  "bytes": 6301308,
+  "file": "source.bsp",
+  "sha256": "38649eb3fe7f9af3c53e8dbb85795fc2f0d6b4bf3a04be7e6873a95b1ce065db"
+ },
+ "surfaces": [],
+ "units": {
+  "axes": "Godot (x, z, -y) of the map's",
+  "length": "metres",
+  "metres_per_unit": 0.01905,
+  "uv": "source texture coordinate / source texture size",
+  "vertex": "per surface: vertex_count float32 xyz positions, then normals, then float32 uv pairs, then index_count uint32",
+  "y0": 0.0
+ },
+ "version": 1
+}

@@ -3,12 +3,16 @@
   "name": "Death Star Escape",
   "source": "ze_death_star_escape_v4_3.bsp",
   "min_coverage": 0.08,
-  "min_coverage_why": "cropped on purpose to the escape route (crop, clip_y); the rest of the station is not played",
+  "min_coverage_why": "the boxes and the horde's ground are cropped to the escape route (crop, clip_y), the rest of the station is scenery nobody can reach; its collision is the world pack's hulls, whole (hull_collision)",
   "author": "FreeZe1337, Hannibal, Keamon, Belafarinrod and Fuu",
   "page": "https://gamebanana.com/mods/130692",
   "licence": "CC BY-NC-ND 4.0",
   "blurb": "Fight through the first corridors of a battle station, shutting the horde out behind three blast doors you must hold on while they open.",
-  "ambient": {"mood": "industrial", "indoor": "industrial", "frequency": 0.7},
+  "ambient": {
+    "mood": "industrial",
+    "indoor": "industrial",
+    "frequency": 0.7
+  },
   "mode": "exodus",
   "survivors": 8,
   "survivor_class": "info_player_counterterrorist",
@@ -189,5 +193,9 @@
         }
       ]
     }
-  ]
+  ],
+  "hull_collision": {
+    "cuts": [],
+    "uncropped": true
+  }
 }

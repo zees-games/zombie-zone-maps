@@ -1,0 +1,202 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "ze_nuke_beta",
+ "sha256": "9259d93c04fa1af266dff41a648bd590c5db3a7b7da8bc1edc2f284823474e15",
+ "textures": {
+  "looked_up": 91,
+  "by_tier": {
+   "default": 91
+  },
+  "free_by_tier": {
+   "default": 17
+  },
+  "nearest_photo": []
+ },
+ "models": {
+  "looked_up": 33,
+  "by_tier": {
+   "default": 28,
+   "fallback": 5
+  }
+ },
+ "sounds": {
+  "looked_up": 1,
+  "by_tier": {
+   "default": 1
+  }
+ },
+ "classes": {
+  "distinct": 32,
+  "entities": 677,
+  "by_tier": {
+   "default": 32
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "cspinup",
+    "fadeinsecs",
+    "fadeoutsecs",
+    "health",
+    "lfomodpitch",
+    "lfomodvol",
+    "lforate",
+    "lfotype",
+    "pitch",
+    "pitchstart",
+    "preset",
+    "spindown",
+    "spinup",
+    "volstart"
+   ],
+   "func_breakable": [
+    "disablereceiveshadows",
+    "disableshadows",
+    "material",
+    "nodamageforces",
+    "spawnobject"
+   ],
+   "func_brush": [
+    "InputFilter",
+    "disablereceiveshadows",
+    "disableshadows",
+    "vrad_brush_cast_shadows"
+   ],
+   "func_door": [
+    "disablereceiveshadows",
+    "disableshadows",
+    "locked_sentence",
+    "unlocked_sentence"
+   ],
+   "func_door_rotating": [
+    "disablereceiveshadows",
+    "disableshadows",
+    "locked_sentence",
+    "unlocked_sentence"
+   ],
+   "func_illusionary": [
+    "disablereceiveshadows",
+    "disableshadows"
+   ],
+   "light_spot": [
+    "_cone",
+    "_exponent",
+    "_inner_cone",
+    "pitch"
+   ],
+   "prop_dynamic": [
+    "SetBodyGroup",
+    "disablereceiveshadows",
+    "fademindist",
+    "fadescale",
+    "solid"
+   ],
+   "prop_dynamic_override": [
+    "fademindist",
+    "fadescale",
+    "solid"
+   ],
+   "prop_physics": [
+    "disableshadows"
+   ],
+   "prop_physics_override": [
+    "fademindist",
+    "fadescale",
+    "inertiaScale",
+    "modelscale",
+    "physdamagescale",
+    "skin",
+    "spawnflags"
+   ],
+   "worldspawn": [
+    "mapversion"
+   ]
+  }
+ },
+ "links": {
+  "total": 0,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [
+   "props/de_piranesi/pi_apc.mdl",
+   "props_c17/utilityconnecter003.mdl",
+   "props_c17/utilityconnecter006.mdl",
+   "props_c17/utilityconnecter006d.mdl",
+   "props_wasteland/prison_heavydoor001a.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.cspinup",
+   "ambient_generic.fadeinsecs",
+   "ambient_generic.fadeoutsecs",
+   "ambient_generic.health",
+   "ambient_generic.lfomodpitch",
+   "ambient_generic.lfomodvol",
+   "ambient_generic.lforate",
+   "ambient_generic.lfotype",
+   "ambient_generic.pitch",
+   "ambient_generic.pitchstart",
+   "ambient_generic.preset",
+   "ambient_generic.spindown",
+   "ambient_generic.spinup",
+   "ambient_generic.volstart",
+   "func_breakable.disablereceiveshadows",
+   "func_breakable.disableshadows",
+   "func_breakable.material",
+   "func_breakable.nodamageforces",
+   "func_breakable.spawnobject",
+   "func_brush.InputFilter",
+   "func_brush.disablereceiveshadows",
+   "func_brush.disableshadows",
+   "func_brush.vrad_brush_cast_shadows",
+   "func_door.disablereceiveshadows",
+   "func_door.disableshadows",
+   "func_door.locked_sentence",
+   "func_door.unlocked_sentence",
+   "func_door_rotating.disablereceiveshadows",
+   "func_door_rotating.disableshadows",
+   "func_door_rotating.locked_sentence",
+   "func_door_rotating.unlocked_sentence",
+   "func_illusionary.disablereceiveshadows",
+   "func_illusionary.disableshadows",
+   "light_spot._cone",
+   "light_spot._exponent",
+   "light_spot._inner_cone",
+   "light_spot.pitch",
+   "prop_dynamic.SetBodyGroup",
+   "prop_dynamic.disablereceiveshadows",
+   "prop_dynamic.fademindist",
+   "prop_dynamic.fadescale",
+   "prop_dynamic.solid",
+   "prop_dynamic_override.fademindist",
+   "prop_dynamic_override.fadescale",
+   "prop_dynamic_override.solid",
+   "prop_physics.disableshadows",
+   "prop_physics_override.fademindist",
+   "prop_physics_override.fadescale",
+   "prop_physics_override.inertiaScale",
+   "prop_physics_override.modelscale",
+   "prop_physics_override.physdamagescale",
+   "prop_physics_override.skin",
+   "prop_physics_override.spawnflags",
+   "worldspawn.mapversion"
+  ],
+  "links_unresolved": []
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 5,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 54,
+  "links_unresolved": 0
+ }
+}
