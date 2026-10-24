@@ -102,8 +102,8 @@
  "models": {
   "looked_up": 158,
   "by_tier": {
-   "default": 132,
-   "fallback": 26
+   "default": 148,
+   "fallback": 10
   }
  },
  "sounds": {
@@ -403,26 +403,10 @@
   ],
   "models_unmapped": [
    "johny-srka/arcade_machine.mdl",
-   "props/cs_assault/forklift.mdl",
-   "props/cs_office/microwave.mdl",
    "props/de_tides/menu_stand.mdl",
    "props/de_train/de_train_securityguard.mdl",
-   "props_c17/concrete_barrier001a.mdl",
-   "props_c17/display_cooler01a.mdl",
    "props_c17/fountain_01.mdl",
-   "props_c17/traffic_light001a.mdl",
-   "props_junk/bicycle01a.mdl",
-   "props_junk/glassbottle01a.mdl",
    "props_junk/meathook001a.mdl",
-   "props_junk/shoe001a.mdl",
-   "props_junk/watermelon01.mdl",
-   "props_junk/wheebarrow01a.mdl",
-   "props_lab/binderbluelabel.mdl",
-   "props_lab/bindergreen.mdl",
-   "props_lab/binderredlabel.mdl",
-   "props_lab/securitybank.mdl",
-   "props_lab/walllight001a.mdl",
-   "props_trainstation/payphone001a.mdl",
    "ps3/ps3.mdl",
    "spongebob/patty.mdl",
    "xboxblack/xbox.mdl",
@@ -557,7 +541,7 @@
  "counts": {
   "textures_unmapped": 98,
   "textures_flat": 17,
-  "models_unmapped": 26,
+  "models_unmapped": 10,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 119,
