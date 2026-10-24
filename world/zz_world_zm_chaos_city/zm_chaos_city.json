@@ -1,10 +1,10 @@
 {
  "bin": {
-  "bytes": 1748692,
+  "bytes": 1810876,
   "compression": "gzip",
   "file": "zm_chaos_city.bin",
-  "sha256": "48944ad8817bf73b9e197a98d8ad14e574744d54357925609b718dc54694a4da",
-  "stored_bytes": 368309
+  "sha256": "3363554a3a46cec58c6d4a32684f3a4c0d3180bf47f499dc914194d02c799714",
+  "stored_bytes": 386943
  },
  "breakables": [
   {
@@ -19328,14 +19328,14 @@
    {
     "author": "TMC (generated)",
     "colour": [
-     0.5,
-     0.5,
-     0.5
+     0.0,
+     0.0,
+     0.0
     ],
-    "file": "textures/gen_flat_808080.png",
+    "file": "textures/gen_flat_000000.png",
     "generic": "flat",
     "how": "table",
-    "key": "generated:flat:808080",
+    "key": "generated:flat:000000",
     "kind": "generated",
     "licence": "CC0-1.0",
     "source": "dotbsp generator",
@@ -31564,7 +31564,7 @@
    ],
    "classname": "worldspawn",
    "entity": null,
-   "free": "generated:flat:808080",
+   "free": "generated:flat:000000",
    "generic": "flat",
    "index_count": 969,
    "index_offset": 642080,
@@ -36663,6 +36663,17 @@
   "y0": 0.0
  },
  "version": 1,
+ "vis": {
+  "clusters": 0,
+  "occluder_indices": {
+   "count": 9336,
+   "offset": 1773532
+  },
+  "occluder_vertices": {
+   "count": 2070,
+   "offset": 1748692
+  }
+ },
  "volumes": [
   {
    "brushes": [
