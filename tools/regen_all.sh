@@ -15,7 +15,12 @@ while IFS=$'\t' read -r id key; do
     [ -f "$HERE/convert/maps/$id.json" ] && args+=(--map-rules "$HERE/convert/maps/$id.json")
     y0=$(python3 -I -c 'import json,sys; print(json.load(open(sys.argv[1])).get("y0",""))' "$HERE/bsp/$id.json" 2>/dev/null)
     [ -n "$y0" ] && args+=(--y0 "$y0")
+    if grep -q '"world_crop"' "$HERE/bsp/$id.json" 2>/dev/null; then    # drawn faces cropped to the street: regen cannot
+        h="$(python3 -I -c "import json,sys;print(json.load(open(sys.argv[1]))[sys.argv[2]])" "${DOTBSP_STORE:-$HOME/mapsrc/store}/index.json" "$key")"
+        python3 -I "$HERE/build_worlds.py" "$HERE/bsp/$id.json" "${DOTBSP_STORE:-$HOME/mapsrc/store}/$h/source.bsp" "$(dirname "$d")" > "${TMPDIR:-/tmp}/regen-$id.log" 2>&1 < /dev/null
+    else
     python3 -I "$BSP/bsp.py" regen "$key" --out "$d/$id" "${args[@]}" > "${TMPDIR:-/tmp}/regen-$id.log" 2>&1 < /dev/null
+    fi
     r=$?; [ $r -ne 0 ] && rc=1
     echo "$id exit $r${y0:+ y0 $y0}"
 done < <(grep -v '^#' "$HERE/convert/ship.tsv")

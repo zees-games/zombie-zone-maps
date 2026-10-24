@@ -85,6 +85,9 @@ def _dropped(c, spec):
         x0, y0, z0, x1, y1, z1 = cut[:6]
         if len(cut) < 7 and x0 <= c[0] <= x1 and y0 <= c[1] <= y1 and z0 <= c[2] <= z1:
             return True
+    wc = spec.get("world_crop")    # drawn faces only: the boxes keep what they have (distant scenery the street never reaches)
+    if wc and not (wc[0] <= c[0] <= wc[2] and wc[1] <= c[2] <= wc[3]):
+        return True
     crop = spec.get("crop")
     if crop:
         cx0, cz0, cx1, cz1 = crop
@@ -96,7 +99,7 @@ def _dropped(c, spec):
 def trim(s, spec):
     """Drops the triangles a `cut` or `crop` would have removed boxes for. A `cut` naming a material
     is about the document's boxes only (it picks one box out of a stack), so it is not applied."""
-    if s.sky3d or not (spec.get("cut") or spec.get("crop")):
+    if s.sky3d or not (spec.get("cut") or spec.get("crop") or spec.get("world_crop")):
         return s
     keep, remap = [], {}
     for t in range(0, len(s.index), 3):
