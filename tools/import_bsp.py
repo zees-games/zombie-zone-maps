@@ -759,6 +759,23 @@ def fits(path):
     return wire_size(path)[2] >= 1.0
 
 
+def prune_extra(extra, floors):
+    """Drops what the horde walks over or round: a box no taller than a step lying on a floor (trim, a sill, a tile)
+    and a box of under 0.06 m3 (a pole, a rail, a shelf slab). As obstacles they cut every point within the clearance
+    of them, and the doorway behind; the hull still stops the bodies."""
+
+    def small(b):
+        return b["size"][0] * b["size"][1] * b["size"][2] < 0.06
+
+    def low_on_floor(b):
+        if b["size"][1] > 0.35:
+            return False
+        top, rx, rz = b["at"][1] + b["size"][1] / 2, b["size"][0] / 2 + 0.5, b["size"][2] / 2 + 0.5
+        return any(f[0] - rx < b["at"][0] < f[2] + rx and f[1] - rz < b["at"][2] < f[3] + rz and f[4] - 0.5 <= top <= f[4] + 0.15 for f in floors)
+
+    return [b for b in extra if not small(b) and not low_on_floor(b)]
+
+
 def write_nav_extra(path, full):
     """`hulls/<id>.nav.json`, server-only beside the hulls: the whole map's boxes the budget dropped, and
     its floors and links, which the horde's graph is built from (the wire document keeps the budgeted ones)."""
@@ -778,17 +795,7 @@ def write_nav_extra(path, full):
         else:
             extra.append(b)
     nav = full["nav"]
-    # A box no taller than a step, lying on a floor (trim, a sill, a worn tile), is walked over: as an obstacle
-    # it would cut every point within the clearance of it, and the doorway behind it with them.
-    floors = nav["floors"] + doc["nav"]["floors"]
-
-    def low_on_floor(b):
-        if b["size"][1] > 0.3:
-            return False
-        top, rx, rz = b["at"][1] + b["size"][1] / 2, b["size"][0] / 2 + 0.5, b["size"][2] / 2 + 0.5
-        return any(f[0] - rx < b["at"][0] < f[2] + rx and f[1] - rz < b["at"][2] < f[3] + rz and f[4] - 0.5 <= top <= f[4] + 0.15 for f in floors)
-
-    extra = [b for b in extra if not low_on_floor(b)]
+    extra = prune_extra(extra, nav["floors"] + doc["nav"]["floors"])
     os.makedirs(os.path.dirname(out), exist_ok=True)
     with open(out, "w") as f:
         json.dump({"boxes": extra, "floors": nav["floors"], "links": nav["links"]}, f, separators=(",", ":"))
