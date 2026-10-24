@@ -31,6 +31,7 @@ The spec JSON (tools/bsp/<id>.json) names the map, author, page and licence; the
 removal-on-request line go into `author` and `attribution`. The .bsp itself is never committed.
 """
 
+import collections
 import json
 import math
 import os
@@ -758,7 +759,43 @@ def fits(path):
     return wire_size(path)[2] >= 1.0
 
 
+def write_nav_extra(path, full):
+    """`hulls/<id>.nav.json`, server-only beside the hulls: the whole map's boxes the budget dropped, and
+    its floors and links, which the horde's graph is built from (the wire document keeps the budgeted ones)."""
+    with open(path) as f:
+        doc = json.load(f)
+    out = os.path.join(os.path.dirname(path), "hulls", doc["id"] + ".nav.json")
+    if os.path.exists(out):
+        os.remove(out)
+    if not doc.get("world_collision") or not full:
+        return
+    have = collections.Counter(json.dumps(b, sort_keys=True) for b in doc["boxes"])
+    extra = []
+    for b in full["boxes"]:
+        k = json.dumps(b, sort_keys=True)
+        if have[k] > 0:
+            have[k] -= 1
+        else:
+            extra.append(b)
+    nav = full["nav"]
+    os.makedirs(os.path.dirname(out), exist_ok=True)
+    with open(out, "w") as f:
+        json.dump({"boxes": extra, "floors": nav["floors"], "links": nav["links"]}, f, separators=(",", ":"))
+        f.write("\n")
+    print("  nav extra: %d boxes, %d floors, %d links in hulls/%s.nav.json (the wire carries %d, %d, %d)" % (
+        len(extra), len(nav["floors"]), len(nav["links"]), doc["id"], len(doc["boxes"]), len(doc["nav"]["floors"]), len(doc["nav"]["links"])))
+
+
 def main(argv):
+    full = {}
+    rc = budgeted(argv, full)
+    if not rc and len(argv) >= 3:
+        spec = json.load(open(argv[1]))
+        write_nav_extra(os.path.join(argv[3] if len(argv) > 3 else os.path.join(HERE, "..", "maps"), spec["id"] + ".json"), full)
+    return rc
+
+
+def budgeted(argv, full):
     if len(argv) < 3:
         print(__doc__)
         return 2
@@ -769,6 +806,7 @@ def main(argv):
     rc = convert(argv, skip=("drop_small", "max_boxes"))
     if rc or fits(path):
         return rc
+    full.update(json.load(open(path)))
     whole = wire_size(path)
     if spec.get("drop_small"):
         print("  over the wire budget with every box: dropping small ones")
@@ -1849,12 +1887,16 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
     if dropped_any and doc.get("world"):
         # The budget dropped boxes the world pack still draws: the game collides with the pack's own
         # hulls for these models, so the wire carries only what the graph needs.
-        moved = [k for k in ("crop", "clip_y", "widen_doorways") if spec.get(k)]
+        moved = [k for k in ("widen_doorways",) if spec.get(k)]
         if moved:
             print("  world_collision: not written, the spec moves collision (%s)" % ", ".join(moved), file=sys.stderr)
         else:
             doc["world_collision"] = {"models": sorted(set(wc_models)), "flat": sorted(set(wc_flat)), "flat_height": 0.5,
                                       "skip": [list(c[:6]) for c in spec.get("cut", []) if len(c) < 7]}
+            if spec.get("crop"):
+                doc["world_collision"]["within"] = list(spec["crop"])
+            if spec.get("clip_y"):
+                doc["world_collision"]["band"] = list(spec["clip_y"])
             print("  world_collision: %d models from the world pack's hulls" % len(doc["world_collision"]["models"]))
     os.makedirs(out_dir, exist_ok=True)
     path = os.path.join(out_dir, spec["id"] + ".json")
