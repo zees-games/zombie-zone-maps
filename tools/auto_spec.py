@@ -74,6 +74,7 @@ def spec_for(key):
         "flood_step": 0.3, "thin_walls": True, "toys": [["barrel", "spawn", 3, -2], ["tyre", "spawn", -3, 2]],
         "items_auto": True, "auto_lights": {"spacing": 6.0, "height": 2.3, "range": 7.0, "energy": 0.9},
         "prop_models": prop_models(bs), "max_boxes": 3500, "generated": True,
+        "keep_treads": True, "nav_min_depth": 1, "drop_lids": True,
     }
     if escape:
         spec.update({"gate_classes": ["func_door", "func_door_rotating", "func_movelinear"],

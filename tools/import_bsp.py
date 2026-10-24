@@ -909,6 +909,45 @@ def main(argv):
                     for iz in range(int((c["at"][2] - c["size"][2] / 2 - 0.1) // 2), int((c["at"][2] + c["size"][2] / 2 + 0.1) // 2) + 1):
                         by_cell.setdefault((ix, iz), []).append(c)
 
+            def stair_runs(cands):
+                # A flight of low risers (a porch's seven steps of 8 cm, 15 cm deep) has no neighbour 0.1 m
+                # away to qualify, but its boxes touch each other with tops climbing: three or more tops
+                # in one chain of touching small boxes is a stair, where slats and trim share one top.
+                near = {}
+                for b in cands:
+                    if b.get("yaw") or b["size"][1] < 0.03 or b["size"][0] * b["size"][2] < 0.25:
+                        continue
+                    for ix in range(int((b["at"][0] - b["size"][0] / 2 - 0.1) // 2), int((b["at"][0] + b["size"][0] / 2 + 0.1) // 2) + 1):
+                        for iz in range(int((b["at"][2] - b["size"][2] / 2 - 0.1) // 2), int((b["at"][2] + b["size"][2] / 2 + 0.1) // 2) + 1):
+                            near.setdefault((ix, iz), []).append(b)
+                pool = {id(b): b for v in near.values() for b in v}
+                links = {k: [] for k in pool}
+                for v in near.values():
+                    for i, a in enumerate(v):
+                        for c in v[i + 1:]:
+                            if abs(c["at"][0] - a["at"][0]) > (c["size"][0] + a["size"][0]) / 2 + 0.06 or abs(c["at"][2] - a["at"][2]) > (c["size"][2] + a["size"][2]) / 2 + 0.06:
+                                continue
+                            if 0.03 <= abs(c["at"][1] + c["size"][1] / 2 - a["at"][1] - a["size"][1] / 2) <= 0.45:
+                                links[id(a)].append(id(c))
+                                links[id(c)].append(id(a))
+                found, seen = [], set()
+                for k in pool:
+                    if k in seen or not links[k]:
+                        continue
+                    comp, todo = [], [k]
+                    seen.add(k)
+                    while todo:
+                        n = todo.pop()
+                        comp.append(pool[n])
+                        for m in links[n]:
+                            if m not in seen:
+                                seen.add(m)
+                                todo.append(m)
+                    tops = {round(c["at"][1] + c["size"][1] / 2, 2) for c in comp}
+                    if 3 <= len(tops) and len(comp) <= 3 * len(tops) and max(tops) - min(tops) <= 1.5:
+                        found += comp
+                return found
+
             def riser_beside(b):
                 if b.get("yaw") or b["size"][1] < 0.03 or min(b["size"][0], b["size"][2]) < 0.2 or b["size"][0] * b["size"][2] < 0.25:
                     return False
@@ -923,6 +962,7 @@ def main(argv):
                 return False
 
             treads = [b for b in small if riser_beside(b)]
+            treads += [b for b in stair_runs(small) if b not in treads]
             small = [b for b in small if b not in treads]
             # A tread is ground, not an obstacle: the graph grows every box by the clearance, and a
             # flight of 0.25 m risers is within that of every point on it, so no point stood on a stair.
@@ -933,8 +973,10 @@ def main(argv):
     if spec.get("max_boxes") and len(boxes) > spec["max_boxes"]:
         # The wire limit (ZzMapDoc.WIRE_LIMIT, MAX_BOXES) caps what a document can collide with; the
         # drawn world pack carries the detail, so the smallest solids go first.
-        order = sorted(range(len(boxes)), key=lambda i: boxes[i]["size"][0] * boxes[i]["size"][1] * boxes[i]["size"][2])
-        gone = set(order[:len(boxes) - int(spec["max_boxes"])])
+        # Kept treads are not counted here: the flood prunes the ones it never stands on and the cap is
+        # applied again after it, so a map's only stair is not the first thing the cap takes.
+        order = sorted((i for i in range(len(boxes)) if id(boxes[i]) not in tread_ids), key=lambda i: boxes[i]["size"][0] * boxes[i]["size"][1] * boxes[i]["size"][2])
+        gone = set(order[:len(order) - int(spec["max_boxes"])])
         print("  max_boxes: dropped the %d smallest of %d boxes" % (len(gone), len(boxes)))
         boxes[:] = [b for i, b in enumerate(boxes) if i not in gone]
     for ab in spec.get("add_boxes", []):
@@ -1019,7 +1061,9 @@ def main(argv):
     # bake: every random route the choke finder walks starts and ends up on it, so the street's
     # traffic is a handful of routes and no place is a choke. Nobody reaches it from the ground.
     if spec.get("drop_lids"):
-        lids = [b for b in boxes if b["size"][0] * b["size"][2] > 1500.0 and b["at"][1] - b["size"][1] / 2 > 3.0]
+        # An invisible thin slab is the author's clip over the map, whatever its area (the manor's is six, down to 500 m2).
+        lids = [b for b in boxes if b["at"][1] - b["size"][1] / 2 > 3.0 and (b["size"][0] * b["size"][2] > 1500.0
+                or (b.get("visible", True) is False and b["size"][1] < 0.3 and b["size"][0] * b["size"][2] > 300.0))]
         boxes[:] = [b for b in boxes if b not in lids]
         print("  dropped %d sky lid(s)" % len(lids))
 
@@ -1211,6 +1255,25 @@ def main(argv):
     if TERRAIN:
         tseen = {(a, b) for a, b, h in seen if (a, b, h) in build_nav.tsurf}
         TERRAIN_PTS = dterrain.walk_points(TERRAIN, dterrain.walk_samples(TERRAIN, tseen, CELL), 1.0)
+    if tread_ids:
+        # Only the stairs the flood stands on are ground; thousands of trim ridges that look like a
+        # flight cost the wire for nothing. A tread is kept when a walked cell lies on its footprint.
+        def walked(b):
+            top = b["at"][1] + b["size"][1] / 2
+            for ix in range(int(math.floor((b["at"][0] - b["size"][0] / 2 - 0.2) / CELL)), int(math.floor((b["at"][0] + b["size"][0] / 2 + 0.2) / CELL)) + 1):
+                for iz in range(int(math.floor((b["at"][2] - b["size"][2] / 2 - 0.2) / CELL)), int(math.floor((b["at"][2] + b["size"][2] / 2 + 0.2) / CELL)) + 1):
+                    if any((ix, iz, h) in seen and abs(h - top) <= 0.3 for h in surf.get((ix, iz), ())):
+                        return True
+            return False
+        idle = [b for b in boxes if id(b) in tread_ids and not walked(b)]
+        boxes[:] = [b for b in boxes if not any(b is c for c in idle)]
+        tread_ids.difference_update(id(b) for b in idle)
+        print("  keep_treads: %d stair boxes the flood stands on kept, %d idle ones dropped" % (len(tread_ids), len(idle)))
+        if spec.get("max_boxes") and len(boxes) > spec["max_boxes"]:
+            order = sorted((i for i in range(len(boxes)) if id(boxes[i]) not in tread_ids), key=lambda i: boxes[i]["size"][0] * boxes[i]["size"][1] * boxes[i]["size"][2])
+            gone = set(order[:len(boxes) - int(spec["max_boxes"])])
+            boxes[:] = [b for i, b in enumerate(boxes) if i not in gone]
+            print("  max_boxes: %d more smallest dropped after the stairs were pruned" % len(gone))
     print("  ground: %d cells walked without props, %d with; %d of %d props kept" % (len({(a, b) for a, b, _ in seen}) + len(lost), len({(a, b) for a, b, _ in seen}), len(keep), len(cand)))
 
     # The game's own graph, worked out here (nav_emulate): a doorway a metre wide has no point in

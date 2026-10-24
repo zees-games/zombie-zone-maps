@@ -113,5 +113,8 @@
   0.3,
   3.0
  ],
- "max_boxes": 3500
+ "max_boxes": 2800,
+ "keep_treads": true,
+ "nav_min_depth": 1,
+ "drop_lids": true
 }
