@@ -1649,7 +1649,13 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
                      and abs(q["at"][2] - p[2]) < max(sizes[q["id"]][0], sizes[q["id"]][2]) / 2 + 0.6 for q in keep):
             continue
         if p and p[2] <= spec.get("spawn_z_max", 1e9):
-            spawns.append({"at": p, "yaw": r3(reader.yaw_to_godot(parse_vec(e.get("angles", "0 0 0"))[1]))})
+            sp = {"at": p, "yaw": r3(reader.yaw_to_godot(parse_vec(e.get("angles", "0 0 0"))[1]))}
+            # The entity's name and start state, so the game's spawn_enabled can toggle it like the live entity does.
+            if str(e.get("targetname", "")).strip():
+                sp["name"] = str(e["targetname"]).strip()[:64]
+            if str(e.get("StartDisabled", "0")).strip() == "1":
+                sp["disabled"] = True
+            spawns.append(sp)
     # Too few usable starts (the source's own sit in the air, in a wall or off the graph): the team
     # stands on the main ground around the flood's seed, 1.4 m apart, so a generated spec still plays.
     if G.pts and len(spawns) < spec.get("survivors", 4):
