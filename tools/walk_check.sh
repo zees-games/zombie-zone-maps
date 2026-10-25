@@ -48,4 +48,6 @@ PY
     echo "$id $(grep -h 'lost:' "$log" | sed 's/^ *//')$([ $rc -ne 0 ] && echo "  FAIL (see $log)")"
     [ $rc -ne 0 ] && fail=1
 done < <(grep -v '^#' "$HERE/convert/ship.tsv")
+# the documents carry every lamp of their source (not the old 120)
+"$HERE/relight.sh" --check "$@" | grep -v ": kept" && fail=1
 exit $fail

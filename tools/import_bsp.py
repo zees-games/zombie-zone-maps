@@ -56,6 +56,7 @@ def _dotbsp_path():
 
 sys.path.insert(1, _dotbsp_path())
 from dotbsp import boxes as dboxes, classes as dclasses, docboxes, intermediate, reader, texturemap  # noqa: E402
+from dotbsp import lights as dlights  # noqa: E402
 from dotbsp import terrain as dterrain  # noqa: E402
 
 # The displacement ground (dotbsp.terrain.Heightfield) the floods walk by slope; None without terrain.
@@ -281,6 +282,40 @@ def boxes_from_brush(br, y0):
 
 def parse_vec(s):
     return [float(t) for t in s.split()]
+
+
+WIRE_LAMPS = 32    # a map with more than REALTIME_LAMPS lamps sends this many over the wire (`wire_lamps`); the rest stay in the file
+REALTIME_LAMPS = 128    # ZzMap.realtime_lamps
+AUTO_LIGHTS_BELOW = 12    # a map with at least this many point lamps keeps them; `auto_lights` is for maps without
+
+
+def _num(v):
+    try:
+        return float(v)
+    except (TypeError, ValueError):
+        return None
+
+
+def source_lamps(ents, y0):
+    """Every `light` and `light_spot` of the source as the document's compact lamp: {at, range,
+    energy, colour} and, for a spot, `dir` (unit vector, game axes) and `cone` (half angle, degrees).
+    No cap here: the document keeps all of them (the bake uses every one) and the game limits only the
+    realtime lamps it lights at once."""
+    out = []
+    for e in ents:
+        if e.get("classname") not in ("light", "light_spot"):
+            continue
+        col = parse_vec(e.get("_light", "255 255 255 200"))
+        br = col[3] if len(col) > 3 else 200
+        o = gpt(parse_vec(e["origin"]), y0)
+        lamp = {"at": [r3(o[0]), r3(o[1]), r3(o[2])], "range": r3(min(9.0, 3.5 + br / 60.0)), "energy": r3(min(1.6, 0.4 + br / 220.0)),
+                "colour": [r3(c / 255.0) for c in col[:3]]}
+        if e.get("classname") == "light_spot":
+            lamp["dir"] = list(dlights.sun_direction(parse_vec(e.get("angles", "0 0 0")), _num(e.get("pitch"))))
+            lamp["cone"] = r3(min(90.0, max(5.0, _num(e.get("_cone")) or 45.0)))
+        out.append(lamp)
+    # Past REALTIME_LAMPS the wire carries only the first WIRE_LAMPS; in this order those cover the whole map.
+    return dlights.spread_order(out) if len(out) > REALTIME_LAMPS else out
 
 
 # --- nav floors ---------------------------------------------------------------------------
@@ -768,6 +803,8 @@ def wire_size(path):
     """(boxes, compressed bytes, room) of a written document; room < 1 is over a limit by that ratio."""
     with open(path) as f:
         doc = json.load(f)
+    if doc.get("wire_lamps"):
+        doc["lights"] = doc["lights"][:doc["wire_lamps"]]
     size = len(zlib.compress(json.dumps(doc, separators=(",", ":")).encode(), 9))
     nav = doc.get("nav") or {}
     counts = {"boxes": len(doc.get("boxes", [])), "floors": len(nav.get("floors", [])), "links": len(nav.get("links", []))}
@@ -830,7 +867,38 @@ def write_nav_extra(path, full):
         len(extra), len(nav["floors"]), len(nav["links"]), doc["id"], len(doc["boxes"]), len(doc["nav"]["floors"]), len(doc["nav"]["links"])))
 
 
+def relight(argv):
+    """`--lights-only[-check] <spec> <bsp or intermediate> <doc>`: replace only the `lights` of a
+    committed document with the source's lamps, so a lamp change does not drag in a whole
+    re-conversion (box drift, a new nav). A map keeps its lamps when the source has no more of
+    them (the auto grid, or an older conversion, lit it at least as well), and a spec that forces
+    the auto grid keeps it. The -check form writes nothing and returns 1 when a document would change."""
+    spec = json.load(open(argv[2]))
+    bs = load_source(argv[3], False)
+    lamps = source_lamps(bs.entities, float(spec.get("y0", 0.0)))
+    al = spec.get("auto_lights")
+    with open(argv[4]) as f:
+        doc = json.load(f)
+    old = len(doc.get("lights", []))
+    if (al and al.get("force")) or len(lamps) <= old or (al and len(lamps) < AUTO_LIGHTS_BELOW):
+        print("%s: kept %d lamps (source has %d)" % (spec["id"], old, len(lamps)))
+        return 0
+    print("%s: lights %d -> %d" % (spec["id"], old, len(lamps)))
+    if argv[1].endswith("-check"):
+        return 1
+    doc["lights"] = lamps
+    doc.pop("wire_lamps", None)
+    if len(lamps) > REALTIME_LAMPS:
+        doc["wire_lamps"] = WIRE_LAMPS
+    with open(argv[4], "w") as f:
+        json.dump(doc, f, indent=1)
+        f.write("\n")
+    return 0
+
+
 def main(argv):
+    if len(argv) > 4 and argv[1] in ("--lights-only", "--lights-only-check"):
+        return relight(argv)
     full = {}
     rc = budgeted(argv, full)
     if not rc and len(argv) >= 3:
@@ -1870,6 +1938,8 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
 
     lights = []
     al = spec.get("auto_lights")
+    if al and not al.get("force") and len(source_lamps(ents, y0)) >= AUTO_LIGHTS_BELOW:
+        al = None    # the author's own lamps are the map's light; a grid replaces them only when there are few
     if al:
         # The map had no lamps of its own (it was lit by baked light, which is the author's): a lamp
         # every `spacing` metres over the horde's ground, `height` above the floor, taken in a
@@ -1888,13 +1958,8 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
             picked = [(k, v) for k, v in picked if (k[0] + k[1]) % 2 == 0]
         for _k, at in picked:
             lights.append({"at": at, "range": al.get("range", 7.0), "energy": al.get("energy", 0.9), "colour": al.get("colour", [1.0, 0.93, 0.8])})
-    for e in ents:
-        if e.get("classname") in ("light", "light_spot") and len(lights) < 120 and not al:
-            col = parse_vec(e.get("_light", "255 255 255 200"))
-            br = col[3] if len(col) > 3 else 200
-            o = gpt(parse_vec(e["origin"]), y0)
-            lights.append({"at": [r3(o[0]), r3(o[1]), r3(o[2])], "range": r3(min(9.0, 3.5 + br / 60.0)), "energy": r3(min(1.6, 0.4 + br / 220.0)),
-                           "colour": [r3(c / 255.0) for c in col[:3]]})
+    if not al:
+        lights.extend(source_lamps(ents, y0))
 
     env = {"sky_top": [0.02, 0.03, 0.07], "sky_horizon": [0.08, 0.1, 0.15], "ground": [0.03, 0.03, 0.04], "sun_pitch": -45.0,
            "sun_yaw": 12.0, "sun_energy": 0.22, "sun_colour": [0.45, 0.65, 0.95], "ambient": [0.36, 0.4, 0.52], "ambient_energy": 0.3, "fog": 0.02}
@@ -1951,6 +2016,8 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
         "items": items, "objectives": objectives, "sleepers": [list(z) for z in spec.get("sleepers", [])], "zombie_spawns": zsp, "posts": posts, "caches": caches,
         "barricades": barricades,
     }
+    if len(lights) > REALTIME_LAMPS:
+        doc["wire_lamps"] = WIRE_LAMPS
     if spawns:
         sp = [s["at"] for s in spawns]
         doc["areas"]["start"] = [{"min": [r3(min(p[0] for p in sp) - 2), r3(min(p[1] for p in sp) - 0.5), r3(min(p[2] for p in sp) - 2)],
