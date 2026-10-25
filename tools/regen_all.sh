@@ -24,4 +24,6 @@ while IFS=$'\t' read -r id key; do
     r=$?; [ $r -ne 0 ] && rc=1
     echo "$id exit $r${y0:+ y0 $y0}"
 done < <(grep -v '^#' "$HERE/convert/ship.tsv")
+# The documents keep their solid_props (the server collides with them), so refresh them from the packs just written.
+[ "$OUT" = "$HERE/../world" ] && { "$HERE/solid_props.sh" $REGEN_IDS || rc=1; }
 exit $rc

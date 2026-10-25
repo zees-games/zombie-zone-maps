@@ -970,6 +970,15 @@ def put_back(argv, path, whole):
     return convert(argv, skip=("max_boxes",))
 
 
+def prior_solid_props(path):
+    """The previous document's `solid_props` (tools/solid_props.sh), or []."""
+    try:
+        with open(path) as f:
+            return json.load(f).get("solid_props", [])
+    except (OSError, ValueError):
+        return []
+
+
 def write_hulls(doc, out_dir):
     """`<out_dir>/hulls/<id>.{json,bin}`: the hulls `world_collision` selects, in the server's maps pack,
     which carries no world. Removed when the document collides with its boxes alone."""
@@ -2030,10 +2039,16 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
         print("  water: %d volume(s)" % len(water))
     # Toys: loose dot-props, from the spec's hints ([toy, anchor, dx, dz]); build_maps settles each
     # onto clear floor, the same way the hand-built maps' are.
+    prior_solid = prior_solid_props(os.path.join(out_dir, spec["id"] + ".json"))
     if spec.get("toys"):
         import build_maps
+        if prior_solid:
+            doc["solid_props"] = prior_solid    # settle_toys keeps a toy out of them
         hints = [build_maps.toy(t[0], "spawn" if t[1] == "spawn" else tuple(t[1]), t[2], t[3], *t[4:]) for t in spec["toys"]]
         doc["toys"] = build_maps.settle_toys(doc, hints)
+    doc.pop("solid_props", None)
+    if prior_solid:    # solid_props.sh refreshes it; kept so a re-import never drops it
+        doc = {k2: v2 for k, v in doc.items() for k2, v2 in (((k, v), ("solid_props", prior_solid)) if k == "props" else ((k, v),))}
     doc = name_world(doc, os.path.join(HERE, ".."))
     # The spec's `ambient`, else the keyword vote of the world's sound names (tools/ambient.py).
     field, _why = ambient.resolve(spec["id"], spec)

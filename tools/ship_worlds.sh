@@ -19,3 +19,5 @@ grep -v '^#' "$HERE/convert/ship.tsv" | while IFS=$'\t' read -r id key; do
     fi
     rc=$?; mv "$d/regen.log" "${TMPDIR:-/tmp}/regen-$id.log"; echo "$id exit $rc"
 done
+# A regenerated world can change its props: refresh the documents' solid_props from it (only when it went to world/).
+[ "$OUT" = "$HERE/../world" ] && "$HERE/solid_props.sh" $SHIP_IDS || true

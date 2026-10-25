@@ -96,3 +96,7 @@ Every map's `toys` are dot-props' **loose** toys (barrels, tyres, balls, a bowli
 ## Ambience
 
 Every document carries `ambient` (README, `tools/ambient.py`): a converted map's comes from its spec (`"ambient"` in `tools/bsp/<id>.json`, so a re-conversion keeps it), else from the keyword vote of the world's soundscape and ambient_generic names, which is dot-audio's `DotAmbienceMoods.KEYWORDS` read from its source. The hand-built maps' moods are `ambient.HAND`, written by `build_maps.py`. `python3 -I tools/ambient.py --check` fails a document without one.
+
+## solid_props
+
+A drawn world's solid props (`solid` 2, 3, 4 or 6 in the manifest) are boxes in the document's `solid_props`, written by `tools/solid_props.sh` (it starts Godot: run under `heavy`, `GAME=` names the game checkout whose `maps`/`world` links point here). `regen_all.sh`, `ship_worlds.sh` and `ship_docs.sh` run it; the importer keeps the previous block and `settle_toys` keeps toys out of the boxes; `check_worlds.py` fails a world with solid props and no block.

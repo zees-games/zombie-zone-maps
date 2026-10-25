@@ -7,15 +7,20 @@ HERE="$(cd "$(dirname "$0")" && pwd)"
 GAME="${GAME:-$HERE/../../game-zombie-zone}"
 TMP="$(mktemp)"
 trap 'rm -f "$TMP"' EXIT
-if [ $# -eq 0 ]; then
-    set -- $(python3 -I - "$HERE/../maps" <<'PY'
+# Every document naming a world, or those of the ids given that do (a map with no drawn world has no props to box).
+set -- $(python3 -I - "$HERE/../maps" "$@" <<'PY'
 import glob, json, os, sys
+want = sys.argv[2:]
 for f in sorted(glob.glob(os.path.join(sys.argv[1], "*.json"))):
-    if json.load(open(f)).get("world"): print(os.path.basename(f)[:-5])
+    id = os.path.basename(f)[:-5]
+    if (not want or id in want) and json.load(open(f)).get("world"): print(id)
 PY
 )
-fi
+[ $# -gt 0 ] || { echo "solid_props: no document with a world"; exit 0; }
+[ -f "$GAME/.godot/global_script_class_cache.cfg" ] || godot --headless --path "$GAME" --import > /dev/null 2>&1    # a fresh worktree has no class cache
+: > "$TMP"
 godot --headless --path "$GAME" --script tools/solid_props.gd -- "$TMP" "$@" || exit $?
+[ -s "$TMP" ] || { echo "solid_props: the script wrote nothing (a parse error?)" >&2; exit 1; }    # a script that fails to load still exits 0
 python3 -I - "$HERE/../maps" "$TMP" <<'PY'
 import json, sys
 boxes = json.load(open(sys.argv[2]))

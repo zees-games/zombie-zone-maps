@@ -127,6 +127,10 @@ def check(pack_dir):
             doc = json.load(f)
         if doc.get("world") != pack:
             bad.append("%s: maps/%s.json does not name it" % (pack, map_id))
+        # dot-map's SOLID_BOX: a deployed server has no world/, so its document must carry the boxes (tools/solid_props.sh).
+        solid = sum(1 for p in m.get("props", []) if "box" not in p and int(p.get("solid", 0)) in (2, 3, 4, 6))
+        if solid and not doc.get("solid_props"):
+            bad.append("%s: %d solid props and no 'solid_props' in maps/%s.json (run tools/solid_props.sh)" % (pack, solid, map_id))
     if data is not None:
         bad += check_alignment(pack, m, data, doc)
     return bad

@@ -1679,6 +1679,11 @@ def settle_toys(doc, hints):
         lo = [b["at"][i] - b["size"][i] / 2.0 for i in range(3)]
         hi = [b["at"][i] + b["size"][i] / 2.0 for i in range(3)]
         solid.append((b, lo, hi))
+    sprops = []    # clearance only: a toy never stands on a prop
+    for x, y, z, sx, sy, sz, yaw in doc.get("solid_props", []):    # a drawn world's solid props (tools/solid_props.sh)
+        c, sn = abs(math.cos(math.radians(yaw))), abs(math.sin(math.radians(yaw)))
+        hx, hz = (sx * c + sz * sn) / 2.0, (sx * sn + sz * c) / 2.0
+        sprops.append(({}, [x - hx, y - sy / 2.0, z - hz], [x + hx, y + sy / 2.0, z + hz]))
     keep_off = [sp["at"] for sp in doc["spawns"].get("survivors", [])] + [it["at"] for it in doc.get("items", []) if "at" in it]
     ground = None
     if "terrain" in doc:
@@ -1704,7 +1709,7 @@ def settle_toys(doc, hints):
                     continue
                 m = radius + 0.5
                 clear = True
-                for b, lo, hi in solid:
+                for b, lo, hi in solid + sprops:
                     if hi[1] - lo[1] < 0.05:
                         continue
                     if lo[0] < x + m and hi[0] > x - m and lo[2] < z + m and hi[2] > z - m and lo[1] < top + height + 0.3 and hi[1] > top + 0.06:

@@ -21,3 +21,5 @@ PY
     fi
     echo "$id exit $? $(tail -n 2 "${TMPDIR:-/tmp}/doc-$id.log" | head -n 1 | cut -c1-160)"
 done
+# The importer keeps a document's previous solid_props; this refreshes them from the world pack (needs Godot: run under heavy).
+"$HERE/solid_props.sh" "$@" || echo "solid_props exit $?"
