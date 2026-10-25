@@ -5,16 +5,17 @@
  "sha256": "6f7ad9a67565c0e3dce0d65c69c4461f38d9c11342ec75c3c59f07d06a9dcc5a",
  "textures": {
   "looked_up": 121,
+  "drawn": 122,
   "by_tier": {
-   "default": 119,
-   "fallback": 2
+   "addon": 112,
+   "default": 9
   },
   "free_by_tier": {
-   "default": 21,
-   "fallback": 1
+   "addon": 113,
+   "default": 9
   },
   "nearest_photo": [
-   "odysseus/artwork/big_fish"
+   "nature/blendgrassgravel001a"
   ]
  },
  "models": {
@@ -62,13 +63,8 @@
   "unresolved": 0
  },
  "lists": {
-  "textures_unmapped": [
-   "ODYSSEUS/ARTWORK/BIG_FISH",
-   "ODYSSEUS/ARTWORK/SWIM"
-  ],
-  "textures_flat": [
-   "odysseus/artwork/swim"
-  ],
+  "textures_unmapped": [],
+  "textures_flat": [],
   "models_unmapped": [],
   "sounds_unmapped": [
    "ambient/materials/cartrap_rope1.wav",
@@ -87,8 +83,8 @@
   "links_unresolved": []
  },
  "counts": {
-  "textures_unmapped": 2,
-  "textures_flat": 1,
+  "textures_unmapped": 0,
+  "textures_flat": 0,
   "models_unmapped": 0,
   "sounds_unmapped": 4,
   "classes_unmapped": 0,
