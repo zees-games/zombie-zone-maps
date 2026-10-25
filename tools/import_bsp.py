@@ -522,6 +522,199 @@ def build_nav(boxes, starts, blocked=None, wide=False):
     return floors, surf, seen, parent, dist
 
 
+class LinkSolids:
+    """What a body collides with, as convex pieces (planes n.p <= d), for the line a link draws.
+
+    The game's physics world is the document's solid boxes, its props and the world pack's hulls, and
+    its test of a link is a ray at 0.4 m and at 0.9 m above the higher end, shortened 0.15 m at both
+    ends, that counts a start inside a solid as a hit (tools/link_check.gd in game-zombie-zone). This
+    is that test here, so a link the importer keeps is one the game's world lets through."""
+
+    HEIGHTS = (0.4, 0.9)
+    TRIM = 0.15
+    CELL = 4.0
+
+    def __init__(self):
+        self.cells = collections.defaultdict(list)
+        self.count = 0
+
+    def add(self, planes, lo, hi):
+        self.count += 1
+        item = (planes, lo, hi)
+        for gx in range(int(lo[0] // self.CELL), int(hi[0] // self.CELL) + 1):
+            for gz in range(int(lo[2] // self.CELL), int(hi[2] // self.CELL) + 1):
+                self.cells[(gx, gz)].append(item)
+
+    def add_box(self, b):
+        if not b.get("solid", True) or b.get("gate") or b.get("kind") == "sky" or max(b["size"]) <= 0.3:
+            return
+        import nav_emulate
+        nb = nav_emulate._bounds(b)
+        yaw = math.radians(b.get("yaw", 0.0) or 0.0)
+        c, sn = math.cos(yaw), math.sin(yaw)
+        hx, hy, hz = b["size"][0] / 2, b["size"][1] / 2, b["size"][2] / 2
+        at = b["at"]
+        low = at[1] - hy
+        if abs(at[1] + hy) < 0.05 and b["size"][1] <= 0.5:    # a ground slab collides 1.8 m deeper than drawn (ZzMap.GROUND_DEPTH)
+            low -= 1.8
+            nb[1] = low
+        planes = [(0, 1, 0, at[1] + hy), (0, -1, 0, -low)]
+        for ux, uz, h, c0 in ((c, -sn, hx, at[0] * c - at[2] * sn), (sn, c, hz, at[0] * sn + at[2] * c)):
+            planes.append((ux, 0, uz, c0 + h))
+            planes.append((-ux, 0, -uz, -(c0 - h)))
+        self.add(planes, nb[:3], nb[3:])
+
+    def add_hull(self, h):
+        if not h["points"]:
+            return
+        lo = [min(p[k] for p in h["points"]) for k in range(3)]
+        hi = [max(p[k] for p in h["points"]) for k in range(3)]
+        self.add([tuple(p) for p in h["planes"]], lo, hi)
+
+    @staticmethod
+    def _crosses(planes, a, b):
+        t0, t1 = 0.0, 1.0
+        for nx, ny, nz, d in planes:
+            dn = nx * (b[0] - a[0]) + ny * (b[1] - a[1]) + nz * (b[2] - a[2])
+            num = d - (nx * a[0] + ny * a[1] + nz * a[2])
+            if abs(dn) < 1e-9:
+                if num < 0:
+                    return False
+            elif dn < 0:
+                t0 = max(t0, num / dn)
+            else:
+                t1 = min(t1, num / dn)
+            if t0 > t1:
+                return False
+        return True
+
+    def blocked(self, p, q):
+        top = max(p[1], q[1])
+        if math.dist(p, q) < 0.5:
+            return False
+        for rise in self.HEIGHTS:
+            a = [p[0], top + rise, p[2]]
+            b = [q[0], top + rise, q[2]]
+            d = math.dist(a, b)
+            ux, uy, uz = [(b[k] - a[k]) / d for k in range(3)]
+            a = [a[0] + ux * self.TRIM, a[1] + uy * self.TRIM, a[2] + uz * self.TRIM]
+            b = [b[0] - ux * self.TRIM, b[1] - uy * self.TRIM, b[2] - uz * self.TRIM]
+            for gx in range(int(min(a[0], b[0]) // self.CELL), int(max(a[0], b[0]) // self.CELL) + 1):
+                for gz in range(int(min(a[2], b[2]) // self.CELL), int(max(a[2], b[2]) // self.CELL) + 1):
+                    for planes, lo, hi in self.cells.get((gx, gz), ()):
+                        if lo[1] > a[1] or hi[1] < a[1]:
+                            continue
+                        if hi[0] < min(a[0], b[0]) or lo[0] > max(a[0], b[0]) or hi[2] < min(a[2], b[2]) or lo[2] > max(a[2], b[2]):
+                            continue
+                        if self._crosses(planes, a, b):
+                            return True
+        return False
+
+
+def link_solids(doc, extra_boxes=()):
+    """The [LinkSolids] of a finished document: its boxes (and `extra_boxes`), solid props and the hulls its `world_collision` selects."""
+    solids = LinkSolids()
+    for b in list(doc["boxes"]) + list(extra_boxes):
+        if not b.get("barricade"):
+            solids.add_box(b)
+    for rec in doc.get("solid_props", []):
+        solids.add_box({"at": rec[:3], "size": rec[3:6], "yaw": rec[6]})
+    sel = doc.get("world_collision")
+    prefix = os.path.join(HERE, "..", "world", doc.get("world", ""), doc["id"])
+    if sel and os.path.isfile(prefix + ".json"):
+        from dotbsp import audit as daudit, mesh as dmesh
+        _man, world = dmesh.read(prefix)
+        for h in daudit.collision_hulls(world.hulls, sel):
+            solids.add_hull(h)
+    return solids
+
+
+def cut_blocked(doc, extra, fixed):
+    """Cut the links the game's physics world blocks from `doc` (and the nav [param extra] dict, if any), where the ground stays joined without them.
+
+    Returns [cut in doc, cut in extra, kept because they are the only join]. The spec's `extra_links`
+    ([param fixed]) stay: they cross doors on purpose. Like filter_wall_links, a blocked link whose ends no
+    other link joins is kept, so the cut never splits a map."""
+    import nav_emulate
+    xb = extra["boxes"] if extra else []
+    xf = extra["floors"] if extra else []
+    solids = link_solids(doc, xb)
+    lists = [doc["nav"]["links"]] + ([extra["links"]] if extra else [])
+    sizes = json.load(open(os.path.join(HERE, "prop_sizes.json")))["props"]
+    floors = doc["nav"]["floors"] + xf
+    G = nav_emulate.Graph(list(doc["boxes"]) + list(xb), doc.get("props", []), sizes, floors)
+    fixed_ = {tuple(l) for l in fixed}
+
+    def ends(l):
+        return G.nearest(l[0], l[1], l[2], 2.0), G.nearest(l[3], l[4], l[5], 2.0)
+
+    bad = set()
+    for ls in lists:
+        for l in ls:
+            if tuple(l) not in fixed_ and solids.blocked(l[:3], l[3:]):
+                bad.add(id(l))
+            else:
+                i, j = ends(l)
+                if i >= 0 and j >= 0:
+                    G.union(i, j)
+    cut, stuck = [0, 0], 0
+    out = []
+    for n, ls in enumerate(lists):
+        kept = []
+        for l in ls:
+            if id(l) in bad:
+                i, j = ends(l)
+                if i >= 0 and j >= 0 and G.find(i) == G.find(j):
+                    cut[n] += 1
+                    continue
+                if i >= 0 and j >= 0:
+                    G.union(i, j)
+                stuck += 1
+            kept.append(l)
+        out.append(kept)
+    doc["nav"]["links"] = out[0]
+    if extra:
+        extra["links"] = out[1]
+    return cut[0], cut[1], stuck
+
+
+def cut_blocked_links(doc, fixed):
+    """`doc` with the nav links the game's physics world blocks cut out (see [LinkSolids]); run on the finished document, so the boxes are the ones the game builds."""
+    n, _m, stuck = cut_blocked(doc, None, fixed)
+    if n or stuck:
+        print("  physical links: %d cut (the game's world blocks them), %d kept as the only join" % (n, stuck))
+    return doc
+
+
+def cut_links(argv):
+    """`--cut-links[-check] <spec> <doc>...`: cut the blocked links out of committed documents (and their `hulls/<id>.nav.json`) without a re-conversion, which would drag in box and light drift. The -check form writes nothing and returns 1 when a link would be cut."""
+    spec = json.load(open(argv[2])) if os.path.isfile(argv[2]) else {}    # a hand-made map has no spec
+    fixed = spec.get("extra_links", [])
+    check = argv[1].endswith("-check")
+    rc = 0
+    for path in argv[3:]:
+        with open(path) as f:
+            doc = json.load(f)
+        extra_path = os.path.join(os.path.dirname(path), "hulls", doc["id"] + ".nav.json")
+        extra = None
+        if os.path.isfile(extra_path):
+            with open(extra_path) as f:
+                extra = json.load(f)
+        n, m, stuck = cut_blocked(doc, extra, fixed)
+        print("%s: %d links blocked (%d in the nav extra), %d more kept as the only join" % (doc["id"], n + m, m, stuck))
+        if n + m:
+            rc = 1
+            if not check:
+                with open(path, "w") as f:
+                    json.dump(doc, f, indent=1)
+                    f.write("\n")
+                if m:
+                    with open(extra_path, "w") as f:
+                        json.dump(extra, f, separators=(",", ":"))
+                        f.write("\n")
+    return rc if check else 0
+
+
 def link_obstacles(boxes, floors):
     """The solid boxes a link's line must not run through (floors a body stands on are not)."""
     import nav_emulate
@@ -568,7 +761,6 @@ def filter_wall_links(links, boxes, props, sizes, floors, strict=False, fixed=()
     stays (dropping all of them disconnected the ground on four maps). `fixed` are the spec's own links, which count as joins but are never cut."""
     import nav_emulate
     obs = link_obstacles(boxes, floors)
-
     def blocked(l):
         # strict: a body 0.25 m in radius, and a counter 0.4 m high (a window's) is a wall to a mover
         # that cannot jump. Not the default: it cut links the stand-ins on atix and nuke needed
@@ -899,6 +1091,8 @@ def relight(argv):
 def main(argv):
     if len(argv) > 4 and argv[1] in ("--lights-only", "--lights-only-check"):
         return relight(argv)
+    if len(argv) > 3 and argv[1] in ("--cut-links", "--cut-links-check"):
+        return cut_links(argv)
     full = {}
     rc = budgeted(argv, full)
     if not rc and len(argv) >= 3:
@@ -2069,6 +2263,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
             if spec.get("clip_y") and not (hull_all or {}).get("uncropped"):
                 doc["world_collision"]["band"] = list(spec["clip_y"])
             print("  world_collision: %d models from the world pack's hulls" % len(doc["world_collision"]["models"]))
+    doc = cut_blocked_links(doc, spec.get("extra_links", []))
     os.makedirs(out_dir, exist_ok=True)
     path = os.path.join(out_dir, spec["id"] + ".json")
     with open(path, "w") as f:

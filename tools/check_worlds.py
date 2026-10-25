@@ -76,8 +76,8 @@ def check(pack_dir):
             m = json.load(f)
     except (OSError, ValueError) as e:
         return ["%s: does not parse: %s" % (path, e)]
-    if m.get("format") != "dot-bsp-mesh" or m.get("version") != 1:
-        bad.append("%s: not a dot-bsp-mesh v1" % pack)
+    if m.get("format") != "dot-bsp-mesh" or m.get("version") not in (1, 2):
+        bad.append("%s: not a dot-bsp-mesh v1 or v2" % pack)
     for k in SECTIONS:
         if not isinstance(m.get(k), list):
             bad.append("%s: no '%s' list (rebuild with tools/build_worlds.py)" % (pack, k))
