@@ -11,6 +11,9 @@ of `maps/<id>.json`, area-weighted over the map. A map below its spec's `min_cov
 0.80) fails: the count of boxes against brushes says nothing, because one brush is cut into many
 boxes and a dropped arch is still "a lot of boxes".
 
+A map over the wire budget keeps the boxes the budget dropped in maps/hulls/<id>.nav.json (server-only);
+the second line counts those too. tools/coverage_report.py says which stage dropped what is left.
+
 Why it exists: 4-Way Tunnel shipped with 11.7% of its world (a `cut` that took the east half for a
 skybox it is not, and `drop_ramps` taking every slab-cut brush, which is every tunnel wall and arch
 in the map), and every suite passed, because the graph, the route and the gates were all on the
@@ -70,12 +73,14 @@ def _find(src_dirs, name):
     return None
 
 
-def measure(bsp_path, doc, y0):
-    """(covered share, displacement share, drawn m2) of the BSP's world faces."""
+def measure(bsp_path, doc, y0, extra=()):
+    """(covered share, displacement share, drawn m2, share with `extra` boxes too) of the BSP's world faces."""
     bsp = reader.Bsp(bsp_path).load()
     boxes = doc["boxes"]
     g = _grid(boxes)
-    tot = cov = disp = 0.0
+    both = list(boxes) + list(extra)
+    g2 = _grid(both) if extra else g
+    tot = cov = cov2 = disp = 0.0
     m = bsp.models[0]
     for f in bsp.faces[m[10]:m[10] + m[11]]:
         name, flags = bsp.face_material(f)
@@ -98,9 +103,10 @@ def measure(bsp_path, doc, y0):
         hit = sum(_on_box(import_bsp.gpt(q, y0), boxes, g) for q in samples) / len(samples)
         tot += a
         cov += a * hit
+        cov2 += a * (sum(_on_box(import_bsp.gpt(q, y0), both, g2) for q in samples) / len(samples) if extra else hit)
     if not tot:
-        return 0.0, 0.0, 0.0
-    return cov / tot, disp / tot, tot
+        return 0.0, 0.0, 0.0, 0.0
+    return cov / tot, disp / tot, tot, cov2 / tot
 
 
 def main(argv):
@@ -127,12 +133,17 @@ def main(argv):
             print("%-26s skipped (%s not found)" % (spec["id"], spec["source"] if not src else doc_path))
             skipped += 1
             continue
-        share, disp, area = measure(src, json.load(open(doc_path)), float(spec.get("y0", 0.0)))
+        nav_extra = os.path.join(os.path.dirname(doc_path), "hulls", spec["id"] + ".nav.json")
+        extra = json.load(open(nav_extra)).get("boxes", []) if os.path.exists(nav_extra) else []
+        share, disp, area, with_extra = measure(src, json.load(open(doc_path)), float(spec.get("y0", 0.0)), extra)
         need = float(spec.get("min_coverage", DEFAULT_MIN))
         ok = share >= need
         failed += not ok
         print("%-26s %5.1f%% of %6.0f m2 drawn (displacements %4.1f%%), needs %4.1f%%  %s"
               % (spec["id"], 100 * share, area, 100 * disp, 100 * need, "ok" if ok else "FAILED"))
+        if extra:
+            print("%-26s %5.1f%% with the server's nav extra (maps/hulls/%s.nav.json); the rest collides through the world hulls"
+                  % ("", 100 * with_extra, spec["id"]))
     print("completeness: %d map(s) below their threshold, %d skipped" % (failed, skipped))
     return 1 if failed else 0
 

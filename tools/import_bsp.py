@@ -225,6 +225,16 @@ class Brush:
         self.planes, self.pts, self.contents, self.sides = planes, pts, contents, sides
 
 
+DROPS = []    # (stage, box) of every box a stage removed, for tools/coverage_report.py (ZZ_DROP_TRACE=path writes it)
+
+
+def keep_only(boxes, new, stage):
+    """`boxes[:] = new`, noting what the stage removed."""
+    keep = {id(b) for b in new}
+    DROPS.extend((stage, b) for b in boxes if id(b) not in keep)
+    boxes[:] = new
+
+
 def gpt(p, y0):
     """Source (x, y, z) units to game metres."""
     return (p[0] * S, p[2] * S - y0, -p[1] * S)
@@ -909,6 +919,7 @@ def write_hulls(doc, out_dir):
 
 
 def convert(argv, skip=(), keep_small=0, max_boxes=0):
+    DROPS.clear()
     spec = json.load(open(argv[1]))
     for k in skip:
         spec.pop(k, None)
@@ -988,16 +999,16 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
     # and names a gate made of added boxes (`extra_gates`) that opens like a door.
     for c in spec.get("cut", []):
         x0, y0_, z0, x1, y1, z1 = c[:6]
-        boxes[:] = [b for b in boxes if not (x0 <= b["at"][0] <= x1 and y0_ <= b["at"][1] <= y1 and z0 <= b["at"][2] <= z1
-                                             and (len(c) < 7 or b["mat"] == c[6]))]
+        keep_only(boxes, [b for b in boxes if not (x0 <= b["at"][0] <= x1 and y0_ <= b["at"][1] <= y1 and z0 <= b["at"][2] <= z1
+                                                   and (len(c) < 7 or b["mat"] == c[6]))], "cut")
     # `crop` [x0, z0, x1, z1]: a map converted only in part (an escape map whose later stages need a
     # lift or a vanishing floor) keeps the boxes that touch this rectangle, game coordinates. What is
     # beyond is a wall of sky and scenery nobody reaches, and it is most of a big map's box count.
     if spec.get("crop"):
         cx0, cz0, cx1, cz1 = spec["crop"]
         n0 = len(boxes)
-        boxes[:] = [b for b in boxes if b["at"][0] + b["size"][0] / 2 >= cx0 and b["at"][0] - b["size"][0] / 2 <= cx1
-                    and b["at"][2] + b["size"][2] / 2 >= cz0 and b["at"][2] - b["size"][2] / 2 <= cz1]
+        keep_only(boxes, [b for b in boxes if b["at"][0] + b["size"][0] / 2 >= cx0 and b["at"][0] - b["size"][0] / 2 <= cx1
+                          and b["at"][2] + b["size"][2] / 2 >= cz0 and b["at"][2] - b["size"][2] / 2 <= cz1], "crop")
         print("  cropped %d of %d boxes outside the stage" % (n0 - len(boxes), n0))
     # `clip_y` [lo, hi]: a wall or shaft that runs far past the stage (a trench wall a hundred metres
     # tall) is shortened to this band, and one wholly outside is dropped. It is the same wall to a
@@ -1014,7 +1025,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
                 b["at"][1], b["size"][1] = r3((n0 + n1) / 2), r3(n1 - n0)
             kept.append(b)
         print("  clip_y: %d boxes kept of %d" % (len(kept), len(boxes)))
-        boxes[:] = kept
+        keep_only(boxes, kept, "clip_y")
     # `widen_doorways` metres: a doorway narrower than two of the graph's points (a metre apart, 0.35 m
     # kept clear of a wall) has no point in it, so the rooms either side were joined by a link running
     # through the wall. The two wall pieces flanking such a gap are trimmed back to this width, so the
@@ -1048,6 +1059,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
                 out.append(b)
                 continue
             n_src += 1
+            DROPS.append(("unyaw_replaced", b))
             th = max(min(b["size"][0], b["size"][2]), mt_)
             along = 0 if b["size"][0] >= b["size"][2] else 2
             L = b["size"][along]
@@ -1159,7 +1171,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
         if keep_small:
             small.sort(key=lambda b: b["size"][0] * b["size"][1] * b["size"][2])
             small = small[:max(0, len(small) - keep_small)]
-        boxes[:] = [b for b in boxes if b not in small]
+        keep_only(boxes, [b for b in boxes if b not in small], "drop_small")
         print("  dropped %d small boxes" % len(small))
         dropped_any = dropped_any or bool(small)
     if spec.get("max_boxes") and len(boxes) > spec["max_boxes"] and not spec.get("nav_before_cap"):
@@ -1171,7 +1183,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
         gone = set(order[:len(order) - int(spec["max_boxes"])])
         print("  max_boxes: dropped the %d smallest of %d boxes" % (len(gone), len(boxes)))
         dropped_any = dropped_any or bool(gone)
-        boxes[:] = [b for i, b in enumerate(boxes) if i not in gone]
+        keep_only(boxes, [b for i, b in enumerate(boxes) if i not in gone], "max_boxes")
     for ab in spec.get("add_boxes", []):
         boxes.append(dict(ab))
         added_ids.add(id(boxes[-1]))
@@ -1216,7 +1228,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
                 if c is not b and id(c) not in buried and all(f[k] <= e[k] + 0.02 for k in range(3)) and all(f[k + 3] >= e[k + 3] - 0.02 for k in range(3)):
                     buried.add(id(b))
                     break
-        boxes[:] = [b for b in boxes if id(b) not in buried]
+        keep_only(boxes, [b for b in boxes if id(b) not in buried], "drop_buried")
         print("  dropped %d buried box(es)" % len(buried))
     if spec.get("drop_ramps") and spec.get("drop_every_ramp"):
         # Only for a document too big for the wire (the mall): slab-cut brushes rising `drop_ramps`
@@ -1224,7 +1236,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
         # stays: the drawn world shows it, and a ramp with no collision is a floor players fall through.
         gone_ids = {b["_brush"] for b in boxes if b.get("_rise", 0) >= spec["drop_ramps"] and not b["_walkable"]}
         n0 = len(boxes)
-        boxes[:] = [b for b in boxes if b.get("_brush") not in gone_ids]
+        keep_only(boxes, [b for b in boxes if b.get("_brush") not in gone_ids], "drop_ramps")
         print("  dropped %d slab(s) of %d unwalkable slab brush(es) rising %.1f m or more" % (n0 - len(boxes), len(gone_ids), spec["drop_ramps"]))
     for g in spec.get("extra_gates", []):
         gate_cands.append((dict(g), [dict(b) for b in g["boxes"]]))
@@ -1236,7 +1248,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
         # An invisible thin slab is the author's clip over the map, whatever its area (the manor's is six, down to 500 m2).
         lids = [b for b in boxes if b["at"][1] - b["size"][1] / 2 > 3.0 and (b["size"][0] * b["size"][2] > 1500.0
                 or (b.get("visible", True) is False and b["size"][1] < 0.3 and b["size"][0] * b["size"][2] > 300.0))]
-        boxes[:] = [b for b in boxes if b not in lids]
+        keep_only(boxes, [b for b in boxes if b not in lids], "drop_lids")
         print("  dropped %d sky lid(s)" % len(lids))
 
     # Roadblocks across an open street. The choke finder wants narrow places many routes share,
@@ -1315,7 +1327,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
             z0, z1 = b["at"][2] - b["size"][2] / 2 - g, b["at"][2] + b["size"][2] / 2 + g
             return any(x0 < f[2] and x1 > f[0] and z0 < f[3] and z1 > f[1] for f in floors)
         far = [b for b in boxes if b["at"][1] + b["size"][1] / 2 > 3.0 and not beside_ground(b)]
-        boxes[:] = [b for b in boxes if b not in far]
+        keep_only(boxes, [b for b in boxes if b not in far], "drop_decor")
         print("  dropped %d boxes of distant scenery" % len(far))
 
     # `drop_ceilings` [min area, y]: a roof or ceiling slab (thin, wide, no walkable top: a body
@@ -1337,7 +1349,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
             return False
         lids = [b for b in boxes if b["size"][1] <= 1.2 and b["size"][0] * b["size"][2] >= amin and b["at"][1] - b["size"][1] / 2 >= ymin
                 and not b.get("yaw") and not walkable_top(b)]
-        boxes[:] = [b for b in boxes if b not in lids]
+        keep_only(boxes, [b for b in boxes if b not in lids], "drop_ceilings")
         print("  dropped %d ceiling slab(s)" % len(lids))
 
     # Props are cut out of the game's ground, and a metre-spaced graph has no point in a way
@@ -1438,13 +1450,13 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
                         return True
             return False
         idle = [b for b in boxes if id(b) in tread_ids and not walked(b)]
-        boxes[:] = [b for b in boxes if not any(b is c for c in idle)]
+        keep_only(boxes, [b for b in boxes if not any(b is c for c in idle)], "idle_treads")
         tread_ids.difference_update(id(b) for b in idle)
         print("  keep_treads: %d stair boxes the flood stands on kept, %d idle ones dropped" % (len(tread_ids), len(idle)))
         if spec.get("max_boxes") and len(boxes) > spec["max_boxes"] and not spec.get("nav_before_cap"):
             order = sorted((i for i in range(len(boxes)) if id(boxes[i]) not in tread_ids), key=lambda i: boxes[i]["size"][0] * boxes[i]["size"][1] * boxes[i]["size"][2])
             gone = set(order[:len(boxes) - int(spec["max_boxes"])])
-            boxes[:] = [b for i, b in enumerate(boxes) if i not in gone]
+            keep_only(boxes, [b for i, b in enumerate(boxes) if i not in gone], "max_boxes")
             print("  max_boxes: %d more smallest dropped after the stairs were pruned" % len(gone))
             dropped_any = dropped_any or bool(gone)
     print("  ground: %d cells walked without props, %d with; %d of %d props kept" % (len({(a, b) for a, b, _ in seen}) + len(lost), len({(a, b) for a, b, _ in seen}), len(keep), len(cand)))
@@ -1899,7 +1911,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
         # The cap is the wire's, not the horde's: the flood, route and graph above saw every box, as the server's does (nav.json).
         order = sorted((i for i in range(len(boxes)) if id(boxes[i]) not in tread_ids | added_ids), key=lambda i: boxes[i]["size"][0] * boxes[i]["size"][1] * boxes[i]["size"][2])
         gone = set(order[:len(boxes) - int(spec["max_boxes"])])
-        boxes[:] = [b for i, b in enumerate(boxes) if i not in gone]
+        keep_only(boxes, [b for i, b in enumerate(boxes) if i not in gone], "max_boxes_cap")
         dropped_any = True
         print("  max_boxes (nav_before_cap): dropped the %d smallest after the graph was built" % len(gone))
     if spec.get("split_over"):
@@ -1981,6 +1993,9 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
         json.dump(doc, f, indent=1)
         f.write("\n")
     write_hulls(doc, out_dir)
+    if os.environ.get("ZZ_DROP_TRACE"):
+        with open(os.environ["ZZ_DROP_TRACE"], "w") as f:
+            json.dump([[st, {k: v for k, v in b.items() if k in ("at", "size", "yaw", "mat", "kind", "visible", "_rise", "_walkable")}] for st, b in DROPS], f, separators=(",", ":"))
     print("%s: %d boxes (%d barricade), %d props, %d lights, %d spawns, %d zombie spawns, %d floors, %d items, %d caches, %d posts" % (
         path, len(doc["boxes"]), len(bar_boxes), len(props), len(lights), len(spawns), len(zsp), len(floors), len(items), len(caches), len(posts)))
     print("  route %d points, %d objectives, %d gate boxes, %d cells reachable, end %s" % (len(route), len(objectives), len(gate_boxes), len(seen), end_area[0]["min"] if end_area else None))
