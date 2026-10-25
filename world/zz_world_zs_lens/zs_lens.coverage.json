@@ -5,13 +5,19 @@
  "sha256": "3b471a31e42c1f1211591a0ffa954f2a2befcadc0489db2ea339cc93de8c5172",
  "textures": {
   "looked_up": 50,
+  "drawn": 49,
   "by_tier": {
-   "default": 50
+   "addon": 42,
+   "default": 8
   },
   "free_by_tier": {
-   "default": 19
+   "addon": 41,
+   "default": 7,
+   "nearest": 1
   },
-  "nearest_photo": []
+  "nearest_photo": [
+   "nature/blendsandsand008b"
+  ]
  },
  "models": {
   "looked_up": 122,

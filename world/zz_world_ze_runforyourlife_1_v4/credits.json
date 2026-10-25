@@ -1,0 +1,559 @@
+{
+ "map": {
+  "author": "flabes2",
+  "page": "https://gamebanana.com/mods/130964",
+  "licence": "CC BY-NC-ND 4.0"
+ },
+ "works": [
+  {
+   "kind": "texture",
+   "name": "pbr_slate_floor_03",
+   "author": "Dimitrios Savva",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/slate_floor_03",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 36
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_climbing_wall_02",
+   "author": "Dimitrios Savva",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/climbing_wall_02",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 16
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_peeling_painted_wall",
+   "author": "Dimitrios Savva",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/peeling_painted_wall",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 3
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_exterior_wall_cladding_03",
+   "author": "Charlotte Baglioni",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/exterior_wall_cladding_03",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 3
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Planks026A",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Planks026A",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Planks002",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Planks002",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 3
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_grey_plaster_03",
+   "author": "Rob Tuytel",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/grey_plaster_03",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_MetalWalkway011",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=MetalWalkway011",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Planks037B",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Planks037B",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_MetalWalkway014",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=MetalWalkway014",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Metal039",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Metal039",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Metal047B",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Metal047B",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 8
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_WoodSiding001",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=WoodSiding001",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 3
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_wooden_barrel",
+   "author": "Dimitrios Savva",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/wooden_barrel",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 4
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_worn_corrugated_iron",
+   "author": "Jenelle van Heerden, Dimitrios Savva",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/worn_corrugated_iron",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Planks013",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Planks013",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Grate001",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Grate001",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/kenney_car-kit_garbage-truck",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/car-kit",
+   "source": "Kenney Car Kit",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/kenney_furniture-kit_cabinetTelevisionDoors",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/furniture-kit",
+   "source": "Kenney Furniture Kit",
+   "attribution": false,
+   "uses": 3
+  },
+  {
+   "kind": "model",
+   "name": "lib/kenney_nature-kit_cliff_diagonal_rock",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/nature-kit",
+   "source": "Kenney Nature Kit",
+   "attribution": false,
+   "uses": 29
+  },
+  {
+   "kind": "model",
+   "name": "lib/kenney_pirate-kit_crate-bottles",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/pirate-kit",
+   "source": "Kenney Pirate Kit",
+   "attribution": false,
+   "uses": 163
+  },
+  {
+   "kind": "model",
+   "name": "lib/kenney_survival-kit_rock-flat-grass",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/survival-kit",
+   "source": "Kenney Survival Kit",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/own_box_120x10x20_e8e8e0",
+   "author": "TMC (generated for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map",
+   "source": "TMC generated model",
+   "attribution": false,
+   "uses": 19
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_Television_01",
+   "author": "Gabriel Radi\u0107",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/Television_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_WoodenTable_01",
+   "author": "Ethan Place",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/WoodenTable_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_boulder_01",
+   "author": "Rico Cilliers",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/boulder_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 9
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_cardboard_box_01",
+   "author": "Rahul Chaudhary",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/cardboard_box_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_covered_car",
+   "author": "MP",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/covered_car",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 5
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_drawer_cabinet",
+   "author": "Ulan Cabanilla",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/drawer_cabinet",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_korean_fire_extinguisher_01",
+   "author": "UM JOORIN",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/korean_fire_extinguisher_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_modular_airduct_circular_01",
+   "author": "Riley Queen",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/modular_airduct_circular_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 5
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_modular_chainlink_fence",
+   "author": "James Ray Cock, Amal Kumar",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/modular_chainlink_fence",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_namaqualand_boulder_04",
+   "author": "Jenelle van Heerden",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/namaqualand_boulder_04",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 6
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_namaqualand_boulder_05",
+   "author": "Jenelle van Heerden, Dario Barresi",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/namaqualand_boulder_05",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_outdoor_table_chair_set_01",
+   "author": "James Ray Cock",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/outdoor_table_chair_set_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_potted_plant_02",
+   "author": "Rico Cilliers",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/potted_plant_02",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_propane_tank",
+   "author": "Slinc",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/propane_tank",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_rock_moss_set_01",
+   "author": "Kless Gyzen",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/rock_moss_set_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_rubber_duck_toy",
+   "author": "Plat251",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/rubber_duck_toy",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_sofa_02",
+   "author": "Kirill Sannikov",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/sofa_02",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_wooden_bookshelf_worn",
+   "author": "Ulan Cabanilla",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/wooden_bookshelf_worn",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 21
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_wooden_picnic_table",
+   "author": "Ulan Cabanilla",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/wooden_picnic_table",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_wooden_table_02",
+   "author": "Serhii Khromov",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/wooden_table_02",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 8
+  },
+  {
+   "kind": "model",
+   "name": "lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623",
+   "author": "Libau Media",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-1986239266ee44c788fd6effe4055704",
+   "source": "Sketchfab",
+   "attribution": true,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/sf_dumpster_cyberpunk_game_assets_b0d030",
+   "author": "EXHALE",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-b0d0304c927b450d904163fa43978519",
+   "source": "Sketchfab",
+   "attribution": true,
+   "uses": 3
+  },
+  {
+   "kind": "model",
+   "name": "lib/sf_low_poly_cargo_container_27a114",
+   "author": "yxungsauce2",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-27a114c8a5a7476fb28c54a0177ee6c7",
+   "source": "Sketchfab",
+   "attribution": true,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/sf_low_poly_dumpster_093e5b",
+   "author": "Colin.Greenall",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-093e5b05faa947729b1be24c013e563b",
+   "source": "Sketchfab",
+   "attribution": true,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/sf_oil_drum_61b602",
+   "author": "kubassa",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-61b602b7e959408f9c6c5bf6392bc4b7",
+   "source": "Sketchfab",
+   "attribution": true,
+   "uses": 17
+  },
+  {
+   "kind": "model",
+   "name": "lib/sf_pine_tree_d45218",
+   "author": "evolveduk",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-d45218a3fab349e5b1de040f29e7b6f9",
+   "source": "Sketchfab",
+   "attribution": true,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/sf_psx_shopping_cart_96534b",
+   "author": "Brainsick Games",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-96534b56f0d9487db08f00f1f9301fa1",
+   "source": "Sketchfab",
+   "attribution": true,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/sf_red_japanese_vending_machine_a8a687",
+   "author": "Watanuki_San",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-a8a6874f62da478f8572554959d3c62e",
+   "source": "Sketchfab",
+   "attribution": true,
+   "uses": 3
+  },
+  {
+   "kind": "model",
+   "name": "lib/sf_sandbag_barrier_ready_for_unreal_engine_593800",
+   "author": "G4AGamingLabs",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-593800671c8e45eca93b8b7c765c0f77",
+   "source": "Sketchfab",
+   "attribution": true,
+   "uses": 20
+  },
+  {
+   "kind": "model",
+   "name": "lib/sf_washing_machine_a27aa9",
+   "author": "Zlat",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-a27aa928a6664473a0ebfbe2c7f72b23",
+   "source": "Sketchfab",
+   "attribution": true,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/sf_wooden_table_0dc1c7",
+   "author": "FlukierJupiter",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-0dc1c7d6cbab4d74bef7c4f82abf2caf",
+   "source": "Sketchfab",
+   "attribution": true,
+   "uses": 6
+  },
+  {
+   "kind": "sound",
+   "name": "explosion",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/sci-fi-sounds",
+   "source": "Kenney Sci-Fi Sounds",
+   "attribution": false,
+   "uses": 1
+  }
+ ]
+}

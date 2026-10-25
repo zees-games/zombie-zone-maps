@@ -5,16 +5,19 @@
  "sha256": "48d2a8ba912701bd39e73a6aba7d7d6f0077263dd350cfeb619176b43fd1d631",
  "textures": {
   "looked_up": 76,
+  "drawn": 78,
   "by_tier": {
-   "default": 75,
-   "fallback": 1
+   "addon": 64,
+   "default": 12
   },
   "free_by_tier": {
-   "default": 15,
-   "fallback": 1
+   "addon": 63,
+   "default": 12,
+   "nearest": 3
   },
   "nearest_photo": [
-   "spongebob/credit"
+   "nature/blendrocksand008d",
+   "spongebob/grass_sand_blend"
   ]
  },
  "models": {
@@ -70,9 +73,7 @@
   "unresolved": 0
  },
  "lists": {
-  "textures_unmapped": [
-   "SPONGEBOB/CREDIT"
-  ],
+  "textures_unmapped": [],
   "textures_flat": [],
   "models_unmapped": [],
   "sounds_unmapped": [],
@@ -92,7 +93,7 @@
   "links_unresolved": []
  },
  "counts": {
-  "textures_unmapped": 1,
+  "textures_unmapped": 0,
   "textures_flat": 0,
   "models_unmapped": 0,
   "sounds_unmapped": 0,

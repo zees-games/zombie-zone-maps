@@ -5,34 +5,23 @@
  "sha256": "3eb4fc1d36a72c37b9366710273119b3b49f419821a4023078b6e67b2f723944",
  "textures": {
   "looked_up": 399,
+  "drawn": 398,
   "by_tier": {
-   "default": 379,
-   "fallback": 20
+   "addon": 362,
+   "default": 35,
+   "fallback": 2
   },
   "free_by_tier": {
-   "default": 28,
-   "fallback": 12
+   "addon": 361,
+   "default": 33,
+   "nearest": 4
   },
   "nearest_photo": [
-   "aeris/aerisss",
    "bigrug7",
-   "cs_havana/picta",
-   "cs_havana/pictb",
-   "cs_havana/pictc",
-   "cs_havana/trmg",
-   "cs_havana/watline01",
-   "cs_italy/cugena",
-   "cs_italy/cutrme",
-   "cs_italy/framed01sn",
-   "cs_italy/framed02sn",
-   "cs_italy/framed03sn",
-   "cs_italy/framed04sn",
-   "cs_italy/framed05sn",
-   "only_se/9",
-   "only_se/logo3b",
-   "only_se/logo4b",
-   "only_se/ordinateur1b",
-   "raccon/open_access_plos",
+   "nature/blendmilground008_2",
+   "nature/blendmilground008_2_plants",
+   "nature/blendmilground008_4",
+   "nature/blendmilground008_8b",
    "wall7flor"
   ]
  },
@@ -71,25 +60,7 @@
  "lists": {
   "textures_unmapped": [
    "/BIGRUG7",
-   "/WALL7FLOR",
-   "AERIS/AERISSS",
-   "CS_HAVANA/PICTA",
-   "CS_HAVANA/PICTB",
-   "CS_HAVANA/PICTC",
-   "CS_HAVANA/TRMG",
-   "CS_HAVANA/WATLINE01",
-   "CS_ITALY/CUGENA",
-   "CS_ITALY/CUTRME",
-   "CS_ITALY/FRAMED01SN",
-   "CS_ITALY/FRAMED02SN",
-   "CS_ITALY/FRAMED03SN",
-   "CS_ITALY/FRAMED04SN",
-   "CS_ITALY/FRAMED05SN",
-   "ONLY_SE/9",
-   "ONLY_SE/LOGO3B",
-   "ONLY_SE/LOGO4B",
-   "ONLY_SE/ORDINATEUR1B",
-   "RACCON/OPEN_ACCESS_PLOS"
+   "/WALL7FLOR"
   ],
   "textures_flat": [],
   "models_unmapped": [],
@@ -104,7 +75,7 @@
   "links_unresolved": []
  },
  "counts": {
-  "textures_unmapped": 20,
+  "textures_unmapped": 2,
   "textures_flat": 0,
   "models_unmapped": 0,
   "sounds_unmapped": 2,

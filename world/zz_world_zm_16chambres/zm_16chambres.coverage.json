@@ -5,12 +5,14 @@
  "sha256": "f33ef28db4c4c12f23bedc99f9dda9723bb4bd7ae43e124411ebf2e79e8455ad",
  "textures": {
   "looked_up": 44,
+  "drawn": 43,
   "by_tier": {
-   "default": 36,
-   "fallback": 8
+   "addon": 40,
+   "default": 4
   },
   "free_by_tier": {
-   "default": 12
+   "addon": 40,
+   "default": 3
   },
   "nearest_photo": []
  },
@@ -46,26 +48,8 @@
   "unresolved": 0
  },
  "lists": {
-  "textures_unmapped": [
-   "ZGMRVN/CYANZIGOMARVIN",
-   "ZGMRVN/JAUNEZIGOMARVIN",
-   "ZGMRVN/MAGENTAZIGOMARVIN",
-   "ZGMRVN/ORANGEZIGOMARVIN",
-   "ZGMRVN/ROUGEZIGOMARVIN",
-   "ZGMRVN/TELEPORT1ZIGOMARVIN",
-   "ZGMRVN/VERTZIGOMARVIN",
-   "ZGMRVN/VIOLETZIGOMARVIN"
-  ],
-  "textures_flat": [
-   "zgmrvn/cyanzigomarvin",
-   "zgmrvn/jaunezigomarvin",
-   "zgmrvn/magentazigomarvin",
-   "zgmrvn/orangezigomarvin",
-   "zgmrvn/rougezigomarvin",
-   "zgmrvn/teleport1zigomarvin",
-   "zgmrvn/vertzigomarvin",
-   "zgmrvn/violetzigomarvin"
-  ],
+  "textures_unmapped": [],
+  "textures_flat": [],
   "models_unmapped": [],
   "sounds_unmapped": [],
   "classes_unmapped": [],
@@ -75,8 +59,8 @@
   "links_unresolved": []
  },
  "counts": {
-  "textures_unmapped": 8,
-  "textures_flat": 8,
+  "textures_unmapped": 0,
+  "textures_flat": 0,
   "models_unmapped": 0,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,

@@ -76,13 +76,14 @@ Every texture of this map is a free replacement; the original map's textures and
 
 # Model stand-ins
 
-- bookcase: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- cabinet: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- ceiling_light: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- crate: Kenney Survival Kit, Kenney, CC0-1.0, https://kenney.nl/assets/survival-kit
-- crate_large: Kenney Survival Kit, Kenney, CC0-1.0, https://kenney.nl/assets/survival-kit
-- fridge: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- sofa: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
+- lib/kenney_furniture-kit_cardboardBoxClosed: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
+- lib/kenney_pirate-kit_crate-bottles: Kenney Pirate Kit, Kenney, CC0-1.0, https://kenney.nl/assets/pirate-kit
+- lib/ph_Shelf_01: Poly Haven, Gabriel Radić, CC0-1.0, https://polyhaven.com/a/Shelf_01
+- lib/ph_industrial_pipe_lamp: Poly Haven, Mateusz Sadek, CC0-1.0, https://polyhaven.com/a/industrial_pipe_lamp
+- lib/ph_sofa_02: Poly Haven, Kirill Sannikov, CC0-1.0, https://polyhaven.com/a/sofa_02
+- lib/ph_steel_frame_shelves_03: Poly Haven, Ulan Cabanilla, CC0-1.0, https://polyhaven.com/a/steel_frame_shelves_03
+- lib/sf_low_poly_cargo_container_27a114: Sketchfab, yxungsauce2, CC-BY-4.0, https://sketchfab.com/3d-models/none-27a114c8a5a7476fb28c54a0177ee6c7
+- lib/sf_red_japanese_vending_machine_a8a687: Sketchfab, Watanuki_San, CC-BY-4.0, https://sketchfab.com/3d-models/none-a8a6874f62da478f8572554959d3c62e
 
 # Sound stand-ins
 

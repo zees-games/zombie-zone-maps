@@ -5,17 +5,20 @@
  "sha256": "c7b76e402189fd459b68a7977726465979ac8770e0c27714cb5996e0453f3734",
  "textures": {
   "looked_up": 91,
+  "drawn": 91,
   "by_tier": {
-   "default": 89,
-   "fallback": 2
+   "addon": 82,
+   "default": 8,
+   "fallback": 1
   },
   "free_by_tier": {
-   "default": 21,
-   "fallback": 2
+   "addon": 81,
+   "default": 8,
+   "nearest": 2
   },
   "nearest_photo": [
-   "forrest_fog",
-   "models/props/cs_office/offcorkboarda"
+   "nature/blendmilground004_2",
+   "nature/blendmudmud001a"
   ]
  },
  "models": {
@@ -46,8 +49,7 @@
  },
  "lists": {
   "textures_unmapped": [
-   "/FORREST_FOG",
-   "MODELS/PROPS/CS_OFFICE/OFFCORKBOARDA"
+   "/FORREST_FOG"
   ],
   "textures_flat": [],
   "models_unmapped": [
@@ -61,7 +63,7 @@
   ]
  },
  "counts": {
-  "textures_unmapped": 2,
+  "textures_unmapped": 1,
   "textures_flat": 0,
   "models_unmapped": 1,
   "sounds_unmapped": 0,

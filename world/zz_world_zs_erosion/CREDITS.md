@@ -100,42 +100,101 @@ Every texture of this map is a free replacement; the original map's textures and
 
 # Model stand-ins
 
-- barrel: Kenney Survival Kit, Kenney, CC0-1.0, https://kenney.nl/assets/survival-kit
-- bed: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- bench: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- bin: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- bookcase: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- bucket: Kenney Survival Kit, Kenney, CC0-1.0, https://kenney.nl/assets/survival-kit
-- cabinet: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- ceiling_light: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- chair: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- crate: Kenney Survival Kit, Kenney, CC0-1.0, https://kenney.nl/assets/survival-kit
-- crate_large: Kenney Survival Kit, Kenney, CC0-1.0, https://kenney.nl/assets/survival-kit
-- desk: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- factory/door: Kenney Factory Kit, Kenney, CC0-1.0, https://kenney.nl/assets/factory-kit
-- factory/pipe: Kenney Factory Kit, Kenney, CC0-1.0, https://kenney.nl/assets/factory-kit
-- factory/window: Kenney Factory Kit, Kenney, CC0-1.0, https://kenney.nl/assets/factory-kit
-- fence: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
-- fridge: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- graveyard/lamppost: Kenney Graveyard Kit, Kenney, CC0-1.0, https://kenney.nl/assets/graveyard-kit
-- lamp: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- log: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
-- monitor: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- office_chair: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- pirate/bottle: Kenney Pirate Kit, Kenney, CC0-1.0, https://kenney.nl/assets/pirate-kit
-- prototype/ladder: Kenney Prototype Kit, Kenney, CC0-1.0, https://kenney.nl/assets/prototype-kit
+- lib/kenney_building-kit_barricade-window-c: Kenney Building Kit, Kenney, CC0-1.0, https://kenney.nl/assets/building-kit
+- lib/kenney_building-kit_detail-pipe: Kenney Building Kit, Kenney, CC0-1.0, https://kenney.nl/assets/building-kit
+- lib/kenney_building-kit_door-rotate-square-a: Kenney Building Kit, Kenney, CC0-1.0, https://kenney.nl/assets/building-kit
+- lib/kenney_building-kit_door-rotate-square-c: Kenney Building Kit, Kenney, CC0-1.0, https://kenney.nl/assets/building-kit
+- lib/kenney_car-kit_cone: Kenney Car Kit, Kenney, CC0-1.0, https://kenney.nl/assets/car-kit
+- lib/kenney_car-kit_garbage-truck: Kenney Car Kit, Kenney, CC0-1.0, https://kenney.nl/assets/car-kit
+- lib/kenney_factory-kit_door: Kenney Factory Kit, Kenney, CC0-1.0, https://kenney.nl/assets/factory-kit
+- lib/kenney_food-kit_can: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
+- lib/kenney_food-kit_egg-cup: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
+- lib/kenney_food-kit_mug: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
+- lib/kenney_food-kit_soda-bottle: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
+- lib/kenney_food-kit_soda-can: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
+- lib/kenney_furniture-kit_cabinetTelevisionDoors: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
+- lib/kenney_furniture-kit_trashcan: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
+- lib/kenney_mini-market_fence-door-rotate: Kenney Mini Market, Kenney, CC0-1.0, https://kenney.nl/assets/mini-market
+- lib/kenney_nature-kit_cliff_cornerLarge_rock: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
+- lib/kenney_nature-kit_cliff_diagonal_rock: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
+- lib/kenney_nature-kit_cliff_topDiagonal_rock: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
+- lib/kenney_nature-kit_rock_smallB: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
+- lib/kenney_pirate-kit_crate-bottles: Kenney Pirate Kit, Kenney, CC0-1.0, https://kenney.nl/assets/pirate-kit
+- lib/kenney_pirate-kit_structure-fence: Kenney Pirate Kit, Kenney, CC0-1.0, https://kenney.nl/assets/pirate-kit
+- lib/kenney_pirate-kit_structure-fence-sides: Kenney Pirate Kit, Kenney, CC0-1.0, https://kenney.nl/assets/pirate-kit
+- lib/kenney_retro-urban-kit_detail-dumpster-closed: Kenney Retro Urban Kit, Kenney, CC0-1.0, https://kenney.nl/assets/retro-urban-kit
+- lib/kenney_retro-urban-kit_pallet: Kenney Retro Urban Kit, Kenney, CC0-1.0, https://kenney.nl/assets/retro-urban-kit
+- lib/kenney_retro-urban-kit_truck-grey: Kenney Retro Urban Kit, Kenney, CC0-1.0, https://kenney.nl/assets/retro-urban-kit
+- lib/own_box_11x15x119_e8e8e0: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
+- lib/own_box_120x10x20_e8e8e0: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
+- lib/ph_Sofa_01: Poly Haven, Kirill Sannikov, CC0-1.0, https://polyhaven.com/a/Sofa_01
+- lib/ph_WetFloorSign_01: Poly Haven, Fran Calvente, CC0-1.0, https://polyhaven.com/a/WetFloorSign_01
+- lib/ph_WoodenTable_01: Poly Haven, Ethan Place, CC0-1.0, https://polyhaven.com/a/WoodenTable_01
+- lib/ph_bar_chair_round_01: Poly Haven, Dairon Sanchez, CC0-1.0, https://polyhaven.com/a/bar_chair_round_01
+- lib/ph_bolt_action_rifle_7_62: Poly Haven, Mateusz Sadek, CC0-1.0, https://polyhaven.com/a/bolt_action_rifle_7_62
+- lib/ph_brass_vase_02: Poly Haven, Rico Cilliers, CC0-1.0, https://polyhaven.com/a/brass_vase_02
+- lib/ph_caged_hanging_light: Poly Haven, Ulan Cabanilla, CC0-1.0, https://polyhaven.com/a/caged_hanging_light
+- lib/ph_can_rusted: Poly Haven, Rahul Chaudhary, CC0-1.0, https://polyhaven.com/a/can_rusted
+- lib/ph_cardboard_box_01: Poly Haven, Rahul Chaudhary, CC0-1.0, https://polyhaven.com/a/cardboard_box_01
+- lib/ph_clipboard: Poly Haven, ProgrammerOnCoffee, CC0-1.0, https://polyhaven.com/a/clipboard
+- lib/ph_covered_car: Poly Haven, MP, CC0-1.0, https://polyhaven.com/a/covered_car
+- lib/ph_electric_stove: Poly Haven, Kuutti Siitonen, CC0-1.0, https://polyhaven.com/a/electric_stove
+- lib/ph_gallinera_chair: Poly Haven, Ulan Cabanilla, CC0-1.0, https://polyhaven.com/a/gallinera_chair
+- lib/ph_gallinera_table: Poly Haven, Ulan Cabanilla, CC0-1.0, https://polyhaven.com/a/gallinera_table
+- lib/ph_hanging_picture_frame_02: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/hanging_picture_frame_02
+- lib/ph_industrial_pipe_lamp: Poly Haven, Mateusz Sadek, CC0-1.0, https://polyhaven.com/a/industrial_pipe_lamp
+- lib/ph_korean_fire_extinguisher_01: Poly Haven, UM JOORIN, CC0-1.0, https://polyhaven.com/a/korean_fire_extinguisher_01
+- lib/ph_ladder_sectioned_01: Poly Haven, MP, CC0-1.0, https://polyhaven.com/a/ladder_sectioned_01
+- lib/ph_lantern_chandelier_01: Poly Haven, Kirill Sannikov, CC0-1.0, https://polyhaven.com/a/lantern_chandelier_01
+- lib/ph_leather_cleaner_can: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/leather_cleaner_can
+- lib/ph_metal_jerrycan: Poly Haven, Sean Buckley, CC0-1.0, https://polyhaven.com/a/metal_jerrycan
+- lib/ph_metal_stool_03: Poly Haven, Flo Tasser, CC0-1.0, https://polyhaven.com/a/metal_stool_03
+- lib/ph_modular_airduct_circular_01: Poly Haven, Riley Queen, CC0-1.0, https://polyhaven.com/a/modular_airduct_circular_01
+- lib/ph_modular_chainlink_fence: Poly Haven, James Ray Cock, Amal Kumar, CC0-1.0, https://polyhaven.com/a/modular_chainlink_fence
+- lib/ph_namaqualand_boulder_04: Poly Haven, Jenelle van Heerden, CC0-1.0, https://polyhaven.com/a/namaqualand_boulder_04
+- lib/ph_ocean_buoy: Poly Haven, Mateusz Sadek, CC0-1.0, https://polyhaven.com/a/ocean_buoy
+- lib/ph_old_bed_frame: Poly Haven, Luca B, CC0-1.0, https://polyhaven.com/a/old_bed_frame
+- lib/ph_old_drill_press: Poly Haven, Harsh Vardhan Singh, CC0-1.0, https://polyhaven.com/a/old_drill_press
+- lib/ph_old_tyre: Poly Haven, MP, CC0-1.0, https://polyhaven.com/a/old_tyre
+- lib/ph_outdoor_table_chair_set_01: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/outdoor_table_chair_set_01
+- lib/ph_painted_wooden_cabinet: Poly Haven, Kirill Sannikov, CC0-1.0, https://polyhaven.com/a/painted_wooden_cabinet
+- lib/ph_planter_box_03: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/planter_box_03
+- lib/ph_plastic_crate_01: Poly Haven, PierreB3D, CC0-1.0, https://polyhaven.com/a/plastic_crate_01
+- lib/ph_plastic_crate_02: Poly Haven, Fabi_G, CC0-1.0, https://polyhaven.com/a/plastic_crate_02
+- lib/ph_propane_tank: Poly Haven, Slinc, CC0-1.0, https://polyhaven.com/a/propane_tank
+- lib/ph_rollershutter_window_02: Poly Haven, MP, CC0-1.0, https://polyhaven.com/a/rollershutter_window_02
+- lib/ph_rubber_duck_toy: Poly Haven, Plat251, CC0-1.0, https://polyhaven.com/a/rubber_duck_toy
+- lib/ph_sofa_02: Poly Haven, Kirill Sannikov, CC0-1.0, https://polyhaven.com/a/sofa_02
+- lib/ph_street_lamp_01: Poly Haven, Josh Dean, CC0-1.0, https://polyhaven.com/a/street_lamp_01
+- lib/ph_sungka_board_02: Poly Haven, Ulan Cabanilla, CC0-1.0, https://polyhaven.com/a/sungka_board_02
+- lib/ph_television_02: Poly Haven, Benny Weimer, CC0-1.0, https://polyhaven.com/a/television_02
+- lib/ph_trashbag: Poly Haven, Benny Weimer, CC0-1.0, https://polyhaven.com/a/trashbag
+- lib/ph_utility_box_01: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/utility_box_01
+- lib/ph_vintage_oil_lamp: Poly Haven, Monsta3D, CC0-1.0, https://polyhaven.com/a/vintage_oil_lamp
+- lib/ph_wooden_crate_01: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/wooden_crate_01
+- lib/ph_wooden_display_shelves_01: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/wooden_display_shelves_01
+- lib/ph_wooden_table_02: Poly Haven, Serhii Khromov, CC0-1.0, https://polyhaven.com/a/wooden_table_02
+- lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623: Sketchfab, Libau Media, CC-BY-4.0, https://sketchfab.com/3d-models/none-1986239266ee44c788fd6effe4055704
+- lib/sf_classic_park_bench_low_poly_01a5b6: Sketchfab, Berk Gedik, CC-BY-4.0, https://sketchfab.com/3d-models/none-01a5b64427984632bb44242da3813bb1
+- lib/sf_door_wood_afed97: Sketchfab, DiggenDigga, CC-BY-4.0, https://sketchfab.com/3d-models/none-afed9756ba974d1395a336124ff326fd
+- lib/sf_dumpster_cyberpunk_game_assets_b0d030: Sketchfab, EXHALE, CC-BY-4.0, https://sketchfab.com/3d-models/none-b0d0304c927b450d904163fa43978519
+- lib/sf_fallout_4_nuka_cola_bottle_17cd00: Sketchfab, Aike, CC-BY-4.0, https://sketchfab.com/3d-models/none-17cd007c38824321b184c763b1eec4e2
+- lib/sf_file_cabinet_f07427: Sketchfab, Siberia, CC-BY-4.0, https://sketchfab.com/3d-models/none-f0742791a0ea432db1f432c24de83867
+- lib/sf_game_ready_asset_wood_pallet_c3fd98: Sketchfab, poala, CC-BY-4.0, https://sketchfab.com/3d-models/none-c3fd982e932b4ac6951c58200d08f913
+- lib/sf_kitchen_sink_504248: Sketchfab, HippoStance, CC-BY-4.0, https://sketchfab.com/3d-models/none-504248ed68e3480a807aced6f002b2d5
+- lib/sf_leaf_tree_ps1_low_poly_d799c0: Sketchfab, Wersaus33, CC-BY-4.0, https://sketchfab.com/3d-models/none-d799c08100974e1ba352fcd646cb0694
+- lib/sf_light_ceiling_lamp_15mb_eaaab0: Sketchfab, Mehdi Shahsavan, CC-BY-4.0, https://sketchfab.com/3d-models/none-eaaab08eac454e59840fa4818fc55ff3
+- lib/sf_low_poly_cargo_container_27a114: Sketchfab, yxungsauce2, CC-BY-4.0, https://sketchfab.com/3d-models/none-27a114c8a5a7476fb28c54a0177ee6c7
+- lib/sf_office_chair_af2f07: Sketchfab, AK STUDIO, CC-BY-4.0, https://sketchfab.com/3d-models/none-af2f07d06f6349158c1d24d87f5ceb95
+- lib/sf_oil_drum_61b602: Sketchfab, kubassa, CC-BY-4.0, https://sketchfab.com/3d-models/none-61b602b7e959408f9c6c5bf6392bc4b7
+- lib/sf_old_fridge_6b2862: Sketchfab, sergeilihandristov, CC-BY-4.0, https://sketchfab.com/3d-models/none-6b2862c241754f5d81690e8664e41091
+- lib/sf_pine_tree_d45218: Sketchfab, evolveduk, CC-BY-4.0, https://sketchfab.com/3d-models/none-d45218a3fab349e5b1de040f29e7b6f9
+- lib/sf_pine_tree_ps1_low_poly_d71cee: Sketchfab, Wersaus33, CC-BY-4.0, https://sketchfab.com/3d-models/none-d71ceeb303644e649d09fe8038aa5e47
+- lib/sf_psx_fire_extinguisher_e786b7: Sketchfab, Brainsick Games, CC-BY-4.0, https://sketchfab.com/3d-models/none-e786b75a860c45c69590403504956a9a
+- lib/sf_psx_shopping_cart_96534b: Sketchfab, Brainsick Games, CC-BY-4.0, https://sketchfab.com/3d-models/none-96534b56f0d9487db08f00f1f9301fa1
+- lib/sf_rifle_box_low_poly_aaa6d5: Sketchfab, Berk Gedik, CC-BY-4.0, https://sketchfab.com/3d-models/none-aaa6d521741944359a6b5a6b67a0bee7
+- lib/sf_toilet_132a8e: Sketchfab, HippoStance, CC-BY-4.0, https://sketchfab.com/3d-models/none-132a8ee2af3a40d39d270fbed3d3666c
 - rock: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
-- signpost: Kenney Survival Kit, Kenney, CC0-1.0, https://kenney.nl/assets/survival-kit
-- sofa: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- table: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- toilet: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- tree: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
-- tv: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- vehicles/cone: Kenney Car Kit, Kenney, CC0-1.0, https://kenney.nl/assets/car-kit
-- vehicles/sedan: Kenney Car Kit, Kenney, CC0-1.0, https://kenney.nl/assets/car-kit
-- vehicles/truck: Kenney Car Kit, Kenney, CC0-1.0, https://kenney.nl/assets/car-kit
-- vehicles/van: Kenney Car Kit, Kenney, CC0-1.0, https://kenney.nl/assets/car-kit
-- washer: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
 
 # Sound stand-ins
 

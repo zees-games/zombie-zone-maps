@@ -5,26 +5,18 @@
  "sha256": "c356151472e31a5ece9c404ecf292426853dce9f9d0ace21348676b412bc05a1",
  "textures": {
   "looked_up": 61,
+  "drawn": 60,
   "by_tier": {
-   "default": 50,
-   "fallback": 11
+   "addon": 53,
+   "default": 8
   },
   "free_by_tier": {
-   "default": 16,
-   "fallback": 4
+   "addon": 53,
+   "default": 6,
+   "nearest": 1
   },
   "nearest_photo": [
-   "goth_house/goth_mimi_lee",
-   "goth_house/goth_painting00",
-   "goth_house/goth_painting01",
-   "goth_house/goth_painting02",
-   "goth_house/goth_painting03",
-   "goth_house/goth_painting04",
-   "goth_house/goth_painting05",
-   "goth_house/goth_painting06",
-   "goth_house/goth_painting_frame",
-   "goth_house/goth_welcome_banner00",
-   "goth_house/goth_welcome_banner01"
+   "nature/blenddirtgrass001b"
   ]
  },
  "models": {
@@ -82,19 +74,7 @@
   "unresolved": 0
  },
  "lists": {
-  "textures_unmapped": [
-   "GOTH_HOUSE/GOTH_MIMI_LEE",
-   "GOTH_HOUSE/GOTH_PAINTING00",
-   "GOTH_HOUSE/GOTH_PAINTING01",
-   "GOTH_HOUSE/GOTH_PAINTING02",
-   "GOTH_HOUSE/GOTH_PAINTING03",
-   "GOTH_HOUSE/GOTH_PAINTING04",
-   "GOTH_HOUSE/GOTH_PAINTING05",
-   "GOTH_HOUSE/GOTH_PAINTING06",
-   "GOTH_HOUSE/GOTH_PAINTING_FRAME",
-   "GOTH_HOUSE/GOTH_WELCOME_BANNER00",
-   "GOTH_HOUSE/GOTH_WELCOME_BANNER01"
-  ],
+  "textures_unmapped": [],
   "textures_flat": [],
   "models_unmapped": [],
   "sounds_unmapped": [
@@ -116,7 +96,7 @@
   "links_unresolved": []
  },
  "counts": {
-  "textures_unmapped": 11,
+  "textures_unmapped": 0,
   "textures_flat": 0,
   "models_unmapped": 0,
   "sounds_unmapped": 1,

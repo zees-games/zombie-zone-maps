@@ -5,17 +5,17 @@
  "sha256": "45adee948bb2a3730c9d0cabe2e77399db90cb7592297bc54709b836e76900e8",
  "textures": {
   "looked_up": 50,
+  "drawn": 48,
   "by_tier": {
-   "default": 47,
-   "fallback": 3
+   "addon": 45,
+   "default": 5
   },
   "free_by_tier": {
-   "default": 11,
-   "fallback": 2
+   "addon": 44,
+   "default": 4
   },
   "nearest_photo": [
-   "custom_nature/animatedlava",
-   "marioflashback/mushroom_red"
+   "ground_season"
   ]
  },
  "models": {
@@ -55,14 +55,8 @@
   "unresolved": 0
  },
  "lists": {
-  "textures_unmapped": [
-   "CS_ITALY/YELLOW",
-   "CUSTOM_NATURE/ANIMATEDLAVA",
-   "MARIOFLASHBACK/MUSHROOM_RED"
-  ],
-  "textures_flat": [
-   "cs_italy/yellow"
-  ],
+  "textures_unmapped": [],
+  "textures_flat": [],
   "models_unmapped": [],
   "sounds_unmapped": [
    "mario/boost.wav",
@@ -81,8 +75,8 @@
   "links_unresolved": []
  },
  "counts": {
-  "textures_unmapped": 3,
-  "textures_flat": 1,
+  "textures_unmapped": 0,
+  "textures_flat": 0,
   "models_unmapped": 0,
   "sounds_unmapped": 6,
   "classes_unmapped": 0,

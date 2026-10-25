@@ -5,17 +5,16 @@
  "sha256": "c65f9bef8fdaef0e9860ed60347c768fd1a6a1de7fed1e34b8dec8765f3dbfdf",
  "textures": {
   "looked_up": 46,
+  "drawn": 43,
   "by_tier": {
-   "default": 45,
-   "fallback": 1
+   "addon": 38,
+   "default": 8
   },
   "free_by_tier": {
-   "default": 15,
-   "fallback": 1
+   "addon": 38,
+   "default": 5
   },
-  "nearest_photo": [
-   "models/props/de_train/blackleather"
-  ]
+  "nearest_photo": []
  },
  "models": {
   "looked_up": 14,
@@ -49,9 +48,7 @@
   "unresolved": 5
  },
  "lists": {
-  "textures_unmapped": [
-   "MODELS/PROPS/DE_TRAIN/BLACKLEATHER"
-  ],
+  "textures_unmapped": [],
   "textures_flat": [],
   "models_unmapped": [],
   "sounds_unmapped": [],
@@ -68,7 +65,7 @@
   ]
  },
  "counts": {
-  "textures_unmapped": 1,
+  "textures_unmapped": 0,
   "textures_flat": 0,
   "models_unmapped": 0,
   "sounds_unmapped": 0,

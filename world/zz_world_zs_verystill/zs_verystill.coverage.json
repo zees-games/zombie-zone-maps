@@ -5,19 +5,26 @@
  "sha256": "4620433b055df1b3fcdd666a8dc4c39e7fe75d31776f2a46bece8ad79ab4df87",
  "textures": {
   "looked_up": 264,
+  "drawn": 267,
   "by_tier": {
-   "default": 259,
-   "fallback": 5
+   "addon": 238,
+   "default": 26
   },
   "free_by_tier": {
-   "default": 19,
-   "fallback": 3
+   "addon": 239,
+   "default": 22,
+   "nearest": 6
   },
   "nearest_photo": [
-   "card/citycard_006",
-   "card/track_001",
-   "card/treecard_greenery00",
-   "card/treecard_greenery01"
+   "concrete/concretewall043a",
+   "concrete/concretewall056c_shiny",
+   "forest/blend_cliff_grass",
+   "forest/blend_cliff_grass_nodet",
+   "forest/blend_dirt_grass_short",
+   "forest/blend_dirt_grass_short_nodet",
+   "forest/blend_grass_002_mud_001",
+   "forest/blend_gravel02_cliff",
+   "forest/blendconc_grass_01"
   ]
  },
  "models": {
@@ -80,13 +87,7 @@
   "unresolved": 0
  },
  "lists": {
-  "textures_unmapped": [
-   "CARD/CITYCARD_006",
-   "CARD/TRACK_001",
-   "CARD/TREECARD_GREENERY00",
-   "CARD/TREECARD_GREENERY01",
-   "FOREST/LIGHT_ORANGE001"
-  ],
+  "textures_unmapped": [],
   "textures_flat": [],
   "models_unmapped": [],
   "sounds_unmapped": [
@@ -112,7 +113,7 @@
   "links_unresolved": []
  },
  "counts": {
-  "textures_unmapped": 5,
+  "textures_unmapped": 0,
   "textures_flat": 0,
   "models_unmapped": 0,
   "sounds_unmapped": 4,

@@ -5,17 +5,16 @@
  "sha256": "a10e005cac47c3405bdd112b80a59ad98e782b14899101fbcc098db372ad1307",
  "textures": {
   "looked_up": 67,
+  "drawn": 67,
   "by_tier": {
-   "default": 66,
-   "fallback": 1
+   "addon": 58,
+   "default": 9
   },
   "free_by_tier": {
-   "default": 15,
-   "fallback": 1
+   "addon": 58,
+   "default": 9
   },
-  "nearest_photo": [
-   "props/plasticpopmachine001a"
-  ]
+  "nearest_photo": []
  },
  "models": {
   "looked_up": 56,
@@ -50,9 +49,7 @@
   "unresolved": 2
  },
  "lists": {
-  "textures_unmapped": [
-   "PROPS/PLASTICPOPMACHINE001A"
-  ],
+  "textures_unmapped": [],
   "textures_flat": [],
   "models_unmapped": [],
   "sounds_unmapped": [
@@ -68,7 +65,7 @@
   ]
  },
  "counts": {
-  "textures_unmapped": 1,
+  "textures_unmapped": 0,
   "textures_flat": 0,
   "models_unmapped": 0,
   "sounds_unmapped": 1,

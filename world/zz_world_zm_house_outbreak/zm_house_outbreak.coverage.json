@@ -5,13 +5,19 @@
  "sha256": "21fcc249d9d39c63f87944931e1bcbc417a17121d4879c0ef72d0edfbda4aa11",
  "textures": {
   "looked_up": 102,
+  "drawn": 103,
   "by_tier": {
-   "default": 102
+   "addon": 95,
+   "default": 7
   },
   "free_by_tier": {
-   "default": 23
+   "addon": 95,
+   "default": 7,
+   "nearest": 1
   },
-  "nearest_photo": []
+  "nearest_photo": [
+   "nature/blendcliffgrass001a"
+  ]
  },
  "models": {
   "looked_up": 80,

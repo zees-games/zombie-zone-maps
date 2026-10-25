@@ -3223,277 +3223,396 @@
   "model_stand_ins": [
    {
     "author": "Kenney",
+    "count": 1,
+    "file": "kenney/car-kit/garbage-truck.glb",
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Car Kit",
+    "stand_in": "lib/kenney_car-kit_garbage-truck",
+    "store_file": "kenney/car-kit/garbage-truck.glb",
+    "url": "https://kenney.nl/assets/car-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "file": "kenney/pirate-kit/crate-bottles.glb",
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Pirate Kit",
+    "stand_in": "lib/kenney_pirate-kit_crate-bottles",
+    "store_file": "kenney/pirate-kit/crate-bottles.glb",
+    "url": "https://kenney.nl/assets/pirate-kit"
+   },
+   {
+    "author": "Kirill Sannikov",
     "count": 4,
+    "file": "polyhaven/ArmChair_01/ArmChair_01.gltf",
     "files": [],
     "licence": "CC0-1.0",
-    "source": "Kenney Furniture Kit",
-    "stand_in": "armchair",
-    "url": "https://kenney.nl/assets/furniture-kit"
+    "source": "Poly Haven",
+    "stand_in": "lib/ph_ArmChair_01",
+    "store_file": "polyhaven/ArmChair_01/ArmChair_01.gltf",
+    "url": "https://polyhaven.com/a/ArmChair_01"
    },
    {
-    "author": "Kenney",
-    "count": 9,
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Kenney Survival Kit",
-    "stand_in": "barrel",
-    "url": "https://kenney.nl/assets/survival-kit"
-   },
-   {
-    "author": "Kenney",
-    "count": 5,
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Kenney Furniture Kit",
-    "stand_in": "bookcase",
-    "url": "https://kenney.nl/assets/furniture-kit"
-   },
-   {
-    "author": "Kenney",
-    "count": 1,
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Kenney Furniture Kit",
-    "stand_in": "cabinet",
-    "url": "https://kenney.nl/assets/furniture-kit"
-   },
-   {
-    "author": "Kenney",
-    "count": 1,
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Kenney Survival Kit",
-    "stand_in": "crate",
-    "url": "https://kenney.nl/assets/survival-kit"
-   },
-   {
-    "author": "Kenney",
-    "count": 1,
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Kenney Survival Kit",
-    "stand_in": "crate_large",
-    "url": "https://kenney.nl/assets/survival-kit"
-   },
-   {
-    "author": "Kenney",
+    "author": "Gabriel Radi\u0107",
     "count": 3,
+    "file": "polyhaven/Shelf_01/Shelf_01.gltf",
     "files": [],
     "licence": "CC0-1.0",
-    "source": "Kenney Nature Kit",
-    "stand_in": "fence",
-    "url": "https://kenney.nl/assets/nature-kit"
+    "source": "Poly Haven",
+    "stand_in": "lib/ph_Shelf_01",
+    "store_file": "polyhaven/Shelf_01/Shelf_01.gltf",
+    "url": "https://polyhaven.com/a/Shelf_01"
    },
    {
-    "author": "Kenney",
-    "count": 17,
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Kenney Furniture Kit",
-    "stand_in": "fridge",
-    "url": "https://kenney.nl/assets/furniture-kit"
-   },
-   {
-    "author": "Kenney",
-    "count": 31,
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Kenney Furniture Kit",
-    "stand_in": "sofa",
-    "url": "https://kenney.nl/assets/furniture-kit"
-   },
-   {
-    "author": "Kenney",
-    "count": 1,
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Kenney Furniture Kit",
-    "stand_in": "table",
-    "url": "https://kenney.nl/assets/furniture-kit"
-   },
-   {
-    "author": "Kenney",
+    "author": "MP",
     "count": 2,
+    "file": "polyhaven/covered_car/covered_car.gltf",
     "files": [],
     "licence": "CC0-1.0",
-    "source": "Kenney Car Kit",
-    "stand_in": "vehicles/sedan",
-    "url": "https://kenney.nl/assets/car-kit"
+    "source": "Poly Haven",
+    "stand_in": "lib/ph_covered_car",
+    "store_file": "polyhaven/covered_car/covered_car.gltf",
+    "url": "https://polyhaven.com/a/covered_car"
    },
    {
-    "author": "Kenney",
-    "count": 7,
+    "author": "Gon\u00e7alo Fel\u00edcio",
+    "count": 1,
+    "file": "polyhaven/fire_hydrant/fire_hydrant.gltf",
     "files": [],
     "licence": "CC0-1.0",
-    "source": "Kenney Car Kit",
-    "stand_in": "vehicles/truck",
-    "url": "https://kenney.nl/assets/car-kit"
+    "source": "Poly Haven",
+    "stand_in": "lib/ph_fire_hydrant",
+    "store_file": "polyhaven/fire_hydrant/fire_hydrant.gltf",
+    "url": "https://polyhaven.com/a/fire_hydrant"
+   },
+   {
+    "author": "James Ray Cock, Amal Kumar",
+    "count": 3,
+    "file": "polyhaven/modular_chainlink_fence/modular_chainlink_fence.gltf",
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Poly Haven",
+    "stand_in": "lib/ph_modular_chainlink_fence",
+    "store_file": "polyhaven/modular_chainlink_fence/modular_chainlink_fence.gltf",
+    "url": "https://polyhaven.com/a/modular_chainlink_fence"
+   },
+   {
+    "author": "Slinc",
+    "count": 2,
+    "file": "polyhaven/propane_tank/propane_tank.gltf",
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Poly Haven",
+    "stand_in": "lib/ph_propane_tank",
+    "store_file": "polyhaven/propane_tank/propane_tank.gltf",
+    "url": "https://polyhaven.com/a/propane_tank"
+   },
+   {
+    "author": "Kirill Sannikov",
+    "count": 31,
+    "file": "polyhaven/sofa_02/sofa_02.gltf",
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Poly Haven",
+    "stand_in": "lib/ph_sofa_02",
+    "store_file": "polyhaven/sofa_02/sofa_02.gltf",
+    "url": "https://polyhaven.com/a/sofa_02"
+   },
+   {
+    "author": "Ulan Cabanilla",
+    "count": 2,
+    "file": "polyhaven/steel_frame_shelves_03/steel_frame_shelves_03.gltf",
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Poly Haven",
+    "stand_in": "lib/ph_steel_frame_shelves_03",
+    "store_file": "polyhaven/steel_frame_shelves_03/steel_frame_shelves_03.gltf",
+    "url": "https://polyhaven.com/a/steel_frame_shelves_03"
+   },
+   {
+    "author": "Ulan Cabanilla",
+    "count": 1,
+    "file": "polyhaven/wooden_picnic_table/wooden_picnic_table.gltf",
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Poly Haven",
+    "stand_in": "lib/ph_wooden_picnic_table",
+    "store_file": "polyhaven/wooden_picnic_table/wooden_picnic_table.gltf",
+    "url": "https://polyhaven.com/a/wooden_picnic_table"
+   },
+   {
+    "author": "Libau Media",
+    "count": 6,
+    "file": "sketchfab/1986239266ee44c788fd6effe4055704/model.glb",
+    "files": [],
+    "licence": "CC-BY-4.0",
+    "source": "Sketchfab",
+    "stand_in": "lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623",
+    "store_file": "sketchfab/1986239266ee44c788fd6effe4055704/model.glb",
+    "url": "https://sketchfab.com/3d-models/none-1986239266ee44c788fd6effe4055704"
+   },
+   {
+    "author": "yxungsauce2",
+    "count": 1,
+    "file": "sketchfab/27a114c8a5a7476fb28c54a0177ee6c7/model.glb",
+    "files": [],
+    "licence": "CC-BY-4.0",
+    "source": "Sketchfab",
+    "stand_in": "lib/sf_low_poly_cargo_container_27a114",
+    "store_file": "sketchfab/27a114c8a5a7476fb28c54a0177ee6c7/model.glb",
+    "url": "https://sketchfab.com/3d-models/none-27a114c8a5a7476fb28c54a0177ee6c7"
+   },
+   {
+    "author": "kubassa",
+    "count": 4,
+    "file": "sketchfab/61b602b7e959408f9c6c5bf6392bc4b7/model.glb",
+    "files": [],
+    "licence": "CC-BY-4.0",
+    "source": "Sketchfab",
+    "stand_in": "lib/sf_oil_drum_61b602",
+    "store_file": "sketchfab/61b602b7e959408f9c6c5bf6392bc4b7/model.glb",
+    "url": "https://sketchfab.com/3d-models/none-61b602b7e959408f9c6c5bf6392bc4b7"
+   },
+   {
+    "author": "Sousinho",
+    "count": 3,
+    "file": "sketchfab/b163e81ebaa74397b6ccc4ec7e50722b/model.glb",
+    "files": [],
+    "licence": "CC-BY-4.0",
+    "source": "Sketchfab",
+    "stand_in": "lib/sf_post_apocalyptic_fire_extinguisher_b163e8",
+    "store_file": "sketchfab/b163e81ebaa74397b6ccc4ec7e50722b/model.glb",
+    "url": "https://sketchfab.com/3d-models/none-b163e81ebaa74397b6ccc4ec7e50722b"
+   },
+   {
+    "author": "Watanuki_San",
+    "count": 17,
+    "file": "sketchfab/a8a6874f62da478f8572554959d3c62e/model.glb",
+    "files": [],
+    "licence": "CC-BY-4.0",
+    "source": "Sketchfab",
+    "stand_in": "lib/sf_red_japanese_vending_machine_a8a687",
+    "store_file": "sketchfab/a8a6874f62da478f8572554959d3c62e/model.glb",
+    "url": "https://sketchfab.com/3d-models/none-a8a6874f62da478f8572554959d3c62e"
    }
   ],
+  "model_store": "../../.stores/model-library",
   "models": [
    {
     "count": 2,
     "model": "models/props/cs_havana/bookcase_large.mdl",
-    "stand_in": "bookcase"
+    "stand_in": "lib/ph_steel_frame_shelves_03"
    },
    {
     "count": 3,
     "model": "models/props/cs_office/bookshelf1.mdl",
-    "stand_in": "bookcase"
+    "stand_in": "lib/ph_Shelf_01"
    },
    {
     "count": 1,
     "model": "models/props/cs_office/crates_indoor.mdl",
-    "stand_in": "crate"
+    "stand_in": "lib/kenney_pirate-kit_crate-bottles"
    },
    {
     "count": 31,
     "model": "models/props/cs_office/sofa.mdl",
-    "stand_in": "sofa"
+    "stand_in": "lib/ph_sofa_02"
    },
    {
     "count": 4,
     "model": "models/props/cs_office/sofa_chair.mdl",
-    "stand_in": "armchair"
+    "stand_in": "lib/ph_ArmChair_01"
    },
    {
     "count": 1,
     "model": "models/props/cs_office/table_meeting.mdl",
-    "stand_in": "table"
+    "stand_in": "lib/ph_wooden_picnic_table"
    },
    {
     "count": 17,
     "model": "models/props/cs_office/vending_machine.mdl",
-    "stand_in": "fridge"
+    "stand_in": "lib/sf_red_japanese_vending_machine_a8a687"
    },
    {
     "count": 2,
     "model": "models/props/de_nuke/truck_nuke.mdl",
-    "stand_in": "vehicles/truck"
+    "stand_in": "lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623"
    },
    {
     "count": 3,
     "model": "models/props/de_piranesi/pi_apc.mdl",
-    "stand_in": "vehicles/truck"
+    "stand_in": "lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623"
    },
    {
     "count": 1,
     "model": "models/props/de_prodigy/transformer.mdl",
-    "stand_in": "cabinet"
+    "stand_in": "lib/ph_fire_hydrant"
    },
    {
     "count": 1,
     "model": "models/props/de_tides/truck.mdl",
-    "stand_in": "vehicles/truck"
+    "stand_in": "lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623"
    },
    {
     "count": 2,
     "model": "models/props_c17/fence01a.mdl",
-    "stand_in": "fence"
+    "stand_in": "lib/ph_modular_chainlink_fence"
    },
    {
     "count": 1,
     "model": "models/props_c17/fence04a.mdl",
-    "stand_in": "fence"
+    "stand_in": "lib/ph_modular_chainlink_fence"
    },
    {
     "count": 4,
     "model": "models/props_c17/oildrum001.mdl",
-    "stand_in": "barrel"
+    "stand_in": "lib/sf_oil_drum_61b602"
    },
    {
     "count": 2,
     "model": "models/props_vehicles/car004a.mdl",
-    "stand_in": "vehicles/sedan"
+    "stand_in": "lib/ph_covered_car"
    },
    {
     "count": 1,
     "model": "models/props_vehicles/trailer002a.mdl",
-    "stand_in": "vehicles/truck"
+    "stand_in": "lib/kenney_car-kit_garbage-truck"
    },
    {
     "count": 1,
     "model": "models/props_wasteland/cargo_container01c.mdl",
-    "stand_in": "crate_large"
+    "stand_in": "lib/sf_low_poly_cargo_container_27a114"
    },
    {
     "count": 3,
     "model": "models/props_wasteland/coolingtank02.mdl",
-    "stand_in": "barrel"
+    "stand_in": "lib/sf_post_apocalyptic_fire_extinguisher_b163e8"
    },
    {
     "count": 2,
     "model": "models/props_wasteland/horizontalcoolingtank04.mdl",
-    "stand_in": "barrel"
+    "stand_in": "lib/ph_propane_tank"
    }
   ],
   "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
+  "pbr_store": "../../.stores/pbr-library",
   "skipped_skybox_models": 0,
   "sounds": [],
   "textures": [
    {
+    "area": 1172.3,
     "author": "Lennart Demes and contributors",
     "colour": [
      0.25,
      0.25,
      0.375
     ],
-    "file": "surfaces/metal",
-    "generic": "metal",
+    "file": "pbr/Metal033",
+    "generic": "pbr_Metal033",
     "how": "table",
-    "key": "metal:metal",
-    "kind": "metal",
+    "key": "pbr:pbr_Metal033",
+    "kind": "pbr",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
-     "cs_assault/assault_metalcrate001a",
-     "cs_assault/assault_metalcrate001b_red",
      "cs_assault/assault_metalcrate001d"
     ],
-    "surfaces": 11,
-    "url": "https://ambientcg.com/view?id=Metal063"
+    "surfaces": 5,
+    "tier": "2k",
+    "url": "https://ambientcg.com/view?id=Metal033"
    },
    {
+    "area": 2522.8,
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.375,
+     0.25,
+     0.25
+    ],
+    "file": "pbr/Metal047B",
+    "generic": "pbr_Metal047B",
+    "how": "table",
+    "key": "pbr:pbr_Metal047B",
+    "kind": "pbr",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "cs_assault/assault_metalcrate001b_red"
+    ],
+    "surfaces": 4,
+    "tier": "2k",
+    "url": "https://ambientcg.com/view?id=Metal047B"
+   },
+   {
+    "area": 735.8,
     "author": "Lennart Demes and contributors",
     "colour": [
      0.5,
      0.375,
      0.375
     ],
-    "file": "surfaces/brick",
-    "generic": "brick_red",
+    "file": "pbr/Bricks082B",
+    "generic": "pbr_Bricks082B",
     "how": "table",
-    "key": "brick:brick_red",
-    "kind": "brick",
+    "key": "pbr:pbr_Bricks082B",
+    "kind": "pbr",
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
      "brick/brickwall003a"
     ],
     "surfaces": 4,
-    "url": "https://ambientcg.com/view?id=Bricks097"
+    "tier": "2k",
+    "url": "https://ambientcg.com/view?id=Bricks082B"
    },
    {
-    "author": "Lennart Demes and contributors",
+    "area": 1259.2,
+    "author": "Amal Kumar",
     "colour": [
      0.5,
      0.5,
      0.5
     ],
-    "file": "surfaces/concrete",
-    "generic": "concrete",
+    "file": "pbr/worn_mossy_plasterwall",
+    "generic": "pbr_worn_mossy_plasterwall",
     "how": "table",
-    "key": "concrete:concrete",
-    "kind": "concrete",
+    "key": "pbr:pbr_worn_mossy_plasterwall",
+    "kind": "pbr",
     "licence": "CC0-1.0",
-    "source": "ambientCG",
+    "source": "polyhaven",
     "sources": [
      "de_train/train_cement_floor_01"
     ],
     "surfaces": 4,
-    "url": "https://ambientcg.com/view?id=Concrete047A"
+    "tier": "2k",
+    "url": "https://polyhaven.com/a/worn_mossy_plasterwall"
    },
    {
+    "area": 748.8,
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.375,
+     0.375,
+     0.375
+    ],
+    "file": "pbr/MetalPlates016B",
+    "generic": "pbr_MetalPlates016B",
+    "how": "table",
+    "key": "pbr:pbr_MetalPlates016B",
+    "kind": "pbr",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "cs_assault/assault_metalcrate001a"
+    ],
+    "surfaces": 2,
+    "tier": "2k",
+    "url": "https://ambientcg.com/view?id=MetalPlates016B"
+   },
+   {
+    "area": 110.2,
     "author": "TMC (generated)",
     "colour": [
      0.25,
@@ -3514,24 +3633,26 @@
     "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
-    "author": "Lennart Demes and contributors",
+    "area": 6.0,
+    "author": "Rob Tuytel",
     "colour": [
      0.375,
      0.375,
      0.375
     ],
-    "file": "surfaces/wood_planks",
-    "generic": "wood_planks",
+    "file": "pbr/brown_planks_03",
+    "generic": "pbr_brown_planks_03",
     "how": "table",
-    "key": "wood_planks:wood_planks",
-    "kind": "wood_planks",
+    "key": "pbr:pbr_brown_planks_03",
+    "kind": "pbr",
     "licence": "CC0-1.0",
-    "source": "ambientCG",
+    "source": "polyhaven",
     "sources": [
      "de_cbble/cratesm01b"
     ],
     "surfaces": 1,
-    "url": "https://ambientcg.com/view?id=Planks039"
+    "tier": "1k",
+    "url": "https://polyhaven.com/a/brown_planks_03"
    }
   ]
  },
@@ -3567,24 +3688,28 @@
    "at": [
     6.7056,
     0.1715,
-    0.9144
+    0.9586
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
-   "size": 1.8,
-   "stand_in": "fridge",
+   "shape": true,
+   "size": 1.7105,
+   "solid": 6,
+   "stand_in": "lib/sf_red_japanese_vending_machine_a8a687",
    "yaw": 0.0
   },
   {
    "at": [
     5.4864,
     0.1715,
-    0.9144
+    0.9586
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
-   "size": 1.8,
-   "stand_in": "fridge",
+   "shape": true,
+   "size": 1.7105,
+   "solid": 6,
+   "stand_in": "lib/sf_red_japanese_vending_machine_a8a687",
    "yaw": 0.0
   },
   {
@@ -3595,18 +3720,24 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 0.0
   },
   {
    "at": [
-    6.096,
+    6.1851,
     0.1715,
-    6.096
+    6.086
    ],
    "model": "models/props/cs_office/table_meeting.mdl",
    "scale": 1.0,
-   "stand_in": "table",
+   "shape": true,
+   "size": 3.5481,
+   "solid": 6,
+   "stand_in": "lib/ph_wooden_picnic_table",
    "yaw": 0.0
   },
   {
@@ -3617,86 +3748,108 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 90.5
   },
   {
    "at": [
     11.7356,
-    0.1715,
+    0.172,
     10.2627
    ],
    "model": "models/props/cs_office/bookshelf1.mdl",
    "scale": 1.0,
-   "stand_in": "bookcase",
+   "shape": true,
+   "size": 1.8983,
+   "solid": 6,
+   "stand_in": "lib/ph_Shelf_01",
    "yaw": 180.0
   },
   {
    "at": [
     11.7302,
-    0.1715,
+    0.172,
     6.8112
    ],
    "model": "models/props/cs_office/bookshelf1.mdl",
    "scale": 1.0,
-   "stand_in": "bookcase",
+   "shape": true,
+   "size": 1.8983,
+   "solid": 6,
+   "stand_in": "lib/ph_Shelf_01",
    "yaw": 180.0
   },
   {
    "at": [
     0.4672,
-    0.1715,
+    0.172,
     1.9285
    ],
    "model": "models/props/cs_office/bookshelf1.mdl",
    "scale": 1.0,
-   "stand_in": "bookcase",
+   "shape": true,
+   "size": 1.8983,
+   "solid": 6,
+   "stand_in": "lib/ph_Shelf_01",
    "yaw": 359.5
   },
   {
    "at": [
-    11.8872,
-    5.6579,
-    1.8288
+    11.7345,
+    5.5055,
+    1.9436
    ],
    "model": "models/props/cs_havana/bookcase_large.mdl",
    "scale": 1.0,
-   "stand_in": "bookcase",
-   "yaw": 90.0
+   "shape": true,
+   "size": 1.5462,
+   "solid": 6,
+   "stand_in": "lib/ph_steel_frame_shelves_03",
+   "yaw": 180.0
   },
   {
    "at": [
-    0.3048,
-    5.6579,
-    10.3632
+    0.4575,
+    5.5055,
+    10.2484
    ],
    "model": "models/props/cs_havana/bookcase_large.mdl",
    "scale": 1.0,
-   "stand_in": "bookcase",
-   "yaw": 270.0
+   "shape": true,
+   "size": 1.5462,
+   "solid": 6,
+   "stand_in": "lib/ph_steel_frame_shelves_03",
+   "yaw": 360.0
   },
   {
    "at": [
-    11.2776,
+    11.2433,
     5.6579,
-    11.2776
+    11.2498
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
-   "size": 1.8,
-   "stand_in": "fridge",
+   "shape": true,
+   "size": 1.7105,
+   "solid": 6,
+   "stand_in": "lib/sf_red_japanese_vending_machine_a8a687",
    "yaw": 231.0
   },
   {
    "at": [
-    0.9144,
+    0.949,
     5.6579,
-    0.9144
+    0.9419
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
-   "size": 1.8,
-   "stand_in": "fridge",
+   "shape": true,
+   "size": 1.7105,
+   "solid": 6,
+   "stand_in": "lib/sf_red_japanese_vending_machine_a8a687",
    "yaw": 51.5
   },
   {
@@ -3707,7 +3860,10 @@
    ],
    "model": "models/props/cs_office/sofa_chair.mdl",
    "scale": 1.0,
-   "stand_in": "armchair",
+   "shape": true,
+   "size": 1.0892,
+   "solid": 6,
+   "stand_in": "lib/ph_ArmChair_01",
    "yaw": 0.0
   },
   {
@@ -3718,7 +3874,10 @@
    ],
    "model": "models/props/cs_office/sofa_chair.mdl",
    "scale": 1.0,
-   "stand_in": "armchair",
+   "shape": true,
+   "size": 1.0892,
+   "solid": 6,
+   "stand_in": "lib/ph_ArmChair_01",
    "yaw": 0.0
   },
   {
@@ -3729,7 +3888,10 @@
    ],
    "model": "models/props/cs_office/sofa_chair.mdl",
    "scale": 1.0,
-   "stand_in": "armchair",
+   "shape": true,
+   "size": 1.0892,
+   "solid": 6,
+   "stand_in": "lib/ph_ArmChair_01",
    "yaw": 180.0
   },
   {
@@ -3740,7 +3902,10 @@
    ],
    "model": "models/props/cs_office/sofa_chair.mdl",
    "scale": 1.0,
-   "stand_in": "armchair",
+   "shape": true,
+   "size": 1.0892,
+   "solid": 6,
+   "stand_in": "lib/ph_ArmChair_01",
    "yaw": 180.0
   },
   {
@@ -3751,7 +3916,10 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 0.0
   },
   {
@@ -3762,7 +3930,10 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 180.5
   },
   {
@@ -3773,7 +3944,10 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 91.0
   },
   {
@@ -3784,7 +3958,10 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 271.0
   },
   {
@@ -3795,7 +3972,10 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 231.5
   },
   {
@@ -3806,7 +3986,10 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 51.5
   },
   {
@@ -3817,7 +4000,10 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 141.5
   },
   {
@@ -3828,19 +4014,24 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 321.0
   },
   {
    "at": [
     -29.2608,
     -5.0102,
-    6.8771
+    6.9213
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
-   "size": 1.8,
-   "stand_in": "fridge",
+   "shape": true,
+   "size": 1.7105,
+   "solid": 6,
+   "stand_in": "lib/sf_red_japanese_vending_machine_a8a687",
    "yaw": 0.0
   },
   {
@@ -3851,19 +4042,24 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 90.0
   },
   {
    "at": [
-    -14.6304,
+    -14.63,
     -5.0102,
-    26.8224
+    26.8666
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
-   "size": 1.8,
-   "stand_in": "fridge",
+   "shape": true,
+   "size": 1.7105,
+   "solid": 6,
+   "stand_in": "lib/sf_red_japanese_vending_machine_a8a687",
    "yaw": 0.5
   },
   {
@@ -3874,7 +4070,10 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 90.0
   },
   {
@@ -3885,7 +4084,10 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 90.0
   },
   {
@@ -3896,7 +4098,10 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 90.0
   },
   {
@@ -3907,19 +4112,24 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 90.0
   },
   {
    "at": [
-    -26.2128,
+    -26.2124,
     -5.0102,
-    24.6888
+    24.6446
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
-   "size": 1.8,
-   "stand_in": "fridge",
+   "shape": true,
+   "size": 1.7105,
+   "solid": 6,
+   "stand_in": "lib/sf_red_japanese_vending_machine_a8a687",
    "yaw": 179.5
   },
   {
@@ -3930,7 +4140,10 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 0.0
   },
   {
@@ -3941,7 +4154,10 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 0.0
   },
   {
@@ -3952,7 +4168,10 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 90.0
   },
   {
@@ -3963,7 +4182,10 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 90.0
   },
   {
@@ -3974,19 +4196,24 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 0.0
   },
   {
    "at": [
     -21.9456,
     -5.0102,
-    9.4488
+    9.493
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
-   "size": 1.8,
-   "stand_in": "fridge",
+   "shape": true,
+   "size": 1.7105,
+   "solid": 6,
+   "stand_in": "lib/sf_red_japanese_vending_machine_a8a687",
    "yaw": 0.0
   },
   {
@@ -3997,7 +4224,10 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 89.0
   },
   {
@@ -4008,7 +4238,10 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 179.5
   },
   {
@@ -4019,55 +4252,66 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 179.5
   },
   {
    "at": [
-    -17.3736,
+    -17.3464,
     -5.0102,
-    12.4968
+    12.462
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
-   "size": 1.8,
-   "stand_in": "fridge",
+   "shape": true,
+   "size": 1.7105,
+   "solid": 6,
+   "stand_in": "lib/sf_red_japanese_vending_machine_a8a687",
    "yaw": 142.0
   },
   {
    "at": [
     -15.8496,
     -5.0102,
-    -5.4864
+    -5.4422
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
-   "size": 1.8,
-   "stand_in": "fridge",
+   "shape": true,
+   "size": 1.7105,
+   "solid": 6,
+   "stand_in": "lib/sf_red_japanese_vending_machine_a8a687",
    "yaw": 0.0
   },
   {
    "at": [
     -14.3256,
     -5.0102,
-    -5.4864
+    -5.4422
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
-   "size": 1.8,
-   "stand_in": "fridge",
+   "shape": true,
+   "size": 1.7105,
+   "solid": 6,
+   "stand_in": "lib/sf_red_japanese_vending_machine_a8a687",
    "yaw": 0.0
   },
   {
    "at": [
     -17.3736,
     -5.0102,
-    -5.4864
+    -5.4422
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
-   "size": 1.8,
-   "stand_in": "fridge",
+   "shape": true,
+   "size": 1.7105,
+   "solid": 6,
+   "stand_in": "lib/sf_red_japanese_vending_machine_a8a687",
    "yaw": 0.0
   },
   {
@@ -4078,7 +4322,10 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 359.5
   },
   {
@@ -4089,19 +4336,24 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 180.0
   },
   {
    "at": [
-    -21.9456,
+    -21.9014,
     -5.0102,
-    17.0688
+    17.0684
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
-   "size": 1.8,
-   "stand_in": "fridge",
+   "shape": true,
+   "size": 1.7105,
+   "solid": 6,
+   "stand_in": "lib/sf_red_japanese_vending_machine_a8a687",
    "yaw": 90.5
   },
   {
@@ -4112,7 +4364,10 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 180.0
   },
   {
@@ -4123,7 +4378,10 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 180.0
   },
   {
@@ -4134,31 +4392,38 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 180.0
   },
   {
    "at": [
     -26.5176,
     -5.0102,
-    -0.6096
+    -0.5654
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
-   "size": 1.8,
-   "stand_in": "fridge",
+   "shape": true,
+   "size": 1.7105,
+   "solid": 6,
+   "stand_in": "lib/sf_red_japanese_vending_machine_a8a687",
    "yaw": 0.0
   },
   {
    "at": [
-    -35.3568,
+    -35.401,
     -5.0102,
-    23.1648
+    23.1644
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
-   "size": 1.8,
-   "stand_in": "fridge",
+   "shape": true,
+   "size": 1.7105,
+   "solid": 6,
+   "stand_in": "lib/sf_red_japanese_vending_machine_a8a687",
    "yaw": 269.5
   },
   {
@@ -4169,7 +4434,10 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 0.0
   },
   {
@@ -4180,7 +4448,10 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 0.0
   },
   {
@@ -4191,31 +4462,38 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
-   "stand_in": "sofa",
+   "shape": true,
+   "size": 2.0214,
+   "solid": 6,
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 0.0
   },
   {
    "at": [
     -33.528,
     -5.0102,
-    17.3736
+    17.4178
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
-   "size": 1.8,
-   "stand_in": "fridge",
+   "shape": true,
+   "size": 1.7105,
+   "solid": 6,
+   "stand_in": "lib/sf_red_japanese_vending_machine_a8a687",
    "yaw": 0.0
   },
   {
    "at": [
     -35.052,
     -5.0102,
-    17.3736
+    17.4178
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
-   "size": 1.8,
-   "stand_in": "fridge",
+   "shape": true,
+   "size": 1.7105,
+   "solid": 6,
+   "stand_in": "lib/sf_red_japanese_vending_machine_a8a687",
    "yaw": 0.0
   },
   {
@@ -4226,7 +4504,10 @@
    ],
    "model": "models/props_c17/oildrum001.mdl",
    "scale": 1.0,
-   "stand_in": "barrel",
+   "shape": true,
+   "size": 0.8512,
+   "solid": 6,
+   "stand_in": "lib/sf_oil_drum_61b602",
    "yaw": 90.0
   },
   {
@@ -4237,7 +4518,10 @@
    ],
    "model": "models/props_c17/oildrum001.mdl",
    "scale": 1.0,
-   "stand_in": "barrel",
+   "shape": true,
+   "size": 0.8512,
+   "solid": 6,
+   "stand_in": "lib/sf_oil_drum_61b602",
    "yaw": 90.0
   },
   {
@@ -4248,7 +4532,10 @@
    ],
    "model": "models/props_c17/oildrum001.mdl",
    "scale": 1.0,
-   "stand_in": "barrel",
+   "shape": true,
+   "size": 0.8512,
+   "solid": 6,
+   "stand_in": "lib/sf_oil_drum_61b602",
    "yaw": 90.0
   },
   {
@@ -4259,40 +4546,52 @@
    ],
    "model": "models/props_c17/oildrum001.mdl",
    "scale": 1.0,
-   "stand_in": "barrel",
+   "shape": true,
+   "size": 0.8512,
+   "solid": 6,
+   "stand_in": "lib/sf_oil_drum_61b602",
    "yaw": 90.0
   },
   {
    "at": [
-    -9.7536,
-    0.0,
-    -13.1064
+    -9.833,
+    -0.0155,
+    -13.1014
    ],
    "model": "models/props/de_nuke/truck_nuke.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/truck",
-   "yaw": 270.0
+   "shape": true,
+   "size": 6.6373,
+   "solid": 6,
+   "stand_in": "lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623",
+   "yaw": 360.0
   },
   {
    "at": [
-    -9.7536,
-    1.1108,
-    21.0312
+    -9.833,
+    1.0953,
+    21.0362
    ],
    "model": "models/props/de_nuke/truck_nuke.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/truck",
-   "yaw": 270.0
+   "shape": true,
+   "size": 6.6373,
+   "solid": 6,
+   "stand_in": "lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623",
+   "yaw": 360.0
   },
   {
    "at": [
-    -9.7536,
-    0.1475,
-    3.6576
+    -9.7754,
+    0.0069,
+    3.6719
    ],
    "model": "models/props/de_tides/truck.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/truck",
+   "shape": true,
+   "size": 4.8721,
+   "solid": 6,
+   "stand_in": "lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623",
    "yaw": 181.5
   },
   {
@@ -4303,7 +4602,10 @@
    ],
    "model": "models/props_vehicles/car004a.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/sedan",
+   "shape": true,
+   "size": 4.4405,
+   "solid": 6,
+   "stand_in": "lib/ph_covered_car",
    "yaw": 0.0
   },
   {
@@ -4314,54 +4616,66 @@
    ],
    "model": "models/props_vehicles/car004a.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/sedan",
+   "shape": true,
+   "size": 4.4405,
+   "solid": 6,
+   "stand_in": "lib/ph_covered_car",
    "yaw": 0.0
   },
   {
    "at": [
-    1.524,
-    1.524,
-    13.1064
+    1.2565,
+    -0.0001,
+    13.6587
    ],
    "model": "models/props/cs_office/crates_indoor.mdl",
    "scale": 1.0,
-   "stand_in": "crate",
+   "shape": true,
+   "size": 2.6212,
+   "solid": 6,
+   "stand_in": "lib/kenney_pirate-kit_crate-bottles",
    "yaw": 269.0
   },
   {
    "at": [
-    6.0542,
-    0.0,
-    -11.8542
+    6.0553,
+    -0.0355,
+    -11.9139
    ],
    "model": "models/props/de_piranesi/pi_apc.mdl",
    "scale": 1.0,
-   "size": 6.0,
-   "stand_in": "vehicles/truck",
+   "shape": true,
+   "size": 4.7586,
+   "solid": 6,
+   "stand_in": "lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623",
    "yaw": 89.0
   },
   {
    "at": [
-    8.4926,
-    0.0,
-    -11.8542
+    8.4937,
+    -0.0355,
+    -11.9139
    ],
    "model": "models/props/de_piranesi/pi_apc.mdl",
    "scale": 1.0,
-   "size": 6.0,
-   "stand_in": "vehicles/truck",
+   "shape": true,
+   "size": 4.7586,
+   "solid": 6,
+   "stand_in": "lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623",
    "yaw": 89.0
   },
   {
    "at": [
-    7.3152,
-    0.0,
-    -5.4864
+    7.3524,
+    -0.0355,
+    -5.5331
    ],
    "model": "models/props/de_piranesi/pi_apc.mdl",
    "scale": 1.0,
-   "size": 6.0,
-   "stand_in": "vehicles/truck",
+   "shape": true,
+   "size": 4.7586,
+   "solid": 6,
+   "stand_in": "lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623",
    "yaw": 51.5
   },
   {
@@ -4372,7 +4686,10 @@
    ],
    "model": "models/props_c17/fence01a.mdl",
    "scale": 1.0,
-   "stand_in": "fence",
+   "shape": true,
+   "size": 6.2341,
+   "solid": 6,
+   "stand_in": "lib/ph_modular_chainlink_fence",
    "yaw": 1.0
   },
   {
@@ -4383,7 +4700,10 @@
    ],
    "model": "models/props_c17/fence04a.mdl",
    "scale": 1.0,
-   "stand_in": "fence",
+   "shape": true,
+   "size": 6.2341,
+   "solid": 6,
+   "stand_in": "lib/ph_modular_chainlink_fence",
    "yaw": 89.0
   },
   {
@@ -4394,7 +4714,10 @@
    ],
    "model": "models/props_c17/fence01a.mdl",
    "scale": 1.0,
-   "stand_in": "fence",
+   "shape": true,
+   "size": 6.2341,
+   "solid": 6,
+   "stand_in": "lib/ph_modular_chainlink_fence",
    "yaw": 344.0
   },
   {
@@ -4405,51 +4728,66 @@
    ],
    "model": "models/props_wasteland/cargo_container01c.mdl",
    "scale": 1.0,
-   "stand_in": "crate_large",
-   "yaw": 270.5
+   "shape": true,
+   "size": 6.1161,
+   "solid": 6,
+   "stand_in": "lib/sf_low_poly_cargo_container_27a114",
+   "yaw": 360.5
   },
   {
    "at": [
-    12.8016,
-    0.0,
-    10.9728
+    12.9279,
+    -0.0007,
+    11.1176
    ],
    "model": "models/props/de_prodigy/transformer.mdl",
    "scale": 1.0,
-   "stand_in": "cabinet",
+   "shape": true,
+   "size": 2.3098,
+   "solid": 6,
+   "stand_in": "lib/ph_fire_hydrant",
    "yaw": 0.0
   },
   {
    "at": [
-    21.0312,
-    3.8239,
-    -13.1064
+    21.0215,
+    -0.0011,
+    -13.1496
    ],
    "model": "models/props_wasteland/coolingtank02.mdl",
    "scale": 1.0,
-   "stand_in": "barrel",
+   "shape": true,
+   "size": 6.1216,
+   "solid": 6,
+   "stand_in": "lib/sf_post_apocalyptic_fire_extinguisher_b163e8",
    "yaw": 270.0
   },
   {
    "at": [
-    23.1648,
-    3.8239,
-    -10.9728
+    23.1551,
+    -0.0011,
+    -11.016
    ],
    "model": "models/props_wasteland/coolingtank02.mdl",
    "scale": 1.0,
-   "stand_in": "barrel",
+   "shape": true,
+   "size": 6.1216,
+   "solid": 6,
+   "stand_in": "lib/sf_post_apocalyptic_fire_extinguisher_b163e8",
    "yaw": 270.0
   },
   {
    "at": [
-    23.1648,
-    3.8239,
-    -13.1064
+    23.1551,
+    -0.0011,
+    -13.1496
    ],
    "model": "models/props_wasteland/coolingtank02.mdl",
    "scale": 1.0,
-   "stand_in": "barrel",
+   "shape": true,
+   "size": 6.1216,
+   "solid": 6,
+   "stand_in": "lib/sf_post_apocalyptic_fire_extinguisher_b163e8",
    "yaw": 270.0
   },
   {
@@ -4460,7 +4798,10 @@
    ],
    "model": "models/props_wasteland/horizontalcoolingtank04.mdl",
    "scale": 1.0,
-   "stand_in": "barrel",
+   "shape": true,
+   "size": 0.6371,
+   "solid": 6,
+   "stand_in": "lib/ph_propane_tank",
    "yaw": 270.0
   },
   {
@@ -4471,18 +4812,24 @@
    ],
    "model": "models/props_wasteland/horizontalcoolingtank04.mdl",
    "scale": 1.0,
-   "stand_in": "barrel",
+   "shape": true,
+   "size": 0.6371,
+   "solid": 6,
+   "stand_in": "lib/ph_propane_tank",
    "yaw": 270.0
   },
   {
    "at": [
-    21.336,
-    0.9144,
-    11.2776
+    21.338,
+    0.0598,
+    11.2611
    ],
    "model": "models/props_vehicles/trailer002a.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/truck",
+   "shape": true,
+   "size": 3.8222,
+   "solid": 6,
+   "stand_in": "lib/kenney_car-kit_garbage-truck",
    "yaw": 90.0
   }
  ],
@@ -5214,6 +5561,7 @@
  ],
  "surfaces": [
   {
+   "area": 32.49,
    "chunk": [
     -2,
     -1
@@ -5238,8 +5586,8 @@
     0.3554
    ],
    "entity": null,
-   "free": "metal:metal",
-   "generic": "metal",
+   "free": "pbr:pbr_Metal033",
+   "generic": "pbr_Metal033",
    "index_count": 78,
    "index_offset": 1680,
    "lightmap_page": 0,
@@ -5256,6 +5604,7 @@
    "vertex_count": 42
   },
   {
+   "area": 103.12,
    "chunk": [
     -2,
     0
@@ -5280,8 +5629,8 @@
     0.2544
    ],
    "entity": null,
-   "free": "metal:metal",
-   "generic": "metal",
+   "free": "pbr:pbr_Metal047B",
+   "generic": "pbr_Metal047B",
    "index_count": 90,
    "index_offset": 3912,
    "lightmap_page": 0,
@@ -5298,6 +5647,7 @@
    "vertex_count": 48
   },
   {
+   "area": 112.71,
    "chunk": [
     -2,
     0
@@ -5328,8 +5678,8 @@
     0.3554
    ],
    "entity": null,
-   "free": "metal:metal",
-   "generic": "metal",
+   "free": "pbr:pbr_Metal033",
+   "generic": "pbr_Metal033",
    "index_count": 282,
    "index_offset": 10512,
    "lightmap_page": 0,
@@ -5346,6 +5696,7 @@
    "vertex_count": 156
   },
   {
+   "area": 133.78,
    "chunk": [
     -1,
     -1
@@ -5371,8 +5722,8 @@
     0.3309
    ],
    "entity": null,
-   "free": "brick:brick_red",
-   "generic": "brick_red",
+   "free": "pbr:pbr_Bricks082B",
+   "generic": "pbr_Bricks082B",
    "index_count": 57,
    "index_offset": 13040,
    "lightmap_page": 0,
@@ -5389,6 +5740,7 @@
    "vertex_count": 35
   },
   {
+   "area": 443.49,
    "chunk": [
     -1,
     -1
@@ -5473,8 +5825,8 @@
     0.2544
    ],
    "entity": null,
-   "free": "metal:metal",
-   "generic": "metal",
+   "free": "pbr:pbr_Metal047B",
+   "generic": "pbr_Metal047B",
    "index_count": 798,
    "index_offset": 32628,
    "lightmap_page": 0,
@@ -5491,6 +5843,7 @@
    "vertex_count": 484
   },
   {
+   "area": 260.48,
    "chunk": [
     -1,
     -1
@@ -5572,8 +5925,8 @@
     0.3554
    ],
    "entity": null,
-   "free": "metal:metal",
-   "generic": "metal",
+   "free": "pbr:pbr_Metal033",
+   "generic": "pbr_Metal033",
    "index_count": 882,
    "index_offset": 55820,
    "lightmap_page": 0,
@@ -5590,6 +5943,7 @@
    "vertex_count": 500
   },
   {
+   "area": 170.85,
    "chunk": [
     -1,
     -1
@@ -5620,8 +5974,8 @@
     0.4655
    ],
    "entity": null,
-   "free": "concrete:concrete",
-   "generic": "concrete",
+   "free": "pbr:pbr_worn_mossy_plasterwall",
+   "generic": "pbr_worn_mossy_plasterwall",
    "index_count": 135,
    "index_offset": 62108,
    "lightmap_page": 0,
@@ -5638,6 +5992,7 @@
    "vertex_count": 69
   },
   {
+   "area": 181.35,
    "chunk": [
     -1,
     0
@@ -5655,8 +6010,8 @@
     0.3309
    ],
    "entity": null,
-   "free": "brick:brick_red",
-   "generic": "brick_red",
+   "free": "pbr:pbr_Bricks082B",
+   "generic": "pbr_Bricks082B",
    "index_count": 42,
    "index_offset": 63688,
    "lightmap_page": 0,
@@ -5673,6 +6028,7 @@
    "vertex_count": 26
   },
   {
+   "area": 38.28,
    "chunk": [
     -1,
     0
@@ -5775,8 +6131,8 @@
     0.4071
    ],
    "entity": null,
-   "free": "metal:metal",
-   "generic": "metal",
+   "free": "pbr:pbr_MetalPlates016B",
+   "generic": "pbr_MetalPlates016B",
    "index_count": 672,
    "index_offset": 80336,
    "lightmap_page": 0,
@@ -5793,6 +6149,7 @@
    "vertex_count": 412
   },
   {
+   "area": 932.92,
    "chunk": [
     -1,
     0
@@ -5963,8 +6320,8 @@
     0.2544
    ],
    "entity": null,
-   "free": "metal:metal",
-   "generic": "metal",
+   "free": "pbr:pbr_Metal047B",
+   "generic": "pbr_Metal047B",
    "index_count": 1518,
    "index_offset": 116224,
    "lightmap_page": 0,
@@ -5981,6 +6338,7 @@
    "vertex_count": 830
   },
   {
+   "area": 755.88,
    "chunk": [
     -1,
     0
@@ -6075,8 +6433,8 @@
     0.3554
    ],
    "entity": null,
-   "free": "metal:metal",
-   "generic": "metal",
+   "free": "pbr:pbr_Metal033",
+   "generic": "pbr_Metal033",
    "index_count": 1881,
    "index_offset": 165776,
    "lightmap_page": 0,
@@ -6093,6 +6451,7 @@
    "vertex_count": 1087
   },
   {
+   "area": 314.66,
    "chunk": [
     -1,
     0
@@ -6127,8 +6486,8 @@
     0.4655
    ],
    "entity": null,
-   "free": "concrete:concrete",
-   "generic": "concrete",
+   "free": "pbr:pbr_worn_mossy_plasterwall",
+   "generic": "pbr_worn_mossy_plasterwall",
    "index_count": 111,
    "index_offset": 175420,
    "lightmap_page": 0,
@@ -6145,6 +6504,7 @@
    "vertex_count": 53
   },
   {
+   "area": 55.38,
    "chunk": [
     -1,
     0
@@ -6273,6 +6633,7 @@
    "vertex_count": 461
   },
   {
+   "area": 187.29,
    "chunk": [
     0,
     -1
@@ -6291,8 +6652,8 @@
     0.3309
    ],
    "entity": null,
-   "free": "brick:brick_red",
-   "generic": "brick_red",
+   "free": "pbr:pbr_Bricks082B",
+   "generic": "pbr_Bricks082B",
    "index_count": 42,
    "index_offset": 198620,
    "lightmap_page": 0,
@@ -6309,6 +6670,7 @@
    "vertex_count": 26
   },
   {
+   "area": 344.95,
    "chunk": [
     0,
     -1
@@ -6330,8 +6692,8 @@
     0.4655
    ],
    "entity": null,
-   "free": "concrete:concrete",
-   "generic": "concrete",
+   "free": "pbr:pbr_worn_mossy_plasterwall",
+   "generic": "pbr_worn_mossy_plasterwall",
    "index_count": 57,
    "index_offset": 200188,
    "lightmap_page": 0,
@@ -6348,6 +6710,7 @@
    "vertex_count": 35
   },
   {
+   "area": 233.37,
    "chunk": [
     0,
     0
@@ -6369,8 +6732,8 @@
     0.3309
    ],
    "entity": null,
-   "free": "brick:brick_red",
-   "generic": "brick_red",
+   "free": "pbr:pbr_Bricks082B",
+   "generic": "pbr_Bricks082B",
    "index_count": 75,
    "index_offset": 202216,
    "lightmap_page": 0,
@@ -6387,6 +6750,7 @@
    "vertex_count": 45
   },
   {
+   "area": 710.52,
    "chunk": [
     0,
     0
@@ -6536,8 +6900,8 @@
     0.4071
    ],
    "entity": null,
-   "free": "metal:metal",
-   "generic": "metal",
+   "free": "pbr:pbr_MetalPlates016B",
+   "generic": "pbr_MetalPlates016B",
    "index_count": 2439,
    "index_offset": 256956,
    "lightmap_page": 0,
@@ -6554,6 +6918,7 @@
    "vertex_count": 1361
   },
   {
+   "area": 1043.3,
    "chunk": [
     0,
     0
@@ -6676,8 +7041,8 @@
     0.2544
    ],
    "entity": null,
-   "free": "metal:metal",
-   "generic": "metal",
+   "free": "pbr:pbr_Metal047B",
+   "generic": "pbr_Metal047B",
    "index_count": 981,
    "index_offset": 289392,
    "lightmap_page": 0,
@@ -6694,6 +7059,7 @@
    "vertex_count": 567
   },
   {
+   "area": 10.78,
    "chunk": [
     0,
     0
@@ -6719,8 +7085,8 @@
     0.3554
    ],
    "entity": null,
-   "free": "metal:metal",
-   "generic": "metal",
+   "free": "pbr:pbr_Metal033",
+   "generic": "pbr_Metal033",
    "index_count": 267,
    "index_offset": 300076,
    "lightmap_page": 0,
@@ -6737,6 +7103,7 @@
    "vertex_count": 169
   },
   {
+   "area": 5.95,
    "chunk": [
     0,
     0
@@ -6754,8 +7121,8 @@
     0.3636
    ],
    "entity": null,
-   "free": "wood_planks:wood_planks",
-   "generic": "wood_planks",
+   "free": "pbr:pbr_brown_planks_03",
+   "generic": "pbr_brown_planks_03",
    "index_count": 24,
    "index_offset": 301784,
    "lightmap_page": 0,
@@ -6772,6 +7139,7 @@
    "vertex_count": 16
   },
   {
+   "area": 428.75,
    "chunk": [
     0,
     0
@@ -6808,8 +7176,8 @@
     0.4655
    ],
    "entity": null,
-   "free": "concrete:concrete",
-   "generic": "concrete",
+   "free": "pbr:pbr_worn_mossy_plasterwall",
+   "generic": "pbr_worn_mossy_plasterwall",
    "index_count": 219,
    "index_offset": 306560,
    "lightmap_page": 0,
@@ -6826,6 +7194,7 @@
    "vertex_count": 117
   },
   {
+   "area": 54.79,
    "chunk": [
     0,
     0

@@ -13701,67 +13701,93 @@
    {
     "author": "Kenney",
     "count": 4,
+    "file": "kenney/furniture-kit/cardboardBoxClosed.glb",
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
-    "stand_in": "bookcase",
-    "url": "https://kenney.nl/assets/furniture-kit"
-   },
-   {
-    "author": "Kenney",
-    "count": 4,
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Kenney Furniture Kit",
-    "stand_in": "cabinet",
-    "url": "https://kenney.nl/assets/furniture-kit"
-   },
-   {
-    "author": "Kenney",
-    "count": 4,
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Kenney Furniture Kit",
-    "stand_in": "ceiling_light",
+    "stand_in": "lib/kenney_furniture-kit_cardboardBoxClosed",
+    "store_file": "kenney/furniture-kit/cardboardBoxClosed.glb",
     "url": "https://kenney.nl/assets/furniture-kit"
    },
    {
     "author": "Kenney",
     "count": 15,
+    "file": "kenney/pirate-kit/crate-bottles.glb",
     "files": [],
     "licence": "CC0-1.0",
-    "source": "Kenney Survival Kit",
-    "stand_in": "crate",
-    "url": "https://kenney.nl/assets/survival-kit"
+    "source": "Kenney Pirate Kit",
+    "stand_in": "lib/kenney_pirate-kit_crate-bottles",
+    "store_file": "kenney/pirate-kit/crate-bottles.glb",
+    "url": "https://kenney.nl/assets/pirate-kit"
    },
    {
-    "author": "Kenney",
-    "count": 7,
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Kenney Survival Kit",
-    "stand_in": "crate_large",
-    "url": "https://kenney.nl/assets/survival-kit"
-   },
-   {
-    "author": "Kenney",
+    "author": "Gabriel Radi\u0107",
     "count": 2,
+    "file": "polyhaven/Shelf_01/Shelf_01.gltf",
     "files": [],
     "licence": "CC0-1.0",
-    "source": "Kenney Furniture Kit",
-    "stand_in": "fridge",
-    "url": "https://kenney.nl/assets/furniture-kit"
+    "source": "Poly Haven",
+    "stand_in": "lib/ph_Shelf_01",
+    "store_file": "polyhaven/Shelf_01/Shelf_01.gltf",
+    "url": "https://polyhaven.com/a/Shelf_01"
    },
    {
-    "author": "Kenney",
+    "author": "Mateusz Sadek",
     "count": 4,
+    "file": "polyhaven/industrial_pipe_lamp/industrial_pipe_lamp.gltf",
     "files": [],
     "licence": "CC0-1.0",
-    "source": "Kenney Furniture Kit",
-    "stand_in": "sofa",
-    "url": "https://kenney.nl/assets/furniture-kit"
+    "source": "Poly Haven",
+    "stand_in": "lib/ph_industrial_pipe_lamp",
+    "store_file": "polyhaven/industrial_pipe_lamp/industrial_pipe_lamp.gltf",
+    "url": "https://polyhaven.com/a/industrial_pipe_lamp"
+   },
+   {
+    "author": "Kirill Sannikov",
+    "count": 4,
+    "file": "polyhaven/sofa_02/sofa_02.gltf",
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Poly Haven",
+    "stand_in": "lib/ph_sofa_02",
+    "store_file": "polyhaven/sofa_02/sofa_02.gltf",
+    "url": "https://polyhaven.com/a/sofa_02"
+   },
+   {
+    "author": "Ulan Cabanilla",
+    "count": 2,
+    "file": "polyhaven/steel_frame_shelves_03/steel_frame_shelves_03.gltf",
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Poly Haven",
+    "stand_in": "lib/ph_steel_frame_shelves_03",
+    "store_file": "polyhaven/steel_frame_shelves_03/steel_frame_shelves_03.gltf",
+    "url": "https://polyhaven.com/a/steel_frame_shelves_03"
+   },
+   {
+    "author": "yxungsauce2",
+    "count": 7,
+    "file": "sketchfab/27a114c8a5a7476fb28c54a0177ee6c7/model.glb",
+    "files": [],
+    "licence": "CC-BY-4.0",
+    "source": "Sketchfab",
+    "stand_in": "lib/sf_low_poly_cargo_container_27a114",
+    "store_file": "sketchfab/27a114c8a5a7476fb28c54a0177ee6c7/model.glb",
+    "url": "https://sketchfab.com/3d-models/none-27a114c8a5a7476fb28c54a0177ee6c7"
+   },
+   {
+    "author": "Watanuki_San",
+    "count": 2,
+    "file": "sketchfab/a8a6874f62da478f8572554959d3c62e/model.glb",
+    "files": [],
+    "licence": "CC-BY-4.0",
+    "source": "Sketchfab",
+    "stand_in": "lib/sf_red_japanese_vending_machine_a8a687",
+    "store_file": "sketchfab/a8a6874f62da478f8572554959d3c62e/model.glb",
+    "url": "https://sketchfab.com/3d-models/none-a8a6874f62da478f8572554959d3c62e"
    }
   ],
+  "model_store": "../../.stores/model-library",
   "models": [
    {
     "count": 1,
@@ -13771,51 +13797,51 @@
    {
     "count": 4,
     "model": "models/props/cs_assault/dryer_box.mdl",
-    "stand_in": "cabinet"
+    "stand_in": "lib/kenney_furniture-kit_cardboardBoxClosed"
    },
    {
     "count": 15,
     "model": "models/props/cs_militia/crate_extrasmallmill.mdl",
-    "stand_in": "crate"
+    "stand_in": "lib/kenney_pirate-kit_crate-bottles"
    },
    {
     "count": 2,
     "model": "models/props/cs_office/bookshelf3.mdl",
-    "stand_in": "bookcase"
+    "stand_in": "lib/ph_Shelf_01"
    },
    {
     "count": 4,
     "model": "models/props/cs_office/sofa.mdl",
-    "stand_in": "sofa"
+    "stand_in": "lib/ph_sofa_02"
    },
    {
     "count": 2,
     "model": "models/props/cs_office/vending_machine.mdl",
-    "stand_in": "fridge"
+    "stand_in": "lib/sf_red_japanese_vending_machine_a8a687"
    },
    {
     "count": 3,
     "model": "models/props_c17/light_cagelight01_on.mdl",
-    "stand_in": "ceiling_light"
+    "stand_in": "lib/ph_industrial_pipe_lamp"
    },
    {
     "count": 1,
     "model": "models/props_c17/light_cagelight02_on.mdl",
-    "stand_in": "ceiling_light"
+    "stand_in": "lib/ph_industrial_pipe_lamp"
    },
    {
     "count": 2,
     "model": "models/props_industrial/warehouse_shelf001.mdl",
-    "stand_in": "bookcase"
+    "stand_in": "lib/ph_steel_frame_shelves_03"
    },
    {
     "count": 7,
     "model": "models/props_wasteland/cargo_container01.mdl",
-    "stand_in": "crate_large"
+    "stand_in": "lib/sf_low_poly_cargo_container_27a114"
    }
   ],
   "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
-  "pbr_store": "../pbr-library",
+  "pbr_store": "../../.stores/pbr-library",
   "skipped_skybox_models": 0,
   "sounds": [
    {
@@ -20093,50 +20119,54 @@
  "props": [
   {
    "at": [
-    13.1248,
-    97.9955,
-    17.4256
+    13.1296,
+    97.9897,
+    17.4261
    ],
    "model": "models/props/cs_assault/dryer_box.mdl",
    "scale": 1.0,
-   "size": 0.9,
-   "stand_in": "cabinet",
+   "shape": true,
+   "size": 1.1045,
+   "stand_in": "lib/kenney_furniture-kit_cardboardBoxClosed",
    "yaw": 0.0
   },
   {
    "at": [
-    13.1055,
-    97.9955,
-    16.383
+    13.1103,
+    97.9897,
+    16.3835
    ],
    "model": "models/props/cs_assault/dryer_box.mdl",
    "scale": 1.0,
-   "size": 0.9,
-   "stand_in": "cabinet",
+   "shape": true,
+   "size": 1.1045,
+   "stand_in": "lib/kenney_furniture-kit_cardboardBoxClosed",
    "yaw": 0.0
   },
   {
    "at": [
-    13.4296,
-    99.2147,
-    16.9926
+    13.4344,
+    99.2089,
+    16.9931
    ],
    "model": "models/props/cs_assault/dryer_box.mdl",
    "scale": 1.0,
-   "size": 0.9,
-   "stand_in": "cabinet",
+   "shape": true,
+   "size": 1.1045,
+   "stand_in": "lib/kenney_furniture-kit_cardboardBoxClosed",
    "yaw": 0.0
   },
   {
    "at": [
-    14.0392,
-    97.9955,
-    16.9926
+    14.044,
+    97.9897,
+    16.9931
    ],
    "model": "models/props/cs_assault/dryer_box.mdl",
    "scale": 1.0,
-   "size": 0.9,
-   "stand_in": "cabinet",
+   "shape": true,
+   "size": 1.1045,
+   "stand_in": "lib/kenney_furniture-kit_cardboardBoxClosed",
    "yaw": 0.0
   },
   {
@@ -20147,68 +20177,80 @@
    ],
    "model": "models/props_wasteland/cargo_container01.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 6.1161,
    "solid": 6,
-   "stand_in": "crate_large",
-   "yaw": 285.0
+   "stand_in": "lib/sf_low_poly_cargo_container_27a114",
+   "yaw": 375.0
   },
   {
    "at": [
-    11.2776,
-    53.946,
-    69.1896
+    11.2779,
+    53.9423,
+    69.1898
    ],
    "model": "models/props/cs_militia/crate_extrasmallmill.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 1.0545,
    "solid": 6,
-   "stand_in": "crate",
+   "stand_in": "lib/kenney_pirate-kit_crate-bottles",
    "yaw": 270.0
   },
   {
    "at": [
-    10.0584,
-    53.946,
-    69.1896
+    10.0587,
+    53.9423,
+    69.1898
    ],
    "model": "models/props/cs_militia/crate_extrasmallmill.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 1.0545,
    "solid": 6,
-   "stand_in": "crate",
+   "stand_in": "lib/kenney_pirate-kit_crate-bottles",
    "yaw": 270.0
   },
   {
    "at": [
-    20.2692,
-    -4.8042,
-    24.5364
+    20.2695,
+    -4.8079,
+    24.5366
    ],
    "model": "models/props/cs_militia/crate_extrasmallmill.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 1.0545,
    "solid": 6,
-   "stand_in": "crate",
+   "stand_in": "lib/kenney_pirate-kit_crate-bottles",
    "yaw": 270.0
   },
   {
    "at": [
-    18.9738,
-    -4.8042,
-    24.5364
+    18.9741,
+    -4.8079,
+    24.5366
    ],
    "model": "models/props/cs_militia/crate_extrasmallmill.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 1.0545,
    "solid": 6,
-   "stand_in": "crate",
+   "stand_in": "lib/kenney_pirate-kit_crate-bottles",
    "yaw": 270.0
   },
   {
    "at": [
-    -1.2192,
-    -4.8826,
-    34.2138
+    -1.2326,
+    -4.8821,
+    34.2004
    ],
    "model": "models/props/cs_office/bookshelf3.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 1.9887,
    "solid": 6,
-   "stand_in": "bookcase",
+   "stand_in": "lib/ph_Shelf_01",
    "yaw": 135.0
   },
   {
@@ -20219,8 +20261,10 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 2.0214,
    "solid": 6,
-   "stand_in": "sofa",
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 315.0
   },
   {
@@ -20231,8 +20275,10 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 2.0214,
    "solid": 6,
-   "stand_in": "sofa",
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 315.0
   },
   {
@@ -20243,154 +20289,178 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 2.0214,
    "solid": 6,
-   "stand_in": "sofa",
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 135.0
   },
   {
    "at": [
-    1.0519,
-    53.9551,
-    59.8829
+    1.0522,
+    53.9514,
+    59.8831
    ],
    "model": "models/props/cs_militia/crate_extrasmallmill.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 1.0545,
    "solid": 6,
-   "stand_in": "crate",
+   "stand_in": "lib/kenney_pirate-kit_crate-bottles",
    "yaw": 270.0
   },
   {
    "at": [
-    1.0519,
-    55.1652,
-    59.8829
+    1.0522,
+    55.1615,
+    59.8831
    ],
    "model": "models/props/cs_militia/crate_extrasmallmill.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 1.0545,
    "solid": 6,
-   "stand_in": "crate",
+   "stand_in": "lib/kenney_pirate-kit_crate-bottles",
    "yaw": 270.0
   },
   {
    "at": [
-    2.2711,
-    55.1652,
-    59.8829
+    2.2714,
+    55.1615,
+    59.8831
    ],
    "model": "models/props/cs_militia/crate_extrasmallmill.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 1.0545,
    "solid": 6,
-   "stand_in": "crate",
+   "stand_in": "lib/kenney_pirate-kit_crate-bottles",
    "yaw": 270.0
   },
   {
    "at": [
-    2.2711,
-    53.9551,
-    59.8829
+    2.2714,
+    53.9514,
+    59.8831
    ],
    "model": "models/props/cs_militia/crate_extrasmallmill.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 1.0545,
    "solid": 6,
-   "stand_in": "crate",
+   "stand_in": "lib/kenney_pirate-kit_crate-bottles",
    "yaw": 270.0
   },
   {
    "at": [
-    13.716,
-    53.946,
-    59.6259
+    13.7163,
+    53.9423,
+    59.6261
    ],
    "model": "models/props/cs_militia/crate_extrasmallmill.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 1.0545,
    "solid": 6,
-   "stand_in": "crate",
+   "stand_in": "lib/kenney_pirate-kit_crate-bottles",
    "yaw": 270.0
   },
   {
    "at": [
-    3.3528,
-    53.946,
-    68.58
+    3.3531,
+    53.9423,
+    68.5802
    ],
    "model": "models/props/cs_militia/crate_extrasmallmill.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 1.0545,
    "solid": 6,
-   "stand_in": "crate",
+   "stand_in": "lib/kenney_pirate-kit_crate-bottles",
    "yaw": 270.0
   },
   {
    "at": [
-    3.3528,
-    53.946,
-    67.3608
+    3.3531,
+    53.9423,
+    67.361
    ],
    "model": "models/props/cs_militia/crate_extrasmallmill.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 1.0545,
    "solid": 6,
-   "stand_in": "crate",
+   "stand_in": "lib/kenney_pirate-kit_crate-bottles",
    "yaw": 270.0
   },
   {
    "at": [
-    3.3528,
-    53.946,
-    66.1416
+    3.3531,
+    53.9423,
+    66.1418
    ],
    "model": "models/props/cs_militia/crate_extrasmallmill.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 1.0545,
    "solid": 6,
-   "stand_in": "crate",
+   "stand_in": "lib/kenney_pirate-kit_crate-bottles",
    "yaw": 270.0
   },
   {
    "at": [
-    8.8392,
-    53.946,
-    69.1896
+    8.8395,
+    53.9423,
+    69.1898
    ],
    "model": "models/props/cs_militia/crate_extrasmallmill.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 1.0545,
    "solid": 6,
-   "stand_in": "crate",
+   "stand_in": "lib/kenney_pirate-kit_crate-bottles",
    "yaw": 270.0
   },
   {
    "at": [
-    -2.0574,
-    -4.8826,
-    35.052
+    -2.0708,
+    -4.8821,
+    35.0386
    ],
    "model": "models/props/cs_office/bookshelf3.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 1.9887,
    "solid": 6,
-   "stand_in": "bookcase",
+   "stand_in": "lib/ph_Shelf_01",
    "yaw": 135.0
   },
   {
    "at": [
-    -5.334,
+    -5.3653,
     -4.8826,
-    37.8714
+    37.8401
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
-   "size": 1.8,
+   "shape": true,
+   "size": 1.7105,
    "solid": 6,
-   "stand_in": "fridge",
+   "stand_in": "lib/sf_red_japanese_vending_machine_a8a687",
    "yaw": 225.0
   },
   {
    "at": [
-    -4.4958,
+    -4.5271,
     -4.8826,
-    37.0332
+    37.0019
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
-   "size": 1.8,
+   "shape": true,
+   "size": 1.7105,
    "solid": 6,
-   "stand_in": "fridge",
+   "stand_in": "lib/sf_red_japanese_vending_machine_a8a687",
    "yaw": 225.0
   },
   {
@@ -20401,32 +20471,38 @@
    ],
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 2.0214,
    "solid": 6,
-   "stand_in": "sofa",
+   "stand_in": "lib/ph_sofa_02",
    "yaw": 135.0
   },
   {
    "at": [
-    -81.6864,
-    7.3207,
-    28.3464
+    -81.6861,
+    7.317,
+    28.3466
    ],
    "model": "models/props/cs_militia/crate_extrasmallmill.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 1.0545,
    "solid": 6,
-   "stand_in": "crate",
+   "stand_in": "lib/kenney_pirate-kit_crate-bottles",
    "yaw": 270.0
   },
   {
    "at": [
-    -83.5152,
-    10.9783,
-    49.6824
+    -83.5149,
+    10.9746,
+    49.6826
    ],
    "model": "models/props/cs_militia/crate_extrasmallmill.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 1.0545,
    "solid": 6,
-   "stand_in": "crate",
+   "stand_in": "lib/kenney_pirate-kit_crate-bottles",
    "yaw": 270.0
   },
   {
@@ -20437,9 +20513,11 @@
    ],
    "model": "models/props_wasteland/cargo_container01.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 6.1161,
    "solid": 6,
-   "stand_in": "crate_large",
-   "yaw": 165.0
+   "stand_in": "lib/sf_low_poly_cargo_container_27a114",
+   "yaw": 255.0
   },
   {
    "at": [
@@ -20449,9 +20527,11 @@
    ],
    "model": "models/props_wasteland/cargo_container01.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 6.1161,
    "solid": 6,
-   "stand_in": "crate_large",
-   "yaw": 165.0
+   "stand_in": "lib/sf_low_poly_cargo_container_27a114",
+   "yaw": 255.0
   },
   {
    "at": [
@@ -20461,32 +20541,38 @@
    ],
    "model": "models/props_wasteland/cargo_container01.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 6.1161,
    "solid": 6,
-   "stand_in": "crate_large",
-   "yaw": 165.0
+   "stand_in": "lib/sf_low_poly_cargo_container_27a114",
+   "yaw": 255.0
   },
   {
    "at": [
-    -62.484,
-    -0.0036,
-    11.43
+    -64.008,
+    -0.009,
+    12.0439
    ],
    "model": "models/props_industrial/warehouse_shelf001.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 3.1434,
    "solid": 6,
-   "stand_in": "bookcase",
+   "stand_in": "lib/ph_steel_frame_shelves_03",
    "yaw": 270.0
   },
   {
    "at": [
-    -67.3608,
-    -0.0036,
-    50.5968
+    -68.8848,
+    -0.009,
+    51.2107
    ],
    "model": "models/props_industrial/warehouse_shelf001.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 3.1434,
    "solid": 6,
-   "stand_in": "bookcase",
+   "stand_in": "lib/ph_steel_frame_shelves_03",
    "yaw": 270.0
   },
   {
@@ -20497,8 +20583,10 @@
    ],
    "model": "models/props_c17/light_cagelight01_on.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 0.5614,
    "solid": 6,
-   "stand_in": "ceiling_light",
+   "stand_in": "lib/ph_industrial_pipe_lamp",
    "yaw": 90.0
   },
   {
@@ -20509,8 +20597,10 @@
    ],
    "model": "models/props_c17/light_cagelight01_on.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 0.5614,
    "solid": 6,
-   "stand_in": "ceiling_light",
+   "stand_in": "lib/ph_industrial_pipe_lamp",
    "yaw": 270.0
   },
   {
@@ -20521,8 +20611,10 @@
    ],
    "model": "models/props_c17/light_cagelight01_on.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 0.5614,
    "solid": 6,
-   "stand_in": "ceiling_light",
+   "stand_in": "lib/ph_industrial_pipe_lamp",
    "yaw": 0.0
   },
   {
@@ -20533,8 +20625,10 @@
    ],
    "model": "models/props_c17/light_cagelight02_on.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 0.5614,
    "solid": 6,
-   "stand_in": "ceiling_light",
+   "stand_in": "lib/ph_industrial_pipe_lamp",
    "yaw": 180.0
   },
   {
@@ -20545,9 +20639,11 @@
    ],
    "model": "models/props_wasteland/cargo_container01.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 6.1161,
    "solid": 6,
-   "stand_in": "crate_large",
-   "yaw": 270.0
+   "stand_in": "lib/sf_low_poly_cargo_container_27a114",
+   "yaw": 360.0
   },
   {
    "at": [
@@ -20557,9 +20653,11 @@
    ],
    "model": "models/props_wasteland/cargo_container01.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 6.1161,
    "solid": 6,
-   "stand_in": "crate_large",
-   "yaw": 270.0
+   "stand_in": "lib/sf_low_poly_cargo_container_27a114",
+   "yaw": 360.0
   },
   {
    "at": [
@@ -20569,9 +20667,11 @@
    ],
    "model": "models/props_wasteland/cargo_container01.mdl",
    "scale": 1.0,
+   "shape": true,
+   "size": 6.1161,
    "solid": 6,
-   "stand_in": "crate_large",
-   "yaw": 270.0
+   "stand_in": "lib/sf_low_poly_cargo_container_27a114",
+   "yaw": 360.0
   }
  ],
  "scripts": [],

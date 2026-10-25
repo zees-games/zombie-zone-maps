@@ -5,13 +5,22 @@
  "sha256": "f3537730df38f4ec9ab4285b9da12078f81dfbddf2e8cc01018220411c599cdd",
  "textures": {
   "looked_up": 284,
+  "drawn": 286,
   "by_tier": {
-   "default": 284
+   "addon": 269,
+   "default": 15
   },
   "free_by_tier": {
-   "default": 21
+   "addon": 267,
+   "default": 14,
+   "nearest": 5
   },
-  "nearest_photo": []
+  "nearest_photo": [
+   "nature/blendconcretedirt001a",
+   "nature/blenddirtgrass008b",
+   "nature/blendrocksand008c",
+   "nature/blendrubbledirt001a"
+  ]
  },
  "models": {
   "looked_up": 222,

@@ -2,45 +2,109 @@
 
 Every texture of this map is a free replacement; the original map's textures and models are not used.
 
-- generated (flat): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
-- grass (grass): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Grass004
+- pbr (pbr_Ground014): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Ground014
+- pbr (pbr_grass_concrete_pavement): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/grass_concrete_pavement
 - generated (foliage_card): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
 - generated (water): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
-- ground (mud): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Ground037
-- rock (rock): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Rock023
-- wood_planks (wood_planks): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Planks039
-- metal (metal): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal063
-- stone_block (stone_wall): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Bricks076A
-- roof_clay (roof_clay): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=RoofingTiles014A
-- brick (brick_red): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Bricks097
-- wood_floor (wood_floor): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=WoodFloor041
+- pbr (pbr_raked_dirt): polyhaven, Dario Barresi, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/raked_dirt
+- pbr (pbr_Grass001): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Grass001
+- pbr (pbr_bicolour_gravel): polyhaven, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/bicolour_gravel
+- pbr (pbr_rock_ground_02): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/rock_ground_02
+- pbr (pbr_forrest_sand_01): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/forrest_sand_01
+- pbr (pbr_damp_beach_sand_02): polyhaven, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/damp_beach_sand_02
+- pbr (pbr_cobblestone_embedded_asphalt): polyhaven, Amal Kumar, CC0-1.0, https://polyhaven.com/a/cobblestone_embedded_asphalt
+- pbr (pbr_Planks013): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Planks013
+- pbr (pbr_Metal028): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal028
+- pbr (pbr_MetalPlates012): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalPlates012
+- pbr (pbr_dark_planks): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/dark_planks
+- pbr (pbr_flamed_black_veneer): polyhaven, Jenelle van Heerden, CC0-1.0, https://polyhaven.com/a/flamed_black_veneer
+- pbr (pbr_volcanic_herringbone_01): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/volcanic_herringbone_01
+- pbr (pbr_roof_tiles_14): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/roof_tiles_14
+- pbr (pbr_old_planks_02): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/old_planks_02
+- pbr (pbr_Wood016): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Wood016
+- pbr (pbr_Bricks035): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Bricks035
+- pbr (pbr_bark_willow): polyhaven, Dario Barresi, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/bark_willow
+- pbr (pbr_PavingStones039): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=PavingStones039
+- pbr (pbr_granite_tile_02): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/granite_tile_02
+- pbr (pbr_white_planks_clean): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/white_planks_clean
+- pbr (pbr_WoodSiding003): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=WoodSiding003
+- pbr (pbr_rusty_metal_02): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/rusty_metal_02
 - generated (glass): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
+- pbr (pbr_Ground094A): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Ground094A
 - generated (shield): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
+- pbr (pbr_PaintedPlaster017): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=PaintedPlaster017
+- pbr (pbr_Metal046B): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal046B
+- pbr (pbr_Grate001): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Grate001
+- pbr (pbr_corrugated_iron): polyhaven, Jenelle van Heerden, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/corrugated_iron
+- pbr (pbr_Metal001): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal001
+- pbr (pbr_Wood071): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Wood071
+- pbr (pbr_Wood051): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Wood051
+- pbr (pbr_Planks037B): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Planks037B
+- pbr (pbr_Rocks004): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Rocks004
+- pbr (pbr_DiamondPlate005B): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=DiamondPlate005B
 - generated (bars): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
+- pbr (pbr_WoodFloor048): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=WoodFloor048
 - generated (grate): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
+- pbr (pbr_dark_paneled_wood): polyhaven, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/dark_paneled_wood
+- pbr (pbr_old_wood_floor): polyhaven, Guillaume Monsergent, CC0-1.0, https://polyhaven.com/a/old_wood_floor
+- pbr (pbr_Planks023B): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Planks023B
+- pbr (pbr_Wood085B): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Wood085B
 - generated (fence): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
+- pbr (pbr_rusted_shutter): polyhaven, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/rusted_shutter
+- pbr (pbr_corrugated_iron_02): polyhaven, Jenelle van Heerden, Sergej Majboroda, CC0-1.0, https://polyhaven.com/a/corrugated_iron_02
+- pbr (pbr_weathered_planks): polyhaven, Dario Barresi, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/weathered_planks
+- pbr (pbr_jolcham_oak_bark_01): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/jolcham_oak_bark_01
+- pbr (pbr_cobblestone_floor_07): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/cobblestone_floor_07
+- pbr (pbr_Wood079): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Wood079
+- pbr (pbr_Bricks082B): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Bricks082B
+- pbr (pbr_old_mosaic_floor): polyhaven, Amal Kumar, CC0-1.0, https://polyhaven.com/a/old_mosaic_floor
+- pbr (pbr_Planks023A): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Planks023A
+- pbr (pbr_plank_flooring): polyhaven, Dario Barresi, Dimitrios Savva, Rico Cilliers, CC0-1.0, https://polyhaven.com/a/plank_flooring
+- pbr (pbr_Ground001): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Ground001
+- pbr (pbr_slate_floor_03): polyhaven, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/slate_floor_03
+- pbr (pbr_PaintedPlaster001): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=PaintedPlaster001
+- pbr (pbr_PaintedWood009C): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=PaintedWood009C
+- pbr (pbr_WoodSiding001): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=WoodSiding001
 
 # Model stand-ins
 
-- bookcase: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- bucket: Kenney Survival Kit, Kenney, CC0-1.0, https://kenney.nl/assets/survival-kit
-- bush: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
-- cardboard_box: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- ceiling_light: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- crate: Kenney Survival Kit, Kenney, CC0-1.0, https://kenney.nl/assets/survival-kit
-- factory/window: Kenney Factory Kit, Kenney, CC0-1.0, https://kenney.nl/assets/factory-kit
-- fence_post: Kenney Survival Kit, Kenney, CC0-1.0, https://kenney.nl/assets/survival-kit
-- fridge: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- graveyard/cross: Kenney Graveyard Kit, Kenney, CC0-1.0, https://kenney.nl/assets/graveyard-kit
-- graveyard/gravestone: Kenney Graveyard Kit, Kenney, CC0-1.0, https://kenney.nl/assets/graveyard-kit
-- log: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
-- pirate/palm: Kenney Pirate Kit, Kenney, CC0-1.0, https://kenney.nl/assets/pirate-kit
-- plant: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- prototype/ladder: Kenney Prototype Kit, Kenney, CC0-1.0, https://kenney.nl/assets/prototype-kit
-- rock: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
-- table: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- tree: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
-- vehicles/sedan: Kenney Car Kit, Kenney, CC0-1.0, https://kenney.nl/assets/car-kit
+- lib/kenney_building-kit_column-thin: Kenney Building Kit, Kenney, CC0-1.0, https://kenney.nl/assets/building-kit
+- lib/kenney_car-kit_sedan-sports: Kenney Car Kit, Kenney, CC0-1.0, https://kenney.nl/assets/car-kit
+- lib/kenney_furniture-kit_wallWindowSlide: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
+- lib/kenney_graveyard-kit_gravestone-wide: Kenney Graveyard Kit, Kenney, CC0-1.0, https://kenney.nl/assets/graveyard-kit
+- lib/kenney_nature-kit_cliff_cornerTop_rock: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
+- lib/kenney_nature-kit_cliff_diagonal_rock: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
+- lib/kenney_nature-kit_cliff_half_rock: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
+- lib/kenney_nature-kit_cliff_rock: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
+- lib/kenney_nature-kit_cliff_topDiagonal_rock: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
+- lib/kenney_pirate-kit_crate-bottles: Kenney Pirate Kit, Kenney, CC0-1.0, https://kenney.nl/assets/pirate-kit
+- lib/kenney_retro-urban-kit_tree-large: Kenney Retro Urban Kit, Kenney, CC0-1.0, https://kenney.nl/assets/retro-urban-kit
+- lib/ph_bolt_action_rifle_7_62: Poly Haven, Mateusz Sadek, CC0-1.0, https://polyhaven.com/a/bolt_action_rifle_7_62
+- lib/ph_boulder_01: Poly Haven, Rico Cilliers, CC0-1.0, https://polyhaven.com/a/boulder_01
+- lib/ph_brass_pot_02: Poly Haven, Rico Cilliers, CC0-1.0, https://polyhaven.com/a/brass_pot_02
+- lib/ph_bronze_whale_statue: Poly Haven, Tina, CC0-1.0, https://polyhaven.com/a/bronze_whale_statue
+- lib/ph_island_tree_01: Poly Haven, Rob Tuytel, Rico Cilliers, CC0-1.0, https://polyhaven.com/a/island_tree_01
+- lib/ph_island_tree_02: Poly Haven, Rob Tuytel, Rico Cilliers, CC0-1.0, https://polyhaven.com/a/island_tree_02
+- lib/ph_ladder_sectioned_01: Poly Haven, MP, CC0-1.0, https://polyhaven.com/a/ladder_sectioned_01
+- lib/ph_lantern_chandelier_01: Poly Haven, Kirill Sannikov, CC0-1.0, https://polyhaven.com/a/lantern_chandelier_01
+- lib/ph_namaqualand_boulder_02: Poly Haven, Greg Zaal, Rico Cilliers, CC0-1.0, https://polyhaven.com/a/namaqualand_boulder_02
+- lib/ph_namaqualand_boulder_03: Poly Haven, Jenelle van Heerden, Dario Barresi, CC0-1.0, https://polyhaven.com/a/namaqualand_boulder_03
+- lib/ph_namaqualand_boulder_04: Poly Haven, Jenelle van Heerden, CC0-1.0, https://polyhaven.com/a/namaqualand_boulder_04
+- lib/ph_namaqualand_cliff_02: Poly Haven, Dario Barresi, Rico Cilliers, CC0-1.0, https://polyhaven.com/a/namaqualand_cliff_02
+- lib/ph_rock_face_01: Poly Haven, Dario Barresi, CC0-1.0, https://polyhaven.com/a/rock_face_01
+- lib/ph_rubber_duck_toy: Poly Haven, Plat251, CC0-1.0, https://polyhaven.com/a/rubber_duck_toy
+- lib/ph_stone_fire_pit: Poly Haven, Sebastian Platen, CC0-1.0, https://polyhaven.com/a/stone_fire_pit
+- lib/ph_tree_small_02: Poly Haven, Rico Cilliers, CC0-1.0, https://polyhaven.com/a/tree_small_02
+- lib/ph_vintage_wooden_drawer_01: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/vintage_wooden_drawer_01
+- lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623: Sketchfab, Libau Media, CC-BY-4.0, https://sketchfab.com/3d-models/none-1986239266ee44c788fd6effe4055704
+- lib/sf_japan_vending_machine_soft_drink_431394: Sketchfab, ditovirnantio, CC-BY-4.0, https://sketchfab.com/3d-models/none-431394ee886141349e187fb8dcc2307a
+- lib/sf_leaf_tree_ps1_low_poly_d799c0: Sketchfab, Wersaus33, CC-BY-4.0, https://sketchfab.com/3d-models/none-d799c08100974e1ba352fcd646cb0694
+- lib/sf_oak_tree_6468dd: Sketchfab, evolveduk, CC-BY-4.0, https://sketchfab.com/3d-models/none-6468dd4d3eb240ef902b9057d9913606
+- lib/sf_oil_drum_61b602: Sketchfab, kubassa, CC-BY-4.0, https://sketchfab.com/3d-models/none-61b602b7e959408f9c6c5bf6392bc4b7
+- lib/sf_pine_tree_d45218: Sketchfab, evolveduk, CC-BY-4.0, https://sketchfab.com/3d-models/none-d45218a3fab349e5b1de040f29e7b6f9
+- lib/sf_pine_tree_ps1_low_poly_d71cee: Sketchfab, Wersaus33, CC-BY-4.0, https://sketchfab.com/3d-models/none-d71ceeb303644e649d09fe8038aa5e47
+- lib/sf_stylized_bush_9d9ce7: Sketchfab, Daniel, CC-BY-4.0, https://sketchfab.com/3d-models/none-9d9ce79d3ae040619e96d5b22c7de1a6
+- lib/sf_wooden_table_0dc1c7: Sketchfab, FlukierJupiter, CC-BY-4.0, https://sketchfab.com/3d-models/none-0dc1c7d6cbab4d74bef7c4f82abf2caf
 
 # Sound stand-ins
 

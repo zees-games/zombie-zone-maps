@@ -101,21 +101,7 @@ def trim(s, spec):
     is about the document's boxes only (it picks one box out of a stack), so it is not applied."""
     if s.sky3d or not (spec.get("cut") or spec.get("crop") or spec.get("world_crop")):
         return s
-    keep, remap = [], {}
-    for t in range(0, len(s.index), 3):
-        tri = s.index[t:t + 3]
-        c = [sum(s.verts[i][0][k] for i in tri) / 3.0 for k in range(3)]
-        if _dropped(c, spec):
-            continue
-        for i in tri:
-            if i not in remap:
-                remap[i] = len(remap)
-            keep.append(remap[i])
-    verts = [None] * len(remap)
-    for old, new in remap.items():
-        verts[new] = s.verts[old]
-    s.verts, s.index = verts, keep
-    return s
+    return s.retain(lambda c: not _dropped(c, spec))    # Surface.retain keeps uv2 and alpha with the vertices
 
 
 def _centre(rec):

@@ -88,20 +88,36 @@ Every texture of this map is a free replacement; the original map's textures and
 
 # Model stand-ins
 
-- bed: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- cabinet: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- cardboard_box: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- ceiling_light: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- chair: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- desk: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- factory/pipe: Kenney Factory Kit, Kenney, CC0-1.0, https://kenney.nl/assets/factory-kit
-- fence: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
-- fridge: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- monitor: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- pirate/bottle: Kenney Pirate Kit, Kenney, CC0-1.0, https://kenney.nl/assets/pirate-kit
-- rock: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
+- lib/kenney_factory-kit_conveyor-bars-fence: Kenney Factory Kit, Kenney, CC0-1.0, https://kenney.nl/assets/factory-kit
+- lib/kenney_graveyard-kit_iron-fence-border-gate: Kenney Graveyard Kit, Kenney, CC0-1.0, https://kenney.nl/assets/graveyard-kit
+- lib/kenney_mini-arcade_arcade-machine: Kenney Mini Arcade, Kenney, CC0-1.0, https://kenney.nl/assets/mini-arcade
+- lib/kenney_nature-kit_fence_gate: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
+- lib/kenney_pirate-kit_crate-bottles: Kenney Pirate Kit, Kenney, CC0-1.0, https://kenney.nl/assets/pirate-kit
+- lib/kenney_pirate-kit_structure-fence-sides: Kenney Pirate Kit, Kenney, CC0-1.0, https://kenney.nl/assets/pirate-kit
+- lib/own_box_17x28x34_e8e8e0: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
+- lib/ph_Camera_01: Poly Haven, Rajil Jose Macatangay, CC0-1.0, https://polyhaven.com/a/Camera_01
+- lib/ph_ClassicConsole_01: Poly Haven, Kirill Sannikov, CC0-1.0, https://polyhaven.com/a/ClassicConsole_01
+- lib/ph_WoodenTable_01: Poly Haven, Ethan Place, CC0-1.0, https://polyhaven.com/a/WoodenTable_01
+- lib/ph_bleach_bottle: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/bleach_bottle
+- lib/ph_bolt_action_rifle_7_62: Poly Haven, Mateusz Sadek, CC0-1.0, https://polyhaven.com/a/bolt_action_rifle_7_62
+- lib/ph_electric_stove: Poly Haven, Kuutti Siitonen, CC0-1.0, https://polyhaven.com/a/electric_stove
+- lib/ph_gallinera_chair: Poly Haven, Ulan Cabanilla, CC0-1.0, https://polyhaven.com/a/gallinera_chair
+- lib/ph_hanging_picture_frame_02: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/hanging_picture_frame_02
+- lib/ph_industrial_pipe_lamp: Poly Haven, Mateusz Sadek, CC0-1.0, https://polyhaven.com/a/industrial_pipe_lamp
+- lib/ph_leather_cleaner_can: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/leather_cleaner_can
+- lib/ph_modular_airduct_circular_01: Poly Haven, Riley Queen, CC0-1.0, https://polyhaven.com/a/modular_airduct_circular_01
+- lib/ph_modular_airduct_rectangular_01: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/modular_airduct_rectangular_01
+- lib/ph_namaqualand_boulder_03: Poly Haven, Jenelle van Heerden, Dario Barresi, CC0-1.0, https://polyhaven.com/a/namaqualand_boulder_03
+- lib/ph_old_tyre: Poly Haven, MP, CC0-1.0, https://polyhaven.com/a/old_tyre
+- lib/ph_plastic_crate_01: Poly Haven, PierreB3D, CC0-1.0, https://polyhaven.com/a/plastic_crate_01
+- lib/ph_propane_tank: Poly Haven, Slinc, CC0-1.0, https://polyhaven.com/a/propane_tank
+- lib/ph_television_02: Poly Haven, Benny Weimer, CC0-1.0, https://polyhaven.com/a/television_02
+- lib/ph_utility_box_02: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/utility_box_02
+- lib/ph_vintage_day_bed: Poly Haven, Aron Łyczek, CC0-1.0, https://polyhaven.com/a/vintage_day_bed
+- lib/sf_bus_station_8c984e: Sketchfab, turtlesomber, CC-BY-4.0, https://sketchfab.com/3d-models/none-8c984e73fa274c49a444f9991444d542
+- lib/sf_japan_vending_machine_soft_drink_431394: Sketchfab, ditovirnantio, CC-BY-4.0, https://sketchfab.com/3d-models/none-431394ee886141349e187fb8dcc2307a
+- lib/sf_old_fridge_6b2862: Sketchfab, sergeilihandristov, CC-BY-4.0, https://sketchfab.com/3d-models/none-6b2862c241754f5d81690e8664e41091
 - space/machine_generator: Kenney Space Kit, Kenney, CC0-1.0, https://kenney.nl/assets/space-kit
-- stove: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
 
 # Sound stand-ins
 

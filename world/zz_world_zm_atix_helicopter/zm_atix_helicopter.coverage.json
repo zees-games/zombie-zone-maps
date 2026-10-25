@@ -5,22 +5,16 @@
  "sha256": "10712a929fb156433c57b4827cc1c64901e303cbc99b376a126019d3fbb04a09",
  "textures": {
   "looked_up": 182,
+  "drawn": 182,
   "by_tier": {
-   "default": 176,
-   "fallback": 6
+   "addon": 170,
+   "default": 12
   },
   "free_by_tier": {
-   "default": 20,
-   "fallback": 5
+   "addon": 170,
+   "default": 12
   },
-  "nearest_photo": [
-   "bestbuy/dvdrack",
-   "mcdonalds/drivethrusign",
-   "models/props/cs_militia/soap_rope",
-   "models/props/de_tides/menu_stand",
-   "models/props/de_tides/tides_sign_b",
-   "models/props/de_train/light_inset"
-  ]
+  "nearest_photo": []
  },
  "models": {
   "looked_up": 56,
@@ -68,14 +62,7 @@
   "unresolved": 1
  },
  "lists": {
-  "textures_unmapped": [
-   "BESTBUY/DVDRACK",
-   "MCDONALDS/DRIVETHRUSIGN",
-   "MODELS/PROPS/CS_MILITIA/SOAP_ROPE",
-   "MODELS/PROPS/DE_TIDES/MENU_STAND",
-   "MODELS/PROPS/DE_TIDES/TIDES_SIGN_B",
-   "MODELS/PROPS/DE_TRAIN/LIGHT_INSET"
-  ],
+  "textures_unmapped": [],
   "textures_flat": [],
   "models_unmapped": [],
   "sounds_unmapped": [
@@ -96,7 +83,7 @@
   ]
  },
  "counts": {
-  "textures_unmapped": 6,
+  "textures_unmapped": 0,
   "textures_flat": 0,
   "models_unmapped": 0,
   "sounds_unmapped": 2,
