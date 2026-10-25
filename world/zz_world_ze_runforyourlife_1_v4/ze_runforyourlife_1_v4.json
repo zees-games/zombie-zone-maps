@@ -2689,7 +2689,7 @@
    },
    {
     "author": "Kenney",
-    "count": 18,
+    "count": 19,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -2770,7 +2770,7 @@
    },
    {
     "author": "Kenney",
-    "count": 26,
+    "count": 22,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Nature Kit",
@@ -2827,7 +2827,7 @@
    {
     "count": 1,
     "model": "models/player/zh/zh_zombie003.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
@@ -2882,7 +2882,7 @@
    {
     "count": 1,
     "model": "models/props/cs_office/exit_wall.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "ceiling_light"
    },
    {
     "count": 1,
@@ -2952,7 +2952,7 @@
    {
     "count": 4,
     "model": "models/props_docks/dock_bumper01b_256.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 2,
@@ -3122,12 +3122,12 @@
    {
     "count": 1,
     "model": "models/props_wasteland/rockcliff_cluster01a.mdl",
-    "stand_in": "rock"
+    "stand_in": "detail"
    },
    {
     "count": 3,
     "model": "models/props_wasteland/rockcliff_cluster02b.mdl",
-    "stand_in": "rock"
+    "stand_in": "detail"
    },
    {
     "count": 6,
@@ -5147,6 +5147,7 @@
    ],
    "model": "models/props/cs_office/shelves_metal1.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bookcase",
    "yaw": 0.0
   },
@@ -5202,6 +5203,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 89.0
   },
@@ -5213,6 +5215,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 89.0
   },
@@ -5224,6 +5227,7 @@
    ],
    "model": "models/props_interiors/vendingmachinesoda01a.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 0.0
   },
@@ -5301,6 +5305,7 @@
    ],
    "model": "models/props_lab/reciever_cart.mdl",
    "scale": 1.0,
+   "size": 1.2,
    "stand_in": "cabinet",
    "yaw": 179.5
   },
@@ -5334,6 +5339,7 @@
    ],
    "model": "models/props/cs_office/shelves_metal1.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bookcase",
    "yaw": 0.0
   },
@@ -8232,6 +8238,18 @@
   },
   {
    "at": [
+    -47.5678,
+    25.3746,
+    -108.0326
+   ],
+   "model": "models/props/cs_office/exit_wall.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "ceiling_light",
+   "yaw": 86.5
+  },
+  {
+   "at": [
     -51.4731,
     31.7564,
     -113.3285
@@ -8889,50 +8907,6 @@
    "scale": 1.0,
    "stand_in": "rock",
    "yaw": 0.0
-  },
-  {
-   "at": [
-    20.4978,
-    0.7239,
-    -2.7623
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    -3.6576,
-    0.7239,
-    -4.0957
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster02b.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 85.5
-  },
-  {
-   "at": [
-    7.601,
-    0.7239,
-    -4.191
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster02b.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    -63.5699,
-    10.997,
-    -22.86
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster02b.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 353.0
   },
   {
    "at": [

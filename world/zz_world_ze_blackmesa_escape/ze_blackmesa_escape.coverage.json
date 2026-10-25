@@ -9,15 +9,14 @@
    "default": 56
   },
   "free_by_tier": {
-   "default": 9
+   "default": 11
   },
   "nearest_photo": []
  },
  "models": {
-  "looked_up": 16,
+  "looked_up": 12,
   "by_tier": {
-   "default": 8,
-   "fallback": 8
+   "default": 12
   }
  },
  "sounds": {
@@ -38,156 +37,7 @@
   "catalogue": true,
   "unmapped": {
    "ambient_generic": [
-    "cspinup",
-    "fadeinsecs",
-    "fadeoutsecs",
-    "health",
-    "lfomodpitch",
-    "lfomodvol",
-    "lforate",
-    "lfotype",
-    "pitch",
-    "pitchstart",
-    "preset",
-    "spindown",
-    "spinup",
-    "volstart"
-   ],
-   "env_fade": [
-    "renderamt",
-    "rendercolor"
-   ],
-   "filter_activator_team": [
-    "Negated"
-   ],
-   "func_breakable": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "material",
-    "nodamageforces",
-    "spawnobject"
-   ],
-   "func_button": [
-    "disablereceiveshadows"
-   ],
-   "func_door": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "locked_sentence",
-    "unlocked_sentence"
-   ],
-   "func_illusionary": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "spawnflags"
-   ],
-   "func_movelinear": [
-    "disablereceiveshadows"
-   ],
-   "func_physbox": [
-    "ExplodeDamage",
-    "ExplodeRadius",
-    "PerformanceMode",
-    "disablereceiveshadows",
-    "disableshadows",
-    "explodemagnitude",
-    "explosion",
-    "gibdir",
-    "health",
-    "material",
-    "nodamageforces",
-    "pressuredelay",
-    "propdata",
-    "renderamt",
-    "rendercolor",
-    "renderfx",
-    "rendermode",
-    "spawnobject"
-   ],
-   "func_rotating": [
-    "disablereceiveshadows",
-    "disableshadows"
-   ],
-   "func_tracktrain": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "speed",
-    "volume"
-   ],
-   "light_spot": [
-    "_cone",
-    "_exponent",
-    "_inner_cone",
     "pitch"
-   ],
-   "path_track": [
-    "speed"
-   ],
-   "point_spotlight": [
-    "disablereceiveshadows"
-   ],
-   "prop_dynamic": [
-    "SetBodyGroup",
-    "disablereceiveshadows",
-    "disableshadows",
-    "fademaxdist",
-    "fademindist",
-    "fadescale",
-    "solid"
-   ],
-   "prop_physics_multiplayer": [
-    "Damagetype",
-    "ExplodeDamage",
-    "ExplodeRadius",
-    "PerformanceMode",
-    "damagetoenablemotion",
-    "disablereceiveshadows",
-    "disableshadows",
-    "fademaxdist",
-    "fademindist",
-    "fadescale",
-    "forcetoenablemotion",
-    "inertiaScale",
-    "massScale",
-    "maxdxlevel",
-    "mindxlevel",
-    "minhealthdmg",
-    "nodamageforces",
-    "physdamagescale",
-    "pressuredelay",
-    "renderamt",
-    "rendercolor",
-    "renderfx",
-    "rendermode",
-    "shadowcastdist",
-    "skin",
-    "spawnflags"
-   ],
-   "prop_physics_override": [
-    "Damagetype",
-    "ExplodeDamage",
-    "ExplodeRadius",
-    "PerformanceMode",
-    "damagetoenablemotion",
-    "disableshadows",
-    "fademaxdist",
-    "fademindist",
-    "fadescale",
-    "forcetoenablemotion",
-    "inertiaScale",
-    "massScale",
-    "maxdxlevel",
-    "mindxlevel",
-    "minhealthdmg",
-    "nodamageforces",
-    "physdamagescale",
-    "pressuredelay",
-    "shadowcastdist",
-    "skin",
-    "spawnflags"
-   ],
-   "trigger_push": [
-    "speed"
    ]
   }
  },
@@ -198,16 +48,7 @@
  "lists": {
   "textures_unmapped": [],
   "textures_flat": [],
-  "models_unmapped": [
-   "combine_soldier.mdl",
-   "gman.mdl",
-   "props/cs_assault/consolepanelloadingbay.mdl",
-   "props/cs_assault/forklift.mdl",
-   "props/de_train/de_train_securityguard.mdl",
-   "props_lab/securitybank.mdl",
-   "props_lab/walllight001a.mdl",
-   "zombie/classic.mdl"
-  ],
+  "models_unmapped": [],
   "sounds_unmapped": [
    "hl1/fvox/evacuate_area.wav",
    "hl1/fvox/immediately.wav",
@@ -219,132 +60,17 @@
   ],
   "classes_unmapped": [],
   "keys_unmapped": [
-   "ambient_generic.cspinup",
-   "ambient_generic.fadeinsecs",
-   "ambient_generic.fadeoutsecs",
-   "ambient_generic.health",
-   "ambient_generic.lfomodpitch",
-   "ambient_generic.lfomodvol",
-   "ambient_generic.lforate",
-   "ambient_generic.lfotype",
-   "ambient_generic.pitch",
-   "ambient_generic.pitchstart",
-   "ambient_generic.preset",
-   "ambient_generic.spindown",
-   "ambient_generic.spinup",
-   "ambient_generic.volstart",
-   "env_fade.renderamt",
-   "env_fade.rendercolor",
-   "filter_activator_team.Negated",
-   "func_breakable.disablereceiveshadows",
-   "func_breakable.disableshadows",
-   "func_breakable.material",
-   "func_breakable.nodamageforces",
-   "func_breakable.spawnobject",
-   "func_button.disablereceiveshadows",
-   "func_door.disablereceiveshadows",
-   "func_door.disableshadows",
-   "func_door.locked_sentence",
-   "func_door.unlocked_sentence",
-   "func_illusionary.disablereceiveshadows",
-   "func_illusionary.disableshadows",
-   "func_illusionary.spawnflags",
-   "func_movelinear.disablereceiveshadows",
-   "func_physbox.ExplodeDamage",
-   "func_physbox.ExplodeRadius",
-   "func_physbox.PerformanceMode",
-   "func_physbox.disablereceiveshadows",
-   "func_physbox.disableshadows",
-   "func_physbox.explodemagnitude",
-   "func_physbox.explosion",
-   "func_physbox.gibdir",
-   "func_physbox.health",
-   "func_physbox.material",
-   "func_physbox.nodamageforces",
-   "func_physbox.pressuredelay",
-   "func_physbox.propdata",
-   "func_physbox.renderamt",
-   "func_physbox.rendercolor",
-   "func_physbox.renderfx",
-   "func_physbox.rendermode",
-   "func_physbox.spawnobject",
-   "func_rotating.disablereceiveshadows",
-   "func_rotating.disableshadows",
-   "func_tracktrain.disablereceiveshadows",
-   "func_tracktrain.disableshadows",
-   "func_tracktrain.speed",
-   "func_tracktrain.volume",
-   "light_spot._cone",
-   "light_spot._exponent",
-   "light_spot._inner_cone",
-   "light_spot.pitch",
-   "path_track.speed",
-   "point_spotlight.disablereceiveshadows",
-   "prop_dynamic.SetBodyGroup",
-   "prop_dynamic.disablereceiveshadows",
-   "prop_dynamic.disableshadows",
-   "prop_dynamic.fademaxdist",
-   "prop_dynamic.fademindist",
-   "prop_dynamic.fadescale",
-   "prop_dynamic.solid",
-   "prop_physics_multiplayer.Damagetype",
-   "prop_physics_multiplayer.ExplodeDamage",
-   "prop_physics_multiplayer.ExplodeRadius",
-   "prop_physics_multiplayer.PerformanceMode",
-   "prop_physics_multiplayer.damagetoenablemotion",
-   "prop_physics_multiplayer.disablereceiveshadows",
-   "prop_physics_multiplayer.disableshadows",
-   "prop_physics_multiplayer.fademaxdist",
-   "prop_physics_multiplayer.fademindist",
-   "prop_physics_multiplayer.fadescale",
-   "prop_physics_multiplayer.forcetoenablemotion",
-   "prop_physics_multiplayer.inertiaScale",
-   "prop_physics_multiplayer.massScale",
-   "prop_physics_multiplayer.maxdxlevel",
-   "prop_physics_multiplayer.mindxlevel",
-   "prop_physics_multiplayer.minhealthdmg",
-   "prop_physics_multiplayer.nodamageforces",
-   "prop_physics_multiplayer.physdamagescale",
-   "prop_physics_multiplayer.pressuredelay",
-   "prop_physics_multiplayer.renderamt",
-   "prop_physics_multiplayer.rendercolor",
-   "prop_physics_multiplayer.renderfx",
-   "prop_physics_multiplayer.rendermode",
-   "prop_physics_multiplayer.shadowcastdist",
-   "prop_physics_multiplayer.skin",
-   "prop_physics_multiplayer.spawnflags",
-   "prop_physics_override.Damagetype",
-   "prop_physics_override.ExplodeDamage",
-   "prop_physics_override.ExplodeRadius",
-   "prop_physics_override.PerformanceMode",
-   "prop_physics_override.damagetoenablemotion",
-   "prop_physics_override.disableshadows",
-   "prop_physics_override.fademaxdist",
-   "prop_physics_override.fademindist",
-   "prop_physics_override.fadescale",
-   "prop_physics_override.forcetoenablemotion",
-   "prop_physics_override.inertiaScale",
-   "prop_physics_override.massScale",
-   "prop_physics_override.maxdxlevel",
-   "prop_physics_override.mindxlevel",
-   "prop_physics_override.minhealthdmg",
-   "prop_physics_override.nodamageforces",
-   "prop_physics_override.physdamagescale",
-   "prop_physics_override.pressuredelay",
-   "prop_physics_override.shadowcastdist",
-   "prop_physics_override.skin",
-   "prop_physics_override.spawnflags",
-   "trigger_push.speed"
+   "ambient_generic.pitch"
   ],
   "links_unresolved": []
  },
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 8,
+  "models_unmapped": 0,
   "sounds_unmapped": 7,
   "classes_unmapped": 0,
-  "keys_unmapped": 116,
+  "keys_unmapped": 1,
   "links_unresolved": 0
  }
 }

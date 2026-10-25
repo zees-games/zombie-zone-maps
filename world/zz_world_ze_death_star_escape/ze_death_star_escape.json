@@ -245,6 +245,7 @@
   "first_import": null,
   "licence": "CC BY-NC-ND 4.0",
   "missing": [],
+  "no_share_check": "2026-10-23, ask: CC BY-NC-ND 4.0; page licence checklist: redistribute/modify/reuse = ask the author, commercial use = no; no further restriction in the description (https://gamebanana.com/mods/130692)",
   "page": "https://gamebanana.com/mods/130692"
  },
  "destinations": {
@@ -63931,7 +63932,7 @@
    },
    {
     "author": "Kenney",
-    "count": 32,
+    "count": 48,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -63940,7 +63941,7 @@
    },
    {
     "author": "Kenney",
-    "count": 3,
+    "count": 13,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -63967,15 +63968,6 @@
    },
    {
     "author": "Kenney",
-    "count": 10,
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Kenney Survival Kit",
-    "stand_in": "crate",
-    "url": "https://kenney.nl/assets/survival-kit"
-   },
-   {
-    "author": "Kenney",
     "count": 3,
     "files": [],
     "licence": "CC0-1.0",
@@ -63985,7 +63977,7 @@
    },
    {
     "author": "Kenney",
-    "count": 34,
+    "count": 4,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Factory Kit",
@@ -63994,7 +63986,7 @@
    },
    {
     "author": "Kenney",
-    "count": 10,
+    "count": 12,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Nature Kit",
@@ -64021,7 +64013,7 @@
    },
    {
     "author": "Kenney",
-    "count": 15,
+    "count": 30,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Pirate Kit",
@@ -64039,6 +64031,15 @@
    },
    {
     "author": "Kenney",
+    "count": 3,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Space Kit",
+    "stand_in": "space/machine_generator",
+    "url": "https://kenney.nl/assets/space-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 1,
     "files": [],
     "licence": "CC0-1.0",
@@ -64051,12 +64052,12 @@
    {
     "count": 8,
     "model": "models/items/ammocrate_ar2.mdl",
-    "stand_in": "crate"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 2,
     "model": "models/items/ammocrate_grenade.mdl",
-    "stand_in": "crate"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 3,
@@ -64066,12 +64067,12 @@
    {
     "count": 10,
     "model": "models/props/cs_assault/consolepanelloadingbay.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 2,
     "model": "models/props/cs_assault/wall_vent.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 15,
@@ -64101,7 +64102,7 @@
    {
     "count": 1,
     "model": "models/props/de_nuke/craneb.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "space/machine_generator"
    },
    {
     "count": 1,
@@ -64136,7 +64137,7 @@
    {
     "count": 1,
     "model": "models/props_c17/substation_stripebox01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 2,
@@ -64146,12 +64147,12 @@
    {
     "count": 3,
     "model": "models/props_canal/generator01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 1,
     "model": "models/props_citizen_tech/steamengine001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "space/machine_generator"
    },
    {
     "count": 7,
@@ -64161,7 +64162,7 @@
    {
     "count": 2,
     "model": "models/props_combine/combine_bridge.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "fence"
    },
    {
     "count": 2,
@@ -64196,7 +64197,7 @@
    {
     "count": 3,
     "model": "models/props_combine/weaponstripper.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 2,
@@ -64206,7 +64207,7 @@
    {
     "count": 15,
     "model": "models/props_junk/glassbottle01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "pirate/bottle"
    },
    {
     "count": 1,
@@ -64216,32 +64217,32 @@
    {
     "count": 5,
     "model": "models/props_pipes/pipecluster08d_001a.mdl",
-    "stand_in": "factory/pipe"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_pipes/pipecluster08d_006a.mdl",
-    "stand_in": "factory/pipe"
+    "stand_in": "detail"
    },
    {
     "count": 2,
     "model": "models/props_pipes/pipecluster16d_002a.mdl",
-    "stand_in": "factory/pipe"
+    "stand_in": "detail"
    },
    {
     "count": 20,
     "model": "models/props_pipes/pipecluster32d_001a.mdl",
-    "stand_in": "factory/pipe"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_pipes/pipecluster32d_002a.mdl",
-    "stand_in": "factory/pipe"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_pipes/pipecluster32d_003a.mdl",
-    "stand_in": "factory/pipe"
+    "stand_in": "detail"
    },
    {
     "count": 1,
@@ -64251,12 +64252,12 @@
    {
     "count": 1,
     "model": "models/props_vents/vent_large_corner002.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_vents/vent_large_straight001.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 3,
@@ -64266,7 +64267,7 @@
    {
     "count": 1,
     "model": "models/props_wasteland/cranemagnet01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "space/machine_generator"
    },
    {
     "count": 3,
@@ -64291,20 +64292,21 @@
    {
     "count": 1,
     "model": "models/zombie/classic.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/zombie/fast.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/zombie/poison.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    }
   ],
   "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
+  "skipped_skybox_models": 0,
   "sounds": [
    {
     "author": "TMC (dot-audio authors)",
@@ -64476,12 +64478,12 @@
     "key": "generated:flat:000000",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "cs_italy/black"
     ],
     "surfaces": 21,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -64520,13 +64522,13 @@
     "key": "generated:glass:002020",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "glass/combineglass001a",
      "glass/glasswindow070c"
     ],
     "surfaces": 55,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -64562,12 +64564,12 @@
     "key": "generated:shield:608080",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "effects/combine_binocoverlay"
     ],
     "surfaces": 5,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -64582,12 +64584,12 @@
     "key": "generated:shield:604040",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "models/props_combine/tprings_globe_dx60"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -64602,7 +64604,7 @@
     "key": "generated:water:808080",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "liquids/militiawater",
      "liquids/militiawaterbeneath",
@@ -64614,7 +64616,7 @@
      "nature/water_canals_waterbeneath2"
     ],
     "surfaces": 11,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -64629,12 +64631,12 @@
     "key": "generated:grate:202000",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "effects/metaltruss022b"
     ],
     "surfaces": 2,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -64649,13 +64651,13 @@
     "key": "generated:flat:dfdfdf",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "lights/white001",
      "lights/white001_nochop"
     ],
     "surfaces": 15,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -64670,12 +64672,12 @@
     "key": "generated:flat:202020",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "models/props_combine/breentp_sheet"
     ],
     "surfaces": 7,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -64711,12 +64713,12 @@
     "key": "generated:shield:404040",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "effects/combineshield/comshieldwall2"
     ],
     "surfaces": 5,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -64731,12 +64733,12 @@
     "key": "generated:flat:bf4040",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "sprites/combineball_glow_red_1"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -64793,12 +64795,12 @@
     "key": "generated:flat:9f6040",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "effects/exit1"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -64813,12 +64815,12 @@
     "key": "generated:flat:bfbfbf",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "lights/physgunlight"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -64833,12 +64835,12 @@
     "key": "generated:grate:606060",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "metal/metalvent003a"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -64853,12 +64855,12 @@
     "key": "generated:flat:4040bf",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "sprites/combineball_glow_blue_1"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -64873,12 +64875,12 @@
     "key": "generated:grate:808080",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "de_nuke/nuke_metalvent"
     ],
     "surfaces": 4,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -64893,12 +64895,12 @@
     "key": "generated:shield:004040",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "effects/com_shield004a"
     ],
     "surfaces": 4,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -64933,12 +64935,12 @@
     "key": "generated:flat:409fbf",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "effects/prisonmap_disp"
     ],
     "surfaces": 2,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -64953,12 +64955,12 @@
     "key": "generated:shield:40609f",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "effects/blueblacklargebeam"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -64973,12 +64975,12 @@
     "key": "generated:flat:808080",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "dev/dev_tvmonitornonoise"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -64993,12 +64995,12 @@
     "key": "generated:shield:bf2000",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "effects/laserplane"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -65013,12 +65015,12 @@
     "key": "generated:flat:606060",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "cs_italy/culighta"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -65033,12 +65035,12 @@
     "key": "generated:flat:609fbf",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "effects/combinedisplay001a"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    }
   ]
  },
@@ -81137,7 +81139,9 @@
    ],
    "model": "models/items/ammocrate_ar2.mdl",
    "scale": 1.0,
-   "stand_in": "crate",
+   "size": 0.15,
+   "solid": 6,
+   "stand_in": "cardboard_box",
    "yaw": 90.0
   },
   {
@@ -81148,7 +81152,9 @@
    ],
    "model": "models/items/ammocrate_ar2.mdl",
    "scale": 1.0,
-   "stand_in": "crate",
+   "size": 0.15,
+   "solid": 6,
+   "stand_in": "cardboard_box",
    "yaw": 90.0
   },
   {
@@ -81159,7 +81165,9 @@
    ],
    "model": "models/items/ammocrate_ar2.mdl",
    "scale": 1.0,
-   "stand_in": "crate",
+   "size": 0.15,
+   "solid": 6,
+   "stand_in": "cardboard_box",
    "yaw": 269.0
   },
   {
@@ -81170,7 +81178,9 @@
    ],
    "model": "models/items/ammocrate_ar2.mdl",
    "scale": 1.0,
-   "stand_in": "crate",
+   "size": 0.15,
+   "solid": 6,
+   "stand_in": "cardboard_box",
    "yaw": 269.0
   },
   {
@@ -81181,7 +81191,9 @@
    ],
    "model": "models/items/ammocrate_ar2.mdl",
    "scale": 1.0,
-   "stand_in": "crate",
+   "size": 0.15,
+   "solid": 6,
+   "stand_in": "cardboard_box",
    "yaw": 270.0
   },
   {
@@ -81192,7 +81204,9 @@
    ],
    "model": "models/items/ammocrate_ar2.mdl",
    "scale": 1.0,
-   "stand_in": "crate",
+   "size": 0.15,
+   "solid": 6,
+   "stand_in": "cardboard_box",
    "yaw": 270.0
   },
   {
@@ -81203,7 +81217,9 @@
    ],
    "model": "models/items/ammocrate_ar2.mdl",
    "scale": 1.0,
-   "stand_in": "crate",
+   "size": 0.15,
+   "solid": 6,
+   "stand_in": "cardboard_box",
    "yaw": 89.0
   },
   {
@@ -81214,7 +81230,9 @@
    ],
    "model": "models/items/ammocrate_ar2.mdl",
    "scale": 1.0,
-   "stand_in": "crate",
+   "size": 0.15,
+   "solid": 6,
+   "stand_in": "cardboard_box",
    "yaw": 89.0
   },
   {
@@ -81226,6 +81244,7 @@
    "model": "models/props/cs_assault/camera.mdl",
    "scale": 1.0,
    "size": 0.2,
+   "solid": 6,
    "stand_in": "cardboard_box",
    "yaw": 92.0
   },
@@ -81238,6 +81257,7 @@
    "model": "models/props/cs_assault/camera.mdl",
    "scale": 1.0,
    "size": 0.2,
+   "solid": 6,
    "stand_in": "cardboard_box",
    "yaw": 272.0
   },
@@ -81250,30 +81270,9 @@
    "model": "models/props/cs_assault/camera.mdl",
    "scale": 1.0,
    "size": 0.2,
+   "solid": 6,
    "stand_in": "cardboard_box",
    "yaw": 91.0
-  },
-  {
-   "at": [
-    31.4706,
-    1.524,
-    -198.52
-   ],
-   "model": "models/props_pipes/pipecluster32d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 56.0
-  },
-  {
-   "at": [
-    42.4625,
-    1.5152,
-    -198.2152
-   ],
-   "model": "models/props_pipes/pipecluster32d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 124.5
   },
   {
    "at": [
@@ -81283,72 +81282,7 @@
    ],
    "model": "models/props_pipes/valvewheel002a.mdl",
    "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 180.0
-  },
-  {
-   "at": [
-    7.9248,
-    3.5814,
-    -207.7212
-   ],
-   "model": "models/props_pipes/pipecluster32d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 315.5
-  },
-  {
-   "at": [
-    2.4384,
-    3.5814,
-    -202.2348
-   ],
-   "model": "models/props_pipes/pipecluster32d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 315.5
-  },
-  {
-   "at": [
-    26.3652,
-    -3.7338,
-    -182.88
-   ],
-   "model": "models/props_pipes/pipecluster32d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 225.5
-  },
-  {
-   "at": [
-    20.8788,
-    -3.7338,
-    -188.3664
-   ],
-   "model": "models/props_pipes/pipecluster32d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 225.5
-  },
-  {
-   "at": [
-    24.9174,
-    -3.7058,
-    -164.2872
-   ],
-   "model": "models/props_pipes/pipecluster32d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    29.1846,
-    -5.8674,
-    -172.212
-   ],
-   "model": "models/props_pipes/pipecluster32d_001a.mdl",
-   "scale": 1.0,
+   "solid": 6,
    "stand_in": "factory/pipe",
    "yaw": 180.0
   },
@@ -81360,30 +81294,35 @@
    ],
    "model": "models/props_wasteland/controlroom_desk001a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "desk",
    "yaw": 318.5
   },
   {
    "at": [
-    -20.4216,
-    6.2484,
-    -192.786
+    -12.8016,
+    2.4384,
+    -210.312
    ],
-   "model": "models/props_pipes/pipecluster32d_003a.mdl",
+   "model": "models/props_combine/combine_bridge.mdl",
    "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 0.0
+   "size": 8.0,
+   "solid": 6,
+   "stand_in": "fence",
+   "yaw": 270.0
   },
   {
    "at": [
-    -16.9164,
-    6.077,
-    -193.7004
+    -12.8016,
+    2.4384,
+    -222.504
    ],
-   "model": "models/props_pipes/pipecluster32d_002a.mdl",
+   "model": "models/props_combine/combine_bridge.mdl",
    "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 0.0
+   "size": 8.0,
+   "solid": 6,
+   "stand_in": "fence",
+   "yaw": 90.0
   },
   {
    "at": [
@@ -81393,6 +81332,7 @@
    ],
    "model": "models/props_combine/combine_interface001.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "cabinet",
    "yaw": 90.0
   },
@@ -81404,6 +81344,7 @@
    ],
    "model": "models/props/de_prodigy/wall_console1.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "cabinet",
    "yaw": 270.0
   },
@@ -81415,6 +81356,7 @@
    ],
    "model": "models/props/de_prodigy/wall_console1.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "cabinet",
    "yaw": 270.0
   },
@@ -81426,30 +81368,9 @@
    ],
    "model": "models/props/de_prodigy/wall_console1.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "cabinet",
    "yaw": 270.0
-  },
-  {
-   "at": [
-    -14.9352,
-    -24.9936,
-    -241.7064
-   ],
-   "model": "models/props/cs_militia/wallconcreterubble.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    -15.5448,
-    -24.9936,
-    -243.2304
-   ],
-   "model": "models/props/cs_militia/wallconcreterubble.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 184.5
   },
   {
    "at": [
@@ -81459,85 +81380,9 @@
    ],
    "model": "models/props_wasteland/prison_cagedlight001a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
-  },
-  {
-   "at": [
-    1.2954,
-    1.5152,
-    -110.4138
-   ],
-   "model": "models/props_pipes/pipecluster32d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    1.2954,
-    1.5152,
-    -112.2426
-   ],
-   "model": "models/props_pipes/pipecluster32d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    14.097,
-    1.5152,
-    -143.3322
-   ],
-   "model": "models/props_pipes/pipecluster32d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    -4.1813,
-    1.5152,
-    -54.864
-   ],
-   "model": "models/props_pipes/pipecluster32d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    -15.2213,
-    1.5152,
-    -60.4329
-   ],
-   "model": "models/props_pipes/pipecluster32d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    -15.2213,
-    1.5152,
-    -58.9089
-   ],
-   "model": "models/props_pipes/pipecluster32d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    -26.8287,
-    1.5152,
-    -23.2597
-   ],
-   "model": "models/props_pipes/pipecluster32d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 90.0
   },
   {
    "at": [
@@ -81547,6 +81392,7 @@
    ],
    "model": "models/props_lab/eyescanner.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "cabinet",
    "yaw": 0.0
   },
@@ -81596,6 +81442,66 @@
   },
   {
    "at": [
+    -89.5312,
+    1.273,
+    -17.0688
+   ],
+   "model": "models/props_junk/glassbottle01a.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -89.1224,
+    1.2719,
+    -16.9768
+   ],
+   "model": "models/props_junk/glassbottle01a.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -87.9855,
+    1.2719,
+    -17.3175
+   ],
+   "model": "models/props_junk/glassbottle01a.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -86.8752,
+    1.2719,
+    -18.6703
+   ],
+   "model": "models/props_junk/glassbottle01a.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -86.7552,
+    1.2719,
+    -20.1976
+   ],
+   "model": "models/props_junk/glassbottle01a.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
     -86.3317,
     1.143,
     -19.2596
@@ -81603,6 +81509,42 @@
    "model": "models/props/cs_militia/bottle02.mdl",
    "scale": 1.0,
    "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -88.6953,
+    1.2719,
+    -11.3237
+   ],
+   "model": "models/props_junk/glassbottle01a.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -89.5638,
+    1.2719,
+    -11.7268
+   ],
+   "model": "models/props_junk/glassbottle01a.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -89.76,
+    1.2719,
+    -6.1317
+   ],
+   "model": "models/props_junk/glassbottle01a.mdl",
+   "scale": 1.0,
+   "size": 0.3,
    "stand_in": "pirate/bottle",
    "yaw": 272.0
   },
@@ -81716,6 +81658,30 @@
   },
   {
    "at": [
+    -72.5338,
+    1.2719,
+    -5.7235
+   ],
+   "model": "models/props_junk/glassbottle01a.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -73.8445,
+    1.2719,
+    -11.5643
+   ],
+   "model": "models/props_junk/glassbottle01a.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
     -73.6283,
     1.1481,
     -17.0905
@@ -81761,6 +81727,18 @@
   },
   {
    "at": [
+    -78.868,
+    1.3481,
+    -3.8194
+   ],
+   "model": "models/props_junk/glassbottle01a.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
     -80.3693,
     1.1671,
     -13.1158
@@ -81768,6 +81746,42 @@
    "model": "models/props/cs_militia/bottle02.mdl",
    "scale": 1.0,
    "size": 0.28,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -80.7289,
+    1.291,
+    -13.0645
+   ],
+   "model": "models/props_junk/glassbottle01a.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -79.0863,
+    1.291,
+    -11.5849
+   ],
+   "model": "models/props_junk/glassbottle01a.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
+    -82.2122,
+    1.291,
+    -12.6708
+   ],
+   "model": "models/props_junk/glassbottle01a.mdl",
+   "scale": 1.0,
+   "size": 0.3,
    "stand_in": "pirate/bottle",
    "yaw": 272.0
   },
@@ -81797,6 +81811,18 @@
   },
   {
    "at": [
+    -83.2778,
+    1.291,
+    -4.0199
+   ],
+   "model": "models/props_junk/glassbottle01a.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "pirate/bottle",
+   "yaw": 272.0
+  },
+  {
+   "at": [
     -78.8923,
     1.1671,
     -6.4656
@@ -81809,68 +81835,15 @@
   },
   {
    "at": [
-    -71.4756,
-    1.5152,
-    -22.6314
-   ],
-   "model": "models/props_pipes/pipecluster32d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    -77.5716,
-    1.5152,
-    -27.3558
-   ],
-   "model": "models/props_pipes/pipecluster32d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 270.5
-  },
-  {
-   "at": [
-    -74.676,
-    1.5152,
-    5.4102
-   ],
-   "model": "models/props_pipes/pipecluster32d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    -76.2,
-    1.5152,
-    5.4102
-   ],
-   "model": "models/props_pipes/pipecluster32d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    -56.5976,
-    1.5152,
-    13.5827
-   ],
-   "model": "models/props_pipes/pipecluster32d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 0.0
-  },
-  {
-   "at": [
     -97.1152,
     0.762,
     83.7526
    ],
    "model": "models/items/ammocrate_grenade.mdl",
    "scale": 1.0,
-   "stand_in": "crate",
+   "size": 0.15,
+   "solid": 6,
+   "stand_in": "cardboard_box",
    "yaw": 263.0
   },
   {
@@ -81881,8 +81854,36 @@
    ],
    "model": "models/items/ammocrate_grenade.mdl",
    "scale": 1.0,
-   "stand_in": "crate",
+   "size": 0.15,
+   "solid": 6,
+   "stand_in": "cardboard_box",
    "yaw": 263.0
+  },
+  {
+   "at": [
+    -81.0768,
+    10.668,
+    97.6122
+   ],
+   "model": "models/props_wasteland/cranemagnet01a.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "solid": 6,
+   "stand_in": "space/machine_generator",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    97.0788,
+    40.6146,
+    36.4998
+   ],
+   "model": "models/props/de_nuke/craneb.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "solid": 6,
+   "stand_in": "space/machine_generator",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -82238,6 +82239,17 @@
   },
   {
    "at": [
+    34.29,
+    0.6858,
+    -223.8756
+   ],
+   "model": "models/props/cs_assault/consolepanelloadingbay.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     37.189,
     3.5869,
     -221.2791
@@ -82254,6 +82266,17 @@
     -205.2447
    ],
    "model": "models/props/de_prodigy/wall_console3.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    22.098,
+    0.6912,
+    -205.2828
+   ],
+   "model": "models/props/cs_assault/consolepanelloadingbay.mdl",
    "scale": 1.0,
    "stand_in": "cabinet",
    "yaw": 90.0
@@ -82345,6 +82368,39 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 90.0
+  },
+  {
+   "at": [
+    32.9184,
+    -6.6246,
+    -168.7068
+   ],
+   "model": "models/props/cs_assault/consolepanelloadingbay.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 270.5
+  },
+  {
+   "at": [
+    37.1856,
+    -6.6246,
+    -168.7068
+   ],
+   "model": "models/props/cs_assault/consolepanelloadingbay.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 270.5
+  },
+  {
+   "at": [
+    41.4528,
+    -6.6246,
+    -168.7068
+   ],
+   "model": "models/props/cs_assault/consolepanelloadingbay.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 270.5
   },
   {
    "at": [
@@ -82447,6 +82503,28 @@
   },
   {
    "at": [
+    -6.9723,
+    1.8288,
+    -216.408
+   ],
+   "model": "models/props_combine/weaponstripper.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -36.8999,
+    1.8288,
+    -216.4271
+   ],
+   "model": "models/props_combine/weaponstripper.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -10.2055,
     5.1723,
     -221.9058
@@ -82477,6 +82555,28 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 90.0
+  },
+  {
+   "at": [
+    -32.6136,
+    8.382,
+    -206.3496
+   ],
+   "model": "models/props/cs_assault/consolepanelloadingbay.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -27.432,
+    8.382,
+    -206.3496
+   ],
+   "model": "models/props/cs_assault/consolepanelloadingbay.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -82777,50 +82877,6 @@
   },
   {
    "at": [
-    -9.7917,
-    6.4008,
-    -38.9382
-   ],
-   "model": "models/props_pipes/pipecluster08d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 270.0
-  },
-  {
-   "at": [
-    -26.4795,
-    4.8248,
-    -116.967
-   ],
-   "model": "models/props_pipes/pipecluster08d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 270.0
-  },
-  {
-   "at": [
-    -22.0218,
-    5.3823,
-    -107.8992
-   ],
-   "model": "models/props_pipes/pipecluster08d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 180.0
-  },
-  {
-   "at": [
-    -31.8897,
-    9.0824,
-    -244.983
-   ],
-   "model": "models/props_pipes/pipecluster08d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 270.0
-  },
-  {
-   "at": [
     17.8308,
     0.8382,
     -100.7364
@@ -82832,13 +82888,13 @@
   },
   {
    "at": [
-    -27.9654,
-    3.429,
-    -122.2248
+    -23.7744,
+    -0.6096,
+    -126.1872
    ],
-   "model": "models/props_pipes/pipecluster08d_001a.mdl",
+   "model": "models/props_combine/weaponstripper.mdl",
    "scale": 1.0,
-   "stand_in": "factory/pipe",
+   "stand_in": "cabinet",
    "yaw": 0.0
   },
   {
@@ -82906,17 +82962,6 @@
    "scale": 1.0,
    "stand_in": "cabinet",
    "yaw": 270.0
-  },
-  {
-   "at": [
-    -13.6398,
-    1.0603,
-    -19.812
-   ],
-   "model": "models/props_pipes/pipecluster16d_002a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 90.0
   },
   {
    "at": [
@@ -83140,6 +83185,17 @@
   },
   {
    "at": [
+    -77.8764,
+    0.6912,
+    79.5528
+   ],
+   "model": "models/props/cs_assault/consolepanelloadingbay.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -77.9145,
     0.3102,
     78.3336
@@ -83156,6 +83212,17 @@
     80.8863
    ],
    "model": "models/props/de_prodigy/wall_console3.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -90.0684,
+    0.6912,
+    79.7052
+   ],
+   "model": "models/props/cs_assault/consolepanelloadingbay.mdl",
    "scale": 1.0,
    "stand_in": "cabinet",
    "yaw": 0.0
@@ -83250,14 +83317,39 @@
   },
   {
    "at": [
-    -47.8536,
-    8.8729,
-    82.9818
+    -54.0258,
+    1.6764,
+    85.1916
    ],
-   "model": "models/props_pipes/pipecluster08d_006a.mdl",
+   "model": "models/props_canal/generator01.mdl",
    "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 270.0
+   "size": 1.6,
+   "stand_in": "cabinet",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -48.0822,
+    1.6764,
+    85.1916
+   ],
+   "model": "models/props_canal/generator01.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "stand_in": "cabinet",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -42.291,
+    1.7024,
+    85.1916
+   ],
+   "model": "models/props_canal/generator01.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "stand_in": "cabinet",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -83272,6 +83364,18 @@
   },
   {
    "at": [
+    -12.4968,
+    0.9144,
+    85.6488
+   ],
+   "model": "models/props_citizen_tech/steamengine001a.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "stand_in": "space/machine_generator",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     -16.6116,
     4.7264,
     82.9109
@@ -83283,14 +83387,14 @@
   },
   {
    "at": [
-    -35.9664,
-    1.0668,
-    83.2104
+    -12.0396,
+    7.3968,
+    79.7052
    ],
-   "model": "models/props_pipes/pipecluster16d_002a.mdl",
+   "model": "models/props/cs_assault/consolepanelloadingbay.mdl",
    "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 270.0
+   "stand_in": "cabinet",
+   "yaw": 0.0
   },
   {
    "at": [

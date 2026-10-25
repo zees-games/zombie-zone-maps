@@ -6,25 +6,22 @@
  "textures": {
   "looked_up": 76,
   "by_tier": {
-   "default": 72,
-   "fallback": 4
+   "default": 74,
+   "fallback": 2
   },
   "free_by_tier": {
-   "default": 12,
-   "fallback": 3
+   "default": 15,
+   "fallback": 2
   },
   "nearest_photo": [
    "custom/white",
-   "spongebob/box2",
-   "spongebob/boxpatty2",
    "spongebob/credit"
   ]
  },
  "models": {
-  "looked_up": 96,
+  "looked_up": 87,
   "by_tier": {
-   "default": 71,
-   "fallback": 25
+   "default": 87
   }
  },
  "sounds": {
@@ -44,181 +41,17 @@
   "catalogue": true,
   "unmapped": {
    "ambient_generic": [
-    "cspinup",
-    "fadeinsecs",
-    "fadeoutsecs",
-    "health",
-    "lfomodpitch",
-    "lfomodvol",
-    "lforate",
-    "lfotype",
-    "pitch",
-    "pitchstart",
-    "preset",
-    "spindown",
-    "spinup",
-    "volstart"
-   ],
-   "env_sprite": [
-    "disablereceiveshadows"
-   ],
-   "filter_activator_name": [
-    "Negated"
-   ],
-   "func_areaportalwindow": [
-    "spawnflags"
-   ],
-   "func_breakable": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "material",
-    "nodamageforces",
-    "spawnobject"
-   ],
-   "func_brush": [
-    "InputFilter",
-    "disablereceiveshadows",
-    "disableshadows",
-    "vrad_brush_cast_shadows"
-   ],
-   "func_button": [
-    "disablereceiveshadows"
-   ],
-   "func_door": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "locked_sentence",
-    "unlocked_sentence"
-   ],
-   "func_door_rotating": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "locked_sentence",
-    "unlocked_sentence"
-   ],
-   "func_illusionary": [
-    "disablereceiveshadows",
-    "disableshadows"
-   ],
-   "func_movelinear": [
-    "disablereceiveshadows"
-   ],
-   "func_reflective_glass": [
-    "InputFilter",
-    "Solidity",
-    "StartDisabled",
-    "disablereceiveshadows",
-    "disableshadows",
-    "invert_exclusion",
-    "renderamt",
-    "rendercolor",
-    "renderfx",
-    "rendermode",
-    "solidbsp",
-    "spawnflags",
-    "vrad_brush_cast_shadows"
-   ],
-   "func_rotating": [
-    "disablereceiveshadows",
-    "disableshadows"
+    "pitch"
    ],
    "point_viewcontrol": [
     "acceleration",
-    "deceleration",
-    "speed"
-   ],
-   "prop_door_rotating": [
-    "disableshadows",
-    "dmg",
-    "speed"
-   ],
-   "prop_dynamic": [
-    "SetBodyGroup",
-    "disablereceiveshadows",
-    "disableshadows",
-    "fademaxdist",
-    "fademindist",
-    "fadescale",
-    "solid"
-   ],
-   "prop_dynamic_override": [
-    "SetBodyGroup",
-    "disablereceiveshadows",
-    "disableshadows",
-    "fademaxdist",
-    "fademindist",
-    "fadescale",
-    "solid"
-   ],
-   "prop_physics": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "nodamageforces",
-    "shadowcastdist"
-   ],
-   "prop_physics_multiplayer": [
-    "Damagetype",
-    "ExplodeDamage",
-    "ExplodeRadius",
-    "PerformanceMode",
-    "damagetoenablemotion",
-    "disablereceiveshadows",
-    "disableshadows",
-    "fademaxdist",
-    "fademindist",
-    "fadescale",
-    "forcetoenablemotion",
-    "inertiaScale",
-    "massScale",
-    "maxdxlevel",
-    "mindxlevel",
-    "minhealthdmg",
-    "nodamageforces",
-    "physdamagescale",
-    "pressuredelay",
-    "renderamt",
-    "rendercolor",
-    "renderfx",
-    "rendermode",
-    "shadowcastdist",
-    "skin",
-    "spawnflags"
-   ],
-   "prop_physics_override": [
-    "Damagetype",
-    "ExplodeDamage",
-    "ExplodeRadius",
-    "PerformanceMode",
-    "damagetoenablemotion",
-    "disableshadows",
-    "fademaxdist",
-    "fademindist",
-    "fadescale",
-    "forcetoenablemotion",
-    "inertiaScale",
-    "massScale",
-    "maxdxlevel",
-    "mindxlevel",
-    "minhealthdmg",
-    "nodamageforces",
-    "physdamagescale",
-    "pressuredelay",
-    "shadowcastdist",
-    "skin",
-    "spawnflags"
-   ],
-   "trigger_push": [
-    "speed"
+    "deceleration"
    ],
    "weapon_deagle": [
     "ammo"
    ],
    "weapon_scout": [
-    "ammo",
-    "spawnflags"
-   ],
-   "worldspawn": [
-    "mapversion"
+    "ammo"
    ]
   }
  },
@@ -229,170 +62,18 @@
  "lists": {
   "textures_unmapped": [
    "CUSTOM/WHITE",
-   "SPONGEBOB/BOX2",
-   "SPONGEBOB/BOXPATTY2",
    "SPONGEBOB/CREDIT"
   ],
   "textures_flat": [],
-  "models_unmapped": [
-   "firewavezzmodels/anker2.mdl",
-   "firewavezzmodels/ankerbig.mdl",
-   "firewavezzmodels/cargocontainer_green.mdl",
-   "firewavezzmodels/clock2.mdl",
-   "firewavezzmodels/jellyfish2.mdl",
-   "firewavezzmodels/metaldoor1.mdl",
-   "firewavezzmodels/woodenghostroof.mdl",
-   "firewavezzmodels/woodtunnel.mdl",
-   "player/zh/zh_zombie003.mdl",
-   "props/cs_assault/dollar.mdl",
-   "props/cs_italy/winerack_small.mdl",
-   "props/de_dust/du_antenna_b.mdl",
-   "props/de_nuke/clock.mdl",
-   "props/de_nuke/lifepreserver.mdl",
-   "props/de_prodigy/lighthanging.mdl",
-   "props/de_prodigy/spoolwire.mdl",
-   "props_citizen_tech/firetrap_button01a.mdl",
-   "props_combine/breenglobe.mdl",
-   "props_junk/glassjug01.mdl",
-   "spongebob/ketchup.mdl",
-   "spongebob/mustard.mdl",
-   "spongebob/patty.mdl",
-   "spongebob/post.mdl",
-   "spongebob/relish.mdl",
-   "zombie/classic_torso.mdl"
-  ],
+  "models_unmapped": [],
   "sounds_unmapped": [],
   "classes_unmapped": [],
   "keys_unmapped": [
-   "ambient_generic.cspinup",
-   "ambient_generic.fadeinsecs",
-   "ambient_generic.fadeoutsecs",
-   "ambient_generic.health",
-   "ambient_generic.lfomodpitch",
-   "ambient_generic.lfomodvol",
-   "ambient_generic.lforate",
-   "ambient_generic.lfotype",
    "ambient_generic.pitch",
-   "ambient_generic.pitchstart",
-   "ambient_generic.preset",
-   "ambient_generic.spindown",
-   "ambient_generic.spinup",
-   "ambient_generic.volstart",
-   "env_sprite.disablereceiveshadows",
-   "filter_activator_name.Negated",
-   "func_areaportalwindow.spawnflags",
-   "func_breakable.disablereceiveshadows",
-   "func_breakable.disableshadows",
-   "func_breakable.material",
-   "func_breakable.nodamageforces",
-   "func_breakable.spawnobject",
-   "func_brush.InputFilter",
-   "func_brush.disablereceiveshadows",
-   "func_brush.disableshadows",
-   "func_brush.vrad_brush_cast_shadows",
-   "func_button.disablereceiveshadows",
-   "func_door.disablereceiveshadows",
-   "func_door.disableshadows",
-   "func_door.locked_sentence",
-   "func_door.unlocked_sentence",
-   "func_door_rotating.disablereceiveshadows",
-   "func_door_rotating.disableshadows",
-   "func_door_rotating.locked_sentence",
-   "func_door_rotating.unlocked_sentence",
-   "func_illusionary.disablereceiveshadows",
-   "func_illusionary.disableshadows",
-   "func_movelinear.disablereceiveshadows",
-   "func_reflective_glass.InputFilter",
-   "func_reflective_glass.Solidity",
-   "func_reflective_glass.StartDisabled",
-   "func_reflective_glass.disablereceiveshadows",
-   "func_reflective_glass.disableshadows",
-   "func_reflective_glass.invert_exclusion",
-   "func_reflective_glass.renderamt",
-   "func_reflective_glass.rendercolor",
-   "func_reflective_glass.renderfx",
-   "func_reflective_glass.rendermode",
-   "func_reflective_glass.solidbsp",
-   "func_reflective_glass.spawnflags",
-   "func_reflective_glass.vrad_brush_cast_shadows",
-   "func_rotating.disablereceiveshadows",
-   "func_rotating.disableshadows",
    "point_viewcontrol.acceleration",
    "point_viewcontrol.deceleration",
-   "point_viewcontrol.speed",
-   "prop_door_rotating.disableshadows",
-   "prop_door_rotating.dmg",
-   "prop_door_rotating.speed",
-   "prop_dynamic.SetBodyGroup",
-   "prop_dynamic.disablereceiveshadows",
-   "prop_dynamic.disableshadows",
-   "prop_dynamic.fademaxdist",
-   "prop_dynamic.fademindist",
-   "prop_dynamic.fadescale",
-   "prop_dynamic.solid",
-   "prop_dynamic_override.SetBodyGroup",
-   "prop_dynamic_override.disablereceiveshadows",
-   "prop_dynamic_override.disableshadows",
-   "prop_dynamic_override.fademaxdist",
-   "prop_dynamic_override.fademindist",
-   "prop_dynamic_override.fadescale",
-   "prop_dynamic_override.solid",
-   "prop_physics.disablereceiveshadows",
-   "prop_physics.disableshadows",
-   "prop_physics.nodamageforces",
-   "prop_physics.shadowcastdist",
-   "prop_physics_multiplayer.Damagetype",
-   "prop_physics_multiplayer.ExplodeDamage",
-   "prop_physics_multiplayer.ExplodeRadius",
-   "prop_physics_multiplayer.PerformanceMode",
-   "prop_physics_multiplayer.damagetoenablemotion",
-   "prop_physics_multiplayer.disablereceiveshadows",
-   "prop_physics_multiplayer.disableshadows",
-   "prop_physics_multiplayer.fademaxdist",
-   "prop_physics_multiplayer.fademindist",
-   "prop_physics_multiplayer.fadescale",
-   "prop_physics_multiplayer.forcetoenablemotion",
-   "prop_physics_multiplayer.inertiaScale",
-   "prop_physics_multiplayer.massScale",
-   "prop_physics_multiplayer.maxdxlevel",
-   "prop_physics_multiplayer.mindxlevel",
-   "prop_physics_multiplayer.minhealthdmg",
-   "prop_physics_multiplayer.nodamageforces",
-   "prop_physics_multiplayer.physdamagescale",
-   "prop_physics_multiplayer.pressuredelay",
-   "prop_physics_multiplayer.renderamt",
-   "prop_physics_multiplayer.rendercolor",
-   "prop_physics_multiplayer.renderfx",
-   "prop_physics_multiplayer.rendermode",
-   "prop_physics_multiplayer.shadowcastdist",
-   "prop_physics_multiplayer.skin",
-   "prop_physics_multiplayer.spawnflags",
-   "prop_physics_override.Damagetype",
-   "prop_physics_override.ExplodeDamage",
-   "prop_physics_override.ExplodeRadius",
-   "prop_physics_override.PerformanceMode",
-   "prop_physics_override.damagetoenablemotion",
-   "prop_physics_override.disableshadows",
-   "prop_physics_override.fademaxdist",
-   "prop_physics_override.fademindist",
-   "prop_physics_override.fadescale",
-   "prop_physics_override.forcetoenablemotion",
-   "prop_physics_override.inertiaScale",
-   "prop_physics_override.massScale",
-   "prop_physics_override.maxdxlevel",
-   "prop_physics_override.mindxlevel",
-   "prop_physics_override.minhealthdmg",
-   "prop_physics_override.nodamageforces",
-   "prop_physics_override.physdamagescale",
-   "prop_physics_override.pressuredelay",
-   "prop_physics_override.shadowcastdist",
-   "prop_physics_override.skin",
-   "prop_physics_override.spawnflags",
-   "trigger_push.speed",
    "weapon_deagle.ammo",
-   "weapon_scout.ammo",
-   "weapon_scout.spawnflags",
-   "worldspawn.mapversion"
+   "weapon_scout.ammo"
   ],
   "links_unresolved": [
    "weapon_hegrenade.OnPlayerPickup->secret_happy_nade_rotating1",
@@ -401,12 +82,12 @@
   ]
  },
  "counts": {
-  "textures_unmapped": 4,
+  "textures_unmapped": 2,
   "textures_flat": 0,
-  "models_unmapped": 25,
+  "models_unmapped": 0,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
-  "keys_unmapped": 129,
+  "keys_unmapped": 5,
   "links_unresolved": 3
  }
 }

@@ -9,15 +9,14 @@
    "default": 80
   },
   "free_by_tier": {
-   "default": 13
+   "default": 18
   },
   "nearest_photo": []
  },
  "models": {
-  "looked_up": 58,
+  "looked_up": 55,
   "by_tier": {
-   "default": 53,
-   "fallback": 5
+   "default": 55
   }
  },
  "sounds": {
@@ -38,162 +37,18 @@
   "catalogue": true,
   "unmapped": {
    "ambient_generic": [
-    "cspinup",
-    "fadeinsecs",
-    "fadeoutsecs",
-    "health",
-    "lfomodpitch",
-    "lfomodvol",
-    "lforate",
-    "lfotype",
-    "pitch",
-    "pitchstart",
-    "preset",
-    "spindown",
-    "spinup",
-    "volstart"
-   ],
-   "env_sprite": [
-    "disablereceiveshadows"
-   ],
-   "filter_activator_team": [
-    "Negated"
-   ],
-   "func_breakable": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "material",
-    "nodamageforces",
-    "spawnobject"
-   ],
-   "func_brush": [
-    "InputFilter",
-    "disablereceiveshadows",
-    "disableshadows",
-    "vrad_brush_cast_shadows"
-   ],
-   "func_button": [
-    "disablereceiveshadows"
-   ],
-   "func_door": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "locked_sentence",
-    "unlocked_sentence"
-   ],
-   "func_door_rotating": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "locked_sentence",
-    "unlocked_sentence"
-   ],
-   "func_illusionary": [
-    "disablereceiveshadows",
-    "disableshadows"
-   ],
-   "func_physbox_multiplayer": [
-    "Damagetype",
-    "ExplodeDamage",
-    "ExplodeRadius",
-    "PerformanceMode",
-    "damagetoenablemotion",
-    "disablereceiveshadows",
-    "disableshadows",
-    "explodemagnitude",
-    "explosion",
-    "forcetoenablemotion",
-    "gibdir",
-    "health",
-    "massScale",
-    "material",
-    "nodamageforces",
-    "notsolid",
-    "preferredcarryangles",
-    "pressuredelay",
-    "propdata",
-    "renderamt",
-    "rendercolor",
-    "renderfx",
-    "rendermode",
-    "spawnflags",
-    "spawnobject"
+    "pitch"
    ],
    "func_rot_button": [
     "StartDisabled"
    ],
-   "func_rotating": [
-    "disablereceiveshadows",
-    "disableshadows"
-   ],
-   "func_tracktrain": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "speed",
-    "volume"
-   ],
-   "func_wall_toggle": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "renderamt",
-    "rendercolor",
-    "renderfx",
-    "rendermode"
-   ],
-   "path_track": [
-    "speed"
-   ],
    "player_speedmod": [
     "orientationtype",
-    "radius",
-    "speed"
+    "radius"
    ],
    "point_viewcontrol": [
     "acceleration",
-    "deceleration",
-    "speed"
-   ],
-   "prop_dynamic": [
-    "SetBodyGroup",
-    "disablereceiveshadows",
-    "disableshadows",
-    "fademaxdist",
-    "fademindist",
-    "fadescale",
-    "solid"
-   ],
-   "prop_physics_multiplayer": [
-    "Damagetype",
-    "ExplodeDamage",
-    "ExplodeRadius",
-    "PerformanceMode",
-    "damagetoenablemotion",
-    "disablereceiveshadows",
-    "disableshadows",
-    "fademaxdist",
-    "fademindist",
-    "fadescale",
-    "forcetoenablemotion",
-    "inertiaScale",
-    "massScale",
-    "maxdxlevel",
-    "mindxlevel",
-    "minhealthdmg",
-    "nodamageforces",
-    "physdamagescale",
-    "pressuredelay",
-    "renderamt",
-    "rendercolor",
-    "renderfx",
-    "rendermode",
-    "shadowcastdist",
-    "skin",
-    "spawnflags"
-   ],
-   "trigger_push": [
-    "speed"
-   ],
-   "worldspawn": [
-    "mapversion"
+    "deceleration"
    ]
   }
  },
@@ -204,145 +59,29 @@
  "lists": {
   "textures_unmapped": [],
   "textures_flat": [],
-  "models_unmapped": [
-   "parrot.mdl",
-   "props/pi_arch128x32.mdl",
-   "props/piratehat.mdl",
-   "props_canal/canalmap001.mdl",
-   "props_docks/dockpole01a.mdl"
-  ],
+  "models_unmapped": [],
   "sounds_unmapped": [
    "ambient/levels/coast/seagulls_ambient1.wav",
    "ambient/levels/coast/seagulls_ambient5.wav"
   ],
   "classes_unmapped": [],
   "keys_unmapped": [
-   "ambient_generic.cspinup",
-   "ambient_generic.fadeinsecs",
-   "ambient_generic.fadeoutsecs",
-   "ambient_generic.health",
-   "ambient_generic.lfomodpitch",
-   "ambient_generic.lfomodvol",
-   "ambient_generic.lforate",
-   "ambient_generic.lfotype",
    "ambient_generic.pitch",
-   "ambient_generic.pitchstart",
-   "ambient_generic.preset",
-   "ambient_generic.spindown",
-   "ambient_generic.spinup",
-   "ambient_generic.volstart",
-   "env_sprite.disablereceiveshadows",
-   "filter_activator_team.Negated",
-   "func_breakable.disablereceiveshadows",
-   "func_breakable.disableshadows",
-   "func_breakable.material",
-   "func_breakable.nodamageforces",
-   "func_breakable.spawnobject",
-   "func_brush.InputFilter",
-   "func_brush.disablereceiveshadows",
-   "func_brush.disableshadows",
-   "func_brush.vrad_brush_cast_shadows",
-   "func_button.disablereceiveshadows",
-   "func_door.disablereceiveshadows",
-   "func_door.disableshadows",
-   "func_door.locked_sentence",
-   "func_door.unlocked_sentence",
-   "func_door_rotating.disablereceiveshadows",
-   "func_door_rotating.disableshadows",
-   "func_door_rotating.locked_sentence",
-   "func_door_rotating.unlocked_sentence",
-   "func_illusionary.disablereceiveshadows",
-   "func_illusionary.disableshadows",
-   "func_physbox_multiplayer.Damagetype",
-   "func_physbox_multiplayer.ExplodeDamage",
-   "func_physbox_multiplayer.ExplodeRadius",
-   "func_physbox_multiplayer.PerformanceMode",
-   "func_physbox_multiplayer.damagetoenablemotion",
-   "func_physbox_multiplayer.disablereceiveshadows",
-   "func_physbox_multiplayer.disableshadows",
-   "func_physbox_multiplayer.explodemagnitude",
-   "func_physbox_multiplayer.explosion",
-   "func_physbox_multiplayer.forcetoenablemotion",
-   "func_physbox_multiplayer.gibdir",
-   "func_physbox_multiplayer.health",
-   "func_physbox_multiplayer.massScale",
-   "func_physbox_multiplayer.material",
-   "func_physbox_multiplayer.nodamageforces",
-   "func_physbox_multiplayer.notsolid",
-   "func_physbox_multiplayer.preferredcarryangles",
-   "func_physbox_multiplayer.pressuredelay",
-   "func_physbox_multiplayer.propdata",
-   "func_physbox_multiplayer.renderamt",
-   "func_physbox_multiplayer.rendercolor",
-   "func_physbox_multiplayer.renderfx",
-   "func_physbox_multiplayer.rendermode",
-   "func_physbox_multiplayer.spawnflags",
-   "func_physbox_multiplayer.spawnobject",
    "func_rot_button.StartDisabled",
-   "func_rotating.disablereceiveshadows",
-   "func_rotating.disableshadows",
-   "func_tracktrain.disablereceiveshadows",
-   "func_tracktrain.disableshadows",
-   "func_tracktrain.speed",
-   "func_tracktrain.volume",
-   "func_wall_toggle.disablereceiveshadows",
-   "func_wall_toggle.disableshadows",
-   "func_wall_toggle.renderamt",
-   "func_wall_toggle.rendercolor",
-   "func_wall_toggle.renderfx",
-   "func_wall_toggle.rendermode",
-   "path_track.speed",
    "player_speedmod.orientationtype",
    "player_speedmod.radius",
-   "player_speedmod.speed",
    "point_viewcontrol.acceleration",
-   "point_viewcontrol.deceleration",
-   "point_viewcontrol.speed",
-   "prop_dynamic.SetBodyGroup",
-   "prop_dynamic.disablereceiveshadows",
-   "prop_dynamic.disableshadows",
-   "prop_dynamic.fademaxdist",
-   "prop_dynamic.fademindist",
-   "prop_dynamic.fadescale",
-   "prop_dynamic.solid",
-   "prop_physics_multiplayer.Damagetype",
-   "prop_physics_multiplayer.ExplodeDamage",
-   "prop_physics_multiplayer.ExplodeRadius",
-   "prop_physics_multiplayer.PerformanceMode",
-   "prop_physics_multiplayer.damagetoenablemotion",
-   "prop_physics_multiplayer.disablereceiveshadows",
-   "prop_physics_multiplayer.disableshadows",
-   "prop_physics_multiplayer.fademaxdist",
-   "prop_physics_multiplayer.fademindist",
-   "prop_physics_multiplayer.fadescale",
-   "prop_physics_multiplayer.forcetoenablemotion",
-   "prop_physics_multiplayer.inertiaScale",
-   "prop_physics_multiplayer.massScale",
-   "prop_physics_multiplayer.maxdxlevel",
-   "prop_physics_multiplayer.mindxlevel",
-   "prop_physics_multiplayer.minhealthdmg",
-   "prop_physics_multiplayer.nodamageforces",
-   "prop_physics_multiplayer.physdamagescale",
-   "prop_physics_multiplayer.pressuredelay",
-   "prop_physics_multiplayer.renderamt",
-   "prop_physics_multiplayer.rendercolor",
-   "prop_physics_multiplayer.renderfx",
-   "prop_physics_multiplayer.rendermode",
-   "prop_physics_multiplayer.shadowcastdist",
-   "prop_physics_multiplayer.skin",
-   "prop_physics_multiplayer.spawnflags",
-   "trigger_push.speed",
-   "worldspawn.mapversion"
+   "point_viewcontrol.deceleration"
   ],
   "links_unresolved": []
  },
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 5,
+  "models_unmapped": 0,
   "sounds_unmapped": 2,
   "classes_unmapped": 0,
-  "keys_unmapped": 116,
+  "keys_unmapped": 6,
   "links_unresolved": 0
  }
 }

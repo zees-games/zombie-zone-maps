@@ -10,7 +10,7 @@
    "fallback": 2
   },
   "free_by_tier": {
-   "default": 19,
+   "default": 21,
    "fallback": 2
   },
   "nearest_photo": [
@@ -19,10 +19,10 @@
   ]
  },
  "models": {
-  "looked_up": 72,
+  "looked_up": 65,
   "by_tier": {
-   "default": 62,
-   "fallback": 10
+   "default": 64,
+   "fallback": 1
   }
  },
  "sounds": {
@@ -38,55 +38,7 @@
  },
  "keys": {
   "catalogue": true,
-  "unmapped": {
-   "func_breakable": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "material",
-    "nodamageforces",
-    "spawnobject"
-   ],
-   "func_illusionary": [
-    "disablereceiveshadows",
-    "disableshadows"
-   ],
-   "prop_dynamic": [
-    "SetBodyGroup",
-    "disableshadows",
-    "fademindist",
-    "fadescale",
-    "solid"
-   ],
-   "prop_physics": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "nodamageforces",
-    "shadowcastdist"
-   ],
-   "prop_physics_override": [
-    "Damagetype",
-    "ExplodeDamage",
-    "ExplodeRadius",
-    "PerformanceMode",
-    "damagetoenablemotion",
-    "disableshadows",
-    "fademindist",
-    "fadescale",
-    "forcetoenablemotion",
-    "inertiaScale",
-    "massScale",
-    "minhealthdmg",
-    "nodamageforces",
-    "physdamagescale",
-    "pressuredelay",
-    "shadowcastdist",
-    "skin",
-    "spawnflags"
-   ],
-   "weapon_scout": [
-    "spawnflags"
-   ]
-  }
+  "unmapped": {}
  },
  "links": {
   "total": 2,
@@ -99,56 +51,11 @@
   ],
   "textures_flat": [],
   "models_unmapped": [
-   "",
-   "props/cs_assault/wall_vent.mdl",
-   "props/cs_militia/microwave01.mdl",
-   "props/cs_militia/mountedfish01.mdl",
-   "props/de_prodigy/fanoff.mdl",
-   "props_c17/playground_jungle_gym01a.mdl",
-   "props_c17/playground_jungle_gym01b.mdl",
-   "props_c17/playgroundslide01.mdl",
-   "props_citizen_tech/till001a_safetyarm01.mdl",
-   "props_lab/kennel_physics.mdl"
+   ""
   ],
   "sounds_unmapped": [],
   "classes_unmapped": [],
-  "keys_unmapped": [
-   "func_breakable.disablereceiveshadows",
-   "func_breakable.disableshadows",
-   "func_breakable.material",
-   "func_breakable.nodamageforces",
-   "func_breakable.spawnobject",
-   "func_illusionary.disablereceiveshadows",
-   "func_illusionary.disableshadows",
-   "prop_dynamic.SetBodyGroup",
-   "prop_dynamic.disableshadows",
-   "prop_dynamic.fademindist",
-   "prop_dynamic.fadescale",
-   "prop_dynamic.solid",
-   "prop_physics.disablereceiveshadows",
-   "prop_physics.disableshadows",
-   "prop_physics.nodamageforces",
-   "prop_physics.shadowcastdist",
-   "prop_physics_override.Damagetype",
-   "prop_physics_override.ExplodeDamage",
-   "prop_physics_override.ExplodeRadius",
-   "prop_physics_override.PerformanceMode",
-   "prop_physics_override.damagetoenablemotion",
-   "prop_physics_override.disableshadows",
-   "prop_physics_override.fademindist",
-   "prop_physics_override.fadescale",
-   "prop_physics_override.forcetoenablemotion",
-   "prop_physics_override.inertiaScale",
-   "prop_physics_override.massScale",
-   "prop_physics_override.minhealthdmg",
-   "prop_physics_override.nodamageforces",
-   "prop_physics_override.physdamagescale",
-   "prop_physics_override.pressuredelay",
-   "prop_physics_override.shadowcastdist",
-   "prop_physics_override.skin",
-   "prop_physics_override.spawnflags",
-   "weapon_scout.spawnflags"
-  ],
+  "keys_unmapped": [],
   "links_unresolved": [
    "weapon_awp.OnPlayerPickup->equip_awp"
   ]
@@ -156,10 +63,10 @@
  "counts": {
   "textures_unmapped": 2,
   "textures_flat": 0,
-  "models_unmapped": 10,
+  "models_unmapped": 1,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
-  "keys_unmapped": 35,
+  "keys_unmapped": 0,
   "links_unresolved": 1
  }
 }

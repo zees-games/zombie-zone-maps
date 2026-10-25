@@ -14,10 +14,9 @@
   "nearest_photo": []
  },
  "models": {
-  "looked_up": 65,
+  "looked_up": 61,
   "by_tier": {
-   "default": 62,
-   "fallback": 3
+   "default": 61
   }
  },
  "sounds": {
@@ -37,102 +36,25 @@
   "catalogue": true,
   "unmapped": {
    "ambient_generic": [
-    "health",
-    "pitch",
-    "pitchstart"
-   ],
-   "func_breakable": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "massScale",
-    "material",
-    "nodamageforces",
-    "spawnobject"
-   ],
-   "func_button": [
-    "disablereceiveshadows"
-   ],
-   "func_door": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "locked_sentence",
-    "unlocked_sentence"
-   ],
-   "func_physbox": [
-    "ExplodeDamage",
-    "ExplodeRadius",
-    "PerformanceMode",
-    "disablereceiveshadows",
-    "disableshadows",
-    "explodemagnitude",
-    "explosion",
-    "gibdir",
-    "health",
-    "material",
-    "nodamageforces",
-    "pressuredelay",
-    "propdata",
-    "renderamt",
-    "rendercolor",
-    "renderfx",
-    "rendermode",
-    "spawnobject"
-   ],
-   "prop_dynamic": [
-    "SetBodyGroup",
-    "disablereceiveshadows",
-    "fademindist",
-    "fadescale",
-    "solid"
-   ],
-   "prop_physics": [
-    "disablereceiveshadows",
-    "nodamageforces",
-    "shadowcastdist"
-   ],
-   "prop_physics_override": [
-    "Damagetype",
-    "ExplodeDamage",
-    "ExplodeRadius",
-    "PerformanceMode",
-    "damagetoenablemotion",
-    "disableshadows",
-    "fademaxdist",
-    "fademindist",
-    "fadescale",
-    "forcetoenablemotion",
-    "inertiaScale",
-    "massScale",
-    "maxdxlevel",
-    "mindxlevel",
-    "minhealthdmg",
-    "nodamageforces",
-    "physdamagescale",
-    "pressuredelay",
-    "shadowcastdist",
-    "skin",
-    "spawnflags"
+    "pitch"
    ],
    "weapon_awp": [
     "amor"
    ],
    "weapon_deagle": [
-    "_minlight",
     "ammo"
    ],
    "weapon_elite": [
     "amor"
    ],
    "weapon_mp5navy": [
-    "amor",
-    "spawnflags"
+    "amor"
    ],
    "weapon_p90": [
     "amor"
    ],
    "weapon_sg550": [
-    "amor",
-    "spawnflags"
+    "amor"
    ],
    "weapon_tmp": [
     "amor",
@@ -147,84 +69,17 @@
  "lists": {
   "textures_unmapped": [],
   "textures_flat": [],
-  "models_unmapped": [
-   "player/zh/zh_zombie003.mdl",
-   "props/cs_office/exit_wall.mdl",
-   "props_docks/dock_bumper01b_256.mdl"
-  ],
+  "models_unmapped": [],
   "sounds_unmapped": [],
   "classes_unmapped": [],
   "keys_unmapped": [
-   "ambient_generic.health",
    "ambient_generic.pitch",
-   "ambient_generic.pitchstart",
-   "func_breakable.disablereceiveshadows",
-   "func_breakable.disableshadows",
-   "func_breakable.massScale",
-   "func_breakable.material",
-   "func_breakable.nodamageforces",
-   "func_breakable.spawnobject",
-   "func_button.disablereceiveshadows",
-   "func_door.disablereceiveshadows",
-   "func_door.disableshadows",
-   "func_door.locked_sentence",
-   "func_door.unlocked_sentence",
-   "func_physbox.ExplodeDamage",
-   "func_physbox.ExplodeRadius",
-   "func_physbox.PerformanceMode",
-   "func_physbox.disablereceiveshadows",
-   "func_physbox.disableshadows",
-   "func_physbox.explodemagnitude",
-   "func_physbox.explosion",
-   "func_physbox.gibdir",
-   "func_physbox.health",
-   "func_physbox.material",
-   "func_physbox.nodamageforces",
-   "func_physbox.pressuredelay",
-   "func_physbox.propdata",
-   "func_physbox.renderamt",
-   "func_physbox.rendercolor",
-   "func_physbox.renderfx",
-   "func_physbox.rendermode",
-   "func_physbox.spawnobject",
-   "prop_dynamic.SetBodyGroup",
-   "prop_dynamic.disablereceiveshadows",
-   "prop_dynamic.fademindist",
-   "prop_dynamic.fadescale",
-   "prop_dynamic.solid",
-   "prop_physics.disablereceiveshadows",
-   "prop_physics.nodamageforces",
-   "prop_physics.shadowcastdist",
-   "prop_physics_override.Damagetype",
-   "prop_physics_override.ExplodeDamage",
-   "prop_physics_override.ExplodeRadius",
-   "prop_physics_override.PerformanceMode",
-   "prop_physics_override.damagetoenablemotion",
-   "prop_physics_override.disableshadows",
-   "prop_physics_override.fademaxdist",
-   "prop_physics_override.fademindist",
-   "prop_physics_override.fadescale",
-   "prop_physics_override.forcetoenablemotion",
-   "prop_physics_override.inertiaScale",
-   "prop_physics_override.massScale",
-   "prop_physics_override.maxdxlevel",
-   "prop_physics_override.mindxlevel",
-   "prop_physics_override.minhealthdmg",
-   "prop_physics_override.nodamageforces",
-   "prop_physics_override.physdamagescale",
-   "prop_physics_override.pressuredelay",
-   "prop_physics_override.shadowcastdist",
-   "prop_physics_override.skin",
-   "prop_physics_override.spawnflags",
    "weapon_awp.amor",
-   "weapon_deagle._minlight",
    "weapon_deagle.ammo",
    "weapon_elite.amor",
    "weapon_mp5navy.amor",
-   "weapon_mp5navy.spawnflags",
    "weapon_p90.amor",
    "weapon_sg550.amor",
-   "weapon_sg550.spawnflags",
    "weapon_tmp.amor",
    "weapon_tmp.color"
   ],
@@ -238,10 +93,10 @@
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 3,
+  "models_unmapped": 0,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
-  "keys_unmapped": 72,
+  "keys_unmapped": 9,
   "links_unresolved": 4
  }
 }

@@ -10,7 +10,7 @@
    "fallback": 2
   },
   "free_by_tier": {
-   "default": 13,
+   "default": 15,
    "fallback": 2
   },
   "nearest_photo": [
@@ -19,10 +19,9 @@
   ]
  },
  "models": {
-  "looked_up": 61,
+  "looked_up": 51,
   "by_tier": {
-   "default": 41,
-   "fallback": 20
+   "default": 51
   }
  },
  "sounds": {
@@ -43,136 +42,7 @@
   "catalogue": true,
   "unmapped": {
    "ambient_generic": [
-    "health",
-    "pitch",
-    "pitchstart"
-   ],
-   "func_breakable": [
-    "_minlight",
-    "disablereceiveshadows",
-    "disableshadows",
-    "material",
-    "nodamageforces",
-    "spawnobject"
-   ],
-   "func_brush": [
-    "InputFilter",
-    "disablereceiveshadows",
-    "disableshadows",
-    "vrad_brush_cast_shadows"
-   ],
-   "func_button": [
-    "disablereceiveshadows"
-   ],
-   "func_door": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "locked_sentence",
-    "unlocked_sentence"
-   ],
-   "func_door_rotating": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "locked_sentence",
-    "unlocked_sentence"
-   ],
-   "func_illusionary": [
-    "disablereceiveshadows",
-    "disableshadows"
-   ],
-   "func_physbox": [
-    "ExplodeDamage",
-    "ExplodeRadius",
-    "PerformanceMode",
-    "disablereceiveshadows",
-    "disableshadows",
-    "explodemagnitude",
-    "explosion",
-    "gibdir",
-    "health",
-    "material",
-    "nodamageforces",
-    "pressuredelay",
-    "propdata",
-    "renderamt",
-    "rendercolor",
-    "renderfx",
-    "rendermode",
-    "spawnobject"
-   ],
-   "func_rotating": [
-    "disablereceiveshadows",
-    "disableshadows"
-   ],
-   "func_tracktrain": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "speed",
-    "volume"
-   ],
-   "func_wall_toggle": [
-    "_minlight",
-    "disablereceiveshadows",
-    "disableshadows",
-    "renderamt",
-    "rendercolor",
-    "renderfx",
-    "rendermode"
-   ],
-   "path_track": [
-    "speed"
-   ],
-   "prop_dynamic": [
-    "SetBodyGroup",
-    "disablereceiveshadows",
-    "disableshadows",
-    "fademaxdist",
-    "fademindist",
-    "fadescale",
-    "solid"
-   ],
-   "prop_physics": [
-    "disablereceiveshadows",
-    "nodamageforces",
-    "shadowcastdist"
-   ],
-   "prop_physics_multiplayer": [
-    "Damagetype",
-    "_minlight",
-    "damagetoenablemotion",
-    "disableshadows",
-    "fademaxdist",
-    "fademindist",
-    "fadescale",
-    "forcetoenablemotion",
-    "inertiaScale",
-    "massScale",
-    "minhealthdmg",
-    "nodamageforces",
-    "physdamagescale",
-    "renderamt",
-    "rendercolor",
-    "shadowcastdist",
-    "spawnflags"
-   ],
-   "prop_physics_override": [
-    "Damagetype",
-    "ExplodeDamage",
-    "ExplodeRadius",
-    "PerformanceMode",
-    "damagetoenablemotion",
-    "fademindist",
-    "fadescale",
-    "forcetoenablemotion",
-    "inertiaScale",
-    "massScale",
-    "minhealthdmg",
-    "nodamageforces",
-    "physdamagescale",
-    "pressuredelay",
-    "shadowcastdist",
-    "skin",
-    "spawnflags"
+    "pitch"
    ]
   }
  },
@@ -186,28 +56,7 @@
    "MODELS/PROPS/DE_TRAIN/LIGHT_INSET"
   ],
   "textures_flat": [],
-  "models_unmapped": [
-   "cm9380/cm9380.mdl",
-   "combine_room/combine_wire002.mdl",
-   "cranes/crane_frame.mdl",
-   "cranes/crane_frame_interior.mdl",
-   "deinonychus/deinonychus.mdl",
-   "props/cs_assault/forklift.mdl",
-   "props/cs_militia/militiarock03.mdl",
-   "props/de_nuke/emergency_lighta.mdl",
-   "props/de_nuke/equipment1.mdl",
-   "props/de_prodigy/concretebags3.mdl",
-   "props/de_prodigy/concretebags4.mdl",
-   "props/de_train/chainlinkgate.mdl",
-   "props_c17/concrete_barrier001a.mdl",
-   "props_canal/generator02.mdl",
-   "props_docks/dock01_cleat01a.mdl",
-   "props_lab/freightelevatorbutton.mdl",
-   "props_rooftop/satellitedish02.mdl",
-   "props_wasteland/panel_leverbase001a.mdl",
-   "props_wasteland/panel_leverhandle001a.mdl",
-   "stegosaurus/stegosaurus.mdl"
-  ],
+  "models_unmapped": [],
   "sounds_unmapped": [
    "admin_plugin/jurassicpark1.wav",
    "admin_plugin/trex3.wav",
@@ -216,116 +65,17 @@
   ],
   "classes_unmapped": [],
   "keys_unmapped": [
-   "ambient_generic.health",
-   "ambient_generic.pitch",
-   "ambient_generic.pitchstart",
-   "func_breakable._minlight",
-   "func_breakable.disablereceiveshadows",
-   "func_breakable.disableshadows",
-   "func_breakable.material",
-   "func_breakable.nodamageforces",
-   "func_breakable.spawnobject",
-   "func_brush.InputFilter",
-   "func_brush.disablereceiveshadows",
-   "func_brush.disableshadows",
-   "func_brush.vrad_brush_cast_shadows",
-   "func_button.disablereceiveshadows",
-   "func_door.disablereceiveshadows",
-   "func_door.disableshadows",
-   "func_door.locked_sentence",
-   "func_door.unlocked_sentence",
-   "func_door_rotating.disablereceiveshadows",
-   "func_door_rotating.disableshadows",
-   "func_door_rotating.locked_sentence",
-   "func_door_rotating.unlocked_sentence",
-   "func_illusionary.disablereceiveshadows",
-   "func_illusionary.disableshadows",
-   "func_physbox.ExplodeDamage",
-   "func_physbox.ExplodeRadius",
-   "func_physbox.PerformanceMode",
-   "func_physbox.disablereceiveshadows",
-   "func_physbox.disableshadows",
-   "func_physbox.explodemagnitude",
-   "func_physbox.explosion",
-   "func_physbox.gibdir",
-   "func_physbox.health",
-   "func_physbox.material",
-   "func_physbox.nodamageforces",
-   "func_physbox.pressuredelay",
-   "func_physbox.propdata",
-   "func_physbox.renderamt",
-   "func_physbox.rendercolor",
-   "func_physbox.renderfx",
-   "func_physbox.rendermode",
-   "func_physbox.spawnobject",
-   "func_rotating.disablereceiveshadows",
-   "func_rotating.disableshadows",
-   "func_tracktrain.disablereceiveshadows",
-   "func_tracktrain.disableshadows",
-   "func_tracktrain.speed",
-   "func_tracktrain.volume",
-   "func_wall_toggle._minlight",
-   "func_wall_toggle.disablereceiveshadows",
-   "func_wall_toggle.disableshadows",
-   "func_wall_toggle.renderamt",
-   "func_wall_toggle.rendercolor",
-   "func_wall_toggle.renderfx",
-   "func_wall_toggle.rendermode",
-   "path_track.speed",
-   "prop_dynamic.SetBodyGroup",
-   "prop_dynamic.disablereceiveshadows",
-   "prop_dynamic.disableshadows",
-   "prop_dynamic.fademaxdist",
-   "prop_dynamic.fademindist",
-   "prop_dynamic.fadescale",
-   "prop_dynamic.solid",
-   "prop_physics.disablereceiveshadows",
-   "prop_physics.nodamageforces",
-   "prop_physics.shadowcastdist",
-   "prop_physics_multiplayer.Damagetype",
-   "prop_physics_multiplayer._minlight",
-   "prop_physics_multiplayer.damagetoenablemotion",
-   "prop_physics_multiplayer.disableshadows",
-   "prop_physics_multiplayer.fademaxdist",
-   "prop_physics_multiplayer.fademindist",
-   "prop_physics_multiplayer.fadescale",
-   "prop_physics_multiplayer.forcetoenablemotion",
-   "prop_physics_multiplayer.inertiaScale",
-   "prop_physics_multiplayer.massScale",
-   "prop_physics_multiplayer.minhealthdmg",
-   "prop_physics_multiplayer.nodamageforces",
-   "prop_physics_multiplayer.physdamagescale",
-   "prop_physics_multiplayer.renderamt",
-   "prop_physics_multiplayer.rendercolor",
-   "prop_physics_multiplayer.shadowcastdist",
-   "prop_physics_multiplayer.spawnflags",
-   "prop_physics_override.Damagetype",
-   "prop_physics_override.ExplodeDamage",
-   "prop_physics_override.ExplodeRadius",
-   "prop_physics_override.PerformanceMode",
-   "prop_physics_override.damagetoenablemotion",
-   "prop_physics_override.fademindist",
-   "prop_physics_override.fadescale",
-   "prop_physics_override.forcetoenablemotion",
-   "prop_physics_override.inertiaScale",
-   "prop_physics_override.massScale",
-   "prop_physics_override.minhealthdmg",
-   "prop_physics_override.nodamageforces",
-   "prop_physics_override.physdamagescale",
-   "prop_physics_override.pressuredelay",
-   "prop_physics_override.shadowcastdist",
-   "prop_physics_override.skin",
-   "prop_physics_override.spawnflags"
+   "ambient_generic.pitch"
   ],
   "links_unresolved": []
  },
  "counts": {
   "textures_unmapped": 2,
   "textures_flat": 0,
-  "models_unmapped": 20,
+  "models_unmapped": 0,
   "sounds_unmapped": 4,
   "classes_unmapped": 0,
-  "keys_unmapped": 100,
+  "keys_unmapped": 1,
   "links_unresolved": 0
  }
 }

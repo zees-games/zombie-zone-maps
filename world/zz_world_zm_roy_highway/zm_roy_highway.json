@@ -776,6 +776,7 @@
   "first_import": null,
   "licence": "CC BY-NC-ND 4.0",
   "missing": [],
+  "no_share_check": "2026-10-23, ask: CC BY-NC-ND 4.0; page licence checklist: redistribute/modify/reuse = ask the author, commercial use = no; no further restriction in the description (https://gamebanana.com/mods/132705)",
   "page": "https://gamebanana.com/mods/132705",
   "removal": "Credited with a link; removed on the author's request."
  },
@@ -20816,7 +20817,7 @@
    },
    {
     "author": "Kenney",
-    "count": 15,
+    "count": 28,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -20843,7 +20844,7 @@
    },
    {
     "author": "Kenney",
-    "count": 12,
+    "count": 13,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -20879,7 +20880,7 @@
    },
    {
     "author": "Kenney",
-    "count": 13,
+    "count": 11,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -20888,7 +20889,7 @@
    },
    {
     "author": "Kenney",
-    "count": 95,
+    "count": 96,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -20924,7 +20925,7 @@
    },
    {
     "author": "Kenney",
-    "count": 4,
+    "count": 2,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Factory Kit",
@@ -20942,12 +20943,21 @@
    },
    {
     "author": "Kenney",
-    "count": 41,
+    "count": 42,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Nature Kit",
     "stand_in": "fence",
     "url": "https://kenney.nl/assets/nature-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Survival Kit",
+    "stand_in": "fence_post",
+    "url": "https://kenney.nl/assets/survival-kit"
    },
    {
     "author": "Kenney",
@@ -20996,7 +21006,7 @@
    },
    {
     "author": "Kenney",
-    "count": 27,
+    "count": 6,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Nature Kit",
@@ -21011,6 +21021,15 @@
     "source": "Kenney Furniture Kit",
     "stand_in": "sofa",
     "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 5,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Space Kit",
+    "stand_in": "space/machine_generator",
+    "url": "https://kenney.nl/assets/space-kit"
    },
    {
     "author": "Kenney",
@@ -21041,7 +21060,7 @@
    },
    {
     "author": "Kenney",
-    "count": 8,
+    "count": 7,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Car Kit",
@@ -21050,7 +21069,7 @@
    },
    {
     "author": "Kenney",
-    "count": 3,
+    "count": 5,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Car Kit",
@@ -21081,7 +21100,7 @@
    {
     "count": 1,
     "model": "models/props/cs_militia/lightfixture01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "ceiling_light"
    },
    {
     "count": 4,
@@ -21116,12 +21135,12 @@
    {
     "count": 1,
     "model": "models/props/de_dust/stoneblock01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 1,
     "model": "models/props/de_dust/stoneblocks48.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 3,
@@ -21136,12 +21155,12 @@
    {
     "count": 2,
     "model": "models/props/de_piranesi/pi_apc.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "vehicles/truck"
    },
    {
     "count": 4,
     "model": "models/props/de_prodigy/concretebags.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "barrel"
    },
    {
     "count": 1,
@@ -21156,22 +21175,22 @@
    {
     "count": 1,
     "model": "models/props/de_prodigy/spool.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 3,
     "model": "models/props/de_prodigy/spoolwire.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props/de_prodigy/tirestack.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "barrel"
    },
    {
     "count": 1,
     "model": "models/props/de_prodigy/tirestack3.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "barrel"
    },
    {
     "count": 8,
@@ -21196,7 +21215,7 @@
    {
     "count": 1,
     "model": "models/props_c17/furniturefireplace001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 2,
@@ -21251,7 +21270,7 @@
    {
     "count": 1,
     "model": "models/props_c17/trappropeller_engine.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "space/machine_generator"
    },
    {
     "count": 4,
@@ -21271,7 +21290,7 @@
    {
     "count": 1,
     "model": "models/props_citizen_tech/windmill_blade002a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 3,
@@ -21286,7 +21305,7 @@
    {
     "count": 4,
     "model": "models/props_combine/combinetower001.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "space/machine_generator"
    },
    {
     "count": 22,
@@ -21381,7 +21400,7 @@
    {
     "count": 1,
     "model": "models/props_junk/wheebarrow01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bin"
    },
    {
     "count": 15,
@@ -21411,42 +21430,42 @@
    {
     "count": 2,
     "model": "models/props_rooftop/antenna01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_rooftop/gutter_drain001.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 2,
     "model": "models/props_rooftop/roof_vent001.mdl",
-    "stand_in": "cabinet"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_rooftop/roof_vent004.mdl",
-    "stand_in": "cabinet"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_rooftop/rooftopcluser01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_trainstation/train001.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 3,
     "model": "models/props_trainstation/train002.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 13,
     "model": "models/props_trainstation/train003.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 3,
@@ -21476,7 +21495,7 @@
    {
     "count": 1,
     "model": "models/props_vehicles/carparts_tire01a.mdl",
-    "stand_in": "vehicles/sedan"
+    "stand_in": "barrel"
    },
    {
     "count": 1,
@@ -21496,7 +21515,7 @@
    {
     "count": 1,
     "model": "models/props_wasteland/bridge_low_res.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "fence"
    },
    {
     "count": 16,
@@ -21506,7 +21525,7 @@
    {
     "count": 6,
     "model": "models/props_wasteland/buoy01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "barrel"
    },
    {
     "count": 2,
@@ -21556,17 +21575,17 @@
    {
     "count": 1,
     "model": "models/props_wasteland/medbridge_post01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "fence_post"
    },
    {
     "count": 1,
     "model": "models/props_wasteland/pipecluster001c.mdl",
-    "stand_in": "factory/pipe"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_wasteland/pipecluster003a_small.mdl",
-    "stand_in": "factory/pipe"
+    "stand_in": "detail"
    },
    {
     "count": 15,
@@ -21601,32 +21620,32 @@
    {
     "count": 7,
     "model": "models/props_wasteland/rockcliff_cluster01b.mdl",
-    "stand_in": "rock"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_wasteland/rockcliff_cluster02a.mdl",
-    "stand_in": "rock"
+    "stand_in": "detail"
    },
    {
     "count": 3,
     "model": "models/props_wasteland/rockcliff_cluster02c.mdl",
-    "stand_in": "rock"
+    "stand_in": "detail"
    },
    {
     "count": 8,
     "model": "models/props_wasteland/rockcliff_cluster03a.mdl",
-    "stand_in": "rock"
+    "stand_in": "detail"
    },
    {
     "count": 3,
     "model": "models/props_wasteland/rockcliff_cluster03b.mdl",
-    "stand_in": "rock"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_wasteland/rockcliff_cluster03c.mdl",
-    "stand_in": "rock"
+    "stand_in": "detail"
    },
    {
     "count": 2,
@@ -21660,6 +21679,7 @@
    }
   ],
   "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
+  "skipped_skybox_models": 0,
   "sounds": [
    {
     "author": "TMC (dot-audio authors)",
@@ -21789,13 +21809,13 @@
     "key": "generated:water:808080",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "dev/dev_waterbeneath2",
      "liquids/aztecwater"
     ],
     "surfaces": 220,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -21810,12 +21830,12 @@
     "key": "generated:flat:bf0000",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "cable/red"
     ],
     "surfaces": 4,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -21830,12 +21850,12 @@
     "key": "generated:flat:ffff9f",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "cs_italy/yellow"
     ],
     "surfaces": 4,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -21850,12 +21870,12 @@
     "key": "generated:flat:000000",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "effects/black"
     ],
     "surfaces": 9,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -21911,13 +21931,13 @@
     "key": "generated:glass:606060",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "glass/glasswindow007a",
      "glass/glasswindow017a"
     ],
     "surfaces": 68,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -21932,12 +21952,12 @@
     "key": "generated:foliage_card:402020",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "nature/treeline001a"
     ],
     "surfaces": 2,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -22154,12 +22174,12 @@
     "key": "generated:flat:808080",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "tools/toolsblack"
     ],
     "surfaces": 33,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -22218,12 +22238,12 @@
     "key": "generated:bars:404020",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "metal/metalrail003a"
     ],
     "surfaces": 6,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -22279,12 +22299,12 @@
     "key": "generated:glass:808080",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "glass/glasswindowbreak070a"
     ],
     "surfaces": 53,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -22299,12 +22319,12 @@
     "key": "generated:shield:404040",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "effects/combineshield/comshieldwall3"
     ],
     "surfaces": 4,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -22319,12 +22339,12 @@
     "key": "generated:bars:606060",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "metal/metalrail006a"
     ],
     "surfaces": 16,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    }
   ]
  },
@@ -26313,6 +26333,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26324,6 +26345,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26335,6 +26357,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26346,6 +26369,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26357,6 +26381,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26368,6 +26393,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26379,6 +26405,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26390,6 +26417,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26401,6 +26429,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26412,6 +26441,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26423,6 +26453,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26434,6 +26465,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26445,6 +26477,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26456,6 +26489,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26467,6 +26501,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26478,6 +26513,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26489,6 +26525,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26500,6 +26537,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26511,6 +26549,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26522,6 +26561,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26533,6 +26573,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26544,6 +26585,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26555,6 +26597,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26566,6 +26609,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26577,6 +26621,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26588,6 +26633,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26599,6 +26645,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26610,6 +26657,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26621,6 +26669,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26632,6 +26681,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26643,6 +26693,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26654,6 +26705,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26665,6 +26717,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26676,6 +26729,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26687,6 +26741,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26698,6 +26753,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26709,6 +26765,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26720,6 +26777,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26731,6 +26789,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26742,6 +26801,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26753,6 +26813,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26764,6 +26825,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26775,6 +26837,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26786,6 +26849,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26797,6 +26861,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26808,6 +26873,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26819,6 +26885,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26830,6 +26897,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26841,6 +26909,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26852,6 +26921,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26863,6 +26933,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26874,6 +26945,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26885,6 +26957,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -26896,6 +26969,7 @@
    ],
    "model": "models/props_c17/light_cagelight01_off.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -27138,6 +27212,7 @@
    ],
    "model": "models/props_combine/combine_fence01b.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "fence",
    "yaw": 270.0
   },
@@ -27149,6 +27224,7 @@
    ],
    "model": "models/props_combine/combine_fence01a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "fence",
    "yaw": 270.0
   },
@@ -27479,8 +27555,20 @@
    ],
    "model": "models/props_vehicles/carparts_tire01a.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/sedan",
+   "size": 0.8,
+   "stand_in": "barrel",
    "yaw": 325.0
+  },
+  {
+   "at": [
+    26.1366,
+    -21.0312,
+    -109.1184
+   ],
+   "model": "models/props_junk/wheebarrow01a.mdl",
+   "scale": 1.0,
+   "stand_in": "bin",
+   "yaw": 150.0
   },
   {
    "at": [
@@ -27567,6 +27655,7 @@
    ],
    "model": "models/props_combine/combine_fence01b.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "fence",
    "yaw": 270.0
   },
@@ -27578,6 +27667,7 @@
    ],
    "model": "models/props_combine/combine_fence01a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "fence",
    "yaw": 270.0
   },
@@ -27765,6 +27855,7 @@
    ],
    "model": "models/props_combine/combine_fence01b.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "fence",
    "yaw": 270.0
   },
@@ -27776,6 +27867,7 @@
    ],
    "model": "models/props_combine/combine_fence01a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "fence",
    "yaw": 270.0
   },
@@ -27811,28 +27903,6 @@
    "scale": 1.0,
    "stand_in": "crate",
    "yaw": 331.0
-  },
-  {
-   "at": [
-    4.342,
-    -20.5656,
-    -194.11
-   ],
-   "model": "models/props_junk/cinderblock01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 314.5
-  },
-  {
-   "at": [
-    5.1626,
-    -20.555,
-    -193.8338
-   ],
-   "model": "models/props_junk/cinderblock01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 274.5
   },
   {
    "at": [
@@ -27888,6 +27958,18 @@
    "scale": 1.0,
    "stand_in": "crate",
    "yaw": 351.5
+  },
+  {
+   "at": [
+    3.048,
+    -20.4216,
+    -193.1861
+   ],
+   "model": "models/props_c17/trappropeller_engine.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "stand_in": "space/machine_generator",
+   "yaw": -2.91
   },
   {
    "at": [
@@ -28359,6 +28441,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 89.0
   },
@@ -28370,6 +28453,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 89.0
   },
@@ -28381,6 +28465,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 89.0
   },
@@ -28447,6 +28532,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 89.0
   },
@@ -28458,6 +28544,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 89.0
   },
@@ -28601,6 +28688,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 270.0
   },
@@ -28623,6 +28711,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 89.0
   },
@@ -28700,6 +28789,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 89.0
   },
@@ -28865,6 +28955,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 339.5
   },
@@ -28931,6 +29022,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 89.0
   },
@@ -29085,6 +29177,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 270.0
   },
@@ -29211,6 +29304,18 @@
   },
   {
    "at": [
+    68.0342,
+    -8.8059,
+    57.6297
+   ],
+   "model": "models/props_combine/combinetower001.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "stand_in": "space/machine_generator",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     20.8662,
     -20.1031,
     -155.2428
@@ -29219,39 +29324,6 @@
    "scale": 1.0,
    "stand_in": "graveyard/lamppost",
    "yaw": 120.0
-  },
-  {
-   "at": [
-    29.6799,
-    -19.2596,
-    -100.4507
-   ],
-   "model": "models/props_rooftop/roof_vent001.mdl",
-   "scale": 1.0,
-   "stand_in": "cabinet",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    29.6799,
-    -19.2596,
-    -100.4507
-   ],
-   "model": "models/props_rooftop/roof_vent001.mdl",
-   "scale": 1.0,
-   "stand_in": "cabinet",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    29.1084,
-    -15.4686,
-    -93.1164
-   ],
-   "model": "models/props_rooftop/roof_vent004.mdl",
-   "scale": 1.0,
-   "stand_in": "cabinet",
-   "yaw": 90.0
   },
   {
    "at": [
@@ -29684,28 +29756,6 @@
   },
   {
    "at": [
-    33.427,
-    -16.3068,
-    -173.8589
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster01b.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 173.5
-  },
-  {
-   "at": [
-    -33.2613,
-    -16.6116,
-    -176.784
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster01b.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 210.0
-  },
-  {
-   "at": [
     36.8808,
     -20.3454,
     -140.0556
@@ -29728,83 +29778,6 @@
   },
   {
    "at": [
-    6.7056,
-    -46.9392,
-    -81.9912
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster01b.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 161.0
-  },
-  {
-   "at": [
-    -7.0104,
-    -49.3776,
-    -147.2184
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster01b.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 193.5
-  },
-  {
-   "at": [
-    -9.7536,
-    -50.5968,
-    -141.4272
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster03a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 196.0
-  },
-  {
-   "at": [
-    -0.9144,
-    -51.5112,
-    -76.2
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster03a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 336.5
-  },
-  {
-   "at": [
-    3.6576,
-    -49.3776,
-    -155.7528
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster03b.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 66.0
-  },
-  {
-   "at": [
-    -30.48,
-    -51.435,
-    -72.8472
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster03a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 256.5
-  },
-  {
-   "at": [
-    -39.3192,
-    -50.5968,
-    -77.1144
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster03b.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 174.5
-  },
-  {
-   "at": [
     -35.3608,
     -20.394,
     -147.4763
@@ -29813,28 +29786,6 @@
    "scale": 1.0,
    "stand_in": "rock",
    "yaw": 327.42
-  },
-  {
-   "at": [
-    -53.8734,
-    -16.8402,
-    -124.7394
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster02c.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 154.0
-  },
-  {
-   "at": [
-    17.6215,
-    -22.2917,
-    -96.5117
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster03a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 281.0
   },
   {
    "at": [
@@ -30058,39 +30009,6 @@
   },
   {
    "at": [
-    51.2064,
-    -30.0228,
-    -91.6686
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster03a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 196.0
-  },
-  {
-   "at": [
-    60.3504,
-    -31.3944,
-    -90.8304
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster03b.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 212.59
-  },
-  {
-   "at": [
-    35.3568,
-    -14.478,
-    -165.2016
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster01b.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 113.5
-  },
-  {
-   "at": [
     87.0585,
     -12.8016,
     -127.5207
@@ -30099,6 +30017,30 @@
    "scale": 1.0,
    "stand_in": "tree",
    "yaw": 270.0
+  },
+  {
+   "at": [
+    68.031,
+    -8.8059,
+    -92.9429
+   ],
+   "model": "models/props_combine/combinetower001.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "stand_in": "space/machine_generator",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    80.6577,
+    -12.9921,
+    75.2856
+   ],
+   "model": "models/props_wasteland/medbridge_post01.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "stand_in": "fence_post",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -30113,14 +30055,15 @@
   },
   {
    "at": [
-    59.9885,
-    -46.2724,
-    -84.563
+    79.7429,
+    -32.2606,
+    32.3869
    ],
-   "model": "models/props_wasteland/rockcliff_cluster02c.mdl",
+   "model": "models/props_wasteland/bridge_low_res.mdl",
    "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 356.0
+   "size": 8.0,
+   "stand_in": "fence",
+   "yaw": 90.0
   },
   {
    "at": [
@@ -30135,14 +30078,26 @@
   },
   {
    "at": [
-    40.9297,
-    -46.7296,
-    -84.944
+    12.192,
+    -50.5968,
+    -53.6448
    ],
-   "model": "models/props_wasteland/rockcliff_cluster02c.mdl",
+   "model": "models/props_wasteland/buoy01.mdl",
    "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 26.0
+   "size": 0.6,
+   "stand_in": "barrel",
+   "yaw": 161.0
+  },
+  {
+   "at": [
+    40.5956,
+    -21.1265,
+    -116.5289
+   ],
+   "model": "models/props_c17/furniturefireplace001a.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -30256,39 +30211,6 @@
   },
   {
    "at": [
-    -58.9788,
-    -18.8976,
-    -87.7824
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster01b.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 26.0
-  },
-  {
-   "at": [
-    -32.5389,
-    -21.3097,
-    -114.6469
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster02a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 346.5
-  },
-  {
-   "at": [
-    -38.9039,
-    -21.7517,
-    -110.1738
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster03a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 25.0
-  },
-  {
-   "at": [
     70.6374,
     -12.192,
     58.0073
@@ -30330,6 +30252,30 @@
    "scale": 1.0,
    "stand_in": "cabinet",
    "yaw": 270.0
+  },
+  {
+   "at": [
+    -71.7987,
+    -20.7474,
+    -111.693
+   ],
+   "model": "models/props/de_piranesi/pi_apc.mdl",
+   "scale": 1.0,
+   "size": 6.0,
+   "stand_in": "vehicles/truck",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -70.1794,
+    -20.7283,
+    -108.9689
+   ],
+   "model": "models/props/de_piranesi/pi_apc.mdl",
+   "scale": 1.0,
+   "size": 6.0,
+   "stand_in": "vehicles/truck",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -30388,25 +30334,63 @@
   },
   {
    "at": [
-    -31.7373,
-    -19.9073,
-    -143.7704
+    51.9684,
+    -50.5968,
+    -53.6448
    ],
-   "model": "models/props_wasteland/rockcliff_cluster01b.mdl",
+   "model": "models/props_wasteland/buoy01.mdl",
    "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 262.12
+   "size": 0.6,
+   "stand_in": "barrel",
+   "yaw": 161.0
   },
   {
    "at": [
-    -46.6915,
-    -21.2979,
-    -106.8514
+    88.6968,
+    -50.5968,
+    -53.6448
    ],
-   "model": "models/props_wasteland/rockcliff_cluster03a.mdl",
+   "model": "models/props_wasteland/buoy01.mdl",
    "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 270.5
+   "size": 0.6,
+   "stand_in": "barrel",
+   "yaw": 161.0
+  },
+  {
+   "at": [
+    136.7028,
+    -50.5968,
+    -53.6448
+   ],
+   "model": "models/props_wasteland/buoy01.mdl",
+   "scale": 1.0,
+   "size": 0.6,
+   "stand_in": "barrel",
+   "yaw": 161.0
+  },
+  {
+   "at": [
+    -29.5656,
+    -50.5968,
+    -53.6448
+   ],
+   "model": "models/props_wasteland/buoy01.mdl",
+   "scale": 1.0,
+   "size": 0.6,
+   "stand_in": "barrel",
+   "yaw": 161.0
+  },
+  {
+   "at": [
+    -65.8368,
+    -50.5968,
+    -53.6448
+   ],
+   "model": "models/props_wasteland/buoy01.mdl",
+   "scale": 1.0,
+   "size": 0.6,
+   "stand_in": "barrel",
+   "yaw": 161.0
   },
   {
    "at": [
@@ -30498,6 +30482,30 @@
   },
   {
    "at": [
+    -74.5846,
+    -20.7571,
+    -201.0861
+   ],
+   "model": "models/props/de_dust/stoneblock01a.mdl",
+   "scale": 1.0,
+   "size": 0.6,
+   "stand_in": "rock",
+   "yaw": 172.5
+  },
+  {
+   "at": [
+    -74.5084,
+    -19.6141,
+    -201.2385
+   ],
+   "model": "models/props/de_dust/stoneblocks48.mdl",
+   "scale": 1.0,
+   "size": 0.6,
+   "stand_in": "rock",
+   "yaw": 172.5
+  },
+  {
+   "at": [
     -75.3999,
     -20.1305,
     -199.3773
@@ -30586,28 +30594,6 @@
   },
   {
    "at": [
-    128.1956,
-    -49.1686,
-    -78.5551
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster03c.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 254.0
-  },
-  {
-   "at": [
-    4.425,
-    -19.1809,
-    -164.7789
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster03a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 270.5
-  },
-  {
-   "at": [
     25.0889,
     -21.9647,
     -138.2649
@@ -30619,25 +30605,63 @@
   },
   {
    "at": [
-    21.7361,
-    -22.0599,
-    -96.8121
+    -103.7838,
+    -20.7207,
+    -151.7517
    ],
-   "model": "models/props_wasteland/pipecluster003a_small.mdl",
+   "model": "models/props/de_prodigy/concretebags.mdl",
    "scale": 1.0,
-   "stand_in": "factory/pipe",
+   "size": 0.6,
+   "stand_in": "barrel",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -113.2332,
+    -20.6445,
+    -157.1244
+   ],
+   "model": "models/props/de_prodigy/concretebags.mdl",
+   "scale": 1.0,
+   "size": 0.6,
+   "stand_in": "barrel",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -113.8041,
+    -20.6445,
+    -155.9808
+   ],
+   "model": "models/props/de_prodigy/concretebags.mdl",
+   "scale": 1.0,
+   "size": 0.6,
+   "stand_in": "barrel",
    "yaw": 90.0
   },
   {
    "at": [
-    21.717,
-    -22.5171,
-    -96.0501
+    23.7487,
+    -18.1688,
+    -192.3079
    ],
-   "model": "models/props_wasteland/pipecluster001c.mdl",
+   "model": "models/props/de_prodigy/tirestack3.mdl",
    "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 90.0
+   "size": 0.6,
+   "stand_in": "barrel",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    22.6798,
+    -18.361,
+    -192.3269
+   ],
+   "model": "models/props/de_prodigy/tirestack.mdl",
+   "scale": 1.0,
+   "size": 0.6,
+   "stand_in": "barrel",
+   "yaw": 93.43
   },
   {
    "at": [
@@ -30671,6 +30695,18 @@
    "scale": 1.0,
    "stand_in": "prototype/ladder",
    "yaw": 135.0
+  },
+  {
+   "at": [
+    83.512,
+    -8.8392,
+    -91.5937
+   ],
+   "model": "models/props_combine/combinetower001.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "stand_in": "space/machine_generator",
+   "yaw": 90.0
   },
   {
    "at": [
@@ -30781,6 +30817,18 @@
    "scale": 1.0,
    "stand_in": "prototype/ladder",
    "yaw": 270.0
+  },
+  {
+   "at": [
+    -103.8987,
+    -20.7207,
+    -141.0653
+   ],
+   "model": "models/props/de_prodigy/concretebags.mdl",
+   "scale": 1.0,
+   "size": 0.6,
+   "stand_in": "barrel",
+   "yaw": 131.5
   },
   {
    "at": [
@@ -30902,6 +30950,17 @@
    "scale": 1.0,
    "stand_in": "prototype/ladder",
    "yaw": 31.0
+  },
+  {
+   "at": [
+    46.1391,
+    -15.7353,
+    -171.3547
+   ],
+   "model": "models/props/cs_militia/lightfixture01.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -31199,6 +31258,18 @@
    "scale": 1.0,
    "stand_in": "bush",
    "yaw": 106.33
+  },
+  {
+   "at": [
+    83.5163,
+    -9.3774,
+    59.0327
+   ],
+   "model": "models/props_combine/combinetower001.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "stand_in": "space/machine_generator",
+   "yaw": 90.0
   },
   {
    "at": [

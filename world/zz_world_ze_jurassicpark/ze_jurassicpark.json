@@ -281,6 +281,7 @@
   "first_import": null,
   "licence": "CC BY-NC-ND 4.0",
   "missing": [],
+  "no_share_check": "2026-10-23, ask: CC BY-NC-ND 4.0; page licence checklist: redistribute/modify/reuse = ask the author, commercial use = no; no further restriction in the description (https://gamebanana.com/mods/130821)",
   "page": "https://gamebanana.com/mods/130821"
  },
  "destinations": {},
@@ -17940,6 +17941,15 @@
   "model_stand_ins": [
    {
     "author": "Kenney",
+    "count": 8,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Survival Kit",
+    "stand_in": "barrel",
+    "url": "https://kenney.nl/assets/survival-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 1,
     "files": [],
     "licence": "CC0-1.0",
@@ -17967,7 +17977,7 @@
    },
    {
     "author": "Kenney",
-    "count": 10,
+    "count": 13,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -17985,7 +17995,7 @@
    },
    {
     "author": "Kenney",
-    "count": 8,
+    "count": 10,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -18012,7 +18022,7 @@
    },
    {
     "author": "Kenney",
-    "count": 5,
+    "count": 8,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -18021,7 +18031,7 @@
    },
    {
     "author": "Kenney",
-    "count": 2,
+    "count": 3,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -18030,7 +18040,7 @@
    },
    {
     "author": "Kenney",
-    "count": 13,
+    "count": 15,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Nature Kit",
@@ -18051,9 +18061,27 @@
     "count": 1,
     "files": [],
     "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "radio",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 3,
+    "files": [],
+    "licence": "CC0-1.0",
     "source": "Kenney Nature Kit",
     "stand_in": "rock",
     "url": "https://kenney.nl/assets/nature-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 3,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Space Kit",
+    "stand_in": "space/machine_generator",
+    "url": "https://kenney.nl/assets/space-kit"
    },
    {
     "author": "Kenney",
@@ -18084,7 +18112,7 @@
    },
    {
     "author": "Kenney",
-    "count": 6,
+    "count": 4,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Car Kit",
@@ -18096,32 +18124,32 @@
    {
     "count": 1,
     "model": "models/cm9380/cm9380.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "radio"
    },
    {
     "count": 1,
     "model": "models/combine_room/combine_wire002.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/cranes/crane_frame.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/cranes/crane_frame_interior.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 3,
     "model": "models/deinonychus/deinonychus.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props/cs_assault/forklift.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "desk"
    },
    {
     "count": 1,
@@ -18156,7 +18184,7 @@
    {
     "count": 2,
     "model": "models/props/cs_militia/militiarock03.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 1,
@@ -18226,12 +18254,12 @@
    {
     "count": 2,
     "model": "models/props/de_nuke/emergency_lighta.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "ceiling_light"
    },
    {
     "count": 3,
     "model": "models/props/de_nuke/equipment1.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "space/machine_generator"
    },
    {
     "count": 2,
@@ -18251,12 +18279,12 @@
    {
     "count": 5,
     "model": "models/props/de_prodigy/concretebags3.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "barrel"
    },
    {
     "count": 3,
     "model": "models/props/de_prodigy/concretebags4.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "barrel"
    },
    {
     "count": 1,
@@ -18266,12 +18294,12 @@
    {
     "count": 2,
     "model": "models/props/de_train/chainlinkgate.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "fence"
    },
    {
     "count": 3,
     "model": "models/props_c17/concrete_barrier001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "crate_large"
    },
    {
     "count": 3,
@@ -18281,12 +18309,12 @@
    {
     "count": 1,
     "model": "models/props_canal/generator02.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 4,
     "model": "models/props_docks/dock01_cleat01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 11,
@@ -18311,7 +18339,7 @@
    {
     "count": 1,
     "model": "models/props_lab/freightelevatorbutton.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 2,
@@ -18331,7 +18359,7 @@
    {
     "count": 1,
     "model": "models/props_rooftop/satellitedish02.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 6,
@@ -18346,7 +18374,7 @@
    {
     "count": 2,
     "model": "models/props_vehicles/generatortrailer01.mdl",
-    "stand_in": "vehicles/truck"
+    "stand_in": "cabinet"
    },
    {
     "count": 1,
@@ -18381,12 +18409,12 @@
    {
     "count": 1,
     "model": "models/props_wasteland/panel_leverbase001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_wasteland/panel_leverhandle001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 3,
@@ -18396,10 +18424,11 @@
    {
     "count": 1,
     "model": "models/stegosaurus/stegosaurus.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    }
   ],
   "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
+  "skipped_skybox_models": 0,
   "sounds": [
    {
     "author": "TMC (dot-audio authors)",
@@ -18620,12 +18649,12 @@
     "key": "generated:flat:808080",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "tools/toolsblack"
     ],
     "surfaces": 5,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -18709,12 +18738,12 @@
     "key": "generated:flat:df8000",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "dev/dev_measuregeneric01"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -18729,7 +18758,7 @@
     "key": "generated:water:808080",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "dev/dev_water2_cheap",
      "dev/dev_waterbeneath2",
@@ -18737,7 +18766,7 @@
      "nature/water_lowdirty002"
     ],
     "surfaces": 13,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -18752,13 +18781,13 @@
     "key": "generated:water:bfbfbf",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "nature/water_dx70_beneath",
      "nature/water_lowmurkref_dx70"
     ],
     "surfaces": 2,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -18773,12 +18802,12 @@
     "key": "generated:glass:808080",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "glass/glasswindowbreak070a"
     ],
     "surfaces": 9,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -18793,12 +18822,12 @@
     "key": "generated:flat:000000",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "cs_italy/black"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -18813,12 +18842,12 @@
     "key": "generated:flat:606040",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "effects/stairsatp"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -18833,12 +18862,12 @@
     "key": "generated:glass:404040",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "glass/glasswindow041c"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -18853,12 +18882,12 @@
     "key": "generated:bars:404020",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "metal/metalrail003a"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -18873,12 +18902,12 @@
     "key": "generated:grate:808080",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "metal/metalvent002a"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -18933,12 +18962,12 @@
     "key": "generated:glass:9f4020",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "shadertest/gooinglass"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    }
   ]
  },
@@ -21118,6 +21147,19 @@
   },
   {
    "at": [
+    -63.5676,
+    -15.2781,
+    49.5517
+   ],
+   "model": "models/cm9380/cm9380.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "solid": 6,
+   "stand_in": "radio",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     5.3327,
     -14.6955,
     61.5277
@@ -21883,7 +21925,7 @@
    ],
    "model": "models/props_vehicles/generatortrailer01.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/truck",
+   "stand_in": "cabinet",
    "yaw": 38.0
   },
   {
@@ -21921,6 +21963,17 @@
   },
   {
    "at": [
+    4.5911,
+    -14.6875,
+    95.7834
+   ],
+   "model": "models/props/cs_assault/forklift.mdl",
+   "scale": 1.0,
+   "stand_in": "desk",
+   "yaw": 33.5
+  },
+  {
+   "at": [
     -2.8765,
     -14.1732,
     97.2312
@@ -21929,6 +21982,66 @@
    "scale": 1.0,
    "stand_in": "crate_large",
    "yaw": 26.5
+  },
+  {
+   "at": [
+    4.1747,
+    -15.2343,
+    84.2201
+   ],
+   "model": "models/props/de_prodigy/concretebags4.mdl",
+   "scale": 1.0,
+   "size": 0.6,
+   "stand_in": "barrel",
+   "yaw": 324.0
+  },
+  {
+   "at": [
+    3.8318,
+    -15.2343,
+    82.4674
+   ],
+   "model": "models/props/de_prodigy/concretebags3.mdl",
+   "scale": 1.0,
+   "size": 0.6,
+   "stand_in": "barrel",
+   "yaw": 1.5
+  },
+  {
+   "at": [
+    4.9558,
+    -15.2343,
+    81.7245
+   ],
+   "model": "models/props/de_prodigy/concretebags3.mdl",
+   "scale": 1.0,
+   "size": 0.6,
+   "stand_in": "barrel",
+   "yaw": 17.0
+  },
+  {
+   "at": [
+    9.1574,
+    -15.2502,
+    95.3014
+   ],
+   "model": "models/props_c17/concrete_barrier001a.mdl",
+   "scale": 1.0,
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 142.5
+  },
+  {
+   "at": [
+    10.3298,
+    -15.2502,
+    93.434
+   ],
+   "model": "models/props_c17/concrete_barrier001a.mdl",
+   "scale": 1.0,
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 152.0
   },
   {
    "at": [
@@ -22350,6 +22463,54 @@
   },
   {
    "at": [
+    -125.1204,
+    -16.3449,
+    6.7056
+   ],
+   "model": "models/props_canal/generator02.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "stand_in": "cabinet",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -117.5766,
+    -18.4976,
+    2.0764
+   ],
+   "model": "models/props/de_nuke/equipment1.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "stand_in": "space/machine_generator",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -116.8146,
+    -18.4976,
+    2.0764
+   ],
+   "model": "models/props/de_nuke/equipment1.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "stand_in": "space/machine_generator",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -127.8636,
+    -15.1448,
+    2.7755
+   ],
+   "model": "models/props/de_nuke/equipment1.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "stand_in": "space/machine_generator",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     -127.9933,
     -13.0112,
     5.8121
@@ -22427,6 +22588,18 @@
   },
   {
    "at": [
+    0.4382,
+    -15.2343,
+    83.2485
+   ],
+   "model": "models/props/de_prodigy/concretebags3.mdl",
+   "scale": 1.0,
+   "size": 0.6,
+   "stand_in": "barrel",
+   "yaw": 302.0
+  },
+  {
+   "at": [
     87.9539,
     -20.1168,
     -2.9146
@@ -22501,6 +22674,30 @@
    "scale": 1.0,
    "stand_in": "plant",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    86.0384,
+    -15.2686,
+    56.9595
+   ],
+   "model": "models/props/cs_militia/militiarock03.mdl",
+   "scale": 1.0,
+   "size": 0.6,
+   "stand_in": "rock",
+   "yaw": 319.5
+  },
+  {
+   "at": [
+    94.7572,
+    -15.2686,
+    42.0434
+   ],
+   "model": "models/props/cs_militia/militiarock03.mdl",
+   "scale": 1.0,
+   "size": 0.6,
+   "stand_in": "rock",
+   "yaw": 357.0
   },
   {
    "at": [
@@ -22603,6 +22800,28 @@
   },
   {
    "at": [
+    -101.1936,
+    -12.554,
+    136.2399
+   ],
+   "model": "models/props/de_nuke/emergency_lighta.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -95.25,
+    -12.554,
+    136.2399
+   ],
+   "model": "models/props/de_nuke/emergency_lighta.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -95.5739,
     -23.7102,
     155.5623
@@ -22614,14 +22833,62 @@
   },
   {
    "at": [
+    -92.6973,
+    -23.7045,
+    159.0675
+   ],
+   "model": "models/props/de_prodigy/concretebags4.mdl",
+   "scale": 1.0,
+   "size": 0.6,
+   "stand_in": "barrel",
+   "yaw": 324.0
+  },
+  {
+   "at": [
+    -92.6419,
+    -23.7045,
+    161.7173
+   ],
+   "model": "models/props/de_prodigy/concretebags3.mdl",
+   "scale": 1.0,
+   "size": 0.6,
+   "stand_in": "barrel",
+   "yaw": 43.0
+  },
+  {
+   "at": [
     -91.0971,
     -23.7092,
     154.667
    ],
    "model": "models/props_vehicles/generatortrailer01.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/truck",
+   "stand_in": "cabinet",
    "yaw": 2.0
+  },
+  {
+   "at": [
+    -92.1258,
+    -23.7045,
+    165.7731
+   ],
+   "model": "models/props/de_prodigy/concretebags3.mdl",
+   "scale": 1.0,
+   "size": 0.6,
+   "stand_in": "barrel",
+   "yaw": 342.0
+  },
+  {
+   "at": [
+    -94.2594,
+    -23.641,
+    161.0266
+   ],
+   "model": "models/props/de_prodigy/concretebags4.mdl",
+   "scale": 1.0,
+   "size": 0.6,
+   "stand_in": "barrel",
+   "yaw": 289.0
   },
   {
    "at": [
@@ -22864,6 +23131,40 @@
    "scale": 1.0,
    "stand_in": "plant",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    11.3538,
+    -15.2502,
+    91.421
+   ],
+   "model": "models/props_c17/concrete_barrier001a.mdl",
+   "scale": 1.0,
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 155.0
+  },
+  {
+   "at": [
+    6.9152,
+    -15.24,
+    98.1075
+   ],
+   "model": "models/props/de_train/chainlinkgate.mdl",
+   "scale": 1.0,
+   "stand_in": "fence",
+   "yaw": 321.0
+  },
+  {
+   "at": [
+    3.8291,
+    -15.24,
+    102.1271
+   ],
+   "model": "models/props/de_train/chainlinkgate.mdl",
+   "scale": 1.0,
+   "stand_in": "fence",
+   "yaw": 324.0
   }
  ],
  "scripts": [],

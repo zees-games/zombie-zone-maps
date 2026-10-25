@@ -47,6 +47,7 @@
   "first_import": null,
   "licence": "none stated (Steam Workshop)",
   "missing": [],
+  "no_share_check": "2026-10-23, none: workshop description read: no redistribution, conversion or modification statement; workshop pages carry no licence (https://steamcommunity.com/sharedfiles/filedetails/?id=3400815298)",
   "page": "https://steamcommunity.com/sharedfiles/filedetails/?id=3400815298",
   "removal": "Credited with a link; removed on the author's request."
  },
@@ -12119,7 +12120,7 @@
   "model_stand_ins": [
    {
     "author": "Kenney",
-    "count": 10,
+    "count": 12,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -12146,7 +12147,7 @@
    },
    {
     "author": "Kenney",
-    "count": 16,
+    "count": 18,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -12173,7 +12174,7 @@
    },
    {
     "author": "Kenney",
-    "count": 17,
+    "count": 18,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -12182,7 +12183,7 @@
    },
    {
     "author": "Kenney",
-    "count": 35,
+    "count": 34,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -12200,7 +12201,7 @@
    },
    {
     "author": "Kenney",
-    "count": 32,
+    "count": 33,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -12209,7 +12210,7 @@
    },
    {
     "author": "Kenney",
-    "count": 1,
+    "count": 7,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -12236,7 +12237,7 @@
    },
    {
     "author": "Kenney",
-    "count": 24,
+    "count": 18,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Factory Kit",
@@ -12254,7 +12255,7 @@
    },
    {
     "author": "Kenney",
-    "count": 16,
+    "count": 18,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Nature Kit",
@@ -12272,7 +12273,7 @@
    },
    {
     "author": "Kenney",
-    "count": 8,
+    "count": 9,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Graveyard Kit",
@@ -12287,6 +12288,15 @@
     "source": "Kenney Furniture Kit",
     "stand_in": "lamp",
     "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 4,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Nature Kit",
+    "stand_in": "log",
+    "url": "https://kenney.nl/assets/nature-kit"
    },
    {
     "author": "Kenney",
@@ -12308,7 +12318,7 @@
    },
    {
     "author": "Kenney",
-    "count": 1,
+    "count": 2,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Pirate Kit",
@@ -12326,7 +12336,7 @@
    },
    {
     "author": "Kenney",
-    "count": 45,
+    "count": 37,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Nature Kit",
@@ -12398,7 +12408,7 @@
    },
    {
     "author": "Kenney",
-    "count": 13,
+    "count": 8,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Car Kit",
@@ -12407,7 +12417,7 @@
    },
    {
     "author": "Kenney",
-    "count": 12,
+    "count": 11,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Car Kit",
@@ -12447,7 +12457,7 @@
    {
     "count": 2,
     "model": "models/props/cs_militia/sawhorse.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "fence"
    },
    {
     "count": 1,
@@ -12777,7 +12787,7 @@
    {
     "count": 2,
     "model": "models/props_junk/bicycle01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bin"
    },
    {
     "count": 2,
@@ -12827,7 +12837,7 @@
    {
     "count": 1,
     "model": "models/props_junk/garbage_glassbottle002a.mdl",
-    "stand_in": "bin"
+    "stand_in": "pirate/bottle"
    },
    {
     "count": 1,
@@ -12857,7 +12867,7 @@
    {
     "count": 1,
     "model": "models/props_junk/harpoon002a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "log"
    },
    {
     "count": 8,
@@ -12912,12 +12922,12 @@
    {
     "count": 2,
     "model": "models/props_junk/sawblade001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 1,
     "model": "models/props_junk/shovel01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "log"
    },
    {
     "count": 5,
@@ -12937,7 +12947,7 @@
    {
     "count": 1,
     "model": "models/props_junk/wheebarrow01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bin"
    },
    {
     "count": 1,
@@ -13037,12 +13047,12 @@
    {
     "count": 2,
     "model": "models/props_pipes/pipecluster16d_002a.mdl",
-    "stand_in": "factory/pipe"
+    "stand_in": "detail"
    },
    {
     "count": 2,
     "model": "models/props_pipes/pipecluster32d_001a.mdl",
-    "stand_in": "factory/pipe"
+    "stand_in": "detail"
    },
    {
     "count": 2,
@@ -13082,27 +13092,27 @@
    {
     "count": 1,
     "model": "models/props_vehicles/carparts_axel01a.mdl",
-    "stand_in": "vehicles/sedan"
+    "stand_in": "log"
    },
    {
     "count": 1,
     "model": "models/props_vehicles/carparts_door01a.mdl",
-    "stand_in": "vehicles/sedan"
+    "stand_in": "crate"
    },
    {
     "count": 1,
     "model": "models/props_vehicles/carparts_muffler01a.mdl",
-    "stand_in": "vehicles/sedan"
+    "stand_in": "log"
    },
    {
     "count": 2,
     "model": "models/props_vehicles/carparts_tire01a.mdl",
-    "stand_in": "vehicles/sedan"
+    "stand_in": "barrel"
    },
    {
     "count": 1,
     "model": "models/props_vehicles/generatortrailer01.mdl",
-    "stand_in": "vehicles/truck"
+    "stand_in": "cabinet"
    },
    {
     "count": 1,
@@ -13157,7 +13167,7 @@
    {
     "count": 6,
     "model": "models/props_wasteland/barricade002a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "crate_large"
    },
    {
     "count": 2,
@@ -13247,17 +13257,17 @@
    {
     "count": 1,
     "model": "models/props_wasteland/light_spotlight02_lamp.mdl",
-    "stand_in": "ceiling_light"
+    "stand_in": "graveyard/lamppost"
    },
    {
     "count": 1,
     "model": "models/props_wasteland/pipecluster001c.mdl",
-    "stand_in": "factory/pipe"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_wasteland/pipecluster003a_small.mdl",
-    "stand_in": "factory/pipe"
+    "stand_in": "detail"
    },
    {
     "count": 5,
@@ -13292,7 +13302,7 @@
    {
     "count": 1,
     "model": "models/props_wasteland/prison_conduit001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
@@ -13322,32 +13332,32 @@
    {
     "count": 1,
     "model": "models/props_wasteland/rockcliff_cluster01a.mdl",
-    "stand_in": "rock"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_wasteland/rockcliff_cluster01b.mdl",
-    "stand_in": "rock"
+    "stand_in": "detail"
    },
    {
     "count": 4,
     "model": "models/props_wasteland/rockcliff_cluster02a.mdl",
-    "stand_in": "rock"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_wasteland/rockcliff_cluster02b.mdl",
-    "stand_in": "rock"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_wasteland/rockcliff_cluster02c.mdl",
-    "stand_in": "rock"
+    "stand_in": "detail"
    },
    {
     "count": 2,
     "model": "models/props_wasteland/rockcliff_cluster03a.mdl",
-    "stand_in": "rock"
+    "stand_in": "detail"
    },
    {
     "count": 3,
@@ -13371,6 +13381,7 @@
    }
   ],
   "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
+  "skipped_skybox_models": 0,
   "sounds": [
    {
     "author": "TMC (dot-audio authors)",
@@ -13447,13 +13458,13 @@
     "key": "generated:water:808080",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "nature/water_coast01_beneath",
      "nature/water_noreflect"
     ],
     "surfaces": 175,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -13560,12 +13571,12 @@
     "key": "generated:bars:606060",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "metal/metalrail006a"
     ],
     "surfaces": 4,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -13656,12 +13667,12 @@
     "key": "generated:flat:808080",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "tools/toolsblack"
     ],
     "surfaces": 2,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -13816,12 +13827,12 @@
     "key": "generated:glass:404040",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "glass/glasswindow029a"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -13879,12 +13890,12 @@
     "key": "generated:glass:606040",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "glass/glasswindow001b"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Rob Tuytel",
@@ -13941,12 +13952,12 @@
     "key": "generated:fence:202020",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "metal/metalfence004a"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -13981,12 +13992,12 @@
     "key": "generated:flat:609fbf",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "odysseus/artwork/swim"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -14001,12 +14012,12 @@
     "key": "generated:water:606060",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "ocean/shore_wave_001b"
     ],
     "surfaces": 2,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -14021,13 +14032,13 @@
     "key": "generated:glass:808080",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "dev/dev_windowportal",
      "glass/glasswindowbreak070a"
     ],
     "surfaces": 38,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    }
   ]
  },
@@ -15122,6 +15133,7 @@
    ],
    "model": "models/props_wasteland/plasterwall029g_window01a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "factory/window",
    "yaw": 180.0
   },
@@ -15133,6 +15145,7 @@
    ],
    "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "factory/window",
    "yaw": 180.0
   },
@@ -15204,17 +15217,6 @@
   },
   {
    "at": [
-    39.7002,
-    3.2766,
-    -77.4954
-   ],
-   "model": "models/props_junk/cardboard_box002a_gib01.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
-  },
-  {
-   "at": [
     39.7234,
     2.8956,
     -75.6666
@@ -15223,28 +15225,6 @@
    "scale": 1.0,
    "stand_in": "crate",
    "yaw": 185.0
-  },
-  {
-   "at": [
-    7.9248,
-    -7.7724,
-    -2.1336
-   ],
-   "model": "models/props_wasteland/cafeteria_table001a_chunk07.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 70.0
-  },
-  {
-   "at": [
-    -74.9808,
-    0.3048,
-    -2.7432
-   ],
-   "model": "models/props_debris/concrete_chunk07a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
   },
   {
    "at": [
@@ -15347,6 +15327,18 @@
   },
   {
    "at": [
+    -63.3984,
+    0.7049,
+    -4.8006
+   ],
+   "model": "models/props_wasteland/barricade002a.mdl",
+   "scale": 1.0,
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 285.0
+  },
+  {
+   "at": [
     -30.2133,
     6.096,
     -72.8853
@@ -15369,25 +15361,15 @@
   },
   {
    "at": [
-    -69.4944,
-    0.3048,
-    -3.6576
+    37.2618,
+    1.905,
+    -47.3202
    ],
-   "model": "models/props_debris/concrete_chunk06c.mdl",
+   "model": "models/props_wasteland/barricade002a.mdl",
    "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    -72.5424,
-    0.3048,
-    -3.048
-   ],
-   "model": "models/props_debris/concrete_chunk03a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 100.0
   },
   {
    "at": [
@@ -15600,6 +15582,30 @@
   },
   {
    "at": [
+    -63.3222,
+    0.7429,
+    -1.8288
+   ],
+   "model": "models/props_wasteland/barricade002a.mdl",
+   "scale": 1.0,
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 260.0
+  },
+  {
+   "at": [
+    -85.344,
+    0.6096,
+    -2.4384
+   ],
+   "model": "models/props_wasteland/barricade002a.mdl",
+   "scale": 1.0,
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 112.0
+  },
+  {
+   "at": [
     -1.6383,
     1.4859,
     -57.912
@@ -15622,39 +15628,6 @@
   },
   {
    "at": [
-    -71.3232,
-    0.3048,
-    -2.7432
-   ],
-   "model": "models/props_debris/concrete_chunk01c.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    -74.3712,
-    -0.3048,
-    -0.9144
-   ],
-   "model": "models/props_debris/concrete_chunk01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    -73.4568,
-    0.3048,
-    -2.7432
-   ],
-   "model": "models/props_debris/concrete_chunk02b.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
     -23.3934,
     0.3429,
     -26.8224
@@ -15663,28 +15636,6 @@
    "scale": 1.0,
    "stand_in": "fridge",
    "yaw": 0.0
-  },
-  {
-   "at": [
-    6.0198,
-    -7.6474,
-    -1.9431
-   ],
-   "model": "models/props_debris/wood_board07a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 5.0
-  },
-  {
-   "at": [
-    6.7056,
-    -8.0761,
-    -2.7051
-   ],
-   "model": "models/props_wasteland/cafeteria_table001a_chunk01.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 70.0
   },
   {
    "at": [
@@ -15793,7 +15744,8 @@
    ],
    "model": "models/props_vehicles/carparts_door01a.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/sedan",
+   "size": 1.1,
+   "stand_in": "crate",
    "yaw": 180.0
   },
   {
@@ -15804,7 +15756,6 @@
    ],
    "model": "models/props_c17/computer01_keyboard.mdl",
    "scale": 1.0,
-   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 355.0
   },
@@ -15851,6 +15802,17 @@
    "scale": 1.0,
    "stand_in": "crate",
    "yaw": 60.0
+  },
+  {
+   "at": [
+    -5.2959,
+    1.6764,
+    -51.7017
+   ],
+   "model": "models/props_junk/bicycle01a.mdl",
+   "scale": 1.0,
+   "stand_in": "bin",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -16058,7 +16020,8 @@
    ],
    "model": "models/props_junk/garbage_glassbottle002a.mdl",
    "scale": 1.0,
-   "stand_in": "bin",
+   "size": 0.3,
+   "stand_in": "pirate/bottle",
    "yaw": 265.0
   },
   {
@@ -16074,58 +16037,15 @@
   },
   {
    "at": [
-    -20.8788,
-    1.6193,
-    -43.2245
+    -32.0421,
+    6.5342,
+    -74.8475
    ],
-   "model": "models/props_debris/wood_board07a.mdl",
+   "model": "models/props_junk/shovel01a.mdl",
    "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    -21.1836,
-    1.7526,
-    -43.5102
-   ],
-   "model": "models/props_debris/wood_board07a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 180.0
-  },
-  {
-   "at": [
-    -20.193,
-    1.8288,
-    -44.5008
-   ],
-   "model": "models/props_debris/wood_board05a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 175.0
-  },
-  {
-   "at": [
-    -20.193,
-    1.2192,
-    -44.577
-   ],
-   "model": "models/props_debris/wood_board06a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 180.0
-  },
-  {
-   "at": [
-    -20.2692,
-    1.08,
-    -44.4246
-   ],
-   "model": "models/props_debris/wood_board06a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 90.0
   },
   {
    "at": [
@@ -16137,6 +16057,42 @@
    "scale": 1.0,
    "stand_in": "table",
    "yaw": 270.0
+  },
+  {
+   "at": [
+    -17.9182,
+    1.2954,
+    -46.8354
+   ],
+   "model": "models/props_junk/sawblade001a.mdl",
+   "scale": 1.0,
+   "size": 0.35,
+   "stand_in": "rock",
+   "yaw": 170.0
+  },
+  {
+   "at": [
+    -17.907,
+    1.143,
+    -45.0342
+   ],
+   "model": "models/props/cs_militia/sawhorse.mdl",
+   "scale": 1.0,
+   "size": 3.0,
+   "stand_in": "fence",
+   "yaw": 130.0
+  },
+  {
+   "at": [
+    -17.8308,
+    1.143,
+    -46.7106
+   ],
+   "model": "models/props/cs_militia/sawhorse.mdl",
+   "scale": 1.0,
+   "size": 3.0,
+   "stand_in": "fence",
+   "yaw": 230.0
   },
   {
    "at": [
@@ -16195,28 +16151,6 @@
   },
   {
    "at": [
-    -40.386,
-    0.6096,
-    -25.7556
-   ],
-   "model": "models/props_junk/cinderblock01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    -41.6052,
-    0.6882,
-    -25.7556
-   ],
-   "model": "models/props_junk/cinderblock01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 70.0
-  },
-  {
-   "at": [
     46.3296,
     2.0764,
     -83.7438
@@ -16245,7 +16179,8 @@
    ],
    "model": "models/props_vehicles/carparts_muffler01a.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/sedan",
+   "size": 1.1,
+   "stand_in": "log",
    "yaw": 35.0
   },
   {
@@ -16256,7 +16191,8 @@
    ],
    "model": "models/props_vehicles/carparts_axel01a.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/sedan",
+   "size": 1.5,
+   "stand_in": "log",
    "yaw": 90.0
   },
   {
@@ -16267,7 +16203,8 @@
    ],
    "model": "models/props_vehicles/carparts_tire01a.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/sedan",
+   "size": 0.8,
+   "stand_in": "barrel",
    "yaw": 0.0
   },
   {
@@ -16371,17 +16308,6 @@
   },
   {
    "at": [
-    -0.6096,
-    2.1336,
-    -51.7398
-   ],
-   "model": "models/props_junk/cinderblock01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 270.0
-  },
-  {
-   "at": [
     -24.8031,
     -0.5334,
     -18.5928
@@ -16438,17 +16364,6 @@
   },
   {
    "at": [
-    -0.4572,
-    1.6764,
-    -51.816
-   ],
-   "model": "models/props_junk/cinderblock01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 270.0
-  },
-  {
-   "at": [
     36.4998,
     1.6002,
     -49.3014
@@ -16460,17 +16375,6 @@
   },
   {
    "at": [
-    -19.6285,
-    -0.381,
-    -15.4287
-   ],
-   "model": "models/props_junk/cinderblock01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 60.0
-  },
-  {
-   "at": [
     -20.1168,
     -0.3048,
     -15.5253
@@ -16479,6 +16383,18 @@
    "scale": 1.0,
    "stand_in": "crate",
    "yaw": 175.0
+  },
+  {
+   "at": [
+    37.0332,
+    1.905,
+    -61.7982
+   ],
+   "model": "models/props_wasteland/barricade002a.mdl",
+   "scale": 1.0,
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 70.0
   },
   {
    "at": [
@@ -16523,6 +16439,18 @@
    "scale": 1.0,
    "stand_in": "crate",
    "yaw": 160.0
+  },
+  {
+   "at": [
+    -87.7824,
+    0.5729,
+    -4.8768
+   ],
+   "model": "models/props_wasteland/barricade002a.mdl",
+   "scale": 1.0,
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 60.0
   },
   {
    "at": [
@@ -16730,6 +16658,7 @@
    ],
    "model": "models/props_junk/propanecanister001a.mdl",
    "scale": 1.0,
+   "size": 1.3,
    "stand_in": "bucket",
    "yaw": 0.0
   },
@@ -16911,17 +16840,6 @@
   },
   {
    "at": [
-    -25.908,
-    0.0381,
-    -27.813
-   ],
-   "model": "models/props_debris/wood_board06a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
     -17.4688,
     1.1968,
     -46.9582
@@ -16952,28 +16870,6 @@
    "scale": 1.0,
    "stand_in": "crate",
    "yaw": 100.0
-  },
-  {
-   "at": [
-    -21.5265,
-    2.0955,
-    -27.3558
-   ],
-   "model": "models/props_debris/wood_board05a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 355.0
-  },
-  {
-   "at": [
-    -21.5646,
-    2.0955,
-    -26.8986
-   ],
-   "model": "models/props_debris/wood_board03a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
   },
   {
    "at": [
@@ -17043,6 +16939,17 @@
   },
   {
    "at": [
+    -41.4528,
+    1.6002,
+    -53.9496
+   ],
+   "model": "models/props_junk/wheebarrow01a.mdl",
+   "scale": 1.0,
+   "stand_in": "bin",
+   "yaw": 220.92
+  },
+  {
+   "at": [
     -26.659,
     2.8559,
     -49.57
@@ -17060,30 +16967,9 @@
    ],
    "model": "models/props_c17/canister_propane01a.mdl",
    "scale": 1.0,
+   "size": 1.3,
    "stand_in": "bucket",
    "yaw": 270.0
-  },
-  {
-   "at": [
-    17.0688,
-    1.7526,
-    -37.338
-   ],
-   "model": "models/props_junk/wood_pallet001a_chunka.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 340.0
-  },
-  {
-   "at": [
-    6.1341,
-    -7.6962,
-    -1.524
-   ],
-   "model": "models/props_debris/wood_board05a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
   },
   {
    "at": [
@@ -17104,6 +16990,7 @@
    ],
    "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "factory/window",
    "yaw": 180.0
   },
@@ -17115,6 +17002,7 @@
    ],
    "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "factory/window",
    "yaw": 180.0
   },
@@ -17126,6 +17014,7 @@
    ],
    "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "factory/window",
    "yaw": 0.0
   },
@@ -17148,7 +17037,8 @@
    ],
    "model": "models/props_vehicles/carparts_tire01a.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/sedan",
+   "size": 0.8,
+   "stand_in": "barrel",
    "yaw": 270.0
   },
   {
@@ -17186,34 +17076,13 @@
   },
   {
    "at": [
-    6.9342,
-    1.8478,
-    -51.5112
-   ],
-   "model": "models/props_debris/wood_board06a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    7.3342,
-    1.3145,
-    -51.8732
-   ],
-   "model": "models/props_debris/wood_board02a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 346.5
-  },
-  {
-   "at": [
     21.717,
     3.2766,
     -70.2564
    ],
    "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "factory/window",
    "yaw": 270.0
   },
@@ -17269,6 +17138,7 @@
    ],
    "model": "models/props_wasteland/plasterwall029g_window01a_bars.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "factory/window",
    "yaw": 270.0
   },
@@ -17315,6 +17185,17 @@
    "scale": 1.0,
    "stand_in": "crate",
    "yaw": 194.5
+  },
+  {
+   "at": [
+    39.8907,
+    1.6383,
+    -66.7131
+   ],
+   "model": "models/props_junk/bicycle01a.mdl",
+   "scale": 1.0,
+   "stand_in": "bin",
+   "yaw": 76.5
   },
   {
    "at": [
@@ -17417,6 +17298,18 @@
   },
   {
    "at": [
+    2.4003,
+    1.1049,
+    -32.1374
+   ],
+   "model": "models/props_junk/sawblade001a.mdl",
+   "scale": 1.0,
+   "size": 0.35,
+   "stand_in": "rock",
+   "yaw": 171.0
+  },
+  {
+   "at": [
     49.9682,
     1.5431,
     -80.9244
@@ -17450,25 +17343,15 @@
   },
   {
    "at": [
-    12.6873,
-    -6.9342,
-    -22.6886
+    24.5364,
+    -7.9439,
+    -5.1435
    ],
-   "model": "models/props_debris/metal_panel02a.mdl",
+   "model": "models/props_junk/harpoon002a.mdl",
    "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 10.0
-  },
-  {
-   "at": [
-    25.3365,
-    -4.3434,
-    -17.0878
-   ],
-   "model": "models/props_debris/metal_panel01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 287.14
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 10.5
   },
   {
    "at": [
@@ -17714,17 +17597,6 @@
   },
   {
    "at": [
-    18.288,
-    5.4864,
-    -41.4528
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster02c.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
     5.0292,
     -5.4864,
     -2.0574
@@ -17791,17 +17663,6 @@
   },
   {
    "at": [
-    -44.6532,
-    9.7536,
-    -67.3608
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster02b.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 159.72
-  },
-  {
-   "at": [
     -21.9456,
     1.2192,
     -15.8877
@@ -17865,17 +17726,6 @@
    "scale": 1.0,
    "stand_in": "vehicles/truck",
    "yaw": 0.0
-  },
-  {
-   "at": [
-    22.3838,
-    1.4097,
-    -75.0189
-   ],
-   "model": "models/props_wasteland/pipecluster001c.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 180.0
   },
   {
    "at": [
@@ -18055,28 +17905,6 @@
   },
   {
    "at": [
-    -24.5745,
-    -0.0572,
-    -19.2596
-   ],
-   "model": "models/props_wasteland/pipecluster003a_small.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    -22.098,
-    0.1524,
-    -15.5448
-   ],
-   "model": "models/props_pipes/pipecluster16d_002a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 270.0
-  },
-  {
-   "at": [
     48.006,
     3.791,
     -84.1248
@@ -18107,17 +17935,6 @@
    "scale": 1.0,
    "stand_in": "factory/pipe",
    "yaw": 0.0
-  },
-  {
-   "at": [
-    37.4904,
-    5.7912,
-    -86.106
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster02a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 140.0
   },
   {
    "at": [
@@ -18162,17 +17979,6 @@
    "scale": 1.0,
    "stand_in": "bin",
    "yaw": 90.0
-  },
-  {
-   "at": [
-    -53.6448,
-    4.8197,
-    -15.5448
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster02a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 150.0
   },
   {
    "at": [
@@ -18242,28 +18048,6 @@
   },
   {
    "at": [
-    51.7398,
-    2.7432,
-    -56.9976
-   ],
-   "model": "models/props_debris/plaster_floorpile002a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 184.77
-  },
-  {
-   "at": [
-    52.3494,
-    2.2098,
-    -53.8734
-   ],
-   "model": "models/props_debris/concrete_debris256pile001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
     -26.2128,
     0.4953,
     -31.6992
@@ -18283,61 +18067,6 @@
    "scale": 1.0,
    "stand_in": "vehicles/sedan",
    "yaw": 84.98
-  },
-  {
-   "at": [
-    55.4736,
-    3.7338,
-    -54.7878
-   ],
-   "model": "models/props_debris/concrete_debris128pile001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    54.864,
-    3.5814,
-    -52.4883
-   ],
-   "model": "models/props_debris/concrete_debris128pile001b.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    55.3974,
-    3.9624,
-    -55.7022
-   ],
-   "model": "models/props_debris/concrete_debris256pile001a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 180.0
-  },
-  {
-   "at": [
-    41.2242,
-    3.6488,
-    -76.8287
-   ],
-   "model": "models/props_pipes/pipecluster32d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 270.0
-  },
-  {
-   "at": [
-    41.6052,
-    3.6576,
-    -30.9372
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster03a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 20.0
   },
   {
    "at": [
@@ -18380,7 +18109,7 @@
    ],
    "model": "models/props_wasteland/light_spotlight02_lamp.mdl",
    "scale": 1.0,
-   "stand_in": "ceiling_light",
+   "stand_in": "graveyard/lamppost",
    "yaw": 252.0
   },
   {
@@ -18550,17 +18279,6 @@
   },
   {
    "at": [
-    42.5958,
-    3.6488,
-    -76.8287
-   ],
-   "model": "models/props_pipes/pipecluster32d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 270.0
-  },
-  {
-   "at": [
     21.6027,
     3.7338,
     -72.3138
@@ -18580,50 +18298,6 @@
    "scale": 1.0,
    "stand_in": "factory/window",
    "yaw": 270.0
-  },
-  {
-   "at": [
-    2.6099,
-    -21.3551,
-    -28.8989
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster01b.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 204.0
-  },
-  {
-   "at": [
-    0.2286,
-    -22.1361,
-    -22.8409
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster02a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 197.0
-  },
-  {
-   "at": [
-    8.382,
-    -19.793,
-    2.9527
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster03a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 194.5
-  },
-  {
-   "at": [
-    30.3657,
-    -20.9169,
-    -16.9926
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster01a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 201.5
   },
   {
    "at": [
@@ -18842,7 +18516,7 @@
    ],
    "model": "models/props_vehicles/generatortrailer01.mdl",
    "scale": 1.0,
-   "stand_in": "vehicles/truck",
+   "stand_in": "cabinet",
    "yaw": 355.53
   },
   {
@@ -18877,28 +18551,6 @@
    "scale": 1.0,
    "stand_in": "factory/window",
    "yaw": 270.0
-  },
-  {
-   "at": [
-    28.2893,
-    1.6574,
-    -77.8002
-   ],
-   "model": "models/props_debris/concrete_debris128pile001b.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 86.5
-  },
-  {
-   "at": [
-    37.4523,
-    1.5812,
-    -75.8571
-   ],
-   "model": "models/props_pipes/pipecluster16d_002a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 180.0
   },
   {
    "at": [
@@ -19163,17 +18815,6 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 270.0
-  },
-  {
-   "at": [
-    9.6203,
-    -22.1361,
-    -63.7794
-   ],
-   "model": "models/props_wasteland/rockcliff_cluster02a.mdl",
-   "scale": 1.0,
-   "stand_in": "rock",
-   "yaw": 15.5
   },
   {
    "at": [

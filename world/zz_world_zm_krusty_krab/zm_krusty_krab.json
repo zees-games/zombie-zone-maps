@@ -39784,7 +39784,7 @@
   "model_stand_ins": [
    {
     "author": "Kenney",
-    "count": 1,
+    "count": 18,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -39793,7 +39793,7 @@
    },
    {
     "author": "Kenney",
-    "count": 24,
+    "count": 2,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -39802,7 +39802,7 @@
    },
    {
     "author": "Kenney",
-    "count": 32,
+    "count": 34,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -39811,7 +39811,7 @@
    },
    {
     "author": "Kenney",
-    "count": 4,
+    "count": 27,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -39829,7 +39829,7 @@
    },
    {
     "author": "Kenney",
-    "count": 5,
+    "count": 11,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -39838,7 +39838,7 @@
    },
    {
     "author": "Kenney",
-    "count": 58,
+    "count": 67,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -39856,7 +39856,7 @@
    },
    {
     "author": "Kenney",
-    "count": 87,
+    "count": 69,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -39887,6 +39887,15 @@
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Factory Kit",
+    "stand_in": "factory/door",
+    "url": "https://kenney.nl/assets/factory-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 9,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Factory Kit",
     "stand_in": "factory/pipe",
     "url": "https://kenney.nl/assets/factory-kit"
    },
@@ -39901,12 +39910,57 @@
    },
    {
     "author": "Kenney",
-    "count": 18,
+    "count": 20,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Nature Kit",
     "stand_in": "fence",
     "url": "https://kenney.nl/assets/nature-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 16,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Survival Kit",
+    "stand_in": "fence_post",
+    "url": "https://kenney.nl/assets/survival-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 2,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Food Kit",
+    "stand_in": "food/bottle-ketchup",
+    "url": "https://kenney.nl/assets/food-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 2,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Food Kit",
+    "stand_in": "food/bottle-musterd",
+    "url": "https://kenney.nl/assets/food-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 2,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Food Kit",
+    "stand_in": "food/bottle-oil",
+    "url": "https://kenney.nl/assets/food-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 11,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Food Kit",
+    "stand_in": "food/burger",
+    "url": "https://kenney.nl/assets/food-kit"
    },
    {
     "author": "Kenney",
@@ -39937,7 +39991,7 @@
    },
    {
     "author": "Kenney",
-    "count": 1,
+    "count": 4,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Pirate Kit",
@@ -40012,15 +40066,6 @@
     "count": 11,
     "files": [],
     "licence": "CC0-1.0",
-    "source": "Kenney Nature Kit",
-    "stand_in": "stump",
-    "url": "https://kenney.nl/assets/nature-kit"
-   },
-   {
-    "author": "Kenney",
-    "count": 11,
-    "files": [],
-    "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
     "stand_in": "table",
     "url": "https://kenney.nl/assets/furniture-kit"
@@ -40042,23 +40087,32 @@
     "source": "Kenney Nature Kit",
     "stand_in": "tree",
     "url": "https://kenney.nl/assets/nature-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Watercraft Pack",
+    "stand_in": "watercraft/cargo-container-a",
+    "url": "https://kenney.nl/assets/watercraft-pack"
    }
   ],
   "models": [
    {
     "count": 7,
     "model": "models/firewavezzmodels/anker2.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "barrel"
    },
    {
     "count": 10,
     "model": "models/firewavezzmodels/ankerbig.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "barrel"
    },
    {
     "count": 1,
     "model": "models/firewavezzmodels/cargocontainer_green.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "watercraft/cargo-container-a"
    },
    {
     "count": 27,
@@ -40068,12 +40122,12 @@
    {
     "count": 7,
     "model": "models/firewavezzmodels/clock2.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bucket"
    },
    {
     "count": 18,
     "model": "models/firewavezzmodels/jellyfish2.mdl",
-    "stand_in": "crate"
+    "stand_in": "detail"
    },
    {
     "count": 1,
@@ -40088,7 +40142,7 @@
    {
     "count": 12,
     "model": "models/firewavezzmodels/metaldoor1.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/door"
    },
    {
     "count": 6,
@@ -40138,12 +40192,12 @@
    {
     "count": 1,
     "model": "models/firewavezzmodels/woodenghostroof.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "fence"
    },
    {
     "count": 1,
     "model": "models/firewavezzmodels/woodtunnel.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "fence"
    },
    {
     "count": 1,
@@ -40153,12 +40207,12 @@
    {
     "count": 2,
     "model": "models/player/zh/zh_zombie003.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 6,
     "model": "models/props/cs_assault/dollar.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 4,
@@ -40188,7 +40242,7 @@
    {
     "count": 2,
     "model": "models/props/cs_italy/winerack_small.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bookcase"
    },
    {
     "count": 2,
@@ -40243,7 +40297,7 @@
    {
     "count": 1,
     "model": "models/props/de_dust/du_antenna_b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 14,
@@ -40278,7 +40332,7 @@
    {
     "count": 7,
     "model": "models/props/de_nuke/clock.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bucket"
    },
    {
     "count": 6,
@@ -40298,7 +40352,7 @@
    {
     "count": 7,
     "model": "models/props/de_nuke/lifepreserver.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bucket"
    },
    {
     "count": 1,
@@ -40308,12 +40362,12 @@
    {
     "count": 9,
     "model": "models/props/de_prodigy/lighthanging.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "ceiling_light"
    },
    {
     "count": 4,
     "model": "models/props/de_prodigy/spoolwire.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
@@ -40378,12 +40432,12 @@
    {
     "count": 4,
     "model": "models/props_citizen_tech/firetrap_button01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 2,
     "model": "models/props_combine/breenglobe.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bucket"
    },
    {
     "count": 3,
@@ -40403,7 +40457,7 @@
    {
     "count": 3,
     "model": "models/props_junk/glassjug01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "pirate/bottle"
    },
    {
     "count": 1,
@@ -40418,17 +40472,17 @@
    {
     "count": 1,
     "model": "models/props_pipes/pipecluster32d_001a.mdl",
-    "stand_in": "factory/pipe"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_pipes/pipecluster32d_002a.mdl",
-    "stand_in": "factory/pipe"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_pipes/pipecluster32d_003a.mdl",
-    "stand_in": "factory/pipe"
+    "stand_in": "detail"
    },
    {
     "count": 5,
@@ -40498,32 +40552,32 @@
    {
     "count": 2,
     "model": "models/spongebob/ketchup.mdl",
-    "stand_in": "bin"
+    "stand_in": "food/bottle-ketchup"
    },
    {
     "count": 2,
     "model": "models/spongebob/mustard.mdl",
-    "stand_in": "bin"
+    "stand_in": "food/bottle-musterd"
    },
    {
     "count": 11,
     "model": "models/spongebob/patty.mdl",
-    "stand_in": "stump"
+    "stand_in": "food/burger"
    },
    {
     "count": 16,
     "model": "models/spongebob/post.mdl",
-    "stand_in": "bin"
+    "stand_in": "fence_post"
    },
    {
     "count": 2,
     "model": "models/spongebob/relish.mdl",
-    "stand_in": "bin"
+    "stand_in": "food/bottle-oil"
    },
    {
     "count": 3,
     "model": "models/zombie/classic_torso.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    }
   ],
   "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
@@ -40656,12 +40710,12 @@
     "key": "generated:flat:000000",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "cs_italy/black"
     ],
     "surfaces": 33,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -40732,12 +40786,12 @@
     "key": "generated:fence:202020",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "effects/metalfence007a"
     ],
     "surfaces": 4,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -40752,13 +40806,13 @@
     "key": "generated:glass:002020",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "glass/combineglass001a",
      "glass/glasswindow070c"
     ],
     "surfaces": 17,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -40794,14 +40848,14 @@
     "key": "generated:water:808080",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "nature/water_coast01",
      "nature/water_coast01_beneath",
      "nature/water_coast02"
     ],
     "surfaces": 6,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -40836,12 +40890,12 @@
     "key": "generated:foliage_card:806040",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "silkroad/donswhang/w_cd_ravi_gorge01_06"
     ],
     "surfaces": 5,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -40856,12 +40910,12 @@
     "key": "generated:flat:9f8040",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "cable/rope"
     ],
     "surfaces": 2,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -40898,12 +40952,12 @@
     "key": "generated:flat:df8020",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "dev/dev_measurewall01c"
     ],
     "surfaces": 2,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -40918,12 +40972,12 @@
     "key": "generated:bars:202020",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "metal/metalrail004a"
     ],
     "surfaces": 3,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -40959,12 +41013,12 @@
     "key": "generated:flat:dfdfbf",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "cs_havana/glassfluorescentlighton01"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -40999,13 +41053,13 @@
     "key": "generated:glass:808080",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "glass/glasswindow015a",
      "glass/reflectiveglass001"
     ],
     "surfaces": 2,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -41020,12 +41074,12 @@
     "key": "generated:bars:402040",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "metal/metalarch004b"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -41060,12 +41114,12 @@
     "key": "generated:water:dfdfdf",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "watersource/ice_reflections/ice2"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -41080,12 +41134,12 @@
     "key": "generated:flat:dfdfdf",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "lights/white001"
     ],
     "surfaces": 31,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    }
   ]
  },
@@ -50264,6 +50318,54 @@
  "props": [
   {
    "at": [
+    17.7165,
+    -7.5989,
+    32.8422
+   ],
+   "model": "models/props/de_nuke/clock.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "bucket",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    78.4098,
+    -14.7617,
+    9.7917
+   ],
+   "model": "models/props/de_nuke/clock.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "bucket",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    78.4098,
+    -14.7617,
+    12.2301
+   ],
+   "model": "models/props/de_nuke/clock.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "bucket",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    78.4098,
+    -14.7617,
+    7.3533
+   ],
+   "model": "models/props/de_nuke/clock.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "bucket",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     7.0104,
     -4.5376,
     -6.5532
@@ -50286,25 +50388,68 @@
   },
   {
    "at": [
+    -0.762,
+    -3.3528,
+    -0.2286
+   ],
+   "model": "models/firewavezzmodels/anker2.mdl",
+   "scale": 1.0,
+   "size": 0.9,
+   "solid": 6,
+   "stand_in": "barrel",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -0.762,
+    -3.3528,
+    -0.0762
+   ],
+   "model": "models/firewavezzmodels/anker2.mdl",
+   "scale": 1.0,
+   "size": 0.9,
+   "solid": 6,
+   "stand_in": "barrel",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     8.0772,
-    -3.2766,
+    -3.6424,
     -0.1524
    ],
    "model": "models/firewavezzmodels/metalwindow2.mdl",
    "scale": 1.0,
+   "size": 0.732,
+   "solid": 6,
    "stand_in": "factory/window",
    "yaw": 90.0
   },
   {
    "at": [
     1.3716,
-    -3.2766,
+    -3.6424,
     -2.5908
    ],
    "model": "models/firewavezzmodels/metalwindow2.mdl",
    "scale": 1.0,
+   "size": 0.732,
+   "solid": 6,
    "stand_in": "factory/window",
    "yaw": 180.0
+  },
+  {
+   "at": [
+    8.382,
+    -3.3528,
+    -12.1158
+   ],
+   "model": "models/firewavezzmodels/anker2.mdl",
+   "scale": 1.0,
+   "size": 0.9,
+   "solid": 6,
+   "stand_in": "barrel",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -50315,6 +50460,19 @@
    "model": "models/props/cs_havana/bookcase_large.mdl",
    "scale": 1.0,
    "stand_in": "bookcase",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -3.6576,
+    -3.7147,
+    -5.0102
+   ],
+   "model": "models/firewavezzmodels/anker2.mdl",
+   "scale": 1.0,
+   "size": 0.9,
+   "solid": 6,
+   "stand_in": "barrel",
    "yaw": 90.0
   },
   {
@@ -50532,6 +50690,19 @@
   },
   {
    "at": [
+    8.382,
+    -3.5736,
+    -11.8872
+   ],
+   "model": "models/props/de_nuke/lifepreserver.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "solid": 6,
+   "stand_in": "bucket",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     9.144,
     -1.5149,
     -0.9144
@@ -50562,6 +50733,78 @@
    "scale": 1.0,
    "stand_in": "crate",
    "yaw": 125.5
+  },
+  {
+   "at": [
+    -1.6958,
+    -4.1597,
+    -9.6826
+   ],
+   "model": "models/props/cs_assault/dollar.mdl",
+   "scale": 1.0,
+   "size": 0.22,
+   "stand_in": "cardboard_box",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -1.7572,
+    -4.1607,
+    -9.6281
+   ],
+   "model": "models/props/cs_assault/dollar.mdl",
+   "scale": 1.0,
+   "size": 0.22,
+   "stand_in": "cardboard_box",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -1.9591,
+    -4.1867,
+    -9.7001
+   ],
+   "model": "models/props/cs_assault/dollar.mdl",
+   "scale": 1.0,
+   "size": 0.22,
+   "stand_in": "cardboard_box",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -1.92,
+    -4.1597,
+    -9.6296
+   ],
+   "model": "models/props/cs_assault/dollar.mdl",
+   "scale": 1.0,
+   "size": 0.22,
+   "stand_in": "cardboard_box",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -1.7354,
+    -4.0257,
+    -9.6012
+   ],
+   "model": "models/props/cs_assault/dollar.mdl",
+   "scale": 1.0,
+   "size": 0.22,
+   "stand_in": "cardboard_box",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -1.7288,
+    -4.1057,
+    -9.679
+   ],
+   "model": "models/props/cs_assault/dollar.mdl",
+   "scale": 1.0,
+   "size": 0.22,
+   "stand_in": "cardboard_box",
+   "yaw": 90.0
   },
   {
    "at": [
@@ -50629,6 +50872,218 @@
    "scale": 1.0,
    "stand_in": "bucket",
    "yaw": 45.0
+  },
+  {
+   "at": [
+    -1.2833,
+    -4.0205,
+    -9.6069
+   ],
+   "model": "models/props_combine/breenglobe.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "bucket",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    1.7907,
+    -4.1862,
+    -4.572
+   ],
+   "model": "models/spongebob/mustard.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "food/bottle-musterd",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    1.8288,
+    -4.1862,
+    -4.3434
+   ],
+   "model": "models/spongebob/relish.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "food/bottle-oil",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    1.7907,
+    -4.1862,
+    -4.1148
+   ],
+   "model": "models/spongebob/ketchup.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "food/bottle-ketchup",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    1.7907,
+    -4.1862,
+    -5.334
+   ],
+   "model": "models/spongebob/mustard.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "food/bottle-musterd",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    1.6764,
+    -4.1862,
+    -5.1054
+   ],
+   "model": "models/spongebob/relish.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "food/bottle-oil",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    1.8288,
+    -4.1862,
+    -4.8006
+   ],
+   "model": "models/spongebob/ketchup.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "food/bottle-ketchup",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    0.954,
+    -3.9005,
+    8.6871
+   ],
+   "model": "models/spongebob/patty.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "food/burger",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -0.0357,
+    -3.9005,
+    8.0348
+   ],
+   "model": "models/spongebob/patty.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "food/burger",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -2.286,
+    -4.872,
+    21.4884
+   ],
+   "model": "models/spongebob/post.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "solid": 6,
+   "stand_in": "fence_post",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -2.286,
+    -3.6528,
+    21.4884
+   ],
+   "model": "models/spongebob/post.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "solid": 6,
+   "stand_in": "fence_post",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -2.286,
+    -2.4336,
+    21.4884
+   ],
+   "model": "models/spongebob/post.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "solid": 6,
+   "stand_in": "fence_post",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -2.286,
+    -1.2144,
+    21.4884
+   ],
+   "model": "models/spongebob/post.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "solid": 6,
+   "stand_in": "fence_post",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -2.286,
+    0.0048,
+    21.4884
+   ],
+   "model": "models/spongebob/post.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "solid": 6,
+   "stand_in": "fence_post",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -2.286,
+    1.224,
+    21.4884
+   ],
+   "model": "models/spongebob/post.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "solid": 6,
+   "stand_in": "fence_post",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -2.286,
+    2.4432,
+    21.4884
+   ],
+   "model": "models/spongebob/post.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "solid": 6,
+   "stand_in": "fence_post",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -2.286,
+    3.6624,
+    21.4884
+   ],
+   "model": "models/spongebob/post.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "solid": 6,
+   "stand_in": "fence_post",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -50737,6 +51192,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 180.0
   },
@@ -50748,6 +51204,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 0.0
   },
@@ -50759,6 +51216,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 270.0
   },
@@ -50770,6 +51228,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 270.0
   },
@@ -50863,23 +51322,40 @@
   },
   {
    "at": [
-    34.0614,
+    33.3756,
     -7.3152,
+    -0.4572
+   ],
+   "model": "models/firewavezzmodels/anker2.mdl",
+   "scale": 1.0,
+   "size": 0.9,
+   "solid": 6,
+   "stand_in": "barrel",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    34.0614,
+    -7.681,
     4.8768
    ],
    "model": "models/firewavezzmodels/metalwindow2.mdl",
    "scale": 1.0,
+   "size": 0.732,
+   "solid": 6,
    "stand_in": "factory/window",
    "yaw": 180.0
   },
   {
    "at": [
     34.0614,
-    -7.3152,
+    -7.681,
     3.1242
    ],
    "model": "models/firewavezzmodels/metalwindow2.mdl",
    "scale": 1.0,
+   "size": 0.732,
+   "solid": 6,
    "stand_in": "factory/window",
    "yaw": 180.0
   },
@@ -50924,6 +51400,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 270.0
   },
@@ -50990,6 +51467,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 270.0
   },
@@ -51001,6 +51479,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 270.0
   },
@@ -51039,6 +51518,19 @@
   },
   {
    "at": [
+    19.3358,
+    -8.2869,
+    -1.5621
+   ],
+   "model": "models/firewavezzmodels/anker2.mdl",
+   "scale": 1.0,
+   "size": 0.9,
+   "solid": 6,
+   "stand_in": "barrel",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     15.24,
     -9.102,
     -1.6764
@@ -51056,6 +51548,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 270.0
   },
@@ -51067,6 +51560,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 270.0
   },
@@ -51116,12 +51610,26 @@
   },
   {
    "at": [
+    -3.0675,
+    -4.1916,
+    -5.4215
+   ],
+   "model": "models/props_junk/glassjug01.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "pirate/bottle",
+   "yaw": 359.4
+  },
+  {
+   "at": [
     -11.7348,
-    -0.9525,
+    -1.3183,
     18.5547
    ],
    "model": "models/firewavezzmodels/metalwindow2.mdl",
    "scale": 1.0,
+   "size": 0.732,
+   "solid": 6,
    "stand_in": "factory/window",
    "yaw": 180.0
   },
@@ -51177,6 +51685,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 180.0
   },
@@ -51188,6 +51697,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 180.0
   },
@@ -51204,12 +51714,37 @@
   },
   {
    "at": [
+    15.302,
+    -8.7366,
+    -1.5796
+   ],
+   "model": "models/props_junk/glassjug01.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "pirate/bottle",
+   "yaw": 359.4
+  },
+  {
+   "at": [
+    6.4008,
+    -8.3963,
+    -3.3528
+   ],
+   "model": "models/spongebob/patty.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "food/burger",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     41.7576,
     -8.382,
     16.4592
    ],
    "model": "models/props/cs_havana/bookcase_small.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bookcase",
    "yaw": 90.0
   },
@@ -51221,6 +51756,7 @@
    ],
    "model": "models/props/cs_havana/bookcase_small.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bookcase",
    "yaw": 90.0
   },
@@ -51232,6 +51768,7 @@
    ],
    "model": "models/props/cs_havana/bookcase_small.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bookcase",
    "yaw": 270.0
   },
@@ -51243,6 +51780,7 @@
    ],
    "model": "models/props/cs_havana/bookcase_small.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bookcase",
    "yaw": 270.0
   },
@@ -51265,6 +51803,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 270.0
   },
@@ -51276,6 +51815,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 270.0
   },
@@ -51287,6 +51827,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 0.0
   },
@@ -51353,6 +51894,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 90.0
   },
@@ -51375,6 +51917,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 180.0
   },
@@ -51485,6 +52028,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 180.0
   },
@@ -51507,6 +52051,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 180.0
   },
@@ -51518,6 +52063,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 270.0
   },
@@ -51542,6 +52088,110 @@
    "scale": 1.0,
    "stand_in": "crate",
    "yaw": 83.0
+  },
+  {
+   "at": [
+    96.9264,
+    -16.764,
+    6.4008
+   ],
+   "model": "models/spongebob/post.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "solid": 6,
+   "stand_in": "fence_post",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    96.9264,
+    -15.5448,
+    6.4008
+   ],
+   "model": "models/spongebob/post.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "solid": 6,
+   "stand_in": "fence_post",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    96.9264,
+    -14.3256,
+    6.4008
+   ],
+   "model": "models/spongebob/post.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "solid": 6,
+   "stand_in": "fence_post",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    96.9264,
+    -13.1064,
+    6.4008
+   ],
+   "model": "models/spongebob/post.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "solid": 6,
+   "stand_in": "fence_post",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    96.9264,
+    -13.1064,
+    13.1064
+   ],
+   "model": "models/spongebob/post.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "solid": 6,
+   "stand_in": "fence_post",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    96.9264,
+    -14.3256,
+    13.1064
+   ],
+   "model": "models/spongebob/post.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "solid": 6,
+   "stand_in": "fence_post",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    96.9264,
+    -15.5448,
+    13.1064
+   ],
+   "model": "models/spongebob/post.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "solid": 6,
+   "stand_in": "fence_post",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    96.9264,
+    -16.764,
+    13.1064
+   ],
+   "model": "models/spongebob/post.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "solid": 6,
+   "stand_in": "fence_post",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -51584,6 +52234,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 0.0
   },
@@ -51597,6 +52248,31 @@
    "scale": 1.0,
    "stand_in": "sofa",
    "yaw": 180.0
+  },
+  {
+   "at": [
+    3.3147,
+    -3.2151,
+    -22.9171
+   ],
+   "model": "models/firewavezzmodels/anker2.mdl",
+   "scale": 1.0,
+   "size": 0.9,
+   "solid": 6,
+   "stand_in": "barrel",
+   "yaw": 71.5
+  },
+  {
+   "at": [
+    15.6108,
+    -0.9411,
+    -25.4373
+   ],
+   "model": "models/props_combine/breenglobe.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "bucket",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -51633,6 +52309,18 @@
   },
   {
    "at": [
+    15.5761,
+    -1.1089,
+    -26.2338
+   ],
+   "model": "models/props_junk/glassjug01.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "pirate/bottle",
+   "yaw": 179.4
+  },
+  {
+   "at": [
     15.5067,
     -1.4768,
     -25.908
@@ -51641,6 +52329,42 @@
    "scale": 1.0,
    "stand_in": "table",
    "yaw": 0.21
+  },
+  {
+   "at": [
+    4.8768,
+    -0.9172,
+    11.3538
+   ],
+   "model": "models/props/de_nuke/clock.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "bucket",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    1.143,
+    -2.8745,
+    -7.5057
+   ],
+   "model": "models/props/de_nuke/clock.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "bucket",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    7.0866,
+    -10.5136,
+    3.81
+   ],
+   "model": "models/props/de_nuke/clock.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "bucket",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -51661,8 +52385,105 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 45.0
+  },
+  {
+   "at": [
+    10.0589,
+    -3.9005,
+    8.6516
+   ],
+   "model": "models/spongebob/patty.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "food/burger",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    9.3769,
+    -3.9005,
+    8.6837
+   ],
+   "model": "models/spongebob/patty.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "food/burger",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -1.9243,
+    -3.9005,
+    4.9548
+   ],
+   "model": "models/spongebob/patty.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "food/burger",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    6.0419,
+    -4.0529,
+    -0.8903
+   ],
+   "model": "models/spongebob/patty.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "food/burger",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    5.7552,
+    -4.0529,
+    -0.7012
+   ],
+   "model": "models/spongebob/patty.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "food/burger",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    5.6933,
+    -4.0529,
+    -0.9567
+   ],
+   "model": "models/spongebob/patty.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "food/burger",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    32.3458,
+    -8.082,
+    11.1749
+   ],
+   "model": "models/spongebob/patty.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "food/burger",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    32.0764,
+    -8.082,
+    11.2549
+   ],
+   "model": "models/spongebob/patty.mdl",
+   "scale": 1.0,
+   "size": 0.3,
+   "stand_in": "food/burger",
+   "yaw": 90.0
   },
   {
    "at": [
@@ -51707,6 +52528,18 @@
    "scale": 1.0,
    "stand_in": "plant",
    "yaw": 299.41
+  },
+  {
+   "at": [
+    17.7165,
+    -7.5989,
+    32.9184
+   ],
+   "model": "models/firewavezzmodels/clock2.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "bucket",
+   "yaw": 90.0
   },
   {
    "at": [
@@ -52304,6 +53137,51 @@
   },
   {
    "at": [
+    87.7824,
+    -11.847,
+    9.7536
+   ],
+   "model": "models/props/de_prodigy/lighthanging.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    87.7824,
+    -11.847,
+    17.9832
+   ],
+   "model": "models/props/de_prodigy/lighthanging.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    87.7824,
+    -11.847,
+    1.524
+   ],
+   "model": "models/props/de_prodigy/lighthanging.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    78.3336,
+    -14.7617,
+    9.7917
+   ],
+   "model": "models/firewavezzmodels/clock2.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "bucket",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     35.052,
     -4.6855,
     24.384
@@ -52322,6 +53200,30 @@
    "model": "models/props_wasteland/prison_lamp001c.mdl",
    "scale": 1.0,
    "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    78.3336,
+    -14.7617,
+    12.2301
+   ],
+   "model": "models/firewavezzmodels/clock2.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "bucket",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    78.3336,
+    -14.7617,
+    7.3533
+   ],
+   "model": "models/firewavezzmodels/clock2.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "bucket",
    "yaw": 0.0
   },
   {
@@ -52414,6 +53316,84 @@
   },
   {
    "at": [
+    0.0,
+    3.7338,
+    0.6096
+   ],
+   "model": "models/props/de_prodigy/lighthanging.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    4.8768,
+    3.7338,
+    0.6096
+   ],
+   "model": "models/props/de_prodigy/lighthanging.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    9.7536,
+    3.7338,
+    0.6096
+   ],
+   "model": "models/props/de_prodigy/lighthanging.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    9.7536,
+    3.7338,
+    6.7818
+   ],
+   "model": "models/props/de_prodigy/lighthanging.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    4.8768,
+    3.7338,
+    6.7818
+   ],
+   "model": "models/props/de_prodigy/lighthanging.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    0.0,
+    3.7338,
+    6.7818
+   ],
+   "model": "models/props/de_prodigy/lighthanging.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    9.3726,
+    -3.3528,
+    -2.4384
+   ],
+   "model": "models/props/de_nuke/lifepreserver.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "bucket",
+   "yaw": 180.0
+  },
+  {
+   "at": [
     3.81,
     -4.8768,
     -6.858
@@ -52448,34 +53428,133 @@
   {
    "at": [
     5.4864,
-    -3.3528,
+    -3.9624,
     -0.1715
    ],
    "model": "models/firewavezzmodels/metalwindow1.mdl",
    "scale": 1.0,
+   "size": 1.829,
    "stand_in": "factory/window",
    "yaw": 90.0
   },
   {
    "at": [
+    -0.762,
+    -4.8692,
+    -0.1524
+   ],
+   "model": "models/firewavezzmodels/metaldoor1.mdl",
+   "scale": 1.0,
+   "size": 2.591,
+   "stand_in": "factory/door",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    8.0772,
+    -4.8692,
+    -0.1524
+   ],
+   "model": "models/firewavezzmodels/metaldoor1.mdl",
+   "scale": 1.0,
+   "size": 2.591,
+   "stand_in": "factory/door",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    10.9728,
+    -4.8692,
+    -0.1524
+   ],
+   "model": "models/firewavezzmodels/metaldoor1.mdl",
+   "scale": 1.0,
+   "size": 2.591,
+   "stand_in": "factory/door",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -1.6764,
+    -4.8692,
+    -4.7244
+   ],
+   "model": "models/firewavezzmodels/metaldoor1.mdl",
+   "scale": 1.0,
+   "size": 2.591,
+   "stand_in": "factory/door",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    1.3716,
+    -4.8692,
+    -2.5908
+   ],
+   "model": "models/firewavezzmodels/metaldoor1.mdl",
+   "scale": 1.0,
+   "size": 2.591,
+   "stand_in": "factory/door",
+   "yaw": 180.0
+  },
+  {
+   "at": [
     -4.7244,
-    -3.3528,
+    -3.7186,
     -10.3632
    ],
    "model": "models/firewavezzmodels/metalwindow2.mdl",
    "scale": 1.0,
+   "size": 0.732,
    "stand_in": "factory/window",
    "yaw": 180.0
   },
   {
    "at": [
     -4.7244,
-    -3.3528,
+    -3.7186,
     -8.2296
    ],
    "model": "models/firewavezzmodels/metalwindow2.mdl",
    "scale": 1.0,
+   "size": 0.732,
    "stand_in": "factory/window",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    8.382,
+    -4.8692,
+    -12.0396
+   ],
+   "model": "models/firewavezzmodels/metaldoor1.mdl",
+   "scale": 1.0,
+   "size": 2.591,
+   "stand_in": "factory/door",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    8.382,
+    -4.8692,
+    -7.4676
+   ],
+   "model": "models/firewavezzmodels/metaldoor1.mdl",
+   "scale": 1.0,
+   "size": 2.591,
+   "stand_in": "factory/door",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    1.3716,
+    -4.8692,
+    -9.7536
+   ],
+   "model": "models/firewavezzmodels/metaldoor1.mdl",
+   "scale": 1.0,
+   "size": 2.591,
+   "stand_in": "factory/door",
    "yaw": 180.0
   },
   {
@@ -52546,6 +53625,18 @@
   },
   {
    "at": [
+    4.6482,
+    -8.2486,
+    -4.2672
+   ],
+   "model": "models/firewavezzmodels/ankerbig.mdl",
+   "scale": 1.0,
+   "size": 0.9,
+   "stand_in": "barrel",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     10.0584,
     -3.9805,
     -7.3152
@@ -52601,17 +53692,6 @@
   },
   {
    "at": [
-    -2.1336,
-    -8.2296,
-    1.8288
-   ],
-   "model": "models/props_pipes/pipecluster32d_002a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 270.0
-  },
-  {
-   "at": [
     -0.3048,
     -9.144,
     1.524
@@ -52657,22 +53737,24 @@
   {
    "at": [
     -1.5621,
-    -10.9347,
+    -11.5443,
     21.6599
    ],
    "model": "models/firewavezzmodels/metalwindow1.mdl",
    "scale": 1.0,
+   "size": 1.829,
    "stand_in": "factory/window",
    "yaw": 270.0
   },
   {
    "at": [
     -5.8293,
-    -10.7061,
+    -11.0719,
     21.6408
    ],
    "model": "models/firewavezzmodels/metalwindow2.mdl",
    "scale": 1.0,
+   "size": 0.732,
    "stand_in": "factory/window",
    "yaw": 270.0
   },
@@ -52723,23 +53805,49 @@
   {
    "at": [
     10.0584,
-    -10.8204,
+    -11.43,
     5.5626
    ],
    "model": "models/firewavezzmodels/metalwindow1_wood.mdl",
    "scale": 1.0,
+   "size": 1.829,
    "stand_in": "factory/window",
    "yaw": 270.0
   },
   {
    "at": [
     10.0584,
-    -10.8204,
+    -11.43,
     5.334
    ],
    "model": "models/firewavezzmodels/metalwindow1_wood.mdl",
    "scale": 1.0,
+   "size": 1.829,
    "stand_in": "factory/window",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    1.8288,
+    -10.4394,
+    5.6388
+   ],
+   "model": "models/props/de_nuke/lifepreserver.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "bucket",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    7.9248,
+    -10.4394,
+    5.6388
+   ],
+   "model": "models/props/de_nuke/lifepreserver.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "bucket",
    "yaw": 270.0
   },
   {
@@ -52852,6 +53960,7 @@
    ],
    "model": "models/firewavezzmodels/krabboat.mdl",
    "scale": 1.0,
+   "size": 3.677,
    "stand_in": "pirate/boat",
    "yaw": 270.0
   },
@@ -52865,6 +53974,30 @@
    "scale": 1.0,
    "stand_in": "table",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    9.7536,
+    -0.3048,
+    -3.5052
+   ],
+   "model": "models/firewavezzmodels/ankerbig.mdl",
+   "scale": 1.0,
+   "size": 0.9,
+   "stand_in": "barrel",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    19.6787,
+    -14.4971,
+    15.0876
+   ],
+   "model": "models/firewavezzmodels/ankerbig.mdl",
+   "scale": 1.0,
+   "size": 0.9,
+   "stand_in": "barrel",
+   "yaw": 333.81
   },
   {
    "at": [
@@ -52890,47 +54023,123 @@
   },
   {
    "at": [
+    19.812,
+    -7.6962,
+    17.2212
+   ],
+   "model": "models/firewavezzmodels/woodenghostroof.mdl",
+   "scale": 1.0,
+   "size": 3.0,
+   "stand_in": "fence",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    14.478,
+    -9.4488,
+    3.2004
+   ],
+   "model": "models/firewavezzmodels/metaldoor1.mdl",
+   "scale": 1.0,
+   "size": 2.591,
+   "stand_in": "factory/door",
+   "yaw": 180.0
+  },
+  {
+   "at": [
     21.0312,
-    -7.7724,
+    -8.382,
     5.9436
    ],
    "model": "models/firewavezzmodels/metalwindow1_wood.mdl",
    "scale": 1.0,
+   "size": 1.829,
    "stand_in": "factory/window",
    "yaw": 270.0
   },
   {
    "at": [
     18.5928,
-    -7.7724,
+    -8.382,
     5.9436
    ],
    "model": "models/firewavezzmodels/metalwindow1_wood.mdl",
    "scale": 1.0,
+   "size": 1.829,
    "stand_in": "factory/window",
    "yaw": 270.0
   },
   {
    "at": [
     18.5928,
-    -7.7724,
+    -8.382,
     28.194
    ],
    "model": "models/firewavezzmodels/metalwindow1_wood.mdl",
    "scale": 1.0,
+   "size": 1.829,
    "stand_in": "factory/window",
    "yaw": 270.0
   },
   {
    "at": [
     21.0312,
-    -7.7724,
+    -8.382,
     28.194
    ],
    "model": "models/firewavezzmodels/metalwindow1_wood.mdl",
    "scale": 1.0,
+   "size": 1.829,
    "stand_in": "factory/window",
    "yaw": 270.0
+  },
+  {
+   "at": [
+    25.6032,
+    -7.9248,
+    18.288
+   ],
+   "model": "models/firewavezzmodels/ankerbig.mdl",
+   "scale": 1.0,
+   "size": 0.9,
+   "stand_in": "barrel",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    25.6032,
+    -6.7056,
+    18.288
+   ],
+   "model": "models/firewavezzmodels/ankerbig.mdl",
+   "scale": 1.0,
+   "size": 0.9,
+   "stand_in": "barrel",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    25.6032,
+    -6.7056,
+    15.8496
+   ],
+   "model": "models/firewavezzmodels/ankerbig.mdl",
+   "scale": 1.0,
+   "size": 0.9,
+   "stand_in": "barrel",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    25.6032,
+    -7.9248,
+    15.8496
+   ],
+   "model": "models/firewavezzmodels/ankerbig.mdl",
+   "scale": 1.0,
+   "size": 0.9,
+   "stand_in": "barrel",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -52946,13 +54155,26 @@
   {
    "at": [
     30.0228,
-    -7.62,
+    -8.2296,
     9.4488
    ],
    "model": "models/firewavezzmodels/metalwindow1_wood.mdl",
    "scale": 1.0,
+   "size": 1.829,
    "stand_in": "factory/window",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    33.3756,
+    -8.8392,
+    -0.4572
+   ],
+   "model": "models/firewavezzmodels/metaldoor1.mdl",
+   "scale": 1.0,
+   "size": 2.591,
+   "stand_in": "factory/door",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -53001,24 +54223,14 @@
   {
    "at": [
     26.8224,
-    -7.4676,
+    -8.0772,
     33.0708
    ],
    "model": "models/firewavezzmodels/metalwindow1_wood.mdl",
    "scale": 1.0,
+   "size": 1.829,
    "stand_in": "factory/window",
    "yaw": 90.0
-  },
-  {
-   "at": [
-    27.7368,
-    -7.9248,
-    0.4572
-   ],
-   "model": "models/props_pipes/pipecluster32d_003a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 270.0
   },
   {
    "at": [
@@ -53044,17 +54256,6 @@
   },
   {
    "at": [
-    31.3944,
-    -8.8392,
-    7.9248
-   ],
-   "model": "models/props_pipes/pipecluster32d_001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 270.0
-  },
-  {
-   "at": [
     -4.4196,
     -7.1628,
     -3.81
@@ -53077,6 +54278,17 @@
   },
   {
    "at": [
+    0.3048,
+    -4.8768,
+    -11.2776
+   ],
+   "model": "models/props/cs_italy/winerack_small.mdl",
+   "scale": 1.0,
+   "stand_in": "bookcase",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     38.4048,
     -9.2964,
     11.5824
@@ -53084,6 +54296,18 @@
    "model": "models/props/de_train/de_train_signalbox_01.mdl",
    "scale": 1.0,
    "stand_in": "signpost",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    33.0708,
+    -8.8392,
+    12.6492
+   ],
+   "model": "models/firewavezzmodels/metaldoor1.mdl",
+   "scale": 1.0,
+   "size": 2.591,
+   "stand_in": "factory/door",
    "yaw": 180.0
   },
   {
@@ -53107,6 +54331,18 @@
    "scale": 1.0,
    "stand_in": "crate",
    "yaw": 180.0
+  },
+  {
+   "at": [
+    29.8704,
+    -8.8392,
+    17.0688
+   ],
+   "model": "models/firewavezzmodels/woodtunnel.mdl",
+   "scale": 1.0,
+   "size": 3.0,
+   "stand_in": "fence",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -53155,11 +54391,12 @@
   {
    "at": [
     -11.7538,
-    -1.1811,
+    -1.7907,
     22.8219
    ],
    "model": "models/firewavezzmodels/metalwindow1.mdl",
    "scale": 1.0,
+   "size": 1.829,
    "stand_in": "factory/window",
    "yaw": 180.0
   },
@@ -53177,11 +54414,12 @@
   {
    "at": [
     -16.6116,
-    -1.1811,
+    -1.7907,
     22.479
    ],
    "model": "models/firewavezzmodels/metalwindow1.mdl",
    "scale": 1.0,
+   "size": 1.829,
    "stand_in": "factory/window",
    "yaw": 180.0
   },
@@ -53294,6 +54532,18 @@
    "scale": 1.0,
    "stand_in": "crate_large",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    24.5364,
+    -3.81,
+    7.9248
+   ],
+   "model": "models/firewavezzmodels/ankerbig.mdl",
+   "scale": 1.0,
+   "size": 0.9,
+   "stand_in": "barrel",
+   "yaw": 358.48
   },
   {
    "at": [
@@ -53601,11 +54851,12 @@
   {
    "at": [
     2.5908,
-    -3.2385,
+    -3.8481,
     -12.0777
    ],
    "model": "models/firewavezzmodels/metalwindow1.mdl",
    "scale": 1.0,
+   "size": 1.829,
    "stand_in": "factory/window",
    "yaw": 90.0
   },
@@ -53640,6 +54891,17 @@
    "model": "models/props/cs_militia/gun_cabinet.mdl",
    "scale": 1.0,
    "stand_in": "cabinet",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    43.434,
+    -8.8344,
+    14.9352
+   ],
+   "model": "models/props/cs_italy/winerack_small.mdl",
+   "scale": 1.0,
+   "stand_in": "bookcase",
    "yaw": 270.0
   },
   {
@@ -53878,6 +55140,18 @@
   },
   {
    "at": [
+    39.7764,
+    -4.8768,
+    30.5562
+   ],
+   "model": "models/props/de_nuke/lifepreserver.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "bucket",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     11.5824,
     -4.872,
     -5.334
@@ -53933,6 +55207,18 @@
   },
   {
    "at": [
+    10.668,
+    -3.81,
+    -5.2578
+   ],
+   "model": "models/props/de_nuke/lifepreserver.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "bucket",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     9.7155,
     -8.2296,
     -21.9837
@@ -53945,22 +55231,24 @@
   {
    "at": [
     35.3568,
-    -4.8768,
+    -5.2426,
     36.576
    ],
    "model": "models/firewavezzmodels/metalwindow2.mdl",
    "scale": 1.0,
+   "size": 0.732,
    "stand_in": "factory/window",
    "yaw": 180.0
   },
   {
    "at": [
     35.3568,
-    -4.8768,
+    -5.2426,
     34.7472
    ],
    "model": "models/firewavezzmodels/metalwindow2.mdl",
    "scale": 1.0,
+   "size": 0.732,
    "stand_in": "factory/window",
    "yaw": 180.0
   },
@@ -54032,6 +55320,18 @@
   },
   {
    "at": [
+    37.0332,
+    -9.1745,
+    31.242
+   ],
+   "model": "models/firewavezzmodels/metaldoor1.mdl",
+   "scale": 1.0,
+   "size": 2.591,
+   "stand_in": "factory/door",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -16.5354,
     -4.9149,
     5.4864
@@ -54040,6 +55340,30 @@
    "scale": 1.0,
    "stand_in": "crate",
    "yaw": 86.5
+  },
+  {
+   "at": [
+    96.4692,
+    -15.24,
+    6.4008
+   ],
+   "model": "models/firewavezzmodels/ankerbig.mdl",
+   "scale": 1.0,
+   "size": 0.9,
+   "stand_in": "barrel",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    96.4692,
+    -15.24,
+    13.1064
+   ],
+   "model": "models/firewavezzmodels/ankerbig.mdl",
+   "scale": 1.0,
+   "size": 0.9,
+   "stand_in": "barrel",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -54084,6 +55408,18 @@
    "scale": 1.0,
    "stand_in": "crate",
    "yaw": 270.0
+  },
+  {
+   "at": [
+    27.2796,
+    0.029,
+    -5.5626
+   ],
+   "model": "models/firewavezzmodels/cargocontainer_green.mdl",
+   "scale": 1.0,
+   "size": 6.0,
+   "stand_in": "watercraft/cargo-container-a",
+   "yaw": 90.0
   },
   {
    "at": [
@@ -54160,6 +55496,18 @@
    "model": "models/firewavezzmodels/pattiescrate48.mdl",
    "scale": 1.0,
    "stand_in": "crate",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    12.6873,
+    -0.9144,
+    -24.8412
+   ],
+   "model": "models/props/de_nuke/lifepreserver.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "bucket",
    "yaw": 180.0
   },
   {
@@ -54297,22 +55645,24 @@
   {
    "at": [
     -2.1526,
-    -6.6675,
+    -7.2771,
     11.6205
    ],
    "model": "models/firewavezzmodels/metalwindow1.mdl",
    "scale": 1.0,
+   "size": 1.829,
    "stand_in": "factory/window",
    "yaw": 180.0
   },
   {
    "at": [
     -2.1336,
-    -6.4389,
+    -6.8047,
     7.3533
    ],
    "model": "models/firewavezzmodels/metalwindow2.mdl",
    "scale": 1.0,
+   "size": 0.732,
    "stand_in": "factory/window",
    "yaw": 180.0
   },
@@ -54395,6 +55745,30 @@
   },
   {
    "at": [
+    4.8768,
+    -0.9033,
+    11.4287
+   ],
+   "model": "models/firewavezzmodels/clock2.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "bucket",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    1.2192,
+    -2.8745,
+    -7.5057
+   ],
+   "model": "models/firewavezzmodels/clock2.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "bucket",
+   "yaw": 180.0
+  },
+  {
+   "at": [
     26.8224,
     0.053,
     -6.858
@@ -54435,6 +55809,18 @@
    "model": "models/props/de_dust/du_crate_64x64.mdl",
    "scale": 1.0,
    "stand_in": "crate",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    7.0104,
+    -10.5136,
+    3.81
+   ],
+   "model": "models/firewavezzmodels/clock2.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "bucket",
    "yaw": 0.0
   },
   {
@@ -54584,435 +55970,6 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 0.0
-  },
-  {
-   "at": [
-    1.7907,
-    -4.1862,
-    -4.572
-   ],
-   "model": "models/spongebob/mustard.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 0.305,
-   "stand_in": "bin",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    1.8288,
-    -4.1862,
-    -4.3434
-   ],
-   "model": "models/spongebob/relish.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 0.305,
-   "stand_in": "bin",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    1.7907,
-    -4.1862,
-    -4.1148
-   ],
-   "model": "models/spongebob/ketchup.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 0.305,
-   "stand_in": "bin",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    1.7907,
-    -4.1862,
-    -5.334
-   ],
-   "model": "models/spongebob/mustard.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 0.305,
-   "stand_in": "bin",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    1.6764,
-    -4.1862,
-    -5.1054
-   ],
-   "model": "models/spongebob/relish.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 0.305,
-   "stand_in": "bin",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    1.8288,
-    -4.1862,
-    -4.8006
-   ],
-   "model": "models/spongebob/ketchup.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 0.305,
-   "stand_in": "bin",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    0.954,
-    -3.9577,
-    8.6871
-   ],
-   "model": "models/spongebob/patty.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 0.191,
-   "stand_in": "stump",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    -0.0357,
-    -3.9577,
-    8.0348
-   ],
-   "model": "models/spongebob/patty.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 0.191,
-   "stand_in": "stump",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    -2.286,
-    -4.872,
-    21.4884
-   ],
-   "model": "models/spongebob/post.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 1.219,
-   "stand_in": "bin",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    -2.286,
-    -3.6528,
-    21.4884
-   ],
-   "model": "models/spongebob/post.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 1.219,
-   "stand_in": "bin",
-   "yaw": 180.0
-  },
-  {
-   "at": [
-    -2.286,
-    -2.4336,
-    21.4884
-   ],
-   "model": "models/spongebob/post.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 1.219,
-   "stand_in": "bin",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    -2.286,
-    -1.2144,
-    21.4884
-   ],
-   "model": "models/spongebob/post.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 1.219,
-   "stand_in": "bin",
-   "yaw": 180.0
-  },
-  {
-   "at": [
-    -2.286,
-    0.0048,
-    21.4884
-   ],
-   "model": "models/spongebob/post.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 1.219,
-   "stand_in": "bin",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    -2.286,
-    1.224,
-    21.4884
-   ],
-   "model": "models/spongebob/post.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 1.219,
-   "stand_in": "bin",
-   "yaw": 180.0
-  },
-  {
-   "at": [
-    -2.286,
-    2.4432,
-    21.4884
-   ],
-   "model": "models/spongebob/post.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 1.219,
-   "stand_in": "bin",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    -2.286,
-    3.6624,
-    21.4884
-   ],
-   "model": "models/spongebob/post.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 1.219,
-   "stand_in": "bin",
-   "yaw": 180.0
-  },
-  {
-   "at": [
-    6.4008,
-    -8.4535,
-    -3.3528
-   ],
-   "model": "models/spongebob/patty.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 0.191,
-   "stand_in": "stump",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    96.9264,
-    -16.764,
-    6.4008
-   ],
-   "model": "models/spongebob/post.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 1.219,
-   "stand_in": "bin",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    96.9264,
-    -15.5448,
-    6.4008
-   ],
-   "model": "models/spongebob/post.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 1.219,
-   "stand_in": "bin",
-   "yaw": 180.0
-  },
-  {
-   "at": [
-    96.9264,
-    -14.3256,
-    6.4008
-   ],
-   "model": "models/spongebob/post.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 1.219,
-   "stand_in": "bin",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    96.9264,
-    -13.1064,
-    6.4008
-   ],
-   "model": "models/spongebob/post.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 1.219,
-   "stand_in": "bin",
-   "yaw": 180.0
-  },
-  {
-   "at": [
-    96.9264,
-    -13.1064,
-    13.1064
-   ],
-   "model": "models/spongebob/post.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 1.219,
-   "stand_in": "bin",
-   "yaw": 180.0
-  },
-  {
-   "at": [
-    96.9264,
-    -14.3256,
-    13.1064
-   ],
-   "model": "models/spongebob/post.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 1.219,
-   "stand_in": "bin",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    96.9264,
-    -15.5448,
-    13.1064
-   ],
-   "model": "models/spongebob/post.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 1.219,
-   "stand_in": "bin",
-   "yaw": 180.0
-  },
-  {
-   "at": [
-    96.9264,
-    -16.764,
-    13.1064
-   ],
-   "model": "models/spongebob/post.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 1.219,
-   "stand_in": "bin",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    10.0589,
-    -3.9577,
-    8.6516
-   ],
-   "model": "models/spongebob/patty.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 0.191,
-   "stand_in": "stump",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    9.3769,
-    -3.9577,
-    8.6837
-   ],
-   "model": "models/spongebob/patty.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 0.191,
-   "stand_in": "stump",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    -1.9243,
-    -3.9577,
-    4.9548
-   ],
-   "model": "models/spongebob/patty.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 0.191,
-   "stand_in": "stump",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    6.0419,
-    -4.1101,
-    -0.8903
-   ],
-   "model": "models/spongebob/patty.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 0.191,
-   "stand_in": "stump",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    5.7552,
-    -4.1101,
-    -0.7012
-   ],
-   "model": "models/spongebob/patty.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 0.191,
-   "stand_in": "stump",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    5.6933,
-    -4.1101,
-    -0.9567
-   ],
-   "model": "models/spongebob/patty.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 0.191,
-   "stand_in": "stump",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    32.3458,
-    -8.1392,
-    11.1749
-   ],
-   "model": "models/spongebob/patty.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 0.191,
-   "stand_in": "stump",
-   "yaw": 90.0
-  },
-  {
-   "at": [
-    32.0764,
-    -8.1392,
-    11.2549
-   ],
-   "model": "models/spongebob/patty.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 0.191,
-   "stand_in": "stump",
-   "yaw": 90.0
   },
   {
    "at": [

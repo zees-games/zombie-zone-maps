@@ -758,6 +758,7 @@
   "first_import": null,
   "licence": "CC BY-NC-ND 4.0",
   "missing": [],
+  "no_share_check": "2026-10-23, ask: CC BY-NC-ND 4.0; page licence checklist: redistribute/modify/reuse = ask the author, commercial use = no; no further restriction in the description (https://gamebanana.com/mods/132025)",
   "page": "https://gamebanana.com/mods/132025"
  },
  "destinations": {},
@@ -14543,6 +14544,15 @@
    },
    {
     "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "bed",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 3,
     "files": [],
     "licence": "CC0-1.0",
@@ -14561,6 +14571,15 @@
    },
    {
     "author": "Kenney",
+    "count": 3,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Survival Kit",
+    "stand_in": "bucket",
+    "url": "https://kenney.nl/assets/survival-kit"
+   },
+   {
+    "author": "Kenney",
     "count": 24,
     "files": [],
     "licence": "CC0-1.0",
@@ -14570,7 +14589,7 @@
    },
    {
     "author": "Kenney",
-    "count": 13,
+    "count": 17,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -14579,7 +14598,7 @@
    },
    {
     "author": "Kenney",
-    "count": 15,
+    "count": 14,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -14633,7 +14652,7 @@
    },
    {
     "author": "Kenney",
-    "count": 2,
+    "count": 3,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Graveyard Kit",
@@ -14687,7 +14706,7 @@
    },
    {
     "author": "Kenney",
-    "count": 1,
+    "count": 2,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -14759,12 +14778,30 @@
    },
    {
     "author": "Kenney",
-    "count": 6,
+    "count": 5,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
     "stand_in": "tv",
     "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 3,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Car Kit",
+    "stand_in": "vehicles/sedan",
+    "url": "https://kenney.nl/assets/car-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Car Kit",
+    "stand_in": "vehicles/truck",
+    "url": "https://kenney.nl/assets/car-kit"
    },
    {
     "author": "Kenney",
@@ -14789,7 +14826,7 @@
    {
     "count": 1,
     "model": "models/props/cs_assault/firehydrant.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bucket"
    },
    {
     "count": 2,
@@ -14819,12 +14856,12 @@
    {
     "count": 1,
     "model": "models/props/cs_militia/dryer.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 1,
     "model": "models/props/cs_militia/oldphone01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "radio"
    },
    {
     "count": 1,
@@ -14834,17 +14871,17 @@
    {
     "count": 1,
     "model": "models/props/cs_militia/tv_console.mdl",
-    "stand_in": "tv"
+    "stand_in": "cabinet"
    },
    {
     "count": 1,
     "model": "models/props/cs_militia/van.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "vehicles/sedan"
    },
    {
     "count": 1,
     "model": "models/props/cs_militia/van_glass.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "vehicles/sedan"
    },
    {
     "count": 1,
@@ -14884,7 +14921,7 @@
    {
     "count": 1,
     "model": "models/props/cs_office/microwave.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 10,
@@ -14924,12 +14961,12 @@
    {
     "count": 1,
     "model": "models/props/de_nuke/car_nuke_animation.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "vehicles/sedan"
    },
    {
     "count": 1,
     "model": "models/props/de_piranesi/pi_apc.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "vehicles/truck"
    },
    {
     "count": 4,
@@ -14959,7 +14996,7 @@
    {
     "count": 1,
     "model": "models/props_c17/clock01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bucket"
    },
    {
     "count": 4,
@@ -14979,7 +15016,7 @@
    {
     "count": 1,
     "model": "models/props_c17/furniturebed001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bed"
    },
    {
     "count": 6,
@@ -14994,7 +15031,7 @@
    {
     "count": 1,
     "model": "models/props_c17/furniturecupboard001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 4,
@@ -15079,7 +15116,7 @@
    {
     "count": 1,
     "model": "models/props_combine/breenclock.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bucket"
    },
    {
     "count": 8,
@@ -15184,10 +15221,11 @@
    {
     "count": 1,
     "model": "models/props_wasteland/light_spotlight02_lamp.mdl",
-    "stand_in": "ceiling_light"
+    "stand_in": "graveyard/lamppost"
    }
   ],
   "note": "No source texture, model or sound is shipped; each source name is only the name a replacement stands for.",
+  "skipped_skybox_models": 0,
   "sounds": [
    {
     "author": "TMC (dot-audio authors)",
@@ -15574,12 +15612,12 @@
     "key": "generated:glass:406040",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "glass/glasswindow032a"
     ],
     "surfaces": 3,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -15594,12 +15632,12 @@
     "key": "generated:bars:404040",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "metal/metalrail012c"
     ],
     "surfaces": 2,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -15705,12 +15743,12 @@
     "key": "generated:glass:002020",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "glass/combineglass001a"
     ],
     "surfaces": 136,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -15725,12 +15763,12 @@
     "key": "generated:flat:9f8040",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "cable/rope"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -15745,13 +15783,13 @@
     "key": "generated:water:808080",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "nature/sewer_water001_bottom",
      "nature/sewer_waterdarkfog"
     ],
     "surfaces": 2,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -15766,12 +15804,12 @@
     "key": "generated:flat:bf8060",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "lights/hazzardred001a"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -15786,12 +15824,12 @@
     "key": "generated:flat:000000",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "cs_italy/black"
     ],
     "surfaces": 3,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -15806,13 +15844,13 @@
     "key": "generated:water:bfbfbf",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "liquids/militiawater_dx70",
      "liquids/militiawater_dx70_beneath"
     ],
     "surfaces": 4,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    }
   ]
  },
@@ -16132,12 +16170,25 @@
  "props": [
   {
    "at": [
+    -17.8308,
+    -0.8328,
+    18.2863
+   ],
+   "model": "models/props/de_nuke/car_nuke_animation.mdl",
+   "scale": 1.0,
+   "solid": 2,
+   "stand_in": "vehicles/sedan",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -8.6296,
     -0.7049,
     7.3143
    ],
    "model": "models/props_foliage/tree_deciduous_01a-lod.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "tree",
    "yaw": 0.0
   },
@@ -16149,6 +16200,7 @@
    ],
    "model": "models/props_c17/utilitypole01a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "graveyard/lamppost",
    "yaw": 91.0
   },
@@ -16160,6 +16212,7 @@
    ],
    "model": "models/props_c17/utilitypole01a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "graveyard/lamppost",
    "yaw": 91.0
   },
@@ -16171,6 +16224,7 @@
    ],
    "model": "models/props_c17/lamppost03a_on.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "lamp",
    "yaw": 90.0
   },
@@ -16182,6 +16236,7 @@
    ],
    "model": "models/props/pi_shrub.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bush",
    "yaw": 0.0
   },
@@ -16193,6 +16248,7 @@
    ],
    "model": "models/props_foliage/shrub_01a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bush",
    "yaw": 72.5
   },
@@ -16204,6 +16260,7 @@
    ],
    "model": "models/props_foliage/shrub_01a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bush",
    "yaw": 0.0
   },
@@ -16215,6 +16272,7 @@
    ],
    "model": "models/props/pi_shrub.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bush",
    "yaw": 0.0
   },
@@ -16226,6 +16284,7 @@
    ],
    "model": "models/props/pi_shrub.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bush",
    "yaw": 0.0
   },
@@ -16237,6 +16296,7 @@
    ],
    "model": "models/props/pi_shrub.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bush",
    "yaw": 0.0
   },
@@ -16248,6 +16308,7 @@
    ],
    "model": "models/props/pi_shrub.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bush",
    "yaw": 0.0
   },
@@ -16259,6 +16320,7 @@
    ],
    "model": "models/props/pi_shrub.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bush",
    "yaw": 0.0
   },
@@ -16270,6 +16332,7 @@
    ],
    "model": "models/props/pi_shrub.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bush",
    "yaw": 0.0
   },
@@ -16281,6 +16344,7 @@
    ],
    "model": "models/props/pi_shrub.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bush",
    "yaw": 0.0
   },
@@ -16292,6 +16356,7 @@
    ],
    "model": "models/props_foliage/shrub_01a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bush",
    "yaw": 72.5
   },
@@ -16303,6 +16368,7 @@
    ],
    "model": "models/props/de_inferno/planterplantsunlit.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "plant",
    "yaw": 1.0
   },
@@ -16314,6 +16380,7 @@
    ],
    "model": "models/props_foliage/shrub_01a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bush",
    "yaw": 0.0
   },
@@ -16325,6 +16392,7 @@
    ],
    "model": "models/props_foliage/shrub_01a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bush",
    "yaw": 292.5
   },
@@ -16336,6 +16404,7 @@
    ],
    "model": "models/props_foliage/shrub_01a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bush",
    "yaw": 97.0
   },
@@ -16347,6 +16416,7 @@
    ],
    "model": "models/props_foliage/shrub_01a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bush",
    "yaw": 92.0
   },
@@ -16358,6 +16428,7 @@
    ],
    "model": "models/props_foliage/shrub_01a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bush",
    "yaw": 0.0
   },
@@ -16369,6 +16440,7 @@
    ],
    "model": "models/props_foliage/tree_deciduous_01a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "tree",
    "yaw": 263.5
   },
@@ -16380,6 +16452,7 @@
    ],
    "model": "models/props/pi_shrub.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bush",
    "yaw": 0.0
   },
@@ -16391,6 +16464,7 @@
    ],
    "model": "models/props/pi_shrub.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bush",
    "yaw": 0.0
   },
@@ -16402,6 +16476,7 @@
    ],
    "model": "models/props/pi_shrub.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bush",
    "yaw": 0.0
   },
@@ -16413,6 +16488,7 @@
    ],
    "model": "models/props/pi_shrub.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bush",
    "yaw": 0.0
   },
@@ -16424,6 +16500,7 @@
    ],
    "model": "models/props/pi_shrub.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bush",
    "yaw": 0.0
   },
@@ -16435,6 +16512,7 @@
    ],
    "model": "models/props/pi_shrub.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bush",
    "yaw": 0.0
   },
@@ -16446,6 +16524,7 @@
    ],
    "model": "models/props/pi_shrub.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bush",
    "yaw": 0.0
   },
@@ -16457,6 +16536,7 @@
    ],
    "model": "models/props/pi_shrub.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bush",
    "yaw": 0.0
   },
@@ -16578,6 +16658,7 @@
    ],
    "model": "models/props_c17/furnituretable002a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "table",
    "yaw": 228.5
   },
@@ -16600,6 +16681,7 @@
    ],
    "model": "models/props/cs_militia/refrigerator01.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "fridge",
    "yaw": 90.0
   },
@@ -16611,6 +16693,7 @@
    ],
    "model": "models/props_wasteland/kitchen_stove001a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "stove",
    "yaw": 270.0
   },
@@ -16622,6 +16705,7 @@
    ],
    "model": "models/props_c17/furnituretoilet001a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "toilet",
    "yaw": 270.0
   },
@@ -16633,6 +16717,7 @@
    ],
    "model": "models/props_c17/furnituresink001a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "sink",
    "yaw": 180.0
   },
@@ -16644,6 +16729,7 @@
    ],
    "model": "models/props/cs_office/table_meeting.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "table",
    "yaw": 0.0
   },
@@ -16699,6 +16785,7 @@
    ],
    "model": "models/props_interiors/furniture_cabinetdrawer02a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "cabinet",
    "yaw": 90.0
   },
@@ -16710,6 +16797,7 @@
    ],
    "model": "models/props_interiors/furniture_cabinetdrawer01a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "cabinet",
    "yaw": 90.0
   },
@@ -16755,7 +16843,6 @@
    ],
    "model": "models/props/cs_office/computer_keyboard.mdl",
    "scale": 1.0,
-   "size": 0.4,
    "stand_in": "monitor",
    "yaw": 270.0
   },
@@ -16789,7 +16876,6 @@
    ],
    "model": "models/props/cs_office/computer_mouse.mdl",
    "scale": 1.0,
-   "size": 0.2,
    "stand_in": "monitor",
    "yaw": 270.0
   },
@@ -16823,6 +16909,7 @@
    ],
    "model": "models/props_interiors/furniture_lamp01a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "lamp",
    "yaw": 0.0
   },
@@ -16845,6 +16932,7 @@
    ],
    "model": "models/props_c17/furnituretoilet001a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "toilet",
    "yaw": 270.0
   },
@@ -16856,6 +16944,7 @@
    ],
    "model": "models/props_c17/furnituresink001a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "sink",
    "yaw": 270.0
   },
@@ -16878,6 +16967,7 @@
    ],
    "model": "models/props_interiors/furniture_lamp01a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "lamp",
    "yaw": 0.0
   },
@@ -16900,6 +16990,7 @@
    ],
    "model": "models/props_c17/furniturearmchair001a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "armchair",
    "yaw": 37.5
   },
@@ -16924,6 +17015,18 @@
    "scale": 1.0,
    "stand_in": "cabinet",
    "yaw": 270.0
+  },
+  {
+   "at": [
+    14.859,
+    3.9053,
+    2.0003
+   ],
+   "model": "models/props_combine/breenclock.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "bucket",
+   "yaw": 89.5
   },
   {
    "at": [
@@ -17023,6 +17126,19 @@
    "scale": 1.0,
    "stand_in": "sofa",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    15.9449,
+    1.1729,
+    -4.191
+   ],
+   "model": "models/props/cs_militia/oldphone01.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "solid": 6,
+   "stand_in": "radio",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -17241,7 +17357,21 @@
    ],
    "model": "models/props_c17/furniturewashingmachine001a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "washer",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    12.3063,
+    -2.3813,
+    -3.9243
+   ],
+   "model": "models/props/cs_militia/dryer.mdl",
+   "scale": 1.0,
+   "size": 0.9,
+   "solid": 6,
+   "stand_in": "cabinet",
    "yaw": 270.0
   },
   {
@@ -17307,6 +17437,7 @@
    ],
    "model": "models/props_c17/furnituretoilet001a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "toilet",
    "yaw": 270.0
   },
@@ -17318,6 +17449,7 @@
    ],
    "model": "models/props_c17/furnituresink001a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "sink",
    "yaw": 0.0
   },
@@ -17329,8 +17461,22 @@
    ],
    "model": "models/props_lab/citizenradio.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "radio",
    "yaw": 48.0
+  },
+  {
+   "at": [
+    -23.2981,
+    -0.7811,
+    -9.4869
+   ],
+   "model": "models/props/de_piranesi/pi_apc.mdl",
+   "scale": 1.0,
+   "size": 6.0,
+   "solid": 6,
+   "stand_in": "vehicles/truck",
+   "yaw": 312.0
   },
   {
    "at": [
@@ -17351,7 +17497,21 @@
    ],
    "model": "models/props_foliage/tree_deciduous_03a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "tree",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -19.5221,
+    -0.8192,
+    3.6957
+   ],
+   "model": "models/props/cs_assault/firehydrant.mdl",
+   "scale": 1.0,
+   "size": 0.5,
+   "solid": 6,
+   "stand_in": "bucket",
    "yaw": 0.0
   },
   {
@@ -17362,7 +17522,8 @@
    ],
    "model": "models/props/cs_militia/tv_console.mdl",
    "scale": 1.0,
-   "stand_in": "tv",
+   "solid": 6,
+   "stand_in": "cabinet",
    "yaw": 45.0
   },
   {
@@ -17373,6 +17534,7 @@
    ],
    "model": "models/props/de_tides/patio_table2.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "table",
    "yaw": 0.0
   },
@@ -17384,6 +17546,7 @@
    ],
    "model": "models/props/de_tides/patio_chair2.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "chair",
    "yaw": 0.0
   },
@@ -17395,6 +17558,7 @@
    ],
    "model": "models/props/de_tides/patio_chair2.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "chair",
    "yaw": 181.5
   },
@@ -17406,6 +17570,7 @@
    ],
    "model": "models/props/de_tides/patio_chair2.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "chair",
    "yaw": 272.0
   },
@@ -17417,6 +17582,7 @@
    ],
    "model": "models/props/de_tides/patio_chair2.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "chair",
    "yaw": 90.5
   },
@@ -17428,6 +17594,7 @@
    ],
    "model": "models/props/cs_office/tv_plasma.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "tv",
    "yaw": 0.0
   },
@@ -17439,6 +17606,7 @@
    ],
    "model": "models/props/cs_office/light_inset.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -17450,6 +17618,7 @@
    ],
    "model": "models/props/cs_office/light_inset.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -17461,6 +17630,7 @@
    ],
    "model": "models/props/cs_office/light_inset.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -17472,6 +17642,7 @@
    ],
    "model": "models/props/cs_office/light_inset.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -17483,6 +17654,7 @@
    ],
    "model": "models/props/cs_office/light_inset.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -17494,6 +17666,7 @@
    ],
    "model": "models/props/cs_office/light_inset.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -17505,6 +17678,7 @@
    ],
    "model": "models/props/cs_office/light_inset.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -17516,6 +17690,7 @@
    ],
    "model": "models/props/cs_office/light_inset.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -17527,6 +17702,7 @@
    ],
    "model": "models/props/cs_office/light_inset.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -17538,6 +17714,7 @@
    ],
    "model": "models/props/cs_office/light_inset.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -17549,6 +17726,7 @@
    ],
    "model": "models/props_c17/light_domelight02_on.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -17560,6 +17738,7 @@
    ],
    "model": "models/props_c17/light_domelight02_on.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 0.0
   },
@@ -17571,6 +17750,7 @@
    ],
    "model": "models/props/de_train/de_train_floodlights_01.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
    "yaw": 180.0
   },
@@ -17582,7 +17762,21 @@
    ],
    "model": "models/props/cs_office/light_inset.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "ceiling_light",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    8.4963,
+    -1.143,
+    0.1524
+   ],
+   "model": "models/props_c17/furniturecupboard001a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "solid": 6,
+   "stand_in": "cabinet",
    "yaw": 0.0
   },
   {
@@ -17604,6 +17798,7 @@
    ],
    "model": "models/props_c17/furnitureradiator001a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "cabinet",
    "yaw": 90.0
   },
@@ -17628,6 +17823,19 @@
    "scale": 1.0,
    "stand_in": "bookcase",
    "yaw": 94.0
+  },
+  {
+   "at": [
+    15.6591,
+    -0.6858,
+    2.0574
+   ],
+   "model": "models/props_c17/clock01.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "solid": 6,
+   "stand_in": "bucket",
+   "yaw": 179.5
   },
   {
    "at": [
@@ -17670,6 +17878,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 0.0
   },
@@ -17681,6 +17890,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 178.0
   },
@@ -17692,6 +17902,7 @@
    ],
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
+   "size": 1.8,
    "stand_in": "fridge",
    "yaw": 0.0
   },
@@ -17703,8 +17914,33 @@
    ],
    "model": "models/props_foliage/tree_deciduous_02a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "tree",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    8.4322,
+    -2.1669,
+    16.9706
+   ],
+   "model": "models/props/cs_militia/van.mdl",
+   "scale": 1.0,
+   "solid": 6,
+   "stand_in": "vehicles/sedan",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    8.4322,
+    -2.1669,
+    16.9706
+   ],
+   "model": "models/props/cs_militia/van_glass.mdl",
+   "scale": 1.0,
+   "solid": 6,
+   "stand_in": "vehicles/sedan",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -17714,6 +17950,7 @@
    ],
    "model": "models/props_foliage/tree_deciduous_01a-lod.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "tree",
    "yaw": 73.5
   },
@@ -17725,6 +17962,7 @@
    ],
    "model": "models/props_foliage/tree_deciduous_01a-lod.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "tree",
    "yaw": 73.5
   },
@@ -17736,8 +17974,21 @@
    ],
    "model": "models/props_foliage/tree_deciduous_01a-lod.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "tree",
    "yaw": 124.0
+  },
+  {
+   "at": [
+    13.0112,
+    0.8954,
+    -3.6386
+   ],
+   "model": "models/props/cs_office/microwave.mdl",
+   "scale": 1.0,
+   "solid": 6,
+   "stand_in": "cabinet",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -17747,7 +17998,8 @@
    ],
    "model": "models/props_wasteland/light_spotlight02_lamp.mdl",
    "scale": 1.0,
-   "stand_in": "ceiling_light",
+   "solid": 6,
+   "stand_in": "graveyard/lamppost",
    "yaw": 0.0
   },
   {
@@ -17780,6 +18032,7 @@
    ],
    "model": "models/props_c17/furnituretable003a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "table",
    "yaw": 312.0
   },
@@ -17802,6 +18055,7 @@
    ],
    "model": "models/props_c17/furnituretoilet001a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "toilet",
    "yaw": 0.0
   },
@@ -17813,8 +18067,20 @@
    ],
    "model": "models/props_c17/furniturebathtub001a.mdl",
    "scale": 1.0,
+   "solid": 6,
    "stand_in": "bathtub",
    "yaw": 270.0
+  },
+  {
+   "at": [
+    -31.6802,
+    0.2096,
+    10.2108
+   ],
+   "model": "models/props_c17/furniturebed001a.mdl",
+   "scale": 1.0,
+   "stand_in": "bed",
+   "yaw": 0.0
   },
   {
    "at": [

@@ -28595,12 +28595,21 @@
    },
    {
     "author": "Kenney",
-    "count": 35,
+    "count": 36,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
     "stand_in": "barrel",
     "url": "https://kenney.nl/assets/survival-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 3,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "bed",
+    "url": "https://kenney.nl/assets/furniture-kit"
    },
    {
     "author": "Kenney",
@@ -28613,7 +28622,7 @@
    },
    {
     "author": "Kenney",
-    "count": 56,
+    "count": 49,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -28631,7 +28640,7 @@
    },
    {
     "author": "Kenney",
-    "count": 40,
+    "count": 45,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -28649,7 +28658,7 @@
    },
    {
     "author": "Kenney",
-    "count": 35,
+    "count": 57,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -28658,7 +28667,7 @@
    },
    {
     "author": "Kenney",
-    "count": 3,
+    "count": 12,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -28667,7 +28676,7 @@
    },
    {
     "author": "Kenney",
-    "count": 49,
+    "count": 50,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Furniture Kit",
@@ -28685,16 +28694,7 @@
    },
    {
     "author": "Kenney",
-    "count": 1,
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Kenney Survival Kit",
-    "stand_in": "chest",
-    "url": "https://kenney.nl/assets/survival-kit"
-   },
-   {
-    "author": "Kenney",
-    "count": 45,
+    "count": 48,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -28703,7 +28703,7 @@
    },
    {
     "author": "Kenney",
-    "count": 1,
+    "count": 18,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -28721,7 +28721,7 @@
    },
    {
     "author": "Kenney",
-    "count": 18,
+    "count": 19,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Factory Kit",
@@ -28730,7 +28730,7 @@
    },
    {
     "author": "Kenney",
-    "count": 42,
+    "count": 32,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Factory Kit",
@@ -28739,12 +28739,21 @@
    },
    {
     "author": "Kenney",
-    "count": 21,
+    "count": 29,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Nature Kit",
     "stand_in": "fence",
     "url": "https://kenney.nl/assets/nature-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Survival Kit",
+    "stand_in": "fence_post",
+    "url": "https://kenney.nl/assets/survival-kit"
    },
    {
     "author": "Kenney",
@@ -28757,7 +28766,7 @@
    },
    {
     "author": "Kenney",
-    "count": 3,
+    "count": 14,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Graveyard Kit",
@@ -28775,7 +28784,7 @@
    },
    {
     "author": "Kenney",
-    "count": 7,
+    "count": 18,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Nature Kit",
@@ -28793,7 +28802,7 @@
    },
    {
     "author": "Kenney",
-    "count": 1,
+    "count": 3,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Pirate Kit",
@@ -28811,7 +28820,7 @@
    },
    {
     "author": "Kenney",
-    "count": 166,
+    "count": 153,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Nature Kit",
@@ -28820,7 +28829,7 @@
    },
    {
     "author": "Kenney",
-    "count": 3,
+    "count": 9,
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Survival Kit",
@@ -28838,12 +28847,12 @@
    },
    {
     "author": "Kenney",
-    "count": 2,
+    "count": 3,
     "files": [],
     "licence": "CC0-1.0",
-    "source": "Kenney Furniture Kit",
-    "stand_in": "speaker",
-    "url": "https://kenney.nl/assets/furniture-kit"
+    "source": "Kenney Space Kit",
+    "stand_in": "space/machine_generator",
+    "url": "https://kenney.nl/assets/space-kit"
    },
    {
     "author": "Kenney",
@@ -28913,7 +28922,7 @@
    {
     "count": 2,
     "model": "./models/props_c17/trappropeller_engine.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "space/machine_generator"
    },
    {
     "count": 1,
@@ -28923,12 +28932,12 @@
    {
     "count": 1,
     "model": "models/effects/portalrift.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 3,
     "model": "models/items/car_battery01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "crate"
    },
    {
     "count": 2,
@@ -28938,7 +28947,7 @@
    {
     "count": 2,
     "model": "models/props/cs_office/microwave.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 6,
@@ -28948,42 +28957,42 @@
    {
     "count": 1,
     "model": "models/props_buildings/collapsedbuilding02b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_buildings/collapsedbuilding02c.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 4,
     "model": "models/props_buildings/destroyed_cityblock01b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_buildings/destroyed_cityblock01d.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_buildings/destroyed_cityblock01e.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_buildings/destroyed_cityblock01f.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 2,
     "model": "models/props_buildings/destroyed_cityblock01g.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_buildings/destroyed_cityblock01h.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 2,
@@ -29013,7 +29022,7 @@
    {
     "count": 2,
     "model": "models/props_c17/consolebox05a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 4,
@@ -29023,7 +29032,7 @@
    {
     "count": 2,
     "model": "models/props_c17/doll01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 17,
@@ -29038,7 +29047,7 @@
    {
     "count": 2,
     "model": "models/props_c17/frame002a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
@@ -29048,7 +29057,7 @@
    {
     "count": 2,
     "model": "models/props_c17/furniturebed001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bed"
    },
    {
     "count": 1,
@@ -29073,12 +29082,12 @@
    {
     "count": 1,
     "model": "models/props_c17/furniturefireplace001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 2,
     "model": "models/props_c17/furniturepipecluster001a.mdl",
-    "stand_in": "factory/pipe"
+    "stand_in": "detail"
    },
    {
     "count": 8,
@@ -29168,27 +29177,27 @@
    {
     "count": 1,
     "model": "models/props_c17/overhaingcluster_001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_c17/playground_carousel01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "fence"
    },
    {
     "count": 1,
     "model": "models/props_c17/playground_jungle_gym01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "fence"
    },
    {
     "count": 1,
     "model": "models/props_c17/playground_jungle_gym01b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "fence"
    },
    {
     "count": 1,
     "model": "models/props_c17/playground_swingset01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "fence"
    },
    {
     "count": 1,
@@ -29198,22 +29207,22 @@
    {
     "count": 1,
     "model": "models/props_c17/playground_teetertoter_stan.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "fence"
    },
    {
     "count": 1,
     "model": "models/props_c17/playgroundslide01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "fence"
    },
    {
     "count": 5,
     "model": "models/props_c17/playgroundtick-tack-toe_block01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 1,
     "model": "models/props_c17/playgroundtick-tack-toe_post01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "fence_post"
    },
    {
     "count": 3,
@@ -29223,7 +29232,7 @@
    {
     "count": 1,
     "model": "models/props_c17/suitcase_passenger_physics.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 1,
@@ -29233,7 +29242,7 @@
    {
     "count": 4,
     "model": "models/props_c17/utilityconducter001.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 3,
@@ -29258,17 +29267,17 @@
    {
     "count": 2,
     "model": "models/props_combine/breenbust.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bucket"
    },
    {
     "count": 1,
     "model": "models/props_combine/combine_citadelburst.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_combine/combine_citadelcard001b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
@@ -29283,7 +29292,7 @@
    {
     "count": 1,
     "model": "models/props_combine/combine_lock01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
@@ -29293,32 +29302,32 @@
    {
     "count": 5,
     "model": "models/props_combine/combineinnerwallcluster1024_001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_combine/combinewallcrushed.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 3,
     "model": "models/props_debris/barricade_short02a.mdl",
-    "stand_in": "rock"
+    "stand_in": "crate_large"
    },
    {
     "count": 9,
     "model": "models/props_debris/barricade_short04a.mdl",
-    "stand_in": "rock"
+    "stand_in": "crate_large"
    },
    {
     "count": 3,
     "model": "models/props_debris/barricade_tall02a.mdl",
-    "stand_in": "rock"
+    "stand_in": "crate_large"
    },
    {
     "count": 2,
     "model": "models/props_debris/barricade_tall04a.mdl",
-    "stand_in": "rock"
+    "stand_in": "crate_large"
    },
    {
     "count": 7,
@@ -29378,12 +29387,12 @@
    {
     "count": 1,
     "model": "models/props_debris/rebar_cluster001a.mdl",
-    "stand_in": "rock"
+    "stand_in": "detail"
    },
    {
     "count": 3,
     "model": "models/props_debris/rebar_cluster002a.mdl",
-    "stand_in": "rock"
+    "stand_in": "detail"
    },
    {
     "count": 1,
@@ -29468,7 +29477,7 @@
    {
     "count": 1,
     "model": "models/props_interiors/handrailcluster02a.mdl",
-    "stand_in": "fence"
+    "stand_in": "detail"
    },
    {
     "count": 8,
@@ -29488,7 +29497,7 @@
    {
     "count": 1,
     "model": "models/props_junk/bicycle01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bin"
    },
    {
     "count": 4,
@@ -29548,12 +29557,12 @@
    {
     "count": 1,
     "model": "models/props_junk/garbage_glassbottle001a.mdl",
-    "stand_in": "bin"
+    "stand_in": "pirate/bottle"
    },
    {
     "count": 1,
     "model": "models/props_junk/garbage_glassbottle003a.mdl",
-    "stand_in": "bin"
+    "stand_in": "pirate/bottle"
    },
    {
     "count": 1,
@@ -29593,7 +29602,7 @@
    {
     "count": 11,
     "model": "models/props_junk/ibeam01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "log"
    },
    {
     "count": 6,
@@ -29643,17 +29652,17 @@
    {
     "count": 2,
     "model": "models/props_junk/sawblade001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 6,
     "model": "models/props_junk/shoe001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cardboard_box"
    },
    {
     "count": 6,
     "model": "models/props_junk/trashcluster01a.mdl",
-    "stand_in": "bin"
+    "stand_in": "detail"
    },
    {
     "count": 5,
@@ -29668,7 +29677,7 @@
    {
     "count": 1,
     "model": "models/props_junk/watermelon01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "rock"
    },
    {
     "count": 11,
@@ -29693,12 +29702,12 @@
    {
     "count": 1,
     "model": "models/props_lab/cornerunit2.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "space/machine_generator"
    },
    {
     "count": 1,
     "model": "models/props_lab/elevatordoor.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "factory/door"
    },
    {
     "count": 2,
@@ -29713,7 +29722,7 @@
    {
     "count": 3,
     "model": "models/props_lab/hev_case.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bucket"
    },
    {
     "count": 6,
@@ -29748,7 +29757,7 @@
    {
     "count": 3,
     "model": "models/props_lab/partsbin01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 6,
@@ -29773,12 +29782,12 @@
    {
     "count": 2,
     "model": "models/props_lab/reciever_cart.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 1,
     "model": "models/props_mining/oiltank01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "barrel"
    },
    {
     "count": 2,
@@ -29793,7 +29802,7 @@
    {
     "count": 2,
     "model": "models/props_pipes/gutterlarge_512_001a.mdl",
-    "stand_in": "factory/pipe"
+    "stand_in": "detail"
    },
    {
     "count": 1,
@@ -29818,12 +29827,12 @@
    {
     "count": 1,
     "model": "models/props_pipes/pipecluster08d_001a.mdl",
-    "stand_in": "factory/pipe"
+    "stand_in": "detail"
    },
    {
     "count": 2,
     "model": "models/props_pipes/pipecluster32d_001a.mdl",
-    "stand_in": "factory/pipe"
+    "stand_in": "detail"
    },
    {
     "count": 9,
@@ -29848,42 +29857,42 @@
    {
     "count": 1,
     "model": "models/props_rooftop/antenna01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_rooftop/antenna03a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_rooftop/antenna04a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 4,
     "model": "models/props_rooftop/antennaclusters01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_rooftop/chimneytoppipe_cluster01c.mdl",
-    "stand_in": "factory/pipe"
+    "stand_in": "detail"
    },
    {
     "count": 2,
     "model": "models/props_rooftop/roof_vent004.mdl",
-    "stand_in": "cabinet"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_rooftop/rooftopcluser06a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 3,
     "model": "models/props_rooftop/scaffolding01a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "fence"
    },
    {
     "count": 1,
@@ -29913,12 +29922,12 @@
    {
     "count": 1,
     "model": "models/props_silo/industriallight01.mdl",
-    "stand_in": "chest"
+    "stand_in": "ceiling_light"
    },
    {
     "count": 3,
     "model": "models/props_silo/prodcables128.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 3,
@@ -29928,7 +29937,7 @@
    {
     "count": 1,
     "model": "models/props_trainstation/cable_1152connection001b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
@@ -29938,82 +29947,82 @@
    {
     "count": 2,
     "model": "models/props_trainstation/lighttowercluster01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 2,
     "model": "models/props_trainstation/payphone001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 1,
     "model": "models/props_trainstation/pole_384connection001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "graveyard/lamppost"
    },
    {
     "count": 2,
     "model": "models/props_trainstation/pole_448connection002b.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "graveyard/lamppost"
    },
    {
     "count": 3,
     "model": "models/props_trainstation/trackmarkers01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_trainstation/tracksign01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "signpost"
    },
    {
     "count": 1,
     "model": "models/props_trainstation/tracksign02.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "signpost"
    },
    {
     "count": 1,
     "model": "models/props_trainstation/tracksign03.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "signpost"
    },
    {
     "count": 2,
     "model": "models/props_trainstation/tracksign09.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "signpost"
    },
    {
     "count": 1,
     "model": "models/props_trainstation/trackswitch01.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "signpost"
    },
    {
     "count": 1,
     "model": "models/props_trainstation/train001.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 2,
     "model": "models/props_trainstation/train002.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_trainstation/train003.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
     "model": "models/props_trainstation/train005.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 8,
     "model": "models/props_trainstation/trainstation_post001.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "graveyard/lamppost"
    },
    {
     "count": 4,
     "model": "models/props_trainstation/traintrack001c.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
@@ -30118,7 +30127,7 @@
    {
     "count": 1,
     "model": "models/props_vents/vent_large_grill001.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 1,
@@ -30188,7 +30197,7 @@
    {
     "count": 6,
     "model": "models/props_wasteland/laundry_dryer001.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 1,
@@ -30198,22 +30207,22 @@
    {
     "count": 2,
     "model": "models/props_wasteland/pipecluster003a_small.mdl",
-    "stand_in": "factory/pipe"
+    "stand_in": "detail"
    },
    {
     "count": 2,
     "model": "models/props_wasteland/prison_conduit001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "detail"
    },
    {
     "count": 6,
     "model": "models/props_wasteland/prison_heater001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "cabinet"
    },
    {
     "count": 1,
     "model": "models/props_wasteland/prison_metalbed001a.mdl",
-    "stand_in": "placeholder_box"
+    "stand_in": "bed"
    },
    {
     "count": 1,
@@ -30223,7 +30232,7 @@
    {
     "count": 2,
     "model": "models/props_wasteland/speakercluster01a.mdl",
-    "stand_in": "speaker"
+    "stand_in": "detail"
    },
    {
     "count": 2,
@@ -30624,13 +30633,13 @@
     "key": "generated:fence:202020",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "metal/metalfence004a",
      "metal/metalfence007a"
     ],
     "surfaces": 5,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -30821,13 +30830,13 @@
     "key": "generated:flat:808080",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "effects/breenscreen_static01_",
      "tools/toolsblack"
     ],
     "surfaces": 30,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -30863,12 +30872,12 @@
     "key": "generated:grate:404040",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "metal/metalvent005a"
     ],
     "surfaces": 2,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Rob Tuytel",
@@ -30928,13 +30937,13 @@
     "key": "generated:flat:ffff9f",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "effects/fake_fog01",
      "effects/fake_fog02"
     ],
     "surfaces": 3,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -30949,12 +30958,12 @@
     "key": "generated:flat:bfbfbf",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "effects/rubble_card01"
     ],
     "surfaces": 3,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "Lennart Demes and contributors",
@@ -30991,12 +31000,12 @@
     "key": "generated:glass:406040",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "glass/glasswindow032a"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -31011,12 +31020,12 @@
     "key": "generated:fence:808080",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "metal/metalfence001a"
     ],
     "surfaces": 3,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -31031,12 +31040,12 @@
     "key": "generated:bars:404020",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "metal/metalrail003a"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -31051,13 +31060,13 @@
     "key": "generated:bars:202020",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "metal/metalrail002a",
      "metal/metalrail004a"
     ],
     "surfaces": 3,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -31072,12 +31081,12 @@
     "key": "generated:grate:808080",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "metal/metalvent002a"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -31092,13 +31101,13 @@
     "key": "generated:grate:606060",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "metal/metalvent003a",
      "metal/metalvent014a"
     ],
     "surfaces": 3,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -31113,12 +31122,12 @@
     "key": "generated:glass:408060",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "glass/glasswindow020a"
     ],
     "surfaces": 1,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -31133,12 +31142,12 @@
     "key": "generated:glass:404040",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "glass/glasswindow005c"
     ],
     "surfaces": 2,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "author": "TMC (generated)",
@@ -31153,12 +31162,12 @@
     "key": "generated:glass:808080",
     "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "dotbsp generator",
+    "source": "dot-map cutout_texture",
     "sources": [
      "glass/glasswindowbreak070a"
     ],
     "surfaces": 12,
-    "url": "generated by tools/bsp/dotbsp/textures.py"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    }
   ]
  },
@@ -35696,14 +35705,112 @@
   },
   {
    "at": [
+    9.6774,
+    5.334,
+    -22.7838
+   ],
+   "model": "models/props_c17/playground_carousel01.mdl",
+   "scale": 1.0,
+   "size": 3.0,
+   "stand_in": "fence",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    18.1356,
+    5.5626,
+    -20.7264
+   ],
+   "model": "models/props_c17/doll01.mdl",
+   "scale": 1.0,
+   "size": 0.22,
+   "stand_in": "cardboard_box",
+   "yaw": 316.5
+  },
+  {
+   "at": [
+    12.4968,
+    5.715,
+    -17.0688
+   ],
+   "model": "models/props_c17/playground_teetertoter_stan.mdl",
+   "scale": 1.0,
+   "size": 3.0,
+   "solid": 6,
+   "stand_in": "fence",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     12.4968,
     6.096,
     -17.0688
    ],
    "model": "models/props_c17/playground_teetertoter_seat.mdl",
    "scale": 1.0,
+   "size": 3.0,
    "stand_in": "chair",
    "yaw": 270.0
+  },
+  {
+   "at": [
+    17.1069,
+    5.8293,
+    -24.003
+   ],
+   "model": "models/props_c17/playgroundtick-tack-toe_block01a.mdl",
+   "scale": 1.0,
+   "size": 0.6,
+   "stand_in": "rock",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    17.6403,
+    5.8293,
+    -24.003
+   ],
+   "model": "models/props_c17/playgroundtick-tack-toe_block01a.mdl",
+   "scale": 1.0,
+   "size": 0.6,
+   "stand_in": "rock",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    17.6403,
+    6.1532,
+    -24.003
+   ],
+   "model": "models/props_c17/playgroundtick-tack-toe_block01a.mdl",
+   "scale": 1.0,
+   "size": 0.6,
+   "stand_in": "rock",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    17.3736,
+    6.1532,
+    -24.003
+   ],
+   "model": "models/props_c17/playgroundtick-tack-toe_block01a.mdl",
+   "scale": 1.0,
+   "size": 0.6,
+   "stand_in": "rock",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    17.1069,
+    6.477,
+    -24.003
+   ],
+   "model": "models/props_c17/playgroundtick-tack-toe_block01a.mdl",
+   "scale": 1.0,
+   "size": 0.6,
+   "stand_in": "rock",
+   "yaw": 90.0
   },
   {
    "at": [
@@ -35726,6 +35833,17 @@
    "scale": 1.0,
    "stand_in": "crate",
    "yaw": 30.0
+  },
+  {
+   "at": [
+    21.1074,
+    5.8674,
+    -13.5636
+   ],
+   "model": "models/props_junk/bicycle01a.mdl",
+   "scale": 1.0,
+   "stand_in": "bin",
+   "yaw": 0.0
   },
   {
    "at": [
@@ -35835,7 +35953,8 @@
    ],
    "model": "models/props_junk/garbage_glassbottle003a.mdl",
    "scale": 1.0,
-   "stand_in": "bin",
+   "size": 0.3,
+   "stand_in": "pirate/bottle",
    "yaw": 214.24
   },
   {
@@ -35846,7 +35965,8 @@
    ],
    "model": "models/props_junk/garbage_glassbottle001a.mdl",
    "scale": 1.0,
-   "stand_in": "bin",
+   "size": 0.3,
+   "stand_in": "pirate/bottle",
    "yaw": 73.33
   },
   {
@@ -35995,6 +36115,17 @@
   },
   {
    "at": [
+    -4.7244,
+    3.2445,
+    -18.2118
+   ],
+   "model": "models/props_c17/consolebox05a.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 191.5
+  },
+  {
+   "at": [
     -5.5029,
     2.9771,
     -19.2944
@@ -36036,6 +36167,17 @@
    "scale": 1.0,
    "stand_in": "bookcase",
    "yaw": 91.5
+  },
+  {
+   "at": [
+    -6.5532,
+    3.2004,
+    -21.6408
+   ],
+   "model": "models/props_wasteland/prison_heater001a.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -36237,6 +36379,17 @@
   },
   {
    "at": [
+    28.0416,
+    3.1242,
+    5.6388
+   ],
+   "model": "models/props_wasteland/prison_heater001a.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     29.2608,
     3.4619,
     5.8674
@@ -36289,6 +36442,18 @@
    "scale": 1.0,
    "stand_in": "chair",
    "yaw": 58.5
+  },
+  {
+   "at": [
+    -24.5202,
+    5.2211,
+    12.6474
+   ],
+   "model": "models/props_c17/suitcase_passenger_physics.mdl",
+   "scale": 1.0,
+   "size": 0.22,
+   "stand_in": "cardboard_box",
+   "yaw": 284.95
   },
   {
    "at": [
@@ -36367,6 +36532,18 @@
    "scale": 1.0,
    "stand_in": "barrel",
    "yaw": 28.5
+  },
+  {
+   "at": [
+    -8.3491,
+    0.5489,
+    22.4241
+   ],
+   "model": "./models/props_c17/trappropeller_engine.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "stand_in": "space/machine_generator",
+   "yaw": 98.02
   },
   {
    "at": [
@@ -36773,6 +36950,28 @@
   },
   {
    "at": [
+    16.6878,
+    9.0678,
+    -30.9372
+   ],
+   "model": "models/props_wasteland/prison_heater001a.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    16.6878,
+    9.0678,
+    -35.433
+   ],
+   "model": "models/props_wasteland/prison_heater001a.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     20.7264,
     8.8544,
     -33.2232
@@ -37015,6 +37214,40 @@
   },
   {
    "at": [
+    22.2754,
+    0.5489,
+    -12.9519
+   ],
+   "model": "./models/props_c17/trappropeller_engine.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "stand_in": "space/machine_generator",
+   "yaw": 165.52
+  },
+  {
+   "at": [
+    -8.3763,
+    5.1234,
+    31.033
+   ],
+   "model": "models/props_lab/partsbin01.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 129.0
+  },
+  {
+   "at": [
+    23.545,
+    5.1234,
+    -33.9105
+   ],
+   "model": "models/props_lab/partsbin01.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 129.0
+  },
+  {
+   "at": [
     27.1727,
     5.1985,
     -33.7865
@@ -37122,6 +37355,17 @@
    "scale": 1.0,
    "stand_in": "bookcase",
    "yaw": 100.84
+  },
+  {
+   "at": [
+    -5.8674,
+    6.1595,
+    -32.6136
+   ],
+   "model": "models/props_wasteland/prison_heater001a.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 216.21
   },
   {
    "at": [
@@ -37244,6 +37488,17 @@
    "size": 0.2,
    "stand_in": "cardboard_box",
    "yaw": 189.5
+  },
+  {
+   "at": [
+    -4.8768,
+    0.8061,
+    27.5082
+   ],
+   "model": "models/props_c17/consolebox05a.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 191.5
   },
   {
    "at": [
@@ -37727,6 +37982,17 @@
   },
   {
    "at": [
+    22.7076,
+    8.0354,
+    -32.4612
+   ],
+   "model": "models/props_wasteland/prison_heater001a.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 180.0
+  },
+  {
+   "at": [
     22.5552,
     7.4735,
     -28.8798
@@ -37790,6 +38056,28 @@
    "scale": 1.0,
    "stand_in": "tv",
    "yaw": 308.5
+  },
+  {
+   "at": [
+    27.2034,
+    7.6664,
+    -37.1094
+   ],
+   "model": "models/props_c17/furniturebed001a.mdl",
+   "scale": 1.0,
+   "stand_in": "bed",
+   "yaw": 268.5
+  },
+  {
+   "at": [
+    30.099,
+    7.6664,
+    -34.0614
+   ],
+   "model": "models/props_c17/furniturebed001a.mdl",
+   "scale": 1.0,
+   "stand_in": "bed",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -37980,6 +38268,18 @@
   },
   {
    "at": [
+    12.4206,
+    5.8569,
+    10.2108
+   ],
+   "model": "models/props_lab/reciever_cart.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "cabinet",
+   "yaw": 271.5
+  },
+  {
+   "at": [
     7.5819,
     5.8318,
     15.8877
@@ -37991,6 +38291,31 @@
   },
   {
    "at": [
+    7.5438,
+    6.2484,
+    15.8496
+   ],
+   "model": "models/props_lab/reciever_cart.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "cabinet",
+   "yaw": 74.5
+  },
+  {
+   "at": [
+    11.3348,
+    5.1816,
+    13.5636
+   ],
+   "model": "models/props_lab/elevatordoor.mdl",
+   "scale": 1.0,
+   "size": 2.2,
+   "solid": 6,
+   "stand_in": "factory/door",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     10.9728,
     6.0198,
     14.9352
@@ -37998,6 +38323,45 @@
    "model": "models/props_lab/eyescanner.mdl",
    "scale": 1.0,
    "stand_in": "cabinet",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    18.288,
+    5.4864,
+    14.1732
+   ],
+   "model": "models/props_lab/hev_case.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "solid": 6,
+   "stand_in": "bucket",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    18.288,
+    5.4864,
+    17.0688
+   ],
+   "model": "models/props_lab/hev_case.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "solid": 6,
+   "stand_in": "bucket",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    18.288,
+    5.4864,
+    15.621
+   ],
+   "model": "models/props_lab/hev_case.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "solid": 6,
+   "stand_in": "bucket",
    "yaw": 180.0
   },
   {
@@ -38054,6 +38418,17 @@
    "scale": 1.0,
    "stand_in": "desk",
    "yaw": 91.0
+  },
+  {
+   "at": [
+    23.3734,
+    3.5123,
+    -4.193
+   ],
+   "model": "models/props_lab/partsbin01.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 341.8
   },
   {
    "at": [
@@ -38552,6 +38927,54 @@
   },
   {
    "at": [
+    42.5947,
+    5.6169,
+    -1.3716
+   ],
+   "model": "models/props_combine/breenbust.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "bucket",
+   "yaw": 192.0
+  },
+  {
+   "at": [
+    -22.098,
+    7.5981,
+    38.0238
+   ],
+   "model": "models/props_combine/breenbust.mdl",
+   "scale": 1.0,
+   "size": 0.25,
+   "stand_in": "bucket",
+   "yaw": 27.0
+  },
+  {
+   "at": [
+    -24.769,
+    4.89,
+    -4.6276
+   ],
+   "model": "models/props_junk/sawblade001a.mdl",
+   "scale": 1.0,
+   "size": 0.35,
+   "stand_in": "rock",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -5.6117,
+    5.4996,
+    20.1471
+   ],
+   "model": "models/props_junk/sawblade001a.mdl",
+   "scale": 1.0,
+   "size": 0.35,
+   "stand_in": "rock",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     22.15,
     7.6031,
     -28.9269
@@ -38593,6 +39016,78 @@
    "scale": 1.0,
    "stand_in": "bucket",
    "yaw": 81.5
+  },
+  {
+   "at": [
+    33.3756,
+    2.8956,
+    0.6096
+   ],
+   "model": "models/props_junk/shoe001a.mdl",
+   "scale": 1.0,
+   "size": 0.22,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    33.3756,
+    2.8956,
+    0.8382
+   ],
+   "model": "models/props_junk/shoe001a.mdl",
+   "scale": 1.0,
+   "size": 0.22,
+   "stand_in": "cardboard_box",
+   "yaw": 338.5
+  },
+  {
+   "at": [
+    17.0992,
+    5.4864,
+    -22.098
+   ],
+   "model": "models/props_junk/shoe001a.mdl",
+   "scale": 1.0,
+   "size": 0.22,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    17.0992,
+    5.4701,
+    -21.8848
+   ],
+   "model": "models/props_junk/shoe001a.mdl",
+   "scale": 1.0,
+   "size": 0.22,
+   "stand_in": "cardboard_box",
+   "yaw": 338.5
+  },
+  {
+   "at": [
+    43.7388,
+    5.4322,
+    -7.0866
+   ],
+   "model": "models/props_junk/shoe001a.mdl",
+   "scale": 1.0,
+   "size": 0.22,
+   "stand_in": "cardboard_box",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    43.7388,
+    5.4322,
+    -6.858
+   ],
+   "model": "models/props_junk/shoe001a.mdl",
+   "scale": 1.0,
+   "size": 0.22,
+   "stand_in": "cardboard_box",
+   "yaw": 338.5
   },
   {
    "at": [
@@ -38684,6 +39179,64 @@
   },
   {
    "at": [
+    -14.2494,
+    10.7442,
+    27.6606
+   ],
+   "model": "models/props_junk/watermelon01.mdl",
+   "scale": 1.0,
+   "size": 0.22,
+   "stand_in": "rock",
+   "yaw": 296.5
+  },
+  {
+   "at": [
+    21.7932,
+    5.334,
+    2.286
+   ],
+   "model": "models/items/car_battery01.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "crate",
+   "yaw": 309.5
+  },
+  {
+   "at": [
+    32.9759,
+    5.3715,
+    -21.9666
+   ],
+   "model": "models/items/car_battery01.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "crate",
+   "yaw": 20.0
+  },
+  {
+   "at": [
+    20.8026,
+    9.1852,
+    -32.766
+   ],
+   "model": "models/props/cs_office/microwave.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 84.0
+  },
+  {
+   "at": [
+    28.0365,
+    3.2629,
+    10.0453
+   ],
+   "model": "models/props/cs_office/microwave.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 84.0
+  },
+  {
+   "at": [
     -3.819,
     6.8994,
     40.3913
@@ -38703,6 +39256,30 @@
    "scale": 1.0,
    "stand_in": "rock",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    -7.9248,
+    1.6377,
+    7.5438
+   ],
+   "model": "models/items/car_battery01.mdl",
+   "scale": 1.0,
+   "size": 0.4,
+   "stand_in": "crate",
+   "yaw": 347.5
+  },
+  {
+   "at": [
+    40.7099,
+    11.7538,
+    -7.239
+   ],
+   "model": "models/props_c17/doll01.mdl",
+   "scale": 1.0,
+   "size": 0.22,
+   "stand_in": "cardboard_box",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -38816,12 +39393,49 @@
   },
   {
    "at": [
+    -7.7724,
+    0.157,
+    1.6002
+   ],
+   "model": "models/props_mining/oiltank01.mdl",
+   "scale": 1.0,
+   "size": 1.3,
+   "stand_in": "barrel",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -4.7244,
+    0.2789,
+    -2.1336
+   ],
+   "model": "models/props_junk/ibeam01a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 83.0
+  },
+  {
+   "at": [
+    -5.2578,
+    0.2789,
+    -5.2578
+   ],
+   "model": "models/props_junk/ibeam01a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 98.5
+  },
+  {
+   "at": [
     -18.9738,
     4.8768,
     -13.0302
    ],
    "model": "models/props_canal/canal_bridge_railing02.mdl",
    "scale": 1.0,
+   "size": 8.0,
    "stand_in": "fence",
    "yaw": 0.0
   },
@@ -38879,6 +39493,42 @@
    "scale": 1.0,
    "stand_in": "factory/pipe",
    "yaw": 270.0
+  },
+  {
+   "at": [
+    11.9634,
+    0.762,
+    -9.2202
+   ],
+   "model": "models/props_debris/barricade_short02a.mdl",
+   "scale": 1.0,
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 242.24
+  },
+  {
+   "at": [
+    13.4112,
+    1.3716,
+    -9.144
+   ],
+   "model": "models/props_debris/barricade_tall02a.mdl",
+   "scale": 1.0,
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 256.79
+  },
+  {
+   "at": [
+    14.3256,
+    1.2954,
+    -9.2202
+   ],
+   "model": "models/props_debris/barricade_tall04a.mdl",
+   "scale": 1.0,
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 251.5
   },
   {
    "at": [
@@ -38948,6 +39598,30 @@
   },
   {
    "at": [
+    34.671,
+    3.7688,
+    0.762
+   ],
+   "model": "models/props_debris/barricade_tall02a.mdl",
+   "scale": 1.0,
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 219.5
+  },
+  {
+   "at": [
+    35.433,
+    3.1178,
+    1.2954
+   ],
+   "model": "models/props_debris/barricade_short04a.mdl",
+   "scale": 1.0,
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 165.5
+  },
+  {
+   "at": [
     20.4026,
     2.9718,
     9.1059
@@ -38955,6 +39629,17 @@
    "model": "models/props_c17/handrail04_brokenlong.mdl",
    "scale": 1.0,
    "stand_in": "fence",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    32.0802,
+    3.2766,
+    -2.4384
+   ],
+   "model": "models/props_wasteland/prison_metalbed001a.mdl",
+   "scale": 1.0,
+   "stand_in": "bed",
    "yaw": 90.0
   },
   {
@@ -38970,12 +39655,25 @@
   },
   {
    "at": [
+    -0.6096,
+    0.4167,
+    16.6116
+   ],
+   "model": "models/props_trainstation/tracksign02.mdl",
+   "scale": 1.0,
+   "size": 1.4,
+   "stand_in": "signpost",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     -18.9738,
     4.8768,
     11.43
    ],
    "model": "models/props_canal/canal_bridge_railing02.mdl",
    "scale": 1.0,
+   "size": 8.0,
    "stand_in": "fence",
    "yaw": 0.0
   },
@@ -39038,6 +39736,28 @@
    "size": 1.219,
    "stand_in": "rock",
    "yaw": 180.0
+  },
+  {
+   "at": [
+    -24.1554,
+    13.546,
+    -17.8308
+   ],
+   "model": "models/props_rooftop/scaffolding01a.mdl",
+   "scale": 1.0,
+   "stand_in": "fence",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    -23.9268,
+    4.8811,
+    8.9916
+   ],
+   "model": "models/props_c17/display_cooler01a.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 266.5
   },
   {
    "at": [
@@ -39148,6 +39868,18 @@
   },
   {
    "at": [
+    -12.3444,
+    6.0198,
+    28.8798
+   ],
+   "model": "models/props_junk/ibeam01a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     0.8382,
     4.8768,
     33.8328
@@ -39244,6 +39976,54 @@
   },
   {
    "at": [
+    -14.097,
+    5.4038,
+    40.6908
+   ],
+   "model": "models/props_debris/barricade_short04a.mdl",
+   "scale": 1.0,
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -16.2306,
+    7.9946,
+    27.2796
+   ],
+   "model": "models/props_debris/barricade_short04a.mdl",
+   "scale": 1.0,
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    1.143,
+    5.4038,
+    34.8996
+   ],
+   "model": "models/props_debris/barricade_short04a.mdl",
+   "scale": 1.0,
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    2.4384,
+    5.4144,
+    37.8714
+   ],
+   "model": "models/props_debris/barricade_short02a.mdl",
+   "scale": 1.0,
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 87.0
+  },
+  {
+   "at": [
     4.572,
     5.1836,
     1.1811
@@ -39266,25 +40046,39 @@
   },
   {
    "at": [
-    17.2212,
-    10.1973,
-    16.9164
+    -5.715,
+    4.4246,
+    -12.4206
    ],
-   "model": "models/props_pipes/pipecluster32d_001a.mdl",
+   "model": "models/props_trainstation/pole_448connection002b.mdl",
    "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 270.0
+   "size": 4.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 294.5
   },
   {
    "at": [
-    14.1732,
-    10.1973,
-    16.9164
+    3.5121,
+    4.4246,
+    7.8265
    ],
-   "model": "models/props_pipes/pipecluster32d_001a.mdl",
+   "model": "models/props_trainstation/pole_448connection002b.mdl",
    "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 270.0
+   "size": 4.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 294.5
+  },
+  {
+   "at": [
+    -1.9812,
+    5.0033,
+    33.0708
+   ],
+   "model": "models/props_junk/ibeam01a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 98.5
   },
   {
    "at": [
@@ -39321,6 +40115,17 @@
    "size": 4.87,
    "stand_in": "rock",
    "yaw": 90.0
+  },
+  {
+   "at": [
+    42.672,
+    21.1661,
+    18.0594
+   ],
+   "model": "models/props_rooftop/scaffolding01a.mdl",
+   "scale": 1.0,
+   "stand_in": "fence",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -39369,6 +40174,17 @@
   },
   {
    "at": [
+    35.6616,
+    11.2014,
+    28.8798
+   ],
+   "model": "models/props_rooftop/scaffolding01a.mdl",
+   "scale": 1.0,
+   "stand_in": "fence",
+   "yaw": 282.69
+  },
+  {
+   "at": [
     37.4904,
     5.7912,
     9.6012
@@ -39413,6 +40229,18 @@
   },
   {
    "at": [
+    -4.572,
+    3.8165,
+    -23.5458
+   ],
+   "model": "models/props_trainstation/pole_384connection001a.mdl",
+   "scale": 1.0,
+   "size": 4.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 0.0
+  },
+  {
+   "at": [
     -10.7442,
     5.968,
     -32.1564
@@ -39444,6 +40272,18 @@
    "size": 1.219,
    "stand_in": "rock",
    "yaw": 269.5
+  },
+  {
+   "at": [
+    17.145,
+    19.031,
+    -29.1084
+   ],
+   "model": "models/props_junk/ibeam01a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 188.5
   },
   {
    "at": [
@@ -39524,14 +40364,51 @@
   },
   {
    "at": [
-    25.2984,
-    10.026,
-    -18.3642
+    14.6304,
+    5.2123,
+    -20.3454
    ],
-   "model": "models/props_pipes/pipecluster08d_001a.mdl",
+   "model": "models/props_c17/playgroundslide01.mdl",
    "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 180.0
+   "size": 3.0,
+   "stand_in": "fence",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    19.1262,
+    5.1054,
+    -15.6972
+   ],
+   "model": "models/props_c17/playground_swingset01.mdl",
+   "scale": 1.0,
+   "size": 3.0,
+   "stand_in": "fence",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    23.0886,
+    5.1881,
+    -20.3454
+   ],
+   "model": "models/props_c17/playground_jungle_gym01a.mdl",
+   "scale": 1.0,
+   "size": 3.0,
+   "stand_in": "fence",
+   "yaw": 0.0
+  },
+  {
+   "at": [
+    23.0886,
+    5.1881,
+    -16.764
+   ],
+   "model": "models/props_c17/playground_jungle_gym01b.mdl",
+   "scale": 1.0,
+   "size": 3.0,
+   "stand_in": "fence",
+   "yaw": 90.0
   },
   {
    "at": [
@@ -39568,14 +40445,26 @@
   },
   {
    "at": [
-    30.4038,
-    10.2145,
-    -22.6314
+    17.3736,
+    5.2578,
+    -24.003
    ],
-   "model": "models/props_pipes/gutterlarge_512_001a.mdl",
+   "model": "models/props_c17/playgroundtick-tack-toe_post01.mdl",
    "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 0.0
+   "size": 1.6,
+   "stand_in": "fence_post",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    32.5374,
+    5.3394,
+    -8.4582
+   ],
+   "model": "models/props_trainstation/trainstation_post001.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 90.0
   },
   {
    "at": [
@@ -39587,6 +40476,83 @@
    "scale": 1.0,
    "stand_in": "tree",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    32.5374,
+    5.3394,
+    -10.8966
+   ],
+   "model": "models/props_trainstation/trainstation_post001.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    32.5374,
+    5.3394,
+    -13.335
+   ],
+   "model": "models/props_trainstation/trainstation_post001.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    32.5374,
+    5.3394,
+    -15.7734
+   ],
+   "model": "models/props_trainstation/trainstation_post001.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    32.5374,
+    5.3394,
+    -18.2118
+   ],
+   "model": "models/props_trainstation/trainstation_post001.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    32.5374,
+    5.3394,
+    -20.6502
+   ],
+   "model": "models/props_trainstation/trainstation_post001.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    32.5374,
+    5.3394,
+    -23.0886
+   ],
+   "model": "models/props_trainstation/trainstation_post001.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    32.5374,
+    5.3394,
+    -25.527
+   ],
+   "model": "models/props_trainstation/trainstation_post001.mdl",
+   "scale": 1.0,
+   "stand_in": "graveyard/lamppost",
+   "yaw": 90.0
   },
   {
    "at": [
@@ -39667,17 +40633,6 @@
   },
   {
    "at": [
-    20.8788,
-    8.6868,
-    -38.0539
-   ],
-   "model": "models/props_interiors/handrailcluster02a.mdl",
-   "scale": 1.0,
-   "stand_in": "fence",
-   "yaw": 270.0
-  },
-  {
-   "at": [
     13.8684,
     5.4114,
     -10.9728
@@ -39722,6 +40677,18 @@
   },
   {
    "at": [
+    -11.43,
+    1.2192,
+    43.5102
+   ],
+   "model": "models/props_debris/barricade_short04a.mdl",
+   "scale": 1.0,
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 109.5
+  },
+  {
+   "at": [
     -11.3538,
     1.524,
     44.1198
@@ -39756,6 +40723,30 @@
   {
    "at": [
     -0.6858,
+    2.667,
+    33.7566
+   ],
+   "model": "models/props_trainstation/tracksign09.mdl",
+   "scale": 1.0,
+   "size": 1.4,
+   "stand_in": "signpost",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -0.6858,
+    4.2672,
+    -25.0698
+   ],
+   "model": "models/props_trainstation/tracksign09.mdl",
+   "scale": 1.0,
+   "size": 1.4,
+   "stand_in": "signpost",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -0.6858,
     1.9836,
     -24.8412
    ],
@@ -39763,28 +40754,6 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 180.0
-  },
-  {
-   "at": [
-    15.1638,
-    5.4864,
-    1.2954
-   ],
-   "model": "models/props_junk/trashcluster01a.mdl",
-   "scale": 1.0,
-   "stand_in": "bin",
-   "yaw": 180.0
-  },
-  {
-   "at": [
-    42.3672,
-    5.4483,
-    -0.0
-   ],
-   "model": "models/props_junk/trashcluster01a.mdl",
-   "scale": 1.0,
-   "stand_in": "bin",
-   "yaw": 90.0
   },
   {
    "at": [
@@ -39821,25 +40790,36 @@
   },
   {
    "at": [
-    -4.8006,
-    3.8161,
-    -21.1455
+    -23.8506,
+    4.8811,
+    11.6586
    ],
-   "model": "models/props_c17/furniturepipecluster001a.mdl",
+   "model": "models/props_c17/display_cooler01a.mdl",
    "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 270.0
+   "stand_in": "cabinet",
+   "yaw": 273.5
   },
   {
    "at": [
-    -3.8481,
-    4.572,
-    -18.8976
+    -29.2608,
+    4.8811,
+    12.0396
    ],
-   "model": "models/props_wasteland/speakercluster01a.mdl",
+   "model": "models/props_c17/display_cooler01a.mdl",
    "scale": 1.0,
-   "stand_in": "speaker",
-   "yaw": 0.0
+   "stand_in": "cabinet",
+   "yaw": 269.5
+  },
+  {
+   "at": [
+    -28.4226,
+    5.2345,
+    14.0208
+   ],
+   "model": "models/props_c17/display_cooler01a.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 288.5
   },
   {
    "at": [
@@ -39851,17 +40831,6 @@
    "scale": 1.0,
    "stand_in": "vehicles/sedan",
    "yaw": 315.0
-  },
-  {
-   "at": [
-    -8.2486,
-    0.2667,
-    -0.762
-   ],
-   "model": "models/props_junk/trashcluster01a.mdl",
-   "scale": 1.0,
-   "stand_in": "bin",
-   "yaw": 180.0
   },
   {
    "at": [
@@ -39884,17 +40853,6 @@
    "scale": 1.0,
    "stand_in": "cabinet",
    "yaw": 270.0
-  },
-  {
-   "at": [
-    29.5285,
-    19.5125,
-    -29.723
-   ],
-   "model": "models/props_rooftop/roof_vent004.mdl",
-   "scale": 1.0,
-   "stand_in": "cabinet",
-   "yaw": 0.0
   },
   {
    "at": [
@@ -39942,6 +40900,42 @@
   },
   {
    "at": [
+    -0.6858,
+    1.1633,
+    33.6804
+   ],
+   "model": "models/props_trainstation/tracksign03.mdl",
+   "scale": 1.0,
+   "size": 1.4,
+   "stand_in": "signpost",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    -0.6096,
+    0.8632,
+    -21.717
+   ],
+   "model": "models/props_trainstation/tracksign01.mdl",
+   "scale": 1.0,
+   "size": 1.4,
+   "stand_in": "signpost",
+   "yaw": 270.0
+  },
+  {
+   "at": [
+    -0.6858,
+    0.2256,
+    14.097
+   ],
+   "model": "models/props_trainstation/trackswitch01.mdl",
+   "scale": 1.0,
+   "size": 1.4,
+   "stand_in": "signpost",
+   "yaw": 90.0
+  },
+  {
+   "at": [
     -6.477,
     2.5908,
     27.5844
@@ -39950,6 +40944,30 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    -4.191,
+    2.8697,
+    25.8318
+   ],
+   "model": "models/props_junk/ibeam01a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 92.0
+  },
+  {
+   "at": [
+    -4.4196,
+    2.8697,
+    28.4988
+   ],
+   "model": "models/props_junk/ibeam01a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 90.0
   },
   {
    "at": [
@@ -40063,14 +41081,14 @@
   },
   {
    "at": [
-    22.0218,
-    9.7573,
-    -28.0416
+    20.955,
+    9.3267,
+    -36.1188
    ],
-   "model": "models/props_pipes/gutterlarge_512_001a.mdl",
+   "model": "models/props_c17/furniturefireplace001a.mdl",
    "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 270.0
+   "stand_in": "cabinet",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -40093,17 +41111,6 @@
    "scale": 1.0,
    "stand_in": "factory/pipe",
    "yaw": 90.0
-  },
-  {
-   "at": [
-    35.7517,
-    4.4958,
-    -1.2954
-   ],
-   "model": "models/props_wasteland/pipecluster003a_small.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 270.0
   },
   {
    "at": [
@@ -40151,6 +41158,30 @@
   },
   {
    "at": [
+    23.622,
+    1.3106,
+    -6.1722
+   ],
+   "model": "models/props_wasteland/laundry_dryer001.mdl",
+   "scale": 1.0,
+   "size": 0.9,
+   "stand_in": "cabinet",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    23.622,
+    1.3106,
+    -4.8006
+   ],
+   "model": "models/props_wasteland/laundry_dryer001.mdl",
+   "scale": 1.0,
+   "size": 0.9,
+   "stand_in": "cabinet",
+   "yaw": 180.0
+  },
+  {
+   "at": [
     17.8308,
     3.8154,
     10.5918
@@ -40184,14 +41215,27 @@
   },
   {
    "at": [
-    9.6012,
-    4.9911,
-    -29.4132
+    -4.8006,
+    1.7678,
+    13.7922
    ],
-   "model": "models/props_junk/trashcluster01a.mdl",
+   "model": "models/props_wasteland/laundry_dryer001.mdl",
    "scale": 1.0,
-   "stand_in": "bin",
-   "yaw": 270.0
+   "size": 0.9,
+   "stand_in": "cabinet",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -6.1722,
+    5.4038,
+    -28.956
+   ],
+   "model": "models/props_debris/barricade_short04a.mdl",
+   "scale": 1.0,
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 90.0
   },
   {
    "at": [
@@ -40203,6 +41247,17 @@
    "scale": 1.0,
    "stand_in": "fence",
    "yaw": 270.0
+  },
+  {
+   "at": [
+    -1.8288,
+    9.7216,
+    -37.5666
+   ],
+   "model": "models/props_silo/industriallight01.mdl",
+   "scale": 1.0,
+   "stand_in": "ceiling_light",
+   "yaw": 297.5
   },
   {
    "at": [
@@ -40327,6 +41382,18 @@
   },
   {
    "at": [
+    4.0386,
+    5.4038,
+    27.2796
+   ],
+   "model": "models/props_debris/barricade_short04a.mdl",
+   "scale": 1.0,
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     3.5814,
     0.2286,
     -6.1722
@@ -40357,6 +41424,18 @@
    "scale": 1.0,
    "stand_in": "bin",
    "yaw": 207.5
+  },
+  {
+   "at": [
+    -24.9174,
+    7.8422,
+    33.9852
+   ],
+   "model": "models/props_debris/barricade_short04a.mdl",
+   "scale": 1.0,
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 270.0
   },
   {
    "at": [
@@ -40404,17 +41483,6 @@
   },
   {
    "at": [
-    3.5814,
-    4.9911,
-    15.0114
-   ],
-   "model": "models/props_junk/trashcluster01a.mdl",
-   "scale": 1.0,
-   "stand_in": "bin",
-   "yaw": 180.0
-  },
-  {
-   "at": [
     8.1534,
     6.5532,
     -12.8016
@@ -40423,17 +41491,6 @@
    "scale": 1.0,
    "stand_in": "vehicles/truck",
    "yaw": 88.0
-  },
-  {
-   "at": [
-    7.5438,
-    5.4102,
-    -12.2682
-   ],
-   "model": "models/props_junk/trashcluster01a.mdl",
-   "scale": 1.0,
-   "stand_in": "bin",
-   "yaw": 180.0
   },
   {
    "at": [
@@ -40522,6 +41579,18 @@
    "scale": 1.0,
    "stand_in": "bin",
    "yaw": 266.5
+  },
+  {
+   "at": [
+    -4.953,
+    5.0033,
+    21.1074
+   ],
+   "model": "models/props_junk/ibeam01a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 98.5
   },
   {
    "at": [
@@ -40668,6 +41737,18 @@
   },
   {
    "at": [
+    26.0604,
+    3.749,
+    -1.2954
+   ],
+   "model": "models/props_wasteland/laundry_dryer001.mdl",
+   "scale": 1.0,
+   "size": 0.9,
+   "stand_in": "cabinet",
+   "yaw": 180.0
+  },
+  {
+   "at": [
     -4.8006,
     1.162,
     24.3078
@@ -40709,17 +41790,6 @@
    "scale": 1.0,
    "stand_in": "factory/pipe",
    "yaw": 90.0
-  },
-  {
-   "at": [
-    33.2422,
-    3.8161,
-    -5.2578
-   ],
-   "model": "models/props_c17/furniturepipecluster001a.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 270.0
   },
   {
    "at": [
@@ -40844,6 +41914,18 @@
   },
   {
    "at": [
+    17.5641,
+    5.1953,
+    11.2395
+   ],
+   "model": "models/props_lab/cornerunit2.mdl",
+   "scale": 1.0,
+   "size": 1.6,
+   "stand_in": "space/machine_generator",
+   "yaw": 270.0
+  },
+  {
+   "at": [
     14.8971,
     8.001,
     15.8687
@@ -40932,6 +42014,42 @@
   },
   {
    "at": [
+    15.9258,
+    0.2789,
+    0.6096
+   ],
+   "model": "models/props_junk/ibeam01a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 90.0
+  },
+  {
+   "at": [
+    16.3068,
+    0.2789,
+    0.4572
+   ],
+   "model": "models/props_junk/ibeam01a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 87.5
+  },
+  {
+   "at": [
+    16.0782,
+    0.5335,
+    0.4572
+   ],
+   "model": "models/props_junk/ibeam01a.mdl",
+   "scale": 1.0,
+   "size": 1.2,
+   "stand_in": "log",
+   "yaw": 93.0
+  },
+  {
+   "at": [
     28.4988,
     3.6004,
     -8.382
@@ -40984,6 +42102,30 @@
    "scale": 1.0,
    "stand_in": "ceiling_light",
    "yaw": 0.0
+  },
+  {
+   "at": [
+    15.0876,
+    1.3106,
+    17.2974
+   ],
+   "model": "models/props_wasteland/laundry_dryer001.mdl",
+   "scale": 1.0,
+   "size": 0.9,
+   "stand_in": "cabinet",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    15.0876,
+    1.3106,
+    19.7358
+   ],
+   "model": "models/props_wasteland/laundry_dryer001.mdl",
+   "scale": 1.0,
+   "size": 0.9,
+   "stand_in": "cabinet",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -41075,17 +42217,6 @@
   },
   {
    "at": [
-    7.5248,
-    2.0764,
-    10.287
-   ],
-   "model": "models/props_wasteland/pipecluster003a_small.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 90.0
-  },
-  {
-   "at": [
     7.1628,
     2.1336,
     24.2316
@@ -41138,17 +42269,6 @@
    "scale": 1.0,
    "stand_in": "cabinet",
    "yaw": 0.0
-  },
-  {
-   "at": [
-    10.7823,
-    7.8486,
-    13.5636
-   ],
-   "model": "models/props_wasteland/speakercluster01a.mdl",
-   "scale": 1.0,
-   "stand_in": "speaker",
-   "yaw": 180.0
   },
   {
    "at": [
@@ -41218,6 +42338,18 @@
   },
   {
    "at": [
+    0.762,
+    1.6764,
+    -25.908
+   ],
+   "model": "models/props_debris/barricade_tall02a.mdl",
+   "scale": 1.0,
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 259.91
+  },
+  {
+   "at": [
     1.8288,
     1.9812,
     -26.9748
@@ -41226,6 +42358,18 @@
    "scale": 1.0,
    "stand_in": "factory/pipe",
    "yaw": 101.93
+  },
+  {
+   "at": [
+    1.9812,
+    0.9144,
+    -25.7556
+   ],
+   "model": "models/props_debris/barricade_short02a.mdl",
+   "scale": 1.0,
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 236.75
   },
   {
    "at": [
@@ -41251,6 +42395,30 @@
   },
   {
    "at": [
+    38.6334,
+    5.7848,
+    3.5052
+   ],
+   "model": "models/props_debris/barricade_short04a.mdl",
+   "scale": 1.0,
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    -18.2118,
+    13.4874,
+    50.413
+   ],
+   "model": "models/props_debris/barricade_tall04a.mdl",
+   "scale": 1.0,
+   "size": 1.1,
+   "stand_in": "crate_large",
+   "yaw": 45.18
+  },
+  {
+   "at": [
     39.9288,
     15.1078,
     7.6962
@@ -41258,6 +42426,28 @@
    "model": "models/combine_room/combine_monitor002.mdl",
    "scale": 1.0,
    "stand_in": "monitor",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    40.9956,
+    6.0236,
+    -22.5552
+   ],
+   "model": "models/props_trainstation/payphone001a.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
+   "yaw": 180.0
+  },
+  {
+   "at": [
+    40.9956,
+    6.0236,
+    -23.7744
+   ],
+   "model": "models/props_trainstation/payphone001a.mdl",
+   "scale": 1.0,
+   "stand_in": "cabinet",
    "yaw": 180.0
   },
   {
@@ -41317,17 +42507,6 @@
   },
   {
    "at": [
-    44.9536,
-    17.6838,
-    -2.9337
-   ],
-   "model": "models/props_rooftop/roof_vent004.mdl",
-   "scale": 1.0,
-   "stand_in": "cabinet",
-   "yaw": 0.0
-  },
-  {
-   "at": [
     -28.27,
     6.0873,
     -30.404
@@ -41369,17 +42548,6 @@
    "scale": 1.0,
    "stand_in": "cabinet",
    "yaw": 180.0
-  },
-  {
-   "at": [
-    26.9495,
-    17.46,
-    -14.1023
-   ],
-   "model": "models/props_rooftop/chimneytoppipe_cluster01c.mdl",
-   "scale": 1.0,
-   "stand_in": "factory/pipe",
-   "yaw": 0.0
   },
   {
    "at": [
@@ -41501,71 +42669,6 @@
    "scale": 1.0,
    "stand_in": "prototype/ladder",
    "yaw": 270.0
-  },
-  {
-   "at": [
-    -23.9268,
-    4.8813,
-    8.9916
-   ],
-   "model": "models/props_c17/display_cooler01a.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 1.979,
-   "stand_in": "cabinet",
-   "yaw": 356.5
-  },
-  {
-   "at": [
-    -23.8506,
-    4.8813,
-    11.6586
-   ],
-   "model": "models/props_c17/display_cooler01a.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 1.979,
-   "stand_in": "cabinet",
-   "yaw": 363.5
-  },
-  {
-   "at": [
-    -29.2608,
-    4.8813,
-    12.0396
-   ],
-   "model": "models/props_c17/display_cooler01a.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 1.979,
-   "stand_in": "cabinet",
-   "yaw": 359.5
-  },
-  {
-   "at": [
-    -28.4226,
-    5.2347,
-    14.0208
-   ],
-   "model": "models/props_c17/display_cooler01a.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 1.979,
-   "stand_in": "cabinet",
-   "yaw": 378.5
-  },
-  {
-   "at": [
-    -1.8295,
-    9.3009,
-    -37.5671
-   ],
-   "model": "models/props_silo/industriallight01.mdl",
-   "scale": 1.0,
-   "shape": true,
-   "size": 0.549,
-   "stand_in": "chest",
-   "yaw": 297.5
   }
  ],
  "scripts": [],
