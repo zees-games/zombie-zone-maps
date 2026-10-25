@@ -13,7 +13,57 @@
    "url": "https://polyhaven.com/a/forrest_sand_01",
    "source": "polyhaven",
    "attribution": false,
+   "uses": 42
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Metal036",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Metal036",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_MetalWalkway005",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=MetalWalkway005",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_WoodFloor035",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=WoodFloor035",
+   "source": "ambientCG",
+   "attribution": false,
    "uses": 16
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_WoodFloor041",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=WoodFloor041",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 5
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_brown_planks_04",
+   "author": "Rob Tuytel",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/brown_planks_04",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 5
   },
   {
    "kind": "texture",
@@ -33,17 +83,27 @@
    "url": "https://ambientcg.com/view?id=Concrete008",
    "source": "ambientCG",
    "attribution": false,
+   "uses": 5
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_WoodFloor037",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=WoodFloor037",
+   "source": "ambientCG",
+   "attribution": false,
    "uses": 4
   },
   {
    "kind": "texture",
-   "name": "pbr_Metal036",
-   "author": "Lennart Demes and contributors",
+   "name": "pbr_grey_oak_veneer_02",
+   "author": "Jenelle van Heerden",
    "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Metal036",
-   "source": "ambientCG",
+   "url": "https://polyhaven.com/a/grey_oak_veneer_02",
+   "source": "polyhaven",
    "attribution": false,
-   "uses": 1
+   "uses": 5
   },
   {
    "kind": "texture",
@@ -54,16 +114,6 @@
    "source": "ambientCG",
    "attribution": false,
    "uses": 7
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_MetalWalkway005",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=MetalWalkway005",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 1
   },
   {
    "kind": "texture",
@@ -123,27 +173,7 @@
    "url": "https://ambientcg.com/view?id=Wood080",
    "source": "ambientCG",
    "attribution": false,
-   "uses": 4
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_WoodFloor035",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=WoodFloor035",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 7
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_WoodFloor037",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=WoodFloor037",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 4
+   "uses": 5
   },
   {
    "kind": "texture",
@@ -157,16 +187,6 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_WoodFloor041",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=WoodFloor041",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 5
-  },
-  {
-   "kind": "texture",
    "name": "pbr_Wood033",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
@@ -177,33 +197,13 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_brown_planks_04",
-   "author": "Rob Tuytel",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/brown_planks_04",
-   "source": "polyhaven",
-   "attribution": false,
-   "uses": 4
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_grey_oak_veneer_02",
-   "author": "Jenelle van Heerden",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/grey_oak_veneer_02",
-   "source": "polyhaven",
-   "attribution": false,
-   "uses": 3
-  },
-  {
-   "kind": "texture",
    "name": "pbr_dark_wooden_planks",
    "author": "Amal Kumar",
    "licence": "CC0-1.0",
    "url": "https://polyhaven.com/a/dark_wooden_planks",
    "source": "polyhaven",
    "attribution": false,
-   "uses": 4
+   "uses": 5
   },
   {
    "kind": "texture",
@@ -257,20 +257,30 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_Metal001",
+   "name": "pbr_Metal046B",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Metal001",
+   "url": "https://ambientcg.com/view?id=Metal046B",
    "source": "ambientCG",
    "attribution": false,
    "uses": 1
   },
   {
    "kind": "texture",
-   "name": "pbr_Metal046B",
+   "name": "pbr_european_walnut_veneer_05",
+   "author": "Jenelle van Heerden",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/european_walnut_veneer_05",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Metal001",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Metal046B",
+   "url": "https://ambientcg.com/view?id=Metal001",
    "source": "ambientCG",
    "attribution": false,
    "uses": 1
@@ -294,16 +304,6 @@
    "source": "polyhaven",
    "attribution": false,
    "uses": 2
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_european_walnut_veneer_05",
-   "author": "Jenelle van Heerden",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/european_walnut_veneer_05",
-   "source": "polyhaven",
-   "attribution": false,
-   "uses": 1
   },
   {
    "kind": "texture",
@@ -393,7 +393,7 @@
    "url": "https://kenney.nl/assets/furniture-kit",
    "source": "Kenney Furniture Kit",
    "attribution": false,
-   "uses": 11
+   "uses": 10
   },
   {
    "kind": "model",
@@ -643,7 +643,7 @@
    "url": "https://polyhaven.com/a/korean_fire_extinguisher_01",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 3
+   "uses": 1
   },
   {
    "kind": "model",
@@ -753,7 +753,7 @@
    "url": "https://polyhaven.com/a/propane_tank",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 8
+   "uses": 11
   },
   {
    "kind": "model",
