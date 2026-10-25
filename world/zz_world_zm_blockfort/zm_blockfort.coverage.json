@@ -4,28 +4,24 @@
  "map": "zm_blockfort_v5_b2",
  "sha256": "45adee948bb2a3730c9d0cabe2e77399db90cb7592297bc54709b836e76900e8",
  "textures": {
-  "looked_up": 48,
+  "looked_up": 50,
   "by_tier": {
-   "default": 32,
-   "fallback": 16
+   "default": 47,
+   "fallback": 3
   },
   "free_by_tier": {
    "default": 11,
-   "fallback": 5
+   "fallback": 2
   },
   "nearest_photo": [
-   "blockfort/mario_vine",
-   "blockfort/rainbow",
-   "blockfort/special_thanks",
    "custom_nature/animatedlava",
    "marioflashback/mushroom_red"
   ]
  },
  "models": {
-  "looked_up": 23,
+  "looked_up": 21,
   "by_tier": {
-   "default": 19,
-   "fallback": 4
+   "default": 21
   }
  },
  "sounds": {
@@ -46,91 +42,11 @@
   "catalogue": true,
   "unmapped": {
    "ambient_generic": [
-    "cspinup",
-    "fadeinsecs",
-    "fadeoutsecs",
-    "health",
-    "lfomodpitch",
-    "lfomodvol",
-    "lforate",
-    "lfotype",
-    "pitch",
-    "pitchstart",
-    "preset",
-    "spindown",
-    "spinup",
-    "volstart"
-   ],
-   "filter_activator_team": [
-    "Negated"
-   ],
-   "filter_damage_type": [
-    "Negated"
-   ],
-   "func_breakable": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "material",
-    "nodamageforces",
-    "spawnobject"
-   ],
-   "func_brush": [
-    "InputFilter",
-    "disablereceiveshadows",
-    "disableshadows",
-    "vrad_brush_cast_shadows"
-   ],
-   "func_button": [
-    "disablereceiveshadows"
-   ],
-   "func_door": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "locked_sentence",
-    "unlocked_sentence"
+    "pitch"
    ],
    "point_viewcontrol": [
     "acceleration",
     "deceleration"
-   ],
-   "prop_dynamic": [
-    "SetBodyGroup",
-    "disablereceiveshadows",
-    "disableshadows",
-    "fademaxdist",
-    "fademindist",
-    "fadescale",
-    "solid"
-   ],
-   "prop_physics_override": [
-    "Damagetype",
-    "ExplodeDamage",
-    "ExplodeRadius",
-    "PerformanceMode",
-    "damagetoenablemotion",
-    "disableshadows",
-    "fademaxdist",
-    "fademindist",
-    "fadescale",
-    "forcetoenablemotion",
-    "inertiaScale",
-    "massScale",
-    "maxdxlevel",
-    "mindxlevel",
-    "minhealthdmg",
-    "modelscale",
-    "nodamageforces",
-    "physdamagescale",
-    "pressuredelay",
-    "shadowcastdist",
-    "skin",
-    "spawnflags"
-   ],
-   "trigger_push": [
-    "speed"
-   ],
-   "worldspawn": [
-    "mapversion"
    ]
   }
  },
@@ -140,42 +56,14 @@
  },
  "lists": {
   "textures_unmapped": [
-   "BLOCKFORT/BLUEFLOOR",
-   "BLOCKFORT/BLUEWALL",
-   "BLOCKFORT/GREENFLOOR",
-   "BLOCKFORT/GREENWALL",
-   "BLOCKFORT/MARIO_VINE",
-   "BLOCKFORT/NOENTRY",
-   "BLOCKFORT/QBLOCK",
-   "BLOCKFORT/RAINBOW",
-   "BLOCKFORT/REDFLOOR",
-   "BLOCKFORT/REDWALL",
-   "BLOCKFORT/SPECIAL_THANKS",
-   "BLOCKFORT/YELLOWFLOOR",
-   "BLOCKFORT/YELLOWWALL",
    "CS_ITALY/YELLOW",
    "CUSTOM_NATURE/ANIMATEDLAVA",
    "MARIOFLASHBACK/MUSHROOM_RED"
   ],
   "textures_flat": [
-   "blockfort/bluefloor",
-   "blockfort/bluewall",
-   "blockfort/greenfloor",
-   "blockfort/greenwall",
-   "blockfort/noentry",
-   "blockfort/qblock",
-   "blockfort/redfloor",
-   "blockfort/redwall",
-   "blockfort/yellowfloor",
-   "blockfort/yellowwall",
    "cs_italy/yellow"
   ],
-  "models_unmapped": [
-   "props/cs_office/exit_ceiling.mdl",
-   "props/cs_office/snowman_body.mdl",
-   "props_junk/sawblade001a.mdl",
-   "props_lab/freightelevatorbutton.mdl"
-  ],
+  "models_unmapped": [],
   "sounds_unmapped": [
    "mario/boost.wav",
    "mario/sm64_pipe_2.wav",
@@ -186,79 +74,19 @@
   ],
   "classes_unmapped": [],
   "keys_unmapped": [
-   "ambient_generic.cspinup",
-   "ambient_generic.fadeinsecs",
-   "ambient_generic.fadeoutsecs",
-   "ambient_generic.health",
-   "ambient_generic.lfomodpitch",
-   "ambient_generic.lfomodvol",
-   "ambient_generic.lforate",
-   "ambient_generic.lfotype",
    "ambient_generic.pitch",
-   "ambient_generic.pitchstart",
-   "ambient_generic.preset",
-   "ambient_generic.spindown",
-   "ambient_generic.spinup",
-   "ambient_generic.volstart",
-   "filter_activator_team.Negated",
-   "filter_damage_type.Negated",
-   "func_breakable.disablereceiveshadows",
-   "func_breakable.disableshadows",
-   "func_breakable.material",
-   "func_breakable.nodamageforces",
-   "func_breakable.spawnobject",
-   "func_brush.InputFilter",
-   "func_brush.disablereceiveshadows",
-   "func_brush.disableshadows",
-   "func_brush.vrad_brush_cast_shadows",
-   "func_button.disablereceiveshadows",
-   "func_door.disablereceiveshadows",
-   "func_door.disableshadows",
-   "func_door.locked_sentence",
-   "func_door.unlocked_sentence",
    "point_viewcontrol.acceleration",
-   "point_viewcontrol.deceleration",
-   "prop_dynamic.SetBodyGroup",
-   "prop_dynamic.disablereceiveshadows",
-   "prop_dynamic.disableshadows",
-   "prop_dynamic.fademaxdist",
-   "prop_dynamic.fademindist",
-   "prop_dynamic.fadescale",
-   "prop_dynamic.solid",
-   "prop_physics_override.Damagetype",
-   "prop_physics_override.ExplodeDamage",
-   "prop_physics_override.ExplodeRadius",
-   "prop_physics_override.PerformanceMode",
-   "prop_physics_override.damagetoenablemotion",
-   "prop_physics_override.disableshadows",
-   "prop_physics_override.fademaxdist",
-   "prop_physics_override.fademindist",
-   "prop_physics_override.fadescale",
-   "prop_physics_override.forcetoenablemotion",
-   "prop_physics_override.inertiaScale",
-   "prop_physics_override.massScale",
-   "prop_physics_override.maxdxlevel",
-   "prop_physics_override.mindxlevel",
-   "prop_physics_override.minhealthdmg",
-   "prop_physics_override.modelscale",
-   "prop_physics_override.nodamageforces",
-   "prop_physics_override.physdamagescale",
-   "prop_physics_override.pressuredelay",
-   "prop_physics_override.shadowcastdist",
-   "prop_physics_override.skin",
-   "prop_physics_override.spawnflags",
-   "trigger_push.speed",
-   "worldspawn.mapversion"
+   "point_viewcontrol.deceleration"
   ],
   "links_unresolved": []
  },
  "counts": {
-  "textures_unmapped": 16,
-  "textures_flat": 11,
-  "models_unmapped": 4,
+  "textures_unmapped": 3,
+  "textures_flat": 1,
+  "models_unmapped": 0,
   "sounds_unmapped": 6,
   "classes_unmapped": 0,
-  "keys_unmapped": 63,
+  "keys_unmapped": 3,
   "links_unresolved": 0
  }
 }

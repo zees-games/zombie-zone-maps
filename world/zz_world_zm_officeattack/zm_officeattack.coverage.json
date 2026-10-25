@@ -10,7 +10,7 @@
    "fallback": 1
   },
   "free_by_tier": {
-   "default": 14,
+   "default": 15,
    "fallback": 1
   },
   "nearest_photo": [
@@ -18,10 +18,9 @@
   ]
  },
  "models": {
-  "looked_up": 62,
+  "looked_up": 56,
   "by_tier": {
-   "default": 51,
-   "fallback": 11
+   "default": 56
   }
  },
  "sounds": {
@@ -42,97 +41,7 @@
   "catalogue": true,
   "unmapped": {
    "ambient_generic": [
-    "health",
-    "pitch",
-    "pitchstart",
-    "volstart"
-   ],
-   "env_sprite": [
-    "disablereceiveshadows"
-   ],
-   "func_breakable": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "material",
-    "nodamageforces",
-    "spawnobject"
-   ],
-   "func_breakable_surf": [
-    "ExplodeDamage",
-    "ExplodeRadius",
-    "PerformanceMode",
-    "disablereceiveshadows",
-    "disableshadows",
-    "explodemagnitude",
-    "explosion",
-    "gibdir",
-    "material",
-    "nodamageforces",
-    "pressuredelay",
-    "propdata",
-    "renderamt",
-    "rendercolor",
-    "renderfx",
-    "rendermode",
-    "spawnobject"
-   ],
-   "func_button": [
-    "disablereceiveshadows"
-   ],
-   "func_physbox": [
-    "ExplodeDamage",
-    "ExplodeRadius",
-    "PerformanceMode",
-    "disablereceiveshadows",
-    "disableshadows",
-    "explodemagnitude",
-    "explosion",
-    "gibdir",
-    "health",
-    "material",
-    "nodamageforces",
-    "pressuredelay",
-    "propdata",
-    "renderamt",
-    "rendercolor",
-    "renderfx",
-    "rendermode",
-    "spawnobject"
-   ],
-   "func_tracktrain": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "speed",
-    "volume"
-   ],
-   "path_track": [
-    "speed"
-   ],
-   "prop_door_rotating": [
-    "speed"
-   ],
-   "prop_physics_multiplayer": [
-    "Damagetype",
-    "ExplodeDamage",
-    "ExplodeRadius",
-    "PerformanceMode",
-    "damagetoenablemotion",
-    "disableshadows",
-    "fademaxdist",
-    "fademindist",
-    "fadescale",
-    "forcetoenablemotion",
-    "inertiaScale",
-    "massScale",
-    "maxdxlevel",
-    "mindxlevel",
-    "minhealthdmg",
-    "nodamageforces",
-    "physdamagescale",
-    "pressuredelay",
-    "shadowcastdist",
-    "skin",
-    "spawnflags"
+    "pitch"
    ]
   }
  },
@@ -145,97 +54,13 @@
    "PROPS/PLASTICPOPMACHINE001A"
   ],
   "textures_flat": [],
-  "models_unmapped": [
-   "props/cs_office/offinspd.mdl",
-   "props/cs_office/offinspg.mdl",
-   "props/de_prodigy/spoolwire.mdl",
-   "props/de_tides/clouds.mdl",
-   "props/de_train/de_train_securityguard.mdl",
-   "props_c17/briefcase001a.mdl",
-   "props_lab/corkboard001.mdl",
-   "props_lab/corkboard002.mdl",
-   "props_lab/freightelevatorbutton.mdl",
-   "props_lab/securitybank.mdl",
-   "props_trainstation/trainstation_post001.mdl"
-  ],
+  "models_unmapped": [],
   "sounds_unmapped": [
    "weapons/tripwire/ropeshoot.wav"
   ],
   "classes_unmapped": [],
   "keys_unmapped": [
-   "ambient_generic.health",
-   "ambient_generic.pitch",
-   "ambient_generic.pitchstart",
-   "ambient_generic.volstart",
-   "env_sprite.disablereceiveshadows",
-   "func_breakable.disablereceiveshadows",
-   "func_breakable.disableshadows",
-   "func_breakable.material",
-   "func_breakable.nodamageforces",
-   "func_breakable.spawnobject",
-   "func_breakable_surf.ExplodeDamage",
-   "func_breakable_surf.ExplodeRadius",
-   "func_breakable_surf.PerformanceMode",
-   "func_breakable_surf.disablereceiveshadows",
-   "func_breakable_surf.disableshadows",
-   "func_breakable_surf.explodemagnitude",
-   "func_breakable_surf.explosion",
-   "func_breakable_surf.gibdir",
-   "func_breakable_surf.material",
-   "func_breakable_surf.nodamageforces",
-   "func_breakable_surf.pressuredelay",
-   "func_breakable_surf.propdata",
-   "func_breakable_surf.renderamt",
-   "func_breakable_surf.rendercolor",
-   "func_breakable_surf.renderfx",
-   "func_breakable_surf.rendermode",
-   "func_breakable_surf.spawnobject",
-   "func_button.disablereceiveshadows",
-   "func_physbox.ExplodeDamage",
-   "func_physbox.ExplodeRadius",
-   "func_physbox.PerformanceMode",
-   "func_physbox.disablereceiveshadows",
-   "func_physbox.disableshadows",
-   "func_physbox.explodemagnitude",
-   "func_physbox.explosion",
-   "func_physbox.gibdir",
-   "func_physbox.health",
-   "func_physbox.material",
-   "func_physbox.nodamageforces",
-   "func_physbox.pressuredelay",
-   "func_physbox.propdata",
-   "func_physbox.renderamt",
-   "func_physbox.rendercolor",
-   "func_physbox.renderfx",
-   "func_physbox.rendermode",
-   "func_physbox.spawnobject",
-   "func_tracktrain.disablereceiveshadows",
-   "func_tracktrain.disableshadows",
-   "func_tracktrain.speed",
-   "func_tracktrain.volume",
-   "path_track.speed",
-   "prop_door_rotating.speed",
-   "prop_physics_multiplayer.Damagetype",
-   "prop_physics_multiplayer.ExplodeDamage",
-   "prop_physics_multiplayer.ExplodeRadius",
-   "prop_physics_multiplayer.PerformanceMode",
-   "prop_physics_multiplayer.damagetoenablemotion",
-   "prop_physics_multiplayer.disableshadows",
-   "prop_physics_multiplayer.fademaxdist",
-   "prop_physics_multiplayer.fademindist",
-   "prop_physics_multiplayer.fadescale",
-   "prop_physics_multiplayer.forcetoenablemotion",
-   "prop_physics_multiplayer.inertiaScale",
-   "prop_physics_multiplayer.massScale",
-   "prop_physics_multiplayer.maxdxlevel",
-   "prop_physics_multiplayer.mindxlevel",
-   "prop_physics_multiplayer.minhealthdmg",
-   "prop_physics_multiplayer.nodamageforces",
-   "prop_physics_multiplayer.physdamagescale",
-   "prop_physics_multiplayer.pressuredelay",
-   "prop_physics_multiplayer.shadowcastdist",
-   "prop_physics_multiplayer.skin",
-   "prop_physics_multiplayer.spawnflags"
+   "ambient_generic.pitch"
   ],
   "links_unresolved": [
    "func_breakable.->blockbullets1",
@@ -245,10 +70,10 @@
  "counts": {
   "textures_unmapped": 1,
   "textures_flat": 0,
-  "models_unmapped": 11,
+  "models_unmapped": 0,
   "sounds_unmapped": 1,
   "classes_unmapped": 0,
-  "keys_unmapped": 73,
+  "keys_unmapped": 1,
   "links_unresolved": 2
  }
 }

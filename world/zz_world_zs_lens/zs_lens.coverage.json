@@ -9,15 +9,14 @@
    "default": 50
   },
   "free_by_tier": {
-   "default": 17
+   "default": 19
   },
   "nearest_photo": []
  },
  "models": {
-  "looked_up": 134,
+  "looked_up": 122,
   "by_tier": {
-   "default": 111,
-   "fallback": 23
+   "default": 122
   }
  },
  "sounds": {
@@ -37,74 +36,13 @@
   "catalogue": true,
   "unmapped": {
    "ambient_generic": [
-    "health",
-    "pitch",
-    "pitchstart",
-    "preset"
-   ],
-   "env_fade": [
-    "renderamt",
-    "rendercolor"
-   ],
-   "env_soundscape_triggerable": [
-    "StartDisabled",
-    "radius",
-    "soundscape"
-   ],
-   "filter_activator_name": [
-    "Negated"
-   ],
-   "func_breakable_surf": [
-    "ExplodeDamage",
-    "ExplodeRadius",
-    "PerformanceMode",
-    "disablereceiveshadows",
-    "disableshadows",
-    "explodemagnitude",
-    "explosion",
-    "gibdir",
-    "material",
-    "nodamageforces",
-    "pressuredelay",
-    "propdata",
-    "renderamt",
-    "rendercolor",
-    "renderfx",
-    "rendermode",
-    "spawnobject"
-   ],
-   "func_brush": [
-    "InputFilter",
-    "disablereceiveshadows",
-    "disableshadows",
-    "vrad_brush_cast_shadows"
-   ],
-   "func_monitor": [
-    "InputFilter",
-    "Solidity",
-    "StartDisabled",
-    "disablereceiveshadows",
-    "disableshadows",
-    "invert_exclusion",
-    "renderamt",
-    "rendercolor",
-    "renderfx",
-    "rendermode",
-    "solidbsp",
-    "spawnflags",
-    "vrad_brush_cast_shadows"
+    "pitch"
    ],
    "info_sigilgroup": [
     "sigilgrouping"
    ],
    "info_sigilnode": [
     "sigilgroupname"
-   ],
-   "light_spot": [
-    "_cone",
-    "_exponent",
-    "_inner_cone",
-    "pitch"
    ],
    "logic_beats": [
     "disableannoucner",
@@ -127,53 +65,6 @@
     "team",
     "textcolor"
    ],
-   "prop_door_rotating": [
-    "disableshadows",
-    "speed"
-   ],
-   "prop_dynamic": [
-    "SetBodyGroup",
-    "disablereceiveshadows",
-    "disableshadows",
-    "fademindist",
-    "fadescale",
-    "solid"
-   ],
-   "prop_physics": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "nodamageforces",
-    "shadowcastdist"
-   ],
-   "prop_physics_override": [
-    "Damagetype",
-    "ExplodeDamage",
-    "ExplodeRadius",
-    "PerformanceMode",
-    "damagetoenablemotion",
-    "disableshadows",
-    "fademaxdist",
-    "fademindist",
-    "fadescale",
-    "forcetoenablemotion",
-    "inertiaScale",
-    "massScale",
-    "minhealthdmg",
-    "modelscale",
-    "nodamageforces",
-    "physdamagescale",
-    "pressuredelay",
-    "shadowcastdist",
-    "skin",
-    "spawnflags"
-   ],
-   "trigger_push": [
-    "speed"
-   ],
-   "worldspawn": [
-    "mapversion",
-    "message"
-   ],
    "zombiegasses": [
     "radius"
    ]
@@ -186,84 +77,13 @@
  "lists": {
   "textures_unmapped": [],
   "textures_flat": [],
-  "models_unmapped": [
-   "effects/urban_puddle_model02a.mdl",
-   "props/cs_militia/sheetrock_leaning.mdl",
-   "props_c17/clock01.mdl",
-   "props_c17/doll01.mdl",
-   "props_c17/furniturebed001a.mdl",
-   "props_c17/furniturecupboard001a.mdl",
-   "props_c17/suitcase_passenger_physics.mdl",
-   "props_c17/trappropeller_engine.mdl",
-   "props_docks/dock01_polecluster01d_256.mdl",
-   "props_docks/dock_broken01a_256.mdl",
-   "props_junk/bicycle01a.mdl",
-   "props_junk/glassbottle01a.mdl",
-   "props_junk/harpoon002a.mdl",
-   "props_junk/propane_tank001a.mdl",
-   "props_junk/shovel01a.mdl",
-   "props_junk/terracotta01.mdl",
-   "props_junk/watermelon01.mdl",
-   "props_junk/wheebarrow01a.mdl",
-   "props_lab/binderblue.mdl",
-   "props_rooftop/antenna01a.mdl",
-   "props_rooftop/gutter_drain001.mdl",
-   "props_wasteland/dockplank01b.mdl",
-   "props_wasteland/prison_heater002a.mdl"
-  ],
+  "models_unmapped": [],
   "sounds_unmapped": [],
   "classes_unmapped": [],
   "keys_unmapped": [
-   "ambient_generic.health",
    "ambient_generic.pitch",
-   "ambient_generic.pitchstart",
-   "ambient_generic.preset",
-   "env_fade.renderamt",
-   "env_fade.rendercolor",
-   "env_soundscape_triggerable.StartDisabled",
-   "env_soundscape_triggerable.radius",
-   "env_soundscape_triggerable.soundscape",
-   "filter_activator_name.Negated",
-   "func_breakable_surf.ExplodeDamage",
-   "func_breakable_surf.ExplodeRadius",
-   "func_breakable_surf.PerformanceMode",
-   "func_breakable_surf.disablereceiveshadows",
-   "func_breakable_surf.disableshadows",
-   "func_breakable_surf.explodemagnitude",
-   "func_breakable_surf.explosion",
-   "func_breakable_surf.gibdir",
-   "func_breakable_surf.material",
-   "func_breakable_surf.nodamageforces",
-   "func_breakable_surf.pressuredelay",
-   "func_breakable_surf.propdata",
-   "func_breakable_surf.renderamt",
-   "func_breakable_surf.rendercolor",
-   "func_breakable_surf.renderfx",
-   "func_breakable_surf.rendermode",
-   "func_breakable_surf.spawnobject",
-   "func_brush.InputFilter",
-   "func_brush.disablereceiveshadows",
-   "func_brush.disableshadows",
-   "func_brush.vrad_brush_cast_shadows",
-   "func_monitor.InputFilter",
-   "func_monitor.Solidity",
-   "func_monitor.StartDisabled",
-   "func_monitor.disablereceiveshadows",
-   "func_monitor.disableshadows",
-   "func_monitor.invert_exclusion",
-   "func_monitor.renderamt",
-   "func_monitor.rendercolor",
-   "func_monitor.renderfx",
-   "func_monitor.rendermode",
-   "func_monitor.solidbsp",
-   "func_monitor.spawnflags",
-   "func_monitor.vrad_brush_cast_shadows",
    "info_sigilgroup.sigilgrouping",
    "info_sigilnode.sigilgroupname",
-   "light_spot._cone",
-   "light_spot._exponent",
-   "light_spot._inner_cone",
-   "light_spot.pitch",
    "logic_beats.disableannoucner",
    "logic_beats.enabled",
    "logic_beats.playwaveendsound",
@@ -277,41 +97,6 @@
    "point_zsmessage.position",
    "point_zsmessage.team",
    "point_zsmessage.textcolor",
-   "prop_door_rotating.disableshadows",
-   "prop_door_rotating.speed",
-   "prop_dynamic.SetBodyGroup",
-   "prop_dynamic.disablereceiveshadows",
-   "prop_dynamic.disableshadows",
-   "prop_dynamic.fademindist",
-   "prop_dynamic.fadescale",
-   "prop_dynamic.solid",
-   "prop_physics.disablereceiveshadows",
-   "prop_physics.disableshadows",
-   "prop_physics.nodamageforces",
-   "prop_physics.shadowcastdist",
-   "prop_physics_override.Damagetype",
-   "prop_physics_override.ExplodeDamage",
-   "prop_physics_override.ExplodeRadius",
-   "prop_physics_override.PerformanceMode",
-   "prop_physics_override.damagetoenablemotion",
-   "prop_physics_override.disableshadows",
-   "prop_physics_override.fademaxdist",
-   "prop_physics_override.fademindist",
-   "prop_physics_override.fadescale",
-   "prop_physics_override.forcetoenablemotion",
-   "prop_physics_override.inertiaScale",
-   "prop_physics_override.massScale",
-   "prop_physics_override.minhealthdmg",
-   "prop_physics_override.modelscale",
-   "prop_physics_override.nodamageforces",
-   "prop_physics_override.physdamagescale",
-   "prop_physics_override.pressuredelay",
-   "prop_physics_override.shadowcastdist",
-   "prop_physics_override.skin",
-   "prop_physics_override.spawnflags",
-   "trigger_push.speed",
-   "worldspawn.mapversion",
-   "worldspawn.message",
    "zombiegasses.radius"
   ],
   "links_unresolved": []
@@ -319,10 +104,10 @@
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 23,
+  "models_unmapped": 0,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
-  "keys_unmapped": 99,
+  "keys_unmapped": 17,
   "links_unresolved": 0
  }
 }

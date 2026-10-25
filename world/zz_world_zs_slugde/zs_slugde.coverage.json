@@ -9,15 +9,14 @@
    "default": 59
   },
   "free_by_tier": {
-   "default": 11
+   "default": 12
   },
   "nearest_photo": []
  },
  "models": {
-  "looked_up": 53,
+  "looked_up": 52,
   "by_tier": {
-   "default": 50,
-   "fallback": 3
+   "default": 52
   }
  },
  "sounds": {
@@ -34,47 +33,12 @@
  "keys": {
   "catalogue": true,
   "unmapped": {
-   "func_breakable": [
-    "disablereceiveshadows",
-    "disableshadows",
-    "material",
-    "nodamageforces",
-    "spawnobject"
-   ],
-   "func_rotating": [
-    "disablereceiveshadows",
-    "disableshadows"
-   ],
-   "item_healthcharger": [
-    "fademindist",
-    "fadescale"
-   ],
-   "light_spot": [
-    "_cone",
-    "_exponent",
-    "_inner_cone",
-    "pitch"
-   ],
    "npc_enemyfinder": [
     "FieldOfView",
     "MaxSearchDist",
     "StartOn",
     "freepass_movetolerance",
     "freepass_refillrate"
-   ],
-   "point_spotlight": [
-    "disablereceiveshadows"
-   ],
-   "prop_door_rotating": [
-    "speed"
-   ],
-   "prop_physics": [
-    "disablereceiveshadows",
-    "nodamageforces",
-    "shadowcastdist"
-   ],
-   "worldspawn": [
-    "mapversion"
    ]
   }
  },
@@ -85,48 +49,25 @@
  "lists": {
   "textures_unmapped": [],
   "textures_flat": [],
-  "models_unmapped": [
-   "props_junk/bicycle01a.mdl",
-   "props_junk/glassbottle01a.mdl",
-   "props_lab/generatorconsole.mdl"
-  ],
+  "models_unmapped": [],
   "sounds_unmapped": [],
   "classes_unmapped": [],
   "keys_unmapped": [
-   "func_breakable.disablereceiveshadows",
-   "func_breakable.disableshadows",
-   "func_breakable.material",
-   "func_breakable.nodamageforces",
-   "func_breakable.spawnobject",
-   "func_rotating.disablereceiveshadows",
-   "func_rotating.disableshadows",
-   "item_healthcharger.fademindist",
-   "item_healthcharger.fadescale",
-   "light_spot._cone",
-   "light_spot._exponent",
-   "light_spot._inner_cone",
-   "light_spot.pitch",
    "npc_enemyfinder.FieldOfView",
    "npc_enemyfinder.MaxSearchDist",
    "npc_enemyfinder.StartOn",
    "npc_enemyfinder.freepass_movetolerance",
-   "npc_enemyfinder.freepass_refillrate",
-   "point_spotlight.disablereceiveshadows",
-   "prop_door_rotating.speed",
-   "prop_physics.disablereceiveshadows",
-   "prop_physics.nodamageforces",
-   "prop_physics.shadowcastdist",
-   "worldspawn.mapversion"
+   "npc_enemyfinder.freepass_refillrate"
   ],
   "links_unresolved": []
  },
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 3,
+  "models_unmapped": 0,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
-  "keys_unmapped": 24,
+  "keys_unmapped": 5,
   "links_unresolved": 0
  }
 }
