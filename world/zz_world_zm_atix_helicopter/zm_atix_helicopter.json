@@ -12330,13 +12330,13 @@
   "model_stand_ins": [
    {
     "author": "Kenney",
-    "count": 1,
-    "file": "kenney/car-kit/debris-drivetrain.glb",
+    "count": 2,
+    "file": "kenney/car-kit/van.glb",
     "files": [],
     "licence": "CC0-1.0",
     "source": "Kenney Car Kit",
-    "stand_in": "lib/kenney_car-kit_debris-drivetrain",
-    "store_file": "kenney/car-kit/debris-drivetrain.glb",
+    "stand_in": "lib/kenney_car-kit_van",
+    "store_file": "kenney/car-kit/van.glb",
     "url": "https://kenney.nl/assets/car-kit"
    },
    {
@@ -12395,17 +12395,6 @@
     "url": "https://kenney.nl/assets/retro-urban-kit"
    },
    {
-    "author": "Kenney",
-    "count": 1,
-    "file": "kenney/retro-urban-kit/truck-grey-cargo.glb",
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Kenney Retro Urban Kit",
-    "stand_in": "lib/kenney_retro-urban-kit_truck-grey-cargo",
-    "store_file": "kenney/retro-urban-kit/truck-grey-cargo.glb",
-    "url": "https://kenney.nl/assets/retro-urban-kit"
-   },
-   {
     "author": "TMC (generated for dot-map)",
     "count": 10,
     "file": "own/own_box_120x10x20_e8e8e0/own_box_120x10x20_e8e8e0.glb",
@@ -12425,6 +12414,50 @@
     "source": "TMC generated model",
     "stand_in": "lib/own_box_122x11x61_e8e8e0",
     "store_file": "own/own_box_122x11x61_e8e8e0/own_box_122x11x61_e8e8e0.glb",
+    "url": "https://github.com/modcommunity/dot-map"
+   },
+   {
+    "author": "TMC (generated for dot-map)",
+    "count": 1,
+    "file": "own/own_box_135x38x220_8a9aa8/own_box_135x38x220_8a9aa8.glb",
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "TMC generated model",
+    "stand_in": "lib/own_box_135x38x220_8a9aa8",
+    "store_file": "own/own_box_135x38x220_8a9aa8/own_box_135x38x220_8a9aa8.glb",
+    "url": "https://github.com/modcommunity/dot-map"
+   },
+   {
+    "author": "TMC (generated for dot-map)",
+    "count": 1,
+    "file": "own/own_box_157x65x122_8a9aa8/own_box_157x65x122_8a9aa8.glb",
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "TMC generated model",
+    "stand_in": "lib/own_box_157x65x122_8a9aa8",
+    "store_file": "own/own_box_157x65x122_8a9aa8/own_box_157x65x122_8a9aa8.glb",
+    "url": "https://github.com/modcommunity/dot-map"
+   },
+   {
+    "author": "TMC (generated for dot-map)",
+    "count": 1,
+    "file": "own/own_box_250x280x850_c8c8c0/own_box_250x280x850_c8c8c0.glb",
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "TMC generated model",
+    "stand_in": "lib/own_box_250x280x850_c8c8c0",
+    "store_file": "own/own_box_250x280x850_c8c8c0/own_box_250x280x850_c8c8c0.glb",
+    "url": "https://github.com/modcommunity/dot-map"
+   },
+   {
+    "author": "TMC (generated for dot-map)",
+    "count": 1,
+    "file": "own/own_box_603x234x204_b0b0a8/own_box_603x234x204_b0b0a8.glb",
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "TMC generated model",
+    "stand_in": "lib/own_box_603x234x204_b0b0a8",
+    "store_file": "own/own_box_603x234x204_b0b0a8/own_box_603x234x204_b0b0a8.glb",
     "url": "https://github.com/modcommunity/dot-map"
    },
    {
@@ -12462,7 +12495,7 @@
    },
    {
     "author": "MP",
-    "count": 4,
+    "count": 5,
     "file": "polyhaven/covered_car/covered_car.gltf",
     "files": [],
     "licence": "CC0-1.0",
@@ -12494,6 +12527,17 @@
     "url": "https://polyhaven.com/a/industrial_pipe_lamp"
    },
    {
+    "author": "UM JOORIN",
+    "count": 1,
+    "file": "polyhaven/korean_public_payphone_01/korean_public_payphone_01.gltf",
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Poly Haven",
+    "stand_in": "lib/ph_korean_public_payphone_01",
+    "store_file": "polyhaven/korean_public_payphone_01/korean_public_payphone_01.gltf",
+    "url": "https://polyhaven.com/a/korean_public_payphone_01"
+   },
+   {
     "author": "Kirill Sannikov",
     "count": 1,
     "file": "polyhaven/lantern_chandelier_01/lantern_chandelier_01.gltf",
@@ -12503,28 +12547,6 @@
     "stand_in": "lib/ph_lantern_chandelier_01",
     "store_file": "polyhaven/lantern_chandelier_01/lantern_chandelier_01.gltf",
     "url": "https://polyhaven.com/a/lantern_chandelier_01"
-   },
-   {
-    "author": "Riley Queen",
-    "count": 1,
-    "file": "polyhaven/modular_airduct_circular_01/modular_airduct_circular_01.gltf",
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Poly Haven",
-    "stand_in": "lib/ph_modular_airduct_circular_01",
-    "store_file": "polyhaven/modular_airduct_circular_01/modular_airduct_circular_01.gltf",
-    "url": "https://polyhaven.com/a/modular_airduct_circular_01"
-   },
-   {
-    "author": "Mateusz Sadek",
-    "count": 1,
-    "file": "polyhaven/ocean_buoy/ocean_buoy.gltf",
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Poly Haven",
-    "stand_in": "lib/ph_ocean_buoy",
-    "store_file": "polyhaven/ocean_buoy/ocean_buoy.gltf",
-    "url": "https://polyhaven.com/a/ocean_buoy"
    },
    {
     "author": "MP",
@@ -12539,17 +12561,6 @@
    },
    {
     "author": "Ulan Cabanilla",
-    "count": 1,
-    "file": "polyhaven/plastic_jerrycan/plastic_jerrycan.gltf",
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Poly Haven",
-    "stand_in": "lib/ph_plastic_jerrycan",
-    "store_file": "polyhaven/plastic_jerrycan/plastic_jerrycan.gltf",
-    "url": "https://polyhaven.com/a/plastic_jerrycan"
-   },
-   {
-    "author": "Ulan Cabanilla",
     "count": 2,
     "file": "polyhaven/round_wooden_table_02/round_wooden_table_02.gltf",
     "files": [],
@@ -12558,17 +12569,6 @@
     "stand_in": "lib/ph_round_wooden_table_02",
     "store_file": "polyhaven/round_wooden_table_02/round_wooden_table_02.gltf",
     "url": "https://polyhaven.com/a/round_wooden_table_02"
-   },
-   {
-    "author": "Plat251",
-    "count": 1,
-    "file": "polyhaven/rubber_duck_toy/rubber_duck_toy.gltf",
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Poly Haven",
-    "stand_in": "lib/ph_rubber_duck_toy",
-    "store_file": "polyhaven/rubber_duck_toy/rubber_duck_toy.gltf",
-    "url": "https://polyhaven.com/a/rubber_duck_toy"
    },
    {
     "author": "Kirill Sannikov",
@@ -12626,17 +12626,6 @@
     "url": "https://polyhaven.com/a/vintage_microwave"
    },
    {
-    "author": "Mateusz Sadek",
-    "count": 1,
-    "file": "polyhaven/vintage_radio_transceiver/vintage_radio_transceiver.gltf",
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Poly Haven",
-    "stand_in": "lib/ph_vintage_radio_transceiver",
-    "store_file": "polyhaven/vintage_radio_transceiver/vintage_radio_transceiver.gltf",
-    "url": "https://polyhaven.com/a/vintage_radio_transceiver"
-   },
-   {
     "author": "Ulan Cabanilla",
     "count": 1,
     "file": "polyhaven/wooden_bookshelf_worn/wooden_bookshelf_worn.gltf",
@@ -12671,7 +12660,7 @@
    },
    {
     "author": "Libau Media",
-    "count": 6,
+    "count": 5,
     "file": "sketchfab/1986239266ee44c788fd6effe4055704/model.glb",
     "files": [],
     "licence": "CC-BY-4.0",
@@ -12793,12 +12782,12 @@
    {
     "count": 1,
     "model": "models/props/cs_militia/van.mdl",
-    "stand_in": "lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623"
+    "stand_in": "lib/kenney_car-kit_van"
    },
    {
     "count": 1,
     "model": "models/props/cs_militia/van_glass.mdl",
-    "stand_in": "lib/ph_modular_airduct_circular_01"
+    "stand_in": "lib/kenney_car-kit_van"
    },
    {
     "count": 3,
@@ -12858,7 +12847,7 @@
    {
     "count": 1,
     "model": "models/props/de_nuke/car_nuke_glass.mdl",
-    "stand_in": "lib/kenney_car-kit_debris-drivetrain"
+    "stand_in": "lib/own_box_135x38x220_8a9aa8"
    },
    {
     "count": 1,
@@ -12868,7 +12857,7 @@
    {
     "count": 1,
     "model": "models/props/de_nuke/truck_nuke_glass.mdl",
-    "stand_in": "lib/kenney_retro-urban-kit_truck-grey-cargo"
+    "stand_in": "lib/own_box_157x65x122_8a9aa8"
    },
    {
     "count": 2,
@@ -12893,7 +12882,7 @@
    {
     "count": 1,
     "model": "models/props/de_train/de_train_horizontalcoolingtank.mdl",
-    "stand_in": "lib/ph_plastic_jerrycan"
+    "stand_in": "lib/own_box_603x234x204_b0b0a8"
    },
    {
     "count": 1,
@@ -12993,7 +12982,7 @@
    {
     "count": 1,
     "model": "models/props_trainstation/payphone001a.mdl",
-    "stand_in": "lib/ph_vintage_radio_transceiver"
+    "stand_in": "lib/ph_korean_public_payphone_01"
    },
    {
     "count": 6,
@@ -13003,7 +12992,7 @@
    {
     "count": 1,
     "model": "models/props_vehicles/car001a_hatchback.mdl",
-    "stand_in": "lib/ph_rubber_duck_toy"
+    "stand_in": "lib/ph_covered_car"
    },
    {
     "count": 1,
@@ -13013,7 +13002,7 @@
    {
     "count": 1,
     "model": "models/props_vehicles/tanker001a.mdl",
-    "stand_in": "lib/ph_ocean_buoy"
+    "stand_in": "lib/own_box_250x280x850_c8c8c0"
    },
    {
     "count": 1,
@@ -13086,84 +13075,6 @@
     "url": "https://kenney.nl/assets/sci-fi-sounds"
    }
   ],
-  "store_pack": {
-   "id": "gamemann/store-zz_world_zm_atix_helicopter",
-   "shared": [
-    {
-     "id": "gamemann/store-shared-0c8bdfe9",
-     "version": "h8cafaef1"
-    },
-    {
-     "id": "gamemann/store-shared-17e5e1ce",
-     "version": "h95164716"
-    },
-    {
-     "id": "gamemann/store-shared-2d764bc3",
-     "version": "h59a2fe85"
-    },
-    {
-     "id": "gamemann/store-shared-6648a6d9",
-     "version": "hc26cca93"
-    },
-    {
-     "id": "gamemann/store-shared-7025de02",
-     "version": "hd75db662"
-    },
-    {
-     "id": "gamemann/store-shared-7ad478cf",
-     "version": "hce4b6e7d"
-    },
-    {
-     "id": "gamemann/store-shared-7bde27a9",
-     "version": "h55434c57"
-    },
-    {
-     "id": "gamemann/store-shared-85617adc",
-     "version": "h987cec0c"
-    },
-    {
-     "id": "gamemann/store-shared-c69d193d",
-     "version": "h48de3c09"
-    },
-    {
-     "id": "gamemann/store-shared-c95318e5",
-     "version": "h4d516f4f"
-    },
-    {
-     "id": "gamemann/store-shared-c9f4c085",
-     "version": "h9271e190"
-    },
-    {
-     "id": "gamemann/store-shared-d674b813",
-     "version": "h92a438eb"
-    },
-    {
-     "id": "gamemann/store-shared-dbec77e8",
-     "version": "h34e2dd2a"
-    },
-    {
-     "id": "gamemann/store-shared-dbeda0cd",
-     "version": "h00f943e6"
-    },
-    {
-     "id": "gamemann/store-shared-dd04e62d",
-     "version": "h61f70d18"
-    },
-    {
-     "id": "gamemann/store-shared-df56cff2",
-     "version": "ha02c8a01"
-    },
-    {
-     "id": "gamemann/store-shared-e6a16335",
-     "version": "ha05665a9"
-    },
-    {
-     "id": "gamemann/store-shared-f7db15ea",
-     "version": "h2667d50a"
-    }
-   ],
-   "version": "h443312e2"
-  },
   "textures": [
    {
     "area": 1309.5,
@@ -23184,9 +23095,9 @@
    "model": "models/props/de_nuke/truck_nuke_glass.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 1.4089,
+   "size": 1.57,
    "solid": 6,
-   "stand_in": "lib/kenney_retro-urban-kit_truck-grey-cargo",
+   "stand_in": "lib/own_box_157x65x122_8a9aa8",
    "yaw": 111.5
   },
   {
@@ -23225,9 +23136,9 @@
    "model": "models/props_vehicles/car001a_hatchback.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.2069,
+   "size": 4.4863,
    "solid": 6,
-   "stand_in": "lib/ph_rubber_duck_toy",
+   "stand_in": "lib/ph_covered_car",
    "yaw": 190.35
   },
   {
@@ -23253,9 +23164,9 @@
    "model": "models/props_trainstation/payphone001a.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.103,
+   "size": 0.5934,
    "solid": 6,
-   "stand_in": "lib/ph_vintage_radio_transceiver",
+   "stand_in": "lib/ph_korean_public_payphone_01",
    "yaw": 360.0
   },
   {
@@ -23281,9 +23192,9 @@
    "model": "models/props_vehicles/tanker001a.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 1.9081,
+   "size": 8.5,
    "solid": 6,
-   "stand_in": "lib/ph_ocean_buoy",
+   "stand_in": "lib/own_box_250x280x850_c8c8c0",
    "yaw": 3.0
   },
   {
@@ -23432,10 +23343,10 @@
    "model": "models/props/cs_militia/van_glass.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 4.4475,
+   "size": 3.3201,
    "solid": 6,
-   "stand_in": "lib/ph_modular_airduct_circular_01",
-   "yaw": 235.96
+   "stand_in": "lib/kenney_car-kit_van",
+   "yaw": 325.96
   },
   {
    "at": [
@@ -23459,9 +23370,9 @@
    "model": "models/props/cs_militia/van.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 4.6973,
+   "size": 3.769,
    "solid": 6,
-   "stand_in": "lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623",
+   "stand_in": "lib/kenney_car-kit_van",
    "yaw": 325.96
   },
   {
@@ -23568,10 +23479,10 @@
    "model": "models/props/de_nuke/car_nuke_glass.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 2.2703,
+   "size": 2.2,
    "solid": 6,
-   "stand_in": "lib/kenney_car-kit_debris-drivetrain",
-   "yaw": 150.5
+   "stand_in": "lib/own_box_135x38x220_8a9aa8",
+   "yaw": 60.5
   },
   {
    "at": [
@@ -24383,9 +24294,9 @@
    "model": "models/props/de_train/de_train_horizontalcoolingtank.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 3.4012,
+   "size": 6.03,
    "solid": 6,
-   "stand_in": "lib/ph_plastic_jerrycan",
+   "stand_in": "lib/own_box_603x234x204_b0b0a8",
    "yaw": 90.0
   },
   {

@@ -14538,6 +14538,17 @@
    {
     "author": "Kenney",
     "count": 2,
+    "file": "kenney/car-kit/van.glb",
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Car Kit",
+    "stand_in": "lib/kenney_car-kit_van",
+    "store_file": "kenney/car-kit/van.glb",
+    "url": "https://kenney.nl/assets/car-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 1,
     "file": "kenney/food-kit/egg-cup.glb",
     "files": [],
     "licence": "CC0-1.0",
@@ -14665,6 +14676,17 @@
     "source": "TMC generated model",
     "stand_in": "lib/own_box_21x3x21_e8e8e0",
     "store_file": "own/own_box_21x3x21_e8e8e0/own_box_21x3x21_e8e8e0.glb",
+    "url": "https://github.com/modcommunity/dot-map"
+   },
+   {
+    "author": "TMC (generated for dot-map)",
+    "count": 2,
+    "file": "own/own_cyl_30x500x30_6a5038/own_cyl_30x500x30_6a5038.glb",
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "TMC generated model",
+    "stand_in": "lib/own_cyl_30x500x30_6a5038",
+    "store_file": "own/own_cyl_30x500x30_6a5038/own_cyl_30x500x30_6a5038.glb",
     "url": "https://github.com/modcommunity/dot-map"
    },
    {
@@ -14822,17 +14844,6 @@
     "url": "https://polyhaven.com/a/leather_cleaner_can"
    },
    {
-    "author": "Riley Queen",
-    "count": 1,
-    "file": "polyhaven/modular_airduct_circular_01/modular_airduct_circular_01.gltf",
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Poly Haven",
-    "stand_in": "lib/ph_modular_airduct_circular_01",
-    "store_file": "polyhaven/modular_airduct_circular_01/modular_airduct_circular_01.gltf",
-    "url": "https://polyhaven.com/a/modular_airduct_circular_01"
-   },
-   {
     "author": "James Ray Cock",
     "count": 3,
     "file": "polyhaven/outdoor_table_chair_set_01/outdoor_table_chair_set_01.gltf",
@@ -14900,7 +14911,7 @@
    },
    {
     "author": "Slinc",
-    "count": 3,
+    "count": 1,
     "file": "polyhaven/propane_tank/propane_tank.gltf",
     "files": [],
     "licence": "CC0-1.0",
@@ -15043,7 +15054,7 @@
    },
    {
     "author": "Libau Media",
-    "count": 2,
+    "count": 1,
     "file": "sketchfab/1986239266ee44c788fd6effe4055704/model.glb",
     "files": [],
     "licence": "CC-BY-4.0",
@@ -15128,6 +15139,17 @@
     "stand_in": "lib/sf_old_fridge_6b2862",
     "store_file": "sketchfab/6b2862c241754f5d81690e8664e41091/model.glb",
     "url": "https://sketchfab.com/3d-models/none-6b2862c241754f5d81690e8664e41091"
+   },
+   {
+    "author": "thethieme",
+    "count": 1,
+    "file": "sketchfab/8a1a2e0263aa401591c1e87d824a79ef/model.glb",
+    "files": [],
+    "licence": "CC-BY-4.0",
+    "source": "Sketchfab",
+    "stand_in": "lib/sf_old_radiator_8a1a2e",
+    "store_file": "sketchfab/8a1a2e0263aa401591c1e87d824a79ef/model.glb",
+    "url": "https://sketchfab.com/3d-models/none-8a1a2e0263aa401591c1e87d824a79ef"
    },
    {
     "author": "evolveduk",
@@ -15218,12 +15240,12 @@
    {
     "count": 1,
     "model": "models/props/cs_militia/van.mdl",
-    "stand_in": "lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623"
+    "stand_in": "lib/kenney_car-kit_van"
    },
    {
     "count": 1,
     "model": "models/props/cs_militia/van_glass.mdl",
-    "stand_in": "lib/ph_modular_airduct_circular_01"
+    "stand_in": "lib/kenney_car-kit_van"
    },
    {
     "count": 1,
@@ -15398,7 +15420,7 @@
    {
     "count": 1,
     "model": "models/props_c17/furnitureradiator001a.mdl",
-    "stand_in": "lib/kenney_food-kit_egg-cup"
+    "stand_in": "lib/sf_old_radiator_8a1a2e"
    },
    {
     "count": 1,
@@ -15453,7 +15475,7 @@
    {
     "count": 2,
     "model": "models/props_c17/utilitypole01a.mdl",
-    "stand_in": "lib/ph_propane_tank"
+    "stand_in": "lib/own_cyl_30x500x30_6a5038"
    },
    {
     "count": 1,
@@ -15579,92 +15601,6 @@
     "url": "https://github.com/modcommunity/dot-audio"
    }
   ],
-  "store_pack": {
-   "id": "gamemann/store-zz_world_zm_house_outbreak",
-   "shared": [
-    {
-     "id": "gamemann/store-shared-11c05325",
-     "version": "h3c8d82c7"
-    },
-    {
-     "id": "gamemann/store-shared-17e5e1ce",
-     "version": "h95164716"
-    },
-    {
-     "id": "gamemann/store-shared-3a59fc65",
-     "version": "h417334cd"
-    },
-    {
-     "id": "gamemann/store-shared-47c24036",
-     "version": "h4962c93a"
-    },
-    {
-     "id": "gamemann/store-shared-4f6160f0",
-     "version": "hb45d2c58"
-    },
-    {
-     "id": "gamemann/store-shared-4fc759d6",
-     "version": "h1560c911"
-    },
-    {
-     "id": "gamemann/store-shared-6648a6d9",
-     "version": "hc26cca93"
-    },
-    {
-     "id": "gamemann/store-shared-66f3bbcd",
-     "version": "h7788508f"
-    },
-    {
-     "id": "gamemann/store-shared-707e7532",
-     "version": "h3c7cc514"
-    },
-    {
-     "id": "gamemann/store-shared-7bde27a9",
-     "version": "h55434c57"
-    },
-    {
-     "id": "gamemann/store-shared-7d356297",
-     "version": "h1f41a0f7"
-    },
-    {
-     "id": "gamemann/store-shared-82e676c6",
-     "version": "ha08c019a"
-    },
-    {
-     "id": "gamemann/store-shared-c95318e5",
-     "version": "h4d516f4f"
-    },
-    {
-     "id": "gamemann/store-shared-d674b813",
-     "version": "h92a438eb"
-    },
-    {
-     "id": "gamemann/store-shared-d6c13a74",
-     "version": "hf8eaea6d"
-    },
-    {
-     "id": "gamemann/store-shared-dbeda0cd",
-     "version": "h00f943e6"
-    },
-    {
-     "id": "gamemann/store-shared-dd04e62d",
-     "version": "h61f70d18"
-    },
-    {
-     "id": "gamemann/store-shared-df56cff2",
-     "version": "ha02c8a01"
-    },
-    {
-     "id": "gamemann/store-shared-e6a16335",
-     "version": "ha05665a9"
-    },
-    {
-     "id": "gamemann/store-shared-f7db15ea",
-     "version": "h2667d50a"
-    }
-   ],
-   "version": "ha0af2a91"
-  },
   "textures": [
    {
     "area": 2994.2,
@@ -18036,9 +17972,9 @@
    "model": "models/props_c17/utilitypole01a.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.6371,
+   "size": 5.0,
    "solid": 6,
-   "stand_in": "lib/ph_propane_tank",
+   "stand_in": "lib/own_cyl_30x500x30_6a5038",
    "yaw": 91.0
   },
   {
@@ -18050,9 +17986,9 @@
    "model": "models/props_c17/utilitypole01a.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.6371,
+   "size": 5.0,
    "solid": 6,
-   "stand_in": "lib/ph_propane_tank",
+   "stand_in": "lib/own_cyl_30x500x30_6a5038",
    "yaw": 91.0
   },
   {
@@ -21619,10 +21555,10 @@
    "model": "models/props_c17/furnitureradiator001a.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.119,
+   "size": 0.8965,
    "solid": 6,
-   "stand_in": "lib/kenney_food-kit_egg-cup",
-   "yaw": 90.0
+   "stand_in": "lib/sf_old_radiator_8a1a2e",
+   "yaw": 180.0
   },
   {
    "at": [
@@ -21890,9 +21826,9 @@
    "model": "models/props/cs_militia/van.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 4.6973,
+   "size": 3.769,
    "solid": 6,
-   "stand_in": "lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623",
+   "stand_in": "lib/kenney_car-kit_van",
    "yaw": 360.0
   },
   {
@@ -21917,10 +21853,10 @@
    "model": "models/props/cs_militia/van_glass.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 4.4475,
+   "size": 3.3201,
    "solid": 6,
-   "stand_in": "lib/ph_modular_airduct_circular_01",
-   "yaw": 270.0
+   "stand_in": "lib/kenney_car-kit_van",
+   "yaw": 360.0
   },
   {
    "at": [

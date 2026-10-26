@@ -15458,6 +15458,17 @@
     "url": "https://github.com/modcommunity/dot-map"
    },
    {
+    "author": "TMC (generated for dot-map)",
+    "count": 2,
+    "file": "own/own_box_603x234x204_b0b0a8/own_box_603x234x204_b0b0a8.glb",
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "TMC generated model",
+    "stand_in": "lib/own_box_603x234x204_b0b0a8",
+    "store_file": "own/own_box_603x234x204_b0b0a8/own_box_603x234x204_b0b0a8.glb",
+    "url": "https://github.com/modcommunity/dot-map"
+   },
+   {
     "author": "Benny Weimer",
     "count": 5,
     "file": "polyhaven/gothic_statue/gothic_statue.gltf",
@@ -15489,17 +15500,6 @@
     "stand_in": "lib/ph_planter_box_03",
     "store_file": "polyhaven/planter_box_03/planter_box_03.gltf",
     "url": "https://polyhaven.com/a/planter_box_03"
-   },
-   {
-    "author": "Ulan Cabanilla",
-    "count": 2,
-    "file": "polyhaven/plastic_jerrycan/plastic_jerrycan.gltf",
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Poly Haven",
-    "stand_in": "lib/ph_plastic_jerrycan",
-    "store_file": "polyhaven/plastic_jerrycan/plastic_jerrycan.gltf",
-    "url": "https://polyhaven.com/a/plastic_jerrycan"
    },
    {
     "author": "Kirill Sannikov",
@@ -15648,7 +15648,7 @@
    {
     "count": 2,
     "model": "models/props/de_train/de_train_horizontalcoolingtank.mdl",
-    "stand_in": "lib/ph_plastic_jerrycan"
+    "stand_in": "lib/own_box_603x234x204_b0b0a8"
    },
    {
     "count": 15,
@@ -15699,44 +15699,6 @@
     "url": "https://kenney.nl/assets/sci-fi-sounds"
    }
   ],
-  "store_pack": {
-   "id": "gamemann/store-zz_world_zm_blockfort",
-   "shared": [
-    {
-     "id": "gamemann/store-shared-17e5e1ce",
-     "version": "h95164716"
-    },
-    {
-     "id": "gamemann/store-shared-3a59fc65",
-     "version": "h417334cd"
-    },
-    {
-     "id": "gamemann/store-shared-7ad478cf",
-     "version": "hce4b6e7d"
-    },
-    {
-     "id": "gamemann/store-shared-8c2e341b",
-     "version": "hdd66018a"
-    },
-    {
-     "id": "gamemann/store-shared-8f413bd1",
-     "version": "hef0db892"
-    },
-    {
-     "id": "gamemann/store-shared-d674b813",
-     "version": "h92a438eb"
-    },
-    {
-     "id": "gamemann/store-shared-dd300898",
-     "version": "hacb3f6da"
-    },
-    {
-     "id": "gamemann/store-shared-df56cff2",
-     "version": "ha02c8a01"
-    }
-   ],
-   "version": "hec45a015"
-  },
   "textures": [
    {
     "area": 26680.3,
@@ -22235,9 +22197,9 @@
    "model": "models/props/de_train/de_train_horizontalcoolingtank.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 3.4012,
+   "size": 6.03,
    "solid": 6,
-   "stand_in": "lib/ph_plastic_jerrycan",
+   "stand_in": "lib/own_box_603x234x204_b0b0a8",
    "yaw": 0.0
   },
   {
@@ -22262,9 +22224,9 @@
    "model": "models/props/de_train/de_train_horizontalcoolingtank.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 3.4012,
+   "size": 6.03,
    "solid": 6,
-   "stand_in": "lib/ph_plastic_jerrycan",
+   "stand_in": "lib/own_box_603x234x204_b0b0a8",
    "yaw": 0.0
   },
   {

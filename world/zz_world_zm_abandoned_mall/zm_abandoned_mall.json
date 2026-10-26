@@ -69463,17 +69463,6 @@
    },
    {
     "author": "Kenney",
-    "count": 3,
-    "file": "kenney/building-kit/door-rotate-square-b.glb",
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Kenney Building Kit",
-    "stand_in": "lib/kenney_building-kit_door-rotate-square-b",
-    "store_file": "kenney/building-kit/door-rotate-square-b.glb",
-    "url": "https://kenney.nl/assets/building-kit"
-   },
-   {
-    "author": "Kenney",
     "count": 8,
     "file": "kenney/building-kit/door-rotate-square-c.glb",
     "files": [],
@@ -69683,7 +69672,7 @@
    },
    {
     "author": "Kenney",
-    "count": 30,
+    "count": 33,
     "file": "kenney/furniture-kit/trashcan.glb",
     "files": [],
     "licence": "CC0-1.0",
@@ -69781,15 +69770,15 @@
     "url": "https://kenney.nl/assets/retro-urban-kit"
    },
    {
-    "author": "Kenney",
+    "author": "TMC (generated for dot-map)",
     "count": 1,
-    "file": "kenney/retro-urban-kit/truck-grey-cargo.glb",
+    "file": "own/own_box_157x65x122_8a9aa8/own_box_157x65x122_8a9aa8.glb",
     "files": [],
     "licence": "CC0-1.0",
-    "source": "Kenney Retro Urban Kit",
-    "stand_in": "lib/kenney_retro-urban-kit_truck-grey-cargo",
-    "store_file": "kenney/retro-urban-kit/truck-grey-cargo.glb",
-    "url": "https://kenney.nl/assets/retro-urban-kit"
+    "source": "TMC generated model",
+    "stand_in": "lib/own_box_157x65x122_8a9aa8",
+    "store_file": "own/own_box_157x65x122_8a9aa8/own_box_157x65x122_8a9aa8.glb",
+    "url": "https://github.com/modcommunity/dot-map"
    },
    {
     "author": "TMC (generated for dot-map)",
@@ -69980,7 +69969,7 @@
    },
    {
     "author": "MP",
-    "count": 1,
+    "count": 2,
     "file": "polyhaven/covered_car/covered_car.gltf",
     "files": [],
     "licence": "CC0-1.0",
@@ -70065,6 +70054,17 @@
     "stand_in": "lib/ph_island_tree_03",
     "store_file": "polyhaven/island_tree_03/island_tree_03.gltf",
     "url": "https://polyhaven.com/a/island_tree_03"
+   },
+   {
+    "author": "UM JOORIN",
+    "count": 5,
+    "file": "polyhaven/korean_public_payphone_01/korean_public_payphone_01.gltf",
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Poly Haven",
+    "stand_in": "lib/ph_korean_public_payphone_01",
+    "store_file": "polyhaven/korean_public_payphone_01/korean_public_payphone_01.gltf",
+    "url": "https://polyhaven.com/a/korean_public_payphone_01"
    },
    {
     "author": "James Ray Cock",
@@ -70189,7 +70189,7 @@
    },
    {
     "author": "Plat251",
-    "count": 51,
+    "count": 50,
     "file": "polyhaven/rubber_duck_toy/rubber_duck_toy.gltf",
     "files": [],
     "licence": "CC0-1.0",
@@ -70252,17 +70252,6 @@
     "stand_in": "lib/ph_vintage_microwave",
     "store_file": "polyhaven/vintage_microwave/vintage_microwave.gltf",
     "url": "https://polyhaven.com/a/vintage_microwave"
-   },
-   {
-    "author": "Mateusz Sadek",
-    "count": 5,
-    "file": "polyhaven/vintage_radio_transceiver/vintage_radio_transceiver.gltf",
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Poly Haven",
-    "stand_in": "lib/ph_vintage_radio_transceiver",
-    "store_file": "polyhaven/vintage_radio_transceiver/vintage_radio_transceiver.gltf",
-    "url": "https://polyhaven.com/a/vintage_radio_transceiver"
    },
    {
     "author": "Kuutti Siitonen",
@@ -70785,7 +70774,7 @@
    {
     "count": 1,
     "model": "models/props/de_nuke/truck_nuke_glass.mdl",
-    "stand_in": "lib/kenney_retro-urban-kit_truck-grey-cargo"
+    "stand_in": "lib/own_box_157x65x122_8a9aa8"
    },
    {
     "count": 15,
@@ -71225,7 +71214,7 @@
    {
     "count": 5,
     "model": "models/props_trainstation/payphone001a.mdl",
-    "stand_in": "lib/ph_vintage_radio_transceiver"
+    "stand_in": "lib/ph_korean_public_payphone_01"
    },
    {
     "count": 11,
@@ -71235,12 +71224,12 @@
    {
     "count": 3,
     "model": "models/props_trainstation/trashcan_indoor001b.mdl",
-    "stand_in": "lib/kenney_building-kit_door-rotate-square-b"
+    "stand_in": "lib/kenney_furniture-kit_trashcan"
    },
    {
     "count": 1,
     "model": "models/props_vehicles/car001b_hatchback.mdl",
-    "stand_in": "lib/ph_rubber_duck_toy"
+    "stand_in": "lib/ph_covered_car"
    },
    {
     "count": 1,
@@ -71346,112 +71335,6 @@
     "url": "https://kenney.nl/assets/sci-fi-sounds"
    }
   ],
-  "store_pack": {
-   "id": "gamemann/store-zz_world_zm_abandoned_mall",
-   "shared": [
-    {
-     "id": "gamemann/store-shared-032d4124",
-     "version": "hc3885410"
-    },
-    {
-     "id": "gamemann/store-shared-0a281510",
-     "version": "h8d187477"
-    },
-    {
-     "id": "gamemann/store-shared-11c05325",
-     "version": "h3c8d82c7"
-    },
-    {
-     "id": "gamemann/store-shared-17e5e1ce",
-     "version": "h95164716"
-    },
-    {
-     "id": "gamemann/store-shared-3a59fc65",
-     "version": "h417334cd"
-    },
-    {
-     "id": "gamemann/store-shared-51f622ba",
-     "version": "hfbe6e374"
-    },
-    {
-     "id": "gamemann/store-shared-6648a6d9",
-     "version": "hc26cca93"
-    },
-    {
-     "id": "gamemann/store-shared-66f3bbcd",
-     "version": "h7788508f"
-    },
-    {
-     "id": "gamemann/store-shared-67ce8f74",
-     "version": "h3237ab16"
-    },
-    {
-     "id": "gamemann/store-shared-7025de02",
-     "version": "hd75db662"
-    },
-    {
-     "id": "gamemann/store-shared-7bde27a9",
-     "version": "h55434c57"
-    },
-    {
-     "id": "gamemann/store-shared-7d356297",
-     "version": "h1f41a0f7"
-    },
-    {
-     "id": "gamemann/store-shared-85617adc",
-     "version": "h987cec0c"
-    },
-    {
-     "id": "gamemann/store-shared-8f413bd1",
-     "version": "hef0db892"
-    },
-    {
-     "id": "gamemann/store-shared-bda112a7",
-     "version": "haa19c00d"
-    },
-    {
-     "id": "gamemann/store-shared-c69d193d",
-     "version": "h48de3c09"
-    },
-    {
-     "id": "gamemann/store-shared-c95318e5",
-     "version": "h4d516f4f"
-    },
-    {
-     "id": "gamemann/store-shared-cb747a6b",
-     "version": "hf50f74b5"
-    },
-    {
-     "id": "gamemann/store-shared-d674b813",
-     "version": "h92a438eb"
-    },
-    {
-     "id": "gamemann/store-shared-dbeda0cd",
-     "version": "h00f943e6"
-    },
-    {
-     "id": "gamemann/store-shared-df56cff2",
-     "version": "ha02c8a01"
-    },
-    {
-     "id": "gamemann/store-shared-e0978aee",
-     "version": "h625cb847"
-    },
-    {
-     "id": "gamemann/store-shared-e6a16335",
-     "version": "ha05665a9"
-    },
-    {
-     "id": "gamemann/store-shared-ea9ca50c",
-     "version": "h178d7356"
-    },
-    {
-     "id": "gamemann/store-shared-f7db15ea",
-     "version": "h2667d50a"
-    }
-   ],
-   "version": "h4303d26e"
-  },
   "textures": [
    {
     "area": 1322.5,
@@ -77189,9 +77072,9 @@
    "model": "models/props_trainstation/payphone001a.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.103,
+   "size": 0.5934,
    "solid": 6,
-   "stand_in": "lib/ph_vintage_radio_transceiver",
+   "stand_in": "lib/ph_korean_public_payphone_01",
    "yaw": 90.0
   },
   {
@@ -77203,9 +77086,9 @@
    "model": "models/props_trainstation/payphone001a.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.103,
+   "size": 0.5934,
    "solid": 6,
-   "stand_in": "lib/ph_vintage_radio_transceiver",
+   "stand_in": "lib/ph_korean_public_payphone_01",
    "yaw": 90.0
   },
   {
@@ -77217,9 +77100,9 @@
    "model": "models/props_trainstation/payphone001a.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.103,
+   "size": 0.5934,
    "solid": 6,
-   "stand_in": "lib/ph_vintage_radio_transceiver",
+   "stand_in": "lib/ph_korean_public_payphone_01",
    "yaw": 180.0
   },
   {
@@ -77231,9 +77114,9 @@
    "model": "models/props_trainstation/payphone001a.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.103,
+   "size": 0.5934,
    "solid": 6,
-   "stand_in": "lib/ph_vintage_radio_transceiver",
+   "stand_in": "lib/ph_korean_public_payphone_01",
    "yaw": 180.0
   },
   {
@@ -77245,9 +77128,9 @@
    "model": "models/props_trainstation/payphone001a.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.103,
+   "size": 0.5934,
    "solid": 6,
-   "stand_in": "lib/ph_vintage_radio_transceiver",
+   "stand_in": "lib/ph_korean_public_payphone_01",
    "yaw": 180.0
   },
   {
@@ -77877,9 +77760,9 @@
    "model": "models/props_trainstation/trashcan_indoor001b.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 2.1309,
+   "size": 0.7124,
    "solid": 6,
-   "stand_in": "lib/kenney_building-kit_door-rotate-square-b",
+   "stand_in": "lib/kenney_furniture-kit_trashcan",
    "yaw": 0.0
   },
   {
@@ -96182,9 +96065,9 @@
    "model": "models/props_vehicles/car001b_hatchback.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.2069,
+   "size": 4.4863,
    "solid": 6,
-   "stand_in": "lib/ph_rubber_duck_toy",
+   "stand_in": "lib/ph_covered_car",
    "yaw": 179.5
   },
   {
@@ -96209,9 +96092,9 @@
    "model": "models/props/de_nuke/truck_nuke_glass.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 1.4089,
+   "size": 1.57,
    "solid": 6,
-   "stand_in": "lib/kenney_retro-urban-kit_truck-grey-cargo",
+   "stand_in": "lib/own_box_157x65x122_8a9aa8",
    "yaw": 282.0
   },
   {
@@ -96601,9 +96484,9 @@
    "model": "models/props_trainstation/trashcan_indoor001b.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 2.1309,
+   "size": 0.7124,
    "solid": 6,
-   "stand_in": "lib/kenney_building-kit_door-rotate-square-b",
+   "stand_in": "lib/kenney_furniture-kit_trashcan",
    "yaw": 0.0
   },
   {
@@ -96615,9 +96498,9 @@
    "model": "models/props_trainstation/trashcan_indoor001b.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 2.1309,
+   "size": 0.7124,
    "solid": 6,
-   "stand_in": "lib/kenney_building-kit_door-rotate-square-b",
+   "stand_in": "lib/kenney_furniture-kit_trashcan",
    "yaw": 0.0
   },
   {

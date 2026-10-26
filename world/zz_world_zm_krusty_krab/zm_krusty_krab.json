@@ -39926,6 +39926,17 @@
     "url": "https://github.com/modcommunity/dot-map"
    },
    {
+    "author": "TMC (generated for dot-map)",
+    "count": 1,
+    "file": "own/own_box_603x234x204_b0b0a8/own_box_603x234x204_b0b0a8.glb",
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "TMC generated model",
+    "stand_in": "lib/own_box_603x234x204_b0b0a8",
+    "store_file": "own/own_box_603x234x204_b0b0a8/own_box_603x234x204_b0b0a8.glb",
+    "url": "https://github.com/modcommunity/dot-map"
+   },
+   {
     "author": "Gabriel Radi\u0107",
     "count": 1,
     "file": "polyhaven/Shelf_01/Shelf_01.gltf",
@@ -40144,17 +40155,6 @@
     "stand_in": "lib/ph_painted_wooden_cabinet_02",
     "store_file": "polyhaven/painted_wooden_cabinet_02/painted_wooden_cabinet_02.gltf",
     "url": "https://polyhaven.com/a/painted_wooden_cabinet_02"
-   },
-   {
-    "author": "Ulan Cabanilla",
-    "count": 1,
-    "file": "polyhaven/plastic_jerrycan/plastic_jerrycan.gltf",
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Poly Haven",
-    "stand_in": "lib/ph_plastic_jerrycan",
-    "store_file": "polyhaven/plastic_jerrycan/plastic_jerrycan.gltf",
-    "url": "https://polyhaven.com/a/plastic_jerrycan"
    },
    {
     "author": "Ulan Cabanilla",
@@ -40718,7 +40718,7 @@
    {
     "count": 1,
     "model": "models/props/de_train/de_train_horizontalcoolingtank.mdl",
-    "stand_in": "lib/ph_plastic_jerrycan"
+    "stand_in": "lib/own_box_603x234x204_b0b0a8"
    },
    {
     "count": 1,
@@ -40955,92 +40955,6 @@
     "url": "https://kenney.nl/assets/foley-sounds"
    }
   ],
-  "store_pack": {
-   "id": "gamemann/store-zz_world_zm_krusty_krab",
-   "shared": [
-    {
-     "id": "gamemann/store-shared-077741ae",
-     "version": "hdcd0aeee"
-    },
-    {
-     "id": "gamemann/store-shared-17e5e1ce",
-     "version": "h95164716"
-    },
-    {
-     "id": "gamemann/store-shared-214eb74c",
-     "version": "hefde8698"
-    },
-    {
-     "id": "gamemann/store-shared-28b99578",
-     "version": "h1232c3e0"
-    },
-    {
-     "id": "gamemann/store-shared-2b9549c3",
-     "version": "h7de7db0f"
-    },
-    {
-     "id": "gamemann/store-shared-4f6160f0",
-     "version": "hb45d2c58"
-    },
-    {
-     "id": "gamemann/store-shared-66f3bbcd",
-     "version": "h7788508f"
-    },
-    {
-     "id": "gamemann/store-shared-7025de02",
-     "version": "hd75db662"
-    },
-    {
-     "id": "gamemann/store-shared-7ad478cf",
-     "version": "hce4b6e7d"
-    },
-    {
-     "id": "gamemann/store-shared-7d356297",
-     "version": "h1f41a0f7"
-    },
-    {
-     "id": "gamemann/store-shared-c69d193d",
-     "version": "h48de3c09"
-    },
-    {
-     "id": "gamemann/store-shared-cb747a6b",
-     "version": "hf50f74b5"
-    },
-    {
-     "id": "gamemann/store-shared-d2a147a2",
-     "version": "h02762953"
-    },
-    {
-     "id": "gamemann/store-shared-d674b813",
-     "version": "h92a438eb"
-    },
-    {
-     "id": "gamemann/store-shared-dbec77e8",
-     "version": "h34e2dd2a"
-    },
-    {
-     "id": "gamemann/store-shared-dbeda0cd",
-     "version": "h00f943e6"
-    },
-    {
-     "id": "gamemann/store-shared-df56cff2",
-     "version": "ha02c8a01"
-    },
-    {
-     "id": "gamemann/store-shared-e6a16335",
-     "version": "ha05665a9"
-    },
-    {
-     "id": "gamemann/store-shared-efe05e2a",
-     "version": "hd942d6f4"
-    },
-    {
-     "id": "gamemann/store-shared-f7db15ea",
-     "version": "h2667d50a"
-    }
-   ],
-   "version": "hd54d686b"
-  },
   "textures": [
    {
     "area": 380.5,
@@ -59820,8 +59734,8 @@
    "model": "models/props/de_train/de_train_horizontalcoolingtank.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 3.4012,
-   "stand_in": "lib/ph_plastic_jerrycan",
+   "size": 6.03,
+   "stand_in": "lib/own_box_603x234x204_b0b0a8",
    "yaw": 270.0
   },
   {

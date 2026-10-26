@@ -18073,7 +18073,7 @@
    },
    {
     "author": "MP",
-    "count": 1,
+    "count": 2,
     "file": "polyhaven/covered_car/covered_car.gltf",
     "files": [],
     "licence": "CC0-1.0",
@@ -18235,17 +18235,6 @@
     "stand_in": "lib/ph_retro_multimeter",
     "store_file": "polyhaven/retro_multimeter/retro_multimeter.gltf",
     "url": "https://polyhaven.com/a/retro_multimeter"
-   },
-   {
-    "author": "Plat251",
-    "count": 1,
-    "file": "polyhaven/rubber_duck_toy/rubber_duck_toy.gltf",
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Poly Haven",
-    "stand_in": "lib/ph_rubber_duck_toy",
-    "store_file": "polyhaven/rubber_duck_toy/rubber_duck_toy.gltf",
-    "url": "https://polyhaven.com/a/rubber_duck_toy"
    },
    {
     "author": "Josh Dean",
@@ -18663,7 +18652,7 @@
    {
     "count": 1,
     "model": "models/props_vehicles/car001b_hatchback.mdl",
-    "stand_in": "lib/ph_rubber_duck_toy"
+    "stand_in": "lib/ph_covered_car"
    },
    {
     "count": 2,
@@ -18750,72 +18739,6 @@
     "url": "https://kenney.nl/assets/sci-fi-sounds"
    }
   ],
-  "store_pack": {
-   "id": "gamemann/store-zz_world_ze_jurassicpark",
-   "shared": [
-    {
-     "id": "gamemann/store-shared-295221a6",
-     "version": "h07fc15aa"
-    },
-    {
-     "id": "gamemann/store-shared-3864f1b3",
-     "version": "h422e044c"
-    },
-    {
-     "id": "gamemann/store-shared-4118a3cf",
-     "version": "h24485ecf"
-    },
-    {
-     "id": "gamemann/store-shared-44a432c9",
-     "version": "h4078c602"
-    },
-    {
-     "id": "gamemann/store-shared-47c24036",
-     "version": "h4962c93a"
-    },
-    {
-     "id": "gamemann/store-shared-7bde27a9",
-     "version": "h55434c57"
-    },
-    {
-     "id": "gamemann/store-shared-82e676c6",
-     "version": "ha08c019a"
-    },
-    {
-     "id": "gamemann/store-shared-a61b34e3",
-     "version": "h9a74a0ee"
-    },
-    {
-     "id": "gamemann/store-shared-aeed8852",
-     "version": "h0f62e021"
-    },
-    {
-     "id": "gamemann/store-shared-cf92cf74",
-     "version": "hfe7fa235"
-    },
-    {
-     "id": "gamemann/store-shared-d43a5cd2",
-     "version": "h4ba68cc2"
-    },
-    {
-     "id": "gamemann/store-shared-d6c13a74",
-     "version": "hf8eaea6d"
-    },
-    {
-     "id": "gamemann/store-shared-dbeda0cd",
-     "version": "h00f943e6"
-    },
-    {
-     "id": "gamemann/store-shared-ea9ca50c",
-     "version": "h178d7356"
-    },
-    {
-     "id": "gamemann/store-shared-efe05e2a",
-     "version": "hd942d6f4"
-    }
-   ],
-   "version": "hfecf7736"
-  },
   "textures": [
    {
     "area": 989.8,
@@ -25718,9 +25641,9 @@
    "model": "models/props_vehicles/car001b_hatchback.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.2069,
+   "size": 4.4863,
    "solid": 6,
-   "stand_in": "lib/ph_rubber_duck_toy",
+   "stand_in": "lib/ph_covered_car",
    "yaw": 313.74
   },
   {

@@ -10464,17 +10464,6 @@
    },
    {
     "author": "Kenney",
-    "count": 7,
-    "file": "kenney/building-kit/door-rotate-square-a.glb",
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Kenney Building Kit",
-    "stand_in": "lib/kenney_building-kit_door-rotate-square-a",
-    "store_file": "kenney/building-kit/door-rotate-square-a.glb",
-    "url": "https://kenney.nl/assets/building-kit"
-   },
-   {
-    "author": "Kenney",
     "count": 1,
     "file": "kenney/building-kit/door-rotate-square-c.glb",
     "files": [],
@@ -10570,6 +10559,17 @@
     "source": "Kenney Furniture Kit",
     "stand_in": "lib/kenney_furniture-kit_televisionModern",
     "store_file": "kenney/furniture-kit/televisionModern.glb",
+    "url": "https://kenney.nl/assets/furniture-kit"
+   },
+   {
+    "author": "Kenney",
+    "count": 7,
+    "file": "kenney/furniture-kit/trashcan.glb",
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "Kenney Furniture Kit",
+    "stand_in": "lib/kenney_furniture-kit_trashcan",
+    "store_file": "kenney/furniture-kit/trashcan.glb",
     "url": "https://kenney.nl/assets/furniture-kit"
    },
    {
@@ -11231,7 +11231,7 @@
    {
     "count": 7,
     "model": "models/props_trainstation/trashcan_indoor001a.mdl",
-    "stand_in": "lib/kenney_building-kit_door-rotate-square-a"
+    "stand_in": "lib/kenney_furniture-kit_trashcan"
    },
    {
     "count": 3,
@@ -11270,68 +11270,6 @@
     "url": "https://kenney.nl/assets/sci-fi-sounds"
    }
   ],
-  "store_pack": {
-   "id": "gamemann/store-zz_world_zm_officeattack",
-   "shared": [
-    {
-     "id": "gamemann/store-shared-0a281510",
-     "version": "h8d187477"
-    },
-    {
-     "id": "gamemann/store-shared-17e5e1ce",
-     "version": "h95164716"
-    },
-    {
-     "id": "gamemann/store-shared-3a59fc65",
-     "version": "h417334cd"
-    },
-    {
-     "id": "gamemann/store-shared-6648a6d9",
-     "version": "hc26cca93"
-    },
-    {
-     "id": "gamemann/store-shared-6975c627",
-     "version": "h1a6ef3a5"
-    },
-    {
-     "id": "gamemann/store-shared-7d356297",
-     "version": "h1f41a0f7"
-    },
-    {
-     "id": "gamemann/store-shared-a8a2d314",
-     "version": "h46b384d3"
-    },
-    {
-     "id": "gamemann/store-shared-c95318e5",
-     "version": "h4d516f4f"
-    },
-    {
-     "id": "gamemann/store-shared-d43a5cd2",
-     "version": "h4ba68cc2"
-    },
-    {
-     "id": "gamemann/store-shared-d674b813",
-     "version": "h92a438eb"
-    },
-    {
-     "id": "gamemann/store-shared-dbec77e8",
-     "version": "h34e2dd2a"
-    },
-    {
-     "id": "gamemann/store-shared-df56cff2",
-     "version": "ha02c8a01"
-    },
-    {
-     "id": "gamemann/store-shared-e6a16335",
-     "version": "ha05665a9"
-    },
-    {
-     "id": "gamemann/store-shared-f7db15ea",
-     "version": "h2667d50a"
-    }
-   ],
-   "version": "h800dbf79"
-  },
   "textures": [
    {
     "area": 18732.7,
@@ -21068,9 +21006,9 @@
    "model": "models/props_trainstation/trashcan_indoor001a.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 2.1309,
+   "size": 0.7124,
    "solid": 6,
-   "stand_in": "lib/kenney_building-kit_door-rotate-square-a",
+   "stand_in": "lib/kenney_furniture-kit_trashcan",
    "yaw": 271.0
   },
   {
@@ -21572,9 +21510,9 @@
    "model": "models/props_trainstation/trashcan_indoor001a.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 2.1309,
+   "size": 0.7124,
    "solid": 6,
-   "stand_in": "lib/kenney_building-kit_door-rotate-square-a",
+   "stand_in": "lib/kenney_furniture-kit_trashcan",
    "yaw": 269.0
   },
   {
@@ -21586,9 +21524,9 @@
    "model": "models/props_trainstation/trashcan_indoor001a.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 2.1309,
+   "size": 0.7124,
    "solid": 6,
-   "stand_in": "lib/kenney_building-kit_door-rotate-square-a",
+   "stand_in": "lib/kenney_furniture-kit_trashcan",
    "yaw": 90.5
   },
   {
@@ -21628,9 +21566,9 @@
    "model": "models/props_trainstation/trashcan_indoor001a.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 2.1309,
+   "size": 0.7124,
    "solid": 6,
-   "stand_in": "lib/kenney_building-kit_door-rotate-square-a",
+   "stand_in": "lib/kenney_furniture-kit_trashcan",
    "yaw": 211.5
   },
   {
@@ -21642,9 +21580,9 @@
    "model": "models/props_trainstation/trashcan_indoor001a.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 2.1309,
+   "size": 0.7124,
    "solid": 6,
-   "stand_in": "lib/kenney_building-kit_door-rotate-square-a",
+   "stand_in": "lib/kenney_furniture-kit_trashcan",
    "yaw": 130.0
   },
   {
@@ -21656,9 +21594,9 @@
    "model": "models/props_trainstation/trashcan_indoor001a.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 2.1309,
+   "size": 0.7124,
    "solid": 6,
-   "stand_in": "lib/kenney_building-kit_door-rotate-square-a",
+   "stand_in": "lib/kenney_furniture-kit_trashcan",
    "yaw": 301.0
   },
   {
@@ -21670,9 +21608,9 @@
    "model": "models/props_trainstation/trashcan_indoor001a.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 2.1309,
+   "size": 0.7124,
    "solid": 6,
-   "stand_in": "lib/kenney_building-kit_door-rotate-square-a",
+   "stand_in": "lib/kenney_furniture-kit_trashcan",
    "yaw": 248.5
   },
   {
