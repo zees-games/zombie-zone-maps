@@ -35,14 +35,29 @@ def _is_floor(b, floors):
     return False
 
 
+UNDER_FEET = 0.05
+## The share of a map's points a lower obstacle top must give back before the document asks for it.
+UNDER_FEET_GAIN = 0.05
+
+
+def under_feet_for(boxes, props, sizes, floors, spacing=1.0, clearance=0.35, terrain_pts=()):
+    """The `nav.under_feet` a document wants: UNDER_FEET when letting the obstacle tops block only
+    that far above them (not the whole clearance) gives back UNDER_FEET_GAIN of the graph's points,
+    which is a slab under a cellar's floor swallowing its points; else None (the builder's default).
+    A few percent is curbs and sills, which are not worth changing a graph for."""
+    base = len(Graph(boxes, props, sizes, floors, spacing, clearance, terrain_pts).pts)
+    freed = len(Graph(boxes, props, sizes, floors, spacing, clearance, terrain_pts, under_feet=UNDER_FEET).pts)
+    return UNDER_FEET if freed - base >= UNDER_FEET_GAIN * max(base, 1) else None
+
+
 class Graph:
-    def __init__(self, boxes, props, sizes, floors, spacing=1.0, clearance=0.35, terrain_pts=(), slope=1.0):
+    def __init__(self, boxes, props, sizes, floors, spacing=1.0, clearance=0.35, terrain_pts=(), slope=1.0, under_feet=None):
         """`terrain_pts`: the terrain's walk points (dotbsp.terrain.walk_points), joined by `slope`
         rise per metre as DotNpcNavBuilder.add_points joins them."""
         self.spacing, self.clearance = spacing, clearance
         obs = []
         for box in boxes:
-            if not box.get("solid", True) or box.get("gate") or ("nav" in box and not box["nav"]):
+            if not box.get("solid", True) or box.get("gate") or box.get("kind") == "sky" or ("nav" in box and not box["nav"]):
                 continue
             b = _bounds(box)
             if "nav" not in box and _is_floor(b, floors):
@@ -58,7 +73,9 @@ class Graph:
             at = p["at"]
             obs.append([at[0] - ex, at[1], at[2] - ez, at[0] + ex, at[1] + sy, at[2] + ez])
         g = clearance
-        self.obs = [[b[0] - g, b[1] - g, b[2] - g, b[3] + g, b[4] + g, b[5] + g] for b in obs]
+        # Mirrors the builder's obstacle_under_feet: a box's top blocks only that far above it, else the clearance.
+        u = g if under_feet is None else under_feet
+        self.obs = [[b[0] - g, b[1] - g, b[2] - g, b[3] + g, b[4] + u, b[5] + g] for b in obs]
         self.cells = {}
         for i, b in enumerate(self.obs):
             for ix in range(int(math.floor(b[0] / 4)), int(math.floor(b[3] / 4)) + 1):

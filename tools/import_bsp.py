@@ -1209,7 +1209,33 @@ def rewater(argv):
     return 0
 
 
+def under_feet_docs(argv):
+    """`--under-feet[-check] <doc>...`: write `nav.under_feet` into committed documents a conversion would give it (nav_emulate.under_feet_for), by one inserted line, without a re-conversion. The -check form writes nothing and returns 1 when a document lacks it."""
+    import nav_emulate
+    sizes = json.load(open(os.path.join(HERE, "prop_sizes.json")))["props"]
+    rc = 0
+    for path in argv[2:]:
+        text = open(path).read()
+        doc = json.loads(text)
+        extra_path = os.path.join(os.path.dirname(path), "hulls", doc["id"] + ".nav.json")
+        extra = json.load(open(extra_path)) if os.path.isfile(extra_path) else {}
+        nav = doc["nav"]
+        feet = nav_emulate.under_feet_for(list(doc["boxes"]) + extra.get("boxes", []), doc.get("props", []), sizes, list(nav["floors"]) + extra.get("floors", []), float(nav.get("spacing", 1.0)), float(nav.get("clearance", 0.35)))
+        print("%s: %s" % (doc["id"], "under_feet %.2f" % feet if feet else "default"), "(already set)" if "under_feet" in nav else "")
+        if feet and "under_feet" not in nav:
+            rc = 1
+            if not argv[1].endswith("-check"):
+                head, sep, tail = text.partition('"clearance"')
+                line_end = tail.index("\n")
+                indent = head[head.rindex("\n") + 1:]
+                text = head + sep + tail[:line_end].rstrip(",") + "," + tail[line_end:line_end + 1] + indent + '"under_feet": %s' % feet + "," + tail[line_end:]
+                open(path, "w").write(text)
+    return rc
+
+
 def main(argv):
+    if len(argv) > 2 and argv[1] in ("--under-feet", "--under-feet-check"):
+        return under_feet_docs(argv)
     if len(argv) > 4 and argv[1] in ("--water-only", "--water-only-check"):
         return rewater(argv)
     if len(argv) > 4 and argv[1] in ("--lights-only", "--lights-only-check"):
@@ -1729,7 +1755,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
         # margin), then walk exactly the shipped field so the walk mask matches what the game reads.
         walked = {(a, b) for a, b, h in build_nav(boxes, starts)[2] if (a, b, h) in build_nav.tsurf}
         if not walked:
-            sys.exit("import_bsp: the survivors reach no terrain; check the spawns and y0")
+            sys.exit("import_bsp: the survivors reach no terrain; check the spawns and y0 (or set the spec's \"terrain\": false if the displacements are scenery)")
         xs = [a * CELL for a, _ in walked]
         zs = [b * CELL for _, b in walked]
         near = {(a // 4, b // 4) for a, b in walked}
@@ -2355,6 +2381,12 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
     turned = aim_spawns(spawns, all_boxes, floors=floors, goals=[list(p) for p in list(posts) + list(caches) + list(route or [])[1:]])
     if turned:
         print("  survivor spawns: %d facing a wall turned to open ground" % turned)
+    nav_doc = {"spacing": 1.0, "clearance": 0.35, "floors": floors, "links": build_nav.links[:600] + [list(l) for l in spec.get("extra_links", [])]}
+    import nav_emulate
+    feet = nav_emulate.under_feet_for(all_boxes, props, sizes, floors, terrain_pts=TERRAIN_PTS)
+    if feet:
+        nav_doc["under_feet"] = feet
+        print("  nav.under_feet %.2f: a slab just under a floor was swallowing its points" % feet)
     doc = {
         "format": 1, "kind": "zombiezone_map", "id": spec["id"], "name": spec["name"],
         "author": "%s (original map, %s, %s); converted. Removed on request." % (spec["author"], spec["page"], spec["licence"]),
@@ -2366,7 +2398,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
         "boxes": [{k: v for k, v in b.items() if not k.startswith("_")} for b in all_boxes], "props": props, "lights": lights,
         "spawns": {"survivors": spawns},
         "areas": {"start": [], "end": end_area}, "route": route or ([spawns[0]["at"]] if spawns else []),
-        "nav": {"spacing": 1.0, "clearance": 0.35, "floors": floors, "links": build_nav.links[:600] + [list(l) for l in spec.get("extra_links", [])]},
+        "nav": nav_doc,
         "items": items, "objectives": objectives, "sleepers": [list(z) for z in spec.get("sleepers", [])], "zombie_spawns": zsp, "posts": posts, "caches": caches,
         "barricades": barricades,
     }
