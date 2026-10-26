@@ -10713,6 +10713,17 @@
     "url": "https://github.com/modcommunity/dot-map"
    },
    {
+    "author": "TMC (generated for dot-map)",
+    "count": 1,
+    "file": "own/own_box_250x280x850_c8c8c0/own_box_250x280x850_c8c8c0.glb",
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "TMC generated model",
+    "stand_in": "lib/own_box_250x280x850_c8c8c0",
+    "store_file": "own/own_box_250x280x850_c8c8c0/own_box_250x280x850_c8c8c0.glb",
+    "url": "https://github.com/modcommunity/dot-map"
+   },
+   {
     "author": "Kirill Sannikov",
     "count": 4,
     "file": "polyhaven/ArmChair_01/ArmChair_01.gltf",
@@ -10769,7 +10780,7 @@
    },
    {
     "author": "MP",
-    "count": 5,
+    "count": 6,
     "file": "polyhaven/covered_car/covered_car.gltf",
     "files": [],
     "licence": "CC0-1.0",
@@ -10846,7 +10857,7 @@
    },
    {
     "author": "Mateusz Sadek",
-    "count": 2,
+    "count": 1,
     "file": "polyhaven/ocean_buoy/ocean_buoy.gltf",
     "files": [],
     "licence": "CC0-1.0",
@@ -10909,17 +10920,6 @@
     "stand_in": "lib/ph_plastic_crate_02",
     "store_file": "polyhaven/plastic_crate_02/plastic_crate_02.gltf",
     "url": "https://polyhaven.com/a/plastic_crate_02"
-   },
-   {
-    "author": "Plat251",
-    "count": 1,
-    "file": "polyhaven/rubber_duck_toy/rubber_duck_toy.gltf",
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Poly Haven",
-    "stand_in": "lib/ph_rubber_duck_toy",
-    "store_file": "polyhaven/rubber_duck_toy/rubber_duck_toy.gltf",
-    "url": "https://polyhaven.com/a/rubber_duck_toy"
    },
    {
     "author": "Kirill Sannikov",
@@ -11283,7 +11283,7 @@
    {
     "count": 1,
     "model": "models/props_vehicles/car001a_hatchback.mdl",
-    "stand_in": "lib/ph_rubber_duck_toy"
+    "stand_in": "lib/ph_covered_car"
    },
    {
     "count": 1,
@@ -11308,7 +11308,7 @@
    {
     "count": 1,
     "model": "models/props_vehicles/tanker001a.mdl",
-    "stand_in": "lib/ph_ocean_buoy"
+    "stand_in": "lib/own_box_250x280x850_c8c8c0"
    },
    {
     "count": 1,
@@ -11414,11 +11414,11 @@
     },
     {
      "id": "gamemann/store-shared-11c05325",
-     "version": "h3c8d82c7"
+     "version": "h37b39462"
     },
     {
      "id": "gamemann/store-shared-295221a6",
-     "version": "h07fc15aa"
+     "version": "hc8cb24a2"
     },
     {
      "id": "gamemann/store-shared-63b6f2d5",
@@ -11426,35 +11426,35 @@
     },
     {
      "id": "gamemann/store-shared-6f53c063",
-     "version": "h70263d3e"
+     "version": "hc2d9e026"
     },
     {
      "id": "gamemann/store-shared-707e7532",
      "version": "h3c7cc514"
     },
     {
-     "id": "gamemann/store-shared-82d89a24",
-     "version": "h8cafaef1"
+     "id": "gamemann/store-shared-82e676c6",
+     "version": "he307d0a5"
     },
     {
-     "id": "gamemann/store-shared-82e676c6",
-     "version": "ha08c019a"
+     "id": "gamemann/store-shared-9a79c7c5",
+     "version": "h2b32729b"
     },
     {
      "id": "gamemann/store-shared-a61b34e3",
-     "version": "h9a74a0ee"
+     "version": "h7acc58f2"
     },
     {
      "id": "gamemann/store-shared-d674b813",
-     "version": "h92a438eb"
+     "version": "h970e283d"
     },
     {
      "id": "gamemann/store-shared-dbec77e8",
-     "version": "h34e2dd2a"
+     "version": "hd041fb29"
     },
     {
      "id": "gamemann/store-shared-dbeda0cd",
-     "version": "h00f943e6"
+     "version": "h35f76fe6"
     },
     {
      "id": "gamemann/store-shared-dd04e62d",
@@ -11466,18 +11466,18 @@
     },
     {
      "id": "gamemann/store-shared-e6a16335",
-     "version": "ha05665a9"
+     "version": "he38f9e38"
     },
     {
      "id": "gamemann/store-shared-efe05e2a",
-     "version": "hd942d6f4"
+     "version": "habbe23bd"
     },
     {
      "id": "gamemann/store-shared-f7db15ea",
-     "version": "h2667d50a"
+     "version": "h93c55ec3"
     }
    ],
-   "version": "h7a539b15"
+   "version": "ha6645bbd"
   },
   "textures": [
    {
@@ -15409,9 +15409,9 @@
    "model": "models/props_vehicles/tanker001a.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 1.9081,
+   "size": 8.5,
    "solid": 6,
-   "stand_in": "lib/ph_ocean_buoy",
+   "stand_in": "lib/own_box_250x280x850_c8c8c0",
    "yaw": 0.0
   },
   {
@@ -15437,9 +15437,9 @@
    "model": "models/props_vehicles/car001a_hatchback.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.2069,
+   "size": 4.4863,
    "solid": 6,
-   "stand_in": "lib/ph_rubber_duck_toy",
+   "stand_in": "lib/ph_covered_car",
    "yaw": 297.42
   },
   {
@@ -16465,6 +16465,7 @@
    "yaw": 0.0
   }
  ],
+ "roles": [],
  "scripts": [],
  "settings": {},
  "skipped": {
@@ -19486,6 +19487,9 @@
    "index_offset": 151668,
    "lightmap_page": 0,
    "material": "metal/metalfence003a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 151192,
    "position_offset": 150988,
@@ -19911,6 +19915,9 @@
    "index_offset": 161880,
    "lightmap_page": 0,
    "material": "metal/metalfence003a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 161208,
    "position_offset": 160920,
@@ -20130,6 +20137,9 @@
    "index_offset": 168488,
    "lightmap_page": 0,
    "material": "metal/metalfence003a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 167284,
    "position_offset": 166768,
@@ -22608,6 +22618,9 @@
    "index_offset": 403608,
    "lightmap_page": 0,
    "material": "forrest_fog",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 403496,
    "position_offset": 403448,
@@ -24464,6 +24477,9 @@
    "index_offset": 541860,
    "lightmap_page": 0,
    "material": "effects/metalfence007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 541076,
    "position_offset": 540740,
@@ -24838,6 +24854,9 @@
    "index_offset": 569120,
    "lightmap_page": 0,
    "material": "cstrike/{tk_grate",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 562428,
    "position_offset": 559560,
@@ -24933,6 +24952,9 @@
    "index_offset": 574256,
    "lightmap_page": 0,
    "material": "effects/metalfence007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 572576,
    "position_offset": 571856,
@@ -25024,6 +25046,9 @@
    "index_offset": 576240,
    "lightmap_page": 0,
    "material": "metal/metalfence003a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 575232,
    "position_offset": 574800,
@@ -25321,6 +25346,9 @@
    "index_offset": 625096,
    "lightmap_page": 0,
    "material": "cstrike/{tk_grate",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 619328,
    "position_offset": 616856,
@@ -28184,6 +28212,9 @@
    "index_offset": 750920,
    "lightmap_page": 0,
    "material": "metal/metalfence003a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 749968,
    "position_offset": 749560,
@@ -28637,6 +28668,9 @@
    "index_offset": 762328,
    "lightmap_page": 0,
    "material": "metal/metalfence003a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 761012,
    "position_offset": 760448,
@@ -28918,6 +28952,9 @@
    "index_offset": 800344,
    "lightmap_page": 0,
    "material": "cstrike/{tk_grate",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 776292,
    "position_offset": 765984,
@@ -29059,6 +29096,9 @@
    "index_offset": 811568,
    "lightmap_page": 0,
    "material": "metal/metalfence003a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 810252,
    "position_offset": 809688,
@@ -29272,6 +29312,9 @@
    "index_offset": 893816,
    "lightmap_page": 0,
    "material": "cstrike/{tk_grate",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 873040,
    "position_offset": 864136,
@@ -38036,6 +38079,9 @@
    "index_offset": 1200952,
    "lightmap_page": 0,
    "material": "metal/milgrate001",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1200280,
    "position_offset": 1199992,
@@ -41317,6 +41363,9 @@
    "index_offset": 1278900,
    "lightmap_page": 0,
    "material": "models/props_combine/health_charger_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 1,
    "normal_offset": 1278228,
    "position_offset": 1277940,
@@ -41347,6 +41396,9 @@
    "index_offset": 1280004,
    "lightmap_page": 0,
    "material": "models/props_combine/health_charger_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 2,
    "normal_offset": 1279332,
    "position_offset": 1279044,
@@ -41563,6 +41615,9 @@
    "index_offset": 1287732,
    "lightmap_page": 0,
    "material": "models/props_lab/suitcase_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 9,
    "normal_offset": 1287060,
    "position_offset": 1286772,
@@ -41593,6 +41648,9 @@
    "index_offset": 1288836,
    "lightmap_page": 0,
    "material": "models/props_lab/suitcase_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 10,
    "normal_offset": 1288164,
    "position_offset": 1287876,
@@ -41627,6 +41685,9 @@
    "index_offset": 1289940,
    "lightmap_page": 0,
    "material": "models/props_lab/suitcase_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 13,
    "normal_offset": 1289268,
    "position_offset": 1288980,
@@ -41659,6 +41720,9 @@
    "index_offset": 1291044,
    "lightmap_page": 0,
    "material": "models/props_lab/suitcase_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 14,
    "normal_offset": 1290372,
    "position_offset": 1290084,
@@ -41690,6 +41754,9 @@
    "index_offset": 1292148,
    "lightmap_page": 0,
    "material": "models/props_lab/suitcase_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 15,
    "normal_offset": 1291476,
    "position_offset": 1291188,
@@ -41721,6 +41788,9 @@
    "index_offset": 1293252,
    "lightmap_page": 0,
    "material": "models/props_lab/suitcase_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 16,
    "normal_offset": 1292580,
    "position_offset": 1292292,
@@ -41751,6 +41821,9 @@
    "index_offset": 1294356,
    "lightmap_page": 0,
    "material": "models/props_lab/suitcase_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 17,
    "normal_offset": 1293684,
    "position_offset": 1293396,
@@ -41781,6 +41854,9 @@
    "index_offset": 1295460,
    "lightmap_page": 0,
    "material": "models/props_lab/suitcase_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 18,
    "normal_offset": 1294788,
    "position_offset": 1294500,
@@ -41812,6 +41888,9 @@
    "index_offset": 1296564,
    "lightmap_page": 0,
    "material": "models/props_lab/suitcase_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 19,
    "normal_offset": 1295892,
    "position_offset": 1295604,
@@ -41842,6 +41921,9 @@
    "index_offset": 1297668,
    "lightmap_page": 0,
    "material": "models/props_lab/suitcase_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 20,
    "normal_offset": 1296996,
    "position_offset": 1296708,
@@ -41872,6 +41954,9 @@
    "index_offset": 1299012,
    "lightmap_page": 0,
    "material": "models/props_lab/suitcase_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 21,
    "normal_offset": 1298172,
    "position_offset": 1297812,
@@ -41903,6 +41988,9 @@
    "index_offset": 1300404,
    "lightmap_page": 0,
    "material": "models/props_lab/suitcase_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 22,
    "normal_offset": 1299564,
    "position_offset": 1299204,
@@ -41934,6 +42022,9 @@
    "index_offset": 1301796,
    "lightmap_page": 0,
    "material": "models/props_lab/suitcase_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 23,
    "normal_offset": 1300956,
    "position_offset": 1300596,
@@ -41964,6 +42055,9 @@
    "index_offset": 1302948,
    "lightmap_page": 0,
    "material": "models/props_lab/suitcase_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 24,
    "normal_offset": 1302276,
    "position_offset": 1301988,
@@ -41995,6 +42089,9 @@
    "index_offset": 1304532,
    "lightmap_page": 0,
    "material": "models/props_lab/suitcase_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 25,
    "normal_offset": 1303524,
    "position_offset": 1303092,
@@ -42025,6 +42122,9 @@
    "index_offset": 1305732,
    "lightmap_page": 0,
    "material": "models/props_lab/suitcase_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 26,
    "normal_offset": 1305060,
    "position_offset": 1304772,
@@ -42055,6 +42155,9 @@
    "index_offset": 1306836,
    "lightmap_page": 0,
    "material": "models/props_lab/suitcase_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 27,
    "normal_offset": 1306164,
    "position_offset": 1305876,
@@ -42085,6 +42188,9 @@
    "index_offset": 1307940,
    "lightmap_page": 0,
    "material": "models/props_lab/suitcase_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 28,
    "normal_offset": 1307268,
    "position_offset": 1306980,

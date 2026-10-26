@@ -11,8 +11,8 @@
    "default": 15
   },
   "free_by_tier": {
-   "addon": 267,
-   "default": 14,
+   "addon": 264,
+   "default": 17,
    "nearest": 5
   },
   "nearest_photo": [
@@ -88,7 +88,8 @@
    "env_headcrabcanister.SmokeLifetime",
    "zombiegasses.radius"
   ],
-  "links_unresolved": []
+  "links_unresolved": [],
+  "surfaces_opaque": []
  },
  "counts": {
   "textures_unmapped": 0,
@@ -97,6 +98,7 @@
   "sounds_unmapped": 3,
   "classes_unmapped": 0,
   "keys_unmapped": 9,
-  "links_unresolved": 0
+  "links_unresolved": 0,
+  "surfaces_opaque": 0
  }
 }

@@ -71,7 +71,8 @@
    "func_breakable.OnOpen->koronaimboot3",
    "path_track.OnPass->Button_lenkung",
    "path_track.OnPass->koronaimboot2"
-  ]
+  ],
+  "surfaces_opaque": []
  },
  "counts": {
   "textures_unmapped": 0,
@@ -80,6 +81,7 @@
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 4,
-  "links_unresolved": 4
+  "links_unresolved": 4,
+  "surfaces_opaque": 0
  }
 }

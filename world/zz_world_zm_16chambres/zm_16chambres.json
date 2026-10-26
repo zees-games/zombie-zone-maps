@@ -25260,15 +25260,15 @@
    "shared": [
     {
      "id": "gamemann/store-shared-11c05325",
-     "version": "h3c8d82c7"
+     "version": "h37b39462"
     },
     {
      "id": "gamemann/store-shared-17e5e1ce",
-     "version": "h95164716"
+     "version": "he844192f"
     },
     {
      "id": "gamemann/store-shared-7025de02",
-     "version": "hd75db662"
+     "version": "hd84e8843"
     },
     {
      "id": "gamemann/store-shared-a8a2d314",
@@ -25276,26 +25276,26 @@
     },
     {
      "id": "gamemann/store-shared-cab6fcc7",
-     "version": "h66165e51"
+     "version": "h39fb25ac"
     },
     {
      "id": "gamemann/store-shared-cb747a6b",
-     "version": "hf50f74b5"
+     "version": "h2753f7b7"
     },
     {
      "id": "gamemann/store-shared-d674b813",
-     "version": "h92a438eb"
+     "version": "h970e283d"
     },
     {
      "id": "gamemann/store-shared-dbeda0cd",
-     "version": "h00f943e6"
+     "version": "h35f76fe6"
     },
     {
      "id": "gamemann/store-shared-df56cff2",
      "version": "ha02c8a01"
     }
    ],
-   "version": "h50dedf6d"
+   "version": "h76f950d7"
   },
   "textures": [
    {
@@ -25898,7 +25898,7 @@
     "url": "https://ambientcg.com/view?id=PavingStones065"
    },
    {
-    "area": 92.2,
+    "area": 66.5,
     "author": "Lennart Demes and contributors",
     "colour": [
      0.0,
@@ -25914,10 +25914,9 @@
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
-     "zgmrvn/cyanzigomarvin",
-     "zgmrvn/teleport1zigomarvin"
+     "zgmrvn/cyanzigomarvin"
     ],
-    "surfaces": 6,
+    "surfaces": 2,
     "tier": "1k",
     "url": "https://ambientcg.com/view?id=Paint002"
    },
@@ -26171,6 +26170,27 @@
     "surfaces": 1,
     "tier": "1k",
     "url": "https://ambientcg.com/view?id=MetalPlates007"
+   },
+   {
+    "area": 25.7,
+    "author": "TMC (generated)",
+    "colour": [
+     0.0,
+     0.75,
+     1.0
+    ],
+    "file": "textures/gen_glow_00bfff.png",
+    "generic": "glow",
+    "how": "table",
+    "key": "generated:glow:00bfff",
+    "kind": "generated",
+    "licence": "CC0-1.0",
+    "source": "dot-map cutout_texture",
+    "sources": [
+     "zgmrvn/teleport1zigomarvin"
+    ],
+    "surfaces": 4,
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 9.0,
@@ -33145,8 +33165,7 @@
  "movers_without_geometry": [],
  "name": "zm_16chambres",
  "notes": [
-  "6 glass surfaces (kinds grate)",
-  "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): ZGMRVN/TELEPORT1ZIGOMARVIN 9"
+  "10 glass surfaces (kinds glow, grate)"
  ],
  "pickups": [],
  "props": [
@@ -40330,6 +40349,7 @@
    "yaw": 90.0
   }
  ],
+ "roles": [],
  "scripts": [],
  "settings": {},
  "skipped": {
@@ -54727,6 +54747,9 @@
    "index_offset": 1881700,
    "lightmap_page": 0,
    "material": "de_nuke/nuke_metalvent",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 17,
    "normal_offset": 1881476,
    "position_offset": 1881380,
@@ -54758,6 +54781,9 @@
    "index_offset": 1882068,
    "lightmap_page": 0,
    "material": "de_nuke/nuke_metalvent",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 18,
    "normal_offset": 1881844,
    "position_offset": 1881748,
@@ -55850,6 +55876,9 @@
    "index_offset": 1970884,
    "lightmap_page": 0,
    "material": "de_nuke/nuke_metalvent",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 61,
    "normal_offset": 1970660,
    "position_offset": 1970564,
@@ -55883,6 +55912,9 @@
    "index_offset": 1971252,
    "lightmap_page": 0,
    "material": "de_nuke/nuke_metalvent",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 62,
    "normal_offset": 1971028,
    "position_offset": 1970932,
@@ -56972,6 +57004,9 @@
    "index_offset": 2140784,
    "lightmap_page": 0,
    "material": "de_nuke/nuke_metalvent",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 124,
    "normal_offset": 2140560,
    "position_offset": 2140464,
@@ -57004,6 +57039,9 @@
    "index_offset": 2141152,
    "lightmap_page": 0,
    "material": "de_nuke/nuke_metalvent",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 125,
    "normal_offset": 2140928,
    "position_offset": 2140832,
@@ -57496,18 +57534,28 @@
     0.9392
    ],
    "entity": 623,
-   "free": "pbr:pbr_Paint002",
+   "free": "generated:glow:00bfff",
    "generic": "pbr_Paint002",
+   "glass": "glow",
    "index_count": 24,
    "index_offset": 2196720,
    "lightmap_page": 0,
    "material": "zgmrvn/teleport1zigomarvin",
+   "material_flags": [
+    "additive",
+    "translucent"
+   ],
    "model": 216,
    "normal_offset": 2196272,
    "position_offset": 2196080,
    "texels": [
     256,
     256
+   ],
+   "tint": [
+    0.35,
+    0.731,
+    1.0
    ],
    "uv2_offset": 2196592,
    "uv_offset": 2196464,
@@ -57527,18 +57575,28 @@
     0.9392
    ],
    "entity": 658,
-   "free": "pbr:pbr_Paint002",
+   "free": "generated:glow:00bfff",
    "generic": "pbr_Paint002",
+   "glass": "glow",
    "index_count": 12,
    "index_offset": 2197136,
    "lightmap_page": 0,
    "material": "zgmrvn/teleport1zigomarvin",
+   "material_flags": [
+    "additive",
+    "translucent"
+   ],
    "model": 220,
    "normal_offset": 2196912,
    "position_offset": 2196816,
    "texels": [
     256,
     256
+   ],
+   "tint": [
+    0.35,
+    0.731,
+    1.0
    ],
    "uv2_offset": 2197072,
    "uv_offset": 2197008,
@@ -57558,18 +57616,28 @@
     0.9392
    ],
    "entity": 659,
-   "free": "pbr:pbr_Paint002",
+   "free": "generated:glow:00bfff",
    "generic": "pbr_Paint002",
+   "glass": "glow",
    "index_count": 12,
    "index_offset": 2197504,
    "lightmap_page": 0,
    "material": "zgmrvn/teleport1zigomarvin",
+   "material_flags": [
+    "additive",
+    "translucent"
+   ],
    "model": 221,
    "normal_offset": 2197280,
    "position_offset": 2197184,
    "texels": [
     256,
     256
+   ],
+   "tint": [
+    0.35,
+    0.731,
+    1.0
    ],
    "uv2_offset": 2197440,
    "uv_offset": 2197376,
@@ -57736,18 +57804,28 @@
     0.9392
    ],
    "entity": 690,
-   "free": "pbr:pbr_Paint002",
+   "free": "generated:glow:00bfff",
    "generic": "pbr_Paint002",
+   "glass": "glow",
    "index_count": 6,
    "index_offset": 2213456,
    "lightmap_page": 0,
    "material": "zgmrvn/teleport1zigomarvin",
+   "material_flags": [
+    "additive",
+    "translucent"
+   ],
    "model": 229,
    "normal_offset": 2213344,
    "position_offset": 2213296,
    "texels": [
     256,
     256
+   ],
+   "tint": [
+    0.35,
+    0.731,
+    1.0
    ],
    "uv2_offset": 2213424,
    "uv_offset": 2213392,

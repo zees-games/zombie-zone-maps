@@ -80,7 +80,10 @@
    "logic_waves.wave",
    "zombiegasses.radius"
   ],
-  "links_unresolved": []
+  "links_unresolved": [],
+  "surfaces_opaque": [
+   "wood/woodwall019a"
+  ]
  },
  "counts": {
   "textures_unmapped": 0,
@@ -89,6 +92,7 @@
   "sounds_unmapped": 4,
   "classes_unmapped": 0,
   "keys_unmapped": 5,
-  "links_unresolved": 0
+  "links_unresolved": 0,
+  "surfaces_opaque": 1
  }
 }

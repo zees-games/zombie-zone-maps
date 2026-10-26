@@ -11,8 +11,8 @@
    "default": 18
   },
   "free_by_tier": {
-   "addon": 63,
-   "default": 17,
+   "addon": 62,
+   "default": 18,
    "nearest": 5
   },
   "nearest_photo": [
@@ -84,7 +84,8 @@
    "point_viewcontrol.acceleration",
    "point_viewcontrol.deceleration"
   ],
-  "links_unresolved": []
+  "links_unresolved": [],
+  "surfaces_opaque": []
  },
  "counts": {
   "textures_unmapped": 0,
@@ -93,6 +94,7 @@
   "sounds_unmapped": 2,
   "classes_unmapped": 0,
   "keys_unmapped": 6,
-  "links_unresolved": 0
+  "links_unresolved": 0,
+  "surfaces_opaque": 0
  }
 }

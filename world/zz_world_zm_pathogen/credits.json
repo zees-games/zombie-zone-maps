@@ -537,16 +537,6 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_Bricks024",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Bricks024",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 3
-  },
-  {
-   "kind": "texture",
    "name": "pbr_Bricks001",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
@@ -1104,16 +1094,6 @@
    "source": "ambientCG",
    "attribution": false,
    "uses": 1
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_Metal048A",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Metal048A",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 3
   },
   {
    "kind": "texture",
@@ -1973,7 +1953,7 @@
    "url": "https://github.com/modcommunity/dot-map",
    "source": "TMC generated model",
    "attribution": false,
-   "uses": 19
+   "uses": 24
   },
   {
    "kind": "model",
@@ -2063,7 +2043,7 @@
    "url": "https://polyhaven.com/a/covered_car",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 17
+   "uses": 18
   },
   {
    "kind": "model",
@@ -2133,7 +2113,17 @@
    "url": "https://polyhaven.com/a/korean_fire_extinguisher_01",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 19
+   "uses": 16
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_korean_public_payphone_01",
+   "author": "UM JOORIN",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/korean_public_payphone_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 2
   },
   {
    "kind": "model",
@@ -2194,16 +2184,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 4
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_ocean_buoy",
-   "author": "Mateusz Sadek",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/ocean_buoy",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 1
   },
   {
    "kind": "model",
@@ -2277,16 +2257,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/ph_propane_tank",
-   "author": "Slinc",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/propane_tank",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "model",
    "name": "lib/ph_round_wooden_table_02",
    "author": "Ulan Cabanilla",
    "licence": "CC0-1.0",
@@ -2303,7 +2273,7 @@
    "url": "https://polyhaven.com/a/rubber_duck_toy",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 9
+   "uses": 8
   },
   {
    "kind": "model",
@@ -2374,16 +2344,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 3
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_vintage_radio_transceiver",
-   "author": "Mateusz Sadek",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/vintage_radio_transceiver",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 2
   },
   {
    "kind": "model",

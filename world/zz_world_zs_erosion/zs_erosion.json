@@ -14128,23 +14128,23 @@
    "shared": [
     {
      "id": "gamemann/store-shared-032d4124",
-     "version": "hc3885410"
+     "version": "h857f871c"
     },
     {
      "id": "gamemann/store-shared-0a281510",
-     "version": "h8d187477"
+     "version": "h0de9d421"
     },
     {
      "id": "gamemann/store-shared-295221a6",
-     "version": "h07fc15aa"
+     "version": "hc8cb24a2"
     },
     {
      "id": "gamemann/store-shared-3a59fc65",
-     "version": "h417334cd"
+     "version": "h05cfed31"
     },
     {
      "id": "gamemann/store-shared-47c24036",
-     "version": "h4962c93a"
+     "version": "h76253300"
     },
     {
      "id": "gamemann/store-shared-4f6160f0",
@@ -14156,39 +14156,39 @@
     },
     {
      "id": "gamemann/store-shared-6648a6d9",
-     "version": "hc26cca93"
+     "version": "hf4690944"
     },
     {
      "id": "gamemann/store-shared-67ce8f74",
-     "version": "h3237ab16"
+     "version": "h2acf2079"
     },
     {
      "id": "gamemann/store-shared-6975c627",
-     "version": "h1a6ef3a5"
+     "version": "h306a8b81"
     },
     {
      "id": "gamemann/store-shared-6f53c063",
-     "version": "h70263d3e"
+     "version": "hc2d9e026"
     },
     {
      "id": "gamemann/store-shared-7bde27a9",
-     "version": "h55434c57"
+     "version": "h8695d7d4"
     },
     {
      "id": "gamemann/store-shared-7cd5ef2a",
-     "version": "h54211258"
+     "version": "hb527edd3"
     },
     {
      "id": "gamemann/store-shared-7d356297",
-     "version": "h1f41a0f7"
+     "version": "h8b901817"
     },
     {
      "id": "gamemann/store-shared-94487a88",
-     "version": "h7ebfabb8"
+     "version": "h143aab43"
     },
     {
      "id": "gamemann/store-shared-cab6fcc7",
-     "version": "h66165e51"
+     "version": "h39fb25ac"
     },
     {
      "id": "gamemann/store-shared-d30cc4d8",
@@ -14196,11 +14196,11 @@
     },
     {
      "id": "gamemann/store-shared-dbeda0cd",
-     "version": "h00f943e6"
+     "version": "h35f76fe6"
     },
     {
      "id": "gamemann/store-shared-dd300898",
-     "version": "hacb3f6da"
+     "version": "h972976d3"
     },
     {
      "id": "gamemann/store-shared-df56cff2",
@@ -14208,18 +14208,18 @@
     },
     {
      "id": "gamemann/store-shared-e6a16335",
-     "version": "ha05665a9"
+     "version": "he38f9e38"
     },
     {
      "id": "gamemann/store-shared-ea9ca50c",
-     "version": "h178d7356"
+     "version": "h45c21688"
     },
     {
      "id": "gamemann/store-shared-f7db15ea",
-     "version": "h2667d50a"
+     "version": "h93c55ec3"
     }
    ],
-   "version": "h45bed3ce"
+   "version": "h84bc771e"
   },
   "textures": [
    {
@@ -24790,6 +24790,7 @@
    "yaw": 63.5
   }
  ],
+ "roles": [],
  "scripts": [],
  "settings": {},
  "skipped": {
@@ -40100,6 +40101,9 @@
    "index_offset": 392468,
    "lightmap_page": 0,
    "material": "glass/glasswindow001b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 391124,
    "position_offset": 390548,
@@ -40922,6 +40926,9 @@
    "index_offset": 478460,
    "lightmap_page": 0,
    "material": "glass/glasswindow001b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 477116,
    "position_offset": 476540,
@@ -46082,6 +46089,9 @@
    "index_offset": 650764,
    "lightmap_page": 0,
    "material": "glass/glasswindow001b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 650540,
    "position_offset": 650444,
@@ -46780,6 +46790,9 @@
    "index_offset": 701232,
    "lightmap_page": 0,
    "material": "glass/glasswindow001b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 701008,
    "position_offset": 700912,
@@ -47439,6 +47452,9 @@
    "index_offset": 716880,
    "lightmap_page": 0,
    "material": "wood/woodwall019a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 716656,
    "position_offset": 716560,
@@ -72705,6 +72721,9 @@
    "index_offset": 1402696,
    "lightmap_page": 0,
    "material": "wood/woodwall019a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 8,
    "normal_offset": 1402472,
    "position_offset": 1402376,
@@ -72763,6 +72782,9 @@
    "index_offset": 1403640,
    "lightmap_page": 0,
    "material": "wood/woodwall019a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 9,
    "normal_offset": 1403528,
    "position_offset": 1403480,
@@ -72938,6 +72960,9 @@
    "index_offset": 1407136,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 14,
    "normal_offset": 1407024,
    "position_offset": 1406976,
@@ -72968,6 +72993,9 @@
    "index_offset": 1407320,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 15,
    "normal_offset": 1407208,
    "position_offset": 1407160,
@@ -73001,6 +73029,9 @@
    "index_offset": 1407504,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 18,
    "normal_offset": 1407392,
    "position_offset": 1407344,
@@ -73033,6 +73064,9 @@
    "index_offset": 1407688,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 18,
    "normal_offset": 1407576,
    "position_offset": 1407528,
@@ -73064,6 +73098,9 @@
    "index_offset": 1407872,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 19,
    "normal_offset": 1407760,
    "position_offset": 1407712,
@@ -73096,6 +73133,9 @@
    "index_offset": 1408056,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 19,
    "normal_offset": 1407944,
    "position_offset": 1407896,
@@ -73128,6 +73168,9 @@
    "index_offset": 1408240,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 20,
    "normal_offset": 1408128,
    "position_offset": 1408080,
@@ -73162,6 +73205,9 @@
    "index_offset": 1408424,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 20,
    "normal_offset": 1408312,
    "position_offset": 1408264,
@@ -73194,6 +73240,9 @@
    "index_offset": 1408608,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 21,
    "normal_offset": 1408496,
    "position_offset": 1408448,
@@ -73225,6 +73274,9 @@
    "index_offset": 1408792,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 21,
    "normal_offset": 1408680,
    "position_offset": 1408632,
@@ -73257,6 +73309,9 @@
    "index_offset": 1408976,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 22,
    "normal_offset": 1408864,
    "position_offset": 1408816,
@@ -73288,6 +73343,9 @@
    "index_offset": 1409160,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 22,
    "normal_offset": 1409048,
    "position_offset": 1409000,
@@ -73319,6 +73377,9 @@
    "index_offset": 1409344,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 23,
    "normal_offset": 1409232,
    "position_offset": 1409184,
@@ -73351,6 +73412,9 @@
    "index_offset": 1409528,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 23,
    "normal_offset": 1409416,
    "position_offset": 1409368,
@@ -73382,6 +73446,9 @@
    "index_offset": 1409712,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 24,
    "normal_offset": 1409600,
    "position_offset": 1409552,
@@ -73414,6 +73481,9 @@
    "index_offset": 1409896,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 24,
    "normal_offset": 1409784,
    "position_offset": 1409736,
@@ -73476,6 +73546,9 @@
    "index_offset": 1411184,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 27,
    "normal_offset": 1411072,
    "position_offset": 1411024,
@@ -73507,6 +73580,9 @@
    "index_offset": 1411368,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 27,
    "normal_offset": 1411256,
    "position_offset": 1411208,
@@ -73538,6 +73614,9 @@
    "index_offset": 1411552,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 28,
    "normal_offset": 1411440,
    "position_offset": 1411392,
@@ -73570,6 +73649,9 @@
    "index_offset": 1411736,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 28,
    "normal_offset": 1411624,
    "position_offset": 1411576,
@@ -73601,6 +73683,9 @@
    "index_offset": 1411920,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 29,
    "normal_offset": 1411808,
    "position_offset": 1411760,
@@ -73633,6 +73718,9 @@
    "index_offset": 1412104,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 29,
    "normal_offset": 1411992,
    "position_offset": 1411944,
@@ -73664,6 +73752,9 @@
    "index_offset": 1412288,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 30,
    "normal_offset": 1412176,
    "position_offset": 1412128,
@@ -73696,6 +73787,9 @@
    "index_offset": 1412472,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 30,
    "normal_offset": 1412360,
    "position_offset": 1412312,
@@ -73727,6 +73821,9 @@
    "index_offset": 1412656,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 31,
    "normal_offset": 1412544,
    "position_offset": 1412496,
@@ -73759,6 +73856,9 @@
    "index_offset": 1412840,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 31,
    "normal_offset": 1412728,
    "position_offset": 1412680,
@@ -73793,6 +73893,9 @@
    "index_offset": 1413024,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 32,
    "normal_offset": 1412912,
    "position_offset": 1412864,
@@ -73827,6 +73930,9 @@
    "index_offset": 1413208,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 32,
    "normal_offset": 1413096,
    "position_offset": 1413048,
@@ -73858,6 +73964,9 @@
    "index_offset": 1413392,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 33,
    "normal_offset": 1413280,
    "position_offset": 1413232,
@@ -73890,6 +73999,9 @@
    "index_offset": 1413576,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 33,
    "normal_offset": 1413464,
    "position_offset": 1413416,
@@ -73922,6 +74034,9 @@
    "index_offset": 1413760,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 34,
    "normal_offset": 1413648,
    "position_offset": 1413600,
@@ -73953,6 +74068,9 @@
    "index_offset": 1413944,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 34,
    "normal_offset": 1413832,
    "position_offset": 1413784,
@@ -73984,6 +74102,9 @@
    "index_offset": 1414128,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 35,
    "normal_offset": 1414016,
    "position_offset": 1413968,
@@ -74016,6 +74137,9 @@
    "index_offset": 1414312,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 35,
    "normal_offset": 1414200,
    "position_offset": 1414152,
@@ -74048,6 +74172,9 @@
    "index_offset": 1414496,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 36,
    "normal_offset": 1414384,
    "position_offset": 1414336,
@@ -74079,6 +74206,9 @@
    "index_offset": 1414680,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 36,
    "normal_offset": 1414568,
    "position_offset": 1414520,
@@ -74111,6 +74241,9 @@
    "index_offset": 1414864,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 37,
    "normal_offset": 1414752,
    "position_offset": 1414704,
@@ -74142,6 +74275,9 @@
    "index_offset": 1415048,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 37,
    "normal_offset": 1414936,
    "position_offset": 1414888,

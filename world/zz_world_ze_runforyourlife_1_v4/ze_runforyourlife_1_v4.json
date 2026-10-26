@@ -2819,6 +2819,17 @@
     "url": "https://github.com/modcommunity/dot-map"
    },
    {
+    "author": "TMC (generated for dot-map)",
+    "count": 1,
+    "file": "own/own_box_600x229x200_b0b0a8/own_box_600x229x200_b0b0a8.glb",
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "TMC generated model",
+    "stand_in": "lib/own_box_600x229x200_b0b0a8",
+    "store_file": "own/own_box_600x229x200_b0b0a8/own_box_600x229x200_b0b0a8.glb",
+    "url": "https://github.com/modcommunity/dot-map"
+   },
+   {
     "author": "Gabriel Radi\u0107",
     "count": 1,
     "file": "polyhaven/Television_01/Television_01.gltf",
@@ -2864,7 +2875,7 @@
    },
    {
     "author": "MP",
-    "count": 5,
+    "count": 7,
     "file": "polyhaven/covered_car/covered_car.gltf",
     "files": [],
     "licence": "CC0-1.0",
@@ -2963,7 +2974,7 @@
    },
    {
     "author": "Slinc",
-    "count": 2,
+    "count": 1,
     "file": "polyhaven/propane_tank/propane_tank.gltf",
     "files": [],
     "licence": "CC0-1.0",
@@ -2982,17 +2993,6 @@
     "stand_in": "lib/ph_rock_moss_set_01",
     "store_file": "polyhaven/rock_moss_set_01/rock_moss_set_01.gltf",
     "url": "https://polyhaven.com/a/rock_moss_set_01"
-   },
-   {
-    "author": "Plat251",
-    "count": 2,
-    "file": "polyhaven/rubber_duck_toy/rubber_duck_toy.gltf",
-    "files": [],
-    "licence": "CC0-1.0",
-    "source": "Poly Haven",
-    "stand_in": "lib/ph_rubber_duck_toy",
-    "store_file": "polyhaven/rubber_duck_toy/rubber_duck_toy.gltf",
-    "url": "https://polyhaven.com/a/rubber_duck_toy"
    },
    {
     "author": "Kirill Sannikov",
@@ -3380,7 +3380,7 @@
    {
     "count": 2,
     "model": "models/props_vehicles/car001b_hatchback.mdl",
-    "stand_in": "lib/ph_rubber_duck_toy"
+    "stand_in": "lib/ph_covered_car"
    },
    {
     "count": 1,
@@ -3450,7 +3450,7 @@
    {
     "count": 1,
     "model": "models/props_wasteland/horizontalcoolingtank04.mdl",
-    "stand_in": "lib/ph_propane_tank"
+    "stand_in": "lib/own_box_600x229x200_b0b0a8"
    },
    {
     "count": 6,
@@ -3521,19 +3521,19 @@
    "shared": [
     {
      "id": "gamemann/store-shared-066e1f46",
-     "version": "hd3da4464"
+     "version": "h487f7f10"
     },
     {
      "id": "gamemann/store-shared-295221a6",
-     "version": "h07fc15aa"
+     "version": "hc8cb24a2"
     },
     {
      "id": "gamemann/store-shared-47c24036",
-     "version": "h4962c93a"
+     "version": "h76253300"
     },
     {
      "id": "gamemann/store-shared-4bf5f05e",
-     "version": "hfeeb5dd9"
+     "version": "h66036cb0"
     },
     {
      "id": "gamemann/store-shared-63b6f2d5",
@@ -3541,42 +3541,42 @@
     },
     {
      "id": "gamemann/store-shared-67ce8f74",
-     "version": "h3237ab16"
+     "version": "h2acf2079"
     },
     {
      "id": "gamemann/store-shared-6975c627",
-     "version": "h1a6ef3a5"
+     "version": "h306a8b81"
     },
     {
      "id": "gamemann/store-shared-7025de02",
-     "version": "hd75db662"
+     "version": "hd84e8843"
     },
     {
      "id": "gamemann/store-shared-74774f64",
-     "version": "h3a47b547"
+     "version": "h76e39f63"
     },
     {
      "id": "gamemann/store-shared-7bde27a9",
-     "version": "h55434c57"
+     "version": "h8695d7d4"
     },
     {
      "id": "gamemann/store-shared-c95318e5",
-     "version": "h4d516f4f"
+     "version": "h14f93e19"
     },
     {
      "id": "gamemann/store-shared-cf92cf74",
-     "version": "hfe7fa235"
+     "version": "h08aaff5d"
     },
     {
      "id": "gamemann/store-shared-d674b813",
-     "version": "h92a438eb"
+     "version": "h970e283d"
     },
     {
      "id": "gamemann/store-shared-dbec77e8",
-     "version": "h34e2dd2a"
+     "version": "hd041fb29"
     }
    ],
-   "version": "h08c06269"
+   "version": "hd1f45515"
   },
   "textures": [
    {
@@ -12372,9 +12372,9 @@
    "model": "models/props_vehicles/car001b_hatchback.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.2069,
+   "size": 4.4863,
    "solid": 6,
-   "stand_in": "lib/ph_rubber_duck_toy",
+   "stand_in": "lib/ph_covered_car",
    "yaw": 0.0
   },
   {
@@ -12442,9 +12442,9 @@
    "model": "models/props_vehicles/car001b_hatchback.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.2069,
+   "size": 4.4863,
    "solid": 6,
-   "stand_in": "lib/ph_rubber_duck_toy",
+   "stand_in": "lib/ph_covered_car",
    "yaw": 0.0
   },
   {
@@ -12997,9 +12997,9 @@
    "model": "models/props_wasteland/horizontalcoolingtank04.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.6371,
+   "size": 6.0,
    "solid": 6,
-   "stand_in": "lib/ph_propane_tank",
+   "stand_in": "lib/own_box_600x229x200_b0b0a8",
    "yaw": 0.0
   },
   {
@@ -14476,6 +14476,7 @@
    "yaw": 0.0
   }
  ],
+ "roles": [],
  "scripts": [],
  "settings": {},
  "skipped": {

@@ -40960,23 +40960,23 @@
    "shared": [
     {
      "id": "gamemann/store-shared-077741ae",
-     "version": "hdcd0aeee"
+     "version": "h4dd7fa74"
     },
     {
      "id": "gamemann/store-shared-17e5e1ce",
-     "version": "h95164716"
+     "version": "he844192f"
     },
     {
      "id": "gamemann/store-shared-214eb74c",
-     "version": "hefde8698"
+     "version": "h47e0c10c"
     },
     {
      "id": "gamemann/store-shared-28b99578",
-     "version": "h1232c3e0"
+     "version": "hfa8dae3e"
     },
     {
      "id": "gamemann/store-shared-2b9549c3",
-     "version": "h7de7db0f"
+     "version": "h48823ec5"
     },
     {
      "id": "gamemann/store-shared-4f6160f0",
@@ -40984,23 +40984,23 @@
     },
     {
      "id": "gamemann/store-shared-66f3bbcd",
-     "version": "h7788508f"
+     "version": "h583975fc"
     },
     {
      "id": "gamemann/store-shared-7025de02",
-     "version": "hd75db662"
+     "version": "hd84e8843"
     },
     {
      "id": "gamemann/store-shared-7d356297",
-     "version": "h1f41a0f7"
+     "version": "h8b901817"
     },
     {
-     "id": "gamemann/store-shared-bb688c70",
-     "version": "h48de3c09"
+     "id": "gamemann/store-shared-b1eec5d5",
+     "version": "hb64d6ac6"
     },
     {
      "id": "gamemann/store-shared-cb747a6b",
-     "version": "hf50f74b5"
+     "version": "h2753f7b7"
     },
     {
      "id": "gamemann/store-shared-d2a147a2",
@@ -41008,15 +41008,15 @@
     },
     {
      "id": "gamemann/store-shared-d674b813",
-     "version": "h92a438eb"
+     "version": "h970e283d"
     },
     {
      "id": "gamemann/store-shared-dbec77e8",
-     "version": "h34e2dd2a"
+     "version": "hd041fb29"
     },
     {
      "id": "gamemann/store-shared-dbeda0cd",
-     "version": "h00f943e6"
+     "version": "h35f76fe6"
     },
     {
      "id": "gamemann/store-shared-df56cff2",
@@ -41024,18 +41024,18 @@
     },
     {
      "id": "gamemann/store-shared-e6a16335",
-     "version": "ha05665a9"
+     "version": "he38f9e38"
     },
     {
      "id": "gamemann/store-shared-efe05e2a",
-     "version": "hd942d6f4"
+     "version": "habbe23bd"
     },
     {
      "id": "gamemann/store-shared-f7db15ea",
-     "version": "h2667d50a"
+     "version": "h93c55ec3"
     }
    ],
-   "version": "hf56b03ef"
+   "version": "ha062c90e"
   },
   "textures": [
    {
@@ -41225,7 +41225,7 @@
     "url": "https://ambientcg.com/view?id=Ground014"
    },
    {
-    "area": 65.7,
+    "area": 92.9,
     "author": "TMC (generated)",
     "colour": [
      0.125,
@@ -41240,9 +41240,10 @@
     "licence": "CC0-1.0",
     "source": "dot-map cutout_texture",
     "sources": [
+     "cs_havana/metalfence007a",
      "effects/metalfence007a"
     ],
-    "surfaces": 7,
+    "surfaces": 10,
     "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
@@ -41684,7 +41685,7 @@
     "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
-    "area": 1383.1,
+    "area": 1372.3,
     "author": "Lennart Demes and contributors",
     "colour": [
      0.75,
@@ -41702,7 +41703,7 @@
     "sources": [
      "realworldtextures/newer/1/wood_1_03"
     ],
-    "surfaces": 34,
+    "surfaces": 33,
     "tier": "1k",
     "url": "https://ambientcg.com/view?id=Wood091B"
    },
@@ -41980,29 +41981,6 @@
     "url": "https://ambientcg.com/view?id=Metal029"
    },
    {
-    "area": 27.2,
-    "author": "Lennart Demes and contributors",
-    "colour": [
-     0.125,
-     0.125,
-     0.125
-    ],
-    "fallback_file": "textures/fb_Metal028.webp",
-    "file": "pbr/Metal028",
-    "generic": "pbr_Metal028",
-    "how": "table",
-    "key": "pbr:pbr_Metal028",
-    "kind": "pbr",
-    "licence": "CC0-1.0",
-    "source": "ambientCG",
-    "sources": [
-     "cs_havana/metalfence007a"
-    ],
-    "surfaces": 3,
-    "tier": "1k",
-    "url": "https://ambientcg.com/view?id=Metal028"
-   },
-   {
     "area": 176.6,
     "author": "Lennart Demes and contributors",
     "colour": [
@@ -42051,53 +42029,49 @@
    },
    {
     "area": 24.1,
-    "author": "Lennart Demes and contributors",
+    "author": "TMC (generated)",
     "colour": [
      0.625,
      0.25,
      0.5
     ],
-    "fallback_file": "textures/fb_CorrugatedSteel002.webp",
-    "file": "pbr/CorrugatedSteel002",
-    "generic": "pbr_CorrugatedSteel002",
+    "file": "textures/gen_foliage_card_9f4080.png",
+    "generic": "foliage_card",
     "how": "table",
-    "key": "pbr:pbr_CorrugatedSteel002",
-    "kind": "pbr",
+    "key": "generated:foliage_card:9f4080",
+    "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "ambientCG",
+    "source": "dot-map cutout_texture",
     "sources": [
      "spongebob/krusty_krab/clam1"
     ],
     "surfaces": 4,
-    "tier": "1k",
-    "url": "https://ambientcg.com/view?id=CorrugatedSteel002"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 81.0,
-    "author": "Lennart Demes and contributors",
+    "author": "TMC (generated)",
     "colour": [
      0.75,
      0.5,
      0.625
     ],
-    "fallback_file": "textures/fb_PaintedMetal017.webp",
-    "file": "pbr/PaintedMetal017",
-    "generic": "pbr_PaintedMetal017",
+    "file": "textures/gen_foliage_card_bf809f.png",
+    "generic": "foliage_card",
     "how": "table",
-    "key": "pbr:pbr_PaintedMetal017",
-    "kind": "pbr",
+    "key": "generated:foliage_card:bf809f",
+    "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "ambientCG",
+    "source": "dot-map cutout_texture",
     "sources": [
      "spongebob/krusty_krab/clam2",
      "spongebob/krusty_krab/clam3"
     ],
     "surfaces": 6,
-    "tier": "1k",
-    "url": "https://ambientcg.com/view?id=PaintedMetal017"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
-    "area": 759.8,
+    "area": 447.3,
     "author": "Lennart Demes and contributors",
     "colour": [
      0.5,
@@ -42115,7 +42089,7 @@
     "sources": [
      "spongebob/krusty_krab/dkblue_metal"
     ],
-    "surfaces": 13,
+    "surfaces": 12,
     "tier": "1k",
     "url": "https://ambientcg.com/view?id=MetalPlates014"
    },
@@ -42417,26 +42391,24 @@
    },
    {
     "area": 2.5,
-    "author": "Dimitrios Savva",
+    "author": "TMC (generated)",
     "colour": [
      0.25,
      0.25,
      0.125
     ],
-    "fallback_file": "textures/fb_rusted_shutter.webp",
-    "file": "pbr/rusted_shutter",
-    "generic": "pbr_rusted_shutter",
+    "file": "textures/gen_foliage_card_404020.png",
+    "generic": "foliage_card",
     "how": "table",
-    "key": "pbr:pbr_rusted_shutter",
-    "kind": "pbr",
+    "key": "generated:foliage_card:404020",
+    "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "polyhaven",
+    "source": "dot-map cutout_texture",
     "sources": [
      "spongebob/krusty_krab/rope"
     ],
     "surfaces": 3,
-    "tier": "1k",
-    "url": "https://polyhaven.com/a/rusted_shutter"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 0.0,
@@ -42551,6 +42523,48 @@
     "surfaces": 1,
     "tier": "1k",
     "url": "https://ambientcg.com/view?id=Metal062B"
+   },
+   {
+    "area": 10.8,
+    "author": "TMC (generated)",
+    "colour": [
+     0.75,
+     0.625,
+     0.375
+    ],
+    "file": "textures/gen_glass_bf9f60.png",
+    "generic": "glass",
+    "how": "table",
+    "key": "generated:glass:bf9f60",
+    "kind": "generated",
+    "licence": "CC0-1.0",
+    "source": "dot-map cutout_texture",
+    "sources": [
+     "realworldtextures/newer/1/wood_1_03"
+    ],
+    "surfaces": 1,
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+   },
+   {
+    "area": 312.5,
+    "author": "TMC (generated)",
+    "colour": [
+     0.5,
+     0.625,
+     0.625
+    ],
+    "file": "textures/gen_glass_809f9f.png",
+    "generic": "glass",
+    "how": "table",
+    "key": "generated:glass:809f9f",
+    "kind": "generated",
+    "licence": "CC0-1.0",
+    "source": "dot-map cutout_texture",
+    "sources": [
+     "spongebob/krusty_krab/dkblue_metal"
+    ],
+    "surfaces": 1,
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    }
   ]
  },
@@ -51532,8 +51546,7 @@
  "movers_without_geometry": [],
  "name": "zm_krusty_krab_a3",
  "notes": [
-  "50 glass surfaces (kinds bars, fence, foliage_card, glass)",
-  "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): CS_HAVANA/METALFENCE007A 7"
+  "66 glass surfaces (kinds bars, fence, foliage_card, glass)"
  ],
  "pickups": [
   {
@@ -63920,6 +63933,7 @@
    "yaw": 0.0
   }
  ],
+ "roles": [],
  "scripts": [],
  "settings": {},
  "skipped": {
@@ -65199,6 +65213,9 @@
    "index_offset": 170708,
    "lightmap_page": 0,
    "material": "effects/metalfence007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 170484,
    "position_offset": 170388,
@@ -65514,6 +65531,9 @@
    "index_offset": 199272,
    "lightmap_page": 0,
    "material": "effects/metalfence007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 199048,
    "position_offset": 198952,
@@ -65900,6 +65920,9 @@
    "index_offset": 216640,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 216304,
    "position_offset": 216160,
@@ -67216,6 +67239,9 @@
    "index_offset": 441424,
    "lightmap_page": 0,
    "material": "effects/metalfence007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 441200,
    "position_offset": 441104,
@@ -67258,6 +67284,9 @@
    "index_offset": 441792,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 441568,
    "position_offset": 441472,
@@ -67457,6 +67486,9 @@
    "index_offset": 455928,
    "lightmap_page": 0,
    "material": "silkroad/donswhang/w_cd_ravi_gorge01_06",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 454192,
    "position_offset": 453448,
@@ -67710,6 +67742,9 @@
    "index_offset": 471580,
    "lightmap_page": 0,
    "material": "silkroad/donswhang/w_cd_ravi_gorge01_06",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 470684,
    "position_offset": 470300,
@@ -68323,6 +68358,9 @@
    "index_offset": 537188,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 537076,
    "position_offset": 537028,
@@ -69004,6 +69042,9 @@
    "index_offset": 601628,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 601096,
    "position_offset": 600868,
@@ -69225,6 +69266,9 @@
    "index_offset": 722768,
    "lightmap_page": 0,
    "material": "silkroad/donswhang/w_cd_ravi_gorge01_06",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 718092,
    "position_offset": 716088,
@@ -69574,6 +69618,9 @@
    "index_offset": 762748,
    "lightmap_page": 0,
    "material": "silkroad/donswhang/w_cd_ravi_gorge01_06",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 757904,
    "position_offset": 755828,
@@ -70178,12 +70225,16 @@
     0.0959
    ],
    "entity": null,
-   "free": "pbr:pbr_Metal028",
+   "free": "generated:fence:202020",
    "generic": "pbr_Metal028",
+   "glass": "fence",
    "index_count": 24,
    "index_offset": 802240,
    "lightmap_page": 0,
    "material": "cs_havana/metalfence007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 801904,
    "position_offset": 801760,
@@ -71594,18 +71645,27 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "pbr:pbr_CorrugatedSteel002",
+   "free": "generated:foliage_card:9f4080",
    "generic": "pbr_CorrugatedSteel002",
+   "glass": "foliage_card",
    "index_count": 96,
    "index_offset": 1066288,
    "lightmap_page": 0,
    "material": "spongebob/krusty_krab/clam1",
+   "material_flags": [
+    "alpha_test"
+   ],
    "model": 0,
    "normal_offset": 1065588,
    "position_offset": 1065288,
    "texels": [
     512,
     512
+   ],
+   "tint": [
+    1.0,
+    0.374,
+    0.692
    ],
    "uv2_offset": 1066088,
    "uv_offset": 1065888,
@@ -71631,18 +71691,27 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "pbr:pbr_PaintedMetal017",
+   "free": "generated:foliage_card:bf809f",
    "generic": "pbr_PaintedMetal017",
+   "glass": "foliage_card",
    "index_count": 96,
    "index_offset": 1067672,
    "lightmap_page": 0,
    "material": "spongebob/krusty_krab/clam2",
+   "material_flags": [
+    "alpha_test"
+   ],
    "model": 0,
    "normal_offset": 1066972,
    "position_offset": 1066672,
    "texels": [
     512,
     512
+   ],
+   "tint": [
+    1.0,
+    0.61,
+    0.825
    ],
    "uv2_offset": 1067472,
    "uv_offset": 1067272,
@@ -71667,18 +71736,27 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "pbr:pbr_PaintedMetal017",
+   "free": "generated:foliage_card:bf809f",
    "generic": "pbr_PaintedMetal017",
+   "glass": "foliage_card",
    "index_count": 96,
    "index_offset": 1069056,
    "lightmap_page": 0,
    "material": "spongebob/krusty_krab/clam2",
+   "material_flags": [
+    "alpha_test"
+   ],
    "model": 0,
    "normal_offset": 1068356,
    "position_offset": 1068056,
    "texels": [
     512,
     512
+   ],
+   "tint": [
+    1.0,
+    0.61,
+    0.825
    ],
    "uv2_offset": 1068856,
    "uv_offset": 1068656,
@@ -71703,18 +71781,27 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "pbr:pbr_PaintedMetal017",
+   "free": "generated:foliage_card:bf809f",
    "generic": "pbr_PaintedMetal017",
+   "glass": "foliage_card",
    "index_count": 96,
    "index_offset": 1070440,
    "lightmap_page": 0,
    "material": "spongebob/krusty_krab/clam3",
+   "material_flags": [
+    "alpha_test"
+   ],
    "model": 0,
    "normal_offset": 1069740,
    "position_offset": 1069440,
    "texels": [
     512,
     512
+   ],
+   "tint": [
+    1.0,
+    0.535,
+    0.712
    ],
    "uv2_offset": 1070240,
    "uv_offset": 1070040,
@@ -72356,6 +72443,9 @@
    "index_offset": 1194928,
    "lightmap_page": 0,
    "material": "metal/metalarch004b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1193808,
    "position_offset": 1193328,
@@ -72914,6 +73004,9 @@
    "index_offset": 1358460,
    "lightmap_page": 0,
    "material": "metal/metalarch004b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1356556,
    "position_offset": 1355740,
@@ -74853,6 +74946,9 @@
    "index_offset": 1601932,
    "lightmap_page": 0,
    "material": "glass/combineglass001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1599356,
    "position_offset": 1598252,
@@ -74896,6 +74992,9 @@
    "index_offset": 1602924,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1602700,
    "position_offset": 1602604,
@@ -75260,6 +75359,9 @@
    "index_offset": 1623632,
    "lightmap_page": 0,
    "material": "silkroad/donswhang/w_cd_ravi_gorge01_06",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1621784,
    "position_offset": 1620992,
@@ -75682,18 +75784,28 @@
     0.1859
    ],
    "entity": null,
-   "free": "pbr:pbr_rusted_shutter",
+   "free": "generated:foliage_card:404020",
    "generic": "pbr_rusted_shutter",
+   "glass": "foliage_card",
    "index_count": 12,
    "index_offset": 1687860,
    "lightmap_page": 0,
    "material": "spongebob/krusty_krab/rope",
+   "material_flags": [
+    "alpha_test",
+    "two_sided"
+   ],
    "model": 0,
    "normal_offset": 1687636,
    "position_offset": 1687540,
    "texels": [
     512,
     512
+   ],
+   "tint": [
+    1.0,
+    0.977,
+    0.94
    ],
    "uv2_offset": 1687796,
    "uv_offset": 1687732,
@@ -75957,6 +76069,9 @@
    "index_offset": 1750900,
    "lightmap_page": 0,
    "material": "effects/metalfence007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1750788,
    "position_offset": 1750740,
@@ -76000,6 +76115,9 @@
    "index_offset": 1752044,
    "lightmap_page": 0,
    "material": "silkroad/donswhang/w_cd_ravi_gorge01_06",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1751260,
    "position_offset": 1750924,
@@ -76682,6 +76800,9 @@
    "index_offset": 1809832,
    "lightmap_page": 0,
    "material": "effects/metalfence007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1809720,
    "position_offset": 1809672,
@@ -76717,6 +76838,9 @@
    "index_offset": 1810016,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1809904,
    "position_offset": 1809856,
@@ -77446,6 +77570,9 @@
    "index_offset": 1883308,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1882776,
    "position_offset": 1882548,
@@ -77663,6 +77790,9 @@
    "index_offset": 2178360,
    "lightmap_page": 0,
    "material": "silkroad/donswhang/w_cd_ravi_gorge01_06",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2173656,
    "position_offset": 2171640,
@@ -78165,6 +78295,9 @@
    "index_offset": 2238468,
    "lightmap_page": 0,
    "material": "silkroad/donswhang/w_cd_ravi_gorge01_06",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2233484,
    "position_offset": 2231348,
@@ -78203,6 +78336,9 @@
    "index_offset": 2262812,
    "lightmap_page": 0,
    "material": "silkroad/donswhang/w_cd_ravi_gorge01_06",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2246628,
    "position_offset": 2239692,
@@ -79902,18 +80038,27 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "pbr:pbr_CorrugatedSteel002",
+   "free": "generated:foliage_card:9f4080",
    "generic": "pbr_CorrugatedSteel002",
+   "glass": "foliage_card",
    "index_count": 96,
    "index_offset": 2444284,
    "lightmap_page": 0,
    "material": "spongebob/krusty_krab/clam1",
+   "material_flags": [
+    "alpha_test"
+   ],
    "model": 0,
    "normal_offset": 2443584,
    "position_offset": 2443284,
    "texels": [
     512,
     512
+   ],
+   "tint": [
+    1.0,
+    0.374,
+    0.692
    ],
    "uv2_offset": 2444084,
    "uv_offset": 2443884,
@@ -79939,18 +80084,27 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "pbr:pbr_PaintedMetal017",
+   "free": "generated:foliage_card:bf809f",
    "generic": "pbr_PaintedMetal017",
+   "glass": "foliage_card",
    "index_count": 288,
    "index_offset": 2447668,
    "lightmap_page": 0,
    "material": "spongebob/krusty_krab/clam2",
+   "material_flags": [
+    "alpha_test"
+   ],
    "model": 0,
    "normal_offset": 2445568,
    "position_offset": 2444668,
    "texels": [
     512,
     512
+   ],
+   "tint": [
+    1.0,
+    0.61,
+    0.825
    ],
    "uv2_offset": 2447068,
    "uv_offset": 2446468,
@@ -80645,6 +80799,9 @@
    "index_offset": 2511372,
    "lightmap_page": 0,
    "material": "glass/glasswindow015a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2510700,
    "position_offset": 2510412,
@@ -82829,6 +82986,9 @@
    "index_offset": 2691408,
    "lightmap_page": 0,
    "material": "effects/metalfence007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2690736,
    "position_offset": 2690448,
@@ -82870,6 +83030,9 @@
    "index_offset": 2691872,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2691648,
    "position_offset": 2691552,
@@ -83826,6 +83989,9 @@
    "index_offset": 2890948,
    "lightmap_page": 0,
    "material": "glass/combineglass001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2889912,
    "position_offset": 2889468,
@@ -84105,18 +84271,27 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "pbr:pbr_CorrugatedSteel002",
+   "free": "generated:foliage_card:9f4080",
    "generic": "pbr_CorrugatedSteel002",
+   "glass": "foliage_card",
    "index_count": 96,
    "index_offset": 2904972,
    "lightmap_page": 0,
    "material": "spongebob/krusty_krab/clam1",
+   "material_flags": [
+    "alpha_test"
+   ],
    "model": 0,
    "normal_offset": 2904272,
    "position_offset": 2903972,
    "texels": [
     512,
     512
+   ],
+   "tint": [
+    1.0,
+    0.374,
+    0.692
    ],
    "uv2_offset": 2904772,
    "uv_offset": 2904572,
@@ -84142,18 +84317,27 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "pbr:pbr_PaintedMetal017",
+   "free": "generated:foliage_card:bf809f",
    "generic": "pbr_PaintedMetal017",
+   "glass": "foliage_card",
    "index_count": 288,
    "index_offset": 2908356,
    "lightmap_page": 0,
    "material": "spongebob/krusty_krab/clam2",
+   "material_flags": [
+    "alpha_test"
+   ],
    "model": 0,
    "normal_offset": 2906256,
    "position_offset": 2905356,
    "texels": [
     512,
     512
+   ],
+   "tint": [
+    1.0,
+    0.61,
+    0.825
    ],
    "uv2_offset": 2907756,
    "uv_offset": 2907156,
@@ -84676,6 +84860,9 @@
    "index_offset": 3065340,
    "lightmap_page": 0,
    "material": "effects/metalfence007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3064892,
    "position_offset": 3064700,
@@ -84716,6 +84903,9 @@
    "index_offset": 3065596,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3065484,
    "position_offset": 3065436,
@@ -85969,12 +86159,16 @@
     0.0959
    ],
    "entity": null,
-   "free": "pbr:pbr_Metal028",
+   "free": "generated:fence:202020",
    "generic": "pbr_Metal028",
+   "glass": "fence",
    "index_count": 12,
    "index_offset": 3242540,
    "lightmap_page": 0,
    "material": "cs_havana/metalfence007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3242204,
    "position_offset": 3242060,
@@ -86239,6 +86433,9 @@
    "index_offset": 3261084,
    "lightmap_page": 0,
    "material": "glass/combineglass001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3260860,
    "position_offset": 3260764,
@@ -87189,6 +87386,9 @@
    "index_offset": 3412376,
    "lightmap_page": 0,
    "material": "glass/combineglass001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3412152,
    "position_offset": 3412056,
@@ -87240,6 +87440,9 @@
    "index_offset": 3413024,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3412604,
    "position_offset": 3412424,
@@ -87406,12 +87609,16 @@
     0.0959
    ],
    "entity": null,
-   "free": "pbr:pbr_Metal028",
+   "free": "generated:fence:202020",
    "generic": "pbr_Metal028",
+   "glass": "fence",
    "index_count": 6,
    "index_offset": 3422564,
    "lightmap_page": 0,
    "material": "cs_havana/metalfence007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3422452,
    "position_offset": 3422404,
@@ -89343,18 +89550,27 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "pbr:pbr_CorrugatedSteel002",
+   "free": "generated:foliage_card:9f4080",
    "generic": "pbr_CorrugatedSteel002",
+   "glass": "foliage_card",
    "index_count": 96,
    "index_offset": 3542428,
    "lightmap_page": 0,
    "material": "spongebob/krusty_krab/clam1",
+   "material_flags": [
+    "alpha_test"
+   ],
    "model": 0,
    "normal_offset": 3541728,
    "position_offset": 3541428,
    "texels": [
     512,
     512
+   ],
+   "tint": [
+    1.0,
+    0.374,
+    0.692
    ],
    "uv2_offset": 3542228,
    "uv_offset": 3542028,
@@ -89379,18 +89595,27 @@
    ],
    "displacement": true,
    "entity": null,
-   "free": "pbr:pbr_PaintedMetal017",
+   "free": "generated:foliage_card:bf809f",
    "generic": "pbr_PaintedMetal017",
+   "glass": "foliage_card",
    "index_count": 288,
    "index_offset": 3545812,
    "lightmap_page": 0,
    "material": "spongebob/krusty_krab/clam2",
+   "material_flags": [
+    "alpha_test"
+   ],
    "model": 0,
    "normal_offset": 3543712,
    "position_offset": 3542812,
    "texels": [
     512,
     512
+   ],
+   "tint": [
+    1.0,
+    0.61,
+    0.825
    ],
    "uv2_offset": 3545212,
    "uv_offset": 3544612,
@@ -89684,6 +89909,9 @@
    "index_offset": 3558192,
    "lightmap_page": 0,
    "material": "glass/combineglass001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 2,
    "normal_offset": 3556120,
    "position_offset": 3555232,
@@ -89828,12 +90056,17 @@
     0.1859
    ],
    "entity": 216,
-   "free": "pbr:pbr_rusted_shutter",
+   "free": "generated:foliage_card:404020",
    "generic": "pbr_rusted_shutter",
+   "glass": "foliage_card",
    "index_count": 12,
    "index_offset": 3562664,
    "lightmap_page": 0,
    "material": "spongebob/krusty_krab/rope",
+   "material_flags": [
+    "alpha_test",
+    "two_sided"
+   ],
    "model": 2,
    "normal_offset": 3562440,
    "position_offset": 3562344,
@@ -89841,6 +90074,11 @@
    "texels": [
     512,
     512
+   ],
+   "tint": [
+    1.0,
+    0.977,
+    0.94
    ],
    "uv2_offset": 3562600,
    "uv_offset": 3562536,
@@ -89871,6 +90109,9 @@
    "index_offset": 3564952,
    "lightmap_page": 0,
    "material": "glass/combineglass001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 3,
    "normal_offset": 3563384,
    "position_offset": 3562712,
@@ -90234,6 +90475,9 @@
    "index_offset": 3600104,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 12,
    "normal_offset": 3599880,
    "position_offset": 3599784,
@@ -90295,6 +90539,9 @@
    "index_offset": 3602888,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 13,
    "normal_offset": 3602664,
    "position_offset": 3602568,
@@ -90445,6 +90692,9 @@
    "index_offset": 3608616,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 16,
    "normal_offset": 3608392,
    "position_offset": 3608296,
@@ -90509,6 +90759,9 @@
    "index_offset": 3611920,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 24,
    "normal_offset": 3611808,
    "position_offset": 3611760,
@@ -90960,7 +91213,7 @@
     0.4095
    ],
    "entity": 493,
-   "free": "pbr:pbr_Wood091B",
+   "free": "generated:glass:bf9f60",
    "generic": "pbr_Wood091B",
    "glass": "glass",
    "index_count": 54,
@@ -90993,7 +91246,7 @@
     0.6489
    ],
    "entity": 493,
-   "free": "pbr:pbr_MetalPlates014",
+   "free": "generated:glass:809f9f",
    "generic": "pbr_MetalPlates014",
    "glass": "glass",
    "index_count": 30,
@@ -91117,6 +91370,9 @@
    "index_offset": 3635336,
    "lightmap_page": 0,
    "material": "glass/combineglass001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 44,
    "normal_offset": 3635112,
    "position_offset": 3635016,
@@ -91401,6 +91657,9 @@
    "index_offset": 3637752,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 56,
    "normal_offset": 3637640,
    "position_offset": 3637592,
@@ -91473,6 +91732,9 @@
    "index_offset": 3638120,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 57,
    "normal_offset": 3638008,
    "position_offset": 3637960,
@@ -95428,12 +95690,17 @@
     0.1859
    ],
    "entity": 828,
-   "free": "pbr:pbr_rusted_shutter",
+   "free": "generated:foliage_card:404020",
    "generic": "pbr_rusted_shutter",
+   "glass": "foliage_card",
    "index_count": 12,
    "index_offset": 3891548,
    "lightmap_page": 0,
    "material": "spongebob/krusty_krab/rope",
+   "material_flags": [
+    "alpha_test",
+    "two_sided"
+   ],
    "model": 201,
    "normal_offset": 3891324,
    "position_offset": 3891228,
@@ -95441,6 +95708,11 @@
    "texels": [
     512,
     512
+   ],
+   "tint": [
+    1.0,
+    0.977,
+    0.94
    ],
    "uv2_offset": 3891484,
    "uv_offset": 3891420,

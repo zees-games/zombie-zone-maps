@@ -89,7 +89,8 @@
    "func_button.OnPressed->sound 3",
    "trigger_multiple.OnStartTouch->municionInf2",
    "trigger_multiple.OnStartTouch->rock10"
-  ]
+  ],
+  "surfaces_opaque": []
  },
  "counts": {
   "textures_unmapped": 0,
@@ -98,6 +99,7 @@
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 9,
-  "links_unresolved": 4
+  "links_unresolved": 4,
+  "surfaces_opaque": 0
  }
 }

@@ -11,8 +11,8 @@
    "default": 8
   },
   "free_by_tier": {
-   "addon": 53,
-   "default": 6,
+   "addon": 51,
+   "default": 8,
    "nearest": 1
   },
   "nearest_photo": [
@@ -93,7 +93,8 @@
    "weapon_zs_hunter.spawnflags",
    "weapon_zs_silencer.spawnflags"
   ],
-  "links_unresolved": []
+  "links_unresolved": [],
+  "surfaces_opaque": []
  },
  "counts": {
   "textures_unmapped": 0,
@@ -102,6 +103,7 @@
   "sounds_unmapped": 1,
   "classes_unmapped": 0,
   "keys_unmapped": 10,
-  "links_unresolved": 0
+  "links_unresolved": 0,
+  "surfaces_opaque": 0
  }
 }

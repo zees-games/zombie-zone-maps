@@ -5,14 +5,14 @@
  "sha256": "10712a929fb156433c57b4827cc1c64901e303cbc99b376a126019d3fbb04a09",
  "textures": {
   "looked_up": 182,
-  "drawn": 182,
+  "drawn": 183,
   "by_tier": {
    "addon": 170,
    "default": 12
   },
   "free_by_tier": {
-   "addon": 170,
-   "default": 12
+   "addon": 167,
+   "default": 16
   },
   "nearest_photo": []
  },
@@ -80,6 +80,11 @@
   ],
   "links_unresolved": [
    "trigger_once.OnTrigger->walls_trigger_hurt"
+  ],
+  "surfaces_opaque": [
+   "de_tides/tiddecclosed",
+   "wood/wooddoor007b",
+   "wood/wooddoor048b"
   ]
  },
  "counts": {
@@ -89,6 +94,7 @@
   "sounds_unmapped": 2,
   "classes_unmapped": 0,
   "keys_unmapped": 6,
-  "links_unresolved": 1
+  "links_unresolved": 1,
+  "surfaces_opaque": 3
  }
 }

@@ -105,7 +105,11 @@
    "point_zsmessage.textcolor",
    "zombiegasses.radius"
   ],
-  "links_unresolved": []
+  "links_unresolved": [],
+  "surfaces_opaque": [
+   "wood/woodtrack001a",
+   "wood/woodwall019a"
+  ]
  },
  "counts": {
   "textures_unmapped": 0,
@@ -114,6 +118,7 @@
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 17,
-  "links_unresolved": 0
+  "links_unresolved": 0,
+  "surfaces_opaque": 2
  }
 }

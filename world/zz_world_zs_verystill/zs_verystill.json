@@ -57920,6 +57920,17 @@
    },
    {
     "author": "TMC (generated for dot-map)",
+    "count": 1,
+    "file": "own/own_box_600x229x200_b0b0a8/own_box_600x229x200_b0b0a8.glb",
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "TMC generated model",
+    "stand_in": "lib/own_box_600x229x200_b0b0a8",
+    "store_file": "own/own_box_600x229x200_b0b0a8/own_box_600x229x200_b0b0a8.glb",
+    "url": "https://github.com/modcommunity/dot-map"
+   },
+   {
+    "author": "TMC (generated for dot-map)",
     "count": 2,
     "file": "own/own_cyl_183x13x236_4a5a4a/own_cyl_183x13x236_4a5a4a.glb",
     "files": [],
@@ -57927,6 +57938,17 @@
     "source": "TMC generated model",
     "stand_in": "lib/own_cyl_183x13x236_4a5a4a",
     "store_file": "own/own_cyl_183x13x236_4a5a4a/own_cyl_183x13x236_4a5a4a.glb",
+    "url": "https://github.com/modcommunity/dot-map"
+   },
+   {
+    "author": "TMC (generated for dot-map)",
+    "count": 4,
+    "file": "own/own_cyl_30x500x30_6a5038/own_cyl_30x500x30_6a5038.glb",
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "TMC generated model",
+    "stand_in": "lib/own_cyl_30x500x30_6a5038",
+    "store_file": "own/own_cyl_30x500x30_6a5038/own_cyl_30x500x30_6a5038.glb",
     "url": "https://github.com/modcommunity/dot-map"
    },
    {
@@ -58217,7 +58239,7 @@
    },
    {
     "author": "UM JOORIN",
-    "count": 7,
+    "count": 3,
     "file": "polyhaven/korean_fire_extinguisher_01/korean_fire_extinguisher_01.gltf",
     "files": [],
     "licence": "CC0-1.0",
@@ -58448,7 +58470,7 @@
    },
    {
     "author": "Slinc",
-    "count": 4,
+    "count": 3,
     "file": "polyhaven/propane_tank/propane_tank.gltf",
     "files": [],
     "licence": "CC0-1.0",
@@ -59604,7 +59626,7 @@
    {
     "count": 4,
     "model": "models/props_c17/utilitypole01d.mdl",
-    "stand_in": "lib/ph_korean_fire_extinguisher_01"
+    "stand_in": "lib/own_cyl_30x500x30_6a5038"
    },
    {
     "count": 1,
@@ -60824,7 +60846,7 @@
    {
     "count": 1,
     "model": "models/props_wasteland/horizontalcoolingtank04.mdl",
-    "stand_in": "lib/ph_propane_tank"
+    "stand_in": "lib/own_box_600x229x200_b0b0a8"
    },
    {
     "count": 1,
@@ -61016,43 +61038,43 @@
    "shared": [
     {
      "id": "gamemann/store-shared-032d4124",
-     "version": "hc3885410"
+     "version": "h857f871c"
     },
     {
      "id": "gamemann/store-shared-066e1f46",
-     "version": "hd3da4464"
+     "version": "h487f7f10"
     },
     {
      "id": "gamemann/store-shared-077741ae",
-     "version": "hdcd0aeee"
+     "version": "h4dd7fa74"
     },
     {
      "id": "gamemann/store-shared-0a281510",
-     "version": "h8d187477"
+     "version": "h0de9d421"
     },
     {
      "id": "gamemann/store-shared-17e5e1ce",
-     "version": "h95164716"
+     "version": "he844192f"
     },
     {
      "id": "gamemann/store-shared-295221a6",
-     "version": "h07fc15aa"
+     "version": "hc8cb24a2"
     },
     {
      "id": "gamemann/store-shared-2b9549c3",
-     "version": "h7de7db0f"
+     "version": "h48823ec5"
     },
     {
      "id": "gamemann/store-shared-47c24036",
-     "version": "h4962c93a"
+     "version": "h76253300"
     },
     {
      "id": "gamemann/store-shared-4bf5f05e",
-     "version": "hfeeb5dd9"
+     "version": "h66036cb0"
     },
     {
      "id": "gamemann/store-shared-4ec7a084",
-     "version": "ha3fd77b1"
+     "version": "h4ba16e16"
     },
     {
      "id": "gamemann/store-shared-4fc759d6",
@@ -61060,75 +61082,79 @@
     },
     {
      "id": "gamemann/store-shared-51f622ba",
-     "version": "hfbe6e374"
+     "version": "h22b9e17c"
     },
     {
      "id": "gamemann/store-shared-6648a6d9",
-     "version": "hc26cca93"
+     "version": "hf4690944"
     },
     {
      "id": "gamemann/store-shared-67ce8f74",
-     "version": "h3237ab16"
+     "version": "h2acf2079"
     },
     {
      "id": "gamemann/store-shared-6975c627",
-     "version": "h1a6ef3a5"
+     "version": "h306a8b81"
     },
     {
      "id": "gamemann/store-shared-7025de02",
-     "version": "hd75db662"
+     "version": "hd84e8843"
     },
     {
      "id": "gamemann/store-shared-74774f64",
-     "version": "h3a47b547"
+     "version": "h76e39f63"
     },
     {
      "id": "gamemann/store-shared-7bde27a9",
-     "version": "h55434c57"
+     "version": "h8695d7d4"
     },
     {
      "id": "gamemann/store-shared-7d356297",
-     "version": "h1f41a0f7"
+     "version": "h8b901817"
     },
     {
      "id": "gamemann/store-shared-82e676c6",
-     "version": "ha08c019a"
+     "version": "he307d0a5"
     },
     {
      "id": "gamemann/store-shared-a61b34e3",
-     "version": "h9a74a0ee"
+     "version": "h7acc58f2"
     },
     {
      "id": "gamemann/store-shared-aeed8852",
-     "version": "h0f62e021"
+     "version": "hf5293f38"
+    },
+    {
+     "id": "gamemann/store-shared-b8bcc5ac",
+     "version": "h8c9eed17"
     },
     {
      "id": "gamemann/store-shared-b9b39d95",
-     "version": "he5650861"
+     "version": "hcc7bcc07"
     },
     {
      "id": "gamemann/store-shared-bda112a7",
-     "version": "haa19c00d"
+     "version": "h64933a77"
     },
     {
      "id": "gamemann/store-shared-cab6fcc7",
-     "version": "h66165e51"
+     "version": "h39fb25ac"
     },
     {
      "id": "gamemann/store-shared-cb747a6b",
-     "version": "hf50f74b5"
+     "version": "h2753f7b7"
     },
     {
      "id": "gamemann/store-shared-cda544fc",
-     "version": "hbdee9a10"
+     "version": "hef36f196"
     },
     {
      "id": "gamemann/store-shared-d6c13a74",
-     "version": "hf8eaea6d"
+     "version": "h3cc882a4"
     },
     {
      "id": "gamemann/store-shared-dbeda0cd",
-     "version": "h00f943e6"
+     "version": "h35f76fe6"
     },
     {
      "id": "gamemann/store-shared-df56cff2",
@@ -61136,30 +61162,30 @@
     },
     {
      "id": "gamemann/store-shared-e0978aee",
-     "version": "h625cb847"
+     "version": "h33dbc509"
     },
     {
      "id": "gamemann/store-shared-e6a16335",
-     "version": "ha05665a9"
+     "version": "he38f9e38"
     },
     {
      "id": "gamemann/store-shared-e79b012c",
-     "version": "h92061139"
+     "version": "hf2ac216f"
     },
     {
      "id": "gamemann/store-shared-ea9ca50c",
-     "version": "h178d7356"
+     "version": "h45c21688"
     },
     {
      "id": "gamemann/store-shared-f224d072",
-     "version": "h26abb42f"
+     "version": "h3faef627"
     },
     {
      "id": "gamemann/store-shared-f7db15ea",
-     "version": "h2667d50a"
+     "version": "h93c55ec3"
     }
    ],
-   "version": "ha4f2bd64"
+   "version": "h46bafc77"
   },
   "textures": [
    {
@@ -61284,7 +61310,7 @@
     "url": "https://ambientcg.com/view?id=Tiles059"
    },
    {
-    "area": 10025.0,
+    "area": 9241.3,
     "author": "Lennart Demes and contributors",
     "colour": [
      0.125,
@@ -61302,7 +61328,7 @@
     "sources": [
      "card/treecard_greenery01"
     ],
-    "surfaces": 6,
+    "surfaces": 1,
     "tier": "1k",
     "url": "https://ambientcg.com/view?id=Tiles106"
    },
@@ -63122,7 +63148,7 @@
     "url": "https://ambientcg.com/view?id=Concrete042B"
    },
    {
-    "area": 62.8,
+    "area": 62.5,
     "author": "Lennart Demes and contributors",
     "colour": [
      0.125,
@@ -63140,10 +63166,9 @@
     "sources": [
      "metal/metaltruss004a",
      "metal/metaltruss011a",
-     "metal/metaltruss012a",
-     "props/metalrebar001a"
+     "metal/metaltruss012a"
     ],
-    "surfaces": 8,
+    "surfaces": 7,
     "tier": "1k",
     "url": "https://ambientcg.com/view?id=Metal028"
    },
@@ -63697,6 +63722,27 @@
     "url": "https://polyhaven.com/a/corrugated_iron"
    },
    {
+    "area": 783.8,
+    "author": "TMC (generated)",
+    "colour": [
+     0.125,
+     0.25,
+     0.125
+    ],
+    "file": "textures/gen_foliage_card_204020.png",
+    "generic": "foliage_card",
+    "how": "table",
+    "key": "generated:foliage_card:204020",
+    "kind": "generated",
+    "licence": "CC0-1.0",
+    "source": "dot-map cutout_texture",
+    "sources": [
+     "card/treecard_greenery01"
+    ],
+    "surfaces": 5,
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+   },
+   {
     "area": 128.2,
     "author": "Lennart Demes and contributors",
     "colour": [
@@ -64117,6 +64163,27 @@
     "surfaces": 1,
     "tier": "1k",
     "url": "https://polyhaven.com/a/wooden_barrel"
+   },
+   {
+    "area": 0.3,
+    "author": "TMC (generated)",
+    "colour": [
+     0.125,
+     0.125,
+     0.125
+    ],
+    "file": "textures/gen_bars_202020.png",
+    "generic": "bars",
+    "how": "table",
+    "key": "generated:bars:202020",
+    "kind": "generated",
+    "licence": "CC0-1.0",
+    "source": "dot-map cutout_texture",
+    "sources": [
+     "props/metalrebar001a"
+    ],
+    "surfaces": 1,
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 0.1,
@@ -68728,8 +68795,7 @@
  ],
  "name": "zs_verystill_v1a",
  "notes": [
-  "289 glass surfaces (kinds glass, grate)",
-  "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): PROPS/METALREBAR001A 1"
+  "295 glass surfaces (kinds bars, foliage_card, glass, grate)"
  ],
  "pickups": [
   {
@@ -76352,9 +76418,9 @@
    "model": "models/props_wasteland/horizontalcoolingtank04.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.6371,
+   "size": 6.0,
    "solid": 6,
-   "stand_in": "lib/ph_propane_tank",
+   "stand_in": "lib/own_box_600x229x200_b0b0a8",
    "yaw": 0.0
   },
   {
@@ -82175,9 +82241,9 @@
    "model": "models/props_c17/utilitypole01d.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.7403,
+   "size": 5.0,
    "solid": 6,
-   "stand_in": "lib/ph_korean_fire_extinguisher_01",
+   "stand_in": "lib/own_cyl_30x500x30_6a5038",
    "yaw": 90.0
   },
   {
@@ -83954,9 +84020,9 @@
    "model": "models/props_c17/utilitypole01d.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.7403,
+   "size": 5.0,
    "solid": 6,
-   "stand_in": "lib/ph_korean_fire_extinguisher_01",
+   "stand_in": "lib/own_cyl_30x500x30_6a5038",
    "yaw": 90.0
   },
   {
@@ -83968,9 +84034,9 @@
    "model": "models/props_c17/utilitypole01d.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.7403,
+   "size": 5.0,
    "solid": 6,
-   "stand_in": "lib/ph_korean_fire_extinguisher_01",
+   "stand_in": "lib/own_cyl_30x500x30_6a5038",
    "yaw": 90.0
   },
   {
@@ -89579,9 +89645,9 @@
    "model": "models/props_c17/utilitypole01d.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.7403,
+   "size": 5.0,
    "solid": 6,
-   "stand_in": "lib/ph_korean_fire_extinguisher_01",
+   "stand_in": "lib/own_cyl_30x500x30_6a5038",
    "yaw": 120.0
   },
   {
@@ -94443,6 +94509,7 @@
    "yaw": 90.0
   }
  ],
+ "roles": [],
  "scripts": [],
  "settings": {
   "r_radiosity": 4
@@ -100388,6 +100455,9 @@
    "index_offset": 1726732,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1726620,
    "position_offset": 1726572,
@@ -100426,6 +100496,9 @@
    "index_offset": 1726916,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1726804,
    "position_offset": 1726756,
@@ -102430,6 +102503,9 @@
    "index_offset": 1892860,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1892524,
    "position_offset": 1892380,
@@ -102465,6 +102541,9 @@
    "index_offset": 1893092,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1892980,
    "position_offset": 1892932,
@@ -102500,6 +102579,9 @@
    "index_offset": 1893596,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1893260,
    "position_offset": 1893116,
@@ -102535,6 +102617,9 @@
    "index_offset": 1893828,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1893716,
    "position_offset": 1893668,
@@ -102571,6 +102656,9 @@
    "index_offset": 1894012,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1893900,
    "position_offset": 1893852,
@@ -102608,6 +102696,9 @@
    "index_offset": 1894196,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1894084,
    "position_offset": 1894036,
@@ -102644,6 +102735,9 @@
    "index_offset": 1894700,
    "lightmap_page": 0,
    "material": "glass/offlightcover_off",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1894364,
    "position_offset": 1894220,
@@ -102681,6 +102775,9 @@
    "index_offset": 1895732,
    "lightmap_page": 0,
    "material": "glass/offlightcover_off",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1895060,
    "position_offset": 1894772,
@@ -102716,6 +102813,9 @@
    "index_offset": 1896356,
    "lightmap_page": 0,
    "material": "glass/offlightcover_off",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1896020,
    "position_offset": 1895876,
@@ -108266,6 +108366,9 @@
    "index_offset": 2296864,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2296752,
    "position_offset": 2296704,
@@ -108301,6 +108404,9 @@
    "index_offset": 2297048,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2296936,
    "position_offset": 2296888,
@@ -108337,6 +108443,9 @@
    "index_offset": 2297232,
    "lightmap_page": 0,
    "material": "glass/offlightcover_off",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2297120,
    "position_offset": 2297072,
@@ -113038,6 +113147,9 @@
    "index_offset": 2614024,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2613800,
    "position_offset": 2613704,
@@ -113078,6 +113190,9 @@
    "index_offset": 2614552,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2614216,
    "position_offset": 2614072,
@@ -113116,6 +113231,9 @@
    "index_offset": 2615424,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2614864,
    "position_offset": 2614624,
@@ -113154,6 +113272,9 @@
    "index_offset": 2616504,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2615832,
    "position_offset": 2615544,
@@ -113194,6 +113315,10 @@
    "index_offset": 2617328,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 0,
    "normal_offset": 2616852,
    "position_offset": 2616648,
@@ -113232,6 +113357,9 @@
    "index_offset": 2618076,
    "lightmap_page": 0,
    "material": "glass/offlightcover_off",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2617628,
    "position_offset": 2617436,
@@ -113268,6 +113396,9 @@
    "index_offset": 2618492,
    "lightmap_page": 0,
    "material": "glass/offlightcover_off",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2618268,
    "position_offset": 2618172,
@@ -113304,6 +113435,9 @@
    "index_offset": 2618860,
    "lightmap_page": 0,
    "material": "glass/offlightcover_off",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2618636,
    "position_offset": 2618540,
@@ -115844,6 +115978,10 @@
    "index_offset": 2835876,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 0,
    "normal_offset": 2835652,
    "position_offset": 2835556,
@@ -118554,6 +118692,9 @@
    "index_offset": 2986484,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2986372,
    "position_offset": 2986324,
@@ -118593,6 +118734,9 @@
    "index_offset": 2987308,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2986748,
    "position_offset": 2986508,
@@ -118629,6 +118773,9 @@
    "index_offset": 2987748,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2987524,
    "position_offset": 2987428,
@@ -118664,6 +118811,9 @@
    "index_offset": 2987956,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2987844,
    "position_offset": 2987796,
@@ -118700,6 +118850,9 @@
    "index_offset": 2988300,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2988076,
    "position_offset": 2987980,
@@ -118737,6 +118890,9 @@
    "index_offset": 2988988,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2988540,
    "position_offset": 2988348,
@@ -118772,6 +118928,9 @@
    "index_offset": 2989564,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2989228,
    "position_offset": 2989084,
@@ -118807,6 +118966,9 @@
    "index_offset": 2990116,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2989780,
    "position_offset": 2989636,
@@ -118843,6 +119005,9 @@
    "index_offset": 2990348,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2990236,
    "position_offset": 2990188,
@@ -118879,6 +119044,9 @@
    "index_offset": 2990532,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2990420,
    "position_offset": 2990372,
@@ -118920,6 +119088,9 @@
    "index_offset": 2990876,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2990652,
    "position_offset": 2990556,
@@ -118991,6 +119162,9 @@
    "index_offset": 2992188,
    "lightmap_page": 0,
    "material": "glass/offlightcover_off",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2992076,
    "position_offset": 2992028,
@@ -119027,6 +119201,9 @@
    "index_offset": 2993172,
    "lightmap_page": 0,
    "material": "glass/offlightcover_off",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2992500,
    "position_offset": 2992212,
@@ -119062,6 +119239,9 @@
    "index_offset": 2993796,
    "lightmap_page": 0,
    "material": "glass/offlightcover_off",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2993460,
    "position_offset": 2993316,
@@ -119098,6 +119278,9 @@
    "index_offset": 2994508,
    "lightmap_page": 0,
    "material": "glass/offlightcover_off",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2994060,
    "position_offset": 2993868,
@@ -123898,18 +124081,27 @@
     0.1002
    ],
    "entity": null,
-   "free": "pbr:pbr_Tiles106",
+   "free": "generated:foliage_card:204020",
    "generic": "pbr_Tiles106",
+   "glass": "foliage_card",
    "index_count": 30,
    "index_offset": 3426380,
    "lightmap_page": 0,
    "material": "card/treecard_greenery01",
+   "material_flags": [
+    "alpha_test"
+   ],
    "model": 0,
    "normal_offset": 3425876,
    "position_offset": 3425660,
    "texels": [
     512,
     64
+   ],
+   "tint": [
+    0.748,
+    1.0,
+    0.525
    ],
    "uv2_offset": 3426236,
    "uv_offset": 3426092,
@@ -127330,6 +127522,9 @@
    "index_offset": 3726932,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3726820,
    "position_offset": 3726772,
@@ -127365,6 +127560,9 @@
    "index_offset": 3727116,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3727004,
    "position_offset": 3726956,
@@ -127401,6 +127599,10 @@
    "index_offset": 3727380,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 0,
    "normal_offset": 3727212,
    "position_offset": 3727140,
@@ -127437,6 +127639,10 @@
    "index_offset": 3727644,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 0,
    "normal_offset": 3727476,
    "position_offset": 3727404,
@@ -130920,18 +131126,27 @@
     0.0865
    ],
    "entity": null,
-   "free": "pbr:pbr_Metal028",
+   "free": "generated:bars:202020",
    "generic": "pbr_Metal028",
+   "glass": "bars",
    "index_count": 9,
    "index_offset": 4021796,
    "lightmap_page": 0,
    "material": "props/metalrebar001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4021656,
    "position_offset": 4021596,
    "texels": [
     512,
     512
+   ],
+   "tint": [
+    1.0,
+    0.871,
+    0.769
    ],
    "uv2_offset": 4021756,
    "uv_offset": 4021716,
@@ -132314,6 +132529,9 @@
    "index_offset": 4104888,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4103600,
    "position_offset": 4103048,
@@ -132354,6 +132572,9 @@
    "index_offset": 4107456,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4105860,
    "position_offset": 4105176,
@@ -132391,6 +132612,10 @@
    "index_offset": 4108164,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 0,
    "normal_offset": 4107912,
    "position_offset": 4107804,
@@ -132448,6 +132673,10 @@
    "index_offset": 4108944,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 0,
    "normal_offset": 4108440,
    "position_offset": 4108224,
@@ -132496,6 +132725,10 @@
    "index_offset": 4110944,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 0,
    "normal_offset": 4109628,
    "position_offset": 4109064,
@@ -132547,6 +132780,10 @@
    "index_offset": 4111652,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 0,
    "normal_offset": 4111400,
    "position_offset": 4111292,
@@ -132594,6 +132831,10 @@
    "index_offset": 4112432,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 0,
    "normal_offset": 4111928,
    "position_offset": 4111712,
@@ -135238,6 +135479,10 @@
    "index_offset": 4321948,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 0,
    "normal_offset": 4321836,
    "position_offset": 4321788,
@@ -135289,6 +135534,10 @@
    "index_offset": 4322292,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 0,
    "normal_offset": 4322068,
    "position_offset": 4321972,
@@ -135337,6 +135586,10 @@
    "index_offset": 4322700,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 0,
    "normal_offset": 4322448,
    "position_offset": 4322340,
@@ -135378,6 +135631,10 @@
    "index_offset": 4322920,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 0,
    "normal_offset": 4322808,
    "position_offset": 4322760,
@@ -135421,6 +135678,10 @@
    "index_offset": 4323264,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 0,
    "normal_offset": 4323040,
    "position_offset": 4322944,
@@ -138647,6 +138908,10 @@
    "index_offset": 4492924,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 0,
    "normal_offset": 4492224,
    "position_offset": 4491924,
@@ -138701,6 +138966,10 @@
    "index_offset": 4493864,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 0,
    "normal_offset": 4493332,
    "position_offset": 4493104,
@@ -138743,6 +139012,10 @@
    "index_offset": 4494396,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 0,
    "normal_offset": 4494116,
    "position_offset": 4493996,
@@ -138800,6 +139073,10 @@
    "index_offset": 4496068,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 0,
    "normal_offset": 4494948,
    "position_offset": 4494468,
@@ -141892,6 +142169,10 @@
    "index_offset": 4750828,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 0,
    "normal_offset": 4750464,
    "position_offset": 4750308,
@@ -141935,6 +142216,10 @@
    "index_offset": 4751232,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 0,
    "normal_offset": 4751008,
    "position_offset": 4750912,
@@ -141975,6 +142260,10 @@
    "index_offset": 4751440,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 0,
    "normal_offset": 4751328,
    "position_offset": 4751280,
@@ -142030,6 +142319,10 @@
    "index_offset": 4752104,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 0,
    "normal_offset": 4751656,
    "position_offset": 4751464,
@@ -143000,6 +143293,9 @@
    "index_offset": 4800244,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4800132,
    "position_offset": 4800084,
@@ -143035,6 +143331,9 @@
    "index_offset": 4800428,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4800316,
    "position_offset": 4800268,
@@ -143925,6 +144224,9 @@
    "index_offset": 4867320,
    "lightmap_page": 0,
    "material": "effects/metaltruss022b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4866984,
    "position_offset": 4866840,
@@ -144656,18 +144958,27 @@
     0.1002
    ],
    "entity": null,
-   "free": "pbr:pbr_Tiles106",
+   "free": "generated:foliage_card:204020",
    "generic": "pbr_Tiles106",
+   "glass": "foliage_card",
    "index_count": 24,
    "index_offset": 4891160,
    "lightmap_page": 0,
    "material": "card/treecard_greenery01",
+   "material_flags": [
+    "alpha_test"
+   ],
    "model": 0,
    "normal_offset": 4890712,
    "position_offset": 4890520,
    "texels": [
     512,
     64
+   ],
+   "tint": [
+    0.748,
+    1.0,
+    0.525
    ],
    "uv2_offset": 4891032,
    "uv_offset": 4890904,
@@ -145443,6 +145754,9 @@
    "index_offset": 4919460,
    "lightmap_page": 0,
    "material": "metal/milgrate001",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4919292,
    "position_offset": 4919220,
@@ -145711,18 +146025,27 @@
     0.1002
    ],
    "entity": null,
-   "free": "pbr:pbr_Tiles106",
+   "free": "generated:foliage_card:204020",
    "generic": "pbr_Tiles106",
+   "glass": "foliage_card",
    "index_count": 36,
    "index_offset": 4941912,
    "lightmap_page": 0,
    "material": "card/treecard_greenery01",
+   "material_flags": [
+    "alpha_test"
+   ],
    "model": 0,
    "normal_offset": 4941240,
    "position_offset": 4940952,
    "texels": [
     512,
     64
+   ],
+   "tint": [
+    0.748,
+    1.0,
+    0.525
    ],
    "uv2_offset": 4941720,
    "uv_offset": 4941528,
@@ -151845,6 +152168,10 @@
    "index_offset": 5264228,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 0,
    "normal_offset": 5264004,
    "position_offset": 5263908,
@@ -152763,6 +153090,9 @@
    "index_offset": 5317920,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5317808,
    "position_offset": 5317760,
@@ -152798,6 +153128,9 @@
    "index_offset": 5318104,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5317992,
    "position_offset": 5317944,
@@ -153318,6 +153651,9 @@
    "index_offset": 5379104,
    "lightmap_page": 0,
    "material": "effects/metaltruss022b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5378880,
    "position_offset": 5378784,
@@ -153743,18 +154079,27 @@
     0.1002
    ],
    "entity": null,
-   "free": "pbr:pbr_Tiles106",
+   "free": "generated:foliage_card:204020",
    "generic": "pbr_Tiles106",
+   "glass": "foliage_card",
    "index_count": 60,
    "index_offset": 5418316,
    "lightmap_page": 0,
    "material": "card/treecard_greenery01",
+   "material_flags": [
+    "alpha_test"
+   ],
    "model": 0,
    "normal_offset": 5417196,
    "position_offset": 5416716,
    "texels": [
     512,
     64
+   ],
+   "tint": [
+    0.748,
+    1.0,
+    0.525
    ],
    "uv2_offset": 5417996,
    "uv_offset": 5417676,
@@ -155031,18 +155376,27 @@
     0.1002
    ],
    "entity": null,
-   "free": "pbr:pbr_Tiles106",
+   "free": "generated:foliage_card:204020",
    "generic": "pbr_Tiles106",
+   "glass": "foliage_card",
    "index_count": 12,
    "index_offset": 5516832,
    "lightmap_page": 0,
    "material": "card/treecard_greenery01",
+   "material_flags": [
+    "alpha_test"
+   ],
    "model": 0,
    "normal_offset": 5516608,
    "position_offset": 5516512,
    "texels": [
     512,
     64
+   ],
+   "tint": [
+    0.748,
+    1.0,
+    0.525
    ],
    "uv2_offset": 5516768,
    "uv_offset": 5516704,
@@ -155264,6 +155618,9 @@
    "index_offset": 5552740,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 5,
    "normal_offset": 5552628,
    "position_offset": 5552580,
@@ -155296,6 +155653,9 @@
    "index_offset": 5552924,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 6,
    "normal_offset": 5552812,
    "position_offset": 5552764,
@@ -155327,6 +155687,10 @@
    "index_offset": 5553108,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 7,
    "normal_offset": 5552996,
    "position_offset": 5552948,
@@ -155359,6 +155723,10 @@
    "index_offset": 5553292,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 8,
    "normal_offset": 5553180,
    "position_offset": 5553132,
@@ -155390,6 +155758,10 @@
    "index_offset": 5553476,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 9,
    "normal_offset": 5553364,
    "position_offset": 5553316,
@@ -155421,6 +155793,10 @@
    "index_offset": 5553660,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 10,
    "normal_offset": 5553548,
    "position_offset": 5553500,
@@ -155452,6 +155828,9 @@
    "index_offset": 5553844,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 11,
    "normal_offset": 5553732,
    "position_offset": 5553684,
@@ -155483,6 +155862,9 @@
    "index_offset": 5554028,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 11,
    "normal_offset": 5553916,
    "position_offset": 5553868,
@@ -155574,6 +155956,9 @@
    "index_offset": 5558628,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 12,
    "normal_offset": 5558516,
    "position_offset": 5558468,
@@ -155605,6 +155990,9 @@
    "index_offset": 5558812,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 12,
    "normal_offset": 5558700,
    "position_offset": 5558652,
@@ -155696,6 +156084,9 @@
    "index_offset": 5563412,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 13,
    "normal_offset": 5563300,
    "position_offset": 5563252,
@@ -155727,6 +156118,9 @@
    "index_offset": 5563596,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 13,
    "normal_offset": 5563484,
    "position_offset": 5563436,
@@ -155818,6 +156212,9 @@
    "index_offset": 5568196,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 14,
    "normal_offset": 5568084,
    "position_offset": 5568036,
@@ -155849,6 +156246,9 @@
    "index_offset": 5568380,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 14,
    "normal_offset": 5568268,
    "position_offset": 5568220,
@@ -155940,6 +156340,9 @@
    "index_offset": 5572980,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 15,
    "normal_offset": 5572868,
    "position_offset": 5572820,
@@ -155972,6 +156375,9 @@
    "index_offset": 5573164,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 15,
    "normal_offset": 5573052,
    "position_offset": 5573004,
@@ -156003,6 +156409,9 @@
    "index_offset": 5573348,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 16,
    "normal_offset": 5573236,
    "position_offset": 5573188,
@@ -156034,6 +156443,9 @@
    "index_offset": 5573532,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 16,
    "normal_offset": 5573420,
    "position_offset": 5573372,
@@ -156065,6 +156477,9 @@
    "index_offset": 5573716,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 19,
    "normal_offset": 5573604,
    "position_offset": 5573556,
@@ -156096,6 +156511,9 @@
    "index_offset": 5573900,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 19,
    "normal_offset": 5573788,
    "position_offset": 5573740,
@@ -156128,6 +156546,10 @@
    "index_offset": 5574084,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 20,
    "normal_offset": 5573972,
    "position_offset": 5573924,
@@ -156160,6 +156582,9 @@
    "index_offset": 5574268,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 20,
    "normal_offset": 5574156,
    "position_offset": 5574108,
@@ -156191,6 +156616,10 @@
    "index_offset": 5574452,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 21,
    "normal_offset": 5574340,
    "position_offset": 5574292,
@@ -156222,6 +156651,10 @@
    "index_offset": 5574636,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 22,
    "normal_offset": 5574524,
    "position_offset": 5574476,
@@ -156253,6 +156686,10 @@
    "index_offset": 5574820,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 23,
    "normal_offset": 5574708,
    "position_offset": 5574660,
@@ -156284,6 +156721,10 @@
    "index_offset": 5575004,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 24,
    "normal_offset": 5574892,
    "position_offset": 5574844,
@@ -156315,6 +156756,10 @@
    "index_offset": 5575188,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 25,
    "normal_offset": 5575076,
    "position_offset": 5575028,
@@ -156346,6 +156791,10 @@
    "index_offset": 5575372,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 26,
    "normal_offset": 5575260,
    "position_offset": 5575212,
@@ -156377,6 +156826,10 @@
    "index_offset": 5575556,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 27,
    "normal_offset": 5575444,
    "position_offset": 5575396,
@@ -156408,6 +156861,10 @@
    "index_offset": 5575740,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 28,
    "normal_offset": 5575628,
    "position_offset": 5575580,
@@ -156439,6 +156896,10 @@
    "index_offset": 5575924,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 29,
    "normal_offset": 5575812,
    "position_offset": 5575764,
@@ -156470,6 +156931,10 @@
    "index_offset": 5576108,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 30,
    "normal_offset": 5575996,
    "position_offset": 5575948,
@@ -156501,6 +156966,10 @@
    "index_offset": 5576292,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 31,
    "normal_offset": 5576180,
    "position_offset": 5576132,
@@ -156532,6 +157001,10 @@
    "index_offset": 5576476,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 32,
    "normal_offset": 5576364,
    "position_offset": 5576316,
@@ -156566,6 +157039,10 @@
    "index_offset": 5576660,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 33,
    "normal_offset": 5576548,
    "position_offset": 5576500,
@@ -156600,6 +157077,10 @@
    "index_offset": 5576844,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 34,
    "normal_offset": 5576732,
    "position_offset": 5576684,
@@ -156635,6 +157116,10 @@
    "index_offset": 5577188,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 35,
    "normal_offset": 5576964,
    "position_offset": 5576868,
@@ -156668,6 +157153,10 @@
    "index_offset": 5577396,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 36,
    "normal_offset": 5577284,
    "position_offset": 5577236,
@@ -156699,6 +157188,10 @@
    "index_offset": 5577580,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 37,
    "normal_offset": 5577468,
    "position_offset": 5577420,
@@ -156732,6 +157225,10 @@
    "index_offset": 5577764,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 38,
    "normal_offset": 5577652,
    "position_offset": 5577604,
@@ -156763,6 +157260,10 @@
    "index_offset": 5577948,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 39,
    "normal_offset": 5577836,
    "position_offset": 5577788,
@@ -156796,6 +157297,10 @@
    "index_offset": 5578132,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 40,
    "normal_offset": 5578020,
    "position_offset": 5577972,
@@ -156859,6 +157364,9 @@
    "index_offset": 5578500,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 43,
    "normal_offset": 5578388,
    "position_offset": 5578340,
@@ -156921,6 +157429,9 @@
    "index_offset": 5578868,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 44,
    "normal_offset": 5578756,
    "position_offset": 5578708,
@@ -156953,6 +157464,9 @@
    "index_offset": 5579052,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 45,
    "normal_offset": 5578940,
    "position_offset": 5578892,
@@ -156985,6 +157499,9 @@
    "index_offset": 5579236,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 45,
    "normal_offset": 5579124,
    "position_offset": 5579076,
@@ -157017,6 +157534,9 @@
    "index_offset": 5579420,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 46,
    "normal_offset": 5579308,
    "position_offset": 5579260,
@@ -157050,6 +157570,9 @@
    "index_offset": 5579604,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 46,
    "normal_offset": 5579492,
    "position_offset": 5579444,
@@ -157081,6 +157604,9 @@
    "index_offset": 5579788,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 47,
    "normal_offset": 5579676,
    "position_offset": 5579628,
@@ -157112,6 +157638,9 @@
    "index_offset": 5579972,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 47,
    "normal_offset": 5579860,
    "position_offset": 5579812,
@@ -157144,6 +157673,10 @@
    "index_offset": 5580156,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 48,
    "normal_offset": 5580044,
    "position_offset": 5579996,
@@ -157174,6 +157707,9 @@
    "index_offset": 5580340,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 49,
    "normal_offset": 5580228,
    "position_offset": 5580180,
@@ -157205,6 +157741,9 @@
    "index_offset": 5580524,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 49,
    "normal_offset": 5580412,
    "position_offset": 5580364,
@@ -157242,6 +157781,9 @@
    "index_offset": 5580708,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 50,
    "normal_offset": 5580596,
    "position_offset": 5580548,
@@ -157277,6 +157819,9 @@
    "index_offset": 5580892,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 50,
    "normal_offset": 5580780,
    "position_offset": 5580732,
@@ -157314,6 +157859,9 @@
    "index_offset": 5581076,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 51,
    "normal_offset": 5580964,
    "position_offset": 5580916,
@@ -157349,6 +157897,9 @@
    "index_offset": 5581260,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 51,
    "normal_offset": 5581148,
    "position_offset": 5581100,
@@ -157381,6 +157932,10 @@
    "index_offset": 5581444,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 55,
    "normal_offset": 5581332,
    "position_offset": 5581284,
@@ -157418,6 +157973,9 @@
    "index_offset": 5581628,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 56,
    "normal_offset": 5581516,
    "position_offset": 5581468,
@@ -157456,6 +158014,9 @@
    "index_offset": 5581812,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 56,
    "normal_offset": 5581700,
    "position_offset": 5581652,
@@ -157489,6 +158050,9 @@
    "index_offset": 5581996,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 57,
    "normal_offset": 5581884,
    "position_offset": 5581836,
@@ -157523,6 +158087,9 @@
    "index_offset": 5582180,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 57,
    "normal_offset": 5582068,
    "position_offset": 5582020,
@@ -157555,6 +158122,9 @@
    "index_offset": 5582364,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 58,
    "normal_offset": 5582252,
    "position_offset": 5582204,
@@ -157588,6 +158158,9 @@
    "index_offset": 5582548,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 58,
    "normal_offset": 5582436,
    "position_offset": 5582388,
@@ -157620,6 +158193,9 @@
    "index_offset": 5582732,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 59,
    "normal_offset": 5582620,
    "position_offset": 5582572,
@@ -157651,6 +158227,9 @@
    "index_offset": 5582916,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 59,
    "normal_offset": 5582804,
    "position_offset": 5582756,
@@ -157682,6 +158261,9 @@
    "index_offset": 5583100,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 60,
    "normal_offset": 5582988,
    "position_offset": 5582940,
@@ -157714,6 +158296,9 @@
    "index_offset": 5583284,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 60,
    "normal_offset": 5583172,
    "position_offset": 5583124,
@@ -157745,6 +158330,9 @@
    "index_offset": 5583468,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 61,
    "normal_offset": 5583356,
    "position_offset": 5583308,
@@ -157779,6 +158367,9 @@
    "index_offset": 5583652,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 61,
    "normal_offset": 5583540,
    "position_offset": 5583492,
@@ -157811,6 +158402,10 @@
    "index_offset": 5583836,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 62,
    "normal_offset": 5583724,
    "position_offset": 5583676,
@@ -157842,6 +158437,10 @@
    "index_offset": 5584020,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 63,
    "normal_offset": 5583908,
    "position_offset": 5583860,
@@ -157873,6 +158472,10 @@
    "index_offset": 5584204,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 64,
    "normal_offset": 5584092,
    "position_offset": 5584044,
@@ -157904,6 +158507,10 @@
    "index_offset": 5584388,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 65,
    "normal_offset": 5584276,
    "position_offset": 5584228,
@@ -157935,6 +158542,10 @@
    "index_offset": 5584572,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 66,
    "normal_offset": 5584460,
    "position_offset": 5584412,
@@ -157965,6 +158576,10 @@
    "index_offset": 5584756,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 67,
    "normal_offset": 5584644,
    "position_offset": 5584596,
@@ -157995,6 +158610,10 @@
    "index_offset": 5584940,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 68,
    "normal_offset": 5584828,
    "position_offset": 5584780,
@@ -158029,6 +158648,9 @@
    "index_offset": 5586924,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 69,
    "normal_offset": 5585552,
    "position_offset": 5584964,
@@ -158061,6 +158683,9 @@
    "index_offset": 5587320,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 69,
    "normal_offset": 5587236,
    "position_offset": 5587200,
@@ -158094,6 +158719,9 @@
    "index_offset": 5588212,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 69,
    "normal_offset": 5587596,
    "position_offset": 5587332,
@@ -158124,6 +158752,10 @@
    "index_offset": 5588492,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 70,
    "normal_offset": 5588380,
    "position_offset": 5588332,
@@ -158154,6 +158786,9 @@
    "index_offset": 5588676,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 70,
    "normal_offset": 5588564,
    "position_offset": 5588516,
@@ -158185,6 +158820,10 @@
    "index_offset": 5588860,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 71,
    "normal_offset": 5588748,
    "position_offset": 5588700,
@@ -158216,6 +158855,10 @@
    "index_offset": 5589044,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 72,
    "normal_offset": 5588932,
    "position_offset": 5588884,
@@ -158268,6 +158911,9 @@
    "index_offset": 5589228,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 73,
    "normal_offset": 5589116,
    "position_offset": 5589068,
@@ -158321,6 +158967,9 @@
    "index_offset": 5589412,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 73,
    "normal_offset": 5589300,
    "position_offset": 5589252,
@@ -158353,6 +159002,10 @@
    "index_offset": 5589596,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 75,
    "normal_offset": 5589484,
    "position_offset": 5589436,
@@ -158383,6 +159036,9 @@
    "index_offset": 5589780,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 76,
    "normal_offset": 5589668,
    "position_offset": 5589620,
@@ -158414,6 +159070,9 @@
    "index_offset": 5589964,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 76,
    "normal_offset": 5589852,
    "position_offset": 5589804,
@@ -158447,6 +159106,9 @@
    "index_offset": 5590148,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 77,
    "normal_offset": 5590036,
    "position_offset": 5589988,
@@ -158480,6 +159142,9 @@
    "index_offset": 5590332,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 77,
    "normal_offset": 5590220,
    "position_offset": 5590172,
@@ -158512,6 +159177,9 @@
    "index_offset": 5590516,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 85,
    "normal_offset": 5590404,
    "position_offset": 5590356,
@@ -158544,6 +159212,9 @@
    "index_offset": 5590700,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 85,
    "normal_offset": 5590588,
    "position_offset": 5590540,
@@ -158576,6 +159247,9 @@
    "index_offset": 5590884,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 86,
    "normal_offset": 5590772,
    "position_offset": 5590724,
@@ -158607,6 +159281,9 @@
    "index_offset": 5591068,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 86,
    "normal_offset": 5590956,
    "position_offset": 5590908,
@@ -158698,6 +159375,9 @@
    "index_offset": 5595668,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 87,
    "normal_offset": 5595556,
    "position_offset": 5595508,
@@ -158729,6 +159409,9 @@
    "index_offset": 5595852,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 87,
    "normal_offset": 5595740,
    "position_offset": 5595692,
@@ -158820,6 +159503,9 @@
    "index_offset": 5600452,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 88,
    "normal_offset": 5600340,
    "position_offset": 5600292,
@@ -158851,6 +159537,9 @@
    "index_offset": 5600636,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 88,
    "normal_offset": 5600524,
    "position_offset": 5600476,
@@ -158942,6 +159631,9 @@
    "index_offset": 5605236,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 89,
    "normal_offset": 5605124,
    "position_offset": 5605076,
@@ -158973,6 +159665,9 @@
    "index_offset": 5605420,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 89,
    "normal_offset": 5605308,
    "position_offset": 5605260,
@@ -159064,6 +159759,9 @@
    "index_offset": 5610020,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 90,
    "normal_offset": 5609908,
    "position_offset": 5609860,
@@ -159095,6 +159793,9 @@
    "index_offset": 5610204,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 90,
    "normal_offset": 5610092,
    "position_offset": 5610044,
@@ -159186,6 +159887,9 @@
    "index_offset": 5614804,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 91,
    "normal_offset": 5614692,
    "position_offset": 5614644,
@@ -159217,6 +159921,9 @@
    "index_offset": 5614988,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 91,
    "normal_offset": 5614876,
    "position_offset": 5614828,
@@ -159308,6 +160015,9 @@
    "index_offset": 5619588,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 92,
    "normal_offset": 5619476,
    "position_offset": 5619428,
@@ -159339,6 +160049,9 @@
    "index_offset": 5619772,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 92,
    "normal_offset": 5619660,
    "position_offset": 5619612,
@@ -159430,6 +160143,9 @@
    "index_offset": 5624372,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 93,
    "normal_offset": 5624260,
    "position_offset": 5624212,
@@ -159461,6 +160177,9 @@
    "index_offset": 5624556,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 93,
    "normal_offset": 5624444,
    "position_offset": 5624396,
@@ -159551,6 +160270,10 @@
    "index_offset": 5629156,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 94,
    "normal_offset": 5629044,
    "position_offset": 5628996,
@@ -159581,6 +160304,9 @@
    "index_offset": 5629340,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 96,
    "normal_offset": 5629228,
    "position_offset": 5629180,
@@ -159612,6 +160338,9 @@
    "index_offset": 5629524,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 96,
    "normal_offset": 5629412,
    "position_offset": 5629364,
@@ -159643,6 +160372,9 @@
    "index_offset": 5629708,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 102,
    "normal_offset": 5629596,
    "position_offset": 5629548,
@@ -159673,6 +160405,9 @@
    "index_offset": 5629892,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 102,
    "normal_offset": 5629780,
    "position_offset": 5629732,
@@ -159732,6 +160467,9 @@
    "index_offset": 5630260,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 103,
    "normal_offset": 5630148,
    "position_offset": 5630100,
@@ -159762,6 +160500,9 @@
    "index_offset": 5630444,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 103,
    "normal_offset": 5630332,
    "position_offset": 5630284,
@@ -159821,6 +160562,9 @@
    "index_offset": 5630996,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 104,
    "normal_offset": 5630884,
    "position_offset": 5630836,
@@ -159851,6 +160595,9 @@
    "index_offset": 5631180,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 104,
    "normal_offset": 5631068,
    "position_offset": 5631020,
@@ -159911,6 +160658,9 @@
    "index_offset": 5631548,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 105,
    "normal_offset": 5631436,
    "position_offset": 5631388,
@@ -159942,6 +160692,9 @@
    "index_offset": 5631732,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 105,
    "normal_offset": 5631620,
    "position_offset": 5631572,
@@ -160022,6 +160775,9 @@
    "index_offset": 5632364,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 106,
    "normal_offset": 5632196,
    "position_offset": 5632124,
@@ -160073,6 +160829,9 @@
    "index_offset": 5632572,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 106,
    "normal_offset": 5632460,
    "position_offset": 5632412,
@@ -160126,6 +160885,9 @@
    "index_offset": 5632756,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 107,
    "normal_offset": 5632644,
    "position_offset": 5632596,
@@ -160179,6 +160941,9 @@
    "index_offset": 5632940,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 107,
    "normal_offset": 5632828,
    "position_offset": 5632780,
@@ -160211,6 +160976,10 @@
    "index_offset": 5633124,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 108,
    "normal_offset": 5633012,
    "position_offset": 5632964,
@@ -160242,6 +161011,10 @@
    "index_offset": 5633308,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 109,
    "normal_offset": 5633196,
    "position_offset": 5633148,
@@ -160273,6 +161046,10 @@
    "index_offset": 5633492,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 110,
    "normal_offset": 5633380,
    "position_offset": 5633332,
@@ -160304,6 +161081,10 @@
    "index_offset": 5633676,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 111,
    "normal_offset": 5633564,
    "position_offset": 5633516,
@@ -160335,6 +161116,10 @@
    "index_offset": 5633860,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 112,
    "normal_offset": 5633748,
    "position_offset": 5633700,
@@ -160365,6 +161150,9 @@
    "index_offset": 5634044,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 118,
    "normal_offset": 5633932,
    "position_offset": 5633884,
@@ -160396,6 +161184,9 @@
    "index_offset": 5634228,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 118,
    "normal_offset": 5634116,
    "position_offset": 5634068,
@@ -160427,6 +161218,9 @@
    "index_offset": 5634412,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 119,
    "normal_offset": 5634300,
    "position_offset": 5634252,
@@ -160458,6 +161252,9 @@
    "index_offset": 5634596,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 119,
    "normal_offset": 5634484,
    "position_offset": 5634436,
@@ -160550,6 +161347,10 @@
    "index_offset": 5635332,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 127,
    "normal_offset": 5635220,
    "position_offset": 5635172,
@@ -160585,6 +161386,10 @@
    "index_offset": 5635636,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 128,
    "normal_offset": 5635440,
    "position_offset": 5635356,
@@ -160615,6 +161420,9 @@
    "index_offset": 5635832,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 129,
    "normal_offset": 5635720,
    "position_offset": 5635672,
@@ -160646,6 +161454,9 @@
    "index_offset": 5636016,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 129,
    "normal_offset": 5635904,
    "position_offset": 5635856,
@@ -160678,6 +161489,10 @@
    "index_offset": 5636200,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 130,
    "normal_offset": 5636088,
    "position_offset": 5636040,
@@ -160709,6 +161524,10 @@
    "index_offset": 5636384,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 131,
    "normal_offset": 5636272,
    "position_offset": 5636224,
@@ -160739,6 +161558,9 @@
    "index_offset": 5636568,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 132,
    "normal_offset": 5636456,
    "position_offset": 5636408,
@@ -160774,6 +161596,9 @@
    "index_offset": 5636752,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 132,
    "normal_offset": 5636640,
    "position_offset": 5636592,
@@ -160805,6 +161630,9 @@
    "index_offset": 5636936,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 133,
    "normal_offset": 5636824,
    "position_offset": 5636776,
@@ -160837,6 +161665,9 @@
    "index_offset": 5637120,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 133,
    "normal_offset": 5637008,
    "position_offset": 5636960,
@@ -160885,6 +161716,9 @@
    "index_offset": 5637304,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 134,
    "normal_offset": 5637192,
    "position_offset": 5637144,
@@ -160933,6 +161767,9 @@
    "index_offset": 5637488,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 134,
    "normal_offset": 5637376,
    "position_offset": 5637328,
@@ -160964,6 +161801,10 @@
    "index_offset": 5637672,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 135,
    "normal_offset": 5637560,
    "position_offset": 5637512,
@@ -160994,6 +161835,10 @@
    "index_offset": 5637856,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 136,
    "normal_offset": 5637744,
    "position_offset": 5637696,
@@ -161024,6 +161869,9 @@
    "index_offset": 5638040,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 137,
    "normal_offset": 5637928,
    "position_offset": 5637880,
@@ -161055,6 +161903,9 @@
    "index_offset": 5638224,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 137,
    "normal_offset": 5638112,
    "position_offset": 5638064,
@@ -161088,6 +161939,9 @@
    "index_offset": 5638408,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 138,
    "normal_offset": 5638296,
    "position_offset": 5638248,
@@ -161120,6 +161974,9 @@
    "index_offset": 5638592,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 138,
    "normal_offset": 5638480,
    "position_offset": 5638432,
@@ -161151,6 +162008,9 @@
    "index_offset": 5638776,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 139,
    "normal_offset": 5638664,
    "position_offset": 5638616,
@@ -161182,6 +162042,9 @@
    "index_offset": 5638960,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 139,
    "normal_offset": 5638848,
    "position_offset": 5638800,
@@ -161241,6 +162104,9 @@
    "index_offset": 5639144,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 140,
    "normal_offset": 5639032,
    "position_offset": 5638984,
@@ -161300,6 +162166,9 @@
    "index_offset": 5639328,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 140,
    "normal_offset": 5639216,
    "position_offset": 5639168,
@@ -161335,6 +162204,9 @@
    "index_offset": 5639512,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 141,
    "normal_offset": 5639400,
    "position_offset": 5639352,
@@ -161366,6 +162238,10 @@
    "index_offset": 5639696,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 142,
    "normal_offset": 5639584,
    "position_offset": 5639536,
@@ -161398,6 +162274,10 @@
    "index_offset": 5639880,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 143,
    "normal_offset": 5639768,
    "position_offset": 5639720,
@@ -161428,6 +162308,9 @@
    "index_offset": 5640064,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 144,
    "normal_offset": 5639952,
    "position_offset": 5639904,
@@ -161461,6 +162344,9 @@
    "index_offset": 5640248,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 144,
    "normal_offset": 5640136,
    "position_offset": 5640088,
@@ -161493,6 +162379,10 @@
    "index_offset": 5640432,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 145,
    "normal_offset": 5640320,
    "position_offset": 5640272,
@@ -161525,6 +162415,10 @@
    "index_offset": 5640616,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 146,
    "normal_offset": 5640504,
    "position_offset": 5640456,
@@ -161557,6 +162451,10 @@
    "index_offset": 5640800,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 147,
    "normal_offset": 5640688,
    "position_offset": 5640640,
@@ -161588,6 +162486,10 @@
    "index_offset": 5640984,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 148,
    "normal_offset": 5640872,
    "position_offset": 5640824,
@@ -161619,6 +162521,10 @@
    "index_offset": 5641168,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 149,
    "normal_offset": 5641056,
    "position_offset": 5641008,
@@ -161650,6 +162556,10 @@
    "index_offset": 5641352,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 150,
    "normal_offset": 5641240,
    "position_offset": 5641192,
@@ -161682,6 +162592,10 @@
    "index_offset": 5641536,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 151,
    "normal_offset": 5641424,
    "position_offset": 5641376,
@@ -161713,6 +162627,10 @@
    "index_offset": 5641720,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 152,
    "normal_offset": 5641608,
    "position_offset": 5641560,
@@ -161744,6 +162662,10 @@
    "index_offset": 5641904,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 153,
    "normal_offset": 5641792,
    "position_offset": 5641744,
@@ -161787,6 +162709,9 @@
    "index_offset": 5642088,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 154,
    "normal_offset": 5641976,
    "position_offset": 5641928,
@@ -161831,6 +162756,9 @@
    "index_offset": 5642272,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 154,
    "normal_offset": 5642160,
    "position_offset": 5642112,
@@ -161862,6 +162790,9 @@
    "index_offset": 5642456,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 156,
    "normal_offset": 5642344,
    "position_offset": 5642296,
@@ -161894,6 +162825,9 @@
    "index_offset": 5642640,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 156,
    "normal_offset": 5642528,
    "position_offset": 5642480,
@@ -161926,6 +162860,10 @@
    "index_offset": 5642824,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 157,
    "normal_offset": 5642712,
    "position_offset": 5642664,
@@ -162028,6 +162966,9 @@
    "index_offset": 5649344,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 162,
    "normal_offset": 5649232,
    "position_offset": 5649184,
@@ -162061,6 +163002,9 @@
    "index_offset": 5649528,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 162,
    "normal_offset": 5649416,
    "position_offset": 5649368,
@@ -162111,6 +163055,9 @@
    "index_offset": 5649712,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 163,
    "normal_offset": 5649600,
    "position_offset": 5649552,
@@ -162161,6 +163108,9 @@
    "index_offset": 5649896,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 163,
    "normal_offset": 5649784,
    "position_offset": 5649736,
@@ -162192,6 +163142,9 @@
    "index_offset": 5650080,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 164,
    "normal_offset": 5649968,
    "position_offset": 5649920,
@@ -162223,6 +163176,9 @@
    "index_offset": 5650264,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 166,
    "normal_offset": 5650152,
    "position_offset": 5650104,
@@ -162256,6 +163212,9 @@
    "index_offset": 5650448,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 166,
    "normal_offset": 5650336,
    "position_offset": 5650288,
@@ -162287,6 +163246,9 @@
    "index_offset": 5650632,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 167,
    "normal_offset": 5650520,
    "position_offset": 5650472,
@@ -162319,6 +163281,9 @@
    "index_offset": 5650816,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 167,
    "normal_offset": 5650704,
    "position_offset": 5650656,
@@ -162350,6 +163315,9 @@
    "index_offset": 5651000,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 168,
    "normal_offset": 5650888,
    "position_offset": 5650840,
@@ -162381,6 +163349,9 @@
    "index_offset": 5651184,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 168,
    "normal_offset": 5651072,
    "position_offset": 5651024,
@@ -162412,6 +163383,9 @@
    "index_offset": 5651368,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 169,
    "normal_offset": 5651256,
    "position_offset": 5651208,
@@ -162443,6 +163417,9 @@
    "index_offset": 5651552,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 169,
    "normal_offset": 5651440,
    "position_offset": 5651392,
@@ -162505,6 +163482,9 @@
    "index_offset": 5651920,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 170,
    "normal_offset": 5651808,
    "position_offset": 5651760,
@@ -162569,6 +163549,9 @@
    "index_offset": 5652288,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 171,
    "normal_offset": 5652176,
    "position_offset": 5652128,
@@ -162601,6 +163584,9 @@
    "index_offset": 5652472,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 173,
    "normal_offset": 5652360,
    "position_offset": 5652312,
@@ -162632,6 +163618,9 @@
    "index_offset": 5652656,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 173,
    "normal_offset": 5652544,
    "position_offset": 5652496,
@@ -162723,6 +163712,9 @@
    "index_offset": 5657256,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 174,
    "normal_offset": 5657144,
    "position_offset": 5657096,
@@ -162754,6 +163746,9 @@
    "index_offset": 5657440,
    "lightmap_page": 0,
    "material": "glass/skyscraper_glass",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 174,
    "normal_offset": 5657328,
    "position_offset": 5657280,
@@ -162845,6 +163840,10 @@
    "index_offset": 5662000,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 175,
    "normal_offset": 5661916,
    "position_offset": 5661880,
@@ -162876,6 +163875,10 @@
    "index_offset": 5662172,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 177,
    "normal_offset": 5662060,
    "position_offset": 5662012,
@@ -162907,6 +163910,10 @@
    "index_offset": 5662356,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 178,
    "normal_offset": 5662244,
    "position_offset": 5662196,
@@ -162938,6 +163945,10 @@
    "index_offset": 5662540,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 179,
    "normal_offset": 5662428,
    "position_offset": 5662380,
@@ -162969,6 +163980,10 @@
    "index_offset": 5662724,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 180,
    "normal_offset": 5662612,
    "position_offset": 5662564,
@@ -163000,6 +164015,10 @@
    "index_offset": 5662908,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 181,
    "normal_offset": 5662796,
    "position_offset": 5662748,
@@ -163032,6 +164051,10 @@
    "index_offset": 5663092,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 183,
    "normal_offset": 5662980,
    "position_offset": 5662932,
@@ -163063,6 +164086,10 @@
    "index_offset": 5663276,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 184,
    "normal_offset": 5663164,
    "position_offset": 5663116,
@@ -163094,6 +164121,10 @@
    "index_offset": 5663460,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 185,
    "normal_offset": 5663348,
    "position_offset": 5663300,
@@ -163125,6 +164156,10 @@
    "index_offset": 5663644,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 186,
    "normal_offset": 5663532,
    "position_offset": 5663484,
@@ -163156,6 +164191,10 @@
    "index_offset": 5663828,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 187,
    "normal_offset": 5663716,
    "position_offset": 5663668,
@@ -163187,6 +164226,10 @@
    "index_offset": 5664012,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 188,
    "normal_offset": 5663900,
    "position_offset": 5663852,
@@ -163217,6 +164260,9 @@
    "index_offset": 5664196,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 189,
    "normal_offset": 5664084,
    "position_offset": 5664036,
@@ -163248,6 +164294,9 @@
    "index_offset": 5664380,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 189,
    "normal_offset": 5664268,
    "position_offset": 5664220,
@@ -163284,6 +164333,9 @@
    "index_offset": 5664564,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 190,
    "normal_offset": 5664452,
    "position_offset": 5664404,
@@ -163320,6 +164372,9 @@
    "index_offset": 5664748,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 190,
    "normal_offset": 5664636,
    "position_offset": 5664588,
@@ -163371,6 +164426,9 @@
    "index_offset": 5664932,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 191,
    "normal_offset": 5664820,
    "position_offset": 5664772,
@@ -163424,6 +164482,9 @@
    "index_offset": 5665116,
    "lightmap_page": 0,
    "material": "dev/dev_windowportal",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 191,
    "normal_offset": 5665004,
    "position_offset": 5664956,
@@ -163457,6 +164518,10 @@
    "index_offset": 5665300,
    "lightmap_page": 0,
    "material": "glass/greenhouse_glass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 192,
    "normal_offset": 5665188,
    "position_offset": 5665140,

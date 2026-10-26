@@ -11275,39 +11275,35 @@
    "shared": [
     {
      "id": "gamemann/store-shared-0a281510",
-     "version": "h8d187477"
+     "version": "h0de9d421"
     },
     {
      "id": "gamemann/store-shared-17e5e1ce",
-     "version": "h95164716"
+     "version": "he844192f"
     },
     {
      "id": "gamemann/store-shared-3a59fc65",
-     "version": "h417334cd"
+     "version": "h05cfed31"
     },
     {
      "id": "gamemann/store-shared-6648a6d9",
-     "version": "hc26cca93"
+     "version": "hf4690944"
     },
     {
      "id": "gamemann/store-shared-6975c627",
-     "version": "h1a6ef3a5"
+     "version": "h306a8b81"
     },
     {
      "id": "gamemann/store-shared-7d356297",
-     "version": "h1f41a0f7"
+     "version": "h8b901817"
     },
     {
      "id": "gamemann/store-shared-a8a2d314",
      "version": "h46b384d3"
     },
     {
-     "id": "gamemann/store-shared-c8d5b76f",
-     "version": "h6be01d49"
-    },
-    {
      "id": "gamemann/store-shared-c95318e5",
-     "version": "h4d516f4f"
+     "version": "h14f93e19"
     },
     {
      "id": "gamemann/store-shared-d43a5cd2",
@@ -11315,11 +11311,11 @@
     },
     {
      "id": "gamemann/store-shared-d674b813",
-     "version": "h92a438eb"
+     "version": "h970e283d"
     },
     {
      "id": "gamemann/store-shared-dbec77e8",
-     "version": "h34e2dd2a"
+     "version": "hd041fb29"
     },
     {
      "id": "gamemann/store-shared-df56cff2",
@@ -11327,14 +11323,14 @@
     },
     {
      "id": "gamemann/store-shared-e6a16335",
-     "version": "ha05665a9"
+     "version": "he38f9e38"
     },
     {
      "id": "gamemann/store-shared-f7db15ea",
-     "version": "h2667d50a"
+     "version": "h93c55ec3"
     }
    ],
-   "version": "hcd1e8c1b"
+   "version": "h5c002e8a"
   },
   "textures": [
    {
@@ -11801,28 +11797,25 @@
     "url": "https://ambientcg.com/view?id=Metal028"
    },
    {
-    "area": 36.5,
-    "author": "Dimitrios Savva",
+    "area": 35.9,
+    "author": "TMC (generated)",
     "colour": [
      0.25,
      0.25,
      0.25
     ],
-    "fallback_file": "textures/fb_worn_shutter.webp",
-    "file": "pbr/worn_shutter",
-    "generic": "pbr_worn_shutter",
+    "file": "textures/gen_grate_404040.png",
+    "generic": "grate",
     "how": "table",
-    "key": "pbr:pbr_worn_shutter",
-    "kind": "pbr",
+    "key": "generated:grate:404040",
+    "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "polyhaven",
+    "source": "dot-map cutout_texture",
     "sources": [
-     "de_train/train_metalgrate_01",
-     "metal/metalgrate016a"
+     "de_train/train_metalgrate_01"
     ],
-    "surfaces": 4,
-    "tier": "1k",
-    "url": "https://polyhaven.com/a/worn_shutter"
+    "surfaces": 3,
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 11.8,
@@ -11915,6 +11908,29 @@
     "surfaces": 3,
     "tier": "1k",
     "url": "https://ambientcg.com/view?id=MetalWalkway005"
+   },
+   {
+    "area": 0.6,
+    "author": "Dimitrios Savva",
+    "colour": [
+     0.25,
+     0.25,
+     0.25
+    ],
+    "fallback_file": "textures/fb_worn_shutter.webp",
+    "file": "pbr/worn_shutter",
+    "generic": "pbr_worn_shutter",
+    "how": "table",
+    "key": "pbr:pbr_worn_shutter",
+    "kind": "pbr",
+    "licence": "CC0-1.0",
+    "source": "polyhaven",
+    "sources": [
+     "metal/metalgrate016a"
+    ],
+    "surfaces": 1,
+    "tier": "1k",
+    "url": "https://polyhaven.com/a/worn_shutter"
    },
    {
     "area": 16.8,
@@ -14921,8 +14937,8 @@
  "movers_without_geometry": [],
  "name": "zm_officeattack_b5a",
  "notes": [
-  "27 glass surfaces (kinds glass, grate)",
-  "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): DE_TRAIN/TRAIN_METALGRATE_01 7, CS_ASSAULT/ASSAULT_DOOR_DECAL01 2"
+  "30 glass surfaces (kinds glass, grate)",
+  "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): CS_ASSAULT/ASSAULT_DOOR_DECAL01 2"
  ],
  "pickups": [],
  "props": [
@@ -22089,6 +22105,7 @@
    "yaw": 90.0
   }
  ],
+ "roles": [],
  "scripts": [],
  "settings": {},
  "skipped": {
@@ -23367,6 +23384,9 @@
    "index_count": 36,
    "index_offset": 35608,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 35128,
    "position_offset": 34840,
@@ -23405,6 +23425,9 @@
    "index_count": 24,
    "index_offset": 36264,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 35944,
    "position_offset": 35752,
@@ -23854,6 +23877,9 @@
    "index_count": 36,
    "index_offset": 54228,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 53748,
    "position_offset": 53460,
@@ -24465,11 +24491,15 @@
     0.2075
    ],
    "entity": null,
-   "free": "pbr:pbr_worn_shutter",
+   "free": "generated:grate:404040",
    "generic": "pbr_worn_shutter",
+   "glass": "grate",
    "index_count": 27,
    "index_offset": 70164,
    "material": "de_train/train_metalgrate_01",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 69904,
    "position_offset": 69748,
@@ -25290,6 +25320,9 @@
    "index_count": 36,
    "index_offset": 85088,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 84608,
    "position_offset": 84320,
@@ -25531,6 +25564,9 @@
    "index_count": 9,
    "index_offset": 92968,
    "material": "glass/prodwndwa",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 92868,
    "position_offset": 92808,
@@ -25698,6 +25734,9 @@
    "index_count": 6,
    "index_offset": 99300,
    "material": "glass/prodwndwa",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 99220,
    "position_offset": 99172,
@@ -25732,6 +25771,9 @@
    "index_count": 9,
    "index_offset": 99484,
    "material": "glass/prodwndwa",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 99384,
    "position_offset": 99324,
@@ -25767,6 +25809,9 @@
    "index_count": 27,
    "index_offset": 99936,
    "material": "glass/prodwndwa",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 99676,
    "position_offset": 99520,
@@ -26064,6 +26109,9 @@
    "index_count": 12,
    "index_offset": 107496,
    "material": "glass/prodwndwa",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 107336,
    "position_offset": 107240,
@@ -26100,6 +26148,9 @@
    "index_count": 27,
    "index_offset": 107960,
    "material": "glass/prodwndwa",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 107700,
    "position_offset": 107544,
@@ -26414,6 +26465,9 @@
    "index_count": 36,
    "index_offset": 118828,
    "material": "glass/unbreakable",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 118508,
    "position_offset": 118316,
@@ -29914,6 +29968,9 @@
    "index_count": 60,
    "index_offset": 207288,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 206488,
    "position_offset": 206008,
@@ -35809,11 +35866,15 @@
     0.2075
    ],
    "entity": null,
-   "free": "pbr:pbr_worn_shutter",
+   "free": "generated:grate:404040",
    "generic": "pbr_worn_shutter",
+   "glass": "grate",
    "index_count": 18,
    "index_offset": 415908,
    "material": "de_train/train_metalgrate_01",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 415708,
    "position_offset": 415588,
@@ -40152,6 +40213,9 @@
    "index_count": 12,
    "index_offset": 576464,
    "material": "glass/offwndwc",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 576304,
    "position_offset": 576208,
@@ -40473,6 +40537,9 @@
    "index_count": 24,
    "index_offset": 587448,
    "material": "glass/offwndwc",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 587208,
    "position_offset": 587064,
@@ -40976,11 +41043,15 @@
     0.2075
    ],
    "entity": null,
-   "free": "pbr:pbr_worn_shutter",
+   "free": "generated:grate:404040",
    "generic": "pbr_worn_shutter",
+   "glass": "grate",
    "index_count": 18,
    "index_offset": 599724,
    "material": "de_train/train_metalgrate_01",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 599524,
    "position_offset": 599404,
@@ -41023,6 +41094,9 @@
    "index_count": 15,
    "index_offset": 600084,
    "material": "glass/offwndwc",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 599904,
    "position_offset": 599796,
@@ -41494,6 +41568,9 @@
    "index_count": 12,
    "index_offset": 608572,
    "material": "glass/offwndwc",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 608412,
    "position_offset": 608316,
@@ -41804,6 +41881,9 @@
    "index_count": 33,
    "index_offset": 618528,
    "material": "glass/offwndwc",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 618188,
    "position_offset": 617984,
@@ -42572,6 +42652,9 @@
    "index_count": 21,
    "index_offset": 646508,
    "material": "glass/offwndwc",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 646248,
    "position_offset": 646092,
@@ -43647,6 +43730,9 @@
    "index_count": 6,
    "index_offset": 666812,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 1,
    "normal_offset": 666732,
    "position_offset": 666684,
@@ -43804,6 +43890,9 @@
    "index_count": 6,
    "index_offset": 678668,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 8,
    "normal_offset": 678588,
    "position_offset": 678540,
@@ -44074,6 +44163,9 @@
    "index_count": 6,
    "index_offset": 696772,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 15,
    "normal_offset": 696692,
    "position_offset": 696644,
@@ -44102,6 +44194,9 @@
    "index_count": 12,
    "index_offset": 697052,
    "material": "cs_assault/assault_door_decal01",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 17,
    "normal_offset": 696892,
    "position_offset": 696796,

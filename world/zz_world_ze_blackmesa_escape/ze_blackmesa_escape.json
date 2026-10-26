@@ -10903,7 +10903,7 @@
    "shared": [
     {
      "id": "gamemann/store-shared-17e5e1ce",
-     "version": "h95164716"
+     "version": "he844192f"
     },
     {
      "id": "gamemann/store-shared-4118a3cf",
@@ -10919,7 +10919,7 @@
     },
     {
      "id": "gamemann/store-shared-cb747a6b",
-     "version": "hf50f74b5"
+     "version": "h2753f7b7"
     },
     {
      "id": "gamemann/store-shared-d43a5cd2",
@@ -10927,11 +10927,11 @@
     },
     {
      "id": "gamemann/store-shared-d674b813",
-     "version": "h92a438eb"
+     "version": "h970e283d"
     },
     {
      "id": "gamemann/store-shared-dbeda0cd",
-     "version": "h00f943e6"
+     "version": "h35f76fe6"
     },
     {
      "id": "gamemann/store-shared-df56cff2",
@@ -10939,10 +10939,10 @@
     },
     {
      "id": "gamemann/store-shared-f7db15ea",
-     "version": "h2667d50a"
+     "version": "h93c55ec3"
     }
    ],
-   "version": "haf77daf5"
+   "version": "h486e4e58"
   },
   "textures": [
    {
@@ -11571,7 +11571,7 @@
     "url": "https://ambientcg.com/view?id=Metal001"
    },
    {
-    "area": 1216.7,
+    "area": 1212.2,
     "author": "Lennart Demes and contributors",
     "colour": [
      0.125,
@@ -11587,11 +11587,10 @@
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
-     "cs_havana/metalfence007a",
      "de_train/train_metalceiling_02",
      "metal/citadel_metalwall072a"
     ],
-    "surfaces": 33,
+    "surfaces": 32,
     "tier": "1k",
     "url": "https://ambientcg.com/view?id=Metal028"
    },
@@ -11704,6 +11703,27 @@
     "source": "dot-map cutout_texture",
     "sources": [
      "metal/metalvent003a"
+    ],
+    "surfaces": 1,
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+   },
+   {
+    "area": 4.6,
+    "author": "TMC (generated)",
+    "colour": [
+     0.125,
+     0.125,
+     0.125
+    ],
+    "file": "textures/gen_fence_202020.png",
+    "generic": "fence",
+    "how": "table",
+    "key": "generated:fence:202020",
+    "kind": "generated",
+    "licence": "CC0-1.0",
+    "source": "dot-map cutout_texture",
+    "sources": [
+     "cs_havana/metalfence007a"
     ],
     "surfaces": 1,
     "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
@@ -16063,8 +16083,7 @@
  "movers_without_geometry": [],
  "name": "ze_blackmesa_escape_final",
  "notes": [
-  "25 glass surfaces (kinds bars, glass, grate)",
-  "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): CS_HAVANA/METALFENCE007A 6"
+  "26 glass surfaces (kinds bars, fence, glass, grate)"
  ],
  "pickups": [],
  "props": [
@@ -17580,6 +17599,7 @@
    "yaw": 180.0
   }
  ],
+ "roles": [],
  "scripts": [],
  "settings": {},
  "skipped": {
@@ -61632,12 +61652,16 @@
     0.0959
    ],
    "entity": 4,
-   "free": "pbr:pbr_Metal028",
+   "free": "generated:fence:202020",
    "generic": "pbr_Metal028",
+   "glass": "fence",
    "index_count": 36,
    "index_offset": 1828368,
    "lightmap_page": 0,
    "material": "cs_havana/metalfence007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 2,
    "normal_offset": 1827696,
    "position_offset": 1827408,
@@ -64426,6 +64450,9 @@
    "index_offset": 1952536,
    "lightmap_page": 0,
    "material": "glass/unbreakable",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 99,
    "normal_offset": 1951864,
    "position_offset": 1951576,
@@ -64824,6 +64851,9 @@
    "index_offset": 1988632,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 114,
    "normal_offset": 1987960,
    "position_offset": 1987672,
@@ -65036,6 +65066,9 @@
    "index_offset": 1994152,
    "lightmap_page": 0,
    "material": "glass/unbreakable",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 130,
    "normal_offset": 1993480,
    "position_offset": 1993192,
@@ -65066,6 +65099,9 @@
    "index_offset": 1995256,
    "lightmap_page": 0,
    "material": "glass/unbreakable",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 131,
    "normal_offset": 1994584,
    "position_offset": 1994296,

@@ -18744,7 +18744,7 @@
    "shared": [
     {
      "id": "gamemann/store-shared-295221a6",
-     "version": "h07fc15aa"
+     "version": "hc8cb24a2"
     },
     {
      "id": "gamemann/store-shared-3864f1b3",
@@ -18756,31 +18756,31 @@
     },
     {
      "id": "gamemann/store-shared-44a432c9",
-     "version": "h4078c602"
+     "version": "h309b2345"
     },
     {
      "id": "gamemann/store-shared-47c24036",
-     "version": "h4962c93a"
+     "version": "h76253300"
     },
     {
      "id": "gamemann/store-shared-7bde27a9",
-     "version": "h55434c57"
+     "version": "h8695d7d4"
     },
     {
      "id": "gamemann/store-shared-82e676c6",
-     "version": "ha08c019a"
+     "version": "he307d0a5"
     },
     {
      "id": "gamemann/store-shared-a61b34e3",
-     "version": "h9a74a0ee"
+     "version": "h7acc58f2"
     },
     {
      "id": "gamemann/store-shared-aeed8852",
-     "version": "h0f62e021"
+     "version": "hf5293f38"
     },
     {
      "id": "gamemann/store-shared-cf92cf74",
-     "version": "hfe7fa235"
+     "version": "h08aaff5d"
     },
     {
      "id": "gamemann/store-shared-d43a5cd2",
@@ -18788,22 +18788,22 @@
     },
     {
      "id": "gamemann/store-shared-d6c13a74",
-     "version": "hf8eaea6d"
+     "version": "h3cc882a4"
     },
     {
      "id": "gamemann/store-shared-dbeda0cd",
-     "version": "h00f943e6"
+     "version": "h35f76fe6"
     },
     {
      "id": "gamemann/store-shared-ea9ca50c",
-     "version": "h178d7356"
+     "version": "h45c21688"
     },
     {
      "id": "gamemann/store-shared-efe05e2a",
-     "version": "hd942d6f4"
+     "version": "habbe23bd"
     }
    ],
-   "version": "hae7b4776"
+   "version": "h3b9f6cc8"
   },
   "textures": [
    {
@@ -19273,7 +19273,7 @@
     "url": "https://polyhaven.com/a/concrete_wall_004"
    },
    {
-    "area": 38.6,
+    "area": 9.5,
     "author": "Lennart Demes and contributors",
     "colour": [
      0.125,
@@ -19289,10 +19289,9 @@
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
-     "cs_havana/metalfence007a",
      "de_train/train_metalceiling_02"
     ],
-    "surfaces": 2,
+    "surfaces": 1,
     "tier": "1k",
     "url": "https://ambientcg.com/view?id=Metal028"
    },
@@ -19738,26 +19737,24 @@
    },
    {
     "area": 235.4,
-    "author": "Rob Tuytel",
+    "author": "TMC (generated)",
     "colour": [
      0.375,
      0.375,
      0.25
     ],
-    "fallback_file": "textures/fb_grass_path_3.webp",
-    "file": "pbr/grass_path_3",
-    "generic": "pbr_grass_path_3",
+    "file": "textures/gen_foliage_card_606040.png",
+    "generic": "foliage_card",
     "how": "table",
-    "key": "pbr:pbr_grass_path_3",
-    "kind": "pbr",
+    "key": "generated:foliage_card:606040",
+    "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "polyhaven",
+    "source": "dot-map cutout_texture",
     "sources": [
      "models/props/de_inferno/prodgrassa"
     ],
     "surfaces": 13,
-    "tier": "1k",
-    "url": "https://polyhaven.com/a/grass_path_3"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 26.6,
@@ -20101,6 +20098,27 @@
     "surfaces": 1,
     "tier": "1k",
     "url": "https://polyhaven.com/a/rusty_corrugated_iron"
+   },
+   {
+    "area": 29.1,
+    "author": "TMC (generated)",
+    "colour": [
+     0.125,
+     0.125,
+     0.125
+    ],
+    "file": "textures/gen_fence_202020.png",
+    "generic": "fence",
+    "how": "table",
+    "key": "generated:fence:202020",
+    "kind": "generated",
+    "licence": "CC0-1.0",
+    "source": "dot-map cutout_texture",
+    "sources": [
+     "cs_havana/metalfence007a"
+    ],
+    "surfaces": 1,
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 5.2,
@@ -22401,8 +22419,7 @@
  "movers_without_geometry": [],
  "name": "ze_jurassicpark_v2",
  "notes": [
-  "13 glass surfaces (kinds bars, glass, grate)",
-  "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): CS_HAVANA/METALFENCE007A 89, MODELS/PROPS/DE_INFERNO/PRODGRASSA 78"
+  "27 glass surfaces (kinds bars, fence, foliage_card, glass, grate)"
  ],
  "pickups": [],
  "props": [
@@ -27103,6 +27120,7 @@
    "yaw": 324.0
   }
  ],
+ "roles": [],
  "scripts": [],
  "settings": {},
  "skipped": {
@@ -51355,12 +51373,16 @@
     0.2914
    ],
    "entity": 96,
-   "free": "pbr:pbr_grass_path_3",
+   "free": "generated:foliage_card:606040",
    "generic": "pbr_grass_path_3",
+   "glass": "foliage_card",
    "index_count": 36,
    "index_offset": 2435612,
    "lightmap_page": 0,
    "material": "models/props/de_inferno/prodgrassa",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 28,
    "normal_offset": 2434940,
    "position_offset": 2434652,
@@ -51381,12 +51403,16 @@
     0.2914
    ],
    "entity": 97,
-   "free": "pbr:pbr_grass_path_3",
+   "free": "generated:foliage_card:606040",
    "generic": "pbr_grass_path_3",
+   "glass": "foliage_card",
    "index_count": 36,
    "index_offset": 2436716,
    "lightmap_page": 0,
    "material": "models/props/de_inferno/prodgrassa",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 29,
    "normal_offset": 2436044,
    "position_offset": 2435756,
@@ -51407,12 +51433,16 @@
     0.2914
    ],
    "entity": 98,
-   "free": "pbr:pbr_grass_path_3",
+   "free": "generated:foliage_card:606040",
    "generic": "pbr_grass_path_3",
+   "glass": "foliage_card",
    "index_count": 36,
    "index_offset": 2437820,
    "lightmap_page": 0,
    "material": "models/props/de_inferno/prodgrassa",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 30,
    "normal_offset": 2437148,
    "position_offset": 2436860,
@@ -51434,12 +51464,16 @@
     0.2914
    ],
    "entity": 99,
-   "free": "pbr:pbr_grass_path_3",
+   "free": "generated:foliage_card:606040",
    "generic": "pbr_grass_path_3",
+   "glass": "foliage_card",
    "index_count": 36,
    "index_offset": 2438924,
    "lightmap_page": 0,
    "material": "models/props/de_inferno/prodgrassa",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 31,
    "normal_offset": 2438252,
    "position_offset": 2437964,
@@ -51460,12 +51494,16 @@
     0.2914
    ],
    "entity": 100,
-   "free": "pbr:pbr_grass_path_3",
+   "free": "generated:foliage_card:606040",
    "generic": "pbr_grass_path_3",
+   "glass": "foliage_card",
    "index_count": 36,
    "index_offset": 2440028,
    "lightmap_page": 0,
    "material": "models/props/de_inferno/prodgrassa",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 32,
    "normal_offset": 2439356,
    "position_offset": 2439068,
@@ -51486,12 +51524,16 @@
     0.2914
    ],
    "entity": 101,
-   "free": "pbr:pbr_grass_path_3",
+   "free": "generated:foliage_card:606040",
    "generic": "pbr_grass_path_3",
+   "glass": "foliage_card",
    "index_count": 36,
    "index_offset": 2441132,
    "lightmap_page": 0,
    "material": "models/props/de_inferno/prodgrassa",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 33,
    "normal_offset": 2440460,
    "position_offset": 2440172,
@@ -51512,12 +51554,16 @@
     0.2914
    ],
    "entity": 102,
-   "free": "pbr:pbr_grass_path_3",
+   "free": "generated:foliage_card:606040",
    "generic": "pbr_grass_path_3",
+   "glass": "foliage_card",
    "index_count": 36,
    "index_offset": 2442236,
    "lightmap_page": 0,
    "material": "models/props/de_inferno/prodgrassa",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 34,
    "normal_offset": 2441564,
    "position_offset": 2441276,
@@ -51538,12 +51584,16 @@
     0.2914
    ],
    "entity": 103,
-   "free": "pbr:pbr_grass_path_3",
+   "free": "generated:foliage_card:606040",
    "generic": "pbr_grass_path_3",
+   "glass": "foliage_card",
    "index_count": 36,
    "index_offset": 2443340,
    "lightmap_page": 0,
    "material": "models/props/de_inferno/prodgrassa",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 35,
    "normal_offset": 2442668,
    "position_offset": 2442380,
@@ -51564,12 +51614,16 @@
     0.2914
    ],
    "entity": 104,
-   "free": "pbr:pbr_grass_path_3",
+   "free": "generated:foliage_card:606040",
    "generic": "pbr_grass_path_3",
+   "glass": "foliage_card",
    "index_count": 36,
    "index_offset": 2444444,
    "lightmap_page": 0,
    "material": "models/props/de_inferno/prodgrassa",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 36,
    "normal_offset": 2443772,
    "position_offset": 2443484,
@@ -51590,12 +51644,16 @@
     0.2914
    ],
    "entity": 105,
-   "free": "pbr:pbr_grass_path_3",
+   "free": "generated:foliage_card:606040",
    "generic": "pbr_grass_path_3",
+   "glass": "foliage_card",
    "index_count": 36,
    "index_offset": 2445548,
    "lightmap_page": 0,
    "material": "models/props/de_inferno/prodgrassa",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 37,
    "normal_offset": 2444876,
    "position_offset": 2444588,
@@ -51616,12 +51674,16 @@
     0.2914
    ],
    "entity": 106,
-   "free": "pbr:pbr_grass_path_3",
+   "free": "generated:foliage_card:606040",
    "generic": "pbr_grass_path_3",
+   "glass": "foliage_card",
    "index_count": 36,
    "index_offset": 2446652,
    "lightmap_page": 0,
    "material": "models/props/de_inferno/prodgrassa",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 38,
    "normal_offset": 2445980,
    "position_offset": 2445692,
@@ -51642,12 +51704,16 @@
     0.2914
    ],
    "entity": 107,
-   "free": "pbr:pbr_grass_path_3",
+   "free": "generated:foliage_card:606040",
    "generic": "pbr_grass_path_3",
+   "glass": "foliage_card",
    "index_count": 36,
    "index_offset": 2447756,
    "lightmap_page": 0,
    "material": "models/props/de_inferno/prodgrassa",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 39,
    "normal_offset": 2447084,
    "position_offset": 2446796,
@@ -51668,12 +51734,16 @@
     0.2914
    ],
    "entity": 108,
-   "free": "pbr:pbr_grass_path_3",
+   "free": "generated:foliage_card:606040",
    "generic": "pbr_grass_path_3",
+   "glass": "foliage_card",
    "index_count": 36,
    "index_offset": 2448860,
    "lightmap_page": 0,
    "material": "models/props/de_inferno/prodgrassa",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 40,
    "normal_offset": 2448188,
    "position_offset": 2447900,
@@ -52064,6 +52134,9 @@
    "index_offset": 2559916,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 64,
    "normal_offset": 2556136,
    "position_offset": 2554516,
@@ -52091,6 +52164,9 @@
    "index_offset": 2565560,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 65,
    "normal_offset": 2562256,
    "position_offset": 2560840,
@@ -52118,6 +52194,9 @@
    "index_offset": 2568480,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 65,
    "normal_offset": 2567024,
    "position_offset": 2566400,
@@ -52570,6 +52649,9 @@
    "index_offset": 3125608,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 71,
    "normal_offset": 3124488,
    "position_offset": 3124008,
@@ -52597,6 +52679,9 @@
    "index_offset": 3126932,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 71,
    "normal_offset": 3126232,
    "position_offset": 3125932,
@@ -52624,6 +52709,9 @@
    "index_offset": 3127732,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 71,
    "normal_offset": 3127340,
    "position_offset": 3127172,
@@ -52651,6 +52739,9 @@
    "index_offset": 3129944,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 72,
    "normal_offset": 3128488,
    "position_offset": 3127864,
@@ -52678,6 +52769,9 @@
    "index_offset": 3130868,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 72,
    "normal_offset": 3130532,
    "position_offset": 3130388,
@@ -52705,6 +52799,9 @@
    "index_offset": 3131168,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 72,
    "normal_offset": 3131000,
    "position_offset": 3130928,
@@ -53394,12 +53491,16 @@
     0.0959
    ],
    "entity": 363,
-   "free": "pbr:pbr_Metal028",
+   "free": "generated:fence:202020",
    "generic": "pbr_Metal028",
+   "glass": "fence",
    "index_count": 861,
    "index_offset": 3282280,
    "lightmap_page": 0,
    "material": "cs_havana/metalfence007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 120,
    "normal_offset": 3270968,
    "position_offset": 3266120,
@@ -53504,6 +53605,9 @@
    "index_offset": 3323580,
    "lightmap_page": 0,
    "material": "glass/glasswindow041c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 120,
    "normal_offset": 3323440,
    "position_offset": 3323380,

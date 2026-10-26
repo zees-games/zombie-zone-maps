@@ -10417,15 +10417,15 @@
    "shared": [
     {
      "id": "gamemann/store-shared-295221a6",
-     "version": "h07fc15aa"
+     "version": "hc8cb24a2"
     },
     {
      "id": "gamemann/store-shared-44a432c9",
-     "version": "h4078c602"
+     "version": "h309b2345"
     },
     {
      "id": "gamemann/store-shared-4bf5f05e",
-     "version": "hfeeb5dd9"
+     "version": "h66036cb0"
     },
     {
      "id": "gamemann/store-shared-4fc759d6",
@@ -10437,15 +10437,15 @@
     },
     {
      "id": "gamemann/store-shared-66f3bbcd",
-     "version": "h7788508f"
+     "version": "h583975fc"
     },
     {
      "id": "gamemann/store-shared-67ce8f74",
-     "version": "h3237ab16"
+     "version": "h2acf2079"
     },
     {
      "id": "gamemann/store-shared-74774f64",
-     "version": "h3a47b547"
+     "version": "h76e39f63"
     },
     {
      "id": "gamemann/store-shared-a3afc72d",
@@ -10456,7 +10456,7 @@
      "version": "ha02c8a01"
     }
    ],
-   "version": "h6a10adb4"
+   "version": "h27ee8652"
   },
   "textures": [
    {
@@ -18265,6 +18265,7 @@
    "yaw": 0.0
   }
  ],
+ "roles": [],
  "scripts": [],
  "settings": {
   "mp_flashlight": 0
@@ -98362,6 +98363,9 @@
    "index_offset": 1123572,
    "lightmap_page": 0,
    "material": "decals/decalmetalvent006a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 43,
    "normal_offset": 1123348,
    "position_offset": 1123252,
@@ -98394,6 +98398,9 @@
    "index_offset": 1128764,
    "lightmap_page": 0,
    "material": "glass/unbreakable",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 43,
    "normal_offset": 1125180,
    "position_offset": 1123644,
@@ -98916,6 +98923,9 @@
    "index_offset": 1177384,
    "lightmap_page": 0,
    "material": "glass/unbreakable",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 48,
    "normal_offset": 1177160,
    "position_offset": 1177064,
@@ -99130,6 +99140,9 @@
    "index_offset": 1215484,
    "lightmap_page": 0,
    "material": "glass/unbreakable",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 53,
    "normal_offset": 1215372,
    "position_offset": 1215324,
@@ -99251,6 +99264,9 @@
    "index_offset": 1318308,
    "lightmap_page": 0,
    "material": "glass/unbreakable",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 54,
    "normal_offset": 1313548,
    "position_offset": 1311508,

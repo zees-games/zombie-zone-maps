@@ -15704,38 +15704,38 @@
    "shared": [
     {
      "id": "gamemann/store-shared-17e5e1ce",
-     "version": "h95164716"
+     "version": "he844192f"
     },
     {
      "id": "gamemann/store-shared-3a59fc65",
-     "version": "h417334cd"
+     "version": "h05cfed31"
     },
     {
      "id": "gamemann/store-shared-8c2e341b",
-     "version": "hdd66018a"
+     "version": "hfa2aee0a"
     },
     {
      "id": "gamemann/store-shared-8f413bd1",
      "version": "hef0db892"
     },
     {
-     "id": "gamemann/store-shared-c8d5b76f",
-     "version": "h6be01d49"
+     "id": "gamemann/store-shared-b8bcc5ac",
+     "version": "h8c9eed17"
     },
     {
      "id": "gamemann/store-shared-d674b813",
-     "version": "h92a438eb"
+     "version": "h970e283d"
     },
     {
      "id": "gamemann/store-shared-dd300898",
-     "version": "hacb3f6da"
+     "version": "h972976d3"
     },
     {
      "id": "gamemann/store-shared-df56cff2",
      "version": "ha02c8a01"
     }
    ],
-   "version": "h030e6410"
+   "version": "hbdc74540"
   },
   "textures": [
    {
@@ -15950,26 +15950,24 @@
    },
    {
     "area": 3.4,
-    "author": "Lennart Demes and contributors",
+    "author": "TMC (generated)",
     "colour": [
      0.125,
      0.125,
      0.125
     ],
-    "fallback_file": "textures/fb_Metal028.webp",
-    "file": "pbr/Metal028",
-    "generic": "pbr_Metal028",
+    "file": "textures/gen_fence_202020.png",
+    "generic": "fence",
     "how": "table",
-    "key": "pbr:pbr_Metal028",
-    "kind": "pbr",
+    "key": "generated:fence:202020",
+    "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "ambientCG",
+    "source": "dot-map cutout_texture",
     "sources": [
      "cs_havana/metalfence007a"
     ],
     "surfaces": 1,
-    "tier": "1k",
-    "url": "https://ambientcg.com/view?id=Metal028"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 10.9,
@@ -16412,26 +16410,24 @@
    },
    {
     "area": 11.2,
-    "author": "Lennart Demes and contributors",
+    "author": "TMC (generated)",
     "colour": [
      0.875,
      0.875,
      0.875
     ],
-    "fallback_file": "textures/fb_Fabric032.webp",
-    "file": "pbr/Fabric032",
-    "generic": "pbr_Fabric032",
+    "file": "textures/gen_foliage_card_dfdfdf.png",
+    "generic": "foliage_card",
     "how": "table",
-    "key": "pbr:pbr_Fabric032",
-    "kind": "pbr",
+    "key": "generated:foliage_card:dfdfdf",
+    "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "ambientCG",
+    "source": "dot-map cutout_texture",
     "sources": [
      "blockfort/special_thanks"
     ],
     "surfaces": 1,
-    "tier": "1k",
-    "url": "https://ambientcg.com/view?id=Fabric032"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 4.5,
@@ -16502,26 +16498,24 @@
    },
    {
     "area": 1.5,
-    "author": "Lennart Demes and contributors",
+    "author": "TMC (generated)",
     "colour": [
      0.5,
      0.0,
      0.0
     ],
-    "fallback_file": "textures/fb_Fabric054.webp",
-    "file": "pbr/Fabric054",
-    "generic": "pbr_Fabric054",
+    "file": "textures/gen_foliage_card_800000.png",
+    "generic": "foliage_card",
     "how": "table",
-    "key": "pbr:pbr_Fabric054",
-    "kind": "pbr",
+    "key": "generated:foliage_card:800000",
+    "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "ambientCG",
+    "source": "dot-map cutout_texture",
     "sources": [
      "blockfort/noentry"
     ],
     "surfaces": 1,
-    "tier": "1k",
-    "url": "https://ambientcg.com/view?id=Fabric054"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 2283.2,
@@ -19492,8 +19486,7 @@
  ],
  "name": "zm_blockfort_v5_b2",
  "notes": [
-  "15 glass surfaces (kinds foliage_card, glass)",
-  "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): CS_HAVANA/METALFENCE007A 4, BLOCKFORT/SPECIAL_THANKS 1, BLOCKFORT/NOENTRY 1"
+  "18 glass surfaces (kinds fence, foliage_card, glass)"
  ],
  "pickups": [
   {
@@ -23055,6 +23048,7 @@
    "yaw": 270.0
   }
  ],
+ "roles": [],
  "scripts": [],
  "settings": {
   "phys_pushscale": 4,
@@ -26541,12 +26535,16 @@
     0.0959
    ],
    "entity": null,
-   "free": "pbr:pbr_Metal028",
+   "free": "generated:fence:202020",
    "generic": "pbr_Metal028",
+   "glass": "fence",
    "index_count": 24,
    "index_offset": 382436,
    "lightmap_page": 0,
    "material": "cs_havana/metalfence007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 381988,
    "position_offset": 381796,
@@ -26616,6 +26614,9 @@
    "index_offset": 384372,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 384260,
    "position_offset": 384212,
@@ -27075,6 +27076,9 @@
    "index_offset": 402284,
    "lightmap_page": 0,
    "material": "blockfort/mario_vine",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 402172,
    "position_offset": 402124,
@@ -28684,6 +28688,9 @@
    "index_offset": 574436,
    "lightmap_page": 0,
    "material": "blockfort/mario_vine",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 574324,
    "position_offset": 574276,
@@ -30008,6 +30015,9 @@
    "index_offset": 762628,
    "lightmap_page": 0,
    "material": "blockfort/mario_vine",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 762516,
    "position_offset": 762468,
@@ -31370,6 +31380,9 @@
    "index_offset": 887912,
    "lightmap_page": 0,
    "material": "blockfort/mario_vine",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 887800,
    "position_offset": 887752,
@@ -31766,6 +31779,9 @@
    "index_offset": 919132,
    "lightmap_page": 0,
    "material": "blockfort/mario_vine",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 918908,
    "position_offset": 918812,
@@ -32468,6 +32484,9 @@
    "index_offset": 975492,
    "lightmap_page": 0,
    "material": "blockfort/mario_vine",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 975380,
    "position_offset": 975332,
@@ -32729,6 +32748,9 @@
    "index_offset": 1014536,
    "lightmap_page": 0,
    "material": "blockfort/mario_vine",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1014312,
    "position_offset": 1014216,
@@ -41523,6 +41545,9 @@
    "index_offset": 1417788,
    "lightmap_page": 0,
    "material": "glass/glasswindow017a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 248,
    "normal_offset": 1417116,
    "position_offset": 1416828,
@@ -41547,18 +41572,27 @@
     0.862
    ],
    "entity": 449,
-   "free": "pbr:pbr_Fabric032",
+   "free": "generated:foliage_card:dfdfdf",
    "generic": "pbr_Fabric032",
+   "glass": "foliage_card",
    "index_count": 6,
    "index_offset": 1418092,
    "lightmap_page": 0,
    "material": "blockfort/special_thanks",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 250,
    "normal_offset": 1417980,
    "position_offset": 1417932,
    "texels": [
     1024,
     1024
+   ],
+   "tint": [
+    1.0,
+    0.879,
+    0.673
    ],
    "uv2_offset": 1418060,
    "uv_offset": 1418028,
@@ -41701,6 +41735,9 @@
    "index_offset": 1423492,
    "lightmap_page": 0,
    "material": "glass/combineglass001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 256,
    "normal_offset": 1422820,
    "position_offset": 1422532,
@@ -41731,6 +41768,9 @@
    "index_offset": 1424596,
    "lightmap_page": 0,
    "material": "glass/combineglass001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 257,
    "normal_offset": 1423924,
    "position_offset": 1423636,
@@ -41763,6 +41803,9 @@
    "index_offset": 1425700,
    "lightmap_page": 0,
    "material": "glass/combineglass001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 258,
    "normal_offset": 1425028,
    "position_offset": 1424740,
@@ -41793,6 +41836,9 @@
    "index_offset": 1426804,
    "lightmap_page": 0,
    "material": "glass/combineglass001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 259,
    "normal_offset": 1426132,
    "position_offset": 1425844,
@@ -41965,18 +42011,27 @@
     0.0
    ],
    "entity": 512,
-   "free": "pbr:pbr_Fabric054",
+   "free": "generated:foliage_card:800000",
    "generic": "pbr_Fabric054",
+   "glass": "foliage_card",
    "index_count": 6,
    "index_offset": 1435572,
    "lightmap_page": 0,
    "material": "blockfort/noentry",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 270,
    "normal_offset": 1435460,
    "position_offset": 1435412,
    "texels": [
     256,
     256
+   ],
+   "tint": [
+    1.0,
+    0.35,
+    0.35
    ],
    "uv2_offset": 1435540,
    "uv_offset": 1435508,
@@ -42266,6 +42321,9 @@
    "index_offset": 1508892,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 280,
    "normal_offset": 1508780,
    "position_offset": 1508732,
@@ -42957,6 +43015,9 @@
    "index_offset": 1671500,
    "lightmap_page": 0,
    "material": "glass/glasswindow017a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 336,
    "normal_offset": 1670828,
    "position_offset": 1670540,

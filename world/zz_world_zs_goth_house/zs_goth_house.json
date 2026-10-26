@@ -5602,7 +5602,7 @@
    "shared": [
     {
      "id": "gamemann/store-shared-11c05325",
-     "version": "h3c8d82c7"
+     "version": "h37b39462"
     },
     {
      "id": "gamemann/store-shared-4118a3cf",
@@ -5614,46 +5614,46 @@
     },
     {
      "id": "gamemann/store-shared-67ce8f74",
-     "version": "h3237ab16"
+     "version": "h2acf2079"
     },
     {
      "id": "gamemann/store-shared-6975c627",
-     "version": "h1a6ef3a5"
+     "version": "h306a8b81"
     },
     {
      "id": "gamemann/store-shared-7bde27a9",
-     "version": "h55434c57"
+     "version": "h8695d7d4"
     },
     {
      "id": "gamemann/store-shared-7d356297",
-     "version": "h1f41a0f7"
+     "version": "h8b901817"
     },
     {
-     "id": "gamemann/store-shared-bb688c70",
-     "version": "h48de3c09"
+     "id": "gamemann/store-shared-b1eec5d5",
+     "version": "hb64d6ac6"
     },
     {
      "id": "gamemann/store-shared-d6c13a74",
-     "version": "hf8eaea6d"
+     "version": "h3cc882a4"
     },
     {
      "id": "gamemann/store-shared-dbeda0cd",
-     "version": "h00f943e6"
+     "version": "h35f76fe6"
     },
     {
      "id": "gamemann/store-shared-dd300898",
-     "version": "hacb3f6da"
+     "version": "h972976d3"
     },
     {
      "id": "gamemann/store-shared-e6a16335",
-     "version": "ha05665a9"
+     "version": "he38f9e38"
     },
     {
      "id": "gamemann/store-shared-f7db15ea",
-     "version": "h2667d50a"
+     "version": "h93c55ec3"
     }
    ],
-   "version": "h4ca9a698"
+   "version": "hc1254d4d"
   },
   "textures": [
    {
@@ -6760,49 +6760,45 @@
    },
    {
     "area": 1.5,
-    "author": "Lennart Demes and contributors",
+    "author": "TMC (generated)",
     "colour": [
      0.5,
      0.375,
      0.375
     ],
-    "fallback_file": "textures/fb_RoofingTiles014B.webp",
-    "file": "pbr/RoofingTiles014B",
-    "generic": "pbr_RoofingTiles014B",
+    "file": "textures/gen_foliage_card_806060.png",
+    "generic": "foliage_card",
     "how": "table",
-    "key": "pbr:pbr_RoofingTiles014B",
-    "kind": "pbr",
+    "key": "generated:foliage_card:806060",
+    "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "ambientCG",
+    "source": "dot-map cutout_texture",
     "sources": [
      "goth_house/goth_welcome_banner00"
     ],
     "surfaces": 1,
-    "tier": "1k",
-    "url": "https://ambientcg.com/view?id=RoofingTiles014B"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 1.5,
-    "author": "Lennart Demes and contributors",
+    "author": "TMC (generated)",
     "colour": [
      0.125,
      0.125,
      0.25
     ],
-    "fallback_file": "textures/fb_Tiles072.webp",
-    "file": "pbr/Tiles072",
-    "generic": "pbr_Tiles072",
+    "file": "textures/gen_foliage_card_202040.png",
+    "generic": "foliage_card",
     "how": "table",
-    "key": "pbr:pbr_Tiles072",
-    "kind": "pbr",
+    "key": "generated:foliage_card:202040",
+    "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "ambientCG",
+    "source": "dot-map cutout_texture",
     "sources": [
      "goth_house/goth_welcome_banner01"
     ],
     "surfaces": 1,
-    "tier": "1k",
-    "url": "https://ambientcg.com/view?id=Tiles072"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    }
   ]
  },
@@ -7185,8 +7181,7 @@
  "movers_without_geometry": [],
  "name": "zs_goth_house",
  "notes": [
-  "73 glass surfaces (kinds bars, foliage_card, glass)",
-  "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): GOTH_HOUSE/GOTH_WELCOME_BANNER00 1, GOTH_HOUSE/GOTH_WELCOME_BANNER01 1"
+  "75 glass surfaces (kinds bars, foliage_card, glass)"
  ],
  "pickups": [
   {
@@ -11033,6 +11028,7 @@
    "yaw": 90.0
   }
  ],
+ "roles": [],
  "scripts": [],
  "settings": {},
  "skipped": {
@@ -11753,6 +11749,9 @@
    "index_offset": 320,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 96,
    "position_offset": 0,
@@ -11817,6 +11816,9 @@
    "index_offset": 1448,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 692,
    "position_offset": 368,
@@ -11914,6 +11916,9 @@
    "index_offset": 2956,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2816,
    "position_offset": 2756,
@@ -12018,6 +12023,9 @@
    "index_offset": 4100,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3820,
    "position_offset": 3700,
@@ -12216,6 +12224,9 @@
    "index_offset": 8432,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 7396,
    "position_offset": 6952,
@@ -12355,6 +12366,9 @@
    "index_offset": 10904,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 10652,
    "position_offset": 10544,
@@ -12410,6 +12424,9 @@
    "index_offset": 11604,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 11156,
    "position_offset": 10964,
@@ -12454,6 +12471,9 @@
    "index_offset": 11884,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 11772,
    "position_offset": 11724,
@@ -12557,6 +12577,9 @@
    "index_offset": 13060,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 12584,
    "position_offset": 12380,
@@ -12776,6 +12799,9 @@
    "index_offset": 17960,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 16588,
    "position_offset": 16000,
@@ -13098,6 +13124,9 @@
    "index_offset": 34768,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 34404,
    "position_offset": 34248,
@@ -13886,6 +13915,9 @@
    "index_offset": 101568,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 101344,
    "position_offset": 101248,
@@ -13933,6 +13965,9 @@
    "index_offset": 102096,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 101760,
    "position_offset": 101616,
@@ -14011,6 +14046,9 @@
    "index_offset": 106408,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 103440,
    "position_offset": 102168,
@@ -14056,6 +14094,9 @@
    "index_offset": 107584,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 107248,
    "position_offset": 107104,
@@ -16073,6 +16114,9 @@
    "index_offset": 230560,
    "lightmap_page": 0,
    "material": "glass/glasswindow031b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 230224,
    "position_offset": 230080,
@@ -16882,6 +16926,9 @@
    "index_offset": 278764,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 278428,
    "position_offset": 278284,
@@ -16944,6 +16991,9 @@
    "index_offset": 279996,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 279184,
    "position_offset": 278836,
@@ -16990,6 +17040,9 @@
    "index_offset": 280560,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 280308,
    "position_offset": 280200,
@@ -19201,6 +19254,9 @@
    "index_offset": 350096,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 349872,
    "position_offset": 349776,
@@ -19251,6 +19307,9 @@
    "index_offset": 351224,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 350468,
    "position_offset": 350144,
@@ -19293,6 +19352,9 @@
    "index_offset": 351564,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 351452,
    "position_offset": 351404,
@@ -19392,6 +19454,9 @@
    "index_offset": 357248,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 356856,
    "position_offset": 356688,
@@ -19497,6 +19562,9 @@
    "index_offset": 362944,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 362580,
    "position_offset": 362424,
@@ -19868,6 +19936,9 @@
    "index_offset": 390544,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 389004,
    "position_offset": 388344,
@@ -20268,6 +20339,9 @@
    "index_offset": 421752,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 421528,
    "position_offset": 421432,
@@ -20500,6 +20574,9 @@
    "index_offset": 424728,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 424000,
    "position_offset": 423688,
@@ -20761,6 +20838,9 @@
    "index_offset": 441396,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 1,
    "normal_offset": 441172,
    "position_offset": 441076,
@@ -20794,6 +20874,9 @@
    "index_offset": 441764,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 2,
    "normal_offset": 441540,
    "position_offset": 441444,
@@ -20825,6 +20908,9 @@
    "index_offset": 442132,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 3,
    "normal_offset": 441908,
    "position_offset": 441812,
@@ -20856,6 +20942,9 @@
    "index_offset": 442500,
    "lightmap_page": 0,
    "material": "glass/glasswindow037c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 4,
    "normal_offset": 442276,
    "position_offset": 442180,
@@ -20887,6 +20976,9 @@
    "index_offset": 442868,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 5,
    "normal_offset": 442644,
    "position_offset": 442548,
@@ -20918,6 +21010,9 @@
    "index_offset": 443236,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 6,
    "normal_offset": 443012,
    "position_offset": 442916,
@@ -20949,6 +21044,9 @@
    "index_offset": 443604,
    "lightmap_page": 0,
    "material": "glass/glasswindow037c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 7,
    "normal_offset": 443380,
    "position_offset": 443284,
@@ -20982,6 +21080,9 @@
    "index_offset": 443972,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 8,
    "normal_offset": 443748,
    "position_offset": 443652,
@@ -21013,6 +21114,9 @@
    "index_offset": 444340,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 9,
    "normal_offset": 444116,
    "position_offset": 444020,
@@ -21044,6 +21148,9 @@
    "index_offset": 444708,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 10,
    "normal_offset": 444484,
    "position_offset": 444388,
@@ -21075,6 +21182,9 @@
    "index_offset": 445076,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 11,
    "normal_offset": 444852,
    "position_offset": 444756,
@@ -21106,6 +21216,9 @@
    "index_offset": 445444,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 12,
    "normal_offset": 445220,
    "position_offset": 445124,
@@ -21139,6 +21252,9 @@
    "index_offset": 445812,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 13,
    "normal_offset": 445588,
    "position_offset": 445492,
@@ -21170,6 +21286,9 @@
    "index_offset": 446180,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 14,
    "normal_offset": 445956,
    "position_offset": 445860,
@@ -21201,6 +21320,9 @@
    "index_offset": 446548,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 15,
    "normal_offset": 446324,
    "position_offset": 446228,
@@ -21231,6 +21353,9 @@
    "index_offset": 446916,
    "lightmap_page": 0,
    "material": "glass/glasswindow037c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 16,
    "normal_offset": 446692,
    "position_offset": 446596,
@@ -21261,6 +21386,9 @@
    "index_offset": 447284,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 17,
    "normal_offset": 447060,
    "position_offset": 446964,
@@ -21292,6 +21420,9 @@
    "index_offset": 447652,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 18,
    "normal_offset": 447428,
    "position_offset": 447332,
@@ -21323,6 +21454,9 @@
    "index_offset": 448020,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 19,
    "normal_offset": 447796,
    "position_offset": 447700,
@@ -21356,6 +21490,9 @@
    "index_offset": 448388,
    "lightmap_page": 0,
    "material": "glass/glasswindow037c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 20,
    "normal_offset": 448164,
    "position_offset": 448068,
@@ -21387,6 +21524,9 @@
    "index_offset": 448756,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 21,
    "normal_offset": 448532,
    "position_offset": 448436,
@@ -21418,6 +21558,9 @@
    "index_offset": 449124,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 22,
    "normal_offset": 448900,
    "position_offset": 448804,
@@ -21449,6 +21592,9 @@
    "index_offset": 449492,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 23,
    "normal_offset": 449268,
    "position_offset": 449172,
@@ -21479,6 +21625,9 @@
    "index_offset": 449860,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 24,
    "normal_offset": 449636,
    "position_offset": 449540,
@@ -21514,6 +21663,9 @@
    "index_offset": 450228,
    "lightmap_page": 0,
    "material": "glass/glasswindow031b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 25,
    "normal_offset": 450004,
    "position_offset": 449908,
@@ -21546,6 +21698,9 @@
    "index_offset": 450596,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 26,
    "normal_offset": 450372,
    "position_offset": 450276,
@@ -21577,6 +21732,9 @@
    "index_offset": 450964,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 27,
    "normal_offset": 450740,
    "position_offset": 450644,
@@ -21608,6 +21766,9 @@
    "index_offset": 451332,
    "lightmap_page": 0,
    "material": "glass/glasswindow037c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 28,
    "normal_offset": 451108,
    "position_offset": 451012,
@@ -21639,6 +21800,9 @@
    "index_offset": 451700,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 29,
    "normal_offset": 451476,
    "position_offset": 451380,
@@ -21670,6 +21834,9 @@
    "index_offset": 452068,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 30,
    "normal_offset": 451844,
    "position_offset": 451748,
@@ -21701,6 +21868,9 @@
    "index_offset": 452436,
    "lightmap_page": 0,
    "material": "glass/glasswindow037c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 31,
    "normal_offset": 452212,
    "position_offset": 452116,
@@ -21733,6 +21903,9 @@
    "index_offset": 452804,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 32,
    "normal_offset": 452580,
    "position_offset": 452484,
@@ -21764,6 +21937,9 @@
    "index_offset": 453172,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 33,
    "normal_offset": 452948,
    "position_offset": 452852,
@@ -21795,6 +21971,9 @@
    "index_offset": 453540,
    "lightmap_page": 0,
    "material": "glass/glasswindow037c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 34,
    "normal_offset": 453316,
    "position_offset": 453220,
@@ -21826,6 +22005,9 @@
    "index_offset": 453908,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 35,
    "normal_offset": 453684,
    "position_offset": 453588,
@@ -21857,6 +22039,9 @@
    "index_offset": 454276,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 36,
    "normal_offset": 454052,
    "position_offset": 453956,
@@ -21888,6 +22073,9 @@
    "index_offset": 454644,
    "lightmap_page": 0,
    "material": "glass/glasswindow037c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 37,
    "normal_offset": 454420,
    "position_offset": 454324,
@@ -21918,6 +22106,9 @@
    "index_offset": 455012,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 38,
    "normal_offset": 454788,
    "position_offset": 454692,
@@ -21948,6 +22139,9 @@
    "index_offset": 455380,
    "lightmap_page": 0,
    "material": "glass/glasswindow037c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 39,
    "normal_offset": 455156,
    "position_offset": 455060,
@@ -22007,6 +22201,9 @@
    "index_offset": 456668,
    "lightmap_page": 0,
    "material": "glass/glasswindow037c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 41,
    "normal_offset": 456444,
    "position_offset": 456348,
@@ -22037,6 +22234,9 @@
    "index_offset": 457036,
    "lightmap_page": 0,
    "material": "glass/glasswindow037a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 42,
    "normal_offset": 456812,
    "position_offset": 456716,
@@ -22061,18 +22261,27 @@
     0.3288
    ],
    "entity": 229,
-   "free": "pbr:pbr_RoofingTiles014B",
+   "free": "generated:foliage_card:806060",
    "generic": "pbr_RoofingTiles014B",
+   "glass": "foliage_card",
    "index_count": 6,
    "index_offset": 457244,
    "lightmap_page": 0,
    "material": "goth_house/goth_welcome_banner00",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 43,
    "normal_offset": 457132,
    "position_offset": 457084,
    "texels": [
     512,
     128
+   ],
+   "tint": [
+    1.0,
+    0.441,
+    0.492
    ],
    "uv2_offset": 457212,
    "uv_offset": 457180,
@@ -22091,18 +22300,27 @@
     0.1932
    ],
    "entity": 229,
-   "free": "pbr:pbr_Tiles072",
+   "free": "generated:foliage_card:202040",
    "generic": "pbr_Tiles072",
+   "glass": "foliage_card",
    "index_count": 6,
    "index_offset": 457428,
    "lightmap_page": 0,
    "material": "goth_house/goth_welcome_banner01",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 43,
    "normal_offset": 457316,
    "position_offset": 457268,
    "texels": [
     512,
     128
+   ],
+   "tint": [
+    0.874,
+    0.628,
+    1.0
    ],
    "uv2_offset": 457396,
    "uv_offset": 457364,

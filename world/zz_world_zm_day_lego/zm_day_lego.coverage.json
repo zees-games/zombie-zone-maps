@@ -11,8 +11,8 @@
    "default": 9
   },
   "free_by_tier": {
-   "addon": 36,
-   "default": 9
+   "addon": 34,
+   "default": 11
   },
   "nearest_photo": []
  },
@@ -63,7 +63,8 @@
    "ambient_generic.pitch",
    "func_breakable.gibmodel"
   ],
-  "links_unresolved": []
+  "links_unresolved": [],
+  "surfaces_opaque": []
  },
  "counts": {
   "textures_unmapped": 0,
@@ -72,6 +73,7 @@
   "sounds_unmapped": 1,
   "classes_unmapped": 0,
   "keys_unmapped": 2,
-  "links_unresolved": 0
+  "links_unresolved": 0,
+  "surfaces_opaque": 0
  }
 }

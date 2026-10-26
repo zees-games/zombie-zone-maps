@@ -334,7 +334,7 @@
   {
    "classname": "func_breakable",
    "entity": 941,
-   "glass": null,
+   "glass": "foliage_card",
    "health": 1.0,
    "material": 2,
    "model": 142,
@@ -69573,7 +69573,7 @@
    "shared": [
     {
      "id": "gamemann/store-shared-032d4124",
-     "version": "hc3885410"
+     "version": "h857f871c"
     },
     {
      "id": "gamemann/store-shared-064fcff6",
@@ -69581,111 +69581,115 @@
     },
     {
      "id": "gamemann/store-shared-11c05325",
-     "version": "h3c8d82c7"
+     "version": "h37b39462"
     },
     {
      "id": "gamemann/store-shared-17e5e1ce",
-     "version": "h95164716"
+     "version": "he844192f"
     },
     {
      "id": "gamemann/store-shared-283c98ed",
-     "version": "h1c0e5426"
+     "version": "hcb91034f"
     },
     {
      "id": "gamemann/store-shared-28b99578",
-     "version": "h1232c3e0"
+     "version": "hfa8dae3e"
     },
     {
      "id": "gamemann/store-shared-2d764bc3",
-     "version": "h59a2fe85"
+     "version": "h1c326e9c"
     },
     {
      "id": "gamemann/store-shared-3a59fc65",
-     "version": "h417334cd"
+     "version": "h05cfed31"
     },
     {
      "id": "gamemann/store-shared-3d469a7e",
-     "version": "h98d0504e"
+     "version": "h70207489"
     },
     {
      "id": "gamemann/store-shared-472a183a",
-     "version": "h4776c797"
+     "version": "h0b97a3cf"
     },
     {
      "id": "gamemann/store-shared-47c24036",
-     "version": "h4962c93a"
+     "version": "h76253300"
     },
     {
      "id": "gamemann/store-shared-6648a6d9",
-     "version": "hc26cca93"
+     "version": "hf4690944"
     },
     {
      "id": "gamemann/store-shared-66f3bbcd",
-     "version": "h7788508f"
+     "version": "h583975fc"
     },
     {
      "id": "gamemann/store-shared-67ce8f74",
-     "version": "h3237ab16"
+     "version": "h2acf2079"
     },
     {
      "id": "gamemann/store-shared-6975c627",
-     "version": "h1a6ef3a5"
+     "version": "h306a8b81"
     },
     {
      "id": "gamemann/store-shared-6f53c063",
-     "version": "h70263d3e"
+     "version": "hc2d9e026"
     },
     {
      "id": "gamemann/store-shared-7025de02",
-     "version": "hd75db662"
+     "version": "hd84e8843"
     },
     {
      "id": "gamemann/store-shared-7bde27a9",
-     "version": "h55434c57"
+     "version": "h8695d7d4"
     },
     {
      "id": "gamemann/store-shared-7d356297",
-     "version": "h1f41a0f7"
-    },
-    {
-     "id": "gamemann/store-shared-82d89a24",
-     "version": "h8cafaef1"
+     "version": "h8b901817"
     },
     {
      "id": "gamemann/store-shared-82e676c6",
-     "version": "ha08c019a"
+     "version": "he307d0a5"
     },
     {
      "id": "gamemann/store-shared-8c2e341b",
-     "version": "hdd66018a"
+     "version": "hfa2aee0a"
     },
     {
-     "id": "gamemann/store-shared-bb688c70",
-     "version": "h48de3c09"
+     "id": "gamemann/store-shared-9a79c7c5",
+     "version": "h2b32729b"
+    },
+    {
+     "id": "gamemann/store-shared-b1eec5d5",
+     "version": "hb64d6ac6"
+    },
+    {
+     "id": "gamemann/store-shared-b8bcc5ac",
+     "version": "h8c9eed17"
     },
     {
      "id": "gamemann/store-shared-c95318e5",
-     "version": "h4d516f4f"
+     "version": "h14f93e19"
     },
     {
      "id": "gamemann/store-shared-cab6fcc7",
-     "version": "h66165e51"
+     "version": "h39fb25ac"
     },
     {
      "id": "gamemann/store-shared-cb747a6b",
-     "version": "hf50f74b5"
+     "version": "h2753f7b7"
     },
     {
      "id": "gamemann/store-shared-d6c13a74",
-     "version": "hf8eaea6d"
+     "version": "h3cc882a4"
     },
     {
      "id": "gamemann/store-shared-db844925",
-     "version": "h19581f7e"
+     "version": "hf3a771d6"
     },
     {
      "id": "gamemann/store-shared-dbeda0cd",
-     "version": "h00f943e6"
+     "version": "h35f76fe6"
     },
     {
      "id": "gamemann/store-shared-df56cff2",
@@ -69693,26 +69697,26 @@
     },
     {
      "id": "gamemann/store-shared-e6a16335",
-     "version": "ha05665a9"
+     "version": "he38f9e38"
     },
     {
      "id": "gamemann/store-shared-e79b012c",
-     "version": "h92061139"
+     "version": "hf2ac216f"
     },
     {
      "id": "gamemann/store-shared-ea9ca50c",
-     "version": "h178d7356"
+     "version": "h45c21688"
     },
     {
      "id": "gamemann/store-shared-f224d072",
-     "version": "h26abb42f"
+     "version": "h3faef627"
     },
     {
      "id": "gamemann/store-shared-f7db15ea",
-     "version": "h2667d50a"
+     "version": "h93c55ec3"
     }
    ],
-   "version": "hfdb160e8"
+   "version": "h98124d0a"
   },
   "textures": [
    {
@@ -70241,26 +70245,24 @@
    },
    {
     "area": 8.8,
-    "author": "Lennart Demes and contributors",
+    "author": "TMC (generated)",
     "colour": [
      0.75,
      0.75,
      0.75
     ],
-    "fallback_file": "textures/fb_Concrete034.webp",
-    "file": "pbr/Concrete034",
-    "generic": "pbr_Concrete034",
+    "file": "textures/gen_foliage_card_bfbfbf.png",
+    "generic": "foliage_card",
     "how": "table",
-    "key": "pbr:pbr_Concrete034",
-    "kind": "pbr",
+    "key": "generated:foliage_card:bfbfbf",
+    "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "ambientCG",
+    "source": "dot-map cutout_texture",
     "sources": [
      "only_se/9"
     ],
     "surfaces": 1,
-    "tier": "1k",
-    "url": "https://ambientcg.com/view?id=Concrete034"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 180.3,
@@ -70936,7 +70938,7 @@
     "url": "https://ambientcg.com/view?id=PavingStones025"
    },
    {
-    "area": 224.6,
+    "area": 223.1,
     "author": "Lennart Demes and contributors",
     "colour": [
      0.25,
@@ -70952,12 +70954,11 @@
     "licence": "CC0-1.0",
     "source": "ambientCG",
     "sources": [
-     "hostel/metal/01",
      "metal/metalpipe003a",
      "metal/metalpipe003a_cheap",
      "metal/prodgratea"
     ],
-    "surfaces": 28,
+    "surfaces": 27,
     "tier": "1k",
     "url": "https://ambientcg.com/view?id=MetalWalkway005"
    },
@@ -75114,26 +75115,24 @@
    },
    {
     "area": 97.8,
-    "author": "Amal Kumar",
+    "author": "TMC (generated)",
     "colour": [
      0.25,
      0.125,
      0.125
     ],
-    "fallback_file": "textures/fb_stone_block_wall.webp",
-    "file": "pbr/stone_block_wall",
-    "generic": "pbr_stone_block_wall",
+    "file": "textures/gen_foliage_card_402020.png",
+    "generic": "foliage_card",
     "how": "table",
-    "key": "pbr:pbr_stone_block_wall",
-    "kind": "pbr",
+    "key": "generated:foliage_card:402020",
+    "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "polyhaven",
+    "source": "dot-map cutout_texture",
     "sources": [
      "de_piranesi/{pi_window"
     ],
     "surfaces": 7,
-    "tier": "1k",
-    "url": "https://polyhaven.com/a/stone_block_wall"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 84.5,
@@ -75871,26 +75870,24 @@
    },
    {
     "area": 11.7,
-    "author": "Dimitrios Savva",
+    "author": "TMC (generated)",
     "colour": [
      0.25,
      0.25,
      0.125
     ],
-    "fallback_file": "textures/fb_leaf_scattered_gravel.webp",
-    "file": "pbr/leaf_scattered_gravel",
-    "generic": "pbr_leaf_scattered_gravel",
+    "file": "textures/gen_foliage_card_404020.png",
+    "generic": "foliage_card",
     "how": "table",
-    "key": "pbr:pbr_leaf_scattered_gravel",
-    "kind": "pbr",
+    "key": "generated:foliage_card:404020",
+    "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "polyhaven",
+    "source": "dot-map cutout_texture",
     "sources": [
      "de_chateau/bush01c"
     ],
     "surfaces": 1,
-    "tier": "1k",
-    "url": "https://polyhaven.com/a/leaf_scattered_gravel"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 2389.5,
@@ -76188,6 +76185,27 @@
     "url": "https://ambientcg.com/view?id=Bricks067"
    },
    {
+    "area": 1.5,
+    "author": "TMC (generated)",
+    "colour": [
+     0.25,
+     0.25,
+     0.25
+    ],
+    "file": "textures/gen_foliage_card_404040.png",
+    "generic": "foliage_card",
+    "how": "table",
+    "key": "generated:foliage_card:404040",
+    "kind": "generated",
+    "licence": "CC0-1.0",
+    "source": "dot-map cutout_texture",
+    "sources": [
+     "hostel/metal/01"
+    ],
+    "surfaces": 1,
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
+   },
+   {
     "area": 3.3,
     "author": "TMC (generated)",
     "colour": [
@@ -76256,26 +76274,24 @@
    },
    {
     "area": 0.1,
-    "author": "Lennart Demes and contributors",
+    "author": "TMC (generated)",
     "colour": [
      1.0,
      1.0,
      0.875
     ],
-    "fallback_file": "textures/fb_OfficeCeiling001.webp",
-    "file": "pbr/OfficeCeiling001",
-    "generic": "pbr_OfficeCeiling001",
+    "file": "textures/gen_foliage_card_ffffdf.png",
+    "generic": "foliage_card",
     "how": "table",
-    "key": "pbr:pbr_OfficeCeiling001",
-    "kind": "pbr",
+    "key": "generated:foliage_card:ffffdf",
+    "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "ambientCG",
+    "source": "dot-map cutout_texture",
     "sources": [
      "raccon/open_access_plos"
     ],
     "surfaces": 1,
-    "tier": "1k",
-    "url": "https://ambientcg.com/view?id=OfficeCeiling001"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    }
   ]
  },
@@ -87164,8 +87180,8 @@
  "movers_without_geometry": [],
  "name": "ze_biohazard_manor_v4a_004",
  "notes": [
-  "131 glass surfaces (kinds bars, glass, glass_frosted, grate)",
-  "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): DE_PIRANESI/{PI_WINDOW 24, METAL/MILDOOR001 16, WOOD/WOODDOOR048B 6, DE_CHATEAU/CURTAIN01B 4, AERIS/AERISSS 2, DE_CHATEAU/CURTAIN01A 1, ONLY_SE/9 1, DE_CHATEAU/BUSH01C 1, RACCON/OPEN_ACCESS_PLOS 1"
+  "142 glass surfaces (kinds bars, foliage_card, glass, glass_frosted, grate)",
+  "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): METAL/MILDOOR001 16, WOOD/WOODDOOR048B 6, DE_CHATEAU/CURTAIN01B 4, AERIS/AERISSS 2, DE_CHATEAU/CURTAIN01A 1"
  ],
  "pickups": [
   {
@@ -121076,6 +121092,7 @@
    "yaw": 44.5
   }
  ],
+ "roles": [],
  "scripts": [],
  "settings": {
   "mp_roundtime": 9
@@ -126003,6 +126020,9 @@
    "index_offset": 688536,
    "lightmap_page": 0,
    "material": "glass/combineglass001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 687640,
    "position_offset": 687256,
@@ -126038,6 +126058,9 @@
    "index_offset": 689528,
    "lightmap_page": 0,
    "material": "glass/combineglass001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 688968,
    "position_offset": 688728,
@@ -126073,6 +126096,9 @@
    "index_offset": 689808,
    "lightmap_page": 0,
    "material": "glass/combineglass001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 689696,
    "position_offset": 689648,
@@ -126108,6 +126134,9 @@
    "index_offset": 690152,
    "lightmap_page": 0,
    "material": "glass/combineglass001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 689928,
    "position_offset": 689832,
@@ -126540,18 +126569,27 @@
     0.7338
    ],
    "entity": null,
-   "free": "pbr:pbr_Concrete034",
+   "free": "generated:foliage_card:bfbfbf",
    "generic": "pbr_Concrete034",
+   "glass": "foliage_card",
    "index_count": 6,
    "index_offset": 696760,
    "lightmap_page": 0,
    "material": "only_se/9",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 696648,
    "position_offset": 696600,
    "texels": [
     512,
     512
+   ],
+   "tint": [
+    0.638,
+    0.917,
+    1.0
    ],
    "uv2_offset": 696728,
    "uv_offset": 696696,
@@ -128781,6 +128819,9 @@
    "index_offset": 813088,
    "lightmap_page": 0,
    "material": "metal/metalrail009a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 812640,
    "position_offset": 812448,
@@ -130792,6 +130833,9 @@
    "index_offset": 1081200,
    "lightmap_page": 0,
    "material": "metal/metalrail009a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1080388,
    "position_offset": 1080040,
@@ -132939,6 +132983,9 @@
    "index_offset": 1191924,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1190132,
    "position_offset": 1189364,
@@ -133745,6 +133792,9 @@
    "index_offset": 1252464,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1250672,
    "position_offset": 1249904,
@@ -133964,6 +134014,9 @@
    "index_offset": 1282092,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1280300,
    "position_offset": 1279532,
@@ -134121,6 +134174,9 @@
    "index_offset": 1289704,
    "lightmap_page": 0,
    "material": "aeris/aerisss",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1289480,
    "position_offset": 1289384,
@@ -134235,6 +134291,9 @@
    "index_offset": 1291384,
    "lightmap_page": 0,
    "material": "glass/combineglass001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1291216,
    "position_offset": 1291144,
@@ -134276,6 +134335,9 @@
    "index_offset": 1291592,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1291480,
    "position_offset": 1291432,
@@ -134318,6 +134380,9 @@
    "index_offset": 1292096,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1291760,
    "position_offset": 1291616,
@@ -134359,6 +134424,9 @@
    "index_offset": 1292328,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1292216,
    "position_offset": 1292168,
@@ -134400,6 +134468,9 @@
    "index_offset": 1292512,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1292400,
    "position_offset": 1292352,
@@ -134813,6 +134884,9 @@
    "index_offset": 1301024,
    "lightmap_page": 0,
    "material": "glass/combineglass001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1300856,
    "position_offset": 1300784,
@@ -136137,6 +136211,9 @@
    "index_offset": 1393528,
    "lightmap_page": 0,
    "material": "metal/mildoor001",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1392072,
    "position_offset": 1391448,
@@ -136627,6 +136704,9 @@
    "index_offset": 1401740,
    "lightmap_page": 0,
    "material": "metal/metalrail009a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1401292,
    "position_offset": 1401100,
@@ -137104,6 +137184,9 @@
    "index_offset": 1434504,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1434280,
    "position_offset": 1434184,
@@ -137144,6 +137227,9 @@
    "index_offset": 1435032,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1434696,
    "position_offset": 1434552,
@@ -137180,6 +137266,9 @@
    "index_offset": 1435264,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1435152,
    "position_offset": 1435104,
@@ -138222,6 +138311,9 @@
    "index_offset": 1478768,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1478656,
    "position_offset": 1478608,
@@ -138257,6 +138349,9 @@
    "index_offset": 1478952,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1478840,
    "position_offset": 1478792,
@@ -139861,6 +139956,9 @@
    "index_offset": 1535880,
    "lightmap_page": 0,
    "material": "metal/metalrail009a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1534508,
    "position_offset": 1533920,
@@ -140111,6 +140209,9 @@
    "index_offset": 1543972,
    "lightmap_page": 0,
    "material": "metal/prodraila",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1542964,
    "position_offset": 1542532,
@@ -142821,6 +142922,9 @@
    "index_offset": 1697780,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1696884,
    "position_offset": 1696500,
@@ -142856,6 +142960,9 @@
    "index_offset": 1699252,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1698356,
    "position_offset": 1697972,
@@ -142891,6 +142998,9 @@
    "index_offset": 1700724,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1699828,
    "position_offset": 1699444,
@@ -143068,6 +143178,9 @@
    "index_offset": 1703620,
    "lightmap_page": 0,
    "material": "wood/wooddoor048b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1703508,
    "position_offset": 1703460,
@@ -143103,6 +143216,9 @@
    "index_offset": 1703804,
    "lightmap_page": 0,
    "material": "wood/wooddoor048b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1703692,
    "position_offset": 1703644,
@@ -143781,6 +143897,9 @@
    "index_offset": 1759112,
    "lightmap_page": 0,
    "material": "metal/metalgate006a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1758496,
    "position_offset": 1758232,
@@ -144010,6 +144129,9 @@
    "index_offset": 1764388,
    "lightmap_page": 0,
    "material": "wood/wooddoor048b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1764220,
    "position_offset": 1764148,
@@ -144046,6 +144168,9 @@
    "index_offset": 1764676,
    "lightmap_page": 0,
    "material": "wood/wooddoor048b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1764508,
    "position_offset": 1764436,
@@ -144194,6 +144319,9 @@
    "index_offset": 1784852,
    "lightmap_page": 0,
    "material": "cs_italy/{misc_ironwin",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1784180,
    "position_offset": 1783892,
@@ -148662,6 +148790,9 @@
    "index_offset": 1993172,
    "lightmap_page": 0,
    "material": "metal/metalrail011a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1992724,
    "position_offset": 1992532,
@@ -150476,6 +150607,9 @@
    "index_offset": 2165428,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2164980,
    "position_offset": 2164788,
@@ -150513,6 +150647,9 @@
    "index_offset": 2166484,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2165812,
    "position_offset": 2165524,
@@ -150548,6 +150685,9 @@
    "index_offset": 2166948,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2166724,
    "position_offset": 2166628,
@@ -150583,6 +150723,9 @@
    "index_offset": 2167636,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2167188,
    "position_offset": 2166996,
@@ -150618,6 +150761,9 @@
    "index_offset": 2168052,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2167828,
    "position_offset": 2167732,
@@ -152245,6 +152391,9 @@
    "index_offset": 2294120,
    "lightmap_page": 0,
    "material": "metal/metalrail009a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2292468,
    "position_offset": 2291760,
@@ -152531,6 +152680,9 @@
    "index_offset": 2303452,
    "lightmap_page": 0,
    "material": "metal/prodraila",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2302780,
    "position_offset": 2302492,
@@ -155027,6 +155179,9 @@
    "index_offset": 2425868,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2423964,
    "position_offset": 2423148,
@@ -155062,6 +155217,9 @@
    "index_offset": 2427556,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2426660,
    "position_offset": 2426276,
@@ -155097,6 +155255,9 @@
    "index_offset": 2427908,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2427796,
    "position_offset": 2427748,
@@ -155132,6 +155293,9 @@
    "index_offset": 2429212,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2428316,
    "position_offset": 2427932,
@@ -156904,6 +157068,10 @@
    "index_offset": 2494768,
    "lightmap_page": 0,
    "material": "komaokc/stainedglass2",
+   "material_flags": [
+    "translucent",
+    "two_sided"
+   ],
    "model": 0,
    "normal_offset": 2494320,
    "position_offset": 2494128,
@@ -159697,6 +159865,9 @@
    "index_offset": 2598960,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2598848,
    "position_offset": 2598800,
@@ -159733,6 +159904,9 @@
    "index_offset": 2599144,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2599032,
    "position_offset": 2598984,
@@ -161617,6 +161791,9 @@
    "index_offset": 2671056,
    "lightmap_page": 0,
    "material": "metal/mildoor001",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2670552,
    "position_offset": 2670336,
@@ -163169,6 +163346,9 @@
    "index_offset": 2738284,
    "lightmap_page": 0,
    "material": "metal/metalrail011a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2738060,
    "position_offset": 2737964,
@@ -178407,6 +178587,9 @@
    "index_offset": 3589944,
    "lightmap_page": 0,
    "material": "metal/metalrail011a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3589832,
    "position_offset": 3589784,
@@ -179783,6 +179966,9 @@
    "index_offset": 3656252,
    "lightmap_page": 0,
    "material": "metal/metalrail011a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3655692,
    "position_offset": 3655452,
@@ -180398,6 +180584,9 @@
    "index_offset": 3674324,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3672420,
    "position_offset": 3671604,
@@ -181448,6 +181637,9 @@
    "index_offset": 3731372,
    "lightmap_page": 0,
    "material": "cs_havana/{curaila",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3731036,
    "position_offset": 3730892,
@@ -182427,6 +182619,9 @@
    "index_offset": 3774752,
    "lightmap_page": 0,
    "material": "cs_havana/{curaila",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3772512,
    "position_offset": 3771552,
@@ -183458,6 +183653,9 @@
    "index_offset": 3849040,
    "lightmap_page": 0,
    "material": "cs_havana/{curaila",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3848592,
    "position_offset": 3848400,
@@ -183490,6 +183688,9 @@
    "index_offset": 3849336,
    "lightmap_page": 0,
    "material": "cs_italy/irongate01_2sided",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3849196,
    "position_offset": 3849136,
@@ -184498,6 +184699,9 @@
    "index_offset": 3887024,
    "lightmap_page": 0,
    "material": "cs_italy/irongate01_2sided",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3886408,
    "position_offset": 3886144,
@@ -187069,6 +187273,9 @@
    "index_offset": 4048496,
    "lightmap_page": 0,
    "material": "metal/metalgate004a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4047880,
    "position_offset": 4047616,
@@ -196331,12 +196538,16 @@
     0.0946
    ],
    "entity": null,
-   "free": "pbr:pbr_stone_block_wall",
+   "free": "generated:foliage_card:402020",
    "generic": "pbr_stone_block_wall",
+   "glass": "foliage_card",
    "index_count": 78,
    "index_offset": 4548996,
    "lightmap_page": 0,
    "material": "de_piranesi/{pi_window",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4547820,
    "position_offset": 4547316,
@@ -197740,6 +197951,9 @@
    "index_offset": 4617680,
    "lightmap_page": 0,
    "material": "metal/metalrail011a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4617120,
    "position_offset": 4616880,
@@ -198422,6 +198636,9 @@
    "index_offset": 4635224,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4633320,
    "position_offset": 4632504,
@@ -199718,6 +199935,9 @@
    "index_offset": 4772792,
    "lightmap_page": 0,
    "material": "cs_havana/{curaila",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4772008,
    "position_offset": 4771672,
@@ -200315,6 +200535,9 @@
    "index_offset": 4805872,
    "lightmap_page": 0,
    "material": "cs_havana/{curaila",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4804416,
    "position_offset": 4803792,
@@ -200374,6 +200597,9 @@
    "index_offset": 4808304,
    "lightmap_page": 0,
    "material": "cs_italy/irongate01_2sided",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4806820,
    "position_offset": 4806184,
@@ -201129,6 +201355,9 @@
    "index_offset": 4876748,
    "lightmap_page": 0,
    "material": "cs_italy/irongate01_2sided",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4875740,
    "position_offset": 4875308,
@@ -203749,6 +203978,9 @@
    "index_offset": 5065816,
    "lightmap_page": 0,
    "material": "de_chateau/curtain01a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5065704,
    "position_offset": 5065656,
@@ -207518,6 +207750,9 @@
    "index_offset": 5176192,
    "lightmap_page": 0,
    "material": "wood/wooddoor048b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5176080,
    "position_offset": 5176032,
@@ -207555,6 +207790,9 @@
    "index_offset": 5176376,
    "lightmap_page": 0,
    "material": "wood/wooddoor048b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5176264,
    "position_offset": 5176216,
@@ -208183,12 +208421,16 @@
     0.0946
    ],
    "entity": null,
-   "free": "pbr:pbr_stone_block_wall",
+   "free": "generated:foliage_card:402020",
    "generic": "pbr_stone_block_wall",
+   "glass": "foliage_card",
    "index_count": 36,
    "index_offset": 5215384,
    "lightmap_page": 0,
    "material": "de_piranesi/{pi_window",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5214712,
    "position_offset": 5214424,
@@ -212412,6 +212654,9 @@
    "index_offset": 5403320,
    "lightmap_page": 0,
    "material": "glass/glasswindow001b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5402508,
    "position_offset": 5402160,
@@ -212448,6 +212693,9 @@
    "index_offset": 5404780,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5403884,
    "position_offset": 5403500,
@@ -212483,6 +212731,9 @@
    "index_offset": 5406252,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5405356,
    "position_offset": 5404972,
@@ -212550,6 +212801,9 @@
    "index_offset": 5406924,
    "lightmap_page": 0,
    "material": "hostel/glass/window07",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5406588,
    "position_offset": 5406444,
@@ -212602,6 +212856,9 @@
    "index_offset": 5407156,
    "lightmap_page": 0,
    "material": "hostel/glass/window07",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5407044,
    "position_offset": 5406996,
@@ -212654,6 +212911,9 @@
    "index_offset": 5407500,
    "lightmap_page": 0,
    "material": "hostel/glass/window07",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5407276,
    "position_offset": 5407180,
@@ -212702,6 +212962,9 @@
    "index_offset": 5408188,
    "lightmap_page": 0,
    "material": "metal/metalrail011a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5407740,
    "position_offset": 5407548,
@@ -213239,6 +213502,9 @@
    "index_offset": 5432260,
    "lightmap_page": 0,
    "material": "glass/glasswindow001b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5432036,
    "position_offset": 5431940,
@@ -213289,6 +213555,9 @@
    "index_offset": 5432948,
    "lightmap_page": 0,
    "material": "hostel/glass/window07",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5432500,
    "position_offset": 5432308,
@@ -213335,6 +213604,9 @@
    "index_offset": 5433244,
    "lightmap_page": 0,
    "material": "hostel/glass/window07",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5433104,
    "position_offset": 5433044,
@@ -213380,6 +213652,9 @@
    "index_offset": 5433440,
    "lightmap_page": 0,
    "material": "hostel/glass/window07",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5433328,
    "position_offset": 5433280,
@@ -213652,6 +213927,9 @@
    "index_offset": 5487004,
    "lightmap_page": 0,
    "material": "cs_italy/irongate01_2sided",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5486640,
    "position_offset": 5486484,
@@ -219395,6 +219673,9 @@
    "index_offset": 5680808,
    "lightmap_page": 0,
    "material": "hostel/glass/window07",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5680696,
    "position_offset": 5680648,
@@ -219439,6 +219720,9 @@
    "index_offset": 5681032,
    "lightmap_page": 0,
    "material": "hostel/glass/window07",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5680892,
    "position_offset": 5680832,
@@ -219488,6 +219772,9 @@
    "index_offset": 5682108,
    "lightmap_page": 0,
    "material": "metal/metalrail011a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5681380,
    "position_offset": 5681068,
@@ -222149,6 +222436,9 @@
    "index_offset": 6480724,
    "lightmap_page": 0,
    "material": "de_chateau/curtain01b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 1,
    "normal_offset": 6480500,
    "position_offset": 6480404,
@@ -222179,6 +222469,9 @@
    "index_offset": 6481092,
    "lightmap_page": 0,
    "material": "de_chateau/curtain01b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 2,
    "normal_offset": 6480868,
    "position_offset": 6480772,
@@ -222209,6 +222502,9 @@
    "index_offset": 6481300,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 3,
    "normal_offset": 6481188,
    "position_offset": 6481140,
@@ -222240,6 +222536,9 @@
    "index_offset": 6481484,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 3,
    "normal_offset": 6481372,
    "position_offset": 6481324,
@@ -222334,12 +222633,16 @@
     0.1852
    ],
    "entity": 7,
-   "free": "pbr:pbr_leaf_scattered_gravel",
+   "free": "generated:foliage_card:404020",
    "generic": "pbr_leaf_scattered_gravel",
+   "glass": "foliage_card",
    "index_count": 6,
    "index_offset": 6482036,
    "lightmap_page": 0,
    "material": "de_chateau/bush01c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 5,
    "normal_offset": 6481924,
    "position_offset": 6481876,
@@ -222744,6 +223047,9 @@
    "index_offset": 6488580,
    "lightmap_page": 0,
    "material": "metal/metalgate001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 17,
    "normal_offset": 6488356,
    "position_offset": 6488260,
@@ -222776,6 +223082,9 @@
    "index_offset": 6488948,
    "lightmap_page": 0,
    "material": "metal/metalgate001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 18,
    "normal_offset": 6488724,
    "position_offset": 6488628,
@@ -222807,6 +223116,9 @@
    "index_offset": 6489316,
    "lightmap_page": 0,
    "material": "metal/metalgate001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 20,
    "normal_offset": 6489092,
    "position_offset": 6488996,
@@ -222838,6 +223150,9 @@
    "index_offset": 6489684,
    "lightmap_page": 0,
    "material": "metal/metalgate001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 21,
    "normal_offset": 6489460,
    "position_offset": 6489364,
@@ -223430,6 +223745,9 @@
    "index_offset": 6504916,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 33,
    "normal_offset": 6504804,
    "position_offset": 6504756,
@@ -223644,12 +223962,16 @@
     0.0946
    ],
    "entity": 423,
-   "free": "pbr:pbr_stone_block_wall",
+   "free": "generated:foliage_card:402020",
    "generic": "pbr_stone_block_wall",
+   "glass": "foliage_card",
    "index_count": 12,
    "index_offset": 6507100,
    "lightmap_page": 0,
    "material": "de_piranesi/{pi_window",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 38,
    "normal_offset": 6506876,
    "position_offset": 6506780,
@@ -224012,6 +224334,9 @@
    "index_offset": 6509860,
    "lightmap_page": 0,
    "material": "metal/metalgate005a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 43,
    "normal_offset": 6509636,
    "position_offset": 6509540,
@@ -224073,6 +224398,9 @@
    "index_offset": 6510412,
    "lightmap_page": 0,
    "material": "metal/metalgate005a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 44,
    "normal_offset": 6510188,
    "position_offset": 6510092,
@@ -224805,6 +225133,9 @@
    "index_offset": 6517932,
    "lightmap_page": 0,
    "material": "metal/metalgate002a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 60,
    "normal_offset": 6517596,
    "position_offset": 6517452,
@@ -225739,6 +226070,9 @@
    "index_offset": 6526652,
    "lightmap_page": 0,
    "material": "metal/metalgate001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 76,
    "normal_offset": 6526428,
    "position_offset": 6526332,
@@ -225831,6 +226165,9 @@
    "index_offset": 6527572,
    "lightmap_page": 0,
    "material": "effects/metalrail011a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 82,
    "normal_offset": 6527348,
    "position_offset": 6527252,
@@ -225892,6 +226229,9 @@
    "index_offset": 6528124,
    "lightmap_page": 0,
    "material": "metal/metalgate006a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 85,
    "normal_offset": 6527900,
    "position_offset": 6527804,
@@ -225924,6 +226264,9 @@
    "index_offset": 6528332,
    "lightmap_page": 0,
    "material": "metal/metalgate001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 87,
    "normal_offset": 6528220,
    "position_offset": 6528172,
@@ -225950,6 +226293,9 @@
    "index_offset": 6528676,
    "lightmap_page": 0,
    "material": "metal/metalgate006a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 88,
    "normal_offset": 6528452,
    "position_offset": 6528356,
@@ -226084,6 +226430,9 @@
    "index_offset": 6530068,
    "lightmap_page": 0,
    "material": "de_nuke/nuke_metalvent",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 93,
    "normal_offset": 6529844,
    "position_offset": 6529748,
@@ -226118,6 +226467,9 @@
    "index_offset": 6530276,
    "lightmap_page": 0,
    "material": "de_nuke/nuke_metalvent",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 94,
    "normal_offset": 6530164,
    "position_offset": 6530116,
@@ -226544,12 +226896,16 @@
     0.0946
    ],
    "entity": 698,
-   "free": "pbr:pbr_stone_block_wall",
+   "free": "generated:foliage_card:402020",
    "generic": "pbr_stone_block_wall",
+   "glass": "foliage_card",
    "index_count": 12,
    "index_offset": 6587244,
    "lightmap_page": 0,
    "material": "de_piranesi/{pi_window",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 111,
    "normal_offset": 6587020,
    "position_offset": 6586924,
@@ -226720,12 +227076,16 @@
     0.0946
    ],
    "entity": 701,
-   "free": "pbr:pbr_stone_block_wall",
+   "free": "generated:foliage_card:402020",
    "generic": "pbr_stone_block_wall",
+   "glass": "foliage_card",
    "index_count": 12,
    "index_offset": 6588900,
    "lightmap_page": 0,
    "material": "de_piranesi/{pi_window",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 114,
    "normal_offset": 6588676,
    "position_offset": 6588580,
@@ -226785,12 +227145,16 @@
     0.0946
    ],
    "entity": 702,
-   "free": "pbr:pbr_stone_block_wall",
+   "free": "generated:foliage_card:402020",
    "generic": "pbr_stone_block_wall",
+   "glass": "foliage_card",
    "index_count": 12,
    "index_offset": 6589636,
    "lightmap_page": 0,
    "material": "de_piranesi/{pi_window",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 115,
    "normal_offset": 6589412,
    "position_offset": 6589316,
@@ -226850,12 +227214,16 @@
     0.0946
    ],
    "entity": 703,
-   "free": "pbr:pbr_stone_block_wall",
+   "free": "generated:foliage_card:402020",
    "generic": "pbr_stone_block_wall",
+   "glass": "foliage_card",
    "index_count": 12,
    "index_offset": 6590372,
    "lightmap_page": 0,
    "material": "de_piranesi/{pi_window",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 116,
    "normal_offset": 6590148,
    "position_offset": 6590052,
@@ -227676,12 +228044,17 @@
     0.2377
    ],
    "entity": 941,
-   "free": "pbr:pbr_MetalWalkway005",
+   "free": "generated:foliage_card:404040",
    "generic": "pbr_MetalWalkway005",
+   "glass": "foliage_card",
    "index_count": 6,
    "index_offset": 6602172,
    "lightmap_page": 0,
    "material": "hostel/metal/01",
+   "material_flags": [
+    "alpha_test",
+    "two_sided"
+   ],
    "model": 142,
    "normal_offset": 6602060,
    "position_offset": 6602012,
@@ -227689,6 +228062,11 @@
    "texels": [
     512,
     512
+   ],
+   "tint": [
+    1.0,
+    0.879,
+    0.783
    ],
    "uv2_offset": 6602140,
    "uv_offset": 6602108,
@@ -228605,12 +228983,16 @@
     0.9342
    ],
    "entity": 1364,
-   "free": "pbr:pbr_OfficeCeiling001",
+   "free": "generated:foliage_card:ffffdf",
    "generic": "pbr_OfficeCeiling001",
+   "glass": "foliage_card",
    "index_count": 6,
    "index_offset": 6623360,
    "lightmap_page": 0,
    "material": "raccon/open_access_plos",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 179,
    "normal_offset": 6623248,
    "position_offset": 6623200,
@@ -228618,6 +229000,11 @@
    "texels": [
     512,
     256
+   ],
+   "tint": [
+    1.0,
+    0.543,
+    0.35
    ],
    "uv2_offset": 6623328,
    "uv_offset": 6623296,

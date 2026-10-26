@@ -11,8 +11,8 @@
    "default": 4
   },
   "free_by_tier": {
-   "addon": 227,
-   "default": 4
+   "addon": 226,
+   "default": 5
   },
   "nearest_photo": []
  },
@@ -68,7 +68,10 @@
    "point_worldhint.viewer",
    "zombiegasses.radius"
   ],
-  "links_unresolved": []
+  "links_unresolved": [],
+  "surfaces_opaque": [
+   "zs_plaza/forlease"
+  ]
  },
  "counts": {
   "textures_unmapped": 0,
@@ -77,6 +80,7 @@
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 5,
-  "links_unresolved": 0
+  "links_unresolved": 0,
+  "surfaces_opaque": 1
  }
 }

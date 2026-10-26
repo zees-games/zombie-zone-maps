@@ -56,7 +56,11 @@
   "keys_unmapped": [
    "ambient_generic.pitch"
   ],
-  "links_unresolved": []
+  "links_unresolved": [],
+  "surfaces_opaque": [
+   "building_template/building_trainstation_window001a",
+   "de_nuke/nuknotice"
+  ]
  },
  "counts": {
   "textures_unmapped": 0,
@@ -65,6 +69,7 @@
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 1,
-  "links_unresolved": 0
+  "links_unresolved": 0,
+  "surfaces_opaque": 2
  }
 }

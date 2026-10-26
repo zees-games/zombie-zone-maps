@@ -64574,23 +64574,27 @@
    "shared": [
     {
      "id": "gamemann/store-shared-283c98ed",
-     "version": "h1c0e5426"
+     "version": "hcb91034f"
     },
     {
      "id": "gamemann/store-shared-44a432c9",
-     "version": "h4078c602"
+     "version": "h309b2345"
     },
     {
      "id": "gamemann/store-shared-472a183a",
-     "version": "h4776c797"
+     "version": "h0b97a3cf"
     },
     {
      "id": "gamemann/store-shared-7cd5ef2a",
-     "version": "h54211258"
+     "version": "hb527edd3"
     },
     {
      "id": "gamemann/store-shared-94487a88",
-     "version": "h7ebfabb8"
+     "version": "h143aab43"
+    },
+    {
+     "id": "gamemann/store-shared-b8bcc5ac",
+     "version": "h8c9eed17"
     },
     {
      "id": "gamemann/store-shared-d43a5cd2",
@@ -64598,7 +64602,7 @@
     },
     {
      "id": "gamemann/store-shared-dbeda0cd",
-     "version": "h00f943e6"
+     "version": "h35f76fe6"
     },
     {
      "id": "gamemann/store-shared-df56cff2",
@@ -64606,22 +64610,22 @@
     },
     {
      "id": "gamemann/store-shared-e6a16335",
-     "version": "ha05665a9"
+     "version": "he38f9e38"
     },
     {
      "id": "gamemann/store-shared-e79b012c",
-     "version": "h92061139"
+     "version": "hf2ac216f"
     },
     {
      "id": "gamemann/store-shared-f7db15ea",
-     "version": "h2667d50a"
+     "version": "h93c55ec3"
     }
    ],
-   "version": "hd207fc20"
+   "version": "hcdf8d62d"
   },
   "textures": [
    {
-    "area": 4994.5,
+    "area": 4972.3,
     "author": "Dimitrios Savva",
     "colour": [
      0.25,
@@ -64638,12 +64642,11 @@
     "source": "polyhaven",
     "sources": [
      "cs_havana/metalwall085a",
-     "halflife/{ladder2",
      "metal/metalhull003a",
      "metal/metalwall085a",
      "models/props_c17/metalwall085a"
     ],
-    "surfaces": 20,
+    "surfaces": 14,
     "tier": "1k",
     "url": "https://polyhaven.com/a/rusted_shutter"
    },
@@ -64695,7 +64698,7 @@
     "url": "https://polyhaven.com/a/painted_metal_shutter"
    },
    {
-    "area": 1223.0,
+    "area": 887.0,
     "author": "Charlotte Baglioni",
     "colour": [
      0.375,
@@ -64711,10 +64714,9 @@
     "licence": "CC0-1.0",
     "source": "polyhaven",
     "sources": [
-     "senne/space/redtile01",
-     "starwars/decals/mp_imperial_symbol"
+     "senne/space/redtile01"
     ],
-    "surfaces": 7,
+    "surfaces": 1,
     "tier": "1k",
     "url": "https://polyhaven.com/a/rusty_corrugated_iron"
    },
@@ -65299,26 +65301,24 @@
    },
    {
     "area": 27.4,
-    "author": "Lennart Demes and contributors",
+    "author": "TMC (generated)",
     "colour": [
      0.25,
      0.25,
      0.25
     ],
-    "fallback_file": "textures/fb_MetalWalkway007.webp",
-    "file": "pbr/MetalWalkway007",
-    "generic": "pbr_MetalWalkway007",
+    "file": "textures/gen_grate_404040.png",
+    "generic": "grate",
     "how": "table",
-    "key": "pbr:pbr_MetalWalkway007",
-    "kind": "pbr",
+    "key": "generated:grate:404040",
+    "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "ambientCG",
+    "source": "dot-map cutout_texture",
     "sources": [
      "metal/metalgrate013a2"
     ],
     "surfaces": 2,
-    "tier": "1k",
-    "url": "https://ambientcg.com/view?id=MetalWalkway007"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 703.7,
@@ -65389,6 +65389,27 @@
     "surfaces": 44,
     "tier": "1k",
     "url": "https://ambientcg.com/view?id=Metal053B"
+   },
+   {
+    "area": 22.2,
+    "author": "TMC (generated)",
+    "colour": [
+     0.25,
+     0.25,
+     0.125
+    ],
+    "file": "textures/gen_ladder_404020.png",
+    "generic": "ladder",
+    "how": "table",
+    "key": "generated:ladder:404020",
+    "kind": "generated",
+    "licence": "CC0-1.0",
+    "source": "dot-map cutout_texture",
+    "sources": [
+     "halflife/{ladder2"
+    ],
+    "surfaces": 6,
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 252.1,
@@ -65486,6 +65507,27 @@
     "surfaces": 25,
     "tier": "1k",
     "url": "https://ambientcg.com/view?id=DiamondPlate008D"
+   },
+   {
+    "area": 336.1,
+    "author": "TMC (generated)",
+    "colour": [
+     0.25,
+     0.0,
+     0.0
+    ],
+    "file": "textures/gen_foliage_card_400000.png",
+    "generic": "foliage_card",
+    "how": "table",
+    "key": "generated:foliage_card:400000",
+    "kind": "generated",
+    "licence": "CC0-1.0",
+    "source": "dot-map cutout_texture",
+    "sources": [
+     "starwars/decals/mp_imperial_symbol"
+    ],
+    "surfaces": 6,
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 861.9,
@@ -66163,26 +66205,24 @@
    },
    {
     "area": 4.4,
-    "author": "Lennart Demes and contributors",
+    "author": "TMC (generated)",
     "colour": [
      0.625,
      0.375,
      0.25
     ],
-    "fallback_file": "textures/fb_Bricks088.webp",
-    "file": "pbr/Bricks088",
-    "generic": "pbr_Bricks088",
+    "file": "textures/gen_glow_9f6040.png",
+    "generic": "glow",
     "how": "table",
-    "key": "pbr:pbr_Bricks088",
-    "kind": "pbr",
+    "key": "generated:glow:9f6040",
+    "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "ambientCG",
+    "source": "dot-map cutout_texture",
     "sources": [
      "effects/exit1"
     ],
     "surfaces": 1,
-    "tier": "1k",
-    "url": "https://ambientcg.com/view?id=Bricks088"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 4.7,
@@ -66525,26 +66565,24 @@
    },
    {
     "area": 0.1,
-    "author": "Lennart Demes and contributors",
+    "author": "TMC (generated)",
     "colour": [
      0.125,
      0.25,
      0.375
     ],
-    "fallback_file": "textures/fb_Tiles029.webp",
-    "file": "pbr/Tiles029",
-    "generic": "pbr_Tiles029",
+    "file": "textures/gen_shield_204060.png",
+    "generic": "shield",
     "how": "table",
-    "key": "pbr:pbr_Tiles029",
-    "kind": "pbr",
+    "key": "generated:shield:204060",
+    "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "ambientCG",
+    "source": "dot-map cutout_texture",
     "sources": [
      "models/props_combine/stasisshield_sheet_dx7"
     ],
     "surfaces": 2,
-    "tier": "1k",
-    "url": "https://ambientcg.com/view?id=Tiles029"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 2.6,
@@ -82581,8 +82619,8 @@
  "movers_without_geometry": [],
  "name": "ze_death_star_escape_v4_3",
  "notes": [
-  "110 glass surfaces (kinds glass, grate, shield)",
-  "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): METAL/METALGRATE013A2 104, STARWARS/DECALS/MP_IMPERIAL_SYMBOL 20, HALFLIFE/{LADDER2 15, EFFECTS/EXIT1 6, CS_ITALY/CULIGHTA 5, MODELS/PROPS_COMBINE/STASISSHIELD_SHEET_DX7 4"
+  "127 glass surfaces (kinds foliage_card, glass, glow, grate, ladder, shield)",
+  "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): CS_ITALY/CULIGHTA 5"
  ],
  "pickups": [
   {
@@ -87746,6 +87784,7 @@
    "yaw": 90.0
   }
  ],
+ "roles": [],
  "scripts": [],
  "settings": {
   "mp_roundtime": 7,
@@ -90941,6 +90980,9 @@
    "index_offset": 542516,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 539072,
    "position_offset": 537596,
@@ -91017,6 +91059,9 @@
    "index_offset": 544056,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 543608,
    "position_offset": 543416,
@@ -91070,6 +91115,9 @@
    "index_offset": 544472,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 544248,
    "position_offset": 544152,
@@ -91442,6 +91490,9 @@
    "index_offset": 557848,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 555104,
    "position_offset": 553928,
@@ -91750,6 +91801,9 @@
    "index_offset": 583616,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 566116,
    "position_offset": 558616,
@@ -91874,6 +91928,9 @@
    "index_offset": 594012,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 589868,
    "position_offset": 588092,
@@ -92456,6 +92513,9 @@
    "index_offset": 671180,
    "lightmap_page": 0,
    "material": "effects/combine_binocoverlay",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 671068,
    "position_offset": 671020,
@@ -92498,6 +92558,9 @@
    "index_offset": 672644,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 671636,
    "position_offset": 671204,
@@ -92539,6 +92602,9 @@
    "index_offset": 676380,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 673916,
    "position_offset": 672860,
@@ -92581,6 +92647,9 @@
    "index_offset": 681020,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 678108,
    "position_offset": 676860,
@@ -92616,6 +92685,9 @@
    "index_offset": 681804,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 681692,
    "position_offset": 681644,
@@ -92900,6 +92972,9 @@
    "index_offset": 685304,
    "lightmap_page": 0,
    "material": "models/props_combine/tprings_globe_dx60",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 684856,
    "position_offset": 684664,
@@ -93363,6 +93438,9 @@
    "index_offset": 726696,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 725464,
    "position_offset": 724936,
@@ -93418,6 +93496,9 @@
    "index_offset": 733040,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 728784,
    "position_offset": 726960,
@@ -93472,6 +93553,9 @@
    "index_offset": 738296,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 735272,
    "position_offset": 733976,
@@ -93508,6 +93592,9 @@
    "index_offset": 739104,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 738992,
    "position_offset": 738944,
@@ -93543,6 +93630,9 @@
    "index_offset": 739448,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 739224,
    "position_offset": 739128,
@@ -94857,6 +94947,9 @@
    "index_offset": 853404,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 853068,
    "position_offset": 852924,
@@ -94896,6 +94989,9 @@
    "index_offset": 853980,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 853644,
    "position_offset": 853500,
@@ -95335,6 +95431,9 @@
    "index_offset": 878392,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 878224,
    "position_offset": 878152,
@@ -95372,6 +95471,9 @@
    "index_offset": 878680,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 878512,
    "position_offset": 878440,
@@ -96223,6 +96325,9 @@
    "index_offset": 958952,
    "lightmap_page": 0,
    "material": "effects/metaltruss022b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 958784,
    "position_offset": 958712,
@@ -96329,6 +96434,9 @@
    "index_offset": 959848,
    "lightmap_page": 0,
    "material": "effects/metaltruss022b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 959512,
    "position_offset": 959368,
@@ -96435,6 +96543,9 @@
    "index_offset": 961368,
    "lightmap_page": 0,
    "material": "effects/metaltruss022b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 961256,
    "position_offset": 961208,
@@ -96518,6 +96629,9 @@
    "index_offset": 961776,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 961636,
    "position_offset": 961576,
@@ -96568,6 +96682,9 @@
    "index_offset": 962212,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 961932,
    "position_offset": 961812,
@@ -96665,6 +96782,9 @@
    "index_offset": 963644,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 963224,
    "position_offset": 963044,
@@ -96744,12 +96864,16 @@
     0.256
    ],
    "entity": null,
-   "free": "pbr:pbr_MetalWalkway007",
+   "free": "generated:grate:404040",
    "generic": "pbr_MetalWalkway007",
+   "glass": "grate",
    "index_count": 408,
    "index_offset": 975448,
    "lightmap_page": 0,
    "material": "metal/metalgrate013a2",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 968728,
    "position_offset": 965848,
@@ -97159,6 +97283,9 @@
    "index_offset": 1009236,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1008228,
    "position_offset": 1007796,
@@ -97196,6 +97323,9 @@
    "index_offset": 1013532,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1010676,
    "position_offset": 1009452,
@@ -97233,6 +97363,9 @@
    "index_offset": 1017764,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1015188,
    "position_offset": 1014084,
@@ -97268,6 +97401,9 @@
    "index_offset": 1018476,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1018364,
    "position_offset": 1018316,
@@ -97466,6 +97602,9 @@
    "index_offset": 1020948,
    "lightmap_page": 0,
    "material": "models/props_combine/tprings_globe_dx60",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1020668,
    "position_offset": 1020548,
@@ -97809,6 +97948,9 @@
    "index_offset": 1051884,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1050988,
    "position_offset": 1050604,
@@ -97847,6 +97989,9 @@
    "index_offset": 1057356,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1053660,
    "position_offset": 1052076,
@@ -97886,6 +98031,9 @@
    "index_offset": 1063292,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1059708,
    "position_offset": 1058172,
@@ -97921,6 +98069,9 @@
    "index_offset": 1064308,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1064084,
    "position_offset": 1063988,
@@ -98200,12 +98351,16 @@
     0.178
    ],
    "entity": null,
-   "free": "pbr:pbr_rusted_shutter",
+   "free": "generated:ladder:404020",
    "generic": "pbr_rusted_shutter",
+   "glass": "ladder",
    "index_count": 42,
    "index_offset": 1102732,
    "lightmap_page": 0,
    "material": "halflife/{ladder2",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1102004,
    "position_offset": 1101692,
@@ -98401,12 +98556,16 @@
     0.178
    ],
    "entity": null,
-   "free": "pbr:pbr_rusted_shutter",
+   "free": "generated:ladder:404020",
    "generic": "pbr_rusted_shutter",
+   "glass": "ladder",
    "index_count": 6,
    "index_offset": 1106988,
    "lightmap_page": 0,
    "material": "halflife/{ladder2",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1106876,
    "position_offset": 1106828,
@@ -100375,6 +100534,9 @@
    "index_offset": 1251112,
    "lightmap_page": 0,
    "material": "effects/metaltruss022b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1251000,
    "position_offset": 1250952,
@@ -102577,6 +102739,9 @@
    "index_offset": 1383776,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1378904,
    "position_offset": 1376816,
@@ -102614,6 +102779,9 @@
    "index_offset": 1385176,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1384952,
    "position_offset": 1384856,
@@ -102652,6 +102820,9 @@
    "index_offset": 1385904,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1385428,
    "position_offset": 1385224,
@@ -102694,6 +102865,9 @@
    "index_offset": 1388372,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1386720,
    "position_offset": 1386012,
@@ -102732,6 +102906,9 @@
    "index_offset": 1389064,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1388840,
    "position_offset": 1388744,
@@ -103048,18 +103225,27 @@
     0.001
    ],
    "entity": null,
-   "free": "pbr:pbr_rusty_corrugated_iron",
+   "free": "generated:foliage_card:400000",
    "generic": "pbr_rusty_corrugated_iron",
+   "glass": "foliage_card",
    "index_count": 39,
    "index_offset": 1405512,
    "lightmap_page": 0,
    "material": "starwars/decals/mp_imperial_symbol",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1404812,
    "position_offset": 1404512,
    "texels": [
     512,
     512
+   ],
+   "tint": [
+    1.0,
+    0.35,
+    0.35
    ],
    "uv2_offset": 1405312,
    "uv_offset": 1405112,
@@ -103171,18 +103357,27 @@
     0.001
    ],
    "entity": null,
-   "free": "pbr:pbr_rusty_corrugated_iron",
+   "free": "generated:foliage_card:400000",
    "generic": "pbr_rusty_corrugated_iron",
+   "glass": "foliage_card",
    "index_count": 12,
    "index_offset": 1410160,
    "lightmap_page": 0,
    "material": "starwars/decals/mp_imperial_symbol",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1409936,
    "position_offset": 1409840,
    "texels": [
     512,
     512
+   ],
+   "tint": [
+    1.0,
+    0.35,
+    0.35
    ],
    "uv2_offset": 1410096,
    "uv_offset": 1410032,
@@ -112488,6 +112683,9 @@
    "index_offset": 1646248,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1643168,
    "position_offset": 1641848,
@@ -112524,6 +112722,9 @@
    "index_offset": 1647464,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1647100,
    "position_offset": 1646944,
@@ -112562,6 +112763,9 @@
    "index_offset": 1649108,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1648016,
    "position_offset": 1647548,
@@ -112598,6 +112802,9 @@
    "index_offset": 1649520,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1649408,
    "position_offset": 1649360,
@@ -112634,6 +112841,9 @@
    "index_offset": 1649704,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1649592,
    "position_offset": 1649544,
@@ -113718,6 +113928,9 @@
    "index_offset": 1710204,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1710064,
    "position_offset": 1710004,
@@ -113756,6 +113969,9 @@
    "index_offset": 1710560,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1710336,
    "position_offset": 1710240,
@@ -117722,6 +117938,9 @@
    "index_offset": 1872036,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1871812,
    "position_offset": 1871716,
@@ -117758,6 +117977,9 @@
    "index_offset": 1872428,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1872204,
    "position_offset": 1872108,
@@ -123493,12 +123715,16 @@
     0.256
    ],
    "entity": null,
-   "free": "pbr:pbr_MetalWalkway007",
+   "free": "generated:grate:404040",
    "generic": "pbr_MetalWalkway007",
+   "glass": "grate",
    "index_count": 402,
    "index_offset": 2097828,
    "lightmap_page": 0,
    "material": "metal/metalgrate013a2",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2091164,
    "position_offset": 2088308,
@@ -125626,6 +125852,9 @@
    "index_offset": 2202796,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2200444,
    "position_offset": 2199436,
@@ -125661,6 +125890,9 @@
    "index_offset": 2203460,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2203348,
    "position_offset": 2203300,
@@ -125697,6 +125929,9 @@
    "index_offset": 2203804,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2203580,
    "position_offset": 2203484,
@@ -125735,6 +125970,9 @@
    "index_offset": 2204972,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2204188,
    "position_offset": 2203852,
@@ -125771,6 +126009,9 @@
    "index_offset": 2205300,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2205188,
    "position_offset": 2205140,
@@ -140459,12 +140700,16 @@
     0.178
    ],
    "entity": null,
-   "free": "pbr:pbr_rusted_shutter",
+   "free": "generated:ladder:404020",
    "generic": "pbr_rusted_shutter",
+   "glass": "ladder",
    "index_count": 30,
    "index_offset": 2853572,
    "lightmap_page": 0,
    "material": "halflife/{ladder2",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2853068,
    "position_offset": 2852852,
@@ -147491,6 +147736,9 @@
    "index_offset": 3379880,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3379656,
    "position_offset": 3379560,
@@ -151361,6 +151609,9 @@
    "index_offset": 3569028,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3568804,
    "position_offset": 3568708,
@@ -154347,6 +154598,9 @@
    "index_offset": 3681232,
    "lightmap_page": 0,
    "material": "effects/combineshield/comshieldwall2",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3681120,
    "position_offset": 3681072,
@@ -154387,6 +154641,9 @@
    "index_offset": 3681576,
    "lightmap_page": 0,
    "material": "effects/combineshield/comshieldwall2",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3681352,
    "position_offset": 3681256,
@@ -154422,6 +154679,9 @@
    "index_offset": 3681784,
    "lightmap_page": 0,
    "material": "effects/combineshield/comshieldwall2",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3681672,
    "position_offset": 3681624,
@@ -154462,6 +154722,9 @@
    "index_offset": 3681968,
    "lightmap_page": 0,
    "material": "effects/combineshield/comshieldwall2",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3681856,
    "position_offset": 3681808,
@@ -154497,6 +154760,9 @@
    "index_offset": 3682152,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3682040,
    "position_offset": 3681992,
@@ -154533,6 +154799,9 @@
    "index_offset": 3682496,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3682272,
    "position_offset": 3682176,
@@ -154569,6 +154838,9 @@
    "index_offset": 3682704,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3682592,
    "position_offset": 3682544,
@@ -155328,6 +155600,9 @@
    "index_offset": 3720508,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3720284,
    "position_offset": 3720188,
@@ -155365,6 +155640,9 @@
    "index_offset": 3720876,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3720652,
    "position_offset": 3720556,
@@ -157269,6 +157547,9 @@
    "index_offset": 3873380,
    "lightmap_page": 0,
    "material": "glass/combineglass001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3872708,
    "position_offset": 3872420,
@@ -157304,6 +157585,9 @@
    "index_offset": 3873756,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3873644,
    "position_offset": 3873596,
@@ -157339,6 +157623,9 @@
    "index_offset": 3873940,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3873828,
    "position_offset": 3873780,
@@ -165824,12 +166111,16 @@
     0.2693
    ],
    "entity": null,
-   "free": "pbr:pbr_Bricks088",
+   "free": "generated:glow:9f6040",
    "generic": "pbr_Bricks088",
+   "glass": "glow",
    "index_count": 36,
    "index_offset": 4398988,
    "lightmap_page": 0,
    "material": "effects/exit1",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4398428,
    "position_offset": 4398188,
@@ -167975,6 +168266,9 @@
    "index_offset": 4617576,
    "lightmap_page": 0,
    "material": "effects/combineshield/comshieldwall2",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4617464,
    "position_offset": 4617416,
@@ -168022,6 +168316,9 @@
    "index_offset": 4618560,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4617888,
    "position_offset": 4617600,
@@ -168057,6 +168354,9 @@
    "index_offset": 4618864,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4618752,
    "position_offset": 4618704,
@@ -168099,6 +168399,9 @@
    "index_offset": 4619368,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4619032,
    "position_offset": 4618888,
@@ -168139,6 +168442,9 @@
    "index_offset": 4619760,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4619536,
    "position_offset": 4619440,
@@ -169072,6 +169378,9 @@
    "index_offset": 4683124,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4683012,
    "position_offset": 4682964,
@@ -169111,6 +169420,9 @@
    "index_offset": 4683948,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4683388,
    "position_offset": 4683148,
@@ -169150,6 +169462,9 @@
    "index_offset": 4685028,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4684356,
    "position_offset": 4684068,
@@ -169824,6 +170139,9 @@
    "index_offset": 4735104,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4730176,
    "position_offset": 4728064,
@@ -169860,6 +170178,9 @@
    "index_offset": 4737120,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4736448,
    "position_offset": 4736160,
@@ -169896,6 +170217,9 @@
    "index_offset": 4739024,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4737792,
    "position_offset": 4737264,
@@ -169932,6 +170256,9 @@
    "index_offset": 4739768,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4739432,
    "position_offset": 4739288,
@@ -169968,6 +170295,9 @@
    "index_offset": 4740320,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4739984,
    "position_offset": 4739840,
@@ -172041,18 +172371,27 @@
     0.001
    ],
    "entity": null,
-   "free": "pbr:pbr_rusty_corrugated_iron",
+   "free": "generated:foliage_card:400000",
    "generic": "pbr_rusty_corrugated_iron",
+   "glass": "foliage_card",
    "index_count": 6,
    "index_offset": 4784252,
    "lightmap_page": 0,
    "material": "starwars/decals/mp_imperial_symbol",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4784140,
    "position_offset": 4784092,
    "texels": [
     512,
     512
+   ],
+   "tint": [
+    1.0,
+    0.35,
+    0.35
    ],
    "uv2_offset": 4784220,
    "uv_offset": 4784188,
@@ -172179,18 +172518,27 @@
     0.001
    ],
    "entity": null,
-   "free": "pbr:pbr_rusty_corrugated_iron",
+   "free": "generated:foliage_card:400000",
    "generic": "pbr_rusty_corrugated_iron",
+   "glass": "foliage_card",
    "index_count": 6,
    "index_offset": 4785540,
    "lightmap_page": 0,
    "material": "starwars/decals/mp_imperial_symbol",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4785428,
    "position_offset": 4785380,
    "texels": [
     512,
     512
+   ],
+   "tint": [
+    1.0,
+    0.35,
+    0.35
    ],
    "uv2_offset": 4785508,
    "uv_offset": 4785476,
@@ -183241,18 +183589,27 @@
     0.001
    ],
    "entity": null,
-   "free": "pbr:pbr_rusty_corrugated_iron",
+   "free": "generated:foliage_card:400000",
    "generic": "pbr_rusty_corrugated_iron",
+   "glass": "foliage_card",
    "index_count": 30,
    "index_offset": 5008956,
    "lightmap_page": 0,
    "material": "starwars/decals/mp_imperial_symbol",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5008396,
    "position_offset": 5008156,
    "texels": [
     512,
     512
+   ],
+   "tint": [
+    1.0,
+    0.35,
+    0.35
    ],
    "uv2_offset": 5008796,
    "uv_offset": 5008636,
@@ -183311,18 +183668,27 @@
     0.001
    ],
    "entity": null,
-   "free": "pbr:pbr_rusty_corrugated_iron",
+   "free": "generated:foliage_card:400000",
    "generic": "pbr_rusty_corrugated_iron",
+   "glass": "foliage_card",
    "index_count": 30,
    "index_offset": 5010244,
    "lightmap_page": 0,
    "material": "starwars/decals/mp_imperial_symbol",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5009684,
    "position_offset": 5009444,
    "texels": [
     512,
     512
+   ],
+   "tint": [
+    1.0,
+    0.35,
+    0.35
    ],
    "uv2_offset": 5010084,
    "uv_offset": 5009924,
@@ -184720,6 +185086,9 @@
    "index_offset": 5050556,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5050444,
    "position_offset": 5050396,
@@ -186261,6 +186630,9 @@
    "index_offset": 5093472,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5093248,
    "position_offset": 5093152,
@@ -187243,12 +187615,16 @@
     0.178
    ],
    "entity": null,
-   "free": "pbr:pbr_rusted_shutter",
+   "free": "generated:ladder:404020",
    "generic": "pbr_rusted_shutter",
+   "glass": "ladder",
    "index_count": 12,
    "index_offset": 5131888,
    "lightmap_page": 0,
    "material": "halflife/{ladder2",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5131664,
    "position_offset": 5131568,
@@ -187361,12 +187737,16 @@
     0.178
    ],
    "entity": null,
-   "free": "pbr:pbr_rusted_shutter",
+   "free": "generated:ladder:404020",
    "generic": "pbr_rusted_shutter",
+   "glass": "ladder",
    "index_count": 6,
    "index_offset": 5133828,
    "lightmap_page": 0,
    "material": "halflife/{ladder2",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5133716,
    "position_offset": 5133668,
@@ -189106,12 +189486,16 @@
     0.178
    ],
    "entity": null,
-   "free": "pbr:pbr_rusted_shutter",
+   "free": "generated:ladder:404020",
    "generic": "pbr_rusted_shutter",
+   "glass": "ladder",
    "index_count": 6,
    "index_offset": 5176348,
    "lightmap_page": 0,
    "material": "halflife/{ladder2",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 5176236,
    "position_offset": 5176188,
@@ -194471,6 +194855,9 @@
    "index_offset": 5355056,
    "lightmap_page": 0,
    "material": "glass/combineglass001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 1,
    "normal_offset": 5354412,
    "position_offset": 5354136,
@@ -194502,6 +194889,9 @@
    "index_offset": 5356532,
    "lightmap_page": 0,
    "material": "glass/combineglass001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 1,
    "normal_offset": 5355608,
    "position_offset": 5355212,
@@ -194533,6 +194923,9 @@
    "index_offset": 5357520,
    "lightmap_page": 0,
    "material": "glass/combineglass001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 1,
    "normal_offset": 5356988,
    "position_offset": 5356760,
@@ -194564,6 +194957,9 @@
    "index_offset": 5358012,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 1,
    "normal_offset": 5357760,
    "position_offset": 5357652,
@@ -198883,6 +199279,9 @@
    "index_offset": 5805444,
    "lightmap_page": 0,
    "material": "de_nuke/nuke_metalvent",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 116,
    "normal_offset": 5804884,
    "position_offset": 5804644,
@@ -198944,6 +199343,9 @@
    "index_offset": 5808044,
    "lightmap_page": 0,
    "material": "de_nuke/nuke_metalvent",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 119,
    "normal_offset": 5807484,
    "position_offset": 5807244,
@@ -200148,6 +200550,9 @@
    "index_offset": 5859260,
    "lightmap_page": 0,
    "material": "effects/com_shield004a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 159,
    "normal_offset": 5859148,
    "position_offset": 5859100,
@@ -200180,6 +200585,9 @@
    "index_offset": 5859444,
    "lightmap_page": 0,
    "material": "effects/combine_binocoverlay",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 159,
    "normal_offset": 5859332,
    "position_offset": 5859284,
@@ -200933,6 +201341,9 @@
    "index_offset": 5916124,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 188,
    "normal_offset": 5915900,
    "position_offset": 5915804,
@@ -201148,6 +201559,9 @@
    "index_offset": 5918328,
    "lightmap_page": 0,
    "material": "de_nuke/nuke_metalvent",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 199,
    "normal_offset": 5918216,
    "position_offset": 5918168,
@@ -201213,6 +201627,9 @@
    "index_offset": 5920048,
    "lightmap_page": 0,
    "material": "de_nuke/nuke_metalvent",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 200,
    "normal_offset": 5919376,
    "position_offset": 5919088,
@@ -201498,6 +201915,9 @@
    "index_offset": 5935168,
    "lightmap_page": 0,
    "material": "effects/combine_binocoverlay",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 212,
    "normal_offset": 5934832,
    "position_offset": 5934688,
@@ -201526,12 +201946,16 @@
     0.3364
    ],
    "entity": 672,
-   "free": "pbr:pbr_Tiles029",
+   "free": "generated:shield:204060",
    "generic": "pbr_Tiles029",
+   "glass": "shield",
    "index_count": 12,
    "index_offset": 5935560,
    "lightmap_page": 0,
    "material": "models/props_combine/stasisshield_sheet_dx7",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 212,
    "normal_offset": 5935336,
    "position_offset": 5935240,
@@ -201576,6 +202000,9 @@
    "index_offset": 5936088,
    "lightmap_page": 0,
    "material": "effects/combine_binocoverlay",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 213,
    "normal_offset": 5935752,
    "position_offset": 5935608,
@@ -201608,12 +202035,16 @@
     0.3364
    ],
    "entity": 673,
-   "free": "pbr:pbr_Tiles029",
+   "free": "generated:shield:204060",
    "generic": "pbr_Tiles029",
+   "glass": "shield",
    "index_count": 12,
    "index_offset": 5936480,
    "lightmap_page": 0,
    "material": "models/props_combine/stasisshield_sheet_dx7",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 213,
    "normal_offset": 5936256,
    "position_offset": 5936160,
@@ -201646,6 +202077,9 @@
    "index_offset": 5936688,
    "lightmap_page": 0,
    "material": "effects/com_shield004a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 214,
    "normal_offset": 5936576,
    "position_offset": 5936528,
@@ -201689,6 +202123,9 @@
    "index_offset": 5936872,
    "lightmap_page": 0,
    "material": "effects/combine_binocoverlay",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 214,
    "normal_offset": 5936760,
    "position_offset": 5936712,
@@ -201720,6 +202157,9 @@
    "index_offset": 5942736,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 215,
    "normal_offset": 5938648,
    "position_offset": 5936896,
@@ -201751,6 +202191,9 @@
    "index_offset": 5943904,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 215,
    "normal_offset": 5943792,
    "position_offset": 5943744,
@@ -201782,6 +202225,9 @@
    "index_offset": 5944088,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 215,
    "normal_offset": 5943976,
    "position_offset": 5943928,
@@ -201813,6 +202259,9 @@
    "index_offset": 5944752,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 215,
    "normal_offset": 5944304,
    "position_offset": 5944112,
@@ -202305,6 +202754,9 @@
    "index_offset": 5974400,
    "lightmap_page": 0,
    "material": "glass/glasswindow070c",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 222,
    "normal_offset": 5974176,
    "position_offset": 5974080,
@@ -202466,6 +202918,9 @@
    "index_offset": 5983696,
    "lightmap_page": 0,
    "material": "effects/com_shield004a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 230,
    "normal_offset": 5981008,
    "position_offset": 5979856,
@@ -204457,6 +204912,9 @@
    "index_offset": 6111416,
    "lightmap_page": 0,
    "material": "effects/blueblacklargebeam",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 331,
    "normal_offset": 6110184,
    "position_offset": 6109656,
@@ -205048,6 +205506,9 @@
    "index_offset": 6157588,
    "lightmap_page": 0,
    "material": "effects/laserplane",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 369,
    "normal_offset": 6155096,
    "position_offset": 6154028,
@@ -205202,6 +205663,9 @@
    "index_offset": 6165588,
    "lightmap_page": 0,
    "material": "effects/com_shield004a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 372,
    "normal_offset": 6162900,
    "position_offset": 6161748,
@@ -205268,6 +205732,9 @@
    "index_offset": 6169332,
    "lightmap_page": 0,
    "material": "cs_italy/culighta",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 374,
    "normal_offset": 6167988,
    "position_offset": 6167412,

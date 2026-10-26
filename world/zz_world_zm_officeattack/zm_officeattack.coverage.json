@@ -11,8 +11,8 @@
    "default": 9
   },
   "free_by_tier": {
-   "addon": 58,
-   "default": 9
+   "addon": 57,
+   "default": 10
   },
   "nearest_photo": []
  },
@@ -62,6 +62,9 @@
   "links_unresolved": [
    "func_breakable.->blockbullets1",
    "prop_physics_multiplayer.OnPlayerUse->"
+  ],
+  "surfaces_opaque": [
+   "cs_assault/assault_door_decal01"
   ]
  },
  "counts": {
@@ -71,6 +74,7 @@
   "sounds_unmapped": 1,
   "classes_unmapped": 0,
   "keys_unmapped": 1,
-  "links_unresolved": 2
+  "links_unresolved": 2,
+  "surfaces_opaque": 1
  }
 }
