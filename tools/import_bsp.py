@@ -59,6 +59,7 @@ from dotbsp import boxes as dboxes, classes as dclasses, docboxes, intermediate,
 from dotbsp import lights as dlights  # noqa: E402
 from dotbsp import terrain as dterrain  # noqa: E402
 
+TERRAIN_AUTO_M2 = 500.0    # displacement ground that turns the heightfield on for a spec that does not say
 # The displacement ground (dotbsp.terrain.Heightfield) the floods walk by slope; None without terrain.
 TERRAIN = None
 # Its walk points after the last flood, which the game's graph is built on (nav_emulate mirrors it).
@@ -1249,11 +1250,12 @@ def budgeted(argv, full):
     n, _, room = wire_size(path)
     cap = min(int(spec.get("max_boxes") or n * room * 0.97), LIMITS["boxes"])
     best = None
-    for _ in range(4):
+    for _ in range(6):
         print("  over the wire budget: keeping the %d largest boxes" % cap)
         rc = convert(argv, max_boxes=cap)
         if rc:
             return rc
+        trim_nav(path)
         room = wire_size(path)[2]
         if room >= 1.0:
             best = cap
@@ -1262,12 +1264,28 @@ def budgeted(argv, full):
                 return 0
             cap = grown
         elif best is not None:
-            return convert(argv, max_boxes=best)
+            rc = convert(argv, max_boxes=best)
+            trim_nav(path)
+            return rc
         else:
-            cap = int(cap * room * 0.97)
+            cap = int(cap * room * 0.93)    # the boxes are only part of the bytes (terrain, nav, solid props), so a ratio of the whole undershoots
     if best is None:
         print("  still over the wire budget")
     return 0
+
+
+def trim_nav(path):
+    """Cuts the written document's floors and links to the game's counts, largest floors first: the whole graph is in the
+    server-only nav extra, which replaces them before the horde's graph is built."""
+    with open(path) as f:
+        doc = json.load(f)
+    nav = doc.get("nav") or {}
+    if len(nav.get("floors", [])) <= LIMITS["floors"] and len(nav.get("links", [])) <= LIMITS["links"]:
+        return
+    nav["floors"] = sorted(nav["floors"], key=lambda f: -(f[2] - f[0]) * (f[3] - f[1]))[:LIMITS["floors"]]
+    nav["links"] = nav["links"][:LIMITS["links"]]
+    with open(path, "w") as f:
+        json.dump(doc, f, indent=1)
 
 
 def put_back(argv, path, whole):
@@ -1333,7 +1351,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
         # the graph can keeps ground nobody can reach out of the map.
         STEP = JUMP = float(spec["flood_step"])
     out_dir = argv[3] if len(argv) > 3 else os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "maps")
-    bs = load_source(argv[2], bool(spec.get("terrain")))
+    bs = load_source(argv[2], spec.get("terrain") is not False)    # displacements are read unless the spec opts out, for the auto rule below
     ents = bs.entities
     surv = [e for e in ents if e.get("classname") == spec["survivor_class"]]
     y0 = float(spec.get("y0", 0.0))    # spec y0: metres the source floor sits above the game's y = 0 (the nav is flat at 0)
@@ -1343,6 +1361,15 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
     tread_ids, added_ids = set(), set()    # added_ids: authored stand-ins, never what the cap drops
     for b in model_boxes(bs, 0, y0):
         boxes.append(b)
+
+    # A spec without `terrain` takes the heightfield when the source draws enough displacement ground: drawn terrain with no collision
+    # is a floor the player falls through, and the stepped boxes it left were 0.35 to 3 m lower than the picture (collide_probe).
+    # `"terrain": false` opts out (a map whose displacements are trim); `terrain_auto_m2` moves the threshold.
+    if "terrain" not in spec and bs.terrain_tris():
+        area = dterrain.Heightfield.from_tris(dterrain.game_tris(bs.terrain_tris(), S, y0), 1.0).count()
+        if area >= float(spec.get("terrain_auto_m2", TERRAIN_AUTO_M2)):
+            spec["terrain"] = True
+            print("terrain: %d m2 of displacements, taken as the heightfield (spec \"terrain\": false opts out)" % area)
 
     # `terrain`: ground that is displacements (sculpted heightmaps, not brushes) has no box at all.
     # It ships as dot-map's heightfield (the game collides with its triangles) and the floods walk
