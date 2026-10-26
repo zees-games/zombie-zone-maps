@@ -28,37 +28,38 @@ Every texture of this map is a free replacement; the original map's textures and
 - pbr (pbr_Metal011): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal011
 - pbr (pbr_MetalWalkway005): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalWalkway005
 - pbr (pbr_MetalWalkway011): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalWalkway011
-- pbr (pbr_Fabric079): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Fabric079
-- pbr (pbr_Concrete022): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Concrete022
-- pbr (pbr_Plaster007): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Plaster007
-- pbr (pbr_broken_wall): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/broken_wall
 - pbr (pbr_Metal055B): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal055B
-- pbr (pbr_patterned_clay_plaster): polyhaven, Amal Kumar, CC0-1.0, https://polyhaven.com/a/patterned_clay_plaster
-- pbr (pbr_grey_plaster_03): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/grey_plaster_03
 - pbr (pbr_Fabric054): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Fabric054
+- pbr (pbr_Fabric079): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Fabric079
+- pbr (pbr_grey_plaster_03): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/grey_plaster_03
+- pbr (pbr_patterned_clay_plaster): polyhaven, Amal Kumar, CC0-1.0, https://polyhaven.com/a/patterned_clay_plaster
 - pbr (pbr_Wood029): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Wood029
 - pbr (pbr_PaintedWood007A): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=PaintedWood007A
+- pbr (pbr_Wallpaper002C): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Wallpaper002C
 - pbr (pbr_rusted_shutter): polyhaven, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/rusted_shutter
 - pbr (pbr_pavement_02): polyhaven, Dario Barresi, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/pavement_02
-- pbr (pbr_Wallpaper002C): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Wallpaper002C
 - pbr (pbr_Tiles088): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Tiles088
 - pbr (pbr_Ground014): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Ground014
+- pbr (pbr_Concrete022): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Concrete022
+- pbr (pbr_broken_wall): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/broken_wall
+- pbr (pbr_Plaster007): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Plaster007
 - pbr (pbr_Planks002): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Planks002
-- pbr (pbr_stone_tile_wall): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/stone_tile_wall
-- pbr (pbr_MetalWalkway001): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalWalkway001
 - pbr (pbr_Tiles120): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Tiles120
-- generated (water): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
 - pbr (pbr_PaintedMetal009): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=PaintedMetal009
 - pbr (pbr_Tiles058): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Tiles058
 - pbr (pbr_rock_tile_floor): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/rock_tile_floor
+- pbr (pbr_stone_tile_wall): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/stone_tile_wall
 - pbr (pbr_concrete_block_wall): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/concrete_block_wall
 - generated (grate): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
+- pbr (pbr_MetalWalkway001): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalWalkway001
+- generated (water): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
 - pbr (pbr_blue_painted_planks): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/blue_painted_planks
 - pbr (pbr_MetalPlates016B): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalPlates016B
 - pbr (pbr_MetalWalkway002): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalWalkway002
 
 # Model stand-ins
 
+- lib/fxadpanel: Modelled for dot-map, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
 - lib/kenney_building-kit_door-rotate-square-a: Kenney Building Kit, Kenney, CC0-1.0, https://kenney.nl/assets/building-kit
 - lib/kenney_building-kit_door-rotate-square-c: Kenney Building Kit, Kenney, CC0-1.0, https://kenney.nl/assets/building-kit
 - lib/kenney_food-kit_cooking-knife-chopping: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
@@ -71,7 +72,6 @@ Every texture of this map is a free replacement; the original map's textures and
 - lib/kenney_furniture-kit_televisionModern: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
 - lib/kenney_graveyard-kit_pillar-large: Kenney Graveyard Kit, Kenney, CC0-1.0, https://kenney.nl/assets/graveyard-kit
 - lib/kenney_mini-arcade_vending-machine: Kenney Mini Arcade, Kenney, CC0-1.0, https://kenney.nl/assets/mini-arcade
-- lib/kenney_nature-kit_log_stackLarge: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
 - lib/kenney_pirate-kit_barrel: Kenney Pirate Kit, Kenney, CC0-1.0, https://kenney.nl/assets/pirate-kit
 - lib/kenney_pirate-kit_structure-fence-sides: Kenney Pirate Kit, Kenney, CC0-1.0, https://kenney.nl/assets/pirate-kit
 - lib/kenney_retro-urban-kit_detail-dumpster-closed: Kenney Retro Urban Kit, Kenney, CC0-1.0, https://kenney.nl/assets/retro-urban-kit

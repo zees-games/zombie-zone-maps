@@ -3,13 +3,13 @@
   "bytes": 2806382,
   "compression": "gzip",
   "file": "zs_ravenstreet.bin",
-  "sha256": "d7605329f0ad8b5db795d0b642597fb0a248c6d870f841a00c348e672d410fc6",
-  "stored_bytes": 527735
+  "sha256": "c84afa4126a9fe1b54199bedab1dd172ad98b1fc3ab27d343d0aaa1f3e79ef4c",
+  "stored_bytes": 528053
  },
  "counts": {
   "hulls": 0,
   "models": 1,
-  "surfaces": 297,
+  "surfaces": 332,
   "triangles": 5918,
   "vertices": 9193
  },
@@ -388,7 +388,7 @@
   ],
   "store_pack": {
    "id": "gamemann/store-zz_world_zs_ravenstreet",
-   "version": "h30d7a058"
+   "version": "hffcea7b0"
   },
   "textures": [
    {
@@ -418,7 +418,7 @@
      "concrete/concretewall041a",
      "concrete/concretewall041c"
     ],
-    "surfaces": 107,
+    "surfaces": 138,
     "url": "https://ambientcg.com/view?id=Concrete047A"
    },
    {
@@ -441,7 +441,7 @@
      "brick/brickwall045c",
      "brick/brickwall045f"
     ],
-    "surfaces": 31,
+    "surfaces": 35,
     "url": "https://ambientcg.com/view?id=Bricks097"
    },
    {
@@ -3877,7 +3877,8 @@
    "area": 8.92,
    "chunk": [
     -4,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -3910,7 +3911,8 @@
    "area": 1.49,
    "chunk": [
     -4,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -3944,7 +3946,8 @@
    "area": 39.02,
    "chunk": [
     -3,
-    -4
+    -4,
+    1
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -3975,10 +3978,11 @@
    "vertex_count": 4
   },
   {
-   "area": 230.4,
+   "area": 92.16,
    "chunk": [
     -3,
-    -3
+    -3,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -3993,26 +3997,62 @@
    "entity": null,
    "free": "brick:brick_red",
    "generic": "brick_red",
-   "index_count": 36,
-   "index_offset": 56500,
+   "index_count": 18,
+   "index_offset": 56100,
    "lightmap_page": 0,
    "material": "brick/brickwall045a",
    "model": 0,
-   "normal_offset": 55940,
+   "normal_offset": 55820,
    "position_offset": 55700,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 56340,
-   "uv_offset": 56180,
-   "vertex_count": 20
+   "uv2_offset": 56020,
+   "uv_offset": 55940,
+   "vertex_count": 10
+  },
+  {
+   "area": 138.24,
+   "chunk": [
+    -3,
+    -3,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    50,
+    54
+   ],
+   "colour": [
+    0.3603,
+    0.3199,
+    0.2605
+   ],
+   "entity": null,
+   "free": "brick:brick_red",
+   "generic": "brick_red",
+   "index_count": 18,
+   "index_offset": 56572,
+   "lightmap_page": 0,
+   "material": "brick/brickwall045a",
+   "model": 0,
+   "normal_offset": 56292,
+   "position_offset": 56172,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 56492,
+   "uv_offset": 56412,
+   "vertex_count": 10
   },
   {
    "area": 80.64,
    "chunk": [
     -3,
-    -3
+    -3,
+    1
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -4042,10 +4082,11 @@
    "vertex_count": 5
   },
   {
-   "area": 115.2,
+   "area": 46.08,
    "chunk": [
     -3,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -4060,26 +4101,62 @@
    "entity": null,
    "free": "brick:brick_red",
    "generic": "brick_red",
-   "index_count": 24,
-   "index_offset": 57360,
+   "index_count": 12,
+   "index_offset": 57120,
    "lightmap_page": 0,
    "material": "brick/brickwall045a",
    "model": 0,
-   "normal_offset": 57024,
+   "normal_offset": 56952,
    "position_offset": 56880,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 57264,
-   "uv_offset": 57168,
-   "vertex_count": 12
+   "uv2_offset": 57072,
+   "uv_offset": 57024,
+   "vertex_count": 6
+  },
+  {
+   "area": 69.12,
+   "chunk": [
+    -3,
+    -2,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    54,
+    126
+   ],
+   "colour": [
+    0.3603,
+    0.3199,
+    0.2605
+   ],
+   "entity": null,
+   "free": "brick:brick_red",
+   "generic": "brick_red",
+   "index_count": 12,
+   "index_offset": 57408,
+   "lightmap_page": 0,
+   "material": "brick/brickwall045a",
+   "model": 0,
+   "normal_offset": 57240,
+   "position_offset": 57168,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 57360,
+   "uv_offset": 57312,
+   "vertex_count": 6
   },
   {
    "area": 80.64,
    "chunk": [
     -3,
-    -2
+    -2,
+    1
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -4110,10 +4187,116 @@
    "vertex_count": 5
   },
   {
+   "area": 1.44,
+   "chunk": [
+    -3,
+    -1,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    126,
+    128
+   ],
+   "colour": [
+    0.4526,
+    0.4371,
+    0.4222
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 12,
+   "index_offset": 58012,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor028c_c17",
+   "model": 0,
+   "normal_offset": 57788,
+   "position_offset": 57692,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 57948,
+   "uv_offset": 57884,
+   "vertex_count": 8
+  },
+  {
+   "area": 23.04,
+   "chunk": [
+    -3,
+    -1,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    126,
+    127
+   ],
+   "colour": [
+    0.4526,
+    0.4371,
+    0.4222
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 30,
+   "index_offset": 58620,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor028c_c17",
+   "model": 0,
+   "normal_offset": 58228,
+   "position_offset": 58060,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 58508,
+   "uv_offset": 58396,
+   "vertex_count": 14
+  },
+  {
+   "area": 69.12,
+   "chunk": [
+    -3,
+    -1,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    128,
+    184
+   ],
+   "colour": [
+    0.3982,
+    0.3772,
+    0.3657
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 12,
+   "index_offset": 59060,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor033k",
+   "model": 0,
+   "normal_offset": 58836,
+   "position_offset": 58740,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 58996,
+   "uv_offset": 58932,
+   "vertex_count": 8
+  },
+  {
    "area": 67.63,
    "chunk": [
     -3,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -4128,25 +4311,26 @@
    "free": "brick:brick_red",
    "generic": "brick_red",
    "index_count": 27,
-   "index_offset": 58292,
+   "index_offset": 59708,
    "lightmap_page": 0,
    "material": "brick/brickwall045a",
    "model": 0,
-   "normal_offset": 57872,
-   "position_offset": 57692,
+   "normal_offset": 59288,
+   "position_offset": 59108,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 58172,
-   "uv_offset": 58052,
+   "uv2_offset": 59588,
+   "uv_offset": 59468,
    "vertex_count": 15
   },
   {
    "area": 53.51,
    "chunk": [
     -3,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -4161,25 +4345,26 @@
    "free": "brick:brick_red",
    "generic": "brick_red",
    "index_count": 9,
-   "index_offset": 58600,
+   "index_offset": 60016,
    "lightmap_page": 0,
    "material": "brick/brickwall045c",
    "model": 0,
-   "normal_offset": 58460,
-   "position_offset": 58400,
+   "normal_offset": 59876,
+   "position_offset": 59816,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 58560,
-   "uv_offset": 58520,
+   "uv2_offset": 59976,
+   "uv_offset": 59936,
    "vertex_count": 5
   },
   {
    "area": 46.08,
    "chunk": [
     -3,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -4197,25 +4382,26 @@
    "free": "brick:brick_red",
    "generic": "brick_red",
    "index_count": 39,
-   "index_offset": 59316,
+   "index_offset": 60732,
    "lightmap_page": 0,
    "material": "brick/brickwall045f",
    "model": 0,
-   "normal_offset": 58840,
-   "position_offset": 58636,
+   "normal_offset": 60256,
+   "position_offset": 60052,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 59180,
-   "uv_offset": 59044,
+   "uv2_offset": 60596,
+   "uv_offset": 60460,
    "vertex_count": 17
   },
   {
-   "area": 110.37,
+   "area": 29.73,
    "chunk": [
     -3,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -4229,26 +4415,27 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 18,
-   "index_offset": 59872,
+   "index_count": 6,
+   "index_offset": 61048,
    "lightmap_page": 0,
    "material": "concrete/concretefloor027a",
    "model": 0,
-   "normal_offset": 59592,
-   "position_offset": 59472,
+   "normal_offset": 60936,
+   "position_offset": 60888,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 59792,
-   "uv_offset": 59712,
-   "vertex_count": 10
+   "uv2_offset": 61016,
+   "uv_offset": 60984,
+   "vertex_count": 4
   },
   {
-   "area": 47.52,
+   "area": 46.08,
    "chunk": [
     -3,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -4264,31 +4451,170 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 42,
-   "index_offset": 60824,
+   "index_count": 30,
+   "index_offset": 61632,
    "lightmap_page": 0,
    "material": "concrete/concretefloor028c_c17",
    "model": 0,
-   "normal_offset": 60208,
-   "position_offset": 59944,
+   "normal_offset": 61240,
+   "position_offset": 61072,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 60648,
-   "uv_offset": 60472,
-   "vertex_count": 22
+   "uv2_offset": 61520,
+   "uv_offset": 61408,
+   "vertex_count": 14
   },
   {
-   "area": 23.04,
+   "area": 0.06,
    "chunk": [
     -3,
-    -1
+    -1,
+    0
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    126
+   ],
+   "colour": [
+    0.3382,
+    0.2687,
+    0.2118
+   ],
+   "entity": null,
+   "free": "wood_floor:wood_floor",
+   "generic": "wood_floor",
+   "index_count": 18,
+   "index_offset": 62232,
+   "lightmap_page": 0,
+   "material": "wood/woodfloor007a_c17",
+   "model": 0,
+   "normal_offset": 61896,
+   "position_offset": 61752,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 62136,
+   "uv_offset": 62040,
+   "vertex_count": 12
+  },
+  {
+   "area": 0.48,
+   "chunk": [
+    -3,
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
     126,
     127
+   ],
+   "colour": [
+    0.3382,
+    0.2687,
+    0.2118
+   ],
+   "entity": null,
+   "free": "wood_floor:wood_floor",
+   "generic": "wood_floor",
+   "index_count": 42,
+   "index_offset": 63344,
+   "lightmap_page": 0,
+   "material": "wood/woodfloor007a_c17",
+   "model": 0,
+   "normal_offset": 62616,
+   "position_offset": 62304,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 63136,
+   "uv_offset": 62928,
+   "vertex_count": 26
+  },
+  {
+   "area": 0.23,
+   "chunk": [
+    -3,
+    -1,
+    0
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    126,
+    127
+   ],
+   "colour": [
+    0.3382,
+    0.2687,
+    0.2118
+   ],
+   "entity": null,
+   "free": "wood_floor:wood_floor",
+   "generic": "wood_floor",
+   "index_count": 12,
+   "index_offset": 63832,
+   "lightmap_page": 0,
+   "material": "wood/woodfloor007a_c17",
+   "model": 0,
+   "normal_offset": 63608,
+   "position_offset": 63512,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 63768,
+   "uv_offset": 63704,
+   "vertex_count": 8
+  },
+  {
+   "area": 80.64,
+   "chunk": [
+    -3,
+    -1,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    126
+   ],
+   "colour": [
+    0.3959,
+    0.3792,
+    0.3454
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 12,
+   "index_offset": 64120,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor027a",
+   "model": 0,
+   "normal_offset": 63952,
+   "position_offset": 63880,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 64072,
+   "uv_offset": 64024,
+   "vertex_count": 6
+  },
+  {
+   "area": 1.44,
+   "chunk": [
+    -3,
+    0,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    184,
+    185
    ],
    "colour": [
     0.4526,
@@ -4298,25 +4624,26 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 30,
-   "index_offset": 61552,
+   "index_count": 12,
+   "index_offset": 64488,
    "lightmap_page": 0,
    "material": "concrete/concretefloor028c_c17",
    "model": 0,
-   "normal_offset": 61160,
-   "position_offset": 60992,
+   "normal_offset": 64264,
+   "position_offset": 64168,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 61440,
-   "uv_offset": 61328,
-   "vertex_count": 14
+   "uv2_offset": 64424,
+   "uv_offset": 64360,
+   "vertex_count": 8
   },
   {
-   "area": 69.12,
+   "area": 23.04,
    "chunk": [
     -3,
+    0,
     -1
    ],
    "classname": "worldspawn",
@@ -4333,125 +4660,25 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 12,
-   "index_offset": 61992,
+   "index_offset": 64856,
    "lightmap_page": 0,
    "material": "concrete/concretefloor033k",
    "model": 0,
-   "normal_offset": 61768,
-   "position_offset": 61672,
+   "normal_offset": 64632,
+   "position_offset": 64536,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 61928,
-   "uv_offset": 61864,
+   "uv2_offset": 64792,
+   "uv_offset": 64728,
    "vertex_count": 8
   },
   {
-   "area": 0.06,
+   "area": 2.97,
    "chunk": [
     -3,
-    -1
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    126
-   ],
-   "colour": [
-    0.3382,
-    0.2687,
-    0.2118
-   ],
-   "entity": null,
-   "free": "wood_floor:wood_floor",
-   "generic": "wood_floor",
-   "index_count": 18,
-   "index_offset": 62520,
-   "lightmap_page": 0,
-   "material": "wood/woodfloor007a_c17",
-   "model": 0,
-   "normal_offset": 62184,
-   "position_offset": 62040,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 62424,
-   "uv_offset": 62328,
-   "vertex_count": 12
-  },
-  {
-   "area": 0.48,
-   "chunk": [
-    -3,
-    -1
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    126,
-    127
-   ],
-   "colour": [
-    0.3382,
-    0.2687,
-    0.2118
-   ],
-   "entity": null,
-   "free": "wood_floor:wood_floor",
-   "generic": "wood_floor",
-   "index_count": 42,
-   "index_offset": 63632,
-   "lightmap_page": 0,
-   "material": "wood/woodfloor007a_c17",
-   "model": 0,
-   "normal_offset": 62904,
-   "position_offset": 62592,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 63424,
-   "uv_offset": 63216,
-   "vertex_count": 26
-  },
-  {
-   "area": 0.23,
-   "chunk": [
-    -3,
-    -1
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    126,
-    127
-   ],
-   "colour": [
-    0.3382,
-    0.2687,
-    0.2118
-   ],
-   "entity": null,
-   "free": "wood_floor:wood_floor",
-   "generic": "wood_floor",
-   "index_count": 12,
-   "index_offset": 64120,
-   "lightmap_page": 0,
-   "material": "wood/woodfloor007a_c17",
-   "model": 0,
-   "normal_offset": 63896,
-   "position_offset": 63800,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 64056,
-   "uv_offset": 63992,
-   "vertex_count": 8
-  },
-  {
-   "area": 104.05,
-   "chunk": [
-    -3,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -4467,59 +4694,26 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 33,
-   "index_offset": 64928,
+   "index_count": 9,
+   "index_offset": 65104,
    "lightmap_page": 0,
    "material": "concrete/concretefloor027a",
    "model": 0,
-   "normal_offset": 64396,
-   "position_offset": 64168,
+   "normal_offset": 64964,
+   "position_offset": 64904,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 64776,
-   "uv_offset": 64624,
-   "vertex_count": 19
-  },
-  {
-   "area": 1.44,
-   "chunk": [
-    -3,
-    0
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    184,
-    185
-   ],
-   "colour": [
-    0.4526,
-    0.4371,
-    0.4222
-   ],
-   "entity": null,
-   "free": "concrete:concrete",
-   "generic": "concrete",
-   "index_count": 12,
-   "index_offset": 65380,
-   "lightmap_page": 0,
-   "material": "concrete/concretefloor028c_c17",
-   "model": 0,
-   "normal_offset": 65156,
-   "position_offset": 65060,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 65316,
-   "uv_offset": 65252,
-   "vertex_count": 8
+   "uv2_offset": 65064,
+   "uv_offset": 65024,
+   "vertex_count": 5
   },
   {
    "area": 46.08,
    "chunk": [
     -3,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -4537,92 +4731,25 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 27,
-   "index_offset": 65948,
+   "index_offset": 65660,
    "lightmap_page": 0,
    "material": "concrete/concretefloor028c_c17",
    "model": 0,
-   "normal_offset": 65584,
-   "position_offset": 65428,
+   "normal_offset": 65296,
+   "position_offset": 65140,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 65844,
-   "uv_offset": 65740,
+   "uv2_offset": 65556,
+   "uv_offset": 65452,
    "vertex_count": 13
   },
   {
-   "area": 23.04,
+   "area": 41.62,
    "chunk": [
     -3,
-    0
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    128,
-    184
-   ],
-   "colour": [
-    0.3982,
-    0.3772,
-    0.3657
-   ],
-   "entity": null,
-   "free": "concrete:concrete",
-   "generic": "concrete",
-   "index_count": 12,
-   "index_offset": 66376,
-   "lightmap_page": 0,
-   "material": "concrete/concretefloor033k",
-   "model": 0,
-   "normal_offset": 66152,
-   "position_offset": 66056,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 66312,
-   "uv_offset": 66248,
-   "vertex_count": 8
-  },
-  {
-   "area": 107.02,
-   "chunk": [
-    -3,
-    0
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    185,
-    186
-   ],
-   "colour": [
-    0.6383,
-    0.6271,
-    0.5977
-   ],
-   "entity": null,
-   "free": "concrete:concrete",
-   "generic": "concrete",
-   "index_count": 15,
-   "index_offset": 66784,
-   "lightmap_page": 0,
-   "material": "concrete/concretewall026f",
-   "model": 0,
-   "normal_offset": 66532,
-   "position_offset": 66424,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 66712,
-   "uv_offset": 66640,
-   "vertex_count": 9
-  },
-  {
-   "area": 77.3,
-   "chunk": [
-    -3,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -4638,25 +4765,26 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 48,
-   "index_offset": 67884,
+   "index_count": 30,
+   "index_offset": 66328,
    "lightmap_page": 0,
    "material": "concrete/concretewall026i",
    "model": 0,
-   "normal_offset": 67156,
-   "position_offset": 66844,
+   "normal_offset": 65936,
+   "position_offset": 65768,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 67676,
-   "uv_offset": 67468,
-   "vertex_count": 26
+   "uv2_offset": 66216,
+   "uv_offset": 66104,
+   "vertex_count": 14
   },
   {
    "area": 0.06,
    "chunk": [
     -3,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -4673,24 +4801,25 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 18,
-   "index_offset": 68556,
+   "index_offset": 66928,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 68220,
-   "position_offset": 68076,
+   "normal_offset": 66592,
+   "position_offset": 66448,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 68460,
-   "uv_offset": 68364,
+   "uv2_offset": 66832,
+   "uv_offset": 66736,
    "vertex_count": 12
   },
   {
    "area": 0.71,
    "chunk": [
     -3,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -4707,25 +4836,131 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 54,
-   "index_offset": 69988,
+   "index_offset": 68360,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 69036,
-   "position_offset": 68628,
+   "normal_offset": 67408,
+   "position_offset": 67000,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 69716,
-   "uv_offset": 69444,
+   "uv2_offset": 68088,
+   "uv_offset": 67816,
    "vertex_count": 34
+  },
+  {
+   "area": 101.08,
+   "chunk": [
+    -3,
+    0,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    185,
+    186
+   ],
+   "colour": [
+    0.3959,
+    0.3792,
+    0.3454
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 24,
+   "index_offset": 69136,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor027a",
+   "model": 0,
+   "normal_offset": 68744,
+   "position_offset": 68576,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 69024,
+   "uv_offset": 68912,
+   "vertex_count": 14
+  },
+  {
+   "area": 107.02,
+   "chunk": [
+    -3,
+    0,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    185,
+    186
+   ],
+   "colour": [
+    0.6383,
+    0.6271,
+    0.5977
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 15,
+   "index_offset": 69592,
+   "lightmap_page": 0,
+   "material": "concrete/concretewall026f",
+   "model": 0,
+   "normal_offset": 69340,
+   "position_offset": 69232,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 69520,
+   "uv_offset": 69448,
+   "vertex_count": 9
+  },
+  {
+   "area": 35.67,
+   "chunk": [
+    -3,
+    0,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    185,
+    186
+   ],
+   "colour": [
+    0.7042,
+    0.6958,
+    0.6682
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 18,
+   "index_offset": 70132,
+   "lightmap_page": 0,
+   "material": "concrete/concretewall026i",
+   "model": 0,
+   "normal_offset": 69796,
+   "position_offset": 69652,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 70036,
+   "uv_offset": 69940,
+   "vertex_count": 12
   },
   {
    "area": 40.51,
    "chunk": [
     -2,
-    -4
+    -4,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -4760,15 +4995,14 @@
    "vertex_count": 11
   },
   {
-   "area": 45.8,
+   "area": 3.07,
    "chunk": [
     -2,
-    -4
+    -4,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
-    49,
-    50,
     51,
     52,
     53,
@@ -4782,26 +5016,27 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 33,
-   "index_offset": 71488,
+   "index_count": 18,
+   "index_offset": 71128,
    "lightmap_page": 0,
    "material": "concrete/concretefloor027a",
    "model": 0,
-   "normal_offset": 70956,
+   "normal_offset": 70848,
    "position_offset": 70728,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 71336,
-   "uv_offset": 71184,
-   "vertex_count": 19
+   "uv2_offset": 71048,
+   "uv_offset": 70968,
+   "vertex_count": 10
   },
   {
    "area": 47.57,
    "chunk": [
     -2,
-    -4
+    -4,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -4820,25 +5055,26 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 15,
-   "index_offset": 71900,
+   "index_offset": 71480,
    "lightmap_page": 0,
    "material": "concrete/concretewall026f",
    "model": 0,
-   "normal_offset": 71704,
-   "position_offset": 71620,
+   "normal_offset": 71284,
+   "position_offset": 71200,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 71844,
-   "uv_offset": 71788,
+   "uv2_offset": 71424,
+   "uv_offset": 71368,
    "vertex_count": 7
   },
   {
    "area": 29.73,
    "chunk": [
     -2,
-    -4
+    -4,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -4854,25 +5090,63 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 9,
-   "index_offset": 72160,
+   "index_offset": 71740,
    "lightmap_page": 0,
    "material": "concrete/concretewall026i",
    "model": 0,
-   "normal_offset": 72020,
-   "position_offset": 71960,
+   "normal_offset": 71600,
+   "position_offset": 71540,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 72120,
-   "uv_offset": 72080,
+   "uv2_offset": 71700,
+   "uv_offset": 71660,
    "vertex_count": 5
+  },
+  {
+   "area": 42.74,
+   "chunk": [
+    -2,
+    -4,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    49,
+    50,
+    51,
+    54
+   ],
+   "colour": [
+    0.3959,
+    0.3792,
+    0.3454
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 15,
+   "index_offset": 72136,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor027a",
+   "model": 0,
+   "normal_offset": 71884,
+   "position_offset": 71776,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 72064,
+   "uv_offset": 71992,
+   "vertex_count": 9
   },
   {
    "area": 69.49,
    "chunk": [
     -2,
-    -3
+    -3,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -4910,7 +5184,8 @@
    "area": 71.35,
    "chunk": [
     -2,
-    -3
+    -3,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -4941,10 +5216,11 @@
    "vertex_count": 10
   },
   {
-   "area": 63.36,
+   "area": 5.76,
    "chunk": [
     -2,
-    -3
+    -3,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -4961,26 +5237,99 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 42,
-   "index_offset": 74332,
+   "index_count": 27,
+   "index_offset": 74052,
    "lightmap_page": 0,
    "material": "concrete/concretefloor027a",
    "model": 0,
-   "normal_offset": 73772,
+   "normal_offset": 73688,
    "position_offset": 73532,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 74172,
-   "uv_offset": 74012,
-   "vertex_count": 20
+   "uv2_offset": 73948,
+   "uv_offset": 73844,
+   "vertex_count": 13
+  },
+  {
+   "area": 57.6,
+   "chunk": [
+    -2,
+    -3,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    51,
+    54
+   ],
+   "colour": [
+    0.3959,
+    0.3792,
+    0.3454
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 15,
+   "index_offset": 74440,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor027a",
+   "model": 0,
+   "normal_offset": 74244,
+   "position_offset": 74160,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 74384,
+   "uv_offset": 74328,
+   "vertex_count": 7
+  },
+  {
+   "area": 23.41,
+   "chunk": [
+    -2,
+    -2,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    53,
+    54,
+    126,
+    127
+   ],
+   "colour": [
+    0.7027,
+    0.7033,
+    0.6903
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 21,
+   "index_offset": 74940,
+   "lightmap_page": 0,
+   "material": "concrete/concretewall013m",
+   "model": 0,
+   "normal_offset": 74632,
+   "position_offset": 74500,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 74852,
+   "uv_offset": 74764,
+   "vertex_count": 11
   },
   {
    "area": 80.64,
    "chunk": [
     -2,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5000,25 +5349,26 @@
    "free": "brick:brick_red",
    "generic": "brick_red",
    "index_count": 30,
-   "index_offset": 75060,
+   "index_offset": 75584,
    "lightmap_page": 0,
    "material": "brick/brickwall045a",
    "model": 0,
-   "normal_offset": 74668,
-   "position_offset": 74500,
+   "normal_offset": 75192,
+   "position_offset": 75024,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 74948,
-   "uv_offset": 74836,
+   "uv2_offset": 75472,
+   "uv_offset": 75360,
    "vertex_count": 14
   },
   {
-   "area": 146.88,
+   "area": 89.28,
    "chunk": [
     -2,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5035,26 +5385,27 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 21,
-   "index_offset": 75620,
+   "index_count": 9,
+   "index_offset": 75904,
    "lightmap_page": 0,
    "material": "concrete/concretefloor027a",
    "model": 0,
-   "normal_offset": 75312,
-   "position_offset": 75180,
+   "normal_offset": 75764,
+   "position_offset": 75704,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 75532,
-   "uv_offset": 75444,
-   "vertex_count": 11
+   "uv2_offset": 75864,
+   "uv_offset": 75824,
+   "vertex_count": 5
   },
   {
    "area": 40.51,
    "chunk": [
     -2,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5074,25 +5425,26 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 36,
-   "index_offset": 76504,
+   "index_offset": 76740,
    "lightmap_page": 0,
    "material": "concrete/concretewall013a",
    "model": 0,
-   "normal_offset": 75944,
-   "position_offset": 75704,
+   "normal_offset": 76180,
+   "position_offset": 75940,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 76344,
-   "uv_offset": 76184,
+   "uv2_offset": 76580,
+   "uv_offset": 76420,
    "vertex_count": 20
   },
   {
-   "area": 56.11,
+   "area": 32.7,
    "chunk": [
     -2,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5111,26 +5463,27 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 45,
-   "index_offset": 77568,
+   "index_count": 24,
+   "index_offset": 77364,
    "lightmap_page": 0,
    "material": "concrete/concretewall013m",
    "model": 0,
-   "normal_offset": 76924,
-   "position_offset": 76648,
+   "normal_offset": 77028,
+   "position_offset": 76884,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 77384,
-   "uv_offset": 77200,
-   "vertex_count": 23
+   "uv2_offset": 77268,
+   "uv_offset": 77172,
+   "vertex_count": 12
   },
   {
    "area": 87.79,
    "chunk": [
     -2,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5153,25 +5506,26 @@
    "free": "concrete_clean:ceiling",
    "generic": "ceiling",
    "index_count": 69,
-   "index_offset": 79068,
+   "index_offset": 78780,
    "lightmap_page": 0,
    "material": "plaster/plasterceiling002b",
    "model": 0,
-   "normal_offset": 78144,
-   "position_offset": 77748,
+   "normal_offset": 77856,
+   "position_offset": 77460,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 78804,
-   "uv_offset": 78540,
+   "uv2_offset": 78516,
+   "uv_offset": 78252,
    "vertex_count": 33
   },
   {
    "area": 61.55,
    "chunk": [
     -2,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5194,25 +5548,26 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 144,
-   "index_offset": 83024,
+   "index_offset": 82736,
    "lightmap_page": 0,
    "material": "plaster/plasterwall043d",
    "model": 0,
-   "normal_offset": 80448,
-   "position_offset": 79344,
+   "normal_offset": 80160,
+   "position_offset": 79056,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 82288,
-   "uv_offset": 81552,
+   "uv2_offset": 82000,
+   "uv_offset": 81264,
    "vertex_count": 92
   },
   {
    "area": 9.66,
    "chunk": [
     -2,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5230,25 +5585,26 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 15,
-   "index_offset": 83880,
+   "index_offset": 83592,
    "lightmap_page": 0,
    "material": "plaster/plasterwall043d",
    "model": 0,
-   "normal_offset": 83684,
-   "position_offset": 83600,
+   "normal_offset": 83396,
+   "position_offset": 83312,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 83824,
-   "uv_offset": 83768,
+   "uv2_offset": 83536,
+   "uv_offset": 83480,
    "vertex_count": 7
   },
   {
    "area": 69.0,
    "chunk": [
     -2,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5273,25 +5629,26 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 87,
-   "index_offset": 85900,
+   "index_offset": 85612,
    "lightmap_page": 0,
    "material": "plaster/plasterwall043d",
    "model": 0,
-   "normal_offset": 84528,
-   "position_offset": 83940,
+   "normal_offset": 84240,
+   "position_offset": 83652,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 85508,
-   "uv_offset": 85116,
+   "uv2_offset": 85220,
+   "uv_offset": 84828,
    "vertex_count": 49
   },
   {
    "area": 17.09,
    "chunk": [
     -2,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5307,25 +5664,26 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 9,
-   "index_offset": 86448,
+   "index_offset": 86160,
    "lightmap_page": 0,
    "material": "plaster/plasterwall043d",
    "model": 0,
-   "normal_offset": 86308,
-   "position_offset": 86248,
+   "normal_offset": 86020,
+   "position_offset": 85960,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 86408,
-   "uv_offset": 86368,
+   "uv2_offset": 86120,
+   "uv_offset": 86080,
    "vertex_count": 5
   },
   {
    "area": 21.16,
    "chunk": [
     -2,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5345,25 +5703,26 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 36,
-   "index_offset": 87284,
+   "index_offset": 86996,
    "lightmap_page": 0,
    "material": "plaster/plasterwall043d",
    "model": 0,
-   "normal_offset": 86724,
-   "position_offset": 86484,
+   "normal_offset": 86436,
+   "position_offset": 86196,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 87124,
-   "uv_offset": 86964,
+   "uv2_offset": 86836,
+   "uv_offset": 86676,
    "vertex_count": 20
   },
   {
    "area": 17.09,
    "chunk": [
     -2,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5381,25 +5740,26 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 27,
-   "index_offset": 87948,
+   "index_offset": 87660,
    "lightmap_page": 0,
    "material": "plaster/plasterwall043d",
    "model": 0,
-   "normal_offset": 87584,
-   "position_offset": 87428,
+   "normal_offset": 87296,
+   "position_offset": 87140,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 87844,
-   "uv_offset": 87740,
+   "uv2_offset": 87556,
+   "uv_offset": 87452,
    "vertex_count": 13
   },
   {
    "area": 81.38,
    "chunk": [
     -2,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5427,12 +5787,12 @@
    "free": "carpet_grey:carpet",
    "generic": "carpet",
    "index_count": 144,
-   "index_offset": 90616,
+   "index_offset": 90328,
    "lightmap_page": 0,
    "material": "props/carpetfloor004a",
    "model": 0,
-   "normal_offset": 88824,
-   "position_offset": 88056,
+   "normal_offset": 88536,
+   "position_offset": 87768,
    "texels": [
     256,
     256
@@ -5442,15 +5802,16 @@
     0.62,
     0.58
    ],
-   "uv2_offset": 90104,
-   "uv_offset": 89592,
+   "uv2_offset": 89816,
+   "uv_offset": 89304,
    "vertex_count": 64
   },
   {
    "area": 2.79,
    "chunk": [
     -2,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5469,25 +5830,26 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 54,
-   "index_offset": 92152,
+   "index_offset": 91864,
    "lightmap_page": 0,
    "material": "wood/woodfloor006a",
    "model": 0,
-   "normal_offset": 91480,
-   "position_offset": 91192,
+   "normal_offset": 91192,
+   "position_offset": 90904,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 91960,
-   "uv_offset": 91768,
+   "uv2_offset": 91672,
+   "uv_offset": 91480,
    "vertex_count": 24
   },
   {
    "area": 0.08,
    "chunk": [
     -2,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5503,25 +5865,26 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 9,
-   "index_offset": 92568,
+   "index_offset": 92280,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 92428,
-   "position_offset": 92368,
+   "normal_offset": 92140,
+   "position_offset": 92080,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 92528,
-   "uv_offset": 92488,
+   "uv2_offset": 92240,
+   "uv_offset": 92200,
    "vertex_count": 5
   },
   {
    "area": 1.76,
    "chunk": [
     -2,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5541,25 +5904,26 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 51,
-   "index_offset": 93844,
+   "index_offset": 93556,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 92976,
-   "position_offset": 92604,
+   "normal_offset": 92688,
+   "position_offset": 92316,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 93596,
-   "uv_offset": 93348,
+   "uv2_offset": 93308,
+   "uv_offset": 93060,
    "vertex_count": 31
   },
   {
    "area": 0.2,
    "chunk": [
     -2,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5577,25 +5941,26 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 24,
-   "index_offset": 94608,
+   "index_offset": 94320,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 94216,
-   "position_offset": 94048,
+   "normal_offset": 93928,
+   "position_offset": 93760,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 94496,
-   "uv_offset": 94384,
+   "uv2_offset": 94208,
+   "uv_offset": 94096,
    "vertex_count": 14
   },
   {
    "area": 0.61,
    "chunk": [
     -2,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5612,25 +5977,26 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 6,
-   "index_offset": 94864,
+   "index_offset": 94576,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 94752,
-   "position_offset": 94704,
+   "normal_offset": 94464,
+   "position_offset": 94416,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 94832,
-   "uv_offset": 94800,
+   "uv2_offset": 94544,
+   "uv_offset": 94512,
    "vertex_count": 4
   },
   {
    "area": 3.16,
    "chunk": [
     -2,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5647,25 +6013,26 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 102,
-   "index_offset": 97608,
+   "index_offset": 97320,
    "lightmap_page": 0,
    "material": "wood/woodstair002b",
    "model": 0,
-   "normal_offset": 95704,
-   "position_offset": 94888,
+   "normal_offset": 95416,
+   "position_offset": 94600,
    "texels": [
     256,
     256
    ],
-   "uv2_offset": 97064,
-   "uv_offset": 96520,
+   "uv2_offset": 96776,
+   "uv_offset": 96232,
    "vertex_count": 68
   },
   {
    "area": 0.19,
    "chunk": [
     -2,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5681,25 +6048,26 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 6,
-   "index_offset": 98176,
+   "index_offset": 97888,
    "lightmap_page": 0,
    "material": "wood/woodstair002b",
    "model": 0,
-   "normal_offset": 98064,
-   "position_offset": 98016,
+   "normal_offset": 97776,
+   "position_offset": 97728,
    "texels": [
     256,
     256
    ],
-   "uv2_offset": 98144,
-   "uv_offset": 98112,
+   "uv2_offset": 97856,
+   "uv_offset": 97824,
    "vertex_count": 4
   },
   {
    "area": 3.34,
    "chunk": [
     -2,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5717,25 +6085,209 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 108,
-   "index_offset": 101080,
+   "index_offset": 100792,
    "lightmap_page": 0,
    "material": "wood/woodstair002c",
    "model": 0,
-   "normal_offset": 99064,
-   "position_offset": 98200,
+   "normal_offset": 98776,
+   "position_offset": 97912,
    "texels": [
     256,
     128
    ],
-   "uv2_offset": 100504,
-   "uv_offset": 99928,
+   "uv2_offset": 100216,
+   "uv_offset": 99640,
    "vertex_count": 72
+  },
+  {
+   "area": 57.6,
+   "chunk": [
+    -2,
+    -2,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    51,
+    54,
+    55,
+    126
+   ],
+   "colour": [
+    0.3959,
+    0.3792,
+    0.3454
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 12,
+   "index_offset": 101464,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor027a",
+   "model": 0,
+   "normal_offset": 101296,
+   "position_offset": 101224,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 101416,
+   "uv_offset": 101368,
+   "vertex_count": 6
+  },
+  {
+   "area": 0.77,
+   "chunk": [
+    -2,
+    -1,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    124,
+    125,
+    126,
+    128
+   ],
+   "colour": [
+    0.4526,
+    0.4371,
+    0.4222
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 12,
+   "index_offset": 101832,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor028c_c17",
+   "model": 0,
+   "normal_offset": 101608,
+   "position_offset": 101512,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 101768,
+   "uv_offset": 101704,
+   "vertex_count": 8
+  },
+  {
+   "area": 0.74,
+   "chunk": [
+    -2,
+    -1,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    124,
+    126,
+    127
+   ],
+   "colour": [
+    0.4526,
+    0.4371,
+    0.4222
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 6,
+   "index_offset": 102040,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor028c_c17",
+   "model": 0,
+   "normal_offset": 101928,
+   "position_offset": 101880,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 102008,
+   "uv_offset": 101976,
+   "vertex_count": 4
+  },
+  {
+   "area": 36.79,
+   "chunk": [
+    -2,
+    -1,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    125,
+    128,
+    181,
+    184
+   ],
+   "colour": [
+    0.3982,
+    0.3772,
+    0.3657
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 12,
+   "index_offset": 102384,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor033k",
+   "model": 0,
+   "normal_offset": 102160,
+   "position_offset": 102064,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 102320,
+   "uv_offset": 102256,
+   "vertex_count": 8
+  },
+  {
+   "area": 4.83,
+   "chunk": [
+    -2,
+    -1,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    124,
+    126,
+    127
+   ],
+   "colour": [
+    0.7027,
+    0.7033,
+    0.6903
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 6,
+   "index_offset": 102592,
+   "lightmap_page": 0,
+   "material": "concrete/concretewall013m",
+   "model": 0,
+   "normal_offset": 102480,
+   "position_offset": 102432,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 102560,
+   "uv_offset": 102528,
+   "vertex_count": 4
   },
   {
    "area": 25.27,
    "chunk": [
     -2,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5755,25 +6307,26 @@
    "free": "brick:brick_red",
    "generic": "brick_red",
    "index_count": 15,
-   "index_offset": 101792,
+   "index_offset": 102896,
    "lightmap_page": 0,
    "material": "brick/brickwall045a",
    "model": 0,
-   "normal_offset": 101596,
-   "position_offset": 101512,
+   "normal_offset": 102700,
+   "position_offset": 102616,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 101736,
-   "uv_offset": 101680,
+   "uv2_offset": 102840,
+   "uv_offset": 102784,
    "vertex_count": 7
   },
   {
    "area": 29.73,
    "chunk": [
     -2,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5793,25 +6346,26 @@
    "free": "brick:brick_red",
    "generic": "brick_red",
    "index_count": 18,
-   "index_offset": 102172,
+   "index_offset": 103276,
    "lightmap_page": 0,
    "material": "brick/brickwall045c",
    "model": 0,
-   "normal_offset": 101948,
-   "position_offset": 101852,
+   "normal_offset": 103052,
+   "position_offset": 102956,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 102108,
-   "uv_offset": 102044,
+   "uv2_offset": 103212,
+   "uv_offset": 103148,
    "vertex_count": 8
   },
   {
-   "area": 91.14,
+   "area": 33.54,
    "chunk": [
     -2,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5829,26 +6383,27 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 39,
-   "index_offset": 103004,
+   "index_count": 27,
+   "index_offset": 103868,
    "lightmap_page": 0,
    "material": "concrete/concretefloor027a",
    "model": 0,
-   "normal_offset": 102472,
-   "position_offset": 102244,
+   "normal_offset": 103504,
+   "position_offset": 103348,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 102852,
-   "uv_offset": 102700,
-   "vertex_count": 19
+   "uv2_offset": 103764,
+   "uv_offset": 103660,
+   "vertex_count": 13
   },
   {
-   "area": 25.29,
+   "area": 24.53,
    "chunk": [
     -2,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5867,97 +6422,27 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 36,
-   "index_offset": 103960,
+   "index_count": 24,
+   "index_offset": 104456,
    "lightmap_page": 0,
    "material": "concrete/concretefloor028c_c17",
    "model": 0,
-   "normal_offset": 103400,
-   "position_offset": 103160,
+   "normal_offset": 104120,
+   "position_offset": 103976,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 103800,
-   "uv_offset": 103640,
-   "vertex_count": 20
-  },
-  {
-   "area": 0.74,
-   "chunk": [
-    -2,
-    -1
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    124,
-    126,
-    127
-   ],
-   "colour": [
-    0.4526,
-    0.4371,
-    0.4222
-   ],
-   "entity": null,
-   "free": "concrete:concrete",
-   "generic": "concrete",
-   "index_count": 6,
-   "index_offset": 104264,
-   "lightmap_page": 0,
-   "material": "concrete/concretefloor028c_c17",
-   "model": 0,
-   "normal_offset": 104152,
-   "position_offset": 104104,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 104232,
-   "uv_offset": 104200,
-   "vertex_count": 4
-  },
-  {
-   "area": 36.79,
-   "chunk": [
-    -2,
-    -1
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    125,
-    128,
-    181,
-    184
-   ],
-   "colour": [
-    0.3982,
-    0.3772,
-    0.3657
-   ],
-   "entity": null,
-   "free": "concrete:concrete",
-   "generic": "concrete",
-   "index_count": 12,
-   "index_offset": 104608,
-   "lightmap_page": 0,
-   "material": "concrete/concretefloor033k",
-   "model": 0,
-   "normal_offset": 104384,
-   "position_offset": 104288,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 104544,
-   "uv_offset": 104480,
-   "vertex_count": 8
+   "uv2_offset": 104360,
+   "uv_offset": 104264,
+   "vertex_count": 12
   },
   {
    "area": 46.66,
    "chunk": [
     -2,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5985,25 +6470,26 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 141,
-   "index_offset": 107336,
+   "index_offset": 107232,
    "lightmap_page": 0,
    "material": "concrete/concretewall013a",
    "model": 0,
-   "normal_offset": 105460,
-   "position_offset": 104656,
+   "normal_offset": 105356,
+   "position_offset": 104552,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 106800,
-   "uv_offset": 106264,
+   "uv2_offset": 106696,
+   "uv_offset": 106160,
    "vertex_count": 67
   },
   {
-   "area": 43.68,
+   "area": 38.85,
    "chunk": [
     -2,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -6023,26 +6509,27 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 66,
-   "index_offset": 109260,
+   "index_count": 60,
+   "index_offset": 108996,
    "lightmap_page": 0,
    "material": "concrete/concretewall013m",
    "model": 0,
-   "normal_offset": 108308,
-   "position_offset": 107900,
+   "normal_offset": 108156,
+   "position_offset": 107796,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 108988,
-   "uv_offset": 108716,
-   "vertex_count": 34
+   "uv2_offset": 108756,
+   "uv_offset": 108516,
+   "vertex_count": 30
   },
   {
    "area": 75.16,
    "chunk": [
     -2,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -6069,25 +6556,26 @@
    "free": "concrete_clean:ceiling",
    "generic": "ceiling",
    "index_count": 72,
-   "index_offset": 110884,
+   "index_offset": 110596,
    "lightmap_page": 0,
    "material": "plaster/plasterceiling002b",
    "model": 0,
-   "normal_offset": 109932,
-   "position_offset": 109524,
+   "normal_offset": 109644,
+   "position_offset": 109236,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 110612,
-   "uv_offset": 110340,
+   "uv2_offset": 110324,
+   "uv_offset": 110052,
    "vertex_count": 34
   },
   {
    "area": 108.93,
    "chunk": [
     -2,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -6121,25 +6609,26 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 258,
-   "index_offset": 116452,
+   "index_offset": 116164,
    "lightmap_page": 0,
    "material": "plaster/plasterwall043d",
    "model": 0,
-   "normal_offset": 112756,
-   "position_offset": 111172,
+   "normal_offset": 112468,
+   "position_offset": 110884,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 115396,
-   "uv_offset": 114340,
+   "uv2_offset": 115108,
+   "uv_offset": 114052,
    "vertex_count": 132
   },
   {
    "area": 15.26,
    "chunk": [
     -2,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -6167,25 +6656,26 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 57,
-   "index_offset": 118724,
+   "index_offset": 118436,
    "lightmap_page": 0,
    "material": "plaster/plasterwall043d",
    "model": 0,
-   "normal_offset": 117856,
-   "position_offset": 117484,
+   "normal_offset": 117568,
+   "position_offset": 117196,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 118476,
-   "uv_offset": 118228,
+   "uv2_offset": 118188,
+   "uv_offset": 117940,
    "vertex_count": 31
   },
   {
    "area": 5.9,
    "chunk": [
     -2,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -6203,25 +6693,26 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 45,
-   "index_offset": 119872,
+   "index_offset": 119584,
    "lightmap_page": 0,
    "material": "plaster/plasterwall043d",
    "model": 0,
-   "normal_offset": 119228,
-   "position_offset": 118952,
+   "normal_offset": 118940,
+   "position_offset": 118664,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 119688,
-   "uv_offset": 119504,
+   "uv2_offset": 119400,
+   "uv_offset": 119216,
    "vertex_count": 23
   },
   {
    "area": 11.54,
    "chunk": [
     -2,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -6244,25 +6735,26 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 48,
-   "index_offset": 121172,
+   "index_offset": 120884,
    "lightmap_page": 0,
    "material": "plaster/plasterwall043d",
    "model": 0,
-   "normal_offset": 120388,
-   "position_offset": 120052,
+   "normal_offset": 120100,
+   "position_offset": 119764,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 120948,
-   "uv_offset": 120724,
+   "uv2_offset": 120660,
+   "uv_offset": 120436,
    "vertex_count": 28
   },
   {
    "area": 8.18,
    "chunk": [
     -2,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -6277,25 +6769,26 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 6,
-   "index_offset": 121524,
+   "index_offset": 121236,
    "lightmap_page": 0,
    "material": "plaster/plasterwall043d",
    "model": 0,
-   "normal_offset": 121412,
-   "position_offset": 121364,
+   "normal_offset": 121124,
+   "position_offset": 121076,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 121492,
-   "uv_offset": 121460,
+   "uv2_offset": 121204,
+   "uv_offset": 121172,
    "vertex_count": 4
   },
   {
    "area": 75.72,
    "chunk": [
     -2,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -6325,12 +6818,12 @@
    "free": "carpet_grey:carpet",
    "generic": "carpet",
    "index_count": 153,
-   "index_offset": 124308,
+   "index_offset": 124020,
    "lightmap_page": 0,
    "material": "props/carpetfloor004a",
    "model": 0,
-   "normal_offset": 122376,
-   "position_offset": 121548,
+   "normal_offset": 122088,
+   "position_offset": 121260,
    "texels": [
     256,
     256
@@ -6340,15 +6833,16 @@
     0.62,
     0.58
    ],
-   "uv2_offset": 123756,
-   "uv_offset": 123204,
+   "uv2_offset": 123468,
+   "uv_offset": 122916,
    "vertex_count": 69
   },
   {
    "area": 0.2,
    "chunk": [
     -2,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -6364,25 +6858,26 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 24,
-   "index_offset": 125480,
+   "index_offset": 125192,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 125088,
-   "position_offset": 124920,
+   "normal_offset": 124800,
+   "position_offset": 124632,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 125368,
-   "uv_offset": 125256,
+   "uv2_offset": 125080,
+   "uv_offset": 124968,
    "vertex_count": 14
   },
   {
    "area": 0.94,
    "chunk": [
     -2,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -6400,25 +6895,26 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 45,
-   "index_offset": 126656,
+   "index_offset": 126368,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 125900,
-   "position_offset": 125576,
+   "normal_offset": 125612,
+   "position_offset": 125288,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 126440,
-   "uv_offset": 126224,
+   "uv2_offset": 126152,
+   "uv_offset": 125936,
    "vertex_count": 27
   },
   {
    "area": 1.68,
    "chunk": [
     -2,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -6438,25 +6934,26 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 42,
-   "index_offset": 127876,
+   "index_offset": 127588,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 127148,
-   "position_offset": 126836,
+   "normal_offset": 126860,
+   "position_offset": 126548,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 127668,
-   "uv_offset": 127460,
+   "uv2_offset": 127380,
+   "uv_offset": 127172,
    "vertex_count": 26
   },
   {
    "area": 3.74,
    "chunk": [
     -2,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -6482,25 +6979,26 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 105,
-   "index_offset": 130644,
+   "index_offset": 130356,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 128824,
-   "position_offset": 128044,
+   "normal_offset": 128536,
+   "position_offset": 127756,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 130124,
-   "uv_offset": 129604,
+   "uv2_offset": 129836,
+   "uv_offset": 129316,
    "vertex_count": 65
   },
   {
    "area": 0.2,
    "chunk": [
     -2,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -6516,25 +7014,26 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 24,
-   "index_offset": 131624,
+   "index_offset": 131336,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 131232,
-   "position_offset": 131064,
+   "normal_offset": 130944,
+   "position_offset": 130776,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 131512,
-   "uv_offset": 131400,
+   "uv2_offset": 131224,
+   "uv_offset": 131112,
    "vertex_count": 14
   },
   {
    "area": 14.84,
    "chunk": [
     -2,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -6557,36 +7056,31 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 504,
-   "index_offset": 142760,
+   "index_offset": 142472,
    "lightmap_page": 0,
    "material": "wood/woodstair002c",
    "model": 0,
-   "normal_offset": 135032,
-   "position_offset": 131720,
+   "normal_offset": 134744,
+   "position_offset": 131432,
    "texels": [
     256,
     128
    ],
-   "uv2_offset": 140552,
-   "uv_offset": 138344,
+   "uv2_offset": 140264,
+   "uv_offset": 138056,
    "vertex_count": 276
   },
   {
-   "area": 74.32,
+   "area": 57.6,
    "chunk": [
     -2,
-    0
+    -1,
+    1
    ],
    "classname": "worldspawn",
    "clusters": [
-    152,
-    153,
-    154,
-    155,
-    159,
-    168,
-    185,
-    186
+    55,
+    126
    ],
    "colour": [
     0.3959,
@@ -6596,25 +7090,137 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 30,
-   "index_offset": 145496,
+   "index_count": 12,
+   "index_offset": 144728,
    "lightmap_page": 0,
    "material": "concrete/concretefloor027a",
    "model": 0,
-   "normal_offset": 144992,
+   "normal_offset": 144560,
+   "position_offset": 144488,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 144680,
+   "uv_offset": 144632,
+   "vertex_count": 6
+  },
+  {
+   "area": 0.77,
+   "chunk": [
+    -2,
+    0,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    152,
+    181,
+    184,
+    185
+   ],
+   "colour": [
+    0.4526,
+    0.4371,
+    0.4222
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 12,
+   "index_offset": 145096,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor028c_c17",
+   "model": 0,
+   "normal_offset": 144872,
    "position_offset": 144776,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 145352,
-   "uv_offset": 145208,
-   "vertex_count": 18
+   "uv2_offset": 145032,
+   "uv_offset": 144968,
+   "vertex_count": 8
+  },
+  {
+   "area": 12.26,
+   "chunk": [
+    -2,
+    0,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    125,
+    128,
+    181,
+    184
+   ],
+   "colour": [
+    0.3982,
+    0.3772,
+    0.3657
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 12,
+   "index_offset": 145464,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor033k",
+   "model": 0,
+   "normal_offset": 145240,
+   "position_offset": 145144,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 145400,
+   "uv_offset": 145336,
+   "vertex_count": 8
+  },
+  {
+   "area": 2.97,
+   "chunk": [
+    -2,
+    0,
+    0
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    152,
+    154,
+    159,
+    168
+   ],
+   "colour": [
+    0.3959,
+    0.3792,
+    0.3454
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 6,
+   "index_offset": 145672,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor027a",
+   "model": 0,
+   "normal_offset": 145560,
+   "position_offset": 145512,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 145640,
+   "uv_offset": 145608,
+   "vertex_count": 4
   },
   {
    "area": 24.53,
    "chunk": [
     -2,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -6636,130 +7242,25 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 27,
-   "index_offset": 146136,
+   "index_offset": 146216,
    "lightmap_page": 0,
    "material": "concrete/concretefloor028c_c17",
    "model": 0,
-   "normal_offset": 145772,
-   "position_offset": 145616,
+   "normal_offset": 145852,
+   "position_offset": 145696,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 146032,
-   "uv_offset": 145928,
+   "uv2_offset": 146112,
+   "uv_offset": 146008,
    "vertex_count": 13
-  },
-  {
-   "area": 0.77,
-   "chunk": [
-    -2,
-    0
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    152,
-    181,
-    184,
-    185
-   ],
-   "colour": [
-    0.4526,
-    0.4371,
-    0.4222
-   ],
-   "entity": null,
-   "free": "concrete:concrete",
-   "generic": "concrete",
-   "index_count": 12,
-   "index_offset": 146564,
-   "lightmap_page": 0,
-   "material": "concrete/concretefloor028c_c17",
-   "model": 0,
-   "normal_offset": 146340,
-   "position_offset": 146244,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 146500,
-   "uv_offset": 146436,
-   "vertex_count": 8
-  },
-  {
-   "area": 12.26,
-   "chunk": [
-    -2,
-    0
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    125,
-    128,
-    181,
-    184
-   ],
-   "colour": [
-    0.3982,
-    0.3772,
-    0.3657
-   ],
-   "entity": null,
-   "free": "concrete:concrete",
-   "generic": "concrete",
-   "index_count": 12,
-   "index_offset": 146932,
-   "lightmap_page": 0,
-   "material": "concrete/concretefloor033k",
-   "model": 0,
-   "normal_offset": 146708,
-   "position_offset": 146612,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 146868,
-   "uv_offset": 146804,
-   "vertex_count": 8
-  },
-  {
-   "area": 14.86,
-   "chunk": [
-    -2,
-    0
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    185,
-    186
-   ],
-   "colour": [
-    0.7042,
-    0.6958,
-    0.6682
-   ],
-   "entity": null,
-   "free": "concrete:concrete",
-   "generic": "concrete",
-   "index_count": 6,
-   "index_offset": 147140,
-   "lightmap_page": 0,
-   "material": "concrete/concretewall026i",
-   "model": 0,
-   "normal_offset": 147028,
-   "position_offset": 146980,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 147108,
-   "uv_offset": 147076,
-   "vertex_count": 4
   },
   {
    "area": 23.78,
    "chunk": [
     -2,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -6778,24 +7279,25 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
-   "index_offset": 147644,
+   "index_offset": 146804,
    "lightmap_page": 0,
    "material": "metal/metalwall032b_cheap",
    "model": 0,
-   "normal_offset": 147308,
-   "position_offset": 147164,
+   "normal_offset": 146468,
+   "position_offset": 146324,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 147548,
-   "uv_offset": 147452,
+   "uv2_offset": 146708,
+   "uv_offset": 146612,
    "vertex_count": 12
   },
   {
    "area": 23.78,
    "chunk": [
     -2,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -6815,24 +7317,25 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
-   "index_offset": 147876,
+   "index_offset": 147036,
    "lightmap_page": 0,
    "material": "metal/metalwall032e",
    "model": 0,
-   "normal_offset": 147764,
-   "position_offset": 147716,
+   "normal_offset": 146924,
+   "position_offset": 146876,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 147844,
-   "uv_offset": 147812,
+   "uv2_offset": 147004,
+   "uv_offset": 146972,
    "vertex_count": 4
   },
   {
    "area": 23.04,
    "chunk": [
     -2,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -6853,24 +7356,25 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
-   "index_offset": 148380,
+   "index_offset": 147540,
    "lightmap_page": 0,
    "material": "metal/metalwall032f",
    "model": 0,
-   "normal_offset": 148044,
-   "position_offset": 147900,
+   "normal_offset": 147204,
+   "position_offset": 147060,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 148284,
-   "uv_offset": 148188,
+   "uv2_offset": 147444,
+   "uv_offset": 147348,
    "vertex_count": 12
   },
   {
    "area": 0.06,
    "chunk": [
     -2,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -6887,24 +7391,25 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 18,
-   "index_offset": 148980,
+   "index_offset": 148140,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 148644,
-   "position_offset": 148500,
+   "normal_offset": 147804,
+   "position_offset": 147660,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 148884,
-   "uv_offset": 148788,
+   "uv2_offset": 148044,
+   "uv_offset": 147948,
    "vertex_count": 12
   },
   {
    "area": 0.48,
    "chunk": [
     -2,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -6922,24 +7427,25 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 42,
-   "index_offset": 150092,
+   "index_offset": 149252,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 149364,
-   "position_offset": 149052,
+   "normal_offset": 148524,
+   "position_offset": 148212,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 149884,
-   "uv_offset": 149676,
+   "uv2_offset": 149044,
+   "uv_offset": 148836,
    "vertex_count": 26
   },
   {
    "area": 0.23,
    "chunk": [
     -2,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -6957,25 +7463,100 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 12,
-   "index_offset": 150580,
+   "index_offset": 149740,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 150356,
-   "position_offset": 150260,
+   "normal_offset": 149516,
+   "position_offset": 149420,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 150516,
-   "uv_offset": 150452,
+   "uv2_offset": 149676,
+   "uv_offset": 149612,
    "vertex_count": 8
+  },
+  {
+   "area": 71.35,
+   "chunk": [
+    -2,
+    0,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    152,
+    153,
+    154,
+    155,
+    185,
+    186
+   ],
+   "colour": [
+    0.3959,
+    0.3792,
+    0.3454
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 24,
+   "index_offset": 150348,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor027a",
+   "model": 0,
+   "normal_offset": 149956,
+   "position_offset": 149788,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 150236,
+   "uv_offset": 150124,
+   "vertex_count": 14
+  },
+  {
+   "area": 14.86,
+   "chunk": [
+    -2,
+    0,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    185,
+    186
+   ],
+   "colour": [
+    0.7042,
+    0.6958,
+    0.6682
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 6,
+   "index_offset": 150604,
+   "lightmap_page": 0,
+   "material": "concrete/concretewall026i",
+   "model": 0,
+   "normal_offset": 150492,
+   "position_offset": 150444,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 150572,
+   "uv_offset": 150540,
+   "vertex_count": 4
   },
   {
    "area": 35.67,
    "chunk": [
     -1,
-    -4
+    -4,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -7008,18 +7589,17 @@
    "vertex_count": 9
   },
   {
-   "area": 60.48,
+   "area": 2.88,
    "chunk": [
     -1,
-    -4
+    -4,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
-    1,
     3,
     4,
     5,
-    49,
     51,
     52,
     53
@@ -7032,26 +7612,27 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 15,
-   "index_offset": 151488,
+   "index_count": 9,
+   "index_offset": 151248,
    "lightmap_page": 0,
    "material": "concrete/concretefloor027a",
    "model": 0,
-   "normal_offset": 151180,
+   "normal_offset": 151108,
    "position_offset": 151048,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 151400,
-   "uv_offset": 151312,
-   "vertex_count": 11
+   "uv2_offset": 151208,
+   "uv_offset": 151168,
+   "vertex_count": 5
   },
   {
    "area": 184.32,
    "chunk": [
     -1,
-    -4
+    -4,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -7071,25 +7652,101 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 12,
-   "index_offset": 151868,
+   "index_offset": 151604,
    "lightmap_page": 0,
    "material": "concrete/concretewall026f",
    "model": 0,
-   "normal_offset": 151644,
-   "position_offset": 151548,
+   "normal_offset": 151380,
+   "position_offset": 151284,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 151804,
-   "uv_offset": 151740,
+   "uv2_offset": 151540,
+   "uv_offset": 151476,
    "vertex_count": 8
+  },
+  {
+   "area": 57.6,
+   "chunk": [
+    -1,
+    -4,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    1,
+    3,
+    49,
+    51
+   ],
+   "colour": [
+    0.3959,
+    0.3792,
+    0.3454
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 6,
+   "index_offset": 151892,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor027a",
+   "model": 0,
+   "normal_offset": 151724,
+   "position_offset": 151652,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 151844,
+   "uv_offset": 151796,
+   "vertex_count": 6
+  },
+  {
+   "area": 11.52,
+   "chunk": [
+    -1,
+    -2,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    5,
+    32,
+    53,
+    97,
+    104
+   ],
+   "colour": [
+    0.7027,
+    0.7033,
+    0.6903
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 27,
+   "index_offset": 152356,
+   "lightmap_page": 0,
+   "material": "concrete/concretewall013m",
+   "model": 0,
+   "normal_offset": 152048,
+   "position_offset": 151916,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 152268,
+   "uv_offset": 152180,
+   "vertex_count": 11
   },
   {
    "area": 7.74,
    "chunk": [
     -1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -7119,25 +7776,26 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 492,
-   "index_offset": 162076,
+   "index_offset": 162624,
    "lightmap_page": 0,
    "material": "concrete/concretefloor009a",
    "model": 0,
-   "normal_offset": 154964,
-   "position_offset": 151916,
+   "normal_offset": 155512,
+   "position_offset": 152464,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 160044,
-   "uv_offset": 158012,
+   "uv2_offset": 160592,
+   "uv_offset": 158560,
    "vertex_count": 254
   },
   {
    "area": 95.04,
    "chunk": [
     -1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -7155,25 +7813,26 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 18,
-   "index_offset": 164444,
+   "index_offset": 164992,
    "lightmap_page": 0,
    "material": "concrete/concretefloor027a",
    "model": 0,
-   "normal_offset": 164164,
-   "position_offset": 164044,
+   "normal_offset": 164712,
+   "position_offset": 164592,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 164364,
-   "uv_offset": 164284,
+   "uv2_offset": 164912,
+   "uv_offset": 164832,
    "vertex_count": 10
   },
   {
    "area": 30.66,
    "chunk": [
     -1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -7198,25 +7857,26 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 36,
-   "index_offset": 165156,
+   "index_offset": 165704,
    "lightmap_page": 0,
    "material": "concrete/concretewall013a",
    "model": 0,
-   "normal_offset": 164708,
-   "position_offset": 164516,
+   "normal_offset": 165256,
+   "position_offset": 165064,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 165028,
-   "uv_offset": 164900,
+   "uv2_offset": 165576,
+   "uv_offset": 165448,
    "vertex_count": 16
   },
   {
-   "area": 30.39,
+   "area": 18.87,
    "chunk": [
     -1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -7237,26 +7897,27 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 138,
-   "index_offset": 168340,
+   "index_count": 111,
+   "index_offset": 168448,
    "lightmap_page": 0,
    "material": "concrete/concretewall013m",
    "model": 0,
-   "normal_offset": 166212,
-   "position_offset": 165300,
+   "normal_offset": 166628,
+   "position_offset": 165848,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 167732,
-   "uv_offset": 167124,
-   "vertex_count": 76
+   "uv2_offset": 167928,
+   "uv_offset": 167408,
+   "vertex_count": 65
   },
   {
    "area": 184.4,
    "chunk": [
     -1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -7307,7 +7968,8 @@
    "area": 47.91,
    "chunk": [
     -1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -7353,7 +8015,8 @@
    "area": 17.42,
    "chunk": [
     -1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -7393,7 +8056,8 @@
    "area": 11.74,
    "chunk": [
     -1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -7430,7 +8094,8 @@
    "area": 0.04,
    "chunk": [
     -1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -7465,7 +8130,8 @@
    "area": 32.59,
    "chunk": [
     -1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -7515,7 +8181,8 @@
    "area": 42.36,
    "chunk": [
     -1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -7553,7 +8220,8 @@
    "area": 11.5,
    "chunk": [
     -1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -7593,7 +8261,8 @@
    "area": 26.76,
    "chunk": [
     -1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -7627,7 +8296,8 @@
    "area": 194.72,
    "chunk": [
     -1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -7691,7 +8361,8 @@
    "area": 3.61,
    "chunk": [
     -1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -7733,7 +8404,8 @@
    "area": 0.97,
    "chunk": [
     -1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -7772,7 +8444,8 @@
    "area": 2.95,
    "chunk": [
     -1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -7813,10 +8486,85 @@
    "vertex_count": 62
   },
   {
+   "area": 0.77,
+   "chunk": [
+    -1,
+    -1,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    47,
+    48,
+    124,
+    125
+   ],
+   "colour": [
+    0.4526,
+    0.4371,
+    0.4222
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 12,
+   "index_offset": 208068,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor028c_c17",
+   "model": 0,
+   "normal_offset": 207844,
+   "position_offset": 207748,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 208004,
+   "uv_offset": 207940,
+   "vertex_count": 8
+  },
+  {
+   "area": 36.79,
+   "chunk": [
+    -1,
+    -1,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    48,
+    125,
+    148,
+    181
+   ],
+   "colour": [
+    0.3982,
+    0.3772,
+    0.3657
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 12,
+   "index_offset": 208436,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor033k",
+   "model": 0,
+   "normal_offset": 208212,
+   "position_offset": 208116,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 208372,
+   "uv_offset": 208308,
+   "vertex_count": 8
+  },
+  {
    "area": 4.84,
    "chunk": [
     -1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -7841,25 +8589,26 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 147,
-   "index_offset": 211548,
+   "index_offset": 212284,
    "lightmap_page": 0,
    "material": "concrete/concretefloor009a",
    "model": 0,
-   "normal_offset": 208888,
-   "position_offset": 207748,
+   "normal_offset": 209624,
+   "position_offset": 208484,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 210788,
-   "uv_offset": 210028,
+   "uv2_offset": 211524,
+   "uv_offset": 210764,
    "vertex_count": 95
   },
   {
    "area": 38.7,
    "chunk": [
     -1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -7878,25 +8627,26 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 42,
-   "index_offset": 213176,
+   "index_offset": 213912,
    "lightmap_page": 0,
    "material": "concrete/concretefloor027a",
    "model": 0,
-   "normal_offset": 212448,
-   "position_offset": 212136,
+   "normal_offset": 213184,
+   "position_offset": 212872,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 212968,
-   "uv_offset": 212760,
+   "uv2_offset": 213704,
+   "uv_offset": 213496,
    "vertex_count": 26
   },
   {
-   "area": 25.29,
+   "area": 24.53,
    "chunk": [
     -1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -7915,62 +8665,27 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 39,
-   "index_offset": 214184,
+   "index_count": 27,
+   "index_offset": 214600,
    "lightmap_page": 0,
    "material": "concrete/concretefloor028c_c17",
    "model": 0,
-   "normal_offset": 213596,
-   "position_offset": 213344,
+   "normal_offset": 214236,
+   "position_offset": 214080,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 214016,
-   "uv_offset": 213848,
-   "vertex_count": 21
-  },
-  {
-   "area": 36.79,
-   "chunk": [
-    -1,
-    -1
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    48,
-    125,
-    148,
-    181
-   ],
-   "colour": [
-    0.3982,
-    0.3772,
-    0.3657
-   ],
-   "entity": null,
-   "free": "concrete:concrete",
-   "generic": "concrete",
-   "index_count": 12,
-   "index_offset": 214660,
-   "lightmap_page": 0,
-   "material": "concrete/concretefloor033k",
-   "model": 0,
-   "normal_offset": 214436,
-   "position_offset": 214340,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 214596,
-   "uv_offset": 214532,
-   "vertex_count": 8
+   "uv2_offset": 214496,
+   "uv_offset": 214392,
+   "vertex_count": 13
   },
   {
    "area": 27.97,
    "chunk": [
     -1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -8019,7 +8734,8 @@
    "area": 25.78,
    "chunk": [
     -1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -8063,7 +8779,8 @@
    "area": 97.06,
    "chunk": [
     -1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -8115,7 +8832,8 @@
    "area": 42.41,
    "chunk": [
     -1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -8163,7 +8881,8 @@
    "area": 21.55,
    "chunk": [
     -1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -8205,7 +8924,8 @@
    "area": 53.51,
    "chunk": [
     -1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -8245,7 +8965,8 @@
    "area": 14.47,
    "chunk": [
     -1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -8280,7 +9001,8 @@
    "area": 25.78,
    "chunk": [
     -1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -8320,7 +9042,8 @@
    "area": 25.66,
    "chunk": [
     -1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -8360,7 +9083,8 @@
    "area": 23.39,
    "chunk": [
     -1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -8395,7 +9119,8 @@
    "area": 102.85,
    "chunk": [
     -1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -8461,7 +9186,8 @@
    "area": 0.2,
    "chunk": [
     -1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -8495,7 +9221,8 @@
    "area": 1.68,
    "chunk": [
     -1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -8534,7 +9261,8 @@
    "area": 1.88,
    "chunk": [
     -1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -8572,7 +9300,8 @@
    "area": 1.68,
    "chunk": [
     -1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -8611,7 +9340,8 @@
    "area": 0.2,
    "chunk": [
     -1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -8645,7 +9375,8 @@
    "area": 9.89,
    "chunk": [
     -1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -8680,9 +9411,84 @@
    "vertex_count": 172
   },
   {
+   "area": 0.77,
+   "chunk": [
+    -1,
+    0,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    139,
+    148,
+    152,
+    181
+   ],
+   "colour": [
+    0.4526,
+    0.4371,
+    0.4222
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 12,
+   "index_offset": 254336,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor028c_c17",
+   "model": 0,
+   "normal_offset": 254112,
+   "position_offset": 254016,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 254272,
+   "uv_offset": 254208,
+   "vertex_count": 8
+  },
+  {
+   "area": 12.26,
+   "chunk": [
+    -1,
+    0,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    48,
+    125,
+    148,
+    181
+   ],
+   "colour": [
+    0.3982,
+    0.3772,
+    0.3657
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 12,
+   "index_offset": 254704,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor033k",
+   "model": 0,
+   "normal_offset": 254480,
+   "position_offset": 254384,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 254640,
+   "uv_offset": 254576,
+   "vertex_count": 8
+  },
+  {
    "area": 56.49,
    "chunk": [
     -1,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -8704,24 +9510,25 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 6,
-   "index_offset": 254176,
+   "index_offset": 254912,
    "lightmap_page": 0,
    "material": "concrete/concretefloor027a",
    "model": 0,
-   "normal_offset": 254064,
-   "position_offset": 254016,
+   "normal_offset": 254800,
+   "position_offset": 254752,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 254144,
-   "uv_offset": 254112,
+   "uv2_offset": 254880,
+   "uv_offset": 254848,
    "vertex_count": 4
   },
   {
    "area": 24.53,
    "chunk": [
     -1,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -8743,96 +9550,25 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 30,
-   "index_offset": 254760,
+   "index_offset": 255496,
    "lightmap_page": 0,
    "material": "concrete/concretefloor028c_c17",
    "model": 0,
-   "normal_offset": 254368,
-   "position_offset": 254200,
+   "normal_offset": 255104,
+   "position_offset": 254936,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 254648,
-   "uv_offset": 254536,
+   "uv2_offset": 255384,
+   "uv_offset": 255272,
    "vertex_count": 14
-  },
-  {
-   "area": 0.77,
-   "chunk": [
-    -1,
-    0
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    139,
-    148,
-    152,
-    181
-   ],
-   "colour": [
-    0.4526,
-    0.4371,
-    0.4222
-   ],
-   "entity": null,
-   "free": "concrete:concrete",
-   "generic": "concrete",
-   "index_count": 12,
-   "index_offset": 255200,
-   "lightmap_page": 0,
-   "material": "concrete/concretefloor028c_c17",
-   "model": 0,
-   "normal_offset": 254976,
-   "position_offset": 254880,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 255136,
-   "uv_offset": 255072,
-   "vertex_count": 8
-  },
-  {
-   "area": 12.26,
-   "chunk": [
-    -1,
-    0
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    48,
-    125,
-    148,
-    181
-   ],
-   "colour": [
-    0.3982,
-    0.3772,
-    0.3657
-   ],
-   "entity": null,
-   "free": "concrete:concrete",
-   "generic": "concrete",
-   "index_count": 12,
-   "index_offset": 255568,
-   "lightmap_page": 0,
-   "material": "concrete/concretefloor033k",
-   "model": 0,
-   "normal_offset": 255344,
-   "position_offset": 255248,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 255504,
-   "uv_offset": 255440,
-   "vertex_count": 8
   },
   {
    "area": 0.28,
    "chunk": [
     -1,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -8868,6 +9604,7 @@
    "area": 40.88,
    "chunk": [
     -1,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -8908,6 +9645,7 @@
    "area": 17.07,
    "chunk": [
     -1,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -8950,6 +9688,7 @@
    "area": 6.69,
    "chunk": [
     -1,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -8992,6 +9731,7 @@
    "area": 29.73,
    "chunk": [
     -1,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -9032,6 +9772,7 @@
    "area": 23.78,
    "chunk": [
     -1,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -9068,6 +9809,7 @@
    "area": 6.69,
    "chunk": [
     -1,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -9104,6 +9846,7 @@
    "area": 48.96,
    "chunk": [
     -1,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -9149,6 +9892,7 @@
    "area": 61.24,
    "chunk": [
     -1,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -9204,6 +9948,7 @@
    "area": 3.34,
    "chunk": [
     -1,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -9238,6 +9983,7 @@
    "area": 0.32,
    "chunk": [
     -1,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -9273,6 +10019,7 @@
    "area": 2.54,
    "chunk": [
     -1,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -9325,6 +10072,7 @@
    "area": 1.37,
    "chunk": [
     -1,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -9380,6 +10128,7 @@
    "area": 45.46,
    "chunk": [
     -1,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -9435,6 +10184,7 @@
    "area": 12.05,
    "chunk": [
     -1,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -9475,7 +10225,8 @@
    "area": 34.56,
    "chunk": [
     0,
-    -4
+    -4,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -9508,14 +10259,14 @@
    "vertex_count": 5
   },
   {
-   "area": 31.77,
+   "area": 2.97,
    "chunk": [
     0,
-    -4
+    -4,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
-    1,
     3,
     4,
     5,
@@ -9531,26 +10282,27 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 18,
-   "index_offset": 285768,
+   "index_count": 15,
+   "index_offset": 285648,
    "lightmap_page": 0,
    "material": "concrete/concretefloor027a",
    "model": 0,
-   "normal_offset": 285432,
+   "normal_offset": 285396,
    "position_offset": 285288,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 285672,
-   "uv_offset": 285576,
-   "vertex_count": 12
+   "uv2_offset": 285576,
+   "uv_offset": 285504,
+   "vertex_count": 9
   },
   {
    "area": 92.16,
    "chunk": [
     0,
-    -4
+    -4,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -9567,25 +10319,61 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 6,
-   "index_offset": 286000,
+   "index_offset": 285868,
    "lightmap_page": 0,
    "material": "concrete/concretewall026f",
    "model": 0,
-   "normal_offset": 285888,
-   "position_offset": 285840,
+   "normal_offset": 285756,
+   "position_offset": 285708,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 285968,
-   "uv_offset": 285936,
+   "uv2_offset": 285836,
+   "uv_offset": 285804,
    "vertex_count": 4
+  },
+  {
+   "area": 28.8,
+   "chunk": [
+    0,
+    -4,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    1,
+    3
+   ],
+   "colour": [
+    0.3959,
+    0.3792,
+    0.3454
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 3,
+   "index_offset": 286012,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor027a",
+   "model": 0,
+   "normal_offset": 285928,
+   "position_offset": 285892,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 285988,
+   "uv_offset": 285964,
+   "vertex_count": 3
   },
   {
    "area": 814.92,
    "chunk": [
     0,
-    -3
+    -3,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -9633,10 +10421,46 @@
    "vertex_count": 289
   },
   {
+   "area": 11.52,
+   "chunk": [
+    0,
+    -2,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    5,
+    32
+   ],
+   "colour": [
+    0.7027,
+    0.7033,
+    0.6903
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 9,
+   "index_offset": 303928,
+   "lightmap_page": 0,
+   "material": "concrete/concretewall013m",
+   "model": 0,
+   "normal_offset": 303788,
+   "position_offset": 303728,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 303888,
+   "uv_offset": 303848,
+   "vertex_count": 5
+  },
+  {
    "area": 36.79,
    "chunk": [
     0,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -9657,25 +10481,26 @@
    "free": "brick:brick_red",
    "generic": "brick_red",
    "index_count": 30,
-   "index_offset": 304368,
+   "index_offset": 304604,
    "lightmap_page": 0,
    "material": "brick/brickwall045a",
    "model": 0,
-   "normal_offset": 303920,
-   "position_offset": 303728,
+   "normal_offset": 304156,
+   "position_offset": 303964,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 304240,
-   "uv_offset": 304112,
+   "uv2_offset": 304476,
+   "uv_offset": 304348,
    "vertex_count": 16
   },
   {
    "area": 30.1,
    "chunk": [
     0,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -9695,25 +10520,26 @@
    "free": "brick:brick_red",
    "generic": "brick_red",
    "index_count": 36,
-   "index_offset": 305368,
+   "index_offset": 305604,
    "lightmap_page": 0,
    "material": "brick/brickwall045f",
    "model": 0,
-   "normal_offset": 304752,
-   "position_offset": 304488,
+   "normal_offset": 304988,
+   "position_offset": 304724,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 305192,
-   "uv_offset": 305016,
+   "uv2_offset": 305428,
+   "uv_offset": 305252,
    "vertex_count": 22
   },
   {
    "area": 89.28,
    "chunk": [
     0,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -9730,25 +10556,26 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 9,
-   "index_offset": 305712,
+   "index_offset": 305948,
    "lightmap_page": 0,
    "material": "concrete/concretefloor027a",
    "model": 0,
-   "normal_offset": 305572,
-   "position_offset": 305512,
+   "normal_offset": 305808,
+   "position_offset": 305748,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 305672,
-   "uv_offset": 305632,
+   "uv2_offset": 305908,
+   "uv_offset": 305868,
    "vertex_count": 5
   },
   {
    "area": 23.04,
    "chunk": [
     0,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -9766,25 +10593,26 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 15,
-   "index_offset": 306028,
+   "index_offset": 306264,
    "lightmap_page": 0,
    "material": "concrete/concretefloor028c_c17",
    "model": 0,
-   "normal_offset": 305832,
-   "position_offset": 305748,
+   "normal_offset": 306068,
+   "position_offset": 305984,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 305972,
-   "uv_offset": 305916,
+   "uv2_offset": 306208,
+   "uv_offset": 306152,
    "vertex_count": 7
   },
   {
    "area": 16.17,
    "chunk": [
     0,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -9809,25 +10637,26 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 18,
-   "index_offset": 306568,
+   "index_offset": 306804,
    "lightmap_page": 0,
    "material": "concrete/concretewall013a",
    "model": 0,
-   "normal_offset": 306232,
-   "position_offset": 306088,
+   "normal_offset": 306468,
+   "position_offset": 306324,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 306472,
-   "uv_offset": 306376,
+   "uv2_offset": 306708,
+   "uv_offset": 306612,
    "vertex_count": 12
   },
   {
-   "area": 21.18,
+   "area": 9.66,
    "chunk": [
     0,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -9847,26 +10676,27 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 15,
-   "index_offset": 307000,
+   "index_count": 6,
+   "index_offset": 307036,
    "lightmap_page": 0,
    "material": "concrete/concretewall013m",
    "model": 0,
-   "normal_offset": 306748,
-   "position_offset": 306640,
+   "normal_offset": 306924,
+   "position_offset": 306876,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 306928,
-   "uv_offset": 306856,
-   "vertex_count": 9
+   "uv2_offset": 307004,
+   "uv_offset": 306972,
+   "vertex_count": 4
   },
   {
    "area": 16.18,
    "chunk": [
     0,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -9904,7 +10734,8 @@
    "area": 0.02,
    "chunk": [
     0,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -9939,7 +10770,8 @@
    "area": 5.25,
    "chunk": [
     0,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -9977,7 +10809,8 @@
    "area": 16.86,
    "chunk": [
     0,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10015,7 +10848,8 @@
    "area": 4.86,
    "chunk": [
     0,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10051,7 +10885,8 @@
    "area": 11.52,
    "chunk": [
     0,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10089,7 +10924,8 @@
    "area": 0.02,
    "chunk": [
     0,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10125,7 +10961,8 @@
    "area": 37.9,
    "chunk": [
     0,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10161,7 +10998,8 @@
    "area": 19.7,
    "chunk": [
     0,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10195,7 +11033,8 @@
    "area": 8.18,
    "chunk": [
     0,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10228,7 +11067,8 @@
    "area": 51.84,
    "chunk": [
     0,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10261,7 +11101,8 @@
    "area": 51.84,
    "chunk": [
     0,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10295,7 +11136,8 @@
    "area": 4.95,
    "chunk": [
     0,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10327,10 +11169,85 @@
    "vertex_count": 84
   },
   {
+   "area": 0.72,
+   "chunk": [
+    0,
+    -1,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    47,
+    48,
+    124,
+    125
+   ],
+   "colour": [
+    0.4526,
+    0.4371,
+    0.4222
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 6,
+   "index_offset": 321160,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor028c_c17",
+   "model": 0,
+   "normal_offset": 321048,
+   "position_offset": 321000,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 321128,
+   "uv_offset": 321096,
+   "vertex_count": 4
+  },
+  {
+   "area": 34.56,
+   "chunk": [
+    0,
+    -1,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    48,
+    125,
+    148,
+    181
+   ],
+   "colour": [
+    0.3982,
+    0.3772,
+    0.3657
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 6,
+   "index_offset": 321344,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor033k",
+   "model": 0,
+   "normal_offset": 321232,
+   "position_offset": 321184,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 321312,
+   "uv_offset": 321280,
+   "vertex_count": 4
+  },
+  {
    "area": 55.93,
    "chunk": [
     0,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10356,25 +11273,26 @@
    "free": "brick:brick_red",
    "generic": "brick_red",
    "index_count": 78,
-   "index_offset": 322520,
+   "index_offset": 322888,
    "lightmap_page": 0,
    "material": "brick/brickwall045a",
    "model": 0,
-   "normal_offset": 321456,
-   "position_offset": 321000,
+   "normal_offset": 321824,
+   "position_offset": 321368,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 322216,
-   "uv_offset": 321912,
+   "uv2_offset": 322584,
+   "uv_offset": 322280,
    "vertex_count": 38
   },
   {
    "area": 40.58,
    "chunk": [
     0,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10395,25 +11313,26 @@
    "free": "brick:brick_red",
    "generic": "brick_red",
    "index_count": 69,
-   "index_offset": 324312,
+   "index_offset": 324680,
    "lightmap_page": 0,
    "material": "brick/brickwall045f",
    "model": 0,
-   "normal_offset": 323276,
-   "position_offset": 322832,
+   "normal_offset": 323644,
+   "position_offset": 323200,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 324016,
-   "uv_offset": 323720,
+   "uv2_offset": 324384,
+   "uv_offset": 324088,
    "vertex_count": 37
   },
   {
    "area": 37.44,
    "chunk": [
     0,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10430,25 +11349,26 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 6,
-   "index_offset": 324748,
+   "index_offset": 325116,
    "lightmap_page": 0,
    "material": "concrete/concretefloor027a",
    "model": 0,
-   "normal_offset": 324636,
-   "position_offset": 324588,
+   "normal_offset": 325004,
+   "position_offset": 324956,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 324716,
-   "uv_offset": 324684,
+   "uv2_offset": 325084,
+   "uv_offset": 325052,
    "vertex_count": 4
   },
   {
    "area": 9.66,
    "chunk": [
     0,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10466,25 +11386,26 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 9,
-   "index_offset": 324972,
+   "index_offset": 325340,
    "lightmap_page": 0,
    "material": "concrete/concretefloor028c_c17",
    "model": 0,
-   "normal_offset": 324832,
-   "position_offset": 324772,
+   "normal_offset": 325200,
+   "position_offset": 325140,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 324932,
-   "uv_offset": 324892,
+   "uv2_offset": 325300,
+   "uv_offset": 325260,
    "vertex_count": 5
   },
   {
-   "area": 23.76,
+   "area": 23.04,
    "chunk": [
     0,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10503,62 +11424,27 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 27,
-   "index_offset": 325528,
+   "index_count": 21,
+   "index_offset": 325736,
    "lightmap_page": 0,
    "material": "concrete/concretefloor028c_c17",
    "model": 0,
-   "normal_offset": 325164,
-   "position_offset": 325008,
+   "normal_offset": 325484,
+   "position_offset": 325376,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 325424,
-   "uv_offset": 325320,
-   "vertex_count": 13
+   "uv2_offset": 325664,
+   "uv_offset": 325592,
+   "vertex_count": 9
   },
   {
    "area": 34.56,
    "chunk": [
     0,
-    -1
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    48,
-    125,
-    148,
-    181
-   ],
-   "colour": [
-    0.3982,
-    0.3772,
-    0.3657
-   ],
-   "entity": null,
-   "free": "concrete:concrete",
-   "generic": "concrete",
-   "index_count": 6,
-   "index_offset": 325796,
-   "lightmap_page": 0,
-   "material": "concrete/concretefloor033k",
-   "model": 0,
-   "normal_offset": 325684,
-   "position_offset": 325636,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 325764,
-   "uv_offset": 325732,
-   "vertex_count": 4
-  },
-  {
-   "area": 34.56,
-   "chunk": [
-    0,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10606,7 +11492,8 @@
    "area": 23.97,
    "chunk": [
     0,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10648,7 +11535,8 @@
    "area": 0.09,
    "chunk": [
     0,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10685,7 +11573,8 @@
    "area": 11.48,
    "chunk": [
     0,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10724,7 +11613,8 @@
    "area": 2.44,
    "chunk": [
     0,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10763,7 +11653,8 @@
    "area": 8.05,
    "chunk": [
     0,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10802,7 +11693,8 @@
    "area": 16.35,
    "chunk": [
     0,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10838,7 +11730,8 @@
    "area": 45.75,
    "chunk": [
     0,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10875,7 +11768,8 @@
    "area": 20.04,
    "chunk": [
     0,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10912,7 +11806,8 @@
    "area": 10.41,
    "chunk": [
     0,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10948,7 +11843,8 @@
    "area": 18.39,
    "chunk": [
     0,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -10981,7 +11877,8 @@
    "area": 19.32,
    "chunk": [
     0,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -11018,7 +11915,8 @@
    "area": 0.27,
    "chunk": [
     0,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -11052,7 +11950,8 @@
    "area": 3.19,
    "chunk": [
     0,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -11089,7 +11988,8 @@
    "area": 0.2,
    "chunk": [
     0,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -11123,7 +12023,8 @@
    "area": 0.61,
    "chunk": [
     0,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -11158,7 +12059,8 @@
    "area": 4.95,
    "chunk": [
     0,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -11190,8 +12092,85 @@
    "vertex_count": 84
   },
   {
-   "area": 44.59,
+   "area": 0.72,
    "chunk": [
+    0,
+    0,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    136,
+    137,
+    139,
+    148,
+    152,
+    181
+   ],
+   "colour": [
+    0.4526,
+    0.4371,
+    0.4222
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 6,
+   "index_offset": 347316,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor028c_c17",
+   "model": 0,
+   "normal_offset": 347204,
+   "position_offset": 347156,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 347284,
+   "uv_offset": 347252,
+   "vertex_count": 4
+  },
+  {
+   "area": 11.52,
+   "chunk": [
+    0,
+    0,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    48,
+    125,
+    148,
+    181
+   ],
+   "colour": [
+    0.3982,
+    0.3772,
+    0.3657
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 6,
+   "index_offset": 347500,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor033k",
+   "model": 0,
+   "normal_offset": 347388,
+   "position_offset": 347340,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 347468,
+   "uv_offset": 347436,
+   "vertex_count": 4
+  },
+  {
+   "area": 29.73,
+   "chunk": [
+    0,
     0,
     0
    ],
@@ -11213,24 +12192,25 @@
    "entity": null,
    "free": "brick:brick_red",
    "generic": "brick_red",
-   "index_count": 21,
-   "index_offset": 347596,
+   "index_count": 15,
+   "index_offset": 347804,
    "lightmap_page": 0,
    "material": "brick/brickwall045a",
    "model": 0,
-   "normal_offset": 347288,
-   "position_offset": 347156,
+   "normal_offset": 347608,
+   "position_offset": 347524,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 347508,
-   "uv_offset": 347420,
-   "vertex_count": 11
+   "uv2_offset": 347748,
+   "uv_offset": 347692,
+   "vertex_count": 7
   },
   {
    "area": 29.73,
    "chunk": [
+    0,
     0,
     0
    ],
@@ -11251,23 +12231,24 @@
    "free": "brick:brick_red",
    "generic": "brick_red",
    "index_count": 15,
-   "index_offset": 347960,
+   "index_offset": 348144,
    "lightmap_page": 0,
    "material": "brick/brickwall045c",
    "model": 0,
-   "normal_offset": 347764,
-   "position_offset": 347680,
+   "normal_offset": 347948,
+   "position_offset": 347864,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 347904,
-   "uv_offset": 347848,
+   "uv2_offset": 348088,
+   "uv_offset": 348032,
    "vertex_count": 7
   },
   {
    "area": 23.04,
    "chunk": [
+    0,
     0,
     0
    ],
@@ -11288,23 +12269,24 @@
    "free": "brick:brick_red",
    "generic": "brick_red",
    "index_count": 24,
-   "index_offset": 348420,
+   "index_offset": 348604,
    "lightmap_page": 0,
    "material": "brick/brickwall045f",
    "model": 0,
-   "normal_offset": 348140,
-   "position_offset": 348020,
+   "normal_offset": 348324,
+   "position_offset": 348204,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 348340,
-   "uv_offset": 348260,
+   "uv2_offset": 348524,
+   "uv_offset": 348444,
    "vertex_count": 10
   },
   {
-   "area": 58.34,
+   "area": 21.18,
    "chunk": [
+    0,
     0,
     0
    ],
@@ -11326,24 +12308,25 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 12,
-   "index_offset": 348836,
+   "index_count": 6,
+   "index_offset": 348860,
    "lightmap_page": 0,
    "material": "concrete/concretefloor027a",
    "model": 0,
-   "normal_offset": 348612,
-   "position_offset": 348516,
+   "normal_offset": 348748,
+   "position_offset": 348700,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 348772,
-   "uv_offset": 348708,
-   "vertex_count": 8
+   "uv2_offset": 348828,
+   "uv_offset": 348796,
+   "vertex_count": 4
   },
   {
    "area": 23.04,
    "chunk": [
+    0,
     0,
     0
    ],
@@ -11381,82 +12364,9 @@
    "vertex_count": 6
   },
   {
-   "area": 0.72,
-   "chunk": [
-    0,
-    0
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    136,
-    137,
-    139,
-    148,
-    152,
-    181
-   ],
-   "colour": [
-    0.4526,
-    0.4371,
-    0.4222
-   ],
-   "entity": null,
-   "free": "concrete:concrete",
-   "generic": "concrete",
-   "index_count": 6,
-   "index_offset": 349332,
-   "lightmap_page": 0,
-   "material": "concrete/concretefloor028c_c17",
-   "model": 0,
-   "normal_offset": 349220,
-   "position_offset": 349172,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 349300,
-   "uv_offset": 349268,
-   "vertex_count": 4
-  },
-  {
-   "area": 11.52,
-   "chunk": [
-    0,
-    0
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    48,
-    125,
-    148,
-    181
-   ],
-   "colour": [
-    0.3982,
-    0.3772,
-    0.3657
-   ],
-   "entity": null,
-   "free": "concrete:concrete",
-   "generic": "concrete",
-   "index_count": 6,
-   "index_offset": 349516,
-   "lightmap_page": 0,
-   "material": "concrete/concretefloor033k",
-   "model": 0,
-   "normal_offset": 349404,
-   "position_offset": 349356,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 349484,
-   "uv_offset": 349452,
-   "vertex_count": 4
-  },
-  {
    "area": 25.92,
    "chunk": [
+    0,
     0,
     0
    ],
@@ -11482,23 +12392,24 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 27,
-   "index_offset": 350220,
+   "index_offset": 349852,
    "lightmap_page": 0,
    "material": "concrete/concretewall041a",
    "model": 0,
-   "normal_offset": 349744,
-   "position_offset": 349540,
+   "normal_offset": 349376,
+   "position_offset": 349172,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 350084,
-   "uv_offset": 349948,
+   "uv2_offset": 349716,
+   "uv_offset": 349580,
    "vertex_count": 17
   },
   {
    "area": 23.04,
    "chunk": [
+    0,
     0,
     0
    ],
@@ -11525,23 +12436,24 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 24,
-   "index_offset": 350888,
+   "index_offset": 350520,
    "lightmap_page": 0,
    "material": "concrete/concretewall041c",
    "model": 0,
-   "normal_offset": 350496,
-   "position_offset": 350328,
+   "normal_offset": 350128,
+   "position_offset": 349960,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 350776,
-   "uv_offset": 350664,
+   "uv2_offset": 350408,
+   "uv_offset": 350296,
    "vertex_count": 14
   },
   {
    "area": 6.13,
    "chunk": [
+    0,
     0,
     0
    ],
@@ -11566,23 +12478,24 @@
    "generic": "glass",
    "glass": "glass",
    "index_count": 12,
-   "index_offset": 351304,
+   "index_offset": 350936,
    "lightmap_page": 0,
    "material": "glass/glasswindow014a",
    "model": 0,
-   "normal_offset": 351080,
-   "position_offset": 350984,
+   "normal_offset": 350712,
+   "position_offset": 350616,
    "texels": [
     256,
     128
    ],
-   "uv2_offset": 351240,
-   "uv_offset": 351176,
+   "uv2_offset": 350872,
+   "uv_offset": 350808,
    "vertex_count": 8
   },
   {
    "area": 17.37,
    "chunk": [
+    0,
     0,
     0
    ],
@@ -11607,23 +12520,24 @@
    "free": "concrete_clean:ceiling",
    "generic": "ceiling",
    "index_count": 15,
-   "index_offset": 351632,
+   "index_offset": 351264,
    "lightmap_page": 0,
    "material": "plaster/plasterceiling002b",
    "model": 0,
-   "normal_offset": 351436,
-   "position_offset": 351352,
+   "normal_offset": 351068,
+   "position_offset": 350984,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 351576,
-   "uv_offset": 351520,
+   "uv2_offset": 351208,
+   "uv_offset": 351152,
    "vertex_count": 7
   },
   {
    "area": 35.28,
    "chunk": [
+    0,
     0,
     0
    ],
@@ -11655,23 +12569,24 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 117,
-   "index_offset": 354372,
+   "index_offset": 354004,
    "lightmap_page": 0,
    "material": "plaster/plasterwall045a",
    "model": 0,
-   "normal_offset": 352496,
-   "position_offset": 351692,
+   "normal_offset": 352128,
+   "position_offset": 351324,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 353836,
-   "uv_offset": 353300,
+   "uv2_offset": 353468,
+   "uv_offset": 352932,
    "vertex_count": 67
   },
   {
    "area": 3.07,
    "chunk": [
+    0,
     0,
     0
    ],
@@ -11689,23 +12604,24 @@
    "free": "concrete_clean:ceiling",
    "generic": "ceiling",
    "index_count": 6,
-   "index_offset": 355000,
+   "index_offset": 354632,
    "lightmap_page": 0,
    "material": "props/plasticceiling003a",
    "model": 0,
-   "normal_offset": 354888,
-   "position_offset": 354840,
+   "normal_offset": 354520,
+   "position_offset": 354472,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 354968,
-   "uv_offset": 354936,
+   "uv2_offset": 354600,
+   "uv_offset": 354568,
    "vertex_count": 4
   },
   {
    "area": 1.59,
    "chunk": [
+    0,
     0,
     0
    ],
@@ -11734,23 +12650,24 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 30,
-   "index_offset": 355824,
+   "index_offset": 355456,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 355264,
-   "position_offset": 355024,
+   "normal_offset": 354896,
+   "position_offset": 354656,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 355664,
-   "uv_offset": 355504,
+   "uv2_offset": 355296,
+   "uv_offset": 355136,
    "vertex_count": 20
   },
   {
    "area": 0.48,
    "chunk": [
+    0,
     0,
     0
    ],
@@ -11768,23 +12685,24 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 42,
-   "index_offset": 356984,
+   "index_offset": 356616,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 356256,
-   "position_offset": 355944,
+   "normal_offset": 355888,
+   "position_offset": 355576,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 356776,
-   "uv_offset": 356568,
+   "uv2_offset": 356408,
+   "uv_offset": 356200,
    "vertex_count": 26
   },
   {
    "area": 0.23,
    "chunk": [
+    0,
     0,
     0
    ],
@@ -11802,23 +12720,24 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 12,
-   "index_offset": 357472,
+   "index_offset": 357104,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 357248,
-   "position_offset": 357152,
+   "normal_offset": 356880,
+   "position_offset": 356784,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 357408,
-   "uv_offset": 357344,
+   "uv2_offset": 357040,
+   "uv_offset": 356976,
    "vertex_count": 8
   },
   {
    "area": 12.9,
    "chunk": [
+    0,
     0,
     0
    ],
@@ -11846,23 +12765,24 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 24,
-   "index_offset": 358160,
+   "index_offset": 357792,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 357712,
-   "position_offset": 357520,
+   "normal_offset": 357344,
+   "position_offset": 357152,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 358032,
-   "uv_offset": 357904,
+   "uv2_offset": 357664,
+   "uv_offset": 357536,
    "vertex_count": 16
   },
   {
    "area": 0.13,
    "chunk": [
+    0,
     0,
     0
    ],
@@ -11891,23 +12811,24 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 12,
-   "index_offset": 358576,
+   "index_offset": 358208,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 358352,
-   "position_offset": 358256,
+   "normal_offset": 357984,
+   "position_offset": 357888,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 358512,
-   "uv_offset": 358448,
+   "uv2_offset": 358144,
+   "uv_offset": 358080,
    "vertex_count": 8
   },
   {
    "area": 0.49,
    "chunk": [
+    0,
     0,
     0
    ],
@@ -11928,15 +12849,87 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 6,
-   "index_offset": 358784,
+   "index_offset": 358416,
    "lightmap_page": 0,
    "material": "wood/woodstair002c",
+   "model": 0,
+   "normal_offset": 358304,
+   "position_offset": 358256,
+   "texels": [
+    256,
+    128
+   ],
+   "uv2_offset": 358384,
+   "uv_offset": 358352,
+   "vertex_count": 4
+  },
+  {
+   "area": 14.86,
+   "chunk": [
+    0,
+    0,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    132,
+    135
+   ],
+   "colour": [
+    0.3603,
+    0.3199,
+    0.2605
+   ],
+   "entity": null,
+   "free": "brick:brick_red",
+   "generic": "brick_red",
+   "index_count": 6,
+   "index_offset": 358600,
+   "lightmap_page": 0,
+   "material": "brick/brickwall045a",
+   "model": 0,
+   "normal_offset": 358488,
+   "position_offset": 358440,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 358568,
+   "uv_offset": 358536,
+   "vertex_count": 4
+  },
+  {
+   "area": 37.16,
+   "chunk": [
+    0,
+    0,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    132,
+    133,
+    134,
+    135
+   ],
+   "colour": [
+    0.3959,
+    0.3792,
+    0.3454
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 6,
+   "index_offset": 358784,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor027a",
    "model": 0,
    "normal_offset": 358672,
    "position_offset": 358624,
    "texels": [
-    256,
-    128
+    512,
+    512
    ],
    "uv2_offset": 358752,
    "uv_offset": 358720,
@@ -11946,7 +12939,8 @@
    "area": 36.79,
    "chunk": [
     1,
-    -4
+    -4,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -11979,10 +12973,11 @@
    "vertex_count": 9
   },
   {
-   "area": 34.84,
+   "area": 3.07,
    "chunk": [
     1,
-    -4
+    -4,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12001,26 +12996,27 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 27,
-   "index_offset": 359908,
+   "index_count": 15,
+   "index_offset": 359588,
    "lightmap_page": 0,
    "material": "concrete/concretefloor027a",
    "model": 0,
-   "normal_offset": 359432,
+   "normal_offset": 359336,
    "position_offset": 359228,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 359772,
-   "uv_offset": 359636,
-   "vertex_count": 17
+   "uv2_offset": 359516,
+   "uv_offset": 359444,
+   "vertex_count": 9
   },
   {
    "area": 92.16,
    "chunk": [
     1,
-    -4
+    -4,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12039,25 +13035,26 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 12,
-   "index_offset": 360256,
+   "index_offset": 359888,
    "lightmap_page": 0,
    "material": "concrete/concretewall026f",
    "model": 0,
-   "normal_offset": 360088,
-   "position_offset": 360016,
+   "normal_offset": 359720,
+   "position_offset": 359648,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 360208,
-   "uv_offset": 360160,
+   "uv2_offset": 359840,
+   "uv_offset": 359792,
    "vertex_count": 6
   },
   {
    "area": 23.78,
    "chunk": [
     1,
-    -4
+    -4,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12075,25 +13072,63 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
-   "index_offset": 360544,
+   "index_offset": 360176,
    "lightmap_page": 0,
    "material": "metal/metalwall032e",
    "model": 0,
-   "normal_offset": 360376,
-   "position_offset": 360304,
+   "normal_offset": 360008,
+   "position_offset": 359936,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 360496,
-   "uv_offset": 360448,
+   "uv2_offset": 360128,
+   "uv_offset": 360080,
    "vertex_count": 6
+  },
+  {
+   "area": 31.77,
+   "chunk": [
+    1,
+    -4,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "colour": [
+    0.3959,
+    0.3792,
+    0.3454
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 12,
+   "index_offset": 360544,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor027a",
+   "model": 0,
+   "normal_offset": 360320,
+   "position_offset": 360224,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 360480,
+   "uv_offset": 360416,
+   "vertex_count": 8
   },
   {
    "area": 34.56,
    "chunk": [
     1,
-    -3
+    -3,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12124,18 +13159,18 @@
    "vertex_count": 4
   },
   {
-   "area": 97.92,
+   "area": 5.76,
    "chunk": [
     1,
-    -3
+    -3,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
     2,
     3,
     5,
-    6,
-    9
+    6
    ],
    "colour": [
     0.3959,
@@ -12145,26 +13180,27 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 54,
-   "index_offset": 361816,
+   "index_count": 24,
+   "index_offset": 361256,
    "lightmap_page": 0,
    "material": "concrete/concretefloor027a",
    "model": 0,
-   "normal_offset": 361088,
+   "normal_offset": 360920,
    "position_offset": 360776,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 361608,
-   "uv_offset": 361400,
-   "vertex_count": 26
+   "uv2_offset": 361160,
+   "uv_offset": 361064,
+   "vertex_count": 12
   },
   {
    "area": 23.78,
    "chunk": [
     1,
-    -3
+    -3,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12180,25 +13216,26 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
-   "index_offset": 362352,
+   "index_offset": 361672,
    "lightmap_page": 0,
    "material": "metal/metalwall032b_cheap",
    "model": 0,
-   "normal_offset": 362128,
-   "position_offset": 362032,
+   "normal_offset": 361448,
+   "position_offset": 361352,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 362288,
-   "uv_offset": 362224,
+   "uv2_offset": 361608,
+   "uv_offset": 361544,
    "vertex_count": 8
   },
   {
    "area": 23.78,
    "chunk": [
     1,
-    -3
+    -3,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12214,25 +13251,97 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
-   "index_offset": 362640,
+   "index_offset": 361960,
    "lightmap_page": 0,
    "material": "metal/metalwall032e",
    "model": 0,
-   "normal_offset": 362472,
-   "position_offset": 362400,
+   "normal_offset": 361792,
+   "position_offset": 361720,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 362592,
-   "uv_offset": 362544,
+   "uv2_offset": 361912,
+   "uv_offset": 361864,
+   "vertex_count": 6
+  },
+  {
+   "area": 92.16,
+   "chunk": [
+    1,
+    -3,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    2,
+    3,
+    6,
+    9
+   ],
+   "colour": [
+    0.3959,
+    0.3792,
+    0.3454
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 30,
+   "index_offset": 362568,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor027a",
+   "model": 0,
+   "normal_offset": 362176,
+   "position_offset": 362008,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 362456,
+   "uv_offset": 362344,
+   "vertex_count": 14
+  },
+  {
+   "area": 8.92,
+   "chunk": [
+    1,
+    -2,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    5
+   ],
+   "colour": [
+    0.7027,
+    0.7033,
+    0.6903
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 12,
+   "index_offset": 362928,
+   "lightmap_page": 0,
+   "material": "concrete/concretewall013m",
+   "model": 0,
+   "normal_offset": 362760,
+   "position_offset": 362688,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 362880,
+   "uv_offset": 362832,
    "vertex_count": 6
   },
   {
    "area": 66.33,
    "chunk": [
     1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12250,25 +13359,26 @@
    "free": "brick:brick_red",
    "generic": "brick_red",
    "index_count": 33,
-   "index_offset": 363368,
+   "index_offset": 363656,
    "lightmap_page": 0,
    "material": "brick/brickwall045a",
    "model": 0,
-   "normal_offset": 362892,
-   "position_offset": 362688,
+   "normal_offset": 363180,
+   "position_offset": 362976,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 363232,
-   "uv_offset": 363096,
+   "uv2_offset": 363520,
+   "uv_offset": 363384,
    "vertex_count": 17
   },
   {
    "area": 25.64,
    "chunk": [
     1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12289,25 +13399,26 @@
    "free": "brick:brick_red",
    "generic": "brick_red",
    "index_count": 51,
-   "index_offset": 364580,
+   "index_offset": 364868,
    "lightmap_page": 0,
    "material": "brick/brickwall045f",
    "model": 0,
-   "normal_offset": 363824,
-   "position_offset": 363500,
+   "normal_offset": 364112,
+   "position_offset": 363788,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 364364,
-   "uv_offset": 364148,
+   "uv2_offset": 364652,
+   "uv_offset": 364436,
    "vertex_count": 27
   },
   {
-   "area": 138.68,
+   "area": 119.57,
    "chunk": [
     1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12324,26 +13435,27 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 33,
-   "index_offset": 365544,
+   "index_count": 27,
+   "index_offset": 365672,
    "lightmap_page": 0,
    "material": "concrete/concretefloor027a",
    "model": 0,
-   "normal_offset": 365012,
-   "position_offset": 364784,
+   "normal_offset": 365252,
+   "position_offset": 365072,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 365392,
-   "uv_offset": 365240,
-   "vertex_count": 19
+   "uv2_offset": 365552,
+   "uv_offset": 365432,
+   "vertex_count": 15
   },
   {
    "area": 3.53,
    "chunk": [
     1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12361,29 +13473,29 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 12,
-   "index_offset": 365996,
+   "index_offset": 366100,
    "lightmap_page": 0,
    "material": "concrete/concretewall013a",
    "model": 0,
-   "normal_offset": 365772,
-   "position_offset": 365676,
+   "normal_offset": 365876,
+   "position_offset": 365780,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 365932,
-   "uv_offset": 365868,
+   "uv2_offset": 366036,
+   "uv_offset": 365972,
    "vertex_count": 8
   },
   {
-   "area": 9.2,
+   "area": 0.28,
    "chunk": [
     1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
-    5,
     33,
     34,
     35
@@ -12396,26 +13508,27 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 30,
-   "index_offset": 366604,
+   "index_count": 18,
+   "index_offset": 366468,
    "lightmap_page": 0,
    "material": "concrete/concretewall013m",
    "model": 0,
-   "normal_offset": 366212,
-   "position_offset": 366044,
+   "normal_offset": 366244,
+   "position_offset": 366148,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 366492,
-   "uv_offset": 366380,
-   "vertex_count": 14
+   "uv2_offset": 366404,
+   "uv_offset": 366340,
+   "vertex_count": 8
   },
   {
    "area": 46.08,
    "chunk": [
     1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12431,25 +13544,26 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
-   "index_offset": 367004,
+   "index_offset": 366820,
    "lightmap_page": 0,
    "material": "metal/metalwall032b_cheap",
    "model": 0,
-   "normal_offset": 366808,
-   "position_offset": 366724,
+   "normal_offset": 366624,
+   "position_offset": 366540,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 366948,
-   "uv_offset": 366892,
+   "uv2_offset": 366764,
+   "uv_offset": 366708,
    "vertex_count": 7
   },
   {
    "area": 23.78,
    "chunk": [
     1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12467,25 +13581,26 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
-   "index_offset": 367304,
+   "index_offset": 367120,
    "lightmap_page": 0,
    "material": "metal/metalwall032e",
    "model": 0,
-   "normal_offset": 367136,
-   "position_offset": 367064,
+   "normal_offset": 366952,
+   "position_offset": 366880,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 367256,
-   "uv_offset": 367208,
+   "uv2_offset": 367072,
+   "uv_offset": 367024,
    "vertex_count": 6
   },
   {
    "area": 38.6,
    "chunk": [
     1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12506,25 +13621,26 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 318,
-   "index_offset": 373832,
+   "index_offset": 373648,
    "lightmap_page": 0,
    "material": "metal/metalwall045a",
    "model": 0,
-   "normal_offset": 369296,
-   "position_offset": 367352,
+   "normal_offset": 369112,
+   "position_offset": 367168,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 372536,
-   "uv_offset": 371240,
+   "uv2_offset": 372352,
+   "uv_offset": 371056,
    "vertex_count": 162
   },
   {
    "area": 16.93,
    "chunk": [
     1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12543,25 +13659,26 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 102,
-   "index_offset": 377104,
+   "index_offset": 376920,
    "lightmap_page": 0,
    "material": "metal/metalwall045a",
    "model": 0,
-   "normal_offset": 375704,
-   "position_offset": 375104,
+   "normal_offset": 375520,
+   "position_offset": 374920,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 376704,
-   "uv_offset": 376304,
+   "uv2_offset": 376520,
+   "uv_offset": 376120,
    "vertex_count": 50
   },
   {
    "area": 6.36,
    "chunk": [
     1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12579,25 +13696,26 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
-   "index_offset": 378312,
+   "index_offset": 378128,
    "lightmap_page": 0,
    "material": "metal/metalwall045a",
    "model": 0,
-   "normal_offset": 377752,
-   "position_offset": 377512,
+   "normal_offset": 377568,
+   "position_offset": 377328,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 378152,
-   "uv_offset": 377992,
+   "uv2_offset": 377968,
+   "uv_offset": 377808,
    "vertex_count": 20
   },
   {
    "area": 49.03,
    "chunk": [
     1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12616,25 +13734,26 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 87,
-   "index_offset": 380336,
+   "index_offset": 380152,
    "lightmap_page": 0,
    "material": "plaster/plasterwall044c",
    "model": 0,
-   "normal_offset": 379020,
-   "position_offset": 378456,
+   "normal_offset": 378836,
+   "position_offset": 378272,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 379960,
-   "uv_offset": 379584,
+   "uv2_offset": 379776,
+   "uv_offset": 379400,
    "vertex_count": 47
   },
   {
    "area": 15.96,
    "chunk": [
     1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12650,25 +13769,26 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 30,
-   "index_offset": 381324,
+   "index_offset": 381140,
    "lightmap_page": 0,
    "material": "plaster/plasterwall044c",
    "model": 0,
-   "normal_offset": 380876,
-   "position_offset": 380684,
+   "normal_offset": 380692,
+   "position_offset": 380500,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 381196,
-   "uv_offset": 381068,
+   "uv2_offset": 381012,
+   "uv_offset": 380884,
    "vertex_count": 16
   },
   {
    "area": 75.44,
    "chunk": [
     1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12685,25 +13805,26 @@
    "free": "ceiling_tile:ceiling_tile",
    "generic": "ceiling_tile",
    "index_count": 69,
-   "index_offset": 382764,
+   "index_offset": 382580,
    "lightmap_page": 0,
    "material": "props/acousticceiling002a",
    "model": 0,
-   "normal_offset": 381840,
-   "position_offset": 381444,
+   "normal_offset": 381656,
+   "position_offset": 381260,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 382500,
-   "uv_offset": 382236,
+   "uv2_offset": 382316,
+   "uv_offset": 382052,
    "vertex_count": 33
   },
   {
    "area": 76.09,
    "chunk": [
     1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12721,25 +13842,26 @@
    "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 78,
-   "index_offset": 384320,
+   "index_offset": 384136,
    "lightmap_page": 0,
    "material": "tile/tilefloor005a",
    "model": 0,
-   "normal_offset": 383424,
-   "position_offset": 383040,
+   "normal_offset": 383240,
+   "position_offset": 382856,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 384064,
-   "uv_offset": 383808,
+   "uv2_offset": 383880,
+   "uv_offset": 383624,
    "vertex_count": 32
   },
   {
    "area": 1.68,
    "chunk": [
     1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12756,25 +13878,26 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 42,
-   "index_offset": 385672,
+   "index_offset": 385488,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 384944,
-   "position_offset": 384632,
+   "normal_offset": 384760,
+   "position_offset": 384448,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 385464,
-   "uv_offset": 385256,
+   "uv2_offset": 385280,
+   "uv_offset": 385072,
    "vertex_count": 26
   },
   {
    "area": 0.2,
    "chunk": [
     1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12790,25 +13913,26 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 24,
-   "index_offset": 386400,
+   "index_offset": 386216,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 386008,
-   "position_offset": 385840,
+   "normal_offset": 385824,
+   "position_offset": 385656,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 386288,
-   "uv_offset": 386176,
+   "uv2_offset": 386104,
+   "uv_offset": 385992,
    "vertex_count": 14
   },
   {
    "area": 4.95,
    "chunk": [
     1,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12825,25 +13949,135 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 144,
-   "index_offset": 389856,
+   "index_offset": 389672,
    "lightmap_page": 0,
    "material": "wood/woodstair002c",
    "model": 0,
-   "normal_offset": 387504,
-   "position_offset": 386496,
+   "normal_offset": 387320,
+   "position_offset": 386312,
    "texels": [
     256,
     128
    ],
-   "uv2_offset": 389184,
-   "uv_offset": 388512,
+   "uv2_offset": 389000,
+   "uv_offset": 388328,
    "vertex_count": 84
+  },
+  {
+   "area": 19.11,
+   "chunk": [
+    1,
+    -2,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    6,
+    9
+   ],
+   "colour": [
+    0.3959,
+    0.3792,
+    0.3454
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 6,
+   "index_offset": 390408,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor027a",
+   "model": 0,
+   "normal_offset": 390296,
+   "position_offset": 390248,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 390376,
+   "uv_offset": 390344,
+   "vertex_count": 4
+  },
+  {
+   "area": 0.77,
+   "chunk": [
+    1,
+    -1,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    6,
+    8,
+    47,
+    48
+   ],
+   "colour": [
+    0.4526,
+    0.4371,
+    0.4222
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 12,
+   "index_offset": 390752,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor028c_c17",
+   "model": 0,
+   "normal_offset": 390528,
+   "position_offset": 390432,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 390688,
+   "uv_offset": 390624,
+   "vertex_count": 8
+  },
+  {
+   "area": 36.79,
+   "chunk": [
+    1,
+    -1,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    8,
+    48,
+    129,
+    148
+   ],
+   "colour": [
+    0.3982,
+    0.3772,
+    0.3657
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 12,
+   "index_offset": 391120,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor033k",
+   "model": 0,
+   "normal_offset": 390896,
+   "position_offset": 390800,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 391056,
+   "uv_offset": 390992,
+   "vertex_count": 8
   },
   {
    "area": 42.36,
    "chunk": [
     1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12864,25 +14098,26 @@
    "free": "brick:brick_red",
    "generic": "brick_red",
    "index_count": 51,
-   "index_offset": 391512,
+   "index_offset": 392248,
    "lightmap_page": 0,
    "material": "brick/brickwall045a",
    "model": 0,
-   "normal_offset": 390756,
-   "position_offset": 390432,
+   "normal_offset": 391492,
+   "position_offset": 391168,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 391296,
-   "uv_offset": 391080,
+   "uv2_offset": 392032,
+   "uv_offset": 391816,
    "vertex_count": 27
   },
   {
    "area": 39.76,
    "chunk": [
     1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12904,25 +14139,26 @@
    "free": "brick:brick_red",
    "generic": "brick_red",
    "index_count": 63,
-   "index_offset": 392956,
+   "index_offset": 393692,
    "lightmap_page": 0,
    "material": "brick/brickwall045f",
    "model": 0,
-   "normal_offset": 392088,
-   "position_offset": 391716,
+   "normal_offset": 392824,
+   "position_offset": 392452,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 392708,
-   "uv_offset": 392460,
+   "uv2_offset": 393444,
+   "uv_offset": 393196,
    "vertex_count": 31
   },
   {
-   "area": 76.27,
+   "area": 30.19,
    "chunk": [
     1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12938,26 +14174,27 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 24,
-   "index_offset": 393688,
+   "index_count": 6,
+   "index_offset": 394104,
    "lightmap_page": 0,
    "material": "concrete/concretefloor027a",
    "model": 0,
-   "normal_offset": 393352,
-   "position_offset": 393208,
+   "normal_offset": 393992,
+   "position_offset": 393944,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 393592,
-   "uv_offset": 393496,
-   "vertex_count": 12
+   "uv2_offset": 394072,
+   "uv_offset": 394040,
+   "vertex_count": 4
   },
   {
-   "area": 25.29,
+   "area": 24.53,
    "chunk": [
     1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -12975,62 +14212,27 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 36,
-   "index_offset": 394584,
+   "index_count": 24,
+   "index_offset": 394608,
    "lightmap_page": 0,
    "material": "concrete/concretefloor028c_c17",
    "model": 0,
-   "normal_offset": 394024,
-   "position_offset": 393784,
+   "normal_offset": 394272,
+   "position_offset": 394128,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 394424,
-   "uv_offset": 394264,
-   "vertex_count": 20
-  },
-  {
-   "area": 36.79,
-   "chunk": [
-    1,
-    -1
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    8,
-    48,
-    129,
-    148
-   ],
-   "colour": [
-    0.3982,
-    0.3772,
-    0.3657
-   ],
-   "entity": null,
-   "free": "concrete:concrete",
-   "generic": "concrete",
-   "index_count": 12,
-   "index_offset": 395048,
-   "lightmap_page": 0,
-   "material": "concrete/concretefloor033k",
-   "model": 0,
-   "normal_offset": 394824,
-   "position_offset": 394728,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 394984,
-   "uv_offset": 394920,
-   "vertex_count": 8
+   "uv2_offset": 394512,
+   "uv_offset": 394416,
+   "vertex_count": 12
   },
   {
    "area": 5.2,
    "chunk": [
     1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -13048,25 +14250,26 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 18,
-   "index_offset": 395496,
+   "index_offset": 395104,
    "lightmap_page": 0,
    "material": "concrete/concretewall013a",
    "model": 0,
-   "normal_offset": 395216,
-   "position_offset": 395096,
+   "normal_offset": 394824,
+   "position_offset": 394704,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 395416,
-   "uv_offset": 395336,
+   "uv2_offset": 395024,
+   "uv_offset": 394944,
    "vertex_count": 10
   },
   {
    "area": 0.28,
    "chunk": [
     1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -13085,25 +14288,26 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 18,
-   "index_offset": 395888,
+   "index_offset": 395496,
    "lightmap_page": 0,
    "material": "concrete/concretewall013m",
    "model": 0,
-   "normal_offset": 395664,
-   "position_offset": 395568,
+   "normal_offset": 395272,
+   "position_offset": 395176,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 395824,
-   "uv_offset": 395760,
+   "uv2_offset": 395432,
+   "uv_offset": 395368,
    "vertex_count": 8
   },
   {
    "area": 19.11,
    "chunk": [
     1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -13123,25 +14327,26 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 15,
-   "index_offset": 396240,
+   "index_offset": 395848,
    "lightmap_page": 0,
    "material": "metal/metalwall032b_cheap",
    "model": 0,
-   "normal_offset": 396044,
-   "position_offset": 395960,
+   "normal_offset": 395652,
+   "position_offset": 395568,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 396184,
-   "uv_offset": 396128,
+   "uv2_offset": 395792,
+   "uv_offset": 395736,
    "vertex_count": 7
   },
   {
    "area": 23.78,
    "chunk": [
     1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -13161,25 +14366,26 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 18,
-   "index_offset": 396620,
+   "index_offset": 396228,
    "lightmap_page": 0,
    "material": "metal/metalwall032e",
    "model": 0,
-   "normal_offset": 396396,
-   "position_offset": 396300,
+   "normal_offset": 396004,
+   "position_offset": 395908,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 396556,
-   "uv_offset": 396492,
+   "uv2_offset": 396164,
+   "uv_offset": 396100,
    "vertex_count": 8
   },
   {
    "area": 1.49,
    "chunk": [
     1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -13197,25 +14403,26 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 6,
-   "index_offset": 396852,
+   "index_offset": 396460,
    "lightmap_page": 0,
    "material": "metal/metalwall032f",
    "model": 0,
-   "normal_offset": 396740,
-   "position_offset": 396692,
+   "normal_offset": 396348,
+   "position_offset": 396300,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 396820,
-   "uv_offset": 396788,
+   "uv2_offset": 396428,
+   "uv_offset": 396396,
    "vertex_count": 4
   },
   {
    "area": 19.22,
    "chunk": [
     1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -13235,25 +14442,26 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 297,
-   "index_offset": 402756,
+   "index_offset": 402364,
    "lightmap_page": 0,
    "material": "metal/metalwall045a",
    "model": 0,
-   "normal_offset": 398640,
-   "position_offset": 396876,
+   "normal_offset": 398248,
+   "position_offset": 396484,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 401580,
-   "uv_offset": 400404,
+   "uv2_offset": 401188,
+   "uv_offset": 400012,
    "vertex_count": 147
   },
   {
    "area": 0.66,
    "chunk": [
     1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -13273,25 +14481,26 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 54,
-   "index_offset": 405064,
+   "index_offset": 404672,
    "lightmap_page": 0,
    "material": "metal/metalwall045a",
    "model": 0,
-   "normal_offset": 404280,
-   "position_offset": 403944,
+   "normal_offset": 403888,
+   "position_offset": 403552,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 404840,
-   "uv_offset": 404616,
+   "uv2_offset": 404448,
+   "uv_offset": 404224,
    "vertex_count": 28
   },
   {
    "area": 2.46,
    "chunk": [
     1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -13309,25 +14518,26 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 33,
-   "index_offset": 405960,
+   "index_offset": 405568,
    "lightmap_page": 0,
    "material": "metal/metalwall045a",
    "model": 0,
-   "normal_offset": 405484,
-   "position_offset": 405280,
+   "normal_offset": 405092,
+   "position_offset": 404888,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 405824,
-   "uv_offset": 405688,
+   "uv2_offset": 405432,
+   "uv_offset": 405296,
    "vertex_count": 17
   },
   {
    "area": 10.8,
    "chunk": [
     1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -13345,25 +14555,26 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 39,
-   "index_offset": 406852,
+   "index_offset": 406460,
    "lightmap_page": 0,
    "material": "metal/metalwall045a",
    "model": 0,
-   "normal_offset": 406320,
-   "position_offset": 406092,
+   "normal_offset": 405928,
+   "position_offset": 405700,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 406700,
-   "uv_offset": 406548,
+   "uv2_offset": 406308,
+   "uv_offset": 406156,
    "vertex_count": 19
   },
   {
    "area": 31.19,
    "chunk": [
     1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -13383,25 +14594,26 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 78,
-   "index_offset": 408528,
+   "index_offset": 408136,
    "lightmap_page": 0,
    "material": "plaster/plasterwall044c",
    "model": 0,
-   "normal_offset": 407464,
-   "position_offset": 407008,
+   "normal_offset": 407072,
+   "position_offset": 406616,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 408224,
-   "uv_offset": 407920,
+   "uv2_offset": 407832,
+   "uv_offset": 407528,
    "vertex_count": 38
   },
   {
    "area": 26.76,
    "chunk": [
     1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -13419,25 +14631,26 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 27,
-   "index_offset": 409440,
+   "index_offset": 409048,
    "lightmap_page": 0,
    "material": "plaster/plasterwall044c",
    "model": 0,
-   "normal_offset": 409020,
-   "position_offset": 408840,
+   "normal_offset": 408628,
+   "position_offset": 408448,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 409320,
-   "uv_offset": 409200,
+   "uv2_offset": 408928,
+   "uv_offset": 408808,
    "vertex_count": 15
   },
   {
    "area": 0.35,
    "chunk": [
     1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -13453,25 +14666,26 @@
    "free": "plaster_worn:plaster_worn",
    "generic": "plaster_worn",
    "index_count": 12,
-   "index_offset": 409788,
+   "index_offset": 409396,
    "lightmap_page": 0,
    "material": "plaster/plasterwall044c",
    "model": 0,
-   "normal_offset": 409620,
-   "position_offset": 409548,
+   "normal_offset": 409228,
+   "position_offset": 409156,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 409740,
-   "uv_offset": 409692,
+   "uv2_offset": 409348,
+   "uv_offset": 409300,
    "vertex_count": 6
   },
   {
    "area": 54.91,
    "chunk": [
     1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -13489,25 +14703,26 @@
    "free": "ceiling_tile:ceiling_tile",
    "generic": "ceiling_tile",
    "index_count": 57,
-   "index_offset": 410916,
+   "index_offset": 410524,
    "lightmap_page": 0,
    "material": "props/acousticceiling002a",
    "model": 0,
-   "normal_offset": 410160,
-   "position_offset": 409836,
+   "normal_offset": 409768,
+   "position_offset": 409444,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 410700,
-   "uv_offset": 410484,
+   "uv2_offset": 410308,
+   "uv_offset": 410092,
    "vertex_count": 27
   },
   {
    "area": 55.56,
    "chunk": [
     1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -13527,25 +14742,26 @@
    "free": "tile_white:tile_floor",
    "generic": "tile_floor",
    "index_count": 66,
-   "index_offset": 412264,
+   "index_offset": 411872,
    "lightmap_page": 0,
    "material": "tile/tilefloor005a",
    "model": 0,
-   "normal_offset": 411480,
-   "position_offset": 411144,
+   "normal_offset": 411088,
+   "position_offset": 410752,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 412040,
-   "uv_offset": 411816,
+   "uv2_offset": 411648,
+   "uv_offset": 411424,
    "vertex_count": 28
   },
   {
    "area": 1.68,
    "chunk": [
     1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -13564,25 +14780,26 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 42,
-   "index_offset": 413568,
+   "index_offset": 413176,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 412840,
-   "position_offset": 412528,
+   "normal_offset": 412448,
+   "position_offset": 412136,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 413360,
-   "uv_offset": 413152,
+   "uv2_offset": 412968,
+   "uv_offset": 412760,
    "vertex_count": 26
   },
   {
    "area": 0.2,
    "chunk": [
     1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -13598,25 +14815,26 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 24,
-   "index_offset": 414296,
+   "index_offset": 413904,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 413904,
-   "position_offset": 413736,
+   "normal_offset": 413512,
+   "position_offset": 413344,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 414184,
-   "uv_offset": 414072,
+   "uv2_offset": 413792,
+   "uv_offset": 413680,
    "vertex_count": 14
   },
   {
    "area": 4.95,
    "chunk": [
     1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -13633,30 +14851,140 @@
    "free": "wood_planks:wood_planks",
    "generic": "wood_planks",
    "index_count": 144,
-   "index_offset": 417752,
+   "index_offset": 417360,
    "lightmap_page": 0,
    "material": "wood/woodstair002c",
    "model": 0,
-   "normal_offset": 415400,
-   "position_offset": 414392,
+   "normal_offset": 415008,
+   "position_offset": 414000,
    "texels": [
     256,
     128
    ],
-   "uv2_offset": 417080,
-   "uv_offset": 416408,
+   "uv2_offset": 416688,
+   "uv_offset": 416016,
    "vertex_count": 84
   },
   {
-   "area": 41.62,
+   "area": 46.08,
    "chunk": [
     1,
+    -1,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    6,
+    9,
+    10
+   ],
+   "colour": [
+    0.3959,
+    0.3792,
+    0.3454
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 18,
+   "index_offset": 418256,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor027a",
+   "model": 0,
+   "normal_offset": 418032,
+   "position_offset": 417936,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 418192,
+   "uv_offset": 418128,
+   "vertex_count": 8
+  },
+  {
+   "area": 0.77,
+   "chunk": [
+    1,
+    0,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    129,
+    130,
+    136,
+    148
+   ],
+   "colour": [
+    0.4526,
+    0.4371,
+    0.4222
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 12,
+   "index_offset": 418648,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor028c_c17",
+   "model": 0,
+   "normal_offset": 418424,
+   "position_offset": 418328,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 418584,
+   "uv_offset": 418520,
+   "vertex_count": 8
+  },
+  {
+   "area": 12.26,
+   "chunk": [
+    1,
+    0,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    8,
+    48,
+    129,
+    148
+   ],
+   "colour": [
+    0.3982,
+    0.3772,
+    0.3657
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 12,
+   "index_offset": 419016,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor033k",
+   "model": 0,
+   "normal_offset": 418792,
+   "position_offset": 418696,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 418952,
+   "uv_offset": 418888,
+   "vertex_count": 8
+  },
+  {
+   "area": 11.89,
+   "chunk": [
+    1,
+    0,
     0
    ],
    "classname": "worldspawn",
    "clusters": [
     132,
-    135,
     136
    ],
    "colour": [
@@ -13667,25 +14995,26 @@
    "entity": null,
    "free": "brick:brick_red",
    "generic": "brick_red",
-   "index_count": 15,
-   "index_offset": 418688,
+   "index_count": 9,
+   "index_offset": 419264,
    "lightmap_page": 0,
    "material": "brick/brickwall045a",
    "model": 0,
-   "normal_offset": 418436,
-   "position_offset": 418328,
+   "normal_offset": 419124,
+   "position_offset": 419064,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 418616,
-   "uv_offset": 418544,
-   "vertex_count": 9
+   "uv2_offset": 419224,
+   "uv_offset": 419184,
+   "vertex_count": 5
   },
   {
    "area": 53.51,
    "chunk": [
     1,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -13704,24 +15033,25 @@
    "free": "brick:brick_red",
    "generic": "brick_red",
    "index_count": 9,
-   "index_offset": 418948,
+   "index_offset": 419500,
    "lightmap_page": 0,
    "material": "brick/brickwall045c",
    "model": 0,
-   "normal_offset": 418808,
-   "position_offset": 418748,
+   "normal_offset": 419360,
+   "position_offset": 419300,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 418908,
-   "uv_offset": 418868,
+   "uv2_offset": 419460,
+   "uv_offset": 419420,
    "vertex_count": 5
   },
   {
    "area": 21.55,
    "chunk": [
     1,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -13741,30 +15071,29 @@
    "free": "brick:brick_red",
    "generic": "brick_red",
    "index_count": 15,
-   "index_offset": 419264,
+   "index_offset": 419816,
    "lightmap_page": 0,
    "material": "brick/brickwall045f",
    "model": 0,
-   "normal_offset": 419068,
-   "position_offset": 418984,
+   "normal_offset": 419620,
+   "position_offset": 419536,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 419208,
-   "uv_offset": 419152,
+   "uv2_offset": 419760,
+   "uv_offset": 419704,
    "vertex_count": 7
   },
   {
-   "area": 74.32,
+   "area": 29.73,
    "chunk": [
     1,
+    0,
     0
    ],
    "classname": "worldspawn",
    "clusters": [
-    130,
-    131,
     132,
     135
    ],
@@ -13776,25 +15105,26 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 12,
-   "index_offset": 419644,
+   "index_count": 6,
+   "index_offset": 420036,
    "lightmap_page": 0,
    "material": "concrete/concretefloor027a",
    "model": 0,
-   "normal_offset": 419420,
-   "position_offset": 419324,
+   "normal_offset": 419924,
+   "position_offset": 419876,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 419580,
-   "uv_offset": 419516,
-   "vertex_count": 8
+   "uv2_offset": 420004,
+   "uv_offset": 419972,
+   "vertex_count": 4
   },
   {
    "area": 47.57,
    "chunk": [
     1,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -13815,97 +15145,98 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 36,
-   "index_offset": 420412,
+   "index_offset": 420780,
    "lightmap_page": 0,
    "material": "concrete/concretefloor028c_c17",
    "model": 0,
-   "normal_offset": 419908,
-   "position_offset": 419692,
+   "normal_offset": 420276,
+   "position_offset": 420060,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 420268,
-   "uv_offset": 420124,
+   "uv2_offset": 420636,
+   "uv_offset": 420492,
    "vertex_count": 18
   },
   {
-   "area": 0.77,
+   "area": 29.73,
    "chunk": [
     1,
-    0
+    0,
+    1
    ],
    "classname": "worldspawn",
    "clusters": [
-    129,
-    130,
-    136,
-    148
+    132,
+    135
    ],
    "colour": [
-    0.4526,
-    0.4371,
-    0.4222
+    0.3603,
+    0.3199,
+    0.2605
    ],
    "entity": null,
-   "free": "concrete:concrete",
-   "generic": "concrete",
-   "index_count": 12,
-   "index_offset": 420876,
+   "free": "brick:brick_red",
+   "generic": "brick_red",
+   "index_count": 6,
+   "index_offset": 421084,
    "lightmap_page": 0,
-   "material": "concrete/concretefloor028c_c17",
+   "material": "brick/brickwall045a",
    "model": 0,
-   "normal_offset": 420652,
-   "position_offset": 420556,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 420812,
-   "uv_offset": 420748,
-   "vertex_count": 8
-  },
-  {
-   "area": 12.26,
-   "chunk": [
-    1,
-    0
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    8,
-    48,
-    129,
-    148
-   ],
-   "colour": [
-    0.3982,
-    0.3772,
-    0.3657
-   ],
-   "entity": null,
-   "free": "concrete:concrete",
-   "generic": "concrete",
-   "index_count": 12,
-   "index_offset": 421244,
-   "lightmap_page": 0,
-   "material": "concrete/concretefloor033k",
-   "model": 0,
-   "normal_offset": 421020,
+   "normal_offset": 420972,
    "position_offset": 420924,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 421180,
-   "uv_offset": 421116,
-   "vertex_count": 8
+   "uv2_offset": 421052,
+   "uv_offset": 421020,
+   "vertex_count": 4
+  },
+  {
+   "area": 44.59,
+   "chunk": [
+    1,
+    0,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    130,
+    131,
+    132,
+    135
+   ],
+   "colour": [
+    0.3959,
+    0.3792,
+    0.3454
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 6,
+   "index_offset": 421268,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor027a",
+   "model": 0,
+   "normal_offset": 421156,
+   "position_offset": 421108,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 421236,
+   "uv_offset": 421204,
+   "vertex_count": 4
   },
   {
    "area": 55.74,
    "chunk": [
     2,
-    -4
+    -4,
+    1
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -13936,43 +15267,11 @@
    "vertex_count": 8
   },
   {
-   "area": 115.2,
-   "chunk": [
-    2,
-    -3
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    2
-   ],
-   "colour": [
-    0.3959,
-    0.3792,
-    0.3454
-   ],
-   "entity": null,
-   "free": "concrete:concrete",
-   "generic": "concrete",
-   "index_count": 15,
-   "index_offset": 422020,
-   "lightmap_page": 0,
-   "material": "concrete/concretefloor027a",
-   "model": 0,
-   "normal_offset": 421768,
-   "position_offset": 421660,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 421948,
-   "uv_offset": 421876,
-   "vertex_count": 9
-  },
-  {
    "area": 184.32,
    "chunk": [
     2,
-    -3
+    -3,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -13988,30 +15287,30 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
-   "index_offset": 422880,
+   "index_offset": 422460,
    "lightmap_page": 0,
    "material": "metal/metalwall032b_cheap",
    "model": 0,
-   "normal_offset": 422320,
-   "position_offset": 422080,
+   "normal_offset": 421900,
+   "position_offset": 421660,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 422720,
-   "uv_offset": 422560,
+   "uv2_offset": 422300,
+   "uv_offset": 422140,
    "vertex_count": 20
   },
   {
    "area": 115.2,
    "chunk": [
     2,
-    -2
+    -3,
+    1
    ],
    "classname": "worldspawn",
    "clusters": [
-    2,
-    6
+    2
    ],
    "colour": [
     0.3959,
@@ -14022,25 +15321,26 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 15,
-   "index_offset": 423384,
+   "index_offset": 422964,
    "lightmap_page": 0,
    "material": "concrete/concretefloor027a",
    "model": 0,
-   "normal_offset": 423132,
-   "position_offset": 423024,
+   "normal_offset": 422712,
+   "position_offset": 422604,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 423312,
-   "uv_offset": 423240,
+   "uv2_offset": 422892,
+   "uv_offset": 422820,
    "vertex_count": 9
   },
   {
    "area": 95.13,
    "chunk": [
     2,
-    -2
+    -2,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -14056,28 +15356,30 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 42,
-   "index_offset": 424244,
+   "index_offset": 423824,
    "lightmap_page": 0,
    "material": "metal/metalwall032b_cheap",
    "model": 0,
-   "normal_offset": 423684,
-   "position_offset": 423444,
+   "normal_offset": 423264,
+   "position_offset": 423024,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 424084,
-   "uv_offset": 423924,
+   "uv2_offset": 423664,
+   "uv_offset": 423504,
    "vertex_count": 20
   },
   {
-   "area": 130.24,
+   "area": 115.2,
    "chunk": [
     2,
-    -1
+    -2,
+    1
    ],
    "classname": "worldspawn",
    "clusters": [
+    2,
     6
    ],
    "colour": [
@@ -14088,31 +15390,31 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 39,
-   "index_offset": 425252,
+   "index_count": 15,
+   "index_offset": 424352,
    "lightmap_page": 0,
    "material": "concrete/concretefloor027a",
    "model": 0,
-   "normal_offset": 424664,
-   "position_offset": 424412,
+   "normal_offset": 424100,
+   "position_offset": 423992,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 425084,
-   "uv_offset": 424916,
-   "vertex_count": 21
+   "uv2_offset": 424280,
+   "uv_offset": 424208,
+   "vertex_count": 9
   },
   {
-   "area": 47.52,
+   "area": 1.44,
    "chunk": [
     2,
+    -1,
     -1
    ],
    "classname": "worldspawn",
    "clusters": [
     6,
-    7,
     8,
     47,
     48
@@ -14125,25 +15427,26 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 42,
-   "index_offset": 426288,
+   "index_count": 12,
+   "index_offset": 424732,
    "lightmap_page": 0,
    "material": "concrete/concretefloor028c_c17",
    "model": 0,
-   "normal_offset": 425672,
-   "position_offset": 425408,
+   "normal_offset": 424508,
+   "position_offset": 424412,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 426112,
-   "uv_offset": 425936,
-   "vertex_count": 22
+   "uv2_offset": 424668,
+   "uv_offset": 424604,
+   "vertex_count": 8
   },
   {
    "area": 23.04,
    "chunk": [
     2,
+    -1,
     -1
    ],
    "classname": "worldspawn",
@@ -14161,24 +15464,25 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 30,
-   "index_offset": 427016,
+   "index_offset": 425340,
    "lightmap_page": 0,
    "material": "concrete/concretefloor028c_c17",
    "model": 0,
-   "normal_offset": 426624,
-   "position_offset": 426456,
+   "normal_offset": 424948,
+   "position_offset": 424780,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 426904,
-   "uv_offset": 426792,
+   "uv2_offset": 425228,
+   "uv_offset": 425116,
    "vertex_count": 14
   },
   {
    "area": 69.12,
    "chunk": [
     2,
+    -1,
     -1
    ],
    "classname": "worldspawn",
@@ -14197,25 +15501,98 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 12,
-   "index_offset": 427456,
+   "index_offset": 425780,
    "lightmap_page": 0,
    "material": "concrete/concretefloor033k",
    "model": 0,
-   "normal_offset": 427232,
-   "position_offset": 427136,
+   "normal_offset": 425556,
+   "position_offset": 425460,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 427392,
-   "uv_offset": 427328,
+   "uv2_offset": 425716,
+   "uv_offset": 425652,
    "vertex_count": 8
+  },
+  {
+   "area": 2.97,
+   "chunk": [
+    2,
+    -1,
+    0
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    6
+   ],
+   "colour": [
+    0.3959,
+    0.3792,
+    0.3454
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 6,
+   "index_offset": 425988,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor027a",
+   "model": 0,
+   "normal_offset": 425876,
+   "position_offset": 425828,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 425956,
+   "uv_offset": 425924,
+   "vertex_count": 4
+  },
+  {
+   "area": 46.08,
+   "chunk": [
+    2,
+    -1,
+    0
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    6,
+    7,
+    8,
+    47,
+    48
+   ],
+   "colour": [
+    0.4526,
+    0.4371,
+    0.4222
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 30,
+   "index_offset": 426572,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor028c_c17",
+   "model": 0,
+   "normal_offset": 426180,
+   "position_offset": 426012,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 426460,
+   "uv_offset": 426348,
+   "vertex_count": 14
   },
   {
    "area": 53.3,
    "chunk": [
     2,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -14230,25 +15607,26 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 30,
-   "index_offset": 428144,
+   "index_offset": 427332,
    "lightmap_page": 0,
    "material": "metal/metalwall032b_cheap",
    "model": 0,
-   "normal_offset": 427696,
-   "position_offset": 427504,
+   "normal_offset": 426884,
+   "position_offset": 426692,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 428016,
-   "uv_offset": 427888,
+   "uv2_offset": 427204,
+   "uv_offset": 427076,
    "vertex_count": 16
   },
   {
    "area": 59.46,
    "chunk": [
     2,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -14263,25 +15641,26 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 12,
-   "index_offset": 428584,
+   "index_offset": 427772,
    "lightmap_page": 0,
    "material": "metal/metalwall032e",
    "model": 0,
-   "normal_offset": 428360,
-   "position_offset": 428264,
+   "normal_offset": 427548,
+   "position_offset": 427452,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 428520,
-   "uv_offset": 428456,
+   "uv2_offset": 427708,
+   "uv_offset": 427644,
    "vertex_count": 8
   },
   {
    "area": 46.08,
    "chunk": [
     2,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -14297,25 +15676,26 @@
    "free": "metal:metal",
    "generic": "metal",
    "index_count": 36,
-   "index_offset": 429272,
+   "index_offset": 428460,
    "lightmap_page": 0,
    "material": "metal/metalwall032f",
    "model": 0,
-   "normal_offset": 428824,
-   "position_offset": 428632,
+   "normal_offset": 428012,
+   "position_offset": 427820,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 429144,
-   "uv_offset": 429016,
+   "uv2_offset": 428332,
+   "uv_offset": 428204,
    "vertex_count": 16
   },
   {
    "area": 0.06,
    "chunk": [
     2,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -14330,25 +15710,26 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 18,
-   "index_offset": 429896,
+   "index_offset": 429084,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 429560,
-   "position_offset": 429416,
+   "normal_offset": 428748,
+   "position_offset": 428604,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 429800,
-   "uv_offset": 429704,
+   "uv2_offset": 428988,
+   "uv_offset": 428892,
    "vertex_count": 12
   },
   {
    "area": 0.52,
    "chunk": [
     2,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -14364,25 +15745,26 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 30,
-   "index_offset": 430768,
+   "index_offset": 429956,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 430208,
-   "position_offset": 429968,
+   "normal_offset": 429396,
+   "position_offset": 429156,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 430608,
-   "uv_offset": 430448,
+   "uv2_offset": 429796,
+   "uv_offset": 429636,
    "vertex_count": 20
   },
   {
    "area": 0.19,
    "chunk": [
     2,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -14397,30 +15779,30 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 24,
-   "index_offset": 431448,
+   "index_offset": 430636,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 431056,
-   "position_offset": 430888,
+   "normal_offset": 430244,
+   "position_offset": 430076,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 431336,
-   "uv_offset": 431224,
+   "uv2_offset": 430524,
+   "uv_offset": 430412,
    "vertex_count": 14
   },
   {
-   "area": 104.05,
+   "area": 127.27,
    "chunk": [
     2,
-    0
+    -1,
+    1
    ],
    "classname": "worldspawn",
    "clusters": [
-    130,
-    131
+    6
    ],
    "colour": [
     0.3959,
@@ -14431,25 +15813,26 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 33,
-   "index_offset": 432304,
+   "index_offset": 431412,
    "lightmap_page": 0,
    "material": "concrete/concretefloor027a",
    "model": 0,
-   "normal_offset": 431772,
-   "position_offset": 431544,
+   "normal_offset": 430936,
+   "position_offset": 430732,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 432152,
-   "uv_offset": 432000,
-   "vertex_count": 19
+   "uv2_offset": 431276,
+   "uv_offset": 431140,
+   "vertex_count": 17
   },
   {
    "area": 1.44,
    "chunk": [
     2,
-    0
+    0,
+    -1
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -14467,60 +15850,26 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 12,
-   "index_offset": 432756,
+   "index_offset": 431864,
    "lightmap_page": 0,
    "material": "concrete/concretefloor028c_c17",
    "model": 0,
-   "normal_offset": 432532,
-   "position_offset": 432436,
+   "normal_offset": 431640,
+   "position_offset": 431544,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 432692,
-   "uv_offset": 432628,
+   "uv2_offset": 431800,
+   "uv_offset": 431736,
    "vertex_count": 8
   },
   {
    "area": 23.04,
    "chunk": [
     2,
-    0
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    129,
-    130,
-    131
-   ],
-   "colour": [
-    0.4526,
-    0.4371,
-    0.4222
-   ],
-   "entity": null,
-   "free": "concrete:concrete",
-   "generic": "concrete",
-   "index_count": 21,
-   "index_offset": 433164,
-   "lightmap_page": 0,
-   "material": "concrete/concretefloor028c_c17",
-   "model": 0,
-   "normal_offset": 432912,
-   "position_offset": 432804,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 433092,
-   "uv_offset": 433020,
-   "vertex_count": 9
-  },
-  {
-   "area": 23.04,
-   "chunk": [
-    2,
-    0
+    0,
+    -1
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -14538,24 +15887,25 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 12,
-   "index_offset": 433568,
+   "index_offset": 432232,
    "lightmap_page": 0,
    "material": "concrete/concretefloor033k",
    "model": 0,
-   "normal_offset": 433344,
-   "position_offset": 433248,
+   "normal_offset": 432008,
+   "position_offset": 431912,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 433504,
-   "uv_offset": 433440,
+   "uv2_offset": 432168,
+   "uv_offset": 432104,
    "vertex_count": 8
   },
   {
-   "area": 107.02,
+   "area": 2.97,
    "chunk": [
     2,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -14564,32 +15914,69 @@
     131
    ],
    "colour": [
-    0.6383,
-    0.6271,
-    0.5977
+    0.3959,
+    0.3792,
+    0.3454
    ],
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 12,
-   "index_offset": 433936,
+   "index_count": 9,
+   "index_offset": 432480,
    "lightmap_page": 0,
-   "material": "concrete/concretewall026f",
+   "material": "concrete/concretefloor027a",
    "model": 0,
-   "normal_offset": 433712,
-   "position_offset": 433616,
+   "normal_offset": 432340,
+   "position_offset": 432280,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 433872,
-   "uv_offset": 433808,
-   "vertex_count": 8
+   "uv2_offset": 432440,
+   "uv_offset": 432400,
+   "vertex_count": 5
   },
   {
-   "area": 77.3,
+   "area": 23.04,
    "chunk": [
     2,
+    0,
+    0
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    129,
+    130,
+    131
+   ],
+   "colour": [
+    0.4526,
+    0.4371,
+    0.4222
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 21,
+   "index_offset": 432876,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor028c_c17",
+   "model": 0,
+   "normal_offset": 432624,
+   "position_offset": 432516,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 432804,
+   "uv_offset": 432732,
+   "vertex_count": 9
+  },
+  {
+   "area": 41.62,
+   "chunk": [
+    2,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -14605,25 +15992,26 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 54,
-   "index_offset": 435104,
+   "index_count": 36,
+   "index_offset": 433600,
    "lightmap_page": 0,
    "material": "concrete/concretewall026i",
    "model": 0,
-   "normal_offset": 434320,
-   "position_offset": 433984,
+   "normal_offset": 433152,
+   "position_offset": 432960,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 434880,
-   "uv_offset": 434656,
-   "vertex_count": 28
+   "uv2_offset": 433472,
+   "uv_offset": 433344,
+   "vertex_count": 16
   },
   {
    "area": 0.06,
    "chunk": [
     2,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -14640,24 +16028,25 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 18,
-   "index_offset": 435800,
+   "index_offset": 434224,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 435464,
-   "position_offset": 435320,
+   "normal_offset": 433888,
+   "position_offset": 433744,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 435704,
-   "uv_offset": 435608,
+   "uv2_offset": 434128,
+   "uv_offset": 434032,
    "vertex_count": 12
   },
   {
    "area": 0.71,
    "chunk": [
     2,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -14674,30 +16063,135 @@
    "free": "wood_floor:wood_floor",
    "generic": "wood_floor",
    "index_count": 54,
-   "index_offset": 437232,
+   "index_offset": 435656,
    "lightmap_page": 0,
    "material": "wood/woodfloor007a_c17",
    "model": 0,
-   "normal_offset": 436280,
+   "normal_offset": 434704,
+   "position_offset": 434296,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 435384,
+   "uv_offset": 435112,
+   "vertex_count": 34
+  },
+  {
+   "area": 101.08,
+   "chunk": [
+    2,
+    0,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    130,
+    131
+   ],
+   "colour": [
+    0.3959,
+    0.3792,
+    0.3454
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 24,
+   "index_offset": 436432,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor027a",
+   "model": 0,
+   "normal_offset": 436040,
    "position_offset": 435872,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 436960,
-   "uv_offset": 436688,
-   "vertex_count": 34
+   "uv2_offset": 436320,
+   "uv_offset": 436208,
+   "vertex_count": 14
   },
   {
-   "area": 1.53,
+   "area": 107.02,
+   "chunk": [
+    2,
+    0,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    130,
+    131
+   ],
+   "colour": [
+    0.6383,
+    0.6271,
+    0.5977
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 12,
+   "index_offset": 436848,
+   "lightmap_page": 0,
+   "material": "concrete/concretewall026f",
+   "model": 0,
+   "normal_offset": 436624,
+   "position_offset": 436528,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 436784,
+   "uv_offset": 436720,
+   "vertex_count": 8
+  },
+  {
+   "area": 35.67,
+   "chunk": [
+    2,
+    0,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    130,
+    131
+   ],
+   "colour": [
+    0.7042,
+    0.6958,
+    0.6682
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 18,
+   "index_offset": 437376,
+   "lightmap_page": 0,
+   "material": "concrete/concretewall026i",
+   "model": 0,
+   "normal_offset": 437040,
+   "position_offset": 436896,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 437280,
+   "uv_offset": 437184,
+   "vertex_count": 12
+  },
+  {
+   "area": 0.05,
    "chunk": [
     3,
+    -1,
     -1
    ],
    "classname": "worldspawn",
    "clusters": [
     6,
-    7,
     8
    ],
    "colour": [
@@ -14708,25 +16202,26 @@
    "entity": null,
    "free": "concrete:concrete",
    "generic": "concrete",
-   "index_count": 12,
-   "index_offset": 437768,
+   "index_count": 6,
+   "index_offset": 437608,
    "lightmap_page": 0,
    "material": "concrete/concretefloor028c_c17",
    "model": 0,
-   "normal_offset": 437544,
+   "normal_offset": 437496,
    "position_offset": 437448,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 437704,
-   "uv_offset": 437640,
-   "vertex_count": 8
+   "uv2_offset": 437576,
+   "uv_offset": 437544,
+   "vertex_count": 4
   },
   {
    "area": 0.74,
    "chunk": [
     3,
+    -1,
     -1
    ],
    "classname": "worldspawn",
@@ -14743,24 +16238,25 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 6,
-   "index_offset": 437976,
+   "index_offset": 437792,
    "lightmap_page": 0,
    "material": "concrete/concretefloor028c_c17",
    "model": 0,
-   "normal_offset": 437864,
-   "position_offset": 437816,
+   "normal_offset": 437680,
+   "position_offset": 437632,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 437944,
-   "uv_offset": 437912,
+   "uv2_offset": 437760,
+   "uv_offset": 437728,
    "vertex_count": 4
   },
   {
    "area": 2.23,
    "chunk": [
     3,
+    -1,
     -1
    ],
    "classname": "worldspawn",
@@ -14777,9 +16273,45 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 6,
-   "index_offset": 438160,
+   "index_offset": 437976,
    "lightmap_page": 0,
    "material": "concrete/concretefloor033k",
+   "model": 0,
+   "normal_offset": 437864,
+   "position_offset": 437816,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 437944,
+   "uv_offset": 437912,
+   "vertex_count": 4
+  },
+  {
+   "area": 1.49,
+   "chunk": [
+    3,
+    -1,
+    0
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    6,
+    7,
+    8
+   ],
+   "colour": [
+    0.4526,
+    0.4371,
+    0.4222
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 6,
+   "index_offset": 438160,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor028c_c17",
    "model": 0,
    "normal_offset": 438048,
    "position_offset": 438000,
@@ -14795,7 +16327,8 @@
    "area": 0.05,
    "chunk": [
     3,
-    0
+    0,
+    -1
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -14826,9 +16359,45 @@
    "vertex_count": 4
   },
   {
+   "area": 0.74,
+   "chunk": [
+    3,
+    0,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    8,
+    129
+   ],
+   "colour": [
+    0.3982,
+    0.3772,
+    0.3657
+   ],
+   "entity": null,
+   "free": "concrete:concrete",
+   "generic": "concrete",
+   "index_count": 6,
+   "index_offset": 438528,
+   "lightmap_page": 0,
+   "material": "concrete/concretefloor033k",
+   "model": 0,
+   "normal_offset": 438416,
+   "position_offset": 438368,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 438496,
+   "uv_offset": 438464,
+   "vertex_count": 4
+  },
+  {
    "area": 1.49,
    "chunk": [
     3,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -14846,43 +16415,9 @@
    "free": "concrete:concrete",
    "generic": "concrete",
    "index_count": 6,
-   "index_offset": 438528,
-   "lightmap_page": 0,
-   "material": "concrete/concretefloor028c_c17",
-   "model": 0,
-   "normal_offset": 438416,
-   "position_offset": 438368,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 438496,
-   "uv_offset": 438464,
-   "vertex_count": 4
-  },
-  {
-   "area": 0.74,
-   "chunk": [
-    3,
-    0
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    8,
-    129
-   ],
-   "colour": [
-    0.3982,
-    0.3772,
-    0.3657
-   ],
-   "entity": null,
-   "free": "concrete:concrete",
-   "generic": "concrete",
-   "index_count": 6,
    "index_offset": 438712,
    "lightmap_page": 0,
-   "material": "concrete/concretefloor033k",
+   "material": "concrete/concretefloor028c_c17",
    "model": 0,
    "normal_offset": 438600,
    "position_offset": 438552,

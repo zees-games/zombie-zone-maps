@@ -13,7 +13,7 @@
    "url": "https://polyhaven.com/a/jolcham_oak_bark_01",
    "source": "polyhaven",
    "attribution": false,
-   "uses": 16
+   "uses": 31
   },
   {
    "kind": "texture",
@@ -23,7 +23,7 @@
    "url": "https://ambientcg.com/view?id=Metal046B",
    "source": "ambientCG",
    "attribution": false,
-   "uses": 12
+   "uses": 14
   },
   {
    "kind": "texture",
@@ -33,7 +33,7 @@
    "url": "https://polyhaven.com/a/white_rough_plaster",
    "source": "polyhaven",
    "attribution": false,
-   "uses": 8
+   "uses": 11
   },
   {
    "kind": "texture",
@@ -43,7 +43,7 @@
    "url": "https://polyhaven.com/a/granite_tile",
    "source": "polyhaven",
    "attribution": false,
-   "uses": 7
+   "uses": 19
   },
   {
    "kind": "texture",
@@ -53,7 +53,47 @@
    "url": "https://polyhaven.com/a/slate_floor_03",
    "source": "polyhaven",
    "attribution": false,
-   "uses": 2
+   "uses": 4
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_mocha_oak_veneer",
+   "author": "Jenelle van Heerden",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/mocha_oak_veneer",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 7
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_PaintedPlaster008",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=PaintedPlaster008",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 6
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Facade020C",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Facade020C",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 4
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Wood033",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Wood033",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 11
   },
   {
    "kind": "texture",
@@ -67,100 +107,10 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_mocha_oak_veneer",
-   "author": "Jenelle van Heerden",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/mocha_oak_veneer",
-   "source": "polyhaven",
-   "attribution": false,
-   "uses": 3
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_PaintedPlaster008",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=PaintedPlaster008",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 2
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_Facade020C",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Facade020C",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 2
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_Wood033",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Wood033",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 4
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_Fabric079",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Fabric079",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 4
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_Concrete013",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Concrete013",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 2
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_Concrete042B",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Concrete042B",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 3
-  },
-  {
-   "kind": "texture",
    "name": "pbr_Concrete017",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
    "url": "https://ambientcg.com/view?id=Concrete017",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 2
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_climbing_wall_base",
-   "author": "Dimitrios Savva",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/climbing_wall_base",
-   "source": "polyhaven",
-   "attribution": false,
-   "uses": 4
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_Concrete008",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Concrete008",
    "source": "ambientCG",
    "attribution": false,
    "uses": 2
@@ -173,17 +123,7 @@
    "url": "https://ambientcg.com/view?id=Concrete022",
    "source": "ambientCG",
    "attribution": false,
-   "uses": 5
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_Concrete035",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Concrete035",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 2
+   "uses": 7
   },
   {
    "kind": "texture",
@@ -193,57 +133,7 @@
    "url": "https://ambientcg.com/view?id=Rock060",
    "source": "ambientCG",
    "attribution": false,
-   "uses": 16
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_mud_forest",
-   "author": "eye-candy.xyz",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/mud_forest",
-   "source": "polyhaven",
-   "attribution": false,
-   "uses": 3
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_grey_plaster_02",
-   "author": "Rob Tuytel",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/grey_plaster_02",
-   "source": "polyhaven",
-   "attribution": false,
-   "uses": 2
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_Planks013",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Planks013",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 22
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_plastered_wall_02",
-   "author": "Charlotte Baglioni",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/plastered_wall_02",
-   "source": "polyhaven",
-   "attribution": false,
-   "uses": 4
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_volcanic_herringbone_01",
-   "author": "Charlotte Baglioni",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/volcanic_herringbone_01",
-   "source": "polyhaven",
-   "attribution": false,
-   "uses": 4
+   "uses": 26
   },
   {
    "kind": "texture",
@@ -253,27 +143,7 @@
    "url": "https://ambientcg.com/view?id=WoodFloor022",
    "source": "ambientCG",
    "attribution": false,
-   "uses": 22
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_rectangular_parquet",
-   "author": "Jenelle van Heerden, Sergej Majboroda",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/rectangular_parquet",
-   "source": "polyhaven",
-   "attribution": false,
-   "uses": 7
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_Metal037",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Metal037",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 3
+   "uses": 27
   },
   {
    "kind": "texture",
@@ -297,6 +167,46 @@
   },
   {
    "kind": "texture",
+   "name": "pbr_white_plaster_02",
+   "author": "Rob Tuytel",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/white_plaster_02",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 4
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_plaster_brick_pattern",
+   "author": "Amal Kumar",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/plaster_brick_pattern",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 3
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_long_white_tiles",
+   "author": "Jenelle van Heerden, Sergej Majboroda",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/long_white_tiles",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Plaster007",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Plaster007",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 10
+  },
+  {
+   "kind": "texture",
    "name": "pbr_MetalWalkway012",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
@@ -307,13 +217,153 @@
   },
   {
    "kind": "texture",
+   "name": "pbr_Fabric079",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Fabric079",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 8
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Concrete013",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Concrete013",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Concrete042B",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Concrete042B",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 4
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_climbing_wall_base",
+   "author": "Dimitrios Savva",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/climbing_wall_base",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 5
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Concrete008",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Concrete008",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Concrete035",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Concrete035",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_mud_forest",
+   "author": "eye-candy.xyz",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/mud_forest",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 4
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_grey_plaster_02",
+   "author": "Rob Tuytel",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/grey_plaster_02",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Planks013",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Planks013",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 23
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_plastered_wall_02",
+   "author": "Charlotte Baglioni",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/plastered_wall_02",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 10
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_volcanic_herringbone_01",
+   "author": "Charlotte Baglioni",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/volcanic_herringbone_01",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 6
+  },
+  {
+   "kind": "texture",
    "name": "pbr_Grass001",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
    "url": "https://ambientcg.com/view?id=Grass001",
    "source": "ambientCG",
    "attribution": false,
-   "uses": 8
+   "uses": 13
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Wood074",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Wood074",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 6
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_rectangular_parquet",
+   "author": "Jenelle van Heerden, Sergej Majboroda",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/rectangular_parquet",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 7
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Metal037",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Metal037",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 4
   },
   {
    "kind": "texture",
@@ -324,16 +374,6 @@
    "source": "ambientCG",
    "attribution": false,
    "uses": 4
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_Plaster007",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Plaster007",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 6
   },
   {
    "kind": "texture",
@@ -353,17 +393,7 @@
    "url": "https://ambientcg.com/view?id=Granite002A",
    "source": "ambientCG",
    "attribution": false,
-   "uses": 8
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_Wood074",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Wood074",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 3
+   "uses": 13
   },
   {
    "kind": "texture",
@@ -373,7 +403,7 @@
    "url": "https://ambientcg.com/view?id=Wood029",
    "source": "ambientCG",
    "attribution": false,
-   "uses": 50
+   "uses": 55
   },
   {
    "kind": "texture",
@@ -383,7 +413,7 @@
    "url": "https://polyhaven.com/a/white_planks_clean",
    "source": "polyhaven",
    "attribution": false,
-   "uses": 17
+   "uses": 18
   },
   {
    "kind": "texture",
@@ -403,7 +433,7 @@
    "url": "https://polyhaven.com/a/dark_planks",
    "source": "polyhaven",
    "attribution": false,
-   "uses": 34
+   "uses": 40
   },
   {
    "kind": "texture",
@@ -413,87 +443,7 @@
    "url": "https://polyhaven.com/a/stone_wall_04",
    "source": "polyhaven",
    "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_Fabric053",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Fabric053",
-   "source": "ambientCG",
-   "attribution": false,
    "uses": 2
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_green_metal_rust",
-   "author": "Rob Tuytel",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/green_metal_rust",
-   "source": "polyhaven",
-   "attribution": false,
-   "uses": 3
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_Metal027",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Metal027",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_white_plaster_02",
-   "author": "Rob Tuytel",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/white_plaster_02",
-   "source": "polyhaven",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_plaster_brick_pattern",
-   "author": "Amal Kumar",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/plaster_brick_pattern",
-   "source": "polyhaven",
-   "attribution": false,
-   "uses": 2
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_long_white_tiles",
-   "author": "Jenelle van Heerden, Sergej Majboroda",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/long_white_tiles",
-   "source": "polyhaven",
-   "attribution": false,
-   "uses": 2
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_wood_inlaid_stone_wall",
-   "author": "Amal Kumar",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/wood_inlaid_stone_wall",
-   "source": "polyhaven",
-   "attribution": false,
-   "uses": 4
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_Wood085B",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Wood085B",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 13
   },
   {
    "kind": "texture",
@@ -507,13 +457,63 @@
   },
   {
    "kind": "texture",
+   "name": "pbr_Fabric053",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Fabric053",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Wood085B",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Wood085B",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 14
+  },
+  {
+   "kind": "texture",
    "name": "pbr_Planks002",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
    "url": "https://ambientcg.com/view?id=Planks002",
    "source": "ambientCG",
    "attribution": false,
+   "uses": 4
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_green_metal_rust",
+   "author": "Rob Tuytel",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/green_metal_rust",
+   "source": "polyhaven",
+   "attribution": false,
    "uses": 3
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_wood_inlaid_stone_wall",
+   "author": "Amal Kumar",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/wood_inlaid_stone_wall",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 8
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Metal027",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Metal027",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 1
   },
   {
    "kind": "texture",
@@ -524,6 +524,36 @@
    "source": "polyhaven",
    "attribution": false,
    "uses": 2
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Tiles141",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Tiles141",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_square_tiles_03",
+   "author": "Charlotte Baglioni",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/square_tiles_03",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Tiles038",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Tiles038",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 4
   },
   {
    "kind": "texture",
@@ -553,7 +583,7 @@
    "url": "https://polyhaven.com/a/preconcrete_wall_001",
    "source": "polyhaven",
    "attribution": false,
-   "uses": 4
+   "uses": 7
   },
   {
    "kind": "texture",
@@ -561,16 +591,6 @@
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
    "url": "https://ambientcg.com/view?id=Facade015",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 2
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_Tiles141",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Tiles141",
    "source": "ambientCG",
    "attribution": false,
    "uses": 2
@@ -623,15 +643,25 @@
    "url": "https://ambientcg.com/view?id=Metal022",
    "source": "ambientCG",
    "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_climbing_wall",
+   "author": "Dimitrios Savva",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/climbing_wall",
+   "source": "polyhaven",
+   "attribution": false,
    "uses": 1
   },
   {
    "kind": "texture",
-   "name": "pbr_square_tiles_03",
-   "author": "Charlotte Baglioni",
+   "name": "pbr_PaintedPlaster007",
+   "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/square_tiles_03",
-   "source": "polyhaven",
+   "url": "https://ambientcg.com/view?id=PaintedPlaster007",
+   "source": "ambientCG",
    "attribution": false,
    "uses": 1
   },
@@ -644,16 +674,6 @@
    "source": "ambientCG",
    "attribution": false,
    "uses": 1
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_Tiles038",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Tiles038",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 3
   },
   {
    "kind": "texture",
@@ -673,7 +693,7 @@
    "url": "https://ambientcg.com/view?id=Concrete025",
    "source": "ambientCG",
    "attribution": false,
-   "uses": 4
+   "uses": 8
   },
   {
    "kind": "texture",
@@ -681,26 +701,6 @@
    "author": "Rob Tuytel",
    "licence": "CC0-1.0",
    "url": "https://polyhaven.com/a/medieval_wall_01",
-   "source": "polyhaven",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_PaintedPlaster007",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=PaintedPlaster007",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_climbing_wall",
-   "author": "Dimitrios Savva",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/climbing_wall",
    "source": "polyhaven",
    "attribution": false,
    "uses": 1
@@ -717,6 +717,16 @@
   },
   {
    "kind": "texture",
+   "name": "pbr_marble_cliff_02",
+   "author": "Amal Kumar",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/marble_cliff_02",
+   "source": "polyhaven",
+   "attribution": false,
+   "uses": 4
+  },
+  {
+   "kind": "texture",
    "name": "pbr_MetalPlates016B",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
@@ -727,13 +737,13 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_marble_cliff_02",
-   "author": "Amal Kumar",
+   "name": "pbr_cobblestone_pavement",
+   "author": "Charlotte Baglioni",
    "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/marble_cliff_02",
+   "url": "https://polyhaven.com/a/cobblestone_pavement",
    "source": "polyhaven",
    "attribution": false,
-   "uses": 2
+   "uses": 1
   },
   {
    "kind": "texture",
@@ -742,16 +752,6 @@
    "licence": "CC0-1.0",
    "url": "https://ambientcg.com/view?id=Metal047B",
    "source": "ambientCG",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_cobblestone_pavement",
-   "author": "Charlotte Baglioni",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/cobblestone_pavement",
-   "source": "polyhaven",
    "attribution": false,
    "uses": 1
   },

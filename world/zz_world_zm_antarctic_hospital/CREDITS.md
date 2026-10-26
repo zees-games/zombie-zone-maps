@@ -16,7 +16,6 @@ Every texture of this map is a free replacement; the original map's textures and
 - pbr (pbr_rough_plaster_brick): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/rough_plaster_brick
 - pbr (pbr_white_rough_plaster): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/white_rough_plaster
 - pbr (pbr_Plaster007): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Plaster007
-- pbr (pbr_Facade002): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Facade002
 - pbr (pbr_PaintedPlaster011): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=PaintedPlaster011
 - pbr (pbr_plastered_wall_02): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/plastered_wall_02
 - pbr (pbr_exterior_wall_cladding_03): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/exterior_wall_cladding_03
@@ -29,15 +28,16 @@ Every texture of this map is a free replacement; the original map's textures and
 - pbr (pbr_Tiles079): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Tiles079
 - pbr (pbr_WoodFloor035): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=WoodFloor035
 - pbr (pbr_WoodFloor041): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=WoodFloor041
+- pbr (pbr_Facade002): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Facade002
 - generated (bars): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
-- pbr (pbr_Concrete013): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Concrete013
 - pbr (pbr_concrete_block_wall): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/concrete_block_wall
-- pbr (pbr_Concrete042B): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Concrete042B
 - pbr (pbr_coral_fort_wall_01): polyhaven, Dimitrios Savva, Rico Cilliers, CC0-1.0, https://polyhaven.com/a/coral_fort_wall_01
 - pbr (pbr_beige_wall_001): polyhaven, Dimitrios Savva, Rico Cilliers, CC0-1.0, https://polyhaven.com/a/beige_wall_001
 - pbr (pbr_beige_wall_002): polyhaven, Dimitrios Savva, Rico Cilliers, CC0-1.0, https://polyhaven.com/a/beige_wall_002
 - pbr (pbr_grey_plaster_02): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/grey_plaster_02
 - pbr (pbr_Tiles038): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Tiles038
+- pbr (pbr_Concrete013): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Concrete013
+- pbr (pbr_Concrete042B): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Concrete042B
 - pbr (pbr_Asphalt003): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Asphalt003
 - pbr (pbr_DiamondPlate006B): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=DiamondPlate006B
 - pbr (pbr_WoodFloor022): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=WoodFloor022

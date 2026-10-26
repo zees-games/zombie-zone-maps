@@ -12607,39 +12607,75 @@
    "id": "gamemann/store-zz_world_zs_lens",
    "shared": [
     {
-     "id": "gamemann/store-shared-01be9a11",
-     "version": "hdb9cf6f7"
+     "id": "gamemann/store-shared-032d4124",
+     "version": "hc3885410"
     },
     {
-     "id": "gamemann/store-shared-0547fa30",
-     "version": "h0282725d"
+     "id": "gamemann/store-shared-0a281510",
+     "version": "h8d187477"
     },
     {
-     "id": "gamemann/store-shared-06fbb51c",
-     "version": "h4f5965ff"
+     "id": "gamemann/store-shared-0c8bdfe9",
+     "version": "h8cafaef1"
     },
     {
-     "id": "gamemann/store-shared-3d0d1348",
-     "version": "h0fc35d6f"
+     "id": "gamemann/store-shared-11c05325",
+     "version": "h3c8d82c7"
     },
     {
-     "id": "gamemann/store-shared-ad15edae",
-     "version": "hb5947b11"
+     "id": "gamemann/store-shared-295221a6",
+     "version": "h07fc15aa"
     },
     {
-     "id": "gamemann/store-shared-d918939c",
-     "version": "h9346ca4d"
+     "id": "gamemann/store-shared-51f622ba",
+     "version": "hfbe6e374"
     },
     {
-     "id": "gamemann/store-shared-f779bc2a",
-     "version": "h64aec1e4"
+     "id": "gamemann/store-shared-6648a6d9",
+     "version": "hc26cca93"
     },
     {
-     "id": "gamemann/store-shared-fc800641",
-     "version": "h5732d307"
+     "id": "gamemann/store-shared-67ce8f74",
+     "version": "h3237ab16"
+    },
+    {
+     "id": "gamemann/store-shared-6f53c063",
+     "version": "h70263d3e"
+    },
+    {
+     "id": "gamemann/store-shared-7cd5ef2a",
+     "version": "h54211258"
+    },
+    {
+     "id": "gamemann/store-shared-82e676c6",
+     "version": "ha08c019a"
+    },
+    {
+     "id": "gamemann/store-shared-8f413bd1",
+     "version": "hef0db892"
+    },
+    {
+     "id": "gamemann/store-shared-d2a147a2",
+     "version": "h02762953"
+    },
+    {
+     "id": "gamemann/store-shared-dbeda0cd",
+     "version": "h00f943e6"
+    },
+    {
+     "id": "gamemann/store-shared-df56cff2",
+     "version": "ha02c8a01"
+    },
+    {
+     "id": "gamemann/store-shared-e6a16335",
+     "version": "ha05665a9"
+    },
+    {
+     "id": "gamemann/store-shared-f7db15ea",
+     "version": "h2667d50a"
     }
    ],
-   "version": "h2e5d9c22"
+   "version": "hb3b11efc"
   },
   "textures": [
    {
@@ -14241,6 +14277,19 @@
     0.0049,
     -8.6037
    ],
+   "bounds": {
+    "at": [
+     -5.164,
+     0.3622,
+     -8.6037
+    ],
+    "box": [
+     0.616,
+     0.715,
+     1.093
+    ],
+    "yaw": 188.5
+   },
    "model": "models/props_c17/furniturecouch002a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14255,6 +14304,19 @@
     0.8116,
     -4.8006
    ],
+   "bounds": {
+    "at": [
+     1.124,
+     0.8763,
+     -4.8006
+    ],
+    "box": [
+     0.069,
+     0.129,
+     0.073
+    ],
+    "yaw": 119.5
+   },
    "model": "models/props_junk/popcan01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14269,6 +14331,19 @@
     0.7908,
     2.0383
    ],
+   "bounds": {
+    "at": [
+     1.7145,
+     0.9144,
+     2.0383
+    ],
+    "box": [
+     0.069,
+     0.247,
+     0.065
+    ],
+    "yaw": 129.5
+   },
    "model": "models/props_junk/glassbottle01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14283,6 +14358,19 @@
     -2.5695,
     -5.4102
    ],
+   "bounds": {
+    "at": [
+     1.1811,
+     -2.286,
+     -5.4102
+    ],
+    "box": [
+     0.154,
+     0.567,
+     0.372
+    ],
+    "yaw": 157.0
+   },
    "model": "models/props_junk/metalgascan.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14297,6 +14385,19 @@
     -3.0904,
     -3.5955
    ],
+   "bounds": {
+    "at": [
+     -12.8323,
+     -2.56,
+     -3.5955
+    ],
+    "box": [
+     0.178,
+     1.061,
+     0.614
+    ],
+    "yaw": 98.14
+   },
    "model": "models/props_interiors/refrigeratordoor01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14311,6 +14412,19 @@
     -3.0218,
     -2.5726
    ],
+   "bounds": {
+    "at": [
+     -12.5962,
+     -2.3068,
+     -2.5726
+    ],
+    "box": [
+     0.598,
+     1.43,
+     0.627
+    ],
+    "yaw": 152.14
+   },
    "model": "models/props_interiors/refrigerator01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14325,6 +14439,19 @@
     3.5488,
     -0.1905
    ],
+   "bounds": {
+    "at": [
+     -3.6957,
+     3.791,
+     -0.1905
+    ],
+    "box": [
+     0.135,
+     0.484,
+     0.135
+    ],
+    "yaw": 3.0
+   },
    "model": "models/props_junk/garbage_plasticbottle003a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14339,6 +14466,19 @@
     3.5915,
     -0.5143
    ],
+   "bounds": {
+    "at": [
+     -3.429,
+     3.7338,
+     -0.5143
+    ],
+    "box": [
+     0.347,
+     0.285,
+     0.495
+    ],
+    "yaw": 3.0
+   },
    "model": "models/props_junk/plasticcrate01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14353,6 +14493,19 @@
     3.5833,
     -0.6867
    ],
+   "bounds": {
+    "at": [
+     -3.982,
+     3.9065,
+     -0.6867
+    ],
+    "box": [
+     0.388,
+     0.646,
+     0.374
+    ],
+    "yaw": 256.5
+   },
    "model": "models/props_c17/furniturechair001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14367,6 +14520,19 @@
     -2.3829,
     -2.0571
    ],
+   "bounds": {
+    "at": [
+     18.4228,
+     -2.0003,
+     -2.0571
+    ],
+    "box": [
+     0.77,
+     0.765,
+     1.292
+    ],
+    "yaw": 347.5
+   },
    "model": "models/props_junk/wood_crate002a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14451,6 +14617,19 @@
     0.375,
     -7.4502
    ],
+   "bounds": {
+    "at": [
+     -5.0327,
+     0.4728,
+     -7.4502
+    ],
+    "box": [
+     0.344,
+     0.196,
+     0.25
+    ],
+    "yaw": -179.68
+   },
    "model": "models/props_junk/garbage_bag001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14465,6 +14644,19 @@
     0.0113,
     -5.1054
    ],
+   "bounds": {
+    "at": [
+     -7.6962,
+     0.6477,
+     -5.1054
+    ],
+    "box": [
+     0.351,
+     1.273,
+     0.345
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props_interiors/furniture_lamp01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14479,6 +14671,19 @@
     0.0113,
     -1.4478
    ],
+   "bounds": {
+    "at": [
+     1.7526,
+     0.6477,
+     -1.4478
+    ],
+    "box": [
+     0.351,
+     1.273,
+     0.345
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props_interiors/furniture_lamp01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14493,6 +14698,19 @@
     0.0229,
     1.8157
    ],
+   "bounds": {
+    "at": [
+     1.8493,
+     0.4001,
+     1.8157
+    ],
+    "box": [
+     0.561,
+     0.754,
+     0.885
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props_c17/furnituredrawer001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14521,6 +14739,19 @@
     0.021,
     -4.2475
    ],
+   "bounds": {
+    "at": [
+     -5.2396,
+     0.3442,
+     -4.2476
+    ],
+    "box": [
+     0.388,
+     0.646,
+     0.374
+    ],
+    "yaw": 348.0
+   },
    "model": "models/props_c17/furniturechair001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14591,6 +14822,19 @@
     0.5934,
     -0.9716
    ],
+   "bounds": {
+    "at": [
+     -7.4486,
+     0.8763,
+     -0.9716
+    ],
+    "box": [
+     1.696,
+     0.566,
+     0.737
+    ],
+    "yaw": 201.5
+   },
    "model": "models/props_wasteland/prison_bedframe001b.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14619,6 +14863,19 @@
     0.0254,
     4.2862
    ],
+   "bounds": {
+    "at": [
+     1.2192,
+     0.2286,
+     4.2862
+    ],
+    "box": [
+     0.182,
+     0.406,
+     0.188
+    ],
+    "yaw": 153.5
+   },
    "model": "models/props_junk/garbage_plasticbottle001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14633,6 +14890,19 @@
     1.8852,
     3.9815
    ],
+   "bounds": {
+    "at": [
+     1.2383,
+     1.9622,
+     3.9815
+    ],
+    "box": [
+     0.226,
+     0.154,
+     0.204
+    ],
+    "yaw": 356.0
+   },
    "model": "models/props_junk/cardboard_box004a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14661,6 +14931,19 @@
     0.9621,
     1.6006
    ],
+   "bounds": {
+    "at": [
+     1.2762,
+     1.124,
+     1.6006
+    ],
+    "box": [
+     0.134,
+     0.324,
+     0.145
+    ],
+    "yaw": 248.5
+   },
    "model": "models/props_junk/garbage_glassbottle002a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14675,6 +14958,19 @@
     0.0185,
     -10.0584
    ],
+   "bounds": {
+    "at": [
+     -3.048,
+     0.1715,
+     -10.0584
+    ],
+    "box": [
+     0.336,
+     0.306,
+     0.316
+    ],
+    "yaw": 270.0
+   },
    "model": "models/props_junk/metalbucket01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14689,6 +14985,19 @@
     -3.6481,
     -14.3589
    ],
+   "bounds": {
+    "at": [
+     -20.5036,
+     -3.4934,
+     -14.3589
+    ],
+    "box": [
+     0.118,
+     0.309,
+     0.12
+    ],
+    "yaw": 263.5
+   },
    "model": "models/props_c17/doll01.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14703,6 +15012,19 @@
     -2.418,
     -10.4966
    ],
+   "bounds": {
+    "at": [
+     -16.0211,
+     -2.3432,
+     -10.4966
+    ],
+    "box": [
+     1.239,
+     0.15,
+     1.432
+    ],
+    "yaw": 64.0
+   },
    "model": "models/props_junk/wood_pallet001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14717,6 +15039,19 @@
     -2.5654,
     -4.8006
    ],
+   "bounds": {
+    "at": [
+     4.553,
+     -2.3622,
+     -4.8006
+    ],
+    "box": [
+     0.182,
+     0.406,
+     0.188
+    ],
+    "yaw": 160.0
+   },
    "model": "models/props_junk/garbage_plasticbottle001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14745,6 +15080,19 @@
     -2.5854,
     -4.934
    ],
+   "bounds": {
+    "at": [
+     1.7526,
+     -1.762,
+     -4.934
+    ],
+    "box": [
+     0.318,
+     1.647,
+     0.871
+    ],
+    "yaw": 3.0
+   },
    "model": "models/props_c17/furnitureshelf001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14759,6 +15107,19 @@
     -2.5543,
     -3.9244
    ],
+   "bounds": {
+    "at": [
+     0.8206,
+     -2.1717,
+     -3.9244
+    ],
+    "box": [
+     0.77,
+     0.765,
+     1.292
+    ],
+    "yaw": 3.0
+   },
    "model": "models/props_junk/wood_crate002a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14773,6 +15134,19 @@
     -2.5854,
     -4.934
    ],
+   "bounds": {
+    "at": [
+     0.9335,
+     -2.1568,
+     -4.934
+    ],
+    "box": [
+     0.552,
+     0.857,
+     0.552
+    ],
+    "yaw": 43.0
+   },
    "model": "models/props_c17/oildrum001.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14787,6 +15161,19 @@
     -3.9523,
     -14.1923
    ],
+   "bounds": {
+    "at": [
+     -20.6312,
+     -3.5433,
+     -14.1923
+    ],
+    "box": [
+     1.048,
+     0.818,
+     0.608
+    ],
+    "yaw": 43.0
+   },
    "model": "models/props_wasteland/laundry_cart002.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14801,6 +15188,19 @@
     -2.5616,
     -3.8291
    ],
+   "bounds": {
+    "at": [
+     1.905,
+     -2.1526,
+     -3.8291
+    ],
+    "box": [
+     1.048,
+     0.818,
+     0.608
+    ],
+    "yaw": 93.0
+   },
    "model": "models/props_wasteland/laundry_cart002.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14815,6 +15215,19 @@
     -3.8612,
     -11.811
    ],
+   "bounds": {
+    "at": [
+     -21.0503,
+     -3.6474,
+     -11.811
+    ],
+    "box": [
+     0.191,
+     0.428,
+     0.203
+    ],
+    "yaw": 65.5
+   },
    "model": "models/props_junk/cinderblock01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14829,6 +15242,19 @@
     -3.8802,
     -11.6849
    ],
+   "bounds": {
+    "at": [
+     -20.7241,
+     -3.6664,
+     -11.6849
+    ],
+    "box": [
+     0.191,
+     0.428,
+     0.203
+    ],
+    "yaw": 91.5
+   },
    "model": "models/props_junk/cinderblock01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14843,6 +15269,19 @@
     -3.601,
     -14.1923
    ],
+   "bounds": {
+    "at": [
+     -18.7452,
+     -3.429,
+     -14.1923
+    ],
+    "box": [
+     0.077,
+     0.344,
+     0.16
+    ],
+    "yaw": 74.5
+   },
    "model": "models/props_junk/garbage_plasticbottle002a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14857,6 +15296,19 @@
     -3.429,
     -14.5923
    ],
+   "bounds": {
+    "at": [
+     -18.6881,
+     -3.0004,
+     -14.5923
+    ],
+    "box": [
+     0.552,
+     0.857,
+     0.552
+    ],
+    "yaw": 353.5
+   },
    "model": "models/props_c17/oildrum001.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14871,6 +15323,19 @@
     -2.286,
     13.4874
    ],
+   "bounds": {
+    "at": [
+     8.5534,
+     -1.8574,
+     13.4874
+    ],
+    "box": [
+     0.552,
+     0.857,
+     0.552
+    ],
+    "yaw": 98.5
+   },
    "model": "models/props_c17/oildrum001.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14913,6 +15378,19 @@
     -2.5355,
     -6.4258
    ],
+   "bounds": {
+    "at": [
+     -5.0254,
+     -2.3217,
+     -6.4258
+    ],
+    "box": [
+     0.191,
+     0.428,
+     0.203
+    ],
+    "yaw": 334.5
+   },
    "model": "models/props_junk/cinderblock01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14927,6 +15405,19 @@
     -2.5355,
     -6.7108
    ],
+   "bounds": {
+    "at": [
+     -4.9823,
+     -2.3217,
+     -6.7108
+    ],
+    "box": [
+     0.191,
+     0.428,
+     0.203
+    ],
+    "yaw": 352.0
+   },
    "model": "models/props_junk/cinderblock01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14955,6 +15446,19 @@
     -2.566,
     -9.2287
    ],
+   "bounds": {
+    "at": [
+     -6.0131,
+     -2.2449,
+     -9.2287
+    ],
+    "box": [
+     0.509,
+     0.642,
+     0.527
+    ],
+    "yaw": 345.0
+   },
    "model": "models/props_c17/trappropeller_engine.mdl",
    "scale": 1.0,
    "shape": true,
@@ -14983,6 +15487,19 @@
     0.0054,
     -3.9595
    ],
+   "bounds": {
+    "at": [
+     -4.9091,
+     0.3514,
+     -3.9595
+    ],
+    "box": [
+     0.755,
+     0.692,
+     1.289
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props_c17/furnituretable002a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15011,6 +15528,19 @@
     0.021,
     -2.8391
    ],
+   "bounds": {
+    "at": [
+     -3.4853,
+     0.3442,
+     -2.839
+    ],
+    "box": [
+     0.388,
+     0.646,
+     0.374
+    ],
+    "yaw": 166.0
+   },
    "model": "models/props_c17/furniturechair001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15025,6 +15555,19 @@
     0.6669,
     -2.8956
    ],
+   "bounds": {
+    "at": [
+     -4.0005,
+     0.8579,
+     -2.8956
+    ],
+    "box": [
+     0.087,
+     0.382,
+     0.309
+    ],
+    "yaw": 178.0
+   },
    "model": "models/props/cs_office/radio.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15039,6 +15582,19 @@
     -1.7944,
     3.2004
    ],
+   "bounds": {
+    "at": [
+     -0.5524,
+     -1.5806,
+     3.2004
+    ],
+    "box": [
+     0.191,
+     0.428,
+     0.203
+    ],
+    "yaw": 86.0
+   },
    "model": "models/props_junk/cinderblock01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15053,6 +15609,19 @@
     -1.9049,
     -9.2964
    ],
+   "bounds": {
+    "at": [
+     -7.6962,
+     -1.7138,
+     -9.2964
+    ],
+    "box": [
+     0.087,
+     0.382,
+     0.309
+    ],
+    "yaw": 112.5
+   },
    "model": "models/props/cs_office/radio.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15067,6 +15636,19 @@
     -1.9277,
     3.2195
    ],
+   "bounds": {
+    "at": [
+     -0.9906,
+     -1.7139,
+     3.2195
+    ],
+    "box": [
+     0.191,
+     0.428,
+     0.203
+    ],
+    "yaw": 0.5
+   },
    "model": "models/props_junk/cinderblock01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15081,6 +15663,19 @@
     -2.2629,
     15.1257
    ],
+   "bounds": {
+    "at": [
+     10.5347,
+     -1.9416,
+     15.1257
+    ],
+    "box": [
+     0.412,
+     0.643,
+     0.392
+    ],
+    "yaw": 237.5
+   },
    "model": "models/props_c17/chair_stool01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15109,6 +15704,19 @@
     0.7629,
     -4.2294
    ],
+   "bounds": {
+    "at": [
+     -4.9312,
+     0.8746,
+     -4.2294
+    ],
+    "box": [
+     0.21,
+     0.223,
+     0.059
+    ],
+    "yaw": 104.5
+   },
    "model": "models/props_lab/binderblue.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15123,6 +15731,19 @@
     0.5993,
     -9.9634
    ],
+   "bounds": {
+    "at": [
+     -6.3626,
+     0.7904,
+     -9.9634
+    ],
+    "box": [
+     0.087,
+     0.382,
+     0.309
+    ],
+    "yaw": 80.95
+   },
    "model": "models/props/cs_office/radio.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15137,6 +15758,19 @@
     -2.5658,
     46.9392
    ],
+   "bounds": {
+    "at": [
+     18.7452,
+     -2.4237,
+     46.9392
+    ],
+    "box": [
+     0.279,
+     0.284,
+     0.327
+    ],
+    "yaw": 90.0
+   },
    "model": "models/props_junk/watermelon01.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15151,6 +15785,19 @@
     1.1347,
     2.1717
    ],
+   "bounds": {
+    "at": [
+     1.1621,
+     1.2383,
+     2.1717
+    ],
+    "box": [
+     0.138,
+     0.207,
+     0.132
+    ],
+    "yaw": 238.0
+   },
    "model": "models/props_junk/garbage_takeoutcarton001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15165,6 +15812,19 @@
     1.4478,
     2.0574
    ],
+   "bounds": {
+    "at": [
+     1.1811,
+     1.6002,
+     2.0574
+    ],
+    "box": [
+     0.225,
+     0.305,
+     0.222
+    ],
+    "yaw": 238.0
+   },
    "model": "models/props_junk/garbage_milkcarton001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15291,6 +15951,19 @@
     0.021,
     -3.5441
    ],
+   "bounds": {
+    "at": [
+     -3.4854,
+     0.3442,
+     -3.544
+    ],
+    "box": [
+     0.388,
+     0.646,
+     0.374
+    ],
+    "yaw": 177.5
+   },
    "model": "models/props_c17/furniturechair001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15305,6 +15978,19 @@
     0.0376,
     4.3434
    ],
+   "bounds": {
+    "at": [
+     1.0287,
+     0.2096,
+     4.3434
+    ],
+    "box": [
+     0.077,
+     0.344,
+     0.16
+    ],
+    "yaw": 245.0
+   },
    "model": "models/props_junk/garbage_plasticbottle002a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15319,6 +16005,19 @@
     -0.5715,
     -0.6477
    ],
+   "bounds": {
+    "at": [
+     -10.0775,
+     0.0381,
+     -0.6477
+    ],
+    "box": [
+     0.038,
+     1.219,
+     0.152
+    ],
+    "yaw": 291.5
+   },
    "model": "models/props_debris/wood_board04a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15347,6 +16046,19 @@
     0.977,
     1.5907
    ],
+   "bounds": {
+    "at": [
+     -1.2738,
+     1.0283,
+     1.5908
+    ],
+    "box": [
+     0.095,
+     0.103,
+     0.135
+    ],
+    "yaw": 119.5
+   },
    "model": "models/props_junk/garbage_coffeemug001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15361,6 +16073,19 @@
     0.0422,
     1.124
    ],
+   "bounds": {
+    "at": [
+     -0.5906,
+     0.3635,
+     1.124
+    ],
+    "box": [
+     0.412,
+     0.643,
+     0.392
+    ],
+    "yaw": 119.5
+   },
    "model": "models/props_c17/chair_stool01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15375,6 +16100,19 @@
     0.0422,
     1.1811
    ],
+   "bounds": {
+    "at": [
+     0.4001,
+     0.3635,
+     1.1811
+    ],
+    "box": [
+     0.412,
+     0.643,
+     0.392
+    ],
+    "yaw": 87.5
+   },
    "model": "models/props_c17/chair_stool01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15487,6 +16225,19 @@
     0.7926,
     6.0579
    ],
+   "bounds": {
+    "at": [
+     -4.0386,
+     0.8573,
+     6.0579
+    ],
+    "box": [
+     0.069,
+     0.129,
+     0.073
+    ],
+    "yaw": 75.0
+   },
    "model": "models/props_junk/popcan01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15529,6 +16280,19 @@
     0.6205,
     -10.2851
    ],
+   "bounds": {
+    "at": [
+     -4.9584,
+     0.7241,
+     -10.2851
+    ],
+    "box": [
+     0.138,
+     0.207,
+     0.132
+    ],
+    "yaw": 199.0
+   },
    "model": "models/props_junk/garbage_takeoutcarton001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15557,6 +16321,19 @@
     0.6328,
     -10.2315
    ],
+   "bounds": {
+    "at": [
+     -5.7192,
+     0.7542,
+     -10.2315
+    ],
+    "box": [
+     0.068,
+     0.243,
+     0.071
+    ],
+    "yaw": -161.01
+   },
    "model": "models/props_junk/garbage_glassbottle003a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15571,6 +16348,19 @@
     0.6322,
     -10.1624
    ],
+   "bounds": {
+    "at": [
+     -5.3005,
+     0.7536,
+     -10.1624
+    ],
+    "box": [
+     0.068,
+     0.243,
+     0.071
+    ],
+    "yaw": -161.0
+   },
    "model": "models/props_junk/garbage_glassbottle003a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15585,6 +16375,19 @@
     0.0244,
     3.9434
    ],
+   "bounds": {
+    "at": [
+     -4.0577,
+     0.8478,
+     3.9434
+    ],
+    "box": [
+     0.318,
+     1.647,
+     0.871
+    ],
+    "yaw": 3.0
+   },
    "model": "models/props_c17/furnitureshelf001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15599,6 +16402,19 @@
     -0.2142,
     0.7345
    ],
+   "bounds": {
+    "at": [
+     -5.9284,
+     0.2114,
+     0.7345
+    ],
+    "box": [
+     0.397,
+     0.851,
+     0.496
+    ],
+    "yaw": -149.43
+   },
    "model": "models/props_c17/furnituresink001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15613,6 +16429,19 @@
     0.0052,
     0.6096
    ],
+   "bounds": {
+    "at": [
+     -6.7437,
+     0.8963,
+     0.6096
+    ],
+    "box": [
+     0.471,
+     1.782,
+     0.429
+    ],
+    "yaw": 313.0
+   },
    "model": "models/props_c17/furnituretoilet001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15627,6 +16456,19 @@
     -1.9896,
     -8.6107
    ],
+   "bounds": {
+    "at": [
+     1.1817,
+     -1.8669,
+     -8.6107
+    ],
+    "box": [
+     0.209,
+     0.245,
+     0.221
+    ],
+    "yaw": 21.0
+   },
    "model": "models/props_junk/metal_paintcan001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15641,6 +16483,19 @@
     0.668,
     -5.9683
    ],
+   "bounds": {
+    "at": [
+     5.0749,
+     0.7945,
+     -5.9683
+    ],
+    "box": [
+     0.343,
+     0.253,
+     0.343
+    ],
+    "yaw": 119.5
+   },
    "model": "models/props_junk/terracotta01.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15655,6 +16510,19 @@
     -2.3774,
     -13.6025
    ],
+   "bounds": {
+    "at": [
+     -16.8282,
+     -1.9948,
+     -13.6025
+    ],
+    "box": [
+     0.77,
+     0.765,
+     1.292
+    ],
+    "yaw": 19.0
+   },
    "model": "models/props_junk/wood_crate002a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15669,6 +16537,19 @@
     -2.3569,
     -12.4039
    ],
+   "bounds": {
+    "at": [
+     -16.6117,
+     -1.9757,
+     -12.4039
+    ],
+    "box": [
+     0.766,
+     0.762,
+     0.765
+    ],
+    "yaw": 93.5
+   },
    "model": "models/props_junk/wood_crate001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15725,6 +16606,19 @@
     -2.5849,
     -9.2399
    ],
+   "bounds": {
+    "at": [
+     -7.3926,
+     -1.6676,
+     -9.2399
+    ],
+    "box": [
+     1.214,
+     1.835,
+     0.605
+    ],
+    "yaw": 183.5
+   },
    "model": "models/props_wasteland/kitchen_shelf001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15781,6 +16675,19 @@
     0.0316,
     -5.0827
    ],
+   "bounds": {
+    "at": [
+     2.0965,
+     0.8001,
+     -5.0827
+    ],
+    "box": [
+     0.651,
+     1.537,
+     1.06
+    ],
+    "yaw": 90.0
+   },
    "model": "models/props_c17/furnituredresser001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15795,6 +16702,19 @@
     0.021,
     -9.2961
    ],
+   "bounds": {
+    "at": [
+     1.8469,
+     0.3442,
+     -9.2962
+    ],
+    "box": [
+     0.388,
+     0.646,
+     0.374
+    ],
+    "yaw": 327.0
+   },
    "model": "models/props_c17/furniturechair001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15823,6 +16743,19 @@
     0.8311,
     -8.6106
    ],
+   "bounds": {
+    "at": [
+     -10.4966,
+     0.9525,
+     -8.6106
+    ],
+    "box": [
+     0.068,
+     0.243,
+     0.071
+    ],
+    "yaw": 75.0
+   },
    "model": "models/props_junk/garbage_glassbottle003a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15837,6 +16770,19 @@
     0.397,
     -7.2363
    ],
+   "bounds": {
+    "at": [
+     -7.5819,
+     0.5494,
+     -7.2363
+    ],
+    "box": [
+     0.419,
+     0.305,
+     0.267
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props_c17/tv_monitor01.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15865,6 +16811,19 @@
     -2.5355,
     -7.2949
    ],
+   "bounds": {
+    "at": [
+     -4.6101,
+     -2.3217,
+     -7.2949
+    ],
+    "box": [
+     0.191,
+     0.428,
+     0.203
+    ],
+    "yaw": 99.0
+   },
    "model": "models/props_junk/cinderblock01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15893,6 +16852,19 @@
     -2.5278,
     -6.0579
    ],
+   "bounds": {
+    "at": [
+     -4.6888,
+     -2.2065,
+     -6.0579
+    ],
+    "box": [
+     0.412,
+     0.643,
+     0.392
+    ],
+    "yaw": 279.0
+   },
    "model": "models/props_c17/chair_stool01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15907,6 +16879,19 @@
     1.5619,
     -4.9911
    ],
+   "bounds": {
+    "at": [
+     1.8288,
+     1.7336,
+     -4.9911
+    ],
+    "box": [
+     0.314,
+     0.343,
+     0.173
+    ],
+    "yaw": 35.0
+   },
    "model": "models/props_lab/desklamp01.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15977,6 +16962,19 @@
     0.0059,
     -1.5443
    ],
+   "bounds": {
+    "at": [
+     -3.9426,
+     0.9232,
+     -1.5442
+    ],
+    "box": [
+     1.214,
+     1.835,
+     0.605
+    ],
+    "yaw": 90.0
+   },
    "model": "models/props_wasteland/kitchen_shelf001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -15991,6 +16989,19 @@
     0.0148,
     -9.4298
    ],
+   "bounds": {
+    "at": [
+     0.4191,
+     0.8382,
+     -9.4298
+    ],
+    "box": [
+     0.318,
+     1.647,
+     0.871
+    ],
+    "yaw": 270.0
+   },
    "model": "models/props_c17/furnitureshelf001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16005,6 +17016,19 @@
     0.8246,
     -8.479
    ],
+   "bounds": {
+    "at": [
+     1.2597,
+     0.876,
+     -8.4789
+    ],
+    "box": [
+     0.095,
+     0.103,
+     0.135
+    ],
+    "yaw": 125.0
+   },
    "model": "models/props_junk/garbage_coffeemug001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16019,6 +17043,19 @@
     -2.5695,
     -3.3338
    ],
+   "bounds": {
+    "at": [
+     -7.8296,
+     -2.286,
+     -3.3338
+    ],
+    "box": [
+     0.154,
+     0.567,
+     0.372
+    ],
+    "yaw": 206.0
+   },
    "model": "models/props_junk/gascan001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16061,6 +17098,19 @@
     0.0243,
     4.1719
    ],
+   "bounds": {
+    "at": [
+     -0.7811,
+     0.1666,
+     4.1719
+    ],
+    "box": [
+     0.347,
+     0.285,
+     0.495
+    ],
+    "yaw": 262.0
+   },
    "model": "models/props_junk/plasticcrate01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16102,6 +17152,19 @@
     0.0055,
     2.0383
    ],
+   "bounds": {
+    "at": [
+     1.0477,
+     0.7205,
+     2.0383
+    ],
+    "box": [
+     0.598,
+     1.43,
+     0.627
+    ],
+    "yaw": 180.0
+   },
    "model": "models/props_interiors/refrigerator01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16116,6 +17179,19 @@
     0.3077,
     3.2195
    ],
+   "bounds": {
+    "at": [
+     -5.6959,
+     1.0424,
+     3.2195
+    ],
+    "box": [
+     0.371,
+     1.469,
+     1.249
+    ],
+    "yaw": 270.0
+   },
    "model": "models/props_c17/gaspipes001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16170,6 +17246,19 @@
     -2.8049,
     -9.8959
    ],
+   "bounds": {
+    "at": [
+     -6.574,
+     -2.1939,
+     -9.8959
+    ],
+    "box": [
+     0.409,
+     1.222,
+     2.711
+    ],
+    "yaw": 90.0
+   },
    "model": "models/props/cs_militia/sheetrock_leaning.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16197,6 +17286,19 @@
     0.0021,
     2.7438
    ],
+   "bounds": {
+    "at": [
+     1.8076,
+     0.8573,
+     2.7438
+    ],
+    "box": [
+     0.58,
+     1.71,
+     0.834
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props_c17/furnitureboiler001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16224,6 +17326,19 @@
     1.33,
     -2.5718
    ],
+   "bounds": {
+    "at": [
+     1.6855,
+     1.4859,
+     -2.5718
+    ],
+    "box": [
+     0.287,
+     0.312,
+     0.811
+    ],
+    "yaw": 180.0
+   },
    "model": "models/props_c17/furnitureshelf002a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16238,6 +17353,19 @@
     1.33,
     -3.81
    ],
+   "bounds": {
+    "at": [
+     1.6855,
+     1.4859,
+     -3.81
+    ],
+    "box": [
+     0.287,
+     0.312,
+     0.811
+    ],
+    "yaw": 180.0
+   },
    "model": "models/props_c17/furnitureshelf002a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16252,6 +17380,19 @@
     -1.9847,
     -8.382
    ],
+   "bounds": {
+    "at": [
+     1.6764,
+     -1.8288,
+     -8.382
+    ],
+    "box": [
+     0.287,
+     0.312,
+     0.811
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props_c17/furnitureshelf002a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16266,6 +17407,19 @@
     -1.9847,
     -9.2012
    ],
+   "bounds": {
+    "at": [
+     1.6764,
+     -1.8288,
+     -9.2012
+    ],
+    "box": [
+     0.287,
+     0.312,
+     0.811
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props_c17/furnitureshelf002a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16336,6 +17490,19 @@
     -0.0114,
     -0.2858
    ],
+   "bounds": {
+    "at": [
+     -8.2677,
+     0.4669,
+     -0.2858
+    ],
+    "box": [
+     0.493,
+     0.957,
+     0.589
+    ],
+    "yaw": 180.0
+   },
    "model": "models/props_lab/powerbox01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16376,6 +17543,19 @@
     2.1879,
     3.3528
    ],
+   "bounds": {
+    "at": [
+     -0.1715,
+     2.3148,
+     3.3528
+    ],
+    "box": [
+     0.255,
+     0.254,
+     1.219
+    ],
+    "yaw": 270.0
+   },
    "model": "models/props_interiors/lightbulb01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16481,6 +17661,19 @@
     0.0126,
     -3.6576
    ],
+   "bounds": {
+    "at": [
+     2.1717,
+     0.4382,
+     -3.6576
+    ],
+    "box": [
+     0.397,
+     0.851,
+     0.496
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props_c17/furnituresink001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16495,6 +17688,19 @@
     0.0043,
     -2.6861
    ],
+   "bounds": {
+    "at": [
+     2.2288,
+     0.8954,
+     -2.6861
+    ],
+    "box": [
+     0.471,
+     1.782,
+     0.429
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props_c17/furnituretoilet001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16523,6 +17729,19 @@
     1.2968,
     3.8862
    ],
+   "bounds": {
+    "at": [
+     1.2045,
+     1.5861,
+     3.8862
+    ],
+    "box": [
+     0.336,
+     0.579,
+     0.674
+    ],
+    "yaw": 180.0
+   },
    "model": "models/props_c17/furniturecupboard001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16551,6 +17770,19 @@
     -1.7709,
     -9.525
    ],
+   "bounds": {
+    "at": [
+     -4.3434,
+     -1.637,
+     -9.525
+    ],
+    "box": [
+     0.183,
+     0.268,
+     0.174
+    ],
+    "yaw": 270.0
+   },
    "model": "models/props_lab/powerbox02d.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16565,6 +17797,19 @@
     -0.4028,
     -8.8011
    ],
+   "bounds": {
+    "at": [
+     3.791,
+     -0.2759,
+     -8.8011
+    ],
+    "box": [
+     0.255,
+     0.254,
+     1.219
+    ],
+    "yaw": 90.0
+   },
    "model": "models/props_interiors/lightbulb01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16578,6 +17823,19 @@
     -0.0002,
     -0.3619
    ],
+   "bounds": {
+    "at": [
+     -5.1054,
+     0.1715,
+     -0.3619
+    ],
+    "box": [
+     0.314,
+     0.343,
+     0.173
+    ],
+    "yaw": 125.5
+   },
    "model": "models/props_lab/desklamp01.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16591,6 +17849,19 @@
     2.3079,
     -0.2286
    ],
+   "bounds": {
+    "at": [
+     -6.1722,
+     2.3813,
+     -0.2286
+    ],
+    "box": [
+     0.107,
+     0.147,
+     1.186
+    ],
+    "yaw": 270.0
+   },
    "model": "models/props_lab/lab_flourescentlight002b.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16673,6 +17944,19 @@
     1.3681,
     -4.4287
    ],
+   "bounds": {
+    "at": [
+     2.5908,
+     1.524,
+     -4.4287
+    ],
+    "box": [
+     0.287,
+     0.312,
+     0.811
+    ],
+    "yaw": 270.0
+   },
    "model": "models/props_c17/furnitureshelf002a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16687,6 +17971,19 @@
     0.6061,
     -4.4287
    ],
+   "bounds": {
+    "at": [
+     2.5908,
+     0.762,
+     -4.4287
+    ],
+    "box": [
+     0.287,
+     0.312,
+     0.811
+    ],
+    "yaw": 270.0
+   },
    "model": "models/props_c17/furnitureshelf002a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16715,6 +18012,19 @@
     1.6962,
     -7.239
    ],
+   "bounds": {
+    "at": [
+     4.934,
+     1.8301,
+     -7.239
+    ],
+    "box": [
+     0.183,
+     0.268,
+     0.174
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props_lab/powerbox02d.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16770,6 +18080,19 @@
     0.3602,
     3.8862
    ],
+   "bounds": {
+    "at": [
+     1.143,
+     0.6994,
+     3.8862
+    ],
+    "box": [
+     0.443,
+     0.678,
+     0.522
+    ],
+    "yaw": 180.0
+   },
    "model": "models/props_interiors/sinkkitchen01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16854,6 +18177,19 @@
     0.6061,
     2.7523
    ],
+   "bounds": {
+    "at": [
+     -4.8768,
+     0.762,
+     2.7523
+    ],
+    "box": [
+     0.287,
+     0.312,
+     0.811
+    ],
+    "yaw": 90.0
+   },
    "model": "models/props_c17/furnitureshelf002a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16868,6 +18204,19 @@
     0.6061,
     2.7523
    ],
+   "bounds": {
+    "at": [
+     -5.7912,
+     0.762,
+     2.7523
+    ],
+    "box": [
+     0.287,
+     0.312,
+     0.811
+    ],
+    "yaw": 90.0
+   },
    "model": "models/props_c17/furnitureshelf002a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16895,6 +18244,19 @@
     0.3204,
     -8.1534
    ],
+   "bounds": {
+    "at": [
+     5.0197,
+     0.4763,
+     -8.1534
+    ],
+    "box": [
+     0.287,
+     0.312,
+     0.811
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props_c17/furnitureshelf002a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16909,6 +18271,19 @@
     0.3204,
     1.7526
    ],
+   "bounds": {
+    "at": [
+     5.0197,
+     0.4763,
+     1.7526
+    ],
+    "box": [
+     0.287,
+     0.312,
+     0.811
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props_c17/furnitureshelf002a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16923,6 +18298,19 @@
     0.3204,
     -6.1722
    ],
+   "bounds": {
+    "at": [
+     5.0197,
+     0.4763,
+     -6.1722
+    ],
+    "box": [
+     0.287,
+     0.312,
+     0.811
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props_c17/furnitureshelf002a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16937,6 +18325,19 @@
     0.3204,
     -0.2286
    ],
+   "bounds": {
+    "at": [
+     5.0197,
+     0.4763,
+     -0.2286
+    ],
+    "box": [
+     0.287,
+     0.312,
+     0.811
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props_c17/furnitureshelf002a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16951,6 +18352,19 @@
     -2.0633,
     -8.382
    ],
+   "bounds": {
+    "at": [
+     1.2002,
+     -1.8669,
+     -8.382
+    ],
+    "box": [
+     0.947,
+     0.393,
+     0.365
+    ],
+    "yaw": 270.0
+   },
    "model": "models/props_wasteland/prison_shelf001a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16965,6 +18379,19 @@
     0.3204,
     1.524
    ],
+   "bounds": {
+    "at": [
+     -7.4581,
+     0.4763,
+     1.524
+    ],
+    "box": [
+     0.287,
+     0.312,
+     0.811
+    ],
+    "yaw": 180.0
+   },
    "model": "models/props_c17/furnitureshelf002a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -16979,6 +18406,19 @@
     0.3204,
     -3.2004
    ],
+   "bounds": {
+    "at": [
+     5.0197,
+     0.4763,
+     -3.2004
+    ],
+    "box": [
+     0.287,
+     0.312,
+     0.811
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props_c17/furnitureshelf002a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -17034,6 +18474,19 @@
     2.1879,
     1.2383
    ],
+   "bounds": {
+    "at": [
+     3.1242,
+     2.3148,
+     1.2383
+    ],
+    "box": [
+     0.255,
+     0.254,
+     1.219
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props_interiors/lightbulb01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -17047,6 +18500,19 @@
     2.1879,
     -7.6391
    ],
+   "bounds": {
+    "at": [
+     3.1242,
+     2.3148,
+     -7.6391
+    ],
+    "box": [
+     0.255,
+     0.254,
+     1.219
+    ],
+    "yaw": 180.0
+   },
    "model": "models/props_interiors/lightbulb01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -17060,6 +18526,19 @@
     2.3046,
     1.524
    ],
+   "bounds": {
+    "at": [
+     -5.7912,
+     2.3715,
+     1.524
+    ],
+    "box": [
+     0.343,
+     0.134,
+     0.343
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props_c17/light_domelight02_on.mdl",
    "scale": 1.0,
    "shape": true,
@@ -17073,6 +18552,19 @@
     2.3079,
     -3.2004
    ],
+   "bounds": {
+    "at": [
+     1.6764,
+     2.3813,
+     -3.2004
+    ],
+    "box": [
+     0.107,
+     0.147,
+     1.186
+    ],
+    "yaw": 180.0
+   },
    "model": "models/props_lab/lab_flourescentlight002b.mdl",
    "scale": 1.0,
    "shape": true,
@@ -17101,6 +18593,19 @@
     2.3046,
     -3.2004
    ],
+   "bounds": {
+    "at": [
+     3.3528,
+     2.3715,
+     -3.2004
+    ],
+    "box": [
+     0.343,
+     0.134,
+     0.343
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props_c17/light_domelight02_on.mdl",
    "scale": 1.0,
    "shape": true,
@@ -17127,6 +18632,19 @@
     -2.728,
     3.3397
    ],
+   "bounds": {
+    "at": [
+     10.1079,
+     -2.5016,
+     3.3397
+    ],
+    "box": [
+     2.384,
+     0.453,
+     2.131
+    ],
+    "yaw": 240.89
+   },
    "model": "models/props_foliage/driftwood_03a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -17140,6 +18658,19 @@
     -2.4501,
     8.7265
    ],
+   "bounds": {
+    "at": [
+     -4.346,
+     -1.7682,
+     8.7265
+    ],
+    "box": [
+     1.573,
+     1.364,
+     1.252
+    ],
+    "yaw": 233.0
+   },
    "model": "models/props_foliage/shrub_01a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -17153,6 +18684,19 @@
     -2.6025,
     6.3096
    ],
+   "bounds": {
+    "at": [
+     8.5921,
+     -1.9206,
+     6.3096
+    ],
+    "box": [
+     1.573,
+     1.364,
+     1.252
+    ],
+    "yaw": 247.84
+   },
    "model": "models/props_foliage/shrub_01a.mdl",
    "scale": 1.0,
    "shape": true,

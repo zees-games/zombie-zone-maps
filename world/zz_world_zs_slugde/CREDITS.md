@@ -2,52 +2,52 @@
 
 Every texture of this map is a free replacement; the original map's textures and models are not used.
 
-- pbr (pbr_concrete_tiles_02): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/concrete_tiles_02
+- generated (water): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
 - pbr (pbr_Concrete030): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Concrete030
 - pbr (pbr_volcanic_herringbone_01): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/volcanic_herringbone_01
+- pbr (pbr_concrete_tiles_02): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/concrete_tiles_02
 - pbr (pbr_dirty_concrete): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/dirty_concrete
 - pbr (pbr_MetalWalkway007): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalWalkway007
-- generated (water): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
 - pbr (pbr_brick_wall_02): polyhaven, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/brick_wall_02
 - pbr (pbr_concrete_block_wall): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/concrete_block_wall
 - pbr (pbr_Metal052A): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal052A
-- pbr (pbr_Metal039): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal039
-- pbr (pbr_moon_footprints_01): polyhaven, Greg Zaal, Rico Cilliers, Jenelle van Heerden, Dario Barresi, CC0-1.0, https://polyhaven.com/a/moon_footprints_01
-- pbr (pbr_tarred_gravel): polyhaven, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/tarred_gravel
-- pbr (pbr_brick_wall_08): polyhaven, Amal Kumar, CC0-1.0, https://polyhaven.com/a/brick_wall_08
 - pbr (pbr_concrete_wall_004): polyhaven, Dario Barresi, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/concrete_wall_004
 - pbr (pbr_Concrete042B): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Concrete042B
-- pbr (pbr_Concrete017): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Concrete017
-- pbr (pbr_concrete_slab_wall_02): polyhaven, Amal Kumar, CC0-1.0, https://polyhaven.com/a/concrete_slab_wall_02
-- pbr (pbr_Concrete036): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Concrete036
-- pbr (pbr_climbing_wall_02): polyhaven, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/climbing_wall_02
-- pbr (pbr_gravel_embedded_concrete): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/gravel_embedded_concrete
-- pbr (pbr_Concrete009): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Concrete009
 - pbr (pbr_coral_fort_wall_01): polyhaven, Dimitrios Savva, Rico Cilliers, CC0-1.0, https://polyhaven.com/a/coral_fort_wall_01
+- pbr (pbr_Grate001): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Grate001
+- pbr (pbr_MetalPlates015A): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalPlates015A
+- pbr (pbr_brick_wall_08): polyhaven, Amal Kumar, CC0-1.0, https://polyhaven.com/a/brick_wall_08
+- pbr (pbr_Concrete036): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Concrete036
+- pbr (pbr_gravel_embedded_concrete): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/gravel_embedded_concrete
 - pbr (pbr_granular_concrete): polyhaven, Dario Barresi, Michael Jenkins, CC0-1.0, https://polyhaven.com/a/granular_concrete
 - pbr (pbr_herringbone_concrete_tile_03): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/herringbone_concrete_tile_03
 - generated (glass): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
 - pbr (pbr_worn_shutter): polyhaven, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/worn_shutter
+- pbr (pbr_PaintedMetal014): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=PaintedMetal014
+- pbr (pbr_concrete_slab_wall_02): polyhaven, Amal Kumar, CC0-1.0, https://polyhaven.com/a/concrete_slab_wall_02
+- pbr (pbr_DiamondPlate009): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=DiamondPlate009
+- pbr (pbr_Metal046B): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal046B
+- pbr (pbr_Metal036): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal036
+- pbr (pbr_grey_plaster_02): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/grey_plaster_02
+- pbr (pbr_plastered_wall_03): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/plastered_wall_03
+- pbr (pbr_Metal039): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal039
+- pbr (pbr_moon_footprints_01): polyhaven, Greg Zaal, Rico Cilliers, Jenelle van Heerden, Dario Barresi, CC0-1.0, https://polyhaven.com/a/moon_footprints_01
+- pbr (pbr_tarred_gravel): polyhaven, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/tarred_gravel
+- pbr (pbr_Concrete009): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Concrete009
 - pbr (pbr_Tiles007): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Tiles007
 - generated (bars): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
-- pbr (pbr_DiamondPlate009): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=DiamondPlate009
-- pbr (pbr_Grate001): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Grate001
-- pbr (pbr_MetalPlates015A): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalPlates015A
-- pbr (pbr_Metal046B): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal046B
-- pbr (pbr_PaintedMetal014): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=PaintedMetal014
-- pbr (pbr_Concrete012): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Concrete012
-- pbr (pbr_Metal036): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal036
-- pbr (pbr_plastered_wall_03): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/plastered_wall_03
-- pbr (pbr_grey_plaster_02): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/grey_plaster_02
+- pbr (pbr_Concrete017): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Concrete017
+- pbr (pbr_climbing_wall_02): polyhaven, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/climbing_wall_02
 - pbr (pbr_Facade004): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Facade004
+- pbr (pbr_Concrete012): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Concrete012
 - pbr (pbr_concrete_wall_001): polyhaven, Dimitrios Savva, Rico Cilliers, CC0-1.0, https://polyhaven.com/a/concrete_wall_001
-- pbr (pbr_Bricks065): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Bricks065
+- pbr (pbr_Metal047B): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal047B
 - pbr (pbr_Metal011): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal011
 - pbr (pbr_corrugated_iron_02): polyhaven, Jenelle van Heerden, Sergej Majboroda, CC0-1.0, https://polyhaven.com/a/corrugated_iron_02
-- pbr (pbr_Metal047B): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal047B
 - pbr (pbr_rusted_shutter): polyhaven, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/rusted_shutter
 - pbr (pbr_stone_tiles_02): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/stone_tiles_02
 - pbr (pbr_cobblestone_pavement): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/cobblestone_pavement
+- pbr (pbr_Bricks065): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Bricks065
 - pbr (pbr_metal_plate_02): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/metal_plate_02
 - pbr (pbr_Metal026): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal026
 - pbr (pbr_Metal056C): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal056C

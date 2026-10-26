@@ -99,4 +99,6 @@ Every document carries `ambient` (README, `tools/ambient.py`): a converted map's
 
 ## solid_props
 
+**The cap is `ZzMapDoc.MAX_SOLID_PROPS` (4000; the largest map has 1068), one constant.** Each box costs about 12 bytes on the wire and Biohazard, Very Still and the Abandoned Mall are already near the 60000-byte limit without them, so `ZzMapDoc.wire_form` sends no `solid_props` for a document that will not fit and says `solid_props_total` instead: the server keeps every box from the file, a client builds the same boxes from its world pack (`attach_world_props`). Nothing is dropped or merged.
+
 A drawn world's solid props (`solid` 2, 3, 4 or 6 in the manifest) are boxes in the document's `solid_props`, written by `tools/solid_props.sh` (it starts Godot: run under `heavy`, `GAME=` names the game checkout whose `maps`/`world` links point here). `regen_all.sh`, `ship_worlds.sh` and `ship_docs.sh` run it; the importer keeps the previous block and `settle_toys` keeps toys out of the boxes; `check_worlds.py` fails a world with solid props and no block. `solid_props.sh` links the game's `.stores` to this repository's (a world's licence names `../../.stores/model-library`, which from `res://world/<pack>` is the game's own): without it no stand-in loads and every document silently gets 0 boxes.

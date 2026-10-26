@@ -3,14 +3,14 @@
   "bytes": 1536041,
   "compression": "gzip",
   "file": "zm_lila_panic.bin",
-  "sha256": "0e3912775180a9f3443d3dbc697aa1bcc0d8c2830e626f8e06de5e63d9ecd71a",
-  "stored_bytes": 98442
+  "sha256": "69f2f3a4f29146ee9b17e758b6c5b91d4a256dfa4b6c12806dcf356c84416301",
+  "stored_bytes": 94945
  },
  "breakables": [],
  "counts": {
   "hulls": 316,
   "models": 1,
-  "surfaces": 22,
+  "surfaces": 47,
   "triangles": 4079,
   "vertices": 6967
  },
@@ -3540,7 +3540,7 @@
      "version": "h19581f7e"
     }
    ],
-   "version": "hc70d9b04"
+   "version": "hdd908d72"
   },
   "textures": [
    {
@@ -3562,7 +3562,7 @@
     "sources": [
      "cs_assault/assault_metalcrate001d"
     ],
-    "surfaces": 5,
+    "surfaces": 11,
     "tier": "2k",
     "url": "https://ambientcg.com/view?id=Metal033"
    },
@@ -3585,7 +3585,7 @@
     "sources": [
      "cs_assault/assault_metalcrate001b_red"
     ],
-    "surfaces": 4,
+    "surfaces": 11,
     "tier": "2k",
     "url": "https://ambientcg.com/view?id=Metal047B"
    },
@@ -3608,7 +3608,7 @@
     "sources": [
      "brick/brickwall003a"
     ],
-    "surfaces": 4,
+    "surfaces": 8,
     "tier": "2k",
     "url": "https://ambientcg.com/view?id=Bricks082B"
    },
@@ -3631,7 +3631,7 @@
     "sources": [
      "de_train/train_cement_floor_01"
     ],
-    "surfaces": 4,
+    "surfaces": 9,
     "tier": "2k",
     "url": "https://polyhaven.com/a/worn_mossy_plasterwall"
    },
@@ -3654,7 +3654,7 @@
     "sources": [
      "cs_assault/assault_metalcrate001a"
     ],
-    "surfaces": 2,
+    "surfaces": 3,
     "tier": "2k",
     "url": "https://ambientcg.com/view?id=MetalPlates016B"
    },
@@ -3676,7 +3676,7 @@
     "sources": [
      "metal/metalrail003a"
     ],
-    "surfaces": 2,
+    "surfaces": 4,
     "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
@@ -3728,7 +3728,7 @@
  "movers_without_geometry": [],
  "name": "zm_lila_panic",
  "notes": [
-  "2 glass surfaces (kinds bars)"
+  "4 glass surfaces (kinds bars)"
  ],
  "pickups": [],
  "props": [
@@ -3738,6 +3738,19 @@
     0.1715,
     0.9586
    ],
+   "bounds": {
+    "at": [
+     6.7056,
+     0.9716,
+     0.9586
+    ],
+    "box": [
+     0.914,
+     1.6,
+     0.774
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
    "shape": true,
@@ -3752,6 +3765,19 @@
     0.1715,
     0.9586
    ],
+   "bounds": {
+    "at": [
+     5.4864,
+     0.9716,
+     0.9586
+    ],
+    "box": [
+     0.914,
+     1.6,
+     0.774
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
    "shape": true,
@@ -3766,6 +3792,19 @@
     0.1715,
     9.7536
    ],
+   "bounds": {
+    "at": [
+     0.9144,
+     0.6009,
+     9.7536
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -3780,6 +3819,19 @@
     0.1715,
     6.086
    ],
+   "bounds": {
+    "at": [
+     6.1851,
+     0.4572,
+     6.0861
+    ],
+    "box": [
+     5.817,
+     0.572,
+     2.459
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props/cs_office/table_meeting.mdl",
    "scale": 1.0,
    "shape": true,
@@ -3794,6 +3846,19 @@
     0.1715,
     11.2776
    ],
+   "bounds": {
+    "at": [
+     2.4384,
+     0.6009,
+     11.2776
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 90.5
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -3808,6 +3873,19 @@
     0.172,
     10.2627
    ],
+   "bounds": {
+    "at": [
+     11.7356,
+     0.9733,
+     10.2627
+    ],
+    "box": [
+     0.254,
+     1.603,
+     1.003
+    ],
+    "yaw": 180.0
+   },
    "model": "models/props/cs_office/bookshelf1.mdl",
    "scale": 1.0,
    "shape": true,
@@ -3822,6 +3900,19 @@
     0.172,
     6.8112
    ],
+   "bounds": {
+    "at": [
+     11.7302,
+     0.9733,
+     6.8112
+    ],
+    "box": [
+     0.254,
+     1.603,
+     1.003
+    ],
+    "yaw": 180.0
+   },
    "model": "models/props/cs_office/bookshelf1.mdl",
    "scale": 1.0,
    "shape": true,
@@ -3836,6 +3927,19 @@
     0.172,
     1.9285
    ],
+   "bounds": {
+    "at": [
+     0.4672,
+     0.9733,
+     1.9285
+    ],
+    "box": [
+     0.254,
+     1.603,
+     1.003
+    ],
+    "yaw": 359.5
+   },
    "model": "models/props/cs_office/bookshelf1.mdl",
    "scale": 1.0,
    "shape": true,
@@ -3850,6 +3954,19 @@
     5.5055,
     1.9436
    ],
+   "bounds": {
+    "at": [
+     11.7346,
+     6.1532,
+     1.9436
+    ],
+    "box": [
+     2.819,
+     1.295,
+     0.305
+    ],
+    "yaw": 90.0
+   },
    "model": "models/props/cs_havana/bookcase_large.mdl",
    "scale": 1.0,
    "shape": true,
@@ -3864,6 +3981,19 @@
     5.5055,
     10.2484
    ],
+   "bounds": {
+    "at": [
+     0.4575,
+     6.1532,
+     10.2484
+    ],
+    "box": [
+     2.819,
+     1.295,
+     0.305
+    ],
+    "yaw": 270.0
+   },
    "model": "models/props/cs_havana/bookcase_large.mdl",
    "scale": 1.0,
    "shape": true,
@@ -3878,6 +4008,19 @@
     5.6579,
     11.2498
    ],
+   "bounds": {
+    "at": [
+     11.2433,
+     6.458,
+     11.2498
+    ],
+    "box": [
+     0.914,
+     1.6,
+     0.774
+    ],
+    "yaw": 231.0
+   },
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
    "shape": true,
@@ -3892,6 +4035,19 @@
     5.6579,
     0.9419
    ],
+   "bounds": {
+    "at": [
+     0.949,
+     6.458,
+     0.9419
+    ],
+    "box": [
+     0.914,
+     1.6,
+     0.774
+    ],
+    "yaw": 51.5
+   },
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
    "shape": true,
@@ -3906,6 +4062,19 @@
     5.6579,
     5.4864
    ],
+   "bounds": {
+    "at": [
+     5.1816,
+     6.079,
+     5.4864
+    ],
+    "box": [
+     0.847,
+     0.842,
+     1.038
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props/cs_office/sofa_chair.mdl",
    "scale": 1.0,
    "shape": true,
@@ -3920,6 +4089,19 @@
     5.6579,
     6.7056
    ],
+   "bounds": {
+    "at": [
+     5.1816,
+     6.079,
+     6.7056
+    ],
+    "box": [
+     0.847,
+     0.842,
+     1.038
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props/cs_office/sofa_chair.mdl",
    "scale": 1.0,
    "shape": true,
@@ -3934,6 +4116,19 @@
     5.6579,
     5.4864
    ],
+   "bounds": {
+    "at": [
+     7.0104,
+     6.079,
+     5.4864
+    ],
+    "box": [
+     0.847,
+     0.842,
+     1.038
+    ],
+    "yaw": 180.0
+   },
    "model": "models/props/cs_office/sofa_chair.mdl",
    "scale": 1.0,
    "shape": true,
@@ -3948,6 +4143,19 @@
     5.6579,
     6.7056
    ],
+   "bounds": {
+    "at": [
+     7.0104,
+     6.079,
+     6.7056
+    ],
+    "box": [
+     0.847,
+     0.842,
+     1.038
+    ],
+    "yaw": 180.0
+   },
    "model": "models/props/cs_office/sofa_chair.mdl",
    "scale": 1.0,
    "shape": true,
@@ -3962,6 +4170,19 @@
     2.9146,
     6.096
    ],
+   "bounds": {
+    "at": [
+     3.048,
+     3.3441,
+     6.096
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -3976,6 +4197,19 @@
     2.9146,
     6.096
    ],
+   "bounds": {
+    "at": [
+     9.144,
+     3.3441,
+     6.096
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 180.5
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -3990,6 +4224,19 @@
     2.9146,
     9.144
    ],
+   "bounds": {
+    "at": [
+     6.096,
+     3.3441,
+     9.144
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 91.0
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4004,6 +4251,19 @@
     2.9146,
     3.048
    ],
+   "bounds": {
+    "at": [
+     6.096,
+     3.3441,
+     3.048
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 271.0
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4018,6 +4278,19 @@
     2.9146,
     3.6576
    ],
+   "bounds": {
+    "at": [
+     8.5344,
+     3.3441,
+     3.6576
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 231.5
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4032,6 +4305,19 @@
     2.9146,
     8.5344
    ],
+   "bounds": {
+    "at": [
+     3.6576,
+     3.3441,
+     8.5344
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 51.5
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4046,6 +4332,19 @@
     2.9146,
     8.5344
    ],
+   "bounds": {
+    "at": [
+     8.5344,
+     3.3441,
+     8.5344
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 141.5
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4060,6 +4359,19 @@
     2.9146,
     3.6576
    ],
+   "bounds": {
+    "at": [
+     3.6576,
+     3.3441,
+     3.6576
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 321.0
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4074,6 +4386,19 @@
     -5.0102,
     6.9213
    ],
+   "bounds": {
+    "at": [
+     -29.2608,
+     -4.2101,
+     6.9212
+    ],
+    "box": [
+     0.914,
+     1.6,
+     0.774
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4088,6 +4413,19 @@
     -5.0102,
     29.5656
    ],
+   "bounds": {
+    "at": [
+     -14.6304,
+     -4.5807,
+     29.5656
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 90.0
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4102,6 +4440,19 @@
     -5.0102,
     26.8666
    ],
+   "bounds": {
+    "at": [
+     -14.63,
+     -4.2101,
+     26.8665
+    ],
+    "box": [
+     0.914,
+     1.6,
+     0.774
+    ],
+    "yaw": 0.5
+   },
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4116,6 +4467,19 @@
     -5.0102,
     29.5656
    ],
+   "bounds": {
+    "at": [
+     -12.4968,
+     -4.5807,
+     29.5656
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 90.0
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4130,6 +4494,19 @@
     -5.0102,
     29.5656
    ],
+   "bounds": {
+    "at": [
+     -16.764,
+     -4.5807,
+     29.5656
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 90.0
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4144,6 +4521,19 @@
     -5.0102,
     29.5656
    ],
+   "bounds": {
+    "at": [
+     -10.3632,
+     -4.5807,
+     29.5656
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 90.0
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4158,6 +4548,19 @@
     -5.0102,
     29.5656
    ],
+   "bounds": {
+    "at": [
+     -18.8976,
+     -4.5807,
+     29.5656
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 90.0
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4172,6 +4575,19 @@
     -5.0102,
     24.6446
    ],
+   "bounds": {
+    "at": [
+     -26.2124,
+     -4.2101,
+     24.6447
+    ],
+    "box": [
+     0.914,
+     1.6,
+     0.774
+    ],
+    "yaw": 179.5
+   },
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4186,6 +4602,19 @@
     -5.0102,
     24.0792
    ],
+   "bounds": {
+    "at": [
+     -29.5656,
+     -4.5807,
+     24.0792
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4200,6 +4629,19 @@
     -5.0102,
     21.9456
    ],
+   "bounds": {
+    "at": [
+     -29.5656,
+     -4.5807,
+     21.9456
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4214,6 +4656,19 @@
     -5.0102,
     19.5072
    ],
+   "bounds": {
+    "at": [
+     -17.3736,
+     -4.5807,
+     19.5072
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 90.0
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4228,6 +4683,19 @@
     -5.0102,
     19.5072
    ],
+   "bounds": {
+    "at": [
+     -19.812,
+     -4.5807,
+     19.5072
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 90.0
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4242,6 +4710,19 @@
     -5.0102,
     18.8976
    ],
+   "bounds": {
+    "at": [
+     -21.9456,
+     -4.5807,
+     18.8976
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4256,6 +4737,19 @@
     -5.0102,
     9.493
    ],
+   "bounds": {
+    "at": [
+     -21.9456,
+     -4.2101,
+     9.493
+    ],
+    "box": [
+     0.914,
+     1.6,
+     0.774
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4270,6 +4764,19 @@
     -5.0102,
     12.4968
    ],
+   "bounds": {
+    "at": [
+     -14.6304,
+     -4.5807,
+     12.4968
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 89.0
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4284,6 +4791,19 @@
     -5.0102,
     12.0466
    ],
+   "bounds": {
+    "at": [
+     -11.8872,
+     -4.5807,
+     12.0466
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 179.5
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4298,6 +4818,19 @@
     -5.0102,
     9.8875
    ],
+   "bounds": {
+    "at": [
+     -11.8872,
+     -4.5807,
+     9.8875
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 179.5
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4312,6 +4845,19 @@
     -5.0102,
     12.462
    ],
+   "bounds": {
+    "at": [
+     -17.3464,
+     -4.2101,
+     12.462
+    ],
+    "box": [
+     0.914,
+     1.6,
+     0.774
+    ],
+    "yaw": 142.0
+   },
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4326,6 +4872,19 @@
     -5.0102,
     -5.4422
    ],
+   "bounds": {
+    "at": [
+     -15.8496,
+     -4.2101,
+     -5.4423
+    ],
+    "box": [
+     0.914,
+     1.6,
+     0.774
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4340,6 +4899,19 @@
     -5.0102,
     -5.4422
    ],
+   "bounds": {
+    "at": [
+     -14.3256,
+     -4.2101,
+     -5.4423
+    ],
+    "box": [
+     0.914,
+     1.6,
+     0.774
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4354,6 +4926,19 @@
     -5.0102,
     -5.4422
    ],
+   "bounds": {
+    "at": [
+     -17.3736,
+     -4.2101,
+     -5.4423
+    ],
+    "box": [
+     0.914,
+     1.6,
+     0.774
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4368,6 +4953,19 @@
     -5.0102,
     1.2192
    ],
+   "bounds": {
+    "at": [
+     -29.5656,
+     -4.5807,
+     1.2192
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 359.5
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4382,6 +4980,19 @@
     -5.0102,
     1.2192
    ],
+   "bounds": {
+    "at": [
+     -23.7744,
+     -4.5807,
+     1.2192
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 180.0
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4396,6 +5007,19 @@
     -5.0102,
     17.0684
    ],
+   "bounds": {
+    "at": [
+     -21.9015,
+     -4.2101,
+     17.0684
+    ],
+    "box": [
+     0.914,
+     1.6,
+     0.774
+    ],
+    "yaw": 90.5
+   },
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4410,6 +5034,19 @@
     -5.0102,
     9.7536
    ],
+   "bounds": {
+    "at": [
+     -26.5176,
+     -4.5807,
+     9.7536
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 180.0
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4424,6 +5061,19 @@
     -5.0102,
     12.192
    ],
+   "bounds": {
+    "at": [
+     -26.5176,
+     -4.5807,
+     12.192
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 180.0
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4438,6 +5088,19 @@
     -5.0102,
     7.62
    ],
+   "bounds": {
+    "at": [
+     -26.5176,
+     -4.5807,
+     7.62
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 180.0
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4452,6 +5115,19 @@
     -5.0102,
     -0.5654
    ],
+   "bounds": {
+    "at": [
+     -26.5176,
+     -4.2101,
+     -0.5655
+    ],
+    "box": [
+     0.914,
+     1.6,
+     0.774
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4466,6 +5142,19 @@
     -5.0102,
     23.1644
    ],
+   "bounds": {
+    "at": [
+     -35.4009,
+     -4.2101,
+     23.1644
+    ],
+    "box": [
+     0.914,
+     1.6,
+     0.774
+    ],
+    "yaw": 269.5
+   },
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4480,6 +5169,19 @@
     -5.0102,
     23.7744
    ],
+   "bounds": {
+    "at": [
+     -36.8808,
+     -4.5807,
+     23.7744
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4494,6 +5196,19 @@
     -5.0102,
     18.8976
    ],
+   "bounds": {
+    "at": [
+     -36.8808,
+     -4.5807,
+     18.8976
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4508,6 +5223,19 @@
     -5.0102,
     21.0312
    ],
+   "bounds": {
+    "at": [
+     -36.8808,
+     -4.5807,
+     21.0312
+    ],
+    "box": [
+     0.854,
+     0.859,
+     2.0
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props/cs_office/sofa.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4522,6 +5250,19 @@
     -5.0102,
     17.4178
    ],
+   "bounds": {
+    "at": [
+     -33.528,
+     -4.2101,
+     17.4177
+    ],
+    "box": [
+     0.914,
+     1.6,
+     0.774
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4536,6 +5277,19 @@
     -5.0102,
     17.4178
    ],
+   "bounds": {
+    "at": [
+     -35.052,
+     -4.2101,
+     17.4177
+    ],
+    "box": [
+     0.914,
+     1.6,
+     0.774
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props/cs_office/vending_machine.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4550,6 +5304,19 @@
     0.2165,
     23.1972
    ],
+   "bounds": {
+    "at": [
+     -2.4113,
+     0.6451,
+     23.1972
+    ],
+    "box": [
+     0.552,
+     0.857,
+     0.552
+    ],
+    "yaw": 90.0
+   },
    "model": "models/props_c17/oildrum001.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4564,6 +5331,19 @@
     0.1784,
     23.6925
    ],
+   "bounds": {
+    "at": [
+     -1.8558,
+     0.607,
+     23.6925
+    ],
+    "box": [
+     0.552,
+     0.857,
+     0.552
+    ],
+    "yaw": 90.0
+   },
    "model": "models/props_c17/oildrum001.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4578,6 +5358,19 @@
     0.1593,
     23.6544
    ],
+   "bounds": {
+    "at": [
+     -1.3386,
+     0.588,
+     23.6544
+    ],
+    "box": [
+     0.552,
+     0.857,
+     0.552
+    ],
+    "yaw": 90.0
+   },
    "model": "models/props_c17/oildrum001.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4592,6 +5385,19 @@
     0.2927,
     22.74
    ],
+   "bounds": {
+    "at": [
+     -0.7438,
+     0.7213,
+     22.74
+    ],
+    "box": [
+     0.552,
+     0.857,
+     0.552
+    ],
+    "yaw": 90.0
+   },
    "model": "models/props_c17/oildrum001.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4606,6 +5412,19 @@
     -0.0155,
     -13.1014
    ],
+   "bounds": {
+    "at": [
+     -9.833,
+     1.4796,
+     -13.1014
+    ],
+    "box": [
+     2.171,
+     2.99,
+     6.231
+    ],
+    "yaw": 270.0
+   },
    "model": "models/props/de_nuke/truck_nuke.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4620,6 +5439,19 @@
     1.0953,
     21.0362
    ],
+   "bounds": {
+    "at": [
+     -9.833,
+     2.5903,
+     21.0362
+    ],
+    "box": [
+     2.171,
+     2.99,
+     6.231
+    ],
+    "yaw": 270.0
+   },
    "model": "models/props/de_nuke/truck_nuke.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4634,6 +5466,19 @@
     0.0069,
     3.6719
    ],
+   "bounds": {
+    "at": [
+     -9.7754,
+     0.9771,
+     3.6719
+    ],
+    "box": [
+     4.618,
+     1.94,
+     1.785
+    ],
+    "yaw": 181.5
+   },
    "model": "models/props/de_tides/truck.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4676,6 +5521,19 @@
     -0.0001,
     13.6587
    ],
+   "bounds": {
+    "at": [
+     1.2565,
+     0.9907,
+     13.6588
+    ],
+    "box": [
+     2.949,
+     1.982,
+     2.049
+    ],
+    "yaw": 269.0
+   },
    "model": "models/props/cs_office/crates_indoor.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4690,6 +5548,19 @@
     -0.0355,
     -11.9139
    ],
+   "bounds": {
+    "at": [
+     6.0553,
+     0.9342,
+     -11.9139
+    ],
+    "box": [
+     4.182,
+     1.94,
+     1.838
+    ],
+    "yaw": 89.0
+   },
    "model": "models/props/de_piranesi/pi_apc.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4704,6 +5575,19 @@
     -0.0355,
     -11.9139
    ],
+   "bounds": {
+    "at": [
+     8.4937,
+     0.9342,
+     -11.9139
+    ],
+    "box": [
+     4.182,
+     1.94,
+     1.838
+    ],
+    "yaw": 89.0
+   },
    "model": "models/props/de_piranesi/pi_apc.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4718,6 +5602,19 @@
     -0.0355,
     -5.5331
    ],
+   "bounds": {
+    "at": [
+     7.3524,
+     0.9342,
+     -5.5332
+    ],
+    "box": [
+     4.182,
+     1.94,
+     1.838
+    ],
+    "yaw": 51.5
+   },
    "model": "models/props/de_piranesi/pi_apc.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4788,6 +5685,19 @@
     -0.0007,
     11.1176
    ],
+   "bounds": {
+    "at": [
+     12.928,
+     0.8728,
+     11.1176
+    ],
+    "box": [
+     1.119,
+     1.747,
+     2.094
+    ],
+    "yaw": 0.0
+   },
    "model": "models/props/de_prodigy/transformer.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4802,6 +5712,19 @@
     -0.0011,
     -13.1496
    ],
+   "bounds": {
+    "at": [
+     21.0215,
+     3.9174,
+     -13.1496
+    ],
+    "box": [
+     2.151,
+     7.837,
+     1.933
+    ],
+    "yaw": 270.0
+   },
    "model": "models/props_wasteland/coolingtank02.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4816,6 +5739,19 @@
     -0.0011,
     -11.016
    ],
+   "bounds": {
+    "at": [
+     23.155,
+     3.9174,
+     -11.016
+    ],
+    "box": [
+     2.151,
+     7.837,
+     1.933
+    ],
+    "yaw": 270.0
+   },
    "model": "models/props_wasteland/coolingtank02.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4830,6 +5766,19 @@
     -0.0011,
     -13.1496
    ],
+   "bounds": {
+    "at": [
+     23.155,
+     3.9174,
+     -13.1496
+    ],
+    "box": [
+     2.151,
+     7.837,
+     1.933
+    ],
+    "yaw": 270.0
+   },
    "model": "models/props_wasteland/coolingtank02.mdl",
    "scale": 1.0,
    "shape": true,
@@ -4872,6 +5821,19 @@
     0.0598,
     11.2611
    ],
+   "bounds": {
+    "at": [
+     21.338,
+     0.9058,
+     11.2611
+    ],
+    "box": [
+     4.0,
+     1.692,
+     1.775
+    ],
+    "yaw": 90.0
+   },
    "model": "models/props_vehicles/trailer002a.mdl",
    "scale": 1.0,
    "shape": true,
@@ -5611,7 +6573,8 @@
   {
    "area": 32.49,
    "chunk": [
-    -2,
+    -3,
+    -1,
     -1
    ],
    "classname": "worldspawn",
@@ -5652,10 +6615,53 @@
    "vertex_count": 42
   },
   {
+   "area": 40.99,
+   "chunk": [
+    -3,
+    0,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    186,
+    187,
+    188,
+    190,
+    191,
+    301,
+    332,
+    333,
+    334
+   ],
+   "colour": [
+    0.2658,
+    0.3058,
+    0.3554
+   ],
+   "entity": null,
+   "free": "pbr:pbr_Metal033",
+   "generic": "pbr_Metal033",
+   "index_count": 51,
+   "index_offset": 2992,
+   "lightmap_page": 0,
+   "material": "cs_assault/assault_metalcrate001d",
+   "model": 0,
+   "normal_offset": 2292,
+   "position_offset": 1992,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 2792,
+   "uv_offset": 2592,
+   "vertex_count": 25
+  },
+  {
    "area": 103.12,
    "chunk": [
-    -2,
-    0
+    -3,
+    1,
+    -1
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -5680,35 +6686,29 @@
    "free": "pbr:pbr_Metal047B",
    "generic": "pbr_Metal047B",
    "index_count": 90,
-   "index_offset": 3912,
+   "index_offset": 5116,
    "lightmap_page": 0,
    "material": "cs_assault/assault_metalcrate001b_red",
    "model": 0,
-   "normal_offset": 2568,
-   "position_offset": 1992,
+   "normal_offset": 3772,
+   "position_offset": 3196,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 3528,
-   "uv_offset": 3144,
+   "uv2_offset": 4732,
+   "uv_offset": 4348,
    "vertex_count": 48
   },
   {
-   "area": 112.71,
+   "area": 71.72,
    "chunk": [
-    -2,
-    0
+    -3,
+    1,
+    -1
    ],
    "classname": "worldspawn",
    "clusters": [
-    186,
-    187,
-    188,
-    190,
-    191,
-    301,
-    332,
     333,
     334,
     359,
@@ -5728,99 +6728,30 @@
    "entity": null,
    "free": "pbr:pbr_Metal033",
    "generic": "pbr_Metal033",
-   "index_count": 282,
-   "index_offset": 10512,
+   "index_count": 231,
+   "index_offset": 10716,
    "lightmap_page": 0,
    "material": "cs_assault/assault_metalcrate001d",
    "model": 0,
-   "normal_offset": 6144,
-   "position_offset": 4272,
+   "normal_offset": 7048,
+   "position_offset": 5476,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 9264,
-   "uv_offset": 8016,
-   "vertex_count": 156
+   "uv2_offset": 9668,
+   "uv_offset": 8620,
+   "vertex_count": 131
   },
   {
-   "area": 133.78,
+   "area": 342.96,
    "chunk": [
+    -2,
     -1,
     -1
    ],
    "classname": "worldspawn",
    "clusters": [
-    1,
-    128,
-    129,
-    132,
-    133,
-    134,
-    139,
-    140,
-    141,
-    152,
-    153,
-    286
-   ],
-   "colour": [
-    0.4758,
-    0.3749,
-    0.3309
-   ],
-   "entity": null,
-   "free": "pbr:pbr_Bricks082B",
-   "generic": "pbr_Bricks082B",
-   "index_count": 57,
-   "index_offset": 13040,
-   "lightmap_page": 0,
-   "material": "brick/brickwall003a",
-   "model": 0,
-   "normal_offset": 12060,
-   "position_offset": 11640,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 12760,
-   "uv_offset": 12480,
-   "vertex_count": 35
-  },
-  {
-   "area": 443.49,
-   "chunk": [
-    -1,
-    -1
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    128,
-    129,
-    130,
-    131,
-    132,
-    133,
-    134,
-    135,
-    136,
-    137,
-    138,
-    139,
-    140,
-    141,
-    142,
-    143,
-    144,
-    145,
-    146,
-    147,
-    148,
-    149,
-    150,
-    151,
-    152,
-    153,
     154,
     155,
     156,
@@ -5875,54 +6806,30 @@
    "entity": null,
    "free": "pbr:pbr_Metal047B",
    "generic": "pbr_Metal047B",
-   "index_count": 798,
-   "index_offset": 32628,
+   "index_count": 546,
+   "index_offset": 24680,
    "lightmap_page": 0,
    "material": "cs_assault/assault_metalcrate001b_red",
    "model": 0,
-   "normal_offset": 19076,
-   "position_offset": 13268,
+   "normal_offset": 15552,
+   "position_offset": 11640,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 28756,
-   "uv_offset": 24884,
-   "vertex_count": 484
+   "uv2_offset": 22072,
+   "uv_offset": 19464,
+   "vertex_count": 326
   },
   {
-   "area": 260.48,
+   "area": 169.8,
    "chunk": [
+    -2,
     -1,
     -1
    ],
    "classname": "worldspawn",
    "clusters": [
-    128,
-    129,
-    131,
-    132,
-    133,
-    134,
-    135,
-    136,
-    137,
-    138,
-    139,
-    140,
-    141,
-    142,
-    143,
-    144,
-    145,
-    146,
-    147,
-    148,
-    149,
-    150,
-    151,
-    152,
-    153,
     154,
     155,
     156,
@@ -5961,7 +6868,6 @@
     189,
     190,
     191,
-    287,
     301,
     302,
     303,
@@ -5975,26 +6881,566 @@
    "entity": null,
    "free": "pbr:pbr_Metal033",
    "generic": "pbr_Metal033",
-   "index_count": 882,
-   "index_offset": 55820,
+   "index_count": 492,
+   "index_offset": 37984,
    "lightmap_page": 0,
    "material": "cs_assault/assault_metalcrate001d",
    "model": 0,
-   "normal_offset": 41820,
-   "position_offset": 35820,
+   "normal_offset": 30200,
+   "position_offset": 26864,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 51820,
-   "uv_offset": 47820,
-   "vertex_count": 500
+   "uv2_offset": 35760,
+   "uv_offset": 33536,
+   "vertex_count": 278
+  },
+  {
+   "area": 430.13,
+   "chunk": [
+    -2,
+    0,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    169,
+    184,
+    185,
+    186,
+    191,
+    287,
+    288,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    301,
+    302,
+    303,
+    304,
+    309,
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    317,
+    318,
+    319,
+    321,
+    322,
+    323,
+    327,
+    328,
+    330,
+    331,
+    332,
+    333,
+    334,
+    358,
+    359,
+    361
+   ],
+   "colour": [
+    0.4275,
+    0.2666,
+    0.2544
+   ],
+   "entity": null,
+   "free": "pbr:pbr_Metal047B",
+   "generic": "pbr_Metal047B",
+   "index_count": 522,
+   "index_offset": 50592,
+   "lightmap_page": 0,
+   "material": "cs_assault/assault_metalcrate001b_red",
+   "model": 0,
+   "normal_offset": 43144,
+   "position_offset": 39952,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 48464,
+   "uv_offset": 46336,
+   "vertex_count": 266
+  },
+  {
+   "area": 348.04,
+   "chunk": [
+    -2,
+    0,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    190,
+    191,
+    287,
+    288,
+    289,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    317,
+    318,
+    319,
+    321,
+    322,
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    330,
+    332,
+    333,
+    351
+   ],
+   "colour": [
+    0.2658,
+    0.3058,
+    0.3554
+   ],
+   "entity": null,
+   "free": "pbr:pbr_Metal033",
+   "generic": "pbr_Metal033",
+   "index_count": 918,
+   "index_offset": 73480,
+   "lightmap_page": 0,
+   "material": "cs_assault/assault_metalcrate001d",
+   "model": 0,
+   "normal_offset": 58920,
+   "position_offset": 52680,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 69320,
+   "uv_offset": 65160,
+   "vertex_count": 520
+  },
+  {
+   "area": 195.84,
+   "chunk": [
+    -2,
+    1,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    294,
+    299,
+    300,
+    316,
+    318,
+    319,
+    320,
+    329,
+    331,
+    333,
+    338,
+    339,
+    340,
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353,
+    355,
+    356,
+    357,
+    358,
+    361
+   ],
+   "colour": [
+    0.4275,
+    0.2666,
+    0.2544
+   ],
+   "entity": null,
+   "free": "pbr:pbr_Metal047B",
+   "generic": "pbr_Metal047B",
+   "index_count": 285,
+   "index_offset": 83272,
+   "lightmap_page": 0,
+   "material": "cs_assault/assault_metalcrate001b_red",
+   "model": 0,
+   "normal_offset": 78988,
+   "position_offset": 77152,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 82048,
+   "uv_offset": 80824,
+   "vertex_count": 153
+  },
+  {
+   "area": 223.43,
+   "chunk": [
+    -2,
+    1,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    294,
+    296,
+    297,
+    298,
+    299,
+    300,
+    316,
+    318,
+    319,
+    320,
+    328,
+    329,
+    330,
+    331,
+    333,
+    336,
+    337,
+    338,
+    339,
+    340,
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    361
+   ],
+   "colour": [
+    0.2658,
+    0.3058,
+    0.3554
+   ],
+   "entity": null,
+   "free": "pbr:pbr_Metal033",
+   "generic": "pbr_Metal033",
+   "index_count": 633,
+   "index_offset": 99652,
+   "lightmap_page": 0,
+   "material": "cs_assault/assault_metalcrate001d",
+   "model": 0,
+   "normal_offset": 88984,
+   "position_offset": 84412,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 96604,
+   "uv_offset": 93556,
+   "vertex_count": 381
+  },
+  {
+   "area": 46.8,
+   "chunk": [
+    -1,
+    -1,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    154,
+    155,
+    156,
+    166,
+    169
+   ],
+   "colour": [
+    0.4275,
+    0.2666,
+    0.2544
+   ],
+   "entity": null,
+   "free": "pbr:pbr_Metal047B",
+   "generic": "pbr_Metal047B",
+   "index_count": 144,
+   "index_offset": 106024,
+   "lightmap_page": 0,
+   "material": "cs_assault/assault_metalcrate001b_red",
+   "model": 0,
+   "normal_offset": 103336,
+   "position_offset": 102184,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 105256,
+   "uv_offset": 104488,
+   "vertex_count": 96
+  },
+  {
+   "area": 59.46,
+   "chunk": [
+    -1,
+    -1,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    154,
+    155,
+    156,
+    166,
+    167,
+    168,
+    169,
+    287
+   ],
+   "colour": [
+    0.2658,
+    0.3058,
+    0.3554
+   ],
+   "entity": null,
+   "free": "pbr:pbr_Metal033",
+   "generic": "pbr_Metal033",
+   "index_count": 312,
+   "index_offset": 113320,
+   "lightmap_page": 0,
+   "material": "cs_assault/assault_metalcrate001d",
+   "model": 0,
+   "normal_offset": 108616,
+   "position_offset": 106600,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 111976,
+   "uv_offset": 110632,
+   "vertex_count": 168
+  },
+  {
+   "area": 133.78,
+   "chunk": [
+    -1,
+    -1,
+    0
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    1,
+    128,
+    129,
+    132,
+    133,
+    134,
+    139,
+    140,
+    141,
+    152,
+    153,
+    286
+   ],
+   "colour": [
+    0.4758,
+    0.3749,
+    0.3309
+   ],
+   "entity": null,
+   "free": "pbr:pbr_Bricks082B",
+   "generic": "pbr_Bricks082B",
+   "index_count": 57,
+   "index_offset": 115968,
+   "lightmap_page": 0,
+   "material": "brick/brickwall003a",
+   "model": 0,
+   "normal_offset": 114988,
+   "position_offset": 114568,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 115688,
+   "uv_offset": 115408,
+   "vertex_count": 35
+  },
+  {
+   "area": 53.73,
+   "chunk": [
+    -1,
+    -1,
+    0
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    152,
+    153
+   ],
+   "colour": [
+    0.4275,
+    0.2666,
+    0.2544
+   ],
+   "entity": null,
+   "free": "pbr:pbr_Metal047B",
+   "generic": "pbr_Metal047B",
+   "index_count": 108,
+   "index_offset": 118676,
+   "lightmap_page": 0,
+   "material": "cs_assault/assault_metalcrate001b_red",
+   "model": 0,
+   "normal_offset": 116940,
+   "position_offset": 116196,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 118180,
+   "uv_offset": 117684,
+   "vertex_count": 62
+  },
+  {
+   "area": 31.22,
+   "chunk": [
+    -1,
+    -1,
+    0
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    128,
+    129,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    152,
+    153
+   ],
+   "colour": [
+    0.2658,
+    0.3058,
+    0.3554
+   ],
+   "entity": null,
+   "free": "pbr:pbr_Metal033",
+   "generic": "pbr_Metal033",
+   "index_count": 78,
+   "index_offset": 121268,
+   "lightmap_page": 0,
+   "material": "cs_assault/assault_metalcrate001d",
+   "model": 0,
+   "normal_offset": 119756,
+   "position_offset": 119108,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 120836,
+   "uv_offset": 120404,
+   "vertex_count": 54
   },
   {
    "area": 170.85,
    "chunk": [
     -1,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
@@ -6025,29 +7471,104 @@
    "free": "pbr:pbr_worn_mossy_plasterwall",
    "generic": "pbr_worn_mossy_plasterwall",
    "index_count": 135,
-   "index_offset": 62108,
+   "index_offset": 124340,
    "lightmap_page": 0,
    "material": "de_train/train_cement_floor_01",
    "model": 0,
-   "normal_offset": 60176,
-   "position_offset": 59348,
+   "normal_offset": 122408,
+   "position_offset": 121580,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 61556,
-   "uv_offset": 61004,
+   "uv2_offset": 123788,
+   "uv_offset": 123236,
    "vertex_count": 69
   },
   {
-   "area": 181.35,
+   "area": 57.23,
    "chunk": [
     -1,
+    0,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    288,
+    292
+   ],
+   "colour": [
+    0.4275,
+    0.2666,
+    0.2544
+   ],
+   "entity": null,
+   "free": "pbr:pbr_Metal047B",
+   "generic": "pbr_Metal047B",
+   "index_count": 18,
+   "index_offset": 125280,
+   "lightmap_page": 0,
+   "material": "cs_assault/assault_metalcrate001b_red",
+   "model": 0,
+   "normal_offset": 125000,
+   "position_offset": 124880,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 125200,
+   "uv_offset": 125120,
+   "vertex_count": 10
+  },
+  {
+   "area": 62.06,
+   "chunk": [
+    -1,
+    0,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    169,
+    287,
+    288,
+    289,
+    294,
+    295,
+    336
+   ],
+   "colour": [
+    0.2658,
+    0.3058,
+    0.3554
+   ],
+   "entity": null,
+   "free": "pbr:pbr_Metal033",
+   "generic": "pbr_Metal033",
+   "index_count": 138,
+   "index_offset": 128392,
+   "lightmap_page": 0,
+   "material": "cs_assault/assault_metalcrate001d",
+   "model": 0,
+   "normal_offset": 126264,
+   "position_offset": 125352,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 127784,
+   "uv_offset": 127176,
+   "vertex_count": 76
+  },
+  {
+   "area": 95.13,
+   "chunk": [
+    -1,
+    0,
     0
    ],
    "classname": "worldspawn",
    "clusters": [
-    127,
     153,
     286,
     335
@@ -6060,25 +7581,26 @@
    "entity": null,
    "free": "pbr:pbr_Bricks082B",
    "generic": "pbr_Bricks082B",
-   "index_count": 42,
-   "index_offset": 63688,
+   "index_count": 24,
+   "index_offset": 129504,
    "lightmap_page": 0,
    "material": "brick/brickwall003a",
    "model": 0,
-   "normal_offset": 62960,
-   "position_offset": 62648,
+   "normal_offset": 129112,
+   "position_offset": 128944,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 63480,
-   "uv_offset": 63272,
-   "vertex_count": 26
+   "uv2_offset": 129392,
+   "uv_offset": 129280,
+   "vertex_count": 14
   },
   {
    "area": 38.28,
    "chunk": [
     -1,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -6182,24 +7704,25 @@
    "free": "pbr:pbr_MetalPlates016B",
    "generic": "pbr_MetalPlates016B",
    "index_count": 672,
-   "index_offset": 80336,
+   "index_offset": 146080,
    "lightmap_page": 0,
    "material": "cs_assault/assault_metalcrate001a",
    "model": 0,
-   "normal_offset": 68800,
-   "position_offset": 63856,
+   "normal_offset": 134544,
+   "position_offset": 129600,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 77040,
-   "uv_offset": 73744,
+   "uv2_offset": 142784,
+   "uv_offset": 139488,
    "vertex_count": 412
   },
   {
-   "area": 932.92,
+   "area": 72.65,
    "chunk": [
     -1,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -6207,11 +7730,6 @@
     105,
     106,
     111,
-    169,
-    184,
-    185,
-    186,
-    191,
     193,
     194,
     195,
@@ -6299,68 +7817,7 @@
     283,
     284,
     285,
-    286,
-    287,
-    288,
-    290,
-    291,
-    292,
-    293,
-    294,
-    295,
-    299,
-    300,
-    301,
-    302,
-    303,
-    304,
-    309,
-    310,
-    311,
-    312,
-    313,
-    314,
-    315,
-    316,
-    317,
-    318,
-    319,
-    320,
-    321,
-    322,
-    323,
-    327,
-    328,
-    329,
-    330,
-    331,
-    332,
-    333,
-    334,
-    336,
-    337,
-    338,
-    339,
-    340,
-    341,
-    342,
-    343,
-    344,
-    345,
-    346,
-    347,
-    348,
-    349,
-    350,
-    351,
-    352,
-    353,
-    355,
-    356,
-    357,
-    358,
-    359,
-    361
+    286
    ],
    "colour": [
     0.4275,
@@ -6370,138 +7827,26 @@
    "entity": null,
    "free": "pbr:pbr_Metal047B",
    "generic": "pbr_Metal047B",
-   "index_count": 1518,
-   "index_offset": 116224,
+   "index_count": 579,
+   "index_offset": 162408,
    "lightmap_page": 0,
    "material": "cs_assault/assault_metalcrate001b_red",
    "model": 0,
-   "normal_offset": 92984,
-   "position_offset": 83024,
+   "normal_offset": 152860,
+   "position_offset": 148768,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 109584,
-   "uv_offset": 102944,
-   "vertex_count": 830
+   "uv2_offset": 159680,
+   "uv_offset": 156952,
+   "vertex_count": 341
   },
   {
-   "area": 755.88,
+   "area": 248.79,
    "chunk": [
     -1,
-    0
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    169,
-    183,
-    184,
-    185,
-    186,
-    187,
-    188,
-    190,
-    191,
-    287,
-    288,
-    289,
-    290,
-    291,
-    292,
-    293,
-    294,
-    295,
-    296,
-    297,
-    298,
-    299,
-    300,
-    301,
-    302,
-    303,
-    304,
-    305,
-    306,
-    307,
-    308,
-    309,
-    310,
-    311,
-    312,
-    313,
-    314,
-    315,
-    316,
-    317,
-    318,
-    319,
-    320,
-    321,
-    322,
-    323,
-    324,
-    325,
-    326,
-    327,
-    328,
-    329,
-    330,
-    331,
-    332,
-    333,
-    336,
-    337,
-    338,
-    339,
-    340,
-    341,
-    342,
-    343,
-    344,
-    345,
-    346,
-    347,
-    348,
-    349,
-    350,
-    351,
-    352,
-    353,
-    354,
-    355,
-    356,
-    357,
-    358,
-    359,
-    361
-   ],
-   "colour": [
-    0.2658,
-    0.3058,
-    0.3554
-   ],
-   "entity": null,
-   "free": "pbr:pbr_Metal033",
-   "generic": "pbr_Metal033",
-   "index_count": 1881,
-   "index_offset": 165776,
-   "lightmap_page": 0,
-   "material": "cs_assault/assault_metalcrate001d",
-   "model": 0,
-   "normal_offset": 135340,
-   "position_offset": 122296,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 157080,
-   "uv_offset": 148384,
-   "vertex_count": 1087
-  },
-  {
-   "area": 314.66,
-   "chunk": [
-    -1,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -6510,7 +7855,6 @@
     107,
     111,
     116,
-    127,
     135,
     137,
     138,
@@ -6536,25 +7880,26 @@
    "entity": null,
    "free": "pbr:pbr_worn_mossy_plasterwall",
    "generic": "pbr_worn_mossy_plasterwall",
-   "index_count": 111,
-   "index_offset": 175420,
+   "index_count": 84,
+   "index_offset": 166244,
    "lightmap_page": 0,
    "material": "de_train/train_cement_floor_01",
    "model": 0,
-   "normal_offset": 173936,
-   "position_offset": 173300,
+   "normal_offset": 165180,
+   "position_offset": 164724,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 174996,
-   "uv_offset": 174572,
-   "vertex_count": 53
+   "uv2_offset": 165940,
+   "uv_offset": 165636,
+   "vertex_count": 38
   },
   {
-   "area": 55.38,
+   "area": 55.1,
    "chunk": [
     -1,
+    0,
     0
    ],
    "classname": "worldspawn",
@@ -6665,32 +8010,256 @@
    "free": "generated:bars:404020",
    "generic": "bars",
    "glass": "bars",
-   "index_count": 819,
-   "index_offset": 194304,
+   "index_count": 783,
+   "index_offset": 184140,
    "lightmap_page": 0,
    "material": "metal/metalrail003a",
    "model": 0,
-   "normal_offset": 181396,
-   "position_offset": 175864,
+   "normal_offset": 171848,
+   "position_offset": 166580,
    "texels": [
     512,
     128
    ],
-   "uv2_offset": 190616,
-   "uv_offset": 186928,
-   "vertex_count": 461
+   "uv2_offset": 180628,
+   "uv_offset": 177116,
+   "vertex_count": 439
   },
   {
-   "area": 187.29,
+   "area": 0.28,
    "chunk": [
+    -1,
     0,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    111,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    229,
+    236,
+    253,
+    254,
+    255,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    286
+   ],
+   "colour": [
+    0.1982,
+    0.1896,
+    0.1692
+   ],
+   "entity": null,
+   "free": "generated:bars:404020",
+   "generic": "bars",
+   "glass": "bars",
+   "index_count": 36,
+   "index_offset": 188152,
+   "lightmap_page": 0,
+   "material": "metal/metalrail003a",
+   "model": 0,
+   "normal_offset": 187536,
+   "position_offset": 187272,
+   "texels": [
+    512,
+    128
+   ],
+   "uv2_offset": 187976,
+   "uv_offset": 187800,
+   "vertex_count": 22
+  },
+  {
+   "area": 177.07,
+   "chunk": [
+    -1,
+    1,
     -1
    ],
    "classname": "worldspawn",
    "clusters": [
-    0,
+    294,
+    295,
+    299,
+    336,
+    337,
+    339,
+    340,
+    341,
+    342,
+    343,
+    348,
+    349
+   ],
+   "colour": [
+    0.4275,
+    0.2666,
+    0.2544
+   ],
+   "entity": null,
+   "free": "pbr:pbr_Metal047B",
+   "generic": "pbr_Metal047B",
+   "index_count": 114,
+   "index_offset": 190696,
+   "lightmap_page": 0,
+   "material": "cs_assault/assault_metalcrate001b_red",
+   "model": 0,
+   "normal_offset": 189016,
+   "position_offset": 188296,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 190216,
+   "uv_offset": 189736,
+   "vertex_count": 60
+  },
+  {
+   "area": 122.35,
+   "chunk": [
+    -1,
     1,
-    2,
+    -1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    336,
+    337,
+    339,
+    340,
+    341,
+    342,
+    343,
+    347,
+    348,
+    349
+   ],
+   "colour": [
+    0.2658,
+    0.3058,
+    0.3554
+   ],
+   "entity": null,
+   "free": "pbr:pbr_Metal033",
+   "generic": "pbr_Metal033",
+   "index_count": 192,
+   "index_offset": 195552,
+   "lightmap_page": 0,
+   "material": "cs_assault/assault_metalcrate001d",
+   "model": 0,
+   "normal_offset": 192472,
+   "position_offset": 191152,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 194672,
+   "uv_offset": 193792,
+   "vertex_count": 110
+  },
+  {
+   "area": 86.21,
+   "chunk": [
+    -1,
+    1,
+    0
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    127,
+    286,
+    335
+   ],
+   "colour": [
+    0.4758,
+    0.3749,
+    0.3309
+   ],
+   "entity": null,
+   "free": "pbr:pbr_Bricks082B",
+   "generic": "pbr_Bricks082B",
+   "index_count": 18,
+   "index_offset": 196800,
+   "lightmap_page": 0,
+   "material": "brick/brickwall003a",
+   "model": 0,
+   "normal_offset": 196464,
+   "position_offset": 196320,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 196704,
+   "uv_offset": 196608,
+   "vertex_count": 12
+  },
+  {
+   "area": 65.87,
+   "chunk": [
+    -1,
+    1,
+    0
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    111,
+    116,
+    127,
+    285,
+    286,
+    335
+   ],
+   "colour": [
+    0.5153,
+    0.4951,
+    0.4655
+   ],
+   "entity": null,
+   "free": "pbr:pbr_worn_mossy_plasterwall",
+   "generic": "pbr_worn_mossy_plasterwall",
+   "index_count": 27,
+   "index_offset": 197472,
+   "lightmap_page": 0,
+   "material": "de_train/train_cement_floor_01",
+   "model": 0,
+   "normal_offset": 197052,
+   "position_offset": 196872,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 197352,
+   "uv_offset": 197232,
+   "vertex_count": 15
+  },
+  {
+   "area": 92.16,
+   "chunk": [
+    0,
+    -1,
+    0
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    1,
     128,
     132
    ],
@@ -6702,32 +8271,31 @@
    "entity": null,
    "free": "pbr:pbr_Bricks082B",
    "generic": "pbr_Bricks082B",
-   "index_count": 42,
-   "index_offset": 198620,
+   "index_count": 15,
+   "index_offset": 197940,
    "lightmap_page": 0,
    "material": "brick/brickwall003a",
    "model": 0,
-   "normal_offset": 197892,
+   "normal_offset": 197688,
    "position_offset": 197580,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 198412,
-   "uv_offset": 198204,
-   "vertex_count": 26
+   "uv2_offset": 197868,
+   "uv_offset": 197796,
+   "vertex_count": 9
   },
   {
-   "area": 344.95,
+   "area": 270.72,
    "chunk": [
     0,
-    -1
+    -1,
+    0
    ],
    "classname": "worldspawn",
    "clusters": [
-    0,
     1,
-    2,
     3,
     11,
     132,
@@ -6742,64 +8310,25 @@
    "entity": null,
    "free": "pbr:pbr_worn_mossy_plasterwall",
    "generic": "pbr_worn_mossy_plasterwall",
-   "index_count": 57,
-   "index_offset": 200188,
+   "index_count": 30,
+   "index_offset": 198720,
    "lightmap_page": 0,
    "material": "de_train/train_cement_floor_01",
    "model": 0,
-   "normal_offset": 199208,
-   "position_offset": 198788,
+   "normal_offset": 198216,
+   "position_offset": 198000,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 199908,
-   "uv_offset": 199628,
-   "vertex_count": 35
+   "uv2_offset": 198576,
+   "uv_offset": 198432,
+   "vertex_count": 18
   },
   {
-   "area": 233.37,
+   "area": 529.36,
    "chunk": [
     0,
-    0
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    0,
-    2,
-    112,
-    113,
-    114,
-    115,
-    127,
-    335
-   ],
-   "colour": [
-    0.4758,
-    0.3749,
-    0.3309
-   ],
-   "entity": null,
-   "free": "pbr:pbr_Bricks082B",
-   "generic": "pbr_Bricks082B",
-   "index_count": 75,
-   "index_offset": 202216,
-   "lightmap_page": 0,
-   "material": "brick/brickwall003a",
-   "model": 0,
-   "normal_offset": 200956,
-   "position_offset": 200416,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 201856,
-   "uv_offset": 201496,
-   "vertex_count": 45
-  },
-  {
-   "area": 710.52,
-   "chunk": [
     0,
     0
    ],
@@ -6950,24 +8479,25 @@
    "entity": null,
    "free": "pbr:pbr_MetalPlates016B",
    "generic": "pbr_MetalPlates016B",
-   "index_count": 2439,
-   "index_offset": 256956,
+   "index_count": 1917,
+   "index_offset": 242160,
    "lightmap_page": 0,
    "material": "cs_assault/assault_metalcrate001a",
    "model": 0,
-   "normal_offset": 218848,
-   "position_offset": 202516,
+   "normal_offset": 211836,
+   "position_offset": 198840,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 246068,
-   "uv_offset": 235180,
-   "vertex_count": 1361
+   "uv2_offset": 233496,
+   "uv_offset": 224832,
+   "vertex_count": 1083
   },
   {
-   "area": 1043.3,
+   "area": 745.64,
    "chunk": [
+    0,
     0,
     0
    ],
@@ -6975,7 +8505,6 @@
    "clusters": [
     1,
     3,
-    4,
     5,
     6,
     7,
@@ -7018,7 +8547,6 @@
     45,
     46,
     47,
-    48,
     49,
     50,
     51,
@@ -7061,27 +8589,18 @@
     90,
     91,
     92,
-    93,
-    96,
     97,
     98,
     99,
-    100,
     101,
     102,
     103,
-    104,
     105,
     106,
     107,
-    108,
-    111,
-    128,
-    192,
     195,
     201,
-    202,
-    275
+    202
    ],
    "colour": [
     0.4275,
@@ -7091,112 +8610,31 @@
    "entity": null,
    "free": "pbr:pbr_Metal047B",
    "generic": "pbr_Metal047B",
-   "index_count": 981,
-   "index_offset": 289392,
+   "index_count": 768,
+   "index_offset": 267748,
    "lightmap_page": 0,
    "material": "cs_assault/assault_metalcrate001b_red",
    "model": 0,
-   "normal_offset": 273516,
-   "position_offset": 266712,
+   "normal_offset": 255204,
+   "position_offset": 249828,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 284856,
-   "uv_offset": 280320,
-   "vertex_count": 567
+   "uv2_offset": 264164,
+   "uv_offset": 260580,
+   "vertex_count": 448
   },
   {
-   "area": 10.78,
+   "area": 142.98,
    "chunk": [
+    0,
     0,
     0
    ],
    "classname": "worldspawn",
    "clusters": [
-    116,
-    117,
-    118,
-    119,
-    120,
-    121,
-    122,
-    123,
-    124,
-    125,
-    126,
-    127
-   ],
-   "colour": [
-    0.2658,
-    0.3058,
-    0.3554
-   ],
-   "entity": null,
-   "free": "pbr:pbr_Metal033",
-   "generic": "pbr_Metal033",
-   "index_count": 267,
-   "index_offset": 300076,
-   "lightmap_page": 0,
-   "material": "cs_assault/assault_metalcrate001d",
-   "model": 0,
-   "normal_offset": 295344,
-   "position_offset": 293316,
-   "texels": [
-    512,
-    512
-   ],
-   "uv2_offset": 298724,
-   "uv_offset": 297372,
-   "vertex_count": 169
-  },
-  {
-   "area": 5.95,
-   "chunk": [
-    0,
-    0
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    112,
-    113,
-    114,
-    115
-   ],
-   "colour": [
-    0.4138,
-    0.3902,
-    0.3636
-   ],
-   "entity": null,
-   "free": "pbr:pbr_brown_planks_03",
-   "generic": "pbr_brown_planks_03",
-   "index_count": 24,
-   "index_offset": 301784,
-   "lightmap_page": 0,
-   "material": "de_cbble/cratesm01b",
-   "model": 0,
-   "normal_offset": 301336,
-   "position_offset": 301144,
-   "texels": [
-    256,
-    256
-   ],
-   "uv2_offset": 301656,
-   "uv_offset": 301528,
-   "vertex_count": 16
-  },
-  {
-   "area": 428.75,
-   "chunk": [
-    0,
-    0
-   ],
-   "classname": "worldspawn",
-   "clusters": [
-    0,
     1,
-    2,
     3,
     11,
     64,
@@ -7210,11 +8648,7 @@
     92,
     99,
     111,
-    112,
-    114,
-    115,
     116,
-    127,
     285,
     335
    ],
@@ -7226,24 +8660,25 @@
    "entity": null,
    "free": "pbr:pbr_worn_mossy_plasterwall",
    "generic": "pbr_worn_mossy_plasterwall",
-   "index_count": 219,
-   "index_offset": 306560,
+   "index_count": 84,
+   "index_offset": 272420,
    "lightmap_page": 0,
    "material": "de_train/train_cement_floor_01",
    "model": 0,
-   "normal_offset": 303284,
-   "position_offset": 301880,
+   "normal_offset": 271300,
+   "position_offset": 270820,
    "texels": [
     512,
     512
    ],
-   "uv2_offset": 305624,
-   "uv_offset": 304688,
-   "vertex_count": 117
+   "uv2_offset": 272100,
+   "uv_offset": 271780,
+   "vertex_count": 40
   },
   {
-   "area": 54.79,
+   "area": 54.5,
    "chunk": [
+    0,
     0,
     0
    ],
@@ -7350,20 +8785,564 @@
    "free": "generated:bars:404020",
    "generic": "bars",
    "glass": "bars",
-   "index_count": 768,
-   "index_offset": 324556,
+   "index_count": 732,
+   "index_offset": 288996,
    "lightmap_page": 0,
    "material": "metal/metalrail003a",
    "model": 0,
-   "normal_offset": 312572,
-   "position_offset": 307436,
+   "normal_offset": 277628,
+   "position_offset": 272756,
    "texels": [
     512,
     128
    ],
-   "uv2_offset": 321132,
-   "uv_offset": 317708,
-   "vertex_count": 428
+   "uv2_offset": 285748,
+   "uv_offset": 282500,
+   "vertex_count": 406
+  },
+  {
+   "area": 181.16,
+   "chunk": [
+    0,
+    0,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    1,
+    4,
+    6,
+    10,
+    48,
+    52,
+    53,
+    54,
+    94,
+    97,
+    101,
+    105,
+    109,
+    111,
+    128,
+    192,
+    193,
+    194,
+    195,
+    275,
+    276,
+    280,
+    281
+   ],
+   "colour": [
+    0.3214,
+    0.3592,
+    0.4071
+   ],
+   "entity": null,
+   "free": "pbr:pbr_MetalPlates016B",
+   "generic": "pbr_MetalPlates016B",
+   "index_count": 522,
+   "index_offset": 303044,
+   "lightmap_page": 0,
+   "material": "cs_assault/assault_metalcrate001a",
+   "model": 0,
+   "normal_offset": 295260,
+   "position_offset": 291924,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 300820,
+   "uv_offset": 298596,
+   "vertex_count": 278
+  },
+  {
+   "area": 297.66,
+   "chunk": [
+    0,
+    0,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    1,
+    4,
+    48,
+    93,
+    96,
+    100,
+    101,
+    104,
+    108,
+    111,
+    128,
+    192,
+    275
+   ],
+   "colour": [
+    0.4275,
+    0.2666,
+    0.2544
+   ],
+   "entity": null,
+   "free": "pbr:pbr_Metal047B",
+   "generic": "pbr_Metal047B",
+   "index_count": 213,
+   "index_offset": 309892,
+   "lightmap_page": 0,
+   "material": "cs_assault/assault_metalcrate001b_red",
+   "model": 0,
+   "normal_offset": 306560,
+   "position_offset": 305132,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 308940,
+   "uv_offset": 307988,
+   "vertex_count": 119
+  },
+  {
+   "area": 0.28,
+   "chunk": [
+    0,
+    0,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54
+   ],
+   "colour": [
+    0.1982,
+    0.1896,
+    0.1692
+   ],
+   "entity": null,
+   "free": "generated:bars:404020",
+   "generic": "bars",
+   "glass": "bars",
+   "index_count": 36,
+   "index_offset": 311624,
+   "lightmap_page": 0,
+   "material": "metal/metalrail003a",
+   "model": 0,
+   "normal_offset": 311008,
+   "position_offset": 310744,
+   "texels": [
+    512,
+    128
+   ],
+   "uv2_offset": 311448,
+   "uv_offset": 311272,
+   "vertex_count": 22
+  },
+  {
+   "area": 92.16,
+   "chunk": [
+    0,
+    1,
+    0
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    127,
+    335
+   ],
+   "colour": [
+    0.4758,
+    0.3749,
+    0.3309
+   ],
+   "entity": null,
+   "free": "pbr:pbr_Bricks082B",
+   "generic": "pbr_Bricks082B",
+   "index_count": 12,
+   "index_offset": 312088,
+   "lightmap_page": 0,
+   "material": "brick/brickwall003a",
+   "model": 0,
+   "normal_offset": 311864,
+   "position_offset": 311768,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 312024,
+   "uv_offset": 311960,
+   "vertex_count": 8
+  },
+  {
+   "area": 97.08,
+   "chunk": [
+    0,
+    1,
+    0
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    3,
+    66,
+    92,
+    111,
+    116,
+    127,
+    285,
+    335
+   ],
+   "colour": [
+    0.5153,
+    0.4951,
+    0.4655
+   ],
+   "entity": null,
+   "free": "pbr:pbr_worn_mossy_plasterwall",
+   "generic": "pbr_worn_mossy_plasterwall",
+   "index_count": 39,
+   "index_offset": 313056,
+   "lightmap_page": 0,
+   "material": "de_train/train_cement_floor_01",
+   "model": 0,
+   "normal_offset": 312412,
+   "position_offset": 312136,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 312872,
+   "uv_offset": 312688,
+   "vertex_count": 23
+  },
+  {
+   "area": 10.78,
+   "chunk": [
+    0,
+    1,
+    1
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127
+   ],
+   "colour": [
+    0.2658,
+    0.3058,
+    0.3554
+   ],
+   "entity": null,
+   "free": "pbr:pbr_Metal033",
+   "generic": "pbr_Metal033",
+   "index_count": 267,
+   "index_offset": 319972,
+   "lightmap_page": 0,
+   "material": "cs_assault/assault_metalcrate001d",
+   "model": 0,
+   "normal_offset": 315240,
+   "position_offset": 313212,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 318620,
+   "uv_offset": 317268,
+   "vertex_count": 169
+  },
+  {
+   "area": 95.13,
+   "chunk": [
+    1,
+    -1,
+    0
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    0,
+    1,
+    2
+   ],
+   "colour": [
+    0.4758,
+    0.3749,
+    0.3309
+   ],
+   "entity": null,
+   "free": "pbr:pbr_Bricks082B",
+   "generic": "pbr_Bricks082B",
+   "index_count": 27,
+   "index_offset": 321720,
+   "lightmap_page": 0,
+   "material": "brick/brickwall003a",
+   "model": 0,
+   "normal_offset": 321244,
+   "position_offset": 321040,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 321584,
+   "uv_offset": 321448,
+   "vertex_count": 17
+  },
+  {
+   "area": 74.23,
+   "chunk": [
+    1,
+    -1,
+    0
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "colour": [
+    0.5153,
+    0.4951,
+    0.4655
+   ],
+   "entity": null,
+   "free": "pbr:pbr_worn_mossy_plasterwall",
+   "generic": "pbr_worn_mossy_plasterwall",
+   "index_count": 27,
+   "index_offset": 322508,
+   "lightmap_page": 0,
+   "material": "de_train/train_cement_floor_01",
+   "model": 0,
+   "normal_offset": 322032,
+   "position_offset": 321828,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 322372,
+   "uv_offset": 322236,
+   "vertex_count": 17
+  },
+  {
+   "area": 95.13,
+   "chunk": [
+    1,
+    0,
+    0
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    0,
+    2,
+    112
+   ],
+   "colour": [
+    0.4758,
+    0.3749,
+    0.3309
+   ],
+   "entity": null,
+   "free": "pbr:pbr_Bricks082B",
+   "generic": "pbr_Bricks082B",
+   "index_count": 24,
+   "index_offset": 323176,
+   "lightmap_page": 0,
+   "material": "brick/brickwall003a",
+   "model": 0,
+   "normal_offset": 322784,
+   "position_offset": 322616,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 323064,
+   "uv_offset": 322952,
+   "vertex_count": 14
+  },
+  {
+   "area": 161.28,
+   "chunk": [
+    1,
+    0,
+    0
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    0,
+    1,
+    2,
+    3,
+    11,
+    64,
+    65,
+    66
+   ],
+   "colour": [
+    0.5153,
+    0.4951,
+    0.4655
+   ],
+   "entity": null,
+   "free": "pbr:pbr_worn_mossy_plasterwall",
+   "generic": "pbr_worn_mossy_plasterwall",
+   "index_count": 39,
+   "index_offset": 324112,
+   "lightmap_page": 0,
+   "material": "de_train/train_cement_floor_01",
+   "model": 0,
+   "normal_offset": 323524,
+   "position_offset": 323272,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 323944,
+   "uv_offset": 323776,
+   "vertex_count": 21
+  },
+  {
+   "area": 46.08,
+   "chunk": [
+    1,
+    1,
+    0
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    2,
+    112,
+    113,
+    114,
+    115,
+    127
+   ],
+   "colour": [
+    0.4758,
+    0.3749,
+    0.3309
+   ],
+   "entity": null,
+   "free": "pbr:pbr_Bricks082B",
+   "generic": "pbr_Bricks082B",
+   "index_count": 39,
+   "index_offset": 325188,
+   "lightmap_page": 0,
+   "material": "brick/brickwall003a",
+   "model": 0,
+   "normal_offset": 324544,
+   "position_offset": 324268,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 325004,
+   "uv_offset": 324820,
+   "vertex_count": 23
+  },
+  {
+   "area": 5.95,
+   "chunk": [
+    1,
+    1,
+    0
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    112,
+    113,
+    114,
+    115
+   ],
+   "colour": [
+    0.4138,
+    0.3902,
+    0.3636
+   ],
+   "entity": null,
+   "free": "pbr:pbr_brown_planks_03",
+   "generic": "pbr_brown_planks_03",
+   "index_count": 24,
+   "index_offset": 325984,
+   "lightmap_page": 0,
+   "material": "de_cbble/cratesm01b",
+   "model": 0,
+   "normal_offset": 325536,
+   "position_offset": 325344,
+   "texels": [
+    256,
+    256
+   ],
+   "uv2_offset": 325856,
+   "uv_offset": 325728,
+   "vertex_count": 16
+  },
+  {
+   "area": 27.41,
+   "chunk": [
+    1,
+    1,
+    0
+   ],
+   "classname": "worldspawn",
+   "clusters": [
+    2,
+    3,
+    66,
+    112,
+    114,
+    115,
+    116,
+    127
+   ],
+   "colour": [
+    0.5153,
+    0.4951,
+    0.4655
+   ],
+   "entity": null,
+   "free": "pbr:pbr_worn_mossy_plasterwall",
+   "generic": "pbr_worn_mossy_plasterwall",
+   "index_count": 57,
+   "index_offset": 327400,
+   "lightmap_page": 0,
+   "material": "de_train/train_cement_floor_01",
+   "model": 0,
+   "normal_offset": 326476,
+   "position_offset": 326080,
+   "texels": [
+    512,
+    512
+   ],
+   "uv2_offset": 327136,
+   "uv_offset": 326872,
+   "vertex_count": 33
   }
  ],
  "units": {

@@ -4,22 +4,18 @@ Every texture of this map is a free replacement; the original map's textures and
 
 - generated (water): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
 - pbr (pbr_Ground014): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Ground014
-- pbr (pbr_MetalPlates012): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalPlates012
-- generated (fence): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
-- pbr (pbr_MetalPlates005): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalPlates005
-- pbr (pbr_painted_metal_shutter): polyhaven, Dario Barresi, Rico Cilliers, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/painted_metal_shutter
-- pbr (pbr_DiamondPlate008D): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=DiamondPlate008D
-- pbr (pbr_PaintedMetal014): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=PaintedMetal014
-- pbr (pbr_MetalWalkway005): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalWalkway005
-- pbr (pbr_MetalWalkway007): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalWalkway007
 - pbr (pbr_rusted_shutter): polyhaven, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/rusted_shutter
 - pbr (pbr_Metal028): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal028
-- pbr (pbr_MetalWalkway011): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalWalkway011
-- pbr (pbr_Metal040): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal040
-- generated (bars): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
-- pbr (pbr_Metal006): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal006
-- pbr (pbr_Metal055B): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal055B
 - pbr (pbr_Metal024): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal024
+- pbr (pbr_MetalPlates012): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalPlates012
+- pbr (pbr_MetalWalkway005): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalWalkway005
+- generated (bars): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
+- pbr (pbr_Metal055B): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal055B
+- pbr (pbr_Metal040): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal040
+- pbr (pbr_Metal006): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal006
+- pbr (pbr_painted_metal_shutter): polyhaven, Dario Barresi, Rico Cilliers, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/painted_metal_shutter
+- pbr (pbr_DiamondPlate008D): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=DiamondPlate008D
+- pbr (pbr_MetalWalkway007): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalWalkway007
 - pbr (pbr_PaintedMetal009): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=PaintedMetal009
 - pbr (pbr_Metal001): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal001
 - pbr (pbr_Metal056A): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal056A
@@ -28,6 +24,10 @@ Every texture of this map is a free replacement; the original map's textures and
 - pbr (pbr_rusty_metal_sheet): polyhaven, Amal Kumar, CC0-1.0, https://polyhaven.com/a/rusty_metal_sheet
 - pbr (pbr_Metal056C): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal056C
 - pbr (pbr_rusty_painted_metal): polyhaven, Amal Kumar, CC0-1.0, https://polyhaven.com/a/rusty_painted_metal
+- pbr (pbr_PaintedMetal014): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=PaintedMetal014
+- pbr (pbr_MetalPlates005): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalPlates005
+- pbr (pbr_MetalWalkway011): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalWalkway011
+- generated (fence): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
 - pbr (pbr_Gravel013): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Gravel013
 - pbr (pbr_snow_02): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/snow_02
 - generated (glass): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)

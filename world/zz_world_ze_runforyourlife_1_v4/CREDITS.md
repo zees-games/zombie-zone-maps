@@ -10,8 +10,8 @@ Every texture of this map is a free replacement; the original map's textures and
 - pbr (pbr_Planks002): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Planks002
 - pbr (pbr_grey_plaster_03): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/grey_plaster_03
 - pbr (pbr_MetalWalkway011): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalWalkway011
-- pbr (pbr_Planks037B): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Planks037B
 - pbr (pbr_MetalWalkway014): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalWalkway014
+- pbr (pbr_Planks037B): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Planks037B
 - pbr (pbr_Metal039): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal039
 - pbr (pbr_Metal047B): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal047B
 - pbr (pbr_WoodSiding001): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=WoodSiding001

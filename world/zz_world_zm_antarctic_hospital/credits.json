@@ -13,7 +13,7 @@
    "url": "https://ambientcg.com/view?id=Snow007C",
    "source": "ambientCG",
    "attribution": false,
-   "uses": 26
+   "uses": 75
   },
   {
    "kind": "texture",
@@ -23,7 +23,7 @@
    "url": "https://ambientcg.com/view?id=Snow006",
    "source": "ambientCG",
    "attribution": false,
-   "uses": 11
+   "uses": 34
   },
   {
    "kind": "texture",
@@ -33,7 +33,7 @@
    "url": "https://ambientcg.com/view?id=Bricks065",
    "source": "ambientCG",
    "attribution": false,
-   "uses": 4
+   "uses": 8
   },
   {
    "kind": "texture",
@@ -43,7 +43,7 @@
    "url": "https://polyhaven.com/a/concrete_slab_wall_02",
    "source": "polyhaven",
    "attribution": false,
-   "uses": 4
+   "uses": 9
   },
   {
    "kind": "texture",
@@ -73,7 +73,7 @@
    "url": "https://ambientcg.com/view?id=PaintedMetal013",
    "source": "ambientCG",
    "attribution": false,
-   "uses": 2
+   "uses": 4
   },
   {
    "kind": "texture",
@@ -113,7 +113,7 @@
    "url": "https://polyhaven.com/a/white_rough_plaster",
    "source": "polyhaven",
    "attribution": false,
-   "uses": 2
+   "uses": 4
   },
   {
    "kind": "texture",
@@ -121,16 +121,6 @@
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
    "url": "https://ambientcg.com/view?id=Plaster007",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 3
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_Facade002",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Facade002",
    "source": "ambientCG",
    "attribution": false,
    "uses": 4
@@ -143,7 +133,7 @@
    "url": "https://ambientcg.com/view?id=PaintedPlaster011",
    "source": "ambientCG",
    "attribution": false,
-   "uses": 2
+   "uses": 4
   },
   {
    "kind": "texture",
@@ -163,7 +153,7 @@
    "url": "https://polyhaven.com/a/exterior_wall_cladding_03",
    "source": "polyhaven",
    "attribution": false,
-   "uses": 3
+   "uses": 4
   },
   {
    "kind": "texture",
@@ -183,7 +173,7 @@
    "url": "https://ambientcg.com/view?id=Tiles010",
    "source": "ambientCG",
    "attribution": false,
-   "uses": 2
+   "uses": 4
   },
   {
    "kind": "texture",
@@ -193,7 +183,7 @@
    "url": "https://ambientcg.com/view?id=Fabric028",
    "source": "ambientCG",
    "attribution": false,
-   "uses": 1
+   "uses": 2
   },
   {
    "kind": "texture",
@@ -203,7 +193,7 @@
    "url": "https://polyhaven.com/a/granite_tile_04",
    "source": "polyhaven",
    "attribution": false,
-   "uses": 2
+   "uses": 4
   },
   {
    "kind": "texture",
@@ -223,7 +213,7 @@
    "url": "https://polyhaven.com/a/roof_tiles_14",
    "source": "polyhaven",
    "attribution": false,
-   "uses": 7
+   "uses": 8
   },
   {
    "kind": "texture",
@@ -253,17 +243,17 @@
    "url": "https://ambientcg.com/view?id=WoodFloor041",
    "source": "ambientCG",
    "attribution": false,
-   "uses": 44
+   "uses": 46
   },
   {
    "kind": "texture",
-   "name": "pbr_Concrete013",
+   "name": "pbr_Facade002",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Concrete013",
+   "url": "https://ambientcg.com/view?id=Facade002",
    "source": "ambientCG",
    "attribution": false,
-   "uses": 1
+   "uses": 4
   },
   {
    "kind": "texture",
@@ -272,16 +262,6 @@
    "licence": "CC0-1.0",
    "url": "https://polyhaven.com/a/concrete_block_wall",
    "source": "polyhaven",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_Concrete042B",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Concrete042B",
-   "source": "ambientCG",
    "attribution": false,
    "uses": 1
   },
@@ -303,7 +283,7 @@
    "url": "https://polyhaven.com/a/beige_wall_001",
    "source": "polyhaven",
    "attribution": false,
-   "uses": 2
+   "uses": 3
   },
   {
    "kind": "texture",
@@ -313,7 +293,7 @@
    "url": "https://polyhaven.com/a/beige_wall_002",
    "source": "polyhaven",
    "attribution": false,
-   "uses": 1
+   "uses": 2
   },
   {
    "kind": "texture",
@@ -323,7 +303,7 @@
    "url": "https://polyhaven.com/a/grey_plaster_02",
    "source": "polyhaven",
    "attribution": false,
-   "uses": 1
+   "uses": 2
   },
   {
    "kind": "texture",
@@ -337,13 +317,33 @@
   },
   {
    "kind": "texture",
+   "name": "pbr_Concrete013",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Concrete013",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Concrete042B",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Concrete042B",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "texture",
    "name": "pbr_Asphalt003",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
    "url": "https://ambientcg.com/view?id=Asphalt003",
    "source": "ambientCG",
    "attribution": false,
-   "uses": 1
+   "uses": 2
   },
   {
    "kind": "texture",

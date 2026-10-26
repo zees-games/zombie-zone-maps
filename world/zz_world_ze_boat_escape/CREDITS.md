@@ -9,12 +9,12 @@ Every texture of this map is a free replacement; the original map's textures and
 - pbr (pbr_tree_bark_03): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/tree_bark_03
 - pbr (pbr_WoodFloor056): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=WoodFloor056
 - pbr (pbr_bark_willow): polyhaven, Dario Barresi, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/bark_willow
-- pbr (pbr_MetalWalkway011): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalWalkway011
 - pbr (pbr_dark_planks): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/dark_planks
+- pbr (pbr_MetalWalkway011): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalWalkway011
+- pbr (pbr_Metal020): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal020
 - pbr (pbr_Gravel021): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Gravel021
 - pbr (pbr_PavingStones098): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=PavingStones098
 - pbr (pbr_Metal056C): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal056C
-- pbr (pbr_Metal020): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal020
 - pbr (pbr_Concrete025): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Concrete025
 - pbr (pbr_old_planks_02): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/old_planks_02
 - pbr (pbr_Metal011): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal011
