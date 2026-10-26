@@ -6,7 +6,11 @@
 HERE="$(cd "$(dirname "$0")" && pwd)"
 GAME="${GAME:-$HERE/../../game-zombie-zone}"
 TMP="$(mktemp)"
-trap 'rm -f "$TMP"' EXIT
+# A world's licence names its model library as ../../.stores/model-library beside the pack, which from the game's res://world/<pack>
+# is the game's own .stores: without that link no stand-in loads and every document gets 0 boxes (check_worlds then fails 21 worlds).
+LINKED=
+if [ ! -e "$GAME/.stores" ]; then ln -s "$(cd "$HERE/.." && pwd)/.stores" "$GAME/.stores" && LINKED=1; fi
+trap 'rm -f "$TMP"; [ -n "$LINKED" ] && rm -f "$GAME/.stores"' EXIT
 # Every document naming a world, or those of the ids given that do (a map with no drawn world has no props to box).
 set -- $(python3 -I - "$HERE/../maps" "$@" <<'PY'
 import glob, json, os, sys
