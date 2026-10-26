@@ -715,6 +715,26 @@ def cut_links(argv):
     return rc if check else 0
 
 
+def add_links(argv):
+    """`--add-links <spec> <doc>...`: append the spec's `extra_links` and `add_boxes` the committed documents lack, without a re-conversion (which drifts boxes and lights)."""
+    spec = json.load(open(argv[2]))
+    for path in argv[3:]:
+        with open(path) as f:
+            doc = json.load(f)
+        have = {tuple(l) for l in doc["nav"]["links"]}
+        new = [list(l) for l in spec.get("extra_links", []) if tuple(l) not in have]
+        have_boxes = {(tuple(b["at"]), tuple(b["size"])) for b in doc["boxes"]}
+        patches = [dict(b) for b in spec.get("add_boxes", []) if (tuple(b["at"]), tuple(b["size"])) not in have_boxes]
+        print("%s: %d extra links, %d added boxes appended" % (doc["id"], len(new), len(patches)))
+        if new or patches:
+            doc["nav"]["links"].extend(new)
+            doc["boxes"].extend(patches)
+            with open(path, "w") as f:
+                json.dump(doc, f, indent=1)
+                f.write("\n")
+    return 0
+
+
 def link_obstacles(boxes, floors):
     """The solid boxes a link's line must not run through (floors a body stands on are not)."""
     import nav_emulate
@@ -1138,6 +1158,8 @@ def main(argv):
         return rewater(argv)
     if len(argv) > 4 and argv[1] in ("--lights-only", "--lights-only-check"):
         return relight(argv)
+    if len(argv) > 3 and argv[1] == "--add-links":
+        return add_links(argv)
     if len(argv) > 3 and argv[1] in ("--cut-links", "--cut-links-check"):
         return cut_links(argv)
     full = {}
