@@ -24546,68 +24546,6 @@
     "url": "https://kenney.nl/assets/foley-sounds"
    }
   ],
-  "store_pack": {
-   "id": "gamemann/store-zz_world_ze_potc",
-   "shared": [
-    {
-     "id": "gamemann/store-shared-077741ae",
-     "version": "hdcd0aeee"
-    },
-    {
-     "id": "gamemann/store-shared-295221a6",
-     "version": "h07fc15aa"
-    },
-    {
-     "id": "gamemann/store-shared-44a432c9",
-     "version": "h4078c602"
-    },
-    {
-     "id": "gamemann/store-shared-47c24036",
-     "version": "h4962c93a"
-    },
-    {
-     "id": "gamemann/store-shared-67ce8f74",
-     "version": "h3237ab16"
-    },
-    {
-     "id": "gamemann/store-shared-74774f64",
-     "version": "h3a47b547"
-    },
-    {
-     "id": "gamemann/store-shared-7bde27a9",
-     "version": "h55434c57"
-    },
-    {
-     "id": "gamemann/store-shared-7cd5ef2a",
-     "version": "h54211258"
-    },
-    {
-     "id": "gamemann/store-shared-b9b39d95",
-     "version": "he5650861"
-    },
-    {
-     "id": "gamemann/store-shared-cab6fcc7",
-     "version": "h66165e51"
-    },
-    {
-     "id": "gamemann/store-shared-d6c13a74",
-     "version": "hf8eaea6d"
-    },
-    {
-     "id": "gamemann/store-shared-dbec77e8",
-     "version": "h34e2dd2a"
-    },
-    {
-     "id": "gamemann/store-shared-df56cff2",
-     "version": "ha02c8a01"
-    },
-    {
-     "id": "gamemann/store-shared-efe05e2a",
-     "version": "hd942d6f4"
-    }
-   ],
-   "version": "h96d57bd4"
-  },
   "textures": [
    {
     "area": 5678.5,
@@ -25786,26 +25724,24 @@
    },
    {
     "area": 20.1,
-    "author": "Dimitrios Savva",
+    "author": "TMC (generated)",
     "colour": [
      0.25,
      0.25,
      0.125
     ],
-    "fallback_file": "textures/fb_rusted_shutter.webp",
-    "file": "pbr/rusted_shutter",
-    "generic": "pbr_rusted_shutter",
+    "file": "textures/gen_ladder_404020.png",
+    "generic": "ladder",
     "how": "table",
-    "key": "pbr:pbr_rusted_shutter",
-    "kind": "pbr",
+    "key": "generated:ladder:404020",
+    "kind": "generated",
     "licence": "CC0-1.0",
-    "source": "polyhaven",
+    "source": "dot-map cutout_texture",
     "sources": [
      "halflife/{ladder2"
     ],
     "surfaces": 1,
-    "tier": "1k",
-    "url": "https://polyhaven.com/a/rusted_shutter"
+    "url": "drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)"
    },
    {
     "area": 895.4,
@@ -29698,8 +29634,7 @@
  "movers_without_geometry": [],
  "name": "ze_potc_v3_4fix",
  "notes": [
-  "46 glass surfaces (kinds bars, fence, foliage_card, glass, grate, shield)",
-  "translucent faces whose texture maps to no glass kind or water, drawn opaque (add a row to source_textures.tsv): HALFLIFE/{LADDER2 5"
+  "47 glass surfaces (kinds bars, fence, foliage_card, glass, grate, ladder, shield)"
  ],
  "pickups": [
   {
@@ -42215,6 +42150,7 @@
    "yaw": 180.0
   }
  ],
+ "roles": [],
  "scripts": [],
  "settings": {
   "mp_roundtime": 8,
@@ -45603,6 +45539,9 @@
    "index_offset": 1890680,
    "lightmap_page": 0,
    "material": "cs_havana/ivy06a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1890456,
    "position_offset": 1890360,
@@ -47134,6 +47073,9 @@
    "index_offset": 2059992,
    "lightmap_page": 0,
    "material": "cs_havana/ivy06a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2059320,
    "position_offset": 2059032,
@@ -47653,6 +47595,9 @@
    "index_offset": 2223860,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2221928,
    "position_offset": 2221100,
@@ -47688,6 +47633,9 @@
    "index_offset": 2225128,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2224484,
    "position_offset": 2224208,
@@ -47723,6 +47671,9 @@
    "index_offset": 2226620,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2225668,
    "position_offset": 2225260,
@@ -51935,6 +51886,9 @@
    "index_offset": 2947308,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2946636,
    "position_offset": 2946348,
@@ -51973,6 +51927,9 @@
    "index_offset": 2947868,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2947560,
    "position_offset": 2947428,
@@ -52009,6 +51966,9 @@
    "index_offset": 2948088,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2947976,
    "position_offset": 2947928,
@@ -52045,6 +52005,9 @@
    "index_offset": 2948232,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 2948148,
    "position_offset": 2948112,
@@ -52298,6 +52261,9 @@
    "index_offset": 3036524,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3034760,
    "position_offset": 3034004,
@@ -52336,6 +52302,9 @@
    "index_offset": 3038088,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3037220,
    "position_offset": 3036848,
@@ -52373,6 +52342,9 @@
    "index_offset": 3039524,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3038628,
    "position_offset": 3038244,
@@ -52976,6 +52948,9 @@
    "index_offset": 3108220,
    "lightmap_page": 0,
    "material": "cs_havana/ivy06a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3107996,
    "position_offset": 3107900,
@@ -53494,6 +53469,9 @@
    "index_offset": 3275196,
    "lightmap_page": 0,
    "material": "effects/combine_binocoverlay",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3275084,
    "position_offset": 3275036,
@@ -54030,6 +54008,9 @@
    "index_offset": 3323872,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3323480,
    "position_offset": 3323312,
@@ -54066,6 +54047,9 @@
    "index_offset": 3324904,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3324232,
    "position_offset": 3323944,
@@ -54102,6 +54086,9 @@
    "index_offset": 3325184,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3325072,
    "position_offset": 3325024,
@@ -55943,6 +55930,9 @@
    "index_offset": 3759024,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3758632,
    "position_offset": 3758464,
@@ -55979,6 +55969,9 @@
    "index_offset": 3759936,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3759348,
    "position_offset": 3759096,
@@ -56014,6 +56007,9 @@
    "index_offset": 3760324,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3760128,
    "position_offset": 3760044,
@@ -56087,6 +56083,9 @@
    "index_offset": 3775168,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3774832,
    "position_offset": 3774688,
@@ -56123,6 +56122,9 @@
    "index_offset": 3775560,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3775336,
    "position_offset": 3775240,
@@ -56159,6 +56161,9 @@
    "index_offset": 3775768,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3775656,
    "position_offset": 3775608,
@@ -56300,6 +56305,9 @@
    "index_offset": 3788496,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3787432,
    "position_offset": 3786976,
@@ -56336,6 +56344,9 @@
    "index_offset": 3791088,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3789408,
    "position_offset": 3788688,
@@ -56372,6 +56383,9 @@
    "index_offset": 3791536,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 3791424,
    "position_offset": 3791376,
@@ -59057,6 +59071,9 @@
    "index_offset": 4322276,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4321408,
    "position_offset": 4321036,
@@ -59092,6 +59109,9 @@
    "index_offset": 4323392,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4322720,
    "position_offset": 4322432,
@@ -62044,6 +62064,9 @@
    "index_offset": 4866792,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4866204,
    "position_offset": 4865952,
@@ -62081,6 +62104,9 @@
    "index_offset": 4868620,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4867416,
    "position_offset": 4866900,
@@ -62118,6 +62144,9 @@
    "index_offset": 4870128,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4869232,
    "position_offset": 4868848,
@@ -62154,6 +62183,9 @@
    "index_offset": 4870976,
    "lightmap_page": 0,
    "material": "glass/offwndwb",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4870500,
    "position_offset": 4870296,
@@ -74514,6 +74546,9 @@
    "index_offset": 6593728,
    "lightmap_page": 0,
    "material": "effects/metalfence007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 6593560,
    "position_offset": 6593488,
@@ -74703,6 +74738,9 @@
    "index_offset": 6608296,
    "lightmap_page": 0,
    "material": "effects/metalfence007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 6607064,
    "position_offset": 6606536,
@@ -76098,12 +76136,16 @@
     0.178
    ],
    "entity": null,
-   "free": "pbr:pbr_rusted_shutter",
+   "free": "generated:ladder:404020",
    "generic": "pbr_rusted_shutter",
+   "glass": "ladder",
    "index_count": 30,
    "index_offset": 6738448,
    "lightmap_page": 0,
    "material": "halflife/{ladder2",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 6737888,
    "position_offset": 6737648,
@@ -80413,6 +80455,9 @@
    "index_offset": 6801720,
    "lightmap_page": 0,
    "material": "cs_havana/ivy06a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 6,
    "normal_offset": 6801496,
    "position_offset": 6801400,
@@ -80443,6 +80488,9 @@
    "index_offset": 6802088,
    "lightmap_page": 0,
    "material": "cs_havana/ivy06a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 7,
    "normal_offset": 6801864,
    "position_offset": 6801768,
@@ -80474,6 +80522,9 @@
    "index_offset": 6802456,
    "lightmap_page": 0,
    "material": "cs_havana/ivy06a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 8,
    "normal_offset": 6802232,
    "position_offset": 6802136,
@@ -80537,6 +80588,9 @@
    "index_offset": 6807760,
    "lightmap_page": 0,
    "material": "cs_havana/ivy06a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 10,
    "normal_offset": 6807536,
    "position_offset": 6807440,
@@ -80895,6 +80949,9 @@
    "index_offset": 6818948,
    "lightmap_page": 0,
    "material": "cs_havana/ivy06a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 22,
    "normal_offset": 6818724,
    "position_offset": 6818628,
@@ -82612,6 +82669,9 @@
    "index_offset": 7027604,
    "lightmap_page": 0,
    "material": "effects/metalfence007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 110,
    "normal_offset": 7026932,
    "position_offset": 7026644,

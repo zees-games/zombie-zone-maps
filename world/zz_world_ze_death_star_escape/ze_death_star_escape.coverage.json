@@ -11,8 +11,8 @@
    "default": 21
   },
   "free_by_tier": {
-   "addon": 106,
-   "default": 19
+   "addon": 101,
+   "default": 24
   },
   "nearest_photo": []
  },
@@ -70,7 +70,10 @@
    "point_viewcontrol.deceleration",
    "weapon_deagle.ammo"
   ],
-  "links_unresolved": []
+  "links_unresolved": [],
+  "surfaces_opaque": [
+   "cs_italy/culighta"
+  ]
  },
  "counts": {
   "textures_unmapped": 0,
@@ -79,6 +82,7 @@
   "sounds_unmapped": 2,
   "classes_unmapped": 0,
   "keys_unmapped": 4,
-  "links_unresolved": 0
+  "links_unresolved": 0,
+  "surfaces_opaque": 1
  }
 }

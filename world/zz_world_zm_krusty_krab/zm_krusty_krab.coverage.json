@@ -5,14 +5,14 @@
  "sha256": "22f57a3f245307165a4db90a0fe9cbb213abb710f6632cba9b5699d95c52ce18",
  "textures": {
   "looked_up": 76,
-  "drawn": 78,
+  "drawn": 80,
   "by_tier": {
    "addon": 64,
    "default": 12
   },
   "free_by_tier": {
-   "addon": 63,
-   "default": 12,
+   "addon": 58,
+   "default": 19,
    "nearest": 3
   },
   "nearest_photo": [
@@ -78,7 +78,8 @@
    "weapon_hegrenade.OnPlayerPickup->secret_happy_nade_rotating1",
    "weapon_hegrenade.OnPlayerPickup->secret_happy_nade_trail1",
    "weapon_hegrenade.OnPlayerPickup->secret_happy_nade_trail_timer1"
-  ]
+  ],
+  "surfaces_opaque": []
  },
  "counts": {
   "textures_unmapped": 0,
@@ -87,6 +88,7 @@
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 5,
-  "links_unresolved": 3
+  "links_unresolved": 3,
+  "surfaces_opaque": 0
  }
 }

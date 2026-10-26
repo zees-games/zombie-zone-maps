@@ -5,14 +5,14 @@
  "sha256": "48d2a8ba912701bd39e73a6aba7d7d6f0077263dd350cfeb619176b43fd1d631",
  "textures": {
   "looked_up": 76,
-  "drawn": 78,
+  "drawn": 80,
   "by_tier": {
    "addon": 64,
    "default": 12
   },
   "free_by_tier": {
-   "addon": 63,
-   "default": 12,
+   "addon": 58,
+   "default": 19,
    "nearest": 3
   },
   "nearest_photo": [
@@ -90,7 +90,8 @@
    "weapon_zs_plank.spawnflags",
    "zombiegasses.radius"
   ],
-  "links_unresolved": []
+  "links_unresolved": [],
+  "surfaces_opaque": []
  },
  "counts": {
   "textures_unmapped": 0,
@@ -99,6 +100,7 @@
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 10,
-  "links_unresolved": 0
+  "links_unresolved": 0,
+  "surfaces_opaque": 0
  }
 }

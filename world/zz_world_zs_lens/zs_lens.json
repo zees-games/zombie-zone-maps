@@ -12603,80 +12603,6 @@
     "url": "https://kenney.nl/assets/foley-sounds"
    }
   ],
-  "store_pack": {
-   "id": "gamemann/store-zz_world_zs_lens",
-   "shared": [
-    {
-     "id": "gamemann/store-shared-032d4124",
-     "version": "hc3885410"
-    },
-    {
-     "id": "gamemann/store-shared-0a281510",
-     "version": "h8d187477"
-    },
-    {
-     "id": "gamemann/store-shared-0c8bdfe9",
-     "version": "h8cafaef1"
-    },
-    {
-     "id": "gamemann/store-shared-11c05325",
-     "version": "h3c8d82c7"
-    },
-    {
-     "id": "gamemann/store-shared-295221a6",
-     "version": "h07fc15aa"
-    },
-    {
-     "id": "gamemann/store-shared-51f622ba",
-     "version": "hfbe6e374"
-    },
-    {
-     "id": "gamemann/store-shared-6648a6d9",
-     "version": "hc26cca93"
-    },
-    {
-     "id": "gamemann/store-shared-67ce8f74",
-     "version": "h3237ab16"
-    },
-    {
-     "id": "gamemann/store-shared-6f53c063",
-     "version": "h70263d3e"
-    },
-    {
-     "id": "gamemann/store-shared-7cd5ef2a",
-     "version": "h54211258"
-    },
-    {
-     "id": "gamemann/store-shared-82e676c6",
-     "version": "ha08c019a"
-    },
-    {
-     "id": "gamemann/store-shared-8f413bd1",
-     "version": "hef0db892"
-    },
-    {
-     "id": "gamemann/store-shared-d2a147a2",
-     "version": "h02762953"
-    },
-    {
-     "id": "gamemann/store-shared-dbeda0cd",
-     "version": "h00f943e6"
-    },
-    {
-     "id": "gamemann/store-shared-df56cff2",
-     "version": "ha02c8a01"
-    },
-    {
-     "id": "gamemann/store-shared-e6a16335",
-     "version": "ha05665a9"
-    },
-    {
-     "id": "gamemann/store-shared-f7db15ea",
-     "version": "h2667d50a"
-    }
-   ],
-   "version": "hb3b11efc"
-  },
   "textures": [
    {
     "area": 2156594.4,
@@ -18705,6 +18631,7 @@
    "yaw": 247.84
   }
  ],
+ "roles": [],
  "scripts": [],
  "settings": {},
  "skipped": {
@@ -22858,6 +22785,9 @@
    "index_offset": 193656,
    "lightmap_page": 0,
    "material": "de_season/glass00",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 193432,
    "position_offset": 193336,
@@ -22893,6 +22823,9 @@
    "index_offset": 193864,
    "lightmap_page": 0,
    "material": "de_season/glass00",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 193752,
    "position_offset": 193704,
@@ -22928,6 +22861,9 @@
    "index_offset": 194048,
    "lightmap_page": 0,
    "material": "de_season/glass00",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 193936,
    "position_offset": 193888,
@@ -26386,6 +26322,9 @@
    "index_offset": 455044,
    "lightmap_page": 0,
    "material": "glass/glasswindow001b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 454596,
    "position_offset": 454404,
@@ -27023,6 +26962,9 @@
    "index_offset": 541432,
    "lightmap_page": 0,
    "material": "wood/woodwall019a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 540844,
    "position_offset": 540592,
@@ -32751,6 +32693,9 @@
    "index_offset": 819768,
    "lightmap_page": 0,
    "material": "wood/woodtrack001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 1,
    "normal_offset": 819432,
    "position_offset": 819288,
@@ -32817,6 +32762,9 @@
    "index_offset": 821168,
    "lightmap_page": 0,
    "material": "wood/woodtrack001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 14,
    "normal_offset": 820496,
    "position_offset": 820208,
@@ -32961,6 +32909,9 @@
    "index_offset": 823104,
    "lightmap_page": 0,
    "material": "wood/woodtrack001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 58,
    "normal_offset": 822880,
    "position_offset": 822784,
@@ -32993,6 +32944,9 @@
    "index_offset": 823472,
    "lightmap_page": 0,
    "material": "wood/woodtrack001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 59,
    "normal_offset": 823248,
    "position_offset": 823152,
@@ -33023,6 +32977,9 @@
    "index_offset": 823680,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 60,
    "normal_offset": 823568,
    "position_offset": 823520,
@@ -33054,6 +33011,9 @@
    "index_offset": 823864,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 61,
    "normal_offset": 823752,
    "position_offset": 823704,
@@ -33090,6 +33050,9 @@
    "index_offset": 824208,
    "lightmap_page": 0,
    "material": "wood/woodtrack001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 62,
    "normal_offset": 823984,
    "position_offset": 823888,
@@ -33120,6 +33083,9 @@
    "index_offset": 824576,
    "lightmap_page": 0,
    "material": "wood/woodtrack001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 63,
    "normal_offset": 824352,
    "position_offset": 824256,

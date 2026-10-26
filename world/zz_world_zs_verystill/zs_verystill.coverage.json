@@ -5,14 +5,14 @@
  "sha256": "4620433b055df1b3fcdd666a8dc4c39e7fe75d31776f2a46bece8ad79ab4df87",
  "textures": {
   "looked_up": 264,
-  "drawn": 267,
+  "drawn": 268,
   "by_tier": {
    "addon": 238,
    "default": 26
   },
   "free_by_tier": {
-   "addon": 239,
-   "default": 22,
+   "addon": 238,
+   "default": 24,
    "nearest": 6
   },
   "nearest_photo": [
@@ -110,7 +110,8 @@
    "zombiegasses.radius",
    "zombiegasses.spawnflags"
   ],
-  "links_unresolved": []
+  "links_unresolved": [],
+  "surfaces_opaque": []
  },
  "counts": {
   "textures_unmapped": 0,
@@ -119,6 +120,7 @@
   "sounds_unmapped": 4,
   "classes_unmapped": 0,
   "keys_unmapped": 11,
-  "links_unresolved": 0
+  "links_unresolved": 0,
+  "surfaces_opaque": 0
  }
 }

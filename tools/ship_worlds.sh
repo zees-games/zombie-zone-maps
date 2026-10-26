@@ -19,5 +19,6 @@ grep -v '^#' "$HERE/convert/ship.tsv" | while IFS=$'\t' read -r id key; do
     fi
     rc=$?; mv "$d/regen.log" "${TMPDIR:-/tmp}/regen-$id.log"; echo "$id exit $rc"
 done
+# SKIP_SOLID_PROPS=1 leaves the documents alone (the box-by-box nav check takes an hour on a big map; a surface-only change needs none).
 # A regenerated world can change its props: refresh the documents' solid_props from it (only when it went to world/).
-[ "$OUT" = "$HERE/../world" ] && "$HERE/solid_props.sh" $SHIP_IDS || true
+[ "$OUT" = "$HERE/../world" ] && [ -z "$SKIP_SOLID_PROPS" ] && "$HERE/solid_props.sh" $SHIP_IDS || true

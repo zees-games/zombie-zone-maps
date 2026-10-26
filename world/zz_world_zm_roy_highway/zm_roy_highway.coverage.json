@@ -81,7 +81,8 @@
    "trigger_multiple.OnStartTouch->forcefield3_sound_close",
    "trigger_multiple.OnStartTouch->forcefield3_sound_far",
    "trigger_teleport.OnStartTouch->sound_teleport_lampe"
-  ]
+  ],
+  "surfaces_opaque": []
  },
  "counts": {
   "textures_unmapped": 0,
@@ -90,6 +91,7 @@
   "sounds_unmapped": 2,
   "classes_unmapped": 0,
   "keys_unmapped": 3,
-  "links_unresolved": 10
+  "links_unresolved": 10,
+  "surfaces_opaque": 0
  }
 }

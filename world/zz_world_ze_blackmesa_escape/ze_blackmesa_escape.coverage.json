@@ -11,8 +11,8 @@
    "default": 14
   },
   "free_by_tier": {
-   "addon": 42,
-   "default": 7,
+   "addon": 41,
+   "default": 8,
    "nearest": 1
   },
   "nearest_photo": [
@@ -68,7 +68,8 @@
   "keys_unmapped": [
    "ambient_generic.pitch"
   ],
-  "links_unresolved": []
+  "links_unresolved": [],
+  "surfaces_opaque": []
  },
  "counts": {
   "textures_unmapped": 0,
@@ -77,6 +78,7 @@
   "sounds_unmapped": 7,
   "classes_unmapped": 0,
   "keys_unmapped": 1,
-  "links_unresolved": 0
+  "links_unresolved": 0,
+  "surfaces_opaque": 0
  }
 }

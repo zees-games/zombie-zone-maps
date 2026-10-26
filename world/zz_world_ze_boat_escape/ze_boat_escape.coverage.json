@@ -62,7 +62,8 @@
    "logic_auto.OnMapSpawn->huey",
    "path_track.OnPass->land thingy",
    "path_track.OnPass->rock_wall"
-  ]
+  ],
+  "surfaces_opaque": []
  },
  "counts": {
   "textures_unmapped": 0,
@@ -71,6 +72,7 @@
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 1,
-  "links_unresolved": 5
+  "links_unresolved": 5,
+  "surfaces_opaque": 0
  }
 }

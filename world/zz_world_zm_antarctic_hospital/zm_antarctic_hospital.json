@@ -8946,6 +8946,17 @@
     "url": "https://github.com/modcommunity/dot-map"
    },
    {
+    "author": "TMC (generated for dot-map)",
+    "count": 5,
+    "file": "own/own_cyl_30x500x30_6a5038/own_cyl_30x500x30_6a5038.glb",
+    "files": [],
+    "licence": "CC0-1.0",
+    "source": "TMC generated model",
+    "stand_in": "lib/own_cyl_30x500x30_6a5038",
+    "store_file": "own/own_cyl_30x500x30_6a5038/own_cyl_30x500x30_6a5038.glb",
+    "url": "https://github.com/modcommunity/dot-map"
+   },
+   {
     "author": "Ethan Place",
     "count": 2,
     "file": "polyhaven/SchoolDesk_01/SchoolDesk_01.gltf",
@@ -9123,7 +9134,7 @@
    },
    {
     "author": "Slinc",
-    "count": 10,
+    "count": 5,
     "file": "polyhaven/propane_tank/propane_tank.gltf",
     "files": [],
     "licence": "CC0-1.0",
@@ -9517,7 +9528,7 @@
    {
     "count": 5,
     "model": "models/props_c17/utilitypole01a.mdl",
-    "stand_in": "lib/ph_propane_tank"
+    "stand_in": "lib/own_cyl_30x500x30_6a5038"
    },
    {
     "count": 1,
@@ -9768,64 +9779,6 @@
     "url": "https://kenney.nl/assets/foley-sounds"
    }
   ],
-  "store_pack": {
-   "id": "gamemann/store-zz_world_zm_antarctic_hospital",
-   "shared": [
-    {
-     "id": "gamemann/store-shared-032d4124",
-     "version": "hc3885410"
-    },
-    {
-     "id": "gamemann/store-shared-2b9549c3",
-     "version": "h7de7db0f"
-    },
-    {
-     "id": "gamemann/store-shared-47c24036",
-     "version": "h4962c93a"
-    },
-    {
-     "id": "gamemann/store-shared-67ce8f74",
-     "version": "h3237ab16"
-    },
-    {
-     "id": "gamemann/store-shared-6f53c063",
-     "version": "h70263d3e"
-    },
-    {
-     "id": "gamemann/store-shared-7cd5ef2a",
-     "version": "h54211258"
-    },
-    {
-     "id": "gamemann/store-shared-7d356297",
-     "version": "h1f41a0f7"
-    },
-    {
-     "id": "gamemann/store-shared-8f413bd1",
-     "version": "hef0db892"
-    },
-    {
-     "id": "gamemann/store-shared-c69d193d",
-     "version": "h48de3c09"
-    },
-    {
-     "id": "gamemann/store-shared-cab6fcc7",
-     "version": "h66165e51"
-    },
-    {
-     "id": "gamemann/store-shared-d674b813",
-     "version": "h92a438eb"
-    },
-    {
-     "id": "gamemann/store-shared-e6a16335",
-     "version": "ha05665a9"
-    },
-    {
-     "id": "gamemann/store-shared-f7db15ea",
-     "version": "h2667d50a"
-    }
-   ],
-   "version": "ha4462ac0"
-  },
   "textures": [
    {
     "area": 2910.1,
@@ -16642,9 +16595,9 @@
    "model": "models/props_c17/utilitypole01a.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.6371,
+   "size": 5.0,
    "solid": 6,
-   "stand_in": "lib/ph_propane_tank",
+   "stand_in": "lib/own_cyl_30x500x30_6a5038",
    "yaw": 112.5
   },
   {
@@ -16712,9 +16665,9 @@
    "model": "models/props_c17/utilitypole01a.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.6371,
+   "size": 5.0,
    "solid": 6,
-   "stand_in": "lib/ph_propane_tank",
+   "stand_in": "lib/own_cyl_30x500x30_6a5038",
    "yaw": 132.0
   },
   {
@@ -16726,9 +16679,9 @@
    "model": "models/props_c17/utilitypole01a.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.6371,
+   "size": 5.0,
    "solid": 6,
-   "stand_in": "lib/ph_propane_tank",
+   "stand_in": "lib/own_cyl_30x500x30_6a5038",
    "yaw": 103.5
   },
   {
@@ -16740,9 +16693,9 @@
    "model": "models/props_c17/utilitypole01a.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.6371,
+   "size": 5.0,
    "solid": 6,
-   "stand_in": "lib/ph_propane_tank",
+   "stand_in": "lib/own_cyl_30x500x30_6a5038",
    "yaw": 132.5
   },
   {
@@ -16754,12 +16707,13 @@
    "model": "models/props_c17/utilitypole01a.mdl",
    "scale": 1.0,
    "shape": true,
-   "size": 0.6371,
+   "size": 5.0,
    "solid": 6,
-   "stand_in": "lib/ph_propane_tank",
+   "stand_in": "lib/own_cyl_30x500x30_6a5038",
    "yaw": 112.5
   }
  ],
+ "roles": [],
  "scripts": [],
  "settings": {},
  "skipped": {
@@ -17786,6 +17740,9 @@
    "index_offset": 160,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 48,
    "position_offset": 0,
@@ -17837,6 +17794,9 @@
    "index_offset": 664,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 328,
    "position_offset": 184,
@@ -17882,6 +17842,9 @@
    "index_offset": 1056,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 832,
    "position_offset": 736,
@@ -17917,6 +17880,9 @@
    "index_offset": 1264,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 1152,
    "position_offset": 1104,
@@ -17996,6 +17962,9 @@
    "index_offset": 4376,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 4152,
    "position_offset": 4056,
@@ -18112,6 +18081,9 @@
    "index_offset": 7512,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 7288,
    "position_offset": 7192,
@@ -18229,6 +18201,9 @@
    "index_offset": 10488,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 10376,
    "position_offset": 10328,
@@ -18274,6 +18249,9 @@
    "index_offset": 10832,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 10608,
    "position_offset": 10512,
@@ -18438,6 +18416,9 @@
    "index_offset": 16736,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 16512,
    "position_offset": 16416,
@@ -18574,6 +18555,9 @@
    "index_offset": 22480,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 22368,
    "position_offset": 22320,
@@ -18708,6 +18692,9 @@
    "index_offset": 26816,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 26704,
    "position_offset": 26656,
@@ -18763,6 +18750,9 @@
    "index_offset": 27040,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 26900,
    "position_offset": 26840,
@@ -19686,6 +19676,9 @@
    "index_offset": 78356,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 78020,
    "position_offset": 77876,
@@ -19910,6 +19903,9 @@
    "index_offset": 90924,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 90700,
    "position_offset": 90604,
@@ -20690,6 +20686,9 @@
    "index_offset": 168484,
    "lightmap_page": 0,
    "material": "glass/glasswindow006b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 168372,
    "position_offset": 168324,
@@ -20725,6 +20724,9 @@
    "index_offset": 168668,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 168556,
    "position_offset": 168508,
@@ -20760,6 +20762,9 @@
    "index_offset": 168852,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 168740,
    "position_offset": 168692,
@@ -20795,6 +20800,9 @@
    "index_offset": 169036,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 168924,
    "position_offset": 168876,
@@ -20830,6 +20838,9 @@
    "index_offset": 169220,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 169108,
    "position_offset": 169060,
@@ -22365,6 +22376,9 @@
    "index_offset": 270084,
    "lightmap_page": 0,
    "material": "glass/glasswindow006b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 269972,
    "position_offset": 269924,
@@ -22517,6 +22531,9 @@
    "index_offset": 278304,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 278080,
    "position_offset": 277984,
@@ -23621,6 +23638,9 @@
    "index_offset": 320784,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 320560,
    "position_offset": 320464,
@@ -23779,6 +23799,9 @@
    "index_offset": 325024,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 324800,
    "position_offset": 324704,
@@ -23862,6 +23885,9 @@
    "index_offset": 327096,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 326648,
    "position_offset": 326456,
@@ -24136,6 +24162,9 @@
    "index_offset": 347104,
    "lightmap_page": 0,
    "material": "metal/metalgate005a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 346964,
    "position_offset": 346904,
@@ -24485,6 +24514,9 @@
    "index_offset": 377768,
    "lightmap_page": 0,
    "material": "glass/glasswindow006b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 377656,
    "position_offset": 377608,
@@ -24520,6 +24552,9 @@
    "index_offset": 377952,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 377840,
    "position_offset": 377792,
@@ -24555,6 +24590,9 @@
    "index_offset": 378136,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 378024,
    "position_offset": 377976,
@@ -24590,6 +24628,9 @@
    "index_offset": 378320,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 378208,
    "position_offset": 378160,
@@ -24625,6 +24666,9 @@
    "index_offset": 378504,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 378392,
    "position_offset": 378344,
@@ -24660,6 +24704,9 @@
    "index_offset": 378688,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 378576,
    "position_offset": 378528,
@@ -26556,6 +26603,9 @@
    "index_offset": 461088,
    "lightmap_page": 0,
    "material": "glass/glasswindow006b",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 460976,
    "position_offset": 460928,
@@ -26850,6 +26900,9 @@
    "index_offset": 481712,
    "lightmap_page": 0,
    "material": "glass/glasswindow007a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 481488,
    "position_offset": 481392,
@@ -28011,6 +28064,9 @@
    "index_offset": 536772,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 536436,
    "position_offset": 536292,
@@ -28127,6 +28183,9 @@
    "index_offset": 541056,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 540216,
    "position_offset": 539856,
@@ -28162,6 +28221,9 @@
    "index_offset": 541776,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 541440,
    "position_offset": 541296,
@@ -29130,6 +29192,9 @@
    "index_offset": 648344,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 648120,
    "position_offset": 648024,
@@ -29358,6 +29423,9 @@
    "index_offset": 654984,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 654760,
    "position_offset": 654664,
@@ -29588,6 +29656,9 @@
    "index_offset": 661784,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 661448,
    "position_offset": 661304,
@@ -29739,6 +29810,9 @@
    "index_offset": 666048,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 665824,
    "position_offset": 665728,
@@ -29813,6 +29887,9 @@
    "index_offset": 666992,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 666880,
    "position_offset": 666832,
@@ -29926,6 +30003,9 @@
    "index_offset": 669456,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 669232,
    "position_offset": 669136,
@@ -30046,6 +30126,9 @@
    "index_offset": 671576,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 671352,
    "position_offset": 671256,
@@ -30081,6 +30164,9 @@
    "index_offset": 671784,
    "lightmap_page": 0,
    "material": "nature/treeline001a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 0,
    "normal_offset": 671672,
    "position_offset": 671624,
@@ -30480,6 +30566,9 @@
    "index_offset": 679120,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 3,
    "normal_offset": 676320,
    "position_offset": 675120,
@@ -30510,6 +30599,9 @@
    "index_offset": 682440,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 3,
    "normal_offset": 680536,
    "position_offset": 679720,
@@ -30540,6 +30632,9 @@
    "index_offset": 683488,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 3,
    "normal_offset": 683040,
    "position_offset": 682848,
@@ -30570,6 +30665,9 @@
    "index_offset": 683744,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 3,
    "normal_offset": 683632,
    "position_offset": 683584,
@@ -30748,6 +30846,9 @@
    "index_offset": 685032,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 5,
    "normal_offset": 684920,
    "position_offset": 684872,
@@ -30778,6 +30879,9 @@
    "index_offset": 685376,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 5,
    "normal_offset": 685152,
    "position_offset": 685056,
@@ -30808,6 +30912,9 @@
    "index_offset": 685744,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 6,
    "normal_offset": 685520,
    "position_offset": 685424,
@@ -30838,6 +30945,9 @@
    "index_offset": 685952,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 6,
    "normal_offset": 685840,
    "position_offset": 685792,
@@ -30868,6 +30978,9 @@
    "index_offset": 686456,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 7,
    "normal_offset": 686120,
    "position_offset": 685976,
@@ -30898,6 +31011,9 @@
    "index_offset": 686688,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 7,
    "normal_offset": 686576,
    "position_offset": 686528,
@@ -30928,6 +31044,9 @@
    "index_offset": 686872,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 7,
    "normal_offset": 686760,
    "position_offset": 686712,
@@ -30958,6 +31077,9 @@
    "index_offset": 687056,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 7,
    "normal_offset": 686944,
    "position_offset": 686896,
@@ -30988,6 +31110,9 @@
    "index_offset": 687240,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 8,
    "normal_offset": 687128,
    "position_offset": 687080,
@@ -31018,6 +31143,9 @@
    "index_offset": 687424,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 8,
    "normal_offset": 687312,
    "position_offset": 687264,
@@ -31049,6 +31177,9 @@
    "index_offset": 687608,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 8,
    "normal_offset": 687496,
    "position_offset": 687448,
@@ -31080,6 +31211,9 @@
    "index_offset": 687952,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 8,
    "normal_offset": 687728,
    "position_offset": 687632,
@@ -31111,6 +31245,9 @@
    "index_offset": 688160,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 8,
    "normal_offset": 688048,
    "position_offset": 688000,
@@ -31141,6 +31278,9 @@
    "index_offset": 688344,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 9,
    "normal_offset": 688232,
    "position_offset": 688184,
@@ -31171,6 +31311,9 @@
    "index_offset": 688528,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 9,
    "normal_offset": 688416,
    "position_offset": 688368,
@@ -31201,6 +31344,9 @@
    "index_offset": 688712,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 10,
    "normal_offset": 688600,
    "position_offset": 688552,
@@ -31231,6 +31377,9 @@
    "index_offset": 688896,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 10,
    "normal_offset": 688784,
    "position_offset": 688736,
@@ -31261,6 +31410,9 @@
    "index_offset": 689080,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 11,
    "normal_offset": 688968,
    "position_offset": 688920,
@@ -31291,6 +31443,9 @@
    "index_offset": 689264,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 11,
    "normal_offset": 689152,
    "position_offset": 689104,
@@ -31321,6 +31476,9 @@
    "index_offset": 689448,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 12,
    "normal_offset": 689336,
    "position_offset": 689288,
@@ -31351,6 +31509,9 @@
    "index_offset": 689632,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 12,
    "normal_offset": 689520,
    "position_offset": 689472,
@@ -31381,6 +31542,9 @@
    "index_offset": 689816,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 13,
    "normal_offset": 689704,
    "position_offset": 689656,
@@ -31411,6 +31575,9 @@
    "index_offset": 690000,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 13,
    "normal_offset": 689888,
    "position_offset": 689840,
@@ -31441,6 +31608,9 @@
    "index_offset": 690184,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 14,
    "normal_offset": 690072,
    "position_offset": 690024,
@@ -31471,6 +31641,9 @@
    "index_offset": 690368,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 14,
    "normal_offset": 690256,
    "position_offset": 690208,
@@ -31561,6 +31734,9 @@
    "index_offset": 691472,
    "lightmap_page": 0,
    "material": "glass/glasswindow008d",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 20,
    "normal_offset": 691360,
    "position_offset": 691312,
@@ -31621,6 +31797,9 @@
    "index_offset": 692392,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 22,
    "normal_offset": 692280,
    "position_offset": 692232,
@@ -31651,6 +31830,9 @@
    "index_offset": 692576,
    "lightmap_page": 0,
    "material": "glass/glasswindowbreak070a",
+   "material_flags": [
+    "translucent"
+   ],
    "model": 22,
    "normal_offset": 692464,
    "position_offset": 692416,

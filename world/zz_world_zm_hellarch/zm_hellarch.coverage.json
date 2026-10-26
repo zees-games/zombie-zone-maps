@@ -60,6 +60,9 @@
   "keys_unmapped": [],
   "links_unresolved": [
    "weapon_awp.OnPlayerPickup->equip_awp"
+  ],
+  "surfaces_opaque": [
+   "forrest_fog"
   ]
  },
  "counts": {
@@ -69,6 +72,7 @@
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 0,
-  "links_unresolved": 1
+  "links_unresolved": 1,
+  "surfaces_opaque": 1
  }
 }

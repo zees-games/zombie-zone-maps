@@ -12,8 +12,8 @@
    "fallback": 2
   },
   "free_by_tier": {
-   "addon": 361,
-   "default": 33,
+   "addon": 356,
+   "default": 38,
    "nearest": 4
   },
   "nearest_photo": [
@@ -72,7 +72,14 @@
   "keys_unmapped": [
    "ambient_generic.pitch"
   ],
-  "links_unresolved": []
+  "links_unresolved": [],
+  "surfaces_opaque": [
+   "aeris/aerisss",
+   "de_chateau/curtain01a",
+   "de_chateau/curtain01b",
+   "metal/mildoor001",
+   "wood/wooddoor048b"
+  ]
  },
  "counts": {
   "textures_unmapped": 2,
@@ -81,6 +88,7 @@
   "sounds_unmapped": 2,
   "classes_unmapped": 0,
   "keys_unmapped": 1,
-  "links_unresolved": 0
+  "links_unresolved": 0,
+  "surfaces_opaque": 5
  }
 }
