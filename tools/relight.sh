@@ -1,11 +1,14 @@
 #!/bin/bash
 # Refresh only the `lights` of the committed documents from the source maps (import_bsp's --lights-only): no box, nav or world change.
-#   tools/relight.sh [--check] [id ...]    (--check writes nothing and fails when a document would change; all of ship.tsv without ids)
+#   tools/relight.sh [--water] [--check] [id ...]    (--check writes nothing and fails when a document would change; all of ship.tsv without ids)
+#   --water refreshes only `water` instead (import_bsp's --water-only).
 HERE="$(cd "$(dirname "$0")" && pwd)"
 STORE="${DOTBSP_STORE:-$HOME/mapsrc/store}"
 DOCS="${ZZ_DOCS:-$HERE/../maps}"
-mode=--lights-only; rm -f "${TMPDIR:-/tmp}/relight.rc"
-[ "$1" = "--check" ] && { mode=--lights-only-check; shift; }
+what=lights; rm -f "${TMPDIR:-/tmp}/relight.rc"
+[ "$1" = "--water" ] && { what=water; shift; }
+mode=--$what-only
+[ "$1" = "--check" ] && { mode=--$what-only-check; shift; }
 grep -v '^#' "$HERE/convert/ship.tsv" | while IFS=$'\t' read -r id key; do
     [ $# -gt 0 ] && [[ " $* " != *" $id "* ]] && continue
     grep -q "^$key " "$HERE/convert/excluded.txt" && continue

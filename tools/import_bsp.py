@@ -871,7 +871,7 @@ def model_boxes(bs, model, y0):
     return out
 
 
-def water_volumes(bs, y0, floors, spec):
+def water_volumes(bs, y0, floors, spec, boxes=(), kill_y=-1e9):
     """The map's water as game volumes `{at, size}` (centre and size, the top face is the surface).
 
     A water brush is CONTENTS_WATER (0x20) in any model: the world's, or a func_brush's (Jurassic
@@ -923,16 +923,34 @@ def water_volumes(bs, y0, floors, spec):
             if merged:
                 break
 
+    def over(b, v, pad):
+        lo, hi = [b["at"][i] - b["size"][i] / 2 for i in range(3)], [b["at"][i] + b["size"][i] / 2 for i in range(3)]
+        return lo[0] < v[3] + pad and hi[0] > v[0] - pad and lo[2] < v[5] + pad and hi[2] > v[2] - pad, hi[1]
+
     def reachable(v):
-        # A floor rectangle [x0, z0, x1, z1, h] in the volume's footprint, from its bed up to a
-        # storey above its surface: somewhere to wade, a shore, or a deck over the sea a player can
-        # fall from. A pool no floor stands over is a picture.
-        return any(f[0] < v[3] + 2.0 and f[2] > v[0] - 2.0 and f[1] < v[5] + 2.0 and f[3] > v[2] - 2.0
-                   and v[1] - 0.1 <= f[4] <= v[4] + 12.0 for f in floors)
+        # A nav floor [x0, z0, x1, z1, h] from the bed up to a storey above the surface, or a box
+        # top at the waterline (a bed or a shore): the zombies' flood misses pools reached by a lift.
+        if any(f[0] < v[3] + 2.0 and f[2] > v[0] - 2.0 and f[1] < v[5] + 2.0 and f[3] > v[2] - 2.0
+               and v[1] - 0.1 <= f[4] <= v[4] + 12.0 for f in floors):
+            return True
+        return any(o and v[1] - 0.1 <= top <= v[4] + 0.5 for o, top in (over(b, v, 1.0) for b in boxes))
+
+    def depth(v):
+        # A brush sunk under the floor is only as deep as the water over its bed: the deepest of a
+        # 5 x 5 sample, so an island or a step in a lake does not make it a puddle.
+        deepest = 0.0
+        for i in range(5):
+            for k in range(5):
+                x, z = v[0] + (v[3] - v[0]) * (i + 0.5) / 5, v[2] + (v[5] - v[2]) * (k + 0.5) / 5
+                beds = [top for o, top in (over(b, [x, 0, z, x, 0, z], 0.0) for b in boxes) if o and v[1] - 0.1 <= top <= v[4]]
+                deepest = max(deepest, v[4] - max([v[1]] + beds))
+        return deepest
 
     out = []
     for v in sorted(found, key=lambda v: (v[4], v[0], v[2])):
         if mode != "all" and not reachable(v):
+            continue
+        if depth(v) < min_depth or v[4] < kill_y:
             continue
         out.append({"at": [r3((v[0] + v[3]) / 2), r3((v[1] + v[4]) / 2), r3((v[2] + v[5]) / 2)],
                     "size": [r3(v[3] - v[0]), r3(v[4] - v[1]), r3(v[5] - v[2])]})
@@ -1088,7 +1106,36 @@ def relight(argv):
     return 0
 
 
+def rewater(argv):
+    """`--water-only[-check] <spec> <bsp or intermediate> <doc>`: replace only the `water` of a
+    committed document, from its own boxes, floors and kill_y. The -check form writes nothing and
+    returns 1 when a document would change."""
+    spec = json.load(open(argv[2]))
+    bs = load_source(argv[3], False)
+    with open(argv[4]) as f:
+        doc = json.load(f)
+    nav = doc.get("nav", {}).get("floors", [])
+    water = water_volumes(bs, float(spec.get("y0", 0.0)), nav, spec, doc.get("boxes", []), doc.get("kill_y", -1e9))
+    if water == doc.get("water", []):
+        print("%s: water unchanged (%d)" % (spec["id"], len(water)))
+        return 0
+    print("%s: water %d -> %d" % (spec["id"], len(doc.get("water", [])), len(water)))
+    if argv[1].endswith("-check"):
+        return 1
+    doc.pop("water", None)
+    if water:
+        doc = {k2: v2 for k, v in doc.items() for k2, v2 in (((k, v), ("water", water)) if k == "barricades" else ((k, v),))}
+        if "water" not in doc:
+            doc["water"] = water
+    with open(argv[4], "w") as f:
+        json.dump(doc, f, indent=1)
+        f.write("\n")
+    return 0
+
+
 def main(argv):
+    if len(argv) > 4 and argv[1] in ("--water-only", "--water-only-check"):
+        return rewater(argv)
     if len(argv) > 4 and argv[1] in ("--lights-only", "--lights-only-check"):
         return relight(argv)
     if len(argv) > 3 and argv[1] in ("--cut-links", "--cut-links-check"):
@@ -2227,7 +2274,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
                                   "max": [r3(max(p[0] for p in sp) + 2), r3(max(p[1] for p in sp) + 3), r3(max(p[2] for p in sp) + 2)]}]
     if TERRAIN:
         doc["terrain"] = TERRAIN.encode(0.05, dterrain.walk_samples(TERRAIN, tseen, CELL), spec.get("terrain_mat", "dirt"))
-    water = water_volumes(bs, y0, floors, spec)
+    water = water_volumes(bs, y0, floors, spec, doc["boxes"], doc["kill_y"])
     if water:
         doc["water"] = water
         print("  water: %d volume(s)" % len(water))
