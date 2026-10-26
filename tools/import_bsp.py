@@ -2307,7 +2307,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
         import build_maps
         if prior_solid:
             doc["solid_props"] = prior_solid    # settle_toys keeps a toy out of them
-        hints = [build_maps.toy(t[0], "spawn" if t[1] == "spawn" else tuple(t[1]), t[2], t[3], *t[4:]) for t in spec["toys"]]
+        hints = build_maps.spec_hints(spec)
         doc["toys"] = build_maps.settle_toys(doc, hints)
     doc.pop("solid_props", None)
     if prior_solid:    # solid_props.sh refreshes it; kept so a re-import never drops it

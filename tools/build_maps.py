@@ -1751,6 +1751,29 @@ def settle_toys(doc, hints):
     return out
 
 
+def spec_hints(spec):
+    """The toy hints of an importer spec's `toys` ([toy, anchor, dx, dz, ...])."""
+    return [toy(t[0], "spawn" if t[1] == "spawn" else tuple(t[1]), t[2], t[3], *t[4:]) for t in spec["toys"]]
+
+
+def toys_in_solids(doc):
+    """The toys whose body overlaps a solid prop or box of the document (the physics test, without settle_toys' half-metre margin)."""
+    bad = []
+    for t in doc.get("toys", []):
+        radius, height = TOY_SIZE.get(t["toy"], (0.1, 0.1))
+        x, y, z = t["at"]
+        for rec in doc.get("solid_props", []):
+            px, py, pz, sx, sy, sz, yaw = rec
+            a = math.radians(yaw)    # the toy's centre in the box's own frame, then its distance to the rectangle
+            dx, dz = x - px, z - pz
+            lx, lz = dx * math.cos(a) - dz * math.sin(a), dx * math.sin(a) + dz * math.cos(a)
+            gap = math.hypot(max(abs(lx) - sx / 2.0, 0.0), max(abs(lz) - sz / 2.0, 0.0))
+            if gap < radius and py - sy / 2.0 < y + height and py + sy / 2.0 > y + 0.06:
+                bad.append(t)
+                break
+    return bad
+
+
 # Each map's toys, by theme: barrels and tyres in the streets, balls where people played.
 TOYS = {
     "zz_blackout_1": [toy("barrel", ("route", 2), 3, 0), toy("barrel", ("route", 2), 3.8, 0.6), toy("tyre", ("route", 4), -3, 1, yaw=30),

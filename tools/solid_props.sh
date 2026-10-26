@@ -25,8 +25,10 @@ PY
 : > "$TMP"
 godot --headless --path "$GAME" --script tools/solid_props.gd -- "$TMP" "$@" || exit $?
 [ -s "$TMP" ] || { echo "solid_props: the script wrote nothing (a parse error?)" >&2; exit 1; }    # a script that fails to load still exits 0
-python3 -I - "$HERE/../maps" "$TMP" <<'PY'
-import json, sys
+python3 -I - "$HERE/../maps" "$TMP" "$HERE" <<'PY'
+import json, os, sys
+sys.path.insert(0, sys.argv[3])
+import build_maps
 boxes = json.load(open(sys.argv[2]))
 for id, bs in boxes.items():
     path = "%s/%s.json" % (sys.argv[1], id)
@@ -39,6 +41,13 @@ for id, bs in boxes.items():
             if k == "props":
                 new["solid_props"] = bs
         doc = new
+        # New stand-in models change the boxes; a toy settled against the old ones can now stand inside one.
+        spec = os.path.join(sys.argv[3], "bsp", id + ".json")
+        if build_maps.toys_in_solids(doc) and os.path.isfile(spec) and json.load(open(spec)).get("toys"):
+            try:
+                doc["toys"] = build_maps.settle_toys(doc, build_maps.spec_hints(json.load(open(spec))))
+            except SystemExit as e:    # nowhere clear within 10 m: keep the toys and say so
+                print("solid_props: %s: toys left inside a prop (%s)" % (id, e), file=sys.stderr)
     with open(path, "w") as f:
         json.dump(doc, f, indent=1)
         f.write("\n")
