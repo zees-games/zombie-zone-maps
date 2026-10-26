@@ -629,6 +629,35 @@ def link_solids(doc, extra_boxes=()):
     return solids
 
 
+POCKET = 40    # points: the importer's own line between a pocket and a part of the map (filter_wall_links)
+
+
+def clear_join(G, solids, i, j, dy_max, reach=8.0):
+    """A link between the components of points i and j that the physics world and a 0.25 m body let through, or None.
+
+    The shortest one wins; a join the flood proposed through a prop is replaced by the way round it."""
+    ri, rj = G.find(i), G.find(j)
+    mx, mz = (G.pts[i][0] + G.pts[j][0]) / 2, (G.pts[i][2] + G.pts[j][2]) / 2
+    A, B = [], []
+    for k, p in enumerate(G.pts):
+        if abs(p[0] - mx) <= reach and abs(p[2] - mz) <= reach:
+            r = G.find(k)
+            (A if r == ri else B if r == rj else []).append(k)
+    cand = sorted((math.dist(G.pts[a], G.pts[b]), a, b) for a in A for b in B
+                  if abs(G.pts[a][1] - G.pts[b][1]) <= max(0.5, dy_max))
+    for d, a, b in cand[:4000]:
+        if d > 6.0:
+            break
+        p, q = G.pts[a], G.pts[b]
+        if d < 0.5 or solids.blocked(p, q):
+            continue
+        nx, nz = -(q[2] - p[2]) / max(math.hypot(q[0] - p[0], q[2] - p[2]), 1e-6), (q[0] - p[0]) / max(math.hypot(q[0] - p[0], q[2] - p[2]), 1e-6)
+        if any(solids.blocked((p[0] + nx * o, p[1], p[2] + nz * o), (q[0] + nx * o, q[1], q[2] + nz * o)) for o in (-0.25, 0.25)):
+            continue
+        return [round(v, 3) for v in (*p, *q)]
+    return None
+
+
 def cut_blocked(doc, extra, fixed):
     """Cut the links the game's physics world blocks from `doc` (and the nav [param extra] dict, if any), where the ground stays joined without them.
 
@@ -642,16 +671,23 @@ def cut_blocked(doc, extra, fixed):
     lists = [doc["nav"]["links"]] + ([extra["links"]] if extra else [])
     sizes = json.load(open(os.path.join(HERE, "prop_sizes.json")))["props"]
     floors = doc["nav"]["floors"] + xf
-    G = nav_emulate.Graph(list(doc["boxes"]) + list(xb), doc.get("props", []), sizes, floors)
+    nav = doc["nav"]
+    G = nav_emulate.Graph(list(doc["boxes"]) + list(xb), doc.get("props", []), sizes, floors, spacing=float(nav.get("spacing", 1.0)), clearance=float(nav.get("clearance", 0.35)))
     fixed_ = {tuple(l) for l in fixed}
+    bars = [b["at"] for b in doc["boxes"] if b.get("barricade")]
+
+    def at_barricade(l):
+        # The game's world does not block these (its probe finds none), and cutting one seals the horde off the boards it walks to.
+        return any(abs(e[0] - b[0]) < 2.5 and abs(e[2] - b[2]) < 2.5 for b in bars for e in (l[:3], l[3:]))
 
     def ends(l):
-        return G.nearest(l[0], l[1], l[2], 2.0), G.nearest(l[3], l[4], l[5], 2.0)
+        r = float(nav.get("spacing", 1.0)) * 2.0
+        return G.nearest(l[0], l[1], l[2], r), G.nearest(l[3], l[4], l[5], r)
 
     bad = set()
     for ls in lists:
         for l in ls:
-            if tuple(l) not in fixed_ and solids.blocked(l[:3], l[3:]):
+            if tuple(l) not in fixed_ and not at_barricade(l) and solids.blocked(l[:3], l[3:]):
                 bad.add(id(l))
             else:
                 i, j = ends(l)
@@ -668,7 +704,21 @@ def cut_blocked(doc, extra, fixed):
                     cut[n] += 1
                     continue
                 if i >= 0 and j >= 0:
+                    r = clear_join(G, solids, i, j, abs(l[4] - l[1]))
+                    if r:
+                        cut[n] += 1
+                        kept.append(r)
+                        G.union(i, j)
+                        continue
+                    ri, rj = G.find(i), G.find(j)
+                    sizes = collections.Counter(G.find(k) for k in range(len(G.pts)))
+                    if min(sizes[ri], sizes[rj]) < POCKET:
+                        cut[n] += 1     # a pocket the solids seal in: no body gets in, and no link that walks through them may
+                        continue
                     G.union(i, j)
+                elif "terrain" not in doc:
+                    cut[n] += 1     # an end with no graph point is a link the game's builder drops unlinked, but its physics check still counts
+                    continue
                 stuck += 1
             kept.append(l)
         out.append(kept)
@@ -692,6 +742,8 @@ def cut_links(argv):
     fixed = spec.get("extra_links", [])
     check = argv[1].endswith("-check")
     rc = 0
+    with open(os.path.join(HERE, "link_allow.json")) as f:
+        allow = json.load(f)["links"]
     for path in argv[3:]:
         with open(path) as f:
             doc = json.load(f)
@@ -702,6 +754,9 @@ def cut_links(argv):
                 extra = json.load(f)
         n, m, stuck = cut_blocked(doc, extra, fixed)
         print("%s: %d links blocked (%d in the nav extra), %d more kept as the only join" % (doc["id"], n + m, m, stuck))
+        if stuck > allow.get(doc["id"], 0):
+            print("  %s: %d kept links, only %d allowed (tools/link_allow.json)" % (doc["id"], stuck, allow.get(doc["id"], 0)))
+            rc = 1
         if n + m:
             rc = 1
             if not check:
