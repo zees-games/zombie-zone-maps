@@ -32,10 +32,17 @@ sys.path.insert(0, sys.argv[3])
 sys.path.insert(0, sys.argv[4])    # dot-map's dotbsp, which settle_toys reads a terrain with
 import build_maps
 boxes = json.load(open(sys.argv[2]))
+loose = boxes.pop("_loose", {})
 for id, bs in boxes.items():
     path = "%s/%s.json" % (sys.argv[1], id)
     doc = json.load(open(path))
     doc.pop("solid_props", None)
+    if id in loose:    # a --from-doc run reads no world and leaves them as they were
+        doc.pop("loose_toys", None)
+        doc.pop("supports", None)
+        for k in ("loose_toys", "supports"):
+            if loose[id][k]:
+                doc[k] = loose[id][k]
     if bs:
         new = {}
         for k, v in doc.items():    # right after "props", where a reader looks for it
