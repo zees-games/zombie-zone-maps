@@ -1,15 +1,23 @@
 {
 	"format": 1,
-	"origin": "https://dev.dotgames.org/content",
 	"mirrors": [],
+	"origin": "https://dev.dotgames.org/content",
 	"packs": [
 		{
+			"id": "gamemann/zz-maps",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "3cde2bc1eb2b668bb812b657271826d2d3d65317f3741a4f178e3062e376f8b9",
+			"optional": true,
+			"version": "1.0.0"
+		},
+		{
 			"id": "gamemann/zz-stores",
-			"version": "1.0.2",
-			"manifest_sha256": "19ed54c51ca855c9f6191cb7fa1c5dc630171583ba367ba2dbf41457d5c319c0",
 			"into": ".stores",
 			"kind": "store",
-			"optional": true
+			"manifest_sha256": "19ed54c51ca855c9f6191cb7fa1c5dc630171583ba367ba2dbf41457d5c319c0",
+			"optional": true,
+			"version": "1.0.2"
 		}
 	]
 }
