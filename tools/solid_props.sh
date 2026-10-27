@@ -3,6 +3,7 @@
 # maps pack ships no world/, collides where a client does. Run after ship_docs.sh (which drops them); idempotent.
 # Run it under `heavy --` (it starts Godot).
 #   GAME=../game-zombie-zone tools/solid_props.sh [id ...]     (every document naming a "world" by default)
+#   FROM_DOC=1 re-filters each document's boxes instead of rebuilding them (after a change to how the horde's graph cuts props).
 HERE="$(cd "$(dirname "$0")" && pwd)"
 GAME="${GAME:-$HERE/../../game-zombie-zone}"
 TMP="$(mktemp)"
@@ -23,7 +24,7 @@ PY
 [ $# -gt 0 ] || { echo "solid_props: no document with a world"; exit 0; }
 [ -f "$GAME/.godot/global_script_class_cache.cfg" ] || godot --headless --path "$GAME" --import > /dev/null 2>&1    # a fresh worktree has no class cache
 : > "$TMP"
-godot --headless --path "$GAME" --script tools/solid_props.gd -- "$TMP" "$@" || exit $?
+godot --headless --path "$GAME" --script tools/solid_props.gd -- "$TMP" ${FROM_DOC:+--from-doc} "$@" || exit $?
 [ -s "$TMP" ] || { echo "solid_props: the script wrote nothing (a parse error?)" >&2; exit 1; }    # a script that fails to load still exits 0
 python3 -I - "$HERE/../maps" "$TMP" "$HERE" "${DOTBSP_PATH:-$HERE/../../dot-map/tools/bsp}" <<'PY'
 import json, os, sys
