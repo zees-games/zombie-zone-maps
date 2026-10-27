@@ -21070,7 +21070,7 @@
    "id": "urban_pallet",
    "at": [
     -16.021,
-    -3.38,
+    -3.39,
     -10.497
    ],
    "yaw": 64.0
@@ -21115,7 +21115,7 @@
    "id": "survival_barrel",
    "at": [
     8.553,
-    -2.64,
+    -2.62,
     13.487
    ],
    "yaw": 98.5
@@ -21160,7 +21160,7 @@
    "id": "cars_sedan",
    "at": [
     1.162,
-    -2.28,
+    -2.27,
     2.172
    ],
    "yaw": 238.0
@@ -21169,7 +21169,7 @@
    "id": "cars_sedan",
    "at": [
     1.181,
-    -2.28,
+    -2.27,
     2.057
    ],
    "yaw": 238.0
@@ -21205,7 +21205,7 @@
    "id": "furniture_chair",
    "at": [
     -0.591,
-    -2.26,
+    -2.29,
     1.124
    ],
    "yaw": 119.5
@@ -21250,7 +21250,7 @@
    "id": "furniture_bench",
    "at": [
     -5.258,
-    -2.81,
+    -2.82,
     -10.763
    ],
    "yaw": 267.5
@@ -21259,7 +21259,7 @@
    "id": "cars_sedan",
    "at": [
     -4.958,
-    -2.81,
+    -2.79,
     -10.285
    ],
    "yaw": 199.0
@@ -21268,7 +21268,7 @@
    "id": "furniture_table",
    "at": [
     -5.323,
-    -2.81,
+    -2.79,
     -10.163
    ],
    "yaw": 270.0
@@ -21277,7 +21277,7 @@
    "id": "furniture_bathroom_sink",
    "at": [
     -5.928,
-    -2.18,
+    -2.17,
     0.734
    ],
    "yaw": 210.574
@@ -21286,7 +21286,7 @@
    "id": "furniture_toilet",
    "at": [
     -6.744,
-    -2.18,
+    -2.17,
     0.61
    ],
    "yaw": 313.0
@@ -21358,7 +21358,7 @@
    "id": "furniture_chair",
    "at": [
     -9.639,
-    -2.72,
+    -2.69,
     -9.239
    ],
    "yaw": 168.0
@@ -21367,7 +21367,7 @@
    "id": "furniture_chair",
    "at": [
     -9.716,
-    -2.71,
+    -2.69,
     -8.706
    ],
    "yaw": 177.5
@@ -21412,7 +21412,7 @@
    "id": "furniture_table",
    "at": [
     -5.105,
-    -2.29,
+    -2.32,
     -0.362
    ],
    "yaw": 125.5
@@ -28432,35 +28432,27 @@
   "survivors": [
    {
     "at": [
-     -2.5,
-     -2.305,
-     -0.5
+     -3.0,
+     -2.192,
+     0.0
     ],
-    "yaw": 30.0
+    "yaw": 300.0
    },
    {
     "at": [
-     -3.5,
-     -2.13,
-     0.5
+     -2.0,
+     -2.142,
+     1.0
+    ],
+    "yaw": 345.0
+   },
+   {
+    "at": [
+     -2.95,
+     -2.49,
+     -1.45
     ],
     "yaw": 330.0
-   },
-   {
-    "at": [
-     -2.5,
-     -2.055,
-     1.5
-    ],
-    "yaw": 15.0
-   },
-   {
-    "at": [
-     -3.5,
-     -2.405,
-     -1.5
-    ],
-    "yaw": 285.0
    },
    {
     "at": [
@@ -28472,6 +28464,14 @@
    },
    {
     "at": [
+     -3.0,
+     -1.992,
+     2.0
+    ],
+    "yaw": 315.0
+   },
+   {
+    "at": [
      -0.45,
      0.1,
      -0.45
@@ -28480,19 +28480,19 @@
    },
    {
     "at": [
-     -4.5,
-     -2.03,
-     1.5
+     -5.45,
+     -6.15,
+     0.55
     ],
-    "yaw": 15.0
+    "yaw": 195.0
    },
    {
     "at": [
-     -3.5,
-     -1.98,
-     2.5
+     -4.25,
+     -2.49,
+     -2.45
     ],
-    "yaw": 330.0
+    "yaw": 60.0
    }
   ]
  },
@@ -28500,14 +28500,14 @@
   "start": [
    {
     "min": [
-     -6.5,
-     -2.99,
-     -3.5
+     -7.45,
+     -6.65,
+     -4.45
     ],
     "max": [
      1.55,
      3.1,
-     4.5
+     4.0
     ]
    }
   ],
@@ -28515,9 +28515,9 @@
  },
  "route": [
   [
-   -2.5,
-   -2.305,
-   -0.5
+   -3.0,
+   -2.192,
+   0.0
   ]
  ],
  "nav": {
@@ -28624,7 +28624,7 @@
    ],
    [
     -8.95,
-    -5.95,
+    -5.45,
     -8.55,
     -4.55,
     -2.82
@@ -28742,6 +28742,13 @@
     -2.59
    ],
    [
+    -2.45,
+    -0.95,
+    -2.05,
+    -0.55,
+    -2.59
+   ],
+   [
     4.05,
     -0.45,
     5.45,
@@ -28760,6 +28767,13 @@
     0.55,
     4.95,
     0.95,
+    -2.59
+   ],
+   [
+    4.55,
+    1.05,
+    4.95,
+    1.45,
     -2.59
    ],
    [
@@ -28856,16 +28870,72 @@
   ],
   "links": [
    [
-    -1.95,
+    -2.75,
     0.0,
-    -8.95,
-    -1.95,
+    -0.25,
+    -2.25,
+    -2.37,
+    -0.25
+   ],
+   [
+    -2.75,
+    0.0,
+    -0.25,
+    -3.25,
+    -2.34,
+    -0.25
+   ],
+   [
+    -0.25,
+    0.0,
+    -0.25,
+    -0.25,
     -2.59,
-    -8.95
+    -0.75
+   ],
+   [
+    -1.25,
+    0.0,
+    -0.25,
+    -1.75,
+    -2.42,
+    -0.25
+   ],
+   [
+    0.25,
+    0.0,
+    -0.25,
+    0.25,
+    -2.59,
+    -0.75
+   ],
+   [
+    -1.75,
+    0.0,
+    0.25,
+    -1.75,
+    -2.27,
+    0.75
+   ],
+   [
+    -1.25,
+    0.0,
+    -3.25,
+    -1.25,
+    -2.59,
+    -3.75
+   ],
+   [
+    -1.75,
+    0.0,
+    -3.25,
+    -1.75,
+    -2.59,
+    -3.75
    ],
    [
     -17.75,
-    -3.26,
+    -3.27,
     -2.25,
     -17.25,
     -6.25,
@@ -28873,7 +28943,7 @@
    ],
    [
     -16.25,
-    -3.28,
+    -3.27,
     3.75,
     -15.75,
     -6.25,
@@ -28881,11 +28951,11 @@
    ],
    [
     -17.25,
-    -3.28,
-    -0.75,
+    -3.27,
+    -1.25,
     -16.75,
     -6.25,
-    -0.75
+    -1.25
    ],
    [
     -16.75,
@@ -28896,32 +28966,40 @@
     0.25
    ],
    [
+    -15.75,
+    -3.27,
+    6.75,
+    -15.25,
+    -6.25,
+    6.75
+   ],
+   [
     8.25,
     -2.44,
     -11.75,
     8.25,
-    -2.76,
+    -2.74,
     -12.25
    ],
    [
-    -15.75,
-    -3.26,
-    7.75,
-    -15.25,
-    -6.25,
-    7.75
-   ],
-   [
-    15.75,
-    -3.26,
-    -5.25,
     16.25,
+    -3.27,
+    -5.25,
+    16.75,
     -6.25,
     -5.25
    ],
    [
+    15.25,
+    -3.29,
+    -6.25,
     14.75,
-    -3.27,
+    -6.25,
+    -6.25
+   ],
+   [
+    14.75,
+    -3.29,
     -6.75,
     14.25,
     -6.25,
@@ -28944,48 +29022,32 @@
     -5.25
    ],
    [
-    14.25,
-    -3.27,
-    -7.75,
     13.75,
-    -6.25,
-    -7.75
-   ],
-   [
+    -3.27,
+    -8.25,
     13.25,
-    -3.26,
-    -8.75,
-    12.75,
     -6.25,
-    -8.75
+    -8.25
    ],
    [
-    -16.25,
-    -3.26,
+    -16.75,
+    -3.34,
     -9.25,
-    -15.75,
+    -16.25,
     -6.25,
     -9.25
    ],
    [
-    19.25,
-    -3.26,
-    -3.75,
-    18.75,
+    -16.25,
+    -3.32,
+    -9.75,
+    -15.75,
     -6.25,
-    -3.75
-   ],
-   [
-    18.25,
-    -3.26,
-    -4.75,
-    17.75,
-    -6.25,
-    -4.75
+    -9.75
    ],
    [
     -15.25,
-    -3.29,
+    -3.27,
     -11.25,
     -14.75,
     -6.25,
@@ -28993,7 +29055,7 @@
    ],
    [
     -15.25,
-    -3.26,
+    -3.27,
     11.25,
     -14.75,
     -6.25,
@@ -29008,28 +29070,60 @@
     -12.25
    ],
    [
+    -14.75,
+    -3.27,
+    12.25,
+    -14.25,
+    -6.25,
+    12.25
+   ],
+   [
+    17.75,
+    -3.27,
+    -6.75,
+    18.25,
+    -6.25,
+    -6.75
+   ],
+   [
+    13.25,
+    -3.27,
+    -11.25,
+    12.75,
+    -6.25,
+    -11.25
+   ],
+   [
+    -14.25,
+    -3.29,
     -13.75,
-    -3.26,
     -13.75,
-    -13.25,
     -6.25,
     -13.75
    ],
    [
-    -14.75,
-    -3.29,
-    12.75,
-    -14.25,
+    18.25,
+    -3.27,
+    -6.75,
+    18.75,
     -6.25,
-    12.75
+    -6.75
    ],
    [
-    -13.75,
+    -14.25,
     -3.27,
-    14.75,
-    -13.25,
+    13.75,
+    -13.75,
     -6.25,
-    14.75
+    13.75
+   ],
+   [
+    -13.25,
+    -3.27,
+    -15.75,
+    -12.75,
+    -6.25,
+    -15.75
    ],
    [
     -13.25,
@@ -29040,24 +29134,8 @@
     15.75
    ],
    [
-    -13.25,
-    -3.27,
-    -16.75,
-    -12.75,
-    -6.25,
-    -16.75
-   ],
-   [
-    12.75,
-    -3.26,
-    -14.25,
-    12.25,
-    -6.25,
-    -14.25
-   ],
-   [
     -11.25,
-    -3.28,
+    -3.27,
     -19.25,
     -10.75,
     -6.25,
@@ -29065,27 +29143,35 @@
    ],
    [
     -12.75,
-    -3.26,
+    -3.27,
+    17.75,
+    -12.25,
+    -6.25,
+    17.75
+   ],
+   [
+    -12.75,
+    -3.27,
     -18.25,
     -12.25,
     -6.25,
     -18.25
    ],
    [
-    -9.75,
+    -10.25,
     -3.27,
-    -19.75,
-    -9.25,
+    -19.25,
+    -9.75,
     -6.25,
-    -19.75
+    -19.25
    ],
    [
-    -12.75,
-    -3.27,
-    18.75,
-    -12.25,
+    -9.75,
+    -3.29,
+    -20.25,
+    -9.25,
     -6.25,
-    18.75
+    -20.25
    ],
    [
     -8.75,
@@ -29097,7 +29183,7 @@
    ],
    [
     -8.25,
-    -3.28,
+    -3.27,
     -21.25,
     -7.75,
     -6.25,
@@ -29105,7 +29191,7 @@
    ],
    [
     11.75,
-    -3.26,
+    -3.27,
     19.25,
     12.25,
     -6.25,
@@ -29113,103 +29199,95 @@
    ],
    [
     12.25,
-    -3.26,
-    19.25,
+    -3.29,
+    19.75,
     12.75,
     -6.25,
-    19.25
+    19.75
    ],
    [
     11.25,
-    -3.26,
+    -3.27,
     20.75,
     10.75,
     -6.25,
     20.75
    ],
    [
-    12.75,
-    -3.26,
-    19.75,
-    13.25,
-    -6.25,
-    19.75
-   ],
-   [
     -21.75,
-    -4.08,
+    -4.07,
     -16.75,
     -21.75,
+    -6.25,
+    -17.25
+   ],
+   [
+    13.25,
+    -3.29,
+    21.25,
+    13.75,
+    -6.25,
+    21.25
+   ],
+   [
+    -22.75,
+    -4.07,
+    -16.75,
+    -22.75,
     -6.25,
     -17.25
    ],
    [
     13.75,
-    -3.26,
-    20.75,
+    -3.27,
+    21.25,
     14.25,
+    -6.25,
+    21.25
+   ],
+   [
+    17.75,
+    -3.27,
+    21.25,
+    18.25,
+    -6.25,
+    21.25
+   ],
+   [
+    16.25,
+    -3.27,
+    22.75,
+    16.25,
+    -6.25,
+    23.25
+   ],
+   [
+    14.75,
+    -3.27,
+    24.25,
+    14.75,
+    -6.25,
+    24.75
+   ],
+   [
+    18.75,
+    -3.27,
+    20.75,
+    19.25,
     -6.25,
     20.75
    ],
    [
-    -22.75,
-    -4.06,
-    -16.75,
-    -22.75,
-    -6.25,
-    -17.25
-   ],
-   [
-    14.25,
-    -3.26,
+    18.25,
+    -3.27,
     21.25,
-    14.75,
-    -6.25,
-    21.25
-   ],
-   [
-    15.25,
-    -3.26,
-    21.25,
-    15.75,
-    -6.25,
-    21.25
-   ],
-   [
-    17.25,
-    -3.26,
-    20.25,
-    17.75,
-    -6.25,
-    20.25
-   ],
-   [
-    16.75,
-    -3.26,
-    21.25,
-    16.75,
+    18.25,
     -6.25,
     21.75
    ],
    [
-    19.25,
-    -3.26,
-    19.25,
-    19.25,
-    -6.25,
-    19.75
-   ],
-   [
-    18.25,
-    -3.26,
-    20.25,
-    18.75,
-    -6.25,
-    20.25
-   ],
-   [
     -7.75,
-    -3.26,
+    -3.27,
     -31.25,
     -7.25,
     -6.25,
@@ -29217,19 +29295,19 @@
    ],
    [
     -7.25,
-    -3.26,
-    -32.75,
+    -3.27,
+    -32.25,
     -6.75,
     -6.25,
-    -32.75
+    -32.25
    ],
    [
     -6.75,
-    -3.26,
-    -34.25,
+    -3.27,
+    -33.25,
     -6.25,
     -6.25,
-    -34.25
+    -33.25
    ],
    [
     -1.95,
@@ -29330,14 +29408,6 @@
    [
     -1.95,
     0.0,
-    0.55,
-    -3.45,
-    0.0,
-    1.05
-   ],
-   [
-    -1.95,
-    0.0,
     -4.45,
     -0.45,
     0.0,
@@ -29349,43 +29419,35 @@
   {
    "kind": "weapon",
    "at": [
-    -0.5,
-    -2.26,
-    1.5
+    -1.0,
+    -2.19,
+    2.0
    ],
    "id": "smg"
   },
   {
    "kind": "ammo",
    "at": [
-    -4.5,
-    -2.12,
-    1.5
+    -5.0,
+    -2.07,
+    2.0
    ]
   },
   {
    "kind": "weapon",
    "at": [
-    -0.5,
+    -1.0,
     -2.59,
-    -2.5
+    -2.0
    ],
    "id": "shotgun"
   },
   {
    "kind": "medkit",
    "at": [
-    -4.5,
+    -5.0,
     -2.59,
-    -2.5
-   ]
-  },
-  {
-   "kind": "pills",
-   "at": [
-    -2.5,
-    -2.11,
-    2.5
+    -2.0
    ]
   }
  ],
@@ -29394,27 +29456,27 @@
  "zombie_spawns": [
   [
    0.381,
-   -2.71,
+   -2.69,
    17.069
   ],
   [
    -1.448,
-   -2.72,
+   -2.74,
    17.069
   ],
   [
    -3.277,
-   -2.76,
+   -2.74,
    17.069
   ],
   [
    0.381,
-   -2.66,
+   -2.67,
    -23.622
   ],
   [
    -1.448,
-   -2.64,
+   -2.62,
    -23.622
   ],
   [
@@ -29425,14 +29487,14 @@
  ],
  "posts": [
   [
-   -2.5,
-   -2.305,
-   -0.5
+   -3.0,
+   -2.192,
+   0.0
   ],
   [
-   -3.5,
-   -1.98,
-   2.5
+   -4.25,
+   -2.49,
+   -2.45
   ],
   [
    -0.45,
@@ -29440,19 +29502,19 @@
    -0.45
   ],
   [
-   -3.5,
-   -2.13,
-   0.5
+   -5.45,
+   -6.15,
+   0.55
   ],
   [
-   -2.5,
-   -2.055,
-   1.5
+   -3.0,
+   -1.992,
+   2.0
   ],
   [
-   -3.5,
-   -2.405,
-   -1.5
+   -2.95,
+   -2.49,
+   -1.45
   ]
  ],
  "caches": [
@@ -29476,19 +29538,19 @@
  "terrain": {
   "format": 1,
   "origin": [
-   -38.0,
-   -47.0
+   -37.5,
+   -46.5
   ],
-  "cell": 1.0,
+  "cell": 0.5,
   "size": [
-   70,
-   85
+   139,
+   168
   ],
-  "base": -5.9051,
+  "base": -5.842,
   "step": 0.05,
-  "bytes": 12644,
-  "data": "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",
-  "walk": "eNpjYKA7+PEfBICMfyDanoGhASzAz8DwAMxgHlxKKr5Alcj9gSph/3/wO0RJ/Ye5EFPka55DTAEaADEFKAtWYg+UBSvhB8mClDDjVCLP8McerKSfESQDVJJ4AGoR0HKIc9lhzj0INYX/A9S586njaXuYkvMwJfdpGLr0AgCr6jjN",
+  "bytes": 49623,
+  "data": "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",
+  "walk": "eNrtlDGKAzEMRW0M69JH0EmCj+Z0e4y9yoQUKfcK06VbpnTAjDORTCQrgRDYIoVV/m9LD/nPGDPq06tyeRQyCxGFSRyxqKwsBBQWFhIKe3HHoVJYABRmcWSgDJQ3UQ4aJfwplMSzG4pbFApss235ESjbnTDX0qEkU8/HDsXlCKvcCkw1L91WTDl9y61AM3grzeCteDLEViwZjBLIYJTUDEZxZDDKjgzxQFajeI2SHlCcRgGNUh9QArX9uqO0to5RANtSE3qvGdsazoqHW1vPKD7jPEaJkzc9yiEaHVubVWzDpGJLgZGxxcCI2CYEkLF1ps/KBjGr2EIZH/NTlKxRTholrq9RLhrld/xt/xtl1CfXFQco7VY=",
   "mat": "dirt"
  },
  "water": [
@@ -29557,17 +29619,17 @@
   {
    "toy": "barrel",
    "at": [
-    1.385,
+    0.5,
     -2.591,
-    -2.035
+    -2.0
    ]
   },
   {
    "toy": "tyre",
    "at": [
-    -5.855,
-    -2.083,
-    2.435
+    -5.632,
+    -2.087,
+    3.454
    ]
   }
  ]
