@@ -598,6 +598,8 @@ class LinkSolids:
             a = [p[0], top + rise, p[2]]
             b = [q[0], top + rise, q[2]]
             d = math.dist(a, b)
+            if d < 1e-6:        # a link straight down or up has no line at this height
+                continue
             ux, uy, uz = [(b[k] - a[k]) / d for k in range(3)]
             a = [a[0] + ux * self.TRIM, a[1] + uy * self.TRIM, a[2] + uz * self.TRIM]
             b = [b[0] - ux * self.TRIM, b[1] - uy * self.TRIM, b[2] - uz * self.TRIM]
@@ -629,6 +631,51 @@ def link_solids(doc, extra_boxes=()):
         for h in daudit.collision_hulls(world.hulls, sel):
             solids.add_hull(h)
     return solids
+
+
+LINK_STEEP = 1.2    # the game's ZzNpcs.LINK_STEEP: a link that changes level by more is tested against the floor slabs
+
+
+def floor_slabs(boxes, floors):
+    """The bounds of the solid boxes the game takes for floors (it does not make them walls for a link, but drops a level-changing link that pierces one)."""
+    import nav_emulate
+    out = []
+    for b in boxes:
+        if not b.get("solid", True) or b.get("gate") or b.get("kind") == "sky" or ("nav" in b and not b["nav"]) or b.get("barricade"):
+            continue
+        nb = nav_emulate._bounds(b)
+        if "nav" not in b and nav_emulate._is_floor(nb, floors):
+            out.append(nb)
+    return out
+
+
+def through_floor(slabs, l, trim=0.15):
+    """Whether link `l` changes level and its line goes through a floor slab, as ZzNpcs._link_through_floor drops it."""
+    if abs(l[1] - l[4]) <= LINK_STEEP:
+        return False
+    d = math.dist(l[:3], l[3:])
+    if d < 2 * trim + 1e-6:
+        return False
+    u = [(l[3 + k] - l[k]) / d for k in range(3)]
+    a = [l[k] + u[k] * trim for k in range(3)]
+    b = [l[3 + k] - u[k] * trim for k in range(3)]
+    for s in slabs:
+        t0, t1 = 0.0, 1.0
+        for k in range(3):
+            dk = b[k] - a[k]
+            lo, hi = s[k], s[k + 3]
+            if abs(dk) < 1e-9:
+                if a[k] < lo or a[k] > hi:
+                    t0, t1 = 1.0, 0.0
+                    break
+                continue
+            ta, tb = (lo - a[k]) / dk, (hi - a[k]) / dk
+            if ta > tb:
+                ta, tb = tb, ta
+            t0, t1 = max(t0, ta), min(t1, tb)
+        if t0 <= t1:
+            return True
+    return False
 
 
 POCKET = 40    # points: the importer's own line between a pocket and a part of the map (filter_wall_links)
@@ -686,10 +733,15 @@ def cut_blocked(doc, extra, fixed):
         r = float(nav.get("spacing", 1.0)) * 2.0
         return G.nearest(l[0], l[1], l[2], r), G.nearest(l[3], l[4], l[5], r)
 
+    slabs = floor_slabs(list(doc["boxes"]) + list(xb), floors)
     bad = set()
-    for ls in lists:
+    thru = set()
+    for n, ls in enumerate(lists):
         for l in ls:
-            if tuple(l) not in fixed_ and not at_barricade(l) and solids.blocked(l[:3], l[3:]):
+            if tuple(l) not in fixed_ and through_floor(slabs, l):
+                bad.add(id(l))
+                thru.add(id(l))     # the game drops it anyway; kept, it only claims a join that is not there
+            elif tuple(l) not in fixed_ and not at_barricade(l) and solids.blocked(l[:3], l[3:]):
                 bad.add(id(l))
             else:
                 i, j = ends(l)
@@ -717,8 +769,11 @@ def cut_blocked(doc, extra, fixed):
                     if min(sizes[ri], sizes[rj]) < POCKET:
                         cut[n] += 1     # a pocket the solids seal in: no body gets in, and no link that walks through them may
                         continue
+                    if id(l) in thru:
+                        cut[n] += 1     # no replacement and no pocket: still not a join the game keeps
+                        continue
                     G.union(i, j)
-                elif "terrain" not in doc:
+                elif "terrain" not in doc or id(l) in thru:
                     cut[n] += 1     # an end with no graph point is a link the game's builder drops unlinked, but its physics check still counts
                     continue
                 stuck += 1
