@@ -799,11 +799,11 @@ def cut_blocked(doc, extra, fixed):
 
 
 def reseat_spawns(doc):
-    """Moves a survivor spawn the finished document's graph seals off from the main ground (the physical link cut can seal a room the first pass joined) onto it."""
+    """Moves a survivor spawn, post or cache the finished document's graph seals off from the main ground (the physical link cut can seal a room the first pass joined) onto it."""
     import nav_emulate
     nav = doc["nav"]
     sizes = json.load(open(os.path.join(HERE, "prop_sizes.json")))["props"]
-    G = nav_emulate.Graph(doc["boxes"], doc.get("props", []), sizes, nav["floors"], spacing=float(nav.get("spacing", 1.0)), clearance=float(nav.get("clearance", 0.35)), solid_props=doc.get("solid_props", []))
+    G = nav_emulate.Graph(doc["boxes"], doc.get("props", []), sizes, nav["floors"], spacing=float(nav.get("spacing", 1.0)), clearance=float(nav.get("clearance", 0.35)), terrain_pts=TERRAIN_PTS, solid_props=doc.get("solid_props", []))
     for l in nav["links"]:
         i, j = G.nearest(l[0], l[1], l[2], 2.0), G.nearest(l[3], l[4], l[5], 2.0)
         if i >= 0 and j >= 0:
@@ -828,6 +828,21 @@ def reseat_spawns(doc):
                 break
     if moved:
         print("  survivor spawns: %d in a room the finished graph seals off moved out of it" % moved)
+    # Posts and caches are placed from the first graph; one the finished graph seals off is snapped to the nearest main-ground point (same height band), 6 m clear of its peers.
+    for what, lst in (("posts", doc.get("posts", [])), ("caches", doc.get("caches", []))):
+        snapped = 0
+        for n, at in enumerate(lst):
+            k = G.nearest(at[0], at[1], at[2], 1.5)
+            if k >= 0 and G.find(k) == main:
+                continue
+            for q in sorted(pts, key=lambda q: (q[0] - at[0]) ** 2 + (q[2] - at[2]) ** 2 + (q[1] - at[1]) ** 2):
+                if abs(q[1] - at[1]) <= 1.0 and all((q[0] - o[0]) ** 2 + (q[2] - o[2]) ** 2 >= 36 for m, o in enumerate(lst) if m != n):
+                    print("  %s: %s %s is on an island, snapped %.1f m to the main ground" % (what, n, at, math.sqrt((q[0] - at[0]) ** 2 + (q[1] - at[1]) ** 2 + (q[2] - at[2]) ** 2)))
+                    lst[n] = [r3(q[0]), r3(q[1]), r3(q[2])]
+                    snapped += 1
+                    break
+            else:
+                print("  %s: %s %s is on an island and no main-ground point is within reach" % (what, n, at))
     return doc
 
 
@@ -2398,7 +2413,11 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
             if on_main((ix + 0.5) * CELL, h, (iz + 0.5) * CELL):
                 deep.setdefault((ix, iz), h)
 
-    posts, pts = [], [s["at"] for s in spawns]
+    # A post on an island of the horde's graph is a post no zombie reaches: only spawns on the main ground are candidates.
+    posts, pts = [], [s["at"] for s in spawns if on_main(s["at"][0], s["at"][1], s["at"][2])] or [s["at"] for s in spawns]
+    off_main = [s["at"] for s in spawns if not on_main(s["at"][0], s["at"][1], s["at"][2])]
+    if off_main:
+        print("  survivor spawns: %d off the main ground (none of it within 8 m); not used as posts" % len(off_main))
     # Posts: the spawns, spread. A spec that names a `post_region` ([x0, z0, x1, z1]) puts them
     # inside it instead, on ground well clear of a wall: a team that holds a house is held behind
     # its doors and windows, which is what makes the narrow places the horde must come through
@@ -2586,8 +2605,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
                 doc["world_collision"]["band"] = list(spec["clip_y"])
             print("  world_collision: %d models from the world pack's hulls" % len(doc["world_collision"]["models"]))
     doc = cut_blocked_links(doc, spec.get("extra_links", []))
-    if "terrain" not in doc:
-        doc = reseat_spawns(doc)
+    doc = reseat_spawns(doc)
     os.makedirs(out_dir, exist_ok=True)
     path = os.path.join(out_dir, spec["id"] + ".json")
     with open(path, "w") as f:
