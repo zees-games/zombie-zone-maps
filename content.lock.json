@@ -1,0 +1,15 @@
+{
+	"format": 1,
+	"origin": "https://dev.dotgames.org/content",
+	"mirrors": [],
+	"packs": [
+		{
+			"id": "gamemann/zz-stores",
+			"version": "1.0.2",
+			"manifest_sha256": "19ed54c51ca855c9f6191cb7fa1c5dc630171583ba367ba2dbf41457d5c319c0",
+			"into": ".stores",
+			"kind": "store",
+			"optional": true
+		}
+	]
+}
