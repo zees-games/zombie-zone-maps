@@ -37,6 +37,9 @@ for i, c in enumerate(s.get("cut", [])):
         print("--skip=%s" % ",".join(map(str, c[:6])))
 PY
 )
+    # lids the importer dropped on purpose (spec drop_lids) are not floors a body is missing
+    mapfile -t lids < <(python3 -I -c "import json,sys;[print('--skip=' + ','.join(map(str, l))) for l in json.load(open(sys.argv[1])).get('dropped_lids', [])]" "$DOCS/$id.json")
+    args+=("${lids[@]}")
     log="${TMPDIR:-/tmp}/walk-$id.log"
     # a document with `world_collision` also collides with its world pack's hulls
     pack="$(python3 -I -c "import json,sys;print(json.load(open(sys.argv[1])).get('world',''))" "$DOCS/$id.json")"

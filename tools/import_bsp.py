@@ -65,6 +65,8 @@ TERRAIN = None
 # Its walk points after the last flood, which the game's graph is built on (nav_emulate mirrors it).
 TERRAIN_PTS = []
 FACES = []
+GRAPH_MAIN = [0, 0]    # [points on the main ground, points] of the last conversion's game graph
+MAIN_SHARE_MIN = 0.6    # a whole-map graph below this share falls back to the spec's drop_small/max_boxes (see budgeted)
 
 
 # A map compiled with an empty game lump (no static props) crashes dot-map's reader; the fix
@@ -130,6 +132,11 @@ def material_for(name):
 def world_pack(map_id):
     """The pack a converted map's drawn world is published as (tools/build_worlds.py)."""
     return "zz_world_" + map_id
+
+
+def world_pack_built(map_id):
+    """Whether `world/<pack>/<id>.json` exists, so the game collides with the drawn world's hulls too."""
+    return os.path.isfile(os.path.join(HERE, "..", "world", world_pack(map_id), map_id + ".json"))
 
 
 def name_world(doc, repo_root):
@@ -1356,7 +1363,16 @@ def budgeted(argv, full):
     spec = json.load(open(argv[1]))
     path = os.path.join(argv[3] if len(argv) > 3 else os.path.join(HERE, "..", "maps"), spec["id"] + ".json")
     rc = convert(argv, skip=("drop_small", "max_boxes"))
-    if rc or fits(path):
+    if rc:
+        return rc
+    if (spec.get("drop_small") or spec.get("max_boxes")) and world_pack_built(spec["id"]) and GRAPH_MAIN[0] < MAIN_SHARE_MIN * GRAPH_MAIN[1]:
+        # The drawn world collides through its own hulls, so the spec's `drop_small` and `max_boxes` are the horde's obstacle
+        # list, not a wire budget: whole, the walls and rails the hulls already hold cut the ground into islands
+        # (roy_highway: 4192 of 12663 points on the main ground, 16626 of 16888 with the spec's budget).
+        whole_graph = tuple(GRAPH_MAIN)
+        print("  whole map: %d of %d graph points on the main ground; using the spec's drop_small/max_boxes, which the hulls cover" % whole_graph)
+        return convert(argv)
+    if fits(path):
         return rc
     full.update(json.load(open(path)))
     whole = wire_size(path)
@@ -1425,6 +1441,16 @@ def put_back(argv, path, whole):
         keep = int(n * room * 0.97) - dropped[0]
     print("  over the wire budget with them: dropping every small box again")
     return convert(argv, skip=("max_boxes",))
+
+
+def prior_world_collision(path):
+    """Whether the previous document collided through its world's hulls: kept on a re-import, because boxes alone drop the
+    slanted and cut brushes the hulls hold exactly (krusty_krab's wall_missing rose from 9 to 12 without them)."""
+    try:
+        with open(path) as f:
+            return bool(json.load(f).get("world_collision"))
+    except (OSError, ValueError):
+        return False
 
 
 def prior_solid_props(path):
@@ -2195,8 +2221,10 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
                 if prev is None or abs(c[2] - prev[2]) > 0.05:
                     print("   chain", round((c[0] + 0.5) * CELL, 1), round(c[2], 2), round((c[1] + 0.5) * CELL, 1))
                 prev = c
+    main_pts = sum(1 for i in range(len(G.pts)) if G.find(i) == main)
+    GRAPH_MAIN[:] = [main_pts, len(G.pts)]
     print("  game graph: %d points, %d bridged, %d of %d points on the main ground; %d barricades kept" % (
-        len(G.pts), bridged, sum(1 for i in range(len(G.pts)) if G.find(i) == main), len(G.pts), len(barricades)))
+        len(G.pts), bridged, main_pts, len(G.pts), len(barricades)))
 
     spawns = list(start_spawns)
     for e in ([] if ss else surv):
@@ -2513,6 +2541,13 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
         for x0, y0_, z0, x1, y1, z1 in FACES:
             doc["boxes"].append({"at": [r3((x0 + x1) / 2), r3((y0_ + y1) / 2), r3((z0 + z1) / 2)], "size": [r3(x1 - x0), r3(y1 - y0_), r3(z1 - z0)],
                                  "mat": spec.get("terrain_mat", "dirt")})
+    lids = [b for stage, b in DROPS if stage == "drop_lids"]
+    if lids:    # walk_check skips them: a lid is above the ground on purpose, and the audit would call its top a missing floor
+        doc["dropped_lids"] = []
+        for b in lids:
+            r = max(b["size"][0], b["size"][2]) / 2
+            doc["dropped_lids"].append([r3(b["at"][0] - r), r3(b["at"][1] - b["size"][1] / 2), r3(b["at"][2] - r),
+                                        r3(b["at"][0] + r), r3(b["at"][1] + b["size"][1] / 2), r3(b["at"][2] + r)])
     water = water_volumes(bs, y0, floors, spec, doc["boxes"], doc["kill_y"])
     if water:
         doc["water"] = water
@@ -2534,8 +2569,9 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
     field, _why = ambient.resolve(spec["id"], spec)
     if field is not None:
         doc = ambient.put(doc, field)
+    prior_hulls = prior_world_collision(os.path.join(out_dir, spec["id"] + ".json"))
     hull_all = spec.get("hull_collision")    # {"cuts": [i, ...], "uncropped": bool}: the world's hulls collide where the boxes were cut or cropped
-    if (dropped_any or hull_all) and doc.get("world"):
+    if (dropped_any or hull_all or prior_hulls) and doc.get("world"):
         # The budget dropped boxes the world pack still draws: the game collides with the pack's own
         # hulls for these models, so the wire carries only what the graph needs.
         moved = [k for k in ("widen_doorways",) if spec.get(k)]
