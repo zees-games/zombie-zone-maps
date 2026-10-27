@@ -8,739 +8,1477 @@
  },
  "breakables": [
   {
+   "bounds": [
+    -4.267,
+    0.61,
+    7.01,
+    -3.2,
+    1.981,
+    7.163
+   ],
    "classname": "func_breakable",
    "entity": 1,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 0,
    "model": 1,
    "targetname": ""
   },
   {
+   "bounds": [
+    -4.877,
+    0.61,
+    5.182,
+    -4.724,
+    1.981,
+    6.248
+   ],
    "classname": "func_breakable",
    "entity": 2,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 0,
    "model": 2,
    "targetname": ""
   },
   {
+   "bounds": [
+    -4.877,
+    0.61,
+    3.962,
+    -4.724,
+    1.981,
+    5.029
+   ],
    "classname": "func_breakable",
    "entity": 3,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 0,
    "model": 3,
    "targetname": ""
   },
   {
+   "bounds": [
+    -4.877,
+    0.61,
+    1.676,
+    -4.724,
+    1.981,
+    2.743
+   ],
    "classname": "func_breakable",
    "entity": 4,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 0,
    "model": 4,
    "targetname": ""
   },
   {
+   "bounds": [
+    -4.877,
+    0.61,
+    0.457,
+    -4.724,
+    1.981,
+    1.524
+   ],
    "classname": "func_breakable",
    "entity": 5,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 0,
    "model": 5,
    "targetname": ""
   },
   {
+   "bounds": [
+    -3.048,
+    0.61,
+    -4.343,
+    -1.981,
+    1.981,
+    -4.191
+   ],
    "classname": "func_breakable",
    "entity": 6,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 6,
    "targetname": ""
   },
   {
+   "bounds": [
+    -4.267,
+    0.61,
+    -4.343,
+    -3.2,
+    1.981,
+    -4.191
+   ],
    "classname": "func_breakable",
    "entity": 7,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 7,
    "targetname": ""
   },
   {
+   "bounds": [
+    15.85,
+    3.772,
+    -0.819,
+    16.002,
+    5.144,
+    0.248
+   ],
    "classname": "func_breakable",
    "entity": 8,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 0,
    "model": 8,
    "targetname": ""
   },
   {
+   "bounds": [
+    15.85,
+    3.772,
+    3.162,
+    16.002,
+    5.144,
+    4.229
+   ],
    "classname": "func_breakable",
    "entity": 9,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 9,
    "targetname": ""
   },
   {
+   "bounds": [
+    13.011,
+    3.772,
+    7.01,
+    14.078,
+    5.144,
+    7.163
+   ],
    "classname": "func_breakable",
    "entity": 10,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 10,
    "targetname": ""
   },
   {
+   "bounds": [
+    9.582,
+    3.772,
+    7.01,
+    10.649,
+    5.144,
+    7.163
+   ],
    "classname": "func_breakable",
    "entity": 11,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 11,
    "targetname": ""
   },
   {
+   "bounds": [
+    8.839,
+    4.001,
+    -4.343,
+    9.373,
+    5.067,
+    -4.191
+   ],
    "classname": "func_breakable",
    "entity": 12,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 0,
    "model": 12,
    "targetname": ""
   },
   {
+   "bounds": [
+    4.534,
+    3.772,
+    7.01,
+    5.601,
+    5.144,
+    7.163
+   ],
    "classname": "func_breakable",
    "entity": 13,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 13,
    "targetname": ""
   },
   {
+   "bounds": [
+    -4.877,
+    3.772,
+    5.029,
+    -4.724,
+    5.144,
+    6.096
+   ],
    "classname": "func_breakable",
    "entity": 14,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 0,
    "model": 14,
    "targetname": ""
   },
   {
+   "bounds": [
+    -4.877,
+    3.772,
+    0.076,
+    -4.724,
+    5.144,
+    1.143
+   ],
    "classname": "func_breakable",
    "entity": 15,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 0,
    "model": 15,
    "targetname": ""
   },
   {
+   "bounds": [
+    3.505,
+    3.277,
+    -4.343,
+    4.572,
+    4.648,
+    -4.191
+   ],
    "classname": "func_breakable",
    "entity": 16,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 16,
    "targetname": ""
   },
   {
+   "bounds": [
+    5.944,
+    0.838,
+    -4.343,
+    6.477,
+    1.905,
+    -4.191
+   ],
    "classname": "func_breakable",
    "entity": 17,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 17,
    "targetname": ""
   },
   {
+   "bounds": [
+    10.668,
+    0.972,
+    -4.343,
+    12.04,
+    1.981,
+    -4.191
+   ],
    "classname": "func_breakable",
    "entity": 18,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 18,
    "targetname": ""
   },
   {
+   "bounds": [
+    18.44,
+    0.724,
+    -3.505,
+    18.593,
+    1.981,
+    -2.134
+   ],
    "classname": "func_breakable",
    "entity": 19,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 19,
    "targetname": ""
   },
   {
+   "bounds": [
+    18.44,
+    0.724,
+    -1.981,
+    18.593,
+    1.981,
+    -0.61
+   ],
    "classname": "func_breakable",
    "entity": 20,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 20,
    "targetname": ""
   },
   {
+   "bounds": [
+    15.85,
+    0.61,
+    3.315,
+    16.002,
+    1.981,
+    4.381
+   ],
    "classname": "func_breakable",
    "entity": 21,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 21,
    "targetname": ""
   },
   {
+   "bounds": [
+    0.914,
+    0.61,
+    7.01,
+    1.981,
+    1.981,
+    7.163
+   ],
    "classname": "func_breakable",
    "entity": 22,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 22,
    "targetname": ""
   },
   {
+   "bounds": [
+    -3.048,
+    0.61,
+    7.01,
+    -1.981,
+    1.981,
+    7.163
+   ],
    "classname": "func_breakable",
    "entity": 23,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 0,
    "model": 23,
    "targetname": ""
   },
   {
+   "bounds": [
+    14.002,
+    0.648,
+    7.582,
+    14.688,
+    1.791,
+    8.42
+   ],
    "classname": "func_breakable",
    "entity": 24,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 0,
    "model": 24,
    "targetname": ""
   },
   {
+   "bounds": [
+    9.068,
+    0.648,
+    7.391,
+    9.754,
+    1.791,
+    8.23
+   ],
    "classname": "func_breakable",
    "entity": 25,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 0,
    "model": 25,
    "targetname": ""
   },
   {
+   "bounds": [
+    -0.152,
+    -2.819,
+    1.067,
+    -0.076,
+    -0.381,
+    2.134
+   ],
    "classname": "func_breakable",
    "entity": 26,
    "glass": null,
    "health": 200.0,
+   "holds": [],
    "material": 1,
    "model": 26,
    "targetname": ""
   },
   {
+   "bounds": [
+    1.829,
+    -1.981,
+    5.105,
+    2.896,
+    -0.61,
+    5.258
+   ],
    "classname": "func_breakable",
    "entity": 27,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 27,
    "targetname": ""
   },
   {
+   "bounds": [
+    3.505,
+    -1.981,
+    5.105,
+    4.572,
+    -0.61,
+    5.258
+   ],
    "classname": "func_breakable",
    "entity": 28,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 28,
    "targetname": ""
   },
   {
+   "bounds": [
+    15.773,
+    -2.095,
+    -1.524,
+    15.926,
+    -0.724,
+    -0.457
+   ],
    "classname": "func_breakable",
    "entity": 29,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 29,
    "targetname": ""
   },
   {
+   "bounds": [
+    19.641,
+    -1.905,
+    15.754,
+    19.793,
+    -0.533,
+    16.821
+   ],
    "classname": "func_breakable",
    "entity": 30,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 30,
    "targetname": ""
   },
   {
+   "bounds": [
+    23.774,
+    -2.095,
+    10.077,
+    24.841,
+    -0.724,
+    10.23
+   ],
    "classname": "func_breakable",
    "entity": 32,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 32,
    "targetname": ""
   },
   {
+   "bounds": [
+    30.823,
+    -2.095,
+    10.077,
+    31.89,
+    -0.724,
+    10.23
+   ],
    "classname": "func_breakable",
    "entity": 33,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 33,
    "targetname": ""
   },
   {
+   "bounds": [
+    32.004,
+    -2.095,
+    10.516,
+    32.156,
+    -0.724,
+    11.582
+   ],
    "classname": "func_breakable",
    "entity": 34,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 34,
    "targetname": ""
   },
   {
+   "bounds": [
+    32.004,
+    -2.095,
+    12.344,
+    32.156,
+    -0.724,
+    13.411
+   ],
    "classname": "func_breakable",
    "entity": 35,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 35,
    "targetname": ""
   },
   {
+   "bounds": [
+    32.004,
+    -2.095,
+    14.478,
+    32.156,
+    -0.724,
+    15.545
+   ],
    "classname": "func_breakable",
    "entity": 36,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 36,
    "targetname": ""
   },
   {
+   "bounds": [
+    32.004,
+    -2.095,
+    16.307,
+    32.156,
+    -0.724,
+    17.374
+   ],
    "classname": "func_breakable",
    "entity": 37,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 37,
    "targetname": ""
   },
   {
+   "bounds": [
+    24.194,
+    -2.095,
+    18.174,
+    25.26,
+    -0.724,
+    18.326
+   ],
    "classname": "func_breakable",
    "entity": 38,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 38,
    "targetname": ""
   },
   {
+   "bounds": [
+    26.022,
+    -2.095,
+    18.174,
+    27.089,
+    -0.724,
+    18.326
+   ],
    "classname": "func_breakable",
    "entity": 39,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 39,
    "targetname": ""
   },
   {
+   "bounds": [
+    28.156,
+    -2.095,
+    18.174,
+    29.223,
+    -0.724,
+    18.326
+   ],
    "classname": "func_breakable",
    "entity": 40,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 40,
    "targetname": ""
   },
   {
+   "bounds": [
+    29.985,
+    -2.095,
+    18.174,
+    31.052,
+    -0.724,
+    18.326
+   ],
    "classname": "func_breakable",
    "entity": 41,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 41,
    "targetname": ""
   },
   {
+   "bounds": [
+    22.193,
+    -2.095,
+    18.174,
+    23.26,
+    -0.724,
+    18.326
+   ],
    "classname": "func_breakable",
    "entity": 42,
    "glass": null,
    "health": 50.0,
+   "holds": [],
    "material": 0,
    "model": 42,
    "targetname": ""
   },
   {
+   "bounds": [
+    -4.877,
+    0.61,
+    -2.134,
+    -4.724,
+    1.676,
+    -1.829
+   ],
    "classname": "func_breakable",
    "entity": 45,
    "glass": "glass",
    "health": 1.0,
+   "holds": [],
    "material": 0,
    "model": 45,
    "targetname": ""
   },
   {
+   "bounds": [
+    15.773,
+    -2.819,
+    -3.581,
+    15.926,
+    -0.686,
+    -2.419
+   ],
    "classname": "func_breakable",
    "entity": 50,
    "glass": null,
    "health": 150.0,
+   "holds": [],
    "material": 1,
    "model": 48,
    "targetname": ""
   },
   {
+   "bounds": [
+    23.698,
+    -2.172,
+    10.23,
+    24.917,
+    -0.724,
+    10.306
+   ],
    "classname": "func_breakable",
    "entity": 51,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 1,
    "model": 49,
    "targetname": ""
   },
   {
+   "bounds": [
+    30.728,
+    -2.095,
+    10.23,
+    31.928,
+    -0.648,
+    10.344
+   ],
    "classname": "func_breakable",
    "entity": 52,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 1,
    "model": 50,
    "targetname": ""
   },
   {
+   "bounds": [
+    31.89,
+    -1.924,
+    10.458,
+    32.004,
+    -1.572,
+    11.697
+   ],
    "classname": "func_breakable",
    "entity": 53,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 1,
    "model": 51,
    "targetname": ""
   },
   {
+   "bounds": [
+    31.89,
+    -1.505,
+    10.478,
+    32.004,
+    -0.648,
+    11.716
+   ],
    "classname": "func_breakable",
    "entity": 54,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 1,
    "model": 52,
    "targetname": ""
   },
   {
+   "bounds": [
+    31.89,
+    -1.248,
+    12.268,
+    32.004,
+    -0.648,
+    13.506
+   ],
    "classname": "func_breakable",
    "entity": 55,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 1,
    "model": 53,
    "targetname": ""
   },
   {
+   "bounds": [
+    31.89,
+    -1.972,
+    12.268,
+    32.004,
+    -1.372,
+    13.506
+   ],
    "classname": "func_breakable",
    "entity": 56,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 1,
    "model": 54,
    "targetname": ""
   },
   {
+   "bounds": [
+    31.89,
+    -2.081,
+    14.383,
+    32.004,
+    -1.317,
+    15.621
+   ],
    "classname": "func_breakable",
    "entity": 57,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 1,
    "model": 55,
    "targetname": ""
   },
   {
+   "bounds": [
+    31.89,
+    -1.317,
+    14.383,
+    32.004,
+    -1.123,
+    15.621
+   ],
    "classname": "func_breakable",
    "entity": 58,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 1,
    "model": 56,
    "targetname": ""
   },
   {
+   "bounds": [
+    31.89,
+    -1.524,
+    16.097,
+    32.004,
+    -1.26,
+    17.335
+   ],
    "classname": "func_breakable",
    "entity": 59,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 1,
    "model": 57,
    "targetname": ""
   },
   {
+   "bounds": [
+    29.889,
+    -1.524,
+    18.059,
+    31.128,
+    -1.26,
+    18.174
+   ],
    "classname": "func_breakable",
    "entity": 60,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 1,
    "model": 58,
    "targetname": ""
   },
   {
+   "bounds": [
+    28.194,
+    -1.524,
+    18.059,
+    29.432,
+    -0.535,
+    18.174
+   ],
    "classname": "func_breakable",
    "entity": 61,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 1,
    "model": 59,
    "targetname": ""
   },
   {
+   "bounds": [
+    28.08,
+    -1.829,
+    18.059,
+    29.318,
+    -1.447,
+    18.174
+   ],
    "classname": "func_breakable",
    "entity": 62,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 1,
    "model": 60,
    "targetname": ""
   },
   {
+   "bounds": [
+    25.908,
+    -1.981,
+    18.059,
+    27.146,
+    -1.715,
+    18.174
+   ],
    "classname": "func_breakable",
    "entity": 63,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 1,
    "model": 61,
    "targetname": ""
   },
   {
+   "bounds": [
+    25.927,
+    -1.524,
+    18.059,
+    27.165,
+    -1.106,
+    18.174
+   ],
    "classname": "func_breakable",
    "entity": 64,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 1,
    "model": 62,
    "targetname": ""
   },
   {
+   "bounds": [
+    24.194,
+    -1.21,
+    18.059,
+    25.432,
+    -0.781,
+    18.174
+   ],
    "classname": "func_breakable",
    "entity": 65,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 1,
    "model": 63,
    "targetname": ""
   },
   {
+   "bounds": [
+    24.174,
+    -2.033,
+    18.059,
+    25.413,
+    -1.715,
+    18.174
+   ],
    "classname": "func_breakable",
    "entity": 66,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 1,
    "model": 64,
    "targetname": ""
   },
   {
+   "bounds": [
+    22.098,
+    -1.829,
+    18.059,
+    23.336,
+    -0.692,
+    18.174
+   ],
    "classname": "func_breakable",
    "entity": 67,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 1,
    "model": 65,
    "targetname": ""
   },
   {
+   "bounds": [
+    22.117,
+    -1.883,
+    18.059,
+    23.355,
+    -1.015,
+    18.174
+   ],
    "classname": "func_breakable",
    "entity": 68,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 1,
    "model": 66,
    "targetname": ""
   },
   {
+   "bounds": [
+    32.004,
+    0.095,
+    14.192,
+    32.156,
+    1.448,
+    14.497
+   ],
    "classname": "func_breakable",
    "entity": 72,
    "glass": "glass",
    "health": 1.0,
+   "holds": [],
    "material": 0,
    "model": 69,
    "targetname": ""
   },
   {
+   "bounds": [
+    -1.676,
+    -2.153,
+    -4.02,
+    -1.524,
+    -0.4,
+    -2.8
+   ],
    "classname": "func_breakable",
    "entity": 75,
    "glass": null,
    "health": 500.0,
+   "holds": [],
    "material": 2,
    "model": 70,
    "targetname": ""
   },
   {
+   "bounds": [
+    3.277,
+    -2.819,
+    -2.667,
+    4.877,
+    -0.914,
+    -2.591
+   ],
    "classname": "func_breakable",
    "entity": 76,
    "glass": null,
    "health": 200.0,
+   "holds": [],
    "material": 1,
    "model": 71,
    "targetname": ""
   },
   {
+   "bounds": [
+    8.02,
+    3.162,
+    -2.991,
+    8.211,
+    5.029,
+    -1.524
+   ],
    "classname": "func_breakable",
    "entity": 78,
    "glass": "glass",
    "health": 150.0,
+   "holds": [],
    "material": 0,
    "model": 72,
    "targetname": ""
   },
   {
+   "bounds": [
+    -3.62,
+    3.162,
+    -0.914,
+    -2.515,
+    5.277,
+    -0.838
+   ],
    "classname": "func_breakable",
    "entity": 79,
    "glass": null,
    "health": 100.0,
+   "holds": [],
    "material": 1,
    "model": 73,
    "targetname": ""
   },
   {
+   "bounds": [
+    0.572,
+    3.162,
+    -0.876,
+    1.562,
+    5.277,
+    -0.8
+   ],
    "classname": "func_breakable",
    "entity": 80,
    "glass": null,
    "health": 150.0,
+   "holds": [],
    "material": 1,
    "model": 74,
    "targetname": ""
   },
   {
+   "bounds": [
+    14.002,
+    3.867,
+    -4.01,
+    15.259,
+    4.039,
+    -3.457
+   ],
    "classname": "func_breakable",
    "entity": 215,
    "glass": null,
    "health": 200.0,
+   "holds": [],
    "material": 1,
    "model": 78,
    "targetname": ""
   },
   {
+   "bounds": [
+    14.04,
+    4.039,
+    -4.01,
+    14.688,
+    4.057,
+    -3.61
+   ],
    "classname": "func_breakable",
    "entity": 216,
    "glass": null,
    "health": 1.0,
+   "holds": [],
    "material": 1,
    "model": 79,
    "targetname": ""
   },
   {
+   "bounds": [
+    14.687,
+    3.886,
+    -3.991,
+    14.707,
+    4.343,
+    -3.781
+   ],
    "classname": "func_breakable",
    "entity": 218,
    "glass": null,
    "health": 200.0,
+   "holds": [],
    "material": 1,
    "model": 80,
    "targetname": ""
   },
   {
+   "bounds": [
+    14.707,
+    3.886,
+    -4.01,
+    15.202,
+    4.343,
+    -3.686
+   ],
    "classname": "func_breakable",
    "entity": 219,
    "glass": null,
    "health": 200.0,
+   "holds": [],
    "material": 1,
    "model": 81,
    "targetname": ""
   },
   {
+   "bounds": [
+    14.84,
+    3.886,
+    -3.991,
+    14.859,
+    4.267,
+    -3.781
+   ],
    "classname": "func_breakable",
    "entity": 220,
    "glass": null,
    "health": 200.0,
+   "holds": [],
    "material": 1,
    "model": 82,
    "targetname": ""
   },
   {
+   "bounds": [
+    14.04,
+    3.753,
+    -3.553,
+    14.954,
+    3.772,
+    -3.248
+   ],
    "classname": "func_breakable",
    "entity": 223,
    "glass": null,
    "health": 200.0,
+   "holds": [],
    "material": 1,
    "model": 83,
    "targetname": ""
   },
   {
+   "bounds": [
+    14.021,
+    3.162,
+    -4.01,
+    14.973,
+    3.867,
+    -3.476
+   ],
    "classname": "func_breakable",
    "entity": 224,
    "glass": null,
    "health": 200.0,
+   "holds": [],
    "material": 1,
    "model": 84,
    "targetname": ""
   },
   {
+   "bounds": [
+    14.04,
+    3.162,
+    -4.01,
+    14.973,
+    3.867,
+    -3.476
+   ],
    "classname": "func_breakable",
    "entity": 225,
    "glass": null,
    "health": 200.0,
+   "holds": [],
    "material": 1,
    "model": 85,
    "targetname": ""
   },
   {
+   "bounds": [
+    14.973,
+    3.162,
+    -4.01,
+    15.24,
+    3.867,
+    -3.438
+   ],
    "classname": "func_breakable",
    "entity": 226,
    "glass": null,
    "health": 200.0,
+   "holds": [],
    "material": 1,
    "model": 86,
    "targetname": ""
   },
   {
+   "bounds": [
+    5.486,
+    0.0,
+    -2.743,
+    6.477,
+    1.905,
+    -2.591
+   ],
    "classname": "func_breakable",
    "entity": 291,
    "glass": null,
    "health": 250.0,
+   "holds": [],
    "material": 1,
    "model": 87,
    "targetname": ""
   },
   {
+   "bounds": [
+    -30.994,
+    0.61,
+    8.382,
+    -30.08,
+    1.753,
+    8.534
+   ],
    "classname": "func_breakable",
    "entity": 336,
    "glass": "glass",
    "health": 1.0,
+   "holds": [],
    "material": 0,
    "model": 91,
    "targetname": ""
   },
   {
+   "bounds": [
+    -32.671,
+    0.61,
+    13.792,
+    -32.518,
+    1.753,
+    14.478
+   ],
    "classname": "func_breakable",
    "entity": 337,
    "glass": "glass",
    "health": 5.0,
+   "holds": [],
    "material": 0,
    "model": 92,
    "targetname": ""
   },
   {
+   "bounds": [
+    -32.671,
+    0.61,
+    17.297,
+    -32.518,
+    1.753,
+    18.059
+   ],
    "classname": "func_breakable",
    "entity": 338,
    "glass": "glass",
    "health": 1.0,
+   "holds": [],
    "material": 0,
    "model": 93,
    "targetname": ""
   },
   {
+   "bounds": [
+    -24.689,
+    0.61,
+    18.898,
+    -24.651,
+    1.753,
+    19.583
+   ],
    "classname": "func_breakable",
    "entity": 339,
    "glass": "glass",
    "health": 5.0,
+   "holds": [],
    "material": 0,
    "model": 94,
    "targetname": ""
   },
   {
+   "bounds": [
+    -24.67,
+    0.61,
+    16.307,
+    -24.651,
+    1.753,
+    17.069
+   ],
    "classname": "func_breakable",
    "entity": 340,
    "glass": "glass",
    "health": 5.0,
+   "holds": [],
    "material": 0,
    "model": 95,
    "targetname": ""
@@ -15601,92 +16339,6 @@
     "url": "https://github.com/modcommunity/dot-audio"
    }
   ],
-  "store_pack": {
-   "id": "gamemann/store-zz_world_zm_house_outbreak",
-   "shared": [
-    {
-     "id": "gamemann/store-shared-11c05325",
-     "version": "h37b39462"
-    },
-    {
-     "id": "gamemann/store-shared-17e5e1ce",
-     "version": "he844192f"
-    },
-    {
-     "id": "gamemann/store-shared-3a59fc65",
-     "version": "h05cfed31"
-    },
-    {
-     "id": "gamemann/store-shared-47c24036",
-     "version": "h76253300"
-    },
-    {
-     "id": "gamemann/store-shared-4f6160f0",
-     "version": "hb45d2c58"
-    },
-    {
-     "id": "gamemann/store-shared-4fc759d6",
-     "version": "h1560c911"
-    },
-    {
-     "id": "gamemann/store-shared-6648a6d9",
-     "version": "hf4690944"
-    },
-    {
-     "id": "gamemann/store-shared-66f3bbcd",
-     "version": "h583975fc"
-    },
-    {
-     "id": "gamemann/store-shared-707e7532",
-     "version": "h3c7cc514"
-    },
-    {
-     "id": "gamemann/store-shared-7bde27a9",
-     "version": "h8695d7d4"
-    },
-    {
-     "id": "gamemann/store-shared-7d356297",
-     "version": "h8b901817"
-    },
-    {
-     "id": "gamemann/store-shared-82e676c6",
-     "version": "he307d0a5"
-    },
-    {
-     "id": "gamemann/store-shared-c95318e5",
-     "version": "h14f93e19"
-    },
-    {
-     "id": "gamemann/store-shared-d674b813",
-     "version": "h970e283d"
-    },
-    {
-     "id": "gamemann/store-shared-d6c13a74",
-     "version": "h3cc882a4"
-    },
-    {
-     "id": "gamemann/store-shared-dbeda0cd",
-     "version": "h35f76fe6"
-    },
-    {
-     "id": "gamemann/store-shared-dd04e62d",
-     "version": "h61f70d18"
-    },
-    {
-     "id": "gamemann/store-shared-df56cff2",
-     "version": "ha02c8a01"
-    },
-    {
-     "id": "gamemann/store-shared-e6a16335",
-     "version": "he38f9e38"
-    },
-    {
-     "id": "gamemann/store-shared-f7db15ea",
-     "version": "h93c55ec3"
-    }
-   ],
-   "version": "h49bcf1f9"
-  },
   "textures": [
    {
     "area": 2700.2,
@@ -15968,27 +16620,27 @@
    },
    {
     "area": 973.5,
-    "author": "Lennart Demes and contributors",
+    "author": "Charlotte Baglioni",
     "colour": [
      0.375,
      0.375,
      0.375
     ],
-    "fallback_file": "textures/fb_Rock060.webp",
-    "file": "pbr/Rock060",
-    "generic": "pbr_Rock060",
+    "fallback_file": "textures/fb_concrete_pavement.webp",
+    "file": "pbr/concrete_pavement",
+    "generic": "pbr_concrete_pavement",
     "how": "table",
-    "key": "pbr:pbr_Rock060",
+    "key": "pbr:pbr_concrete_pavement",
     "kind": "pbr",
     "licence": "CC0-1.0",
-    "source": "ambientCG",
+    "source": "polyhaven",
     "sources": [
      "cs_assault/pavement001",
      "cs_assault/pavement001a"
     ],
     "surfaces": 26,
     "tier": "2k",
-    "url": "https://ambientcg.com/view?id=Rock060"
+    "url": "https://polyhaven.com/a/concrete_pavement"
    },
    {
     "area": 253.9,
@@ -24526,8 +25178,8 @@
     0.3422
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 33,
    "index_offset": 46648,
    "lightmap_page": 0,
@@ -24563,8 +25215,8 @@
     0.3422
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 6,
    "index_offset": 46940,
    "lightmap_page": 0,
@@ -24600,8 +25252,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 9,
    "index_offset": 47164,
    "lightmap_page": 0,
@@ -24634,8 +25286,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 6,
    "index_offset": 47360,
    "lightmap_page": 0,
@@ -25437,8 +26089,8 @@
     0.3422
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 15,
    "index_offset": 79984,
    "lightmap_page": 0,
@@ -25476,8 +26128,8 @@
     0.3422
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 24,
    "index_offset": 80524,
    "lightmap_page": 0,
@@ -26538,8 +27190,8 @@
     0.3422
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 21,
    "index_offset": 122604,
    "lightmap_page": 0,
@@ -26575,8 +27227,8 @@
     0.3422
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 12,
    "index_offset": 123008,
    "lightmap_page": 0,
@@ -27632,8 +28284,8 @@
     0.3422
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 9,
    "index_offset": 158080,
    "lightmap_page": 0,
@@ -27672,8 +28324,8 @@
     0.3422
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 24,
    "index_offset": 158596,
    "lightmap_page": 0,
@@ -27713,8 +28365,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 24,
    "index_offset": 159252,
    "lightmap_page": 0,
@@ -29917,8 +30569,8 @@
     0.3422
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 18,
    "index_offset": 576500,
    "lightmap_page": 0,
@@ -29962,8 +30614,8 @@
     0.3422
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 39,
    "index_offset": 577332,
    "lightmap_page": 0,
@@ -30022,8 +30674,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 78,
    "index_offset": 579248,
    "lightmap_page": 0,
@@ -30070,8 +30722,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 27,
    "index_offset": 580240,
    "lightmap_page": 0,
@@ -30109,8 +30761,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 12,
    "index_offset": 580588,
    "lightmap_page": 0,
@@ -30147,8 +30799,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 3,
    "index_offset": 580756,
    "lightmap_page": 0,
@@ -31853,8 +32505,8 @@
     0.3422
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 9,
    "index_offset": 987852,
    "lightmap_page": 0,
@@ -31902,8 +32554,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 24,
    "index_offset": 988528,
    "lightmap_page": 0,
@@ -31943,8 +32595,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 15,
    "index_offset": 988984,
    "lightmap_page": 0,
@@ -36438,8 +37090,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 75,
    "index_offset": 1345652,
    "lightmap_page": 0,
@@ -36482,8 +37134,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 24,
    "index_offset": 1346512,
    "lightmap_page": 0,
@@ -39503,8 +40155,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 66,
    "index_offset": 1813964,
    "lightmap_page": 0,
@@ -40898,8 +41550,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 42,
    "index_offset": 1947064,
    "lightmap_page": 0,
@@ -40941,8 +41593,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 45,
    "index_offset": 1948072,
    "lightmap_page": 0,
@@ -42461,8 +43113,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 102,
    "index_offset": 2022580,
    "lightmap_page": 0,

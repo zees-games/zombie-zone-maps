@@ -14,7 +14,7 @@ Every texture of this map is a free replacement; the original map's textures and
 - pbr (pbr_Bricks082B): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Bricks082B
 - pbr (pbr_Concrete017): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Concrete017
 - pbr (pbr_Concrete022): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Concrete022
-- pbr (pbr_Rock060): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Rock060
+- pbr (pbr_concrete_pavement): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/concrete_pavement
 - pbr (pbr_WoodFloor022): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=WoodFloor022
 - generated (glass): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
 - pbr (pbr_painted_metal_shutter): polyhaven, Dario Barresi, Rico Cilliers, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/painted_metal_shutter

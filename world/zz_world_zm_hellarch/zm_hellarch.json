@@ -8,235 +8,469 @@
  },
  "breakables": [
   {
+   "bounds": [
+    -30.632,
+    5.306,
+    -25.908,
+    -29.87,
+    6.096,
+    -24.585
+   ],
    "classname": "func_breakable",
    "entity": 9,
    "glass": "glass",
    "health": 1.0,
+   "holds": [],
    "material": 0,
    "model": 1,
    "targetname": ""
   },
   {
+   "bounds": [
+    -33.528,
+    5.306,
+    -25.908,
+    -32.766,
+    6.096,
+    -24.585
+   ],
    "classname": "func_breakable",
    "entity": 10,
    "glass": "glass",
    "health": 5.0,
+   "holds": [],
    "material": 0,
    "model": 2,
    "targetname": ""
   },
   {
+   "bounds": [
+    -47.968,
+    -4.267,
+    -31.394,
+    -47.854,
+    -2.438,
+    -30.023
+   ],
    "classname": "func_breakable",
    "entity": 25,
    "glass": null,
    "health": 300.0,
+   "holds": [],
    "material": 1,
    "model": 3,
    "targetname": ""
   },
   {
+   "bounds": [
+    -26.784,
+    -3.197,
+    -29.83,
+    -26.708,
+    -1.367,
+    -29.624
+   ],
    "classname": "func_breakable",
    "entity": 26,
    "glass": null,
    "health": 150.0,
+   "holds": [],
    "material": 1,
    "model": 4,
    "targetname": ""
   },
   {
+   "bounds": [
+    -26.822,
+    -1.823,
+    -30.331,
+    -26.746,
+    -1.333,
+    -28.496
+   ],
    "classname": "func_breakable",
    "entity": 27,
    "glass": null,
    "health": 150.0,
+   "holds": [],
    "material": 1,
    "model": 5,
    "targetname": ""
   },
   {
+   "bounds": [
+    -26.822,
+    -3.277,
+    -30.369,
+    -26.746,
+    -2.787,
+    -28.534
+   ],
    "classname": "func_breakable",
    "entity": 28,
    "glass": null,
    "health": 150.0,
+   "holds": [],
    "material": 1,
    "model": 6,
    "targetname": ""
   },
   {
+   "bounds": [
+    -42.71,
+    1.24,
+    20.574,
+    -41.643,
+    3.374,
+    20.65
+   ],
    "classname": "func_breakable",
    "entity": 43,
    "glass": null,
    "health": 500.0,
+   "holds": [],
    "material": 2,
    "model": 7,
    "targetname": ""
   },
   {
+   "bounds": [
+    -42.843,
+    2.21,
+    20.688,
+    -41.51,
+    2.362,
+    20.726
+   ],
    "classname": "func_breakable",
    "entity": 44,
    "glass": null,
    "health": 500.0,
+   "holds": [],
    "material": 1,
    "model": 8,
    "targetname": ""
   },
   {
+   "bounds": [
+    -41.186,
+    2.324,
+    22.136,
+    -41.167,
+    3.315,
+    23.451
+   ],
    "classname": "func_breakable",
    "entity": 49,
    "glass": "glass",
    "health": 1.0,
+   "holds": [],
    "material": 0,
    "model": 9,
    "targetname": ""
   },
   {
+   "bounds": [
+    -41.186,
+    2.324,
+    23.489,
+    -41.167,
+    3.315,
+    24.803
+   ],
    "classname": "func_breakable",
    "entity": 50,
    "glass": "glass",
    "health": 1.0,
+   "holds": [],
    "material": 0,
    "model": 10,
    "targetname": ""
   },
   {
+   "bounds": [
+    -39.243,
+    3.429,
+    -20.726,
+    -38.652,
+    4.746,
+    -20.688
+   ],
    "classname": "func_breakable",
    "entity": 82,
    "glass": "glass",
    "health": 1.0,
+   "holds": [],
    "material": 0,
    "model": 13,
    "targetname": ""
   },
   {
+   "bounds": [
+    -39.738,
+    3.429,
+    -20.707,
+    -39.262,
+    4.316,
+    -20.669
+   ],
    "classname": "func_breakable",
    "entity": 83,
    "glass": "glass",
    "health": 1.0,
+   "holds": [],
    "material": 0,
    "model": 14,
    "targetname": ""
   },
   {
+   "bounds": [
+    -38.614,
+    3.429,
+    -20.709,
+    -38.024,
+    4.751,
+    -20.671
+   ],
    "classname": "func_breakable",
    "entity": 84,
    "glass": "glass",
    "health": 1.0,
+   "holds": [],
    "material": 0,
    "model": 15,
    "targetname": ""
   },
   {
+   "bounds": [
+    -37.986,
+    3.429,
+    -20.703,
+    -37.509,
+    4.305,
+    -20.665
+   ],
    "classname": "func_breakable",
    "entity": 85,
    "glass": "glass",
    "health": 1.0,
+   "holds": [],
    "material": 0,
    "model": 16,
    "targetname": ""
   },
   {
+   "bounds": [
+    -38.016,
+    2.477,
+    -20.699,
+    -37.509,
+    3.391,
+    -20.661
+   ],
    "classname": "func_breakable",
    "entity": 86,
    "glass": "glass",
    "health": 1.0,
+   "holds": [],
    "material": 0,
    "model": 17,
    "targetname": ""
   },
   {
+   "bounds": [
+    -38.622,
+    2.457,
+    -20.706,
+    -38.024,
+    3.391,
+    -20.668
+   ],
    "classname": "func_breakable",
    "entity": 87,
    "glass": "glass",
    "health": 1.0,
+   "holds": [],
    "material": 0,
    "model": 18,
    "targetname": ""
   },
   {
+   "bounds": [
+    -39.243,
+    2.457,
+    -20.709,
+    -38.633,
+    3.41,
+    -20.671
+   ],
    "classname": "func_breakable",
    "entity": 88,
    "glass": "glass",
    "health": 1.0,
+   "holds": [],
    "material": 0,
    "model": 19,
    "targetname": ""
   },
   {
+   "bounds": [
+    -39.746,
+    2.477,
+    -20.707,
+    -39.27,
+    3.391,
+    -20.669
+   ],
    "classname": "func_breakable",
    "entity": 89,
    "glass": "glass",
    "health": 1.0,
+   "holds": [],
    "material": 0,
    "model": 20,
    "targetname": ""
   },
   {
+   "bounds": [
+    -47.206,
+    2.47,
+    -20.707,
+    -46.672,
+    3.505,
+    -20.669
+   ],
    "classname": "func_breakable",
    "entity": 90,
    "glass": "glass",
    "health": 1.0,
+   "holds": [],
    "material": 0,
    "model": 21,
    "targetname": ""
   },
   {
+   "bounds": [
+    -47.206,
+    3.543,
+    -20.707,
+    -46.672,
+    4.583,
+    -20.669
+   ],
    "classname": "func_breakable",
    "entity": 91,
    "glass": "glass",
    "health": 1.0,
+   "holds": [],
    "material": 0,
    "model": 22,
    "targetname": ""
   },
   {
+   "bounds": [
+    -48.425,
+    3.543,
+    -20.707,
+    -47.892,
+    5.753,
+    -20.669
+   ],
    "classname": "func_breakable",
    "entity": 92,
    "glass": "glass",
    "health": 1.0,
+   "holds": [],
    "material": 0,
    "model": 23,
    "targetname": ""
   },
   {
+   "bounds": [
+    -48.425,
+    1.867,
+    -20.695,
+    -47.892,
+    3.524,
+    -20.657
+   ],
    "classname": "func_breakable",
    "entity": 93,
    "glass": "glass",
    "health": 1.0,
+   "holds": [],
    "material": 0,
    "model": 24,
    "targetname": ""
   },
   {
+   "bounds": [
+    -45.987,
+    3.543,
+    -20.707,
+    -45.453,
+    5.753,
+    -20.669
+   ],
    "classname": "func_breakable",
    "entity": 94,
    "glass": "glass",
    "health": 1.0,
+   "holds": [],
    "material": 0,
    "model": 25,
    "targetname": ""
   },
   {
+   "bounds": [
+    -45.987,
+    1.867,
+    -20.698,
+    -45.453,
+    3.524,
+    -20.66
+   ],
    "classname": "func_breakable",
    "entity": 95,
    "glass": "glass",
    "health": 1.0,
+   "holds": [],
    "material": 0,
    "model": 26,
    "targetname": ""
   },
   {
+   "bounds": [
+    -43.406,
+    4.001,
+    -20.707,
+    -42.824,
+    5.62,
+    -20.669
+   ],
    "classname": "func_breakable",
    "entity": 102,
    "glass": "glass",
    "health": 1.0,
+   "holds": [],
    "material": 0,
    "model": 27,
    "targetname": ""
   },
   {
+   "bounds": [
+    -42.824,
+    4.001,
+    -20.707,
+    -42.242,
+    5.62,
+    -20.669
+   ],
    "classname": "func_breakable",
    "entity": 103,
    "glass": "glass",
    "health": 1.0,
+   "holds": [],
    "material": 0,
    "model": 28,
    "targetname": ""
@@ -11405,80 +11639,6 @@
   "pbr_store": "../../.stores/pbr-library",
   "skipped_skybox_models": 0,
   "sounds": [],
-  "store_pack": {
-   "id": "gamemann/store-zz_world_zm_hellarch",
-   "shared": [
-    {
-     "id": "gamemann/store-shared-064fcff6",
-     "version": "hc332293f"
-    },
-    {
-     "id": "gamemann/store-shared-11c05325",
-     "version": "h37b39462"
-    },
-    {
-     "id": "gamemann/store-shared-295221a6",
-     "version": "hc8cb24a2"
-    },
-    {
-     "id": "gamemann/store-shared-63b6f2d5",
-     "version": "h48b8cf11"
-    },
-    {
-     "id": "gamemann/store-shared-6f53c063",
-     "version": "hc2d9e026"
-    },
-    {
-     "id": "gamemann/store-shared-707e7532",
-     "version": "h3c7cc514"
-    },
-    {
-     "id": "gamemann/store-shared-82e676c6",
-     "version": "he307d0a5"
-    },
-    {
-     "id": "gamemann/store-shared-9a79c7c5",
-     "version": "h2b32729b"
-    },
-    {
-     "id": "gamemann/store-shared-a61b34e3",
-     "version": "h7acc58f2"
-    },
-    {
-     "id": "gamemann/store-shared-d674b813",
-     "version": "h970e283d"
-    },
-    {
-     "id": "gamemann/store-shared-dbec77e8",
-     "version": "hd041fb29"
-    },
-    {
-     "id": "gamemann/store-shared-dbeda0cd",
-     "version": "h35f76fe6"
-    },
-    {
-     "id": "gamemann/store-shared-dd04e62d",
-     "version": "h61f70d18"
-    },
-    {
-     "id": "gamemann/store-shared-df56cff2",
-     "version": "ha02c8a01"
-    },
-    {
-     "id": "gamemann/store-shared-e6a16335",
-     "version": "he38f9e38"
-    },
-    {
-     "id": "gamemann/store-shared-efe05e2a",
-     "version": "habbe23bd"
-    },
-    {
-     "id": "gamemann/store-shared-f7db15ea",
-     "version": "h93c55ec3"
-    }
-   ],
-   "version": "ha6645bbd"
-  },
   "textures": [
    {
     "area": 226.1,
@@ -12105,29 +12265,28 @@
     "url": "https://ambientcg.com/view?id=Concrete008"
    },
    {
-    "area": 1747.9,
-    "author": "Lennart Demes and contributors",
+    "area": 1743.5,
+    "author": "Charlotte Baglioni",
     "colour": [
      0.375,
      0.375,
      0.375
     ],
-    "fallback_file": "textures/fb_Rock060.webp",
-    "file": "pbr/Rock060",
-    "generic": "pbr_Rock060",
+    "fallback_file": "textures/fb_concrete_pavement.webp",
+    "file": "pbr/concrete_pavement",
+    "generic": "pbr_concrete_pavement",
     "how": "table",
-    "key": "pbr:pbr_Rock060",
+    "key": "pbr:pbr_concrete_pavement",
     "kind": "pbr",
     "licence": "CC0-1.0",
-    "source": "ambientCG",
+    "source": "polyhaven",
     "sources": [
      "cs_assault/pavement001",
-     "cs_assault/pavement001a",
-     "de_piranesi/marblefloor06"
+     "cs_assault/pavement001a"
     ],
-    "surfaces": 27,
+    "surfaces": 26,
     "tier": "2k",
-    "url": "https://ambientcg.com/view?id=Rock060"
+    "url": "https://polyhaven.com/a/concrete_pavement"
    },
    {
     "area": 916.8,
@@ -12519,6 +12678,29 @@
     "surfaces": 5,
     "tier": "1k",
     "url": "https://polyhaven.com/a/exterior_wall_cladding_02"
+   },
+   {
+    "area": 4.5,
+    "author": "Lennart Demes and contributors",
+    "colour": [
+     0.375,
+     0.375,
+     0.375
+    ],
+    "fallback_file": "textures/fb_Rock060.webp",
+    "file": "pbr/Rock060",
+    "generic": "pbr_Rock060",
+    "how": "table",
+    "key": "pbr:pbr_Rock060",
+    "kind": "pbr",
+    "licence": "CC0-1.0",
+    "source": "ambientCG",
+    "sources": [
+     "de_piranesi/marblefloor06"
+    ],
+    "surfaces": 1,
+    "tier": "1k",
+    "url": "https://ambientcg.com/view?id=Rock060"
    },
    {
     "area": 2.4,
@@ -18776,8 +18958,8 @@
     0.3422
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 69,
    "index_offset": 124836,
    "lightmap_page": 0,
@@ -18825,8 +19007,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 54,
    "index_offset": 126152,
    "lightmap_page": 0,
@@ -19239,8 +19421,8 @@
     0.3422
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 30,
    "index_offset": 141588,
    "lightmap_page": 0,
@@ -19293,8 +19475,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 75,
    "index_offset": 143268,
    "lightmap_page": 0,
@@ -23923,8 +24105,8 @@
     0.3422
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 30,
    "index_offset": 511988,
    "lightmap_page": 0,
@@ -23963,8 +24145,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 15,
    "index_offset": 512468,
    "lightmap_page": 0,
@@ -24158,8 +24340,8 @@
     0.3422
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 30,
    "index_offset": 516684,
    "lightmap_page": 0,
@@ -24196,8 +24378,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 12,
    "index_offset": 517124,
    "lightmap_page": 0,
@@ -27302,8 +27484,8 @@
     0.3422
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 72,
    "index_offset": 729256,
    "lightmap_page": 0,
@@ -27357,8 +27539,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 33,
    "index_offset": 730224,
    "lightmap_page": 0,
@@ -28049,8 +28231,8 @@
     0.3422
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 78,
    "index_offset": 745892,
    "lightmap_page": 0,
@@ -28106,8 +28288,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 39,
    "index_offset": 747044,
    "lightmap_page": 0,
@@ -31040,8 +31222,8 @@
     0.3422
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 135,
    "index_offset": 946260,
    "lightmap_page": 0,
@@ -31089,8 +31271,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 21,
    "index_offset": 947320,
    "lightmap_page": 0,
@@ -31983,8 +32165,8 @@
     0.3422
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 108,
    "index_offset": 989928,
    "lightmap_page": 0,
@@ -32034,8 +32216,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 33,
    "index_offset": 991120,
    "lightmap_page": 0,
@@ -35406,8 +35588,8 @@
     0.3422
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 114,
    "index_offset": 1094984,
    "lightmap_page": 0,
@@ -35453,8 +35635,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 30,
    "index_offset": 1096080,
    "lightmap_page": 0,
@@ -36305,8 +36487,8 @@
     0.3422
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 93,
    "index_offset": 1134988,
    "lightmap_page": 0,
@@ -36349,8 +36531,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 12,
    "index_offset": 1135680,
    "lightmap_page": 0,
@@ -38727,8 +38909,8 @@
     0.3422
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 54,
    "index_offset": 1220616,
    "lightmap_page": 0,
@@ -38786,8 +38968,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 108,
    "index_offset": 1222752,
    "lightmap_page": 0,
@@ -39726,8 +39908,8 @@
     0.3422
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 72,
    "index_offset": 1249564,
    "lightmap_page": 0,
@@ -39778,8 +39960,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 39,
    "index_offset": 1250612,
    "lightmap_page": 0,
@@ -40870,8 +41052,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 21,
    "index_offset": 1269536,
    "lightmap_page": 0,
@@ -41061,8 +41243,8 @@
     0.3423
    ],
    "entity": null,
-   "free": "pbr:pbr_Rock060",
-   "generic": "pbr_Rock060",
+   "free": "pbr:pbr_concrete_pavement",
+   "generic": "pbr_concrete_pavement",
    "index_count": 18,
    "index_offset": 1272908,
    "lightmap_page": 0,

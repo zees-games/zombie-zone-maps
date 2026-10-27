@@ -29,7 +29,7 @@ Every texture of this map is a free replacement; the original map's textures and
 - pbr (pbr_WoodFloor035): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=WoodFloor035
 - pbr (pbr_slab_tiles): polyhaven, Dario Barresi, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/slab_tiles
 - pbr (pbr_Concrete008): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Concrete008
-- pbr (pbr_Rock060): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Rock060
+- pbr (pbr_concrete_pavement): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/concrete_pavement
 - pbr (pbr_Ground014): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Ground014
 - pbr (pbr_MetalPlates013): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalPlates013
 - pbr (pbr_jolcham_oak_bark_01): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/jolcham_oak_bark_01
@@ -47,6 +47,7 @@ Every texture of this map is a free replacement; the original map's textures and
 - pbr (pbr_Metal020): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Metal020
 - pbr (pbr_Tiles141): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Tiles141
 - pbr (pbr_exterior_wall_cladding_02): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/exterior_wall_cladding_02
+- pbr (pbr_Rock060): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Rock060
 - pbr (pbr_concrete_tiles_02): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/concrete_tiles_02
 - pbr (pbr_PaintedMetal013): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=PaintedMetal013
 - pbr (pbr_MetalPlates017A): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=MetalPlates017A
