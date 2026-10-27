@@ -101,9 +101,9 @@ class Graph:
 
         for f in floors:
             h = f[4]
-            x = f[0] + spacing * 0.5
+            x = f[0] + (spacing * 0.5 if f[2] - f[0] > spacing * 0.5 else (f[2] - f[0]) * 0.5)
             while x < f[2]:
-                z = f[1] + spacing * 0.5
+                z = f[1] + (spacing * 0.5 if f[3] - f[1] > spacing * 0.5 else (f[3] - f[1]) * 0.5)
                 while z < f[3]:
                     place(x, h, z, 0.0)
                     z += spacing
