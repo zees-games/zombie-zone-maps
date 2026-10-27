@@ -25,9 +25,10 @@ PY
 : > "$TMP"
 godot --headless --path "$GAME" --script tools/solid_props.gd -- "$TMP" "$@" || exit $?
 [ -s "$TMP" ] || { echo "solid_props: the script wrote nothing (a parse error?)" >&2; exit 1; }    # a script that fails to load still exits 0
-python3 -I - "$HERE/../maps" "$TMP" "$HERE" <<'PY'
+python3 -I - "$HERE/../maps" "$TMP" "$HERE" "${DOTBSP_PATH:-$HERE/../../dot-map/tools/bsp}" <<'PY'
 import json, os, sys
 sys.path.insert(0, sys.argv[3])
+sys.path.insert(0, sys.argv[4])    # dot-map's dotbsp, which settle_toys reads a terrain with
 import build_maps
 boxes = json.load(open(sys.argv[2]))
 for id, bs in boxes.items():

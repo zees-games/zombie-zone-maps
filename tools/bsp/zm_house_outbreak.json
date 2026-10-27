@@ -1,4 +1,6 @@
 {
+  "terrain": false,
+  "terrain_why": "taking its displacements as the heightfield left collide_probe's missing floor and wall unchanged and only multiplied the nav points",
   "id": "zm_house_outbreak",
   "name": "House Outbreak",
   "source": "zm_house_outbreak4.bsp",
