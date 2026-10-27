@@ -633,6 +633,7 @@ def link_solids(doc, extra_boxes=()):
     return solids
 
 
+LINK_CLIP_MIN = 0.3    # the game's ZzNpcs.LINK_CLIP_MIN: less horizontal run inside a slab is a nick of its edge
 LINK_STEEP = 1.2    # the game's ZzNpcs.LINK_STEEP: a link that changes level by more is tested against the floor slabs
 
 
@@ -650,7 +651,7 @@ def floor_slabs(boxes, floors):
 
 
 def through_floor(slabs, l, trim=0.15):
-    """Whether link `l` changes level and its line goes through a floor slab, as ZzNpcs._link_through_floor drops it."""
+    """Whether link `l` changes level and its line enters a floor slab through its underside, as ZzNpcs._link_through_floor drops it (a drop that only clips a ledge's edge stays)."""
     if abs(l[1] - l[4]) <= LINK_STEEP:
         return False
     d = math.dist(l[:3], l[3:])
@@ -659,21 +660,26 @@ def through_floor(slabs, l, trim=0.15):
     u = [(l[3 + k] - l[k]) / d for k in range(3)]
     a = [l[k] + u[k] * trim for k in range(3)]
     b = [l[3 + k] - u[k] * trim for k in range(3)]
-    for s in slabs:
+
+    def entry(p, q, s):
         t0, t1 = 0.0, 1.0
         for k in range(3):
-            dk = b[k] - a[k]
+            dk = q[k] - p[k]
             lo, hi = s[k], s[k + 3]
             if abs(dk) < 1e-9:
-                if a[k] < lo or a[k] > hi:
-                    t0, t1 = 1.0, 0.0
-                    break
+                if p[k] < lo or p[k] > hi:
+                    return None
                 continue
-            ta, tb = (lo - a[k]) / dk, (hi - a[k]) / dk
+            ta, tb = (lo - p[k]) / dk, (hi - p[k]) / dk
             if ta > tb:
                 ta, tb = tb, ta
             t0, t1 = max(t0, ta), min(t1, tb)
-        if t0 <= t1:
+        return [p[k] + (q[k] - p[k]) * t0 for k in range(3)] if t0 <= t1 else None
+
+    short = math.hypot(l[3] - l[0], l[5] - l[2]) < LINK_CLIP_MIN
+    for s in slabs:
+        p, q = entry(a, b, s), entry(b, a, s)
+        if p is not None and q is not None and min(p[1], q[1]) <= s[1] + 0.02 and (short or math.hypot(p[0] - q[0], p[2] - q[2]) >= LINK_CLIP_MIN):
             return True
     return False
 
