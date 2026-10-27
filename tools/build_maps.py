@@ -628,7 +628,7 @@ def blackout_1():
     m.hint(-19.0, 22.0)
     m.hint(13.0, 35.0)
     m.hint(-6.0, 70.0)
-    m.hint(28.0, 88.0)
+    m.hint(24.5, 88.0)
     return m
 
 
