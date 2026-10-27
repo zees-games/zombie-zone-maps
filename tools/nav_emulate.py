@@ -40,18 +40,18 @@ UNDER_FEET = 0.05
 UNDER_FEET_GAIN = 0.05
 
 
-def under_feet_for(boxes, props, sizes, floors, spacing=1.0, clearance=0.35, terrain_pts=()):
+def under_feet_for(boxes, props, sizes, floors, spacing=1.0, clearance=0.35, terrain_pts=(), solid_props=()):
     """The `nav.under_feet` a document wants: UNDER_FEET when letting the obstacle tops block only
     that far above them (not the whole clearance) gives back UNDER_FEET_GAIN of the graph's points,
     which is a slab under a cellar's floor swallowing its points; else None (the builder's default).
     A few percent is curbs and sills, which are not worth changing a graph for."""
-    base = len(Graph(boxes, props, sizes, floors, spacing, clearance, terrain_pts).pts)
-    freed = len(Graph(boxes, props, sizes, floors, spacing, clearance, terrain_pts, under_feet=UNDER_FEET).pts)
+    base = len(Graph(boxes, props, sizes, floors, spacing, clearance, terrain_pts, solid_props=solid_props).pts)
+    freed = len(Graph(boxes, props, sizes, floors, spacing, clearance, terrain_pts, under_feet=UNDER_FEET, solid_props=solid_props).pts)
     return UNDER_FEET if freed - base >= UNDER_FEET_GAIN * max(base, 1) else None
 
 
 class Graph:
-    def __init__(self, boxes, props, sizes, floors, spacing=1.0, clearance=0.35, terrain_pts=(), slope=1.0, under_feet=None):
+    def __init__(self, boxes, props, sizes, floors, spacing=1.0, clearance=0.35, terrain_pts=(), slope=1.0, under_feet=None, solid_props=()):
         """`terrain_pts`: the terrain's walk points (dotbsp.terrain.walk_points), joined by `slope`
         rise per metre as DotNpcNavBuilder.add_points joins them."""
         self.spacing, self.clearance = spacing, clearance
@@ -72,6 +72,14 @@ class Graph:
             ex, ez = c * sx / 2 + s * sz / 2, s * sx / 2 + c * sz / 2
             at = p["at"]
             obs.append([at[0] - ex, at[1], at[2] - ez, at[0] + ex, at[1] + sy, at[2] + ez])
+        # The drawn world's solid props, cut as ZzNpcs does (SOLID_PROP_CUT_HEIGHT, SOLID_PROP_HEAD).
+        for r in solid_props:
+            if r[4] < 0.5 or r[1] - r[4] * 0.5 > 1.8:
+                continue
+            yaw = math.radians(r[6])
+            c, sn = abs(math.cos(yaw)), abs(math.sin(yaw))
+            ex, ez = c * r[3] / 2 + sn * r[5] / 2, sn * r[3] / 2 + c * r[5] / 2
+            obs.append([r[0] - ex, r[1] - r[4] * 0.5, r[2] - ez, r[0] + ex, r[1] + r[4] * 0.5, r[2] + ez])
         g = clearance
         # Mirrors the builder's obstacle_under_feet: a box's top blocks only that far above it, else the clearance.
         u = g if under_feet is None else under_feet

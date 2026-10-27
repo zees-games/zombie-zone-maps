@@ -64,6 +64,7 @@ TERRAIN_AUTO_M2 = 500.0    # displacement ground that turns the heightfield on f
 TERRAIN = None
 # Its walk points after the last flood, which the game's graph is built on (nav_emulate mirrors it).
 TERRAIN_PTS = []
+FACES = []
 
 
 # A map compiled with an empty game lump (no static props) crashes dot-map's reader; the fix
@@ -673,7 +674,7 @@ def cut_blocked(doc, extra, fixed):
     sizes = json.load(open(os.path.join(HERE, "prop_sizes.json")))["props"]
     floors = doc["nav"]["floors"] + xf
     nav = doc["nav"]
-    G = nav_emulate.Graph(list(doc["boxes"]) + list(xb), doc.get("props", []), sizes, floors, spacing=float(nav.get("spacing", 1.0)), clearance=float(nav.get("clearance", 0.35)))
+    G = nav_emulate.Graph(list(doc["boxes"]) + list(xb), doc.get("props", []), sizes, floors, spacing=float(nav.get("spacing", 1.0)), clearance=float(nav.get("clearance", 0.35)), solid_props=doc.get("solid_props", []))
     fixed_ = {tuple(l) for l in fixed}
     bars = [b["at"] for b in doc["boxes"] if b.get("barricade")]
 
@@ -727,6 +728,39 @@ def cut_blocked(doc, extra, fixed):
     if extra:
         extra["links"] = out[1]
     return cut[0], cut[1], stuck
+
+
+def reseat_spawns(doc):
+    """Moves a survivor spawn the finished document's graph seals off from the main ground (the physical link cut can seal a room the first pass joined) onto it."""
+    import nav_emulate
+    nav = doc["nav"]
+    sizes = json.load(open(os.path.join(HERE, "prop_sizes.json")))["props"]
+    G = nav_emulate.Graph(doc["boxes"], doc.get("props", []), sizes, nav["floors"], spacing=float(nav.get("spacing", 1.0)), clearance=float(nav.get("clearance", 0.35)), solid_props=doc.get("solid_props", []))
+    for l in nav["links"]:
+        i, j = G.nearest(l[0], l[1], l[2], 2.0), G.nearest(l[3], l[4], l[5], 2.0)
+        if i >= 0 and j >= 0:
+            G.union(i, j)
+    if not G.pts:
+        return doc
+    main = collections.Counter(G.find(i) for i in range(len(G.pts))).most_common(1)[0][0]
+    pts = [q for i, q in enumerate(G.pts) if G.find(i) == main]
+    moved = 0
+    spawns = doc["spawns"]["survivors"]
+    for sp in spawns:
+        at = sp["at"]
+        k = G.nearest(at[0], at[1], at[2], 1.5)
+        if k < 0 or G.find(k) == main:
+            continue
+        for q in sorted(pts, key=lambda q: (q[0] - at[0]) ** 2 + (q[2] - at[2]) ** 2 + (q[1] - at[1]) ** 2):
+            if (q[0] - at[0]) ** 2 + (q[2] - at[2]) ** 2 > 144:
+                break
+            if abs(q[1] - at[1]) <= 0.6 and all((q[0] - o["at"][0]) ** 2 + (q[2] - o["at"][2]) ** 2 >= 1.96 for o in spawns if o is not sp):
+                sp["at"] = [r3(q[0]), r3(q[1] + 0.1), r3(q[2])]
+                moved += 1
+                break
+    if moved:
+        print("  survivor spawns: %d in a room the finished graph seals off moved out of it" % moved)
+    return doc
 
 
 def cut_blocked_links(doc, fixed):
@@ -1081,16 +1115,16 @@ def widen_doorways(boxes, width, min_gap=0.5, min_h=1.5):
 
 
 BREAKABLE = ("func_breakable", "func_breakable_surf", "func_physbox", "func_physbox_multiplayer")
-WIRE_BUDGET = 58500     # ZzMapDoc.WIRE_LIMIT (60000) less the header and the gap between this zlib and the engine's deflate
-LIMITS = {"boxes": 6000, "floors": 800, "links": 600}   # ZzMapDoc.MAX_BOXES, MAX_NAV_FLOORS, MAX_NAV_LINKS
+TERRAIN_BUDGET = 1_500_000    # bytes of heightfield a document may carry: the wire sends a big map in pieces
+TERRAIN_CELLS = (0.5, 0.75, 1.0, 1.5, 2.0, 3.0, 4.0, 6.0)    # finest first: a cliff face is only as steep as one cell lets it be
+WIRE_BUDGET = 30_000_000   # ZzMapDoc.WIRE_LIMIT (32 MiB, a hostile-input bound; the wire sends a big map in pieces) less the header
+LIMITS = {"boxes": 400000, "floors": 50000, "links": 50000}   # ZzMapDoc.MAX_BOXES, MAX_NAV_FLOORS, MAX_NAV_LINKS
 
 
 def wire_size(path):
     """(boxes, compressed bytes, room) of a written document; room < 1 is over a limit by that ratio."""
     with open(path) as f:
         doc = json.load(f)
-    if doc.get("wire_lamps"):
-        doc["lights"] = doc["lights"][:doc["wire_lamps"]]
     size = len(zlib.compress(json.dumps(doc, separators=(",", ":")).encode(), 9))
     nav = doc.get("nav") or {}
     counts = {"boxes": len(doc.get("boxes", [])), "floors": len(nav.get("floors", [])), "links": len(nav.get("links", []))}
@@ -1759,10 +1793,15 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
         xs = [a * CELL for a, _ in walked]
         zs = [b * CELL for _, b in walked]
         near = {(a // 4, b // 4) for a, b in walked}
-        hf, size = dterrain.fit(terrain_tris, (min(xs), min(zs), max(xs) + CELL, max(zs) + CELL), int(topts.get("budget", 18000)),
+        hf, size = dterrain.fit(terrain_tris, (min(xs), min(zs), max(xs) + CELL, max(zs) + CELL), int(topts.get("budget", TERRAIN_BUDGET)),
+                                cells=tuple(topts.get("cells", TERRAIN_CELLS)),
                                 keep=lambda x, z: (math.floor(x / CELL) // 4, math.floor(z / CELL) // 4) in near)
         TERRAIN = dterrain.Heightfield.decode(hf.encode(0.05))[0]
         print("terrain: shipped %dx%d at %.1f m, %d bytes" % (TERRAIN.nx, TERRAIN.nz, TERRAIN.cell, size))
+        # Cliffs and undercuts a heightfield smooths away stay solid where they are drawn. They join
+        # the document last: the walk flood reads them as walls on ground it can climb.
+        FACES[:] = dterrain.face_boxes(terrain_tris, TERRAIN, size=float(topts.get("face_cell", 0.5)))
+        print("terrain: %d boxes hold the steep faces the field cannot" % len(FACES))
     floors, surf, seen, parent, dist = build_nav(boxes, starts)
 
     # Distant scenery (the original's backdrop pieces, its boundary walls twenty metres tall) is a
@@ -1935,7 +1974,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
                 b["nav"] = False
                 under += 1
         print("  clip_underlay: %d invisible slab(s) under a floor left out of the graph" % under)
-    G = nav_emulate.Graph(boxes + bar_boxes, keep, sizes, floors, terrain_pts=TERRAIN_PTS)
+    G = nav_emulate.Graph(boxes + bar_boxes, keep, sizes, floors, terrain_pts=TERRAIN_PTS, solid_props=prior_solid_props(os.path.join(out_dir, spec["id"] + ".json")))
     links = list(build_nav.links)
     dead = set()
     for bid, cx, cz, thin in bar_geo:
@@ -2383,7 +2422,7 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
         print("  survivor spawns: %d facing a wall turned to open ground" % turned)
     nav_doc = {"spacing": 1.0, "clearance": 0.35, "floors": floors, "links": build_nav.links[:600] + [list(l) for l in spec.get("extra_links", [])]}
     import nav_emulate
-    feet = nav_emulate.under_feet_for(all_boxes, props, sizes, floors, terrain_pts=TERRAIN_PTS)
+    feet = nav_emulate.under_feet_for(all_boxes, props, sizes, floors, terrain_pts=TERRAIN_PTS, solid_props=prior_solid_props(os.path.join(out_dir, spec["id"] + ".json")))
     if feet:
         nav_doc["under_feet"] = feet
         print("  nav.under_feet %.2f: a slab just under a floor was swallowing its points" % feet)
@@ -2410,6 +2449,9 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
                                   "max": [r3(max(p[0] for p in sp) + 2), r3(max(p[1] for p in sp) + 3), r3(max(p[2] for p in sp) + 2)]}]
     if TERRAIN:
         doc["terrain"] = TERRAIN.encode(0.05, dterrain.walk_samples(TERRAIN, tseen, CELL), spec.get("terrain_mat", "dirt"))
+        for x0, y0_, z0, x1, y1, z1 in FACES:
+            doc["boxes"].append({"at": [r3((x0 + x1) / 2), r3((y0_ + y1) / 2), r3((z0 + z1) / 2)], "size": [r3(x1 - x0), r3(y1 - y0_), r3(z1 - z0)],
+                                 "mat": spec.get("terrain_mat", "dirt")})
     water = water_volumes(bs, y0, floors, spec, doc["boxes"], doc["kill_y"])
     if water:
         doc["water"] = water
@@ -2447,6 +2489,8 @@ def convert(argv, skip=(), keep_small=0, max_boxes=0):
                 doc["world_collision"]["band"] = list(spec["clip_y"])
             print("  world_collision: %d models from the world pack's hulls" % len(doc["world_collision"]["models"]))
     doc = cut_blocked_links(doc, spec.get("extra_links", []))
+    if "terrain" not in doc:
+        doc = reseat_spawns(doc)
     os.makedirs(out_dir, exist_ok=True)
     path = os.path.join(out_dir, spec["id"] + ".json")
     with open(path, "w") as f:
