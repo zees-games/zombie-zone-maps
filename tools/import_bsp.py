@@ -1369,6 +1369,35 @@ def main(argv):
     return rc
 
 
+def budget_candidates(argv, spec, path):
+    """Whole-map conversion is on disk. The drawn world collides through its own hulls, so the spec's `drop_small` and
+    `max_boxes` are also the horde's obstacle list: small boxes cut points and doorways (roy_highway: 4192 of 12663 points on the
+    main ground whole, 16626 of 16888 with the budget; Death Star Escape 2227 points whole, 2778 with it). Tries the spec's
+    budget and a fifth and two fifths of its drops put back; keeps the whole map unless one gives the horde more than 3% more main ground (or the
+    whole map's share is under MAIN_SHARE_MIN). Returns the rc when a budgeted one won, None to carry on with the whole map."""
+    whole = tuple(GRAPH_MAIN)
+    n_whole = wire_size(path)[0]
+    cands = []    # (main points, total points, boxes, keep_small)
+    for frac in (0, 0.2, 0.4):
+        if frac and (len(cands) == 0 or n_whole - cands[0][2] < 200):
+            break
+        keep = int((n_whole - cands[0][2]) * frac) if frac else 0
+        rc = convert(argv, keep_small=keep)
+        if rc:
+            return rc
+        cands.append((GRAPH_MAIN[0], GRAPH_MAIN[1], wire_size(path)[0], keep))
+        print("  budget candidate keep_small=%d: %d of %d points on the main ground, %d boxes" % (keep, GRAPH_MAIN[0], GRAPH_MAIN[1], cands[-1][2]))
+    top = max(c[0] for c in cands)
+    best = max((c for c in cands if c[0] >= 0.95 * top), key=lambda c: c[2])    # as many boxes as keep the graph within 5%
+    if whole[0] >= MAIN_SHARE_MIN * whole[1] and top <= whole[0] * 1.03:
+        print("  whole map kept: %d points on the main ground, the budgeted graphs give no more than 3%% extra" % whole[0])
+        return convert(argv, skip=("drop_small", "max_boxes"))
+    print("  using the spec's budget with keep_small=%d (whole map: %d of %d points on the main ground)" % (best[3], whole[0], whole[1]))
+    if cands[-1] is best:
+        return 0
+    return convert(argv, keep_small=best[3])
+
+
 def budgeted(argv, full):
     if len(argv) < 3:
         print(__doc__)
@@ -1380,13 +1409,10 @@ def budgeted(argv, full):
     rc = convert(argv, skip=("drop_small", "max_boxes"))
     if rc:
         return rc
-    if (spec.get("drop_small") or spec.get("max_boxes")) and world_pack_built(spec["id"]) and GRAPH_MAIN[0] < MAIN_SHARE_MIN * GRAPH_MAIN[1]:
-        # The drawn world collides through its own hulls, so the spec's `drop_small` and `max_boxes` are the horde's obstacle
-        # list, not a wire budget: whole, the walls and rails the hulls already hold cut the ground into islands
-        # (roy_highway: 4192 of 12663 points on the main ground, 16626 of 16888 with the spec's budget).
-        whole_graph = tuple(GRAPH_MAIN)
-        print("  whole map: %d of %d graph points on the main ground; using the spec's drop_small/max_boxes, which the hulls cover" % whole_graph)
-        return convert(argv)
+    if (spec.get("drop_small") or spec.get("max_boxes")) and world_pack_built(spec["id"]):
+        pick = budget_candidates(argv, spec, path)
+        if pick is not None:
+            return pick
     if fits(path):
         return rc
     full.update(json.load(open(path)))
