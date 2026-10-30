@@ -4,3 +4,7 @@ __pycache__/
 .godot/
 .stores/
 dist/
+
+# Godot writes an .import beside every world texture whenever a game checkout that links world/ imports
+# (every ./game.sh test does). Generated, see 54e116b; the release imports this repository itself.
+/world/**/*.import
