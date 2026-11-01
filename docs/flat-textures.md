@@ -1,6 +1,6 @@
 # Textures the licence pass drew as a generated flat image
 
-Measured 2026-10-22 over the eleven rebuilt worlds. `dot-map/tools/bsp/dotbsp/free_textures.tsv` maps a generic id to a free photographic set; an id with no photographic row is drawn by `dotbsp/textures.py` in the original's average colour. Better sets are added in dot-map (CC0 from ambientCG or Poly Haven, with URL, author and licence per row), not here.
+Measured 2026-10-22 over the eleven rebuilt worlds. `dot-map-convert/dotbsp/free_textures.tsv` maps a generic id to a free photographic set; an id with no photographic row is drawn by `dotbsp/textures.py` in the original's average colour. Better sets are added in dot-map (CC0 from ambientCG or Poly Haven, with URL, author and licence per row), not here.
 
 ## Worth a photographic set
 

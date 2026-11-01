@@ -3,7 +3,7 @@
 #   tools/ship_worlds.sh [outdir]   (default world/); SHIP_IDS="id id" limits it to those rows
 HERE="$(cd "$(dirname "$0")" && pwd)"
 OUT="${1:-$HERE/../world}"
-BSP="${DOTBSP_PATH:-$HERE/../../dot-map/tools/bsp}"
+BSP="${DOTBSP_PATH:-$HERE/../../dot-map-convert}"
 grep -v '^#' "$HERE/convert/ship.tsv" | while IFS=$'\t' read -r id key; do
     [ -n "$SHIP_IDS" ] && [[ " $SHIP_IDS " != *" $id "* ]] && continue
     grep -q "^$key " "$HERE/convert/excluded.txt" && { echo "$id excluded"; continue; }

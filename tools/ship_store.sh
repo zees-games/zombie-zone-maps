@@ -4,7 +4,7 @@
 # for that stamp (dot-cloud's `publish --depends`), and a client downloads each slice once.
 #   [SHIP_IDS="a b"] [DIST=dist] tools/ship_store.sh
 HERE="$(cd "$(dirname "$0")" && pwd)"
-BSP="${DOTBSP_PATH:-$HERE/../../dot-map/tools/bsp}"
+BSP="${DOTBSP_PATH:-$HERE/../../dot-map-convert}"
 OUT="${STORE_PROJECT:-$HERE/../.stores/project}"
 packs=()
 while IFS=$'\t' read -r id key; do

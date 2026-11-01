@@ -31,7 +31,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-import import_bsp  # noqa: E402  (finds dot-map's tools/bsp and puts it on the path)
+import import_bsp  # noqa: E402  (finds dot-map-convert and puts it on the path)
 from dotbsp import reader  # noqa: E402
 
 TOL = 0.12

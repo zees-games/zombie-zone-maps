@@ -4,7 +4,7 @@
     python3 -I tools/import_bsp.py tools/bsp/zs_ravenstreet.json path/to/zs_ravenstreet_v1.bsp [out_dir]
     python3 -I tools/import_bsp.py tools/bsp/zs_ravenstreet.json zs_ravenstreet.json [out_dir]
 
-The second form reads the family's intermediate document (dot-map's `tools/bsp/bsp.py
+The second form reads the family's intermediate document (dot-map-convert/bsp.py
 convert`) instead of the map; the first builds that document in memory. Either way this file
 is the game's adapter: reading the format and cutting brushes into boxes are dot-map's
 (`tools/bsp/`, found beside this repository or at `$DOTBSP_PATH`), so a reader fix reaches
@@ -46,12 +46,12 @@ import ambient  # noqa: E402
 
 
 def _dotbsp_path():
-    """dot-map's tools/bsp: $DOTBSP_PATH, else the sibling checkout dot-bootstrap makes."""
-    for p in (os.environ.get("DOTBSP_PATH", ""), os.path.join(HERE, "..", "..", "dot-map", "tools", "bsp")):
+    """dot-map-convert: $DOTBSP_PATH, else the sibling checkout dot-bootstrap makes."""
+    for p in (os.environ.get("DOTBSP_PATH", ""), os.path.join(HERE, "..", "..", "dot-map-convert")):
         if p and os.path.isfile(os.path.join(p, "dotbsp", "reader.py")):
             return os.path.abspath(p)
-    sys.exit("import_bsp: dot-map's tools/bsp was not found; clone dot-map beside this "
-             "repository (dot-bootstrap does) or set DOTBSP_PATH to its tools/bsp")
+    sys.exit("import_bsp: dot-map-convert was not found; clone dot-map beside this "
+             "repository (dot-bootstrap does) or set DOTBSP_PATH to its checkout")
 
 
 sys.path.insert(1, _dotbsp_path())
@@ -95,7 +95,7 @@ MIN_FLOOR_Y = None    # spec min_floor_y: a sump the horde drops into and cannot
 HEAD = 1.7            # headroom a floor needs
 SLAB = 0.4
 
-# The surface of a brush comes from dot-map's shared list (tools/bsp/dotbsp/source_textures.tsv), the one every
+# The surface of a brush comes from dot-map's shared list (dot-map-convert/dotbsp/source_textures.tsv), the one every
 # conversion reads; a new texture goes there, never into this file. `bsp.py unmapped <bsp>` lists what it misses.
 TEXTURE_MAP = texturemap.load()
 

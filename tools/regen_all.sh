@@ -5,7 +5,7 @@
 # the spec tools/bsp/<id>.json is found by the id, and its y0 must reach regen or the bin lands y0 metres off its movers.
 HERE="$(cd "$(dirname "$0")" && pwd)"
 OUT="${1:-$HERE/../world}"
-BSP="${DOTBSP_PATH:-$HERE/../../dot-map/tools/bsp}"
+BSP="${DOTBSP_PATH:-$HERE/../../dot-map-convert}"
 # One store for every pack: each PBR set and library model is copied once, by id; tools/ship_store.sh publishes what each map draws
 # as a dot-cloud slice (licence.store_pack), so no pack carries a library model and the game needs no --no-models.
 STORES="${STORES:-$HERE/../.stores}"

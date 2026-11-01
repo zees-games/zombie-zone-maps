@@ -5,8 +5,8 @@
 HERE="$(cd "$(dirname "$0")" && pwd)"
 STORE="${DOTBSP_STORE:-$HOME/mapsrc/store}"
 DOCS="${ZZ_DOCS:-$HERE/../maps}"     # another folder of documents, e.g. a re-conversion not yet copied in
-BSPPY="${DOTBSP_PATH:-$HERE/../../dot-map/tools/bsp}/bsp.py"
-[ -f "$BSPPY" ] || { echo "walk_check: dot-map's tools/bsp was not found; set DOTBSP_PATH" >&2; exit 2; }
+BSPPY="${DOTBSP_PATH:-$HERE/../../dot-map-convert}/bsp.py"
+[ -f "$BSPPY" ] || { echo "walk_check: dot-map-convert was not found; set DOTBSP_PATH" >&2; exit 2; }
 fail=0
 while IFS=$'\t' read -r id key; do
     [ $# -gt 0 ] && [[ " $* " != *" $id "* ]] && continue

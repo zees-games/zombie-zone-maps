@@ -3,7 +3,7 @@
     python3 -I tools/build_worlds.py tools/bsp/<id>.json path/to/<map>.bsp [out_root]
 
 Writes `<out_root>/zz_world_<id>/<id>.{json,bin}` (out_root defaults to `world/`), the drawn
-mesh of the source map in dot-map's `dot-bsp-mesh` format (dot-map's tools/bsp/dotbsp/mesh.py;
+mesh of the source map in dot-map's `dot-bsp-mesh` format (dot-map-convert/dotbsp/mesh.py;
 the game reads it with dot-map's DotMapBspMesh), and names it in the map document (`"world"`).
 
 WHY A SECOND FILE AND NOT MORE BOXES. The document's boxes are what collides and what the horde's
@@ -42,7 +42,7 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 
-import import_bsp  # noqa: E402  (puts dot-map's tools/bsp on the path, and owns the material table)
+import import_bsp  # noqa: E402  (puts dot-map-convert on the path, and owns the material table)
 from dotbsp import environment, importer, licence, mesh, movers, reader, standins, units  # noqa: E402
 
 # Metres of world one batch covers: the game's own (ZzMap.CHUNK), because the compatibility renderer

@@ -4,7 +4,7 @@
 # published ones, which is what a player's client reads.
 #   [ORIGIN=url] [DIST=dist] tools/check_store.sh [id ...]
 HERE="$(cd "$(dirname "$0")" && pwd)"
-BSP="${DOTBSP_PATH:-$HERE/../../dot-map/tools/bsp}"
+BSP="${DOTBSP_PATH:-$HERE/../../dot-map-convert}"
 ids=("$@")
 [ ${#ids[@]} -gt 0 ] || mapfile -t ids < <(grep -v '^#' "$HERE/convert/ship.tsv" | cut -f1)
 packs=()

@@ -14,7 +14,7 @@ import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-BSP = os.environ.get("DOTBSP_PATH", os.path.join(HERE, "..", "..", "dot-map", "tools", "bsp"))
+BSP = os.environ.get("DOTBSP_PATH", os.path.join(HERE, "..", "..", "dot-map-convert"))
 sys.path.insert(0, BSP)
 from dotbsp import reader  # noqa: E402
 
