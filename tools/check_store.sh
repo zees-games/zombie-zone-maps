@@ -9,4 +9,5 @@ ids=("$@")
 [ ${#ids[@]} -gt 0 ] || mapfile -t ids < <(grep -v '^#' "$HERE/convert/ship.tsv" | cut -f1)
 packs=()
 for id in "${ids[@]}"; do packs+=("$HERE/../world/zz_world_$id/$id.json"); done
-exec python3 -I "$BSP/bsp.py" storecheck "${packs[@]}" ${ORIGIN:+--origin "$ORIGIN"} ${ORIGIN:---dist "${DIST:-$HERE/../dist}"}
+where=(--dist "${DIST:-$HERE/../dist}"); [ -n "${ORIGIN:-}" ] && where=(--origin "$ORIGIN")
+exec python3 -I "$BSP/bsp.py" storecheck "${packs[@]}" "${where[@]}"
