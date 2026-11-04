@@ -150,7 +150,8 @@ class Graph:
 
     def crosses(self, a, b):
         d = math.dist(a, b)
-        steps = max(int(d / max(self.spacing * 0.5, 0.1)), 1)
+        # At least two, as the builder's _crosses_obstacle: a short diagonal edge still tests its midpoint.
+        steps = max(int(d / max(self.spacing * 0.5, 0.1)), 2)
         for k in range(1, steps):
             t = k / steps
             if self.blocked(a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t, a[2] + (b[2] - a[2]) * t):
