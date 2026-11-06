@@ -29,7 +29,7 @@
    2
   ]
  ],
- "items_auto": true,
+ "items_auto": false,
  "auto_lights": {
   "spacing": 6.0,
   "height": 2.3,
@@ -64,5 +64,46 @@
  "ambient": {
   "mood": "indoor_hall",
   "indoor": "indoor_hall"
- }
+ },
+ "drop_loose": [
+  [
+   2.3784,
+   -7.3152
+  ],
+  [
+   2.1936,
+   -12.3078
+  ],
+  [
+   2.286,
+   -9.8679
+  ]
+ ],
+ "items_y": 6.2,
+ "items": [
+  [
+   "weapon",
+   "smg",
+   5.848,
+   -3.563
+  ],
+  [
+   "ammo",
+   null,
+   1.848,
+   -3.563
+  ],
+  [
+   "weapon",
+   "shotgun",
+   4.848,
+   -7.563
+  ],
+  [
+   "medkit",
+   null,
+   1.848,
+   -7.563
+  ]
+ ]
 }
