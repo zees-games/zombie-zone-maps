@@ -1,0 +1,229 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "gm_apresort",
+ "sha256": "fcbaf9a2bdebb9202a1f4cb1c7918835fafb894207845f04509d0eed14a49705",
+ "textures": {
+  "looked_up": 127,
+  "drawn": 130,
+  "by_tier": {
+   "addon": 37,
+   "default": 73,
+   "fallback": 17
+  },
+  "free_by_tier": {
+   "addon": 94,
+   "default": 20,
+   "nearest": 16
+  },
+  "nearest_photo": [
+   "concrete/concrete_bts_ceiling001a",
+   "concrete/concrete_bts_ceiling002a",
+   "concrete/concrete_bts_floor002a",
+   "concrete/concrete_bts_modular_wall001a",
+   "concrete/concrete_bts_modular_wall001d",
+   "concrete/concrete_modular_ceiling001a",
+   "concrete/concrete_modular_floor001a",
+   "concrete/concrete_modular_floor001b",
+   "concrete/concrete_modular_floor001c",
+   "concrete/concrete_modular_wall001_gradient07",
+   "concrete/concrete_modular_wall001a",
+   "concrete/concretefloor_bts_002a",
+   "concrete/observationwall_001a",
+   "concrete/observationwall_001b",
+   "effects/tp_refract",
+   "lights/light_orange001",
+   "lights/light_recessedcool002",
+   "lights/white001",
+   "lights/white009",
+   "metal/metal_lift001",
+   "metal/metal_modular_floor001",
+   "metal/metalbeam_bts_001a",
+   "metal/metaldoor_white01",
+   "metal/metalduct_bts_001",
+   "metal/metalfloor_bts_001a",
+   "metal/metalfloor_bts_001b",
+   "metal/metalhull013a",
+   "metal/metaltruss016a",
+   "metal/metalwall048b",
+   "metal/metalwall048b_lrg",
+   "metal/metalwall048b_med",
+   "metal/metalwall048c",
+   "metal/metalwall_bts_002a",
+   "metal/metalwall_bts_002d",
+   "metal/metalwall_bts_005a",
+   "metal/metalwall_bts_006a",
+   "metal/metalwall_bts_006b",
+   "metal/metalwall_bts_006b_gradient",
+   "nature/blenddirtgrass005a_wvt_patch",
+   "nature/blendgrassgravel001b",
+   "nature/blendrocksand005a",
+   "nature/blendrocksand008c",
+   "nature/blendrocksand008d",
+   "nature/blendsandrock004a",
+   "nature/dirtwall001a",
+   "nature/hazard_liquid",
+   "nature/rockfloor003a",
+   "plastic/plastic_light001a",
+   "plastic/plastic_light001b",
+   "plastic/plastic_light002a",
+   "plastic/plastic_light002b",
+   "plastic/plastic_light002c",
+   "plastic/plasticwall001a",
+   "plastic/plasticwall001b",
+   "plastic/plasticwall002a",
+   "plastic/plasticwall003a",
+   "plastic/plasticwall004a",
+   "props/hazardstrip001a",
+   "signage/clock/clock_dots",
+   "signage/clock/clock_milliseconds",
+   "signage/hazard_orange_03b",
+   "signage/signage_arrow",
+   "signage/signage_exit",
+   "stone/stonefloor006f",
+   "stone/stonewall005a",
+   "stone/stonewall006a",
+   "stone/stonewall006c",
+   "stone/stonewall051b",
+   "stone/stonewall051c",
+   "tile/observation_tilefloor001a",
+   "tile/observation_tilefloor002a",
+   "tile/observation_tilefloor003a",
+   "tile/observation_tilefloor004a",
+   "tile/observation_tilestair001a",
+   "tools/toolsblack"
+  ]
+ },
+ "models": {
+  "looked_up": 179,
+  "by_tier": {
+   "category": 17,
+   "default": 135,
+   "fallback": 27
+  }
+ },
+ "sounds": {
+  "looked_up": 5,
+  "by_tier": {
+   "default": 4,
+   "fallback": 1
+  }
+ },
+ "classes": {
+  "distinct": 47,
+  "entities": 2088,
+  "by_tier": {
+   "default": 46,
+   "fallback": 1
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "pitch"
+   ],
+   "func_physbox": [
+    "modelscale"
+   ]
+  }
+ },
+ "links": {
+  "total": 110,
+  "unresolved": 10
+ },
+ "lists": {
+  "textures_unmapped": [
+   "NATURE/HAZARD_LIQUID",
+   "OVERLAYS/LAB_LRG001",
+   "PLASTIC/PLASTICWALL001A",
+   "PLASTIC/PLASTICWALL001B",
+   "PLASTIC/PLASTICWALL002A",
+   "PLASTIC/PLASTICWALL003A",
+   "PLASTIC/PLASTICWALL004A",
+   "PLASTIC/PLASTIC_LIGHT001A",
+   "PLASTIC/PLASTIC_LIGHT001B",
+   "PLASTIC/PLASTIC_LIGHT002A",
+   "PLASTIC/PLASTIC_LIGHT002B",
+   "PLASTIC/PLASTIC_LIGHT002C",
+   "SIGNAGE/CLOCK/CLOCK_DOTS",
+   "SIGNAGE/CLOCK/CLOCK_MILLISECONDS",
+   "SIGNAGE/HAZARD_ORANGE_03B",
+   "SIGNAGE/SIGNAGE_ARROW",
+   "SIGNAGE/SIGNAGE_EXIT"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "props/128_fuse_set01/128_fuse_set01.mdl",
+   "props/128_fuse_set02/128_fuse_set02.mdl",
+   "props/128_fuse_set03/128_fuse_set03.mdl",
+   "props/128_fuse_set05/128_fuse_set05.mdl",
+   "props/128_fuse_set06/128_fuse_set06.mdl",
+   "props/128_fuse_set07/128_fuse_set07.mdl",
+   "props/128_fuse_set08/128_fuse_set08.mdl",
+   "props/128_fuse_set09/128_fuse_set09.mdl",
+   "props/128_fuse_set10/128_fuse_set10.mdl",
+   "props/claw/claw_body.mdl",
+   "props/claw/claw_pincer01.mdl",
+   "props/claw/claw_pincer02.mdl",
+   "props/pc_case02/pc_case02.mdl",
+   "props/pc_case_open/pc_case_open.mdl",
+   "props/shaft_cleanser_1.mdl",
+   "props/switch001.mdl",
+   "props/turret_01.mdl",
+   "props_bts/bts_turret.mdl",
+   "props_bts/cage_light.mdl",
+   "props_bts/fan01_small.mdl",
+   "props_bts/core_platform_reference.mdl",
+   "props_bts/mini_piston_body.mdl",
+   "props_bts/mini_piston_inside.mdl",
+   "props_bts/vertical_large_piston_body.mdl",
+   "props_lab/plotter.mdl",
+   "props_lab/soupprep.mdl",
+   "props_office/lab_copy_machine.mdl"
+  ],
+  "sounds_unmapped": [
+   "hudquickinfo.lowammo"
+  ],
+  "classes_unmapped": [
+   "vgui_slideshow_display"
+  ],
+  "keys_unmapped": [
+   "ambient_generic.pitch",
+   "func_physbox.modelscale"
+  ],
+  "links_unresolved": [
+   "func_door.OnFullyClosed->stop_sound_room1",
+   "func_door.OnFullyClosed->stop_sound_room10",
+   "func_door.OnFullyClosed->stop_sound_room12",
+   "func_door.OnFullyClosed->stop_sound_room2",
+   "func_door.OnFullyClosed->stop_sound_room7",
+   "func_door.OnFullyOpen->stop_sound_room1",
+   "func_door.OnFullyOpen->stop_sound_room10",
+   "func_door.OnFullyOpen->stop_sound_room12",
+   "func_door.OnFullyOpen->stop_sound_room2",
+   "func_door.OnFullyOpen->stop_sound_room7"
+  ],
+  "inputs_unimplemented": [
+   "env_tonemap_controller.SetAutoExposureMax",
+   "env_tonemap_controller.SetAutoExposureMin",
+   "env_tonemap_controller.SetBloomScale",
+   "env_tonemap_controller.SetTonemapRate",
+   "prop_dynamic.SetAnimation",
+   "prop_dynamic.SetDefaultAnimation",
+   "prop_dynamic.SetPlaybackRate"
+  ],
+  "surfaces_opaque": []
+ },
+ "counts": {
+  "textures_unmapped": 17,
+  "textures_flat": 0,
+  "models_unmapped": 27,
+  "sounds_unmapped": 1,
+  "classes_unmapped": 1,
+  "keys_unmapped": 2,
+  "links_unresolved": 10,
+  "inputs_unimplemented": 7,
+  "surfaces_opaque": 0
+ }
+}

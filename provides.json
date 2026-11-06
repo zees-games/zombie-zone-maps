@@ -10,6 +10,13 @@
     "entries": [
         {
             "kind": "map",
+            "id": "sunken_resort",
+            "name": "Sunken Resort",
+            "scene": "maps/sunken_resort.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
             "id": "ze_biohazard_manor",
             "name": "Biohazard Manor",
             "scene": "maps/ze_biohazard_manor.json",
