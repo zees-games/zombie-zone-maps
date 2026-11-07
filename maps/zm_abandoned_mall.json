@@ -12,6 +12,7 @@
  "next": "",
  "survive_seconds": 600,
  "kill_y": -12.114,
+ "light_floor": 0.08,
  "environment": {
   "sky_top": [
    0.02,
@@ -41,7 +42,7 @@
    0.42,
    0.34
   ],
-  "ambient_energy": 0.09,
+  "ambient_energy": 0.2,
   "fog": 0.035
  },
  "ambient": {
