@@ -11,9 +11,8 @@
    "default": 12
   },
   "free_by_tier": {
-   "addon": 58,
-   "default": 19,
-   "nearest": 3
+   "addon": 61,
+   "default": 19
   },
   "nearest_photo": [
    "nature/blendrocksand008d",
@@ -42,9 +41,6 @@
  "keys": {
   "catalogue": true,
   "unmapped": {
-   "ambient_generic": [
-    "pitch"
-   ],
    "logic_waves": [
     "wave"
    ],
@@ -79,7 +75,6 @@
   "sounds_unmapped": [],
   "classes_unmapped": [],
   "keys_unmapped": [
-   "ambient_generic.pitch",
    "logic_waves.wave",
    "logic_winlose.endcamera",
    "logic_winlose.endslowmo",
@@ -91,6 +86,10 @@
    "zombiegasses.radius"
   ],
   "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_tonemap_controller.SetAutoExposureMax",
+   "env_tonemap_controller.SetAutoExposureMin"
+  ],
   "surfaces_opaque": []
  },
  "counts": {
@@ -99,8 +98,9 @@
   "models_unmapped": 0,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
-  "keys_unmapped": 10,
+  "keys_unmapped": 9,
   "links_unresolved": 0,
+  "inputs_unimplemented": 2,
   "surfaces_opaque": 0
  }
 }

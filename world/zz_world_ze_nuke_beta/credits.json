@@ -747,6 +747,46 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_armouredcarrier",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/vehicles.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 5
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_chainlinkfence",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/fences.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 33
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_lighttroffer",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 125
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_wood_crate_cube",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/wood_crate.py",
+   "source": "dot-map Blender remodel",
+   "attribution": false,
+   "uses": 23
+  },
+  {
+   "kind": "model",
    "name": "lib/kenney_building-kit_door-rotate-square-d",
    "author": "Kenney",
    "licence": "CC0-1.0",
@@ -777,23 +817,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_pirate-kit_crate-bottles",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/pirate-kit",
-   "source": "Kenney Pirate Kit",
-   "attribution": false,
-   "uses": 170
-  },
-  {
-   "kind": "model",
-   "name": "lib/own_box_120x10x20_e8e8e0",
+   "name": "lib/own_box_124x82x28_e8e8e0",
    "author": "TMC (generated for dot-map)",
    "licence": "CC0-1.0",
    "url": "https://github.com/modcommunity/dot-map",
    "source": "TMC generated model",
    "attribution": false,
-   "uses": 32
+   "uses": 27
   },
   {
    "kind": "model",
@@ -813,17 +843,7 @@
    "url": "https://polyhaven.com/a/modular_airduct_circular_01",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 13
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_modular_chainlink_fence",
-   "author": "James Ray Cock, Amal Kumar",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/modular_chainlink_fence",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 2
+   "uses": 9
   },
   {
    "kind": "model",
@@ -864,16 +884,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 2
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623",
-   "author": "Libau Media",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-1986239266ee44c788fd6effe4055704",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 5
   },
   {
    "kind": "model",

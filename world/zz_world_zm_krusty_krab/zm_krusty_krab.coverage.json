@@ -11,9 +11,8 @@
    "default": 12
   },
   "free_by_tier": {
-   "addon": 58,
-   "default": 19,
-   "nearest": 3
+   "addon": 61,
+   "default": 19
   },
   "nearest_photo": [
    "nature/blendrocksand008d",
@@ -42,13 +41,6 @@
  "keys": {
   "catalogue": true,
   "unmapped": {
-   "ambient_generic": [
-    "pitch"
-   ],
-   "point_viewcontrol": [
-    "acceleration",
-    "deceleration"
-   ],
    "weapon_deagle": [
     "ammo"
    ],
@@ -68,9 +60,6 @@
   "sounds_unmapped": [],
   "classes_unmapped": [],
   "keys_unmapped": [
-   "ambient_generic.pitch",
-   "point_viewcontrol.acceleration",
-   "point_viewcontrol.deceleration",
    "weapon_deagle.ammo",
    "weapon_scout.ammo"
   ],
@@ -78,6 +67,12 @@
    "weapon_hegrenade.OnPlayerPickup->secret_happy_nade_rotating1",
    "weapon_hegrenade.OnPlayerPickup->secret_happy_nade_trail1",
    "weapon_hegrenade.OnPlayerPickup->secret_happy_nade_trail_timer1"
+  ],
+  "inputs_unimplemented": [
+   "env_bubbles.Activate",
+   "env_tonemap_controller.SetAutoExposureMax",
+   "env_tonemap_controller.SetAutoExposureMin",
+   "point_servercommand.Command"
   ],
   "surfaces_opaque": []
  },
@@ -87,8 +82,9 @@
   "models_unmapped": 0,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
-  "keys_unmapped": 5,
+  "keys_unmapped": 2,
   "links_unresolved": 3,
+  "inputs_unimplemented": 4,
   "surfaces_opaque": 0
  }
 }

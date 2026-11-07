@@ -11,9 +11,8 @@
    "default": 26
   },
   "free_by_tier": {
-   "addon": 238,
-   "default": 24,
-   "nearest": 6
+   "addon": 244,
+   "default": 24
   },
   "nearest_photo": [
    "concrete/concretewall043a",
@@ -51,16 +50,6 @@
  "keys": {
   "catalogue": true,
   "unmapped": {
-   "ambient_generic": [
-    "pitch"
-   ],
-   "env_projectedtexture": [
-    "lightcolor",
-    "texturename"
-   ],
-   "func_breakable_surf": [
-    "modelscale"
-   ],
    "info_zsnode": [
     "spawnflags"
    ],
@@ -98,10 +87,6 @@
   ],
   "classes_unmapped": [],
   "keys_unmapped": [
-   "ambient_generic.pitch",
-   "env_projectedtexture.lightcolor",
-   "env_projectedtexture.texturename",
-   "func_breakable_surf.modelscale",
    "info_zsnode.spawnflags",
    "logic_gamerules.nestdistancemul",
    "logic_waves.wave",
@@ -111,6 +96,12 @@
    "zombiegasses.spawnflags"
   ],
   "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_tonemap_controller.SetAutoExposureMax",
+   "env_tonemap_controller.SetAutoExposureMin",
+   "game_text.Display",
+   "point_servercommand.Command"
+  ],
   "surfaces_opaque": []
  },
  "counts": {
@@ -119,8 +110,9 @@
   "models_unmapped": 0,
   "sounds_unmapped": 4,
   "classes_unmapped": 0,
-  "keys_unmapped": 11,
+  "keys_unmapped": 7,
   "links_unresolved": 0,
+  "inputs_unimplemented": 4,
   "surfaces_opaque": 0
  }
 }

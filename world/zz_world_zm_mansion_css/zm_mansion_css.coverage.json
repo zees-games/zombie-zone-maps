@@ -38,17 +38,8 @@
  "keys": {
   "catalogue": true,
   "unmapped": {
-   "ambient_generic": [
-    "pitch"
-   ],
    "ins_spawnpoint": [
     "team"
-   ],
-   "light_dynamic": [
-    "_constant_attn",
-    "_fifty_percent_distance",
-    "_linear_attn",
-    "_zero_percent_distance"
    ],
    "prop_physics": [
     ""
@@ -78,12 +69,7 @@
   "sounds_unmapped": [],
   "classes_unmapped": [],
   "keys_unmapped": [
-   "ambient_generic.pitch",
    "ins_spawnpoint.team",
-   "light_dynamic._constant_attn",
-   "light_dynamic._fifty_percent_distance",
-   "light_dynamic._linear_attn",
-   "light_dynamic._zero_percent_distance",
    "prop_physics.",
    "trigger_once.wait",
    "weapon_deagle.ammo",
@@ -103,6 +89,17 @@
    "trigger_hurt.OnStartTouch->motosierrasangreloop",
    "weapon_deagle.OnPlayerPickup->consola"
   ],
+  "inputs_unimplemented": [
+   "env_ar2explosion.Explode",
+   "env_entity_maker.ForceSpawn",
+   "env_texturetoggle.SetTextureIndex",
+   "phys_thruster.Activate",
+   "point_camera.SetOnAndTurnOthersOff",
+   "point_hurt.Hurt",
+   "point_spotlight.LightOff",
+   "point_spotlight.LightOn",
+   "trigger_multiple.TouchTest"
+  ],
   "surfaces_opaque": []
  },
  "counts": {
@@ -111,8 +108,9 @@
   "models_unmapped": 0,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
-  "keys_unmapped": 11,
+  "keys_unmapped": 6,
   "links_unresolved": 11,
+  "inputs_unimplemented": 9,
   "surfaces_opaque": 0
  }
 }

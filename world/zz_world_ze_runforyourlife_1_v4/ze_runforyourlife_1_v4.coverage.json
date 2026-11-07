@@ -36,9 +36,6 @@
  "keys": {
   "catalogue": true,
   "unmapped": {
-   "ambient_generic": [
-    "pitch"
-   ],
    "weapon_awp": [
     "amor"
    ],
@@ -74,7 +71,6 @@
   "sounds_unmapped": [],
   "classes_unmapped": [],
   "keys_unmapped": [
-   "ambient_generic.pitch",
    "weapon_awp.amor",
    "weapon_deagle.ammo",
    "weapon_elite.amor",
@@ -90,6 +86,9 @@
    "trigger_multiple.OnStartTouch->municionInf2",
    "trigger_multiple.OnStartTouch->rock10"
   ],
+  "inputs_unimplemented": [
+   "point_servercommand.Command"
+  ],
   "surfaces_opaque": []
  },
  "counts": {
@@ -98,8 +97,9 @@
   "models_unmapped": 0,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
-  "keys_unmapped": 9,
+  "keys_unmapped": 8,
   "links_unresolved": 4,
+  "inputs_unimplemented": 1,
   "surfaces_opaque": 0
  }
 }

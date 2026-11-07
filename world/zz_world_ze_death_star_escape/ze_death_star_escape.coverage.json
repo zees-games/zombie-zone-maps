@@ -39,13 +39,6 @@
  "keys": {
   "catalogue": true,
   "unmapped": {
-   "ambient_generic": [
-    "pitch"
-   ],
-   "point_viewcontrol": [
-    "acceleration",
-    "deceleration"
-   ],
    "weapon_deagle": [
     "ammo"
    ]
@@ -65,12 +58,13 @@
   ],
   "classes_unmapped": [],
   "keys_unmapped": [
-   "ambient_generic.pitch",
-   "point_viewcontrol.acceleration",
-   "point_viewcontrol.deceleration",
    "weapon_deagle.ammo"
   ],
   "links_unresolved": [],
+  "inputs_unimplemented": [
+   "func_tracktrain.SetParent",
+   "point_servercommand.Command"
+  ],
   "surfaces_opaque": [
    "cs_italy/culighta"
   ]
@@ -81,8 +75,9 @@
   "models_unmapped": 0,
   "sounds_unmapped": 2,
   "classes_unmapped": 0,
-  "keys_unmapped": 4,
+  "keys_unmapped": 1,
   "links_unresolved": 0,
+  "inputs_unimplemented": 2,
   "surfaces_opaque": 1
  }
 }

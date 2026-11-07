@@ -38,14 +38,7 @@
  },
  "keys": {
   "catalogue": true,
-  "unmapped": {
-   "ambient_generic": [
-    "pitch"
-   ],
-   "func_breakable": [
-    "gibmodel"
-   ]
-  }
+  "unmapped": {}
  },
  "links": {
   "total": 27,
@@ -59,11 +52,13 @@
    "player/pl_pain5.wav"
   ],
   "classes_unmapped": [],
-  "keys_unmapped": [
-   "ambient_generic.pitch",
-   "func_breakable.gibmodel"
-  ],
+  "keys_unmapped": [],
   "links_unresolved": [],
+  "inputs_unimplemented": [
+   "point_servercommand.Command",
+   "prop_dynamic_override.SetAnimation",
+   "prop_ragdoll.EnableMotion"
+  ],
   "surfaces_opaque": []
  },
  "counts": {
@@ -72,8 +67,9 @@
   "models_unmapped": 0,
   "sounds_unmapped": 1,
   "classes_unmapped": 0,
-  "keys_unmapped": 2,
+  "keys_unmapped": 0,
   "links_unresolved": 0,
+  "inputs_unimplemented": 3,
   "surfaces_opaque": 0
  }
 }

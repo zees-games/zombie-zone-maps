@@ -63,6 +63,11 @@
    "npc_enemyfinder.freepass_refillrate"
   ],
   "links_unresolved": [],
+  "inputs_unimplemented": [
+   "aiscripted_schedule.StartSchedule",
+   "npc_fastzombie.UpdateEnemyMemory",
+   "npc_zombie.UpdateEnemyMemory"
+  ],
   "surfaces_opaque": []
  },
  "counts": {
@@ -73,6 +78,7 @@
   "classes_unmapped": 0,
   "keys_unmapped": 5,
   "links_unresolved": 0,
+  "inputs_unimplemented": 3,
   "surfaces_opaque": 0
  }
 }

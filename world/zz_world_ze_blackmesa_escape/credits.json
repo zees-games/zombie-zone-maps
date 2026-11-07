@@ -277,10 +277,10 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_raked_dirt",
-   "author": "Dario Barresi, Dimitrios Savva",
+   "name": "pbr_flower_scattered_dirt",
+   "author": "Dimitrios Savva",
    "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/raked_dirt",
+   "url": "https://polyhaven.com/a/flower_scattered_dirt",
    "source": "polyhaven",
    "attribution": false,
    "uses": 9
@@ -347,11 +347,11 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_car-kit_ambulance",
-   "author": "Kenney",
+   "name": "lib/dm_forkliftmachine",
+   "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/car-kit",
-   "source": "Kenney Car Kit",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/vehicles.py",
+   "source": "dot-map Blender model",
    "attribution": false,
    "uses": 1
   },

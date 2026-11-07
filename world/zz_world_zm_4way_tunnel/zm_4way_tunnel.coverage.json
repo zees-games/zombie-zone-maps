@@ -38,9 +38,6 @@
  "keys": {
   "catalogue": true,
   "unmapped": {
-   "ambient_generic": [
-    "pitch"
-   ],
    "weapon_g3sg1": [
     "ammo"
    ],
@@ -75,7 +72,6 @@
   "sounds_unmapped": [],
   "classes_unmapped": [],
   "keys_unmapped": [
-   "ambient_generic.pitch",
    "weapon_g3sg1.ammo",
    "weapon_m249.ammo",
    "weapon_m3.ammo",
@@ -87,6 +83,11 @@
   "links_unresolved": [
    "logic_auto.OnMapSpawn->phys_prp"
   ],
+  "inputs_unimplemented": [
+   "env_entity_maker.ForceSpawn",
+   "prop_physics.DisableMotion",
+   "prop_physics.EnableMotion"
+  ],
   "surfaces_opaque": []
  },
  "counts": {
@@ -95,8 +96,9 @@
   "models_unmapped": 0,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
-  "keys_unmapped": 8,
+  "keys_unmapped": 7,
   "links_unresolved": 1,
+  "inputs_unimplemented": 3,
   "surfaces_opaque": 0
  }
 }

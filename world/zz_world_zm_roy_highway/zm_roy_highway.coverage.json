@@ -11,9 +11,8 @@
    "default": 9
   },
   "free_by_tier": {
-   "addon": 83,
-   "default": 9,
-   "nearest": 1
+   "addon": 84,
+   "default": 9
   },
   "nearest_photo": [
    "nature/blendgrassgravel001b",
@@ -42,15 +41,7 @@
  },
  "keys": {
   "catalogue": true,
-  "unmapped": {
-   "ambient_generic": [
-    "pitch"
-   ],
-   "point_viewcontrol": [
-    "acceleration",
-    "deceleration"
-   ]
-  }
+  "unmapped": {}
  },
  "links": {
   "total": 173,
@@ -65,11 +56,7 @@
    "vehicles/apc/apc_idle1.wav"
   ],
   "classes_unmapped": [],
-  "keys_unmapped": [
-   "ambient_generic.pitch",
-   "point_viewcontrol.acceleration",
-   "point_viewcontrol.deceleration"
-  ],
+  "keys_unmapped": [],
   "links_unresolved": [
    "logic_auto.OnMapSpawn->alarm2",
    "logic_auto.OnMapSpawn->general_tunnel",
@@ -82,6 +69,11 @@
    "trigger_multiple.OnStartTouch->forcefield3_sound_far",
    "trigger_teleport.OnStartTouch->sound_teleport_lampe"
   ],
+  "inputs_unimplemented": [
+   "prop_dynamic.Break",
+   "prop_dynamic.SetBodyGroup",
+   "prop_dynamic.Skin"
+  ],
   "surfaces_opaque": []
  },
  "counts": {
@@ -90,8 +82,9 @@
   "models_unmapped": 0,
   "sounds_unmapped": 2,
   "classes_unmapped": 0,
-  "keys_unmapped": 3,
+  "keys_unmapped": 0,
   "links_unresolved": 10,
+  "inputs_unimplemented": 3,
   "surfaces_opaque": 0
  }
 }

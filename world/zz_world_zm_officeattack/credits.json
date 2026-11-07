@@ -517,6 +517,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_server_rack",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/server_rack.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
    "name": "lib/fxadpanel",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -524,16 +534,6 @@
    "source": "Modelled for dot-map",
    "attribution": false,
    "uses": 3
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_building-kit_door-rotate-square-c",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/building-kit",
-   "source": "Kenney Building Kit",
-   "attribution": false,
-   "uses": 1
   },
   {
    "kind": "model",
@@ -553,7 +553,7 @@
    "url": "https://kenney.nl/assets/furniture-kit",
    "source": "Kenney Furniture Kit",
    "attribution": false,
-   "uses": 41
+   "uses": 40
   },
   {
    "kind": "model",
@@ -813,7 +813,7 @@
    "url": "https://sketchfab.com/3d-models/none-afed9756ba974d1395a336124ff326fd",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 4
+   "uses": 5
   },
   {
    "kind": "model",

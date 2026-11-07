@@ -37,11 +37,7 @@
  },
  "keys": {
   "catalogue": true,
-  "unmapped": {
-   "ambient_generic": [
-    "pitch"
-   ]
-  }
+  "unmapped": {}
  },
  "links": {
   "total": 0,
@@ -53,10 +49,9 @@
   "models_unmapped": [],
   "sounds_unmapped": [],
   "classes_unmapped": [],
-  "keys_unmapped": [
-   "ambient_generic.pitch"
-  ],
+  "keys_unmapped": [],
   "links_unresolved": [],
+  "inputs_unimplemented": [],
   "surfaces_opaque": [
    "building_template/building_trainstation_window001a",
    "de_nuke/nuknotice"
@@ -68,8 +63,9 @@
   "models_unmapped": 0,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
-  "keys_unmapped": 1,
+  "keys_unmapped": 0,
   "links_unresolved": 0,
+  "inputs_unimplemented": 0,
   "surfaces_opaque": 2
  }
 }

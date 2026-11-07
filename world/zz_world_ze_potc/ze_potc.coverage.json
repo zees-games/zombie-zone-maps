@@ -11,9 +11,8 @@
    "default": 18
   },
   "free_by_tier": {
-   "addon": 62,
-   "default": 18,
-   "nearest": 5
+   "addon": 67,
+   "default": 18
   },
   "nearest_photo": [
    "nature/blenddirtgrass008a",
@@ -21,7 +20,8 @@
    "nature/blendgrassgravel003a",
    "nature/blendrockgrass004a",
    "nature/blendrocksand004a",
-   "nature/blendsandgrass008a"
+   "nature/blendsandgrass008a",
+   "nature/milground002"
   ]
  },
  "models": {
@@ -47,19 +47,12 @@
  "keys": {
   "catalogue": true,
   "unmapped": {
-   "ambient_generic": [
-    "pitch"
-   ],
    "func_rot_button": [
     "StartDisabled"
    ],
    "player_speedmod": [
     "orientationtype",
     "radius"
-   ],
-   "point_viewcontrol": [
-    "acceleration",
-    "deceleration"
    ]
   }
  },
@@ -77,14 +70,17 @@
   ],
   "classes_unmapped": [],
   "keys_unmapped": [
-   "ambient_generic.pitch",
    "func_rot_button.StartDisabled",
    "player_speedmod.orientationtype",
-   "player_speedmod.radius",
-   "point_viewcontrol.acceleration",
-   "point_viewcontrol.deceleration"
+   "player_speedmod.radius"
   ],
   "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_splash.Splash",
+   "player_speedmod.ModifySpeed",
+   "point_servercommand.Command",
+   "prop_dynamic.Break"
+  ],
   "surfaces_opaque": []
  },
  "counts": {
@@ -93,8 +89,9 @@
   "models_unmapped": 0,
   "sounds_unmapped": 2,
   "classes_unmapped": 0,
-  "keys_unmapped": 6,
+  "keys_unmapped": 3,
   "links_unresolved": 0,
+  "inputs_unimplemented": 4,
   "surfaces_opaque": 0
  }
 }

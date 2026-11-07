@@ -1777,33 +1777,113 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_basin_unit",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/basin_unit.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 11
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_boxtruck",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/vehicles.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 4
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_cinder_block",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/cinder_block.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 12
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_jerseybarrier",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/fences.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_light_inset",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/light_inset.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 17
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_milcrate",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 33
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_power_box",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/power_box.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_server_rack",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/server_rack.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_wood_crate_cube",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/wood_crate.py",
+   "source": "dot-map Blender remodel",
+   "attribution": false,
+   "uses": 23
+  },
+  {
+   "kind": "model",
    "name": "lib/fxfountain",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
    "url": "https://github.com/modcommunity/dot-map",
    "source": "Modelled for dot-map",
    "attribution": false,
-   "uses": 19
+   "uses": 2
   },
   {
    "kind": "model",
-   "name": "lib/kenney_building-kit_door-rotate-square-c",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/building-kit",
-   "source": "Kenney Building Kit",
-   "attribution": false,
-   "uses": 8
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_car-kit_ambulance",
+   "name": "lib/kenney_car-kit_cone",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/car-kit",
    "source": "Kenney Car Kit",
    "attribution": false,
-   "uses": 2
+   "uses": 1
   },
   {
    "kind": "model",
@@ -1813,17 +1893,17 @@
    "url": "https://kenney.nl/assets/food-kit",
    "source": "Kenney Food Kit",
    "attribution": false,
-   "uses": 66
+   "uses": 86
   },
   {
    "kind": "model",
-   "name": "lib/kenney_furniture-kit_bathroomSink",
+   "name": "lib/kenney_furniture-kit_computerKeyboard",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/furniture-kit",
    "source": "Kenney Furniture Kit",
    "attribution": false,
-   "uses": 130
+   "uses": 52
   },
   {
    "kind": "model",
@@ -1834,26 +1914,6 @@
    "source": "Kenney Mini Arcade",
    "attribution": false,
    "uses": 7
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_nature-kit_cliff_cornerLarge_rock",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/nature-kit",
-   "source": "Kenney Nature Kit",
-   "attribution": false,
-   "uses": 14
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_pirate-kit_crate-bottles",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/pirate-kit",
-   "source": "Kenney Pirate Kit",
-   "attribution": false,
-   "uses": 56
   },
   {
    "kind": "model",
@@ -1874,6 +1934,26 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 11
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_CashRegister_01",
+   "author": "Joe Seabuhr",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/CashRegister_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 31
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_CoffeeTable_01",
+   "author": "Fernando Quinn",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/CoffeeTable_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 4
   },
   {
    "kind": "model",
@@ -1993,7 +2073,7 @@
    "url": "https://polyhaven.com/a/cardboard_box_01",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 2
+   "uses": 1
   },
   {
    "kind": "model",
@@ -2024,16 +2104,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 4
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_covered_car",
-   "author": "MP",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/covered_car",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 2
   },
   {
    "kind": "model",
@@ -2367,16 +2437,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623",
-   "author": "Libau Media",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-1986239266ee44c788fd6effe4055704",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 1
-  },
-  {
-   "kind": "model",
    "name": "lib/sf_classic_park_bench_low_poly_01a5b6",
    "author": "Berk Gedik",
    "licence": "CC-BY-4.0",
@@ -2384,6 +2444,16 @@
    "source": "Sketchfab",
    "attribution": true,
    "uses": 50
+  },
+  {
+   "kind": "model",
+   "name": "lib/sf_coffee_mug_6c9589",
+   "author": "The Lister",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-6c95897de04143aeb5c75b7630707d27",
+   "source": "Sketchfab",
+   "attribution": true,
+   "uses": 10
   },
   {
    "kind": "model",
@@ -2403,7 +2473,7 @@
    "url": "https://sketchfab.com/3d-models/none-afed9756ba974d1395a336124ff326fd",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 1
+   "uses": 9
   },
   {
    "kind": "model",

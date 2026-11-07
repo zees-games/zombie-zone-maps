@@ -38,9 +38,6 @@
  "keys": {
   "catalogue": true,
   "unmapped": {
-   "ambient_generic": [
-    "pitch"
-   ],
    "point_worldhint": [
     "hint",
     "range",
@@ -62,13 +59,13 @@
   "sounds_unmapped": [],
   "classes_unmapped": [],
   "keys_unmapped": [
-   "ambient_generic.pitch",
    "point_worldhint.hint",
    "point_worldhint.range",
    "point_worldhint.viewer",
    "zombiegasses.radius"
   ],
   "links_unresolved": [],
+  "inputs_unimplemented": [],
   "surfaces_opaque": [
    "zs_plaza/forlease"
   ]
@@ -79,8 +76,9 @@
   "models_unmapped": 0,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
-  "keys_unmapped": 5,
+  "keys_unmapped": 4,
   "links_unresolved": 0,
+  "inputs_unimplemented": 0,
   "surfaces_opaque": 1
  }
 }

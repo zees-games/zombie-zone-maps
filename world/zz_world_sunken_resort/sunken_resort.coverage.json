@@ -12,9 +12,8 @@
    "fallback": 17
   },
   "free_by_tier": {
-   "addon": 94,
-   "default": 20,
-   "nearest": 16
+   "addon": 110,
+   "default": 20
   },
   "nearest_photo": [
    "concrete/concrete_bts_ceiling001a",
@@ -119,14 +118,7 @@
  },
  "keys": {
   "catalogue": true,
-  "unmapped": {
-   "ambient_generic": [
-    "pitch"
-   ],
-   "func_physbox": [
-    "modelscale"
-   ]
-  }
+  "unmapped": {}
  },
  "links": {
   "total": 110,
@@ -135,7 +127,7 @@
  "lists": {
   "textures_unmapped": [
    "NATURE/HAZARD_LIQUID",
-   "OVERLAYS/LAB_LRG001",
+   "OVERLAYS/APERTURE_LRG001",
    "PLASTIC/PLASTICWALL001A",
    "PLASTIC/PLASTICWALL001B",
    "PLASTIC/PLASTICWALL002A",
@@ -168,13 +160,13 @@
    "props/claw/claw_pincer02.mdl",
    "props/pc_case02/pc_case02.mdl",
    "props/pc_case_open/pc_case_open.mdl",
-   "props/shaft_cleanser_1.mdl",
+   "props/portal_cleanser_1.mdl",
    "props/switch001.mdl",
    "props/turret_01.mdl",
    "props_bts/bts_turret.mdl",
    "props_bts/cage_light.mdl",
    "props_bts/fan01_small.mdl",
-   "props_bts/core_platform_reference.mdl",
+   "props_bts/glados_platform_reference.mdl",
    "props_bts/mini_piston_body.mdl",
    "props_bts/mini_piston_inside.mdl",
    "props_bts/vertical_large_piston_body.mdl",
@@ -188,10 +180,7 @@
   "classes_unmapped": [
    "vgui_slideshow_display"
   ],
-  "keys_unmapped": [
-   "ambient_generic.pitch",
-   "func_physbox.modelscale"
-  ],
+  "keys_unmapped": [],
   "links_unresolved": [
    "func_door.OnFullyClosed->stop_sound_room1",
    "func_door.OnFullyClosed->stop_sound_room10",
@@ -221,7 +210,7 @@
   "models_unmapped": 27,
   "sounds_unmapped": 1,
   "classes_unmapped": 1,
-  "keys_unmapped": 2,
+  "keys_unmapped": 0,
   "links_unresolved": 10,
   "inputs_unimplemented": 7,
   "surfaces_opaque": 0

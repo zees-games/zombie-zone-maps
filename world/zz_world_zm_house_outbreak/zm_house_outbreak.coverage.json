@@ -11,9 +11,8 @@
    "default": 7
   },
   "free_by_tier": {
-   "addon": 94,
-   "default": 8,
-   "nearest": 1
+   "addon": 95,
+   "default": 8
   },
   "nearest_photo": [
    "nature/blendcliffgrass001a"
@@ -41,11 +40,7 @@
  },
  "keys": {
   "catalogue": true,
-  "unmapped": {
-   "ambient_generic": [
-    "pitch"
-   ]
-  }
+  "unmapped": {}
  },
  "links": {
   "total": 9,
@@ -63,11 +58,12 @@
    "bot/come_out_wherever_you_are.wav"
   ],
   "classes_unmapped": [],
-  "keys_unmapped": [
-   "ambient_generic.pitch"
-  ],
+  "keys_unmapped": [],
   "links_unresolved": [
    "logic_relay.OnTrigger->fal"
+  ],
+  "inputs_unimplemented": [
+   "prop_dynamic.SetAnimation"
   ],
   "surfaces_opaque": [
    "models/props_combine/citadel_cable_b"
@@ -79,8 +75,9 @@
   "models_unmapped": 0,
   "sounds_unmapped": 5,
   "classes_unmapped": 0,
-  "keys_unmapped": 1,
+  "keys_unmapped": 0,
   "links_unresolved": 1,
+  "inputs_unimplemented": 1,
   "surfaces_opaque": 1
  }
 }

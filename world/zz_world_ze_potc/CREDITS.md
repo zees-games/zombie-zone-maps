@@ -6,11 +6,10 @@ Every texture of this map is a free replacement; the original map's textures and
 - pbr (pbr_grass_concrete_pavement): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/grass_concrete_pavement
 - generated (foliage_card): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
 - generated (water): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
-- pbr (pbr_raked_dirt): polyhaven, Dario Barresi, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/raked_dirt
+- pbr (pbr_flower_scattered_dirt): polyhaven, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/flower_scattered_dirt
 - pbr (pbr_Grass001): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Grass001
 - pbr (pbr_bicolour_gravel): polyhaven, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/bicolour_gravel
-- pbr (pbr_rock_ground_02): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/rock_ground_02
-- pbr (pbr_forrest_sand_01): polyhaven, Rob Tuytel, CC0-1.0, https://polyhaven.com/a/forrest_sand_01
+- pbr (pbr_Rock038): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Rock038
 - pbr (pbr_damp_beach_sand_02): polyhaven, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/damp_beach_sand_02
 - pbr (pbr_cobblestone_embedded_asphalt): polyhaven, Amal Kumar, CC0-1.0, https://polyhaven.com/a/cobblestone_embedded_asphalt
 - pbr (pbr_Planks013): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Planks013
@@ -68,8 +67,9 @@ Every texture of this map is a free replacement; the original map's textures and
 
 # Model stand-ins
 
+- lib/dm_wood_crate_cube: dot-map Blender remodel, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/wood_crate.py
+- lib/dm_woodcart: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/vehicles.py
 - lib/kenney_building-kit_column-thin: Kenney Building Kit, Kenney, CC0-1.0, https://kenney.nl/assets/building-kit
-- lib/kenney_car-kit_sedan-sports: Kenney Car Kit, Kenney, CC0-1.0, https://kenney.nl/assets/car-kit
 - lib/kenney_furniture-kit_wallWindowSlide: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
 - lib/kenney_graveyard-kit_gravestone-wide: Kenney Graveyard Kit, Kenney, CC0-1.0, https://kenney.nl/assets/graveyard-kit
 - lib/kenney_nature-kit_cliff_cornerTop_rock: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
@@ -77,7 +77,6 @@ Every texture of this map is a free replacement; the original map's textures and
 - lib/kenney_nature-kit_cliff_half_rock: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
 - lib/kenney_nature-kit_cliff_rock: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
 - lib/kenney_nature-kit_cliff_topDiagonal_rock: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
-- lib/kenney_pirate-kit_crate-bottles: Kenney Pirate Kit, Kenney, CC0-1.0, https://kenney.nl/assets/pirate-kit
 - lib/kenney_retro-urban-kit_tree-large: Kenney Retro Urban Kit, Kenney, CC0-1.0, https://kenney.nl/assets/retro-urban-kit
 - lib/ph_bolt_action_rifle_7_62: Poly Haven, Mateusz Sadek, CC0-1.0, https://polyhaven.com/a/bolt_action_rifle_7_62
 - lib/ph_boulder_01: Poly Haven, Rico Cilliers, CC0-1.0, https://polyhaven.com/a/boulder_01
@@ -96,7 +95,6 @@ Every texture of this map is a free replacement; the original map's textures and
 - lib/ph_stone_fire_pit: Poly Haven, Sebastian Platen, CC0-1.0, https://polyhaven.com/a/stone_fire_pit
 - lib/ph_tree_small_02: Poly Haven, Rico Cilliers, CC0-1.0, https://polyhaven.com/a/tree_small_02
 - lib/ph_vintage_wooden_drawer_01: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/vintage_wooden_drawer_01
-- lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623: Sketchfab, Libau Media, CC-BY-4.0, https://sketchfab.com/3d-models/none-1986239266ee44c788fd6effe4055704
 - lib/sf_japan_vending_machine_soft_drink_431394: Sketchfab, ditovirnantio, CC-BY-4.0, https://sketchfab.com/3d-models/none-431394ee886141349e187fb8dcc2307a
 - lib/sf_leaf_tree_ps1_low_poly_d799c0: Sketchfab, Wersaus33, CC-BY-4.0, https://sketchfab.com/3d-models/none-d799c08100974e1ba352fcd646cb0694
 - lib/sf_oak_tree_6468dd: Sketchfab, evolveduk, CC-BY-4.0, https://sketchfab.com/3d-models/none-6468dd4d3eb240ef902b9057d9913606

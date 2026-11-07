@@ -367,33 +367,63 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_food-kit_cup-tea",
+   "name": "lib/dm_basin_unit",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/basin_unit.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_boxtruck",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/vehicles.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 4
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_lighttroffer",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 24
+  },
+  {
+   "kind": "model",
+   "name": "lib/kenney_food-kit_carton",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/food-kit",
    "source": "Kenney Food Kit",
    "attribution": false,
-   "uses": 6
+   "uses": 8
   },
   {
    "kind": "model",
-   "name": "lib/kenney_furniture-kit_bathroomSink",
+   "name": "lib/kenney_furniture-kit_computerKeyboard",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/furniture-kit",
    "source": "Kenney Furniture Kit",
    "attribution": false,
-   "uses": 10
+   "uses": 2
   },
   {
    "kind": "model",
-   "name": "lib/own_box_11x15x119_e8e8e0",
-   "author": "TMC (generated for dot-map)",
+   "name": "lib/ph_CashRegister_01",
+   "author": "Joe Seabuhr",
    "licence": "CC0-1.0",
-   "url": "https://github.com/modcommunity/dot-map",
-   "source": "TMC generated model",
+   "url": "https://polyhaven.com/a/CashRegister_01",
+   "source": "Poly Haven",
    "attribution": false,
-   "uses": 24
+   "uses": 2
   },
   {
    "kind": "model",
@@ -451,16 +481,6 @@
    "author": "ProgrammerOnCoffee",
    "licence": "CC0-1.0",
    "url": "https://polyhaven.com/a/clipboard",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 4
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_covered_car",
-   "author": "MP",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/covered_car",
    "source": "Poly Haven",
    "attribution": false,
    "uses": 4
@@ -673,7 +693,7 @@
    "url": "https://sketchfab.com/3d-models/none-6c95897de04143aeb5c75b7630707d27",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 2
+   "uses": 5
   },
   {
    "kind": "model",

@@ -39,21 +39,11 @@
  "keys": {
   "catalogue": true,
   "unmapped": {
-   "ambient_generic": [
-    "pitch"
-   ],
-   "point_viewcontrol": [
-    "acceleration",
-    "deceleration"
-   ],
    "trigger_once": [
     "wait"
    ],
    "weapon_p90": [
     "ammo"
-   ],
-   "worldspawn": [
-    "no_decomp"
    ]
   }
  },
@@ -71,15 +61,16 @@
   ],
   "classes_unmapped": [],
   "keys_unmapped": [
-   "ambient_generic.pitch",
-   "point_viewcontrol.acceleration",
-   "point_viewcontrol.deceleration",
    "trigger_once.wait",
-   "weapon_p90.ammo",
-   "worldspawn.no_decomp"
+   "weapon_p90.ammo"
   ],
   "links_unresolved": [
    "trigger_once.OnTrigger->walls_trigger_hurt"
+  ],
+  "inputs_unimplemented": [
+   "env_hudhint.ShowHudHint",
+   "path_track.Lock",
+   "path_track.Unlock"
   ],
   "surfaces_opaque": [
    "de_tides/tiddecclosed",
@@ -93,8 +84,9 @@
   "models_unmapped": 0,
   "sounds_unmapped": 2,
   "classes_unmapped": 0,
-  "keys_unmapped": 6,
+  "keys_unmapped": 2,
   "links_unresolved": 1,
+  "inputs_unimplemented": 3,
   "surfaces_opaque": 3
  }
 }

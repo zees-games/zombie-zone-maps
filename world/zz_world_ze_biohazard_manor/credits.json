@@ -7,10 +7,10 @@
  "works": [
   {
    "kind": "texture",
-   "name": "pbr_rock_ground_02",
+   "name": "pbr_aerial_ground_rock",
    "author": "Rob Tuytel",
    "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/rock_ground_02",
+   "url": "https://polyhaven.com/a/aerial_ground_rock",
    "source": "polyhaven",
    "attribution": false,
    "uses": 154
@@ -2593,7 +2593,97 @@
    "url": "https://kenney.nl/assets/furniture-kit",
    "source": "Kenney Furniture Kit",
    "attribution": false,
-   "uses": 21
+   "uses": 16
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_chainlinkfence",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/fences.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 32
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_cinder_block",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/cinder_block.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_cooling_tank",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/cooling_tank.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_forkliftmachine",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/vehicles.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_lightpendant",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 104
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_power_box",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/power_box.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_rubbish_pile",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/rubbish_pile.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_server_rack",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/server_rack.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 4
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_wood_crate_cube",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/wood_crate.py",
+   "source": "dot-map Blender remodel",
+   "attribution": false,
+   "uses": 17
   },
   {
    "kind": "model",
@@ -2603,7 +2693,7 @@
    "url": "https://github.com/modcommunity/dot-map",
    "source": "Modelled for dot-map",
    "attribution": false,
-   "uses": 117
+   "uses": 52
   },
   {
    "kind": "model",
@@ -2617,23 +2707,23 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_car-kit_ambulance",
+   "name": "lib/kenney_car-kit_wheel-truck",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/car-kit",
    "source": "Kenney Car Kit",
    "attribution": false,
-   "uses": 19
+   "uses": 18
   },
   {
    "kind": "model",
-   "name": "lib/kenney_factory-kit_pipe-large-junction",
+   "name": "lib/kenney_factory-kit_structure-doorway",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/factory-kit",
    "source": "Kenney Factory Kit",
    "attribution": false,
-   "uses": 5
+   "uses": 1
   },
   {
    "kind": "model",
@@ -2683,7 +2773,7 @@
    "url": "https://kenney.nl/assets/nature-kit",
    "source": "Kenney Nature Kit",
    "attribution": false,
-   "uses": 14
+   "uses": 12
   },
   {
    "kind": "model",
@@ -2693,7 +2783,7 @@
    "url": "https://kenney.nl/assets/pirate-kit",
    "source": "Kenney Pirate Kit",
    "attribution": false,
-   "uses": 45
+   "uses": 10
   },
   {
    "kind": "model",
@@ -2743,7 +2833,7 @@
    "url": "https://polyhaven.com/a/CoffeeTable_01",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 1
+   "uses": 2
   },
   {
    "kind": "model",
@@ -2873,7 +2963,7 @@
    "url": "https://polyhaven.com/a/cardboard_box_01",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 8
+   "uses": 7
   },
   {
    "kind": "model",
@@ -3123,7 +3213,7 @@
    "url": "https://polyhaven.com/a/korean_fire_extinguisher_01",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 14
+   "uses": 13
   },
   {
    "kind": "model",
@@ -3193,7 +3283,7 @@
    "url": "https://polyhaven.com/a/modular_airduct_circular_01",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 36
+   "uses": 1
   },
   {
    "kind": "model",
@@ -3213,7 +3303,7 @@
    "url": "https://polyhaven.com/a/modular_chainlink_fence",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 13
+   "uses": 2
   },
   {
    "kind": "model",
@@ -3314,16 +3404,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 5
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_plastic_crate_02",
-   "author": "Fabi_G",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/plastic_crate_02",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 4
   },
   {
    "kind": "model",
@@ -3444,16 +3524,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 3
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_trashbag",
-   "author": "Benny Weimer",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/trashbag",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 1
   },
   {
    "kind": "model",
