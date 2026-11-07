@@ -467,13 +467,63 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_chainlinkfence",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/fences.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 5
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_lighttroffer",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 25
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_power_box",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/power_box.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_rubbish_pile",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/rubbish_pile.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_wood_crate_cube",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/wood_crate.py",
+   "source": "dot-map Blender remodel",
+   "attribution": false,
+   "uses": 20
+  },
+  {
+   "kind": "model",
    "name": "lib/kenney_building-kit_door-rotate-square-c",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/building-kit",
    "source": "Kenney Building Kit",
    "attribution": false,
-   "uses": 9
+   "uses": 2
   },
   {
    "kind": "model",
@@ -494,36 +544,6 @@
    "source": "Kenney Graveyard Kit",
    "attribution": false,
    "uses": 11
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_pirate-kit_crate-bottles",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/pirate-kit",
-   "source": "Kenney Pirate Kit",
-   "attribution": false,
-   "uses": 25
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_retro-urban-kit_detail-dumpster-closed",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/retro-urban-kit",
-   "source": "Kenney Retro Urban Kit",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/own_box_11x15x119_e8e8e0",
-   "author": "TMC (generated for dot-map)",
-   "licence": "CC0-1.0",
-   "url": "https://github.com/modcommunity/dot-map",
-   "source": "TMC generated model",
-   "attribution": false,
-   "uses": 23
   },
   {
    "kind": "model",
@@ -573,7 +593,7 @@
    "url": "https://polyhaven.com/a/cardboard_box_01",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 3
+   "uses": 2
   },
   {
    "kind": "model",
@@ -624,16 +644,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 4
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_modular_airduct_circular_01",
-   "author": "Riley Queen",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/modular_airduct_circular_01",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 2
   },
   {
    "kind": "model",
@@ -717,16 +727,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/ph_trashbag",
-   "author": "Benny Weimer",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/trashbag",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "model",
    "name": "lib/ph_wooden_crate_01",
    "author": "James Ray Cock",
    "licence": "CC0-1.0",
@@ -764,6 +764,16 @@
    "source": "Sketchfab",
    "attribution": true,
    "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/sf_door_wood_afed97",
+   "author": "DiggenDigga",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-afed9756ba974d1395a336124ff326fd",
+   "source": "Sketchfab",
+   "attribution": true,
+   "uses": 7
   },
   {
    "kind": "model",

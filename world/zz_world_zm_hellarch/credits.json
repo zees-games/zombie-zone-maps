@@ -407,10 +407,10 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_mud_cracked_dry_riverbed_002",
-   "author": "Dario Barresi, Dimitrios Savva",
+   "name": "pbr_brown_mud",
+   "author": "Rob Tuytel",
    "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/mud_cracked_dry_riverbed_002",
+   "url": "https://polyhaven.com/a/brown_mud",
    "source": "polyhaven",
    "attribution": false,
    "uses": 1
@@ -697,10 +697,10 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_rock_ground_02",
+   "name": "pbr_aerial_ground_rock",
    "author": "Rob Tuytel",
    "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/rock_ground_02",
+   "url": "https://polyhaven.com/a/aerial_ground_rock",
    "source": "polyhaven",
    "attribution": false,
    "uses": 1
@@ -757,13 +757,53 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_car-kit_garbage-truck",
-   "author": "Kenney",
+   "name": "lib/dm_basin_unit",
+   "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/car-kit",
-   "source": "Kenney Car Kit",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/basin_unit.py",
+   "source": "dot-map Blender model",
    "attribution": false,
    "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_boxtruck",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/vehicles.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 8
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_light_inset",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/light_inset.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_lighttroffer",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 11
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_wood_crate_cube",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/wood_crate.py",
+   "source": "dot-map Blender remodel",
+   "attribution": false,
+   "uses": 8
   },
   {
    "kind": "model",
@@ -774,16 +814,6 @@
    "source": "Kenney Food Kit",
    "attribution": false,
    "uses": 3
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_furniture-kit_bathroomSink",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/furniture-kit",
-   "source": "Kenney Furniture Kit",
-   "attribution": false,
-   "uses": 1
   },
   {
    "kind": "model",
@@ -807,23 +837,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_pirate-kit_crate-bottles",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/pirate-kit",
-   "source": "Kenney Pirate Kit",
-   "attribution": false,
-   "uses": 16
-  },
-  {
-   "kind": "model",
-   "name": "lib/own_box_11x15x119_e8e8e0",
+   "name": "lib/own_box_15x17x15_e8e8e0",
    "author": "TMC (generated for dot-map)",
    "licence": "CC0-1.0",
    "url": "https://github.com/modcommunity/dot-map",
    "source": "TMC generated model",
    "attribution": false,
-   "uses": 8
+   "uses": 4
   },
   {
    "kind": "model",
@@ -874,16 +894,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_covered_car",
-   "author": "MP",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/covered_car",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 6
   },
   {
    "kind": "model",
@@ -994,16 +1004,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 6
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_plastic_crate_02",
-   "author": "Fabi_G",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/plastic_crate_02",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 1
   },
   {
    "kind": "model",

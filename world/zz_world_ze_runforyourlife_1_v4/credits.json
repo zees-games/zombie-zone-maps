@@ -177,13 +177,63 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_car-kit_garbage-truck",
-   "author": "Kenney",
+   "name": "lib/dm_boxtrailer",
+   "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/car-kit",
-   "source": "Kenney Car Kit",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/vehicles.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 10
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_chainlinkfence",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/fences.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 26
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_cooling_tank",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/cooling_tank.py",
+   "source": "dot-map Blender model",
    "attribution": false,
    "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_lighttroffer",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 170
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_server_rack",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/server_rack.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_wood_crate_cube",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/wood_crate.py",
+   "source": "dot-map Blender remodel",
+   "attribution": false,
+   "uses": 11
   },
   {
    "kind": "model",
@@ -193,7 +243,7 @@
    "url": "https://kenney.nl/assets/furniture-kit",
    "source": "Kenney Furniture Kit",
    "attribution": false,
-   "uses": 3
+   "uses": 1
   },
   {
    "kind": "model",
@@ -207,16 +257,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_pirate-kit_crate-bottles",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/pirate-kit",
-   "source": "Kenney Pirate Kit",
-   "attribution": false,
-   "uses": 163
-  },
-  {
-   "kind": "model",
    "name": "lib/kenney_survival-kit_rock-flat-grass",
    "author": "Kenney",
    "licence": "CC0-1.0",
@@ -227,13 +267,23 @@
   },
   {
    "kind": "model",
-   "name": "lib/own_box_120x10x20_e8e8e0",
+   "name": "lib/own_box_12x26x42_e8e8e0",
    "author": "TMC (generated for dot-map)",
    "licence": "CC0-1.0",
    "url": "https://github.com/modcommunity/dot-map",
    "source": "TMC generated model",
    "attribution": false,
-   "uses": 20
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_CoffeeTable_01",
+   "author": "Fernando Quinn",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/CoffeeTable_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
   },
   {
    "kind": "model",
@@ -277,16 +327,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/ph_covered_car",
-   "author": "MP",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/covered_car",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 7
-  },
-  {
-   "kind": "model",
    "name": "lib/ph_drawer_cabinet",
    "author": "Ulan Cabanilla",
    "licence": "CC0-1.0",
@@ -294,36 +334,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 2
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_korean_fire_extinguisher_01",
-   "author": "UM JOORIN",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/korean_fire_extinguisher_01",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_modular_airduct_circular_01",
-   "author": "Riley Queen",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/modular_airduct_circular_01",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 5
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_modular_chainlink_fence",
-   "author": "James Ray Cock, Amal Kumar",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/modular_chainlink_fence",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 1
   },
   {
    "kind": "model",
@@ -427,16 +437,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623",
-   "author": "Libau Media",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-1986239266ee44c788fd6effe4055704",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 1
-  },
-  {
-   "kind": "model",
    "name": "lib/sf_dumpster_cyberpunk_game_assets_b0d030",
    "author": "EXHALE",
    "licence": "CC-BY-4.0",
@@ -504,16 +504,6 @@
    "source": "Sketchfab",
    "attribution": true,
    "uses": 3
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_sandbag_barrier_ready_for_unreal_engine_593800",
-   "author": "G4AGamingLabs",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-593800671c8e45eca93b8b7c765c0f77",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 20
   },
   {
    "kind": "model",

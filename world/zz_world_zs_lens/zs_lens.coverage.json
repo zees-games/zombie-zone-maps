@@ -11,9 +11,8 @@
    "default": 8
   },
   "free_by_tier": {
-   "addon": 41,
-   "default": 7,
-   "nearest": 1
+   "addon": 42,
+   "default": 7
   },
   "nearest_photo": [
    "nature/blendsandsand008b"
@@ -41,9 +40,6 @@
  "keys": {
   "catalogue": true,
   "unmapped": {
-   "ambient_generic": [
-    "pitch"
-   ],
    "info_sigilgroup": [
     "sigilgrouping"
    ],
@@ -87,7 +83,6 @@
   "sounds_unmapped": [],
   "classes_unmapped": [],
   "keys_unmapped": [
-   "ambient_generic.pitch",
    "info_sigilgroup.sigilgrouping",
    "info_sigilnode.sigilgroupname",
    "logic_beats.disableannoucner",
@@ -106,6 +101,13 @@
    "zombiegasses.radius"
   ],
   "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_tonemap_controller.SetAutoExposureMax",
+   "env_tonemap_controller.SetAutoExposureMin",
+   "env_tonemap_controller.SetBloomScale",
+   "game_text.Display",
+   "point_zsmessage.message"
+  ],
   "surfaces_opaque": [
    "wood/woodtrack001a",
    "wood/woodwall019a"
@@ -117,8 +119,9 @@
   "models_unmapped": 0,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
-  "keys_unmapped": 17,
+  "keys_unmapped": 16,
   "links_unresolved": 0,
+  "inputs_unimplemented": 5,
   "surfaces_opaque": 2
  }
 }

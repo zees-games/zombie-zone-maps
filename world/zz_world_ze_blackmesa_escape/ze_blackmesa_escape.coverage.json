@@ -11,9 +11,8 @@
    "default": 14
   },
   "free_by_tier": {
-   "addon": 41,
-   "default": 8,
-   "nearest": 1
+   "addon": 42,
+   "default": 8
   },
   "nearest_photo": [
    "nature/blendproddirtgrass"
@@ -41,11 +40,7 @@
  },
  "keys": {
   "catalogue": true,
-  "unmapped": {
-   "ambient_generic": [
-    "pitch"
-   ]
-  }
+  "unmapped": {}
  },
  "links": {
   "total": 108,
@@ -65,10 +60,11 @@
    "mysounds/warn1.wav"
   ],
   "classes_unmapped": [],
-  "keys_unmapped": [
-   "ambient_generic.pitch"
-  ],
+  "keys_unmapped": [],
   "links_unresolved": [],
+  "inputs_unimplemented": [
+   "point_servercommand.Command"
+  ],
   "surfaces_opaque": []
  },
  "counts": {
@@ -77,8 +73,9 @@
   "models_unmapped": 0,
   "sounds_unmapped": 7,
   "classes_unmapped": 0,
-  "keys_unmapped": 1,
+  "keys_unmapped": 0,
   "links_unresolved": 0,
+  "inputs_unimplemented": 1,
   "surfaces_opaque": 0
  }
 }

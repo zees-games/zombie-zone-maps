@@ -117,20 +117,20 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_marble_cliff_02",
-   "author": "Amal Kumar",
+   "name": "pbr_PavingStones067",
+   "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/marble_cliff_02",
-   "source": "polyhaven",
+   "url": "https://ambientcg.com/view?id=PavingStones067",
+   "source": "ambientCG",
    "attribution": false,
    "uses": 20
   },
   {
    "kind": "texture",
-   "name": "pbr_raked_dirt",
-   "author": "Dario Barresi, Dimitrios Savva",
+   "name": "pbr_flower_scattered_dirt",
+   "author": "Dimitrios Savva",
    "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/raked_dirt",
+   "url": "https://polyhaven.com/a/flower_scattered_dirt",
    "source": "polyhaven",
    "attribution": false,
    "uses": 20
@@ -567,33 +567,63 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_car-kit_ambulance",
-   "author": "Kenney",
+   "name": "lib/dm_boxtruck",
+   "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/car-kit",
-   "source": "Kenney Car Kit",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/vehicles.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 8
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_chainlinkfence",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/fences.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 18
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_milcratetall",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py",
+   "source": "dot-map Blender model",
    "attribution": false,
    "uses": 1
   },
   {
    "kind": "model",
-   "name": "lib/kenney_furniture-kit_cardboardBoxClosed",
-   "author": "Kenney",
+   "name": "lib/dm_power_box",
+   "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/furniture-kit",
-   "source": "Kenney Furniture Kit",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/power_box.py",
+   "source": "dot-map Blender model",
    "attribution": false,
-   "uses": 2
+   "uses": 3
   },
   {
    "kind": "model",
-   "name": "lib/kenney_nature-kit_cliff_diagonal_rock",
+   "name": "lib/dm_wood_crate_cube",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/wood_crate.py",
+   "source": "dot-map Blender remodel",
+   "attribution": false,
+   "uses": 11
+  },
+  {
+   "kind": "model",
+   "name": "lib/kenney_nature-kit_cliff_topDiagonal_rock",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/nature-kit",
    "source": "Kenney Nature Kit",
    "attribution": false,
-   "uses": 7
+   "uses": 4
   },
   {
    "kind": "model",
@@ -602,16 +632,6 @@
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/pirate-kit",
    "source": "Kenney Pirate Kit",
-   "attribution": false,
-   "uses": 13
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_retro-urban-kit_truck-grey",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/retro-urban-kit",
-   "source": "Kenney Retro Urban Kit",
    "attribution": false,
    "uses": 1
   },
@@ -637,16 +657,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/ph_cardboard_box_01",
-   "author": "Rahul Chaudhary",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/cardboard_box_01",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "model",
    "name": "lib/ph_clipboard",
    "author": "ProgrammerOnCoffee",
    "licence": "CC0-1.0",
@@ -664,26 +674,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 8
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_concrete_road_barrier",
-   "author": "Amal Kumar",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/concrete_road_barrier",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 3
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_covered_car",
-   "author": "MP",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/covered_car",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 2
   },
   {
    "kind": "model",
@@ -734,16 +724,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 4
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_korean_fire_extinguisher_01",
-   "author": "UM JOORIN",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/korean_fire_extinguisher_01",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 2
   },
   {
    "kind": "model",
@@ -877,26 +857,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623",
-   "author": "Libau Media",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-1986239266ee44c788fd6effe4055704",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 2
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_chain_link_fence_low_poly_version_f7d346",
-   "author": "Kain Hunter",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-f7d34687536a45108fac3bf1a1055ee2",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 2
-  },
-  {
-   "kind": "model",
    "name": "lib/sf_free_pothos_potted_plant_money_plant_e9832f",
    "author": "AllQuad",
    "licence": "CC-BY-4.0",
@@ -944,16 +904,6 @@
    "source": "Sketchfab",
    "attribution": true,
    "uses": 14
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_sandbag_barrier_ready_for_unreal_engine_593800",
-   "author": "G4AGamingLabs",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-593800671c8e45eca93b8b7c765c0f77",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 10
   },
   {
    "kind": "model",

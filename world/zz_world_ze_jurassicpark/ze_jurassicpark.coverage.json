@@ -11,9 +11,8 @@
    "default": 12
   },
   "free_by_tier": {
-   "addon": 63,
-   "default": 13,
-   "nearest": 2
+   "addon": 65,
+   "default": 13
   },
   "nearest_photo": [
    "nature/blendcliffdirt001a",
@@ -42,11 +41,7 @@
  },
  "keys": {
   "catalogue": true,
-  "unmapped": {
-   "ambient_generic": [
-    "pitch"
-   ]
-  }
+  "unmapped": {}
  },
  "links": {
   "total": 62,
@@ -63,10 +58,12 @@
    "physics/flesh/flesh_squishy_impact_hard3.wav"
   ],
   "classes_unmapped": [],
-  "keys_unmapped": [
-   "ambient_generic.pitch"
-  ],
+  "keys_unmapped": [],
   "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_blood.EmitBlood",
+   "point_servercommand.Command"
+  ],
   "surfaces_opaque": []
  },
  "counts": {
@@ -75,8 +72,9 @@
   "models_unmapped": 0,
   "sounds_unmapped": 4,
   "classes_unmapped": 0,
-  "keys_unmapped": 1,
+  "keys_unmapped": 0,
   "links_unresolved": 0,
+  "inputs_unimplemented": 2,
   "surfaces_opaque": 0
  }
 }

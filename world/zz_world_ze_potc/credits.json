@@ -27,10 +27,10 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_raked_dirt",
-   "author": "Dario Barresi, Dimitrios Savva",
+   "name": "pbr_flower_scattered_dirt",
+   "author": "Dimitrios Savva",
    "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/raked_dirt",
+   "url": "https://polyhaven.com/a/flower_scattered_dirt",
    "source": "polyhaven",
    "attribution": false,
    "uses": 1
@@ -57,23 +57,13 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_rock_ground_02",
-   "author": "Rob Tuytel",
+   "name": "pbr_Rock038",
+   "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/rock_ground_02",
-   "source": "polyhaven",
+   "url": "https://ambientcg.com/view?id=Rock038",
+   "source": "ambientCG",
    "attribution": false,
    "uses": 120
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_forrest_sand_01",
-   "author": "Rob Tuytel",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/forrest_sand_01",
-   "source": "polyhaven",
-   "attribution": false,
-   "uses": 10
   },
   {
    "kind": "texture",
@@ -83,7 +73,7 @@
    "url": "https://polyhaven.com/a/damp_beach_sand_02",
    "source": "polyhaven",
    "attribution": false,
-   "uses": 1
+   "uses": 11
   },
   {
    "kind": "texture",
@@ -557,21 +547,31 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_wood_crate_cube",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/wood_crate.py",
+   "source": "dot-map Blender remodel",
+   "attribution": false,
+   "uses": 4
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_woodcart",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/vehicles.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
    "name": "lib/kenney_building-kit_column-thin",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/building-kit",
    "source": "Kenney Building Kit",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_car-kit_sedan-sports",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/car-kit",
-   "source": "Kenney Car Kit",
    "attribution": false,
    "uses": 1
   },
@@ -604,16 +604,6 @@
    "source": "Kenney Nature Kit",
    "attribution": false,
    "uses": 52
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_pirate-kit_crate-bottles",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/pirate-kit",
-   "source": "Kenney Pirate Kit",
-   "attribution": false,
-   "uses": 4
   },
   {
    "kind": "model",
@@ -794,16 +784,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 4
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623",
-   "author": "Libau Media",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-1986239266ee44c788fd6effe4055704",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 1
   },
   {
    "kind": "model",

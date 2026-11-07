@@ -767,6 +767,26 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_chainlinkfence",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/fences.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_wood_crate_cube",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/wood_crate.py",
+   "source": "dot-map Blender remodel",
+   "attribution": false,
+   "uses": 10
+  },
+  {
+   "kind": "model",
    "name": "lib/kenney_factory-kit_conveyor-bars-fence",
    "author": "Kenney",
    "licence": "CC0-1.0",
@@ -804,16 +824,6 @@
    "source": "Kenney Nature Kit",
    "attribution": false,
    "uses": 2
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_pirate-kit_crate-bottles",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/pirate-kit",
-   "source": "Kenney Pirate Kit",
-   "attribution": false,
-   "uses": 4
   },
   {
    "kind": "model",
@@ -964,16 +974,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_plastic_crate_01",
-   "author": "PierreB3D",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/plastic_crate_01",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 8
   },
   {
    "kind": "model",

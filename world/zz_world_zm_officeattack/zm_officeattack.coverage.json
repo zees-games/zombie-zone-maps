@@ -38,11 +38,7 @@
  },
  "keys": {
   "catalogue": true,
-  "unmapped": {
-   "ambient_generic": [
-    "pitch"
-   ]
-  }
+  "unmapped": {}
  },
  "links": {
   "total": 70,
@@ -56,13 +52,12 @@
    "weapons/tripwire/ropeshoot.wav"
   ],
   "classes_unmapped": [],
-  "keys_unmapped": [
-   "ambient_generic.pitch"
-  ],
+  "keys_unmapped": [],
   "links_unresolved": [
    "func_breakable.->blockbullets1",
    "prop_physics_multiplayer.OnPlayerUse->"
   ],
+  "inputs_unimplemented": [],
   "surfaces_opaque": [
    "cs_assault/assault_door_decal01"
   ]
@@ -73,8 +68,9 @@
   "models_unmapped": 0,
   "sounds_unmapped": 1,
   "classes_unmapped": 0,
-  "keys_unmapped": 1,
+  "keys_unmapped": 0,
   "links_unresolved": 2,
+  "inputs_unimplemented": 0,
   "surfaces_opaque": 1
  }
 }

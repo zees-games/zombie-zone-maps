@@ -377,13 +377,33 @@
   },
   {
    "kind": "model",
-   "name": "lib/own_box_11x15x119_e8e8e0",
+   "name": "lib/dm_light_inset",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/light_inset.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 85
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_lighttroffer",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 3
+  },
+  {
+   "kind": "model",
+   "name": "lib/own_box_15x17x15_e8e8e0",
    "author": "TMC (generated for dot-map)",
    "licence": "CC0-1.0",
    "url": "https://github.com/modcommunity/dot-map",
    "source": "TMC generated model",
    "attribution": false,
-   "uses": 92
+   "uses": 4
   },
   {
    "kind": "model",

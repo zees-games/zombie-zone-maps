@@ -27,10 +27,10 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_forrest_sand_01",
-   "author": "Rob Tuytel",
+   "name": "pbr_damp_beach_sand_02",
+   "author": "Dimitrios Savva",
    "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/forrest_sand_01",
+   "url": "https://polyhaven.com/a/damp_beach_sand_02",
    "source": "polyhaven",
    "attribution": false,
    "uses": 15
@@ -267,11 +267,11 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_rock_ground_02",
-   "author": "Rob Tuytel",
+   "name": "pbr_Rock038",
+   "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/rock_ground_02",
-   "source": "polyhaven",
+   "url": "https://ambientcg.com/view?id=Rock038",
+   "source": "ambientCG",
    "attribution": false,
    "uses": 12
   },
@@ -547,6 +547,36 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_cooling_tank",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/cooling_tank.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_milcrate",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 34
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_wood_crate_cube",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/wood_crate.py",
+   "source": "dot-map Blender remodel",
+   "attribution": false,
+   "uses": 56
+  },
+  {
+   "kind": "model",
    "name": "lib/kenney_building-kit_wall-corner-column-small",
    "author": "Kenney",
    "licence": "CC0-1.0",
@@ -564,16 +594,6 @@
    "source": "Kenney Food Kit",
    "attribution": false,
    "uses": 12
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_furniture-kit_laptop",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/furniture-kit",
-   "source": "Kenney Furniture Kit",
-   "attribution": false,
-   "uses": 1
   },
   {
    "kind": "model",
@@ -613,7 +633,7 @@
    "url": "https://kenney.nl/assets/pirate-kit",
    "source": "Kenney Pirate Kit",
    "attribution": false,
-   "uses": 88
+   "uses": 3
   },
   {
    "kind": "model",
@@ -623,7 +643,17 @@
    "url": "https://github.com/modcommunity/dot-map",
    "source": "TMC generated model",
    "attribution": false,
-   "uses": 8
+   "uses": 7
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_CashRegister_01",
+   "author": "Joe Seabuhr",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/CashRegister_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
   },
   {
    "kind": "model",
@@ -803,7 +833,7 @@
    "url": "https://polyhaven.com/a/modular_airduct_circular_01",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 9
+   "uses": 4
   },
   {
    "kind": "model",

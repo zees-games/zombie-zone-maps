@@ -11,9 +11,8 @@
    "default": 8
   },
   "free_by_tier": {
-   "addon": 51,
-   "default": 8,
-   "nearest": 1
+   "addon": 52,
+   "default": 8
   },
   "nearest_photo": [
    "nature/blenddirtgrass001b"
@@ -41,12 +40,6 @@
  "keys": {
   "catalogue": true,
   "unmapped": {
-   "ambient_generic": [
-    "pitch"
-   ],
-   "func_breakable": [
-    "modelscale"
-   ],
    "info_sigilnode": [
     "disableteleports",
     "forcespawn",
@@ -82,8 +75,6 @@
   ],
   "classes_unmapped": [],
   "keys_unmapped": [
-   "ambient_generic.pitch",
-   "func_breakable.modelscale",
    "info_sigilnode.disableteleports",
    "info_sigilnode.forcespawn",
    "info_sigilnode.spawnrestriction",
@@ -94,6 +85,9 @@
    "weapon_zs_silencer.spawnflags"
   ],
   "links_unresolved": [],
+  "inputs_unimplemented": [
+   "prop_dynamic.Skin"
+  ],
   "surfaces_opaque": []
  },
  "counts": {
@@ -102,8 +96,9 @@
   "models_unmapped": 0,
   "sounds_unmapped": 1,
   "classes_unmapped": 0,
-  "keys_unmapped": 10,
+  "keys_unmapped": 8,
   "links_unresolved": 0,
+  "inputs_unimplemented": 1,
   "surfaces_opaque": 0
  }
 }

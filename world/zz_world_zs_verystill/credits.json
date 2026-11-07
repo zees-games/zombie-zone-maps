@@ -233,15 +233,15 @@
    "url": "https://polyhaven.com/a/brown_mud",
    "source": "polyhaven",
    "attribution": false,
-   "uses": 1
+   "uses": 6
   },
   {
    "kind": "texture",
-   "name": "pbr_marble_cliff_02",
-   "author": "Amal Kumar",
+   "name": "pbr_PavingStones067",
+   "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/marble_cliff_02",
-   "source": "polyhaven",
+   "url": "https://ambientcg.com/view?id=PavingStones067",
+   "source": "ambientCG",
    "attribution": false,
    "uses": 37
   },
@@ -257,10 +257,10 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_raked_dirt",
-   "author": "Dario Barresi, Dimitrios Savva",
+   "name": "pbr_flower_scattered_dirt",
+   "author": "Dimitrios Savva",
    "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/raked_dirt",
+   "url": "https://polyhaven.com/a/flower_scattered_dirt",
    "source": "polyhaven",
    "attribution": false,
    "uses": 76
@@ -1137,16 +1137,6 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_mud_cracked_dry_riverbed_002",
-   "author": "Dario Barresi, Dimitrios Savva",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/mud_cracked_dry_riverbed_002",
-   "source": "polyhaven",
-   "attribution": false,
-   "uses": 5
-  },
-  {
-   "kind": "texture",
    "name": "pbr_concrete_floor_painted",
    "author": "Rob Tuytel",
    "licence": "CC0-1.0",
@@ -1503,7 +1493,7 @@
    "url": "https://kenney.nl/assets/furniture-kit",
    "source": "Kenney Furniture Kit",
    "attribution": false,
-   "uses": 30
+   "uses": 18
   },
   {
    "kind": "model",
@@ -1517,13 +1507,103 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_armouredcarrier",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/vehicles.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 10
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_chainlinkfence",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/fences.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 30
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_cinder_block",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/cinder_block.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 3
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_cooling_tank",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/cooling_tank.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_light_inset",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/light_inset.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 17
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_lighttroffer",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 344
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_power_box",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/power_box.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 28
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_rubbish_pile",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/rubbish_pile.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 5
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_wood_crate_cube",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/wood_crate.py",
+   "source": "dot-map Blender remodel",
+   "attribution": false,
+   "uses": 3
+  },
+  {
+   "kind": "model",
    "name": "lib/fxadpanel",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
    "url": "https://github.com/modcommunity/dot-map",
    "source": "Modelled for dot-map",
    "attribution": false,
-   "uses": 58
+   "uses": 6
   },
   {
    "kind": "model",
@@ -1533,7 +1613,7 @@
    "url": "https://kenney.nl/assets/building-kit",
    "source": "Kenney Building Kit",
    "attribution": false,
-   "uses": 146
+   "uses": 17
   },
   {
    "kind": "model",
@@ -1543,7 +1623,7 @@
    "url": "https://kenney.nl/assets/car-kit",
    "source": "Kenney Car Kit",
    "attribution": false,
-   "uses": 5
+   "uses": 4
   },
   {
    "kind": "model",
@@ -1553,7 +1633,7 @@
    "url": "https://kenney.nl/assets/factory-kit",
    "source": "Kenney Factory Kit",
    "attribution": false,
-   "uses": 32
+   "uses": 25
   },
   {
    "kind": "model",
@@ -1587,23 +1667,23 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_nature-kit_cliff_cornerLarge_rock",
+   "name": "lib/kenney_nature-kit_cliff_diagonal_rock",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/nature-kit",
    "source": "Kenney Nature Kit",
    "attribution": false,
-   "uses": 42
+   "uses": 36
   },
   {
    "kind": "model",
-   "name": "lib/kenney_pirate-kit_crate-bottles",
+   "name": "lib/kenney_pirate-kit_structure-fence-sides",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/pirate-kit",
    "source": "Kenney Pirate Kit",
    "attribution": false,
-   "uses": 40
+   "uses": 3
   },
   {
    "kind": "model",
@@ -1613,7 +1693,7 @@
    "url": "https://kenney.nl/assets/retro-urban-kit",
    "source": "Kenney Retro Urban Kit",
    "attribution": false,
-   "uses": 13
+   "uses": 9
   },
   {
    "kind": "model",
@@ -1723,7 +1803,7 @@
    "url": "https://polyhaven.com/a/cardboard_box_01",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 24
+   "uses": 8
   },
   {
    "kind": "model",
@@ -1754,16 +1834,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_covered_car",
-   "author": "MP",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/covered_car",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 5
   },
   {
    "kind": "model",
@@ -1963,7 +2033,7 @@
    "url": "https://polyhaven.com/a/modular_airduct_circular_01",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 217
+   "uses": 32
   },
   {
    "kind": "model",
@@ -1974,16 +2044,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 4
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_modular_chainlink_fence",
-   "author": "James Ray Cock, Amal Kumar",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/modular_chainlink_fence",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 2
   },
   {
    "kind": "model",
@@ -2223,7 +2283,7 @@
    "url": "https://polyhaven.com/a/trashbag",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 8
+   "uses": 5
   },
   {
    "kind": "model",
@@ -2347,16 +2407,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623",
-   "author": "Libau Media",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-1986239266ee44c788fd6effe4055704",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 2
-  },
-  {
-   "kind": "model",
    "name": "lib/sf_classic_park_bench_low_poly_01a5b6",
    "author": "Berk Gedik",
    "licence": "CC-BY-4.0",
@@ -2393,7 +2443,7 @@
    "url": "https://sketchfab.com/3d-models/none-afed9756ba974d1395a336124ff326fd",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 4
+   "uses": 24
   },
   {
    "kind": "model",

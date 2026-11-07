@@ -39,9 +39,6 @@
  "keys": {
   "catalogue": true,
   "unmapped": {
-   "ambient_generic": [
-    "pitch"
-   ],
    "npc_enemyfinder": [
     "FieldOfView",
     "MaxSearchDist",
@@ -64,7 +61,6 @@
   "sounds_unmapped": [],
   "classes_unmapped": [],
   "keys_unmapped": [
-   "ambient_generic.pitch",
    "npc_enemyfinder.FieldOfView",
    "npc_enemyfinder.MaxSearchDist",
    "npc_enemyfinder.StartOn",
@@ -72,6 +68,13 @@
    "npc_enemyfinder.freepass_refillrate"
   ],
   "links_unresolved": [],
+  "inputs_unimplemented": [
+   "aiscripted_schedule.StartSchedule",
+   "env_splash.Splash",
+   "npc_fastzombie.UpdateEnemyMemory",
+   "npc_zombie.UpdateEnemyMemory",
+   "prop_physics.Skin"
+  ],
   "surfaces_opaque": []
  },
  "counts": {
@@ -80,8 +83,9 @@
   "models_unmapped": 1,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
-  "keys_unmapped": 6,
+  "keys_unmapped": 5,
   "links_unresolved": 0,
+  "inputs_unimplemented": 5,
   "surfaces_opaque": 0
  }
 }

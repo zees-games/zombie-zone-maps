@@ -12,9 +12,8 @@
    "fallback": 1
   },
   "free_by_tier": {
-   "addon": 81,
-   "default": 8,
-   "nearest": 2
+   "addon": 83,
+   "default": 8
   },
   "nearest_photo": [
    "nature/blendmilground004_2",
@@ -61,6 +60,7 @@
   "links_unresolved": [
    "weapon_awp.OnPlayerPickup->equip_awp"
   ],
+  "inputs_unimplemented": [],
   "surfaces_opaque": [
    "forrest_fog"
   ]
@@ -73,6 +73,7 @@
   "classes_unmapped": 0,
   "keys_unmapped": 0,
   "links_unresolved": 1,
+  "inputs_unimplemented": 0,
   "surfaces_opaque": 1
  }
 }

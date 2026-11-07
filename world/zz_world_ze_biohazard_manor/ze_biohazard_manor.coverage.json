@@ -12,9 +12,8 @@
    "fallback": 2
   },
   "free_by_tier": {
-   "addon": 356,
-   "default": 38,
-   "nearest": 4
+   "addon": 360,
+   "default": 38
   },
   "nearest_photo": [
    "bigrug7",
@@ -47,11 +46,7 @@
  },
  "keys": {
   "catalogue": true,
-  "unmapped": {
-   "ambient_generic": [
-    "pitch"
-   ]
-  }
+  "unmapped": {}
  },
  "links": {
   "total": 347,
@@ -69,10 +64,15 @@
    "bot.stuck1"
   ],
   "classes_unmapped": [],
-  "keys_unmapped": [
-   "ambient_generic.pitch"
-  ],
+  "keys_unmapped": [],
   "links_unresolved": [],
+  "inputs_unimplemented": [
+   "func_water_analog.Open",
+   "path_track.EnablePath",
+   "point_servercommand.Command",
+   "point_spotlight.LightOn",
+   "prop_dynamic.SetAnimation"
+  ],
   "surfaces_opaque": [
    "aeris/aerisss",
    "de_chateau/curtain01a",
@@ -87,8 +87,9 @@
   "models_unmapped": 0,
   "sounds_unmapped": 2,
   "classes_unmapped": 0,
-  "keys_unmapped": 1,
+  "keys_unmapped": 0,
   "links_unresolved": 0,
+  "inputs_unimplemented": 5,
   "surfaces_opaque": 5
  }
 }

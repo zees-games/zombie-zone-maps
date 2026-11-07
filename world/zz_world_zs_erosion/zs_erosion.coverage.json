@@ -41,9 +41,6 @@
  "keys": {
   "catalogue": true,
   "unmapped": {
-   "ambient_generic": [
-    "pitch"
-   ],
    "info_sigilgroup": [
     "sigilgrouping"
    ],
@@ -74,13 +71,22 @@
   ],
   "classes_unmapped": [],
   "keys_unmapped": [
-   "ambient_generic.pitch",
    "info_sigilgroup.sigilgrouping",
    "info_sigilnode.sigilgroupname",
    "logic_waves.wave",
    "zombiegasses.radius"
   ],
   "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_physexplosion.Explode",
+   "env_tonemap_controller.SetAutoExposureMax",
+   "env_tonemap_controller.SetAutoExposureMin",
+   "env_tonemap_controller.SetBloomScale",
+   "game_text.Display",
+   "prop_physics_override.EnableMotion",
+   "prop_physics_override.SetDamageFilter",
+   "trigger_hurt.SetParent"
+  ],
   "surfaces_opaque": [
    "wood/woodwall019a"
   ]
@@ -91,8 +97,9 @@
   "models_unmapped": 0,
   "sounds_unmapped": 4,
   "classes_unmapped": 0,
-  "keys_unmapped": 5,
+  "keys_unmapped": 4,
   "links_unresolved": 0,
+  "inputs_unimplemented": 8,
   "surfaces_opaque": 1
  }
 }
