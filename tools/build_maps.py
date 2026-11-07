@@ -164,12 +164,13 @@ class Map:
         return reg
 
     def door(self, x0, z0, x1, z1, floor="tile", gate=None, gate_mat="metal", gate_tint=None, barricade=None,
-             label="the door", strength=None, boards="door"):
+             label="the door", strength=None, boards="door", link=True):
         """A doorway across a half-metre gap. With `gate`, a door an objective opens; with
         `barricade`, one the horde breaks down and the survivors mend (`boards`: "door" planks to
         the lintel, "window" to chest height, "shutter" one steel sheet)."""
         reg = self.region(x0, z0, x1, z1, floor, DOOR_H, indoor=True, wall="plaster")
         reg.door = True
+        reg.link = link           # False: the graph finds no point at one end of the straight link
         if barricade:
             self.board_up(barricade, x0, z0, x1, z1, label, strength, boards)
         if gate:
@@ -491,7 +492,7 @@ class Map:
                 # points where they land within half a spacing of a room's, and a door that
                 # loses them all joins nothing: the school's gym doors did, and the hallway
                 # reached the gym through the kitchen, the loading bay and the car park.
-                if self.survival_links:
+                if self.survival_links and getattr(reg, "link", True):
                     cx, cz = (reg.x0 + reg.x1) / 2, (reg.z0 + reg.z1) / 2
                     reach = 1.0 + 0.5 * self.spacing
                     if crosses_z:
@@ -1236,7 +1237,8 @@ def mall():
         tint = [[0.9, 0.86, 0.8], [0.82, 0.88, 0.92], [0.92, 0.84, 0.86], [0.84, 0.9, 0.82]][i % 4]
         m.room(x0, 6.5, x1, 27, floor="parquet" if i % 2 else "tile_small", height=5.0, light=WARM,
                wall="paint", tint=tint, facade="concrete", facade_tint=[0.78, 0.76, 0.72])
-        m.door(cx - 4, 6, cx + 4, 6.5, floor="tile")
+        # The doors of the shops centred at -38 and 53 are the two whose straight link ends where the graph has no point.
+        m.door(cx - 4, 6, cx + 4, 6.5, floor="tile", link=cx not in (-38.0, 53.0))
         shop(m, rng, x0, 6.5, x1, 27, kinds[i % len(kinds)], 6.5)
         m.room(x0, -27, x1, -6.5, floor="tile_small" if i % 2 else "parquet", height=5.0, light=WARM,
                wall="paint", tint=tint, facade="concrete", facade_tint=[0.78, 0.76, 0.72])
