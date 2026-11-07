@@ -43,6 +43,12 @@ for id, bs in boxes.items():
         for k in ("loose_toys", "supports"):
             if loose[id][k]:
                 doc[k] = loose[id][k]
+        spec_path = os.path.join(sys.argv[3], "bsp", id + ".json")
+        drop = json.load(open(spec_path)).get("drop_loose", []) if os.path.isfile(spec_path) else []
+        if drop and "loose_toys" in doc:    # world barrels over water or void that nothing holds up
+            doc["loose_toys"] = [t for t in doc["loose_toys"] if all(abs(t["at"][0] - x) + abs(t["at"][2] - z) > 0.05 for x, z in drop)]
+            if not doc["loose_toys"]:
+                del doc["loose_toys"]
     if bs:
         new = {}
         for k, v in doc.items():    # right after "props", where a reader looks for it

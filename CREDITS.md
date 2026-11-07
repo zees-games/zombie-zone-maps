@@ -4,6 +4,7 @@ Every map here is a conversion of a community map: the author is credited with a
 
 | Map | Author | Page | Licence | Note |
 | --- | --- | --- | --- | --- |
+| `sunken_resort` Sunken Resort | Praisemantas | https://steamcommunity.com/sharedfiles/filedetails/?id=3376822715 | no licence stated |  |
 | `ze_biohazard_manor` Biohazard Manor | aeris004 | https://gamebanana.com/mods/130643 | CC BY-NC-ND 4.0 |  |
 | `ze_blackmesa_escape` Black Mesa Escape | Bill Smauz | https://gamebanana.com/mods/130645 | CC BY-NC-ND 4.0 |  |
 | `ze_boat_escape` Boat Escape | Kaju, with JJ45 (original author of the map it is built on) | https://gamebanana.com/mods/130653 | CC BY-NC-ND 4.0 |  |
