@@ -67,9 +67,8 @@
  "models": {
   "looked_up": 94,
   "by_tier": {
-   "category": 10,
-   "default": 82,
-   "fallback": 2
+   "category": 12,
+   "default": 82
   }
  },
  "sounds": {
@@ -94,10 +93,7 @@
  "lists": {
   "textures_unmapped": [],
   "textures_flat": [],
-  "models_unmapped": [
-   "props_wasteland/gaspump001a.mdl",
-   "props_wasteland/powertower01.mdl"
-  ],
+  "models_unmapped": [],
   "sounds_unmapped": [],
   "classes_unmapped": [],
   "keys_unmapped": [],
@@ -110,7 +106,7 @@
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 2,
+  "models_unmapped": 0,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 0,

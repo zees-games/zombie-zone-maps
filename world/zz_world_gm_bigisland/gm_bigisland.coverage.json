@@ -8,12 +8,11 @@
   "drawn": 39,
   "by_tier": {
    "addon": 3,
-   "default": 22,
-   "fallback": 6
+   "default": 28
   },
   "free_by_tier": {
-   "addon": 28,
-   "default": 11
+   "addon": 30,
+   "default": 9
   },
   "nearest_photo": [
    "concrete/concrete_rough001a",
@@ -30,6 +29,8 @@
    "island/blend_sandwatersand",
    "island/cave_cavewallgrass",
    "island/cave_cavewallsand",
+   "island/credits_modern",
+   "island/credits_modern_2",
    "island/give_her_the_dick",
    "island/islandcavewall",
    "island/islandgrass",
@@ -39,8 +40,8 @@
  "models": {
   "looked_up": 41,
   "by_tier": {
-   "default": 30,
-   "fallback": 11
+   "category": 11,
+   "default": 30
   }
  },
  "sounds": {
@@ -64,28 +65,9 @@
   "unresolved": 0
  },
  "lists": {
-  "textures_unmapped": [
-   "ISLAND/BLEND_CLIFFCLIFF2",
-   "ISLAND/CREDITS_MODERN",
-   "ISLAND/CREDITS_MODERN_2",
-   "ISLAND/GIVE_HER_THE_DICK",
-   "ISLAND/ISLANDCAVEWALL",
-   "ISLAND/REFRACT"
-  ],
+  "textures_unmapped": [],
   "textures_flat": [],
-  "models_unmapped": [
-   "island/forestwalls/forestwall_sharpbend_long_in.mdl",
-   "island/forestwalls/forestwall_sharpbend_long_out.mdl",
-   "island/forestwalls/forestwall_sharpbend_short_in.mdl",
-   "island/forestwalls/forestwall_sharpbend_short_out.mdl",
-   "island/forestwalls/forestwall_slightbend_long_in.mdl",
-   "island/forestwalls/forestwall_slightbend_long_out.mdl",
-   "island/forestwalls/forestwall_slightbend_short_in.mdl",
-   "island/forestwalls/forestwall_slightbend_short_out.mdl",
-   "island/forestwalls/forestwall_straight_long.mdl",
-   "props_critters/seagull_group.mdl",
-   "volumetrics/vol_bigcave.mdl"
-  ],
+  "models_unmapped": [],
   "sounds_unmapped": [],
   "classes_unmapped": [
    "info_projecteddecal"
@@ -100,9 +82,9 @@
   "surfaces_opaque": []
  },
  "counts": {
-  "textures_unmapped": 6,
+  "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 11,
+  "models_unmapped": 0,
   "sounds_unmapped": 0,
   "classes_unmapped": 1,
   "keys_unmapped": 0,

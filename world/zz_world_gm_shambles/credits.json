@@ -77,10 +77,10 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_Bricks025",
+   "name": "pbr_Ground037",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Bricks025",
+   "url": "https://ambientcg.com/view?id=Ground037",
    "source": "ambientCG",
    "attribution": false,
    "uses": 8
@@ -147,10 +147,10 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_rough_plaster_brick_04",
+   "name": "pbr_rocks_ground_01",
    "author": "Rob Tuytel",
    "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/rough_plaster_brick_04",
+   "url": "https://polyhaven.com/a/rocks_ground_01",
    "source": "polyhaven",
    "attribution": false,
    "uses": 1
@@ -623,7 +623,7 @@
    "url": "https://ambientcg.com/view?id=WoodFloor022",
    "source": "ambientCG",
    "attribution": false,
-   "uses": 16
+   "uses": 15
   },
   {
    "kind": "texture",
@@ -657,11 +657,11 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_white_stucco",
-   "author": "Amal Kumar",
+   "name": "pbr_CorrugatedSteel003",
+   "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/white_stucco",
-   "source": "polyhaven",
+   "url": "https://ambientcg.com/view?id=CorrugatedSteel003",
+   "source": "ambientCG",
    "attribution": false,
    "uses": 1
   },
@@ -717,10 +717,10 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_Travertine009",
+   "name": "pbr_DiamondPlate007B",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Travertine009",
+   "url": "https://ambientcg.com/view?id=DiamondPlate007B",
    "source": "ambientCG",
    "attribution": false,
    "uses": 1
@@ -764,6 +764,16 @@
    "source": "ambientCG",
    "attribution": false,
    "uses": 3
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Ground047",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Ground047",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 1
   },
   {
    "kind": "texture",
@@ -813,17 +823,7 @@
    "url": "https://kenney.nl/assets/nature-kit",
    "source": "Kenney Nature Kit",
    "attribution": false,
-   "uses": 52
-  },
-  {
-   "kind": "model",
-   "name": "chest",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/survival-kit",
-   "source": "Kenney Survival Kit",
-   "attribution": false,
-   "uses": 64
+   "uses": 33
   },
   {
    "kind": "model",
@@ -917,13 +917,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/own_box_17x28x34_e8e8e0",
+   "name": "lib/own_box_133x118x156_8a8478",
    "author": "TMC (generated for dot-map)",
    "licence": "CC0-1.0",
    "url": "https://github.com/modcommunity/dot-map",
    "source": "TMC generated model",
    "attribution": false,
-   "uses": 10
+   "uses": 93
   },
   {
    "kind": "model",

@@ -93,14 +93,14 @@
    "url": "https://ambientcg.com/view?id=PavingStones025",
    "source": "ambientCG",
    "attribution": false,
-   "uses": 112
+   "uses": 116
   },
   {
    "kind": "texture",
-   "name": "pbr_Tiles106",
+   "name": "pbr_WoodSiding001",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Tiles106",
+   "url": "https://ambientcg.com/view?id=WoodSiding001",
    "source": "ambientCG",
    "attribution": false,
    "uses": 4
@@ -127,16 +127,6 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_Metal040",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Metal040",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 4
-  },
-  {
-   "kind": "texture",
    "name": "pbr_WoodFloor035",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
@@ -144,6 +134,26 @@
    "source": "ambientCG",
    "attribution": false,
    "uses": 8
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Tiles059",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Tiles059",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 8
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Road012B",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Road012B",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 4
   },
   {
    "kind": "model",
@@ -154,6 +164,16 @@
    "source": "Kenney Nature Kit",
    "attribution": false,
    "uses": 2767
+  },
+  {
+   "kind": "model",
+   "name": "lib/own_box_1065x1585x1951_4a5a3a",
+   "author": "TMC (generated for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map",
+   "source": "TMC generated model",
+   "attribution": false,
+   "uses": 222
   },
   {
    "kind": "model",
