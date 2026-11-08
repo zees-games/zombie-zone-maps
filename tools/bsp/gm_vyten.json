@@ -1,0 +1,73 @@
+{
+ "id": "gm_vyten",
+ "name": "Gm Vyten",
+ "source": "gm_vyten.bsp",
+ "author": "Jake (Steam profile Jake2149) and Sir Zacko",
+ "page": "https://steamcommunity.com/sharedfiles/filedetails/?id=1449731878",
+ "licence": "no licence stated; removed on request",
+ "blurb": "Hold out against the horde.",
+ "mode": "survival",
+ "survivors": 8,
+ "survivor_class": "info_player_start",
+ "zombie_classes": [],
+ "solid_classes": [
+  "func_brush"
+ ],
+ "flood_step": 0.3,
+ "thin_walls": true,
+ "toys": [
+  [
+   "barrel",
+   "spawn",
+   3,
+   -2
+  ],
+  [
+   "tyre",
+   "spawn",
+   -3,
+   2
+  ]
+ ],
+ "items_auto": true,
+ "auto_lights": {
+  "spacing": 6.0,
+  "height": 2.3,
+  "range": 7.0,
+  "energy": 0.9
+ },
+ "prop_models": {
+  "models/props_c17/chair_office01a.mdl": "furniture_chair",
+  "models/props_radiostation/radio_antenna01_skybox.mdl": "survival_box",
+  "models/props_c17/tv_monitor01.mdl": "furniture_television_modern",
+  "models/props_wasteland/wood_fence01b.mdl": "survival_fence"
+ },
+ "max_boxes": 3500,
+ "generated": true,
+ "keep_treads": true,
+ "nav_min_depth": 1,
+ "drop_lids": true,
+ "survive_seconds": 600,
+ "posts": 6,
+ "caches_near_posts": true,
+ "drop_ramps": 0.9,
+ "greedy_floors": true,
+ "thin_lintels": true,
+ "drop_small": [
+  0.15,
+  1.5
+ ],
+ "y0": -288.0,
+ "survivor_start": {
+  "at": [
+   -204.5,
+   0.0,
+   -257.6
+  ],
+  "rows": 2,
+  "cols": 4,
+  "gap": 1.4,
+  "yaw": 0.0
+ },
+ "notes": "Spawns sit in a sealed hangar at z 12745 and reach the field by the Red_Teleporter1/Blue_Teleporter1 triggers; survivors start on the field by Red_Tele2 instead."
+}
