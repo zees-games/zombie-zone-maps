@@ -1,0 +1,118 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "gm_mallparking",
+ "sha256": "f021a5f805b6c2793c1459b80f73a627a565626af557cea42ee2d620085f9feb",
+ "textures": {
+  "looked_up": 155,
+  "drawn": 156,
+  "by_tier": {
+   "addon": 89,
+   "default": 66
+  },
+  "free_by_tier": {
+   "addon": 145,
+   "default": 11
+  },
+  "nearest_photo": [
+   "concrete/concrete_floor_10",
+   "concrete/concretewall065b",
+   "dev/dev_measurecolorscale01",
+   "lights/storefrontlight1",
+   "metal/metaldoor011a",
+   "metal/metaldoor032a",
+   "metal/metalpipe006a",
+   "metal/metalpipe008a",
+   "metal/metalwall032a",
+   "metal/metalwall032b",
+   "metal/metalwall032c",
+   "nature/dirtfloor001a",
+   "parking_lot/abasralsa",
+   "parking_lot/ac_indoor",
+   "parking_lot/apologize",
+   "parking_lot/avoiddeathsign",
+   "parking_lot/billboard6",
+   "parking_lot/billboard7",
+   "parking_lot/billboardoff",
+   "parking_lot/ceilingtilea_light",
+   "parking_lot/concrete_pillar_parking",
+   "parking_lot/escallatorplate",
+   "parking_lot/escallatorstep",
+   "parking_lot/extingusher",
+   "parking_lot/hekerwall",
+   "parking_lot/interiorboards",
+   "parking_lot/salebanner",
+   "parking_lot/storebillboard2",
+   "parking_lot/vending",
+   "parking_lot/warehousedoor",
+   "parking_lot/whiteboat",
+   "plaster/ceiling_insulation05",
+   "plaster/sheetrock02",
+   "plaster/urban_plasterwall_00a",
+   "plaster/urban_plasterwall_01a",
+   "props/metallockers004a",
+   "props/metalpanel003a",
+   "props/metalpanel016a",
+   "props/metalpanel016b",
+   "props/plasticexitsign001b",
+   "props/woodcrate003b",
+   "storefront_template/storefront_template001b",
+   "wood/wooddoor010a",
+   "wood/wooddoor011a"
+  ]
+ },
+ "models": {
+  "looked_up": 145,
+  "by_tier": {
+   "category": 14,
+   "default": 131
+  }
+ },
+ "sounds": {
+  "looked_up": 11,
+  "by_tier": {
+   "default": 11
+  }
+ },
+ "classes": {
+  "distinct": 27,
+  "entities": 2998,
+  "by_tier": {
+   "default": 27
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 13,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": [
+   "building_template/building_trainstation_window001a",
+   "parking_lot/warehousedoor",
+   "storefront_template/storefront_template001d"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 3
+ }
+}

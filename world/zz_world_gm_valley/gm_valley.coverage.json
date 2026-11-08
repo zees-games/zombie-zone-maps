@@ -1,0 +1,117 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "gm_valley",
+ "sha256": "a3d7265751a86d39652e41ecea103b4d65aefaf9554bc3eb58fa9af41ac9f5d8",
+ "textures": {
+  "looked_up": 217,
+  "drawn": 220,
+  "by_tier": {
+   "addon": 143,
+   "default": 74
+  },
+  "free_by_tier": {
+   "addon": 199,
+   "default": 21
+  },
+  "nearest_photo": [
+   "blends/dirtcliff_wvt_patch",
+   "brick/brickwall031a",
+   "brick/brickwall031d",
+   "brick/brickwall034a",
+   "brick/brickwall048d",
+   "brick/brickwall053a",
+   "brick/brickwall053d",
+   "concrete/concretefloor028a",
+   "concrete/concretefloor028a_c17",
+   "concrete/concretefloor034a",
+   "concrete/concretefloor039a_cheap",
+   "concrete/concretestair003a",
+   "concrete/concretewall013d",
+   "concrete/concretewall032d",
+   "concrete/concretewall053a",
+   "concrete/concretewall064b",
+   "concrete/concretewall065b",
+   "concrete/concretewall073b",
+   "dev/reflectivity_30b",
+   "dev/reflectivity_60b",
+   "metal/citadel_metalwall063a_cheap",
+   "metal/metalwall029a",
+   "nature/blenddirtgrass008b",
+   "nature/blendgrassgravel002a",
+   "nature/blendrocksand004a",
+   "nature/blendsandgrass008a",
+   "nature/blendsandrock004a",
+   "nature/blendsandrock004a_wvt_patch",
+   "nature/custom/blendcliffsnow01",
+   "nature/dirtfloor001a",
+   "nature/dirtfloor008a",
+   "nature/gravelfloor001a",
+   "nature/gravelfloor002a_lowfriction",
+   "nature/gravelfloor005a",
+   "plaster/plasterwall044b",
+   "plaster/wallpaper005a",
+   "props/hazardstrip001a",
+   "props/sign_obersvation",
+   "props/signstreet001a",
+   "props/signstreet004a",
+   "stone/stonewall004a",
+   "stone/stonewall005a",
+   "stone/stonewall006a",
+   "stone/stonewall006b",
+   "stone/stonewall006c",
+   "tile/tileroof004a_c17",
+   "wood/woodbeam002a"
+  ]
+ },
+ "models": {
+  "looked_up": 94,
+  "by_tier": {
+   "category": 12,
+   "default": 82
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 19,
+  "entities": 3165,
+  "by_tier": {
+   "default": 19
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 0,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": [
+   "props/sign_obersvation"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 1
+ }
+}
