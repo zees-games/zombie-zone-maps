@@ -1,0 +1,142 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "gm_shambles",
+ "sha256": "08fb4b20f927c5894589ed81a054b829217e8a9ec377eb40e4a564a13bba693b",
+ "textures": {
+  "looked_up": 107,
+  "drawn": 109,
+  "by_tier": {
+   "addon": 60,
+   "default": 47
+  },
+  "free_by_tier": {
+   "addon": 99,
+   "default": 10
+  },
+  "nearest_photo": [
+   "brick/brickwall048i",
+   "brick/brickwall053a",
+   "buildings/tarp_ext_01",
+   "concrete/concretewall004a_c17",
+   "nature/blendashdirt01",
+   "nature/blenddirtmud01",
+   "nature/blendgrassdirt01_noprop",
+   "nature/blendgrassdirt01_noprop_wvt_patch",
+   "nature/blendrockmud01a",
+   "nature/blendrubbledirt001a",
+   "nature/dirtfloor001a",
+   "plaster/plaster_ceiling_01",
+   "plaster/plasterceiling003a",
+   "plaster/plasterwall005a",
+   "plaster/plasterwall011",
+   "plaster/plasterwall030a",
+   "plaster/plasterwall043c",
+   "plaster/plasterwall043d",
+   "props/wooddrift001a",
+   "shamtextures/farmfence_sham",
+   "shamtextures/haybail_sham",
+   "shamtextures/haypile_sham",
+   "shamtextures/newspaper_sham",
+   "shamtextures/pavement_sham",
+   "shamtextures/road_sham",
+   "shamtextures/sewerslime_sham",
+   "shamtextures/soldsign_sham",
+   "shamtextures/streetsign_sham",
+   "stone/cobble08a",
+   "tile/tilefloor010b",
+   "tile/tilefloor012b",
+   "tile/tilewall006d",
+   "tile/tilewall009g",
+   "wood/shingles003",
+   "wood/shingles006",
+   "wood/woodbeam002a",
+   "wood/wooddoor019a",
+   "wood/woodfloor002",
+   "wood/woodwall047b",
+   "wood/woodwall047d",
+   "wood/woodwall048_floor",
+   "wood/woodwall050a"
+  ]
+ },
+ "models": {
+  "looked_up": 103,
+  "by_tier": {
+   "category": 31,
+   "default": 72
+  }
+ },
+ "sounds": {
+  "looked_up": 6,
+  "by_tier": {
+   "default": 6
+  }
+ },
+ "classes": {
+  "distinct": 36,
+  "entities": 4399,
+  "by_tier": {
+   "default": 36
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "ambient_generic": [
+    "gmod_allowtoolgun"
+   ],
+   "env_tonemap_controller": [
+    "gmod_allowtoolgun"
+   ],
+   "info_node_air_hint": [
+    "StartHintDisabled"
+   ],
+   "info_node_hint": [
+    "StartHintDisabled"
+   ],
+   "info_node_link": [
+    "InvertAllow"
+   ],
+   "logic_auto": [
+    "gmod_allowtoolgun"
+   ],
+   "water_lod_control": [
+    "gmod_allowtoolgun"
+   ]
+  }
+ },
+ "links": {
+  "total": 15,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "ambient_generic.gmod_allowtoolgun",
+   "env_tonemap_controller.gmod_allowtoolgun",
+   "info_node_air_hint.StartHintDisabled",
+   "info_node_hint.StartHintDisabled",
+   "info_node_link.InvertAllow",
+   "logic_auto.gmod_allowtoolgun",
+   "water_lod_control.gmod_allowtoolgun"
+  ],
+  "links_unresolved": [],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": []
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 0,
+  "keys_unmapped": 7,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 0
+ }
+}
