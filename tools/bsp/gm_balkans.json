@@ -1,0 +1,70 @@
+{
+ "id": "gm_balkans",
+ "name": "Gm Balkans",
+ "source": "gm_balkans.bsp",
+ "author": "Lg (Steam profile lg_designer)",
+ "page": "https://steamcommunity.com/sharedfiles/filedetails/?id=1307357127",
+ "licence": "no licence stated; removed on request",
+ "blurb": "Hold out against the horde.",
+ "mode": "survival",
+ "survivors": 8,
+ "survivor_class": "info_player_start",
+ "zombie_classes": [],
+ "solid_classes": [
+  "func_brush"
+ ],
+ "flood_step": 0.3,
+ "thin_walls": true,
+ "toys": [
+  [
+   "barrel",
+   "spawn",
+   3,
+   -2
+  ],
+  [
+   "tyre",
+   "spawn",
+   -3,
+   2
+  ]
+ ],
+ "items_auto": true,
+ "auto_lights": {
+  "spacing": 6.0,
+  "height": 2.3,
+  "range": 7.0,
+  "energy": 0.9
+ },
+ "prop_models": {
+  "models/props/cs_militia/footlocker01_open.mdl": "furniture_bookcase_closed_doors",
+  "models/props/cs_militia/footlocker01_closed.mdl": "furniture_bookcase_closed_doors",
+  "models/props/de_train/barrel.mdl": "survival_barrel",
+  "models/props_c17/chair_office01a.mdl": "furniture_chair",
+  "models/props_c17/oildrum001.mdl": "survival_barrel",
+  "models/props_lab/monitor02_lg.mdl": "furniture_television_modern",
+  "models/props_wasteland/controlroom_chair001a.mdl": "furniture_chair",
+  "models/dynamic_props/barrel_01_phys.mdl": "survival_barrel",
+  "models/props_wasteland/exterior_fence001a.mdl": "survival_fence",
+  "models/props_foliage/swamp_trees_small_row02_lg.mdl": "nature_tree_default",
+  "models/props_wasteland/controlroom_desk001a.mdl": "furniture_table",
+  "models/props_wasteland/controlroom_desk001a_lg.mdl": "furniture_table",
+  "models/props/cs_militia/boxes_frontroom.mdl": "survival_box",
+  "models/props_wasteland/controlroom_desk001b.mdl": "furniture_table"
+ },
+ "max_boxes": 3500,
+ "generated": true,
+ "keep_treads": true,
+ "nav_min_depth": 1,
+ "drop_lids": true,
+ "survive_seconds": 600,
+ "posts": 6,
+ "caches_near_posts": true,
+ "drop_ramps": 0.9,
+ "greedy_floors": true,
+ "thin_lintels": true,
+ "drop_small": [
+  0.15,
+  1.5
+ ]
+}

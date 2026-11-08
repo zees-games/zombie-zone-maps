@@ -1,0 +1,180 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "gm_balkans",
+ "sha256": "1285886e3ddcd2eebb5f18e6dcabbe81e5057043ab75ac73d808da217cfc4762",
+ "textures": {
+  "looked_up": 74,
+  "drawn": 73,
+  "by_tier": {
+   "addon": 25,
+   "default": 49
+  },
+  "free_by_tier": {
+   "addon": 62,
+   "default": 11
+  },
+  "nearest_photo": [
+   "aquatica/aqmetal2",
+   "concrete/baggage_concretefloora",
+   "concrete/blend_sidewalk_01",
+   "concrete/ceiling03",
+   "concrete/concrete_floor_02_blue",
+   "concrete/concrete_floor_06",
+   "concrete/concrete_floor_10",
+   "concrete/concrete_int_01",
+   "concrete/concretewall075b",
+   "concrete/concretewall075c",
+   "cs_havana/iceilb01",
+   "cs_italy/blkmetal",
+   "de_cbble/grassdirt_blend",
+   "de_nuke/nuke_floor_trim_01",
+   "lg/blend/battlefield/blend_herbe01_4_roche02",
+   "lg/blend/battlefield/blend_roche02_roche01",
+   "lg/blend/battlefield/blend_roche02_roche03",
+   "lg/blend/battlefield/blend_roche03_roche01",
+   "lg/blend/battlefield/blend_terre04_4_roche02",
+   "lg/blend/battlefield/blend_terre05_4_roche03",
+   "lg/metal/conteneur_bleu1",
+   "lg/metal/conteneur_bleu2",
+   "lg/metal/conteneur_gris1",
+   "lg/metal/conteneur_jaune1",
+   "lg/metal/conteneur_jaune2",
+   "lg/metal/conteneur_rouge1",
+   "lg/metal/conteneur_rouge2",
+   "lg/metal/conteneur_vert1",
+   "lg/metal/conteneur_vert2",
+   "lg/warland/laser_trait",
+   "lg/warland/overview_militaire512",
+   "metal/csrev_wide_metaldoor_01",
+   "metal/metal_emergencystripe01a",
+   "metal/metalhull009b",
+   "metal/metalwall006b",
+   "nature/gravelfloor005a",
+   "realworldtextures2/metal/wall/metal_49",
+   "zpcustommaterials/walls/zp_plasterwall_green"
+  ]
+ },
+ "models": {
+  "looked_up": 169,
+  "by_tier": {
+   "category": 11,
+   "default": 138,
+   "fallback": 19,
+   "skybox": 1
+  }
+ },
+ "sounds": {
+  "looked_up": 8,
+  "by_tier": {
+   "default": 5,
+   "fallback": 3
+  }
+ },
+ "classes": {
+  "distinct": 74,
+  "entities": 4426,
+  "by_tier": {
+   "default": 74
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "info_node_link": [
+    "InvertAllow"
+   ],
+   "prop_dynamic": [
+    "disableselfshadowing",
+    "disablevertexlighting",
+    "ignorenormals",
+    "screenspacefade"
+   ],
+   "prop_vehicle_airboat": [
+    "solid"
+   ],
+   "prop_vehicle_prisoner_pod": [
+    "limitview",
+    "solid"
+   ]
+  }
+ },
+ "links": {
+  "total": 848,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [
+   "iraq/ir_twall_01_lg.mdl",
+   "props/de_nuke/coolingtower.mdl",
+   "props/de_nuke/fuel_cask.mdl",
+   "props/de_nuke/nuclearcontrolbox.mdl",
+   "props/lg/battlefield/grue/grue_base_lg.mdl",
+   "props/lg/battlefield/grue/grue_tete_lg.mdl",
+   "props/lg/battlefield/pont_bailey_1.mdl",
+   "props/lg/battlefield/pont_bailey_16.mdl",
+   "props/lg/battlefield/pont_bailey_2.mdl",
+   "props/lg/battlefield/pont_bailey_4.mdl",
+   "props/lg/battlefield/pont_bailey_4_impact_physique.mdl",
+   "props/lg/battlefield/pont_bailey_8.mdl",
+   "props/lg/battlefield/pont_bailey_contrefort.mdl",
+   "props/lg/battlefield/pont_bailey_debut.mdl",
+   "props/lg/battlefield/pont_bailey_fin.mdl",
+   "props/lg/battlefield/pont_bailey_trou.mdl",
+   "props_phx/mk-82_lg.mdl",
+   "props_wasteland/powertower01_lg.mdl",
+   "sentry/rhib.mdl"
+  ],
+  "sounds_unmapped": [
+   "lg/warland/remove_kebab.wav",
+   "vehicles/crane/crane_extend_loop1.wav",
+   "vehicles/crane/crane_extend_stop.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [
+   "info_node_link.InvertAllow",
+   "prop_dynamic.disableselfshadowing",
+   "prop_dynamic.disablevertexlighting",
+   "prop_dynamic.ignorenormals",
+   "prop_dynamic.screenspacefade",
+   "prop_vehicle_airboat.solid",
+   "prop_vehicle_prisoner_pod.limitview",
+   "prop_vehicle_prisoner_pod.solid"
+  ],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_explosion.SetParent",
+   "env_physexplosion.Explode",
+   "env_physexplosion.SetParent",
+   "env_tonemap_controller.SetAutoExposureMax",
+   "env_tonemap_controller.SetAutoExposureMin",
+   "env_tonemap_controller.SetBloomScale",
+   "func_areaportal.Close",
+   "func_areaportal.Open",
+   "info_particle_system.SetParent",
+   "lua_run.RunCode",
+   "lua_run.RunPassedCode",
+   "phys_thruster.Activate",
+   "phys_thruster.Deactivate",
+   "point_spotlight.LightOff",
+   "point_spotlight.LightOn",
+   "point_teleport.Teleport",
+   "prop_dynamic_override.Skin",
+   "prop_physics.DisableMotion"
+  ],
+  "surfaces_opaque": []
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 19,
+  "sounds_unmapped": 3,
+  "classes_unmapped": 0,
+  "keys_unmapped": 8,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 18,
+  "surfaces_opaque": 0
+ }
+}
