@@ -297,3 +297,7 @@ Every texture of this map is a free replacement; the original map's textures and
 - door_open: Kenney Sci-Fi Sounds, Kenney, CC0-1.0, https://kenney.nl/assets/sci-fi-sounds
 - fire: Kenney Sci-Fi Sounds, Kenney, CC0-1.0, https://kenney.nl/assets/sci-fi-sounds
 - machine: Kenney Sci-Fi Sounds, Kenney, CC0-1.0, https://kenney.nl/assets/sci-fi-sounds
+
+## Removal requests
+
+gm_fork by Blueberry_pie (Wouter Pleizier), https://steamcommunity.com/sharedfiles/filedetails/?id=326332456. No licence is stated by the author; the map is credited here with its Steam page. On a removal request from the author the map and its world pack are taken down. No original texture, model or sound is shipped; replacements are CC0 or credited above.
