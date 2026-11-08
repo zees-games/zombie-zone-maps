@@ -17189,24 +17189,6 @@
   "walk": "eNrllDsOwjAQRMdy4dJHyFF8GC6RzuFeSCQVtwDfgHREivGScmebFBENTDeF10+zH4DV5LCuxmdyATP9EVHe2ncYV+0ThhdVA55UELiTd7iQ9+h3AFAZAAsDYDYAxQCMBmCQn1BJID9lGg8PSi7NrtfJ5eKFkhtDizq5c6ydTs4/JOnkQpOTBohVbhADQK30zVErQ/XUSlnlH9WZCT080VvwZqXM3XC8UtuDxe6gmCNgiBkgGYBsAGQP4AsKH2TGuMY=",
   "mat": "dirt"
  },
- "toys": [
-  {
-   "toy": "barrel",
-   "at": [
-    5.998,
-    -3.048,
-    -3.24
-   ]
-  },
-  {
-   "toy": "tyre",
-   "at": [
-    0.721,
-    -3.048,
-    3.149
-   ]
-  }
- ],
  "world_collision": {
   "models": [
    0,
@@ -17257,34 +17239,5 @@
   ],
   "flat_height": 0.5,
   "skip": []
- },
- "loose_toys": [
-  {
-   "at": [
-    6.096,
-    6.1341,
-    1.2192
-   ],
-   "toy": "barrel",
-   "yaw": 99.0
-  },
-  {
-   "at": [
-    5.5626,
-    6.1341,
-    1.4478
-   ],
-   "toy": "barrel",
-   "yaw": 184.5
-  },
-  {
-   "at": [
-    3.429,
-    5.7912,
-    -1.6002
-   ],
-   "toy": "barrel",
-   "yaw": 184.5
-  }
- ]
+ }
 }

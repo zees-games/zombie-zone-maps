@@ -1776,25 +1776,8 @@ def toys_in_solids(doc):
     return bad
 
 
-# Each map's toys, by theme: barrels and tyres in the streets, balls where people played.
-TOYS = {
-    "zz_blackout_1": [toy("barrel", ("route", 2), 3, 0), toy("barrel", ("route", 2), 3.8, 0.6), toy("tyre", ("route", 4), -3, 1, yaw=30),
-                      toy("football", ("route", 5), 2, -2), toy("barrel", ("route", 6), -3, 0)],
-    "zz_blackout_2": [toy("barrel", ("route", 1), 3, 0), toy("tyre", ("route", 3), -3, 1, yaw=60), toy("tyre", ("route", 3), -3.8, 2.2),
-                      toy("beach_ball", ("route", 5), 2, 2), toy("barrel", ("route", 6), 3, -1)],
-    "zz_blackout_3": [toy("barrel", ("route", 1), -3, 0), toy("barrel", ("route", 2), 3, 0), toy("tyre", ("route", 4), 2, 2),
-                      toy("football", ("route", 5), -2, 1)],
-    "zz_lot": [toy("barrel", "spawn", 6, 6), toy("barrel", "spawn", 6.8, 6.6), toy("tyre", "spawn", -6, 6, yaw=40), toy("football", "spawn", 4, -6)],
-    "zz_chapel": [toy("barrel", ("post", 0), 3, -2), toy("tyre", ("post", 1), 2, 2), toy("football", "spawn", 4, 4)],
-    "zz_high_school": [toy("football", "spawn", 4, 2), toy("beach_ball", "spawn", -4, 3), toy("bowling_ball", ("post", 3), 0, 0),
-                       toy("barrel", ("post", 6), 2, 1), toy("tyre", ("post", 9), -2, 1), toy("football", ("post", 12), 2, -2)],
-    "zz_mall": [toy("bowling_ball", "spawn", 4, 0), *toy_pins("spawn", 4, -8), toy("beach_ball", ("post", 4), 3, 0),
-                toy("beach_ball", ("post", 8), -3, 0), toy("football", ("post", 11), 2, 2), toy("barrel", ("post", 2), 2, -2)],
-    "zz_relief_camp": [toy("barrel", "spawn", 5, 4), toy("barrel", "spawn", 5.8, 4.6), toy("tyre", ("post", 2), 3, 0, yaw=20),
-                       toy("tyre", ("post", 5), -3, 0), toy("football", "spawn", -4, -4)],
-    "zz_stadium": [toy("football", "spawn", 6, 4), toy("football", "spawn", -8, 6), toy("beach_ball", "spawn", 10, -4),
-                   toy("barrel", ("post", 3), 2, 2), toy("tyre", ("post", 10), -2, 2)],
-}
+# Maps carry no toys (owner 2026-11-08): physics props belong to the playground, prop hunt, murder mystery and
+# hide n seek only. `toy`/`settle_toys` above stay for those games' builders to copy; nothing here calls them.
 
 
 def sync_sizes():
@@ -1824,8 +1807,6 @@ def main(argv):
 
     for plan in PLANS:
         doc = plan().build()
-        if TOYS.get(doc["id"]):
-            doc["toys"] = settle_toys(doc, TOYS[doc["id"]])
         if doc["id"] in ambient.HAND:
             doc = ambient.put(doc, ambient.normalise(ambient.HAND[doc["id"]]))
         path = os.path.join(MAPS, doc["id"] + ".json")
