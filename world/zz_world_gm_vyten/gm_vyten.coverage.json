@@ -1,0 +1,132 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "gm_vyten",
+ "sha256": "8df8a52760f49b48458acf5268bf5d4aa73f77fd80b9a9e98d080944ce4f4974",
+ "textures": {
+  "looked_up": 134,
+  "drawn": 134,
+  "by_tier": {
+   "addon": 81,
+   "default": 53
+  },
+  "free_by_tier": {
+   "addon": 125,
+   "default": 9
+  },
+  "nearest_photo": [
+   "brick/brickwall031d",
+   "brick/brickwall053d",
+   "concrete/concretewall013f",
+   "concrete/concretewall065b",
+   "dev/dev_measuregeneric17",
+   "dev/dev_measuregeneric35",
+   "dev/dev_measuregeneric46",
+   "dev/dev_measuregeneric47",
+   "gm_vyten/fog_gradient",
+   "gm_vyten/vyten_snow003a",
+   "gm_vyten/vyten_snow003a_skybox",
+   "gm_vyten/vyten_stair001a",
+   "gm_vyten/vyten_stair002a",
+   "gm_vyten/vyten_stair002a_wvt_patch",
+   "metal/metalfloor006a",
+   "metal/metalwall001c",
+   "metal/metalwall002a",
+   "metal/metalwall006b",
+   "metal/metalwall018c",
+   "metal/metalwall021f",
+   "metal/metalwall065f",
+   "metal/metalwall068a",
+   "nature/snowfloor002a",
+   "plaster/plasterwall007d",
+   "plaster/plasterwall041a",
+   "plaster/plasterwall047b",
+   "props/metalcrate001e",
+   "props/metalcrate001f",
+   "props/metalcrate001g",
+   "props/metalcrate001h",
+   "props/metalcrate001i",
+   "props/metalcrate001j",
+   "props/metalcrate001k",
+   "props/metalcrate001l",
+   "props/metalcrate001o",
+   "props/metallockers005a",
+   "props/woodcrate003b",
+   "stone/stonewall013a",
+   "tile/tilefloor003a",
+   "tile/tilefloor009b",
+   "tile/tilestair002a",
+   "tools/toolsblack",
+   "wood/woodfloor002",
+   "wood/woodwall016b"
+  ]
+ },
+ "models": {
+  "looked_up": 104,
+  "by_tier": {
+   "category": 3,
+   "default": 100,
+   "fallback": 1
+  }
+ },
+ "sounds": {
+  "looked_up": 6,
+  "by_tier": {
+   "default": 6
+  }
+ },
+ "classes": {
+  "distinct": 45,
+  "entities": 6361,
+  "by_tier": {
+   "default": 44,
+   "fallback": 1
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {
+   "prop_scalable": [
+    "modelscale"
+   ]
+  }
+ },
+ "links": {
+  "total": 403,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [],
+  "textures_flat": [],
+  "models_unmapped": [
+   "props/props_custom_zacko/russian_flag.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [
+   "prop_scalable"
+  ],
+  "keys_unmapped": [
+   "prop_scalable.modelscale"
+  ],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_tonemap_controller.SetAutoExposureMax",
+   "env_tonemap_controller.SetAutoExposureMin",
+   "env_tonemap_controller.SetBloomScale",
+   "env_tonemap_controller.SetTonemapRate",
+   "lua_run.RunCode"
+  ],
+  "surfaces_opaque": []
+ },
+ "counts": {
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 1,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 1,
+  "keys_unmapped": 1,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 5,
+  "surfaces_opaque": 0
+ }
+}
