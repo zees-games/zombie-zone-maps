@@ -10,7 +10,9 @@ Every map here is a conversion of a community map: the author is credited with a
 | `ze_boat_escape` Boat Escape | Kaju, with JJ45 (original author of the map it is built on) | https://gamebanana.com/mods/130653 | CC BY-NC-ND 4.0 |  |
 | `ze_death_star_escape` Death Star Escape | FreeZe1337, Hannibal, Keamon, Belafarinrod and Fuu | https://gamebanana.com/mods/130692 | CC BY-NC-ND 4.0 |  |
 | `ze_jurassicpark` Jurassic Park | Butterknife | https://gamebanana.com/mods/130821 | CC BY-NC-ND 4.0 |  |
+| `ze_nuke_beta` Nuke (beta) | Mikyuu | https://gamebanana.com/mods/130898 | CC BY-NC-ND 4.0 |  |
 | `ze_potc` Potc | FreeZe (Key Author); Kaemon (contributor) | https://gamebanana.com/mods/130933 | CC BY-NC-ND 4.0 |  |
+| `ze_runforyourlife_1_v4` Run For Your Life | flabes2 | https://gamebanana.com/mods/130964 | CC BY-NC-ND 4.0 |  |
 | `zm_16chambres` 16chambres | zigomarvin (creator; uploaded by tiibo30100) | https://gamebanana.com/mods/131197 | CC BY-NC-ND 4.0 |  |
 | `zm_4way_tunnel` 4-Way Tunnel | neko_daisuki | https://gamebanana.com/mods/131215 | CC BY-NC-ND 4.0 |  |
 | `zm_abandoned_mall` Abandoned Mall | WaterPyro | https://steamcommunity.com/sharedfiles/filedetails/?id=184522164 | none stated (Steam Workshop) |  |
@@ -32,5 +34,6 @@ Every map here is a conversion of a community map: the author is credited with a
 | `zs_goth_house` Goth House | Draculine | https://steamcommunity.com/sharedfiles/filedetails/?id=3730623999 | none stated (Steam Workshop) |  |
 | `zs_krusty_krab_large` Krusty Krab Large | Scott (Steam Workshop conversion to ZS); original Krusty Krab by FireWavezZ (gamebanana.com/mods/132150) | https://steamcommunity.com/sharedfiles/filedetails/?id=645191518 | none stated (Steam Workshop) |  |
 | `zs_lens` Lens | deadfs | https://steamcommunity.com/sharedfiles/filedetails/?id=3212681027 | none stated (Steam Workshop) |  |
+| `zs_ravenstreet` Raven Street | Didixo | https://gamebanana.com/mods/61387 | CC BY-NC-ND 4.0 |  |
 | `zs_slugde` Slugde | Ethosaur | https://steamcommunity.com/sharedfiles/filedetails/?id=323893414 | none stated (Steam Workshop) |  |
 | `zs_verystill` Verystill | doggy prozac | https://steamcommunity.com/sharedfiles/filedetails/?id=3209397565 | none stated (Steam Workshop) |  |

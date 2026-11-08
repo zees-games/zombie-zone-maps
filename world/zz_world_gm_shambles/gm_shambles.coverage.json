@@ -8,8 +8,7 @@
   "drawn": 109,
   "by_tier": {
    "addon": 60,
-   "default": 41,
-   "fallback": 6
+   "default": 47
   },
   "free_by_tier": {
    "addon": 99,
@@ -41,6 +40,7 @@
    "shamtextures/newspaper_sham",
    "shamtextures/pavement_sham",
    "shamtextures/road_sham",
+   "shamtextures/sewerslime_sham",
    "shamtextures/soldsign_sham",
    "shamtextures/streetsign_sham",
    "stone/cobble08a",
@@ -62,9 +62,8 @@
  "models": {
   "looked_up": 103,
   "by_tier": {
-   "category": 24,
-   "default": 72,
-   "fallback": 7
+   "category": 31,
+   "default": 72
   }
  },
  "sounds": {
@@ -111,24 +110,9 @@
   "unresolved": 0
  },
  "lists": {
-  "textures_unmapped": [
-   "SHAMTEXTURES/HAYBAIL_SHAM",
-   "SHAMTEXTURES/HAYPILE_SHAM",
-   "SHAMTEXTURES/NEWSPAPER_SHAM",
-   "SHAMTEXTURES/SEWERSLIME_SHAM",
-   "SHAMTEXTURES/SOLDSIGN_SHAM",
-   "SHAMTEXTURES/STREETSIGN_SHAM"
-  ],
+  "textures_unmapped": [],
   "textures_flat": [],
-  "models_unmapped": [
-   "props/house10sky_sham.mdl",
-   "props/house10skyflip_sham.mdl",
-   "props/house4sky_sham.mdl",
-   "props/house6sky_sham.mdl",
-   "props/house8sky_sham.mdl",
-   "props/house8skyflip_sham.mdl",
-   "props/house9sky_sham.mdl"
-  ],
+  "models_unmapped": [],
   "sounds_unmapped": [],
   "classes_unmapped": [],
   "keys_unmapped": [
@@ -145,9 +129,9 @@
   "surfaces_opaque": []
  },
  "counts": {
-  "textures_unmapped": 6,
+  "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 7,
+  "models_unmapped": 0,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 7,
