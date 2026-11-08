@@ -1,0 +1,113 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "gm_bigisland",
+ "sha256": "06015717fb26edbf90b3660ec37ce8d8d28823c04f8b3d2f27ffe1b9585ed84c",
+ "textures": {
+  "looked_up": 31,
+  "drawn": 39,
+  "by_tier": {
+   "addon": 3,
+   "default": 22,
+   "fallback": 6
+  },
+  "free_by_tier": {
+   "addon": 28,
+   "default": 11
+  },
+  "nearest_photo": [
+   "concrete/concrete_rough001a",
+   "concrete/timelapse",
+   "island/blend_cliff2grass",
+   "island/blend_cliffcliff2",
+   "island/blend_cliffgrass",
+   "island/blend_cliffgrass_nodetail",
+   "island/blend_cliffsand",
+   "island/blend_grassdirt",
+   "island/blend_grassgravel",
+   "island/blend_grassleaves",
+   "island/blend_sandgrass",
+   "island/blend_sandwatersand",
+   "island/cave_cavewallgrass",
+   "island/cave_cavewallsand",
+   "island/give_her_the_dick",
+   "island/islandcavewall",
+   "island/islandgrass",
+   "nature/blendrockgrass004a"
+  ]
+ },
+ "models": {
+  "looked_up": 41,
+  "by_tier": {
+   "default": 30,
+   "fallback": 11
+  }
+ },
+ "sounds": {
+  "looked_up": 0,
+  "by_tier": {}
+ },
+ "classes": {
+  "distinct": 27,
+  "entities": 3526,
+  "by_tier": {
+   "default": 26,
+   "fallback": 1
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 20,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [
+   "ISLAND/BLEND_CLIFFCLIFF2",
+   "ISLAND/CREDITS_MODERN",
+   "ISLAND/CREDITS_MODERN_2",
+   "ISLAND/GIVE_HER_THE_DICK",
+   "ISLAND/ISLANDCAVEWALL",
+   "ISLAND/REFRACT"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "island/forestwalls/forestwall_sharpbend_long_in.mdl",
+   "island/forestwalls/forestwall_sharpbend_long_out.mdl",
+   "island/forestwalls/forestwall_sharpbend_short_in.mdl",
+   "island/forestwalls/forestwall_sharpbend_short_out.mdl",
+   "island/forestwalls/forestwall_slightbend_long_in.mdl",
+   "island/forestwalls/forestwall_slightbend_long_out.mdl",
+   "island/forestwalls/forestwall_slightbend_short_in.mdl",
+   "island/forestwalls/forestwall_slightbend_short_out.mdl",
+   "island/forestwalls/forestwall_straight_long.mdl",
+   "props_critters/seagull_group.mdl",
+   "volumetrics/vol_bigcave.mdl"
+  ],
+  "sounds_unmapped": [],
+  "classes_unmapped": [
+   "info_projecteddecal"
+  ],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [
+   "env_tonemap_controller.SetAutoExposureMax",
+   "env_tonemap_controller.SetAutoExposureMin",
+   "env_tonemap_controller.SetBloomScale"
+  ],
+  "surfaces_opaque": []
+ },
+ "counts": {
+  "textures_unmapped": 6,
+  "textures_flat": 0,
+  "models_unmapped": 11,
+  "sounds_unmapped": 0,
+  "classes_unmapped": 1,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 3,
+  "surfaces_opaque": 0
+ }
+}

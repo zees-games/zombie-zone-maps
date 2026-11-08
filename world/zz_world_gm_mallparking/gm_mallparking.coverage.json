@@ -1,0 +1,166 @@
+{
+ "format": "dot-bsp-coverage",
+ "version": 1,
+ "map": "gm_mallparking",
+ "sha256": "f021a5f805b6c2793c1459b80f73a627a565626af557cea42ee2d620085f9feb",
+ "textures": {
+  "looked_up": 155,
+  "drawn": 156,
+  "by_tier": {
+   "addon": 89,
+   "default": 43,
+   "fallback": 23
+  },
+  "free_by_tier": {
+   "addon": 147,
+   "default": 9
+  },
+  "nearest_photo": [
+   "concrete/concrete_floor_10",
+   "concrete/concretewall010a",
+   "concrete/concretewall041d",
+   "concrete/concretewall065b",
+   "custommat/powershields",
+   "dev/dev_measurecolorscale01",
+   "lights/storefrontlight1",
+   "metal/metaldoor011a",
+   "metal/metalpipe006a",
+   "metal/metalpipe008a",
+   "metal/metalwall032a",
+   "metal/metalwall032b",
+   "metal/metalwall032c",
+   "nature/dirtfloor001a",
+   "parking_lot/abasralsa",
+   "parking_lot/ac_indoor",
+   "parking_lot/apologize",
+   "parking_lot/avoiddeathsign",
+   "parking_lot/billboard10",
+   "parking_lot/billboard6",
+   "parking_lot/billboard7",
+   "parking_lot/billboard8",
+   "parking_lot/billboardoff",
+   "parking_lot/ceilingtilea_light",
+   "parking_lot/concrete_pillar_parking",
+   "parking_lot/escallatorplate",
+   "parking_lot/escallatorstep",
+   "parking_lot/extingusher",
+   "parking_lot/hekerwall",
+   "parking_lot/interiorboards",
+   "parking_lot/puddlefloor",
+   "parking_lot/salebanner",
+   "parking_lot/storebillboard2",
+   "parking_lot/storechiller",
+   "parking_lot/storeguidance",
+   "parking_lot/vending",
+   "parking_lot/warehousedoor",
+   "parking_lot/whiteboat",
+   "plaster/ceiling_insulation05",
+   "plaster/sheetrock02",
+   "plaster/urban_plasterwall_00a",
+   "plaster/urban_plasterwall_01a",
+   "props/metallockers004a",
+   "props/metalpanel003a",
+   "props/metalpanel016a",
+   "props/metalpanel016b",
+   "props/woodcrate003b",
+   "storefront_template/storefront_template001b",
+   "wood/wooddoor010a",
+   "wood/wooddoor011a"
+  ]
+ },
+ "models": {
+  "looked_up": 145,
+  "by_tier": {
+   "category": 3,
+   "default": 131,
+   "fallback": 11
+  }
+ },
+ "sounds": {
+  "looked_up": 11,
+  "by_tier": {
+   "default": 9,
+   "fallback": 2
+  }
+ },
+ "classes": {
+  "distinct": 27,
+  "entities": 2998,
+  "by_tier": {
+   "default": 27
+  }
+ },
+ "keys": {
+  "catalogue": true,
+  "unmapped": {}
+ },
+ "links": {
+  "total": 13,
+  "unresolved": 0
+ },
+ "lists": {
+  "textures_unmapped": [
+   "CUSTOMMAT/POWERSHIELDS",
+   "PARKING_LOT/ABASRALSA",
+   "PARKING_LOT/APOLOGIZE",
+   "PARKING_LOT/AVOIDDEATHSIGN",
+   "PARKING_LOT/BILLBOARD10",
+   "PARKING_LOT/BILLBOARD6",
+   "PARKING_LOT/BILLBOARD7",
+   "PARKING_LOT/BILLBOARD8",
+   "PARKING_LOT/BILLBOARDOFF",
+   "PARKING_LOT/ESCALLATORPLATE",
+   "PARKING_LOT/ESCALLATORSTEP",
+   "PARKING_LOT/EXTINGUSHER",
+   "PARKING_LOT/HEKERWALL",
+   "PARKING_LOT/INTERIORBOARDS",
+   "PARKING_LOT/PUDDLEFLOOR",
+   "PARKING_LOT/SALEBANNER",
+   "PARKING_LOT/STOREBILLBOARD2",
+   "PARKING_LOT/STORECHILLER",
+   "PARKING_LOT/STOREGUIDANCE",
+   "PARKING_LOT/VENDING",
+   "PARKING_LOT/VENDING2",
+   "PARKING_LOT/WHITEBOAT",
+   "PROPS/PLASTICEXITSIGN001B"
+  ],
+  "textures_flat": [],
+  "models_unmapped": [
+   "mallparking/checkout.mdl",
+   "mallparking/models/store_plastic_strip.mdl",
+   "mallparking/securitysystems.mdl",
+   "postapoc_vehicles/econoline1.mdl",
+   "props/de_vertigo/insulationroll01.mdl",
+   "props_c17/pushbroom.mdl",
+   "props_interiors/copymachine01.mdl",
+   "props_interiors/printer.mdl",
+   "props_interiors/shelvinggrocery01.mdl",
+   "props_interiors/shelvingstore01.mdl",
+   "props_unique/grocerystorechiller01.mdl"
+  ],
+  "sounds_unmapped": [
+   "ambient/levels/labs/equipment_beep_loop1.wav",
+   "ambient/levels/labs/equipment_printer_loop1.wav"
+  ],
+  "classes_unmapped": [],
+  "keys_unmapped": [],
+  "links_unresolved": [],
+  "inputs_unimplemented": [],
+  "surfaces_opaque": [
+   "building_template/building_trainstation_window001a",
+   "parking_lot/warehousedoor",
+   "storefront_template/storefront_template001d"
+  ]
+ },
+ "counts": {
+  "textures_unmapped": 23,
+  "textures_flat": 0,
+  "models_unmapped": 11,
+  "sounds_unmapped": 2,
+  "classes_unmapped": 0,
+  "keys_unmapped": 0,
+  "links_unresolved": 0,
+  "inputs_unimplemented": 0,
+  "surfaces_opaque": 3
+ }
+}
