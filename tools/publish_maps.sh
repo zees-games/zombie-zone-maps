@@ -12,7 +12,7 @@ ID=zz-maps; ARGS=(); while [ $# -gt 0 ]; do
     case $1 in --id) ID="${2:?}"; shift 2 ;; *) ARGS+=("$1"); shift ;; esac
 done
 STAGE="$(mktemp -d)"; trap 'rm -rf "$STAGE"' EXIT
-python3 -I - "$HERE" "$STAGE" <<'PY'
+python3 -P - "$HERE" "$STAGE" <<'PY'
 import json, os, shutil, sys
 root, stage = sys.argv[1:3]
 own = []
