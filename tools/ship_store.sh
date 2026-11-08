@@ -12,4 +12,4 @@ while IFS=$'\t' read -r id key; do
     m="$HERE/../world/zz_world_$id/$id.json"
     [ -f "$m" ] && packs+=("$m")
 done < <(grep -v '^#' "$HERE/convert/ship.tsv")
-exec python3 -I "$BSP/bsp.py" storepack "${packs[@]}" --out "$OUT" --dist "${DIST:-$HERE/../dist}" ${STORE_KEY:+--key "$STORE_KEY"}
+exec python3 -P "$BSP/bsp.py" storepack "${packs[@]}" --out "$OUT" --dist "${DIST:-$HERE/../dist}" ${STORE_KEY:+--key "$STORE_KEY"}

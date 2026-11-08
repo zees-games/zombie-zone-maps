@@ -10,4 +10,4 @@ ids=("$@")
 packs=()
 for id in "${ids[@]}"; do packs+=("$HERE/../world/zz_world_$id/$id.json"); done
 where=(--dist "${DIST:-$HERE/../dist}"); [ -n "${ORIGIN:-}" ] && where=(--origin "$ORIGIN")
-exec python3 -I "$BSP/bsp.py" storecheck "${packs[@]}" "${where[@]}"
+exec python3 -P "$BSP/bsp.py" storecheck "${packs[@]}" "${where[@]}"

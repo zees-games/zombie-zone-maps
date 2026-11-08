@@ -11,10 +11,10 @@ fail=0
 while IFS=$'\t' read -r id key; do
     [ $# -gt 0 ] && [[ " $* " != *" $id "* ]] && continue
     grep -q "^$key " "$HERE/convert/excluded.txt" && continue
-    h="$(python3 -I -c "import json,sys;print(json.load(open(sys.argv[1])).get(sys.argv[2],''))" "$STORE/index.json" "$key")"
+    h="$(python3 -P -c "import json,sys;print(json.load(open(sys.argv[1])).get(sys.argv[2],''))" "$STORE/index.json" "$key")"
     [ -n "$h" ] || { echo "$id: no store entry for $key"; fail=1; continue; }
     # y0, and the spec's own crop, clip_y and cut regions, which leave ground out on purpose
-    mapfile -t args < <(python3 -I - "$HERE/bsp/$id.json" <<'PY'
+    mapfile -t args < <(python3 -P - "$HERE/bsp/$id.json" <<'PY'
 import json, sys
 s = json.load(open(sys.argv[1]))
 print("--y0=%s" % s.get("y0", 0.0))
@@ -38,15 +38,15 @@ for i, c in enumerate(s.get("cut", [])):
 PY
 )
     # lids the importer dropped on purpose (spec drop_lids) are not floors a body is missing
-    mapfile -t lids < <(python3 -I -c "import json,sys;[print('--skip=' + ','.join(map(str, l))) for l in json.load(open(sys.argv[1])).get('dropped_lids', [])]" "$DOCS/$id.json")
+    mapfile -t lids < <(python3 -P -c "import json,sys;[print('--skip=' + ','.join(map(str, l))) for l in json.load(open(sys.argv[1])).get('dropped_lids', [])]" "$DOCS/$id.json")
     args+=("${lids[@]}")
     log="${TMPDIR:-/tmp}/walk-$id.log"
     # a document with `world_collision` also collides with its world pack's hulls
-    pack="$(python3 -I -c "import json,sys;print(json.load(open(sys.argv[1])).get('world',''))" "$DOCS/$id.json")"
+    pack="$(python3 -P -c "import json,sys;print(json.load(open(sys.argv[1])).get('world',''))" "$DOCS/$id.json")"
     [ -n "$pack" ] && [ -f "$HERE/../world/$pack/$id.json" ] && args+=("--world=$HERE/../world/$pack/$id")
-    python3 -I "$BSPPY" audit "$STORE/$h/source.bsp" --doc "$DOCS/$id.json" "${args[@]}" > "$log" 2>&1
+    python3 -P "$BSPPY" audit "$STORE/$h/source.bsp" --doc "$DOCS/$id.json" "${args[@]}" > "$log" 2>&1
     rc=$?
-    reason="$(python3 -I -c "import json,sys;print(json.load(open(sys.argv[1])).get('walk_limit_reason',''))" "$HERE/bsp/$id.json")"
+    reason="$(python3 -P -c "import json,sys;print(json.load(open(sys.argv[1])).get('walk_limit_reason',''))" "$HERE/bsp/$id.json")"
     [ -n "$reason" ] && echo "$id: walk limit exception: $reason"
     echo "$id $(grep -h 'lost:' "$log" | sed 's/^ *//')$([ $rc -ne 0 ] && echo "  FAIL (see $log)")"
     [ $rc -ne 0 ] && fail=1

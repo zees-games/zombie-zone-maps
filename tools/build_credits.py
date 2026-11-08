@@ -1,6 +1,6 @@
 """Write CREDITS.md: author, page and licence of every map in tools/convert/ship.tsv, from its spec.
 
-    python3 -I tools/build_credits.py
+    python3 -P tools/build_credits.py
 
 Flags what the licence does not clearly allow, so the person who publishes sees it.
 """

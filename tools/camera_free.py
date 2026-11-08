@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Whether a free camera stands in open space of a converted map, and what it sees first.
 
-    python3 -I tools/camera_free.py <id> x,y,z[:lx,ly,lz] ...
+    python3 -P tools/camera_free.py <id> x,y,z[:lx,ly,lz] ...
 
 A point inside a solid box of the document or of its server nav extra (maps/hulls/<id>.nav.json) is
 "INSIDE"; for a point with a look target, the distance along the line to the first solid box is

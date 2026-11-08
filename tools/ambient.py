@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """A map's creepy-ambience field (`ambient` in maps/<id>.json), authored once, kept by regeneration.
 
-    python3 -I tools/ambient.py            # list every map: mood, where it came from
-    python3 -I tools/ambient.py --check    # fail on a document without a valid field (CI)
-    python3 -I tools/ambient.py --apply    # write the field into every maps/<id>.json that lacks or differs
+    python3 -P tools/ambient.py            # list every map: mood, where it came from
+    python3 -P tools/ambient.py --check    # fail on a document without a valid field (CI)
+    python3 -P tools/ambient.py --apply    # write the field into every maps/<id>.json that lacks or differs
 
 The field is a mood name (a string) or an object, read by game-zombie-zone's ZzAudio:
 
