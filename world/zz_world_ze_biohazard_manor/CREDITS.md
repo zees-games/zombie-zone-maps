@@ -345,7 +345,6 @@ Every texture of this map is a free replacement; the original map's textures and
 - lib/ph_barrel_stove: Poly Haven, MP, CC0-1.0, https://polyhaven.com/a/barrel_stove
 - lib/ph_book_encyclopedia_set_01: Poly Haven, John Malcolm, CC0-1.0, https://polyhaven.com/a/book_encyclopedia_set_01
 - lib/ph_brass_vase_02: Poly Haven, Rico Cilliers, CC0-1.0, https://polyhaven.com/a/brass_vase_02
-- lib/ph_cannon_01: Poly Haven, Yann Kervran, James Ray Cock, CC0-1.0, https://polyhaven.com/a/cannon_01
 - lib/ph_cardboard_box_01: Poly Haven, Rahul Chaudhary, CC0-1.0, https://polyhaven.com/a/cardboard_box_01
 - lib/ph_ceramic_pot: Poly Haven, Aron Łyczek, CC0-1.0, https://polyhaven.com/a/ceramic_pot
 - lib/ph_ceramic_vase_01: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/ceramic_vase_01
@@ -377,6 +376,7 @@ Every texture of this map is a free replacement; the original map's textures and
 - lib/ph_large_castle_door: Poly Haven, Tina, CC0-1.0, https://polyhaven.com/a/large_castle_door
 - lib/ph_metal_jerrycan: Poly Haven, Sean Buckley, CC0-1.0, https://polyhaven.com/a/metal_jerrycan
 - lib/ph_metal_jerrycan_green: Poly Haven, Ulan Cabanilla, CC0-1.0, https://polyhaven.com/a/metal_jerrycan_green
+- lib/ph_modern_arm_chair_01: Poly Haven, Vibrant Nordic, CC0-1.0, https://polyhaven.com/a/modern_arm_chair_01
 - lib/ph_modern_coffee_table_01: Poly Haven, Amin, CC0-1.0, https://polyhaven.com/a/modern_coffee_table_01
 - lib/ph_modular_airduct_circular_01: Poly Haven, Riley Queen, CC0-1.0, https://polyhaven.com/a/modular_airduct_circular_01
 - lib/ph_modular_airduct_rectangular_01: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/modular_airduct_rectangular_01
