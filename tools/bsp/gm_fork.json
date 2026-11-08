@@ -1,0 +1,68 @@
+{
+ "id": "gm_fork",
+ "name": "Gm Fork",
+ "source": "gm_fork.bsp",
+ "author": "Blueberry_pie",
+ "page": "https://steamcommunity.com/sharedfiles/filedetails/?id=326332456",
+ "licence": "none stated",
+ "blurb": "Hold out against the horde.",
+ "mode": "survival",
+ "survivors": 8,
+ "survivor_class": "info_player_start",
+ "zombie_classes": [],
+ "solid_classes": [
+  "func_brush"
+ ],
+ "flood_step": 0.3,
+ "thin_walls": true,
+ "toys": [
+  [
+   "barrel",
+   "spawn",
+   3,
+   -2
+  ],
+  [
+   "tyre",
+   "spawn",
+   -3,
+   2
+  ]
+ ],
+ "items_auto": true,
+ "auto_lights": {
+  "spacing": 6.0,
+  "height": 2.3,
+  "range": 7.0,
+  "energy": 0.9
+ },
+ "prop_models": {
+  "models/props_wasteland/wood_fence01a.mdl": "survival_fence",
+  "models/props_wasteland/wood_fence02a.mdl": "survival_fence",
+  "models/props_wasteland/exterior_fence001a.mdl": "survival_fence",
+  "models/props_wasteland/controlroom_desk001b.mdl": "furniture_table",
+  "models/props_lab/monitor01b.mdl": "furniture_television_modern",
+  "models/props_c17/oildrum001.mdl": "survival_barrel",
+  "models/props_c17/powerbox.mdl": "survival_box",
+  "models/props_vehicles/tire001b_truck.mdl": "cars_truck",
+  "models/props_junk/wood_crate002a.mdl": "survival_box",
+  "models/props_junk/wood_crate001a.mdl": "survival_box",
+  "models/props_c17/playground_carousel01.mdl": "cars_sedan",
+  "models/props_junk/wood_pallet001a.mdl": "urban_pallet"
+ },
+ "max_boxes": 3500,
+ "generated": true,
+ "keep_treads": true,
+ "nav_min_depth": 1,
+ "drop_lids": true,
+ "survive_seconds": 600,
+ "posts": 6,
+ "caches_near_posts": true,
+ "drop_ramps": 0.9,
+ "greedy_floors": true,
+ "thin_lintels": true,
+ "drop_small": [
+  0.15,
+  1.5
+ ]
+}
