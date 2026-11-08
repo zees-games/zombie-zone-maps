@@ -70117,32 +70117,6 @@
   "walk": "eNrtlD0KwzAMhRU8eCn4CDlE14CvlAMUkhv0Stl6DUMvkNGDsZrYssnzUCiFTNEiJPT5Pf9goivOjLk3i9myY5PqOJDd22xT6d8UUptT6Z5qVXubVYLtDeER4Zd+HOE+TnSAeU5lhdVIRzh3t+kM5+42LbD4r3AuA8KrFuWy2ZwmgSXHTuB7hjUozwaUaZC1irKsFS3AEW17tO3QdrvnAmuA65UJTKhcYmW8YIQpIOxsM43PIyA8/vS0UIm+2/bclKDsEC4HVtf6B26Ul+bAGtu+w+nu+kNOjg/hgHiq",
   "mat": "concrete"
  },
- "toys": [
-  {
-   "toy": "barrel",
-   "at": [
-    2.975,
-    0.61,
-    -7.295
-   ]
-  },
-  {
-   "toy": "tyre",
-   "at": [
-    8.308,
-    0.61,
-    3.759
-   ]
-  },
-  {
-   "toy": "football",
-   "at": [
-    1.226,
-    0.61,
-    -5.922
-   ]
-  }
- ],
  "world_collision": {
   "models": [
    0
@@ -70176,61 +70150,5 @@
   ],
   "flat_height": 0.5,
   "skip": []
- },
- "loose_toys": [
-  {
-   "at": [
-    7.7153,
-    3.5243,
-    13.9637
-   ],
-   "toy": "barrel",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    8.4772,
-    3.5243,
-    13.9827
-   ],
-   "toy": "barrel",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    7.8105,
-    3.5243,
-    13.4303
-   ],
-   "toy": "barrel",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    8.382,
-    3.5243,
-    13.4684
-   ],
-   "toy": "barrel",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    9.3155,
-    3.5243,
-    13.9446
-   ],
-   "toy": "barrel",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    8.1343,
-    4.4005,
-    13.5446
-   ],
-   "toy": "barrel",
-   "yaw": 0.0
-  }
- ]
+ }
 }

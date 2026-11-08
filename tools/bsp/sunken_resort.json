@@ -15,20 +15,6 @@
  ],
  "flood_step": 0.3,
  "thin_walls": true,
- "toys": [
-  [
-   "barrel",
-   "spawn",
-   3,
-   -2
-  ],
-  [
-   "tyre",
-   "spawn",
-   -3,
-   2
-  ]
- ],
  "items_auto": false,
  "auto_lights": {
   "spacing": 6.0,
@@ -65,20 +51,6 @@
   "mood": "indoor_hall",
   "indoor": "indoor_hall"
  },
- "drop_loose": [
-  [
-   2.3784,
-   -7.3152
-  ],
-  [
-   2.1936,
-   -12.3078
-  ],
-  [
-   2.286,
-   -9.8679
-  ]
- ],
  "items_y": 6.2,
  "items": [
   [

@@ -79894,32 +79894,6 @@
   "walk": "eNrtljFu3TAMhmUIsJYHe/UQwFd4owsE8VVeb+AxSysFAdqxR+hNWgUZOvYGrYAOHeMiQwxENSuJkixLD+1exIsf9ETzI/mTEiEvz7+etSqW5FhuW1i5Jv/2XdGXazMt196e+W57xn91zskMyR+1cD/XkYwb4dG9gKnI35HafRCIjjgUQ4Fe8LB0Ihf2pYDOEecgqFviRAevoprsS8MDRK9H0th/AH7DljVZOd7PADFD1eB44Qn6zZQ5XlghwjGFvN8hwimEA3iGCHcR4AAiHPVwrYhwU4DjOsAdGg8HEU7cEw8HEW7qAhyQANdQDwf9KQT6OsABPfi14SARDrjwcOK2ukY4aI9+2/WRtAjXYpHM09YK4TY9zXfk0sElcho74eB4Ig5GZweXyAk8JWxyUj1SqkT16w3+r7f6qREpBSTbGFLOG5vsfVckBVyM5lCGG13rU7hAQncKponYD95rQicwc3Pakpg5Aml31FjWfSNiWemc9pPPXNqKWNZ214pY1mp5laBQnBc8j0LDlwe6j8KUdX6TRoFl/cbSKFz498/JWo2Zu4Zs8Jiy/kxC6xBO6cQrxbIuPIdjJE27g/ux046DM4JfcriG7nJco+BVG8uKcJ2mYUQ8Ug93y8N0UTzAzSxMF916uMs1zGRpJeTgvvZBnZrHzN36GIR9Y+bG2UvHvWsXF1u9aXMVRvZy57tJ3jBfVnJ1BOq4hlBWDEdbQTM3OJC9Mg7pgAJpcM1048zNpi7MObRde5VoztmKOE5CYi/t3KGb5qx3ZjTAE83ZgOzcaTfN+c4KA2tKWjx4aDYxew+13FSv0YOMcE6gGRwp4ZxAM7i6hLNTMgziaaOF0MdNpDUP204IpI2DeIi0kMMJt20P50Y4twN/g7Mj3BwAFmYPZ84dnsEBONMdHHy0pns4eLRx7ODMeQLspHfXBPXBxPGJ7+aP/gW9fNqd8GLUkN8M5vfA89O+UVDeDDQUN4PdsIwSoERndxhtM5Wbmkyx3LRa8zU9SihM2QJ9bkogD02PKg/NmF6WXm/YEym8JqoOpp0sM0CnIgNTbmozWprKaii2DaS8/TFV5jhqLhnL4gzcUefJm8g7yJPXyDlPnqy6NS/uQO4hTx47LaV8Xp7/7vkDiAzgsw==",
   "mat": "dirt"
  },
- "toys": [
-  {
-   "toy": "barrel",
-   "at": [
-    10.75,
-    5.535,
-    -16.867
-   ]
-  },
-  {
-   "toy": "tyre",
-   "at": [
-    11.045,
-    5.456,
-    -10.735
-   ]
-  },
-  {
-   "toy": "football",
-   "at": [
-    5.92,
-    5.181,
-    -12.353
-   ]
-  }
- ],
  "world_collision": {
   "models": [
    0
@@ -79945,61 +79919,5 @@
   ],
   "flat_height": 0.5,
   "skip": []
- },
- "loose_toys": [
-  {
-   "at": [
-    8.5344,
-    1.0668,
-    -10.5388
-   ],
-   "toy": "barrel",
-   "yaw": 18.0
-  },
-  {
-   "at": [
-    -8.2296,
-    0.9954,
-    -15.1638
-   ],
-   "toy": "barrel",
-   "yaw": 259.0
-  },
-  {
-   "at": [
-    22.5262,
-    1.0278,
-    -11.9751
-   ],
-   "toy": "barrel",
-   "yaw": 9.78
-  },
-  {
-   "at": [
-    -15.8496,
-    0.4215,
-    9.4488
-   ],
-   "toy": "barrel",
-   "yaw": 0.0
-  },
-  {
-   "at": [
-    -15.621,
-    0.4215,
-    8.6106
-   ],
-   "toy": "barrel",
-   "yaw": 336.0
-  },
-  {
-   "at": [
-    7.1628,
-    1.1428,
-    -10.7442
-   ],
-   "toy": "barrel",
-   "yaw": 0.0
-  }
- ]
+ }
 }

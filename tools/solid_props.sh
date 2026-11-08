@@ -29,26 +29,17 @@ godot --headless --path "$GAME" --script tools/solid_props.gd -- "$TMP" ${FROM_D
 python3 -P - "$HERE/../maps" "$TMP" "$HERE" "${DOTBSP_PATH:-$HERE/../../dot-map-convert}" <<'PY'
 import json, os, sys
 sys.path.insert(0, sys.argv[3])
-sys.path.insert(0, sys.argv[4])    # dot-map's dotbsp, which settle_toys reads a terrain with
+sys.path.insert(0, sys.argv[4])
 import build_maps
 boxes = json.load(open(sys.argv[2]))
-loose = boxes.pop("_loose", {})
+boxes.pop("_loose", None)
 for id, bs in boxes.items():
     path = "%s/%s.json" % (sys.argv[1], id)
     doc = json.load(open(path))
     doc.pop("solid_props", None)
-    if id in loose:    # a --from-doc run reads no world and leaves them as they were
-        doc.pop("loose_toys", None)
-        doc.pop("supports", None)
-        for k in ("loose_toys", "supports"):
-            if loose[id][k]:
-                doc[k] = loose[id][k]
-        spec_path = os.path.join(sys.argv[3], "bsp", id + ".json")
-        drop = json.load(open(spec_path)).get("drop_loose", []) if os.path.isfile(spec_path) else []
-        if drop and "loose_toys" in doc:    # world barrels over water or void that nothing holds up
-            doc["loose_toys"] = [t for t in doc["loose_toys"] if all(abs(t["at"][0] - x) + abs(t["at"][2] - z) > 0.05 for x, z in drop)]
-            if not doc["loose_toys"]:
-                del doc["loose_toys"]
+    doc.pop("loose_toys", None)    # maps carry no loose props or supports any more (owner 2026-11-08)
+    doc.pop("supports", None)
+    doc.pop("toys", None)
     if bs:
         new = {}
         for k, v in doc.items():    # right after "props", where a reader looks for it
@@ -56,13 +47,6 @@ for id, bs in boxes.items():
             if k == "props":
                 new["solid_props"] = bs
         doc = new
-        # New stand-in models change the boxes; a toy settled against the old ones can now stand inside one.
-        spec = os.path.join(sys.argv[3], "bsp", id + ".json")
-        if build_maps.toys_in_solids(doc) and os.path.isfile(spec) and json.load(open(spec)).get("toys"):
-            try:
-                doc["toys"] = build_maps.settle_toys(doc, build_maps.spec_hints(json.load(open(spec))))
-            except SystemExit as e:    # nowhere clear within 10 m: keep the toys and say so
-                print("solid_props: %s: toys left inside a prop (%s)" % (id, e), file=sys.stderr)
     with open(path, "w") as f:
         json.dump(doc, f, indent=1)
         f.write("\n")
