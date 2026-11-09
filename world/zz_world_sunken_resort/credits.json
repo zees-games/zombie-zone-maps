@@ -733,7 +733,7 @@
    "url": "https://kenney.nl/assets/furniture-kit",
    "source": "Kenney Furniture Kit",
    "attribution": false,
-   "uses": 486
+   "uses": 480
   },
   {
    "kind": "model",
@@ -817,13 +817,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_mini-market_wall-door-rotate",
-   "author": "Kenney",
+   "name": "lib/own_box_20x638x63_808890",
+   "author": "TMC (generated for dot-map)",
    "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/mini-market",
-   "source": "Kenney Mini Market",
+   "url": "https://github.com/modcommunity/dot-map",
+   "source": "TMC generated model",
    "attribution": false,
-   "uses": 4
+   "uses": 142
   },
   {
    "kind": "model",
@@ -843,17 +843,7 @@
    "url": "https://polyhaven.com/a/bleach_bottle",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_brass_vase_02",
-   "author": "Rico Cilliers",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/brass_vase_02",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 7
+   "uses": 2
   },
   {
    "kind": "model",
@@ -893,7 +883,7 @@
    "url": "https://polyhaven.com/a/electric_stove",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 7
+   "uses": 11
   },
   {
    "kind": "model",
@@ -953,7 +943,7 @@
    "url": "https://polyhaven.com/a/leather_cleaner_can",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 3
+   "uses": 1
   },
   {
    "kind": "model",
@@ -964,6 +954,16 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 3
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_multi_cleaner_bottle",
+   "author": "James Ray Cock",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/multi_cleaner_bottle",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
   },
   {
    "kind": "model",
@@ -984,6 +984,16 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_painted_wooden_cabinet",
+   "author": "Kirill Sannikov",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/painted_wooden_cabinet",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 2
   },
   {
    "kind": "model",
@@ -1013,7 +1023,7 @@
    "url": "https://polyhaven.com/a/vintage_microwave",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 5
+   "uses": 1
   },
   {
    "kind": "model",
@@ -1024,6 +1034,16 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_wooden_lantern_01",
+   "author": "James Ray Cock",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/wooden_lantern_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 7
   },
   {
    "kind": "model",
@@ -1043,7 +1063,7 @@
    "url": "https://sketchfab.com/3d-models/none-01a5b64427984632bb44242da3813bb1",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 2
+   "uses": 6
   },
   {
    "kind": "model",
@@ -1096,16 +1116,6 @@
    "uses": 38
   },
   {
-   "kind": "model",
-   "name": "lib/sf_toilet_132a8e",
-   "author": "HippoStance",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-132a8ee2af3a40d39d270fbed3d3666c",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 4
-  },
-  {
    "kind": "sound",
    "name": "button",
    "author": "Kenney",
@@ -1113,7 +1123,7 @@
    "url": "https://kenney.nl/assets/interface-sounds",
    "source": "Kenney Interface Sounds",
    "attribution": false,
-   "uses": 1
+   "uses": 2
   },
   {
    "kind": "sound",
