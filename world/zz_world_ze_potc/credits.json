@@ -83,7 +83,7 @@
    "url": "https://polyhaven.com/a/cobblestone_embedded_asphalt",
    "source": "polyhaven",
    "attribution": false,
-   "uses": 121
+   "uses": 117
   },
   {
    "kind": "texture",
@@ -587,23 +587,33 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_graveyard-kit_gravestone-wide",
+   "name": "lib/kenney_graveyard-kit_gravestone-cross",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/graveyard-kit",
    "source": "Kenney Graveyard Kit",
    "attribution": false,
-   "uses": 6
+   "uses": 10
   },
   {
    "kind": "model",
-   "name": "lib/kenney_nature-kit_cliff_cornerTop_rock",
+   "name": "lib/kenney_nature-kit_cliff_diagonal_rock",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/nature-kit",
    "source": "Kenney Nature Kit",
    "attribution": false,
-   "uses": 52
+   "uses": 43
+  },
+  {
+   "kind": "model",
+   "name": "lib/kenney_pirate-kit_cannon-mobile",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/pirate-kit",
+   "source": "Kenney Pirate Kit",
+   "attribution": false,
+   "uses": 6
   },
   {
    "kind": "model",
@@ -617,13 +627,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/ph_bolt_action_rifle_7_62",
-   "author": "Mateusz Sadek",
+   "name": "lib/own_cyl_30x105x254_3a3a38",
+   "author": "TMC (generated for dot-map)",
    "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/bolt_action_rifle_7_62",
-   "source": "Poly Haven",
+   "url": "https://github.com/modcommunity/dot-map",
+   "source": "TMC generated model",
    "attribution": false,
-   "uses": 28
+   "uses": 34
   },
   {
    "kind": "model",
@@ -644,16 +654,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_bronze_whale_statue",
-   "author": "Tina",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/bronze_whale_statue",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 6
   },
   {
    "kind": "model",
@@ -757,16 +757,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/ph_stone_fire_pit",
-   "author": "Sebastian Platen",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/stone_fire_pit",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "model",
    "name": "lib/ph_tree_small_02",
    "author": "Rico Cilliers",
    "licence": "CC0-1.0",
@@ -784,6 +774,16 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 4
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_wine_barrel_01",
+   "author": "James Ray Cock",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/wine_barrel_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 33
   },
   {
    "kind": "model",
@@ -814,16 +814,6 @@
    "source": "Sketchfab",
    "attribution": true,
    "uses": 17
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_oil_drum_61b602",
-   "author": "kubassa",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-61b602b7e959408f9c6c5bf6392bc4b7",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 33
   },
   {
    "kind": "model",
