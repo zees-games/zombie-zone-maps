@@ -81,7 +81,7 @@ game-zombie-zone's `examples/headless_maps.tscn` builds each map the way a serve
 
 ## Toys
 
-Maps carry no toys, loose props or supports (owner 2026-11-08: physics props belong to the playground, prop hunt, murder mystery and hide n seek only); the builder writes none and `solid_props.sh` removes any a document still has.
+Maps carry no toys, loose props or supports (owner 2026-11-08: physics props belong to Playlot, prop hunt, murder mystery and hide n seek only); the builder writes none and `solid_props.sh` removes any a document still has.
 
 ## Weapons the maps name from the second pack
 
