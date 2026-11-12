@@ -118,24 +118,27 @@ Every texture of this map is a free replacement; the original map's textures and
 - chair: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
 - crate: Kenney Survival Kit, Kenney, CC0-1.0, https://kenney.nl/assets/survival-kit
 - factory/door: Kenney Factory Kit, Kenney, CC0-1.0, https://kenney.nl/assets/factory-kit
+- factory/pipe: Kenney Factory Kit, Kenney, CC0-1.0, https://kenney.nl/assets/factory-kit
 - factory/window: Kenney Factory Kit, Kenney, CC0-1.0, https://kenney.nl/assets/factory-kit
 - fence: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
 - lib/dm_chainlinkfence: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/fences.py
 - lib/dm_handtruck: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/vehicles.py
 - lib/dm_lighttroffer: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py
 - lib/dm_pipecluster: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py
+- lib/dm_pipeclustertall: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/industrial.py
 - lib/dm_pipeelbow: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py
 - lib/dm_power_box: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/power_box.py
 - lib/dm_rubbish_pile: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/rubbish_pile.py
 - lib/dm_server_rack: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/server_rack.py
 - lib/dm_woodfence: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/fences.py
-- lib/kenney_food-kit_can-open: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
+- lib/kenney_food-kit_mug: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
 - lib/kenney_food-kit_soda-can: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
 - lib/kenney_food-kit_styrofoam-dinner: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
 - lib/kenney_furniture-kit_cabinetTelevision: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
 - lib/kenney_furniture-kit_cardboardBoxClosed: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
 - lib/kenney_furniture-kit_cardboardBoxOpen: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
 - lib/kenney_furniture-kit_computerKeyboard: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
+- lib/kenney_furniture-kit_kitchenSink: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
 - lib/kenney_furniture-kit_trashcan: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
 - lib/kenney_graveyard-kit_iron-fence-border-gate: Kenney Graveyard Kit, Kenney, CC0-1.0, https://kenney.nl/assets/graveyard-kit
 - lib/kenney_graveyard-kit_stone-wall: Kenney Graveyard Kit, Kenney, CC0-1.0, https://kenney.nl/assets/graveyard-kit
@@ -176,10 +179,9 @@ Every texture of this map is a free replacement; the original map's textures and
 - lib/ph_television_02: Poly Haven, Benny Weimer, CC0-1.0, https://polyhaven.com/a/television_02
 - lib/ph_trashbag: Poly Haven, Benny Weimer, CC0-1.0, https://polyhaven.com/a/trashbag
 - lib/ph_utility_box_02: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/utility_box_02
-- lib/ph_vintage_microwave: Poly Haven, Adam Nekola, CC0-1.0, https://polyhaven.com/a/vintage_microwave
+- lib/ph_wooden_bucket_01: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/wooden_bucket_01
 - lib/ph_wooden_table_02: Poly Haven, Serhii Khromov, CC0-1.0, https://polyhaven.com/a/wooden_table_02
 - lib/sf_classic_park_bench_low_poly_01a5b6: Sketchfab, Berk Gedik, CC-BY-4.0, https://sketchfab.com/3d-models/none-01a5b64427984632bb44242da3813bb1
-- lib/sf_coffee_mug_6c9589: Sketchfab, The Lister, CC-BY-4.0, https://sketchfab.com/3d-models/none-6c95897de04143aeb5c75b7630707d27
 - lib/sf_door_wood_afed97: Sketchfab, DiggenDigga, CC-BY-4.0, https://sketchfab.com/3d-models/none-afed9756ba974d1395a336124ff326fd
 - lib/sf_fallout_4_nuka_cola_bottle_17cd00: Sketchfab, Aike, CC-BY-4.0, https://sketchfab.com/3d-models/none-17cd007c38824321b184c763b1eec4e2
 - lib/sf_file_cabinet_f07427: Sketchfab, Siberia, CC-BY-4.0, https://sketchfab.com/3d-models/none-f0742791a0ea432db1f432c24de83867

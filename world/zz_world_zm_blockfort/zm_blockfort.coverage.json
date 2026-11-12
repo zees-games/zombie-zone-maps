@@ -19,9 +19,9 @@
   ]
  },
  "models": {
-  "looked_up": 21,
+  "looked_up": 23,
   "by_tier": {
-   "default": 21
+   "default": 23
   }
  },
  "sounds": {
@@ -65,7 +65,6 @@
    "env_entity_maker.ForceSpawn",
    "env_hudhint.ShowHudHint",
    "env_physexplosion.Explode",
-   "game_text.Display",
    "player_weaponstrip.Strip",
    "point_servercommand.Command"
   ],
@@ -79,7 +78,7 @@
   "classes_unmapped": 0,
   "keys_unmapped": 0,
   "links_unresolved": 0,
-  "inputs_unimplemented": 6,
+  "inputs_unimplemented": 5,
   "surfaces_opaque": 0
  }
 }

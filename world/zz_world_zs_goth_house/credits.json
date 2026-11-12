@@ -477,21 +477,11 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_food-kit_cup",
+   "name": "lib/kenney_nature-kit_crop_melon",
    "author": "Kenney",
    "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/food-kit",
-   "source": "Kenney Food Kit",
-   "attribution": false,
-   "uses": 3
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_furniture-kit_laptop",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/furniture-kit",
-   "source": "Kenney Furniture Kit",
+   "url": "https://kenney.nl/assets/nature-kit",
+   "source": "Kenney Nature Kit",
    "attribution": false,
    "uses": 1
   },
@@ -504,6 +494,16 @@
    "source": "Kenney Retro Urban Kit",
    "attribution": false,
    "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/own_cyl_69x2x69_8a8a90",
+   "author": "TMC (generated for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map",
+   "source": "TMC generated model",
+   "attribution": false,
+   "uses": 2
   },
   {
    "kind": "model",
@@ -527,13 +527,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/ph_bleach_bottle",
-   "author": "James Ray Cock",
+   "name": "lib/ph_brass_pot_01",
+   "author": "Rico Cilliers",
    "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/bleach_bottle",
+   "url": "https://polyhaven.com/a/brass_pot_01",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 6
+   "uses": 1
   },
   {
    "kind": "model",
@@ -613,7 +613,7 @@
    "url": "https://polyhaven.com/a/leather_cleaner_can",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 10
+   "uses": 3
   },
   {
    "kind": "model",
@@ -627,13 +627,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/ph_old_drill_press",
-   "author": "Harsh Vardhan Singh",
+   "name": "lib/ph_multi_cleaner_bottle",
+   "author": "James Ray Cock",
    "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/old_drill_press",
+   "url": "https://polyhaven.com/a/multi_cleaner_bottle",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 2
+   "uses": 13
   },
   {
    "kind": "model",
@@ -654,6 +654,16 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 5
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_planter_pot_clay",
+   "author": "Amal Kumar",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/planter_pot_clay",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
   },
   {
    "kind": "model",
@@ -737,6 +747,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/ph_wall_clock",
+   "author": "PierreB3D",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/wall_clock",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
    "name": "lib/ph_wooden_crate_01",
    "author": "James Ray Cock",
    "licence": "CC0-1.0",
@@ -753,6 +773,16 @@
    "url": "https://polyhaven.com/a/wooden_display_shelves_01",
    "source": "Poly Haven",
    "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/sf_classic_bicycle_lowpoly_game_ready_da6507",
+   "author": "by__Rx",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-da6507928c0c4a5c8776008cdb9f747e",
+   "source": "Sketchfab",
+   "attribution": true,
    "uses": 2
   },
   {
@@ -824,16 +854,6 @@
    "source": "Sketchfab",
    "attribution": true,
    "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_psx_shopping_cart_96534b",
-   "author": "Brainsick Games",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-96534b56f0d9487db08f00f1f9301fa1",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 2
   }
  ]
 }

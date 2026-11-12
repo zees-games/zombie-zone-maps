@@ -116,10 +116,13 @@ Every texture of this map is a free replacement; the original map's textures and
 - lib/dm_lighttroffer: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py
 - lib/dm_panelvan: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/vehicles.py
 - lib/dm_pipecluster: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py
+- lib/dm_pipeclustertall: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/industrial.py
 - lib/dm_pipecoupling: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py
 - lib/dm_pipeelbow: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py
 - lib/dm_pipestraight: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py
 - lib/dm_power_box: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/power_box.py
+- lib/dm_rockcluster1: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/industrial.py
+- lib/dm_rockcluster2: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/industrial.py
 - lib/dm_rubbish_pile: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/rubbish_pile.py
 - lib/dm_utilitypole: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py
 - lib/dm_wood_crate_cube: dot-map Blender remodel, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/wood_crate.py
@@ -130,11 +133,10 @@ Every texture of this map is a free replacement; the original map's textures and
 - lib/kenney_car-kit_cone: Kenney Car Kit, Kenney, CC0-1.0, https://kenney.nl/assets/car-kit
 - lib/kenney_car-kit_garbage-truck: Kenney Car Kit, Kenney, CC0-1.0, https://kenney.nl/assets/car-kit
 - lib/kenney_factory-kit_door: Kenney Factory Kit, Kenney, CC0-1.0, https://kenney.nl/assets/factory-kit
-- lib/kenney_food-kit_can: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
 - lib/kenney_food-kit_carton: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
 - lib/kenney_food-kit_carton-small: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
+- lib/kenney_food-kit_mug: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
 - lib/kenney_food-kit_soda-bottle: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
-- lib/kenney_food-kit_soda-can: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
 - lib/kenney_furniture-kit_computerKeyboard: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
 - lib/kenney_mini-market_fence-door-rotate: Kenney Mini Market, Kenney, CC0-1.0, https://kenney.nl/assets/mini-market
 - lib/kenney_nature-kit_cliff_diagonal_rock: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
@@ -142,8 +144,9 @@ Every texture of this map is a free replacement; the original map's textures and
 - lib/kenney_nature-kit_rock_smallB: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
 - lib/kenney_pirate-kit_structure-fence-sides: Kenney Pirate Kit, Kenney, CC0-1.0, https://kenney.nl/assets/pirate-kit
 - lib/kenney_retro-urban-kit_pallet: Kenney Retro Urban Kit, Kenney, CC0-1.0, https://kenney.nl/assets/retro-urban-kit
+- lib/own_cyl_69x2x69_8a8a90: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
+- lib/own_cyl_6x6x160_6a5a48: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
 - lib/ph_Sofa_01: Poly Haven, Kirill Sannikov, CC0-1.0, https://polyhaven.com/a/Sofa_01
-- lib/ph_WetFloorSign_01: Poly Haven, Fran Calvente, CC0-1.0, https://polyhaven.com/a/WetFloorSign_01
 - lib/ph_WoodenTable_01: Poly Haven, Ethan Place, CC0-1.0, https://polyhaven.com/a/WoodenTable_01
 - lib/ph_bar_chair_round_01: Poly Haven, Dairon Sanchez, CC0-1.0, https://polyhaven.com/a/bar_chair_round_01
 - lib/ph_bolt_action_rifle_7_62: Poly Haven, Mateusz Sadek, CC0-1.0, https://polyhaven.com/a/bolt_action_rifle_7_62
@@ -166,7 +169,6 @@ Every texture of this map is a free replacement; the original map's textures and
 - lib/ph_modular_airduct_circular_01: Poly Haven, Riley Queen, CC0-1.0, https://polyhaven.com/a/modular_airduct_circular_01
 - lib/ph_namaqualand_boulder_04: Poly Haven, Jenelle van Heerden, CC0-1.0, https://polyhaven.com/a/namaqualand_boulder_04
 - lib/ph_old_bed_frame: Poly Haven, Luca B, CC0-1.0, https://polyhaven.com/a/old_bed_frame
-- lib/ph_old_drill_press: Poly Haven, Harsh Vardhan Singh, CC0-1.0, https://polyhaven.com/a/old_drill_press
 - lib/ph_old_tyre: Poly Haven, MP, CC0-1.0, https://polyhaven.com/a/old_tyre
 - lib/ph_outdoor_table_chair_set_01: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/outdoor_table_chair_set_01
 - lib/ph_painted_wooden_cabinet: Poly Haven, Kirill Sannikov, CC0-1.0, https://polyhaven.com/a/painted_wooden_cabinet
@@ -181,12 +183,13 @@ Every texture of this map is a free replacement; the original map's textures and
 - lib/ph_trashbag: Poly Haven, Benny Weimer, CC0-1.0, https://polyhaven.com/a/trashbag
 - lib/ph_utility_box_01: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/utility_box_01
 - lib/ph_vintage_oil_lamp: Poly Haven, Monsta3D, CC0-1.0, https://polyhaven.com/a/vintage_oil_lamp
+- lib/ph_wooden_bucket_01: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/wooden_bucket_01
 - lib/ph_wooden_crate_01: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/wooden_crate_01
 - lib/ph_wooden_display_shelves_01: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/wooden_display_shelves_01
 - lib/ph_wooden_table_02: Poly Haven, Serhii Khromov, CC0-1.0, https://polyhaven.com/a/wooden_table_02
 - lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623: Sketchfab, Libau Media, CC-BY-4.0, https://sketchfab.com/3d-models/none-1986239266ee44c788fd6effe4055704
+- lib/sf_classic_bicycle_lowpoly_game_ready_da6507: Sketchfab, by__Rx, CC-BY-4.0, https://sketchfab.com/3d-models/none-da6507928c0c4a5c8776008cdb9f747e
 - lib/sf_classic_park_bench_low_poly_01a5b6: Sketchfab, Berk Gedik, CC-BY-4.0, https://sketchfab.com/3d-models/none-01a5b64427984632bb44242da3813bb1
-- lib/sf_coffee_mug_6c9589: Sketchfab, The Lister, CC-BY-4.0, https://sketchfab.com/3d-models/none-6c95897de04143aeb5c75b7630707d27
 - lib/sf_door_wood_afed97: Sketchfab, DiggenDigga, CC-BY-4.0, https://sketchfab.com/3d-models/none-afed9756ba974d1395a336124ff326fd
 - lib/sf_dumpster_cyberpunk_game_assets_b0d030: Sketchfab, EXHALE, CC-BY-4.0, https://sketchfab.com/3d-models/none-b0d0304c927b450d904163fa43978519
 - lib/sf_fallout_4_nuka_cola_bottle_17cd00: Sketchfab, Aike, CC-BY-4.0, https://sketchfab.com/3d-models/none-17cd007c38824321b184c763b1eec4e2
@@ -211,5 +214,6 @@ Every texture of this map is a free replacement; the original map's textures and
 - amb_rain: dot-audio stock ambience (synthesised), TMC (dot-audio authors), CC0-1.0, https://github.com/modcommunity/dot-audio
 - amb_wind: dot-audio stock ambience (synthesised), TMC (dot-audio authors), CC0-1.0, https://github.com/modcommunity/dot-audio
 - explosion: Kenney Sci-Fi Sounds, Kenney, CC0-1.0, https://kenney.nl/assets/sci-fi-sounds
+- explosion_big: Kenney Sci-Fi Sounds, Kenney, CC0-1.0, https://kenney.nl/assets/sci-fi-sounds
 - flush: Kenney Foley Sounds, Kenney, CC0-1.0, https://kenney.nl/assets/foley-sounds
 - metal_slide: Kenney Foley Sounds, Kenney, CC0-1.0, https://kenney.nl/assets/foley-sounds

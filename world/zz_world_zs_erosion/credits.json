@@ -963,7 +963,17 @@
    "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py",
    "source": "dot-map Blender model",
    "attribution": false,
-   "uses": 32
+   "uses": 36
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_pipeclustertall",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/industrial.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 12
   },
   {
    "kind": "model",
@@ -1013,7 +1023,7 @@
    "url": "https://kenney.nl/assets/car-kit",
    "source": "Kenney Car Kit",
    "attribution": false,
-   "uses": 4
+   "uses": 9
   },
   {
    "kind": "model",
@@ -1027,13 +1037,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_food-kit_can",
+   "name": "lib/kenney_food-kit_carton",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/food-kit",
    "source": "Kenney Food Kit",
    "attribution": false,
-   "uses": 8
+   "uses": 6
   },
   {
    "kind": "model",
@@ -1087,6 +1097,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/own_cyl_69x2x69_8a8a90",
+   "author": "TMC (generated for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map",
+   "source": "TMC generated model",
+   "attribution": false,
+   "uses": 3
+  },
+  {
+   "kind": "model",
    "name": "lib/ph_Sofa_01",
    "author": "Kirill Sannikov",
    "licence": "CC0-1.0",
@@ -1094,16 +1114,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_WetFloorSign_01",
-   "author": "Fran Calvente",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/WetFloorSign_01",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 5
   },
   {
    "kind": "model",
@@ -1133,7 +1143,7 @@
    "url": "https://polyhaven.com/a/bolt_action_rifle_7_62",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 3
+   "uses": 2
   },
   {
    "kind": "model",
@@ -1273,7 +1283,7 @@
    "url": "https://polyhaven.com/a/leather_cleaner_can",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 3
+   "uses": 1
   },
   {
    "kind": "model",
@@ -1324,16 +1334,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 3
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_old_drill_press",
-   "author": "Harsh Vardhan Singh",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/old_drill_press",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 2
   },
   {
    "kind": "model",
@@ -1393,7 +1393,7 @@
    "url": "https://polyhaven.com/a/propane_tank",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 4
+   "uses": 3
   },
   {
    "kind": "model",
@@ -1477,6 +1477,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/ph_wooden_bucket_01",
+   "author": "James Ray Cock",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/wooden_bucket_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 5
+  },
+  {
+   "kind": "model",
    "name": "lib/ph_wooden_crate_01",
    "author": "James Ray Cock",
    "licence": "CC0-1.0",
@@ -1517,6 +1527,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/sf_classic_bicycle_lowpoly_game_ready_da6507",
+   "author": "by__Rx",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-da6507928c0c4a5c8776008cdb9f747e",
+   "source": "Sketchfab",
+   "attribution": true,
+   "uses": 2
+  },
+  {
+   "kind": "model",
    "name": "lib/sf_classic_park_bench_low_poly_01a5b6",
    "author": "Berk Gedik",
    "licence": "CC-BY-4.0",
@@ -1524,16 +1544,6 @@
    "source": "Sketchfab",
    "attribution": true,
    "uses": 3
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_coffee_mug_6c9589",
-   "author": "The Lister",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-6c95897de04143aeb5c75b7630707d27",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 1
   },
   {
    "kind": "model",
@@ -1653,7 +1663,7 @@
    "url": "https://sketchfab.com/3d-models/none-8a1a2e0263aa401591c1e87d824a79ef",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 1
+   "uses": 2
   },
   {
    "kind": "model",
@@ -1683,7 +1693,7 @@
    "url": "https://sketchfab.com/3d-models/none-96534b56f0d9487db08f00f1f9301fa1",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 7
+   "uses": 5
   },
   {
    "kind": "model",
@@ -1723,7 +1733,7 @@
    "url": "https://kenney.nl/assets/sci-fi-sounds",
    "source": "Kenney Sci-Fi Sounds",
    "attribution": false,
-   "uses": 1
+   "uses": 3
   },
   {
    "kind": "sound",
@@ -1733,7 +1743,7 @@
    "url": "https://kenney.nl/assets/foley-sounds",
    "source": "Kenney Foley Sounds",
    "attribution": false,
-   "uses": 6
+   "uses": 7
   }
  ]
 }

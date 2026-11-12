@@ -114,6 +114,7 @@ Every texture of this map is a free replacement; the original map's textures and
 - pbr (pbr_Road012B): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Road012B
 - pbr (pbr_Grass005): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Grass005
 - pbr (pbr_Road008A): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Road008A
+- pbr (pbr_kenney_prototype_dark_01): Kenney, Kenney, CC0-1.0, https://kenney.nl/assets/prototype-textures
 - pbr (pbr_beige_wall_002): polyhaven, Dimitrios Savva, Rico Cilliers, CC0-1.0, https://polyhaven.com/a/beige_wall_002
 - pbr (pbr_WoodFloor066A): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=WoodFloor066A
 - pbr (pbr_PavingStones087): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=PavingStones087
@@ -200,37 +201,38 @@ Every texture of this map is a free replacement; the original map's textures and
 - lib/dm_wood_crate_cube: dot-map Blender remodel, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/wood_crate.py
 - lib/fxfountain: Modelled for dot-map, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
 - lib/kenney_car-kit_cone: Kenney Car Kit, Kenney, CC0-1.0, https://kenney.nl/assets/car-kit
-- lib/kenney_food-kit_can-open: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
 - lib/kenney_food-kit_carton: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
 - lib/kenney_food-kit_carton-small: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
-- lib/kenney_food-kit_muffin: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
+- lib/kenney_food-kit_mug: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
 - lib/kenney_food-kit_orange: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
-- lib/kenney_food-kit_pear: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
-- lib/kenney_food-kit_pudding: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
-- lib/kenney_food-kit_sausage-half: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
 - lib/kenney_food-kit_soda-bottle: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
 - lib/kenney_food-kit_styrofoam-dinner: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
 - lib/kenney_food-kit_tomato: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
 - lib/kenney_food-kit_turkey: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
 - lib/kenney_furniture-kit_computerKeyboard: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
+- lib/kenney_furniture-kit_kitchenSink: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
 - lib/kenney_furniture-kit_televisionModern: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
 - lib/kenney_furniture-kit_trashcan: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
 - lib/kenney_mini-arcade_ticket-machine: Kenney Mini Arcade, Kenney, CC0-1.0, https://kenney.nl/assets/mini-arcade
 - lib/kenney_mini-arcade_vending-machine: Kenney Mini Arcade, Kenney, CC0-1.0, https://kenney.nl/assets/mini-arcade
+- lib/kenney_mini-market_shelf-boxes: Kenney Mini Market, Kenney, CC0-1.0, https://kenney.nl/assets/mini-market
+- lib/kenney_nature-kit_crop_melon: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
 - lib/kenney_retro-urban-kit_pallet: Kenney Retro Urban Kit, Kenney, CC0-1.0, https://kenney.nl/assets/retro-urban-kit
 - lib/kenney_retro-urban-kit_pallet-small: Kenney Retro Urban Kit, Kenney, CC0-1.0, https://kenney.nl/assets/retro-urban-kit
+- lib/kenney_survival-kit_bottle: Kenney Survival Kit, Kenney, CC0-1.0, https://kenney.nl/assets/survival-kit
 - lib/own_box_157x65x122_8a9aa8: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
+- lib/own_box_25x19x12_6a4a30: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
 - lib/ph_ArmChair_01: Poly Haven, Kirill Sannikov, CC0-1.0, https://polyhaven.com/a/ArmChair_01
+- lib/ph_Barrel_01: Poly Haven, Jorge Camacho, CC0-1.0, https://polyhaven.com/a/Barrel_01
 - lib/ph_CashRegister_01: Poly Haven, Joe Seabuhr, CC0-1.0, https://polyhaven.com/a/CashRegister_01
 - lib/ph_CoffeeTable_01: Poly Haven, Fernando Quinn, CC0-1.0, https://polyhaven.com/a/CoffeeTable_01
 - lib/ph_Shelf_01: Poly Haven, Gabriel Radić, CC0-1.0, https://polyhaven.com/a/Shelf_01
 - lib/ph_Sofa_01: Poly Haven, Kirill Sannikov, CC0-1.0, https://polyhaven.com/a/Sofa_01
 - lib/ph_Television_01: Poly Haven, Gabriel Radić, CC0-1.0, https://polyhaven.com/a/Television_01
-- lib/ph_WetFloorSign_01: Poly Haven, Fran Calvente, CC0-1.0, https://polyhaven.com/a/WetFloorSign_01
 - lib/ph_WoodenTable_01: Poly Haven, Ethan Place, CC0-1.0, https://polyhaven.com/a/WoodenTable_01
+- lib/ph_bananas: Poly Haven, Alexander Shulha, CC0-1.0, https://polyhaven.com/a/bananas
 - lib/ph_bar_chair_round_01: Poly Haven, Dairon Sanchez, CC0-1.0, https://polyhaven.com/a/bar_chair_round_01
 - lib/ph_barrel_stove: Poly Haven, MP, CC0-1.0, https://polyhaven.com/a/barrel_stove
-- lib/ph_bleach_bottle: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/bleach_bottle
 - lib/ph_book_encyclopedia_set_01: Poly Haven, John Malcolm, CC0-1.0, https://polyhaven.com/a/book_encyclopedia_set_01
 - lib/ph_bull_head: Poly Haven, Tina, CC0-1.0, https://polyhaven.com/a/bull_head
 - lib/ph_can_rusted: Poly Haven, Rahul Chaudhary, CC0-1.0, https://polyhaven.com/a/can_rusted
@@ -249,6 +251,7 @@ Every texture of this map is a free replacement; the original map's textures and
 - lib/ph_leather_cleaner_can: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/leather_cleaner_can
 - lib/ph_lion_head: Poly Haven, Tina, CC0-1.0, https://polyhaven.com/a/lion_head
 - lib/ph_metal_stool_03: Poly Haven, Flo Tasser, CC0-1.0, https://polyhaven.com/a/metal_stool_03
+- lib/ph_multi_cleaner_bottle: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/multi_cleaner_bottle
 - lib/ph_outdoor_table_chair_set_01: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/outdoor_table_chair_set_01
 - lib/ph_painted_wooden_cabinet: Poly Haven, Kirill Sannikov, CC0-1.0, https://polyhaven.com/a/painted_wooden_cabinet
 - lib/ph_painted_wooden_chair_02: Poly Haven, Kirill Sannikov, CC0-1.0, https://polyhaven.com/a/painted_wooden_chair_02
@@ -257,23 +260,21 @@ Every texture of this map is a free replacement; the original map's textures and
 - lib/ph_potted_plant_02: Poly Haven, Rico Cilliers, CC0-1.0, https://polyhaven.com/a/potted_plant_02
 - lib/ph_pull_chain_light_socket: Poly Haven, Josh Dean, CC0-1.0, https://polyhaven.com/a/pull_chain_light_socket
 - lib/ph_round_wooden_table_02: Poly Haven, Ulan Cabanilla, CC0-1.0, https://polyhaven.com/a/round_wooden_table_02
-- lib/ph_rubber_duck_toy: Poly Haven, Plat251, CC0-1.0, https://polyhaven.com/a/rubber_duck_toy
 - lib/ph_sofa_02: Poly Haven, Kirill Sannikov, CC0-1.0, https://polyhaven.com/a/sofa_02
 - lib/ph_steel_frame_shelves_03: Poly Haven, Ulan Cabanilla, CC0-1.0, https://polyhaven.com/a/steel_frame_shelves_03
 - lib/ph_sungka_board_02: Poly Haven, Ulan Cabanilla, CC0-1.0, https://polyhaven.com/a/sungka_board_02
 - lib/ph_television_02: Poly Haven, Benny Weimer, CC0-1.0, https://polyhaven.com/a/television_02
-- lib/ph_vintage_microwave: Poly Haven, Adam Nekola, CC0-1.0, https://polyhaven.com/a/vintage_microwave
 - lib/ph_wicker_basket_01: Poly Haven, Kuutti Siitonen, CC0-1.0, https://polyhaven.com/a/wicker_basket_01
 - lib/ph_wooden_bookshelf_worn: Poly Haven, Ulan Cabanilla, CC0-1.0, https://polyhaven.com/a/wooden_bookshelf_worn
+- lib/ph_wooden_bucket_01: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/wooden_bucket_01
 - lib/ph_wooden_crate_01: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/wooden_crate_01
 - lib/ph_wooden_cutting_board: Poly Haven, Kuutti Siitonen, CC0-1.0, https://polyhaven.com/a/wooden_cutting_board
 - lib/ph_wooden_display_shelves_01: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/wooden_display_shelves_01
 - lib/ph_wooden_ladder_02: Poly Haven, JN_3DPRINTINGNERD, CC0-1.0, https://polyhaven.com/a/wooden_ladder_02
 - lib/ph_wooden_picnic_table: Poly Haven, Ulan Cabanilla, CC0-1.0, https://polyhaven.com/a/wooden_picnic_table
 - lib/ph_wooden_table_02: Poly Haven, Serhii Khromov, CC0-1.0, https://polyhaven.com/a/wooden_table_02
+- lib/sf_classic_bicycle_lowpoly_game_ready_da6507: Sketchfab, by__Rx, CC-BY-4.0, https://sketchfab.com/3d-models/none-da6507928c0c4a5c8776008cdb9f747e
 - lib/sf_classic_park_bench_low_poly_01a5b6: Sketchfab, Berk Gedik, CC-BY-4.0, https://sketchfab.com/3d-models/none-01a5b64427984632bb44242da3813bb1
-- lib/sf_coffee_mug_6c9589: Sketchfab, The Lister, CC-BY-4.0, https://sketchfab.com/3d-models/none-6c95897de04143aeb5c75b7630707d27
-- lib/sf_dish_rack_with_dishes_ce6901: Sketchfab, HippoStance, CC-BY-4.0, https://sketchfab.com/3d-models/none-ce69014964624fbb808a028e5c55d88b
 - lib/sf_door_wood_afed97: Sketchfab, DiggenDigga, CC-BY-4.0, https://sketchfab.com/3d-models/none-afed9756ba974d1395a336124ff326fd
 - lib/sf_fallout_4_nuka_cola_bottle_17cd00: Sketchfab, Aike, CC-BY-4.0, https://sketchfab.com/3d-models/none-17cd007c38824321b184c763b1eec4e2
 - lib/sf_file_cabinet_f07427: Sketchfab, Siberia, CC-BY-4.0, https://sketchfab.com/3d-models/none-f0742791a0ea432db1f432c24de83867

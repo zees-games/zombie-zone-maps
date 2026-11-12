@@ -95,28 +95,32 @@ Every texture of this map is a free replacement; the original map's textures and
 - fence: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
 - lib/dm_basin_unit: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/basin_unit.py
 - lib/dm_fireplace: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/fireplace.py
+- lib/dm_freightbutton: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/industrial.py
+- lib/dm_handrailcorner: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/handrail.py
 - lib/dm_lighttroffer: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py
 - lib/dm_panelvan: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/vehicles.py
 - lib/dm_pipecoupling: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py
 - lib/dm_pipeelbow: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py
 - lib/dm_pipestraight: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py
 - lib/dm_rubbish_pile: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/rubbish_pile.py
+- lib/dm_slide: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/playground.py
 - lib/dm_utilitypole: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py
+- lib/kenney_car-kit_cone: Kenney Car Kit, Kenney, CC0-1.0, https://kenney.nl/assets/car-kit
 - lib/kenney_car-kit_garbage-truck: Kenney Car Kit, Kenney, CC0-1.0, https://kenney.nl/assets/car-kit
 - lib/kenney_factory-kit_door: Kenney Factory Kit, Kenney, CC0-1.0, https://kenney.nl/assets/factory-kit
 - lib/kenney_factory-kit_pipe-glass-large-long: Kenney Factory Kit, Kenney, CC0-1.0, https://kenney.nl/assets/factory-kit
+- lib/kenney_furniture-kit_kitchenSink: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
 - lib/kenney_furniture-kit_laptop: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
 - lib/kenney_furniture-kit_trashcan: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- lib/kenney_graveyard-kit_iron-fence-border-curve: Kenney Graveyard Kit, Kenney, CC0-1.0, https://kenney.nl/assets/graveyard-kit
 - lib/kenney_graveyard-kit_iron-fence-border-gate: Kenney Graveyard Kit, Kenney, CC0-1.0, https://kenney.nl/assets/graveyard-kit
 - lib/kenney_mini-market_fence-door-rotate: Kenney Mini Market, Kenney, CC0-1.0, https://kenney.nl/assets/mini-market
+- lib/kenney_mini-market_shelf-boxes: Kenney Mini Market, Kenney, CC0-1.0, https://kenney.nl/assets/mini-market
 - lib/own_box_133x118x156_8a8478: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
 - lib/own_box_137x118x154_8a8478: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
 - lib/own_box_141x118x274_8a8478: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
 - lib/own_box_154x113x145_8a8478: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
 - lib/own_box_162x72x175_8a8478: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
 - lib/own_box_17x28x34_e8e8e0: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
-- lib/ph_WetFloorSign_01: Poly Haven, Fran Calvente, CC0-1.0, https://polyhaven.com/a/WetFloorSign_01
 - lib/ph_bolt_action_rifle_7_62: Poly Haven, Mateusz Sadek, CC0-1.0, https://polyhaven.com/a/bolt_action_rifle_7_62
 - lib/ph_concrete_cat_statue: Poly Haven, Rico Cilliers, Riley Queen, CC0-1.0, https://polyhaven.com/a/concrete_cat_statue
 - lib/ph_electric_stove: Poly Haven, Kuutti Siitonen, CC0-1.0, https://polyhaven.com/a/electric_stove
@@ -129,22 +133,20 @@ Every texture of this map is a free replacement; the original map's textures and
 - lib/ph_moon_rock_05: Poly Haven, Greg Zaal, Rico Cilliers, Jenelle van Heerden, CC0-1.0, https://polyhaven.com/a/moon_rock_05
 - lib/ph_moon_rock_06: Poly Haven, Greg Zaal, Jenelle van Heerden, Rico Cilliers, CC0-1.0, https://polyhaven.com/a/moon_rock_06
 - lib/ph_old_tyre: Poly Haven, MP, CC0-1.0, https://polyhaven.com/a/old_tyre
-- lib/ph_propane_tank: Poly Haven, Slinc, CC0-1.0, https://polyhaven.com/a/propane_tank
 - lib/ph_pull_chain_light_socket: Poly Haven, Josh Dean, CC0-1.0, https://polyhaven.com/a/pull_chain_light_socket
 - lib/ph_shrub_02: Poly Haven, Rico Cilliers, CC0-1.0, https://polyhaven.com/a/shrub_02
 - lib/ph_street_lamp_01: Poly Haven, Josh Dean, CC0-1.0, https://polyhaven.com/a/street_lamp_01
 - lib/ph_vintage_day_bed: Poly Haven, Aron Łyczek, CC0-1.0, https://polyhaven.com/a/vintage_day_bed
-- lib/ph_vintage_microwave: Poly Haven, Adam Nekola, CC0-1.0, https://polyhaven.com/a/vintage_microwave
 - lib/ph_wooden_ladder_02: Poly Haven, JN_3DPRINTINGNERD, CC0-1.0, https://polyhaven.com/a/wooden_ladder_02
 - lib/sf_classic_park_bench_low_poly_01a5b6: Sketchfab, Berk Gedik, CC-BY-4.0, https://sketchfab.com/3d-models/none-01a5b64427984632bb44242da3813bb1
 - lib/sf_coconut_tree_d14194: Sketchfab, sujirour, CC-BY-4.0, https://sketchfab.com/3d-models/none-d141941578044b0f861ca83b36d4c411
-- lib/sf_dish_rack_with_dishes_ce6901: Sketchfab, HippoStance, CC-BY-4.0, https://sketchfab.com/3d-models/none-ce69014964624fbb808a028e5c55d88b
 - lib/sf_dumpster_cyberpunk_game_assets_b0d030: Sketchfab, EXHALE, CC-BY-4.0, https://sketchfab.com/3d-models/none-b0d0304c927b450d904163fa43978519
 - lib/sf_free_pothos_potted_plant_money_plant_e9832f: Sketchfab, AllQuad, CC-BY-4.0, https://sketchfab.com/3d-models/none-e9832f38484f4f85b3f9081b51fa3799
 - lib/sf_kitchen_sink_504248: Sketchfab, HippoStance, CC-BY-4.0, https://sketchfab.com/3d-models/none-504248ed68e3480a807aced6f002b2d5
 - lib/sf_light_ceiling_lamp_15mb_eaaab0: Sketchfab, Mehdi Shahsavan, CC-BY-4.0, https://sketchfab.com/3d-models/none-eaaab08eac454e59840fa4818fc55ff3
 - lib/sf_oil_drum_61b602: Sketchfab, kubassa, CC-BY-4.0, https://sketchfab.com/3d-models/none-61b602b7e959408f9c6c5bf6392bc4b7
 - lib/sf_old_fridge_6b2862: Sketchfab, sergeilihandristov, CC-BY-4.0, https://sketchfab.com/3d-models/none-6b2862c241754f5d81690e8664e41091
+- lib/sf_old_radiator_8a1a2e: Sketchfab, thethieme, CC-BY-4.0, https://sketchfab.com/3d-models/none-8a1a2e0263aa401591c1e87d824a79ef
 - lib/sf_pine_tree_d45218: Sketchfab, evolveduk, CC-BY-4.0, https://sketchfab.com/3d-models/none-d45218a3fab349e5b1de040f29e7b6f9
 - lib/sf_pine_tree_ps1_low_poly_d71cee: Sketchfab, Wersaus33, CC-BY-4.0, https://sketchfab.com/3d-models/none-d71ceeb303644e649d09fe8038aa5e47
 - lib/sf_toilet_132a8e: Sketchfab, HippoStance, CC-BY-4.0, https://sketchfab.com/3d-models/none-132a8ee2af3a40d39d270fbed3d3666c

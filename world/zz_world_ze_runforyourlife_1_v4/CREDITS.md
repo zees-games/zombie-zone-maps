@@ -36,6 +36,7 @@ Every texture of this map is a free replacement; the original map's textures and
 - lib/dm_milcrate: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py
 - lib/dm_milcratetall: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py
 - lib/dm_pipeelbow: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py
+- lib/dm_rockcluster1: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/industrial.py
 - lib/dm_server_rack: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/server_rack.py
 - lib/dm_wood_crate_cube: dot-map Blender remodel, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/wood_crate.py
 - lib/kenney_furniture-kit_cabinetTelevisionDoors: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit

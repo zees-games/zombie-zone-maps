@@ -19,16 +19,16 @@
   ]
  },
  "models": {
-  "looked_up": 176,
+  "looked_up": 186,
   "by_tier": {
-   "default": 176
+   "default": 186
   }
  },
  "sounds": {
   "looked_up": 11,
   "by_tier": {
-   "default": 7,
-   "fallback": 4
+   "default": 10,
+   "fallback": 1
   }
  },
  "classes": {
@@ -64,10 +64,7 @@
   "textures_flat": [],
   "models_unmapped": [],
   "sounds_unmapped": [
-   "ambient/materials/cartrap_rope1.wav",
-   "ambient/materials/wood_creak1.wav",
-   "ambient/weather/thunder3.wav",
-   "ambient/weather/thunder4.wav"
+   "ambient/materials/cartrap_rope1.wav"
   ],
   "classes_unmapped": [],
   "keys_unmapped": [
@@ -79,13 +76,7 @@
   "links_unresolved": [],
   "inputs_unimplemented": [
    "env_physexplosion.Explode",
-   "env_tonemap_controller.SetAutoExposureMax",
-   "env_tonemap_controller.SetAutoExposureMin",
-   "env_tonemap_controller.SetBloomScale",
-   "game_text.Display",
-   "prop_physics_override.EnableMotion",
-   "prop_physics_override.SetDamageFilter",
-   "trigger_hurt.SetParent"
+   "prop_physics_override.SetDamageFilter"
   ],
   "surfaces_opaque": [
    "wood/woodwall019a"
@@ -95,11 +86,11 @@
   "textures_unmapped": 0,
   "textures_flat": 0,
   "models_unmapped": 0,
-  "sounds_unmapped": 4,
+  "sounds_unmapped": 1,
   "classes_unmapped": 0,
   "keys_unmapped": 4,
   "links_unresolved": 0,
-  "inputs_unimplemented": 8,
+  "inputs_unimplemented": 2,
   "surfaces_opaque": 1
  }
 }

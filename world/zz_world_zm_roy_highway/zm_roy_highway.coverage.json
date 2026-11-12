@@ -20,16 +20,16 @@
   ]
  },
  "models": {
-  "looked_up": 99,
+  "looked_up": 108,
   "by_tier": {
-   "default": 99
+   "category": 1,
+   "default": 107
   }
  },
  "sounds": {
   "looked_up": 13,
   "by_tier": {
-   "default": 11,
-   "fallback": 2
+   "default": 13
   }
  },
  "classes": {
@@ -51,10 +51,7 @@
   "textures_unmapped": [],
   "textures_flat": [],
   "models_unmapped": [],
-  "sounds_unmapped": [
-   "physics/wood/wood_plank_break4.wav",
-   "vehicles/apc/apc_idle1.wav"
-  ],
+  "sounds_unmapped": [],
   "classes_unmapped": [],
   "keys_unmapped": [],
   "links_unresolved": [
@@ -71,8 +68,7 @@
   ],
   "inputs_unimplemented": [
    "prop_dynamic.Break",
-   "prop_dynamic.SetBodyGroup",
-   "prop_dynamic.Skin"
+   "prop_dynamic.SetBodyGroup"
   ],
   "surfaces_opaque": []
  },
@@ -80,11 +76,11 @@
   "textures_unmapped": 0,
   "textures_flat": 0,
   "models_unmapped": 0,
-  "sounds_unmapped": 2,
+  "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 0,
   "links_unresolved": 10,
-  "inputs_unimplemented": 3,
+  "inputs_unimplemented": 2,
   "surfaces_opaque": 0
  }
 }

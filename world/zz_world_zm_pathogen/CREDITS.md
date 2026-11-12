@@ -206,10 +206,12 @@ Every texture of this map is a free replacement; the original map's textures and
 - lib/dm_flatbedtruck: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/vehicles.py
 - lib/dm_fueltanker: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/vehicles.py
 - lib/dm_handrail: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/handrail.py
+- lib/dm_handrailrise: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/industrial.py
 - lib/dm_junglegym: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/playground.py
 - lib/dm_lighttroffer: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py
 - lib/dm_panelvan: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/vehicles.py
 - lib/dm_pipecluster: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py
+- lib/dm_pipeclustertall: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/industrial.py
 - lib/dm_pipeelbow: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py
 - lib/dm_pipestraight: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py
 - lib/dm_power_box: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/power_box.py
@@ -231,7 +233,6 @@ Every texture of this map is a free replacement; the original map's textures and
 - lib/kenney_car-kit_debris-door: Kenney Car Kit, Kenney, CC0-1.0, https://kenney.nl/assets/car-kit
 - lib/kenney_car-kit_sedan-sports: Kenney Car Kit, Kenney, CC0-1.0, https://kenney.nl/assets/car-kit
 - lib/kenney_city-kit-suburban_fence-1x4: Kenney City Kit - Suburban, Kenney, CC0-1.0, https://kenney.nl/assets/city-kit-suburban
-- lib/kenney_factory-kit_conveyor-bars-fence: Kenney Factory Kit, Kenney, CC0-1.0, https://kenney.nl/assets/factory-kit
 - lib/kenney_factory-kit_conveyor-bars-stripe-fence: Kenney Factory Kit, Kenney, CC0-1.0, https://kenney.nl/assets/factory-kit
 - lib/kenney_factory-kit_door-wide-half: Kenney Factory Kit, Kenney, CC0-1.0, https://kenney.nl/assets/factory-kit
 - lib/kenney_food-kit_carton: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit

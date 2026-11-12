@@ -87,11 +87,11 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_Asphalt003",
-   "author": "Lennart Demes and contributors",
+   "name": "pbr_kenney_prototype_dark_01",
+   "author": "Kenney",
    "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Asphalt003",
-   "source": "ambientCG",
+   "url": "https://kenney.nl/assets/prototype-textures",
+   "source": "Kenney",
    "attribution": false,
    "uses": 15
   },
@@ -357,13 +357,23 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_freightbutton",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/industrial.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_milcrate",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
    "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py",
    "source": "dot-map Blender model",
    "attribution": false,
-   "uses": 30
+   "uses": 38
   },
   {
    "kind": "model",
@@ -403,7 +413,7 @@
    "url": "https://github.com/modcommunity/dot-map",
    "source": "TMC generated model",
    "attribution": false,
-   "uses": 2
+   "uses": 6
   },
   {
    "kind": "model",
@@ -414,16 +424,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 5
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_old_drill_press",
-   "author": "Harsh Vardhan Singh",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/old_drill_press",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 4
   },
   {
    "kind": "model",

@@ -11,15 +11,16 @@
    "default": 9
   },
   "free_by_tier": {
-   "addon": 57,
-   "default": 10
+   "addon": 56,
+   "default": 11
   },
   "nearest_photo": []
  },
  "models": {
-  "looked_up": 56,
+  "looked_up": 58,
   "by_tier": {
-   "default": 56
+   "category": 1,
+   "default": 57
   }
  },
  "sounds": {
@@ -58,9 +59,7 @@
    "prop_physics_multiplayer.OnPlayerUse->"
   ],
   "inputs_unimplemented": [],
-  "surfaces_opaque": [
-   "cs_assault/assault_door_decal01"
-  ]
+  "surfaces_opaque": []
  },
  "counts": {
   "textures_unmapped": 0,
@@ -71,6 +70,6 @@
   "keys_unmapped": 0,
   "links_unresolved": 2,
   "inputs_unimplemented": 0,
-  "surfaces_opaque": 1
+  "surfaces_opaque": 0
  }
 }

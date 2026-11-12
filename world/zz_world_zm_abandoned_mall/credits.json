@@ -323,7 +323,7 @@
    "url": "https://ambientcg.com/view?id=Asphalt003",
    "source": "ambientCG",
    "attribution": false,
-   "uses": 2
+   "uses": 1
   },
   {
    "kind": "texture",
@@ -1107,6 +1107,16 @@
   },
   {
    "kind": "texture",
+   "name": "pbr_kenney_prototype_dark_01",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/prototype-textures",
+   "source": "Kenney",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "texture",
    "name": "pbr_beige_wall_002",
    "author": "Dimitrios Savva, Rico Cilliers",
    "licence": "CC0-1.0",
@@ -1873,7 +1883,7 @@
    "url": "https://github.com/modcommunity/dot-map",
    "source": "Modelled for dot-map",
    "attribution": false,
-   "uses": 2
+   "uses": 52
   },
   {
    "kind": "model",
@@ -1883,17 +1893,17 @@
    "url": "https://kenney.nl/assets/car-kit",
    "source": "Kenney Car Kit",
    "attribution": false,
-   "uses": 1
+   "uses": 4
   },
   {
    "kind": "model",
-   "name": "lib/kenney_food-kit_can-open",
+   "name": "lib/kenney_food-kit_carton",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/food-kit",
    "source": "Kenney Food Kit",
    "attribution": false,
-   "uses": 86
+   "uses": 77
   },
   {
    "kind": "model",
@@ -1903,7 +1913,7 @@
    "url": "https://kenney.nl/assets/furniture-kit",
    "source": "Kenney Furniture Kit",
    "attribution": false,
-   "uses": 52
+   "uses": 59
   },
   {
    "kind": "model",
@@ -1917,6 +1927,26 @@
   },
   {
    "kind": "model",
+   "name": "lib/kenney_mini-market_shelf-boxes",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/mini-market",
+   "source": "Kenney Mini Market",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/kenney_nature-kit_crop_melon",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/nature-kit",
+   "source": "Kenney Nature Kit",
+   "attribution": false,
+   "uses": 15
+  },
+  {
+   "kind": "model",
    "name": "lib/kenney_retro-urban-kit_pallet",
    "author": "Kenney",
    "licence": "CC0-1.0",
@@ -1927,6 +1957,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/kenney_survival-kit_bottle",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/survival-kit",
+   "source": "Kenney Survival Kit",
+   "attribution": false,
+   "uses": 4
+  },
+  {
+   "kind": "model",
    "name": "lib/ph_ArmChair_01",
    "author": "Kirill Sannikov",
    "licence": "CC0-1.0",
@@ -1934,6 +1974,16 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 11
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_Barrel_01",
+   "author": "Jorge Camacho",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/Barrel_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 10
   },
   {
    "kind": "model",
@@ -1963,7 +2013,7 @@
    "url": "https://polyhaven.com/a/Shelf_01",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 6
+   "uses": 11
   },
   {
    "kind": "model",
@@ -1987,16 +2037,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/ph_WetFloorSign_01",
-   "author": "Fran Calvente",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/WetFloorSign_01",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 3
-  },
-  {
-   "kind": "model",
    "name": "lib/ph_WoodenTable_01",
    "author": "Ethan Place",
    "licence": "CC0-1.0",
@@ -2004,6 +2044,16 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_bananas",
+   "author": "Alexander Shulha",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/bananas",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 3
   },
   {
    "kind": "model",
@@ -2024,16 +2074,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 3
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_bleach_bottle",
-   "author": "James Ray Cock",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/bleach_bottle",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 13
   },
   {
    "kind": "model",
@@ -2123,7 +2163,7 @@
    "url": "https://polyhaven.com/a/electric_stove",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 6
+   "uses": 9
   },
   {
    "kind": "model",
@@ -2193,7 +2233,7 @@
    "url": "https://polyhaven.com/a/leather_cleaner_can",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 48
+   "uses": 16
   },
   {
    "kind": "model",
@@ -2214,6 +2254,16 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_multi_cleaner_bottle",
+   "author": "James Ray Cock",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/multi_cleaner_bottle",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 41
   },
   {
    "kind": "model",
@@ -2297,16 +2347,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/ph_rubber_duck_toy",
-   "author": "Plat251",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/rubber_duck_toy",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 50
-  },
-  {
-   "kind": "model",
    "name": "lib/ph_sofa_02",
    "author": "Kirill Sannikov",
    "licence": "CC0-1.0",
@@ -2347,16 +2387,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/ph_vintage_microwave",
-   "author": "Adam Nekola",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/vintage_microwave",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 3
-  },
-  {
-   "kind": "model",
    "name": "lib/ph_wicker_basket_01",
    "author": "Kuutti Siitonen",
    "licence": "CC0-1.0",
@@ -2374,6 +2404,16 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 37
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_wooden_bucket_01",
+   "author": "James Ray Cock",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/wooden_bucket_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
   },
   {
    "kind": "model",
@@ -2403,7 +2443,7 @@
    "url": "https://polyhaven.com/a/wooden_display_shelves_01",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 16
+   "uses": 11
   },
   {
    "kind": "model",
@@ -2437,6 +2477,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/sf_classic_bicycle_lowpoly_game_ready_da6507",
+   "author": "by__Rx",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-da6507928c0c4a5c8776008cdb9f747e",
+   "source": "Sketchfab",
+   "attribution": true,
+   "uses": 7
+  },
+  {
+   "kind": "model",
    "name": "lib/sf_classic_park_bench_low_poly_01a5b6",
    "author": "Berk Gedik",
    "licence": "CC-BY-4.0",
@@ -2444,26 +2494,6 @@
    "source": "Sketchfab",
    "attribution": true,
    "uses": 50
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_coffee_mug_6c9589",
-   "author": "The Lister",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-6c95897de04143aeb5c75b7630707d27",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 10
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_dish_rack_with_dishes_ce6901",
-   "author": "HippoStance",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-ce69014964624fbb808a028e5c55d88b",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 2
   },
   {
    "kind": "model",
@@ -2553,7 +2583,7 @@
    "url": "https://sketchfab.com/3d-models/none-61b602b7e959408f9c6c5bf6392bc4b7",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 14
+   "uses": 4
   },
   {
    "kind": "model",
@@ -2573,7 +2603,7 @@
    "url": "https://sketchfab.com/3d-models/none-96534b56f0d9487db08f00f1f9301fa1",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 26
+   "uses": 19
   },
   {
    "kind": "model",
@@ -2603,7 +2633,7 @@
    "url": "https://sketchfab.com/3d-models/none-132a8ee2af3a40d39d270fbed3d3666c",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 20
+   "uses": 13
   },
   {
    "kind": "sound",

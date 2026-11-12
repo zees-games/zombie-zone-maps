@@ -547,6 +547,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_cablespool",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/industrial.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 4
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_cooling_tank",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -563,7 +573,7 @@
    "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py",
    "source": "dot-map Blender model",
    "attribution": false,
-   "uses": 34
+   "uses": 37
   },
   {
    "kind": "model",
@@ -587,7 +597,7 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_food-kit_ice-cream-cup",
+   "name": "lib/kenney_food-kit_cup-coffee",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/food-kit",
@@ -597,13 +607,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_graveyard-kit_gravestone-wide",
+   "name": "lib/kenney_furniture-kit_kitchenSink",
    "author": "Kenney",
    "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/graveyard-kit",
-   "source": "Kenney Graveyard Kit",
+   "url": "https://kenney.nl/assets/furniture-kit",
+   "source": "Kenney Furniture Kit",
    "attribution": false,
-   "uses": 5
+   "uses": 4
   },
   {
    "kind": "model",
@@ -633,7 +643,7 @@
    "url": "https://kenney.nl/assets/pirate-kit",
    "source": "Kenney Pirate Kit",
    "attribution": false,
-   "uses": 3
+   "uses": 7
   },
   {
    "kind": "model",
@@ -643,7 +653,7 @@
    "url": "https://github.com/modcommunity/dot-map",
    "source": "TMC generated model",
    "attribution": false,
-   "uses": 7
+   "uses": 12
   },
   {
    "kind": "model",
@@ -677,13 +687,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/ph_bronze_whale_statue",
-   "author": "Tina",
+   "name": "lib/ph_brass_pot_02",
+   "author": "Rico Cilliers",
    "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/bronze_whale_statue",
+   "url": "https://polyhaven.com/a/brass_pot_02",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 5
+   "uses": 3
   },
   {
    "kind": "model",
@@ -694,16 +704,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 3
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_classic_laptop",
-   "author": "Arrangemonk",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/classic_laptop",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 7
   },
   {
    "kind": "model",
@@ -721,6 +721,16 @@
    "author": "Amal Kumar",
    "licence": "CC0-1.0",
    "url": "https://polyhaven.com/a/concrete_road_barrier_02",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_electric_stove",
+   "author": "Kuutti Siitonen",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/electric_stove",
    "source": "Poly Haven",
    "attribution": false,
    "uses": 1
@@ -887,16 +897,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/ph_vintage_microwave",
-   "author": "Adam Nekola",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/vintage_microwave",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "model",
    "name": "lib/ph_vintage_radio_transceiver",
    "author": "Mateusz Sadek",
    "licence": "CC0-1.0",
@@ -913,7 +913,7 @@
    "url": "https://polyhaven.com/a/wall_clock",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 7
+   "uses": 14
   },
   {
    "kind": "model",
@@ -924,6 +924,16 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 5
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_wooden_bucket_01",
+   "author": "James Ray Cock",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/wooden_bucket_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
   },
   {
    "kind": "model",
@@ -974,16 +984,6 @@
    "source": "Sketchfab",
    "attribution": false,
    "uses": 7
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_coffee_mug_6c9589",
-   "author": "The Lister",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-6c95897de04143aeb5c75b7630707d27",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 3
   },
   {
    "kind": "model",
@@ -1093,7 +1093,7 @@
    "url": "https://sketchfab.com/3d-models/none-132a8ee2af3a40d39d270fbed3d3666c",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 13
+   "uses": 9
   },
   {
    "kind": "model",

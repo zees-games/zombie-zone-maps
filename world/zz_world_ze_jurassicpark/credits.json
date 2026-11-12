@@ -327,11 +327,11 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_DiamondPlate006B",
-   "author": "Lennart Demes and contributors",
+   "name": "pbr_kenney_prototype_orange_03",
+   "author": "Kenney",
    "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=DiamondPlate006B",
-   "source": "ambientCG",
+   "url": "https://kenney.nl/assets/prototype-textures",
+   "source": "Kenney",
    "attribution": false,
    "uses": 1
   },
@@ -584,6 +584,16 @@
    "source": "dot-map Blender model",
    "attribution": false,
    "uses": 18
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_freightbutton",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/industrial.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 1
   },
   {
    "kind": "model",

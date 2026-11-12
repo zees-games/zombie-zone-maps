@@ -807,6 +807,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_cablespool",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/industrial.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 28
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_chainlinkfence",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -903,7 +913,7 @@
    "url": "https://kenney.nl/assets/food-kit",
    "source": "Kenney Food Kit",
    "attribution": false,
-   "uses": 6
+   "uses": 4
   },
   {
    "kind": "model",
@@ -933,7 +943,7 @@
    "url": "https://kenney.nl/assets/mini-market",
    "source": "Kenney Mini Market",
    "attribution": false,
-   "uses": 4
+   "uses": 6
   },
   {
    "kind": "model",
@@ -1001,6 +1011,16 @@
    "author": "ProgrammerOnCoffee",
    "licence": "CC0-1.0",
    "url": "https://polyhaven.com/a/clipboard",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_electric_stove",
+   "author": "Kuutti Siitonen",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/electric_stove",
    "source": "Poly Haven",
    "attribution": false,
    "uses": 1
@@ -1117,6 +1137,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/ph_planter_pot_clay",
+   "author": "Amal Kumar",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/planter_pot_clay",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
    "name": "lib/ph_plastic_crate_02",
    "author": "Fabi_G",
    "licence": "CC0-1.0",
@@ -1124,6 +1154,16 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_pot_enamel_01",
+   "author": "Kuutti Siitonen",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/pot_enamel_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 2
   },
   {
    "kind": "model",
@@ -1151,16 +1191,6 @@
    "author": "Sofia Pahaoja",
    "licence": "CC0-1.0",
    "url": "https://polyhaven.com/a/spinning_wheel_01",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_vintage_microwave",
-   "author": "Adam Nekola",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/vintage_microwave",
    "source": "Poly Haven",
    "attribution": false,
    "uses": 1
@@ -1214,26 +1244,6 @@
    "source": "Sketchfab",
    "attribution": true,
    "uses": 3
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_coffee_mug_6c9589",
-   "author": "The Lister",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-6c95897de04143aeb5c75b7630707d27",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_dish_rack_with_dishes_ce6901",
-   "author": "HippoStance",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-ce69014964624fbb808a028e5c55d88b",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 2
   },
   {
    "kind": "model",
@@ -1383,7 +1393,17 @@
    "url": "https://kenney.nl/assets/sci-fi-sounds",
    "source": "Kenney Sci-Fi Sounds",
    "attribution": false,
-   "uses": 46
+   "uses": 48
+  },
+  {
+   "kind": "sound",
+   "name": "metal_slide",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/foley-sounds",
+   "source": "Kenney Foley Sounds",
+   "attribution": false,
+   "uses": 1
   }
  ]
 }

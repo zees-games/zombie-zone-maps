@@ -1373,7 +1373,7 @@
    "url": "https://kenney.nl/assets/factory-kit",
    "source": "Kenney Factory Kit",
    "attribution": false,
-   "uses": 29
+   "uses": 26
   },
   {
    "kind": "model",
@@ -1383,7 +1383,7 @@
    "url": "https://kenney.nl/assets/nature-kit",
    "source": "Kenney Nature Kit",
    "attribution": false,
-   "uses": 16
+   "uses": 14
   },
   {
    "kind": "model",
@@ -1417,13 +1417,33 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_handrail",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/handrail.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 67
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_handrailrise",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/industrial.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 83
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_pipecluster",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
    "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py",
    "source": "dot-map Blender model",
    "attribution": false,
-   "uses": 44
+   "uses": 48
   },
   {
    "kind": "model",
@@ -1457,13 +1477,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_graveyard-kit_fence-gate",
+   "name": "lib/kenney_graveyard-kit_gravestone-roof",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/graveyard-kit",
    "source": "Kenney Graveyard Kit",
    "attribution": false,
-   "uses": 61
+   "uses": 2
   },
   {
    "kind": "model",
@@ -1704,16 +1724,6 @@
    "source": "Sketchfab",
    "attribution": true,
    "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_small_self_stand_fence_okp_9c78bf",
-   "author": "Aleksey Kozhemyakin",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-9c78bf2e37bb44a98a25db07ce749487",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 6
   },
   {
    "kind": "model",

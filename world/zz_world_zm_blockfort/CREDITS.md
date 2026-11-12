@@ -10,7 +10,7 @@ Every texture of this map is a free replacement; the original map's textures and
 - pbr (pbr_PaintedMetal002): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=PaintedMetal002
 - pbr (pbr_Tiles011): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Tiles011
 - pbr (pbr_Fabric048): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Fabric048
-- pbr (pbr_Asphalt003): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Asphalt003
+- pbr (pbr_kenney_prototype_dark_01): Kenney, Kenney, CC0-1.0, https://kenney.nl/assets/prototype-textures
 - generated (fence): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
 - generated (glass): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
 - generated (foliage_card): dot-map cutout_texture, TMC (generated), CC0-1.0, drawn in code by addons/dot_map/bsp/dot_map_bsp_mesh.gd (cutout_texture)
@@ -43,14 +43,16 @@ Every texture of this map is a free replacement; the original map's textures and
 
 - lib/dm_chainlinkfence: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/fences.py
 - lib/dm_cooling_tank: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/cooling_tank.py
+- lib/dm_freightbutton: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/industrial.py
 - lib/dm_milcrate: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py
 - lib/dm_milcratetall: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py
+- lib/dm_pipecluster: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py
 - lib/dm_wood_crate_cube: dot-map Blender remodel, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/wood_crate.py
 - lib/kenney_factory-kit_box-large: Kenney Factory Kit, Kenney, CC0-1.0, https://kenney.nl/assets/factory-kit
 - lib/kenney_furniture-kit_cardboardBoxClosed: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
 - lib/own_box_14x31x38_e8e8e0: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
+- lib/own_cyl_69x2x69_8a8a90: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
 - lib/ph_gothic_statue: Poly Haven, Benny Weimer, CC0-1.0, https://polyhaven.com/a/gothic_statue
-- lib/ph_old_drill_press: Poly Haven, Harsh Vardhan Singh, CC0-1.0, https://polyhaven.com/a/old_drill_press
 - lib/ph_planter_box_03: Poly Haven, James Ray Cock, CC0-1.0, https://polyhaven.com/a/planter_box_03
 - lib/ph_sofa_02: Poly Haven, Kirill Sannikov, CC0-1.0, https://polyhaven.com/a/sofa_02
 - lib/ph_steel_frame_shelves_03: Poly Haven, Ulan Cabanilla, CC0-1.0, https://polyhaven.com/a/steel_frame_shelves_03
