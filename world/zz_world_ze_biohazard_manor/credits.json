@@ -2637,6 +2637,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_freightbutton",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/industrial.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 5
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_helifuselage",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -2653,7 +2663,7 @@
    "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py",
    "source": "dot-map Blender model",
    "attribution": false,
-   "uses": 104
+   "uses": 105
   },
   {
    "kind": "model",

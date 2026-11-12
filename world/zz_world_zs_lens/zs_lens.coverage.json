@@ -19,9 +19,9 @@
   ]
  },
  "models": {
-  "looked_up": 122,
+  "looked_up": 124,
   "by_tier": {
-   "default": 122
+   "default": 124
   }
  },
  "sounds": {
@@ -102,10 +102,6 @@
   ],
   "links_unresolved": [],
   "inputs_unimplemented": [
-   "env_tonemap_controller.SetAutoExposureMax",
-   "env_tonemap_controller.SetAutoExposureMin",
-   "env_tonemap_controller.SetBloomScale",
-   "game_text.Display",
    "point_zsmessage.message"
   ],
   "surfaces_opaque": [
@@ -121,7 +117,7 @@
   "classes_unmapped": 0,
   "keys_unmapped": 16,
   "links_unresolved": 0,
-  "inputs_unimplemented": 5,
+  "inputs_unimplemented": 1,
   "surfaces_opaque": 2
  }
 }

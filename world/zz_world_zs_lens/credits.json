@@ -307,23 +307,13 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_DiamondPlate006B",
-   "author": "Lennart Demes and contributors",
+   "name": "pbr_kenney_prototype_orange_03",
+   "author": "Kenney",
    "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=DiamondPlate006B",
-   "source": "ambientCG",
+   "url": "https://kenney.nl/assets/prototype-textures",
+   "source": "Kenney",
    "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_Asphalt003",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Asphalt003",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 1
+   "uses": 2
   },
   {
    "kind": "texture",
@@ -407,6 +397,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_pipeclustertall",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/industrial.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_power_box",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -437,6 +437,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/fxplushdoll",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map",
+   "source": "Modelled for dot-map",
+   "attribution": false,
+   "uses": 3
+  },
+  {
+   "kind": "model",
    "name": "lib/kenney_factory-kit_door",
    "author": "Kenney",
    "licence": "CC0-1.0",
@@ -447,7 +457,7 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_food-kit_can",
+   "name": "lib/kenney_food-kit_carton-small",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/food-kit",
@@ -493,7 +503,7 @@
    "url": "https://kenney.nl/assets/mini-market",
    "source": "Kenney Mini Market",
    "attribution": false,
-   "uses": 1
+   "uses": 15
   },
   {
    "kind": "model",
@@ -503,7 +513,7 @@
    "url": "https://kenney.nl/assets/nature-kit",
    "source": "Kenney Nature Kit",
    "attribution": false,
-   "uses": 1
+   "uses": 2
   },
   {
    "kind": "model",
@@ -524,6 +534,16 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_Shelf_01",
+   "author": "Gabriel Radi\u0107",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/Shelf_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 3
   },
   {
    "kind": "model",
@@ -573,7 +593,7 @@
    "url": "https://polyhaven.com/a/bleach_bottle",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 1
+   "uses": 3
   },
   {
    "kind": "model",
@@ -583,7 +603,7 @@
    "url": "https://polyhaven.com/a/bolt_action_rifle_7_62",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 6
+   "uses": 4
   },
   {
    "kind": "model",
@@ -693,7 +713,7 @@
    "url": "https://polyhaven.com/a/leather_cleaner_can",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 6
+   "uses": 2
   },
   {
    "kind": "model",
@@ -711,6 +731,16 @@
    "author": "Riley Queen",
    "licence": "CC0-1.0",
    "url": "https://polyhaven.com/a/modular_airduct_circular_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_multi_cleaner_bottle",
+   "author": "James Ray Cock",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/multi_cleaner_bottle",
    "source": "Poly Haven",
    "attribution": false,
    "uses": 1
@@ -793,17 +823,7 @@
    "url": "https://polyhaven.com/a/propane_tank",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 11
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_rubber_duck_toy",
-   "author": "Plat251",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/rubber_duck_toy",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 1
+   "uses": 10
   },
   {
    "kind": "model",
@@ -897,6 +917,26 @@
   },
   {
    "kind": "model",
+   "name": "lib/ph_wall_clock",
+   "author": "PierreB3D",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/wall_clock",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_wooden_bucket_01",
+   "author": "James Ray Cock",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/wooden_bucket_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
    "name": "lib/ph_wooden_crate_01",
    "author": "James Ray Cock",
    "licence": "CC0-1.0",
@@ -913,7 +953,7 @@
    "url": "https://polyhaven.com/a/wooden_display_shelves_01",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 6
+   "uses": 3
   },
   {
    "kind": "model",
@@ -927,6 +967,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/sf_classic_bicycle_lowpoly_game_ready_da6507",
+   "author": "by__Rx",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-da6507928c0c4a5c8776008cdb9f747e",
+   "source": "Sketchfab",
+   "attribution": true,
+   "uses": 2
+  },
+  {
+   "kind": "model",
    "name": "lib/sf_classic_park_bench_low_poly_01a5b6",
    "author": "Berk Gedik",
    "licence": "CC-BY-4.0",
@@ -934,26 +984,6 @@
    "source": "Sketchfab",
    "attribution": true,
    "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_coffee_mug_6c9589",
-   "author": "The Lister",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-6c95897de04143aeb5c75b7630707d27",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 2
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_dish_rack_with_dishes_ce6901",
-   "author": "HippoStance",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-ce69014964624fbb808a028e5c55d88b",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 14
   },
   {
    "kind": "model",
@@ -1037,13 +1067,23 @@
   },
   {
    "kind": "model",
+   "name": "lib/sf_old_radiator_8a1a2e",
+   "author": "thethieme",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-8a1a2e0263aa401591c1e87d824a79ef",
+   "source": "Sketchfab",
+   "attribution": true,
+   "uses": 1
+  },
+  {
+   "kind": "model",
    "name": "lib/sf_psx_shopping_cart_96534b",
    "author": "Brainsick Games",
    "licence": "CC-BY-4.0",
    "url": "https://sketchfab.com/3d-models/none-96534b56f0d9487db08f00f1f9301fa1",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 5
+   "uses": 3
   },
   {
    "kind": "model",
@@ -1053,7 +1093,7 @@
    "url": "https://sketchfab.com/3d-models/none-132a8ee2af3a40d39d270fbed3d3666c",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 3
+   "uses": 2
   },
   {
    "kind": "sound",

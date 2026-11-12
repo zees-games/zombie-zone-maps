@@ -84,9 +84,7 @@
    "logic_auto.OnMapSpawn->phys_prp"
   ],
   "inputs_unimplemented": [
-   "env_entity_maker.ForceSpawn",
-   "prop_physics.DisableMotion",
-   "prop_physics.EnableMotion"
+   "env_entity_maker.ForceSpawn"
   ],
   "surfaces_opaque": []
  },
@@ -98,7 +96,7 @@
   "classes_unmapped": 0,
   "keys_unmapped": 7,
   "links_unresolved": 1,
-  "inputs_unimplemented": 3,
+  "inputs_unimplemented": 1,
   "surfaces_opaque": 0
  }
 }

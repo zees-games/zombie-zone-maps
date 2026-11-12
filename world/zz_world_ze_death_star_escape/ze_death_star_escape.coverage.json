@@ -17,9 +17,9 @@
   "nearest_photo": []
  },
  "models": {
-  "looked_up": 38,
+  "looked_up": 44,
   "by_tier": {
-   "default": 38
+   "default": 44
   }
  },
  "sounds": {
@@ -62,7 +62,6 @@
   ],
   "links_unresolved": [],
   "inputs_unimplemented": [
-   "func_tracktrain.SetParent",
    "point_servercommand.Command"
   ],
   "surfaces_opaque": [
@@ -77,7 +76,7 @@
   "classes_unmapped": 0,
   "keys_unmapped": 1,
   "links_unresolved": 0,
-  "inputs_unimplemented": 2,
+  "inputs_unimplemented": 1,
   "surfaces_opaque": 1
  }
 }

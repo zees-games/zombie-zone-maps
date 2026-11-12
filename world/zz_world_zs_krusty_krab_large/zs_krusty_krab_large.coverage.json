@@ -20,9 +20,10 @@
   ]
  },
  "models": {
-  "looked_up": 89,
+  "looked_up": 93,
   "by_tier": {
-   "default": 89
+   "category": 1,
+   "default": 92
   }
  },
  "sounds": {
@@ -86,10 +87,7 @@
    "zombiegasses.radius"
   ],
   "links_unresolved": [],
-  "inputs_unimplemented": [
-   "env_tonemap_controller.SetAutoExposureMax",
-   "env_tonemap_controller.SetAutoExposureMin"
-  ],
+  "inputs_unimplemented": [],
   "surfaces_opaque": []
  },
  "counts": {
@@ -100,7 +98,7 @@
   "classes_unmapped": 0,
   "keys_unmapped": 9,
   "links_unresolved": 0,
-  "inputs_unimplemented": 2,
+  "inputs_unimplemented": 0,
   "surfaces_opaque": 0
  }
 }

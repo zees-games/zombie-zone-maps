@@ -487,16 +487,6 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_blue_painted_planks",
-   "author": "Rob Tuytel",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/blue_painted_planks",
-   "source": "polyhaven",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "texture",
    "name": "pbr_MetalPlates016B",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
@@ -514,6 +504,16 @@
    "source": "ambientCG",
    "attribution": false,
    "uses": 4
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_cablespool",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/industrial.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 11
   },
   {
    "kind": "model",
@@ -543,7 +543,7 @@
    "url": "https://kenney.nl/assets/food-kit",
    "source": "Kenney Food Kit",
    "attribution": false,
-   "uses": 12
+   "uses": 9
   },
   {
    "kind": "model",
@@ -634,6 +634,16 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_bananas",
+   "author": "Alexander Shulha",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/bananas",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 3
   },
   {
    "kind": "model",

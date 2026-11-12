@@ -813,7 +813,7 @@
    "url": "https://kenney.nl/assets/furniture-kit",
    "source": "Kenney Furniture Kit",
    "attribution": false,
-   "uses": 31
+   "uses": 43
   },
   {
    "kind": "model",
@@ -841,6 +841,26 @@
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
    "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/fireplace.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_freightbutton",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/industrial.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 12
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_handrailcorner",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/handrail.py",
    "source": "dot-map Blender model",
    "attribution": false,
    "uses": 2
@@ -877,13 +897,23 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_car-kit_garbage-truck",
+   "name": "lib/dm_slide",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/playground.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/kenney_car-kit_cone",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/car-kit",
    "source": "Kenney Car Kit",
    "attribution": false,
-   "uses": 1
+   "uses": 10
   },
   {
    "kind": "model",
@@ -897,13 +927,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_graveyard-kit_iron-fence-border-curve",
+   "name": "lib/kenney_graveyard-kit_iron-fence-border-gate",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/graveyard-kit",
    "source": "Kenney Graveyard Kit",
    "attribution": false,
-   "uses": 4
+   "uses": 1
   },
   {
    "kind": "model",
@@ -913,7 +943,7 @@
    "url": "https://kenney.nl/assets/mini-market",
    "source": "Kenney Mini Market",
    "attribution": false,
-   "uses": 11
+   "uses": 12
   },
   {
    "kind": "model",
@@ -924,16 +954,6 @@
    "source": "TMC generated model",
    "attribution": false,
    "uses": 93
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_WetFloorSign_01",
-   "author": "Fran Calvente",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/WetFloorSign_01",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 9
   },
   {
    "kind": "model",
@@ -963,7 +983,7 @@
    "url": "https://polyhaven.com/a/electric_stove",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 11
+   "uses": 23
   },
   {
    "kind": "model",
@@ -1057,16 +1077,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/ph_propane_tank",
-   "author": "Slinc",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/propane_tank",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 62
-  },
-  {
-   "kind": "model",
    "name": "lib/ph_pull_chain_light_socket",
    "author": "Josh Dean",
    "licence": "CC0-1.0",
@@ -1107,16 +1117,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/ph_vintage_microwave",
-   "author": "Adam Nekola",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/vintage_microwave",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 12
-  },
-  {
-   "kind": "model",
    "name": "lib/ph_wooden_ladder_02",
    "author": "JN_3DPRINTINGNERD",
    "licence": "CC0-1.0",
@@ -1144,16 +1144,6 @@
    "source": "Sketchfab",
    "attribution": true,
    "uses": 5
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_dish_rack_with_dishes_ce6901",
-   "author": "HippoStance",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-ce69014964624fbb808a028e5c55d88b",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 1
   },
   {
    "kind": "model",
@@ -1217,6 +1207,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/sf_old_radiator_8a1a2e",
+   "author": "thethieme",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-8a1a2e0263aa401591c1e87d824a79ef",
+   "source": "Sketchfab",
+   "attribution": true,
+   "uses": 62
+  },
+  {
+   "kind": "model",
    "name": "lib/sf_pine_tree_d45218",
    "author": "evolveduk",
    "licence": "CC-BY-4.0",
@@ -1243,7 +1243,7 @@
    "url": "https://sketchfab.com/3d-models/none-132a8ee2af3a40d39d270fbed3d3666c",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 25
+   "uses": 13
   },
   {
    "kind": "model",

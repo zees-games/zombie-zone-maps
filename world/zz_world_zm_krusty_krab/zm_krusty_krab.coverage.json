@@ -20,9 +20,10 @@
   ]
  },
  "models": {
-  "looked_up": 87,
+  "looked_up": 91,
   "by_tier": {
-   "default": 87
+   "category": 1,
+   "default": 90
   }
  },
  "sounds": {
@@ -70,8 +71,6 @@
   ],
   "inputs_unimplemented": [
    "env_bubbles.Activate",
-   "env_tonemap_controller.SetAutoExposureMax",
-   "env_tonemap_controller.SetAutoExposureMin",
    "point_servercommand.Command"
   ],
   "surfaces_opaque": []
@@ -84,7 +83,7 @@
   "classes_unmapped": 0,
   "keys_unmapped": 2,
   "links_unresolved": 3,
-  "inputs_unimplemented": 4,
+  "inputs_unimplemented": 2,
   "surfaces_opaque": 0
  }
 }
