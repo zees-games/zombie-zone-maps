@@ -2637,6 +2637,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_foodstack",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/props.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 7
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_forkliftmachine",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -2733,7 +2743,7 @@
    "url": "https://github.com/modcommunity/dot-map",
    "source": "Modelled for dot-map",
    "attribution": false,
-   "uses": 47
+   "uses": 44
   },
   {
    "kind": "model",
@@ -2763,7 +2773,7 @@
    "url": "https://kenney.nl/assets/food-kit",
    "source": "Kenney Food Kit",
    "attribution": false,
-   "uses": 6
+   "uses": 5
   },
   {
    "kind": "model",
@@ -2773,7 +2783,7 @@
    "url": "https://kenney.nl/assets/graveyard-kit",
    "source": "Kenney Graveyard Kit",
    "attribution": false,
-   "uses": 37
+   "uses": 36
   },
   {
    "kind": "model",
@@ -2793,7 +2803,7 @@
    "url": "https://kenney.nl/assets/nature-kit",
    "source": "Kenney Nature Kit",
    "attribution": false,
-   "uses": 4
+   "uses": 2
   },
   {
    "kind": "model",

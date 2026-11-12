@@ -427,6 +427,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_boardedwindow",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/props.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 43
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_boxtruck",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -474,26 +484,6 @@
    "source": "dot-map Blender remodel",
    "attribution": false,
    "uses": 3
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_building-kit_barricade-window-c",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/building-kit",
-   "source": "Kenney Building Kit",
-   "attribution": false,
-   "uses": 42
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_nature-kit_crop_melon",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/nature-kit",
-   "source": "Kenney Nature Kit",
-   "attribution": false,
-   "uses": 1
   },
   {
    "kind": "model",
