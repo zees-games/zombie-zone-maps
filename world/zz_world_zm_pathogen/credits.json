@@ -1837,6 +1837,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_carousel",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/playground.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 13
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_chainlinkfence",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -1917,6 +1927,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/fxplushdoll",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map",
+   "source": "Modelled for dot-map",
+   "attribution": false,
+   "uses": 13
+  },
+  {
+   "kind": "model",
    "name": "lib/kenney_building-kit_column-thin",
    "author": "Kenney",
    "licence": "CC0-1.0",
@@ -1957,13 +1977,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_food-kit_can",
+   "name": "lib/kenney_food-kit_carton",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/food-kit",
    "source": "Kenney Food Kit",
    "attribution": false,
-   "uses": 25
+   "uses": 9
   },
   {
    "kind": "model",
@@ -1983,7 +2003,7 @@
    "url": "https://kenney.nl/assets/graveyard-kit",
    "source": "Kenney Graveyard Kit",
    "attribution": false,
-   "uses": 23
+   "uses": 13
   },
   {
    "kind": "model",
@@ -1997,23 +2017,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_mini-market_wall-door-rotate",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/mini-market",
-   "source": "Kenney Mini Market",
-   "attribution": false,
-   "uses": 3
-  },
-  {
-   "kind": "model",
    "name": "lib/kenney_nature-kit_cliff_diagonal_rock",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/nature-kit",
    "source": "Kenney Nature Kit",
    "attribution": false,
-   "uses": 102
+   "uses": 101
   },
   {
    "kind": "model",
@@ -2044,16 +2054,6 @@
    "source": "Kenney Survival Kit",
    "attribution": false,
    "uses": 21
-  },
-  {
-   "kind": "model",
-   "name": "lib/own_box_24x204x467_b8996a",
-   "author": "TMC (generated for dot-map)",
-   "licence": "CC0-1.0",
-   "url": "https://github.com/modcommunity/dot-map",
-   "source": "TMC generated model",
-   "attribution": false,
-   "uses": 3
   },
   {
    "kind": "model",
@@ -2097,6 +2097,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/ph_bananas",
+   "author": "Alexander Shulha",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/bananas",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
    "name": "lib/ph_barrel_stove",
    "author": "MP",
    "licence": "CC0-1.0",
@@ -2104,6 +2114,16 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 7
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_bleach_bottle",
+   "author": "James Ray Cock",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/bleach_bottle",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
   },
   {
    "kind": "model",
@@ -2253,7 +2273,7 @@
    "url": "https://polyhaven.com/a/leather_cleaner_can",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 8
+   "uses": 2
   },
   {
    "kind": "model",
@@ -2287,6 +2307,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/ph_multi_cleaner_bottle",
+   "author": "James Ray Cock",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/multi_cleaner_bottle",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
    "name": "lib/ph_namaqualand_boulder_04",
    "author": "Jenelle van Heerden",
    "licence": "CC0-1.0",
@@ -2294,16 +2324,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 4
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_old_drill_press",
-   "author": "Harsh Vardhan Singh",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/old_drill_press",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 2
   },
   {
    "kind": "model",
@@ -2337,16 +2357,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/ph_painted_wooden_chair_02",
-   "author": "Kirill Sannikov",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/painted_wooden_chair_02",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "model",
    "name": "lib/ph_plastic_crate_02",
    "author": "Fabi_G",
    "licence": "CC0-1.0",
@@ -2361,16 +2371,6 @@
    "author": "Ulan Cabanilla",
    "licence": "CC0-1.0",
    "url": "https://polyhaven.com/a/round_wooden_table_02",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 8
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_rubber_duck_toy",
-   "author": "Plat251",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/rubber_duck_toy",
    "source": "Poly Haven",
    "attribution": false,
    "uses": 8
@@ -2447,6 +2447,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/ph_wooden_bucket_01",
+   "author": "James Ray Cock",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/wooden_bucket_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 17
+  },
+  {
+   "kind": "model",
    "name": "lib/ph_wooden_crate_01",
    "author": "James Ray Cock",
    "licence": "CC0-1.0",
@@ -2477,13 +2487,23 @@
   },
   {
    "kind": "model",
+   "name": "lib/sf_classic_bicycle_lowpoly_game_ready_da6507",
+   "author": "by__Rx",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-da6507928c0c4a5c8776008cdb9f747e",
+   "source": "Sketchfab",
+   "attribution": true,
+   "uses": 1
+  },
+  {
+   "kind": "model",
    "name": "lib/sf_classic_park_bench_low_poly_01a5b6",
    "author": "Berk Gedik",
    "licence": "CC-BY-4.0",
    "url": "https://sketchfab.com/3d-models/none-01a5b64427984632bb44242da3813bb1",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 1
+   "uses": 4
   },
   {
    "kind": "model",
@@ -2653,7 +2673,7 @@
    "url": "https://sketchfab.com/3d-models/none-96534b56f0d9487db08f00f1f9301fa1",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 13
+   "uses": 12
   },
   {
    "kind": "model",

@@ -72,12 +72,8 @@
    "env_headcrabcanister.FireCanister",
    "env_physexplosion.Explode",
    "env_shooter.Shoot",
-   "env_tonemap_controller.SetAutoExposureMax",
-   "env_tonemap_controller.SetAutoExposureMin",
-   "env_tonemap_controller.SetBloomScale",
    "func_button.Press",
-   "phys_thruster.Activate",
-   "prop_dynamic.SetAnimation"
+   "phys_thruster.Activate"
   ],
   "surfaces_opaque": []
  },
@@ -89,7 +85,7 @@
   "classes_unmapped": 0,
   "keys_unmapped": 1,
   "links_unresolved": 0,
-  "inputs_unimplemented": 9,
+  "inputs_unimplemented": 5,
   "surfaces_opaque": 0
  }
 }

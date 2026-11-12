@@ -2417,11 +2417,11 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_DiamondPlate006B",
-   "author": "Lennart Demes and contributors",
+   "name": "pbr_kenney_prototype_orange_03",
+   "author": "Kenney",
    "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=DiamondPlate006B",
-   "source": "ambientCG",
+   "url": "https://kenney.nl/assets/prototype-textures",
+   "source": "Kenney",
    "attribution": false,
    "uses": 1
   },
@@ -2593,7 +2593,7 @@
    "url": "https://kenney.nl/assets/furniture-kit",
    "source": "Kenney Furniture Kit",
    "attribution": false,
-   "uses": 16
+   "uses": 18
   },
   {
    "kind": "model",
@@ -2634,6 +2634,16 @@
    "source": "dot-map Blender model",
    "attribution": false,
    "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_helifuselage",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/helicopter.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 9
   },
   {
    "kind": "model",
@@ -2693,7 +2703,7 @@
    "url": "https://github.com/modcommunity/dot-map",
    "source": "Modelled for dot-map",
    "attribution": false,
-   "uses": 52
+   "uses": 46
   },
   {
    "kind": "model",
@@ -2727,23 +2737,23 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_food-kit_can-open",
+   "name": "lib/kenney_food-kit_cooking-knife-chopping",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/food-kit",
    "source": "Kenney Food Kit",
    "attribution": false,
-   "uses": 11
+   "uses": 6
   },
   {
    "kind": "model",
-   "name": "lib/kenney_graveyard-kit_iron-fence-border-gate",
+   "name": "lib/kenney_graveyard-kit_gravestone-cross",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/graveyard-kit",
    "source": "Kenney Graveyard Kit",
    "attribution": false,
-   "uses": 18
+   "uses": 37
   },
   {
    "kind": "model",
@@ -2757,23 +2767,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_mini-market_wall-door-rotate",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/mini-market",
-   "source": "Kenney Mini Market",
-   "attribution": false,
-   "uses": 4
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_nature-kit_cliff_cornerTop_rock",
+   "name": "lib/kenney_nature-kit_statue_column",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/nature-kit",
    "source": "Kenney Nature Kit",
    "attribution": false,
-   "uses": 12
+   "uses": 4
   },
   {
    "kind": "model",
@@ -2794,6 +2794,16 @@
    "source": "Kenney Retro Urban Kit",
    "attribution": false,
    "uses": 26
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_Barrel_01",
+   "author": "Jorge Camacho",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/Barrel_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
   },
   {
    "kind": "model",
@@ -2907,6 +2917,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/ph_antique_ceramic_vase_01",
+   "author": "James Ray Cock",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/antique_ceramic_vase_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
    "name": "lib/ph_bar_chair_round_01",
    "author": "Dairon Sanchez",
    "licence": "CC0-1.0",
@@ -2957,16 +2977,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/ph_ceramic_pot",
-   "author": "Aron \u0141yczek",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/ceramic_pot",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 2
-  },
-  {
-   "kind": "model",
    "name": "lib/ph_ceramic_vase_01",
    "author": "James Ray Cock",
    "licence": "CC0-1.0",
@@ -2974,6 +2984,16 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_ceramic_vase_02",
+   "author": "James Ray Cock",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/ceramic_vase_02",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 5
   },
   {
    "kind": "model",
@@ -3004,16 +3024,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 5
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_classic_laptop",
-   "author": "Arrangemonk",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/classic_laptop",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 2
   },
   {
    "kind": "model",
@@ -3083,17 +3093,7 @@
    "url": "https://polyhaven.com/a/electric_stove",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_fire_hydrant",
-   "author": "Gon\u00e7alo Fel\u00edcio",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/fire_hydrant",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 25
+   "uses": 2
   },
   {
    "kind": "model",
@@ -3243,7 +3243,7 @@
    "url": "https://polyhaven.com/a/metal_jerrycan",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 17
+   "uses": 1
   },
   {
    "kind": "model",
@@ -3321,16 +3321,6 @@
    "author": "Greg Zaal, Jenelle van Heerden, Rico Cilliers",
    "licence": "CC0-1.0",
    "url": "https://polyhaven.com/a/moon_rock_06",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_namaqualand_boulder_06",
-   "author": "Greg Zaal, Jenelle van Heerden",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/namaqualand_boulder_06",
    "source": "Poly Haven",
    "attribution": false,
    "uses": 1
@@ -3497,16 +3487,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/ph_stone_fire_pit",
-   "author": "Sebastian Platen",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/stone_fire_pit",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 10
-  },
-  {
-   "kind": "model",
    "name": "lib/ph_street_lamp_01",
    "author": "Josh Dean",
    "licence": "CC0-1.0",
@@ -3563,7 +3543,7 @@
    "url": "https://polyhaven.com/a/vintage_microwave",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 2
+   "uses": 1
   },
   {
    "kind": "model",
@@ -3597,6 +3577,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/ph_wall_clock",
+   "author": "PierreB3D",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/wall_clock",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
    "name": "lib/ph_watering_can_metal_01",
    "author": "Charles Nderitu",
    "licence": "CC0-1.0",
@@ -3604,6 +3594,16 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_wine_barrel_01",
+   "author": "James Ray Cock",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/wine_barrel_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 3
   },
   {
    "kind": "model",
@@ -3624,6 +3624,16 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 8
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_wooden_bucket_01",
+   "author": "James Ray Cock",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/wooden_bucket_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 3
   },
   {
    "kind": "model",
@@ -3687,23 +3697,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623",
-   "author": "Libau Media",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-1986239266ee44c788fd6effe4055704",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 3
-  },
-  {
-   "kind": "model",
    "name": "lib/sf_classic_park_bench_low_poly_01a5b6",
    "author": "Berk Gedik",
    "licence": "CC-BY-4.0",
    "url": "https://sketchfab.com/3d-models/none-01a5b64427984632bb44242da3813bb1",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 2
+   "uses": 6
   },
   {
    "kind": "model",
@@ -3723,7 +3723,7 @@
    "url": "https://sketchfab.com/3d-models/none-6c95897de04143aeb5c75b7630707d27",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 9
+   "uses": 6
   },
   {
    "kind": "model",
@@ -3754,6 +3754,16 @@
    "source": "Sketchfab",
    "attribution": true,
    "uses": 13
+  },
+  {
+   "kind": "model",
+   "name": "lib/sf_fire_extinguisher_old_rusty_3d_scan_70a4fd",
+   "author": "grafi",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-70a4fdec06c64372ba3a96ae49257ce1",
+   "source": "Sketchfab",
+   "attribution": true,
+   "uses": 16
   },
   {
    "kind": "model",
@@ -3843,7 +3853,7 @@
    "url": "https://sketchfab.com/3d-models/none-61b602b7e959408f9c6c5bf6392bc4b7",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 14
+   "uses": 10
   },
   {
    "kind": "model",
@@ -3864,6 +3874,16 @@
    "source": "Sketchfab",
    "attribution": true,
    "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/sf_old_radiator_8a1a2e",
+   "author": "thethieme",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-8a1a2e0263aa401591c1e87d824a79ef",
+   "source": "Sketchfab",
+   "attribution": true,
+   "uses": 25
   },
   {
    "kind": "model",
@@ -3914,16 +3934,6 @@
    "source": "Sketchfab",
    "attribution": true,
    "uses": 26
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_toilet_132a8e",
-   "author": "HippoStance",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-132a8ee2af3a40d39d270fbed3d3666c",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 2
   },
   {
    "kind": "model",
