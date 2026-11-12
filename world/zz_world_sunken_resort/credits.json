@@ -733,7 +733,7 @@
    "url": "https://kenney.nl/assets/furniture-kit",
    "source": "Kenney Furniture Kit",
    "attribution": false,
-   "uses": 480
+   "uses": 476
   },
   {
    "kind": "model",
@@ -817,6 +817,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_kitchensink",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/household.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 5
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_lighttroffer",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -824,16 +834,6 @@
    "source": "dot-map Blender model",
    "attribution": false,
    "uses": 71
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_food-kit_carton-small",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/food-kit",
-   "source": "Kenney Food Kit",
-   "attribution": false,
-   "uses": 1
   },
   {
    "kind": "model",

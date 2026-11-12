@@ -2593,7 +2593,7 @@
    "url": "https://kenney.nl/assets/furniture-kit",
    "source": "Kenney Furniture Kit",
    "attribution": false,
-   "uses": 16
+   "uses": 14
   },
   {
    "kind": "model",
@@ -2664,6 +2664,16 @@
    "source": "dot-map Blender model",
    "attribution": false,
    "uses": 36
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_kitchensink",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/household.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 2
   },
   {
    "kind": "model",

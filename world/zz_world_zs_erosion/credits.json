@@ -947,6 +947,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_coffeemug",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/household.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 13
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_cooling_tank",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -1033,35 +1043,15 @@
    "url": "https://kenney.nl/assets/car-kit",
    "source": "Kenney Car Kit",
    "attribution": false,
-   "uses": 9
+   "uses": 4
   },
   {
    "kind": "model",
-   "name": "lib/kenney_factory-kit_door",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/factory-kit",
-   "source": "Kenney Factory Kit",
-   "attribution": false,
-   "uses": 3
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_food-kit_carton-small",
+   "name": "lib/kenney_food-kit_soda-bottle",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/food-kit",
    "source": "Kenney Food Kit",
-   "attribution": false,
-   "uses": 5
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_mini-market_fence-door-rotate",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/mini-market",
-   "source": "Kenney Mini Market",
    "attribution": false,
    "uses": 2
   },

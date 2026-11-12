@@ -813,7 +813,7 @@
    "url": "https://kenney.nl/assets/furniture-kit",
    "source": "Kenney Furniture Kit",
    "attribution": false,
-   "uses": 43
+   "uses": 31
   },
   {
    "kind": "model",
@@ -854,6 +854,16 @@
    "source": "dot-map Blender model",
    "attribution": false,
    "uses": 12
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_fridgedoor",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/household.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 44
   },
   {
    "kind": "model",
@@ -907,23 +917,23 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_car-kit_cone",
+   "name": "lib/kenney_car-kit_garbage-truck",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/car-kit",
    "source": "Kenney Car Kit",
    "attribution": false,
-   "uses": 10
+   "uses": 1
   },
   {
    "kind": "model",
-   "name": "lib/kenney_factory-kit_door",
+   "name": "lib/kenney_factory-kit_pipe-glass-large-long",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/factory-kit",
    "source": "Kenney Factory Kit",
    "attribution": false,
-   "uses": 12
+   "uses": 1
   },
   {
    "kind": "model",
@@ -934,16 +944,6 @@
    "source": "Kenney Graveyard Kit",
    "attribution": false,
    "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_mini-market_fence-door-rotate",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/mini-market",
-   "source": "Kenney Mini Market",
-   "attribution": false,
-   "uses": 12
   },
   {
    "kind": "model",
