@@ -1517,6 +1517,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_coffinlid",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/scenery.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 8
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_fireplace",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -1554,16 +1564,6 @@
    "source": "dot-map Blender remodel",
    "attribution": false,
    "uses": 5
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_graveyard-kit_gravestone-cross-large",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/graveyard-kit",
-   "source": "Kenney Graveyard Kit",
-   "attribution": false,
-   "uses": 8
   },
   {
    "kind": "model",
