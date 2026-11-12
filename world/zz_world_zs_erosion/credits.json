@@ -957,6 +957,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_keyboard",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/clutter.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 4
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_lighttroffer",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -1037,23 +1047,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_food-kit_carton",
+   "name": "lib/kenney_food-kit_carton-small",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/food-kit",
    "source": "Kenney Food Kit",
    "attribution": false,
-   "uses": 6
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_furniture-kit_computerKeyboard",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/furniture-kit",
-   "source": "Kenney Furniture Kit",
-   "attribution": false,
-   "uses": 1
+   "uses": 5
   },
   {
    "kind": "model",
@@ -1097,13 +1097,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/own_cyl_69x2x69_8a8a90",
+   "name": "lib/own_cyl_6x6x160_6a5a48",
    "author": "TMC (generated for dot-map)",
    "licence": "CC0-1.0",
    "url": "https://github.com/modcommunity/dot-map",
    "source": "TMC generated model",
    "attribution": false,
-   "uses": 3
+   "uses": 1
   },
   {
    "kind": "model",

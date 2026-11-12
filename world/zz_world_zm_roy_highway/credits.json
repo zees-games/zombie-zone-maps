@@ -787,6 +787,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_antenna",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/clutter.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 8
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_armouredcarrier",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -907,13 +917,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_food-kit_carton",
+   "name": "lib/kenney_food-kit_carton-small",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/food-kit",
    "source": "Kenney Food Kit",
    "attribution": false,
-   "uses": 4
+   "uses": 3
   },
   {
    "kind": "model",
@@ -952,16 +962,6 @@
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/nature-kit",
    "source": "Kenney Nature Kit",
-   "attribution": false,
-   "uses": 2
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_survival-kit_rock-flat-grass",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/survival-kit",
-   "source": "Kenney Survival Kit",
    "attribution": false,
    "uses": 2
   },

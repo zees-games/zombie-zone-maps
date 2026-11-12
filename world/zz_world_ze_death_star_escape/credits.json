@@ -767,6 +767,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_electricalbox",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/clutter.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 3
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_pipecluster",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -981,16 +991,6 @@
    "author": "Benny Weimer",
    "licence": "CC0-1.0",
    "url": "https://polyhaven.com/a/television_02",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_utility_box_02",
-   "author": "James Ray Cock",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/utility_box_02",
    "source": "Poly Haven",
    "attribution": false,
    "uses": 1
