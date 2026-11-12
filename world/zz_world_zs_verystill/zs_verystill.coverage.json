@@ -97,9 +97,6 @@
   ],
   "links_unresolved": [],
   "inputs_unimplemented": [
-   "env_tonemap_controller.SetAutoExposureMax",
-   "env_tonemap_controller.SetAutoExposureMin",
-   "game_text.Display",
    "point_servercommand.Command"
   ],
   "surfaces_opaque": []
@@ -112,7 +109,7 @@
   "classes_unmapped": 0,
   "keys_unmapped": 7,
   "links_unresolved": 0,
-  "inputs_unimplemented": 4,
+  "inputs_unimplemented": 1,
   "surfaces_opaque": 0
  }
 }

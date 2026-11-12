@@ -1547,6 +1547,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_handrail",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/handrail.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 33
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_light_inset",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -1623,7 +1633,7 @@
    "url": "https://kenney.nl/assets/car-kit",
    "source": "Kenney Car Kit",
    "attribution": false,
-   "uses": 4
+   "uses": 5
   },
   {
    "kind": "model",
@@ -1643,7 +1653,7 @@
    "url": "https://kenney.nl/assets/food-kit",
    "source": "Kenney Food Kit",
    "attribution": false,
-   "uses": 30
+   "uses": 19
   },
   {
    "kind": "model",
@@ -1653,7 +1663,7 @@
    "url": "https://kenney.nl/assets/graveyard-kit",
    "source": "Kenney Graveyard Kit",
    "attribution": false,
-   "uses": 38
+   "uses": 10
   },
   {
    "kind": "model",
@@ -1717,16 +1727,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/ph_WetFloorSign_01",
-   "author": "Fran Calvente",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/WetFloorSign_01",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "model",
    "name": "lib/ph_WoodenTable_01",
    "author": "Ethan Place",
    "licence": "CC0-1.0",
@@ -1747,6 +1747,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/ph_bananas",
+   "author": "Alexander Shulha",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/bananas",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
    "name": "lib/ph_bar_chair_round_01",
    "author": "Dairon Sanchez",
    "licence": "CC0-1.0",
@@ -1754,6 +1764,16 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 10
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_bleach_bottle",
+   "author": "James Ray Cock",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/bleach_bottle",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 3
   },
   {
    "kind": "model",
@@ -1774,6 +1794,26 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_brass_pot_01",
+   "author": "Rico Cilliers",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/brass_pot_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_brass_pot_02",
+   "author": "Rico Cilliers",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/brass_pot_02",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 2
   },
   {
    "kind": "model",
@@ -1844,6 +1884,16 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_electric_stove",
+   "author": "Kuutti Siitonen",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/electric_stove",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
   },
   {
    "kind": "model",
@@ -1983,7 +2033,7 @@
    "url": "https://polyhaven.com/a/leather_cleaner_can",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 9
+   "uses": 3
   },
   {
    "kind": "model",
@@ -2044,6 +2094,16 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 4
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_multi_cleaner_bottle",
+   "author": "James Ray Cock",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/multi_cleaner_bottle",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 2
   },
   {
    "kind": "model",
@@ -2313,7 +2373,7 @@
    "url": "https://polyhaven.com/a/vintage_microwave",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 2
+   "uses": 1
   },
   {
    "kind": "model",
@@ -2344,6 +2404,16 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_wooden_bucket_01",
+   "author": "James Ray Cock",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/wooden_bucket_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 9
   },
   {
    "kind": "model",
@@ -2433,7 +2503,7 @@
    "url": "https://sketchfab.com/3d-models/none-6c95897de04143aeb5c75b7630707d27",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 3
+   "uses": 1
   },
   {
    "kind": "model",
@@ -2623,7 +2693,7 @@
    "url": "https://sketchfab.com/3d-models/none-9c78bf2e37bb44a98a25db07ce749487",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 11
+   "uses": 6
   },
   {
    "kind": "model",

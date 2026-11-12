@@ -967,6 +967,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_handrail",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/handrail.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 136
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_lighttroffer",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -1013,7 +1023,7 @@
    "url": "https://github.com/modcommunity/dot-map",
    "source": "Modelled for dot-map",
    "attribution": false,
-   "uses": 1
+   "uses": 2
   },
   {
    "kind": "model",
@@ -1033,17 +1043,7 @@
    "url": "https://kenney.nl/assets/furniture-kit",
    "source": "Kenney Furniture Kit",
    "attribution": false,
-   "uses": 10
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_graveyard-kit_fence-gate",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/graveyard-kit",
-   "source": "Kenney Graveyard Kit",
-   "attribution": false,
-   "uses": 68
+   "uses": 9
   },
   {
    "kind": "model",
@@ -1137,6 +1137,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/ph_electric_stove",
+   "author": "Kuutti Siitonen",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/electric_stove",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
    "name": "lib/ph_industrial_pipe_lamp",
    "author": "Mateusz Sadek",
    "licence": "CC0-1.0",
@@ -1167,16 +1177,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/ph_leather_cleaner_can",
-   "author": "James Ray Cock",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/leather_cleaner_can",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "model",
    "name": "lib/ph_outdoor_table_chair_set_01",
    "author": "James Ray Cock",
    "licence": "CC0-1.0",
@@ -1203,17 +1203,7 @@
    "url": "https://polyhaven.com/a/propane_tank",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 6
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_rubber_duck_toy",
-   "author": "Plat251",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/rubber_duck_toy",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 1
+   "uses": 2
   },
   {
    "kind": "model",
@@ -1257,16 +1247,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/ph_vintage_microwave",
-   "author": "Adam Nekola",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/vintage_microwave",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "model",
    "name": "lib/ph_vintage_wooden_drawer_01",
    "author": "James Ray Cock",
    "licence": "CC0-1.0",
@@ -1274,6 +1254,26 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 21
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_wall_clock",
+   "author": "PierreB3D",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/wall_clock",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_wooden_bucket_01",
+   "author": "James Ray Cock",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/wooden_bucket_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
   },
   {
    "kind": "model",
@@ -1367,6 +1367,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/sf_old_radiator_8a1a2e",
+   "author": "thethieme",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-8a1a2e0263aa401591c1e87d824a79ef",
+   "source": "Sketchfab",
+   "attribution": true,
+   "uses": 4
+  },
+  {
+   "kind": "model",
    "name": "lib/sf_psx_shopping_cart_96534b",
    "author": "Brainsick Games",
    "licence": "CC-BY-4.0",
@@ -1387,23 +1397,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/sf_small_self_stand_fence_okp_9c78bf",
-   "author": "Aleksey Kozhemyakin",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-9c78bf2e37bb44a98a25db07ce749487",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 68
-  },
-  {
-   "kind": "model",
    "name": "lib/sf_toilet_132a8e",
    "author": "HippoStance",
    "licence": "CC-BY-4.0",
    "url": "https://sketchfab.com/3d-models/none-132a8ee2af3a40d39d270fbed3d3666c",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 9
+   "uses": 8
   },
   {
    "kind": "sound",
