@@ -987,6 +987,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_dockbroken",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/scenery.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 12
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_freightbutton",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -1064,16 +1074,6 @@
    "source": "Modelled for dot-map",
    "attribution": false,
    "uses": 3
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_furniture-kit_trashcan",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/furniture-kit",
-   "source": "Kenney Furniture Kit",
-   "attribution": false,
-   "uses": 7
   },
   {
    "kind": "model",
@@ -1424,6 +1424,16 @@
    "source": "Sketchfab",
    "attribution": true,
    "uses": 8
+  },
+  {
+   "kind": "model",
+   "name": "radio",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/furniture-kit",
+   "source": "Kenney Furniture Kit",
+   "attribution": false,
+   "uses": 2
   },
   {
    "kind": "sound",
