@@ -567,6 +567,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_coffeemug",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/household.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 5
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_cooling_tank",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -607,23 +617,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_food-kit_cup-coffee",
+   "name": "lib/kenney_food-kit_tomato",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/food-kit",
    "source": "Kenney Food Kit",
    "attribution": false,
-   "uses": 12
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_furniture-kit_kitchenSink",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/furniture-kit",
-   "source": "Kenney Furniture Kit",
-   "attribution": false,
-   "uses": 4
+   "uses": 11
   },
   {
    "kind": "model",

@@ -1823,7 +1823,7 @@
    "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/clutter.py",
    "source": "dot-map Blender model",
    "attribution": false,
-   "uses": 26
+   "uses": 32
   },
   {
    "kind": "model",
@@ -1947,6 +1947,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_takeoutcarton",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/household.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_wood_crate_cube",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -2004,16 +2014,6 @@
    "source": "Kenney Factory Kit",
    "attribution": false,
    "uses": 6
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_food-kit_carton-small",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/food-kit",
-   "source": "Kenney Food Kit",
-   "attribution": false,
-   "uses": 1
   },
   {
    "kind": "model",
