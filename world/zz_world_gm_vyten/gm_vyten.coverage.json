@@ -110,9 +110,6 @@
   ],
   "links_unresolved": [],
   "inputs_unimplemented": [
-   "env_tonemap_controller.SetAutoExposureMax",
-   "env_tonemap_controller.SetAutoExposureMin",
-   "env_tonemap_controller.SetBloomScale",
    "env_tonemap_controller.SetTonemapRate",
    "lua_run.RunCode"
   ],
@@ -126,7 +123,7 @@
   "classes_unmapped": 1,
   "keys_unmapped": 1,
   "links_unresolved": 0,
-  "inputs_unimplemented": 5,
+  "inputs_unimplemented": 2,
   "surfaces_opaque": 0
  }
 }

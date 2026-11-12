@@ -58,17 +58,17 @@
  "models": {
   "looked_up": 169,
   "by_tier": {
-   "category": 11,
+   "category": 12,
    "default": 138,
-   "fallback": 19,
+   "fallback": 18,
    "skybox": 1
   }
  },
  "sounds": {
   "looked_up": 8,
   "by_tier": {
-   "default": 5,
-   "fallback": 3
+   "default": 7,
+   "fallback": 1
   }
  },
  "classes": {
@@ -124,13 +124,10 @@
    "props/lg/battlefield/pont_bailey_fin.mdl",
    "props/lg/battlefield/pont_bailey_trou.mdl",
    "props_phx/mk-82_lg.mdl",
-   "props_wasteland/powertower01_lg.mdl",
    "sentry/rhib.mdl"
   ],
   "sounds_unmapped": [
-   "lg/warland/remove_kebab.wav",
-   "vehicles/crane/crane_extend_loop1.wav",
-   "vehicles/crane/crane_extend_stop.wav"
+   "lg/warland/remove_kebab.wav"
   ],
   "classes_unmapped": [],
   "keys_unmapped": [
@@ -145,36 +142,28 @@
   ],
   "links_unresolved": [],
   "inputs_unimplemented": [
-   "env_explosion.SetParent",
    "env_physexplosion.Explode",
-   "env_physexplosion.SetParent",
-   "env_tonemap_controller.SetAutoExposureMax",
-   "env_tonemap_controller.SetAutoExposureMin",
-   "env_tonemap_controller.SetBloomScale",
    "func_areaportal.Close",
    "func_areaportal.Open",
-   "info_particle_system.SetParent",
    "lua_run.RunCode",
    "lua_run.RunPassedCode",
    "phys_thruster.Activate",
    "phys_thruster.Deactivate",
    "point_spotlight.LightOff",
    "point_spotlight.LightOn",
-   "point_teleport.Teleport",
-   "prop_dynamic_override.Skin",
-   "prop_physics.DisableMotion"
+   "point_teleport.Teleport"
   ],
   "surfaces_opaque": []
  },
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 19,
-  "sounds_unmapped": 3,
+  "models_unmapped": 18,
+  "sounds_unmapped": 1,
   "classes_unmapped": 0,
   "keys_unmapped": 8,
   "links_unresolved": 0,
-  "inputs_unimplemented": 18,
+  "inputs_unimplemented": 10,
   "surfaces_opaque": 0
  }
 }

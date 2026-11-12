@@ -115,12 +115,7 @@
   "keys_unmapped": [],
   "links_unresolved": [],
   "inputs_unimplemented": [
-   "env_tonemap_controller.SetAutoExposureMax",
-   "env_tonemap_controller.SetAutoExposureMin",
-   "env_tonemap_controller.SetBloomScale",
    "env_tonemap_controller.SetTonemapRate",
-   "prop_dynamic.SetAnimation",
-   "prop_dynamic.SetDefaultAnimation",
    "prop_dynamic.SetPlaybackRate"
   ],
   "surfaces_opaque": [],
@@ -145,7 +140,7 @@
   "classes_unmapped": 0,
   "keys_unmapped": 0,
   "links_unresolved": 0,
-  "inputs_unimplemented": 7,
+  "inputs_unimplemented": 2,
   "surfaces_opaque": 0,
   "links_dangling": 10
  }

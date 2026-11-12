@@ -537,6 +537,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_handrail",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/handrail.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 40
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_light_inset",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -574,16 +584,6 @@
    "source": "Kenney Food Kit",
    "attribution": false,
    "uses": 5
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_graveyard-kit_fence-gate",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/graveyard-kit",
-   "source": "Kenney Graveyard Kit",
-   "attribution": false,
-   "uses": 28
   },
   {
    "kind": "model",
@@ -963,7 +963,7 @@
    "url": "https://sketchfab.com/3d-models/none-9c78bf2e37bb44a98a25db07ce749487",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 15
+   "uses": 3
   },
   {
    "kind": "model",
@@ -1003,7 +1003,7 @@
    "url": "https://kenney.nl/assets/sci-fi-sounds",
    "source": "Kenney Sci-Fi Sounds",
    "attribution": false,
-   "uses": 13
+   "uses": 15
   }
  ]
 }

@@ -1887,6 +1887,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_handrail",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/handrail.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 3
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_lighttroffer",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -2674,16 +2684,6 @@
    "source": "Sketchfab",
    "attribution": true,
    "uses": 12
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_small_self_stand_fence_okp_9c78bf",
-   "author": "Aleksey Kozhemyakin",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-9c78bf2e37bb44a98a25db07ce749487",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 3
   },
   {
    "kind": "model",

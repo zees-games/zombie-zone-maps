@@ -787,6 +787,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_handrail",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/handrail.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 74
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_lighttroffer",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -804,16 +814,6 @@
    "source": "Kenney Food Kit",
    "attribution": false,
    "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_graveyard-kit_fence-gate",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/graveyard-kit",
-   "source": "Kenney Graveyard Kit",
-   "attribution": false,
-   "uses": 36
   },
   {
    "kind": "model",
@@ -1104,16 +1104,6 @@
    "source": "Sketchfab",
    "attribution": true,
    "uses": 2
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_small_self_stand_fence_okp_9c78bf",
-   "author": "Aleksey Kozhemyakin",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-9c78bf2e37bb44a98a25db07ce749487",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 38
   },
   {
    "kind": "sound",
