@@ -207,6 +207,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_driftwood1",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/clutter.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 8
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_lighttroffer",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -257,23 +267,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_nature-kit_cliff_diagonal_rock",
+   "name": "lib/kenney_nature-kit_rock_tallC",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/nature-kit",
    "source": "Kenney Nature Kit",
    "attribution": false,
-   "uses": 29
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_survival-kit_rock-flat-grass",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/survival-kit",
-   "source": "Kenney Survival Kit",
-   "attribution": false,
-   "uses": 2
+   "uses": 25
   },
   {
    "kind": "model",

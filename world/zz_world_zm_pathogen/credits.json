@@ -1817,6 +1817,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_antenna",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/clutter.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 26
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_bed",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -1953,7 +1963,7 @@
    "url": "https://github.com/modcommunity/dot-map",
    "source": "Modelled for dot-map",
    "attribution": false,
-   "uses": 13
+   "uses": 9
   },
   {
    "kind": "model",
@@ -1997,13 +2007,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_food-kit_carton",
+   "name": "lib/kenney_food-kit_carton-small",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/food-kit",
    "source": "Kenney Food Kit",
    "attribution": false,
-   "uses": 9
+   "uses": 1
   },
   {
    "kind": "model",
@@ -2013,7 +2023,7 @@
    "url": "https://kenney.nl/assets/furniture-kit",
    "source": "Kenney Furniture Kit",
    "attribution": false,
-   "uses": 8
+   "uses": 7
   },
   {
    "kind": "model",
@@ -2063,7 +2073,7 @@
    "url": "https://kenney.nl/assets/retro-urban-kit",
    "source": "Kenney Retro Urban Kit",
    "attribution": false,
-   "uses": 6
+   "uses": 3
   },
   {
    "kind": "model",

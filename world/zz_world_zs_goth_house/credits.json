@@ -457,6 +457,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_partsbin",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/clutter.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 3
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_wood_crate_cube",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -484,26 +494,6 @@
    "source": "Kenney Nature Kit",
    "attribution": false,
    "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_retro-urban-kit_detail-dumpster-open",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/retro-urban-kit",
-   "source": "Kenney Retro Urban Kit",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/own_cyl_69x2x69_8a8a90",
-   "author": "TMC (generated for dot-map)",
-   "licence": "CC0-1.0",
-   "url": "https://github.com/modcommunity/dot-map",
-   "source": "TMC generated model",
-   "attribution": false,
-   "uses": 2
   },
   {
    "kind": "model",

@@ -743,7 +743,7 @@
    "url": "https://kenney.nl/assets/survival-kit",
    "source": "Kenney Survival Kit",
    "attribution": false,
-   "uses": 36
+   "uses": 35
   },
   {
    "kind": "model",
@@ -753,7 +753,7 @@
    "url": "https://kenney.nl/assets/nature-kit",
    "source": "Kenney Nature Kit",
    "attribution": false,
-   "uses": 75
+   "uses": 74
   },
   {
    "kind": "model",
@@ -784,6 +784,16 @@
    "source": "dot-map Blender model",
    "attribution": false,
    "uses": 3
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_driftwood1",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/clutter.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 7
   },
   {
    "kind": "model",
@@ -827,13 +837,23 @@
   },
   {
    "kind": "model",
+   "name": "lib/kenney_pirate-kit_tower-base",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/pirate-kit",
+   "source": "Kenney Pirate Kit",
+   "attribution": false,
+   "uses": 5
+  },
+  {
+   "kind": "model",
    "name": "lib/own_box_20x638x63_808890",
    "author": "TMC (generated for dot-map)",
    "licence": "CC0-1.0",
    "url": "https://github.com/modcommunity/dot-map",
    "source": "TMC generated model",
    "attribution": false,
-   "uses": 142
+   "uses": 137
   },
   {
    "kind": "model",

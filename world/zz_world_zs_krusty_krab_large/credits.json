@@ -557,6 +557,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_antenna",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/clutter.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_cablespool",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
