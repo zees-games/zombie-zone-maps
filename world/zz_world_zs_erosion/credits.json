@@ -967,6 +967,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_harpoon",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/props.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 4
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_keyboard",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -1047,16 +1057,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_food-kit_soda-bottle",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/food-kit",
-   "source": "Kenney Food Kit",
-   "attribution": false,
-   "uses": 2
-  },
-  {
-   "kind": "model",
    "name": "lib/kenney_nature-kit_cliff_diagonal_rock",
    "author": "Kenney",
    "licence": "CC0-1.0",
@@ -1082,16 +1082,6 @@
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/retro-urban-kit",
    "source": "Kenney Retro Urban Kit",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/own_cyl_6x6x160_6a5a48",
-   "author": "TMC (generated for dot-map)",
-   "licence": "CC0-1.0",
-   "url": "https://github.com/modcommunity/dot-map",
-   "source": "TMC generated model",
    "attribution": false,
    "uses": 1
   },
@@ -1563,7 +1553,7 @@
    "url": "https://sketchfab.com/3d-models/none-17cd007c38824321b184c763b1eec4e2",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 2
+   "uses": 1
   },
   {
    "kind": "model",

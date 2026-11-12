@@ -547,6 +547,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_cannonbarrel",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/props.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 55
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_driftwood2",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -607,23 +617,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_nature-kit_cliff_diagonal_rock",
+   "name": "lib/kenney_nature-kit_cliff_topDiagonal_rock",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/nature-kit",
    "source": "Kenney Nature Kit",
    "attribution": false,
-   "uses": 41
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_pirate-kit_cannon-mobile",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/pirate-kit",
-   "source": "Kenney Pirate Kit",
-   "attribution": false,
-   "uses": 6
+   "uses": 26
   },
   {
    "kind": "model",
@@ -634,16 +634,6 @@
    "source": "Kenney Retro Urban Kit",
    "attribution": false,
    "uses": 16
-  },
-  {
-   "kind": "model",
-   "name": "lib/own_cyl_30x105x254_3a3a38",
-   "author": "TMC (generated for dot-map)",
-   "licence": "CC0-1.0",
-   "url": "https://github.com/modcommunity/dot-map",
-   "source": "TMC generated model",
-   "attribution": false,
-   "uses": 34
   },
   {
    "kind": "model",

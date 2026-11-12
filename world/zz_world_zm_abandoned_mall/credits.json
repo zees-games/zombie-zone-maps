@@ -1827,6 +1827,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_foodstack",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/props.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 63
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_jerseybarrier",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -1917,13 +1927,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_food-kit_orange",
+   "name": "lib/kenney_food-kit_turkey",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/food-kit",
    "source": "Kenney Food Kit",
    "attribution": false,
-   "uses": 37
+   "uses": 2
   },
   {
    "kind": "model",
@@ -1944,16 +1954,6 @@
    "source": "Kenney Mini Arcade",
    "attribution": false,
    "uses": 7
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_nature-kit_crop_melon",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/nature-kit",
-   "source": "Kenney Nature Kit",
-   "attribution": false,
-   "uses": 15
   },
   {
    "kind": "model",
@@ -2514,16 +2514,6 @@
    "source": "Sketchfab",
    "attribution": true,
    "uses": 9
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_fallout_4_nuka_cola_bottle_17cd00",
-   "author": "Aike",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-17cd007c38824321b184c763b1eec4e2",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 13
   },
   {
    "kind": "model",
