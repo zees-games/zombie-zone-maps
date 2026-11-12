@@ -70,8 +70,7 @@
    "func_water_analog.Open",
    "path_track.EnablePath",
    "point_servercommand.Command",
-   "point_spotlight.LightOn",
-   "prop_dynamic.SetAnimation"
+   "point_spotlight.LightOn"
   ],
   "surfaces_opaque": [
    "aeris/aerisss",
@@ -89,7 +88,7 @@
   "classes_unmapped": 0,
   "keys_unmapped": 0,
   "links_unresolved": 0,
-  "inputs_unimplemented": 5,
+  "inputs_unimplemented": 4,
   "surfaces_opaque": 5
  }
 }
