@@ -1,0 +1,73 @@
+{
+ "id": "gm_mallparking",
+ "name": "Gm Mallparking",
+ "source": "gm_mallparking.bsp",
+ "author": "bean",
+ "page": "https://steamcommunity.com/sharedfiles/filedetails/?id=2619660952",
+ "licence": "no licence stated; removed on request",
+ "blurb": "Hold out against the horde.",
+ "mode": "survival",
+ "survivors": 8,
+ "survivor_class": "info_player_start",
+ "zombie_classes": [],
+ "solid_classes": [
+  "func_brush"
+ ],
+ "flood_step": 0.3,
+ "thin_walls": true,
+ "toys": [
+  [
+   "barrel",
+   "spawn",
+   3,
+   -2
+  ],
+  [
+   "tyre",
+   "spawn",
+   -3,
+   2
+  ]
+ ],
+ "items_auto": true,
+ "auto_lights": {
+  "spacing": 6.0,
+  "height": 2.3,
+  "range": 7.0,
+  "energy": 0.9
+ },
+ "prop_models": {
+  "models/props_interiors/furniture_chair03a.mdl": "furniture_chair",
+  "models/props_junk/cardboard_box002a.mdl": "cars_sedan",
+  "models/props_wasteland/controlroom_desk001a.mdl": "furniture_table",
+  "models/props_junk/cardboard_box001b.mdl": "cars_sedan",
+  "models/props_junk/cardboard_box001a.mdl": "cars_sedan",
+  "models/props_junk/cardboard_box003b.mdl": "cars_sedan",
+  "models/props_junk/cardboard_box002b.mdl": "cars_sedan",
+  "models/props_c17/chair_office01a.mdl": "furniture_chair",
+  "models/props_junk/cardboard_box004a.mdl": "cars_sedan",
+  "models/props_interiors/furniture_couch01a.mdl": "furniture_lounge_sofa",
+  "models/props_junk/garbage_sixpackbox01a_fullsheet.mdl": "survival_box",
+  "models/props_lab/monitor02.mdl": "furniture_television_modern",
+  "models/props_junk/cardboard_box003a.mdl": "cars_sedan",
+  "models/props_junk/pushcart01a.mdl": "cars_sedan",
+  "models/props_wasteland/controlroom_desk001b.mdl": "furniture_table",
+  "models/props_junk/wood_pallet001a.mdl": "urban_pallet",
+  "models/props_junk/plasticcrate01a.mdl": "survival_box"
+ },
+ "max_boxes": 3500,
+ "generated": true,
+ "keep_treads": true,
+ "nav_min_depth": 1,
+ "drop_lids": true,
+ "survive_seconds": 600,
+ "posts": 6,
+ "caches_near_posts": true,
+ "drop_ramps": 0.9,
+ "greedy_floors": true,
+ "thin_lintels": true,
+ "drop_small": [
+  0.15,
+  1.5
+ ]
+}
