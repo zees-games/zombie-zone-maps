@@ -17,10 +17,9 @@
   "nearest_photo": []
  },
  "models": {
-  "looked_up": 72,
+  "looked_up": 71,
   "by_tier": {
-   "default": 71,
-   "fallback": 1
+   "default": 71
   }
  },
  "sounds": {
@@ -55,9 +54,7 @@
  "lists": {
   "textures_unmapped": [],
   "textures_flat": [],
-  "models_unmapped": [
-   ""
-  ],
+  "models_unmapped": [],
   "sounds_unmapped": [],
   "classes_unmapped": [],
   "keys_unmapped": [
@@ -80,7 +77,7 @@
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 1,
+  "models_unmapped": 0,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 5,

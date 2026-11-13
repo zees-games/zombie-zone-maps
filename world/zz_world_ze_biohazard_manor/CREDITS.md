@@ -248,8 +248,8 @@ Every texture of this map is a free replacement; the original map's textures and
 - pbr (pbr_PaintedPlaster008): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=PaintedPlaster008
 - pbr (pbr_Wood051): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Wood051
 - pbr (pbr_worn_plaster_wall): polyhaven, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/worn_plaster_wall
-- pbr (pbr_Ground097): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Ground097
-- pbr (pbr_kenney_prototype_orange_03): Kenney, Kenney, CC0-1.0, https://kenney.nl/assets/prototype-textures
+- pbr (pbr_Fabric044): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Fabric044
+- pbr (pbr_Bricks067): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Bricks067
 - pbr (pbr_slab_tiles): polyhaven, Dario Barresi, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/slab_tiles
 - pbr (pbr_Tiles120): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Tiles120
 - pbr (pbr_white_stucco_02): polyhaven, Dimitrios Savva, CC0-1.0, https://polyhaven.com/a/white_stucco_02
@@ -263,13 +263,11 @@ Every texture of this map is a free replacement; the original map's textures and
 - pbr (pbr_CorrugatedSteel007C): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=CorrugatedSteel007C
 - pbr (pbr_Wood045): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Wood045
 - pbr (pbr_rusty_metal_shutter): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/rusty_metal_shutter
-- pbr (pbr_Bricks067): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Bricks067
 - pbr (pbr_ThatchedRoof002A): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=ThatchedRoof002A
 - pbr (pbr_rectangular_facade_tiles): polyhaven, Charlotte Baglioni, CC0-1.0, https://polyhaven.com/a/rectangular_facade_tiles
 
 # Model stand-ins
 
-- cardboard_box: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
 - lib/dm_chainlinkfence: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/fences.py
 - lib/dm_cinder_block: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/cinder_block.py
 - lib/dm_coffinlid: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/scenery.py
@@ -305,6 +303,7 @@ Every texture of this map is a free replacement; the original map's textures and
 - lib/dm_server_rack: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/server_rack.py
 - lib/dm_sheetrock: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/props.py
 - lib/dm_speakercluster: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/scenery.py
+- lib/dm_weaponknife: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/weapons.py
 - lib/dm_wirebundle: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/clutter.py
 - lib/dm_wood_crate_cube: dot-map Blender remodel, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/wood_crate.py
 - lib/fxadpanel: Modelled for dot-map, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
