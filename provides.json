@@ -31,9 +31,23 @@
         },
         {
             "kind": "map",
+            "id": "gm_valley",
+            "name": "Gm Valley",
+            "scene": "maps/gm_valley.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
             "id": "rp_deadcity",
             "name": "Rp Deadcity",
             "scene": "maps/rp_deadcity.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "rp_southside",
+            "name": "Rp Southside",
+            "scene": "maps/rp_southside.json",
             "map_kind": "survival"
         },
         {
