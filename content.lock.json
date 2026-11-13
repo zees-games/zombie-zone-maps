@@ -4,6 +4,14 @@
 	"origin": "https://dev.dotgames.org/content",
 	"packs": [
 		{
+			"id": "gamemann/zombie-zone-maps",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "7493a18e1666de5c3fc3ef2c84ead544ba15c1d651dfe78f36236dcfd49282a3",
+			"optional": false,
+			"version": "0.1.17"
+		},
+		{
 			"id": "gamemann/zz-maps",
 			"into": "",
 			"kind": "pack",
