@@ -103,5 +103,7 @@
  "drop_small": [
   0.15,
   1.5
- ]
+ ],
+ "min_coverage": 0.5,
+ "min_coverage_why": "41% of the drawn area is displacement terrain carried by the heightfield (survivors walk 74.7% of it), not boxes; walk_check lost 0.0000"
 }
