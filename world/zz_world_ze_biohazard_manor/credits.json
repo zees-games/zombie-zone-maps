@@ -2407,23 +2407,23 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_Ground097",
+   "name": "pbr_Fabric044",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Ground097",
+   "url": "https://ambientcg.com/view?id=Fabric044",
    "source": "ambientCG",
    "attribution": false,
    "uses": 2
   },
   {
    "kind": "texture",
-   "name": "pbr_kenney_prototype_orange_03",
-   "author": "Kenney",
+   "name": "pbr_Bricks067",
+   "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/prototype-textures",
-   "source": "Kenney",
+   "url": "https://ambientcg.com/view?id=Bricks067",
+   "source": "ambientCG",
    "attribution": false,
-   "uses": 1
+   "uses": 2
   },
   {
    "kind": "texture",
@@ -2557,16 +2557,6 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_Bricks067",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Bricks067",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "texture",
    "name": "pbr_ThatchedRoof002A",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
@@ -2584,16 +2574,6 @@
    "source": "polyhaven",
    "attribution": false,
    "uses": 2
-  },
-  {
-   "kind": "model",
-   "name": "cardboard_box",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/furniture-kit",
-   "source": "Kenney Furniture Kit",
-   "attribution": false,
-   "uses": 14
   },
   {
    "kind": "model",
@@ -2737,6 +2717,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_weaponknife",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/weapons.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_wood_crate_cube",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -2784,6 +2774,16 @@
    "source": "Kenney Food Kit",
    "attribution": false,
    "uses": 5
+  },
+  {
+   "kind": "model",
+   "name": "lib/kenney_furniture-kit_bathroomSinkSquare",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/furniture-kit",
+   "source": "Kenney Furniture Kit",
+   "attribution": false,
+   "uses": 13
   },
   {
    "kind": "model",

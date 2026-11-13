@@ -39,7 +39,6 @@ Every texture of this map is a free replacement; the original map's textures and
 - pbr (pbr_Concrete013): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Concrete013
 - pbr (pbr_Concrete042B): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Concrete042B
 - pbr (pbr_Asphalt003): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=Asphalt003
-- pbr (pbr_kenney_prototype_orange_03): Kenney, Kenney, CC0-1.0, https://kenney.nl/assets/prototype-textures
 - pbr (pbr_WoodFloor022): ambientCG, Lennart Demes and contributors, CC0-1.0, https://ambientcg.com/view?id=WoodFloor022
 
 # Model stand-ins
