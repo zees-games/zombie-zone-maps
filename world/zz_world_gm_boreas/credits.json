@@ -77,16 +77,6 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_Tiles011",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Tiles011",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 68
-  },
-  {
-   "kind": "texture",
    "name": "pbr_Snow012",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
@@ -737,10 +727,10 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_Tiles091",
+   "name": "pbr_Fabric049",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Tiles091",
+   "url": "https://ambientcg.com/view?id=Fabric049",
    "source": "ambientCG",
    "attribution": false,
    "uses": 34
@@ -1007,16 +997,6 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_Grass005",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Grass005",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "texture",
    "name": "pbr_PaintedWood009C",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
@@ -1037,10 +1017,10 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_Tiles135D",
+   "name": "pbr_Fabric039",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Tiles135D",
+   "url": "https://ambientcg.com/view?id=Fabric039",
    "source": "ambientCG",
    "attribution": false,
    "uses": 12
@@ -1113,7 +1093,7 @@
    "url": "https://ambientcg.com/view?id=PaintedPlaster008",
    "source": "ambientCG",
    "attribution": false,
-   "uses": 1
+   "uses": 10
   },
   {
    "kind": "texture",
@@ -1144,16 +1124,6 @@
    "source": "polyhaven",
    "attribution": false,
    "uses": 1
-  },
-  {
-   "kind": "texture",
-   "name": "pbr_Metal024",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Metal024",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 9
   },
   {
    "kind": "texture",
@@ -1247,16 +1217,6 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_WoodFloor022",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=WoodFloor022",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "texture",
    "name": "pbr_red_plaster_weathered",
    "author": "Amal Kumar",
    "licence": "CC0-1.0",
@@ -1264,6 +1224,16 @@
    "source": "polyhaven",
    "attribution": false,
    "uses": 1
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Tiles011",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Tiles011",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 11
   },
   {
    "kind": "texture",
@@ -1276,6 +1246,16 @@
    "uses": 2
   },
   {
+   "kind": "texture",
+   "name": "pbr_PaintedMetal010",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=PaintedMetal010",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 14
+  },
+  {
    "kind": "model",
    "name": "barrel",
    "author": "Kenney",
@@ -1283,7 +1263,7 @@
    "url": "https://kenney.nl/assets/survival-kit",
    "source": "Kenney Survival Kit",
    "attribution": false,
-   "uses": 449
+   "uses": 715
   },
   {
    "kind": "model",
@@ -1293,7 +1273,7 @@
    "url": "https://kenney.nl/assets/furniture-kit",
    "source": "Kenney Furniture Kit",
    "attribution": false,
-   "uses": 558
+   "uses": 299
   },
   {
    "kind": "model",
@@ -1303,7 +1283,7 @@
    "url": "https://kenney.nl/assets/nature-kit",
    "source": "Kenney Nature Kit",
    "attribution": false,
-   "uses": 137
+   "uses": 118
   },
   {
    "kind": "model",
@@ -1313,7 +1293,17 @@
    "url": "https://kenney.nl/assets/factory-kit",
    "source": "Kenney Factory Kit",
    "attribution": false,
-   "uses": 467
+   "uses": 400
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_antenna",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/clutter.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 267
   },
   {
    "kind": "model",
@@ -1347,6 +1337,26 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_coffeemug",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/household.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 21
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_controlmonitor",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/scenery.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 36
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_cooling_tank",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -1357,13 +1367,43 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_freightbutton",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/industrial.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 16
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_handrail",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/handrail.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 485
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_harddrive",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/props.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 40
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_lighttroffer",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
    "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py",
    "source": "dot-map Blender model",
    "attribution": false,
-   "uses": 1072
+   "uses": 1080
   },
   {
    "kind": "model",
@@ -1413,7 +1453,7 @@
    "url": "https://github.com/modcommunity/dot-map",
    "source": "Modelled for dot-map",
    "attribution": false,
-   "uses": 85
+   "uses": 132
   },
   {
    "kind": "model",
@@ -1447,23 +1487,23 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_food-kit_can",
+   "name": "lib/kenney_food-kit_egg-cup",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/food-kit",
    "source": "Kenney Food Kit",
    "attribution": false,
-   "uses": 79
+   "uses": 21
   },
   {
    "kind": "model",
-   "name": "lib/kenney_graveyard-kit_fence-gate",
+   "name": "lib/kenney_graveyard-kit_iron-fence-border-gate",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/graveyard-kit",
    "source": "Kenney Graveyard Kit",
    "attribution": false,
-   "uses": 341
+   "uses": 4
   },
   {
    "kind": "model",
@@ -1477,13 +1517,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_mini-market_fence-door-rotate",
+   "name": "lib/kenney_mini-market_shelf-boxes",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/mini-market",
    "source": "Kenney Mini Market",
    "attribution": false,
-   "uses": 34
+   "uses": 30
   },
   {
    "kind": "model",
@@ -1503,7 +1543,7 @@
    "url": "https://kenney.nl/assets/retro-urban-kit",
    "source": "Kenney Retro Urban Kit",
    "attribution": false,
-   "uses": 18
+   "uses": 8
   },
   {
    "kind": "model",
@@ -1543,7 +1583,7 @@
    "url": "https://polyhaven.com/a/Shelf_01",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 4
+   "uses": 5
   },
   {
    "kind": "model",
@@ -1551,16 +1591,6 @@
    "author": "Kirill Sannikov",
    "licence": "CC0-1.0",
    "url": "https://polyhaven.com/a/Sofa_01",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 2
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_WetFloorSign_01",
-   "author": "Fran Calvente",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/WetFloorSign_01",
    "source": "Poly Haven",
    "attribution": false,
    "uses": 2
@@ -1613,7 +1643,7 @@
    "url": "https://polyhaven.com/a/bleach_bottle",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 6
+   "uses": 17
   },
   {
    "kind": "model",
@@ -1623,7 +1653,7 @@
    "url": "https://polyhaven.com/a/bolt_action_rifle_7_62",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 8
+   "uses": 7
   },
   {
    "kind": "model",
@@ -1713,7 +1743,7 @@
    "url": "https://polyhaven.com/a/electric_stove",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 3
+   "uses": 4
   },
   {
    "kind": "model",
@@ -1783,7 +1813,7 @@
    "url": "https://polyhaven.com/a/leather_cleaner_can",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 36
+   "uses": 16
   },
   {
    "kind": "model",
@@ -1817,6 +1847,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/ph_multi_cleaner_bottle",
+   "author": "James Ray Cock",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/multi_cleaner_bottle",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 9
+  },
+  {
+   "kind": "model",
    "name": "lib/ph_namaqualand_boulder_04",
    "author": "Jenelle van Heerden",
    "licence": "CC0-1.0",
@@ -1824,16 +1864,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 2
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_namaqualand_boulder_05",
-   "author": "Jenelle van Heerden, Dario Barresi",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/namaqualand_boulder_05",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 22
   },
   {
    "kind": "model",
@@ -1867,6 +1897,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/ph_painted_wooden_cabinet",
+   "author": "Kirill Sannikov",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/painted_wooden_cabinet",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
    "name": "lib/ph_potted_plant_04",
    "author": "James Ray Cock",
    "licence": "CC0-1.0",
@@ -1883,7 +1923,7 @@
    "url": "https://polyhaven.com/a/propane_tank",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 37
+   "uses": 28
   },
   {
    "kind": "model",
@@ -1963,7 +2003,7 @@
    "url": "https://polyhaven.com/a/television_02",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 134
+   "uses": 83
   },
   {
    "kind": "model",
@@ -2003,7 +2043,7 @@
    "url": "https://polyhaven.com/a/vintage_microwave",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 3
+   "uses": 2
   },
   {
    "kind": "model",
@@ -2024,6 +2064,26 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 16
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_wall_clock",
+   "author": "PierreB3D",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/wall_clock",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 8
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_wooden_bucket_01",
+   "author": "James Ray Cock",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/wooden_bucket_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 44
   },
   {
    "kind": "model",
@@ -2053,7 +2113,7 @@
    "url": "https://polyhaven.com/a/wooden_display_shelves_01",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 67
+   "uses": 66
   },
   {
    "kind": "model",
@@ -2087,16 +2147,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/sf_coffee_mug_6c9589",
-   "author": "The Lister",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-6c95897de04143aeb5c75b7630707d27",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 4
-  },
-  {
-   "kind": "model",
    "name": "lib/sf_dumpster_cyberpunk_game_assets_b0d030",
    "author": "EXHALE",
    "licence": "CC-BY-4.0",
@@ -2104,16 +2154,6 @@
    "source": "Sketchfab",
    "attribution": true,
    "uses": 2
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_fallout_4_nuka_cola_bottle_17cd00",
-   "author": "Aike",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-17cd007c38824321b184c763b1eec4e2",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 4
   },
   {
    "kind": "model",
@@ -2193,7 +2233,7 @@
    "url": "https://sketchfab.com/3d-models/none-8a1a2e0263aa401591c1e87d824a79ef",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 20
+   "uses": 29
   },
   {
    "kind": "model",
@@ -2247,16 +2287,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/sf_small_self_stand_fence_okp_9c78bf",
-   "author": "Aleksey Kozhemyakin",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-9c78bf2e37bb44a98a25db07ce749487",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 88
-  },
-  {
-   "kind": "model",
    "name": "lib/sf_soviet_fridge_zil_moskva_ea1ea4",
    "author": "crazyshroomz",
    "licence": "CC-BY-4.0",
@@ -2273,7 +2303,7 @@
    "url": "https://sketchfab.com/3d-models/none-132a8ee2af3a40d39d270fbed3d3666c",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 23
+   "uses": 16
   },
   {
    "kind": "model",
