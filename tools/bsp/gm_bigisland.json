@@ -51,5 +51,7 @@
  "drop_small": [
   0.15,
   1.5
- ]
+ ],
+ "min_coverage": 0.3,
+ "min_coverage_why": "an island: 42% of the drawn area is displacement terrain carried by the heightfield, and the open sea and distant scenery are not boxes; walk_check lost 0.0000"
 }
