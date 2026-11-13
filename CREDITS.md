@@ -4,6 +4,10 @@ Every map here is a conversion of a community map: the author is credited with a
 
 | Map | Author | Page | Licence | Note |
 | --- | --- | --- | --- | --- |
+| `gm_mallparking` Gm Mallparking | bean | https://steamcommunity.com/sharedfiles/filedetails/?id=2619660952 | no licence stated; removed on request |  |
+| `gm_shambles` Gm Shambles | Fartomaticatron | https://steamcommunity.com/sharedfiles/filedetails/?id=151544081 | no licence stated; removed on request |  |
+| `rp_asheville` Rp Asheville | VanderAGSN | https://steamcommunity.com/sharedfiles/filedetails/?id=2595136841 | none stated (page: content use with attribution) |  |
+| `rp_deadcity` Rp Deadcity | NuclearGhost (level recreated from GSC Game World's S.T.A.L.K.E.R. Oblivion Lost) | https://steamcommunity.com/sharedfiles/filedetails/?id=1864156937 | none stated |  |
 | `sunken_resort` Sunken Resort | Praisemantas | https://steamcommunity.com/sharedfiles/filedetails/?id=3376822715 | no licence stated |  |
 | `ze_biohazard_manor` Biohazard Manor | aeris004 | https://gamebanana.com/mods/130643 | CC BY-NC-ND 4.0 |  |
 | `ze_blackmesa_escape` Black Mesa Escape | Bill Smauz | https://gamebanana.com/mods/130645 | CC BY-NC-ND 4.0 |  |
