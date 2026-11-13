@@ -10,6 +10,13 @@
     "entries": [
         {
             "kind": "map",
+            "id": "gm_bigisland",
+            "name": "Gm Bigisland",
+            "scene": "maps/gm_bigisland.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
             "id": "gm_mallparking",
             "name": "Gm Mallparking",
             "scene": "maps/gm_mallparking.json",
