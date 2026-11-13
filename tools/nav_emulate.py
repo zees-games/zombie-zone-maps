@@ -25,13 +25,26 @@ def _bounds(box):
     return [at[0] - ex, at[1] - sy / 2, at[2] - ez, at[0] + ex, at[1] + sy / 2, at[2] + ez]
 
 
+def _floors_by_top(floors):
+    """The floors in 0.25 m bands of their top, so _is_floor looks at the few within 0.12 m of a box top
+    instead of every floor (a 160k-box terrain map spent hours scanning them)."""
+    by = {}
+    for f in floors:
+        by.setdefault(int(math.floor(f[4] / 0.25)), []).append(f)
+    return by
+
+
 def _is_floor(b, floors):
     top = b[4]
-    for f in floors:
-        if abs(top - f[4]) > 0.12:
-            continue
-        if b[0] < f[2] and b[3] > f[0] and b[2] < f[3] and b[5] > f[1]:
-            return True
+    if not isinstance(floors, dict):
+        floors = _floors_by_top(floors)
+    k = int(math.floor(top / 0.25))
+    for kk in (k - 1, k, k + 1):
+        for f in floors.get(kk, ()):
+            if abs(top - f[4]) > 0.12:
+                continue
+            if b[0] < f[2] and b[3] > f[0] and b[2] < f[3] and b[5] > f[1]:
+                return True
     return False
 
 
@@ -56,11 +69,12 @@ class Graph:
         rise per metre as DotNpcNavBuilder.add_points joins them."""
         self.spacing, self.clearance = spacing, clearance
         obs = []
+        by_top = _floors_by_top(floors)
         for box in boxes:
             if not box.get("solid", True) or box.get("gate") or box.get("kind") == "sky" or ("nav" in box and not box["nav"]):
                 continue
             b = _bounds(box)
-            if "nav" not in box and _is_floor(b, floors):
+            if "nav" not in box and _is_floor(b, by_top):
                 continue
             obs.append(b)
         for p in props:
