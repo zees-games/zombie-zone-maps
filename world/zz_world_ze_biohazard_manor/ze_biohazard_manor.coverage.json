@@ -33,8 +33,7 @@
  "sounds": {
   "looked_up": 19,
   "by_tier": {
-   "default": 17,
-   "fallback": 2
+   "default": 19
   }
  },
  "classes": {
@@ -56,10 +55,7 @@
   "textures_unmapped": [],
   "textures_flat": [],
   "models_unmapped": [],
-  "sounds_unmapped": [
-   "ambient/creatures/rats3.wav",
-   "bot.stuck1"
-  ],
+  "sounds_unmapped": [],
   "classes_unmapped": [],
   "keys_unmapped": [],
   "links_unresolved": [],
@@ -81,7 +77,7 @@
   "textures_unmapped": 0,
   "textures_flat": 0,
   "models_unmapped": 0,
-  "sounds_unmapped": 2,
+  "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 0,
   "links_unresolved": 0,
