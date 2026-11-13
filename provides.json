@@ -10,6 +10,27 @@
     "entries": [
         {
             "kind": "map",
+            "id": "gm_mallparking",
+            "name": "Gm Mallparking",
+            "scene": "maps/gm_mallparking.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "gm_shambles",
+            "name": "Gm Shambles",
+            "scene": "maps/gm_shambles.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "rp_deadcity",
+            "name": "Rp Deadcity",
+            "scene": "maps/rp_deadcity.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
             "id": "sunken_resort",
             "name": "Sunken Resort",
             "scene": "maps/sunken_resort.json",
