@@ -37,15 +37,7 @@
  },
  "keys": {
   "catalogue": true,
-  "unmapped": {
-   "npc_enemyfinder": [
-    "FieldOfView",
-    "MaxSearchDist",
-    "StartOn",
-    "freepass_movetolerance",
-    "freepass_refillrate"
-   ]
-  }
+  "unmapped": {}
  },
  "links": {
   "total": 7,
@@ -57,13 +49,7 @@
   "models_unmapped": [],
   "sounds_unmapped": [],
   "classes_unmapped": [],
-  "keys_unmapped": [
-   "npc_enemyfinder.FieldOfView",
-   "npc_enemyfinder.MaxSearchDist",
-   "npc_enemyfinder.StartOn",
-   "npc_enemyfinder.freepass_movetolerance",
-   "npc_enemyfinder.freepass_refillrate"
-  ],
+  "keys_unmapped": [],
   "links_unresolved": [],
   "inputs_unimplemented": [
    "aiscripted_schedule.StartSchedule",
@@ -80,7 +66,7 @@
   "models_unmapped": 0,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
-  "keys_unmapped": 5,
+  "keys_unmapped": 0,
   "links_unresolved": 0,
   "inputs_unimplemented": 5,
   "surfaces_opaque": 0
