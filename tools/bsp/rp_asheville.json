@@ -1,0 +1,76 @@
+{
+ "id": "rp_asheville",
+ "name": "Rp Asheville",
+ "source": "rp_asheville.bsp",
+ "author": "VanderAGSN",
+ "page": "https://steamcommunity.com/sharedfiles/filedetails/?id=2595136841",
+ "licence": "none stated (page: content use with attribution)",
+ "blurb": "Hold out against the horde.",
+ "mode": "survival",
+ "survivors": 8,
+ "survivor_class": "info_player_start",
+ "zombie_classes": [],
+ "solid_classes": [
+  "func_brush"
+ ],
+ "flood_step": 0.3,
+ "thin_walls": true,
+ "toys": [
+  [
+   "barrel",
+   "spawn",
+   3,
+   -2
+  ],
+  [
+   "tyre",
+   "spawn",
+   -3,
+   2
+  ]
+ ],
+ "items_auto": true,
+ "auto_lights": {
+  "spacing": 6.0,
+  "height": 2.3,
+  "range": 7.0,
+  "energy": 0.9
+ },
+ "prop_models": {
+  "models/props_placeable/radio_box.mdl": "survival_box",
+  "models/props_rpd/desk_plaque01.mdl": "furniture_table",
+  "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_002_76_d.mdl": "survival_box",
+  "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_004_32x64_low.mdl": "survival_box",
+  "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_003_48_low.mdl": "survival_box",
+  "models/vanderagsn/chainlink_fence_001/expos_chainlink_fence_gate_001_64_door.mdl": "survival_fence",
+  "models/vanderagsn/mjolnirsdk_autocombines/rp_asheville/doors/toilet_door_01a.mdl": "furniture_toilet",
+  "models/props_debris/tv_monitor01.mdl": "furniture_television_modern",
+  "models/props_unique/jukebox01_body.mdl": "survival_box",
+  "models/props_unique/jukebox01.mdl": "survival_box",
+  "models/props_c17/playground_carousel01.mdl": "cars_sedan",
+  "models/props_industrial/largetoolbox.mdl": "survival_box",
+  "models/props_st/st_car_hoist.mdl": "cars_sedan",
+  "models/props_st/st_car_hoist_ramp.mdl": "cars_sedan",
+  "models/props_fairgrounds/traffic_barrel.mdl": "survival_barrel",
+  "models/props/cs_militia/housefence_door.mdl": "survival_fence",
+  "models/props/de_nuke/hr_nuke/nuke_cargo_crane/nuke_cargo_crane_hook.mdl": "cars_sedan",
+  "models/vanderagsn/rp_asheville/fixes/c_expos_fence_gate001_256.mdl": "survival_fence",
+  "models/items/car_battery01.mdl": "cars_sedan",
+  "models/vanderagsn/rp_asheville/fixes/table_monitor_02s_ui.mdl": "furniture_table"
+ },
+ "max_boxes": 3500,
+ "generated": true,
+ "keep_treads": true,
+ "nav_min_depth": 1,
+ "drop_lids": true,
+ "survive_seconds": 600,
+ "posts": 6,
+ "caches_near_posts": true,
+ "drop_ramps": 0.9,
+ "greedy_floors": true,
+ "thin_lintels": true,
+ "drop_small": [
+  0.15,
+  1.5
+ ]
+}

@@ -5,20 +5,18 @@
  "sha256": "08676e9d0b91269346f4b8f437e6747c82db57b9b87e5a37a5bc2e5d8eeccce2",
  "textures": {
   "looked_up": 223,
-  "drawn": 230,
+  "drawn": 228,
   "by_tier": {
    "addon": 97,
    "default": 106,
-   "fallback": 20
+   "game": 20
   },
   "free_by_tier": {
-   "addon": 201,
-   "default": 28
+   "addon": 191,
+   "default": 36
   },
   "nearest_photo": [
-   "boreas/areaportals/gradients",
    "boreas/concrete/concretefloor005a",
-   "boreas/effects/skybox_mountainrange",
    "boreas/metal/forest_metal_02c",
    "boreas/metal/metalceiling005a",
    "boreas/metal/metalcrate001ab_orange",
@@ -41,18 +39,9 @@
    "boreas/plaster/plasterwall043d",
    "boreas/plaster/plasterwall046b",
    "boreas/props/funicularbuttons",
-   "boreas/props/funicularmonitor",
-   "boreas/props/funicularmonitor_additive",
-   "boreas/props/labtube",
    "boreas/props/mailboxwood01a",
    "boreas/props/mainelevatorbuttons",
-   "boreas/props/mainelevatormonitor",
-   "boreas/props/mainelevatormonitor_additive",
-   "boreas/props/monitor",
    "boreas/props/siloelevatorbuttons",
-   "boreas/props/siloelevatormonitor",
-   "boreas/props/siloelevatormonitor_additive",
-   "boreas/storefront_template/storefront_template001b",
    "boreas/tile/tilefloor009a",
    "boreas/tile/tilefloor011a",
    "boreas/tile/tilefloor012a",
@@ -115,11 +104,12 @@
   ]
  },
  "models": {
-  "looked_up": 514,
+  "looked_up": 542,
   "by_tier": {
-   "category": 43,
-   "default": 444,
-   "fallback": 26,
+   "category": 65,
+   "default": 452,
+   "fallback": 1,
+   "game": 23,
    "skybox": 1
   }
  },
@@ -161,58 +151,10 @@
   "unresolved": 3
  },
  "lists": {
-  "textures_unmapped": [
-   "BOREAS/AREAPORTALS/GRADIENTS",
-   "BOREAS/EFFECTS/BLACKFADE01",
-   "BOREAS/EFFECTS/MONITORSCANLINEOVERLAY",
-   "BOREAS/EFFECTS/SKYBOX_MOUNTAINRANGE",
-   "BOREAS/PROPS/FUNICULARBUTTONS",
-   "BOREAS/PROPS/FUNICULARMONITOR",
-   "BOREAS/PROPS/FUNICULARMONITOR_ADDITIVE",
-   "BOREAS/PROPS/LABTUBE",
-   "BOREAS/PROPS/MAINELEVATORBUTTONS",
-   "BOREAS/PROPS/MAINELEVATORMONITOR",
-   "BOREAS/PROPS/MAINELEVATORMONITOR_ADDITIVE",
-   "BOREAS/PROPS/MONITOR",
-   "BOREAS/PROPS/SILOELEVATORBUTTONS",
-   "BOREAS/PROPS/SILOELEVATORMONITOR",
-   "BOREAS/PROPS/SILOELEVATORMONITOR_ADDITIVE",
-   "BOREAS/STOREFRONT_TEMPLATE/STOREFRONT_TEMPLATE001B",
-   "BOREAS/VEHICLE/RUBBERTRAINFLOOR001A",
-   "BOREAS/VEHICLE/RUBBERTRAINFLOOR002A",
-   "PROPS/PAPERMAP002A",
-   "PROPS/PAPERMAP003A"
-  ],
-  "textures_flat": [
-   "boreas/effects/blackfade01"
-  ],
+  "textures_unmapped": [],
+  "textures_flat": [],
   "models_unmapped": [
-   "boreas/exterior/road.mdl",
-   "boreas/radarstation/radome.mdl",
-   "crow.mdl",
-   "gantry_crane/crane_controlbox.mdl",
-   "magnusson_teleporter_off.mdl",
-   "props_c17/hospital_ivstand01.mdl",
-   "props_c17/hospital_surgerylight01.mdl",
-   "props_c17/pushbroom.mdl",
-   "props_lab/cleaver.mdl",
-   "props_lab/crematorcase.mdl",
-   "props_lab/crystalbulk.mdl",
-   "props_lab/labpart.mdl",
-   "props_lab/ladel.mdl",
-   "props_lab/miniteleport.mdl",
-   "props_lab/plotter.mdl",
-   "props_lab/soupprep.mdl",
-   "props_lab/teleportbulkeli.mdl",
-   "props_mining/antlion_detector.mdl",
-   "props_silo/fuel_cask.mdl",
-   "props_silo/silo_server_a.mdl",
-   "props_silo/silo_server_b.mdl",
-   "props_silo/silo_server_c.mdl",
-   "props_silo/silo_server_d.mdl",
-   "props_silo/welding_helmet.mdl",
-   "seagull.mdl",
-   "vehicles/inner_pod_rotator.mdl"
+   "boreas/exterior/road.mdl"
   ],
   "sounds_unmapped": [
    "artefact.attach",
@@ -243,21 +185,14 @@
    "env_entity_dissolver.Dissolve",
    "env_physexplosion.Explode",
    "env_shake.Amplitude",
-   "env_tonemap_controller.SetAutoExposureMax",
-   "env_tonemap_controller.SetAutoExposureMin",
-   "env_tonemap_controller.SetBloomScale",
    "func_areaportalwindow.SetFadeEndDistance",
    "func_areaportalwindow.SetFadeStartDistance",
    "func_rotating.Alpha",
    "info_target.Alpha",
    "lua_run.RunCode",
-   "prop_dynamic.SetAnimation",
-   "prop_dynamic.SetDefaultAnimation",
    "prop_dynamic.SetPlaybackRate"
   ],
   "surfaces_opaque": [
-   "boreas/effects/blackfade01",
-   "boreas/effects/monitorscanlineoverlay",
    "boreas/props/funicularmonitor_additive",
    "boreas/props/mainelevatormonitor_additive",
    "boreas/props/siloelevatormonitor_additive",
@@ -265,14 +200,14 @@
   ]
  },
  "counts": {
-  "textures_unmapped": 20,
-  "textures_flat": 1,
-  "models_unmapped": 26,
+  "textures_unmapped": 0,
+  "textures_flat": 0,
+  "models_unmapped": 1,
   "sounds_unmapped": 6,
   "classes_unmapped": 1,
   "keys_unmapped": 7,
   "links_unresolved": 3,
-  "inputs_unimplemented": 14,
-  "surfaces_opaque": 6
+  "inputs_unimplemented": 9,
+  "surfaces_opaque": 4
  }
 }

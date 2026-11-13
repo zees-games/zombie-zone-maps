@@ -1,0 +1,19 @@
+# ws15 (2026-11-13): stand-ins for the models gm_boreas and gm_fork use and no default row names. Nearest-shape only; no author asset is shipped.
+(^|/)(pushbroom|cleaver|ladel|welding_helmet|labpart|plotter|flare)\.mdl$	bucket	Kenney Survival Kit	https://kenney.nl/assets/survival-kit	Kenney	CC0-1.0
+(^|/)(hospital_ivstand01|hospital_surgerylight01)\.mdl$	signpost	Kenney Survival Kit	https://kenney.nl/assets/survival-kit	Kenney	CC0-1.0
+(^|/)(silo_server_[a-d]|crematorcase|crystalbulk|teleportbulkeli|miniteleport|magnusson_teleporter_off|crane_controlbox|antlion_detector|soupprep|inner_pod_rotator)\.mdl$	cabinet	Kenney Survival Kit	https://kenney.nl/assets/survival-kit	Kenney	CC0-1.0
+(^|/)(fuel_cask|gaspump001a)\.mdl$	barrel	Kenney Survival Kit	https://kenney.nl/assets/survival-kit	Kenney	CC0-1.0
+(^|/)(radome|end_parliament_dome)\.mdl$	rock	Kenney Survival Kit	https://kenney.nl/assets/survival-kit	Kenney	CC0-1.0
+(^|/)(canal_dock0[23]a|silo_tower01)\.mdl$	crate_large	Kenney Survival Kit	https://kenney.nl/assets/survival-kit	Kenney	CC0-1.0
+(^|/)(mount_connection001a|trainstation_ornament00[12])\.mdl$	crate	Kenney Survival Kit	https://kenney.nl/assets/survival-kit	Kenney	CC0-1.0
+(^|/)flatcar\.mdl$	vehicles/truck	Kenney Survival Kit	https://kenney.nl/assets/survival-kit	Kenney	CC0-1.0
+# ws15: rp_asheville Valve/Source-engine props -> Kenney stand-ins (author-made vanderagsn/* models stay unmapped)
+(^|/)props_cemetery/grave_0[1-8]\.mdl$	rock	Kenney Survival Kit	https://kenney.nl/assets/survival-kit	Kenney	CC0-1.0
+(^|/)props/de_nuke/hr_nuke/curbs_001/curb_straight_001_\d+\.mdl$	crate	Kenney Survival Kit	https://kenney.nl/assets/survival-kit	Kenney	CC0-1.0
+(^|/)props/de_dust/hr_dust/dust_trims/.*\.mdl$	crate	Kenney Survival Kit	https://kenney.nl/assets/survival-kit	Kenney	CC0-1.0
+(^|/)props/de_nuke/hr_nuke/nuke_(electric_panel|machinery|roof_ac|fire_emergency)/.*\.mdl$	cabinet	Kenney Survival Kit	https://kenney.nl/assets/survival-kit	Kenney	CC0-1.0
+(^|/)props/de_nuke/hr_nuke/nuke_industrial_props/.*\.mdl$	crate_large	Kenney Survival Kit	https://kenney.nl/assets/survival-kit	Kenney	CC0-1.0
+(^|/)props/de_nuke/hr_nuke/nuke_silo_001/.*\.mdl$	barrel	Kenney Survival Kit	https://kenney.nl/assets/survival-kit	Kenney	CC0-1.0
+(^|/)(vehicles/civ_pickup|vehicles/humvee)\.mdl$	vehicles/truck	Kenney Survival Kit	https://kenney.nl/assets/survival-kit	Kenney	CC0-1.0
+(^|/)(props_equipment/(cooler|diesel_pump)|props_downtown/cigarettemachine|props_urban/outhouse001|props_inbound/lathe0[12]|props_industrial/welder|props_c17/factorymachine01)\.mdl$	cabinet	Kenney Survival Kit	https://kenney.nl/assets/survival-kit	Kenney	CC0-1.0
+(^|/)(props_mill/wood_stack|props_highway/plywood_02|static_props/grain_bag_01a|props_misc/(tarp_hanging|standing_tarp_narrow))\.mdl$	crate	Kenney Survival Kit	https://kenney.nl/assets/survival-kit	Kenney	CC0-1.0

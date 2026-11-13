@@ -727,10 +727,10 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_Asphalt003",
+   "name": "pbr_Concrete034",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Asphalt003",
+   "url": "https://ambientcg.com/view?id=Concrete034",
    "source": "ambientCG",
    "attribution": false,
    "uses": 3
@@ -1647,13 +1647,23 @@
   },
   {
    "kind": "model",
+   "name": "barrel",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/survival-kit",
+   "source": "Kenney Survival Kit",
+   "attribution": false,
+   "uses": 58
+  },
+  {
+   "kind": "model",
    "name": "bookcase",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/furniture-kit",
    "source": "Kenney Furniture Kit",
    "attribution": false,
-   "uses": 56
+   "uses": 52
   },
   {
    "kind": "model",
@@ -1663,17 +1673,7 @@
    "url": "https://kenney.nl/assets/nature-kit",
    "source": "Kenney Nature Kit",
    "attribution": false,
-   "uses": 1214
-  },
-  {
-   "kind": "model",
-   "name": "crate_large",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/survival-kit",
-   "source": "Kenney Survival Kit",
-   "attribution": false,
-   "uses": 24
+   "uses": 1193
   },
   {
    "kind": "model",
@@ -1683,7 +1683,7 @@
    "url": "https://kenney.nl/assets/factory-kit",
    "source": "Kenney Factory Kit",
    "attribution": false,
-   "uses": 80
+   "uses": 73
   },
   {
    "kind": "model",
@@ -1693,7 +1693,17 @@
    "url": "https://kenney.nl/assets/graveyard-kit",
    "source": "Kenney Graveyard Kit",
    "attribution": false,
-   "uses": 69
+   "uses": 44
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_boardedwindow",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/props.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 73
   },
   {
    "kind": "model",
@@ -1704,6 +1714,16 @@
    "source": "dot-map Blender model",
    "attribution": false,
    "uses": 27
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_carousel",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/playground.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 1
   },
   {
    "kind": "model",
@@ -1727,6 +1747,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_coffinlid",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/scenery.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 50
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_cooling_tank",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
@@ -1737,13 +1767,43 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_ductrun",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/clutter.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 17
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_freightbutton",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/industrial.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 5
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_handrail",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/handrail.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 47
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_lighttroffer",
    "author": "TMC (modelled for dot-map)",
    "licence": "CC0-1.0",
    "url": "https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py",
    "source": "dot-map Blender model",
    "attribution": false,
-   "uses": 111
+   "uses": 114
   },
   {
    "kind": "model",
@@ -1783,17 +1843,17 @@
    "url": "https://github.com/modcommunity/dot-map",
    "source": "Modelled for dot-map",
    "attribution": false,
-   "uses": 3
+   "uses": 2
   },
   {
    "kind": "model",
-   "name": "lib/kenney_building-kit_barricade-window-c",
+   "name": "lib/kenney_building-kit_column-thin",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/building-kit",
    "source": "Kenney Building Kit",
    "attribution": false,
-   "uses": 91
+   "uses": 18
   },
   {
    "kind": "model",
@@ -1824,16 +1884,6 @@
    "source": "Kenney Mini Arcade",
    "attribution": false,
    "uses": 16
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_mini-market_wall-door-rotate",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/mini-market",
-   "source": "Kenney Mini Market",
-   "attribution": false,
-   "uses": 29
   },
   {
    "kind": "model",
@@ -1967,16 +2017,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/ph_namaqualand_boulder_06",
-   "author": "Greg Zaal, Jenelle van Heerden",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/namaqualand_boulder_06",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 5
-  },
-  {
-   "kind": "model",
    "name": "lib/ph_ocean_buoy",
    "author": "Mateusz Sadek",
    "licence": "CC0-1.0",
@@ -2017,6 +2057,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/ph_propane_tank",
+   "author": "Slinc",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/propane_tank",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
    "name": "lib/ph_shrub_02",
    "author": "Rico Cilliers",
    "licence": "CC0-1.0",
@@ -2024,16 +2074,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 92
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_stone_fire_pit",
-   "author": "Sebastian Platen",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/stone_fire_pit",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 5
   },
   {
    "kind": "model",
@@ -2133,7 +2173,7 @@
    "url": "https://sketchfab.com/3d-models/none-01a5b64427984632bb44242da3813bb1",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 11
+   "uses": 40
   },
   {
    "kind": "model",
@@ -2293,7 +2333,7 @@
    "url": "https://sketchfab.com/3d-models/none-9c78bf2e37bb44a98a25db07ce749487",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 46
+   "uses": 30
   },
   {
    "kind": "model",

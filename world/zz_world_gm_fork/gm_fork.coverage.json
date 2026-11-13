@@ -8,7 +8,8 @@
   "drawn": 260,
   "by_tier": {
    "addon": 120,
-   "default": 137
+   "default": 135,
+   "game": 2
   },
   "free_by_tier": {
    "addon": 239,
@@ -125,11 +126,12 @@
   ]
  },
  "models": {
-  "looked_up": 276,
+  "looked_up": 295,
   "by_tier": {
-   "category": 14,
-   "default": 244,
-   "fallback": 14,
+   "category": 25,
+   "default": 252,
+   "fallback": 3,
+   "game": 11,
    "skybox": 4
   }
  },
@@ -161,18 +163,7 @@
   "models_unmapped": [
    "fork/railroads/curve_90_2048a.mdl",
    "fork/railroads/switch_1024a.mdl",
-   "fork/railroads/switch_1024a_switch.mdl",
-   "props_docks/canal_dock02a.mdl",
-   "props_docks/canal_dock03a.mdl",
-   "props_junk/flare.mdl",
-   "props_rooftop/end_parliament_dome.mdl",
-   "props_silo/fuel_cask.mdl",
-   "props_silo/silo_tower01.mdl",
-   "props_trainstation/flatcar.mdl",
-   "props_trainstation/mount_connection001a.mdl",
-   "props_trainstation/trainstation_ornament001.mdl",
-   "props_trainstation/trainstation_ornament002.mdl",
-   "props_wasteland/gaspump001a.mdl"
+   "fork/railroads/switch_1024a_switch.mdl"
   ],
   "sounds_unmapped": [
    "town.d1_town_02_squeekmove1"
@@ -181,24 +172,19 @@
   "keys_unmapped": [],
   "links_unresolved": [],
   "inputs_unimplemented": [
-   "env_tonemap_controller.SetAutoExposureMax",
-   "env_tonemap_controller.SetAutoExposureMin",
-   "env_tonemap_controller.SetBloomScale",
-   "lua_run.RunCode",
-   "prop_dynamic.SetAnimation",
-   "prop_dynamic.SetDefaultAnimation"
+   "lua_run.RunCode"
   ],
   "surfaces_opaque": []
  },
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 14,
+  "models_unmapped": 3,
   "sounds_unmapped": 1,
   "classes_unmapped": 0,
   "keys_unmapped": 0,
   "links_unresolved": 0,
-  "inputs_unimplemented": 6,
+  "inputs_unimplemented": 1,
   "surfaces_opaque": 0
  }
 }
