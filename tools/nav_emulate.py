@@ -172,7 +172,20 @@ class Graph:
     def nearest(self, x, y, z, radius, flat=False):
         """The nearest point within radius (3-D, or on the ground plane when flat), as the game finds it."""
         best, bd = -1, radius * radius
-        for i, p in enumerate(self.pts):
+        grid = getattr(self, "_grid", None)
+        if grid is None or self._grid_n != len(self.pts):
+            # A 1 m hash of the points: the scan below was O(points) per call, hours on a 300k-point map.
+            grid = {}
+            for i, p in enumerate(self.pts):
+                grid.setdefault((int(math.floor(p[0])), int(math.floor(p[2]))), []).append(i)
+            self._grid, self._grid_n = grid, len(self.pts)
+        cand = []
+        for gx in range(int(math.floor(x - radius)), int(math.floor(x + radius)) + 1):
+            for gz in range(int(math.floor(z - radius)), int(math.floor(z + radius)) + 1):
+                cand.extend(grid.get((gx, gz), ()))
+        cand.sort()    # index order, so a tie still goes to the later point as the full scan did
+        for i in cand:
+            p = self.pts[i]
             if abs(p[0] - x) > radius or abs(p[2] - z) > radius:
                 continue
             d = (p[0] - x) ** 2 + (p[2] - z) ** 2 + (0 if flat else (p[1] - y) ** 2)
