@@ -6,7 +6,8 @@
 # With STORE_SITE the slices the stamps name (and their dependencies) are then uploaded through that site's pack API
 # (tools/upload_store.py; slice versions are h-hashes, which publish_pack.sh refuses), skipping what STORE_ORIGIN
 # (default https://dotgames.org) already serves. Prod: STORE_SITE=https://moddingcommunity.com with gamemann's creator token
-# (~/.config/dot/creator-token-prod); dev: https://tmcdev.net. The site signs each manifest.
+# (~/.config/dot/creator-token-prod); dev: https://tmcdev.net. The site signs each manifest. A version the site once
+# FAILED is never taken again: list it in tools/store_burnt.txt and the slice moves to a new version.
 HERE="$(cd "$(dirname "$0")" && pwd)"
 BSP="${DOTBSP_PATH:-$HERE/../../dot-map-convert}"
 OUT="${STORE_PROJECT:-$HERE/../.stores/project}"
@@ -17,7 +18,7 @@ while IFS=$'\t' read -r id key; do
     m="$HERE/../world/zz_world_$id/$id.json"
     [ -f "$m" ] && packs+=("$m")
 done < <(grep -v '^#' "$HERE/convert/ship.tsv")
-python3 -P "$BSP/bsp.py" storepack "${packs[@]}" --out "$OUT" --dist "$DIST" ${STORE_KEY:+--key "$STORE_KEY"} || exit
+python3 -P "$BSP/bsp.py" storepack "${packs[@]}" --out "$OUT" --dist "$DIST" --burnt "$HERE/store_burnt.txt" ${STORE_KEY:+--key "$STORE_KEY"} || exit
 [ -n "${STORE_SITE:-}" ] || exit 0
 [ -s "${STORE_TOKEN_FILE:-}" ] || { echo "ship_store: STORE_SITE needs STORE_TOKEN_FILE (a creator token of the slice owner)" >&2; exit 2; }
 exec python3 -P "$HERE/upload_store.py" "${packs[@]}" --site "$STORE_SITE" --token-file "$STORE_TOKEN_FILE" --project "$OUT" \
