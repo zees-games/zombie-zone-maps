@@ -1383,7 +1383,17 @@
    "url": "https://kenney.nl/assets/nature-kit",
    "source": "Kenney Nature Kit",
    "attribution": false,
-   "uses": 12
+   "uses": 8
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_boardedwindow",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/props.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 45
   },
   {
    "kind": "model",
@@ -1414,6 +1424,16 @@
    "source": "dot-map Blender model",
    "attribution": false,
    "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_dockbroken",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/scenery.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 19
   },
   {
    "kind": "model",
@@ -1467,16 +1487,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_building-kit_barricade-window-c",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/building-kit",
-   "source": "Kenney Building Kit",
-   "attribution": false,
-   "uses": 41
-  },
-  {
-   "kind": "model",
    "name": "lib/kenney_car-kit_cone",
    "author": "Kenney",
    "licence": "CC0-1.0",
@@ -1484,16 +1494,6 @@
    "source": "Kenney Car Kit",
    "attribution": false,
    "uses": 4
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_graveyard-kit_gravestone-roof",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/graveyard-kit",
-   "source": "Kenney Graveyard Kit",
-   "attribution": false,
-   "uses": 2
   },
   {
    "kind": "model",
