@@ -1023,7 +1023,7 @@
    "url": "https://kenney.nl/assets/furniture-kit",
    "source": "Kenney Furniture Kit",
    "attribution": false,
-   "uses": 56
+   "uses": 55
   },
   {
    "kind": "model",
@@ -1053,7 +1053,7 @@
    "url": "https://kenney.nl/assets/nature-kit",
    "source": "Kenney Nature Kit",
    "attribution": false,
-   "uses": 21
+   "uses": 8
   },
   {
    "kind": "model",
@@ -1083,7 +1083,17 @@
    "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/clutter.py",
    "source": "dot-map Blender model",
    "attribution": false,
-   "uses": 67
+   "uses": 63
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_foodstack",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/props.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 38
   },
   {
    "kind": "model",
@@ -1147,23 +1157,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_food-kit_soda-can",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/food-kit",
-   "source": "Kenney Food Kit",
-   "attribution": false,
-   "uses": 6
-  },
-  {
-   "kind": "model",
    "name": "lib/kenney_graveyard-kit_iron-fence-border-gate",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/graveyard-kit",
    "source": "Kenney Graveyard Kit",
    "attribution": false,
-   "uses": 12
+   "uses": 1
   },
   {
    "kind": "model",
@@ -1183,7 +1183,7 @@
    "url": "https://github.com/modcommunity/dot-map",
    "source": "TMC generated model",
    "attribution": false,
-   "uses": 82
+   "uses": 83
   },
   {
    "kind": "model",
@@ -1393,7 +1393,7 @@
    "url": "https://polyhaven.com/a/television_02",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 7
+   "uses": 6
   },
   {
    "kind": "model",
@@ -1454,16 +1454,6 @@
    "source": "Sketchfab",
    "attribution": true,
    "uses": 26
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_fallout_4_nuka_cola_bottle_17cd00",
-   "author": "Aike",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-17cd007c38824321b184c763b1eec4e2",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 7
   },
   {
    "kind": "model",
