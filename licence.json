@@ -309,6 +309,19 @@
   },
   {
     "paths": [
+      "maps/rp_deadcity.json",
+      "maps/hulls/rp_deadcity.",
+      "world/zz_world_rp_deadcity/"
+    ],
+    "licence": "none stated",
+    "exception": "credited-community-map",
+    "title": "Rp Deadcity",
+    "author": "NuclearGhost (level recreated from GSC Game World's S.T.A.L.K.E.R. Oblivion Lost)",
+    "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1864156937",
+    "removal_contact": "https://github.com/zees-games/zombie-zone-maps/issues"
+  },
+  {
+    "paths": [
       "maps/zm_roy_highway.json",
       "maps/hulls/zm_roy_highway.",
       "world/zz_world_zm_roy_highway/"
