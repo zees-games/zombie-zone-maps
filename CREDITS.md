@@ -4,8 +4,9 @@ Every map here is a conversion of a community map: the author is credited with a
 
 | Map | Author | Page | Licence | Note |
 | --- | --- | --- | --- | --- |
-| `gm_mallparking` Gm Mallparking | bean | https://steamcommunity.com/sharedfiles/filedetails/?id=2619660952 | no licence stated; removed on request |  |
-| `gm_shambles` Gm Shambles | Fartomaticatron | https://steamcommunity.com/sharedfiles/filedetails/?id=151544081 | no licence stated; removed on request |  |
+| `gm_bigisland` Gm Bigisland | Stinger21 (Matt Westphal) and Hiyougami (Jack Parsons), LEAKTEK | https://steamcommunity.com/sharedfiles/filedetails/?id=169600867 | none stated |  |
+| `gm_mallparking` Gm Mallparking | bean | https://steamcommunity.com/sharedfiles/filedetails/?id=2619660952 | none stated, Steam Workshop page |  |
+| `gm_shambles` Gm Shambles | Fartomaticatron | https://steamcommunity.com/sharedfiles/filedetails/?id=151544081 | none stated, Steam Workshop page |  |
 | `rp_asheville` Rp Asheville | VanderAGSN | https://steamcommunity.com/sharedfiles/filedetails/?id=2595136841 | none stated (page: content use with attribution) |  |
 | `rp_deadcity` Rp Deadcity | NuclearGhost (level recreated from GSC Game World's S.T.A.L.K.E.R. Oblivion Lost) | https://steamcommunity.com/sharedfiles/filedetails/?id=1864156937 | none stated |  |
 | `sunken_resort` Sunken Resort | Praisemantas | https://steamcommunity.com/sharedfiles/filedetails/?id=3376822715 | no licence stated |  |
