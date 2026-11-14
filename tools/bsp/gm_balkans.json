@@ -2,6 +2,8 @@
  "id": "gm_balkans",
  "name": "Gm Balkans",
  "source": "gm_balkans.bsp",
+ "min_coverage": 0.3,
+ "min_coverage_why": "68% of the drawn area is displacement terrain carried by the heightfield, not boxes; walk_check lost 0.0000",
  "author": "Lg (Steam profile lg_designer)",
  "page": "https://steamcommunity.com/sharedfiles/filedetails/?id=1307357127",
  "licence": "none stated, Steam Workshop page",
