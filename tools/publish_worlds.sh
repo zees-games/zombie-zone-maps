@@ -51,7 +51,7 @@ for wid in want or sorted(per):
         print("publish_worlds: skip %s: licence.json names no world/zz_world_%s/" % (wid, wid), file=sys.stderr); continue
     if own is None:
         sys.exit("publish_worlds: licence.json has no own-content entry (paths [\"\"], no exception) to license provides.json")
-    json.dump(per[wid] + [dict(own, paths=["provides.json"])], open(os.path.join(tmp, wid + ".json"), "w"), indent=2)
+    json.dump(per[wid] + [dict(own, paths=["licence.json", "provides.json"])], open(os.path.join(tmp, wid + ".json"), "w"), indent=2)
     json.dump({"schema": 1, "title": "Zombie Zone world: " + wid, "kinds": ["map"], "games": ["gamemann/game-zombie-zone"],
                "entries": []}, open(os.path.join(tmp, wid + ".provides.json"), "w"), indent=2)
     print(wid)
