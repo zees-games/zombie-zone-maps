@@ -7,11 +7,19 @@
 HERE="$(cd "$(dirname "$0")" && pwd)"
 GAME="${GAME:-$HERE/../../game-zombie-zone}"
 TMP="$(mktemp)"
-# A world's licence names its model library as ../../.stores/model-library beside the pack, which from the game's res://world/<pack>
-# is the game's own .stores: without that link no stand-in loads and every document gets 0 boxes (check_worlds then fails 21 worlds).
+# solid_props.gd reads every library model from the game's .stores/model-library by absolute path (GLTFDocument), never
+# through res:// and never through a world's licence model_store (a path relative to wherever the world was converted).
+# Through res:// a model with a .import (the shared store holds some) loads only in a checkout whose .godot imported it:
+# elsewhere ResourceLoader.exists() is true, load() fails and the prop was dropped silently, so the counts followed the
+# checkout (08404a0: gm_balkans 763 -> 2434). The script fails when a solid model does not load. An empty .stores
+# directory (a bootstrap or hv preflight leaves one) is replaced by the link for the run, or every model is "missing"; the
+# empty directory comes back on exit, because a link left there makes hv/gpu.sh upload the whole 5.8G store (--copy-links).
 LINKED=
-if [ ! -e "$GAME/.stores" ]; then ln -s "$(cd "$HERE/.." && pwd)/.stores" "$GAME/.stores" && LINKED=1; fi
-trap 'rm -f "$TMP"; [ -n "$LINKED" ] && rm -f "$GAME/.stores"' EXIT
+STORES="$(cd "$HERE/.." && pwd)/.stores"
+[ -d "$GAME/.stores" ] && [ ! -L "$GAME/.stores" ] && rmdir "$GAME/.stores" 2>/dev/null
+if [ ! -e "$GAME/.stores" ]; then ln -s "$STORES" "$GAME/.stores" && LINKED=1; fi
+[ -d "$GAME/.stores/model-library" ] || { echo "solid_props: $GAME/.stores/model-library is missing (link $STORES there)" >&2; exit 1; }
+trap 'rm -f "$TMP"; [ -n "$LINKED" ] && rm -f "$GAME/.stores" && mkdir "$GAME/.stores"' EXIT
 # Every document naming a world, or those of the ids given that do (a map with no drawn world has no props to box).
 set -- $(python3 -P - "$HERE/../maps" "$@" <<'PY'
 import glob, json, os, sys
