@@ -1,49 +1,106 @@
 # zombie-zone-maps
 
-The maps for [**game-zombie-zone**](https://github.com/zees-games/game-zombie-zone): a three-map exodus, *Blackout*, from a corner shop through a container depot to the end of a pier, and six survival maps, four of them big ones built for a dozen survivors or more: a high school, a shopping mall, a ballpark and a relief camp in the woods. Nine maps, plus the practice street built into the game.
+The maps for [game-zombie-zone](https://github.com/zees-games/game-zombie-zone), a zombie survival game. Nine maps of our own: a three-map exodus called *Blackout* (corner shop, container depot, pier) and six survival maps. 42 more are converted from community maps.
 
-Every map is a **JSON document**, not a scene. A server reads the documents in its map directory and sends the one it is playing to every client when the map changes, so players need no map files at all and a new map is one file dropped into a directory. [`maps/README.md`](maps/README.md) is the format.
+A map is a JSON document, not a scene. The server reads the documents in its map directory and sends the current map to every client, so players need no map files. To add a map, drop one file in the directory. The format is in [maps/README.md](maps/README.md).
 
 ## Using it
 
-[dot-bootstrap](https://github.com/modcommunity/dot-bootstrap) clones this repository next to game-zombie-zone and links it into the game as `maps/`, so `./game.sh` in game-zombie-zone plays these maps with nothing else to do. On a server they are delivered as a pack of their own, which the server owner names in their map config.
+[dot-bootstrap](https://github.com/modcommunity/dot-bootstrap) clones this repository next to game-zombie-zone and links it in as `maps/`. Run `./game.sh` in game-zombie-zone and these maps are there. On a server they are a separate pack, and the server owner names it in the map config.
 
-## The maps
+## Our maps
 
 | Map | Mode | What it is |
 | --- | --- | --- |
-| `zz_blackout_1` (Corner Shop) | exodus | A high street at night, an alley with a stash, a laundromat, and a square cut in half by a locked fence: cut the lock and hold on while everything that heard it comes |
-| `zz_blackout_2` (The Depot) | exodus | A container yard, a warehouse of racks, and a loading shutter that only opens from inside, slowly and loudly |
-| `zz_blackout_3` (The Pier) | exodus, finale | A seafront camp at dusk and a pier out over the water: radio the boat from the end and hold the pier for ninety seconds |
-| `zz_high_school` (Westbrook High) | survival, 12 | A school at night: a hallway end to end, eight classrooms, a library, a gym and a cafeteria, every door and window boarded (21 barricades), the car park and buses south and the football field north |
-| `zz_mall` (Riverside Galleria) | survival, 14 | A shopping mall: a concourse with sixteen shops (a grocery, a pharmacy, furniture, electronics, books, toys, clothes, a diner), a food court with fountains, and eight ways in from the car park all round |
-| `zz_stadium` (Harbor Park) | survival, 16 | A ballpark under six floodlight masts: the diamond, the stands, the dugouts, and a concourse the horde floods from the car park; the team holds the field while the six tunnels and two dugout tunnels hold |
-| `zz_relief_camp` (Relief Camp) | survival, 10 | An evacuation camp in a clearing: rows of tents, a field hospital, trucks, a water tank and a watchtower behind a plywood wall with four gates and four patched holes, the woods right up to it |
-| `zz_lot` (Parking Lot) | survival | A walled car park with a kiosk in the middle, rows of cars and four lamp posts |
-| `zz_chapel` (Chapel Yard) | survival | A graveyard in fog, crypts to put your back to, and a chapel with a barricaded door at each end |
+| `zz_blackout_1` (Corner Shop) | exodus | A high street at night, an alley, a laundromat and a square split by a locked fence. Cut the lock and hold on |
+| `zz_blackout_2` (The Depot) | exodus | A container yard and a warehouse of racks, with a loading shutter that opens only from inside |
+| `zz_blackout_3` (The Pier) | exodus, finale | A seafront camp at dusk and a pier. Radio the boat from the end and hold the pier for ninety seconds |
+| `zz_high_school` (Westbrook High) | survival, 12 | A night school with eight classrooms, a library, gym and cafeteria, every door and window boarded |
+| `zz_mall` (Riverside Galleria) | survival, 14 | A mall with sixteen shops, a food court and eight ways in from the car park |
+| `zz_stadium` (Harbor Park) | survival, 16 | A ballpark under six floodlight masts: diamond, stands, dugouts and tunnels |
+| `zz_relief_camp` (Relief Camp) | survival, 10 | An evacuation camp in a clearing: tents, a field hospital and a watchtower behind a plywood wall |
+| `zz_lot` (Parking Lot) | survival | A walled car park with a kiosk, rows of cars and four lamp posts |
+| `zz_chapel` (Chapel Yard) | survival | A graveyard in fog with crypts and a chapel barricaded at each end |
 
-The number after "survival" is the team the map is built for; stand-ins fill to it. How a survival map is held is the server's choice (`zz_survival`): ten escalating waves by default, or days and nights, or a clock; every survival map can be held any of the three ways, and the big ones carry a daylight for the days.
+The number after "survival" is the team size the map is built for; stand-ins fill the rest. The server decides how a survival map is held (`zz_survival`): ten waves by default, days and nights, or a clock. Every survival map supports all three.
 
-An exodus map names the next one (`next`), so a won map leads to the next and the last one hands over to the map vote. A lost map is played again, a few times, before the server moves on.
+An exodus map names the next one, so a won map leads on and the last hands over to the map vote. A lost map is replayed a few times before the server moves on.
 
-## How they are made
+## Converted community maps
 
-`tools/build_maps.py` writes every document in `maps/`. A map there is a list of regions (rectangles a person can stand in), and the builder makes the rest from them: each region's floor, a wall on every edge that faces nothing, a ceiling over a room, a lintel over a doorway, and the ground the zombies walk, which is the regions themselves. Then the cars, the racks, the gravestones and the things lying about.
+Each keeps the author's layout. No texture or model of the original ships: materials map to the game's own surfaces and props to its CC0 catalogue. The full entries are in [licence.json](licence.json) and [CREDITS.md](CREDITS.md). Maps whose licence does not allow redistribution are not shipped (see `tools/convert/excluded.txt`).
+
+| Map | Author | Source | Licence |
+| --- | --- | --- | --- |
+| `gm_balkans` (Gm Balkans) | Lg (Steam profile lg_designer) | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1307357127) | none stated |
+| `gm_bigisland` (Gm Bigisland) | Stinger21 (Matt Westphal) and Hiyougami (Jack Parsons), LEAKTEK | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=169600867) | none stated |
+| `gm_boreas` (Boreas) | Blueberry_pie (Wouter Pleizier) | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1572373847) | none stated |
+| `gm_fork` (Gm Fork) | Blueberry_pie | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=326332456) | none stated |
+| `gm_mallparking` (Gm Mallparking) | bean | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2619660952) | none stated |
+| `gm_shambles` (Gm Shambles) | Fartomaticatron | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=151544081) | none stated |
+| `gm_vyten` (Gm Vyten) | Jake (Steam profile Jake2149) and Sir Zacko | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1449731878) | none stated |
+| `rp_asheville` (Rp Asheville) | VanderAGSN | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2595136841) | none stated |
+| `rp_deadcity` (Rp Deadcity) | NuclearGhost (level recreated from GSC Game World's S.T.A.L.K.E.R. Oblivion Lost) | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1864156937) | none stated |
+| `sunken_resort` (Sunken Resort) | Praisemantas | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3376822715) | none stated |
+| `ze_biohazard_manor` (Biohazard Manor) | aeris004 | [GameBanana](https://gamebanana.com/mods/130643) | CC BY-NC-ND 4.0 |
+| `ze_blackmesa_escape` (Black Mesa Escape) | Bill Smauz | [GameBanana](https://gamebanana.com/mods/130645) | CC BY-NC-ND 4.0 |
+| `ze_boat_escape` (Boat Escape) | Kaju, with JJ45 (original author of the map it is built on) | [GameBanana](https://gamebanana.com/mods/130653) | CC BY-NC-ND 4.0 |
+| `ze_death_star_escape` (Death Star Escape) | FreeZe1337, Hannibal, Keamon, Belafarinrod and Fuu | [GameBanana](https://gamebanana.com/mods/130692) | CC BY-NC-ND 4.0 |
+| `ze_jurassicpark` (Jurassic Park) | Butterknife | [GameBanana](https://gamebanana.com/mods/130821) | CC BY-NC-ND 4.0 |
+| `ze_nuke_beta` (Nuke (beta)) | Mikyuu | [GameBanana](https://gamebanana.com/mods/130898) | CC BY-NC-ND 4.0 |
+| `ze_potc` (Potc) | FreeZe (Key Author); Kaemon (contributor) | [GameBanana](https://gamebanana.com/mods/130933) | CC BY-NC-ND 4.0 |
+| `ze_runforyourlife_1_v4` (Run For Your Life) | flabes2 | [GameBanana](https://gamebanana.com/mods/130964) | CC BY-NC-ND 4.0 |
+| `zm_16chambres` (16chambres) | zigomarvin (creator; uploaded by tiibo30100) | [GameBanana](https://gamebanana.com/mods/131197) | CC BY-NC-ND 4.0 |
+| `zm_4way_tunnel` (4-Way Tunnel) | neko_daisuki | [GameBanana](https://gamebanana.com/mods/131215) | CC BY-NC-ND 4.0 |
+| `zm_abandoned_mall` (Abandoned Mall) | WaterPyro | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=184522164) | none stated |
+| `zm_antarctic_hospital` (Antarctic Hospital) | Ethosaur | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=332228832) | none stated |
+| `zm_atix_helicopter` (ATIX Helicopter) | ATIX | [GameBanana](https://gamebanana.com/mods/131303) | CC BY-NC-ND 4.0 |
+| `zm_blockfort` (Blockfort) | FlareFireburst | [GameBanana](https://gamebanana.com/mods/131382) | CC BY-NC-ND 4.0 |
+| `zm_chaos_city` (Chaos City) | Niiskunkoppa (Emnu); helicopter by Aurora | [GameBanana](https://gamebanana.com/mods/130668) | CC BY-NC-ND 4.0 |
+| `zm_day_lego` (Day Lego) | Ayrton09 (map creator) | [GameBanana](https://gamebanana.com/mods/131650) | CC BY-NC-ND 4.0 |
+| `zm_hellarch` (Hellarch) | decox | [GameBanana](https://gamebanana.com/mods/131974) | CC BY-NC-ND 4.0 |
+| `zm_house_outbreak` (House Outbreak) | WaterPyro | [GameBanana](https://gamebanana.com/mods/132025) | CC BY-NC-ND 4.0 |
+| `zm_krusty_krab` (Krusty Krab) | FireWavezZ | [GameBanana](https://gamebanana.com/mods/132150) | CC BY-NC-ND 4.0 |
+| `zm_lila_panic` (Lila Panic) | Lila (uploaded by tonyscha) | [GameBanana](https://gamebanana.com/mods/132209) | CC BY-NC-ND 4.0 |
+| `zm_mansion_css` (Mansion Css) | Melodie (developer; converted from a Mansion map) | [GameBanana](https://gamebanana.com/mods/131181) | none stated |
+| `zm_officeattack` (Office Attack) | kizzbizz | [GameBanana](https://gamebanana.com/mods/132500) | CC BY-NC-ND 4.0 |
+| `zm_pathogen` (Pathogen) | Stelk | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=292859426) | none stated |
+| `zm_roy_highway` (Roy Highway) | Roy (uploaded by Mo0nLiGht) | [GameBanana](https://gamebanana.com/mods/132705) | CC BY-NC-ND 4.0 |
+| `zm_roy_the_ship` (Roy The Ship) | Roy (uploaded by Mo0nLiGht) | [GameBanana](https://gamebanana.com/mods/132707) | CC BY-NC-ND 4.0 |
+| `zs_erosion` (Erosion) | Lime | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3400815298) | none stated |
+| `zs_goth_house` (Goth House) | Draculine | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3730623999) | none stated |
+| `zs_krusty_krab_large` (Krusty Krab Large) | Scott (Steam Workshop conversion to ZS); original Krusty Krab by FireWavezZ (gamebanana.com/mods/132150) | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=645191518) | none stated |
+| `zs_lens` (Lens) | deadfs | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3212681027) | none stated |
+| `zs_ravenstreet` (Raven Street) | Didixo | [GameBanana](https://gamebanana.com/mods/61387) | CC BY-NC-ND 4.0 |
+| `zs_slugde` (Slugde) | Ethosaur | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=323893414) | none stated |
+| `zs_verystill` (Verystill) | doggy prozac | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3209397565) | none stated |
+
+"None stated" means the source page gives no licence; those maps are shared as conversions and removed on request. `zm_roy_highway` and `zm_roy_the_ship` are the first to go if the author asks.
+
+If you made one of these maps and want it removed, open an issue at <https://github.com/zees-games/zombie-zone-maps/issues> and it goes.
+
+## Building the maps
+
+`tools/build_maps.py` writes our own maps. A map is a list of regions (rectangles a person can stand in). The builder adds each region's floor, walls on every open edge, ceilings, lintels over doorways, the ground the zombies walk on, and the props.
 
 ```bash
 python3 tools/build_maps.py                # rewrite maps/*.json
-python3 tools/build_maps.py --check        # exit 1 if a file differs from what the builder writes
-python3 tools/build_maps.py --sync-sizes   # copy prop sizes from ../game-zombie-zone after it measures new models
+python3 tools/build_maps.py --check        # exit 1 if a file differs from the builder's output
+python3 tools/build_maps.py --sync-sizes   # copy prop sizes from ../game-zombie-zone
 ```
 
-The JSON is still what the game reads and is committed; CI runs `--check`, so a hand edit to a built document is caught instead of being lost on the next build. Hand-written documents the builder does not produce are fine too: anything in `maps/` with a `.json` extension is loaded.
+The JSON is committed and CI runs `--check`, so a hand edit to a built map is caught. Any `.json` file in `maps/` is loaded, including hand-written ones.
 
-Every map is then checked by game-zombie-zone's `examples/headless_maps.tscn`: it fits on the wire, every prop is one the game knows, every spawn has a floor and room for a person, no prop is sunk into a wall or floating, every item can be picked up, the zombies' ground reaches every objective, sleeper and the end room from the start, a shut gate really does cut the way, a survival map has a spawn for each of its team and its posts and caches on the ground, and every barricade is on the zombies' ground on both of its faces. `examples/headless_survival.tscn` then plays each big survival map for a wave with a full team of stand-ins.
+Game-zombie-zone's `examples/headless_maps.tscn` checks every map: it fits on the wire, props are known, spawns have floor, items can be picked up, the zombies' ground reaches every objective, and survival maps have spawns, posts and caches. `examples/headless_survival.tscn` plays each big survival map for a wave.
 
-### Converted Source maps
+Converted maps come from `tools/import_bsp.py`, which reads a Source 1 `.bsp` through dot-map-convert (cloned beside this repository, or set `DOTBSP_PATH`):
 
-`tools/import_bsp.py` turns a community Source 1 `.bsp` into a map document (`python3 -P tools/import_bsp.py tools/bsp/<id>.json <file.bsp>`); it reads the map through dot-map's shared converter (`../dot-map-convert`, or `$DOTBSP_PATH`), and takes that tool's intermediate `.json` in place of the `.bsp` too. The spec in `tools/bsp/` names the author, page, licence, mode and entity classes. The `.bsp` is not committed: download it again from the page in the spec. Author textures are never used (materials map to the game's own surfaces) and the author is credited in `author` and `attribution`, with a removal-on-request line. Raven Street (`zs_ravenstreet`, Didixo, CC BY-NC-ND 4.0) ships converted: the author is credited in the document's `author` and `attribution` and here, it is shared non-commercially, and it is removable on the author's request. The importer works out the zombies' graph the way the game builds it (`tools/nav_emulate.py`), drops props that shut a doorway, joins rooms the doors alone leave off the horde's ground by links across the gap, and puts posts and caches only where that graph reaches; a window with no ground on a side is a wall, not a barricade. A spec can drop the original's sky lid and distant scenery (walkable tops the navigation bake would wander on) and lay roadblocks across an open street, which give the stand-ins chokes to hold. Nuke (`ze_nuke_beta`, Mikyuu, https://gamebanana.com/mods/130898) and Run For Your Life (`ze_runforyourlife_1_v4`, flabes2, https://gamebanana.com/mods/130964), both CC BY-NC-ND 4.0, ship as exodus maps with the same credit and removal-on-request line. Office Attack (`zm_officeattack`, kizzbizz, https://gamebanana.com/mods/132500) and House Outbreak (`zm_house_outbreak`, WaterPyro, https://gamebanana.com/mods/132025) ship as survival maps, and Jurassic Park (`ze_jurassicpark`, Butterknife, https://gamebanana.com/mods/130821) as an exodus map whose three gates are hold-outs at the corridors the horde ambushes from; all three are CC BY-NC-ND 4.0, credited and removable on request as above. Black Mesa Escape (`ze_blackmesa_escape`, Bill Smauz, https://gamebanana.com/mods/130645, CC BY-NC-ND 4.0) ships as a partial exodus map: the loading hall, bridge, stair flights standing in for the lift, and the service corridors; the later chambers are not converted. Credited and removable on request as above. ATIX Helicopter (`zm_atix_helicopter`, ATIX, https://gamebanana.com/mods/131303, CC BY-NC-ND 4.0) is a survival map held in the landing yard, credited and removable on request as above. 4-Way Tunnel (`zm_4way_tunnel`, neko_daisuki, https://gamebanana.com/mods/131215, CC BY-NC-ND 4.0) is a survival map held where four tunnels meet, credited and removable on request as above. Abandoned Mall (`zm_abandoned_mall`, WaterPyro, https://steamcommunity.com/sharedfiles/filedetails/?id=184522164, no licence stated on the Steam Workshop page) is a survival map held in the mall's central concourse, credited and removable on the author's request. Sunken Resort (`sunken_resort`, Praisemantas, https://steamcommunity.com/sharedfiles/filedetails/?id=3376822715, none stated, Steam Workshop page) is a survival map: a large multi-level underwater complex with every texture and model replaced by free stand-ins, six survivor starts from the original and generated horde starts; eleven closed doors are the only joins between parts of the ground and are allowed in `tools/link_allow.json`. It is a weak fit for the mode (long sightlines, sparse starts). The importer's `drop_small`, `greedy_floors` and `thin_lintels` spec flags thin a large map under the document's box and navigation limits. Displacement terrain (snow, hills) converts with the spec key `terrain` (dot-map's shared `terrain_cells`; the intermediate is built with `bsp.py convert --displacements`; `{"cell":..,"quant":..}` coarsens it). Antarctic Hospital (Ethosaur, https://steamcommunity.com/sharedfiles/filedetails/?id=332228832) is a generated-spec conversion like the others below; watch its horde at wave 3, which once idled. Brush geometry only: maps whose rooms are models, displacements or entity logic (elevators, buttons) do not convert yet. Boat Escape (`ze_boat_escape`, Kaju with JJ45, https://gamebanana.com/mods/130653) ships as an exodus map across a walled harbour field with three gates held to the helicopter pad; it is CC BY-NC-ND 4.0, credited in the document's `author` and `attribution`, and removable on the author's request. The boat's 430 m ground slab is tiled (`split_over`) because the lightmap bake cannot hold a chart that size, and its sleepers are cut to the document's limit of 16. Death Star Escape (`ze_death_star_escape`, FreeZe1337, Hannibal, Keamon, Belafarinrod and Fuu, https://gamebanana.com/mods/130692, CC BY-NC-ND 4.0) ships as a partial exodus map: the first corridors of the station, a stepped diagonal walkway, and three blast doors held to the last room. Its doors are sloped brushes that do not seal a corridor, so the spec replaces them with plain gates (`extra_gates`); its diagonal walks leave the navigation flood one-cell strips 0.4 m deep, too shallow to hold a point of the game's graph, which `nav_min_depth` grows to a metre. Credited in the document's `author` and `attribution` and removable on the author's request. Chaos City (`zm_chaos_city`, Niiskunkoppa (Emnu) with the helicopter by Aurora, https://gamebanana.com/mods/130668, CC BY-NC-ND 4.0) is a survival map held on the helicopter's landing plaza of a walled town (the original is an escape map across one open plaza with no door to hold, so it ships as a hold); the sunken square at the plaza's heart has no floor in the source, so a basin floor and a pedestal are added, credited and removable on request as above. Pathogen (`zm_pathogen`, Stelk, https://steamcommunity.com/sharedfiles/filedetails/?id=292859426, no licence stated on the Steam Workshop page, whose description has no do-not-share or do-not-port statement) is a survival map held in a walled courtyard on the roof level of a lab complex; the original's own start is a room of aisles the graph cannot cross, so the spec moves the survivors and caches to the courtyard (`survivor_start`, `cache_region`), the horde starts at the far end of the same level (`zombie_start`), and two props that settled inside geometry are dropped (`drop_props`). Credited and removable on the author's request. A spec can `crop` the map to a box, `clip_y` its heights, and `drop_ceilings` or `drop_lids` so the overview is not hidden. Every other map in `tools/convert/ship.tsv` has a spec written by `tools/auto_spec.py` from the BSP's own entities (see CLAUDE.md), and [CREDITS.md](CREDITS.md) lists author, page and licence of all of them.
+```bash
+python3 -P tools/import_bsp.py tools/bsp/<id>.json <file.bsp>
+```
 
-## License
+The spec in `tools/bsp/` names the author, source page, licence and mode. The `.bsp` is not committed; download it from the page in the spec. Per-map notes are in [docs/import-notes.md](docs/import-notes.md).
 
-MIT. See [LICENSE](LICENSE). The cars, street furniture, crates, gravestones, furniture, trees and shop fittings the maps name are Kenney's (CC0: Car Kit, Retro Urban Kit, City Kit (Roads), Survival Kit, Graveyard Kit, Furniture Kit, Nature Kit and Mini Market) and live in game-zombie-zone.
+## Licence
+
+MIT, see [LICENSE](LICENSE). The cars, street furniture, crates, gravestones, furniture, trees and shop fittings the maps use are Kenney's CC0 kits and live in game-zombie-zone. The converted maps keep the licences listed above.
