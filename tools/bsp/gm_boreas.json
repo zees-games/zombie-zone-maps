@@ -2,6 +2,8 @@
  "id": "gm_boreas",
  "name": "Boreas",
  "source": "gm_boreas.bsp",
+ "min_coverage": 0.35,
+ "min_coverage_why": "82% of the drawn area is displacement terrain carried by the heightfield, not boxes; walk_check lost 0.0000",
  "author": "Blueberry_pie (Wouter Pleizier)",
  "page": "https://steamcommunity.com/sharedfiles/filedetails/?id=1572373847",
  "licence": "none stated, Steam Workshop page",

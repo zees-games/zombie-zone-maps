@@ -2,6 +2,8 @@
  "id": "rp_asheville",
  "name": "Rp Asheville",
  "source": "rp_asheville.bsp",
+ "min_coverage": 0.5,
+ "min_coverage_why": "35% of the drawn area is displacement terrain carried by the heightfield, and the wide outskirts are distant scenery, not boxes; walk_check lost 0.0000",
  "author": "VanderAGSN",
  "page": "https://steamcommunity.com/sharedfiles/filedetails/?id=2595136841",
  "licence": "none stated (page: content use with attribution)",

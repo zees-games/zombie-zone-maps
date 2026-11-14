@@ -2,6 +2,8 @@
  "id": "gm_fork",
  "name": "Gm Fork",
  "source": "gm_fork.bsp",
+ "min_coverage": 0.09,
+ "min_coverage_why": "most of the drawn area is the 3D skybox (distant scenery, drawn as sky3d) and the open sea, and 40% is displacement terrain carried by the heightfield, none of it boxes; walk_check lost 0.0000",
  "author": "Blueberry_pie",
  "page": "https://steamcommunity.com/sharedfiles/filedetails/?id=326332456",
  "licence": "none stated",

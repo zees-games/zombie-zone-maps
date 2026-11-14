@@ -10,9 +10,30 @@
     "entries": [
         {
             "kind": "map",
+            "id": "gm_balkans",
+            "name": "Gm Balkans",
+            "scene": "maps/gm_balkans.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
             "id": "gm_bigisland",
             "name": "Gm Bigisland",
             "scene": "maps/gm_bigisland.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "gm_boreas",
+            "name": "Boreas",
+            "scene": "maps/gm_boreas.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "gm_fork",
+            "name": "Gm Fork",
+            "scene": "maps/gm_fork.json",
             "map_kind": "survival"
         },
         {
@@ -34,6 +55,20 @@
             "id": "gm_valley",
             "name": "Gm Valley",
             "scene": "maps/gm_valley.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "gm_vyten",
+            "name": "Gm Vyten",
+            "scene": "maps/gm_vyten.json",
+            "map_kind": "survival"
+        },
+        {
+            "kind": "map",
+            "id": "rp_asheville",
+            "name": "Rp Asheville",
+            "scene": "maps/rp_asheville.json",
             "map_kind": "survival"
         },
         {
