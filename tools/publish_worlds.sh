@@ -34,7 +34,11 @@ for e in json.load(open(os.path.join(root, "licence.json"))):
     for p in e["paths"]:
         if p.startswith("world/zz_world_"):
             wid = p.split("/")[1][len("zz_world_"):]
-            per.setdefault(wid, []).append(dict(e, paths=[p.split("/", 2)[2]]))
+            rest, d = p.split("/", 2)[2], os.path.join(root, "world", "zz_world_" + wid)
+            # The site refuses "" (the whole pack) for a credited map: name each top-level entry instead.
+            paths = [rest] if rest else sorted(n + ("/" if os.path.isdir(os.path.join(d, n)) else "")
+                                               for n in os.listdir(d) if n != "licence.json") if os.path.isdir(d) else []
+            per.setdefault(wid, []).append(dict(e, paths=paths))
 for wid in want or sorted(per):
     if wid not in per or not os.path.isdir(os.path.join(root, "world", "zz_world_" + wid)):
         print("publish_worlds: skip %s: licence.json names no world/zz_world_%s/" % (wid, wid), file=sys.stderr); continue
