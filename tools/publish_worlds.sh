@@ -45,7 +45,9 @@ for e in json.load(open(os.path.join(root, "licence.json"))):
             # The site refuses "" (the whole pack) for a credited map: name each top-level entry instead.
             paths = [rest] if rest else sorted(n + ("/" if os.path.isdir(os.path.join(d, n)) else "")
                                                for n in os.listdir(d) if n not in META) if os.path.isdir(d) else []
-            per.setdefault(wid, []).append(dict(e, paths=paths))
+            # The imported form of the world's textures ships under _imported/ (the world holds nothing but textures and the
+            # drawn document), so that prefix is the same content under the same credit.
+            per.setdefault(wid, []).append(dict(e, paths=paths + ["_imported/"]))
 for wid in want or sorted(per):
     if wid not in per or not os.path.isdir(os.path.join(root, "world", "zz_world_" + wid)):
         print("publish_worlds: skip %s: licence.json names no world/zz_world_%s/" % (wid, wid), file=sys.stderr); continue
