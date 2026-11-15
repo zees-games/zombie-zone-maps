@@ -4,7 +4,7 @@ A map is a JSON document, not a scene. The server reads the documents in its map
 
 ## Using it
 
-[dot-bootstrap](https://github.com/modcommunity/dot-bootstrap) clones this repository next to game-zombie-zone and links it in as `maps/`. Run `./game.sh` in game-zombie-zone and these maps are there. On a server they are a separate pack, and the server owner names it in the map config.
+[dot-bootstrap](https://github.com/gamespice-platform/bootstrap) clones this repository next to game-zombie-zone and links it in as `maps/`. Run `./game.sh` in game-zombie-zone and these maps are there. On a server they are a separate pack, and the server owner names it in the map config.
 
 ## Our maps
 
