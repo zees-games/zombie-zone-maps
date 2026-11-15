@@ -23,16 +23,16 @@ Every texture of this map is a free replacement; the original map's textures and
 # Model stand-ins
 
 - bush: Kenney Nature Kit, Kenney, CC0-1.0, https://kenney.nl/assets/nature-kit
-- lib/dm_driftwood2: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/clutter.py
-- lib/own_box_1065x1585x1951_4a5a3a: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
-- lib/own_box_1065x1585x975_4a5a3a: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
-- lib/own_box_1071x1585x1961_4a5a3a: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
-- lib/own_box_1097x1873x975_4a5a3a: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
-- lib/own_box_1140x948x1875_606060: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
-- lib/own_box_194x9x31_e0e0e0: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
-- lib/own_box_333x1585x1951_4a5a3a: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
-- lib/own_box_333x1585x975_4a5a3a: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
-- lib/own_box_90x1585x1951_4a5a3a: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
+- lib/dm_driftwood2: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/gamespice-platform/map-convert/blob/main/tools/models/clutter.py
+- lib/own_box_1065x1585x1951_4a5a3a: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/gamespice-platform/map
+- lib/own_box_1065x1585x975_4a5a3a: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/gamespice-platform/map
+- lib/own_box_1071x1585x1961_4a5a3a: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/gamespice-platform/map
+- lib/own_box_1097x1873x975_4a5a3a: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/gamespice-platform/map
+- lib/own_box_1140x948x1875_606060: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/gamespice-platform/map
+- lib/own_box_194x9x31_e0e0e0: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/gamespice-platform/map
+- lib/own_box_333x1585x1951_4a5a3a: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/gamespice-platform/map
+- lib/own_box_333x1585x975_4a5a3a: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/gamespice-platform/map
+- lib/own_box_90x1585x1951_4a5a3a: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/gamespice-platform/map
 - lib/ph_boulder_01: Poly Haven, Rico Cilliers, CC0-1.0, https://polyhaven.com/a/boulder_01
 - lib/ph_island_tree_01: Poly Haven, Rob Tuytel, Rico Cilliers, CC0-1.0, https://polyhaven.com/a/island_tree_01
 - lib/ph_island_tree_03: Poly Haven, Rob Tuytel, Rico Cilliers, CC0-1.0, https://polyhaven.com/a/island_tree_03

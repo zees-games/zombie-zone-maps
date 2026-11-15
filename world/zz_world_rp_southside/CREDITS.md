@@ -257,15 +257,15 @@ Every texture of this map is a free replacement; the original map's textures and
 - graveyard/gravestone: Kenney Graveyard Kit, Kenney, CC0-1.0, https://kenney.nl/assets/graveyard-kit
 - graveyard/lamppost: Kenney Graveyard Kit, Kenney, CC0-1.0, https://kenney.nl/assets/graveyard-kit
 - lamp: Kenney Furniture Kit, Kenney, CC0-1.0, https://kenney.nl/assets/furniture-kit
-- lib/dm_electricalbox: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/clutter.py
-- lib/dm_foodstack: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/props.py
-- lib/dm_lighttroffer: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/building_props.py
-- lib/dm_wood_crate_cube: dot-map Blender remodel, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map/blob/main/tools/models/wood_crate.py
-- lib/fxdrinkfountain: Modelled for dot-map, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
-- lib/fxtowelrack: Modelled for dot-map, TMC (modelled for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
+- lib/dm_electricalbox: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/gamespice-platform/map-convert/blob/main/tools/models/clutter.py
+- lib/dm_foodstack: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/gamespice-platform/map-convert/blob/main/tools/models/props.py
+- lib/dm_lighttroffer: dot-map Blender model, TMC (modelled for dot-map), CC0-1.0, https://github.com/gamespice-platform/map/blob/main/tools/models/building_props.py
+- lib/dm_wood_crate_cube: dot-map Blender remodel, TMC (modelled for dot-map), CC0-1.0, https://github.com/gamespice-platform/map/blob/main/tools/models/wood_crate.py
+- lib/fxdrinkfountain: Modelled for dot-map, TMC (modelled for dot-map), CC0-1.0, https://github.com/gamespice-platform/map
+- lib/fxtowelrack: Modelled for dot-map, TMC (modelled for dot-map), CC0-1.0, https://github.com/gamespice-platform/map
 - lib/kenney_food-kit_lemon-half: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
 - lib/kenney_food-kit_pizza-box: Kenney Food Kit, Kenney, CC0-1.0, https://kenney.nl/assets/food-kit
-- lib/own_cyl_64x111x16_4a5a8a: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/modcommunity/dot-map
+- lib/own_cyl_64x111x16_4a5a8a: TMC generated model, TMC (generated for dot-map), CC0-1.0, https://github.com/gamespice-platform/map
 - lib/ph_bar_chair_round_01: Poly Haven, Dairon Sanchez, CC0-1.0, https://polyhaven.com/a/bar_chair_round_01
 - lib/ph_cardboard_box_01: Poly Haven, Rahul Chaudhary, CC0-1.0, https://polyhaven.com/a/cardboard_box_01
 - lib/ph_industrial_wall_lamp: Poly Haven, Kuutti Siitonen, CC0-1.0, https://polyhaven.com/a/industrial_wall_lamp
@@ -301,9 +301,9 @@ Every texture of this map is a free replacement; the original map's textures and
 
 # Sound stand-ins
 
-- amb_cave: dot-audio stock ambience (synthesised), TMC (dot-audio authors), CC0-1.0, https://github.com/modcommunity/dot-audio
-- amb_city: dot-audio stock ambience (synthesised), TMC (dot-audio authors), CC0-1.0, https://github.com/modcommunity/dot-audio
-- amb_rain: dot-audio stock ambience (synthesised), TMC (dot-audio authors), CC0-1.0, https://github.com/modcommunity/dot-audio
+- amb_cave: dot-audio stock ambience (synthesised), TMC (dot-audio authors), CC0-1.0, https://github.com/gamespice-platform/audio
+- amb_city: dot-audio stock ambience (synthesised), TMC (dot-audio authors), CC0-1.0, https://github.com/gamespice-platform/audio
+- amb_rain: dot-audio stock ambience (synthesised), TMC (dot-audio authors), CC0-1.0, https://github.com/gamespice-platform/audio
 - bell: Kenney Impact Sounds, Kenney, CC0-1.0, https://kenney.nl/assets/impact-sounds
 - door_close: Kenney Sci-Fi Sounds, Kenney, CC0-1.0, https://kenney.nl/assets/sci-fi-sounds
 - door_open: Kenney Sci-Fi Sounds, Kenney, CC0-1.0, https://kenney.nl/assets/sci-fi-sounds
