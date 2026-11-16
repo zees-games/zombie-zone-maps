@@ -22,4 +22,4 @@ python3 -P "$BSP/bsp.py" storepack "${packs[@]}" --out "$OUT" --dist "$DIST" --b
 [ -n "${STORE_SITE:-}" ] || exit 0
 [ -s "${STORE_TOKEN_FILE:-}" ] || { echo "ship_store: STORE_SITE needs STORE_TOKEN_FILE (a creator token of the slice owner)" >&2; exit 2; }
 exec python3 -P "$HERE/upload_store.py" "${packs[@]}" --site "$STORE_SITE" --token-file "$STORE_TOKEN_FILE" --project "$OUT" \
-    --dist "$DIST" --bsp "$BSP" ${STORE_ORIGIN:+--origin "$STORE_ORIGIN"} ${DOT_CLOUD:+--cloud "$DOT_CLOUD"}
+    --dist "$DIST" --bsp "$BSP" ${STORE_ORIGIN:+--origin "$STORE_ORIGIN"} ${GS_CLOUD:+--cloud "${GS_CLOUD:-${DOT_CLOUD:-}}"}

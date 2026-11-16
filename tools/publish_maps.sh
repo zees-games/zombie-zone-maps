@@ -3,11 +3,11 @@
 #   tools/publish_maps.sh [--id NAME] [--version V | --bump patch|minor|major] [--dry-run] [other publish_pack.sh options]
 # Converted community maps (CC BY-NC-ND or no stated licence) are never staged: the site refuses NC/ND and the family ships only
 # CC0/MIT/PD/CC-BY. The stage holds maps/<id>.json, hulls and a world pack of the allowed maps, LICENSE, a filtered provides.json
-# and a licence.json; the publisher is dot-cloud's tools/publish_pack.sh (token: $DOT_CLI_TOKEN or ~/.config/dot/cli-token).
+# and a licence.json; the publisher is dot-cloud's tools/publish_pack.sh (token: GS_CLI_TOKEN or ~/.config/dot/cli-token).
 set -euo pipefail
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-PUB="${DOT_CLOUD:-$HERE/../dot-cloud}/tools/publish_pack.sh"
-[ -x "$PUB" ] || { echo "publish_maps: dot-cloud is not beside this checkout (set DOT_CLOUD)" >&2; exit 2; }
+PUB="${GS_CLOUD:-${DOT_CLOUD:-$HERE/../dot-cloud}}/tools/publish_pack.sh"
+[ -x "$PUB" ] || { echo "publish_maps: dot-cloud is not beside this checkout (set GS_CLOUD)" >&2; exit 2; }
 ID=zz-maps; ARGS=(); while [ $# -gt 0 ]; do
     case $1 in --id) ID="${2:?}"; shift 2 ;; *) ARGS+=("$1"); shift ;; esac
 done
