@@ -25,7 +25,7 @@ def main():
     ap.add_argument("--token-file", required=True, help="a creator token of the slice owner (gamemann)")
     ap.add_argument("--project", required=True, help="the storepack project (its slices/<name> are the sources)")
     ap.add_argument("--dist", required=True, help="the storepack --dist (the locally signed manifests name each slice's dependencies)")
-    ap.add_argument("--origin", default="https://dotgames.org", help="the content origin to check first")
+    ap.add_argument("--origin", default="https://content.gamespice.net", help="the content origin to check first")
     ap.add_argument("--cloud", default=os.path.expanduser("~/godot/dot-cloud"))
     ap.add_argument("--bsp", default=os.path.expanduser("~/godot/dot-map-convert"), help="dot-map-convert (for dotbsp.storecheck)")
     ap.add_argument("--godot", default=os.environ.get("GODOT", "godot"))

@@ -1,6 +1,6 @@
 #!/bin/bash
 # Every world's art resolves from published slices: the stamp, each slice (and its dependencies) and every PBR set and model the
-# manifest draws. Reads the signed slice manifests of dist/ (after ship_store.sh) or, with ORIGIN=https://dotgames.org, the
+# manifest draws. Reads the signed slice manifests of dist/ (after ship_store.sh) or, with ORIGIN=https://content.gamespice.net, the
 # published ones, which is what a player's client reads.
 #   [ORIGIN=url] [DIST=dist] tools/check_store.sh [id ...]
 HERE="$(cd "$(dirname "$0")" && pwd)"

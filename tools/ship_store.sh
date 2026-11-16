@@ -5,7 +5,7 @@
 #   [SHIP_IDS="a b"] [DIST=dist] [STORE_SITE=url STORE_TOKEN_FILE=f [STORE_ORIGIN=url]] tools/ship_store.sh
 # With STORE_SITE the slices the stamps name (and their dependencies) are then uploaded through that site's pack API
 # (tools/upload_store.py; slice versions are h-hashes, which publish_pack.sh refuses), skipping what STORE_ORIGIN
-# (default https://dotgames.org) already serves. Prod: STORE_SITE=https://moddingcommunity.com with gamemann's creator token
+# (default https://content.gamespice.net) already serves. Prod: STORE_SITE=https://moddingcommunity.com with gamemann's creator token
 # (~/.config/dot/creator-token-prod); dev: https://tmcdev.net. The site signs each manifest. A version the site once
 # FAILED is never taken again: list it in tools/store_burnt.txt and the slice moves to a new version.
 HERE="$(cd "$(dirname "$0")" && pwd)"
