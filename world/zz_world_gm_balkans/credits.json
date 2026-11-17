@@ -483,7 +483,7 @@
    "url": "https://kenney.nl/assets/furniture-kit",
    "source": "Kenney Furniture Kit",
    "attribution": false,
-   "uses": 120
+   "uses": 119
   },
   {
    "kind": "model",
@@ -563,7 +563,7 @@
    "url": "https://github.com/gamespice-platform/map-convert/blob/main/tools/models/clutter.py",
    "source": "Gamespice map Blender model",
    "attribution": false,
-   "uses": 25
+   "uses": 53
   },
   {
    "kind": "model",
@@ -594,6 +594,16 @@
    "source": "Gamespice map Blender model",
    "attribution": false,
    "uses": 207
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_palletrack",
+   "author": "Gamespice (modelled for map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/gamespice-platform/map-convert/blob/main/tools/models/detail_fixtures.py",
+   "source": "Gamespice map Blender model",
+   "attribution": false,
+   "uses": 1
   },
   {
    "kind": "model",

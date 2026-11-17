@@ -807,16 +807,6 @@
   },
   {
    "kind": "model",
-   "name": "bookcase",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/furniture-kit",
-   "source": "Kenney Furniture Kit",
-   "attribution": false,
-   "uses": 27
-  },
-  {
-   "kind": "model",
    "name": "bush",
    "author": "Kenney",
    "licence": "CC0-1.0",
@@ -824,6 +814,16 @@
    "source": "Kenney Nature Kit",
    "attribution": false,
    "uses": 33
+  },
+  {
+   "kind": "model",
+   "name": "ceiling_light",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/furniture-kit",
+   "source": "Kenney Furniture Kit",
+   "attribution": false,
+   "uses": 12
   },
   {
    "kind": "model",
@@ -934,6 +934,16 @@
    "source": "Gamespice map Blender model",
    "attribution": false,
    "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_wallpiperun",
+   "author": "Gamespice (modelled for map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/gamespice-platform/map-convert/blob/main/tools/models/detail_fixtures.py",
+   "source": "Gamespice map Blender model",
+   "attribution": false,
+   "uses": 16
   },
   {
    "kind": "model",

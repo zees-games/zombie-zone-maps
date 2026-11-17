@@ -1273,7 +1273,7 @@
    "url": "https://kenney.nl/assets/furniture-kit",
    "source": "Kenney Furniture Kit",
    "attribution": false,
-   "uses": 282
+   "uses": 255
   },
   {
    "kind": "model",
@@ -1283,7 +1283,7 @@
    "url": "https://kenney.nl/assets/nature-kit",
    "source": "Kenney Nature Kit",
    "attribution": false,
-   "uses": 118
+   "uses": 114
   },
   {
    "kind": "model",
@@ -1303,7 +1303,7 @@
    "url": "https://github.com/gamespice-platform/map-convert/blob/main/tools/models/clutter.py",
    "source": "Gamespice map Blender model",
    "attribution": false,
-   "uses": 266
+   "uses": 271
   },
   {
    "kind": "model",
@@ -1334,6 +1334,16 @@
    "source": "Gamespice map Blender model",
    "attribution": false,
    "uses": 205
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_catenarypole",
+   "author": "Gamespice (modelled for map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/gamespice-platform/map-convert/blob/main/tools/models/detail_fixtures.py",
+   "source": "Gamespice map Blender model",
+   "attribution": false,
+   "uses": 274
   },
   {
    "kind": "model",
@@ -1493,7 +1503,7 @@
    "url": "https://kenney.nl/assets/building-kit",
    "source": "Kenney Building Kit",
    "attribution": false,
-   "uses": 8
+   "uses": 6
   },
   {
    "kind": "model",
@@ -1507,16 +1517,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_city-kit-suburban_fence-1x4",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/city-kit-suburban",
-   "source": "Kenney City Kit - Suburban",
-   "attribution": false,
-   "uses": 12
-  },
-  {
-   "kind": "model",
    "name": "lib/kenney_food-kit_egg-cup",
    "author": "Kenney",
    "licence": "CC0-1.0",
@@ -1527,13 +1527,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_graveyard-kit_iron-fence-border-gate",
+   "name": "lib/kenney_graveyard-kit_lantern-glass",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/graveyard-kit",
    "source": "Kenney Graveyard Kit",
    "attribution": false,
-   "uses": 4
+   "uses": 1
   },
   {
    "kind": "model",

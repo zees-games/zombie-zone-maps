@@ -347,6 +347,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_cabglass",
+   "author": "Gamespice (modelled for map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/gamespice-platform/map-convert/blob/main/tools/models/detail_fixtures.py",
+   "source": "Gamespice map Blender model",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_cablespool",
    "author": "Gamespice (modelled for map)",
    "licence": "CC0-1.0",
@@ -453,7 +463,7 @@
    "url": "https://github.com/gamespice-platform/map",
    "source": "TMC generated model",
    "attribution": false,
-   "uses": 4
+   "uses": 3
   },
   {
    "kind": "model",
