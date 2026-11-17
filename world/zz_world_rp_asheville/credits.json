@@ -7,16 +7,6 @@
  "works": [
   {
    "kind": "texture",
-   "name": "pbr_Ground014",
-   "author": "Lennart Demes and contributors",
-   "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Ground014",
-   "source": "ambientCG",
-   "attribution": false,
-   "uses": 712
-  },
-  {
-   "kind": "texture",
    "name": "pbr_Concrete007",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
@@ -313,7 +303,7 @@
    "url": "https://ambientcg.com/view?id=Concrete034",
    "source": "ambientCG",
    "attribution": false,
-   "uses": 107
+   "uses": 85
   },
   {
    "kind": "texture",
@@ -997,6 +987,16 @@
   },
   {
    "kind": "texture",
+   "name": "pbr_Ground014",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Ground014",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 381
+  },
+  {
+   "kind": "texture",
    "name": "pbr_Metal040",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
@@ -1414,6 +1414,16 @@
    "source": "polyhaven",
    "attribution": false,
    "uses": 114
+  },
+  {
+   "kind": "texture",
+   "name": "pbr_Concrete030",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Concrete030",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 22
   },
   {
    "kind": "texture",
@@ -1853,7 +1863,7 @@
    "url": "https://kenney.nl/assets/furniture-kit",
    "source": "Kenney Furniture Kit",
    "attribution": false,
-   "uses": 1278
+   "uses": 1275
   },
   {
    "kind": "model",
@@ -1873,7 +1883,7 @@
    "url": "https://kenney.nl/assets/nature-kit",
    "source": "Kenney Nature Kit",
    "attribution": false,
-   "uses": 2104
+   "uses": 2101
   },
   {
    "kind": "model",
@@ -1893,7 +1903,17 @@
    "url": "https://github.com/gamespice-platform/map-convert/blob/main/tools/models/clutter.py",
    "source": "Gamespice map Blender model",
    "attribution": false,
-   "uses": 21
+   "uses": 17
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_beercase",
+   "author": "Gamespice (modelled for map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/gamespice-platform/map-convert/blob/main/tools/models/debris_goods.py",
+   "source": "Gamespice map Blender model",
+   "attribution": false,
+   "uses": 117
   },
   {
    "kind": "model",
@@ -1977,6 +1997,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_trashcluster",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/modcommunity/dot-map-convert/blob/main/tools/models/clutter.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 57
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_wood_crate_cube",
    "author": "Gamespice (modelled for map)",
    "licence": "CC0-1.0",
@@ -1991,9 +2021,9 @@
    "author": "Gamespice (modelled for map)",
    "licence": "CC0-1.0",
    "url": "https://github.com/gamespice-platform/map",
-   "source": "Modelled for dot-map",
+   "source": "Modelled for Gamespice map",
    "attribution": false,
-   "uses": 113
+   "uses": 13
   },
   {
    "kind": "model",
@@ -2007,13 +2037,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_car-kit_sedan-sports",
+   "name": "lib/kenney_car-kit_truck-flat",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/car-kit",
    "source": "Kenney Car Kit",
    "attribution": false,
-   "uses": 541
+   "uses": 534
   },
   {
    "kind": "model",
@@ -2023,7 +2053,7 @@
    "url": "https://kenney.nl/assets/food-kit",
    "source": "Kenney Food Kit",
    "attribution": false,
-   "uses": 18
+   "uses": 10
   },
   {
    "kind": "model",
@@ -2057,16 +2087,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_retro-urban-kit_detail-dumpster-closed",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/retro-urban-kit",
-   "source": "Kenney Retro Urban Kit",
-   "attribution": false,
-   "uses": 2
-  },
-  {
-   "kind": "model",
    "name": "lib/ph_CashRegister_01",
    "author": "Joe Seabuhr",
    "licence": "CC0-1.0",
@@ -2074,16 +2094,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 5
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_Megaphone_01",
-   "author": "Ethan Simon-Law",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/Megaphone_01",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 1
   },
   {
    "kind": "model",
@@ -2357,16 +2367,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/ph_life_jacket",
-   "author": "PierreB3D",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/life_jacket",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 5
-  },
-  {
-   "kind": "model",
    "name": "lib/ph_metal_office_desk",
    "author": "Ulan Cabanilla",
    "licence": "CC0-1.0",
@@ -2504,16 +2504,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 2
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_trashbag",
-   "author": "Benny Weimer",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/trashbag",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 51
   },
   {
    "kind": "model",

@@ -727,10 +727,10 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_Concrete034",
+   "name": "pbr_Concrete030",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Concrete034",
+   "url": "https://ambientcg.com/view?id=Concrete030",
    "source": "ambientCG",
    "attribution": false,
    "uses": 3
@@ -1653,7 +1653,7 @@
    "url": "https://kenney.nl/assets/survival-kit",
    "source": "Kenney Survival Kit",
    "attribution": false,
-   "uses": 58
+   "uses": 27
   },
   {
    "kind": "model",
@@ -1673,7 +1673,7 @@
    "url": "https://kenney.nl/assets/nature-kit",
    "source": "Kenney Nature Kit",
    "attribution": false,
-   "uses": 1193
+   "uses": 329
   },
   {
    "kind": "model",
@@ -1693,7 +1693,17 @@
    "url": "https://kenney.nl/assets/graveyard-kit",
    "source": "Kenney Graveyard Kit",
    "attribution": false,
-   "uses": 44
+   "uses": 37
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_awningsmall",
+   "author": "Gamespice (modelled for map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/gamespice-platform/map-convert/blob/main/tools/models/fork_station.py",
+   "source": "Gamespice map Blender model",
+   "attribution": false,
+   "uses": 166
   },
   {
    "kind": "model",
@@ -1797,6 +1807,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_ibeam",
+   "author": "Gamespice (modelled for map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/gamespice-platform/map-convert/blob/main/tools/models/debris_goods.py",
+   "source": "Gamespice map Blender model",
+   "attribution": false,
+   "uses": 17
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_lighttroffer",
    "author": "Gamespice (modelled for map)",
    "licence": "CC0-1.0",
@@ -1814,6 +1834,16 @@
    "source": "Gamespice map Blender model",
    "attribution": false,
    "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_roofdome",
+   "author": "TMC (modelled for dot-map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/gamespice-platform/map-convert/blob/main/tools/models/harbour_rooftop.py",
+   "source": "dot-map Blender model",
+   "attribution": false,
+   "uses": 1
   },
   {
    "kind": "model",
@@ -1841,9 +1871,9 @@
    "author": "Gamespice (modelled for map)",
    "licence": "CC0-1.0",
    "url": "https://github.com/gamespice-platform/map",
-   "source": "Modelled for dot-map",
+   "source": "Modelled for Gamespice map",
    "attribution": false,
-   "uses": 2
+   "uses": 5
   },
   {
    "kind": "model",
@@ -1853,17 +1883,7 @@
    "url": "https://kenney.nl/assets/building-kit",
    "source": "Kenney Building Kit",
    "attribution": false,
-   "uses": 18
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_car-kit_cone",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/car-kit",
-   "source": "Kenney Car Kit",
-   "attribution": false,
-   "uses": 19
+   "uses": 16
   },
   {
    "kind": "model",
@@ -1874,16 +1894,6 @@
    "source": "Kenney City Kit - Suburban",
    "attribution": false,
    "uses": 5
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_mini-arcade_wall-window",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/mini-arcade",
-   "source": "Kenney Mini Arcade",
-   "attribution": false,
-   "uses": 16
   },
   {
    "kind": "model",
@@ -1914,6 +1924,16 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 7
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_dead_tree_trunk_02",
+   "author": "Jenelle van Heerden, Rico Cilliers",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/dead_tree_trunk_02",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 13
   },
   {
    "kind": "model",
@@ -2013,7 +2033,27 @@
    "url": "https://polyhaven.com/a/namaqualand_boulder_03",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 2
+   "uses": 28
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_namaqualand_boulder_04",
+   "author": "Jenelle van Heerden",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/namaqualand_boulder_04",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 97
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_namaqualand_cliff_02",
+   "author": "Dario Barresi, Rico Cilliers",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/namaqualand_cliff_02",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 16
   },
   {
    "kind": "model",
@@ -2024,6 +2064,16 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_old_tyre",
+   "author": "MP",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/old_tyre",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 4
   },
   {
    "kind": "model",
@@ -2064,6 +2114,26 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_rock_face_01",
+   "author": "Dario Barresi",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/rock_face_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 53
+  },
+  {
+   "kind": "model",
+   "name": "lib/ph_rock_moss_set_01",
+   "author": "Kless Gyzen",
+   "licence": "CC0-1.0",
+   "url": "https://polyhaven.com/a/rock_moss_set_01",
+   "source": "Poly Haven",
+   "attribution": false,
+   "uses": 59
   },
   {
    "kind": "model",
@@ -2143,26 +2213,6 @@
    "url": "https://polyhaven.com/a/wooden_table_02",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623",
-   "author": "Libau Media",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-1986239266ee44c788fd6effe4055704",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 2
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_ceiling_lamp_14e5f1",
-   "author": "neverfollow81",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-14e5f136ee154fe783f78f8e38d185c3",
-   "source": "Sketchfab",
-   "attribution": true,
    "uses": 1
   },
   {
@@ -2293,7 +2343,7 @@
    "url": "https://sketchfab.com/3d-models/none-d45218a3fab349e5b1de040f29e7b6f9",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 294
+   "uses": 983
   },
   {
    "kind": "model",
@@ -2303,17 +2353,7 @@
    "url": "https://sketchfab.com/3d-models/none-d71ceeb303644e649d09fe8038aa5e47",
    "source": "Sketchfab",
    "attribution": true,
-   "uses": 139
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_post_apocalyptic_fire_extinguisher_b163e8",
-   "author": "Sousinho",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-b163e81ebaa74397b6ccc4ec7e50722b",
-   "source": "Sketchfab",
-   "attribution": true,
-   "uses": 4
+   "uses": 31
   },
   {
    "kind": "model",
@@ -2324,6 +2364,16 @@
    "source": "Sketchfab",
    "attribution": true,
    "uses": 1
+  },
+  {
+   "kind": "model",
+   "name": "lib/sf_rusted_tank_storage_57be2e",
+   "author": "Mkc",
+   "licence": "CC-BY-4.0",
+   "url": "https://sketchfab.com/3d-models/none-57be2eaf4d6b4d2980bcee4ccb35f780",
+   "source": "Sketchfab",
+   "attribution": true,
+   "uses": 4
   },
   {
    "kind": "model",
@@ -2356,6 +2406,16 @@
    "uses": 2
   },
   {
+   "kind": "model",
+   "name": "vehicles/van",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/car-kit",
+   "source": "Kenney Car Kit",
+   "attribution": false,
+   "uses": 4
+  },
+  {
    "kind": "sound",
    "name": "door_open",
    "author": "Kenney",
@@ -2364,6 +2424,16 @@
    "source": "Kenney Sci-Fi Sounds",
    "attribution": false,
    "uses": 7
+  },
+  {
+   "kind": "sound",
+   "name": "metal_slide",
+   "author": "Kenney",
+   "licence": "CC0-1.0",
+   "url": "https://kenney.nl/assets/foley-sounds",
+   "source": "Kenney Foley Sounds",
+   "attribution": false,
+   "uses": 2
   }
  ]
 }

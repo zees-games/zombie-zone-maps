@@ -5,14 +5,14 @@
  "sha256": "1db50335ec340585305aaf20673d72ec238a954103eb0798d81426599b9c38fb",
  "textures": {
   "looked_up": 59,
-  "drawn": 59,
+  "drawn": 58,
   "by_tier": {
    "addon": 51,
    "default": 8
   },
   "free_by_tier": {
    "addon": 51,
-   "default": 8
+   "default": 7
   },
   "nearest_photo": []
  },
@@ -35,15 +35,7 @@
  },
  "keys": {
   "catalogue": true,
-  "unmapped": {
-   "npc_enemyfinder": [
-    "FieldOfView",
-    "MaxSearchDist",
-    "StartOn",
-    "freepass_movetolerance",
-    "freepass_refillrate"
-   ]
-  }
+  "unmapped": {}
  },
  "links": {
   "total": 4,
@@ -55,13 +47,7 @@
   "models_unmapped": [],
   "sounds_unmapped": [],
   "classes_unmapped": [],
-  "keys_unmapped": [
-   "npc_enemyfinder.FieldOfView",
-   "npc_enemyfinder.MaxSearchDist",
-   "npc_enemyfinder.StartOn",
-   "npc_enemyfinder.freepass_movetolerance",
-   "npc_enemyfinder.freepass_refillrate"
-  ],
+  "keys_unmapped": [],
   "links_unresolved": [],
   "inputs_unimplemented": [
    "aiscripted_schedule.StartSchedule",
@@ -76,7 +62,7 @@
   "models_unmapped": 0,
   "sounds_unmapped": 0,
   "classes_unmapped": 0,
-  "keys_unmapped": 5,
+  "keys_unmapped": 0,
   "links_unresolved": 0,
   "inputs_unimplemented": 3,
   "surfaces_opaque": 0

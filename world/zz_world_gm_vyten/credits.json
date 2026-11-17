@@ -2,7 +2,7 @@
  "map": {
   "author": "Jake (Steam profile Jake2149) and Sir Zacko",
   "page": "https://steamcommunity.com/sharedfiles/filedetails/?id=1449731878",
-  "licence": "none stated, Steam Workshop page"
+  "licence": "no licence stated; removed on request"
  },
  "works": [
   {
@@ -997,6 +997,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_drivecase",
+   "author": "Gamespice (modelled for map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/gamespice-platform/map-convert/blob/main/tools/models/debris_goods.py",
+   "source": "Gamespice map Blender model",
+   "attribution": false,
+   "uses": 4
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_freightbutton",
    "author": "Gamespice (modelled for map)",
    "licence": "CC0-1.0",
@@ -1071,9 +1081,9 @@
    "author": "Gamespice (modelled for map)",
    "licence": "CC0-1.0",
    "url": "https://github.com/gamespice-platform/map",
-   "source": "Modelled for dot-map",
+   "source": "Modelled for Gamespice map",
    "attribution": false,
-   "uses": 3
+   "uses": 2
   },
   {
    "kind": "model",
@@ -1313,7 +1323,7 @@
    "url": "https://polyhaven.com/a/wooden_display_shelves_01",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 19
+   "uses": 16
   },
   {
    "kind": "model",

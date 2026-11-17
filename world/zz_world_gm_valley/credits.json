@@ -1437,6 +1437,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_dockwrecksquare",
+   "author": "Gamespice (modelled for map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/gamespice-platform/map-convert/blob/main/tools/models/fork_station.py",
+   "source": "Gamespice map Blender model",
+   "attribution": false,
+   "uses": 7
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_driftwood2",
    "author": "Gamespice (modelled for map)",
    "licence": "CC0-1.0",
@@ -1484,16 +1494,6 @@
    "source": "Gamespice map Blender model",
    "attribution": false,
    "uses": 11
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_car-kit_cone",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/car-kit",
-   "source": "Kenney Car Kit",
-   "attribution": false,
-   "uses": 4
   },
   {
    "kind": "model",
@@ -1727,10 +1727,10 @@
   },
   {
    "kind": "model",
-   "name": "lib/sf_post_apocalyptic_fire_extinguisher_b163e8",
-   "author": "Sousinho",
+   "name": "lib/sf_rusted_tank_storage_57be2e",
+   "author": "Mkc",
    "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-b163e81ebaa74397b6ccc4ec7e50722b",
+   "url": "https://sketchfab.com/3d-models/none-57be2eaf4d6b4d2980bcee4ccb35f780",
    "source": "Sketchfab",
    "attribution": true,
    "uses": 1

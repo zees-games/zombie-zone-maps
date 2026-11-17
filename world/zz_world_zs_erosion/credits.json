@@ -1027,6 +1027,26 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_rubbleheap",
+   "author": "Gamespice (modelled for map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/gamespice-platform/map-convert/blob/main/tools/models/debris_goods.py",
+   "source": "Gamespice map Blender model",
+   "attribution": false,
+   "uses": 8
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_signpole",
+   "author": "Gamespice (modelled for map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/gamespice-platform/map-convert/blob/main/tools/models/fork_station.py",
+   "source": "Gamespice map Blender model",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_wood_crate_cube",
    "author": "Gamespice (modelled for map)",
    "licence": "CC0-1.0",
@@ -1047,23 +1067,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_car-kit_cone",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/car-kit",
-   "source": "Kenney Car Kit",
-   "attribution": false,
-   "uses": 4
-  },
-  {
-   "kind": "model",
    "name": "lib/kenney_nature-kit_cliff_diagonal_rock",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/nature-kit",
    "source": "Kenney Nature Kit",
    "attribution": false,
-   "uses": 13
+   "uses": 8
   },
   {
    "kind": "model",
@@ -1297,16 +1307,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/ph_namaqualand_boulder_04",
-   "author": "Jenelle van Heerden",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/namaqualand_boulder_04",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "model",
    "name": "lib/ph_old_bed_frame",
    "author": "Luca B",
    "licence": "CC0-1.0",
@@ -1323,7 +1323,7 @@
    "url": "https://polyhaven.com/a/old_tyre",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 2
+   "uses": 5
   },
   {
    "kind": "model",
@@ -1483,7 +1483,7 @@
    "url": "https://polyhaven.com/a/wooden_display_shelves_01",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 6
+   "uses": 4
   },
   {
    "kind": "model",
@@ -1493,16 +1493,6 @@
    "url": "https://polyhaven.com/a/wooden_table_02",
    "source": "Poly Haven",
    "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/sf_1938_vairogs_v8_flatbed_truck_ford_based_198623",
-   "author": "Libau Media",
-   "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-1986239266ee44c788fd6effe4055704",
-   "source": "Sketchfab",
-   "attribution": true,
    "uses": 1
   },
   {

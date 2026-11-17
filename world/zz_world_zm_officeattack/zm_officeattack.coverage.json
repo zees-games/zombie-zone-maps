@@ -5,22 +5,23 @@
  "sha256": "a10e005cac47c3405bdd112b80a59ad98e782b14899101fbcc098db372ad1307",
  "textures": {
   "looked_up": 67,
-  "drawn": 67,
+  "drawn": 66,
   "by_tier": {
    "addon": 58,
    "default": 9
   },
   "free_by_tier": {
    "addon": 56,
-   "default": 11
+   "default": 10
   },
   "nearest_photo": []
  },
  "models": {
-  "looked_up": 59,
+  "looked_up": 60,
   "by_tier": {
    "category": 2,
-   "default": 57
+   "default": 57,
+   "skybox": 1
   }
  },
  "sounds": {

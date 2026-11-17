@@ -2417,13 +2417,13 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_Bricks067",
-   "author": "Lennart Demes and contributors",
+   "name": "pbr_brick_wall_02",
+   "author": "Dimitrios Savva",
    "licence": "CC0-1.0",
-   "url": "https://ambientcg.com/view?id=Bricks067",
-   "source": "ambientCG",
+   "url": "https://polyhaven.com/a/brick_wall_02",
+   "source": "polyhaven",
    "attribution": false,
-   "uses": 2
+   "uses": 1
   },
   {
    "kind": "texture",
@@ -2557,6 +2557,16 @@
   },
   {
    "kind": "texture",
+   "name": "pbr_Bricks067",
+   "author": "Lennart Demes and contributors",
+   "licence": "CC0-1.0",
+   "url": "https://ambientcg.com/view?id=Bricks067",
+   "source": "ambientCG",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "texture",
    "name": "pbr_ThatchedRoof002A",
    "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
@@ -2574,6 +2584,16 @@
    "source": "polyhaven",
    "attribution": false,
    "uses": 2
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_ceilinglantern",
+   "author": "Gamespice (modelled for map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/gamespice-platform/map-convert/blob/main/tools/models/debris_goods.py",
+   "source": "Gamespice map Blender model",
+   "attribution": false,
+   "uses": 53
   },
   {
    "kind": "model",
@@ -2683,7 +2703,7 @@
    "url": "https://github.com/gamespice-platform/map/blob/main/tools/models/building_props.py",
    "source": "Gamespice map Blender model",
    "attribution": false,
-   "uses": 105
+   "uses": 75
   },
   {
    "kind": "model",
@@ -2741,9 +2761,9 @@
    "author": "Gamespice (modelled for map)",
    "licence": "CC0-1.0",
    "url": "https://github.com/gamespice-platform/map",
-   "source": "Modelled for dot-map",
+   "source": "Modelled for Gamespice map",
    "attribution": false,
-   "uses": 44
+   "uses": 24
   },
   {
    "kind": "model",
@@ -2767,13 +2787,13 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_food-kit_cooking-knife-chopping",
+   "name": "lib/kenney_food-kit_knife-block",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/food-kit",
    "source": "Kenney Food Kit",
    "attribution": false,
-   "uses": 5
+   "uses": 3
   },
   {
    "kind": "model",
@@ -2823,7 +2843,7 @@
    "url": "https://kenney.nl/assets/pirate-kit",
    "source": "Kenney Pirate Kit",
    "attribution": false,
-   "uses": 10
+   "uses": 9
   },
   {
    "kind": "model",

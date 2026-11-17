@@ -5,14 +5,14 @@
  "sha256": "1285886e3ddcd2eebb5f18e6dcabbe81e5057043ab75ac73d808da217cfc4762",
  "textures": {
   "looked_up": 74,
-  "drawn": 73,
+  "drawn": 72,
   "by_tier": {
    "addon": 25,
    "default": 49
   },
   "free_by_tier": {
    "addon": 62,
-   "default": 11
+   "default": 10
   },
   "nearest_photo": [
    "aquatica/aqmetal2",
@@ -60,7 +60,8 @@
   "by_tier": {
    "category": 20,
    "default": 145,
-   "fallback": 18,
+   "game": 1,
+   "parts": 17,
    "skybox": 1
   }
  },
@@ -106,26 +107,7 @@
  "lists": {
   "textures_unmapped": [],
   "textures_flat": [],
-  "models_unmapped": [
-   "iraq/ir_twall_01_lg.mdl",
-   "props/de_nuke/coolingtower.mdl",
-   "props/de_nuke/fuel_cask.mdl",
-   "props/de_nuke/nuclearcontrolbox.mdl",
-   "props/lg/battlefield/grue/grue_base_lg.mdl",
-   "props/lg/battlefield/grue/grue_tete_lg.mdl",
-   "props/lg/battlefield/pont_bailey_1.mdl",
-   "props/lg/battlefield/pont_bailey_16.mdl",
-   "props/lg/battlefield/pont_bailey_2.mdl",
-   "props/lg/battlefield/pont_bailey_4.mdl",
-   "props/lg/battlefield/pont_bailey_4_impact_physique.mdl",
-   "props/lg/battlefield/pont_bailey_8.mdl",
-   "props/lg/battlefield/pont_bailey_contrefort.mdl",
-   "props/lg/battlefield/pont_bailey_debut.mdl",
-   "props/lg/battlefield/pont_bailey_fin.mdl",
-   "props/lg/battlefield/pont_bailey_trou.mdl",
-   "props_phx/mk-82_lg.mdl",
-   "sentry/rhib.mdl"
-  ],
+  "models_unmapped": [],
   "sounds_unmapped": [
    "lg/warland/remove_kebab.wav"
   ],
@@ -158,7 +140,7 @@
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 18,
+  "models_unmapped": 0,
   "sounds_unmapped": 1,
   "classes_unmapped": 0,
   "keys_unmapped": 8,

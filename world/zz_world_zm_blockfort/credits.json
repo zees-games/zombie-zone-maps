@@ -87,11 +87,11 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_kenney_prototype_dark_01",
-   "author": "Kenney",
+   "name": "pbr_Concrete030",
+   "author": "Lennart Demes and contributors",
    "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/prototype-textures",
-   "source": "Kenney",
+   "url": "https://ambientcg.com/view?id=Concrete030",
+   "source": "ambientCG",
    "attribution": false,
    "uses": 15
   },
@@ -367,6 +367,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_exitsign",
+   "author": "Gamespice (modelled for map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/gamespice-platform/map-convert/blob/main/tools/models/debris_goods.py",
+   "source": "Gamespice map Blender model",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_freightbutton",
    "author": "Gamespice (modelled for map)",
    "licence": "CC0-1.0",
@@ -414,16 +424,6 @@
    "source": "Kenney Factory Kit",
    "attribution": false,
    "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/own_box_14x31x38_e8e8e0",
-   "author": "Gamespice (generated for map)",
-   "licence": "CC0-1.0",
-   "url": "https://github.com/gamespice-platform/map",
-   "source": "TMC generated model",
-   "attribution": false,
-   "uses": 2
   },
   {
    "kind": "model",

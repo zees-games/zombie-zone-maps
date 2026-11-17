@@ -22,18 +22,18 @@
   ]
  },
  "models": {
-  "looked_up": 238,
+  "looked_up": 247,
   "by_tier": {
    "category": 9,
    "default": 225,
-   "skybox": 4
+   "skybox": 13
   }
  },
  "sounds": {
   "looked_up": 20,
   "by_tier": {
-   "default": 17,
-   "fallback": 3
+   "default": 18,
+   "fallback": 2
   }
  },
  "classes": {
@@ -61,8 +61,7 @@
   "models_unmapped": [],
   "sounds_unmapped": [
    "ambient/outro/citadelfinale.wav",
-   "ambient/outro/messagepacketsmultiple02.wav",
-   "doll.squeak"
+   "ambient/outro/messagepacketsmultiple02.wav"
   ],
   "classes_unmapped": [],
   "keys_unmapped": [
@@ -82,7 +81,7 @@
   "textures_unmapped": 0,
   "textures_flat": 0,
   "models_unmapped": 0,
-  "sounds_unmapped": 3,
+  "sounds_unmapped": 2,
   "classes_unmapped": 0,
   "keys_unmapped": 1,
   "links_unresolved": 0,

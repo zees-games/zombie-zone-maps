@@ -327,11 +327,11 @@
   },
   {
    "kind": "texture",
-   "name": "pbr_kenney_prototype_orange_03",
-   "author": "Kenney",
+   "name": "pbr_brick_wall_02",
+   "author": "Dimitrios Savva",
    "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/prototype-textures",
-   "source": "Kenney",
+   "url": "https://polyhaven.com/a/brick_wall_02",
+   "source": "polyhaven",
    "attribution": false,
    "uses": 1
   },
@@ -587,6 +587,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_cratestack",
+   "author": "Gamespice (modelled for map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/gamespice-platform/map-convert/blob/main/tools/models/debris_goods.py",
+   "source": "Gamespice map Blender model",
+   "attribution": false,
+   "uses": 1
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_driftwood2",
    "author": "Gamespice (modelled for map)",
    "licence": "CC0-1.0",
@@ -634,16 +644,6 @@
    "source": "Gamespice map Blender remodel",
    "attribution": false,
    "uses": 11
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_pirate-kit_crate-bottles",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/pirate-kit",
-   "source": "Kenney Pirate Kit",
-   "attribution": false,
-   "uses": 1
   },
   {
    "kind": "model",

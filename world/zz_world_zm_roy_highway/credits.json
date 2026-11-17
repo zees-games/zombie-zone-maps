@@ -907,6 +907,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_propellerengine",
+   "author": "Gamespice (modelled for map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/gamespice-platform/map-convert/blob/main/tools/models/debris_goods.py",
+   "source": "Gamespice map Blender model",
+   "attribution": false,
+   "uses": 5
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_wood_crate_cube",
    "author": "Gamespice (modelled for map)",
    "licence": "CC0-1.0",
@@ -957,21 +967,11 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_mini-arcade_gambling-machine",
+   "name": "lib/kenney_mini-arcade_vending-machine",
    "author": "Kenney",
    "licence": "CC0-1.0",
    "url": "https://kenney.nl/assets/mini-arcade",
    "source": "Kenney Mini Arcade",
-   "attribution": false,
-   "uses": 5
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_mini-market_shelf-boxes",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/mini-market",
-   "source": "Kenney Mini Market",
    "attribution": false,
    "uses": 4
   },

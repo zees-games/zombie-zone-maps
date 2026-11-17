@@ -5,7 +5,7 @@
  "sha256": "a2e3dadf59e4c2aa62d38785a0f542b6eb612524ff0f6e6d70d34d61b51af52a",
  "textures": {
   "looked_up": 257,
-  "drawn": 260,
+  "drawn": 259,
   "by_tier": {
    "addon": 120,
    "default": 135,
@@ -126,20 +126,19 @@
   ]
  },
  "models": {
-  "looked_up": 295,
+  "looked_up": 304,
   "by_tier": {
    "category": 25,
    "default": 252,
-   "fallback": 3,
    "game": 11,
-   "skybox": 4
+   "parts": 3,
+   "skybox": 13
   }
  },
  "sounds": {
   "looked_up": 5,
   "by_tier": {
-   "default": 4,
-   "fallback": 1
+   "default": 5
   }
  },
  "classes": {
@@ -160,14 +159,8 @@
  "lists": {
   "textures_unmapped": [],
   "textures_flat": [],
-  "models_unmapped": [
-   "fork/railroads/curve_90_2048a.mdl",
-   "fork/railroads/switch_1024a.mdl",
-   "fork/railroads/switch_1024a_switch.mdl"
-  ],
-  "sounds_unmapped": [
-   "town.d1_town_02_squeekmove1"
-  ],
+  "models_unmapped": [],
+  "sounds_unmapped": [],
   "classes_unmapped": [],
   "keys_unmapped": [],
   "links_unresolved": [],
@@ -179,8 +172,8 @@
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 3,
-  "sounds_unmapped": 1,
+  "models_unmapped": 0,
+  "sounds_unmapped": 0,
   "classes_unmapped": 0,
   "keys_unmapped": 0,
   "links_unresolved": 0,

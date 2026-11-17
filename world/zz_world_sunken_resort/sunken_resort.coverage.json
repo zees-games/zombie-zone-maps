@@ -5,14 +5,14 @@
  "sha256": "fcbaf9a2bdebb9202a1f4cb1c7918835fafb894207845f04509d0eed14a49705",
  "textures": {
   "looked_up": 127,
-  "drawn": 129,
+  "drawn": 127,
   "by_tier": {
    "addon": 53,
    "default": 74
   },
   "free_by_tier": {
    "addon": 110,
-   "default": 19
+   "default": 17
   },
   "nearest_photo": [
    "concrete/concrete_bts_ceiling001a",
@@ -81,8 +81,9 @@
  "models": {
   "looked_up": 185,
   "by_tier": {
-   "category": 50,
-   "default": 135
+   "category": 48,
+   "default": 135,
+   "game": 2
   }
  },
  "sounds": {

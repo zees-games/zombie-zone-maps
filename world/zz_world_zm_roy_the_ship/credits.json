@@ -377,6 +377,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_drivecase",
+   "author": "Gamespice (modelled for map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/gamespice-platform/map-convert/blob/main/tools/models/debris_goods.py",
+   "source": "Gamespice map Blender model",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
    "name": "lib/dm_lighttroffer",
    "author": "Gamespice (modelled for map)",
    "licence": "CC0-1.0",
@@ -407,6 +417,16 @@
   },
   {
    "kind": "model",
+   "name": "lib/dm_weaponrifle",
+   "author": "Gamespice (modelled for map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/gamespice-platform/map-convert/blob/main/tools/models/weapons.py",
+   "source": "Gamespice map Blender model",
+   "attribution": false,
+   "uses": 2
+  },
+  {
+   "kind": "model",
    "name": "lib/kenney_mini-arcade_air-hockey",
    "author": "Kenney",
    "licence": "CC0-1.0",
@@ -433,7 +453,7 @@
    "url": "https://github.com/gamespice-platform/map",
    "source": "TMC generated model",
    "attribution": false,
-   "uses": 6
+   "uses": 4
   },
   {
    "kind": "model",
@@ -494,16 +514,6 @@
    "source": "Poly Haven",
    "attribution": false,
    "uses": 3
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_cement_bag",
-   "author": "PierreB3D",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/cement_bag",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 1
   },
   {
    "kind": "model",
@@ -591,16 +601,6 @@
    "author": "Ulan Cabanilla",
    "licence": "CC0-1.0",
    "url": "https://polyhaven.com/a/steel_frame_shelves_03",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 1
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_tea_set_01",
-   "author": "James Ray Cock, Rico Cilliers, Jurita Burger",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/tea_set_01",
    "source": "Poly Haven",
    "attribution": false,
    "uses": 1

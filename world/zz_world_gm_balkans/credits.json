@@ -2,7 +2,7 @@
  "map": {
   "author": "Lg (Steam profile lg_designer)",
   "page": "https://steamcommunity.com/sharedfiles/filedetails/?id=1307357127",
-  "licence": "none stated, Steam Workshop page"
+  "licence": "no licence stated; removed on request"
  },
  "works": [
   {
@@ -473,7 +473,7 @@
    "url": "https://kenney.nl/assets/survival-kit",
    "source": "Kenney Survival Kit",
    "attribution": false,
-   "uses": 80
+   "uses": 82
   },
   {
    "kind": "model",
@@ -504,6 +504,16 @@
    "source": "Kenney Factory Kit",
    "attribution": false,
    "uses": 5
+  },
+  {
+   "kind": "model",
+   "name": "lib/dm_boxstack",
+   "author": "Gamespice (modelled for map)",
+   "licence": "CC0-1.0",
+   "url": "https://github.com/gamespice-platform/map-convert/blob/main/tools/models/debris_goods.py",
+   "source": "Gamespice map Blender model",
+   "attribution": false,
+   "uses": 27
   },
   {
    "kind": "model",
@@ -617,16 +627,6 @@
   },
   {
    "kind": "model",
-   "name": "lib/kenney_food-kit_pizza-box",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/food-kit",
-   "source": "Kenney Food Kit",
-   "attribution": false,
-   "uses": 5
-  },
-  {
-   "kind": "model",
    "name": "lib/kenney_mini-arcade_vending-machine",
    "author": "Kenney",
    "licence": "CC0-1.0",
@@ -634,26 +634,6 @@
    "source": "Kenney Mini Arcade",
    "attribution": false,
    "uses": 4
-  },
-  {
-   "kind": "model",
-   "name": "lib/kenney_pirate-kit_crate-bottles",
-   "author": "Kenney",
-   "licence": "CC0-1.0",
-   "url": "https://kenney.nl/assets/pirate-kit",
-   "source": "Kenney Pirate Kit",
-   "attribution": false,
-   "uses": 6
-  },
-  {
-   "kind": "model",
-   "name": "lib/own_box_124x82x28_e8e8e0",
-   "author": "Gamespice (generated for map)",
-   "licence": "CC0-1.0",
-   "url": "https://github.com/gamespice-platform/map",
-   "source": "TMC generated model",
-   "attribution": false,
-   "uses": 16
   },
   {
    "kind": "model",
@@ -791,16 +771,6 @@
    "author": "elli moeller",
    "licence": "CC0-1.0",
    "url": "https://polyhaven.com/a/retro_multimeter",
-   "source": "Poly Haven",
-   "attribution": false,
-   "uses": 4
-  },
-  {
-   "kind": "model",
-   "name": "lib/ph_rusted_wheel_rim_01",
-   "author": "John Hutcheson",
-   "licence": "CC0-1.0",
-   "url": "https://polyhaven.com/a/rusted_wheel_rim_01",
    "source": "Poly Haven",
    "attribution": false,
    "uses": 4
@@ -967,10 +937,10 @@
   },
   {
    "kind": "model",
-   "name": "lib/sf_post_apocalyptic_fire_extinguisher_b163e8",
-   "author": "Sousinho",
+   "name": "lib/sf_rusted_tank_storage_57be2e",
+   "author": "Mkc",
    "licence": "CC-BY-4.0",
-   "url": "https://sketchfab.com/3d-models/none-b163e81ebaa74397b6ccc4ec7e50722b",
+   "url": "https://sketchfab.com/3d-models/none-57be2eaf4d6b4d2980bcee4ccb35f780",
    "source": "Sketchfab",
    "attribution": true,
    "uses": 1

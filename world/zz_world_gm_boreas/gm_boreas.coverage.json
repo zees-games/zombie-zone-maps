@@ -5,7 +5,7 @@
  "sha256": "08676e9d0b91269346f4b8f437e6747c82db57b9b87e5a37a5bc2e5d8eeccce2",
  "textures": {
   "looked_up": 223,
-  "drawn": 228,
+  "drawn": 225,
   "by_tier": {
    "addon": 97,
    "default": 106,
@@ -13,7 +13,7 @@
   },
   "free_by_tier": {
    "addon": 191,
-   "default": 36
+   "default": 33
   },
   "nearest_photo": [
    "boreas/concrete/concretefloor005a",
@@ -108,16 +108,16 @@
   "by_tier": {
    "category": 65,
    "default": 452,
-   "fallback": 1,
    "game": 23,
+   "parts": 1,
    "skybox": 1
   }
  },
  "sounds": {
   "looked_up": 13,
   "by_tier": {
-   "default": 7,
-   "fallback": 6
+   "default": 8,
+   "fallback": 5
   }
  },
  "classes": {
@@ -153,16 +153,13 @@
  "lists": {
   "textures_unmapped": [],
   "textures_flat": [],
-  "models_unmapped": [
-   "boreas/exterior/road.mdl"
-  ],
+  "models_unmapped": [],
   "sounds_unmapped": [
    "artefact.attach",
    "artefact.degauss",
    "artefact.detach",
    "k_lab.printer",
-   "plats/platstop1.wav",
-   "town.d1_town_02_squeekmove1"
+   "plats/platstop1.wav"
   ],
   "classes_unmapped": [
    "info_null"
@@ -202,8 +199,8 @@
  "counts": {
   "textures_unmapped": 0,
   "textures_flat": 0,
-  "models_unmapped": 1,
-  "sounds_unmapped": 6,
+  "models_unmapped": 0,
+  "sounds_unmapped": 5,
   "classes_unmapped": 1,
   "keys_unmapped": 7,
   "links_unresolved": 3,
