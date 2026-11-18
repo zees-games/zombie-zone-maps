@@ -12,6 +12,7 @@ HERE="$(cd "$(dirname "$0")" && pwd)"
 BSP="${DOTBSP_PATH:-$HERE/../../dot-map-convert}"
 OUT="${STORE_PROJECT:-$HERE/../.stores/project}"
 DIST="${DIST:-$HERE/../dist}"
+[ -d "$HERE/../.stores/model-library" ] && { "$BSP/tools/refresh_stores.sh" "$HERE/.." >&2 || true; }   # a model added to the library since .stores was made
 packs=()
 while IFS=$'\t' read -r id key; do
     [ -n "$SHIP_IDS" ] && [[ " $SHIP_IDS " != *" $id "* ]] && continue

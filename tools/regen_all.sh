@@ -10,6 +10,7 @@ BSP="${DOTBSP_PATH:-$HERE/../../dot-map-convert}"
 # as a dot-cloud slice (licence.store_pack), so no pack carries a library model and the game needs no --no-models.
 STORES="${STORES:-$HERE/../.stores}"
 rc=0
+"$BSP/tools/refresh_stores.sh" "$HERE/.." >&2 || true   # links library models added since .stores was made
 while IFS=$'\t' read -r id key; do
     grep -q "^$key " "$HERE/convert/excluded.txt" && { echo "$id excluded"; continue; }
     [ -n "$REGEN_IDS" ] && [[ " $REGEN_IDS " != *" $id "* ]] && continue
