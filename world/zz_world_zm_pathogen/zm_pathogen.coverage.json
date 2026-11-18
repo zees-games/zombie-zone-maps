@@ -75,7 +75,20 @@
    "func_button.Press",
    "phys_thruster.Activate"
   ],
-  "surfaces_opaque": []
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:env_headcrabcanister (approximated)",
+   "class_unsupported:env_microphone (approximated)",
+   "class_unsupported:logic_branch_listener (approximated)",
+   "class_unsupported:path_track (approximated)",
+   "class_unsupported:phys_thruster (approximated)",
+   "input_unimplemented:env_headcrabcanister.FireCanister",
+   "input_unimplemented:env_physexplosion.Explode",
+   "input_unimplemented:env_shooter.Shoot",
+   "input_unimplemented:func_button.Press",
+   "input_unimplemented:phys_thruster.Activate",
+   "volume_parented:trigger_hurt#421 -> train"
+  ]
  },
  "counts": {
   "textures_unmapped": 0,
@@ -86,6 +99,24 @@
   "keys_unmapped": 1,
   "links_unresolved": 0,
   "inputs_unimplemented": 5,
-  "surfaces_opaque": 0
+  "surfaces_opaque": 0,
+  "gameplay_lost": 11
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 5,
+   "input_unimplemented": 5,
+   "volume_parented": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "input_unimplemented": "unsupported",
+   "volume_parented": "unsupported"
+  },
+  "classes": {
+   "approximated": 16,
+   "ignored": 6,
+   "implemented": 50
+  }
  }
 }

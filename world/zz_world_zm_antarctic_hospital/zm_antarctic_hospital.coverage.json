@@ -58,7 +58,17 @@
    "npc_zombie.UpdateEnemyMemory",
    "prop_physics.Skin"
   ],
-  "surfaces_opaque": []
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:aiscripted_schedule (approximated)",
+   "class_unsupported:npc_fastzombie (approximated)",
+   "class_unsupported:npc_zombie (approximated)",
+   "input_unimplemented:aiscripted_schedule.StartSchedule",
+   "input_unimplemented:env_splash.Splash",
+   "input_unimplemented:npc_fastzombie.UpdateEnemyMemory",
+   "input_unimplemented:npc_zombie.UpdateEnemyMemory",
+   "input_unimplemented:prop_physics.Skin"
+  ]
  },
  "counts": {
   "textures_unmapped": 0,
@@ -69,6 +79,22 @@
   "keys_unmapped": 0,
   "links_unresolved": 0,
   "inputs_unimplemented": 5,
-  "surfaces_opaque": 0
+  "surfaces_opaque": 0,
+  "gameplay_lost": 8
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 3,
+   "input_unimplemented": 5
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "input_unimplemented": "unsupported"
+  },
+  "classes": {
+   "approximated": 7,
+   "ignored": 5,
+   "implemented": 27
+  }
  }
 }

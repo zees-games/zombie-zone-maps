@@ -55,7 +55,12 @@
   "inputs_unimplemented": [
    "point_servercommand.Command"
   ],
-  "surfaces_opaque": []
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:func_buyzone (ignored)",
+   "class_unsupported:path_track (approximated)",
+   "input_unimplemented:point_servercommand.Command"
+  ]
  },
  "counts": {
   "textures_unmapped": 0,
@@ -66,6 +71,22 @@
   "keys_unmapped": 0,
   "links_unresolved": 0,
   "inputs_unimplemented": 1,
-  "surfaces_opaque": 0
+  "surfaces_opaque": 0,
+  "gameplay_lost": 3
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 2,
+   "input_unimplemented": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "input_unimplemented": "unsupported"
+  },
+  "classes": {
+   "approximated": 2,
+   "ignored": 1,
+   "implemented": 27
+  }
  }
 }

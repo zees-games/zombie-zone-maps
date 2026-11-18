@@ -111,7 +111,12 @@
    "env_tonemap_controller.SetTonemapRate",
    "lua_run.RunCode"
   ],
-  "surfaces_opaque": []
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "input_unimplemented:env_tonemap_controller.SetTonemapRate",
+   "input_unimplemented:lua_run.RunCode",
+   "player_input:setfogcontroller x7"
+  ]
  },
  "counts": {
   "textures_unmapped": 0,
@@ -122,6 +127,25 @@
   "keys_unmapped": 1,
   "links_unresolved": 0,
   "inputs_unimplemented": 2,
-  "surfaces_opaque": 0
+  "surfaces_opaque": 0,
+  "gameplay_lost": 3
+ },
+ "gameplay": {
+  "findings": {
+   "input_unimplemented": 2,
+   "player_input": 1,
+   "teleport_target_dynamic": 2
+  },
+  "severity": {
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported",
+   "teleport_target_dynamic": "handled"
+  },
+  "classes": {
+   "approximated": 3,
+   "ignored": 5,
+   "implemented": 35,
+   "unknown": 1
+  }
  }
 }

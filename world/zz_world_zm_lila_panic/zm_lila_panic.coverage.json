@@ -50,7 +50,11 @@
   "keys_unmapped": [],
   "links_unresolved": [],
   "inputs_unimplemented": [],
-  "surfaces_opaque": []
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:func_bomb_target (ignored)",
+   "class_unsupported:func_buyzone (ignored)"
+  ]
  },
  "counts": {
   "textures_unmapped": 0,
@@ -61,6 +65,19 @@
   "keys_unmapped": 0,
   "links_unresolved": 0,
   "inputs_unimplemented": 0,
-  "surfaces_opaque": 0
+  "surfaces_opaque": 0,
+  "gameplay_lost": 2
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 2
+  },
+  "severity": {
+   "class_unsupported": "unsupported"
+  },
+  "classes": {
+   "ignored": 2,
+   "implemented": 5
+  }
  }
 }

@@ -164,7 +164,11 @@
    "logic_case.OnCase04->psi_antenna_elec8"
   ],
   "inputs_unimplemented": [],
-  "surfaces_opaque": []
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:env_fire (approximated)",
+   "class_unsupported:point_hurt (approximated)"
+  ]
  },
  "counts": {
   "textures_unmapped": 0,
@@ -175,6 +179,22 @@
   "keys_unmapped": 0,
   "links_unresolved": 16,
   "inputs_unimplemented": 0,
-  "surfaces_opaque": 0
+  "surfaces_opaque": 0,
+  "gameplay_lost": 2
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 2,
+   "target_dangling": 32
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "target_dangling": "source"
+  },
+  "classes": {
+   "approximated": 7,
+   "ignored": 1,
+   "implemented": 21
+  }
  }
 }

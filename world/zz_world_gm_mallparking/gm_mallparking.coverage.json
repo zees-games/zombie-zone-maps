@@ -103,6 +103,9 @@
    "building_template/building_trainstation_window001a",
    "parking_lot/warehousedoor",
    "storefront_template/storefront_template001d"
+  ],
+  "gameplay_lost": [
+   "class_unsupported:path_track (approximated)"
   ]
  },
  "counts": {
@@ -114,6 +117,20 @@
   "keys_unmapped": 0,
   "links_unresolved": 0,
   "inputs_unimplemented": 0,
-  "surfaces_opaque": 3
+  "surfaces_opaque": 3,
+  "gameplay_lost": 1
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported"
+  },
+  "classes": {
+   "approximated": 1,
+   "ignored": 2,
+   "implemented": 23
+  }
  }
 }

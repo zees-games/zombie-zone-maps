@@ -75,7 +75,8 @@
   "keys_unmapped": [],
   "links_unresolved": [],
   "inputs_unimplemented": [],
-  "surfaces_opaque": []
+  "surfaces_opaque": [],
+  "gameplay_lost": []
  },
  "counts": {
   "textures_unmapped": 0,
@@ -86,6 +87,17 @@
   "keys_unmapped": 0,
   "links_unresolved": 0,
   "inputs_unimplemented": 0,
-  "surfaces_opaque": 0
+  "surfaces_opaque": 0,
+  "gameplay_lost": 0
+ },
+ "gameplay": {
+  "findings": {},
+  "severity": {},
+  "classes": {
+   "approximated": 1,
+   "ignored": 1,
+   "implemented": 23,
+   "unknown": 1
+  }
  }
 }

@@ -86,7 +86,15 @@
   "inputs_unimplemented": [
    "env_entity_maker.ForceSpawn"
   ],
-  "surfaces_opaque": []
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:env_entity_maker (approximated)",
+   "class_unsupported:func_buyzone (ignored)",
+   "class_unsupported:path_track (approximated)",
+   "input_unimplemented:env_entity_maker.ForceSpawn",
+   "volume_parented:trigger_hurt#256 -> Upper_Trap01_cli2",
+   "volume_parented:trigger_hurt#257 -> Upper_Trap02_cli2"
+  ]
  },
  "counts": {
   "textures_unmapped": 0,
@@ -97,6 +105,26 @@
   "keys_unmapped": 7,
   "links_unresolved": 1,
   "inputs_unimplemented": 1,
-  "surfaces_opaque": 0
+  "surfaces_opaque": 0,
+  "gameplay_lost": 6
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 3,
+   "input_unimplemented": 1,
+   "target_dangling": 1,
+   "volume_parented": 2
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "input_unimplemented": "unsupported",
+   "target_dangling": "source",
+   "volume_parented": "unsupported"
+  },
+  "classes": {
+   "approximated": 6,
+   "ignored": 2,
+   "implemented": 29
+  }
  }
 }

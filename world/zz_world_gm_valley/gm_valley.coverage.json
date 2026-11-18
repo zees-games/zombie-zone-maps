@@ -102,7 +102,8 @@
   "inputs_unimplemented": [],
   "surfaces_opaque": [
    "props/sign_obersvation"
-  ]
+  ],
+  "gameplay_lost": []
  },
  "counts": {
   "textures_unmapped": 0,
@@ -113,6 +114,16 @@
   "keys_unmapped": 0,
   "links_unresolved": 0,
   "inputs_unimplemented": 0,
-  "surfaces_opaque": 1
+  "surfaces_opaque": 1,
+  "gameplay_lost": 0
+ },
+ "gameplay": {
+  "findings": {},
+  "severity": {},
+  "classes": {
+   "approximated": 1,
+   "ignored": 1,
+   "implemented": 16
+  }
  }
 }

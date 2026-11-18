@@ -99,7 +99,14 @@
   "inputs_unimplemented": [
    "point_servercommand.Command"
   ],
-  "surfaces_opaque": []
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:info_sigilnode (approximated)",
+   "class_unsupported:logic_gamerules (ignored)",
+   "class_unsupported:logic_waves (approximated)",
+   "class_unsupported:path_track (approximated)",
+   "input_unimplemented:point_servercommand.Command"
+  ]
  },
  "counts": {
   "textures_unmapped": 0,
@@ -110,6 +117,24 @@
   "keys_unmapped": 7,
   "links_unresolved": 0,
   "inputs_unimplemented": 1,
-  "surfaces_opaque": 0
+  "surfaces_opaque": 0,
+  "gameplay_lost": 5
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 4,
+   "filter_dangling": 1,
+   "input_unimplemented": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported"
+  },
+  "classes": {
+   "approximated": 13,
+   "ignored": 13,
+   "implemented": 38
+  }
  }
 }

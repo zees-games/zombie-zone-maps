@@ -135,7 +135,57 @@
    "point_spotlight.LightOn",
    "point_teleport.Teleport"
   ],
-  "surfaces_opaque": []
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:func_areaportal (approximated)",
+   "class_unsupported:func_clip_vphysics (approximated)",
+   "class_unsupported:func_useableladder (approximated)",
+   "class_unsupported:info_target (approximated)",
+   "class_unsupported:info_teleport_destination (approximated)",
+   "class_unsupported:item_battery (approximated)",
+   "class_unsupported:item_healthkit (approximated)",
+   "class_unsupported:keyframe_rope (approximated)",
+   "class_unsupported:move_rope (approximated)",
+   "class_unsupported:path_track (ignored)",
+   "class_unsupported:phys_magnet (approximated)",
+   "class_unsupported:phys_thruster (approximated)",
+   "class_unsupported:point_teleport (approximated)",
+   "class_unsupported:prop_vehicle_airboat (approximated)",
+   "class_unsupported:prop_vehicle_prisoner_pod (approximated)",
+   "input_unimplemented:env_physexplosion.Explode",
+   "input_unimplemented:func_areaportal.Close",
+   "input_unimplemented:func_areaportal.Open",
+   "input_unimplemented:lua_run.RunCode",
+   "input_unimplemented:lua_run.RunPassedCode",
+   "input_unimplemented:phys_thruster.Activate",
+   "input_unimplemented:phys_thruster.Deactivate",
+   "input_unimplemented:point_spotlight.LightOff",
+   "input_unimplemented:point_spotlight.LightOn",
+   "input_unimplemented:point_teleport.Teleport",
+   "player_input:addoutput targetname x2",
+   "volume_key_unread:trigger_hurt.damagecap=-1000",
+   "volume_key_unread:trigger_hurt.damagecap=50",
+   "volume_key_unread:trigger_hurt.nodmgforce=1",
+   "volume_parented:trigger_hurt#1198 -> door_gauche_grotte_rouge",
+   "volume_parented:trigger_hurt#1240 -> door_droite_entree2_bleu",
+   "volume_parented:trigger_hurt#1241 -> door_gauche_entree2_bleu",
+   "volume_parented:trigger_hurt#1242 -> door_gauche_entree_bleu",
+   "volume_parented:trigger_hurt#1243 -> door_droite_entree_bleu",
+   "volume_parented:trigger_hurt#1244 -> door_droite_grotte_rouge",
+   "volume_parented:trigger_hurt#1245 -> door_droite_entree_rouge",
+   "volume_parented:trigger_hurt#1246 -> door_gauche_entree_rouge",
+   "volume_parented:trigger_hurt#1266 -> door_droite_entree_vert",
+   "volume_parented:trigger_hurt#1267 -> door_gauche_entree_vert",
+   "volume_parented:trigger_hurt#1268 -> door_droite_entree2_vert",
+   "volume_parented:trigger_hurt#1269 -> door_gauche_entree2_vert",
+   "volume_parented:trigger_hurt#1270 -> door_gauche_entree3_vert",
+   "volume_parented:trigger_hurt#1271 -> door_droite_entree3_vert",
+   "volume_parented:trigger_hurt#1291 -> door_droite_entree2_jaune",
+   "volume_parented:trigger_hurt#1292 -> door_gauche_entree2_jaune",
+   "volume_parented:trigger_hurt#1293 -> door_gauche_entree_jaune",
+   "volume_parented:trigger_hurt#1294 -> door_droite_entree_jaune",
+   "volume_parented:trigger_teleport#842 -> rot_z_grue1"
+  ]
  },
  "counts": {
   "textures_unmapped": 0,
@@ -146,6 +196,30 @@
   "keys_unmapped": 8,
   "links_unresolved": 0,
   "inputs_unimplemented": 10,
-  "surfaces_opaque": 0
+  "surfaces_opaque": 0,
+  "gameplay_lost": 48
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 15,
+   "filter_dangling": 5,
+   "input_unimplemented": 10,
+   "player_input": 1,
+   "volume_key_unread": 3,
+   "volume_parented": 19
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported",
+   "volume_key_unread": "unsupported",
+   "volume_parented": "unsupported"
+  },
+  "classes": {
+   "approximated": 25,
+   "ignored": 8,
+   "implemented": 40
+  }
  }
 }

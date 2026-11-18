@@ -108,6 +108,11 @@
   "surfaces_opaque": [
    "wood/woodtrack001a",
    "wood/woodwall019a"
+  ],
+  "gameplay_lost": [
+   "class_unsupported:logic_waves (approximated)",
+   "class_unsupported:point_zsmessage (approximated)",
+   "input_unimplemented:point_zsmessage.message"
   ]
  },
  "counts": {
@@ -119,6 +124,24 @@
   "keys_unmapped": 16,
   "links_unresolved": 0,
   "inputs_unimplemented": 1,
-  "surfaces_opaque": 2
+  "surfaces_opaque": 2,
+  "gameplay_lost": 3
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 2,
+   "filter_dangling": 1,
+   "input_unimplemented": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported"
+  },
+  "classes": {
+   "approximated": 9,
+   "ignored": 7,
+   "implemented": 33
+  }
  }
 }

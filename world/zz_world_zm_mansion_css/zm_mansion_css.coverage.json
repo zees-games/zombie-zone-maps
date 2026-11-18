@@ -100,7 +100,45 @@
    "point_spotlight.LightOn",
    "trigger_multiple.TouchTest"
   ],
-  "surfaces_opaque": []
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:env_ar2explosion (approximated)",
+   "class_unsupported:env_entity_maker (approximated)",
+   "class_unsupported:env_laser (approximated)",
+   "class_unsupported:func_buyzone (ignored)",
+   "class_unsupported:phys_constraint (approximated)",
+   "class_unsupported:phys_constraintsystem (approximated)",
+   "class_unsupported:phys_thruster (approximated)",
+   "class_unsupported:point_hurt (approximated)",
+   "class_unsupported:point_tesla (approximated)",
+   "class_unsupported:weapon_deagle (approximated)",
+   "input_unimplemented:env_ar2explosion.Explode",
+   "input_unimplemented:env_entity_maker.ForceSpawn",
+   "input_unimplemented:env_texturetoggle.SetTextureIndex",
+   "input_unimplemented:phys_thruster.Activate",
+   "input_unimplemented:point_camera.SetOnAndTurnOthersOff",
+   "input_unimplemented:point_hurt.Hurt",
+   "input_unimplemented:point_spotlight.LightOff",
+   "input_unimplemented:point_spotlight.LightOn",
+   "input_unimplemented:trigger_multiple.TouchTest",
+   "player_input:addoutput health x1",
+   "player_input:addoutput targetname x1",
+   "player_input:color x2",
+   "player_input:setdamagefilter x2",
+   "volume_key_unread:trigger_hurt.damagecap=200",
+   "volume_key_unread:trigger_hurt.damagecap=2000",
+   "volume_key_unread:trigger_hurt.damagecap=20000",
+   "volume_key_unread:trigger_hurt.damagecap=250",
+   "volume_parented:trigger_hurt#14 -> gatlingbullet",
+   "volume_parented:trigger_hurt#565 -> Freezephysic",
+   "volume_parented:trigger_hurt#574 -> vip",
+   "volume_parented:trigger_hurt#586 -> teslagun",
+   "volume_parented:trigger_hurt#587 -> teslagun",
+   "volume_parented:trigger_hurt#588 -> teslagun",
+   "volume_parented:trigger_hurt#637 -> motosierra",
+   "volume_parented:trigger_multiple#571 -> vip",
+   "volume_parented:trigger_push#648 -> motosierra"
+  ]
  },
  "counts": {
   "textures_unmapped": 0,
@@ -111,6 +149,32 @@
   "keys_unmapped": 6,
   "links_unresolved": 11,
   "inputs_unimplemented": 9,
-  "surfaces_opaque": 0
+  "surfaces_opaque": 0,
+  "gameplay_lost": 36
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 10,
+   "filter_dangling": 6,
+   "input_unimplemented": 9,
+   "player_input": 4,
+   "target_dangling": 32,
+   "volume_key_unread": 4,
+   "volume_parented": 9
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported",
+   "target_dangling": "source",
+   "volume_key_unread": "unsupported",
+   "volume_parented": "unsupported"
+  },
+  "classes": {
+   "approximated": 20,
+   "ignored": 3,
+   "implemented": 50
+  }
  }
 }

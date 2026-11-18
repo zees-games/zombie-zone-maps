@@ -60,7 +60,13 @@
    "prop_physics_multiplayer.OnPlayerUse->"
   ],
   "inputs_unimplemented": [],
-  "surfaces_opaque": []
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:func_bomb_target (ignored)",
+   "class_unsupported:func_buyzone (ignored)",
+   "class_unsupported:func_clip_vphysics (ignored)",
+   "class_unsupported:path_track (approximated)"
+  ]
  },
  "counts": {
   "textures_unmapped": 0,
@@ -71,6 +77,22 @@
   "keys_unmapped": 0,
   "links_unresolved": 2,
   "inputs_unimplemented": 0,
-  "surfaces_opaque": 0
+  "surfaces_opaque": 0,
+  "gameplay_lost": 4
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 4,
+   "target_dangling": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "target_dangling": "source"
+  },
+  "classes": {
+   "approximated": 3,
+   "ignored": 3,
+   "implemented": 23
+  }
  }
 }

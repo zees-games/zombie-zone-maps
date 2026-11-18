@@ -81,7 +81,19 @@
    "point_servercommand.Command",
    "prop_dynamic.Break"
   ],
-  "surfaces_opaque": []
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:env_fire (approximated)",
+   "class_unsupported:func_buyzone (ignored)",
+   "class_unsupported:path_track (approximated)",
+   "class_unsupported:player_speedmod (approximated)",
+   "class_unsupported:point_viewcontrol (ignored)",
+   "input_unimplemented:env_splash.Splash",
+   "input_unimplemented:player_speedmod.ModifySpeed",
+   "input_unimplemented:point_servercommand.Command",
+   "input_unimplemented:prop_dynamic.Break",
+   "volume_parented:trigger_push#96 -> jackpistol"
+  ]
  },
  "counts": {
   "textures_unmapped": 0,
@@ -92,6 +104,26 @@
   "keys_unmapped": 3,
   "links_unresolved": 0,
   "inputs_unimplemented": 4,
-  "surfaces_opaque": 0
+  "surfaces_opaque": 0,
+  "gameplay_lost": 10
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 5,
+   "filter_dangling": 1,
+   "input_unimplemented": 4,
+   "volume_parented": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "filter_dangling": "source",
+   "input_unimplemented": "unsupported",
+   "volume_parented": "unsupported"
+  },
+  "classes": {
+   "approximated": 8,
+   "ignored": 4,
+   "implemented": 44
+  }
  }
 }

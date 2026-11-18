@@ -194,6 +194,25 @@
    "boreas/props/mainelevatormonitor_additive",
    "boreas/props/siloelevatormonitor_additive",
    "boreas/vehicle/metaltrainglass001a"
+  ],
+  "gameplay_lost": [
+   "class_unsupported:env_entity_dissolver (approximated)",
+   "class_unsupported:func_areaportalwindow (approximated)",
+   "class_unsupported:info_target (approximated)",
+   "class_unsupported:path_track (approximated)",
+   "class_unsupported:point_push (approximated)",
+   "class_unsupported:trigger_vphysics_motion (approximated)",
+   "input_unimplemented:env_entity_dissolver.Dissolve",
+   "input_unimplemented:env_physexplosion.Explode",
+   "input_unimplemented:env_shake.Amplitude",
+   "input_unimplemented:func_areaportalwindow.SetFadeEndDistance",
+   "input_unimplemented:func_areaportalwindow.SetFadeStartDistance",
+   "input_unimplemented:func_rotating.Alpha",
+   "input_unimplemented:info_target.Alpha",
+   "input_unimplemented:lua_run.RunCode",
+   "input_unimplemented:prop_dynamic.SetPlaybackRate",
+   "player_input:setfogcontroller x2",
+   "volume_parented:trigger_hurt#3260 -> funicular"
   ]
  },
  "counts": {
@@ -205,6 +224,29 @@
   "keys_unmapped": 7,
   "links_unresolved": 3,
   "inputs_unimplemented": 9,
-  "surfaces_opaque": 4
+  "surfaces_opaque": 4,
+  "gameplay_lost": 17
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 6,
+   "input_unimplemented": 9,
+   "player_input": 1,
+   "target_dangling": 5,
+   "volume_parented": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "input_unimplemented": "unsupported",
+   "player_input": "unsupported",
+   "target_dangling": "source",
+   "volume_parented": "unsupported"
+  },
+  "classes": {
+   "approximated": 13,
+   "ignored": 6,
+   "implemented": 48,
+   "unknown": 1
+  }
  }
 }

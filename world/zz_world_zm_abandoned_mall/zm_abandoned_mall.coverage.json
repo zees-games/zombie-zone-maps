@@ -69,7 +69,8 @@
   "inputs_unimplemented": [],
   "surfaces_opaque": [
    "zs_plaza/forlease"
-  ]
+  ],
+  "gameplay_lost": []
  },
  "counts": {
   "textures_unmapped": 0,
@@ -80,6 +81,20 @@
   "keys_unmapped": 4,
   "links_unresolved": 0,
   "inputs_unimplemented": 0,
-  "surfaces_opaque": 1
+  "surfaces_opaque": 1,
+  "gameplay_lost": 0
+ },
+ "gameplay": {
+  "findings": {
+   "filter_dangling": 1
+  },
+  "severity": {
+   "filter_dangling": "source"
+  },
+  "classes": {
+   "approximated": 1,
+   "ignored": 2,
+   "implemented": 36
+  }
  }
 }

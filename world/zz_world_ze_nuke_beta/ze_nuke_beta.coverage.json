@@ -56,6 +56,9 @@
   "surfaces_opaque": [
    "building_template/building_trainstation_window001a",
    "de_nuke/nuknotice"
+  ],
+  "gameplay_lost": [
+   "class_unsupported:func_buyzone (ignored)"
   ]
  },
  "counts": {
@@ -67,6 +70,19 @@
   "keys_unmapped": 0,
   "links_unresolved": 0,
   "inputs_unimplemented": 0,
-  "surfaces_opaque": 2
+  "surfaces_opaque": 2,
+  "gameplay_lost": 1
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported"
+  },
+  "classes": {
+   "ignored": 1,
+   "implemented": 30
+  }
  }
 }

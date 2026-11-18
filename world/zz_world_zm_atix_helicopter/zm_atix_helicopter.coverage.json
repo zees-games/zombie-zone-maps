@@ -76,6 +76,14 @@
    "de_tides/tiddecclosed",
    "wood/wooddoor007b",
    "wood/wooddoor048b"
+  ],
+  "gameplay_lost": [
+   "class_unsupported:func_buyzone (ignored)",
+   "class_unsupported:path_track (approximated)",
+   "class_unsupported:point_viewcontrol (ignored)",
+   "input_unimplemented:env_hudhint.ShowHudHint",
+   "input_unimplemented:path_track.Lock",
+   "input_unimplemented:path_track.Unlock"
   ]
  },
  "counts": {
@@ -87,6 +95,26 @@
   "keys_unmapped": 2,
   "links_unresolved": 1,
   "inputs_unimplemented": 3,
-  "surfaces_opaque": 3
+  "surfaces_opaque": 3,
+  "gameplay_lost": 6
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 3,
+   "input_unimplemented": 3,
+   "parent_dangling": 1,
+   "target_dangling": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "input_unimplemented": "unsupported",
+   "parent_dangling": "source",
+   "target_dangling": "source"
+  },
+  "classes": {
+   "approximated": 5,
+   "ignored": 5,
+   "implemented": 44
+  }
  }
 }

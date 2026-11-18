@@ -88,7 +88,12 @@
   ],
   "links_unresolved": [],
   "inputs_unimplemented": [],
-  "surfaces_opaque": []
+  "surfaces_opaque": [],
+  "gameplay_lost": [
+   "class_unsupported:logic_waves (approximated)",
+   "player_input:addoutput targetname x2",
+   "volume_key_unread:trigger_hurt.damagecap=50"
+  ]
  },
  "counts": {
   "textures_unmapped": 0,
@@ -99,6 +104,26 @@
   "keys_unmapped": 9,
   "links_unresolved": 0,
   "inputs_unimplemented": 0,
-  "surfaces_opaque": 0
+  "surfaces_opaque": 0,
+  "gameplay_lost": 3
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 1,
+   "parent_dangling": 3,
+   "player_input": 1,
+   "volume_key_unread": 1
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "parent_dangling": "source",
+   "player_input": "unsupported",
+   "volume_key_unread": "unsupported"
+  },
+  "classes": {
+   "approximated": 4,
+   "ignored": 7,
+   "implemented": 37
+  }
  }
 }

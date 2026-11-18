@@ -80,6 +80,11 @@
   ],
   "surfaces_opaque": [
    "wood/woodwall019a"
+  ],
+  "gameplay_lost": [
+   "class_unsupported:logic_waves (approximated)",
+   "input_unimplemented:env_physexplosion.Explode",
+   "input_unimplemented:prop_physics_override.SetDamageFilter"
   ]
  },
  "counts": {
@@ -91,6 +96,22 @@
   "keys_unmapped": 4,
   "links_unresolved": 0,
   "inputs_unimplemented": 2,
-  "surfaces_opaque": 1
+  "surfaces_opaque": 1,
+  "gameplay_lost": 3
+ },
+ "gameplay": {
+  "findings": {
+   "class_unsupported": 1,
+   "input_unimplemented": 2
+  },
+  "severity": {
+   "class_unsupported": "unsupported",
+   "input_unimplemented": "unsupported"
+  },
+  "classes": {
+   "approximated": 8,
+   "ignored": 6,
+   "implemented": 35
+  }
  }
 }
