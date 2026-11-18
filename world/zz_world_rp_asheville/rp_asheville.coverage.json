@@ -366,8 +366,6 @@
    "class_unsupported:point_message (approximated)",
    "input_unimplemented:env_physexplosion.Explode",
    "input_unimplemented:phys_thruster.Activate",
-   "volume_key_unread:trigger_hurt.damagecap=5",
-   "volume_key_unread:trigger_hurt.damagecap=65535",
    "volume_parented:trigger_hurt#6521 -> c_expos_1st_train",
    "volume_parented:trigger_hurt#6554 -> c_expos_2nd_train"
   ]
@@ -382,19 +380,17 @@
   "links_unresolved": 1,
   "inputs_unimplemented": 2,
   "surfaces_opaque": 0,
-  "gameplay_lost": 10
+  "gameplay_lost": 8
  },
  "gameplay": {
   "findings": {
    "class_unsupported": 4,
    "input_unimplemented": 2,
-   "volume_key_unread": 2,
    "volume_parented": 2
   },
   "severity": {
    "class_unsupported": "unsupported",
    "input_unimplemented": "unsupported",
-   "volume_key_unread": "unsupported",
    "volume_parented": "unsupported"
   },
   "classes": {

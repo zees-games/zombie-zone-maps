@@ -125,10 +125,6 @@
    "player_input:addoutput targetname x1",
    "player_input:color x2",
    "player_input:setdamagefilter x2",
-   "volume_key_unread:trigger_hurt.damagecap=200",
-   "volume_key_unread:trigger_hurt.damagecap=2000",
-   "volume_key_unread:trigger_hurt.damagecap=20000",
-   "volume_key_unread:trigger_hurt.damagecap=250",
    "volume_parented:trigger_hurt#14 -> gatlingbullet",
    "volume_parented:trigger_hurt#565 -> Freezephysic",
    "volume_parented:trigger_hurt#574 -> vip",
@@ -150,7 +146,7 @@
   "links_unresolved": 11,
   "inputs_unimplemented": 9,
   "surfaces_opaque": 0,
-  "gameplay_lost": 36
+  "gameplay_lost": 32
  },
  "gameplay": {
   "findings": {
@@ -159,7 +155,6 @@
    "input_unimplemented": 9,
    "player_input": 4,
    "target_dangling": 32,
-   "volume_key_unread": 4,
    "volume_parented": 9
   },
   "severity": {
@@ -168,7 +163,6 @@
    "input_unimplemented": "unsupported",
    "player_input": "unsupported",
    "target_dangling": "source",
-   "volume_key_unread": "unsupported",
    "volume_parented": "unsupported"
   },
   "classes": {

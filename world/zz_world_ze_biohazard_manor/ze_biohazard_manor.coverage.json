@@ -82,8 +82,6 @@
    "input_unimplemented:point_spotlight.LightOn",
    "player_input:ignitelifetime x1",
    "volume_key_unread:func_water_analog.movedistance=249",
-   "volume_key_unread:trigger_hurt.damagecap=-20",
-   "volume_key_unread:trigger_hurt.damagecap=4",
    "volume_parented:trigger_hurt#1395 -> firegun",
    "volume_parented:trigger_teleport#532 -> s_1"
   ]
@@ -98,14 +96,14 @@
   "links_unresolved": 0,
   "inputs_unimplemented": 4,
   "surfaces_opaque": 5,
-  "gameplay_lost": 13
+  "gameplay_lost": 11
  },
  "gameplay": {
   "findings": {
    "class_unsupported": 3,
    "input_unimplemented": 4,
    "player_input": 1,
-   "volume_key_unread": 3,
+   "volume_key_unread": 1,
    "volume_parented": 2
   },
   "severity": {

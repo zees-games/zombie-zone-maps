@@ -765,7 +765,6 @@
    "input_unimplemented:point_teleport.Teleport",
    "input_unimplemented:prop_dynamic.SetAnimationNoReset",
    "player_input:setfogcontroller x3",
-   "volume_key_unread:trigger_hurt.damagecap=10000",
    "volume_parented:trigger_hurt#3050 -> LTrain",
    "volume_parented:trigger_multiple#3051 -> LTrain"
   ]
@@ -780,21 +779,19 @@
   "links_unresolved": 0,
   "inputs_unimplemented": 14,
   "surfaces_opaque": 7,
-  "gameplay_lost": 22
+  "gameplay_lost": 21
  },
  "gameplay": {
   "findings": {
    "class_unsupported": 4,
    "input_unimplemented": 14,
    "player_input": 1,
-   "volume_key_unread": 1,
    "volume_parented": 2
   },
   "severity": {
    "class_unsupported": "unsupported",
    "input_unimplemented": "unsupported",
    "player_input": "unsupported",
-   "volume_key_unread": "unsupported",
    "volume_parented": "unsupported"
   },
   "classes": {

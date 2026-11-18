@@ -73,8 +73,7 @@
    "class_unsupported:path_track (approximated)",
    "class_unsupported:point_viewcontrol (ignored)",
    "input_unimplemented:path_track.DisableAlternatePath",
-   "input_unimplemented:path_track.EnableAlternatePath",
-   "volume_key_unread:trigger_hurt.damagecap=1500"
+   "input_unimplemented:path_track.EnableAlternatePath"
   ]
  },
  "counts": {
@@ -87,20 +86,18 @@
   "links_unresolved": 4,
   "inputs_unimplemented": 2,
   "surfaces_opaque": 0,
-  "gameplay_lost": 6
+  "gameplay_lost": 5
  },
  "gameplay": {
   "findings": {
    "class_unsupported": 3,
    "input_unimplemented": 2,
-   "target_dangling": 4,
-   "volume_key_unread": 1
+   "target_dangling": 4
   },
   "severity": {
    "class_unsupported": "unsupported",
    "input_unimplemented": "unsupported",
-   "target_dangling": "source",
-   "volume_key_unread": "unsupported"
+   "target_dangling": "source"
   },
   "classes": {
    "approximated": 6,
