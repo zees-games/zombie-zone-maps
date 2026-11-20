@@ -1,3 +1,5 @@
+![Zombie Zone Maps banner](https://raw.githubusercontent.com/zees-games/zombie-zone-maps/main/docs/banner.png)
+
 The maps for [game-zombie-zone](https://github.com/zees-games/game-zombie-zone), a zombie survival game. Nine maps of our own: a three-map exodus called *Blackout* (corner shop, container depot, pier) and six survival maps. 42 more are converted from community maps.
 
 A map is a JSON document, not a scene. The server reads the documents in its map directory and sends the current map to every client, so players need no map files. To add a map, drop one file in the directory. The format is in [maps/README.md](maps/README.md).
