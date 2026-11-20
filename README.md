@@ -99,6 +99,10 @@ python3 -P tools/import_bsp.py tools/bsp/<id>.json <file.bsp>
 
 The spec in `tools/bsp/` names the author, source page, licence and mode. The `.bsp` is not committed; download it from the page in the spec. Per-map notes are in [docs/import-notes.md](docs/import-notes.md).
 
+## Quality and ongoing improvement
+
+The maps, models, textures and sounds in this pack are being improved over time, and some of them are low quality today. Improvement is driven by the Nightly queue, a work queue where agents pick up items, and by a visual judge loop that views rendered frames and files defects until each asset passes repeated clean reviews. Known defects are filed there and fixed in later releases, and the screenshots here are regenerated as the assets improve.
+
 ## Licence
 
 MIT, see [LICENSE](LICENSE). The cars, street furniture, crates, gravestones, furniture, trees and shop fittings the maps use are Kenney's CC0 kits and live in game-zombie-zone. The converted maps keep the licences listed above.
