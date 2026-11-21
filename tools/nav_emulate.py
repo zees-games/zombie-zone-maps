@@ -2,7 +2,7 @@
 the game will reach before the game is run.
 
 game-zombie-zone's `ZzNpcs.nav_for` hands each nav floor and each solid box to dot-npc's
-`DotNpcNavBuilder`: a point every `spacing` metres inside a floor rectangle (the first half a
+`GSNpcNavBuilder`: a point every `spacing` metres inside a floor rectangle (the first half a
 spacing in), dropped when it is within `clearance` of an obstacle, two points within half a spacing
 at the same height are one, and two points within one and a half spacings join unless a sample
 half a spacing along the line is inside an obstacle. A doorway a metre wide has no point in it, so
@@ -66,7 +66,7 @@ def under_feet_for(boxes, props, sizes, floors, spacing=1.0, clearance=0.35, ter
 class Graph:
     def __init__(self, boxes, props, sizes, floors, spacing=1.0, clearance=0.35, terrain_pts=(), slope=1.0, under_feet=None, solid_props=()):
         """`terrain_pts`: the terrain's walk points (dotbsp.terrain.walk_points), joined by `slope`
-        rise per metre as DotNpcNavBuilder.add_points joins them."""
+        rise per metre as GSNpcNavBuilder.add_points joins them."""
         self.spacing, self.clearance = spacing, clearance
         obs = []
         by_top = _floors_by_top(floors)

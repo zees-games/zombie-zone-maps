@@ -14,7 +14,7 @@ The field is a mood name (a string) or an object, read by game-zombie-zone's ZzA
 `extra` adds another mood's one-shots to this map's own. Where it comes from, first hit wins: the
 spec's `"ambient"` (tools/bsp/<id>.json), `HAND` below for the hand-built maps, else the keyword vote
 of the converted world's soundscape and ambient_generic names. The vote is dot-audio's own
-`DotAmbienceMoods.KEYWORDS`, read from its source so the two cannot drift.
+`GSAmbienceMoods.KEYWORDS`, read from its source so the two cannot drift.
 """
 import glob
 import json
@@ -50,7 +50,7 @@ def _gd_path():
 
 
 def keywords():
-    """[(mood, [word, ...])] in dot-audio's tie-break order, from DotAmbienceMoods.KEYWORDS."""
+    """[(mood, [word, ...])] in dot-audio's tie-break order, from GSAmbienceMoods.KEYWORDS."""
     src = open(_gd_path()).read()
     body = src.split("const KEYWORDS := [", 1)[1].split("\n]\n", 1)[0]
     table = []
@@ -61,7 +61,7 @@ def keywords():
 
 
 def vote(names, table=None):
-    """The mood most of `names` point at (dot-audio's DotAmbienceMoods.vote), or ''."""
+    """The mood most of `names` point at (dot-audio's GSAmbienceMoods.vote), or ''."""
     table = table or keywords()
     tally = {}
     for raw in names:
@@ -77,7 +77,7 @@ def vote(names, table=None):
 
 
 def names_in(sounds):
-    """Soundscape names, and the message and stand-in of each ambient sound (DotAmbienceMoods.names_in)."""
+    """Soundscape names, and the message and stand-in of each ambient sound (GSAmbienceMoods.names_in)."""
     out = [str(r.get("soundscape", "")) for r in sounds.get("soundscapes", []) if isinstance(r, dict)]
     for r in sounds.get("ambient", []):
         if isinstance(r, dict):
