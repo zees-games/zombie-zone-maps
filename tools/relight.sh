@@ -3,7 +3,7 @@
 #   tools/relight.sh [--water] [--check] [id ...]    (--check writes nothing and fails when a document would change; all of ship.tsv without ids)
 #   --water refreshes only `water` instead (import_bsp's --water-only).
 HERE="$(cd "$(dirname "$0")" && pwd)"
-STORE="${DOTBSP_STORE:-$HOME/mapsrc/store}"
+STORE="${GSBSP_STORE:-$HOME/mapsrc/store}"
 DOCS="${ZZ_DOCS:-$HERE/../maps}"
 what=lights; rm -f "${TMPDIR:-/tmp}/relight.rc"
 [ "$1" = "--water" ] && { what=water; shift; }

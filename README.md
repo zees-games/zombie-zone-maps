@@ -6,7 +6,7 @@ A map is a JSON document, not a scene. The server reads the documents in its map
 
 ## Using it
 
-[dot-bootstrap](https://github.com/gamespice-platform/bootstrap) clones this repository next to game-zombie-zone and links it in as `maps/`. Run `./game.sh` in game-zombie-zone and these maps are there. On a server they are a separate pack, and the server owner names it in the map config.
+[gs-bootstrap](https://github.com/gamespice-platform/bootstrap) clones this repository next to game-zombie-zone and links it in as `maps/`. Run `./game.sh` in game-zombie-zone and these maps are there. On a server they are a separate pack, and the server owner names it in the map config.
 
 ## Our maps
 
@@ -93,7 +93,7 @@ The JSON is committed and CI runs `--check`, so a hand edit to a built map is ca
 
 Game-zombie-zone's `examples/headless_maps.tscn` checks every map: it fits on the wire, props are known, spawns have floor, items can be picked up, the zombies' ground reaches every objective, and survival maps have spawns, posts and caches. `examples/headless_survival.tscn` plays each big survival map for a wave.
 
-Converted maps come from `tools/import_bsp.py`, which reads a Source 1 `.bsp` through dot-map-convert (cloned beside this repository, or set `DOTBSP_PATH`):
+Converted maps come from `tools/import_bsp.py`, which reads a Source 1 `.bsp` through gs-map-convert (cloned beside this repository, or set `GSBSP_PATH`):
 
 ```bash
 python3 -P tools/import_bsp.py tools/bsp/<id>.json <file.bsp>

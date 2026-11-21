@@ -13,7 +13,7 @@ The field is a mood name (a string) or an object, read by game-zombie-zone's ZzA
 `volume` and `frequency` scale the player's and server's settings for this map (0.25 to 2, 0 to 4),
 `extra` adds another mood's one-shots to this map's own. Where it comes from, first hit wins: the
 spec's `"ambient"` (tools/bsp/<id>.json), `HAND` below for the hand-built maps, else the keyword vote
-of the converted world's soundscape and ambient_generic names. The vote is dot-audio's own
+of the converted world's soundscape and ambient_generic names. The vote is gs-audio's own
 `GSAmbienceMoods.KEYWORDS`, read from its source so the two cannot drift.
 """
 import glob
@@ -42,15 +42,15 @@ HAND = {
 
 
 def _gd_path():
-    for p in (os.environ.get("DOTAUDIO_PATH", ""), os.path.join(ROOT, "..", "dot-audio")):
-        f = os.path.join(p, "addons", "dot_audio", "core", "dot_ambience_moods.gd") if p else ""
+    for p in (os.environ.get("DOTAUDIO_PATH", ""), os.path.join(ROOT, "..", "gs-audio")):
+        f = os.path.join(p, "addons", "gs_audio", "core", "gs_ambience_moods.gd") if p else ""
         if os.path.isfile(f):
             return f
-    sys.exit("ambient: dot-audio was not found beside this repository; set DOTAUDIO_PATH")
+    sys.exit("ambient: gs-audio was not found beside this repository; set DOTAUDIO_PATH")
 
 
 def keywords():
-    """[(mood, [word, ...])] in dot-audio's tie-break order, from GSAmbienceMoods.KEYWORDS."""
+    """[(mood, [word, ...])] in gs-audio's tie-break order, from GSAmbienceMoods.KEYWORDS."""
     src = open(_gd_path()).read()
     body = src.split("const KEYWORDS := [", 1)[1].split("\n]\n", 1)[0]
     table = []
@@ -61,7 +61,7 @@ def keywords():
 
 
 def vote(names, table=None):
-    """The mood most of `names` point at (dot-audio's GSAmbienceMoods.vote), or ''."""
+    """The mood most of `names` point at (gs-audio's GSAmbienceMoods.vote), or ''."""
     table = table or keywords()
     tally = {}
     for raw in names:

@@ -3,7 +3,7 @@
 # (tools/bsp/<id>.json, written by tools/auto_spec.py when nobody tuned one). Run tools/ship_worlds.sh first so the document names its world.
 #   tools/ship_docs.sh [id ...]
 HERE="$(cd "$(dirname "$0")" && pwd)"
-STORE="${DOTBSP_STORE:-$HOME/mapsrc/store}"
+STORE="${GSBSP_STORE:-$HOME/mapsrc/store}"
 grep -v '^#' "$HERE/convert/ship.tsv" | while IFS=$'\t' read -r id key; do
     [ $# -gt 0 ] && [[ " $* " != *" $id "* ]] && continue
     grep -q "^$key " "$HERE/convert/excluded.txt" && continue

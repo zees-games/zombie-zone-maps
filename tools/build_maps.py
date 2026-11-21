@@ -1622,7 +1622,7 @@ PLANS = (blackout_1, blackout_2, blackout_3, lot, chapel, high_school, mall, sta
 
 # --- Toys -----------------------------------------------------------------------------------
 #
-# dot-props' toys (game-zombie-zone builds them from the document's `toys`, both ends, in this
+# gs-props' toys (game-zombie-zone builds them from the document's `toys`, both ends, in this
 # order). **Loose ones only**: barrels, tyres, balls, a bowling set. A survivor and a zombie walk
 # through a loose toy and a survivor's walk or shot sends it on; a fixed one (a see-saw, a
 # trampoline) would stand on the zombies' ground, which the nav floors do not know about, and
@@ -1689,7 +1689,7 @@ def settle_toys(doc, hints):
     keep_off = [sp["at"] for sp in doc["spawns"].get("survivors", [])] + [it["at"] for it in doc.get("items", []) if "at" in it]
     ground = None
     if "terrain" in doc:
-        from dotbsp import terrain   # on the path whenever a converter wrote a terrain (import_bsp)
+        from gsbsp import terrain   # on the path whenever a converter wrote a terrain (import_bsp)
         ground = terrain.Heightfield.decode(doc["terrain"])[0]
     placed, out = [], []
     for h in hints:

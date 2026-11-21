@@ -3,7 +3,7 @@
 #   tools/ship_worlds.sh [outdir]   (default world/); SHIP_IDS="id id" limits it to those rows
 HERE="$(cd "$(dirname "$0")" && pwd)"
 OUT="${1:-$HERE/../world}"
-BSP="${DOTBSP_PATH:-$HERE/../../dot-map-convert}"
+BSP="${GSBSP_PATH:-$HERE/../../gs-map-convert}"
 grep -v '^#' "$HERE/convert/ship.tsv" | while IFS=$'\t' read -r id key; do
     [ -n "$SHIP_IDS" ] && [[ " $SHIP_IDS " != *" $id "* ]] && continue
     grep -q "^$key " "$HERE/convert/excluded.txt" && { echo "$id excluded"; continue; }
@@ -12,8 +12,8 @@ grep -v '^#' "$HERE/convert/ship.tsv" | while IFS=$'\t' read -r id key; do
     y0=$(python3 -P -c 'import json,sys; print(json.load(open(sys.argv[1])).get("y0",""))' "$HERE/bsp/$id.json" 2>/dev/null)
     [ -n "$y0" ] && args+=(--y0 "$y0")
     if grep -q '"world_crop"' "$HERE/bsp/$id.json" 2>/dev/null; then    # drawn faces cropped to the street: regen cannot
-        h="$(python3 -P -c "import json,sys;print(json.load(open(sys.argv[1]))[sys.argv[2]])" "${DOTBSP_STORE:-$HOME/mapsrc/store}/index.json" "$key")"
-        python3 -P "$HERE/build_worlds.py" "$HERE/bsp/$id.json" "${DOTBSP_STORE:-$HOME/mapsrc/store}/$h/source.bsp" "$OUT" > "$d/regen.log" 2>&1
+        h="$(python3 -P -c "import json,sys;print(json.load(open(sys.argv[1]))[sys.argv[2]])" "${GSBSP_STORE:-$HOME/mapsrc/store}/index.json" "$key")"
+        python3 -P "$HERE/build_worlds.py" "$HERE/bsp/$id.json" "${GSBSP_STORE:-$HOME/mapsrc/store}/$h/source.bsp" "$OUT" > "$d/regen.log" 2>&1
     else
     python3 -P "$BSP/bsp.py" regen "$key" --out "$d/$id" "${args[@]}" > "$d/regen.log" 2>&1
     fi

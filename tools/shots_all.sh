@@ -7,7 +7,7 @@ SRC="$1"; OUT="$2"; mkdir -p "$OUT"
 for d in "$SRC"/zz_world_*/; do
     id="$(basename "$d")"; id="${id#zz_world_}"
     for v in spawn overview; do
-        GPU_OFFLOAD=0 "$HERE/../../dot-map/tools/screenshot.sh" "$d/$id" "$OUT/${id}_$v.png" --view=$v > "$OUT/${id}_$v.log" 2>&1
+        GPU_OFFLOAD=0 "$HERE/../../gs-map/tools/screenshot.sh" "$d/$id" "$OUT/${id}_$v.png" --view=$v > "$OUT/${id}_$v.log" 2>&1
     done
 done
 for v in spawn overview; do

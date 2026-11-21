@@ -1,13 +1,13 @@
 """The zombies' graph, worked out the way game-zombie-zone builds it, so the importer can say what
 the game will reach before the game is run.
 
-game-zombie-zone's `ZzNpcs.nav_for` hands each nav floor and each solid box to dot-npc's
+game-zombie-zone's `ZzNpcs.nav_for` hands each nav floor and each solid box to gs-npc's
 `GSNpcNavBuilder`: a point every `spacing` metres inside a floor rectangle (the first half a
 spacing in), dropped when it is within `clearance` of an obstacle, two points within half a spacing
 at the same height are one, and two points within one and a half spacings join unless a sample
 half a spacing along the line is inside an obstacle. A doorway a metre wide has no point in it, so
 the room behind it is an island whatever a cell flood over the same boxes says. This is that
-algorithm, in Python, with the same numbers; keep it in step with dot_npc_nav_builder.gd.
+algorithm, in Python, with the same numbers; keep it in step with gs_npc_nav_builder.gd.
 """
 
 import math
@@ -65,7 +65,7 @@ def under_feet_for(boxes, props, sizes, floors, spacing=1.0, clearance=0.35, ter
 
 class Graph:
     def __init__(self, boxes, props, sizes, floors, spacing=1.0, clearance=0.35, terrain_pts=(), slope=1.0, under_feet=None, solid_props=()):
-        """`terrain_pts`: the terrain's walk points (dotbsp.terrain.walk_points), joined by `slope`
+        """`terrain_pts`: the terrain's walk points (gsbsp.terrain.walk_points), joined by `slope`
         rise per metre as GSNpcNavBuilder.add_points joins them."""
         self.spacing, self.clearance = spacing, clearance
         obs = []

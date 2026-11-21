@@ -1,12 +1,12 @@
 #!/bin/bash
-# The walk test: every shipped document (or the ids given) against its source map, by dot-map's `bsp.py audit --doc`.
+# The walk test: every shipped document (or the ids given) against its source map, by gs-map's `bsp.py audit --doc`.
 # Fails when a player-solid brush the global world draws, or ground under a standable top, is missing from the boxes.
 #   tools/walk_check.sh [id ...]        (logs in ${TMPDIR:-/tmp}/walk-<id>.log)
 HERE="$(cd "$(dirname "$0")" && pwd)"
-STORE="${DOTBSP_STORE:-$HOME/mapsrc/store}"
+STORE="${GSBSP_STORE:-$HOME/mapsrc/store}"
 DOCS="${ZZ_DOCS:-$HERE/../maps}"     # another folder of documents, e.g. a re-conversion not yet copied in
-BSPPY="${DOTBSP_PATH:-$HERE/../../dot-map-convert}/bsp.py"
-[ -f "$BSPPY" ] || { echo "walk_check: dot-map-convert was not found; set DOTBSP_PATH" >&2; exit 2; }
+BSPPY="${GSBSP_PATH:-$HERE/../../gs-map-convert}/bsp.py"
+[ -f "$BSPPY" ] || { echo "walk_check: gs-map-convert was not found; set GSBSP_PATH" >&2; exit 2; }
 fail=0
 while IFS=$'\t' read -r id key; do
     [ $# -gt 0 ] && [[ " $* " != *" $id "* ]] && continue

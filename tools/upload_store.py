@@ -3,7 +3,7 @@ skipping each one the content origin already serves. Called by tools/ship_store.
 STORE_SITE is set; usable alone after a ship_store run in the same checkout.
 
 Slice versions are content hashes (h1234abcd), which tools/publish_pack.sh refuses (it checks semver); the site's pack API
-takes any path-safe version, so this runs dot-cloud's CLI (`dot_cloud_cli.gd publish --upload --resume`) directly on each
+takes any path-safe version, so this runs gs-cloud's CLI (`gs_cloud_cli.gd publish --upload --resume`) directly on each
 slice's source folder under the storepack project. The site signs the manifest. Dependencies go first.
 
   python3 -P tools/upload_store.py --site URL --token-file F --project DIR --dist DIR [--origin URL] [--cloud DIR] world.json...
@@ -26,14 +26,14 @@ def main():
     ap.add_argument("--project", required=True, help="the storepack project (its slices/<name> are the sources)")
     ap.add_argument("--dist", required=True, help="the storepack --dist (the locally signed manifests name each slice's dependencies)")
     ap.add_argument("--origin", default="https://content.gamespice.net", help="the content origin to check first")
-    ap.add_argument("--cloud", default=os.path.expanduser("~/godot/dot-cloud"))
-    ap.add_argument("--bsp", default=os.path.expanduser("~/godot/dot-map-convert"), help="dot-map-convert (for dotbsp.storecheck)")
+    ap.add_argument("--cloud", default=os.path.expanduser("~/godot/gs-cloud"))
+    ap.add_argument("--bsp", default=os.path.expanduser("~/godot/gs-map-convert"), help="gs-map-convert (for gsbsp.storecheck)")
     ap.add_argument("--godot", default=os.environ.get("GODOT", "godot"))
     ap.add_argument("--prefix", default="store-")
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
     sys.path.insert(0, a.bsp)
-    from dotbsp import storecheck
+    from gsbsp import storecheck
 
     order, seen = [], set()
 
@@ -59,7 +59,7 @@ def main():
             visit(s["id"], s["version"])
         visit(pack["id"], pack["version"])
 
-    cli = os.path.join(a.cloud, "addons/dot_cloud/publish/dot_cloud_cli.gd")
+    cli = os.path.join(a.cloud, "addons/gs_cloud/publish/gs_cloud_cli.gd")
     sent = there = failed = 0
     for sid, version, deps in order:
         if storecheck.fetch(sid, version, origin=a.origin) is not None:

@@ -15,8 +15,8 @@
 # The worlds are not pinned anywhere (the game asks for them by key): the lock lines go to a scratch file.
 set -uo pipefail
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-PUB="${GS_CLOUD:-${DOT_CLOUD:-$HERE/../dot-cloud}}/tools/publish_pack.sh"
-[ -x "$PUB" ] || { echo "publish_worlds: dot-cloud is not beside this checkout (set GS_CLOUD)" >&2; exit 2; }
+PUB="${GS_CLOUD:-$HERE/../gs-cloud}/tools/publish_pack.sh"
+[ -x "$PUB" ] || { echo "publish_worlds: gs-cloud is not beside this checkout (set GS_CLOUD)" >&2; exit 2; }
 IDS=(); ARGS=(); VERSION=""
 while [ $# -gt 0 ]; do
     case $1 in
