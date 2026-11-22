@@ -84,5 +84,7 @@
   "walk_band": [-20.0, 4.0],
   "spawn_z_max": 1.9,
   "extra_floors_why": "the back rooms' doors at x 14.48 and z -11.73 have no grid point on their centre line, so the only joins ran beside a jamb where the game's prune body does not fit (post 16.25,-17.75 unreachable): one point each side of each door, on its centre line",
+  "open_sills": true,
+  "clear_barricade_props": 1.8,
   "extra_floors": [[13.6, -16.25, 14.1, -15.75, 0.04], [14.85, -16.25, 15.35, -15.75, 0.04], [12.4, -12.6, 12.9, -12.1, 0.04], [12.4, -11.35, 12.9, -10.85, 0.04]]
 }
