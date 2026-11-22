@@ -21,7 +21,7 @@ while IFS=$'\t' read -r id key; do
     [ -n "$y0" ] && args+=(--y0 "$y0")
     if grep -q '"world_crop"' "$HERE/bsp/$id.json" 2>/dev/null; then    # drawn faces cropped to the street: regen cannot
         h="$(python3 -P -c "import json,sys;print(json.load(open(sys.argv[1]))[sys.argv[2]])" "${GSBSP_STORE:-$HOME/mapsrc/store}/index.json" "$key")"
-        python3 -P "$HERE/build_worlds.py" "$HERE/bsp/$id.json" "${GSBSP_STORE:-$HOME/mapsrc/store}/$h/source.bsp" "$(dirname "$d")" > "${TMPDIR:-/tmp}/regen-$id.log" 2>&1 < /dev/null
+        GS_PBR_STORE="${STORES:-$HERE/../.stores}/pbr-library" GS_MODEL_STORE="${STORES:-$HERE/../.stores}/model-library" python3 -P "$HERE/build_worlds.py" "$HERE/bsp/$id.json" "${GSBSP_STORE:-$HOME/mapsrc/store}/$h/source.bsp" "$(dirname "$d")" > "${TMPDIR:-/tmp}/regen-$id.log" 2>&1 < /dev/null
     else
     python3 -P "$BSP/bsp.py" regen "$key" --out "$d/$id" "${args[@]}" > "${TMPDIR:-/tmp}/regen-$id.log" 2>&1 < /dev/null
     fi
