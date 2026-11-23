@@ -87,7 +87,7 @@ Maps carry no toys, loose props or supports (owner 2026-11-08: physics props bel
 
 ## Weapons the maps name from the second pack
 
-`molotov` and `pipe_bomb` are named as throwables. They are zed-gs-weapons' (the second pack); a server without it draws a random throwable in their place (`ZzLoot.place_from_map`).
+`molotov` and `pipe_bomb` are named as throwables. They are no longer in the modern pack either; a server without a pack that has them draws a random throwable in their place (`ZzLoot.place_from_map`).
 
 ## Publishing
 
