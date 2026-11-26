@@ -28,3 +28,21 @@ jobs:
             - run: python3 tools/build_provides.py --check
               env:
                   GS_MAP_CONVERT_PATH: gs-map-convert-src
+
+    # Every world's art slices are published where a player's client reads them. Red means a world is stamped with a slice the
+    # store does not have (the client then draws plain materials); fix by republishing or restamping (tools/ship_store.sh).
+    store-published:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: actions/checkout@v4
+              with:
+                  repository: gamespice-platform/map-convert
+                  path: gs-map-convert-src
+            - uses: actions/setup-python@v5
+              with:
+                  python-version: '3.12'
+            - run: tools/check_store.sh
+              env:
+                  GSBSP_PATH: gs-map-convert-src
+                  ORIGIN: https://content.gamespice.net
